@@ -62,6 +62,7 @@ public final class AbilityExecutor {
      */
     public static CastResult handleComboInput(ServerPlayerEntity player, AnimeModContext ctx, Identifier token, boolean commit) {
         PlayerPowerComponent power = ctx.power(player);
+        if (commit && power.comboBuffer().isEmpty()) return CastResult.CANCELLED; // already auto-cast
         if (!commit) {
             power.pushComboToken(token);
             AnimationService.play(player, AnimLayer.UPPER_BODY, ctx.comboAnimation(token), AnimPlayback.UPPER_BODY);

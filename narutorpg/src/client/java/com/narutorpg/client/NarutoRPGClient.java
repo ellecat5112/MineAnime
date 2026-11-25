@@ -1,14 +1,20 @@
 package com.narutorpg.client;
 
 import com.animecore.client.input.AnimeKeybinds;
+import com.animecore.movement.MovementMode;
 import com.narutorpg.NarutoRPG;
 import com.narutorpg.content.HandSigns;
 import net.fabricmc.api.ClientModInitializer;
 import org.lwjgl.glfw.GLFW;
 
 /**
- * Phase 1 controls (all under "NarutoRPG" in Controls): R/G/V quick-cast slots, B toggles Sharingan,
- * numpad 1-6 = Tiger, Ram, Snake, Bird, Boar, Horse, numpad 0 = release combo. Phase 2 adds the radial combo wheel.
+ * Controls (all under "NarutoRPG" in Controls; everything rebindable):
+ * <ul>
+ *   <li>R / G / V - jutsu slots 1-3 (hold to charge)</li>
+ *   <li>Z (hold) - hand-sign wheel; numpad 1-6 + numpad 0 as a keyboard alternative</li>
+ *   <li>B - toggle Sharingan, N / M - next / previous stage</li>
+ *   <li>J - chakra control (tree &amp; water walking), Left Alt - Body Flicker (Shunshin)</li>
+ * </ul>
  */
 public final class NarutoRPGClient implements ClientModInitializer {
     private static final int[] SLOT_KEYS = {GLFW.GLFW_KEY_R, GLFW.GLFW_KEY_G, GLFW.GLFW_KEY_V};
@@ -17,9 +23,15 @@ public final class NarutoRPGClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        for (int slot = 0; slot < SLOT_KEYS.length; slot++) AnimeKeybinds.hotbarSlot(NarutoRPG.CTX, slot, SLOT_KEYS[slot]);
-        AnimeKeybinds.transform(NarutoRPG.CTX, GLFW.GLFW_KEY_B);
-        for (int i = 0; i < HandSigns.ALL.size(); i++) AnimeKeybinds.comboToken(NarutoRPG.CTX, HandSigns.ALL.get(i), SIGN_KEYS[i]);
-        AnimeKeybinds.comboCommit(NarutoRPG.CTX, GLFW.GLFW_KEY_KP_0);
+        var ctx = NarutoRPG.CTX;
+        for (int slot = 0; slot < SLOT_KEYS.length; slot++) AnimeKeybinds.hotbarSlot(ctx, slot, SLOT_KEYS[slot]);
+        AnimeKeybinds.comboWheel(ctx, HandSigns.ALL, GLFW.GLFW_KEY_Z);
+        for (int i = 0; i < HandSigns.ALL.size(); i++) AnimeKeybinds.comboToken(ctx, HandSigns.ALL.get(i), SIGN_KEYS[i]);
+        AnimeKeybinds.comboCommit(ctx, GLFW.GLFW_KEY_KP_0);
+        AnimeKeybinds.transform(ctx, GLFW.GLFW_KEY_B);
+        AnimeKeybinds.transformStage(ctx, +1, GLFW.GLFW_KEY_N);
+        AnimeKeybinds.transformStage(ctx, -1, GLFW.GLFW_KEY_M);
+        AnimeKeybinds.movementToggle(ctx, MovementMode.SURFACE_ADHESION, GLFW.GLFW_KEY_J);
+        AnimeKeybinds.burstStep(ctx, GLFW.GLFW_KEY_LEFT_ALT);
     }
 }

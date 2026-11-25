@@ -2,6 +2,7 @@ package com.animecore.network;
 
 import com.animecore.ability.AbilityExecutor;
 import com.animecore.api.AnimeModRegistry;
+import com.animecore.movement.AnimeMovementHandler;
 import com.animecore.platform.AnimeNetworking;
 import com.animecore.transformation.TransformationService;
 
@@ -19,6 +20,10 @@ public final class AnimeCoreNetworking {
         AnimeNetworking.registerC2S(HotbarCastPayload.ID, HotbarCastPayload.CODEC);
         AnimeNetworking.registerC2S(ComboInputPayload.ID, ComboInputPayload.CODEC);
         AnimeNetworking.registerC2S(TransformPayload.ID, TransformPayload.CODEC);
+        AnimeNetworking.registerC2S(MovementPayloads.Toggle.ID, MovementPayloads.Toggle.CODEC);
+        AnimeNetworking.registerC2S(MovementPayloads.BurstStep.ID, MovementPayloads.BurstStep.CODEC);
+        AnimeNetworking.registerC2S(MovementPayloads.TransformStage.ID, MovementPayloads.TransformStage.CODEC);
+        AnimeNetworking.registerS2C(MovementPayloads.Afterimage.ID, MovementPayloads.Afterimage.CODEC);
 
         AnimeNetworking.registerServerReceiver(CastAbilityPayload.ID,
                 (payload, player) -> AbilityExecutor.handleInput(player, payload.ability(), payload.pressed()));
@@ -34,5 +39,18 @@ public final class AnimeCoreNetworking {
         AnimeNetworking.registerServerReceiver(TransformPayload.ID, (payload, player) ->
                 AnimeModRegistry.get(payload.system()).ifPresent(ctx ->
                         TransformationService.toggle(player, ctx.power(player), payload.form().orElse(null))));
+
+        AnimeNetworking.registerServerReceiver(MovementPayloads.Toggle.ID, (payload, player) ->
+                AnimeModRegistry.get(payload.system()).ifPresent(ctx -> AnimeMovementHandler.toggle(player, ctx, payload.mode())));
+
+        AnimeNetworking.registerServerReceiver(MovementPayloads.BurstStep.ID, (payload, player) ->
+                AnimeModRegistry.get(payload.system()).ifPresent(ctx ->
+                        AnimeMovementHandler.burstStep(player, ctx, payload.forward(), payload.strafe())));
+
+        AnimeNetworking.registerServerReceiver(MovementPayloads.TransformStage.ID, (payload, player) ->
+                AnimeModRegistry.get(payload.system()).ifPresent(ctx -> {
+                    if (payload.direction() > 0) TransformationService.ascend(player, ctx.power(player));
+                    else TransformationService.descend(player, ctx.power(player));
+                }));
     }
 }

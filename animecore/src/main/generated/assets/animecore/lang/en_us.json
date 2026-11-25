@@ -20,8 +20,18 @@
   "message.animecore.cast.unknown_system": "That technique belongs to another power system",
   "message.animecore.cast.wrong_form": "Requires a transformation",
   "message.animecore.evolved": "Your power evolves: %s unlocked!",
+  "message.animecore.movement.exhausted": "Too exhausted for %s",
+  "message.animecore.movement.off": "%s disabled",
+  "message.animecore.movement.on": "%s enabled",
+  "message.animecore.no_higher_stage": "No higher stage unlocked",
   "message.animecore.no_transformation": "No transformation available",
   "message.animecore.reactive_armed": "%s ready",
+  "message.animecore.stage_dropped": "Energy failing - dropped to %s",
   "message.animecore.transformation_ended": "%s faded",
-  "message.animecore.transformed": "%s activated"
+  "message.animecore.transformed": "%s activated",
+  "movement.animecore.burst_step": "Burst Step",
+  "movement.animecore.omnidirectional_flight": "Flight",
+  "movement.animecore.surface_adhesion": "Surface Walking",
+  "screen.animecore.combo_wheel": "Choose a sign",
+  "screen.animecore.combo_wheel.hint": "Click / 1-9: input  ·  release key or right-click: perform"
 }

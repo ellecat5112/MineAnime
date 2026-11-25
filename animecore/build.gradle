@@ -15,6 +15,7 @@ loom {
 fabricApi {
     configureDataGeneration {
         client = true
+        modId = 'animecore'   // only this mod's providers write into this project's src/main/generated
     }
 }
 

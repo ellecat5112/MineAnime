@@ -13,6 +13,7 @@
     "client": ["com.animecore.client.AnimeCoreClient"],
     "fabric-datagen": ["com.animecore.datagen.AnimeCoreDataGenerator"]
   },
+  "mixins": ["animecore.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.1",

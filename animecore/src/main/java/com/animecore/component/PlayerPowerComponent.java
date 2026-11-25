@@ -6,6 +6,8 @@ import com.animecore.affinity.AffinityMatrix;
 import com.animecore.api.AnimeModContext;
 import com.animecore.api.EnergyPoolSpec;
 import com.animecore.api.event.AnimeCoreEvents;
+import com.animecore.movement.AnimeMovementHandler;
+import com.animecore.movement.MovementMode;
 import com.animecore.registry.AnimeRegistries;
 import com.animecore.registry.definition.FactionDefinition;
 import com.animecore.registry.definition.LineageDefinition;
@@ -36,6 +38,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
@@ -79,8 +82,11 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private @Nullable Identifier activeTransformation;
     private int transformationTicks;
     private final Identifier[] hotbar;
+    /** We switched on vanilla flight and must switch it off again (survives relog, unlike the toggle). */
+    private boolean flightGranted;
 
-    // ---- synced, derived ----
+    // ---- synced, derived / session-only ----
+    private final EnumSet<MovementMode> activeMovement = EnumSet.noneOf(MovementMode.class);
     private Set<Identifier> effectiveAffinities = Set.of();
 
     // ---- transient (server) ----
@@ -133,6 +139,19 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     public Optional<Identifier> chargingAbility() { return Optional.ofNullable(chargingAbility); }
     public int chargeTicks() { return chargeTicks; }
     public Optional<Identifier> armedReactive() { return reactiveWindow > 0 ? Optional.ofNullable(armedReactive) : Optional.empty(); }
+
+    public boolean isMovementActive(MovementMode mode) { return activeMovement.contains(mode); }
+    public Set<MovementMode> activeMovement() { return Collections.unmodifiableSet(activeMovement); }
+    public boolean flightGranted() { return flightGranted; }
+
+    public void setMovementActive(MovementMode mode, boolean active) {
+        if (active ? activeMovement.add(mode) : activeMovement.remove(mode)) markDirty(true);
+    }
+
+    public void setFlightGranted(boolean granted) {
+        this.flightGranted = granted;
+        markDirty(false);
+    }
 
     public List<Optional<Identifier>> hotbar() {
         return Arrays.stream(hotbar).map(Optional::ofNullable).toList();
@@ -456,6 +475,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         if (regenChanged) energyChanged();
 
         if (activeTransformation != null) TransformationService.tick(sp, this);
+        AnimeMovementHandler.tick(sp, this);
 
         if (reactiveWindow > 0 && --reactiveWindow == 0) {
             armedReactive = null;
@@ -493,6 +513,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         NbtCompound tag = new NbtCompound();
         if (full) writeToNbt(tag, buf.getRegistryManager());
         else writePublic(tag);
+        tag.putInt("movement", movementMask()); // session state: synced, never saved
         buf.writeBoolean(full);
         buf.writeNbt(tag);
     }
@@ -504,6 +525,15 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         if (tag == null) return;
         if (full) readFromNbt(tag, buf.getRegistryManager());
         else readPublic(tag);
+        activeMovement.clear();
+        int mask = tag.getInt("movement");
+        for (MovementMode m : MovementMode.values()) if ((mask & (1 << m.ordinal())) != 0) activeMovement.add(m);
+    }
+
+    private int movementMask() {
+        int mask = 0;
+        for (MovementMode m : activeMovement) mask |= 1 << m.ordinal();
+        return mask;
     }
 
     // =====================================================================================
@@ -537,6 +567,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         for (Identifier id : hotbar) bar.add(NbtString.of(id == null ? "" : id.toString()));
         tag.put("hotbar", bar);
         tag.put("affinities", writeIds(effectiveAffinities));
+        if (flightGranted) tag.putBoolean("flight_granted", true);
         if (armedReactive != null && reactiveWindow > 0) {
             tag.putString("armed_reactive", armedReactive.toString());
             tag.putInt("reactive_window", reactiveWindow);
@@ -588,6 +619,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         Set<Identifier> aff = new LinkedHashSet<>();
         readIds(tag.getList("affinities", NbtElement.STRING_TYPE), aff);
         effectiveAffinities = Set.copyOf(aff);
+        flightGranted = tag.getBoolean("flight_granted");
         armedReactive = readId(tag, "armed_reactive");
         reactiveWindow = tag.getInt("reactive_window");
         comboBuffer.clear();

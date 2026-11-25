@@ -32,12 +32,20 @@ final class NarutoLangProvider extends FabricLanguageProvider {
         t.add("transformation.narutorpg.mangekyo_sharingan", "Mangekyo Sharingan");
         t.add("message.narutorpg.fire_underwater", "Your Fire Release fizzles underwater");
 
+        t.add("pool.narutorpg.chakra", "Chakra");
+        t.add("pool.narutorpg.stamina", "Stamina");
         t.add("key.categories.narutorpg", "NarutoRPG");
+        t.add("key.narutorpg.combo_wheel", "Hand-Sign Wheel (hold)");
+        t.add("key.narutorpg.transform_ascend", "Dojutsu: Next Stage");
+        t.add("key.narutorpg.transform_descend", "Dojutsu: Previous Stage");
+        t.add("key.narutorpg.movement_surface_adhesion", "Chakra Control (Tree/Water Walking)");
+        t.add("key.narutorpg.movement_burst_step", "Body Flicker (Shunshin)");
         for (int i = 1; i <= 3; i++) t.add("key.narutorpg.hotbar_" + i, "Jutsu Slot " + i);
         t.add("key.narutorpg.transform", "Toggle Dojutsu");
         t.add("key.narutorpg.combo_release", "Release Hand Signs");
         for (Identifier sign : HandSigns.ALL) {
             t.add("key.narutorpg.combo_" + sign.getPath(), "Hand Sign: " + StringUtils.capitalize(sign.getPath()));
+            t.add("combo.narutorpg." + sign.getPath(), StringUtils.capitalize(sign.getPath()));
         }
     }
 }

@@ -60,19 +60,33 @@ public final class EnergyPool {
         tag.putFloat("current", current);
         tag.putFloat("base_max", baseMax);
         tag.putFloat("base_regen", baseRegen);
+        writeDerived(tag);
         return tag;
     }
 
     void read(NbtCompound tag) {
         if (tag.contains("base_max")) baseMax = tag.getFloat("base_max");
         if (tag.contains("base_regen")) baseRegen = tag.getFloat("base_regen");
+        // Trait-derived values: authoritative on the server (recomputed on refresh), needed by the client HUD.
+        if (tag.contains("bonus_flat")) {
+            bonusFlat = tag.getFloat("bonus_flat");
+            maxMultiplier = tag.getFloat("max_mult");
+            regenMultiplier = tag.getFloat("regen_mult");
+        }
         current = tag.contains("current") ? tag.getFloat("current") : max();
         clamp();
+    }
+
+    private void writeDerived(NbtCompound tag) {
+        tag.putFloat("bonus_flat", bonusFlat);
+        tag.putFloat("max_mult", maxMultiplier);
+        tag.putFloat("regen_mult", regenMultiplier);
     }
 
     /** Public (peer-visible) snapshot: only the ratio, enough for aura intensity and nameplates. */
     void writePublic(NbtCompound tag) {
         tag.putFloat("current", current);
         tag.putFloat("base_max", baseMax);
+        writeDerived(tag);
     }
 }

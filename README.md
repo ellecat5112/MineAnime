@@ -2,7 +2,7 @@
 
 | Module | Package | Role | Jar |
 |---|---|---|---|
-| `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~176 KB (budget 1.5 MB) |
+| `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~233 KB (budget 1.5 MB) |
 | `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~27 KB (budget 15 MB) |
 
 Runtime deps (installed separately, **never bundled**): Fabric API, Cardinal Components API 6.1.x,
@@ -11,7 +11,7 @@ PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
 ```bash
 ./gradlew build                    # builds both jars + verifyAssetBudget + verifyJarBudget (no nested jars)
 ./gradlew :narutorpg:runDatagen    # regenerates data/narutorpg/animecore/** + lang
-./gradlew :narutorpg:runGametest   # 7 headless end-to-end tests
+./gradlew :narutorpg:runGametest   # 13 headless end-to-end tests (incl. a 2nd power system with flight)
 ./gradlew :narutorpg:runClient     # dev client with both mods
 ```
 
@@ -60,8 +60,9 @@ com.animecore
 ├── network/                       AnimationSyncPayload (S2C), Cast/HotbarCast/ComboInput/Transform (C2S)
 ├── command/AnimeCoreCommands      /animecore info|lineage|faction|unlock|unlockform|cast|transform|...
 ├── datagen/                       damage type + lang
-│   ─ Phase 2: movement/ (AnimeMovementHandler + mixins), client/hud/ (AnimeHudLayoutManager,
-│     ComboWheel), client/render/ProceduralAuraRenderer, entity/geo/ (GeoEnergyProjectileEntity)
+├── movement/                      MovementMode, MovementSpec, AnimeMovementHandler (adhesion, flight,
+│                                  burst step), MotionUtil
+├── mixin/LivingEntityMixin        walls act as ladders + water is walkable while adhesion is on
 │   ─ Phase 3: item/ (AnimeWeaponItem, AnimeDataComponents), loot/ (SetAbilityScrollFunction,
 │     SetAnimeWeaponDataFunction), compat/jei/AbstractAnimeJeiPlugin
 └── client/  (src/client/java, the only place MinecraftClient is referenced)
@@ -69,7 +70,11 @@ com.animecore
     ├── platform/AnimeClientNetworking
     ├── animation/AnimationLayerManager   PlayerAnimator ModifierLayer per AnimLayer, upper-body masking
     ├── network/AnimeClientPayloadHandlers
-    └── input/AnimeKeybinds               per-mod categories, press + release forwarding
+    ├── input/AnimeKeybinds               per-mod categories, press + release forwarding
+    ├── hud/AnimeHudLayoutManager         per-mod panel groups stacked in TOP_LEFT / BOTTOM_LEFT
+    │   └── element/                      EnergyBars, Transformation, AbilityHotbar, ComboTrail
+    ├── combo/ComboWheelScreen            radial combo input with continuation hints
+    └── render/                           ProceduralAuraRenderer, AfterimageEffects (texture-free)
 ```
 
 ## `com.narutorpg` package tree
@@ -80,15 +85,29 @@ com.narutorpg
 ├── content/               NarutoContent (registry keys), HandSigns (tiger, ram, snake, bird, boar, horse)
 ├── mechanic/              NarutoMechanics: Fire jutsu fizzle underwater, Sharingan chakra discount
 ├── datagen/               NarutoDataGenerator, NarutoContentBootstrap, NarutoLangProvider
-└── client/NarutoRPGClient R/G/V jutsu slots, B dojutsu, numpad 1-6 hand signs, numpad 0 release
+└── client/NarutoRPGClient keybinds (see below)
 src/gametest/…             headless GameTests (not shipped)
 ```
+
+## Controls (NarutoRPG, all rebindable under *Controls › NarutoRPG*)
+| Key | Action |
+|---|---|
+| R / G / V | Jutsu slots 1-3 (hold to charge, release to fire) |
+| Z (hold) | Hand-sign wheel: click or 1-6 to sign, release Z / right-click to perform |
+| Numpad 1-6, Numpad 0 | Hand signs without the wheel / release |
+| B | Toggle Sharingan · N / M next / previous stage |
+| J | Chakra control: run up walls, walk on water (sneak to dive) |
+| Left Alt | Body Flicker (Shunshin): 7-block blink toward WASD direction |
+
+![HUD](docs/screenshots/1_firstperson_hud.png)
+![Aura](docs/screenshots/2_aura_front.png)
+![Combo wheel](docs/screenshots/3_combo_wheel.png)
 
 ## Try it (dev client, cheats on)
 ```
 /animecore lineage @s narutorpg:uchiha
 /animecore faction @s narutorpg:hidden_leaf
-Hold R to charge the Great Fireball (release to fire), or numpad 3,2,5,6,1 (Snake Ram Boar Horse Tiger)
-Press B to toggle the Sharingan. Press G (Substitution) just before being hit.
+Hold R to charge the Great Fireball, or hold Z and sign Snake › Ram › Boar › Horse › Tiger
+Press B for the Sharingan, J for chakra control, Left Alt to Shunshin, G (Substitution) just before a hit.
 /animecore info
 ```

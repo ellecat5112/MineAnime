@@ -1,6 +1,8 @@
 package com.animecore.api;
 
 import com.animecore.component.PlayerPowerComponent;
+import com.animecore.movement.MovementMode;
+import com.animecore.movement.MovementSpec;
 import com.animecore.platform.AnimeNetworking;
 import com.animecore.platform.Ids;
 import net.minecraft.entity.Entity;
@@ -34,6 +36,7 @@ public final class AnimeModContext {
 
     private final String modId;
     private final List<EnergyPoolSpec> pools;
+    private final List<MovementSpec> movement;
     private final int hotbarSize;
     private final Function<Identifier, Identifier> comboAnimation;
     private final ComponentKey<PlayerPowerComponent> powerKey;
@@ -41,6 +44,7 @@ public final class AnimeModContext {
     private AnimeModContext(Builder b) {
         this.modId = b.modId;
         this.pools = List.copyOf(b.pools);
+        this.movement = List.copyOf(b.movement);
         this.hotbarSize = b.hotbarSize;
         this.comboAnimation = b.comboAnimation;
         this.powerKey = ComponentRegistry.getOrCreate(Ids.of(modId, "power"), PlayerPowerComponent.class);
@@ -53,6 +57,11 @@ public final class AnimeModContext {
     public String modId() { return modId; }
     public List<EnergyPoolSpec> pools() { return pools; }
     public int hotbarSize() { return hotbarSize; }
+    public List<MovementSpec> movementSpecs() { return movement; }
+
+    public Optional<MovementSpec> movement(MovementMode mode) {
+        return movement.stream().filter(m -> m.mode() == mode).findFirst();
+    }
     public ComponentKey<PlayerPowerComponent> powerKey() { return powerKey; }
 
     public Identifier id(String path) { return Ids.of(modId, path); }
@@ -86,6 +95,7 @@ public final class AnimeModContext {
     public static final class Builder {
         private final String modId;
         private final List<EnergyPoolSpec> pools = new ArrayList<>();
+        private final List<MovementSpec> movement = new ArrayList<>();
         private int hotbarSize = DEFAULT_HOTBAR_SIZE;
         private Function<Identifier, Identifier> comboAnimation;
 
@@ -109,6 +119,27 @@ public final class AnimeModContext {
 
         private Builder pool(String path, EnergyPoolSpec.Role role, float max, float regen, int color) {
             pools.add(new EnergyPoolSpec(Ids.of(modId, path), role, max, regen, color));
+            return this;
+        }
+
+        /** Tree / wall / water walking. Drains {@code drainPerTick} while in use (20% while idle). */
+        public Builder surfaceAdhesion(String poolPath, float drainPerTick, int requiredTier) {
+            return movement(new MovementSpec(MovementMode.SURFACE_ADHESION, Ids.of(modId, poolPath), 0f, drainPerTick, requiredTier, 0f, 0));
+        }
+
+        /** Free flight. {@code flySpeed} uses vanilla units (creative = 0.05). */
+        public Builder flight(String poolPath, float activationCost, float drainPerTick, float flySpeed, int requiredTier) {
+            return movement(new MovementSpec(MovementMode.OMNIDIRECTIONAL_FLIGHT, Ids.of(modId, poolPath), activationCost, drainPerTick, requiredTier, flySpeed, 0));
+        }
+
+        /** Short blink with afterimages (Shunshin / Flash Step / Z-Dash). */
+        public Builder burstStep(String poolPath, float cost, float distance, int cooldownTicks, int requiredTier) {
+            return movement(new MovementSpec(MovementMode.BURST_STEP, Ids.of(modId, poolPath), cost, 0f, requiredTier, distance, cooldownTicks));
+        }
+
+        public Builder movement(MovementSpec spec) {
+            movement.removeIf(m -> m.mode() == spec.mode());
+            movement.add(spec);
             return this;
         }
 

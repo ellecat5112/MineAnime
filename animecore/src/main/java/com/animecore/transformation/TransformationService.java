@@ -23,9 +23,9 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * Activation, upkeep, revert and stage evolution of transformations.
- * (Phase 2 adds the client {@code ProceduralAuraRenderer} and GeckoLib attachments; the server particles here are
- * the always-available fallback.)
+ * Activation, upkeep, revert and the stage handler (mastery evolution, in-place ascend/descend, fall back one stage
+ * when energy runs out). Continuous aura visuals are drawn client-side by {@code ProceduralAuraRenderer} from the
+ * synced public state, so no per-tick particle packets are sent.
  */
 public final class TransformationService {
     private TransformationService() {}
@@ -49,6 +49,7 @@ public final class TransformationService {
         Optional<RegistryEntry.Reference<TransformationDefinition>> entry = AnimeRegistries.transformation(player.getRegistryManager(), formId);
         if (entry.isEmpty()) return false;
         TransformationDefinition def = entry.get().value();
+        boolean stageSwap = power.activeTransformation().isPresent();
         String deny = null;
         if (!def.system().equals(power.context().modId())) deny = "message.animecore.cast.unknown_system";
         else if (!power.unlockedTransformations().contains(formId)) deny = "message.animecore.cast.locked";
@@ -65,7 +66,9 @@ public final class TransformationService {
 
         power.activeTransformation().ifPresent(previous -> power.setCooldown(previous, 0)); // stage swap: no penalty
         power.setActiveTransformation(formId);
-        def.visuals().stanceAnimation().ifPresent(anim -> AnimationService.play(player, AnimLayer.BASE, anim, AnimPlayback.STANCE));
+        def.visuals().stanceAnimation().ifPresentOrElse(
+                anim -> AnimationService.play(player, AnimLayer.BASE, anim, AnimPlayback.STANCE),
+                () -> { if (stageSwap) AnimationService.stop(player, AnimLayer.BASE, 6); });
         burst(player, def);
         player.sendMessage(Text.translatable("message.animecore.transformed", def.name()).formatted(Formatting.GOLD), true);
         return true;
@@ -94,10 +97,16 @@ public final class TransformationService {
         TransformationDefinition def = entry.get().value();
         power.tickTransformation();
 
-        if (!power.tryConsume(def.pool(), def.drainPerTick())
-                || (def.durationTicks() > 0 && power.transformationTicks() >= def.durationTicks())) {
+        if (def.durationTicks() > 0 && power.transformationTicks() >= def.durationTicks()) {
             revert(player, power, false);
             player.sendMessage(Text.translatable("message.animecore.transformation_ended", def.name()).formatted(Formatting.GRAY), true);
+            return;
+        }
+        if (!power.tryConsume(def.pool(), def.drainPerTick())) {
+            if (!fallBack(player, power, active)) {
+                revert(player, power, false);
+                player.sendMessage(Text.translatable("message.animecore.transformation_ended", def.name()).formatted(Formatting.GRAY), true);
+            }
             return;
         }
 
@@ -108,12 +117,61 @@ public final class TransformationService {
                     player.sendMessage(Text.translatable("message.animecore.evolved", next.value().name()).formatted(Formatting.LIGHT_PURPLE), false));
             player.getServerWorld().playSound(null, player.getBlockPos(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.PLAYERS, 0.8f, 1.4f);
         }
+    }
 
-        if (def.visuals().auraIntensity() > 0f && player.age % 4 == 0) {
-            int count = Math.max(1, (int) (3 * def.visuals().auraIntensity()));
-            player.getServerWorld().spawnParticles(AnimeParticles.dust(def.visuals().auraColor(), 1.1f),
-                    player.getX(), player.getY() + 1.0, player.getZ(), count, 0.35, 0.6, 0.35, 0.01);
+    // ------------------------------------------------------------------ stage handler
+
+    /** In-place evolution to the next unlocked stage (SSJ1 -> SSJ2, 3-Tomoe -> Mangekyo). */
+    public static boolean ascend(ServerPlayerEntity player, PlayerPowerComponent power) {
+        Identifier active = power.activeTransformation().orElse(null);
+        if (active == null) return toggle(player, power, null);
+        Optional<Identifier> next = AnimeRegistries.transformation(player.getRegistryManager(), active)
+                .flatMap(e -> e.value().nextStage());
+        if (next.isEmpty() || !power.unlockedTransformations().contains(next.get())) {
+            player.sendMessage(Text.translatable("message.animecore.no_higher_stage").formatted(Formatting.RED), true);
+            return false;
         }
+        return activate(player, power, next.get());
+    }
+
+    /** In-place regression to the previous stage; reverts entirely from the base stage. */
+    public static boolean descend(ServerPlayerEntity player, PlayerPowerComponent power) {
+        Identifier active = power.activeTransformation().orElse(null);
+        if (active == null) return false;
+        Optional<Identifier> previous = previousStage(player, active);
+        if (previous.isPresent() && power.unlockedTransformations().contains(previous.get())) {
+            swapStage(player, power, previous.get());
+            return true;
+        }
+        return revert(player, power, true);
+    }
+
+    /** Out of energy: drop one stage if the cheaper form can still be sustained this tick. */
+    private static boolean fallBack(ServerPlayerEntity player, PlayerPowerComponent power, Identifier active) {
+        Optional<Identifier> previous = previousStage(player, active);
+        if (previous.isEmpty() || !power.unlockedTransformations().contains(previous.get())) return false;
+        Optional<RegistryEntry.Reference<TransformationDefinition>> prev = AnimeRegistries.transformation(player.getRegistryManager(), previous.get());
+        if (prev.isEmpty() || !power.tryConsume(prev.get().value().pool(), prev.get().value().drainPerTick())) return false;
+        swapStage(player, power, previous.get());
+        player.sendMessage(Text.translatable("message.animecore.stage_dropped", prev.get().value().name()).formatted(Formatting.YELLOW), true);
+        return true;
+    }
+
+    private static void swapStage(ServerPlayerEntity player, PlayerPowerComponent power, Identifier form) {
+        power.setActiveTransformation(form);
+        AnimeRegistries.transformation(player.getRegistryManager(), form).ifPresent(e ->
+                e.value().visuals().stanceAnimation().ifPresentOrElse(
+                        anim -> AnimationService.play(player, AnimLayer.BASE, anim, AnimPlayback.STANCE),
+                        () -> AnimationService.stop(player, AnimLayer.BASE, 6)));
+    }
+
+    /** Reverse lookup of {@code next_stage}. */
+    public static Optional<Identifier> previousStage(ServerPlayerEntity player, Identifier form) {
+        var registry = player.getRegistryManager().get(AnimeRegistries.TRANSFORMATION);
+        for (var entry : registry.getEntrySet()) {
+            if (entry.getValue().nextStage().filter(form::equals).isPresent()) return Optional.of(entry.getKey().getValue());
+        }
+        return Optional.empty();
     }
 
     /** Most advanced unlocked form: one that is not the {@code previous stage} of another unlocked form. */

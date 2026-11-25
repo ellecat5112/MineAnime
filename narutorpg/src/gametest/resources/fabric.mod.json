@@ -5,7 +5,10 @@
   "name": "NarutoRPG GameTests",
   "environment": "*",
   "entrypoints": {
-    "fabric-gametest": ["com.narutorpg.test.NarutoGameTests"]
+    "main": ["com.narutorpg.test.FlightTestSystem"],
+    "cardinal-components": ["com.narutorpg.test.FlightTestSystem$Components"],
+    "fabric-gametest": ["com.narutorpg.test.NarutoGameTests", "com.narutorpg.test.Phase2GameTests"]
   },
-  "depends": { "narutorpg": "*", "fabric-gametest-api-v1": "*" }
+  "depends": { "narutorpg": "*", "fabric-gametest-api-v1": "*" },
+  "custom": { "cardinal-components": ["animetest:power"] }
 }

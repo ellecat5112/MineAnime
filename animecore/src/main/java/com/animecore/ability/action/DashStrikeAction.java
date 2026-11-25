@@ -1,6 +1,7 @@
 package com.animecore.ability.action;
 
 import com.animecore.ability.AbilityContext;
+import com.animecore.movement.MotionUtil;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -11,7 +12,6 @@ import net.minecraft.util.StringIdentifiable;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
-import net.minecraft.world.RaycastContext;
 
 /**
  * Short-range blink with optional strike along the path.
@@ -67,12 +67,7 @@ public record DashStrikeAction(Mode mode, float distance, float damage, float hi
         caster.fallDistance = 0f;
     }
 
-    /** Stops the dash before walls so nobody blinks into blocks. */
     private static Vec3d clip(AbilityContext ctx, Vec3d from, Vec3d to) {
-        var hit = ctx.world().raycast(new RaycastContext(from.add(0, 0.5, 0), to.add(0, 0.5, 0),
-                RaycastContext.ShapeType.COLLIDER, RaycastContext.FluidHandling.NONE, ctx.caster()));
-        Vec3d end = hit.getPos().subtract(0, 0.5, 0);
-        Vec3d back = from.subtract(end);
-        return back.lengthSquared() > 1.0E-4 ? end.add(back.normalize().multiply(0.4)) : end;
+        return MotionUtil.clipDestination(ctx.world(), ctx.caster(), from, to);
     }
 }

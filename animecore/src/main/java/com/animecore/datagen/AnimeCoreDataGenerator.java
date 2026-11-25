@@ -70,6 +70,16 @@ public final class AnimeCoreDataGenerator implements DataGeneratorEntrypoint {
             t.add("message.animecore.transformation_ended", "%s faded");
             t.add("message.animecore.evolved", "Your power evolves: %s unlocked!");
             t.add("message.animecore.no_transformation", "No transformation available");
+            t.add("message.animecore.no_higher_stage", "No higher stage unlocked");
+            t.add("message.animecore.stage_dropped", "Energy failing - dropped to %s");
+            t.add("message.animecore.movement.on", "%s enabled");
+            t.add("message.animecore.movement.off", "%s disabled");
+            t.add("message.animecore.movement.exhausted", "Too exhausted for %s");
+            t.add("movement.animecore.surface_adhesion", "Surface Walking");
+            t.add("movement.animecore.omnidirectional_flight", "Flight");
+            t.add("movement.animecore.burst_step", "Burst Step");
+            t.add("screen.animecore.combo_wheel", "Choose a sign");
+            t.add("screen.animecore.combo_wheel.hint", "Click / 1-9: input  ·  release key or right-click: perform");
             t.add("commands.animecore.unknown", "Unknown id: %s");
             t.add("commands.animecore.lineage", "%s now belongs to %s");
             t.add("commands.animecore.faction", "%s joined %s");

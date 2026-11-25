@@ -2,7 +2,10 @@ package com.animecore.client.input;
 
 import com.animecore.api.AnimeModContext;
 import com.animecore.client.platform.AnimeClientNetworking;
+import com.animecore.client.combo.ComboWheelScreen;
+import com.animecore.movement.MovementMode;
 import com.animecore.network.ComboInputPayload;
+import com.animecore.network.MovementPayloads;
 import com.animecore.network.HotbarCastPayload;
 import com.animecore.network.TransformPayload;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
@@ -13,7 +16,9 @@ import net.minecraft.client.util.InputUtil;
 import net.minecraft.util.Identifier;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 /**
@@ -25,6 +30,7 @@ public final class AnimeKeybinds {
     private record Binding(KeyBinding key, Runnable onPress, Runnable onRelease, boolean[] down) {}
 
     private static final List<Binding> BINDINGS = new ArrayList<>();
+    private static final Map<String, KeyBinding> BY_NAME = new HashMap<>();
     private static boolean listening;
 
     private AnimeKeybinds() {}
@@ -50,10 +56,44 @@ public final class AnimeKeybinds {
                 () -> AnimeClientNetworking.send(new ComboInputPayload(ctx.modId(), ctx.id("release"), true)), () -> {});
     }
 
+    /** Phase 2: step the active form up (+1) or down (-1) in place. */
+    public static KeyBinding transformStage(AnimeModContext ctx, int direction, int defaultKey) {
+        return register(ctx, direction > 0 ? "transform_ascend" : "transform_descend", defaultKey,
+                () -> AnimeClientNetworking.send(new MovementPayloads.TransformStage(ctx.modId(), direction)), () -> {});
+    }
+
+    public static KeyBinding movementToggle(AnimeModContext ctx, MovementMode mode, int defaultKey) {
+        return register(ctx, "movement_" + mode.asString(), defaultKey,
+                () -> AnimeClientNetworking.send(new MovementPayloads.Toggle(ctx.modId(), mode)), () -> {});
+    }
+
+    /** Burst step in the direction of WASD input (forward if none). */
+    public static KeyBinding burstStep(AnimeModContext ctx, int defaultKey) {
+        return register(ctx, "movement_burst_step", defaultKey, () -> {
+            var player = MinecraftClient.getInstance().player;
+            if (player == null) return;
+            AnimeClientNetworking.send(new MovementPayloads.BurstStep(ctx.modId(),
+                    player.input.movementForward, player.input.movementSideways));
+        }, () -> {});
+    }
+
+    /** Hold to open the radial combo wheel; release to perform the sequence. */
+    public static KeyBinding comboWheel(AnimeModContext ctx, List<Identifier> tokens, int defaultKey) {
+        KeyBinding[] holder = new KeyBinding[1];
+        holder[0] = register(ctx, "combo_wheel", defaultKey,
+                () -> MinecraftClient.getInstance().setScreen(new ComboWheelScreen(ctx, tokens, holder[0])), () -> {});
+        return holder[0];
+    }
+
+    public static Optional<KeyBinding> find(AnimeModContext ctx, String name) {
+        return Optional.ofNullable(BY_NAME.get(ctx.modId() + ":" + name));
+    }
+
     public static KeyBinding register(AnimeModContext ctx, String name, int defaultKey, Runnable onPress, Runnable onRelease) {
         KeyBinding key = KeyBindingHelper.registerKeyBinding(
                 new KeyBinding(ctx.keyTranslation(name), InputUtil.Type.KEYSYM, defaultKey, ctx.keyCategory()));
         BINDINGS.add(new Binding(key, onPress, onRelease, new boolean[1]));
+        BY_NAME.put(ctx.modId() + ":" + name, key);
         ensureListening();
         return key;
     }
