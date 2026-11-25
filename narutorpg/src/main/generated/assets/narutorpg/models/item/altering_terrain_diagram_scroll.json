@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "narutorpg:item/altering_terrain_diagram_scroll"
+  }
+}

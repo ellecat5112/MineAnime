@@ -63,6 +63,10 @@ public final class AnimeDataComponents {
     public static final ComponentType<FactionBadge> FACTION_BADGE =
             register(Ids.core("faction_badge"), FactionBadge.CODEC, FactionBadge.PACKET_CODEC);
 
+    /** Space-Time Gate anchor (dimension + position) stored on the tool. */
+    public static final ComponentType<net.minecraft.util.math.GlobalPos> TOOL_ANCHOR =
+            register(Ids.core("tool_anchor"), net.minecraft.util.math.GlobalPos.CODEC, net.minecraft.util.math.GlobalPos.PACKET_CODEC);
+
     /** Mod-specific component: {@code <modId>:<path>}. */
     public static <T> ComponentType<T> register(AnimeModContext ctx, String path, Codec<T> codec, PacketCodec<? super RegistryByteBuf, T> packetCodec) {
         return register(ctx.id(path), codec, packetCodec);

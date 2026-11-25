@@ -7,7 +7,7 @@
   "entrypoints": {
     "main": ["com.narutorpg.test.FlightTestSystem"],
     "cardinal-components": ["com.narutorpg.test.FlightTestSystem$Components"],
-    "fabric-gametest": ["com.narutorpg.test.NarutoGameTests", "com.narutorpg.test.Phase2GameTests", "com.narutorpg.test.Phase3GameTests"]
+    "fabric-gametest": ["com.narutorpg.test.NarutoGameTests", "com.narutorpg.test.Phase2GameTests", "com.narutorpg.test.Phase3GameTests", "com.narutorpg.test.NinjaToolGameTests"]
   },
   "depends": { "narutorpg": "*", "fabric-gametest-api-v1": "*" },
   "custom": { "cardinal-components": ["animetest:power"] }

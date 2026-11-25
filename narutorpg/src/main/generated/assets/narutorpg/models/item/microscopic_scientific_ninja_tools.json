@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "narutorpg:item/microscopic_scientific_ninja_tools"
+  }
+}

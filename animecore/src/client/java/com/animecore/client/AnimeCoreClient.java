@@ -9,6 +9,11 @@ import com.animecore.entity.AnimeEntities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.entity.EmptyEntityRenderer;
+import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
+import net.minecraft.client.render.RenderLayer;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import com.animecore.client.render.PuppetEntityRenderer;
+import com.animecore.ward.WardBlocks;
 
 /** Client entrypoint. All {@code MinecraftClient} usage is confined to {@code com.animecore.client.*}. */
 public final class AnimeCoreClient implements ClientModInitializer {
@@ -21,5 +26,11 @@ public final class AnimeCoreClient implements ClientModInitializer {
         AfterimageEffects.init();
         // Energy projectiles are drawn entirely by their particle trail: zero texture bytes.
         EntityRendererRegistry.register(AnimeEntities.ENERGY_PROJECTILE, EmptyEntityRenderer::new);
+        // Thrown ninja tools render as their own item sprite; puppets reuse the biped model.
+        EntityRendererRegistry.register(AnimeEntities.THROWN_TOOL, ctx -> new FlyingItemEntityRenderer<>(ctx, 1.0f, true));
+        EntityRendererRegistry.register(AnimeEntities.PUPPET, PuppetEntityRenderer::new);
+        BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.CHAKRA_WALL, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.BARRIER_GATE, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.WARD_TAG, RenderLayer.getCutout());
     }
 }

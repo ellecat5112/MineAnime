@@ -1,0 +1,43 @@
+{
+ "parent": "minecraft:block/block",
+ "ambientocclusion": false,
+ "textures": {
+  "particle": "animecore:block/ward_tag_barrier",
+  "tag": "animecore:block/ward_tag_barrier"
+ },
+ "elements": [
+  {
+   "from": [
+    2,
+    0,
+    2
+   ],
+   "to": [
+    14,
+    0.25,
+    14
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#tag"
+    },
+    "down": {
+     "uv": [
+      0,
+      0,
+      16,
+      16
+     ],
+     "texture": "#tag",
+     "cullface": "down"
+    }
+   }
+  }
+ ]
+}

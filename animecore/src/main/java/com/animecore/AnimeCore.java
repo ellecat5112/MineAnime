@@ -13,6 +13,8 @@ import com.animecore.network.AnimeCoreNetworking;
 import com.animecore.registry.AnimeBuiltinRegistries;
 import com.animecore.registry.AnimeRegistries;
 import com.animecore.trait.TraitModifiers;
+import com.animecore.tool.ToolMoves;
+import com.animecore.ward.WardBlocks;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
@@ -35,6 +37,7 @@ public final class AnimeCore implements ModInitializer {
         AnimeRegistries.init();
         AnimeEntities.init();
         AnimeDataComponents.init();
+        WardBlocks.init();
         AnimeLootFunctions.init();
         AnimeCoreNetworking.init();
 
@@ -45,6 +48,7 @@ public final class AnimeCore implements ModInitializer {
         // Reactive dodge / counter (Substitution, Z-Vanish, Flash Step): listeners first, then armed abilities.
         ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, amount) -> {
             if (!(entity instanceof ServerPlayerEntity player)) return true;
+            if (ToolMoves.tryGuard(player, source, amount)) return false;
             if (AnimeWeaponItem.tryDeflect(player, source)) return false;
             if (AnimeCoreEvents.REACTIVE_DEFENSE.invoker().tryDefend(player, source, amount)) return false;
             return !AbilityExecutor.triggerReactive(player, source);

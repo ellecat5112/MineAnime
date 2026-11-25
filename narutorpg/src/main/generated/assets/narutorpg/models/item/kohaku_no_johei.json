@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "narutorpg:item/kohaku_no_johei"
+  }
+}

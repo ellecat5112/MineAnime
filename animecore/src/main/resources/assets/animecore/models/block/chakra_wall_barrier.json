@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:block/cube_all",
+ "textures": {
+  "all": "animecore:block/chakra_wall_barrier"
+ }
+}

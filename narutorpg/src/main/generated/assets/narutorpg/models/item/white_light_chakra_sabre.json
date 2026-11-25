@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "narutorpg:item/white_light_chakra_sabre"
+  }
+}

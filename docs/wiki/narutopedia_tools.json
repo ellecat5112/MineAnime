@@ -1,0 +1,1782 @@
+{
+ "source": "https://naruto.fandom.com/wiki/Category:Tools",
+ "crawled": "2026-11-25",
+ "method": "MediaWiki API categorymembers (cmtype=page|subcat, recursive) + infobox \"tool classification\"",
+ "mediawiki_subcategories": [],
+ "pages": [
+  {
+   "title": "Absorbing Eye",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Absorbing Hand",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Adamantine Staff",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Altering Terrain Diagram Scroll",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Ama no Hoko",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Antidote",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Araya (puppet)",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Arm-mounted Drill",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Artificial Sharingan",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Autonomous Puppet",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Axe",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Barrier Puppets",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Barrier Tag",
+   "classification": [
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Bashōsen",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Bell",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Bell (charm)",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Benihisago",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Binding Cloth",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Bingo Book",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Blood Increasing Pill",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Blowpipe",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Blue Fire Powder",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Book of Gelel",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Bow & Arrow",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Box of Ultimate Bliss",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Bubble-Utilising Pipe",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Bō",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Chain Wind Staff",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chakra Armour",
+   "classification": [
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chakra Blade",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chakra Cannon",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chakra Disruption Device",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chakra Enhanced Triple-Bladed Claw",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chakra Transmission Communication Device",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chakra-Suppressing Seal",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Chikamatsu Collection",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Chilli Pepper Bomb",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Claw Club",
+   "classification": [
+    "Offensive",
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Cleaver Sword",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Club",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Concealed Mouth Ember",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Conch Shell Mace",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Crossbow",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Curry of Life",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Curse Mask",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Cursed Seal Device",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Dakō",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Demon Shinki",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Demonic Flute",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Double Bladed Bracers",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Double-Bladed Scythe",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Dragon Blade",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Dōjutsu Glasses",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Elemental Puppets",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Exploding Sphere",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Explosive Tag",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Explosive Tag Ball",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Eye Medicine Plant",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Eye Scope",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Fire Gatling",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Fire Sword",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "First Hokage's Necklace",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Fishing rod",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Five Mirrors of Hope",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Flail",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Flak Jacket",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Flamethrower",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Flash Bomb",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Flying Destruction Machine",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Flying Thunder God Kunai",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Forehead Protector",
+   "classification": [
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Fūma Shuriken",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Gama-chan",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Garian Sword",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Gekkōran Flower",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Genjutsu Nullifying Perfume",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Genjutsu Pill",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Giant Folding Fan",
+   "classification": [
+    "Offensive",
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Gold Dust",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Gunbai",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Handheld Kunai Launcher",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Hashirama's Artificial Body",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Hero Water",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Hexagonal Crystal",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Hidden Kunai Mechanism",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Hiramekarei",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Hiruko",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "History of Warring States Seals",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Human Puppet",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Hundred Puppet Army",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Hyūga Clan Secret Ointment",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Ice Bomb",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Infinite Armour",
+   "classification": [
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Injection Shot",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Injection Shot Sniper",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Insect Queen Bee Drone Puppet",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Iron Sand",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Jidanda",
+   "classification": [
+    "Offensive",
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Jofuku Flower",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Jutsu Absorption Arm",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Jō",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Jōhyō",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kabutowari",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kama",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Karasu",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Katar",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Kiba (swords)",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kiseki",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Knight Sword",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kohaku no Jōhei",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kokutō",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Komushi (puppet)",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Konoha Chakra Blade",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kotarō",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kubikiribōchō",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kumogakure Swords",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kunai",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kunai Blade",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kuroari",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kurosawa",
+   "classification": [
+    "Offensive",
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kusari",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Kusarigama",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Kuwa",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Kōkinjō",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Lightning Barrel",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Lightning Release Suit",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Lion-Headed Kannon",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Liquid Crystal Wall",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "List of Technology",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Lizard Puppet",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Magnum Opus",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Makibishi",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Marlin Harpoon",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Mechanical Drilling Arm",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Mechanical Eight Trigrams Formation Drum",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Mechanical Kunai Thrower",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Metal Doll",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Metal Gauntlets",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Meteorite",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Microscopic Scientific Ninja Tools",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Military Rations Pill",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Mind Awakening Pill",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Mind Reading Amplification Machine",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Mirror Drone",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Moon Transportation Device",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Mother and Father",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Moulding Mushroom",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Nara Clan Medical Encyclopaedia",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "New Moon Flower Perfume",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Ninja Info Cards",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Nuibari",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Nunchaku",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Ocarina",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Odourless Poison Mist",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Palace of the Dragon King",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Paw Encyclopaedia",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Pepper Balloon Earrings",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Petrification Gauntlet",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Photon Gun",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Poison",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Prayer Beads",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Puppet",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Puppet Buzzsaw",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Puppet Walker",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Ray Bow",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Red Moon Scroll",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Resonating Echo Speaker",
+   "classification": [
+    "Offensive",
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Retractable Cable Arm",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Retractable Shield",
+   "classification": [
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Retractable Spear",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Saezuri",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Samehada",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sand",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sand Gourd",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sanshōuo",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sasori (puppet)",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sasumata",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Scalpel",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Scissor Pincers",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Scroll",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Scroll of Seals",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sealing Arm Braces",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sealing Tag",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Secret Treasure of the Toads",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Senbon",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shakujō",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Shibuki (sword)",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shichiseiken",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shield",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Shinigami Mask",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shinobi Battle Armour",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shinobi Gauntlet",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shinobi-Ware",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shuigu",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Shuriken",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Slime Suit",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Slingshot",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Smoke Bomb",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Smoke Tag",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Smoke-Flash Bomb",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Snowboard",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Space-Time Gate",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Space–Time Hole",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Spear",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Spike Bomb",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Spirit Orbs",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Spy Drone",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Steam Armour",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Stone Swords",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Stone of Gelel",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sword",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sword of Kusanagi (Orochimaru)",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sword of Kusanagi (Sasuke Uchiha)",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sword of Kusanagi (Scientific Ninja Tool)",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sword of Nunoboko",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sword of Totsuka",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Sword of the Thunder God",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Tailed Beast Drug",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Tantō",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Tea Kettle",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Tekkō",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Tenseigan (Energy Vessel)",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Tessen",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Third Kazekage (puppet)",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Three Coloured Pills",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Three-Section Staff",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "Toad (Scientific Ninja Tool)",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Tobishachimaru",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Tonfa",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Treasured Tools of the Sage of Six Paths",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Triple-Bladed Scythe",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Tsurukame",
+   "classification": [
+    "Offensive",
+    "Defensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Umbrella",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Vambraces",
+   "classification": [
+    "Offensive",
+    "Defensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Vampire Puppet",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Water Stream Shooters",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Water-Firing Puppets",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Weaknessless Soaring Shortswords",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Weights",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Whip",
+   "classification": [
+    "Generic"
+   ],
+   "soft_redirect": true
+  },
+  {
+   "title": "White Light Chakra Sabre",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Winged Mechanical Device",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Wire Strings",
+   "classification": [
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Wrist Launcher",
+   "classification": [
+    "Offensive",
+    "Supplementary"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Wrist-Mounted Senbon Launcher",
+   "classification": [
+    "Offensive"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Yata Mirror",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  },
+  {
+   "title": "Ōtsutsuki Clan Puppets",
+   "classification": [
+    "Unclassified"
+   ],
+   "soft_redirect": false
+  }
+ ]
+}

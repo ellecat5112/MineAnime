@@ -1,6 +1,7 @@
 package com.narutorpg.datagen;
 
 import com.narutorpg.content.HandSigns;
+import com.narutorpg.content.NarutoTools;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -32,11 +33,18 @@ final class NarutoLangProvider extends FabricLanguageProvider {
         t.add("transformation.narutorpg.mangekyo_sharingan", "Mangekyo Sharingan");
         t.add("message.narutorpg.fire_underwater", "Your Fire Release fizzles underwater");
 
-        t.add("item.narutorpg.kunai", "Kunai");
         t.add("item.narutorpg.chakra_blade", "Chakra Blade");
         t.add("item.narutorpg.jutsu_scroll", "Jutsu Scroll");
         t.add("item.narutorpg.leaf_headband", "Hidden Leaf Headband");
         t.add("itemGroup.narutorpg", "NarutoRPG");
+        for (String group : NarutoTools.GROUPS) {
+            t.add("itemGroup.narutorpg.tools_" + group.toLowerCase(), "Ninja Tools: " + group);
+        }
+        NarutoTools.specs().forEach((id, spec) -> {
+            if (!NarutoTools.items().containsKey(id)) return;
+            t.add("item.narutorpg." + id, spec.name());
+            if (!spec.description().isEmpty()) t.add("item.narutorpg." + id + ".desc", spec.description());
+        });
         t.add("pool.narutorpg.chakra", "Chakra");
         t.add("pool.narutorpg.stamina", "Stamina");
         t.add("key.categories.narutorpg", "NarutoRPG");

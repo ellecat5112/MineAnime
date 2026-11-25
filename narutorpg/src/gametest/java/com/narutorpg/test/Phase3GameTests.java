@@ -115,25 +115,25 @@ public final class Phase3GameTests implements FabricGameTest {
     }
 
     @GameTest(templateName = EMPTY_STRUCTURE)
-    public void infusedKunaiBonusDamageAndCost(TestContext ctx) {
+    public void infusedChakraBladeBonusDamageAndCost(TestContext ctx) {
         ServerPlayerEntity player = uchiha(ctx);
         PlayerPowerComponent power = NarutoRPG.CTX.power(player);
-        AnimeWeaponItem kunai = (AnimeWeaponItem) NarutoItems.KUNAI;
-        ItemStack stack = new ItemStack(kunai);
+        AnimeWeaponItem blade = (AnimeWeaponItem) NarutoItems.CHAKRA_BLADE;
+        ItemStack stack = new ItemStack(blade);
         player.setStackInHand(Hand.MAIN_HAND, stack);
         ZombieEntity zombie = ctx.spawnEntity(EntityType.ZOMBIE, 1, 2, 1);
 
         var source = player.getDamageSources().playerAttack(player);
-        ctx.assertTrue(kunai.getBonusAttackDamage(zombie, 0f, source) == 0f, "dormant weapon gives no bonus");
+        ctx.assertTrue(blade.getBonusAttackDamage(zombie, 0f, source) == 0f, "dormant weapon gives no bonus");
         float before = power.pool(CHAKRA).orElseThrow().current();
-        ctx.assertTrue(kunai.toggleInfusion(player, stack), "infusion failed");
+        ctx.assertTrue(blade.toggleInfusion(player, stack), "infusion failed");
         ctx.assertTrue(FIRE.getValue().equals(AnimeWeaponItem.infusion(stack).affinity().orElse(null)), "should adopt uchiha fire");
-        ctx.assertTrue(Math.abs(before - power.pool(CHAKRA).orElseThrow().current() - 5f) < 1e-3, "toggle cost");
-        float bonus = kunai.getBonusAttackDamage(zombie, 0f, source);
-        ctx.assertTrue(Math.abs(bonus - 2f * 1.15f) < 1e-3, "expected 2.3 bonus (2 x uchiha fire), got " + bonus);
+        ctx.assertTrue(Math.abs(before - power.pool(CHAKRA).orElseThrow().current() - 10f) < 1e-3, "toggle cost");
+        float bonus = blade.getBonusAttackDamage(zombie, 0f, source);
+        ctx.assertTrue(Math.abs(bonus - 4f * 1.15f) < 1e-3, "expected 4.6 bonus (4 x uchiha fire), got " + bonus);
         float mid = power.pool(CHAKRA).orElseThrow().current();
-        kunai.postHit(stack, zombie, player);
-        ctx.assertTrue(Math.abs(mid - power.pool(CHAKRA).orElseThrow().current() - 1f) < 1e-3, "hit cost not paid");
+        blade.postHit(stack, zombie, player);
+        ctx.assertTrue(Math.abs(mid - power.pool(CHAKRA).orElseThrow().current() - 2f) < 1e-3, "hit cost not paid");
         ctx.complete();
     }
 

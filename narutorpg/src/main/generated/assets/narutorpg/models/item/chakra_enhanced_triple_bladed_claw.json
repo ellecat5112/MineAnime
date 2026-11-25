@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "narutorpg:item/chakra_enhanced_triple_bladed_claw"
+  }
+}

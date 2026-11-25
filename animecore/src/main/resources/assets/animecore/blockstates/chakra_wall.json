@@ -1,0 +1,16 @@
+{
+ "variants": {
+  "kind=barrier": {
+   "model": "animecore:block/chakra_wall_barrier"
+  },
+  "kind=crystal": {
+   "model": "animecore:block/chakra_wall_crystal"
+  },
+  "kind=stone": {
+   "model": "animecore:block/chakra_wall_stone"
+  },
+  "kind=mirror": {
+   "model": "animecore:block/chakra_wall_mirror"
+  }
+ }
+}

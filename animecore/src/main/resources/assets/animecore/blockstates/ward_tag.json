@@ -1,0 +1,22 @@
+{
+ "variants": {
+  "linked=false,mode=barrier": {
+   "model": "animecore:block/ward_tag_barrier"
+  },
+  "linked=true,mode=barrier": {
+   "model": "animecore:block/ward_tag_barrier"
+  },
+  "linked=false,mode=explosive": {
+   "model": "animecore:block/ward_tag_explosive"
+  },
+  "linked=true,mode=explosive": {
+   "model": "animecore:block/ward_tag_explosive"
+  },
+  "linked=false,mode=smoke": {
+   "model": "animecore:block/ward_tag_smoke"
+  },
+  "linked=true,mode=smoke": {
+   "model": "animecore:block/ward_tag_smoke"
+  }
+ }
+}

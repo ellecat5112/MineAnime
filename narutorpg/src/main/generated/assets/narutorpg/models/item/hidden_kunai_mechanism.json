@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "narutorpg:item/hidden_kunai_mechanism"
+  }
+}

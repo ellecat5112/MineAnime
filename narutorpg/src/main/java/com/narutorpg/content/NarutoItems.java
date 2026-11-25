@@ -27,10 +27,10 @@ public final class NarutoItems {
 
     private static final String SYSTEM = NarutoRPG.MOD_ID;
 
-    /** Fast, cheap to infuse, deflects shuriken/arrows when infused. */
-    public static final Item KUNAI = register("kunai", new AnimeWeaponItem(ToolMaterials.IRON, 2, -1.8f,
-            new AnimeWeaponItem.WeaponSpec(SYSTEM, NarutoContent.CHAKRA, 2f, 1f, 5f, 6f, 0.4f, 30, 4f, true),
-            new Item.Settings()));
+    static { NarutoTools.init(); }
+
+    /** From the wiki catalog: stab, or throw (with an Explosive Tag in the off-hand: explosive kunai). */
+    public static final Item KUNAI = NarutoTools.item("kunai");
 
     /** Trench-knife style chakra blades: strong infusion, long charged slash. */
     public static final Item CHAKRA_BLADE = register("chakra_blade", new AnimeWeaponItem(ToolMaterials.DIAMOND, 3, -2.0f,
@@ -50,7 +50,6 @@ public final class NarutoItems {
                     .icon(() -> new ItemStack(KUNAI))
                     .displayName(Text.translatable("itemGroup.narutorpg"))
                     .entries((context, entries) -> {
-                        entries.add(KUNAI);
                         entries.add(CHAKRA_BLADE);
                         entries.add(LEAF_HEADBAND);
                         entries.addAll(AnimeItemVariants.infusedVariants(CHAKRA_BLADE, SYSTEM, context.lookup()));

@@ -18,5 +18,17 @@ public final class AnimeEntities {
                     .trackingTickInterval(1)
                     .build("energy_projectile"));
 
-    public static void init() {}
+    public static final EntityType<ThrownToolEntity> THROWN_TOOL = Registry.register(Registries.ENTITY_TYPE,
+            Ids.core("thrown_tool"),
+            EntityType.Builder.<ThrownToolEntity>create(ThrownToolEntity::new, SpawnGroup.MISC)
+                    .dimensions(0.35f, 0.35f).maxTrackingRange(6).trackingTickInterval(2).build("thrown_tool"));
+
+    public static final EntityType<PuppetEntity> PUPPET = Registry.register(Registries.ENTITY_TYPE,
+            Ids.core("puppet"),
+            EntityType.Builder.<PuppetEntity>create(PuppetEntity::new, SpawnGroup.MISC)
+                    .dimensions(0.6f, 1.9f).maxTrackingRange(8).build("puppet"));
+
+    public static void init() {
+        net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry.register(PUPPET, PuppetEntity.createAttributes());
+    }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "narutorpg:item/mechanical_eight_trigrams_formation_drum"
+  }
+}

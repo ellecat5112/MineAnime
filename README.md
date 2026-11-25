@@ -2,8 +2,8 @@
 
 | Module | Package | Role | Jar |
 |---|---|---|---|
-| `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~286 KB (budget 1.5 MB) |
-| `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~38 KB (budget 15 MB) |
+| `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~437 KB (budget 1.5 MB) |
+| `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~297 KB (budget 15 MB) |
 
 Runtime deps (installed separately, **never bundled**): Fabric API, Cardinal Components API 6.1.x,
 PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
@@ -11,7 +11,8 @@ PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
 ```bash
 ./gradlew build                    # builds both jars + verifyAssetBudget + verifyJarBudget (no nested jars)
 ./gradlew :narutorpg:runDatagen    # regenerates data/narutorpg/animecore/** + lang
-./gradlew :narutorpg:runGametest   # 20 headless end-to-end tests (incl. a 2nd power system with flight)
+./gradlew :narutorpg:runGametest   # 30 headless end-to-end tests (incl. every move of all 244 ninja tools)
+python3 tools/catalog/build.py     # regenerate ninja_tools.json + 244 sprites (then runDatagen)
 ./gradlew :narutorpg:runClient     # dev client with both mods
 ```
 
@@ -94,6 +95,20 @@ com.narutorpg
 └── client/                NarutoRPGClient (keybinds), compat/NarutoJeiPlugin (one-line JEI plugin)
 src/gametest/…             headless GameTests (not shipped)
 ```
+
+## Ninja tools (Narutopedia `Category:Tools`)
+All **244** tool pages (+3 index pages documented as skipped) are items, one creative tab per wiki
+"Tool classification" group (Offensive / Defensive / Supplementary / Unclassified / Generic). Every tool has a
+32x32 sprite, a melee attack (LEFT) with optional on-hit effect, a primary move (RIGHT) and a secondary move
+(SNEAK+RIGHT), built from 24 reusable engine moves (`com.animecore.tool`). Full mapping: `docs/wiki/narutopedia_tools.md`.
+
+- **Barrier Tag**: place one for a temporary 5x3 wall; place 3+ in sequence (within 10 blocks, 30 s) to link a lasting
+  Barrier Gate that stands until a tag is broken.
+- **Kunai**: stab, or throw (retrievable); with an Explosive Tag in the off-hand it becomes an explosive kunai.
+- Puppets (Karasu, Kuroari, Sanshōuo, Sasori...) are allies on chakra threads; Flying Thunder God kunai mark & warp;
+  sealing tags / Benihisago seal weakened foes; fans gust; Gunbai reflects; pills restore chakra; gliders fly...
+
+![Tool sprites](docs/screenshots/p4_tool_sprites.png)
 
 ## Controls (NarutoRPG, all rebindable under *Controls › NarutoRPG*)
 | Key | Action |

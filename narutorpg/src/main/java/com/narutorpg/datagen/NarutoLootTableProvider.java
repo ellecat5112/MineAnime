@@ -5,6 +5,7 @@ import com.animecore.loot.SetAbilityScrollFunction;
 import com.narutorpg.NarutoRPG;
 import com.narutorpg.content.NarutoContent;
 import com.narutorpg.content.NarutoItems;
+import com.narutorpg.content.NarutoTools;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.SimpleFabricLootTableProvider;
 import net.minecraft.loot.LootTable;
@@ -36,6 +37,18 @@ final class NarutoLootTableProvider extends SimpleFabricLootTableProvider {
                         .with(AnimeLootHelper.elementalWeapon(NarutoItems.KUNAI, system, 10))
                         .with(AnimeLootHelper.elementalWeapon(NarutoItems.CHAKRA_BLADE, system, 1))
                         .with(ItemEntry.builder(NarutoItems.LEAF_HEADBAND).weight(3))
-                        .with(EmptyEntry.builder().weight(6))));
+                        .with(EmptyEntry.builder().weight(6)))
+                // Everyday shinobi supplies from the wiki tool catalog.
+                .pool(AnimeLootHelper.pool(1, 3)
+                        .with(supply("shuriken", 6, 2, 8)).with(supply("senbon", 4, 3, 9)).with(supply("explosive_tag", 4, 1, 3))
+                        .with(supply("smoke_bomb", 3, 1, 3)).with(supply("makibishi", 3, 2, 6)).with(supply("barrier_tag", 3, 1, 4))
+                        .with(supply("military_rations_pill", 3, 1, 3)).with(supply("blood_increasing_pill", 2, 1, 2))
+                        .with(supply("flash_bomb", 2, 1, 2)).with(supply("wire_strings", 2, 1, 3))));
+    }
+
+    private static net.minecraft.loot.entry.LeafEntry.Builder<?> supply(String id, int weight, int min, int max) {
+        return ItemEntry.builder(NarutoTools.item(id)).weight(weight)
+                .apply(net.minecraft.loot.function.SetCountLootFunction.builder(
+                        net.minecraft.loot.provider.number.UniformLootNumberProvider.create(min, max)));
     }
 }
