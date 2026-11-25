@@ -110,6 +110,14 @@ All **244** tool pages (+3 index pages documented as skipped) are items, one cre
 
 ![Tool sprites](docs/screenshots/p4_tool_sprites.png)
 
+**Low-poly 3D weapons**: 99 weapons (blades, polearms, thrown, fans, shields, gauntlets, launchers...) also ship a
+Blockbench-style cuboid model generated from their design (`tools/catalog/model3d.py`, palette textures derived from
+the sprite). Like the vanilla trident, the inventory shows the flat icon while hands, the ground, item frames and
+thrown projectiles use the 3D model (engine: `com.animecore.client.render.HeldModels`, reusable by any anime mod).
+Display transforms are derived from vanilla's handheld/generated transforms and tuned in-game.
+
+![Low-poly models](docs/screenshots/p5_lowpoly_first_person.png)
+
 ## Controls (NarutoRPG, all rebindable under *Controls › NarutoRPG*)
 | Key | Action |
 |---|---|

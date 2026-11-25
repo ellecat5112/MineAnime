@@ -133,7 +133,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Altering Terrain Diagram Scroll",
@@ -353,7 +354,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Artificial Sharingan",
@@ -498,7 +500,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Barrier Puppets",
@@ -628,7 +631,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Bell",
@@ -1011,7 +1015,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Blue Fire Powder",
@@ -1159,7 +1164,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Box of Ultimate Bliss",
@@ -1307,7 +1313,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Chain Wind Staff",
@@ -1347,7 +1354,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Chakra Armour",
@@ -1482,7 +1490,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Chakra Disruption Device",
@@ -1579,7 +1588,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Chakra Transmission Communication Device",
@@ -1835,7 +1845,8 @@
    "Offensive",
    "Defensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Cleaver Sword",
@@ -1878,7 +1889,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Club",
@@ -1925,7 +1937,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Concealed Mouth Ember",
@@ -2032,7 +2045,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Crossbow",
@@ -2094,7 +2108,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Curry of Life",
@@ -2332,7 +2347,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Demon Shinki",
@@ -2484,7 +2500,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Double-Bladed Scythe",
@@ -2532,7 +2549,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Dragon Blade",
@@ -2578,7 +2596,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Dōjutsu Glasses",
@@ -2975,7 +2994,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Fire Sword",
@@ -3031,7 +3051,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "First Hokage's Necklace",
@@ -3141,7 +3162,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Five Mirrors of Hope",
@@ -3227,7 +3249,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Flak Jacket",
@@ -3319,7 +3342,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Flash Bomb",
@@ -3475,7 +3499,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Forehead Protector",
@@ -3563,7 +3588,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Gama-chan",
@@ -3656,7 +3682,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Gekkōran Flower",
@@ -3900,7 +3927,8 @@
    "Offensive",
    "Defensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Gold Dust",
@@ -3987,7 +4015,8 @@
    "Defensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Handheld Kunai Launcher",
@@ -4041,7 +4070,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Hashirama's Artificial Body",
@@ -4267,7 +4297,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Hiramekarei",
@@ -4309,7 +4340,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Hiruko",
@@ -4738,7 +4770,8 @@
   "classification": [
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Injection Shot Sniper",
@@ -4828,7 +4861,8 @@
   "classification": [
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Insect Queen Bee Drone Puppet",
@@ -4955,7 +4989,8 @@
    "Offensive",
    "Defensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Jofuku Flower",
@@ -5093,7 +5128,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Jōhyō",
@@ -5185,7 +5221,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kama",
@@ -5246,7 +5283,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Karasu",
@@ -5333,7 +5371,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kiba (swords)",
@@ -5384,7 +5423,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kiseki",
@@ -5466,7 +5506,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kohaku no Jōhei",
@@ -5565,7 +5606,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Komushi (puppet)",
@@ -5658,7 +5700,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kotarō",
@@ -5760,7 +5803,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kumogakure Swords",
@@ -5807,7 +5851,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kunai",
@@ -5847,7 +5892,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kunai Blade",
@@ -5900,7 +5946,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kuroari",
@@ -5993,7 +6040,8 @@
    "Offensive",
    "Defensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kusari",
@@ -6045,7 +6093,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kusarigama",
@@ -6098,7 +6147,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kuwa",
@@ -6136,7 +6186,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Kōkinjō",
@@ -6505,7 +6556,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Marlin Harpoon",
@@ -6550,7 +6602,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Mechanical Drilling Arm",
@@ -6598,7 +6651,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Mechanical Eight Trigrams Formation Drum",
@@ -6710,7 +6764,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Metal Doll",
@@ -6818,7 +6873,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Meteorite",
@@ -7514,7 +7570,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Nunchaku",
@@ -7550,7 +7607,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Ocarina",
@@ -7986,7 +8044,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Photon Gun",
@@ -8036,7 +8095,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Poison",
@@ -8289,7 +8349,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Puppet Walker",
@@ -8397,7 +8458,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Red Moon Scroll",
@@ -8586,7 +8648,8 @@
   "classification": [
    "Defensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Retractable Spear",
@@ -8648,7 +8711,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Saezuri",
@@ -8754,7 +8818,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Sand",
@@ -8965,7 +9030,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Scalpel",
@@ -9018,7 +9084,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Scissor Pincers",
@@ -9071,7 +9138,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Scroll",
@@ -9420,7 +9488,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Shakujō",
@@ -9465,7 +9534,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Shibuki (sword)",
@@ -9506,7 +9576,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Shichiseiken",
@@ -9545,7 +9616,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Shield",
@@ -9590,7 +9662,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Shinigami Mask",
@@ -9740,7 +9813,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Shuigu",
@@ -9795,7 +9869,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Shuriken",
@@ -9847,7 +9922,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Slime Suit",
@@ -9943,7 +10019,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Smoke Bomb",
@@ -10338,7 +10415,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Spike Bomb",
@@ -10586,7 +10664,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Stone of Gelel",
@@ -10679,7 +10758,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Sword of Kusanagi (Orochimaru)",
@@ -10733,7 +10813,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Sword of Kusanagi (Sasuke Uchiha)",
@@ -10779,7 +10860,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Sword of Kusanagi (Scientific Ninja Tool)",
@@ -10825,7 +10907,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Sword of Nunoboko",
@@ -10867,7 +10950,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Sword of Totsuka",
@@ -10922,7 +11006,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Sword of the Thunder God",
@@ -10974,7 +11059,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Tailed Beast Drug",
@@ -11091,7 +11177,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Tea Kettle",
@@ -11202,7 +11289,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Tenseigan (Energy Vessel)",
@@ -11283,7 +11371,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Third Kazekage (puppet)",
@@ -11444,7 +11533,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Toad (Scientific Ninja Tool)",
@@ -11569,7 +11659,8 @@
    "Defensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Triple-Bladed Scythe",
@@ -11622,7 +11713,8 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Tsurukame",
@@ -11662,7 +11754,8 @@
    "Offensive",
    "Defensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Umbrella",
@@ -11707,7 +11800,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Vambraces",
@@ -11938,7 +12032,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Weights",
@@ -12029,7 +12124,8 @@
   "classification": [
    "Generic"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "White Light Chakra Sabre",
@@ -12067,7 +12163,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Winged Mechanical Device",
@@ -12235,7 +12332,8 @@
    "Offensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Wrist-Mounted Senbon Launcher",
@@ -12305,7 +12403,8 @@
   "classification": [
    "Offensive"
   ],
-  "existing": false
+  "existing": false,
+  "model3d": true
  },
  {
   "wiki": "Yata Mirror",

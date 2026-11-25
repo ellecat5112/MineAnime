@@ -4,6 +4,8 @@ import com.animecore.client.input.AnimeKeybinds;
 import com.animecore.movement.MovementMode;
 import com.narutorpg.NarutoRPG;
 import com.narutorpg.content.HandSigns;
+import com.animecore.client.render.HeldModels;
+import com.narutorpg.content.NarutoTools;
 import net.fabricmc.api.ClientModInitializer;
 import org.lwjgl.glfw.GLFW;
 
@@ -33,5 +35,8 @@ public final class NarutoRPGClient implements ClientModInitializer {
         AnimeKeybinds.transformStage(ctx, -1, GLFW.GLFW_KEY_M);
         AnimeKeybinds.movementToggle(ctx, MovementMode.SURFACE_ADHESION, GLFW.GLFW_KEY_J);
         AnimeKeybinds.burstStep(ctx, GLFW.GLFW_KEY_LEFT_ALT);
+
+        // Low-poly 3D models for weapons (tools/catalog/model3d.py): flat icon in GUIs, 3D in hand / world.
+        NarutoTools.model3dIds().forEach(id -> HeldModels.register(NarutoTools.item(id), ctx.id("item/3d/" + id)));
     }
 }

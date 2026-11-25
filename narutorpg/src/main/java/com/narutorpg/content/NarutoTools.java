@@ -37,12 +37,14 @@ public final class NarutoTools {
 
     private static final Map<String, ToolSpec> SPECS = new LinkedHashMap<>();
     private static final Map<String, Item> ITEMS = new LinkedHashMap<>();
+    private static final List<String> MODEL3D = new ArrayList<>();
 
     static {
         for (JsonElement el : readCatalog()) {
             ToolSpec spec = ToolSpec.CODEC.parse(JsonOps.INSTANCE, el).getOrThrow(msg -> new IllegalStateException("Bad tool " + el + ": " + msg));
             SPECS.put(spec.id(), spec);
             boolean existing = el.getAsJsonObject().has("existing") && el.getAsJsonObject().get("existing").getAsBoolean();
+            if (el.getAsJsonObject().has("model3d") && !existing) MODEL3D.add(spec.id());
             if (existing) continue;
             Item item = spec.armor().isPresent() ? new NinjaArmorItem(spec, NarutoRPG.CTX) : new NinjaToolItem(spec, NarutoRPG.CTX);
             ITEMS.put(spec.id(), Registry.register(Registries.ITEM, NarutoRPG.CTX.id(spec.id()), item));
@@ -90,6 +92,9 @@ public final class NarutoTools {
 
     public static Map<String, Item> items() { return Collections.unmodifiableMap(ITEMS); }
     public static Map<String, ToolSpec> specs() { return Collections.unmodifiableMap(SPECS); }
+
+    /** Tools that ship a low-poly 3D model at {@code models/item/3d/<id>.json}. */
+    public static List<String> model3dIds() { return Collections.unmodifiableList(MODEL3D); }
 
     public static List<String> ids() { return new ArrayList<>(SPECS.keySet()); }
 

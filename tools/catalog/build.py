@@ -4,6 +4,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import catalog
 import spritegen
+import model3d
 
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 WIKI = json.load(open(os.path.join(ROOT, 'docs', 'wiki', 'narutopedia_tools.json'), encoding='utf-8'))
@@ -102,6 +103,14 @@ def main():
         if e['id'] not in catalog.EXISTING:
             img = spritegen.render(e['sprite'], e['id'])
             img.save(os.path.join(RES, 'textures', 'item', e['id'] + '.png'), optimize=True)
+            model, pal = model3d.build(e['sprite']['shape'], e['id'], e['sprite']['colors'])
+            if model:
+                os.makedirs(os.path.join(RES, 'models', 'item', '3d'), exist_ok=True)
+                os.makedirs(os.path.join(RES, 'textures', 'item', '3d'), exist_ok=True)
+                with open(os.path.join(RES, 'models', 'item', '3d', e['id'] + '.json'), 'w') as f:
+                    json.dump(model, f, separators=(',', ':'))
+                pal.save(os.path.join(RES, 'textures', 'item', '3d', e['id'] + '.png'), optimize=True)
+                spec['model3d'] = True
     with open(os.path.join(RES, 'ninja_tools.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=1, ensure_ascii=False)
     write_doc(out, pages)
