@@ -32,6 +32,11 @@ final class NarutoLangProvider extends FabricLanguageProvider {
         t.add("transformation.narutorpg.mangekyo_sharingan", "Mangekyo Sharingan");
         t.add("message.narutorpg.fire_underwater", "Your Fire Release fizzles underwater");
 
+        t.add("item.narutorpg.kunai", "Kunai");
+        t.add("item.narutorpg.chakra_blade", "Chakra Blade");
+        t.add("item.narutorpg.jutsu_scroll", "Jutsu Scroll");
+        t.add("item.narutorpg.leaf_headband", "Hidden Leaf Headband");
+        t.add("itemGroup.narutorpg", "NarutoRPG");
         t.add("pool.narutorpg.chakra", "Chakra");
         t.add("pool.narutorpg.stamina", "Stamina");
         t.add("key.categories.narutorpg", "NarutoRPG");

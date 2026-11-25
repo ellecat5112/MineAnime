@@ -17,6 +17,8 @@ public final class NarutoDataGenerator implements DataGeneratorEntrypoint {
         FabricDataGenerator.Pack pack = generator.createPack();
         pack.addProvider(Content::new);
         pack.addProvider(NarutoLangProvider::new);
+        pack.addProvider(NarutoLootTableProvider::new);
+        pack.addProvider(NarutoModelProvider::new);
     }
 
     @Override

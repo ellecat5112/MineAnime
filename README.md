@@ -2,8 +2,8 @@
 
 | Module | Package | Role | Jar |
 |---|---|---|---|
-| `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~233 KB (budget 1.5 MB) |
-| `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~27 KB (budget 15 MB) |
+| `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~286 KB (budget 1.5 MB) |
+| `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~38 KB (budget 15 MB) |
 
 Runtime deps (installed separately, **never bundled**): Fabric API, Cardinal Components API 6.1.x,
 PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
@@ -11,7 +11,7 @@ PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
 ```bash
 ./gradlew build                    # builds both jars + verifyAssetBudget + verifyJarBudget (no nested jars)
 ./gradlew :narutorpg:runDatagen    # regenerates data/narutorpg/animecore/** + lang
-./gradlew :narutorpg:runGametest   # 13 headless end-to-end tests (incl. a 2nd power system with flight)
+./gradlew :narutorpg:runGametest   # 20 headless end-to-end tests (incl. a 2nd power system with flight)
 ./gradlew :narutorpg:runClient     # dev client with both mods
 ```
 
@@ -63,8 +63,10 @@ com.animecore
 ├── movement/                      MovementMode, MovementSpec, AnimeMovementHandler (adhesion, flight,
 │                                  burst step), MotionUtil
 ├── mixin/LivingEntityMixin        walls act as ladders + water is walkable while adhesion is on
-│   ─ Phase 3: item/ (AnimeWeaponItem, AnimeDataComponents), loot/ (SetAbilityScrollFunction,
-│     SetAnimeWeaponDataFunction), compat/jei/AbstractAnimeJeiPlugin
+├── item/                          AnimeDataComponents (ability_scroll, weapon_infusion, faction_badge),
+│                                  AnimeWeaponItem, AbilityScrollItem, FactionBadgeItem, AnimeItemVariants
+├── loot/                          SetAbilityScrollFunction, SetAnimeWeaponDataFunction, AnimeLootFunctions,
+│                                  AnimeLootHelper (vanilla injection + DataGen builders, Lootr-safe)
 └── client/  (src/client/java, the only place MinecraftClient is referenced)
     ├── AnimeCoreClient
     ├── platform/AnimeClientNetworking
@@ -75,6 +77,8 @@ com.animecore
     │   └── element/                      EnergyBars, Transformation, AbilityHotbar, ComboTrail
     ├── combo/ComboWheelScreen            radial combo input with continuation hints
     └── render/                           ProceduralAuraRenderer, AfterimageEffects (texture-free)
+com.animecore.compat.jei (client source set) AbstractAnimeJeiPlugin, AnimeComponentSubtypeInterpreter,
+                                  AbilityScrollCategory, EnergyInfusionCategory
 ```
 
 ## `com.narutorpg` package tree
@@ -82,10 +86,12 @@ com.animecore
 com.narutorpg
 ├── NarutoRPG              AnimeModContext: chakra + stamina pools, hand-sign animations
 ├── NarutoComponents       CCA entrypoint (3 lines)
-├── content/               NarutoContent (registry keys), HandSigns (tiger, ram, snake, bird, boar, horse)
+├── content/               NarutoContent (registry keys), HandSigns, NarutoItems (kunai, chakra blade,
+│                          jutsu scroll, leaf headband, creative tab, shinobi-cache loot injection)
 ├── mechanic/              NarutoMechanics: Fire jutsu fizzle underwater, Sharingan chakra discount
-├── datagen/               NarutoDataGenerator, NarutoContentBootstrap, NarutoLangProvider
-└── client/NarutoRPGClient keybinds (see below)
+├── datagen/               NarutoDataGenerator, NarutoContentBootstrap, NarutoLangProvider,
+│                          NarutoLootTableProvider, NarutoModelProvider
+└── client/                NarutoRPGClient (keybinds), compat/NarutoJeiPlugin (one-line JEI plugin)
 src/gametest/…             headless GameTests (not shipped)
 ```
 
@@ -102,6 +108,18 @@ src/gametest/…             headless GameTests (not shipped)
 ![HUD](docs/screenshots/1_firstperson_hud.png)
 ![Aura](docs/screenshots/2_aura_front.png)
 ![Combo wheel](docs/screenshots/3_combo_wheel.png)
+![JEI scrolls](docs/screenshots/p3_jei_scroll_category.png)
+![JEI infusion](docs/screenshots/p3_jei_infusion_category.png)
+
+## Items & loot (Phase 3)
+| Item | Behaviour |
+|---|---|
+| Kunai / Chakra Blade | Sneak+Use infuses with your affinity (bonus elemental damage per hit, frontal projectile deflection); hold Use for a charged slash |
+| Jutsu Scroll | `animecore:ability_scroll` component; use to learn the technique |
+| Hidden Leaf Headband | `animecore:faction_badge`; use to join the Hidden Leaf |
+
+`narutorpg:chests/shinobi_cache` is injected (40%) into dungeons, mineshafts, weaponsmiths and outposts.
+All randomness comes from the loot context, so Lootr's per-player chests each roll their own scroll/element.
 
 ## Try it (dev client, cheats on)
 ```

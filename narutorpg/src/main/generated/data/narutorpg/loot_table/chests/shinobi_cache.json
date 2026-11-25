@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "animecore:set_ability_scroll",
+              "max_tier": 3,
+              "system": "narutorpg"
+            }
+          ],
+          "name": "narutorpg:jutsu_scroll",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "ability": "narutorpg:substitution_jutsu",
+              "function": "animecore:set_ability_scroll"
+            }
+          ],
+          "name": "narutorpg:jutsu_scroll",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "animecore:set_anime_weapon_data",
+              "random_affinity_from": "narutorpg"
+            }
+          ],
+          "name": "narutorpg:kunai",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "animecore:set_anime_weapon_data",
+              "random_affinity_from": "narutorpg"
+            }
+          ],
+          "name": "narutorpg:chakra_blade"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:leaf_headband",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 6
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    }
+  ]
+}

@@ -6,6 +6,9 @@ import com.animecore.animation.AnimationService;
 import com.animecore.api.event.AnimeCoreEvents;
 import com.animecore.command.AnimeCoreCommands;
 import com.animecore.entity.AnimeEntities;
+import com.animecore.item.AnimeDataComponents;
+import com.animecore.item.AnimeWeaponItem;
+import com.animecore.loot.AnimeLootFunctions;
 import com.animecore.network.AnimeCoreNetworking;
 import com.animecore.registry.AnimeBuiltinRegistries;
 import com.animecore.registry.AnimeRegistries;
@@ -31,6 +34,8 @@ public final class AnimeCore implements ModInitializer {
         TraitModifiers.init();
         AnimeRegistries.init();
         AnimeEntities.init();
+        AnimeDataComponents.init();
+        AnimeLootFunctions.init();
         AnimeCoreNetworking.init();
 
         CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> AnimeCoreCommands.register(dispatcher));
@@ -40,6 +45,7 @@ public final class AnimeCore implements ModInitializer {
         // Reactive dodge / counter (Substitution, Z-Vanish, Flash Step): listeners first, then armed abilities.
         ServerLivingEntityEvents.ALLOW_DAMAGE.register((entity, source, amount) -> {
             if (!(entity instanceof ServerPlayerEntity player)) return true;
+            if (AnimeWeaponItem.tryDeflect(player, source)) return false;
             if (AnimeCoreEvents.REACTIVE_DEFENSE.invoker().tryDefend(player, source, amount)) return false;
             return !AbilityExecutor.triggerReactive(player, source);
         });

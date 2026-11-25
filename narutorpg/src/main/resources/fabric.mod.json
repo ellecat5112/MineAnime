@@ -12,7 +12,8 @@
     "main": ["com.narutorpg.NarutoRPG"],
     "client": ["com.narutorpg.client.NarutoRPGClient"],
     "cardinal-components": ["com.narutorpg.NarutoComponents"],
-    "fabric-datagen": ["com.narutorpg.datagen.NarutoDataGenerator"]
+    "fabric-datagen": ["com.narutorpg.datagen.NarutoDataGenerator"],
+    "jei_mod_plugin": ["com.narutorpg.client.compat.NarutoJeiPlugin"]
   },
   "depends": {
     "fabricloader": ">=0.16.0",

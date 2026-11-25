@@ -27,6 +27,7 @@ dependencies {
     // Depend on the engine as a separate mod; it is NOT bundled into narutorpg.jar.
     implementation project(path: ':animecore', configuration: 'namedElements')
     clientImplementation project(':animecore').sourceSets.client.output
+    // To try the JEI plugin in runClient, drop a production JEI jar into narutorpg/run/mods (Loader remaps it).
 }
 
 // configureDataGeneration() already registers src/main/generated as a resource dir.

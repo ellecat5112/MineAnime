@@ -7,3 +7,4 @@ out/
 .vscode/
 src/main/generated/.cache/
 **/src/main/generated/.cache/
+dist/
