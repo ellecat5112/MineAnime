@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'mineanime'
+
+// :animecore  -> reusable, anime-agnostic RPG engine (com.animecore.*)
+// :narutorpg  -> Naruto content mod built on the engine (com.narutorpg.*)
+// Future: include 'bleachrpg', 'dragonballrpg', 'jjkrpg', 'onepiecerpg'
+include 'animecore', 'narutorpg'

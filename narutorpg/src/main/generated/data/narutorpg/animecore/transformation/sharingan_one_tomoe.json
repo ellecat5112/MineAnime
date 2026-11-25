@@ -1,0 +1,34 @@
+{
+  "activation_cost": 2.0,
+  "drain_per_tick": 0.04,
+  "mastery_to_evolve": 6000,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.05
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "translate": "transformation.narutorpg.sharingan_one_tomoe"
+  },
+  "next_stage": "narutorpg:sharingan_two_tomoe",
+  "pool": "narutorpg:chakra",
+  "required_lineage": "narutorpg:uchiha",
+  "system": "narutorpg",
+  "visuals": {
+    "aura_color": 12986408,
+    "aura_intensity": 0.3
+  }
+}

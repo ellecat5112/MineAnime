@@ -1,0 +1,33 @@
+{
+  "activation_cost": 15.0,
+  "drain_per_tick": 0.3,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.5
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.2,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.4,
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "translate": "transformation.narutorpg.mangekyo_sharingan"
+  },
+  "pool": "narutorpg:chakra",
+  "required_lineage": "narutorpg:uchiha",
+  "required_tier": 10,
+  "system": "narutorpg",
+  "visuals": {
+    "aura_color": 12986408,
+    "aura_intensity": 1.2
+  }
+}

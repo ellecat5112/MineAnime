@@ -1,0 +1,9 @@
+.gradle/
+build/
+run/
+out/
+*.iml
+.idea/
+.vscode/
+src/main/generated/.cache/
+**/src/main/generated/.cache/

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "narutorpg-gametest",
+  "version": "1.0.0",
+  "name": "NarutoRPG GameTests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-gametest": ["com.narutorpg.test.NarutoGameTests"]
+  },
+  "depends": { "narutorpg": "*", "fabric-gametest-api-v1": "*" }
+}

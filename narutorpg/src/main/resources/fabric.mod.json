@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "narutorpg",
+  "version": "${version}",
+  "name": "NarutoRPG",
+  "description": "Chakra, clans, villages, nature releases, hand-sign jutsu and dojutsu - built on AnimeCore.",
+  "authors": ["MineAnime"],
+  "license": "MIT",
+  "icon": "assets/narutorpg/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.narutorpg.NarutoRPG"],
+    "client": ["com.narutorpg.client.NarutoRPGClient"],
+    "cardinal-components": ["com.narutorpg.NarutoComponents"],
+    "fabric-datagen": ["com.narutorpg.datagen.NarutoDataGenerator"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "animecore": ">=${animecore_version}",
+    "cardinal-components-base": ">=6.1.0",
+    "cardinal-components-entity": ">=6.1.0",
+    "playeranimator": ">=2.0.0",
+    "geckolib": ">=4.7"
+  },
+  "suggests": {
+    "jei": "*",
+    "lootr": "*"
+  },
+  "custom": {
+    "cardinal-components": ["narutorpg:power"]
+  }
+}

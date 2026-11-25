@@ -1,0 +1,59 @@
+ext.jar_budget_bytes = 15L * 1024 * 1024   // 15 MB (animecore + narutorpg < 18.5 MB)
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        narutorpg {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+        // Lets the dev runtime treat :animecore as a real mod without building a jar.
+        animecore {
+            sourceSet project(':animecore').sourceSets.main
+            sourceSet project(':animecore').sourceSets.client
+        }
+    }
+}
+
+fabricApi {
+    configureDataGeneration {
+        client = true
+    }
+}
+
+dependencies {
+    // Depend on the engine as a separate mod; it is NOT bundled into narutorpg.jar.
+    implementation project(path: ':animecore', configuration: 'namedElements')
+    clientImplementation project(':animecore').sourceSets.client.output
+}
+
+// configureDataGeneration() already registers src/main/generated as a resource dir.
+processResources { exclude '.cache/**' }
+
+// ---------------------------------------------------------------------------------
+// Headless GameTests (separate source set: never shipped in narutorpg.jar)
+//   ./gradlew :narutorpg:runGametest
+// ---------------------------------------------------------------------------------
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.compileClasspath + sourceSets.main.output
+        runtimeClasspath += sourceSets.main.runtimeClasspath + sourceSets.main.output
+    }
+}
+
+loom {
+    mods {
+        'narutorpg-gametest' { sourceSet sourceSets.gametest }
+    }
+    runs {
+        gametest {
+            server()
+            name = 'Game Test'
+            vmArg '-Dfabric-api.gametest'
+            vmArg "-Dfabric-api.gametest.report-file=${project.layout.buildDirectory.get().asFile}/gametest/junit.xml"
+            runDir 'build/gametest'
+            source sourceSets.gametest
+        }
+    }
+}

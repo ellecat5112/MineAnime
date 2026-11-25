@@ -1,0 +1,10 @@
+{
+  "color": 16738816,
+  "name": {
+    "translate": "affinity.narutorpg.fire"
+  },
+  "strong_against": [
+    "narutorpg:wind"
+  ],
+  "system": "narutorpg"
+}

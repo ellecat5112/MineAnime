@@ -1,0 +1,17 @@
+{
+  "color": 5025616,
+  "name": {
+    "translate": "faction.narutorpg.hidden_leaf"
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.1,
+      "pool": "narutorpg:chakra"
+    }
+  ]
+}

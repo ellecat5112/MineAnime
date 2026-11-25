@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 3.0,
+      "knockback": 0.0,
+      "mode": "behind_attacker"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 40,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "cast_type": "reactive",
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:boar",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "translate": "ability.narutorpg.substitution_jutsu"
+  },
+  "system": "narutorpg"
+}

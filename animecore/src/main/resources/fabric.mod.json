@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "animecore",
+  "version": "${version}",
+  "name": "AnimeCore",
+  "description": "Anime-agnostic RPG engine: energy pools, lineages, factions, affinities, combo abilities, transformations and peer-synced animations. Install alongside content mods such as NarutoRPG.",
+  "authors": ["MineAnime"],
+  "license": "MIT",
+  "icon": "assets/animecore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.animecore.AnimeCore"],
+    "client": ["com.animecore.client.AnimeCoreClient"],
+    "fabric-datagen": ["com.animecore.datagen.AnimeCoreDataGenerator"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cardinal-components-base": ">=6.1.0",
+    "cardinal-components-entity": ">=6.1.0",
+    "playeranimator": ">=2.0.0",
+    "geckolib": ">=4.7"
+  },
+  "suggests": {
+    "jei": "*",
+    "lootr": "*",
+    "essential": "*"
+  },
+  "custom": {
+    "modmenu": { "badges": ["library"] }
+  }
+}

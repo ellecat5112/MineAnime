@@ -1,0 +1,121 @@
+plugins {
+    id 'fabric-loom' version "1.11.8" apply false
+}
+
+/*
+ * Shared configuration for every anime mod built on animecore.
+ * Each subproject only declares what is unique to it (see animecore/build.gradle, narutorpg/build.gradle).
+ */
+subprojects {
+    apply plugin: 'fabric-loom'
+    apply plugin: 'maven-publish'
+
+    group = rootProject.maven_group
+    // <project>_version from gradle.properties (animecore_version, narutorpg_version, bleachrpg_version...)
+    version = rootProject.findProperty("${project.name}_version") ?: '0.0.0'
+
+    base {
+        archivesName = project.name
+    }
+
+    repositories {
+        maven { name = 'Ladysnake (Cardinal Components)'; url = 'https://maven.ladysnake.org/releases' }
+        maven { name = 'KosmX (PlayerAnimator)'; url = 'https://maven.kosmx.dev/' }
+        maven { name = 'GeckoLib'; url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+        maven { name = 'BlameJared (JEI)'; url = 'https://maven.blamejared.com/' }
+        mavenCentral()
+    }
+
+    dependencies {
+        minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+        mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+        modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+        modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+
+        // ---- Engine dependencies: modImplementation ONLY. No include(), no shadow. ----
+        modImplementation "org.ladysnake.cardinal-components-api:cardinal-components-base:${rootProject.cca_version}"
+        modImplementation "org.ladysnake.cardinal-components-api:cardinal-components-entity:${rootProject.cca_version}"
+        modImplementation "dev.kosmx.player-anim:player-animation-lib-fabric:${rootProject.player_anim_version}"
+        modImplementation "software.bernie.geckolib:geckolib-fabric-${rootProject.minecraft_version}:${rootProject.geckolib_version}"
+
+        // JEI: compile against the API only; runtime is optional (Phase 3 plugin).
+        modCompileOnly "mezz.jei:jei-${rootProject.minecraft_version}-fabric-api:${rootProject.jei_version}"
+    }
+
+    java {
+        withSourcesJar()
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        it.options.release = 21
+        it.options.encoding = 'UTF-8'
+    }
+
+    processResources {
+        def props = [version: project.version, minecraft_version: rootProject.minecraft_version,
+                     loader_version: rootProject.loader_version, cca_version: rootProject.cca_version,
+                     animecore_version: rootProject.animecore_version]
+        inputs.properties props
+        filesMatching('fabric.mod.json') { expand props }
+    }
+
+    jar {
+        from(rootProject.file('LICENSE')) { rename { "${it}_${project.name}" } }
+    }
+
+    // ------------------------------------------------------------------
+    // Discord share-ability guards (20 MB upload limit)
+    // ------------------------------------------------------------------
+    tasks.register('verifyAssetBudget') {
+        group = 'verification'
+        description = 'Rejects forbidden source assets and oversized textures/sounds.'
+        def resDirs = sourceSets.main.resources.srcDirs
+        inputs.files(resDirs).withPropertyName('resources').optional()
+        doLast {
+            def forbidden = ['.wav', '.psd', '.bbmodel', '.blend', '.aseprite', '.kra', '.xcf']
+            def problems = []
+            resDirs.findAll { it.exists() }.each { dir ->
+                dir.eachFileRecurse(groovy.io.FileType.FILES) { f ->
+                    def name = f.name.toLowerCase()
+                    if (forbidden.any { name.endsWith(it) }) problems << "Forbidden source asset: ${f}"
+                    if (name.endsWith('.png')) {
+                        byte[] head = new byte[24]
+                        f.withInputStream { it.read(head) }
+                        int w = java.nio.ByteBuffer.wrap(head, 16, 4).int
+                        int h = java.nio.ByteBuffer.wrap(head, 20, 4).int
+                        boolean geo = f.path.replace('\\', '/').contains('/textures/entity/') ||
+                                f.path.replace('\\', '/').contains('/textures/geo/')
+                        int max = geo ? 128 : 32
+                        // Animated strips (.png.mcmeta) may be taller; width is still bounded.
+                        boolean animated = new File(f.path + '.mcmeta').exists()
+                        if (w > max || (!animated && h > max)) problems << "Texture too large (${w}x${h}, max ${max}): ${f}"
+                    }
+                    if (name.endsWith('.ogg') && f.length() > 64 * 1024) problems << "SFX > 64 KB (mono 96kbps <3s expected): ${f}"
+                }
+            }
+            if (!problems.isEmpty()) throw new GradleException("Asset budget violations:\n  " + problems.join('\n  '))
+        }
+    }
+    tasks.named('processResources') { dependsOn 'verifyAssetBudget' }
+
+    tasks.register('verifyJarBudget') {
+        group = 'verification'
+        description = 'Fails if the remapped jar exceeds its Discord budget or bundles nested jars.'
+        dependsOn 'remapJar'
+        doLast {
+            File jarFile = tasks.named('remapJar').get().archiveFile.get().asFile
+            long limit = (project.findProperty('jar_budget_bytes') ?: (15L * 1024 * 1024)) as long
+            if (jarFile.length() > limit) {
+                throw new GradleException("${jarFile.name} is ${jarFile.length()} bytes (budget ${limit})")
+            }
+            new java.util.zip.ZipFile(jarFile).withCloseable { zip ->
+                def nested = zip.entries().findAll { it.name.startsWith('META-INF/jars/') }
+                if (nested) throw new GradleException("Fat-jar detected (nested jars): ${nested*.name}")
+            }
+            logger.lifecycle("${jarFile.name}: ${String.format('%.1f', jarFile.length() / 1024.0)} KB (budget ${limit / 1024} KB) OK")
+        }
+    }
+    tasks.named('build') { finalizedBy 'verifyJarBudget' }
+}

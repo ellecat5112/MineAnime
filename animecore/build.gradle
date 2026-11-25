@@ -1,0 +1,22 @@
+ext.jar_budget_bytes = 1536L * 1024   // 1.5 MB hard ceiling for the engine
+
+loom {
+    // No access widener needed for Phase 1; add here if a later phase requires one.
+    splitEnvironmentSourceSets()   // client code physically separated: src/client/java
+
+    mods {
+        animecore {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+fabricApi {
+    configureDataGeneration {
+        client = true
+    }
+}
+
+// configureDataGeneration() already registers src/main/generated as a resource dir.
+processResources { exclude '.cache/**' }

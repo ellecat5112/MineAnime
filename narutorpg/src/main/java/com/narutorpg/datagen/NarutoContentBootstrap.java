@@ -1,0 +1,140 @@
+package com.narutorpg.datagen;
+
+import com.animecore.ability.action.DashStrikeAction;
+import com.animecore.ability.action.ProjectileAction;
+import com.animecore.ability.action.SelfBuffAction;
+import com.animecore.registry.definition.AbilityDefinition;
+import com.animecore.registry.definition.AffinityDefinition;
+import com.animecore.registry.definition.CastType;
+import com.animecore.registry.definition.EnergyCost;
+import com.animecore.registry.definition.FactionDefinition;
+import com.animecore.registry.definition.LineageDefinition;
+import com.animecore.registry.definition.TransformationDefinition;
+import com.animecore.trait.TraitModifiers.AbilityPowerTrait;
+import com.animecore.trait.TraitModifiers.AttributeTrait;
+import com.animecore.trait.TraitModifiers.EnergyCapacityTrait;
+import com.animecore.trait.TraitModifiers.EnergyRegenTrait;
+import net.minecraft.entity.attribute.EntityAttributeModifier.Operation;
+import net.minecraft.entity.attribute.EntityAttributes;
+import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.registry.Registerable;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.text.Text;
+import net.minecraft.util.Identifier;
+
+import java.util.List;
+import java.util.Optional;
+
+import static com.narutorpg.content.HandSigns.BOAR;
+import static com.narutorpg.content.HandSigns.HORSE;
+import static com.narutorpg.content.HandSigns.RAM;
+import static com.narutorpg.content.HandSigns.SNAKE;
+import static com.narutorpg.content.HandSigns.TIGER;
+import static com.narutorpg.content.NarutoContent.*;
+
+/** Single source of truth for NarutoRPG content; DataGen serializes it to JSON datapack files. */
+public final class NarutoContentBootstrap {
+    private static final String SYSTEM = "narutorpg";
+
+    private NarutoContentBootstrap() {}
+
+    // ------------------------------------------------------------------ Nature releases (clash cycle)
+
+    public static void affinities(Registerable<AffinityDefinition> ctx) {
+        // Fire > Wind > Lightning > Earth > Water > Fire
+        affinity(ctx, FIRE, 0xFF6A00, WIND);
+        affinity(ctx, WIND, 0xB2FF59, LIGHTNING);
+        affinity(ctx, LIGHTNING, 0x80D8FF, EARTH);
+        affinity(ctx, EARTH, 0x8D6E63, WATER);
+        affinity(ctx, WATER, 0x2979FF, FIRE);
+    }
+
+    private static void affinity(Registerable<AffinityDefinition> ctx, RegistryKey<AffinityDefinition> key, int color,
+                                 RegistryKey<AffinityDefinition> beats) {
+        ctx.register(key, new AffinityDefinition(SYSTEM, name("affinity", key), color, List.of(beats.getValue()), 1.5f,
+                List.of(), Optional.empty()));
+    }
+
+    // ------------------------------------------------------------------ Uchiha clan
+
+    public static void lineages(Registerable<LineageDefinition> ctx) {
+        ctx.register(UCHIHA, new LineageDefinition(SYSTEM,
+                name("lineage", UCHIHA),
+                Text.translatable("lineage.narutorpg.uchiha.desc"),
+                List.of(FIRE.getValue()),
+                List.of(
+                        new AbilityPowerTrait(Optional.of(FIRE.getValue()), 1.15f),
+                        new EnergyCapacityTrait(CHAKRA, 20f, 1f),
+                        new AttributeTrait(EntityAttributes.GENERIC_ATTACK_DAMAGE, 1.0, Operation.ADD_VALUE)),
+                List.of(FIREBALL_JUTSU.getValue()),
+                List.of(SHARINGAN_1.getValue()),
+                true, 10));
+    }
+
+    // ------------------------------------------------------------------ Hidden Leaf Village
+
+    public static void factions(Registerable<FactionDefinition> ctx) {
+        ctx.register(HIDDEN_LEAF, new FactionDefinition(SYSTEM, name("faction", HIDDEN_LEAF), 0x4CAF50,
+                List.of(new EnergyRegenTrait(CHAKRA, 1.1f)),
+                List.of(SUBSTITUTION_JUTSU.getValue()),
+                List.of(), List.of(), 0, true));
+    }
+
+    // ------------------------------------------------------------------ Jutsu
+
+    public static void abilities(Registerable<AbilityDefinition> ctx) {
+        // Fire Release: Great Fireball Technique (Katon: Gokakyu no Jutsu)
+        ctx.register(FIREBALL_JUTSU, new AbilityDefinition(SYSTEM,
+                name("ability", FIREBALL_JUTSU),
+                CastType.CHARGED,
+                new EnergyCost(CHAKRA, 25f, 0.25f),
+                100, 1,
+                List.of(SNAKE, RAM, BOAR, HORSE, TIGER),
+                40,
+                Optional.of(FIRE.getValue()),
+                Optional.empty(),
+                Optional.of(Identifier.of(SYSTEM, "fireball_exhale")),
+                List.of(new ProjectileAction(Optional.empty(), 1.1f, 8f, 1.0f, 3f, 80, 1, 0f, 50,
+                        0xFF6A00, Optional.of(Identifier.ofVanilla("flame")), true))));
+
+        // Substitution Jutsu (Kawarimi): arm it, and the next hit is swapped for a blink behind the attacker.
+        ctx.register(SUBSTITUTION_JUTSU, new AbilityDefinition(SYSTEM,
+                name("ability", SUBSTITUTION_JUTSU),
+                CastType.REACTIVE,
+                new EnergyCost(CHAKRA, 15f, 0f),
+                200, 1,
+                List.of(RAM, BOAR, SNAKE),
+                40,
+                Optional.empty(), Optional.empty(), Optional.empty(),
+                List.of(new DashStrikeAction(DashStrikeAction.Mode.BEHIND_ATTACKER, 3f, 0f, 1f, 0f),
+                        new SelfBuffAction(List.of(new SelfBuffAction.Effect(StatusEffects.SPEED, 40, 1, false)), 0f))));
+    }
+
+    // ------------------------------------------------------------------ Sharingan stages
+
+    public static void transformations(Registerable<TransformationDefinition> ctx) {
+        sharingan(ctx, SHARINGAN_1, 2f, 0.04f, 1, 1.05f, 0.05, Optional.of(SHARINGAN_2), 6_000, 0.3f);
+        sharingan(ctx, SHARINGAN_2, 3f, 0.06f, 3, 1.10f, 0.08, Optional.of(SHARINGAN_3), 12_000, 0.45f);
+        sharingan(ctx, SHARINGAN_3, 4f, 0.08f, 5, 1.20f, 0.12, Optional.of(MANGEKYO), 36_000, 0.6f);
+        sharingan(ctx, MANGEKYO, 15f, 0.30f, 10, 1.50f, 0.20, Optional.empty(), 0, 1.2f);
+    }
+
+    private static void sharingan(Registerable<TransformationDefinition> ctx, RegistryKey<TransformationDefinition> key,
+                                  float activation, float drain, int tier, float power, double speed,
+                                  Optional<RegistryKey<TransformationDefinition>> next, int mastery, float aura) {
+        ctx.register(key, new TransformationDefinition(SYSTEM,
+                name("transformation", key),
+                CHAKRA, activation, drain, 0, 100, tier,
+                List.of(new AbilityPowerTrait(Optional.empty(), power),
+                        new AttributeTrait(EntityAttributes.GENERIC_MOVEMENT_SPEED, speed, Operation.ADD_MULTIPLIED_BASE),
+                        new AttributeTrait(EntityAttributes.GENERIC_ATTACK_SPEED, speed * 2, Operation.ADD_MULTIPLIED_BASE)),
+                next.map(RegistryKey::getValue), mastery,
+                Optional.of(UCHIHA.getValue()),
+                List.of(),
+                new TransformationDefinition.Visuals(Optional.empty(), 0xC62828, aura, Optional.empty())));
+    }
+
+    private static Text name(String type, RegistryKey<?> key) {
+        return Text.translatable(type + "." + key.getValue().getNamespace() + "." + key.getValue().getPath());
+    }
+}

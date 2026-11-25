@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "lineage.narutorpg.uchiha.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:fireball_jutsu"
+  ],
+  "granted_transformations": [
+    "narutorpg:sharingan_one_tomoe"
+  ],
+  "innate_affinities": [
+    "narutorpg:fire"
+  ],
+  "name": {
+    "translate": "lineage.narutorpg.uchiha"
+  },
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:fire",
+      "multiplier": 1.15
+    },
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 20.0,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ]
+}

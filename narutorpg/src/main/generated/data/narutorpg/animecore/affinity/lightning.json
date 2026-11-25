@@ -1,0 +1,10 @@
+{
+  "color": 8444159,
+  "name": {
+    "translate": "affinity.narutorpg.lightning"
+  },
+  "strong_against": [
+    "narutorpg:earth"
+  ],
+  "system": "narutorpg"
+}
