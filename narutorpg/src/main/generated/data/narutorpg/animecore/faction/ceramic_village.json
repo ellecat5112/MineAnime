@@ -1,0 +1,55 @@
+{
+  "color": 11234443,
+  "description": {
+    "fallback": "The Ceramic Village was a small village in the Land of Wind, near the border with the Land of Rivers.",
+    "translate": "faction.narutorpg.ceramic_village.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+  ],
+  "kind": "village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:ceramic_village"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 11234443,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 2,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:military_rations_pill"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Ceramic Village",
+    "translate": "faction.narutorpg.ceramic_village"
+  },
+  "reputation": {
+    "narutorpg:ceramic_village": 100
+  },
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.luck"
+    }
+  ]
+}

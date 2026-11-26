@@ -29,18 +29,23 @@ public final class SetAbilityScrollFunction extends ConditionalLootFunction {
     public static final MapCodec<SetAbilityScrollFunction> CODEC = RecordCodecBuilder.mapCodec(i -> addConditionsField(i).and(i.group(
             Identifier.CODEC.optionalFieldOf("ability").forGetter(f -> f.ability),
             Codec.STRING.optionalFieldOf("system").forGetter(f -> f.system),
-            Codec.intRange(1, 1000).optionalFieldOf("max_tier", 1000).forGetter(f -> f.maxTier)
+            Codec.intRange(1, 1000).optionalFieldOf("max_tier", 1000).forGetter(f -> f.maxTier),
+            Identifier.CODEC.optionalFieldOf("faction").forGetter(f -> f.faction)
     )).apply(i, SetAbilityScrollFunction::new));
 
     private final Optional<Identifier> ability;
     private final Optional<String> system;
     private final int maxTier;
+    /** Random technique from this faction's village jutsu pool + exclusives (village supply caches). */
+    private final Optional<Identifier> faction;
 
-    private SetAbilityScrollFunction(List<LootCondition> conditions, Optional<Identifier> ability, Optional<String> system, int maxTier) {
+    private SetAbilityScrollFunction(List<LootCondition> conditions, Optional<Identifier> ability, Optional<String> system, int maxTier,
+                                     Optional<Identifier> faction) {
         super(conditions);
         this.ability = ability;
         this.system = system;
         this.maxTier = maxTier;
+        this.faction = faction;
     }
 
     @Override
@@ -50,7 +55,12 @@ public final class SetAbilityScrollFunction extends ConditionalLootFunction {
 
     @Override
     protected ItemStack process(ItemStack stack, LootContext context) {
-        Optional<Identifier> chosen = ability.or(() -> {
+        Optional<Identifier> chosen = ability.or(() -> faction.flatMap(f -> AnimeRegistries.faction(context.getWorld().getRegistryManager(), f)
+                .flatMap(def -> {
+                    List<Identifier> pool = new java.util.ArrayList<>(def.jutsuPool());
+                    pool.addAll(def.exclusive().abilities());
+                    return pool.isEmpty() ? Optional.empty() : Optional.of(Util.getRandom(pool, context.getRandom()));
+                }))).or(() -> {
             Registry<AbilityDefinition> registry = context.getWorld().getRegistryManager().get(AnimeRegistries.ABILITY);
             List<Identifier> pool = registry.getEntrySet().stream()
                     .filter(e -> system.map(e.getValue().system()::equals).orElse(true) && e.getValue().requiredTier() <= maxTier)
@@ -62,10 +72,15 @@ public final class SetAbilityScrollFunction extends ConditionalLootFunction {
     }
 
     public static ConditionalLootFunction.Builder<?> fixed(Identifier ability) {
-        return builder(conditions -> new SetAbilityScrollFunction(conditions, Optional.of(ability), Optional.empty(), 1000));
+        return builder(conditions -> new SetAbilityScrollFunction(conditions, Optional.of(ability), Optional.empty(), 1000, Optional.empty()));
     }
 
     public static ConditionalLootFunction.Builder<?> random(String system, int maxTier) {
-        return builder(conditions -> new SetAbilityScrollFunction(conditions, Optional.empty(), Optional.of(system), maxTier));
+        return builder(conditions -> new SetAbilityScrollFunction(conditions, Optional.empty(), Optional.of(system), maxTier, Optional.empty()));
+    }
+
+    /** A captured village scroll: random technique from {@code faction}'s pool. */
+    public static ConditionalLootFunction.Builder<?> village(Identifier faction) {
+        return builder(conditions -> new SetAbilityScrollFunction(conditions, Optional.empty(), Optional.empty(), 1000, Optional.of(faction)));
     }
 }

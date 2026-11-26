@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Fist Rock Technique",
+    "translate": "ability.narutorpg.earth_release_fist_rock_technique"
+  },
+  "system": "narutorpg"
+}

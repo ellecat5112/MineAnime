@@ -502,5 +502,6 @@ EXCLUDED = {
     "Treasured Tools of the Sage of Six Paths": "group page; its five tools (Bashōsen, Benihisago, Kohaku no Jōhei, Kōkinjō, Shichiseiken) are implemented individually",
     "Shinobi-Ware": "umbrella term for bionic tools; the individual Shinobi-Ware (Absorbing Eye, Spy Drone, Mirror Drone) are implemented",
 }
-# Wiki tools already implemented by earlier phases (kept as their existing items):
-EXISTING = {"chakra_blade"}
+# Wiki tools already implemented by other systems (kept as their existing items): chakra_blade (Phase 3 weapon),
+# forehead_protector / flak_jacket (village origin gear: faction badge, village colour, rogue scratch).
+EXISTING = {"chakra_blade", "forehead_protector", "flak_jacket"}  # the last two are the village-bound origin gear

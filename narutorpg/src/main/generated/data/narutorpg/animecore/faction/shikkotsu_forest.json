@@ -1,0 +1,53 @@
+{
+  "color": 8492217,
+  "description": {
+    "fallback": "The Shikkotsu Forest is a legendary place and one of the three unexplored sage regions; the other two being: Mount Myōboku and Ryūchi Cave.",
+    "translate": "faction.narutorpg.shikkotsu_forest.desc"
+  },
+  "kind": "sage_realm",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:shikkotsu_forest"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 8492217,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 4,
+        "id": "narutorpg:kunai"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Shikkotsu Forest",
+    "translate": "faction.narutorpg.shikkotsu_forest"
+  },
+  "reputation": {
+    "narutorpg:shikkotsu_forest": 100
+  },
+  "selectable": false,
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.2,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "replace": false,
+  "values": ["narutorpg:kunai", "narutorpg:tanto", "narutorpg:sword", "narutorpg:chakra_blade", "narutorpg:senbon",
+             {"id": "narutorpg:kunai_blade", "required": false}]
+}

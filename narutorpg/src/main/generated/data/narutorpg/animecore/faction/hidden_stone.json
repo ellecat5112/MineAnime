@@ -1,0 +1,92 @@
+{
+  "color": 9268835,
+  "description": {
+    "fallback": "Iwagakure is the hidden village of the Land of Earth. As the village of one of the Five Great Shinobi Countries, Iwagakure has a Kage as its leader known as the Tsuchikage, of which there have been four in its history.",
+    "translate": "faction.narutorpg.hidden_stone.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:eye_scope",
+      "narutorpg:steam_armour"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:earth_release_fist_rock_technique",
+    "narutorpg:earth_release_golem_technique",
+    "narutorpg:earth_release_opening_earth_rising_excavation",
+    "narutorpg:horn_breaking",
+    "narutorpg:rock_clone_technique"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_stone"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 9268835,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_stone"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 9268835,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Iwagakure (Hidden Stone)",
+    "translate": "faction.narutorpg.hidden_stone"
+  },
+  "reputation": {
+    "narutorpg:hidden_cloud": -25,
+    "narutorpg:hidden_leaf": -25,
+    "narutorpg:hidden_rain": -10,
+    "narutorpg:hidden_stone": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:earth",
+      "multiplier": 1.1
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.15,
+      "attribute": "minecraft:generic.knockback_resistance"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "allowed_factions": [
+    "narutorpg:hidden_rain",
+    "narutorpg:hidden_star",
+    "narutorpg:hidden_rock",
+    "narutorpg:hidden_stone",
+    "narutorpg:hidden_mist",
+    "narutorpg:hidden_leaf",
+    "narutorpg:hidden_cloud",
+    "narutorpg:hidden_grass",
+    "narutorpg:hidden_sound",
+    "narutorpg:hidden_frost",
+    "narutorpg:hidden_sand",
+    "narutorpg:hidden_waterfall",
+    "narutorpg:hidden_valley",
+    "narutorpg:hidden_moon",
+    "narutorpg:hidden_whirlpool",
+    "narutorpg:hidden_hot_water",
+    "narutorpg:hidden_snow",
+    "narutorpg:hidden_dream"
+  ],
+  "bonus_items": [
+    {
+      "count": 1,
+      "id": "narutorpg:tanto"
+    },
+    {
+      "count": 3,
+      "id": "narutorpg:smoke_bomb"
+    }
+  ],
+  "description": {
+    "fallback": "Pulled from the Academy into the black-ops program. Precise, lethal and trained in silent infiltration.",
+    "translate": "background.narutorpg.anbu_trainee.desc"
+  },
+  "name": {
+    "fallback": "Anbu Trainee",
+    "translate": "background.narutorpg.anbu_trainee"
+  },
+  "starting_abilities": [
+    "narutorpg:body_flicker_technique"
+  ],
+  "starting_skill_points": 2,
+  "starting_tier_bonus": 1,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "weight": 6
+}

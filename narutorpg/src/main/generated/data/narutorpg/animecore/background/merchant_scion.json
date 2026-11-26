@@ -1,0 +1,41 @@
+{
+  "bonus_items": [
+    {
+      "count": 16,
+      "id": "minecraft:emerald"
+    },
+    {
+      "count": 4,
+      "id": "narutorpg:explosive_tag"
+    },
+    {
+      "count": 2,
+      "id": "narutorpg:smoke_bomb"
+    },
+    {
+      "count": 2,
+      "id": "narutorpg:wire_strings"
+    },
+    {
+      "count": 2,
+      "id": "narutorpg:blood_increasing_pill"
+    }
+  ],
+  "description": {
+    "fallback": "Heir of a trading or crafting house. Lucky, well connected, and well supplied with the finest ninja tools money can buy.",
+    "translate": "background.narutorpg.merchant_scion.desc"
+  },
+  "name": {
+    "fallback": "Merchant / Artisan Scion",
+    "translate": "background.narutorpg.merchant_scion"
+  },
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.5,
+      "attribute": "minecraft:generic.luck"
+    }
+  ],
+  "weight": 8
+}

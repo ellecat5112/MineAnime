@@ -59,6 +59,28 @@ public final class NarutoItems {
     public static final Item BLOODLINE_SCROLL = register("bloodline_scroll", new BloodlineScrollItem(NarutoRPG.CTX,
             new Item.Settings().rarity(Rarity.EPIC)));
 
+    // ---- Village origins ----
+    /** Village forehead protector (helmet, cloth dyed in the village colour, scratchable into a missing-nin headband). */
+    public static final Item FOREHEAD_PROTECTOR = register("forehead_protector", new com.animecore.item.FactionHeadbandItem(
+            ClanGarbItem.registerMaterial(NarutoRPG.CTX.id("forehead_protector")), new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+    /** Village flak jacket / outfit. */
+    public static final Item FLAK_JACKET = register("flak_jacket", new com.animecore.item.FactionGarbItem(
+            ClanGarbItem.registerMaterial(NarutoRPG.CTX.id("flak_jacket")), ArmorItem.Type.CHESTPLATE,
+            new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+    /** Forged papers: reset your origin and choose again. */
+    public static final Item FORGED_PAPERS = register("forged_papers", new com.animecore.item.OriginScrollItem(NarutoRPG.CTX,
+            new Item.Settings().rarity(Rarity.RARE)));
+
+    /** Village supply caches: {@code narutorpg:chests/supply/<village>} (generated, Lootr-safe). */
+    public static final java.util.Map<String, RegistryKey<LootTable>> VILLAGE_CACHES = new java.util.LinkedHashMap<>();
+    static {
+        for (String v : new String[]{"hidden_leaf", "hidden_sand", "hidden_mist", "hidden_cloud", "hidden_stone", "hidden_rain",
+                "hidden_sound", "hidden_waterfall", "hidden_grass", "hidden_snow", "hidden_star", "hidden_whirlpool", "hidden_hot_water",
+                "hidden_dream", "hidden_moon", "hidden_frost", "hidden_valley", "hidden_rock"}) {
+            VILLAGE_CACHES.put(v, AnimeLootHelper.table(NarutoRPG.CTX.id("chests/supply/" + v)));
+        }
+    }
+
     /** {@code data/narutorpg/loot_table/chests/shinobi_cache.json} (generated). */
     public static final RegistryKey<LootTable> SHINOBI_CACHE = AnimeLootHelper.table(NarutoRPG.CTX.id("chests/shinobi_cache"));
 
@@ -72,11 +94,24 @@ public final class NarutoItems {
                         entries.addAll(AnimeItemVariants.infusedVariants(CHAKRA_BLADE, SYSTEM, context.lookup()));
                         entries.addAll(AnimeItemVariants.scrolls(JUTSU_SCROLL, SYSTEM, context.lookup()));
                         entries.add(BLOODLINE_SCROLL);
+                        entries.add(FORGED_PAPERS);
+                        entries.addAll(AnimeItemVariants.factionBound(FOREHEAD_PROTECTOR, SYSTEM, context.lookup(), true));
+                        entries.addAll(AnimeItemVariants.factionBound(FLAK_JACKET, SYSTEM, context.lookup(), false));
                         entries.addAll(AnimeItemVariants.clanBound(CLAN_EMBLEM, SYSTEM, context.lookup()));
                         entries.addAll(AnimeItemVariants.clanBound(CLAN_GARB, SYSTEM, context.lookup()));
                         entries.addAll(AnimeItemVariants.clanBound(BLOODLINE_SCROLL, SYSTEM, context.lookup()));
                     })
                     .build());
+
+    private static void injectVillage(String village, String... tables) {
+        injectVillage(village, 0.25f, tables);
+    }
+
+    private static void injectVillage(String village, float chance, String... tables) {
+        java.util.Set<RegistryKey<LootTable>> keys = new java.util.HashSet<>();
+        for (String t : tables) keys.add(AnimeLootHelper.vanilla(t));
+        AnimeLootHelper.injectInto(keys, VILLAGE_CACHES.get(village), chance);
+    }
 
     private static Item register(String path, Item item) {
         return Registry.register(Registries.ITEM, NarutoRPG.CTX.id(path), item);
@@ -91,5 +126,20 @@ public final class NarutoItems {
                 AnimeLootHelper.vanilla("chests/abandoned_mineshaft"),
                 AnimeLootHelper.vanilla("chests/village/village_weaponsmith"),
                 AnimeLootHelper.vanilla("chests/pillager_outpost")), SHINOBI_CACHE, 0.4f);
+        // Village supply caches, placed where each village's terrain fits (Lootr instances them per player).
+        injectVillage("hidden_leaf", "chests/village/village_plains_house", "chests/village/village_weaponsmith");
+        injectVillage("hidden_sand", "chests/desert_pyramid", "chests/village/village_desert_house");
+        injectVillage("hidden_mist", "chests/shipwreck_supply", "chests/buried_treasure");
+        injectVillage("hidden_cloud", "chests/village/village_snowy_house", "chests/igloo_chest");
+        injectVillage("hidden_stone", "chests/abandoned_mineshaft", "chests/stronghold_corridor");
+        injectVillage("hidden_rain", "chests/village/village_taiga_house");
+        injectVillage("hidden_sound", "chests/ancient_city", "chests/simple_dungeon");
+        injectVillage("hidden_waterfall", "chests/jungle_temple");
+        injectVillage("hidden_grass", "chests/village/village_savanna_house");
+        injectVillage("hidden_snow", "chests/igloo_chest");
+        for (String v : VILLAGE_CACHES.keySet()) {
+            if (!java.util.Set.of("hidden_leaf", "hidden_sand", "hidden_mist", "hidden_cloud", "hidden_stone", "hidden_rain", "hidden_sound",
+                    "hidden_waterfall", "hidden_grass", "hidden_snow").contains(v)) injectVillage(v, 0.05f, "chests/simple_dungeon");
+        }
     }
 }

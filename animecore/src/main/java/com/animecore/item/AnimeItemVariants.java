@@ -60,4 +60,23 @@ public final class AnimeItemVariants {
                 .map(e -> com.animecore.clan.ClanRollService.boundStack(item, e.registryKey().getValue(), e.value()))
                 .toList();
     }
+
+    /** One badge-bound (and village-dyed) stack per faction of {@code system}; {@code shinobiOnly} skips civilian villages. */
+    public static List<ItemStack> factionBound(Item item, String system, RegistryWrapper.WrapperLookup lookup, boolean shinobiOnly) {
+        return lookup.getOptionalWrapper(AnimeRegistries.FACTION).stream()
+                .flatMap(RegistryWrapper::streamEntries)
+                .filter(e -> e.value().system().equals(system))
+                .filter(e -> !shinobiOnly || e.value().kind().equals("hidden_village") || e.value().rogue())
+                .sorted(Comparator.comparing(e -> e.registryKey().getValue()))
+                .map(e -> {
+                    ItemStack stack = new ItemStack(item);
+                    stack.set(AnimeDataComponents.FACTION_BADGE, new AnimeDataComponents.FactionBadge(e.registryKey().getValue(), e.value().rogue()));
+                    if (stack.isIn(net.minecraft.registry.tag.ItemTags.DYEABLE)) {
+                        stack.set(net.minecraft.component.DataComponentTypes.DYED_COLOR,
+                                new net.minecraft.component.type.DyedColorComponent(e.value().color() & 0xFFFFFF, false));
+                    }
+                    return stack;
+                })
+                .toList();
+    }
 }

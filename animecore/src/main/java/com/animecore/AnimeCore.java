@@ -43,12 +43,16 @@ public final class AnimeCore implements ModInitializer {
         AnimeCoreNetworking.init();
         com.animecore.clan.ClanRollService.init();
         com.animecore.clan.ClanTraitHooks.register();
+        com.animecore.origin.OriginSelectionService.init();
+        com.animecore.origin.VillageAccessManager.register();
+        net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((s, m, ok) -> com.animecore.origin.VillageAccessManager.invalidate());
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> com.animecore.clan.ClanRollService.onJoin(handler.player));
 
         CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> {
             AnimeCoreCommands.register(dispatcher);
             com.animecore.command.ClanCommands.register(dispatcher);
             com.animecore.command.VfxCommands.register(dispatcher);
+            com.animecore.command.OriginCommands.register(dispatcher);
         });
         EntityTrackingEvents.START_TRACKING.register(AnimationService::onStartTracking);
         ServerPlayConnectionEvents.DISCONNECT.register((handler, server) -> AnimationService.onDisconnect(handler.player));

@@ -23,5 +23,9 @@ public final class NarutoRPG implements ModInitializer {
     public void onInitialize() {
         NarutoItems.init();
         NarutoMechanics.register();
+        // /naruto origin open|choose|random|info|set|reset - the engine's origin tree under the Naruto root.
+        net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback.EVENT.register((dispatcher, access, env) ->
+                dispatcher.register(net.minecraft.server.command.CommandManager.literal("naruto")
+                        .then(com.animecore.command.OriginCommands.tree("origin", MOD_ID))));
     }
 }

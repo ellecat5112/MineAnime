@@ -1,0 +1,56 @@
+{
+  "color": 5350069,
+  "description": {
+    "fallback": "The Tsuchigumo village is the village of the Tsuchigumo clan. It is led by the Tsuchigumo chief.",
+    "translate": "faction.narutorpg.tsuchigumo_village.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:character_bind_technique",
+    "narutorpg:hidden_rock_trap",
+    "narutorpg:infinite_embrace"
+  ],
+  "kind": "village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:tsuchigumo_village"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 5350069,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 2,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:military_rations_pill"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Tsuchigumo Village",
+    "translate": "faction.narutorpg.tsuchigumo_village"
+  },
+  "reputation": {
+    "narutorpg:tsuchigumo_village": 100
+  },
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.luck"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 9489145,
+      "count": 5,
+      "damage": 6.0,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Nadeshiko-Style Deep Crimson Dance Performance",
+    "translate": "ability.narutorpg.nadeshiko_style_deep_crimson_dance_performance"
+  },
+  "system": "narutorpg"
+}

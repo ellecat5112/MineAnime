@@ -1,0 +1,89 @@
+{
+  "color": 2533018,
+  "description": {
+    "fallback": "Takigakure is a village located in an unnamed country. Their current leader is Shibuki.",
+    "translate": "faction.narutorpg.hidden_waterfall.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:hero_water"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:cocoon",
+    "narutorpg:net_shaped_prison",
+    "narutorpg:spear_attack_shining_horn",
+    "narutorpg:takigakure_whirlwind",
+    "narutorpg:water_release_lotus_light_rupture",
+    "narutorpg:wave_transmission_technique"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_waterfall"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 2533018,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_waterfall"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 2533018,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Takigakure (Hidden Waterfall)",
+    "translate": "faction.narutorpg.hidden_waterfall"
+  },
+  "reputation": {
+    "narutorpg:hidden_waterfall": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:water",
+      "multiplier": 1.05
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ]
+}

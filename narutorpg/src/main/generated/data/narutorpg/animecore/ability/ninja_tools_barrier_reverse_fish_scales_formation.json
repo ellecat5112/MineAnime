@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ninja Tools Barrier: Reverse Fish Scales Formation",
+    "translate": "ability.narutorpg.ninja_tools_barrier_reverse_fish_scales_formation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

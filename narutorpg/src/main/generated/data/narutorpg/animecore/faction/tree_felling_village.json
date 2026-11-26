@@ -1,0 +1,55 @@
+{
+  "color": 9531988,
+  "description": {
+    "fallback": "The Tree Felling Village, later renamed to the Tree Revival Village, is a small and peaceful village once controlled by a dark demon called Black Shadow, who protected the village in exchange for human sacrifices every couple of years.",
+    "translate": "faction.narutorpg.tree_felling_village.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+  ],
+  "kind": "village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:tree_felling_village"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 9531988,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 2,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:military_rations_pill"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Tree Felling Village",
+    "translate": "faction.narutorpg.tree_felling_village"
+  },
+  "reputation": {
+    "narutorpg:tree_felling_village": 100
+  },
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.luck"
+    }
+  ]
+}

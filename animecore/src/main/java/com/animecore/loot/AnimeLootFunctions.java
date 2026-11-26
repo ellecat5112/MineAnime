@@ -15,6 +15,8 @@ public final class AnimeLootFunctions {
             register(Ids.core("set_ability_scroll"), SetAbilityScrollFunction.CODEC);
     public static final LootFunctionType<SetAnimeWeaponDataFunction> SET_ANIME_WEAPON_DATA =
             register(Ids.core("set_anime_weapon_data"), SetAnimeWeaponDataFunction.CODEC);
+    public static final LootFunctionType<SetFactionFunction> SET_FACTION =
+            register(Ids.core("set_faction"), SetFactionFunction.CODEC);
     public static final LootFunctionType<SetLineageFunction> SET_LINEAGE =
             register(Ids.core("set_lineage"), SetLineageFunction.CODEC);
 

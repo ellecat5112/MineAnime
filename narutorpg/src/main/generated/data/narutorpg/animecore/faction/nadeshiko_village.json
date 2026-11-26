@@ -1,0 +1,58 @@
+{
+  "color": 5869946,
+  "description": {
+    "fallback": "The Nadeshiko Village is a shinobi village located near the Land of Water. The families of this village are organised through matrilineality.",
+    "translate": "faction.narutorpg.nadeshiko_village.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:dance_performance_second_step",
+    "narutorpg:nadeshiko_style_deep_crimson_dance_performance",
+    "narutorpg:nadeshiko_style_hardliner_gale_fist",
+    "narutorpg:nadeshiko_style_hardliner_revolving_cut",
+    "narutorpg:violent_whirlwind"
+  ],
+  "kind": "village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:nadeshiko_village"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 5869946,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 2,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:military_rations_pill"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Nadeshiko Village",
+    "translate": "faction.narutorpg.nadeshiko_village"
+  },
+  "reputation": {
+    "narutorpg:nadeshiko_village": 100
+  },
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.luck"
+    }
+  ]
+}

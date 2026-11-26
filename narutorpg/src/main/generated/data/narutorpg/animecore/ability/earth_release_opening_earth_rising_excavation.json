@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 9268835,
+      "damage": 8.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cast_type": "charged",
+  "combo": [
+    "narutorpg:boar",
+    "narutorpg:bird",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Opening Earth Rising Excavation",
+    "translate": "ability.narutorpg.earth_release_opening_earth_rising_excavation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

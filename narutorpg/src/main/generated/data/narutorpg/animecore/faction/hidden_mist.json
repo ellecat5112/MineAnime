@@ -1,0 +1,108 @@
+{
+  "color": 5227511,
+  "description": {
+    "fallback": "Kirigakure is the hidden village of the Land of Water. As the village of one of the Five Great Shinobi Countries, Kiri has a Kage as its leader known as the Mizukage, of which there have been six in its history.",
+    "translate": "faction.narutorpg.hidden_mist.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:bubble_utilising_pipe",
+      "narutorpg:claw_club",
+      "narutorpg:fire_gatling",
+      "narutorpg:hiramekarei",
+      "narutorpg:kabutowari",
+      "narutorpg:kiba_swords",
+      "narutorpg:metal_gauntlets",
+      "narutorpg:mirror_drone",
+      "narutorpg:nuibari",
+      "narutorpg:shibuki_sword"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:hiding_in_mist_technique",
+    "narutorpg:soap_bubble_ninjutsu",
+    "narutorpg:water_prison_technique",
+    "narutorpg:first_axe_strike",
+    "narutorpg:coral_palm",
+    "narutorpg:earth_release_subterranean_voyage",
+    "narutorpg:leaping_bullet_shell_tower",
+    "narutorpg:lightning_ball",
+    "narutorpg:lightning_burial_banquet_of_lightning",
+    "narutorpg:lightning_strike_armour",
+    "narutorpg:shadow_stroke",
+    "narutorpg:water_prison_shark_dance_technique"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_mist"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 5227511,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_mist"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 5227511,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Kirigakure (Hidden Mist)",
+    "translate": "faction.narutorpg.hidden_mist"
+  },
+  "reputation": {
+    "narutorpg:hidden_cloud": -10,
+    "narutorpg:hidden_leaf": 0,
+    "narutorpg:hidden_mist": 100,
+    "narutorpg:hidden_sand": 0,
+    "narutorpg:hidden_stone": -10
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:water",
+      "multiplier": 1.1
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.4,
+      "attribute": "minecraft:generic.water_movement_efficiency"
+    }
+  ]
+}

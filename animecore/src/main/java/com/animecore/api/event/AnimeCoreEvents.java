@@ -94,6 +94,33 @@ public final class AnimeCoreEvents {
                 for (ClanSkillLevelUp l : listeners) l.onLevelUp(player, power, lineage, level);
             });
 
+    /**
+     * Before an ability is unlocked from a scroll / skill tree ({@code source} e.g. "scroll"). Return false to refuse
+     * (village secret techniques for outsiders).
+     */
+    public static final Event<AllowAbilityUnlock> ALLOW_ABILITY_UNLOCK = EventFactory.createArrayBacked(AllowAbilityUnlock.class,
+            listeners -> (player, power, ability, source) -> {
+                for (AllowAbilityUnlock l : listeners) if (!l.allow(player, power, ability, source)) return false;
+                return true;
+            });
+
+    /** An origin (village / faction + background) was chosen, or the player went rogue. */
+    public static final Event<OriginSelected> ORIGIN_SELECTED = EventFactory.createArrayBacked(OriginSelected.class,
+            listeners -> (player, power, faction, background) -> {
+                for (OriginSelected l : listeners) l.onSelected(player, power, faction, background);
+            });
+
+    @FunctionalInterface
+    public interface AllowAbilityUnlock {
+        boolean allow(ServerPlayerEntity player, PlayerPowerComponent power, Identifier ability, String source);
+    }
+
+    @FunctionalInterface
+    public interface OriginSelected {
+        void onSelected(ServerPlayerEntity player, PlayerPowerComponent power, @org.jetbrains.annotations.Nullable Identifier faction,
+                        @org.jetbrains.annotations.Nullable Identifier background);
+    }
+
     @FunctionalInterface
     public interface ClanAssigned {
         void onAssigned(ServerPlayerEntity player, PlayerPowerComponent power, @org.jetbrains.annotations.Nullable Identifier previous,

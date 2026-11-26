@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "narutorpg:item/forehead_protector",
+    "layer1": "narutorpg:item/forehead_protector_scratched_overlay"
+  }
+}

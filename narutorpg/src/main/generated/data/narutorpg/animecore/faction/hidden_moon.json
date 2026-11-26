@@ -1,0 +1,68 @@
+{
+  "color": 10463450,
+  "description": {
+    "fallback": "Tsukigakure is a hidden village led by Tsukino, who succeeded her father after he died. They have a hereditary system and so positions are passed down to the next generation.",
+    "translate": "faction.narutorpg.hidden_moon.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:sealing_technique_vitality_seal_formation",
+    "narutorpg:sealing_trap_explosion"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_moon"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 10463450,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_moon"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 10463450,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Tsukigakure (Hidden Moon)",
+    "translate": "faction.narutorpg.hidden_moon"
+  },
+  "reputation": {
+    "narutorpg:hidden_moon": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg"
+}

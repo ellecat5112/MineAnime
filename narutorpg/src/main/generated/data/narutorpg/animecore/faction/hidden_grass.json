@@ -1,0 +1,81 @@
+{
+  "color": 6856504,
+  "description": {
+    "fallback": "Kusagakure is located thus far in an unnamed country. Because it had genin participating in the Chūnin Exams organised by Konohagakure, it can be assumed the two villages are allied.",
+    "translate": "faction.narutorpg.hidden_grass.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:box_of_ultimate_bliss"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:feather_launching",
+    "narutorpg:giant_sphere",
+    "narutorpg:heal_bite"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_grass"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 6856504,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_grass"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 6856504,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Kusagakure (Hidden Grass)",
+    "translate": "faction.narutorpg.hidden_grass"
+  },
+  "reputation": {
+    "narutorpg:hidden_grass": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.15,
+      "pool": "narutorpg:stamina"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "color": 8280002,
+  "description": {
+    "fallback": "Otogakure is the personal hidden village of Orochimaru, which was founded after he left the Akatsuki for the express purpose of collecting ninja for his experiments and his quest to learn all techniques.",
+    "translate": "faction.narutorpg.hidden_sound.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:curse_mask",
+      "narutorpg:demonic_flute",
+      "narutorpg:resonating_echo_speaker",
+      "narutorpg:scissor_pincers",
+      "narutorpg:slime_suit",
+      "narutorpg:wrist_launcher"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:casualty_puppet",
+    "narutorpg:spacetime_technique_formula_underworld_turnover",
+    "narutorpg:antlion_ninja_arts_ephemeral",
+    "narutorpg:earth_release_antlion_technique",
+    "narutorpg:wind_spider_technique"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_sound"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 8280002,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_sound"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 8280002,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Otogakure (Hidden Sound)",
+    "translate": "faction.narutorpg.hidden_sound"
+  },
+  "reputation": {
+    "narutorpg:hidden_leaf": -50,
+    "narutorpg:hidden_sand": -50,
+    "narutorpg:hidden_sound": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.08,
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base"
+    }
+  ]
+}

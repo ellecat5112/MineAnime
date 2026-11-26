@@ -59,7 +59,7 @@ import java.util.Set;
  */
 public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingComponent {
     /** Bump when the NBT layout changes and add a step to {@link #migrate(NbtCompound, int)}. */
-    public static final int SCHEMA_VERSION = 2;
+    public static final int SCHEMA_VERSION = 3;
     public static final int MAX_TIER = 100;
     public static final int COMBO_TIMEOUT_TICKS = 40;
     public static final int MAX_COMBO_LENGTH = 12;
@@ -102,6 +102,12 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private int clanRerolls;
     /** First-join clan assignment happened. */
     private boolean clanInitialized;
+
+    // ---- origin / village (schema v3) ----
+    private @Nullable Identifier background;
+    private boolean originSelected;
+    private boolean rogue;
+    private @Nullable Identifier formerFaction;
 
     // ---- synced, derived / session-only ----
     private final EnumSet<MovementMode> activeMovement = EnumSet.noneOf(MovementMode.class);
@@ -204,6 +210,18 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     public int clanRerolls() { return clanRerolls; }
     public void incrementClanRerolls() { clanRerolls++; markDirty(false); }
     public boolean clanInitialized() { return clanInitialized; }
+
+    // ---- origin accessors (logic lives in OriginSelectionService / VillageAccessManager) ----
+    public Optional<Identifier> background() { return Optional.ofNullable(background); }
+    public void setBackground(@Nullable Identifier id) { background = id; traitsDirty = true; markDirty(true); }
+    public boolean originSelected() { return originSelected; }
+    public void setOriginSelected(boolean value) { originSelected = value; markDirty(false); }
+    public boolean rogue() { return rogue; }
+    public void setRogue(boolean value) { rogue = value; markDirty(true); }
+    public Optional<Identifier> formerFaction() { return Optional.ofNullable(formerFaction); }
+    public void setFormerFaction(@Nullable Identifier id) { formerFaction = id; markDirty(false); }
+    public Map<Identifier, Integer> reputations() { return Collections.unmodifiableMap(reputation); }
+    public void setReputation(Identifier faction, int value) { reputation.put(faction, value); markDirty(false); }
     public void setClanInitialized(boolean value) { clanInitialized = value; markDirty(false); }
 
     public void setMovementActive(MovementMode mode, boolean active) {
@@ -288,7 +306,10 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
 
     /** Rank-gated clan progression entries are re-evaluated whenever the tier moves. */
     private void onTierChanged() {
-        if (player instanceof ServerPlayerEntity sp && lineage != null) ClanAbilityManager.evaluate(sp, this);
+        if (player instanceof ServerPlayerEntity sp) {
+            if (lineage != null) ClanAbilityManager.evaluate(sp, this);
+            if (originSelected) com.animecore.origin.VillageAccessManager.evaluatePool(sp, this);   // rank-gated village jutsu
+        }
     }
 
     public void addSkillPoints(int amount) {
@@ -480,6 +501,9 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
             AnimeRegistries.faction(rm, faction).map(FactionDefinition::traits)
                     .ifPresent(list -> list.forEach(t -> t.accumulate(acc)));
         }
+        if (background != null) {
+            AnimeRegistries.background(rm, background).ifPresent(b -> b.traits().forEach(t -> t.accumulate(acc)));
+        }
         if (activeTransformation != null) {
             AnimeRegistries.transformation(rm, activeTransformation).map(RegistryEntry::value)
                     .map(TransformationDefinition::modifiers)
@@ -654,6 +678,12 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         clan.putInt("rerolls", clanRerolls);
         clan.putBoolean("initialized", clanInitialized);
         tag.put("clan", clan);
+        NbtCompound origin = new NbtCompound();
+        if (background != null) origin.putString("background", background.toString());
+        if (formerFaction != null) origin.putString("former_faction", formerFaction.toString());
+        origin.putBoolean("selected", originSelected);
+        origin.putBoolean("rogue", rogue);
+        tag.put("origin", origin);
         if (armedReactive != null && reactiveWindow > 0) {
             tag.putString("armed_reactive", armedReactive.toString());
             tag.putInt("reactive_window", reactiveWindow);
@@ -720,6 +750,11 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         clanPity = clan.getInt("pity");
         clanRerolls = clan.getInt("rerolls");
         clanInitialized = clan.getBoolean("initialized");
+        NbtCompound origin = tag.getCompound("origin");
+        background = readId(origin, "background");
+        formerFaction = readId(origin, "former_faction");
+        originSelected = origin.getBoolean("selected");
+        rogue = origin.getBoolean("rogue");
         armedReactive = readId(tag, "armed_reactive");
         reactiveWindow = tag.getInt("reactive_window");
         comboBuffer.clear();
@@ -733,6 +768,8 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private void writePublic(NbtCompound tag) {
         if (lineage != null) tag.putString("lineage", lineage.toString());
         if (faction != null) tag.putString("faction", faction.toString());
+        if (background != null) tag.putString("background", background.toString());
+        if (rogue) tag.putBoolean("rogue", true);
         if (activeTransformation != null) tag.putString("active_form", activeTransformation.toString());
         tag.putInt("tier", tier);
         NbtCompound poolsTag = new NbtCompound();
@@ -749,6 +786,8 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private void readPublic(NbtCompound tag) {
         lineage = readId(tag, "lineage");
         faction = readId(tag, "faction");
+        background = readId(tag, "background");
+        rogue = tag.getBoolean("rogue");
         activeTransformation = readId(tag, "active_form");
         tier = Math.max(1, tag.getInt("tier"));
         NbtCompound poolsTag = tag.getCompound("pools");
@@ -784,6 +823,12 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
             NbtCompound clan = new NbtCompound();
             clan.putBoolean("initialized", tag.contains("lineage", NbtElement.STRING_TYPE));
             tag.put("clan", clan);
+        }
+        if (from < 3) {
+            // v2 had no origin flow: a player who already pledged to a faction has effectively chosen an origin.
+            NbtCompound origin = new NbtCompound();
+            origin.putBoolean("selected", tag.contains("faction", NbtElement.STRING_TYPE));
+            tag.put("origin", origin);
         }
     }
 

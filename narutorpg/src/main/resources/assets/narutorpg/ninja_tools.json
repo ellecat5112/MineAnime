@@ -3293,7 +3293,7 @@
   "classification": [
    "Unclassified"
   ],
-  "existing": false
+  "existing": true
  },
  {
   "wiki": "Flamethrower",
@@ -3535,7 +3535,7 @@
    "Defensive",
    "Supplementary"
   ],
-  "existing": false
+  "existing": true
  },
  {
   "wiki": "Fūma Shuriken",

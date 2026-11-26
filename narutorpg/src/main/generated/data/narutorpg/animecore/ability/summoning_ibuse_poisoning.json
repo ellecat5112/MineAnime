@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "damage": 6.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Summoning: Ibuse Poisoning",
+    "translate": "ability.narutorpg.summoning_ibuse_poisoning"
+  },
+  "system": "narutorpg",
+  "visuals": {
+    "style": "poison"
+  }
+}

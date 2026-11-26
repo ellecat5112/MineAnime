@@ -1,0 +1,5777 @@
+{
+ "abilities": {
+  "air_sand_protective_wall": {
+   "actions": [
+    {
+     "distance": 2,
+     "duration_ticks": 160,
+     "height": 3,
+     "kind": "barrier",
+     "type": "animecore:raise_wall",
+     "width": 5
+    },
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 100,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Air Sand Protective Wall",
+    "translate": "ability.narutorpg.air_sand_protective_wall"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "big_ball_rasengan": {
+   "actions": [
+    {
+     "color": 9489145,
+     "damage": 11.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 4.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Big Ball Rasengan",
+    "translate": "ability.narutorpg.big_ball_rasengan"
+   },
+   "required_tier": 6,
+   "system": "narutorpg"
+  },
+  "black_lightning": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "affinity": "narutorpg:lightning",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Black Lightning",
+    "translate": "ability.narutorpg.black_lightning"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "cocoon": {
+   "actions": [
+    {
+     "distance": 2,
+     "duration_ticks": 160,
+     "height": 3,
+     "kind": "barrier",
+     "type": "animecore:raise_wall",
+     "width": 5
+    },
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 100,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Cocoon",
+    "translate": "ability.narutorpg.cocoon"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "dance_of_the_sickle_blade_falling_descent_blade": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dance of the Sickle Blade: Falling Descent Blade",
+    "translate": "ability.narutorpg.dance_of_the_sickle_blade_falling_descent_blade"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "dance_performance_second_step": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dance Performance: Second Step",
+    "translate": "ability.narutorpg.dance_performance_second_step"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "desert_hand": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Desert: Hand",
+    "translate": "ability.narutorpg.desert_hand"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "desert_layered_imperial_funeral_seal": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Desert Layered Imperial Funeral Seal",
+    "translate": "ability.narutorpg.desert_layered_imperial_funeral_seal"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "desert_suspension": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Desert Suspension",
+    "translate": "ability.narutorpg.desert_suspension"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "desert_wave": {
+   "actions": [
+    {
+     "distance": 2,
+     "duration_ticks": 160,
+     "height": 3,
+     "kind": "barrier",
+     "type": "animecore:raise_wall",
+     "width": 5
+    },
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 100,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Desert Wave",
+    "translate": "ability.narutorpg.desert_wave"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "dharma_power_seal": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dharma Power Seal",
+    "translate": "ability.narutorpg.dharma_power_seal"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "dharma_power_sealing_technique_sen_no_rikyu": {
+   "actions": [
+    {
+     "color": 8280002,
+     "damage": 3.5999999999999996,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 100,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:hunger"
+      }
+     ],
+     "radius": 5.0,
+     "type": "animecore:area_effect"
+    },
+    {
+     "heal": 4.0,
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dharma Power Sealing Technique: Sen no Rikyū",
+    "translate": "ability.narutorpg.dharma_power_sealing_technique_sen_no_rikyu"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "earth_release_fist_rock_technique": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "affinity": "narutorpg:earth",
+   "cast_type": "instant",
+   "combo": [
+    "narutorpg:snake",
+    "narutorpg:snake"
+   ],
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Earth Release: Fist Rock Technique",
+    "translate": "ability.narutorpg.earth_release_fist_rock_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "earth_release_golem_technique": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 9268835,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "affinity": "narutorpg:earth",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Earth Release: Golem Technique",
+    "translate": "ability.narutorpg.earth_release_golem_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "earth_release_opening_earth_rising_excavation": {
+   "actions": [
+    {
+     "aoe_radius": 3.0,
+     "color": 9268835,
+     "count": 1,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "affinity": "narutorpg:earth",
+   "cast_type": "charged",
+   "combo": [
+    "narutorpg:boar",
+    "narutorpg:bird",
+    "narutorpg:snake"
+   ],
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+   },
+   "max_charge_ticks": 40,
+   "name": {
+    "fallback": "Earth Release: Opening Earth Rising Excavation",
+    "translate": "ability.narutorpg.earth_release_opening_earth_rising_excavation"
+   },
+   "required_tier": 3,
+   "system": "narutorpg"
+  },
+  "explosion_ice_mountain_destruction": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Explosion: Ice Mountain Destruction",
+    "translate": "ability.narutorpg.explosion_ice_mountain_destruction"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "eye_mind_reading": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Eye Mind Reading",
+    "translate": "ability.narutorpg.eye_mind_reading"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "feather_launching": {
+   "actions": [
+    {
+     "color": 9489145,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Feather Launching",
+    "translate": "ability.narutorpg.feather_launching"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "first_axe_strike": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "First Axe Strike",
+    "translate": "ability.narutorpg.first_axe_strike"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "giant_sphere": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 9489145,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Giant Sphere",
+    "translate": "ability.narutorpg.giant_sphere"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "great_vacuum_cannon": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "affinity": "narutorpg:wind",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Great Vacuum Cannon",
+    "translate": "ability.narutorpg.great_vacuum_cannon"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "haze_clone_technique": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 60,
+       "effect": "minecraft:invisibility"
+      },
+      {
+       "amplifier": 1,
+       "duration": 80,
+       "effect": "minecraft:speed"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 16777215,
+     "damage": 0.0,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 30,
+       "effect": "minecraft:blindness"
+      }
+     ],
+     "radius": 5.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Haze Clone Technique",
+    "translate": "ability.narutorpg.haze_clone_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
+  },
+  "heavenly_punishment": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Heavenly Punishment",
+    "translate": "ability.narutorpg.heavenly_punishment"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "horn_breaking": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Horn Breaking",
+    "translate": "ability.narutorpg.horn_breaking"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "ink_creation": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Ink Creation",
+    "translate": "ability.narutorpg.ink_creation"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "lightning_ball": {
+   "actions": [
+    {
+     "color": 8444159,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "pierce": true,
+     "range": 28.0,
+     "type": "animecore:beam_raycast",
+     "width": 0.6
+    }
+   ],
+   "affinity": "narutorpg:lightning",
+   "cast_type": "instant",
+   "combo": [
+    "narutorpg:bird",
+    "narutorpg:snake",
+    "narutorpg:ram"
+   ],
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Lightning Ball",
+    "translate": "ability.narutorpg.lightning_ball"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "lightning_burial_banquet_of_lightning": {
+   "actions": [
+    {
+     "color": 8444159,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "pierce": true,
+     "range": 28.0,
+     "type": "animecore:beam_raycast",
+     "width": 0.6
+    }
+   ],
+   "affinity": "narutorpg:lightning",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Lightning Burial: Banquet of Lightning",
+    "translate": "ability.narutorpg.lightning_burial_banquet_of_lightning"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "lightning_release_double_lariat": {
+   "actions": [
+    {
+     "damage": 11.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    },
+    {
+     "color": 8444159,
+     "damage": 5.5,
+     "forward_offset": 1.5,
+     "knockback": 1.2,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "affinity": "narutorpg:lightning",
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Lightning Release: Double Lariat",
+    "translate": "ability.narutorpg.lightning_release_double_lariat"
+   },
+   "required_tier": 6,
+   "system": "narutorpg"
+  },
+  "lightning_release_lariat": {
+   "actions": [
+    {
+     "damage": 11.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    },
+    {
+     "color": 8444159,
+     "damage": 5.5,
+     "forward_offset": 1.5,
+     "knockback": 1.2,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "affinity": "narutorpg:lightning",
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Lightning Release: Lariat",
+    "translate": "ability.narutorpg.lightning_release_lariat"
+   },
+   "required_tier": 6,
+   "system": "narutorpg"
+  },
+  "lightning_straight": {
+   "actions": [
+    {
+     "color": 8444159,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "affinity": "narutorpg:lightning",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Lightning Straight",
+    "translate": "ability.narutorpg.lightning_straight"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "lightning_strike_armour": {
+   "actions": [
+    {
+     "color": 8444159,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "affinity": "narutorpg:lightning",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Lightning Strike Armour",
+    "translate": "ability.narutorpg.lightning_strike_armour"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "manipulating_attack_blades": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Manipulating Attack Blades",
+    "translate": "ability.narutorpg.manipulating_attack_blades"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "mechanical_light_shield_block": {
+   "actions": [
+    {
+     "distance": 2,
+     "duration_ticks": 200,
+     "height": 3,
+     "kind": "barrier",
+     "type": "animecore:raise_wall",
+     "width": 5
+    },
+    {
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Mechanical Light Shield Block",
+    "translate": "ability.narutorpg.mechanical_light_shield_block"
+   },
+   "required_tier": 3,
+   "system": "narutorpg"
+  },
+  "nadeshiko_style_deep_crimson_dance_performance": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Nadeshiko-Style Deep Crimson Dance Performance",
+    "translate": "ability.narutorpg.nadeshiko_style_deep_crimson_dance_performance"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "nadeshiko_style_hardliner_gale_fist": {
+   "actions": [
+    {
+     "color": 11730777,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "affinity": "narutorpg:wind",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Nadeshiko-Style Hardliner Gale Fist",
+    "translate": "ability.narutorpg.nadeshiko_style_hardliner_gale_fist"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "nadeshiko_style_hardliner_revolving_cut": {
+   "actions": [
+    {
+     "color": 11730777,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "affinity": "narutorpg:wind",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Nadeshiko-Style Hardliner Revolving Cut",
+    "translate": "ability.narutorpg.nadeshiko_style_hardliner_revolving_cut"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "negative_emotions_sensing": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Negative Emotions Sensing",
+    "translate": "ability.narutorpg.negative_emotions_sensing"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "net_shaped_prison": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 9489145,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Net-Shaped Prison",
+    "translate": "ability.narutorpg.net_shaped_prison"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "ninja_tools_barrier_reverse_fish_scales_formation": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Ninja Tools Barrier: Reverse Fish Scales Formation",
+    "translate": "ability.narutorpg.ninja_tools_barrier_reverse_fish_scales_formation"
+   },
+   "required_tier": 3,
+   "system": "narutorpg"
+  },
+  "peacock_whirlwind": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "affinity": "narutorpg:wind",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Peacock Whirlwind",
+    "translate": "ability.narutorpg.peacock_whirlwind"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "peacock_whirlwind_formation": {
+   "actions": [
+    {
+     "distance": 2,
+     "duration_ticks": 160,
+     "height": 3,
+     "kind": "barrier",
+     "type": "animecore:raise_wall",
+     "width": 5
+    },
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 100,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "affinity": "narutorpg:wind",
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Peacock Whirlwind Formation",
+    "translate": "ability.narutorpg.peacock_whirlwind_formation"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "puppet_performance_skilful_achievement_with_a_human_body": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Puppet Performance: Skilful Achievement with a Human Body",
+    "translate": "ability.narutorpg.puppet_performance_skilful_achievement_with_a_human_body"
+   },
+   "required_tier": 6,
+   "system": "narutorpg"
+  },
+  "rasengan": {
+   "actions": [
+    {
+     "color": 9489145,
+     "damage": 11.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 4.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rasengan",
+    "translate": "ability.narutorpg.rasengan"
+   },
+   "required_tier": 6,
+   "system": "narutorpg"
+  },
+  "roaring_run_great_strength_ice_strike": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Roaring Run: Great Strength Ice Strike",
+    "translate": "ability.narutorpg.roaring_run_great_strength_ice_strike"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "rock_clone_technique": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 60,
+       "effect": "minecraft:invisibility"
+      },
+      {
+       "amplifier": 1,
+       "duration": 80,
+       "effect": "minecraft:speed"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 16777215,
+     "damage": 0.0,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 30,
+       "effect": "minecraft:blindness"
+      }
+     ],
+     "radius": 5.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "affinity": "narutorpg:earth",
+   "cast_type": "instant",
+   "combo": [
+    "narutorpg:ram",
+    "narutorpg:horse",
+    "narutorpg:ram"
+   ],
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rock Clone Technique",
+    "translate": "ability.narutorpg.rock_clone_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
+  },
+  "rockslide_genjutsu": {
+   "actions": [
+    {
+     "color": 9315498,
+     "cone_degrees": 70.0,
+     "damage": 1.6,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 120,
+       "effect": "minecraft:nausea"
+      },
+      {
+       "amplifier": 1,
+       "duration": 80,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 0,
+       "duration": 80,
+       "effect": "minecraft:darkness"
+      }
+     ],
+     "radius": 10.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "affinity": "narutorpg:yin",
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rockslide Genjutsu",
+    "translate": "ability.narutorpg.rockslide_genjutsu"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
+  },
+  "rotating_ferocious_wind": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "affinity": "narutorpg:wind",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rotating Ferocious Wind",
+    "translate": "ability.narutorpg.rotating_ferocious_wind"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "sealing_technique_vitality_seal_formation": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sealing Technique: Vitality Seal Formation",
+    "translate": "ability.narutorpg.sealing_technique_vitality_seal_formation"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "sealing_trap_explosion": {
+   "actions": [
+    {
+     "color": 16766287,
+     "cone_degrees": 50.0,
+     "damage": 3.5999999999999996,
+     "effects": [
+      {
+       "amplifier": 3,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "pull": 1.5,
+     "radius": 7.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sealing Trap Explosion",
+    "translate": "ability.narutorpg.sealing_trap_explosion"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "senbon_shower": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Senbon Shower",
+    "translate": "ability.narutorpg.senbon_shower"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "sly_mind_affect_technique": {
+   "actions": [
+    {
+     "color": 9315498,
+     "cone_degrees": 70.0,
+     "damage": 2.4000000000000004,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 120,
+       "effect": "minecraft:nausea"
+      },
+      {
+       "amplifier": 1,
+       "duration": 80,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 0,
+       "duration": 80,
+       "effect": "minecraft:darkness"
+      }
+     ],
+     "radius": 10.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "affinity": "narutorpg:yin",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sly Mind Affect Technique",
+    "translate": "ability.narutorpg.sly_mind_affect_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
+  },
+  "soap_bubble_ninjutsu": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "affinity": "narutorpg:water",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Soap Bubble Ninjutsu",
+    "translate": "ability.narutorpg.soap_bubble_ninjutsu"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "spacetime_technique_formula_underworld_turnover": {
+   "actions": [
+    {
+     "damage": 0.0,
+     "distance": 14.0,
+     "hit_radius": 1.0,
+     "knockback": 0.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Space–Time Technique Formula: Underworld Turnover",
+    "translate": "ability.narutorpg.spacetime_technique_formula_underworld_turnover"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
+  },
+  "spear_attack_shining_horn": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Spear Attack Shining Horn",
+    "translate": "ability.narutorpg.spear_attack_shining_horn"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "summoning_food_cart_destroyer_technique": {
+   "actions": [
+    {
+     "aoe_radius": 3.0,
+     "color": 9489145,
+     "count": 1,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "charged",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+   },
+   "max_charge_ticks": 40,
+   "name": {
+    "fallback": "Summoning: Food Cart Destroyer Technique",
+    "translate": "ability.narutorpg.summoning_food_cart_destroyer_technique"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
+  },
+  "summoning_ibuse_poisoning": {
+   "actions": [
+    {
+     "color": 9489145,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Summoning: Ibuse Poisoning",
+    "translate": "ability.narutorpg.summoning_ibuse_poisoning"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "poison"
+   }
+  },
+  "summoning_technique": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 9489145,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "combo": [
+    "narutorpg:boar",
+    "narutorpg:bird"
+   ],
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Summoning Technique",
+    "translate": "ability.narutorpg.summoning_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
+  },
+  "takigakure_whirlwind": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Takigakure Whirlwind",
+    "translate": "ability.narutorpg.takigakure_whirlwind"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "third_eye": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Third Eye",
+    "translate": "ability.narutorpg.third_eye"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "toad_oil_bullet": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 9489145,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Toad Oil Bullet",
+    "translate": "ability.narutorpg.toad_oil_bullet"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "violent_whirlwind": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 11730777,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "trail_particle": "minecraft:cloud",
+     "type": "animecore:projectile"
+    }
+   ],
+   "affinity": "narutorpg:wind",
+   "cast_animation": "narutorpg:fireball_exhale",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Violent Whirlwind",
+    "translate": "ability.narutorpg.violent_whirlwind"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "water_release_lotus_light_rupture": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 2718207,
+     "count": 5,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "trail_particle": "minecraft:splash",
+     "type": "animecore:projectile"
+    }
+   ],
+   "affinity": "narutorpg:water",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Water Release: Lotus Light Rupture",
+    "translate": "ability.narutorpg.water_release_lotus_light_rupture"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "water_release_rapid_thunder_whip_technique": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 2718207,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "trail_particle": "minecraft:splash",
+     "type": "animecore:projectile"
+    }
+   ],
+   "affinity": "narutorpg:water",
+   "cast_animation": "narutorpg:fireball_exhale",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Water Release: Rapid Thunder Whip Technique",
+    "translate": "ability.narutorpg.water_release_rapid_thunder_whip_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "water_release_water_weapons": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 2718207,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "trail_particle": "minecraft:splash",
+     "type": "animecore:projectile"
+    }
+   ],
+   "affinity": "narutorpg:water",
+   "cast_animation": "narutorpg:fireball_exhale",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Water Release: Water Weapons",
+    "translate": "ability.narutorpg.water_release_water_weapons"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "water_release_water_whip": {
+   "actions": [
+    {
+     "aoe_radius": 1.5,
+     "color": 2718207,
+     "count": 1,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "trail_particle": "minecraft:splash",
+     "type": "animecore:projectile"
+    }
+   ],
+   "affinity": "narutorpg:water",
+   "cast_animation": "narutorpg:fireball_exhale",
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Water Release: Water Whip",
+    "translate": "ability.narutorpg.water_release_water_whip"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "wave_transmission_technique": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:jump_boost"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Wave Transmission Technique",
+    "translate": "ability.narutorpg.wave_transmission_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  },
+  "wind_cutter_technique": {
+   "actions": [
+    {
+     "distance": 2,
+     "duration_ticks": 160,
+     "height": 3,
+     "kind": "barrier",
+     "type": "animecore:raise_wall",
+     "width": 5
+    },
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 100,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 108,
+   "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Wind Cutter Technique",
+    "translate": "ability.narutorpg.wind_cutter_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg"
+  }
+ },
+ "backgrounds": {
+  "academy_prodigy": {
+   "allowed_factions": [
+    "narutorpg:hidden_rain",
+    "narutorpg:hidden_star",
+    "narutorpg:hidden_rock",
+    "narutorpg:hidden_stone",
+    "narutorpg:hidden_mist",
+    "narutorpg:hidden_leaf",
+    "narutorpg:hidden_cloud",
+    "narutorpg:hidden_grass",
+    "narutorpg:hidden_sound",
+    "narutorpg:hidden_frost",
+    "narutorpg:hidden_sand",
+    "narutorpg:hidden_waterfall",
+    "narutorpg:hidden_valley",
+    "narutorpg:hidden_moon",
+    "narutorpg:hidden_whirlpool",
+    "narutorpg:hidden_hot_water",
+    "narutorpg:hidden_snow",
+    "narutorpg:hidden_dream"
+   ],
+   "bonus_items": [
+    {
+     "count": 3,
+     "id": "narutorpg:explosive_tag"
+    },
+    {
+     "count": 2,
+     "id": "narutorpg:military_rations_pill"
+    }
+   ],
+   "description": {
+    "fallback": "Top of your Academy class. Deep chakra reserves, a head start in rank and the textbook techniques mastered early.",
+    "translate": "background.narutorpg.academy_prodigy.desc"
+   },
+   "name": {
+    "fallback": "Academy Prodigy",
+    "translate": "background.narutorpg.academy_prodigy"
+   },
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:clone_technique",
+    "narutorpg:transformation_technique"
+   ],
+   "starting_skill_points": 3,
+   "starting_tier_bonus": 2,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "flat": 20,
+     "multiplier": 1.0,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_capacity"
+    },
+    {
+     "multiplier": 1.15,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    }
+   ],
+   "weight": 10
+  },
+  "anbu_trainee": {
+   "allowed_factions": [
+    "narutorpg:hidden_rain",
+    "narutorpg:hidden_star",
+    "narutorpg:hidden_rock",
+    "narutorpg:hidden_stone",
+    "narutorpg:hidden_mist",
+    "narutorpg:hidden_leaf",
+    "narutorpg:hidden_cloud",
+    "narutorpg:hidden_grass",
+    "narutorpg:hidden_sound",
+    "narutorpg:hidden_frost",
+    "narutorpg:hidden_sand",
+    "narutorpg:hidden_waterfall",
+    "narutorpg:hidden_valley",
+    "narutorpg:hidden_moon",
+    "narutorpg:hidden_whirlpool",
+    "narutorpg:hidden_hot_water",
+    "narutorpg:hidden_snow",
+    "narutorpg:hidden_dream"
+   ],
+   "bonus_items": [
+    {
+     "count": 1,
+     "id": "narutorpg:tanto"
+    },
+    {
+     "count": 3,
+     "id": "narutorpg:smoke_bomb"
+    }
+   ],
+   "description": {
+    "fallback": "Pulled from the Academy into the black-ops program. Precise, lethal and trained in silent infiltration.",
+    "translate": "background.narutorpg.anbu_trainee.desc"
+   },
+   "name": {
+    "fallback": "Anbu Trainee",
+    "translate": "background.narutorpg.anbu_trainee"
+   },
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:body_flicker_technique"
+   ],
+   "starting_skill_points": 2,
+   "starting_tier_bonus": 1,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.05,
+     "attribute": "minecraft:generic.attack_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    }
+   ],
+   "weight": 6
+  },
+  "merchant_scion": {
+   "allowed_factions": [],
+   "bonus_items": [
+    {
+     "count": 16,
+     "id": "minecraft:emerald"
+    },
+    {
+     "count": 4,
+     "id": "narutorpg:explosive_tag"
+    },
+    {
+     "count": 2,
+     "id": "narutorpg:smoke_bomb"
+    },
+    {
+     "count": 2,
+     "id": "narutorpg:wire_strings"
+    },
+    {
+     "count": 2,
+     "id": "narutorpg:blood_increasing_pill"
+    }
+   ],
+   "description": {
+    "fallback": "Heir of a trading or crafting house. Lucky, well connected, and well supplied with the finest ninja tools money can buy.",
+    "translate": "background.narutorpg.merchant_scion.desc"
+   },
+   "name": {
+    "fallback": "Merchant / Artisan Scion",
+    "translate": "background.narutorpg.merchant_scion"
+   },
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_skill_points": 0,
+   "starting_tier_bonus": 0,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.5,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ],
+   "weight": 8
+  },
+  "shinobi_orphan": {
+   "allowed_factions": [],
+   "bonus_items": [
+    {
+     "count": 4,
+     "id": "narutorpg:kunai"
+    },
+    {
+     "count": 3,
+     "id": "narutorpg:military_rations_pill"
+    }
+   ],
+   "description": {
+    "fallback": "Raised by nobody, you learned to survive on the streets: tougher, quicker on your feet, never without a spare blade.",
+    "translate": "background.narutorpg.shinobi_orphan.desc"
+   },
+   "name": {
+    "fallback": "Shinobi Orphan",
+    "translate": "background.narutorpg.shinobi_orphan"
+   },
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:body_flicker_technique"
+   ],
+   "starting_skill_points": 1,
+   "starting_tier_bonus": 0,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.05,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "flat": 20,
+     "multiplier": 1.0,
+     "pool": "narutorpg:stamina",
+     "type": "animecore:energy_capacity"
+    }
+   ],
+   "weight": 10
+  },
+  "wandering_mercenary": {
+   "allowed_factions": [],
+   "bonus_items": [
+    {
+     "count": 1,
+     "id": "narutorpg:sword"
+    },
+    {
+     "count": 4,
+     "id": "narutorpg:military_rations_pill"
+    },
+    {
+     "count": 2,
+     "id": "narutorpg:flash_bomb"
+    }
+   ],
+   "description": {
+    "fallback": "You sold your blade from one war-torn country to the next. Armoured, hard to kill, but with little chakra training.",
+    "translate": "background.narutorpg.wandering_mercenary.desc"
+   },
+   "name": {
+    "fallback": "Wandering Mercenary",
+    "translate": "background.narutorpg.wandering_mercenary"
+   },
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_skill_points": 1,
+   "starting_tier_bonus": 0,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 4.0,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "flat": -10,
+     "multiplier": 1.0,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_capacity"
+    }
+   ],
+   "weight": 8
+  }
+ },
+ "crawled": "2026-11-26",
+ "factions": {
+  "bamboo_village": {
+   "color": 5792625,
+   "description": {
+    "fallback": "Bamboo Village is a small village in the Land of Hot Water. It is surrounded by a forest of bamboo, and as such most of the village's buildings and goods are made out of bamboo.",
+    "translate": "faction.narutorpg.bamboo_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:bamboo_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5792625,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Bamboo Village",
+    "translate": "faction.narutorpg.bamboo_village"
+   },
+   "reputation": {
+    "narutorpg:bamboo_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "ceramic_village": {
+   "color": 11234443,
+   "description": {
+    "fallback": "The Ceramic Village was a small village in the Land of Wind, near the border with the Land of Rivers.",
+    "translate": "faction.narutorpg.ceramic_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:ceramic_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 11234443,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Ceramic Village",
+    "translate": "faction.narutorpg.ceramic_village"
+   },
+   "reputation": {
+    "narutorpg:ceramic_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "curtain_village": {
+   "color": 7847835,
+   "description": {
+    "fallback": "Curtain Village is the capital of the Land of Silence. The city hosts the only black market in the region.",
+    "translate": "faction.narutorpg.curtain_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:curtain_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 7847835,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Curtain Village",
+    "translate": "faction.narutorpg.curtain_village"
+   },
+   "reputation": {
+    "narutorpg:curtain_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "daidai_village": {
+   "color": 8032322,
+   "description": {
+    "fallback": "Daidai Village is a small village inhabited by the members of the Yoimura Clan.",
+    "translate": "faction.narutorpg.daidai_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:daidai_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 8032322,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Daidai Village",
+    "translate": "faction.narutorpg.daidai_village"
+   },
+   "reputation": {
+    "narutorpg:daidai_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "genjutsu_tree_village": {
+   "color": 6259533,
+   "description": {
+    "fallback": "This unnamed village is hidden among special trees that produce a genjutsu-like effect, thus protecting the village from invaders.",
+    "translate": "faction.narutorpg.genjutsu_tree_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:chilli_pepper_bomb"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:genjutsu_tree_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 6259533,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Genjutsu Tree Village",
+    "translate": "faction.narutorpg.genjutsu_tree_village"
+   },
+   "reputation": {
+    "narutorpg:genjutsu_tree_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hacho_village": {
+   "color": 6919264,
+   "description": {
+    "fallback": "Hachō Village is a village lying on the outskirts of the border of the Land of Fire. They are on very friendly terms with the Tonika Village.",
+    "translate": "faction.narutorpg.hacho_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hacho_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 6919264,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Hachō Village",
+    "translate": "faction.narutorpg.hacho_village"
+   },
+   "reputation": {
+    "narutorpg:hacho_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hidden_cloud": {
+   "color": 15527921,
+   "description": {
+    "fallback": "Kumogakure is the hidden village of the Land of Lightning and was founded by the First Raikage.",
+    "translate": "faction.narutorpg.hidden_cloud.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:chakra_cannon",
+     "narutorpg:cleaver_sword",
+     "narutorpg:kumogakure_swords",
+     "narutorpg:spike_bomb",
+     "narutorpg:vambraces"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:lightning_release_lariat",
+    "narutorpg:black_lightning",
+    "narutorpg:ink_creation",
+    "narutorpg:lightning_release_chakra_mode",
+    "narutorpg:lightning_release_double_lariat",
+    "narutorpg:lightning_straight"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_cloud",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 15527921,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_cloud",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 15527921,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Kumogakure (Hidden Cloud)",
+    "translate": "faction.narutorpg.hidden_cloud"
+   },
+   "reputation": {
+    "narutorpg:hidden_cloud": 100,
+    "narutorpg:hidden_leaf": -25,
+    "narutorpg:hidden_mist": -10,
+    "narutorpg:hidden_sand": -10,
+    "narutorpg:hidden_stone": -25
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "affinity": "narutorpg:lightning",
+     "multiplier": 1.1,
+     "type": "animecore:ability_power"
+    },
+    {
+     "amount": 0.04,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hidden_dream": {
+   "color": 12216520,
+   "description": {
+    "fallback": "is a small village located in a deep forest of a tiny country, near the border of the Land of Fire.",
+    "translate": "faction.narutorpg.hidden_dream.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:chakra_enhanced_triple_bladed_claw"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:chakra_slicers",
+    "narutorpg:lightning_tackle",
+    "narutorpg:taisa_s_transformation_technique",
+    "narutorpg:yomito_s_transformation_technique"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_dream",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 12216520,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_dream",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 12216520,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Yumegakure (Hidden Dream)",
+    "translate": "faction.narutorpg.hidden_dream"
+   },
+   "reputation": {
+    "narutorpg:hidden_dream": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": []
+  },
+  "hidden_frost": {
+   "color": 8445674,
+   "description": {
+    "fallback": "Shimogakure is the hidden village located in the Land of Frost.",
+    "translate": "faction.narutorpg.hidden_frost.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_frost",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 8445674,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_frost",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 8445674,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Shimogakure (Hidden Frost)",
+    "translate": "faction.narutorpg.hidden_frost"
+   },
+   "reputation": {
+    "narutorpg:hidden_frost": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": []
+  },
+  "hidden_grass": {
+   "color": 6856504,
+   "description": {
+    "fallback": "Kusagakure is located thus far in an unnamed country. Because it had genin participating in the Chūnin Exams organised by Konohagakure, it can be assumed the two villages are allied.",
+    "translate": "faction.narutorpg.hidden_grass.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:box_of_ultimate_bliss"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:feather_launching",
+    "narutorpg:giant_sphere",
+    "narutorpg:heal_bite"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_grass",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 6856504,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_grass",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 6856504,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Kusagakure (Hidden Grass)",
+    "translate": "faction.narutorpg.hidden_grass"
+   },
+   "reputation": {
+    "narutorpg:hidden_grass": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "multiplier": 1.15,
+     "pool": "narutorpg:stamina",
+     "type": "animecore:energy_regen"
+    }
+   ]
+  },
+  "hidden_hot_water": {
+   "color": 16747109,
+   "description": {
+    "fallback": "Yugakure is the hidden village of the Land of Hot Water. Like the country in which it resides, Yugakure has strong inclinations towards pacifism.",
+    "translate": "faction.narutorpg.hidden_hot_water.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:double_bladed_scythe",
+     "narutorpg:retractable_spear"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_hot_water",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 16747109,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_hot_water",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 16747109,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Yugakure (Hidden Hot Water)",
+    "translate": "faction.narutorpg.hidden_hot_water"
+   },
+   "reputation": {
+    "narutorpg:hidden_hot_water": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hidden_leaf": {
+   "color": 5025616,
+   "description": {
+    "fallback": "Konohagakure is the hidden village of the Land of Fire. As the village of one of the Five Great Shinobi Countries, Konohagakure has a Kage as its leader known as the Hokage, of which there have been seven in its history.",
+    "translate": "faction.narutorpg.hidden_leaf.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:absorbing_eye",
+     "narutorpg:chain_wind_staff",
+     "narutorpg:concealed_mouth_ember",
+     "narutorpg:conch_shell_mace",
+     "narutorpg:cursed_seal_device",
+     "narutorpg:dako",
+     "narutorpg:demon_shinki",
+     "narutorpg:exploding_sphere",
+     "narutorpg:first_hokage_s_necklace",
+     "narutorpg:handheld_kunai_launcher",
+     "narutorpg:hyuga_clan_secret_ointment",
+     "narutorpg:injection_shot",
+     "narutorpg:jidanda",
+     "narutorpg:kokuto",
+     "narutorpg:kunai_blade",
+     "narutorpg:lightning_release_suit",
+     "narutorpg:liquid_crystal_wall",
+     "narutorpg:metal_doll",
+     "narutorpg:microscopic_scientific_ninja_tools",
+     "narutorpg:mind_reading_amplification_machine",
+     "narutorpg:ocarina",
+     "narutorpg:sealing_arm_braces",
+     "narutorpg:space_time_gate",
+     "narutorpg:spy_drone",
+     "narutorpg:sword_of_totsuka",
+     "narutorpg:tailed_beast_drug",
+     "narutorpg:tsurukame",
+     "narutorpg:white_light_chakra_sabre",
+     "narutorpg:wrist_mounted_senbon_launcher",
+     "narutorpg:yata_mirror"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:mystical_palm_technique",
+    "narutorpg:string_light_formation",
+    "narutorpg:multiple_string_light_formation",
+    "narutorpg:regeneration_ability",
+    "narutorpg:rasengan",
+    "narutorpg:fang_passing_fang",
+    "narutorpg:negative_emotions_sensing",
+    "narutorpg:passing_fang",
+    "narutorpg:strong_fist",
+    "narutorpg:summoning_technique",
+    "narutorpg:big_ball_rasengan",
+    "narutorpg:eight_gates"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_leaf",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5025616,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_leaf",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5025616,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Konohagakure (Hidden Leaf)",
+    "translate": "faction.narutorpg.hidden_leaf"
+   },
+   "reputation": {
+    "narutorpg:hidden_cloud": -25,
+    "narutorpg:hidden_leaf": 100,
+    "narutorpg:hidden_mist": 0,
+    "narutorpg:hidden_sand": 50,
+    "narutorpg:hidden_sound": -50,
+    "narutorpg:hidden_stone": -25,
+    "narutorpg:hidden_whirlpool": 50
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "multiplier": 1.1,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    },
+    {
+     "affinity": "narutorpg:fire",
+     "multiplier": 1.05,
+     "type": "animecore:ability_power"
+    }
+   ]
+  },
+  "hidden_mist": {
+   "color": 5227511,
+   "description": {
+    "fallback": "Kirigakure is the hidden village of the Land of Water. As the village of one of the Five Great Shinobi Countries, Kiri has a Kage as its leader known as the Mizukage, of which there have been six in its history.",
+    "translate": "faction.narutorpg.hidden_mist.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:bubble_utilising_pipe",
+     "narutorpg:claw_club",
+     "narutorpg:fire_gatling",
+     "narutorpg:hiramekarei",
+     "narutorpg:kabutowari",
+     "narutorpg:kiba_swords",
+     "narutorpg:metal_gauntlets",
+     "narutorpg:mirror_drone",
+     "narutorpg:nuibari",
+     "narutorpg:shibuki_sword"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:hiding_in_mist_technique",
+    "narutorpg:soap_bubble_ninjutsu",
+    "narutorpg:water_prison_technique",
+    "narutorpg:first_axe_strike",
+    "narutorpg:coral_palm",
+    "narutorpg:earth_release_subterranean_voyage",
+    "narutorpg:leaping_bullet_shell_tower",
+    "narutorpg:lightning_ball",
+    "narutorpg:lightning_burial_banquet_of_lightning",
+    "narutorpg:lightning_strike_armour",
+    "narutorpg:shadow_stroke",
+    "narutorpg:water_prison_shark_dance_technique"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_mist",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5227511,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_mist",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5227511,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Kirigakure (Hidden Mist)",
+    "translate": "faction.narutorpg.hidden_mist"
+   },
+   "reputation": {
+    "narutorpg:hidden_cloud": -10,
+    "narutorpg:hidden_leaf": 0,
+    "narutorpg:hidden_mist": 100,
+    "narutorpg:hidden_sand": 0,
+    "narutorpg:hidden_stone": -10
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "affinity": "narutorpg:water",
+     "multiplier": 1.1,
+     "type": "animecore:ability_power"
+    },
+    {
+     "amount": 0.4,
+     "attribute": "minecraft:generic.water_movement_efficiency",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hidden_moon": {
+   "color": 10463450,
+   "description": {
+    "fallback": "Tsukigakure is a hidden village led by Tsukino, who succeeded her father after he died. They have a hereditary system and so positions are passed down to the next generation.",
+    "translate": "faction.narutorpg.hidden_moon.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:sealing_technique_vitality_seal_formation",
+    "narutorpg:sealing_trap_explosion"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_moon",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 10463450,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_moon",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 10463450,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Tsukigakure (Hidden Moon)",
+    "translate": "faction.narutorpg.hidden_moon"
+   },
+   "reputation": {
+    "narutorpg:hidden_moon": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": []
+  },
+  "hidden_rain": {
+   "color": 6323595,
+   "description": {
+    "fallback": "Amegakure is a small but highly industrialised hidden village located in an unnamed country.",
+    "translate": "faction.narutorpg.hidden_rain.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:artificial_sharingan",
+     "narutorpg:kiseki",
+     "narutorpg:smoke_tag"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:senbon_shower",
+    "narutorpg:haze_clone_technique",
+    "narutorpg:sly_mind_affect_technique",
+    "narutorpg:summoning_ibuse_poisoning",
+    "narutorpg:water_release_rapid_thunder_whip_technique",
+    "narutorpg:water_release_water_weapons",
+    "narutorpg:water_release_water_whip",
+    "narutorpg:dance_of_the_sickle_blade_falling_descent_blade"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_rain",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 6323595,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_rain",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 6323595,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Amegakure (Hidden Rain)",
+    "translate": "faction.narutorpg.hidden_rain"
+   },
+   "reputation": {
+    "narutorpg:hidden_leaf": -10,
+    "narutorpg:hidden_rain": 100,
+    "narutorpg:hidden_stone": -10
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "affinity": "narutorpg:water",
+     "multiplier": 1.05,
+     "type": "animecore:ability_power"
+    },
+    {
+     "flat": 10,
+     "multiplier": 1.0,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_capacity"
+    }
+   ]
+  },
+  "hidden_rock": {
+   "color": 10395294,
+   "description": {
+    "fallback": "Ishigakure is the hidden village of the country located between the Land of Earth and the Land of Wind.",
+    "translate": "faction.narutorpg.hidden_rock.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_rock",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 10395294,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_rock",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 10395294,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Ishigakure (Hidden Rock)",
+    "translate": "faction.narutorpg.hidden_rock"
+   },
+   "reputation": {
+    "narutorpg:hidden_rock": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": []
+  },
+  "hidden_sand": {
+   "color": 14133358,
+   "description": {
+    "fallback": "Sunagakure is the hidden village of the Land of Wind. As the village of one of the Five Great Shinobi Countries, Sunagakure has a Kage as its leader known as the Kazekage, of which there have been five in its history.",
+    "translate": "faction.narutorpg.hidden_sand.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:araya_puppet",
+     "narutorpg:binding_cloth",
+     "narutorpg:double_bladed_bracers",
+     "narutorpg:flamethrower",
+     "narutorpg:hiruko",
+     "narutorpg:karasu",
+     "narutorpg:komushi_puppet",
+     "narutorpg:kuroari",
+     "narutorpg:lion_headed_kannon",
+     "narutorpg:mother_and_father",
+     "narutorpg:puppet_buzzsaw",
+     "narutorpg:sand_gourd",
+     "narutorpg:sanshouo",
+     "narutorpg:sasori_puppet",
+     "narutorpg:third_kazekage_puppet",
+     "narutorpg:water_firing_puppets",
+     "narutorpg:water_stream_shooters"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:puppet_technique",
+    "narutorpg:puppet_performance_skilful_achievement_with_a_human_body",
+    "narutorpg:third_eye",
+    "narutorpg:air_sand_protective_wall",
+    "narutorpg:desert_layered_imperial_funeral_seal",
+    "narutorpg:desert_suspension",
+    "narutorpg:desert_wave",
+    "narutorpg:desert_hand",
+    "narutorpg:dharma_power_seal",
+    "narutorpg:dharma_power_sealing_technique_sen_no_rikyu",
+    "narutorpg:manipulating_attack_blades",
+    "narutorpg:mechanical_light_shield_block"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_sand",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 14133358,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_sand",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 14133358,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Sunagakure (Hidden Sand)",
+    "translate": "faction.narutorpg.hidden_sand"
+   },
+   "reputation": {
+    "narutorpg:hidden_cloud": -10,
+    "narutorpg:hidden_leaf": 50,
+    "narutorpg:hidden_mist": 0,
+    "narutorpg:hidden_sand": 100,
+    "narutorpg:hidden_sound": -50,
+    "narutorpg:hidden_stone": -10
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:wind",
+     "multiplier": 1.1,
+     "type": "animecore:ability_power"
+    }
+   ]
+  },
+  "hidden_snow": {
+   "color": 11789820,
+   "description": {
+    "fallback": "Yukigakure is a hidden village located in the Land of Snow. Its ninja apparently specialise in manipulating pre-existing ice, typically in the forms of various animals.",
+    "translate": "faction.narutorpg.hidden_snow.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:chakra_armour",
+     "narutorpg:chakra_disruption_device",
+     "narutorpg:hexagonal_crystal",
+     "narutorpg:ice_bomb",
+     "narutorpg:mechanical_kunai_thrower",
+     "narutorpg:pepper_balloon_earrings",
+     "narutorpg:retractable_cable_arm",
+     "narutorpg:snowboard"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:explosion_ice_mountain_destruction",
+    "narutorpg:roaring_run_great_strength_ice_strike"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_snow",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 11789820,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_snow",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 11789820,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Yukigakure (Hidden Snow)",
+    "translate": "faction.narutorpg.hidden_snow"
+   },
+   "reputation": {
+    "narutorpg:hidden_snow": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "affinity": "narutorpg:ice",
+     "multiplier": 1.1,
+     "type": "animecore:ability_power"
+    }
+   ]
+  },
+  "hidden_sound": {
+   "color": 8280002,
+   "description": {
+    "fallback": "Otogakure is the personal hidden village of Orochimaru, which was founded after he left the Akatsuki for the express purpose of collecting ninja for his experiments and his quest to learn all techniques.",
+    "translate": "faction.narutorpg.hidden_sound.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:curse_mask",
+     "narutorpg:demonic_flute",
+     "narutorpg:resonating_echo_speaker",
+     "narutorpg:scissor_pincers",
+     "narutorpg:slime_suit",
+     "narutorpg:wrist_launcher"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:casualty_puppet",
+    "narutorpg:spacetime_technique_formula_underworld_turnover",
+    "narutorpg:antlion_ninja_arts_ephemeral",
+    "narutorpg:earth_release_antlion_technique",
+    "narutorpg:wind_spider_technique"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_sound",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 8280002,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_sound",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 8280002,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Otogakure (Hidden Sound)",
+    "translate": "faction.narutorpg.hidden_sound"
+   },
+   "reputation": {
+    "narutorpg:hidden_leaf": -50,
+    "narutorpg:hidden_sand": -50,
+    "narutorpg:hidden_sound": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 0.08,
+     "attribute": "minecraft:generic.attack_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hidden_star": {
+   "color": 16766287,
+   "description": {
+    "fallback": "Hoshigakure was introduced during the Star Guard Mission. It is founded by the First Hoshikage two hundred years before the start of the series and is located in the Land of Bears.",
+    "translate": "faction.narutorpg.hidden_star.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:meteorite"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_star",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 16766287,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_star",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 16766287,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Hoshigakure (Hidden Star)",
+    "translate": "faction.narutorpg.hidden_star"
+   },
+   "reputation": {
+    "narutorpg:hidden_star": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": []
+  },
+  "hidden_stone": {
+   "color": 9268835,
+   "description": {
+    "fallback": "Iwagakure is the hidden village of the Land of Earth. As the village of one of the Five Great Shinobi Countries, Iwagakure has a Kage as its leader known as the Tsuchikage, of which there have been four in its history.",
+    "translate": "faction.narutorpg.hidden_stone.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:eye_scope",
+     "narutorpg:steam_armour"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:earth_release_fist_rock_technique",
+    "narutorpg:earth_release_golem_technique",
+    "narutorpg:earth_release_opening_earth_rising_excavation",
+    "narutorpg:horn_breaking",
+    "narutorpg:rock_clone_technique"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_stone",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 9268835,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_stone",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 9268835,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Iwagakure (Hidden Stone)",
+    "translate": "faction.narutorpg.hidden_stone"
+   },
+   "reputation": {
+    "narutorpg:hidden_cloud": -25,
+    "narutorpg:hidden_leaf": -25,
+    "narutorpg:hidden_rain": -10,
+    "narutorpg:hidden_stone": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "affinity": "narutorpg:earth",
+     "multiplier": 1.1,
+     "type": "animecore:ability_power"
+    },
+    {
+     "amount": 0.15,
+     "attribute": "minecraft:generic.knockback_resistance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hidden_valley": {
+   "color": 7951688,
+   "description": {
+    "fallback": "Tanigakure is the hidden village of the Land of Rivers. Thirty years before the start of the series, this village ambushed Kagerō Village two weeks after they had agreed to a ceasefire with Konohagakure.",
+    "translate": "faction.narutorpg.hidden_valley.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_valley",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 7951688,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_valley",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 7951688,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Tanigakure (Hidden Valley)",
+    "translate": "faction.narutorpg.hidden_valley"
+   },
+   "reputation": {
+    "narutorpg:hidden_valley": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": []
+  },
+  "hidden_waterfall": {
+   "color": 2533018,
+   "description": {
+    "fallback": "Takigakure is a village located in an unnamed country. Their current leader is Shibuki.",
+    "translate": "faction.narutorpg.hidden_waterfall.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:hero_water"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:cocoon",
+    "narutorpg:net_shaped_prison",
+    "narutorpg:spear_attack_shining_horn",
+    "narutorpg:takigakure_whirlwind",
+    "narutorpg:water_release_lotus_light_rupture",
+    "narutorpg:wave_transmission_technique"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_waterfall",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 2533018,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_waterfall",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 2533018,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Takigakure (Hidden Waterfall)",
+    "translate": "faction.narutorpg.hidden_waterfall"
+   },
+   "reputation": {
+    "narutorpg:hidden_waterfall": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "affinity": "narutorpg:water",
+     "multiplier": 1.05,
+     "type": "animecore:ability_power"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "hidden_whirlpool": {
+   "color": 15092249,
+   "description": {
+    "fallback": "Uzushiogakure was the shinobi village of the Land of Whirlpools. The people of Uzushiogakure were noted to have notoriously long lives, so it gained the epithet \"The Village of Longevity\".",
+    "translate": "faction.narutorpg.hidden_whirlpool.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:uzumaki_sealing_technique"
+   ],
+   "kind": "hidden_village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_whirlpool",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 15092249,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:hidden_whirlpool",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 15092249,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 8,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 16,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:explosive_tag"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Uzushiogakure (Hidden Whirlpool)",
+    "translate": "faction.narutorpg.hidden_whirlpool"
+   },
+   "reputation": {
+    "narutorpg:hidden_leaf": 50,
+    "narutorpg:hidden_whirlpool": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+   ],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "flat": 30,
+     "multiplier": 1.0,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_capacity"
+    }
+   ]
+  },
+  "howling_wolf_village": {
+   "color": 10853994,
+   "description": {
+    "fallback": "The Howling Wolf Village was originally a settlement of the Kodon clan. Since ancient times, the settlement was periodically attacked by Rōen, a wolf-like monster.",
+    "translate": "faction.narutorpg.howling_wolf_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:howling_wolf_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 10853994,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Howling Wolf Village",
+    "translate": "faction.narutorpg.howling_wolf_village"
+   },
+   "reputation": {
+    "narutorpg:howling_wolf_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "inaho_village": {
+   "color": 8874837,
+   "description": {
+    "fallback": "Inaho Village is located near the hills where Genmai was kidnapped.",
+    "translate": "faction.narutorpg.inaho_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:inaho_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 8874837,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Inaho Village",
+    "translate": "faction.narutorpg.inaho_village"
+   },
+   "reputation": {
+    "narutorpg:inaho_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "jomae_village": {
+   "color": 4814951,
+   "description": {
+    "fallback": "The Jōmae Village is an anime-only shinobi village located in the Land of Keys. This village's shinobi are experts in espionage in order to gain information for negotiations with larger, more powerful nations.",
+    "translate": "faction.narutorpg.jomae_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:eye_mind_reading"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:jomae_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 4814951,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Jōmae Village",
+    "translate": "faction.narutorpg.jomae_village"
+   },
+   "reputation": {
+    "narutorpg:jomae_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "kagero_village": {
+   "color": 5401483,
+   "description": {
+    "fallback": "Kagerō Village, was a small village located in the Land of Mountains.",
+    "translate": "faction.narutorpg.kagero_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:heavenly_punishment",
+    "narutorpg:rockslide_genjutsu"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:kagero_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5401483,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Kagerō Village",
+    "translate": "faction.narutorpg.kagero_village"
+   },
+   "reputation": {
+    "narutorpg:kagero_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "kisaragi_village": {
+   "color": 9459133,
+   "description": {
+    "fallback": "Kisaragi Village is a village south of Konohagakure. It was the subject of attacks by bandits in league with the Shirogane clan in their search for the spirit orbs.",
+    "translate": "faction.narutorpg.kisaragi_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:kisaragi_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 9459133,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Kisaragi Village",
+    "translate": "faction.narutorpg.kisaragi_village"
+   },
+   "reputation": {
+    "narutorpg:kisaragi_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "missing_nin": {
+   "color": 2503224,
+   "description": {
+    "fallback": "Shinobi who abandoned their village. Free, feared, and hunted by every hidden village.",
+    "translate": "faction.narutorpg.missing_nin.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "rogue",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:missing_nin",
+        "scratched": true
+       },
+       "minecraft:dyed_color": {
+        "rgb": 3622735,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:forehead_protector"
+     },
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:missing_nin",
+        "scratched": true
+       },
+       "minecraft:dyed_color": {
+        "rgb": 2503224,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 6,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 8,
+      "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:smoke_bomb"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Missing-nin",
+    "translate": "faction.narutorpg.missing_nin"
+   },
+   "reputation": {
+    "narutorpg:hidden_cloud": -50,
+    "narutorpg:hidden_dream": -50,
+    "narutorpg:hidden_frost": -50,
+    "narutorpg:hidden_grass": -50,
+    "narutorpg:hidden_hot_water": -50,
+    "narutorpg:hidden_leaf": -50,
+    "narutorpg:hidden_mist": -50,
+    "narutorpg:hidden_moon": -50,
+    "narutorpg:hidden_rain": -50,
+    "narutorpg:hidden_rock": -50,
+    "narutorpg:hidden_sand": -50,
+    "narutorpg:hidden_snow": -50,
+    "narutorpg:hidden_sound": -50,
+    "narutorpg:hidden_star": -50,
+    "narutorpg:hidden_stone": -50,
+    "narutorpg:hidden_valley": -50,
+    "narutorpg:hidden_waterfall": -50,
+    "narutorpg:hidden_whirlpool": -50,
+    "narutorpg:missing_nin": 100
+   },
+   "rogue": true,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 0.05,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "mount_katsuragi": {
+   "color": 9663882,
+   "description": {
+    "fallback": "Mount Katsuragi is a mountain which holds the Tsuchigumo clan's kinjutsu. Hotaru and Tonbee live on this mountain.",
+    "translate": "faction.narutorpg.mount_katsuragi.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:mount_katsuragi",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 9663882,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Mount Katsuragi",
+    "translate": "faction.narutorpg.mount_katsuragi"
+   },
+   "reputation": {
+    "narutorpg:mount_katsuragi": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "mount_myoboku": {
+   "color": 5464992,
+   "description": {
+    "fallback": "Mount Myōboku, also known as the \"Mountain of Bewilderment\" and the \"Land of Toads\", is one of the big three unexplored sage regions, a legendary place that is equally as famous as the other two, Shikkotsu Forest and Ryūchi Cave.",
+    "translate": "faction.narutorpg.mount_myoboku.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:shuigu",
+     "narutorpg:tenseigan_energy_vessel"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:summoning_food_cart_destroyer_technique",
+    "narutorpg:toad_oil_bullet"
+   ],
+   "kind": "sage_realm",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:mount_myoboku",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5464992,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 4,
+      "id": "narutorpg:kunai"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Mount Myōboku",
+    "translate": "faction.narutorpg.mount_myoboku"
+   },
+   "reputation": {
+    "narutorpg:mount_myoboku": 100
+   },
+   "rogue": false,
+   "selectable": false,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "multiplier": 1.2,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "nadeshiko_village": {
+   "color": 5869946,
+   "description": {
+    "fallback": "The Nadeshiko Village is a shinobi village located near the Land of Water. The families of this village are organised through matrilineality.",
+    "translate": "faction.narutorpg.nadeshiko_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:dance_performance_second_step",
+    "narutorpg:nadeshiko_style_deep_crimson_dance_performance",
+    "narutorpg:nadeshiko_style_hardliner_gale_fist",
+    "narutorpg:nadeshiko_style_hardliner_revolving_cut",
+    "narutorpg:violent_whirlwind"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:nadeshiko_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5869946,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Nadeshiko Village",
+    "translate": "faction.narutorpg.nadeshiko_village"
+   },
+   "reputation": {
+    "narutorpg:nadeshiko_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "ryuchi_cave": {
+   "color": 6267737,
+   "description": {
+    "fallback": "Ryūchi Cave is one of the big three unexplored sage regions, a legendary place that is equally famous as the other two, Mount Myōboku and Shikkotsu Forest.",
+    "translate": "faction.narutorpg.ryuchi_cave.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "sage_realm",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:ryuchi_cave",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 6267737,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 4,
+      "id": "narutorpg:kunai"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Ryūchi Cave",
+    "translate": "faction.narutorpg.ryuchi_cave"
+   },
+   "reputation": {
+    "narutorpg:ryuchi_cave": 100
+   },
+   "rogue": false,
+   "selectable": false,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "multiplier": 1.2,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "shangri_la": {
+   "color": 9931424,
+   "description": {
+    "fallback": "Shangri-la was a village located in what was sometimes called the Valley of Lies. It was a haven for those with bounties on their heads who wanted to live their lives without worrying about being pursued by bounty hunters.",
+    "translate": "faction.narutorpg.shangri_la.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:shangri_la",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 9931424,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Shangri-la",
+    "translate": "faction.narutorpg.shangri_la"
+   },
+   "reputation": {
+    "narutorpg:shangri_la": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "shikkotsu_forest": {
+   "color": 8492217,
+   "description": {
+    "fallback": "The Shikkotsu Forest is a legendary place and one of the three unexplored sage regions; the other two being: Mount Myōboku and Ryūchi Cave.",
+    "translate": "faction.narutorpg.shikkotsu_forest.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [],
+   "kind": "sage_realm",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:shikkotsu_forest",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 8492217,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 4,
+      "id": "narutorpg:kunai"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Shikkotsu Forest",
+    "translate": "faction.narutorpg.shikkotsu_forest"
+   },
+   "reputation": {
+    "narutorpg:shikkotsu_forest": 100
+   },
+   "rogue": false,
+   "selectable": false,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "multiplier": 1.2,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "sugi_village": {
+   "color": 4801106,
+   "description": {
+    "fallback": "Sugi Village is an anime-only ninja village, in an unspecified country.",
+    "translate": "faction.narutorpg.sugi_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:sugi_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 4801106,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Sugi Village",
+    "translate": "faction.narutorpg.sugi_village"
+   },
+   "reputation": {
+    "narutorpg:sugi_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "takumi_village": {
+   "color": 12011956,
+   "description": {
+    "fallback": "Takumi Village is an anime-only village that resides in the Land of Rivers. It was founded over one hundred years ago by a man named Seimei.",
+    "translate": "faction.narutorpg.takumi_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [
+     "narutorpg:fire_sword",
+     "narutorpg:garian_sword",
+     "narutorpg:infinite_armour",
+     "narutorpg:weaknessless_soaring_shortswords"
+    ],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:ninja_tools_barrier_reverse_fish_scales_formation",
+    "narutorpg:rotating_ferocious_wind",
+    "narutorpg:great_vacuum_cannon",
+    "narutorpg:peacock_whirlwind",
+    "narutorpg:peacock_whirlwind_formation",
+    "narutorpg:wind_cutter_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:takumi_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 12011956,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Takumi Village",
+    "translate": "faction.narutorpg.takumi_village"
+   },
+   "reputation": {
+    "narutorpg:takumi_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "tonika_village": {
+   "color": 5813831,
+   "description": {
+    "fallback": "Tonika Village is a village located on the outskirts of the border of the Land of Fire. It is also where The Hole is located.",
+    "translate": "faction.narutorpg.tonika_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:tonika_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5813831,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Tonika Village",
+    "translate": "faction.narutorpg.tonika_village"
+   },
+   "reputation": {
+    "narutorpg:tonika_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "tree_felling_village": {
+   "color": 9531988,
+   "description": {
+    "fallback": "The Tree Felling Village, later renamed to the Tree Revival Village, is a small and peaceful village once controlled by a dark demon called Black Shadow, who protected the village in exchange for human sacrifices every couple of years.",
+    "translate": "faction.narutorpg.tree_felling_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:tree_felling_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 9531988,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Tree Felling Village",
+    "translate": "faction.narutorpg.tree_felling_village"
+   },
+   "reputation": {
+    "narutorpg:tree_felling_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  },
+  "tsuchigumo_village": {
+   "color": 5350069,
+   "description": {
+    "fallback": "The Tsuchigumo village is the village of the Tsuchigumo clan. It is led by the Tsuchigumo chief.",
+    "translate": "faction.narutorpg.tsuchigumo_village.desc"
+   },
+   "exclusive": {
+    "abilities": [],
+    "allied_reputation": 50,
+    "items": [],
+    "outsider_tier": 5
+   },
+   "jutsu_pool": [
+    "narutorpg:character_bind_technique",
+    "narutorpg:hidden_rock_trap",
+    "narutorpg:infinite_embrace"
+   ],
+   "kind": "village",
+   "kit": {
+    "clothing": [
+     {
+      "components": {
+       "animecore:faction_badge": {
+        "faction": "narutorpg:tsuchigumo_village",
+        "scratched": false
+       },
+       "minecraft:dyed_color": {
+        "rgb": 5350069,
+        "show_in_tooltip": false
+       }
+      },
+      "count": 1,
+      "id": "narutorpg:flak_jacket"
+     }
+    ],
+    "weapons": [
+     {
+      "count": 2,
+      "id": "narutorpg:kunai"
+     },
+     {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+     }
+    ]
+   },
+   "name": {
+    "fallback": "Tsuchigumo Village",
+    "translate": "faction.narutorpg.tsuchigumo_village"
+   },
+   "reputation": {
+    "narutorpg:tsuchigumo_village": 100
+   },
+   "rogue": false,
+   "selectable": true,
+   "starting_abilities": [],
+   "starting_reputation": 100,
+   "system": "narutorpg",
+   "traits": [
+    {
+     "amount": 1.0,
+     "attribute": "minecraft:generic.luck",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ]
+  }
+ },
+ "generated_from": "docs/wiki/narutopedia_villages.json",
+ "lang": {
+  "ability.narutorpg.air_sand_protective_wall": "Air Sand Protective Wall",
+  "ability.narutorpg.big_ball_rasengan": "Big Ball Rasengan",
+  "ability.narutorpg.black_lightning": "Black Lightning",
+  "ability.narutorpg.cocoon": "Cocoon",
+  "ability.narutorpg.dance_of_the_sickle_blade_falling_descent_blade": "Dance of the Sickle Blade: Falling Descent Blade",
+  "ability.narutorpg.dance_performance_second_step": "Dance Performance: Second Step",
+  "ability.narutorpg.desert_hand": "Desert: Hand",
+  "ability.narutorpg.desert_layered_imperial_funeral_seal": "Desert Layered Imperial Funeral Seal",
+  "ability.narutorpg.desert_suspension": "Desert Suspension",
+  "ability.narutorpg.desert_wave": "Desert Wave",
+  "ability.narutorpg.dharma_power_seal": "Dharma Power Seal",
+  "ability.narutorpg.dharma_power_sealing_technique_sen_no_rikyu": "Dharma Power Sealing Technique: Sen no Rikyū",
+  "ability.narutorpg.earth_release_fist_rock_technique": "Earth Release: Fist Rock Technique",
+  "ability.narutorpg.earth_release_golem_technique": "Earth Release: Golem Technique",
+  "ability.narutorpg.earth_release_opening_earth_rising_excavation": "Earth Release: Opening Earth Rising Excavation",
+  "ability.narutorpg.explosion_ice_mountain_destruction": "Explosion: Ice Mountain Destruction",
+  "ability.narutorpg.eye_mind_reading": "Eye Mind Reading",
+  "ability.narutorpg.feather_launching": "Feather Launching",
+  "ability.narutorpg.first_axe_strike": "First Axe Strike",
+  "ability.narutorpg.giant_sphere": "Giant Sphere",
+  "ability.narutorpg.great_vacuum_cannon": "Great Vacuum Cannon",
+  "ability.narutorpg.haze_clone_technique": "Haze Clone Technique",
+  "ability.narutorpg.heavenly_punishment": "Heavenly Punishment",
+  "ability.narutorpg.horn_breaking": "Horn Breaking",
+  "ability.narutorpg.ink_creation": "Ink Creation",
+  "ability.narutorpg.lightning_ball": "Lightning Ball",
+  "ability.narutorpg.lightning_burial_banquet_of_lightning": "Lightning Burial: Banquet of Lightning",
+  "ability.narutorpg.lightning_release_double_lariat": "Lightning Release: Double Lariat",
+  "ability.narutorpg.lightning_release_lariat": "Lightning Release: Lariat",
+  "ability.narutorpg.lightning_straight": "Lightning Straight",
+  "ability.narutorpg.lightning_strike_armour": "Lightning Strike Armour",
+  "ability.narutorpg.manipulating_attack_blades": "Manipulating Attack Blades",
+  "ability.narutorpg.mechanical_light_shield_block": "Mechanical Light Shield Block",
+  "ability.narutorpg.nadeshiko_style_deep_crimson_dance_performance": "Nadeshiko-Style Deep Crimson Dance Performance",
+  "ability.narutorpg.nadeshiko_style_hardliner_gale_fist": "Nadeshiko-Style Hardliner Gale Fist",
+  "ability.narutorpg.nadeshiko_style_hardliner_revolving_cut": "Nadeshiko-Style Hardliner Revolving Cut",
+  "ability.narutorpg.negative_emotions_sensing": "Negative Emotions Sensing",
+  "ability.narutorpg.net_shaped_prison": "Net-Shaped Prison",
+  "ability.narutorpg.ninja_tools_barrier_reverse_fish_scales_formation": "Ninja Tools Barrier: Reverse Fish Scales Formation",
+  "ability.narutorpg.peacock_whirlwind": "Peacock Whirlwind",
+  "ability.narutorpg.peacock_whirlwind_formation": "Peacock Whirlwind Formation",
+  "ability.narutorpg.puppet_performance_skilful_achievement_with_a_human_body": "Puppet Performance: Skilful Achievement with a Human Body",
+  "ability.narutorpg.rasengan": "Rasengan",
+  "ability.narutorpg.roaring_run_great_strength_ice_strike": "Roaring Run: Great Strength Ice Strike",
+  "ability.narutorpg.rock_clone_technique": "Rock Clone Technique",
+  "ability.narutorpg.rockslide_genjutsu": "Rockslide Genjutsu",
+  "ability.narutorpg.rotating_ferocious_wind": "Rotating Ferocious Wind",
+  "ability.narutorpg.sealing_technique_vitality_seal_formation": "Sealing Technique: Vitality Seal Formation",
+  "ability.narutorpg.sealing_trap_explosion": "Sealing Trap Explosion",
+  "ability.narutorpg.senbon_shower": "Senbon Shower",
+  "ability.narutorpg.sly_mind_affect_technique": "Sly Mind Affect Technique",
+  "ability.narutorpg.soap_bubble_ninjutsu": "Soap Bubble Ninjutsu",
+  "ability.narutorpg.spacetime_technique_formula_underworld_turnover": "Space–Time Technique Formula: Underworld Turnover",
+  "ability.narutorpg.spear_attack_shining_horn": "Spear Attack Shining Horn",
+  "ability.narutorpg.summoning_food_cart_destroyer_technique": "Summoning: Food Cart Destroyer Technique",
+  "ability.narutorpg.summoning_ibuse_poisoning": "Summoning: Ibuse Poisoning",
+  "ability.narutorpg.summoning_technique": "Summoning Technique",
+  "ability.narutorpg.takigakure_whirlwind": "Takigakure Whirlwind",
+  "ability.narutorpg.third_eye": "Third Eye",
+  "ability.narutorpg.toad_oil_bullet": "Toad Oil Bullet",
+  "ability.narutorpg.violent_whirlwind": "Violent Whirlwind",
+  "ability.narutorpg.water_release_lotus_light_rupture": "Water Release: Lotus Light Rupture",
+  "ability.narutorpg.water_release_rapid_thunder_whip_technique": "Water Release: Rapid Thunder Whip Technique",
+  "ability.narutorpg.water_release_water_weapons": "Water Release: Water Weapons",
+  "ability.narutorpg.water_release_water_whip": "Water Release: Water Whip",
+  "ability.narutorpg.wave_transmission_technique": "Wave Transmission Technique",
+  "ability.narutorpg.wind_cutter_technique": "Wind Cutter Technique",
+  "background.narutorpg.academy_prodigy": "Academy Prodigy",
+  "background.narutorpg.academy_prodigy.desc": "Top of your Academy class. Deep chakra reserves, a head start in rank and the textbook techniques mastered early.",
+  "background.narutorpg.anbu_trainee": "Anbu Trainee",
+  "background.narutorpg.anbu_trainee.desc": "Pulled from the Academy into the black-ops program. Precise, lethal and trained in silent infiltration.",
+  "background.narutorpg.merchant_scion": "Merchant / Artisan Scion",
+  "background.narutorpg.merchant_scion.desc": "Heir of a trading or crafting house. Lucky, well connected, and well supplied with the finest ninja tools money can buy.",
+  "background.narutorpg.shinobi_orphan": "Shinobi Orphan",
+  "background.narutorpg.shinobi_orphan.desc": "Raised by nobody, you learned to survive on the streets: tougher, quicker on your feet, never without a spare blade.",
+  "background.narutorpg.wandering_mercenary": "Wandering Mercenary",
+  "background.narutorpg.wandering_mercenary.desc": "You sold your blade from one war-torn country to the next. Armoured, hard to kill, but with little chakra training.",
+  "faction.narutorpg.bamboo_village": "Bamboo Village",
+  "faction.narutorpg.bamboo_village.desc": "Bamboo Village is a small village in the Land of Hot Water. It is surrounded by a forest of bamboo, and as such most of the village's buildings and goods are made out of bamboo.",
+  "faction.narutorpg.ceramic_village": "Ceramic Village",
+  "faction.narutorpg.ceramic_village.desc": "The Ceramic Village was a small village in the Land of Wind, near the border with the Land of Rivers.",
+  "faction.narutorpg.curtain_village": "Curtain Village",
+  "faction.narutorpg.curtain_village.desc": "Curtain Village is the capital of the Land of Silence. The city hosts the only black market in the region.",
+  "faction.narutorpg.daidai_village": "Daidai Village",
+  "faction.narutorpg.daidai_village.desc": "Daidai Village is a small village inhabited by the members of the Yoimura Clan.",
+  "faction.narutorpg.genjutsu_tree_village": "Genjutsu Tree Village",
+  "faction.narutorpg.genjutsu_tree_village.desc": "This unnamed village is hidden among special trees that produce a genjutsu-like effect, thus protecting the village from invaders.",
+  "faction.narutorpg.hacho_village": "Hachō Village",
+  "faction.narutorpg.hacho_village.desc": "Hachō Village is a village lying on the outskirts of the border of the Land of Fire. They are on very friendly terms with the Tonika Village.",
+  "faction.narutorpg.hidden_cloud": "Kumogakure (Hidden Cloud)",
+  "faction.narutorpg.hidden_cloud.desc": "Kumogakure is the hidden village of the Land of Lightning and was founded by the First Raikage.",
+  "faction.narutorpg.hidden_dream": "Yumegakure (Hidden Dream)",
+  "faction.narutorpg.hidden_dream.desc": "is a small village located in a deep forest of a tiny country, near the border of the Land of Fire.",
+  "faction.narutorpg.hidden_frost": "Shimogakure (Hidden Frost)",
+  "faction.narutorpg.hidden_frost.desc": "Shimogakure is the hidden village located in the Land of Frost.",
+  "faction.narutorpg.hidden_grass": "Kusagakure (Hidden Grass)",
+  "faction.narutorpg.hidden_grass.desc": "Kusagakure is located thus far in an unnamed country. Because it had genin participating in the Chūnin Exams organised by Konohagakure, it can be assumed the two villages are allied.",
+  "faction.narutorpg.hidden_hot_water": "Yugakure (Hidden Hot Water)",
+  "faction.narutorpg.hidden_hot_water.desc": "Yugakure is the hidden village of the Land of Hot Water. Like the country in which it resides, Yugakure has strong inclinations towards pacifism.",
+  "faction.narutorpg.hidden_leaf": "Konohagakure (Hidden Leaf)",
+  "faction.narutorpg.hidden_leaf.desc": "Konohagakure is the hidden village of the Land of Fire. As the village of one of the Five Great Shinobi Countries, Konohagakure has a Kage as its leader known as the Hokage, of which there have been seven in its history.",
+  "faction.narutorpg.hidden_mist": "Kirigakure (Hidden Mist)",
+  "faction.narutorpg.hidden_mist.desc": "Kirigakure is the hidden village of the Land of Water. As the village of one of the Five Great Shinobi Countries, Kiri has a Kage as its leader known as the Mizukage, of which there have been six in its history.",
+  "faction.narutorpg.hidden_moon": "Tsukigakure (Hidden Moon)",
+  "faction.narutorpg.hidden_moon.desc": "Tsukigakure is a hidden village led by Tsukino, who succeeded her father after he died. They have a hereditary system and so positions are passed down to the next generation.",
+  "faction.narutorpg.hidden_rain": "Amegakure (Hidden Rain)",
+  "faction.narutorpg.hidden_rain.desc": "Amegakure is a small but highly industrialised hidden village located in an unnamed country.",
+  "faction.narutorpg.hidden_rock": "Ishigakure (Hidden Rock)",
+  "faction.narutorpg.hidden_rock.desc": "Ishigakure is the hidden village of the country located between the Land of Earth and the Land of Wind.",
+  "faction.narutorpg.hidden_sand": "Sunagakure (Hidden Sand)",
+  "faction.narutorpg.hidden_sand.desc": "Sunagakure is the hidden village of the Land of Wind. As the village of one of the Five Great Shinobi Countries, Sunagakure has a Kage as its leader known as the Kazekage, of which there have been five in its history.",
+  "faction.narutorpg.hidden_snow": "Yukigakure (Hidden Snow)",
+  "faction.narutorpg.hidden_snow.desc": "Yukigakure is a hidden village located in the Land of Snow. Its ninja apparently specialise in manipulating pre-existing ice, typically in the forms of various animals.",
+  "faction.narutorpg.hidden_sound": "Otogakure (Hidden Sound)",
+  "faction.narutorpg.hidden_sound.desc": "Otogakure is the personal hidden village of Orochimaru, which was founded after he left the Akatsuki for the express purpose of collecting ninja for his experiments and his quest to learn all techniques.",
+  "faction.narutorpg.hidden_star": "Hoshigakure (Hidden Star)",
+  "faction.narutorpg.hidden_star.desc": "Hoshigakure was introduced during the Star Guard Mission. It is founded by the First Hoshikage two hundred years before the start of the series and is located in the Land of Bears.",
+  "faction.narutorpg.hidden_stone": "Iwagakure (Hidden Stone)",
+  "faction.narutorpg.hidden_stone.desc": "Iwagakure is the hidden village of the Land of Earth. As the village of one of the Five Great Shinobi Countries, Iwagakure has a Kage as its leader known as the Tsuchikage, of which there have been four in its history.",
+  "faction.narutorpg.hidden_valley": "Tanigakure (Hidden Valley)",
+  "faction.narutorpg.hidden_valley.desc": "Tanigakure is the hidden village of the Land of Rivers. Thirty years before the start of the series, this village ambushed Kagerō Village two weeks after they had agreed to a ceasefire with Konohagakure.",
+  "faction.narutorpg.hidden_waterfall": "Takigakure (Hidden Waterfall)",
+  "faction.narutorpg.hidden_waterfall.desc": "Takigakure is a village located in an unnamed country. Their current leader is Shibuki.",
+  "faction.narutorpg.hidden_whirlpool": "Uzushiogakure (Hidden Whirlpool)",
+  "faction.narutorpg.hidden_whirlpool.desc": "Uzushiogakure was the shinobi village of the Land of Whirlpools. The people of Uzushiogakure were noted to have notoriously long lives, so it gained the epithet \"The Village of Longevity\".",
+  "faction.narutorpg.howling_wolf_village": "Howling Wolf Village",
+  "faction.narutorpg.howling_wolf_village.desc": "The Howling Wolf Village was originally a settlement of the Kodon clan. Since ancient times, the settlement was periodically attacked by Rōen, a wolf-like monster.",
+  "faction.narutorpg.inaho_village": "Inaho Village",
+  "faction.narutorpg.inaho_village.desc": "Inaho Village is located near the hills where Genmai was kidnapped.",
+  "faction.narutorpg.jomae_village": "Jōmae Village",
+  "faction.narutorpg.jomae_village.desc": "The Jōmae Village is an anime-only shinobi village located in the Land of Keys. This village's shinobi are experts in espionage in order to gain information for negotiations with larger, more powerful nations.",
+  "faction.narutorpg.kagero_village": "Kagerō Village",
+  "faction.narutorpg.kagero_village.desc": "Kagerō Village, was a small village located in the Land of Mountains.",
+  "faction.narutorpg.kisaragi_village": "Kisaragi Village",
+  "faction.narutorpg.kisaragi_village.desc": "Kisaragi Village is a village south of Konohagakure. It was the subject of attacks by bandits in league with the Shirogane clan in their search for the spirit orbs.",
+  "faction.narutorpg.missing_nin": "Missing-nin",
+  "faction.narutorpg.missing_nin.desc": "Shinobi who abandoned their village. Free, feared, and hunted by every hidden village.",
+  "faction.narutorpg.mount_katsuragi": "Mount Katsuragi",
+  "faction.narutorpg.mount_katsuragi.desc": "Mount Katsuragi is a mountain which holds the Tsuchigumo clan's kinjutsu. Hotaru and Tonbee live on this mountain.",
+  "faction.narutorpg.mount_myoboku": "Mount Myōboku",
+  "faction.narutorpg.mount_myoboku.desc": "Mount Myōboku, also known as the \"Mountain of Bewilderment\" and the \"Land of Toads\", is one of the big three unexplored sage regions, a legendary place that is equally as famous as the other two, Shikkotsu Forest and Ryūchi Cave.",
+  "faction.narutorpg.nadeshiko_village": "Nadeshiko Village",
+  "faction.narutorpg.nadeshiko_village.desc": "The Nadeshiko Village is a shinobi village located near the Land of Water. The families of this village are organised through matrilineality.",
+  "faction.narutorpg.ryuchi_cave": "Ryūchi Cave",
+  "faction.narutorpg.ryuchi_cave.desc": "Ryūchi Cave is one of the big three unexplored sage regions, a legendary place that is equally famous as the other two, Mount Myōboku and Shikkotsu Forest.",
+  "faction.narutorpg.shangri_la": "Shangri-la",
+  "faction.narutorpg.shangri_la.desc": "Shangri-la was a village located in what was sometimes called the Valley of Lies. It was a haven for those with bounties on their heads who wanted to live their lives without worrying about being pursued by bounty hunters.",
+  "faction.narutorpg.shikkotsu_forest": "Shikkotsu Forest",
+  "faction.narutorpg.shikkotsu_forest.desc": "The Shikkotsu Forest is a legendary place and one of the three unexplored sage regions; the other two being: Mount Myōboku and Ryūchi Cave.",
+  "faction.narutorpg.sugi_village": "Sugi Village",
+  "faction.narutorpg.sugi_village.desc": "Sugi Village is an anime-only ninja village, in an unspecified country.",
+  "faction.narutorpg.takumi_village": "Takumi Village",
+  "faction.narutorpg.takumi_village.desc": "Takumi Village is an anime-only village that resides in the Land of Rivers. It was founded over one hundred years ago by a man named Seimei.",
+  "faction.narutorpg.tonika_village": "Tonika Village",
+  "faction.narutorpg.tonika_village.desc": "Tonika Village is a village located on the outskirts of the border of the Land of Fire. It is also where The Hole is located.",
+  "faction.narutorpg.tree_felling_village": "Tree Felling Village",
+  "faction.narutorpg.tree_felling_village.desc": "The Tree Felling Village, later renamed to the Tree Revival Village, is a small and peaceful village once controlled by a dark demon called Black Shadow, who protected the village in exchange for human sacrifices every couple of years.",
+  "faction.narutorpg.tsuchigumo_village": "Tsuchigumo Village",
+  "faction.narutorpg.tsuchigumo_village.desc": "The Tsuchigumo village is the village of the Tsuchigumo clan. It is led by the Tsuchigumo chief."
+ }
+}

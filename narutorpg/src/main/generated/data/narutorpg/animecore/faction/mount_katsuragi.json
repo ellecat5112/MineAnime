@@ -1,0 +1,55 @@
+{
+  "color": 9663882,
+  "description": {
+    "fallback": "Mount Katsuragi is a mountain which holds the Tsuchigumo clan's kinjutsu. Hotaru and Tonbee live on this mountain.",
+    "translate": "faction.narutorpg.mount_katsuragi.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+  ],
+  "kind": "village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:mount_katsuragi"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 9663882,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 2,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:military_rations_pill"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Mount Katsuragi",
+    "translate": "faction.narutorpg.mount_katsuragi"
+  },
+  "reputation": {
+    "narutorpg:mount_katsuragi": 100
+  },
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.luck"
+    }
+  ]
+}

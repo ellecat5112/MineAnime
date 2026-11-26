@@ -1,0 +1,454 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction"
+            }
+          ],
+          "name": "narutorpg:forehead_protector",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction"
+            }
+          ],
+          "name": "narutorpg:flak_jacket",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:absorbing_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:chain_wind_staff"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:concealed_mouth_ember"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:conch_shell_mace"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:cursed_seal_device"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:dako"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:demon_shinki"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:exploding_sphere"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:first_hokage_s_necklace"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:handheld_kunai_launcher"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:hyuga_clan_secret_ointment"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:injection_shot"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:jidanda"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:kokuto"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:kunai_blade"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:lightning_release_suit"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:liquid_crystal_wall"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:metal_doll"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:microscopic_scientific_ninja_tools"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:mind_reading_amplification_machine"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:ocarina"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:sealing_arm_braces"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:space_time_gate"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:spy_drone"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:sword_of_totsuka"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:tailed_beast_drug"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:tsurukame"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:white_light_chakra_sabre"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:wrist_mounted_senbon_launcher"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_faction",
+              "mode": "alignment"
+            }
+          ],
+          "name": "narutorpg:yata_mirror"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "faction": "narutorpg:hidden_leaf",
+              "function": "animecore:set_ability_scroll"
+            }
+          ],
+          "name": "narutorpg:jutsu_scroll",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "narutorpg:kunai",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 10.0,
+                "min": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "narutorpg:shuriken",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "narutorpg:military_rations_pill",
+          "weight": 2
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 2.0,
+        "min": 1.0
+      }
+    }
+  ]
+}

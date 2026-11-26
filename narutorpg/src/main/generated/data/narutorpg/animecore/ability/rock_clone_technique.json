@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:horse",
+    "narutorpg:ram"
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Rock Clone Technique",
+    "translate": "ability.narutorpg.rock_clone_technique"
+  },
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
+}

@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "narutorpg:item/flak_jacket"
+    "layer0": "narutorpg:item/flak_jacket",
+    "layer1": "narutorpg:item/flak_jacket_overlay"
   }
 }

@@ -1,0 +1,64 @@
+{
+  "color": 8445674,
+  "description": {
+    "fallback": "Shimogakure is the hidden village located in the Land of Frost.",
+    "translate": "faction.narutorpg.hidden_frost.desc"
+  },
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_frost"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 8445674,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_frost"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 8445674,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Shimogakure (Hidden Frost)",
+    "translate": "faction.narutorpg.hidden_frost"
+  },
+  "reputation": {
+    "narutorpg:hidden_frost": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg"
+}

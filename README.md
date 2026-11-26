@@ -141,6 +141,30 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Village origins & backgrounds (Narutopedia `Category:Villages`)
+
+All **40 wiki villages** are factions (18 hidden villages, 19 civilian villages, 3 sage realms), plus the **Missing-nin**
+rogue alignment. There are **5 backgrounds**: Academy Prodigy, Shinobi Orphan, Anbu Trainee, Wandering Mercenary and
+Merchant / Artisan Scion. The crawl and per-village data are in `docs/wiki/narutopedia_villages.md`.
+
+- **First join** opens the *Choose Your Origin* screen: pick a village and an upbringing, or press *Randomize Origin*.
+  The server validates the choice: the village must be selectable, the background must be allowed there, and you can't
+  choose again without a reset. Commands are `/origin open|choose|random|info` (also `/naruto origin ...`). Ops get
+  `/origin set|reset`. **Forged Papers** reset your origin. Gamerule `animecoreOriginScreen=false` rolls a random origin instead.
+- **Starter kit**: forehead protector and flak jacket dyed in the village colour, kunai, shuriken and explosive tags,
+  your background's bonus items, skill points and rank, the village's first techniques, and starting standings
+  (e.g. Leaf-Sand +50, Leaf vs Cloud/Stone -25, every village -50 toward missing-nin).
+- **Village techniques** (125 across the villages, taken from what each village's shinobi use on the wiki) unlock as your
+  rank rises. Outsiders can only learn them from captured scrolls at rank 5 or with allied standing, and can't cast them
+  below that.
+- **Village-exclusive gear** (94 tools, e.g. the Seven Swords for Kiri and puppets for Suna): members and allies with
+  reputation 50+ get full use. Outsiders deal half damage and can't use the gear's moves or chakra infusion. Foreign
+  uniforms are taken off. Tooltips show the requirement.
+- **Go rogue**: sneak and use your forehead protector with a blade in the other hand to scratch the symbol. You become
+  missing-nin: home reputation drops by 100 and its allies by 25, and the scratched band marks you.
+- Loot: village supply caches (`narutorpg:chests/supply/<village>`) placed in fitting vanilla chests, plus the
+  `animecore:set_faction` loot function. JEI has an info page for each village's headband.
+
 ## Technique effects & animations (every jutsu, present and future)
 
 Every ability is animated by the engine from its data, so new techniques from any content mod get effects automatically:

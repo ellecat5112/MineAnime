@@ -51,7 +51,15 @@ public final class NinjaToolGameTests implements FabricGameTest {
         player.changeGameMode(GameMode.SURVIVAL);
         Vec3d at = ctx.getAbsolute(rel);
         player.refreshPositionAndAngles(at.x, at.y, at.z, 0f, 0f);
+        alliedEverywhere(ctx, player);
         return player;
+    }
+
+    /** Tool behaviour tests are about the moves, not village access: make the player welcome in every village. */
+    static void alliedEverywhere(TestContext ctx, ServerPlayerEntity player) {
+        var power = NarutoRPG.CTX.power(player);
+        com.animecore.origin.OriginSelectionService.factions(ctx.getWorld().getRegistryManager(), NarutoRPG.MOD_ID)
+                .forEach(e -> power.setReputation(e.getKey(), 100));
     }
 
     private static void face(ServerPlayerEntity player, Vec3d target) {
@@ -77,7 +85,8 @@ public final class NinjaToolGameTests implements FabricGameTest {
             lang = JsonParser.parseReader(new InputStreamReader(in, StandardCharsets.UTF_8)).getAsJsonObject();
         }
         ctx.assertTrue(NarutoTools.specs().size() == 244, "expected 244 catalog tools, got " + NarutoTools.specs().size());
-        ctx.assertTrue(NarutoTools.items().size() == 243, "expected 243 new items (+ existing chakra blade), got " + NarutoTools.items().size());
+        // 244 wiki tools; chakra blade, forehead protector and flak jacket are provided by other systems
+        ctx.assertTrue(NarutoTools.items().size() == 241, "expected 241 new items (+ 3 existing), got " + NarutoTools.items().size());
         List<String> problems = new ArrayList<>();
         for (Map.Entry<String, ToolSpec> e : NarutoTools.specs().entrySet()) {
             String id = e.getKey();
@@ -96,6 +105,7 @@ public final class NinjaToolGameTests implements FabricGameTest {
     @GameTest(templateName = EMPTY_STRUCTURE, tickLimit = 400)
     public void everyToolMoveExecutesWithoutError(TestContext ctx) {
         ServerPlayerEntity player = ctx.createMockCreativeServerPlayerInWorld(); // creative: no costs, no consumption
+        alliedEverywhere(ctx, player);
         Vec3d at = ctx.getAbsolute(new Vec3d(0.5, 60, 0.5));
         player.refreshPositionAndAngles(at.x, at.y, at.z, 0f, 30f);
         BlockPos floor = BlockPos.ofFloored(at).down();

@@ -1,0 +1,116 @@
+{
+  "color": 14133358,
+  "description": {
+    "fallback": "Sunagakure is the hidden village of the Land of Wind. As the village of one of the Five Great Shinobi Countries, Sunagakure has a Kage as its leader known as the Kazekage, of which there have been five in its history.",
+    "translate": "faction.narutorpg.hidden_sand.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:araya_puppet",
+      "narutorpg:binding_cloth",
+      "narutorpg:double_bladed_bracers",
+      "narutorpg:flamethrower",
+      "narutorpg:hiruko",
+      "narutorpg:karasu",
+      "narutorpg:komushi_puppet",
+      "narutorpg:kuroari",
+      "narutorpg:lion_headed_kannon",
+      "narutorpg:mother_and_father",
+      "narutorpg:puppet_buzzsaw",
+      "narutorpg:sand_gourd",
+      "narutorpg:sanshouo",
+      "narutorpg:sasori_puppet",
+      "narutorpg:third_kazekage_puppet",
+      "narutorpg:water_firing_puppets",
+      "narutorpg:water_stream_shooters"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:puppet_technique",
+    "narutorpg:puppet_performance_skilful_achievement_with_a_human_body",
+    "narutorpg:third_eye",
+    "narutorpg:air_sand_protective_wall",
+    "narutorpg:desert_layered_imperial_funeral_seal",
+    "narutorpg:desert_suspension",
+    "narutorpg:desert_wave",
+    "narutorpg:desert_hand",
+    "narutorpg:dharma_power_seal",
+    "narutorpg:dharma_power_sealing_technique_sen_no_rikyu",
+    "narutorpg:manipulating_attack_blades",
+    "narutorpg:mechanical_light_shield_block"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_sand"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 14133358,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_sand"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 14133358,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Sunagakure (Hidden Sand)",
+    "translate": "faction.narutorpg.hidden_sand"
+  },
+  "reputation": {
+    "narutorpg:hidden_cloud": -10,
+    "narutorpg:hidden_leaf": 50,
+    "narutorpg:hidden_mist": 0,
+    "narutorpg:hidden_sand": 100,
+    "narutorpg:hidden_sound": -50,
+    "narutorpg:hidden_stone": -10
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:wind",
+      "multiplier": 1.1
+    }
+  ]
+}

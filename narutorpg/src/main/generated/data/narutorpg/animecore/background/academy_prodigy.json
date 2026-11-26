@@ -1,0 +1,59 @@
+{
+  "allowed_factions": [
+    "narutorpg:hidden_rain",
+    "narutorpg:hidden_star",
+    "narutorpg:hidden_rock",
+    "narutorpg:hidden_stone",
+    "narutorpg:hidden_mist",
+    "narutorpg:hidden_leaf",
+    "narutorpg:hidden_cloud",
+    "narutorpg:hidden_grass",
+    "narutorpg:hidden_sound",
+    "narutorpg:hidden_frost",
+    "narutorpg:hidden_sand",
+    "narutorpg:hidden_waterfall",
+    "narutorpg:hidden_valley",
+    "narutorpg:hidden_moon",
+    "narutorpg:hidden_whirlpool",
+    "narutorpg:hidden_hot_water",
+    "narutorpg:hidden_snow",
+    "narutorpg:hidden_dream"
+  ],
+  "bonus_items": [
+    {
+      "count": 3,
+      "id": "narutorpg:explosive_tag"
+    },
+    {
+      "count": 2,
+      "id": "narutorpg:military_rations_pill"
+    }
+  ],
+  "description": {
+    "fallback": "Top of your Academy class. Deep chakra reserves, a head start in rank and the textbook techniques mastered early.",
+    "translate": "background.narutorpg.academy_prodigy.desc"
+  },
+  "name": {
+    "fallback": "Academy Prodigy",
+    "translate": "background.narutorpg.academy_prodigy"
+  },
+  "starting_abilities": [
+    "narutorpg:clone_technique",
+    "narutorpg:transformation_technique"
+  ],
+  "starting_skill_points": 3,
+  "starting_tier_bonus": 2,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 20.0,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.15,
+      "pool": "narutorpg:chakra"
+    }
+  ]
+}

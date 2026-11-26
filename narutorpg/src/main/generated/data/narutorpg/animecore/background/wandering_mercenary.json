@@ -1,0 +1,44 @@
+{
+  "bonus_items": [
+    {
+      "count": 1,
+      "id": "narutorpg:sword"
+    },
+    {
+      "count": 4,
+      "id": "narutorpg:military_rations_pill"
+    },
+    {
+      "count": 2,
+      "id": "narutorpg:flash_bomb"
+    }
+  ],
+  "description": {
+    "fallback": "You sold your blade from one war-torn country to the next. Armoured, hard to kill, but with little chakra training.",
+    "translate": "background.narutorpg.wandering_mercenary.desc"
+  },
+  "name": {
+    "fallback": "Wandering Mercenary",
+    "translate": "background.narutorpg.wandering_mercenary"
+  },
+  "starting_skill_points": 1,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:energy_capacity",
+      "flat": -10.0,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "weight": 8
+}

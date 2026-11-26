@@ -1,0 +1,69 @@
+{
+  "color": 16766287,
+  "description": {
+    "fallback": "Hoshigakure was introduced during the Star Guard Mission. It is founded by the First Hoshikage two hundred years before the start of the series and is located in the Land of Bears.",
+    "translate": "faction.narutorpg.hidden_star.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:meteorite"
+    ]
+  },
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_star"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 16766287,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_star"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 16766287,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Hoshigakure (Hidden Star)",
+    "translate": "faction.narutorpg.hidden_star"
+  },
+  "reputation": {
+    "narutorpg:hidden_star": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg"
+}

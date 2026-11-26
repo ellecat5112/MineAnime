@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Puppet Performance: Skilful Achievement with a Human Body",
+    "translate": "ability.narutorpg.puppet_performance_skilful_achievement_with_a_human_body"
+  },
+  "required_tier": 6,
+  "system": "narutorpg"
+}

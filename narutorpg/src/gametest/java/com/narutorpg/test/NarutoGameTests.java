@@ -66,7 +66,8 @@ public final class NarutoGameTests implements FabricGameTest {
         ctx.assertTrue(power.effectiveAffinities().contains(FIRE.getValue()), "fire affinity missing");
         ctx.assertTrue(power.pool(CHAKRA).orElseThrow().max() == 120f, "chakra max should be 100+20");
         ctx.assertTrue(player.getAttributeValue(EntityAttributes.GENERIC_ATTACK_DAMAGE) == 2.0, "uchiha +1 attack damage");
-        ctx.assertTrue(Math.abs(power.traits().abilityPower(FIRE.getValue()) - 1.15f) < 1e-4, "fire power multiplier");
+        // Uchiha +15% Fire Release x Hidden Leaf village perk +5% Fire Release
+        ctx.assertTrue(Math.abs(power.traits().abilityPower(FIRE.getValue()) - 1.15f * 1.05f) < 1e-4, "fire power multiplier");
         ctx.complete();
     }
 

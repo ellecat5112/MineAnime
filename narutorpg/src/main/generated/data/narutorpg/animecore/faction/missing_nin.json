@@ -1,0 +1,95 @@
+{
+  "color": 2503224,
+  "description": {
+    "fallback": "Shinobi who abandoned their village. Free, feared, and hunted by every hidden village.",
+    "translate": "faction.narutorpg.missing_nin.desc"
+  },
+  "kind": "rogue",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:missing_nin",
+            "scratched": true
+          },
+          "minecraft:dyed_color": {
+            "rgb": 3622735,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:missing_nin",
+            "scratched": true
+          },
+          "minecraft:dyed_color": {
+            "rgb": 2503224,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 6,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 8,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Missing-nin",
+    "translate": "faction.narutorpg.missing_nin"
+  },
+  "reputation": {
+    "narutorpg:hidden_cloud": -50,
+    "narutorpg:hidden_dream": -50,
+    "narutorpg:hidden_frost": -50,
+    "narutorpg:hidden_grass": -50,
+    "narutorpg:hidden_hot_water": -50,
+    "narutorpg:hidden_leaf": -50,
+    "narutorpg:hidden_mist": -50,
+    "narutorpg:hidden_moon": -50,
+    "narutorpg:hidden_rain": -50,
+    "narutorpg:hidden_rock": -50,
+    "narutorpg:hidden_sand": -50,
+    "narutorpg:hidden_snow": -50,
+    "narutorpg:hidden_sound": -50,
+    "narutorpg:hidden_star": -50,
+    "narutorpg:hidden_stone": -50,
+    "narutorpg:hidden_valley": -50,
+    "narutorpg:hidden_waterfall": -50,
+    "narutorpg:hidden_whirlpool": -50,
+    "narutorpg:missing_nin": 100
+  },
+  "rogue": true,
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ]
+}

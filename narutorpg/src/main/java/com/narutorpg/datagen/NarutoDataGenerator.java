@@ -28,6 +28,7 @@ public final class NarutoDataGenerator implements DataGeneratorEntrypoint {
         builder.addRegistry(AnimeRegistries.FACTION, NarutoContentBootstrap::factions);
         builder.addRegistry(AnimeRegistries.ABILITY, NarutoContentBootstrap::abilities);
         builder.addRegistry(AnimeRegistries.TRANSFORMATION, NarutoContentBootstrap::transformations);
+        builder.addRegistry(AnimeRegistries.BACKGROUND, NarutoContentBootstrap::backgrounds);
     }
 
     private static final class Content extends FabricDynamicRegistryProvider {
@@ -42,6 +43,7 @@ public final class NarutoDataGenerator implements DataGeneratorEntrypoint {
             entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.FACTION));
             entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.ABILITY));
             entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.TRANSFORMATION));
+            entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.BACKGROUND));
         }
 
         @Override public String getName() { return "NarutoRPG content"; }

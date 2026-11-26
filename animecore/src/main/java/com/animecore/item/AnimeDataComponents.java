@@ -48,13 +48,36 @@ public final class AnimeDataComponents {
         public WeaponInfusion withAffinity(Identifier value) { return new WeaponInfusion(Optional.of(value), active); }
     }
 
-    /** Faction a headband / badge belongs to. */
-    public record FactionBadge(Identifier faction) {
+    /**
+     * Faction a headband / badge / village uniform belongs to. {@code scratched} = defaced rogue headband (a line cut
+     * through the symbol): it no longer pledges to the village and marks a missing-nin.
+     */
+    public record FactionBadge(Identifier faction, boolean scratched) {
+        public FactionBadge(Identifier faction) { this(faction, false); }
         public static final Codec<FactionBadge> CODEC = RecordCodecBuilder.create(i -> i.group(
-                Identifier.CODEC.fieldOf("faction").forGetter(FactionBadge::faction)).apply(i, FactionBadge::new));
-        public static final PacketCodec<ByteBuf, FactionBadge> PACKET_CODEC =
-                AnimePacketCodecs.IDENTIFIER.xmap(FactionBadge::new, FactionBadge::faction);
+                Identifier.CODEC.fieldOf("faction").forGetter(FactionBadge::faction),
+                Codec.BOOL.optionalFieldOf("scratched", false).forGetter(FactionBadge::scratched)).apply(i, FactionBadge::new));
+        public static final PacketCodec<ByteBuf, FactionBadge> PACKET_CODEC = PacketCodec.tuple(
+                AnimePacketCodecs.IDENTIFIER, FactionBadge::faction, AnimePacketCodecs.BOOL, FactionBadge::scratched, FactionBadge::new);
+        public FactionBadge scratch() { return new FactionBadge(faction, true); }
     }
+
+    /**
+     * Village-exclusive weapon / tool: full use (chakra infusion, moves, damage) only for members of {@code faction},
+     * players whose reputation with it reaches {@code min_reputation}, or (when {@code rogue_ok}) missing-nin.
+     */
+    public record FactionAlignment(Identifier faction, int minReputation, boolean rogueOk) {
+        public static final Codec<FactionAlignment> CODEC = RecordCodecBuilder.create(i -> i.group(
+                Identifier.CODEC.fieldOf("faction").forGetter(FactionAlignment::faction),
+                Codec.INT.optionalFieldOf("min_reputation", 50).forGetter(FactionAlignment::minReputation),
+                Codec.BOOL.optionalFieldOf("rogue_ok", false).forGetter(FactionAlignment::rogueOk)).apply(i, FactionAlignment::new));
+        public static final PacketCodec<ByteBuf, FactionAlignment> PACKET_CODEC = PacketCodec.tuple(
+                AnimePacketCodecs.IDENTIFIER, FactionAlignment::faction, AnimePacketCodecs.VAR_INT, FactionAlignment::minReputation,
+                AnimePacketCodecs.BOOL, FactionAlignment::rogueOk, FactionAlignment::new);
+    }
+
+    public static final ComponentType<FactionAlignment> FACTION_ALIGNMENT =
+            register(Ids.core("faction_alignment"), FactionAlignment.CODEC, FactionAlignment.PACKET_CODEC);
 
     /** Lineage (clan) an emblem / garb / sealed bloodline scroll belongs to. */
     public record ClanBinding(Identifier lineage) {

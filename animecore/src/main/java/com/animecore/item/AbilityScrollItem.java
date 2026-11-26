@@ -68,7 +68,11 @@ public class AbilityScrollItem extends Item implements AnimeComponentItem {
         if (entry.isEmpty() || ctx.isEmpty()) return fail(player, stack, "message.animecore.scroll.unreadable");
         PlayerPowerComponent power = ctx.get().power(player);
         if (power.tier() < entry.get().value().requiredTier()) return fail(player, stack, "message.animecore.cast.tier_too_low");
-        if (!power.unlockAbility(id.get())) return fail(player, stack, "message.animecore.scroll.known");
+        if (power.unlockedAbilities().contains(id.get())) return fail(player, stack, "message.animecore.scroll.known");
+        if (!com.animecore.api.event.AnimeCoreEvents.ALLOW_ABILITY_UNLOCK.invoker().allow(player, power, id.get(), "scroll")) {
+            return TypedActionResult.fail(stack);
+        }
+        power.unlockAbility(id.get());
 
         stack.decrementUnlessCreative(1, player);
         world.playSound(null, player.getBlockPos(), SoundEvents.ITEM_BOOK_PAGE_TURN, SoundCategory.PLAYERS, 1f, 1f);

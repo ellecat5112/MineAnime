@@ -1,0 +1,43 @@
+{
+  "bonus_items": [
+    {
+      "count": 4,
+      "id": "narutorpg:kunai"
+    },
+    {
+      "count": 3,
+      "id": "narutorpg:military_rations_pill"
+    }
+  ],
+  "description": {
+    "fallback": "Raised by nobody, you learned to survive on the streets: tougher, quicker on your feet, never without a spare blade.",
+    "translate": "background.narutorpg.shinobi_orphan.desc"
+  },
+  "name": {
+    "fallback": "Shinobi Orphan",
+    "translate": "background.narutorpg.shinobi_orphan"
+  },
+  "starting_abilities": [
+    "narutorpg:body_flicker_technique"
+  ],
+  "starting_skill_points": 1,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 20.0,
+      "pool": "narutorpg:stamina"
+    }
+  ]
+}

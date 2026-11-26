@@ -33,6 +33,7 @@ public final class AnimeRegistries {
     public static final RegistryKey<Registry<FactionDefinition>> FACTION = RegistryKey.ofRegistry(Ids.core("faction"));
     public static final RegistryKey<Registry<AffinityDefinition>> AFFINITY = RegistryKey.ofRegistry(Ids.core("affinity"));
     public static final RegistryKey<Registry<TransformationDefinition>> TRANSFORMATION = RegistryKey.ofRegistry(Ids.core("transformation"));
+    public static final RegistryKey<Registry<com.animecore.registry.definition.BackgroundDefinition>> BACKGROUND = RegistryKey.ofRegistry(Ids.core("background"));
 
     public static void init() {
         // Synced so clients can render names, colors, combos and HUD icons without extra packets.
@@ -41,6 +42,7 @@ public final class AnimeRegistries {
         DynamicRegistries.registerSynced(FACTION, FactionDefinition.CODEC);
         DynamicRegistries.registerSynced(AFFINITY, AffinityDefinition.CODEC);
         DynamicRegistries.registerSynced(TRANSFORMATION, TransformationDefinition.CODEC);
+        DynamicRegistries.registerSynced(BACKGROUND, com.animecore.registry.definition.BackgroundDefinition.CODEC);
     }
 
     // ---- convenience lookups (version-shielded) ----
@@ -59,6 +61,10 @@ public final class AnimeRegistries {
 
     public static Optional<FactionDefinition> faction(DynamicRegistryManager m, Identifier id) {
         return AnimeRegistryAccess.value(m, FACTION, id);
+    }
+
+    public static Optional<com.animecore.registry.definition.BackgroundDefinition> background(DynamicRegistryManager m, Identifier id) {
+        return AnimeRegistryAccess.value(m, BACKGROUND, id);
     }
 
     public static Registry<AffinityDefinition> affinities(DynamicRegistryManager m) {

@@ -1,0 +1,98 @@
+{
+  "color": 15527921,
+  "description": {
+    "fallback": "Kumogakure is the hidden village of the Land of Lightning and was founded by the First Raikage.",
+    "translate": "faction.narutorpg.hidden_cloud.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:chakra_cannon",
+      "narutorpg:cleaver_sword",
+      "narutorpg:kumogakure_swords",
+      "narutorpg:spike_bomb",
+      "narutorpg:vambraces"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:lightning_release_lariat",
+    "narutorpg:black_lightning",
+    "narutorpg:ink_creation",
+    "narutorpg:lightning_release_chakra_mode",
+    "narutorpg:lightning_release_double_lariat",
+    "narutorpg:lightning_straight"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_cloud"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 15527921,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_cloud"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 15527921,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Kumogakure (Hidden Cloud)",
+    "translate": "faction.narutorpg.hidden_cloud"
+  },
+  "reputation": {
+    "narutorpg:hidden_cloud": 100,
+    "narutorpg:hidden_leaf": -25,
+    "narutorpg:hidden_mist": -10,
+    "narutorpg:hidden_sand": -10,
+    "narutorpg:hidden_stone": -25
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:lightning",
+      "multiplier": 1.1
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.04,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ]
+}

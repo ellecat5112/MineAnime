@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": ["narutorpg:clan_garb"]
+  "values": [
+    "narutorpg:clan_garb",
+    "narutorpg:flak_jacket",
+    "narutorpg:forehead_protector"
+  ]
 }

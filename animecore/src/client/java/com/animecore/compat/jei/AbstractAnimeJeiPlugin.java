@@ -113,6 +113,15 @@ public abstract class AbstractAnimeJeiPlugin implements IModPlugin {
         }
         if (!infusions.isEmpty()) registration.addRecipes(infusionType(), infusions);
 
+        // Village headbands: one info page per village (techniques, exclusive gear, standings).
+        for (com.animecore.item.FactionHeadbandItem band : modItems(com.animecore.item.FactionHeadbandItem.class)) {
+            for (ItemStack stack : AnimeItemVariants.factionBound(band, system, rm, false)) {
+                var badge = stack.get(com.animecore.item.AnimeDataComponents.FACTION_BADGE);
+                if (badge == null) continue;
+                AnimeRegistries.faction(rm, badge.faction()).ifPresent(def -> registration.addItemStackInfo(stack, factionInfo(rm, def)));
+            }
+        }
+
         // Clan items: one info page per clan listing its default + progression techniques and clan items.
         for (com.animecore.item.ClanEmblemItem emblem : modItems(com.animecore.item.ClanEmblemItem.class)) {
             for (ItemStack stack : AnimeItemVariants.clanBound(emblem, system, rm)) {
@@ -120,6 +129,29 @@ public abstract class AbstractAnimeJeiPlugin implements IModPlugin {
                         .ifPresent(def -> registration.addItemStackInfo(stack, clanInfo(rm, def)));
             }
         }
+    }
+
+    private static net.minecraft.text.Text[] factionInfo(DynamicRegistryManager rm, com.animecore.registry.definition.FactionDefinition def) {
+        List<net.minecraft.text.Text> lines = new ArrayList<>();
+        lines.add(def.name().copy().styled(s -> s.withColor(def.color()).withBold(true)));
+        if (!def.description().getString().isEmpty()) lines.add(def.description());
+        net.minecraft.text.MutableText jutsu = net.minecraft.text.Text.empty();
+        for (int i = 0; i < def.jutsuPool().size(); i++) {
+            if (i > 0) jutsu.append(", ");
+            Identifier id = def.jutsuPool().get(i);
+            jutsu.append(AnimeRegistries.ability(rm, id).map(e -> e.value().name()).orElse(net.minecraft.text.Text.literal(id.getPath())));
+        }
+        if (!def.jutsuPool().isEmpty()) lines.add(net.minecraft.text.Text.translatable("jei.animecore.village.jutsu", jutsu));
+        net.minecraft.text.MutableText gear = net.minecraft.text.Text.empty();
+        for (int i = 0; i < def.exclusive().items().size(); i++) {
+            if (i > 0) gear.append(", ");
+            gear.append(Registries.ITEM.get(def.exclusive().items().get(i)).getName());
+        }
+        if (!def.exclusive().items().isEmpty()) lines.add(net.minecraft.text.Text.translatable("jei.animecore.village.gear", gear,
+                def.exclusive().alliedReputation()));
+        def.reputation().forEach((other, standing) -> AnimeRegistries.faction(rm, other).ifPresent(o ->
+                lines.add(net.minecraft.text.Text.literal(" " + (standing >= 0 ? "+" : "") + standing + " ").append(o.name()))));
+        return lines.toArray(net.minecraft.text.Text[]::new);
     }
 
     private static net.minecraft.text.Text[] clanInfo(DynamicRegistryManager rm, com.animecore.registry.definition.LineageDefinition def) {

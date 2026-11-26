@@ -1,0 +1,63 @@
+{
+  "color": 5464992,
+  "description": {
+    "fallback": "Mount Myōboku, also known as the \"Mountain of Bewilderment\" and the \"Land of Toads\", is one of the big three unexplored sage regions, a legendary place that is equally as famous as the other two, Shikkotsu Forest and Ryūchi Cave.",
+    "translate": "faction.narutorpg.mount_myoboku.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:shuigu",
+      "narutorpg:tenseigan_energy_vessel"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:summoning_food_cart_destroyer_technique",
+    "narutorpg:toad_oil_bullet"
+  ],
+  "kind": "sage_realm",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:mount_myoboku"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 5464992,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 4,
+        "id": "narutorpg:kunai"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Mount Myōboku",
+    "translate": "faction.narutorpg.mount_myoboku"
+  },
+  "reputation": {
+    "narutorpg:mount_myoboku": 100
+  },
+  "selectable": false,
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.2,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ]
+}

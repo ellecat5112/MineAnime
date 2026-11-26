@@ -1,0 +1,64 @@
+{
+  "color": 7951688,
+  "description": {
+    "fallback": "Tanigakure is the hidden village of the Land of Rivers. Thirty years before the start of the series, this village ambushed Kagerō Village two weeks after they had agreed to a ceasefire with Konohagakure.",
+    "translate": "faction.narutorpg.hidden_valley.desc"
+  },
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_valley"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 7951688,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_valley"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 7951688,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Tanigakure (Hidden Valley)",
+    "translate": "faction.narutorpg.hidden_valley"
+  },
+  "reputation": {
+    "narutorpg:hidden_valley": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg"
+}

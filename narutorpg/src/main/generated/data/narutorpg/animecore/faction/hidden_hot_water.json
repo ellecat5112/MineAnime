@@ -1,0 +1,77 @@
+{
+  "color": 16747109,
+  "description": {
+    "fallback": "Yugakure is the hidden village of the Land of Hot Water. Like the country in which it resides, Yugakure has strong inclinations towards pacifism.",
+    "translate": "faction.narutorpg.hidden_hot_water.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:double_bladed_scythe",
+      "narutorpg:retractable_spear"
+    ]
+  },
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_hot_water"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 16747109,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_hot_water"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 16747109,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Yugakure (Hidden Hot Water)",
+    "translate": "faction.narutorpg.hidden_hot_water"
+  },
+  "reputation": {
+    "narutorpg:hidden_hot_water": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ]
+}

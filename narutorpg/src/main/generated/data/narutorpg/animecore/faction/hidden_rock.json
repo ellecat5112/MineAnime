@@ -1,0 +1,64 @@
+{
+  "color": 10395294,
+  "description": {
+    "fallback": "Ishigakure is the hidden village of the country located between the Land of Earth and the Land of Wind.",
+    "translate": "faction.narutorpg.hidden_rock.desc"
+  },
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_rock"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 10395294,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_rock"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 10395294,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Ishigakure (Hidden Rock)",
+    "translate": "faction.narutorpg.hidden_rock"
+  },
+  "reputation": {
+    "narutorpg:hidden_rock": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg"
+}

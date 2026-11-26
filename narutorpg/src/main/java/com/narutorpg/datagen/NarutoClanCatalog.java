@@ -2,6 +2,8 @@ package com.narutorpg.datagen;
 
 import com.animecore.registry.definition.AbilityDefinition;
 import com.animecore.registry.definition.AffinityDefinition;
+import com.animecore.registry.definition.BackgroundDefinition;
+import com.animecore.registry.definition.FactionDefinition;
 import com.animecore.registry.definition.LineageDefinition;
 import com.animecore.registry.definition.TransformationDefinition;
 import com.google.gson.JsonElement;
@@ -30,10 +32,16 @@ final class NarutoClanCatalog {
     final Map<String, TransformationDefinition> transformations = new LinkedHashMap<>();
     final Map<String, AbilityDefinition> abilities = new LinkedHashMap<>();
     final Map<String, LineageDefinition> lineages = new LinkedHashMap<>();
+    final Map<String, FactionDefinition> factions = new LinkedHashMap<>();
+    final Map<String, BackgroundDefinition> backgrounds = new LinkedHashMap<>();
     final Map<String, String> lang = new LinkedHashMap<>();
 
     static synchronized NarutoClanCatalog get() {
-        if (instance == null) instance = load(locate());
+        if (instance == null) {
+            Path clans = locate();
+            instance = load(clans);
+            instance.loadVillages(clans.resolveSibling("village_catalog.json"));
+        }
         return instance;
     }
 
@@ -60,6 +68,19 @@ final class NarutoClanCatalog {
             throw new IllegalStateException("Cannot read " + path, e);
         }
         return c;
+    }
+
+    /** {@code village_catalog.json} (tools/catalog/villages.py): villages, backgrounds, village techniques. */
+    private void loadVillages(Path path) {
+        try (Reader r = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+            JsonObject root = JsonParser.parseReader(r).getAsJsonObject();
+            decode(root, "factions", FactionDefinition.CODEC, factions);
+            decode(root, "backgrounds", BackgroundDefinition.CODEC, backgrounds);
+            decode(root, "abilities", AbilityDefinition.CODEC, abilities);
+            root.getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
+        } catch (IOException e) {
+            throw new IllegalStateException("Cannot read " + path + " - run python3 tools/catalog/villages.py", e);
+        }
     }
 
     private static <T> void decode(JsonObject root, String section, Codec<T> codec, Map<String, T> out) {

@@ -1,0 +1,39 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8280002,
+      "damage": 3.6,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:hunger"
+        }
+      ],
+      "radius": 5.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dharma Power Sealing Technique: Sen no Rikyū",
+    "translate": "ability.narutorpg.dharma_power_sealing_technique_sen_no_rikyu"
+  },
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
+}

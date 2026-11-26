@@ -1,0 +1,95 @@
+{
+  "color": 6323595,
+  "description": {
+    "fallback": "Amegakure is a small but highly industrialised hidden village located in an unnamed country.",
+    "translate": "faction.narutorpg.hidden_rain.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:artificial_sharingan",
+      "narutorpg:kiseki",
+      "narutorpg:smoke_tag"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:senbon_shower",
+    "narutorpg:haze_clone_technique",
+    "narutorpg:sly_mind_affect_technique",
+    "narutorpg:summoning_ibuse_poisoning",
+    "narutorpg:water_release_rapid_thunder_whip_technique",
+    "narutorpg:water_release_water_weapons",
+    "narutorpg:water_release_water_whip",
+    "narutorpg:dance_of_the_sickle_blade_falling_descent_blade"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_rain"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 6323595,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_rain"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 6323595,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Amegakure (Hidden Rain)",
+    "translate": "faction.narutorpg.hidden_rain"
+  },
+  "reputation": {
+    "narutorpg:hidden_leaf": -10,
+    "narutorpg:hidden_rain": 100,
+    "narutorpg:hidden_stone": -10
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:water",
+      "multiplier": 1.05
+    },
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 10.0,
+      "pool": "narutorpg:chakra"
+    }
+  ]
+}

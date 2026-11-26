@@ -1,0 +1,75 @@
+{
+  "color": 12216520,
+  "description": {
+    "fallback": "is a small village located in a deep forest of a tiny country, near the border of the Land of Fire.",
+    "translate": "faction.narutorpg.hidden_dream.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:chakra_enhanced_triple_bladed_claw"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:chakra_slicers",
+    "narutorpg:lightning_tackle",
+    "narutorpg:taisa_s_transformation_technique",
+    "narutorpg:yomito_s_transformation_technique"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_dream"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 12216520,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_dream"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 12216520,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Yumegakure (Hidden Dream)",
+    "translate": "faction.narutorpg.hidden_dream"
+  },
+  "reputation": {
+    "narutorpg:hidden_dream": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg"
+}

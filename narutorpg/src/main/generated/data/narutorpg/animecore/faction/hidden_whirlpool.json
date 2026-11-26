@@ -1,0 +1,75 @@
+{
+  "color": 15092249,
+  "description": {
+    "fallback": "Uzushiogakure was the shinobi village of the Land of Whirlpools. The people of Uzushiogakure were noted to have notoriously long lives, so it gained the epithet \"The Village of Longevity\".",
+    "translate": "faction.narutorpg.hidden_whirlpool.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:uzumaki_sealing_technique"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_whirlpool"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 15092249,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_whirlpool"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 15092249,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Uzushiogakure (Hidden Whirlpool)",
+    "translate": "faction.narutorpg.hidden_whirlpool"
+  },
+  "reputation": {
+    "narutorpg:hidden_leaf": 50,
+    "narutorpg:hidden_whirlpool": 100
+  },
+  "starting_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 30.0,
+      "pool": "narutorpg:chakra"
+    }
+  ]
+}

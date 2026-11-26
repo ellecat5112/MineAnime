@@ -120,6 +120,10 @@ def main():
     clans.main()
     clans.build_sprites()
     clans.write_doc()
+    # Village origins (Category:Villages): factions, backgrounds, village jutsu, gear sprites.
+    import villages
+    villages.main()
+    villages.build_sprites()
 
 
 def mv(m):

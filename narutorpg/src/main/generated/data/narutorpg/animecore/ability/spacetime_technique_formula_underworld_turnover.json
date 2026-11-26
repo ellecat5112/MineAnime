@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 14.0,
+      "knockback": 0.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Space–Time Technique Formula: Underworld Turnover",
+    "translate": "ability.narutorpg.spacetime_technique_formula_underworld_turnover"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

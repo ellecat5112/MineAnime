@@ -1,17 +1,130 @@
 {
   "color": 5025616,
+  "description": {
+    "fallback": "Konohagakure is the hidden village of the Land of Fire. As the village of one of the Five Great Shinobi Countries, Konohagakure has a Kage as its leader known as the Hokage, of which there have been seven in its history.",
+    "translate": "faction.narutorpg.hidden_leaf.desc"
+  },
+  "exclusive": {
+    "items": [
+      "narutorpg:absorbing_eye",
+      "narutorpg:chain_wind_staff",
+      "narutorpg:concealed_mouth_ember",
+      "narutorpg:conch_shell_mace",
+      "narutorpg:cursed_seal_device",
+      "narutorpg:dako",
+      "narutorpg:demon_shinki",
+      "narutorpg:exploding_sphere",
+      "narutorpg:first_hokage_s_necklace",
+      "narutorpg:handheld_kunai_launcher",
+      "narutorpg:hyuga_clan_secret_ointment",
+      "narutorpg:injection_shot",
+      "narutorpg:jidanda",
+      "narutorpg:kokuto",
+      "narutorpg:kunai_blade",
+      "narutorpg:lightning_release_suit",
+      "narutorpg:liquid_crystal_wall",
+      "narutorpg:metal_doll",
+      "narutorpg:microscopic_scientific_ninja_tools",
+      "narutorpg:mind_reading_amplification_machine",
+      "narutorpg:ocarina",
+      "narutorpg:sealing_arm_braces",
+      "narutorpg:space_time_gate",
+      "narutorpg:spy_drone",
+      "narutorpg:sword_of_totsuka",
+      "narutorpg:tailed_beast_drug",
+      "narutorpg:tsurukame",
+      "narutorpg:white_light_chakra_sabre",
+      "narutorpg:wrist_mounted_senbon_launcher",
+      "narutorpg:yata_mirror"
+    ]
+  },
+  "jutsu_pool": [
+    "narutorpg:mystical_palm_technique",
+    "narutorpg:string_light_formation",
+    "narutorpg:multiple_string_light_formation",
+    "narutorpg:regeneration_ability",
+    "narutorpg:rasengan",
+    "narutorpg:fang_passing_fang",
+    "narutorpg:negative_emotions_sensing",
+    "narutorpg:passing_fang",
+    "narutorpg:strong_fist",
+    "narutorpg:summoning_technique",
+    "narutorpg:big_ball_rasengan",
+    "narutorpg:eight_gates"
+  ],
+  "kind": "hidden_village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_leaf"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 5025616,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:forehead_protector"
+      },
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:hidden_leaf"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 5025616,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:explosive_tag"
+      }
+    ]
+  },
   "name": {
+    "fallback": "Konohagakure (Hidden Leaf)",
     "translate": "faction.narutorpg.hidden_leaf"
+  },
+  "reputation": {
+    "narutorpg:hidden_cloud": -25,
+    "narutorpg:hidden_leaf": 100,
+    "narutorpg:hidden_mist": 0,
+    "narutorpg:hidden_sand": 50,
+    "narutorpg:hidden_sound": -50,
+    "narutorpg:hidden_stone": -25,
+    "narutorpg:hidden_whirlpool": 50
   },
   "starting_abilities": [
     "narutorpg:substitution_jutsu"
   ],
+  "starting_reputation": 100,
   "system": "narutorpg",
   "traits": [
     {
       "type": "animecore:energy_regen",
       "multiplier": 1.1,
       "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:fire",
+      "multiplier": 1.05
     }
   ]
 }

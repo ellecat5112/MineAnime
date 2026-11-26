@@ -1,6 +1,15 @@
 {
   "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "narutorpg:item/forehead_protector_scratched",
+      "predicate": {
+        "animecore:scratched": 1
+      }
+    }
+  ],
   "textures": {
-    "layer0": "narutorpg:item/forehead_protector"
+    "layer0": "narutorpg:item/forehead_protector",
+    "layer1": "narutorpg:item/forehead_protector_overlay"
   }
 }

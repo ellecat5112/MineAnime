@@ -27,7 +27,9 @@ final class NarutoLangProvider extends FabricLanguageProvider {
         t.add("item.narutorpg.clan_emblem", "Clan Emblem");
         t.add("item.narutorpg.clan_garb", "Clan Garb");
         t.add("item.narutorpg.bloodline_scroll", "Bloodline Scroll");
-        t.add("faction.narutorpg.hidden_leaf", "Hidden Leaf Village");
+        t.add("item.narutorpg.forehead_protector", "Forehead Protector");
+        t.add("item.narutorpg.flak_jacket", "Flak Jacket");
+        t.add("item.narutorpg.forged_papers", "Forged Papers");
         t.add("ability.narutorpg.fireball_jutsu", "Fire Release: Great Fireball Technique");
         t.add("ability.narutorpg.substitution_jutsu", "Substitution Jutsu");
         t.add("transformation.narutorpg.sharingan_one_tomoe", "Sharingan (1 Tomoe)");

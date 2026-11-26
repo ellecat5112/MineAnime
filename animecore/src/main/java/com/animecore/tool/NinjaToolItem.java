@@ -39,6 +39,9 @@ public class NinjaToolItem extends Item implements ToolHolder {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
+        if (!com.animecore.origin.VillageAccessManager.canUseAbilities(user, user.getStackInHand(hand))) {
+            return TypedActionResult.fail(user.getStackInHand(hand));   // village-exclusive tool in an outsider's hands
+        }
         Optional<MoveSpec> m = ToolBehaviour.choose(spec, user.isSneaking());
         if (m.isPresent() && m.get().type() == MoveType.CONSUME && !ToolBehaviour.isHeld(m.get())) {
             ItemStack stack = user.getStackInHand(hand);
@@ -77,7 +80,9 @@ public class NinjaToolItem extends Item implements ToolHolder {
     @Override
     public float getBonusAttackDamage(Entity target, float baseAttackDamage, DamageSource damageSource) {
         ItemStack weapon = damageSource.getWeaponStack();
-        return weapon != null && weapon.getItem() == this ? ToolBehaviour.infusionBonus(weapon) : 0f;
+        if (weapon == null || weapon.getItem() != this) return 0f;
+        float penalty = (1f - com.animecore.origin.VillageAccessManager.damageMultiplier(damageSource.getAttacker(), weapon)) * baseAttackDamage;
+        return penalty > 0f ? -penalty : ToolBehaviour.infusionBonus(weapon);
     }
 
     @Override

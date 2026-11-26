@@ -1,0 +1,55 @@
+{
+  "color": 9459133,
+  "description": {
+    "fallback": "Kisaragi Village is a village south of Konohagakure. It was the subject of attacks by bandits in league with the Shirogane clan in their search for the spirit orbs.",
+    "translate": "faction.narutorpg.kisaragi_village.desc"
+  },
+  "jutsu_pool": [
+    "narutorpg:transformation_technique",
+    "narutorpg:clone_technique"
+  ],
+  "kind": "village",
+  "kit": {
+    "clothing": [
+      {
+        "components": {
+          "animecore:faction_badge": {
+            "faction": "narutorpg:kisaragi_village"
+          },
+          "minecraft:dyed_color": {
+            "rgb": 9459133,
+            "show_in_tooltip": false
+          }
+        },
+        "count": 1,
+        "id": "narutorpg:flak_jacket"
+      }
+    ],
+    "weapons": [
+      {
+        "count": 2,
+        "id": "narutorpg:kunai"
+      },
+      {
+        "count": 2,
+        "id": "narutorpg:military_rations_pill"
+      }
+    ]
+  },
+  "name": {
+    "fallback": "Kisaragi Village",
+    "translate": "faction.narutorpg.kisaragi_village"
+  },
+  "reputation": {
+    "narutorpg:kisaragi_village": 100
+  },
+  "starting_reputation": 100,
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.luck"
+    }
+  ]
+}

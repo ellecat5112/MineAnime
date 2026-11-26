@@ -93,6 +93,7 @@ public class AnimeWeaponItem extends SwordItem implements AnimeComponentItem {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack stack = user.getStackInHand(hand);
+        if (!com.animecore.origin.VillageAccessManager.canUseAbilities(user, stack)) return TypedActionResult.fail(stack);
         if (user.isSneaking()) {
             if (user instanceof ServerPlayerEntity player) toggleInfusion(player, stack);
             return TypedActionResult.success(stack, world.isClient());
@@ -174,6 +175,10 @@ public class AnimeWeaponItem extends SwordItem implements AnimeComponentItem {
     @Override
     public float getBonusAttackDamage(Entity target, float baseAttackDamage, DamageSource damageSource) {
         ItemStack stack = damageSource.getWeaponStack();
+        if (stack != null) {
+            float mult = com.animecore.origin.VillageAccessManager.damageMultiplier(damageSource.getAttacker(), stack);
+            if (mult < 1f) return -(1f - mult) * baseAttackDamage;   // outsider: half damage, no infusion bonus
+        }
         if (stack == null || !infusion(stack).active() || !(damageSource.getAttacker() instanceof PlayerEntity player)) return 0f;
         PlayerPowerComponent power = power(player).orElse(null);
         if (power == null || power.pool(spec.pool()).map(p -> p.current() < spec.hitCost()).orElse(true)) return 0f;
