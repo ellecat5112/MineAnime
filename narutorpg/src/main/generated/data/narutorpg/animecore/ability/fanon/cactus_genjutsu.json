@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 14938877,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cactus Genjutsu",
+    "translate": "ability.narutorpg.fanon/cactus_genjutsu"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 14938877,
+    "illusion": {
+      "color": 14938877,
+      "color2": 5227511,
+      "count": 7,
+      "density": 1.22,
+      "particle": "minecraft:portal",
+      "pattern": "snow",
+      "speed": 1.11
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

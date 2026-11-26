@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 31231,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Dream Eater Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_dream_eater_technique"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 31231,
+    "illusion": {
+      "color": 31231,
+      "color2": 13959417,
+      "density": 1.28,
+      "particle": "minecraft:wax_on",
+      "pattern": "kaleidoscope",
+      "speed": 1.53
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

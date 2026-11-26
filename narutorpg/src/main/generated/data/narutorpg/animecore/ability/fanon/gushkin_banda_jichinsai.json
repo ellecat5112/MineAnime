@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16448250,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Jichinsai",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_jichinsai"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16448250,
+    "illusion": {
+      "color": 16448250,
+      "color2": 858942,
+      "count": 5,
+      "density": 0.98,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.54
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

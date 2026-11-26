@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 58879,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Spirit Illusion: Reverse Dream Technique",
+    "translate": "ability.narutorpg.fanon/spirit_illusion_reverse_dream_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 58879,
+    "illusion": {
+      "color": 58879,
+      "color2": 13959417,
+      "count": 4,
+      "density": 1.57,
+      "particle": "minecraft:wax_on",
+      "pattern": "kaleidoscope",
+      "speed": 0.87
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

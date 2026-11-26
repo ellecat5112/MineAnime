@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16103011,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Unending Fear Technique",
+    "translate": "ability.narutorpg.fanon/unending_fear_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16103011,
+    "illusion": {
+      "color": 16103011,
+      "color2": 870305,
+      "count": 8,
+      "density": 1.06,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.93
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

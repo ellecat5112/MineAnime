@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16027569,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Flower Seen in the Mirror",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_flower_seen_in_the_mirror"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16027569,
+    "illusion": {
+      "color": 16027569,
+      "color2": 8916559,
+      "count": 5,
+      "density": 1.41,
+      "particle": "minecraft:wax_on",
+      "pattern": "petals",
+      "speed": 1.4
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

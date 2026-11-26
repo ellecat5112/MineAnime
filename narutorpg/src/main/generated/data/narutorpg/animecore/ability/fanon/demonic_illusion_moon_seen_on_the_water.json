@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13959168,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Moon Seen on the Water",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_moon_seen_on_the_water"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13959168,
+    "illusion": {
+      "color": 13959168,
+      "color2": 1703936,
+      "count": 5,
+      "density": 0.63,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "blood_moon",
+      "speed": 2.0
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

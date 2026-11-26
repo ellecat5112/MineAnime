@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1118481,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Hell Viewing Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_hell_viewing_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1118481,
+    "illusion": {
+      "color": 1118481,
+      "color2": 12000284,
+      "count": 4,
+      "density": 1.21,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 1.89
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

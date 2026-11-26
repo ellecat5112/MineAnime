@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8172354,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Insect Pit",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_insect_pit"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8172354,
+    "illusion": {
+      "color": 8172354,
+      "color2": 1793568,
+      "count": 6,
+      "density": 1.07,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "serpents",
+      "speed": 1.84
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

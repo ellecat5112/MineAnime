@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12932392,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Onset of Madness Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_onset_of_madness_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12932392,
+    "illusion": {
+      "color": 12932392,
+      "color2": 2171169,
+      "count": 4,
+      "density": 1.22,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.31
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

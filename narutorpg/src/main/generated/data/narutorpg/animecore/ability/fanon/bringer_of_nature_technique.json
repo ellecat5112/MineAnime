@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16739584,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Bringer-of-Nature Technique",
+    "translate": "ability.narutorpg.fanon/bringer_of_nature_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16739584,
+    "illusion": {
+      "color": 16739584,
+      "color2": 12000284,
+      "count": 4,
+      "density": 0.89,
+      "particle": "minecraft:mycelium",
+      "pattern": "flames",
+      "speed": 1.71
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

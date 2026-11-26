@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2671945,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Nise no sekai: Gensō",
+    "translate": "ability.narutorpg.fanon/nise_no_sekai_genso"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2671945,
+    "illusion": {
+      "color": 2671945,
+      "color2": 2171169,
+      "count": 10,
+      "density": 1.19,
+      "particle": "minecraft:wax_on",
+      "pattern": "eyes",
+      "speed": 0.94
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

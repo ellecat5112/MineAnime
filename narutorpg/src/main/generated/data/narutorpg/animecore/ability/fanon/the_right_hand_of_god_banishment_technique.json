@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16761095,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Right Hand of God: Banishment Technique",
+    "translate": "ability.narutorpg.fanon/the_right_hand_of_god_banishment_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16761095,
+    "illusion": {
+      "color": 16761095,
+      "color2": 12000284,
+      "count": 6,
+      "density": 1.12,
+      "particle": "minecraft:portal",
+      "pattern": "flames",
+      "speed": 1.74
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

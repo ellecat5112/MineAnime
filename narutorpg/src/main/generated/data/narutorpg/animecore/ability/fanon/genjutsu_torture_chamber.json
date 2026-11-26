@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12016923,
+      "cone_degrees": 70.0,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Torture Chamber",
+    "translate": "ability.narutorpg.fanon/genjutsu_torture_chamber"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12016923,
+    "illusion": {
+      "color": 12016923,
+      "color2": 4063232,
+      "density": 0.92,
+      "particle": "minecraft:ash",
+      "pattern": "veins",
+      "speed": 1.73
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

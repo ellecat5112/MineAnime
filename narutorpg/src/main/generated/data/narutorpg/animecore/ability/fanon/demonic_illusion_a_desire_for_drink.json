@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6600182,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:scorch",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: A Desire for Drink",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_a_desire_for_drink"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6600182,
+    "illusion": {
+      "color": 6600182,
+      "color2": 870305,
+      "density": 1.09,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.29
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16029582,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Garden of The Emperor",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_garden_of_the_emperor"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16029582,
+    "illusion": {
+      "color": 16029582,
+      "color2": 8916559,
+      "count": 8,
+      "density": 0.71,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 0.86
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

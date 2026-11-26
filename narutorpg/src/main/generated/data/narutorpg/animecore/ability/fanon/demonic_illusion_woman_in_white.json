@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16448250,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Woman in White",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_woman_in_white"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16448250,
+    "illusion": {
+      "color": 16448250,
+      "color2": 1710638,
+      "count": 7,
+      "density": 1.27,
+      "particle": "minecraft:ash",
+      "pattern": "tendrils",
+      "speed": 1.6
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

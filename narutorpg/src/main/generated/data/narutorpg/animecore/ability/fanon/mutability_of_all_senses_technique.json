@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3151657,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mutability of All Senses Technique",
+    "translate": "ability.narutorpg.fanon/mutability_of_all_senses_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 3151657,
+    "illusion": {
+      "color": 3151657,
+      "color2": 327688,
+      "count": 5,
+      "density": 1.1,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 0.64
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 11379154,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Lightning Illusion Static Lock",
+    "translate": "ability.narutorpg.fanon/lightning_illusion_static_lock"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 11379154,
+    "illusion": {
+      "color": 11379154,
+      "color2": 2503224,
+      "count": 8,
+      "density": 1.35,
+      "particle": "minecraft:crit",
+      "pattern": "chains",
+      "speed": 1.57
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

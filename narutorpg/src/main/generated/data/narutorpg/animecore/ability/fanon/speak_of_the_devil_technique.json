@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6543093,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Speak of the Devil Technique",
+    "translate": "ability.narutorpg.fanon/speak_of_the_devil_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6543093,
+    "illusion": {
+      "color": 6543093,
+      "color2": 870305,
+      "count": 5,
+      "density": 0.98,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.26
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

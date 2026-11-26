@@ -1,0 +1,57 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9306112,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Strallilium of Divine Genesis",
+    "translate": "ability.narutorpg.fanon/strallilium_of_divine_genesis"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9306112,
+    "illusion": {
+      "color": 9306112,
+      "color2": 16761095,
+      "count": 7,
+      "density": 1.59,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "lotus",
+      "speed": 1.93
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

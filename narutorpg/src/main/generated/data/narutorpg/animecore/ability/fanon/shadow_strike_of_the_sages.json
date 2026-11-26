@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6429330,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Shadow Strike of the Sages",
+    "translate": "ability.narutorpg.fanon/shadow_strike_of_the_sages"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6429330,
+    "illusion": {
+      "color": 6429330,
+      "color2": 327688,
+      "count": 10,
+      "density": 1.56,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 1.96
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

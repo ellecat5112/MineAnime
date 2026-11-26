@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10661586,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Kitsune",
+    "translate": "ability.narutorpg.fanon/genjutsu_kitsune"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10661586,
+    "illusion": {
+      "color": 10661586,
+      "color2": 2503224,
+      "density": 0.69,
+      "particle": "minecraft:crit",
+      "pattern": "chains",
+      "speed": 0.89
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

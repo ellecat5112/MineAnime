@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12000284,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Crimson Demon Divination Mirage",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_crimson_demon_divination_mirage"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12000284,
+    "illusion": {
+      "color": 12000284,
+      "color2": 870305,
+      "density": 1.41,
+      "particle": "minecraft:mycelium",
+      "pattern": "rain",
+      "speed": 1.87
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

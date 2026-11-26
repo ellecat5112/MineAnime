@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16666017,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Magen: Heki Chisoki",
+    "translate": "ability.narutorpg.fanon/magen_heki_chisoki"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16666017,
+    "illusion": {
+      "color": 16666017,
+      "color2": 0,
+      "count": 7,
+      "density": 1.1,
+      "particle": "minecraft:reverse_portal",
+      "pattern": "vortex",
+      "speed": 0.86
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

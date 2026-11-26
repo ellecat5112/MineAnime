@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 11789109,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Way of the Evil Path: Sacred Armor of the Flagitious Abyss",
+    "translate": "ability.narutorpg.fanon/the_way_of_the_evil_path_sacred_armor_of_the_flagitious_abyss"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 11789109,
+    "illusion": {
+      "color": 11789109,
+      "color2": 1118481,
+      "count": 6,
+      "density": 1.43,
+      "particle": "minecraft:portal",
+      "pattern": "tendrils",
+      "speed": 0.87
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

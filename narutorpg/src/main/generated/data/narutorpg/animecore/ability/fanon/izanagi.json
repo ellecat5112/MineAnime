@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12921015,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Izanagi",
+    "translate": "ability.narutorpg.fanon/izanagi"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12921015,
+    "illusion": {
+      "color": 12921015,
+      "color2": 2171169,
+      "count": 5,
+      "density": 1.38,
+      "particle": "minecraft:wax_on",
+      "pattern": "eyes",
+      "speed": 0.91
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12963578,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Seigan (Snow)",
+    "translate": "ability.narutorpg.fanon/genjutsu_seigan_snow"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12963578,
+    "illusion": {
+      "color": 12963578,
+      "color2": 5227511,
+      "density": 0.8,
+      "particle": "minecraft:snowflake",
+      "pattern": "snow",
+      "speed": 1.9
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

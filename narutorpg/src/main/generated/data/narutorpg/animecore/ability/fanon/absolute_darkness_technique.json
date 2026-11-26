@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3218322,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Absolute Darkness Technique",
+    "translate": "ability.narutorpg.fanon/absolute_darkness_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 3218322,
+    "illusion": {
+      "color": 3218322,
+      "color2": 327688,
+      "density": 1.39,
+      "particle": "minecraft:enchant",
+      "pattern": "tendrils",
+      "speed": 1.13
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

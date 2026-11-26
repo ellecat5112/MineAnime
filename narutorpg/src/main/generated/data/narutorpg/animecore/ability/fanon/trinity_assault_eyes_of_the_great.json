@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2671945,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Trinity Assault - Eyes of the Great",
+    "translate": "ability.narutorpg.fanon/trinity_assault_eyes_of_the_great"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2671945,
+    "illusion": {
+      "color": 2671945,
+      "color2": 2171169,
+      "count": 9,
+      "density": 1.42,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 0.96
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

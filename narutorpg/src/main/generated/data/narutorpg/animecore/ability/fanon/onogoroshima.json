@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16081768,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Onogoroshima",
+    "translate": "ability.narutorpg.fanon/onogoroshima"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16081768,
+    "illusion": {
+      "color": 16081768,
+      "color2": 870305,
+      "count": 6,
+      "density": 0.64,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.27
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

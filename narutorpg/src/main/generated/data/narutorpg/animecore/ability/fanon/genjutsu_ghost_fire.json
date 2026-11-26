@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16759040,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Ghost Fire",
+    "translate": "ability.narutorpg.fanon/genjutsu_ghost_fire"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16759040,
+    "illusion": {
+      "color": 16759040,
+      "color2": 12000284,
+      "count": 10,
+      "density": 1.28,
+      "particle": "minecraft:ash",
+      "pattern": "flames",
+      "speed": 0.64
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

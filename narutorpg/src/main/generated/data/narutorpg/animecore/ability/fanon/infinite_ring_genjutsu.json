@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9574749,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Infinite Ring Genjutsu",
+    "translate": "ability.narutorpg.fanon/infinite_ring_genjutsu"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9574749,
+    "illusion": {
+      "color": 9574749,
+      "color2": 327688,
+      "count": 6,
+      "density": 1.54,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 1.53
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1710638,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Disintigration",
+    "translate": "ability.narutorpg.fanon/genjutsu_disintigration"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1710638,
+    "illusion": {
+      "color": 1710638,
+      "color2": 2171169,
+      "density": 0.83,
+      "particle": "minecraft:portal",
+      "pattern": "eyes",
+      "speed": 1.5
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

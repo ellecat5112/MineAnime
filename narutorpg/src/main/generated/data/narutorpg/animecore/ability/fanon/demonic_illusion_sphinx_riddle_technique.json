@@ -1,0 +1,58 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16774557,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Sphinx Riddle Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_sphinx_riddle_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16774557,
+    "illusion": {
+      "color": 16774557,
+      "color2": 6953882,
+      "count": 7,
+      "density": 0.76,
+      "particle": "minecraft:witch",
+      "pattern": "lotus",
+      "speed": 1.53
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

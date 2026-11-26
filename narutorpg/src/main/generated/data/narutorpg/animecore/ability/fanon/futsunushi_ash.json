@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766976,
+      "cone_degrees": 70.0,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Futsunushi (Ash)",
+    "translate": "ability.narutorpg.fanon/futsunushi_ash"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16766976,
+    "illusion": {
+      "color": 16766976,
+      "color2": 12000284,
+      "count": 10,
+      "density": 0.75,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.7
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

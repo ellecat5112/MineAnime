@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1118481,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Scattering Thousand Dreams Technique",
+    "translate": "ability.narutorpg.fanon/scattering_thousand_dreams_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1118481,
+    "illusion": {
+      "color": 1118481,
+      "color2": 13959417,
+      "count": 5,
+      "density": 0.7,
+      "particle": "minecraft:end_rod",
+      "pattern": "kaleidoscope",
+      "speed": 1.67
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

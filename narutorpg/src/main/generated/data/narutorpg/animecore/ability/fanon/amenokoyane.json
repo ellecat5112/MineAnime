@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13959168,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Amenokoyane",
+    "translate": "ability.narutorpg.fanon/amenokoyane"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13959168,
+    "illusion": {
+      "color": 13959168,
+      "color2": 1703936,
+      "count": 4,
+      "density": 1.22,
+      "particle": "minecraft:sculk_soul",
+      "pattern": "blood_moon",
+      "speed": 0.89
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

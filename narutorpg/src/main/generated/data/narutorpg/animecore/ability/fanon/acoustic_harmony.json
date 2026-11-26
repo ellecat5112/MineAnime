@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8445674,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Acoustic Harmony",
+    "translate": "ability.narutorpg.fanon/acoustic_harmony"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8445674,
+    "illusion": {
+      "color": 8445674,
+      "color2": 1713022,
+      "density": 0.91,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.3
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

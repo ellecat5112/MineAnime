@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13981952,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Tsukuyomi (NejiHyuga2)",
+    "translate": "ability.narutorpg.fanon/tsukuyomi_nejihyuga2"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13981952,
+    "illusion": {
+      "color": 13981952,
+      "color2": 1703936,
+      "count": 8,
+      "density": 1.22,
+      "particle": "minecraft:glow",
+      "pattern": "blood_moon",
+      "speed": 0.8
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

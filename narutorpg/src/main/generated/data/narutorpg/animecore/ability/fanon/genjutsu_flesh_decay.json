@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16773494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Flesh Decay",
+    "translate": "ability.narutorpg.fanon/genjutsu_flesh_decay"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16773494,
+    "illusion": {
+      "color": 16773494,
+      "color2": 858942,
+      "count": 4,
+      "density": 0.77,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 0.63
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

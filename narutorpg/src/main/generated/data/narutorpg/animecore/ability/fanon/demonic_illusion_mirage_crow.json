@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2694163,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Mirage Crow",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_mirage_crow"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2694163,
+    "illusion": {
+      "color": 2694163,
+      "color2": 12000284,
+      "count": 8,
+      "density": 1.29,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 2.01
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

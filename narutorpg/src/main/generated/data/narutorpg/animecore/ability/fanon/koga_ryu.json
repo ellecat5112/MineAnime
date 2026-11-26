@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9893219,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kōga-ryū",
+    "translate": "ability.narutorpg.fanon/koga_ryu"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9893219,
+    "illusion": {
+      "color": 9893219,
+      "color2": 870305,
+      "count": 4,
+      "density": 0.73,
+      "particle": "minecraft:glow",
+      "pattern": "rain",
+      "speed": 1.01
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 392969,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:yin_yang",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sephirothic Tree of Life",
+    "translate": "ability.narutorpg.fanon/sephirothic_tree_of_life"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 392969,
+    "illusion": {
+      "color": 392969,
+      "color2": 6953882,
+      "count": 5,
+      "density": 0.73,
+      "particle": "minecraft:portal",
+      "pattern": "lotus",
+      "speed": 1.54
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

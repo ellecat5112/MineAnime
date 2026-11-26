@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16081768,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Kishar",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_kishar"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16081768,
+    "illusion": {
+      "color": 16081768,
+      "color2": 870305,
+      "density": 1.14,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.11
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

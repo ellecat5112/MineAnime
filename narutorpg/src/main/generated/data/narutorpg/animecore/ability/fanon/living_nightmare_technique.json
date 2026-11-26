@@ -1,0 +1,55 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9596184,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:tiger",
+    "narutorpg:ram",
+    "narutorpg:boar",
+    "narutorpg:bird"
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Living Nightmare Technique",
+    "translate": "ability.narutorpg.fanon/living_nightmare_technique"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9596184,
+    "illusion": {
+      "color": 9596184,
+      "color2": 327688,
+      "count": 10,
+      "density": 1.3,
+      "particle": "minecraft:portal",
+      "pattern": "tendrils",
+      "speed": 1.49
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

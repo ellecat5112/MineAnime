@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1255710,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Nightmare Crow Calls",
+    "translate": "ability.narutorpg.fanon/nightmare_crow_calls"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1255710,
+    "illusion": {
+      "color": 1255710,
+      "color2": 12000284,
+      "density": 1.02,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 1.63
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

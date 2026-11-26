@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16027569,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Flower Ninja Art: Mirror Flower Water",
+    "translate": "ability.narutorpg.fanon/flower_ninja_art_mirror_flower_water"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16027569,
+    "illusion": {
+      "color": 16027569,
+      "color2": 8916559,
+      "count": 6,
+      "density": 1.09,
+      "particle": "minecraft:electric_spark",
+      "pattern": "petals",
+      "speed": 0.73
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

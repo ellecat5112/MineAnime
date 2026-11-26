@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16081768,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Radioactive Poisoning Technique",
+    "translate": "ability.narutorpg.fanon/radioactive_poisoning_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16081768,
+    "illusion": {
+      "color": 16081768,
+      "color2": 870305,
+      "count": 10,
+      "density": 1.09,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 2.0
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

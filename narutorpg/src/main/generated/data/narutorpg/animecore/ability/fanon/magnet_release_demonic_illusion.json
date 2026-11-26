@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13893494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:magnet",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Magnet Release: Demonic Illusion",
+    "translate": "ability.narutorpg.fanon/magnet_release_demonic_illusion"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13893494,
+    "illusion": {
+      "color": 13893494,
+      "color2": 858942,
+      "count": 9,
+      "density": 1.47,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.4
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

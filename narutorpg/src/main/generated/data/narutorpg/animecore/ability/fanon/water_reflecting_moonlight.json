@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 54638,
+      "cone_degrees": 70.0,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water-Reflecting Moonlight",
+    "translate": "ability.narutorpg.fanon/water_reflecting_moonlight"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 54638,
+    "illusion": {
+      "color": 54638,
+      "color2": 1703936,
+      "count": 4,
+      "density": 0.82,
+      "particle": "minecraft:ash",
+      "pattern": "blood_moon",
+      "speed": 0.89
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1512233,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kalki",
+    "translate": "ability.narutorpg.fanon/kalki"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1512233,
+    "illusion": {
+      "color": 1512233,
+      "color2": 12000284,
+      "count": 6,
+      "density": 0.77,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 1.16
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

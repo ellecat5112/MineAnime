@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2671993,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Five Hundred Shades Of Sharingan Technique",
+    "translate": "ability.narutorpg.fanon/genjutsu_five_hundred_shades_of_sharingan_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2671993,
+    "illusion": {
+      "color": 2671993,
+      "color2": 2171169,
+      "density": 1.11,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.03
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

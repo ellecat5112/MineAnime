@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2694163,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Wicked Nightmare: World of Dust and Bone Ash",
+    "translate": "ability.narutorpg.fanon/the_wicked_nightmare_world_of_dust_and_bone_ash"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2694163,
+    "illusion": {
+      "color": 2694163,
+      "color2": 3622735,
+      "count": 9,
+      "density": 1.29,
+      "particle": "minecraft:campfire_cosy_smoke",
+      "pattern": "fog",
+      "speed": 0.66
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

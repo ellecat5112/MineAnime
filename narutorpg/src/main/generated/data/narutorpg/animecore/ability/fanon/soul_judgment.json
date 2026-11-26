@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15022389,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Soul Judgment",
+    "translate": "ability.narutorpg.fanon/soul_judgment"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15022389,
+    "illusion": {
+      "color": 15022389,
+      "color2": 2171169,
+      "count": 6,
+      "density": 0.73,
+      "particle": "minecraft:glow",
+      "pattern": "eyes"
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

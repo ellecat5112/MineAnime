@@ -1,0 +1,56 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2001125,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Blue Lotus Datura Seal",
+    "translate": "ability.narutorpg.fanon/blue_lotus_datura_seal"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2001125,
+    "illusion": {
+      "color": 2001125,
+      "color2": 6953882,
+      "density": 1.24,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "lotus",
+      "speed": 1.46
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

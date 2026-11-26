@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10274088,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu Sharingan: Suiageru",
+    "translate": "ability.narutorpg.fanon/genjutsu_sharingan_suiageru"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10274088,
+    "illusion": {
+      "color": 10274088,
+      "color2": 2171169,
+      "count": 6,
+      "density": 1.59,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.5
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

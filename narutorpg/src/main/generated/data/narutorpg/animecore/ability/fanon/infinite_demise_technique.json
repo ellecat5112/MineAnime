@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3741879,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Infinite Demise Technique",
+    "translate": "ability.narutorpg.fanon/infinite_demise_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 3741879,
+    "illusion": {
+      "color": 3741879,
+      "color2": 4063232,
+      "count": 9,
+      "density": 0.95,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 0.66
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3741879,
+      "cone_degrees": 70.0,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ten Thousand Moments of Dread",
+    "translate": "ability.narutorpg.fanon/ten_thousand_moments_of_dread"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 3741879,
+    "illusion": {
+      "color": 3741879,
+      "color2": 4063232,
+      "count": 10,
+      "density": 0.71,
+      "particle": "minecraft:glow",
+      "pattern": "veins",
+      "speed": 1.36
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

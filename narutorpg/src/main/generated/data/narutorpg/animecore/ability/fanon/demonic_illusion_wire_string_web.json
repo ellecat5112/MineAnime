@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1710638,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "amplifier": 6,
+          "duration": 140,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Wire String Web",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_wire_string_web"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1710638,
+    "illusion": {
+      "color": 1710638,
+      "color2": 2503224,
+      "count": 8,
+      "density": 1.24,
+      "particle": "minecraft:enchant",
+      "pattern": "web",
+      "speed": 0.63
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

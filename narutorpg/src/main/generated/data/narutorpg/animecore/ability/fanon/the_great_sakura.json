@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15753874,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Great Sakura",
+    "translate": "ability.narutorpg.fanon/the_great_sakura"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15753874,
+    "illusion": {
+      "color": 15753874,
+      "color2": 8916559,
+      "density": 0.81,
+      "particle": "minecraft:wax_on",
+      "pattern": "petals",
+      "speed": 1.93
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

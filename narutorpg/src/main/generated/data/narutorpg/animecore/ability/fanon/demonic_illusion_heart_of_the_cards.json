@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8146431,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Heart of the Cards",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_heart_of_the_cards"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8146431,
+    "illusion": {
+      "color": 8146431,
+      "color2": 0,
+      "count": 4,
+      "density": 1.01,
+      "particle": "minecraft:reverse_portal",
+      "pattern": "vortex",
+      "speed": 1.59
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16701517,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sly Mind Affect Technique",
+    "translate": "ability.narutorpg.fanon/sly_mind_affect_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16701517,
+    "illusion": {
+      "color": 16701517,
+      "color2": 0,
+      "count": 10,
+      "density": 1.2,
+      "particle": "minecraft:enchant",
+      "pattern": "vortex",
+      "speed": 1.29
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

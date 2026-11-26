@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16761095,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Parasu",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_parasu"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16761095,
+    "illusion": {
+      "color": 16761095,
+      "color2": 858942,
+      "count": 5,
+      "density": 1.42,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 0.66
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

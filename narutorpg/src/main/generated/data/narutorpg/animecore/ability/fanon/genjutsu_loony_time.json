@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12996094,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Loony Time",
+    "translate": "ability.narutorpg.fanon/genjutsu_loony_time"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12996094,
+    "illusion": {
+      "color": 12996094,
+      "color2": 0,
+      "count": 10,
+      "density": 1.44,
+      "particle": "minecraft:reverse_portal",
+      "pattern": "vortex",
+      "speed": 1.83
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

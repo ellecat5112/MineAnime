@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16029582,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Avatamsaka",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_avatamsaka"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16029582,
+    "illusion": {
+      "color": 16029582,
+      "color2": 8916559,
+      "count": 10,
+      "density": 1.14,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 1.87
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

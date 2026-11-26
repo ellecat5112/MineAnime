@@ -1,0 +1,54 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10597074,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:horse",
+    "narutorpg:boar",
+    "narutorpg:ram"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Spike Trap",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_spike_trap"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10597074,
+    "illusion": {
+      "color": 10597074,
+      "color2": 2503224,
+      "count": 4,
+      "density": 1.07,
+      "particle": "minecraft:witch",
+      "pattern": "chains",
+      "speed": 1.57
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

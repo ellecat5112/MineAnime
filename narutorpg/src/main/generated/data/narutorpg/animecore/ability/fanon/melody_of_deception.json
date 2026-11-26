@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13100927,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Melody of Deception",
+    "translate": "ability.narutorpg.fanon/melody_of_deception"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13100927,
+    "illusion": {
+      "color": 13100927,
+      "color2": 1713022,
+      "count": 9,
+      "density": 1.15,
+      "particle": "minecraft:soul",
+      "pattern": "rings",
+      "speed": 1.83
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

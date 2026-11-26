@@ -68,6 +68,7 @@ public final class VfxManager {
                 case DASH -> 10;
                 case IMPACT -> 10;
                 case MARK -> Math.max(20, (int) size);
+                case ILLUSION -> 44;
             };
         }
 
@@ -211,6 +212,13 @@ public final class VfxManager {
                 }
                 if (e.age == 1 && e.size >= 1.5f) add(w, ParticleTypes.FLASH, e.origin, Vec3d.ZERO);
             }
+            case ILLUSION -> {
+                var prof = illusion(e);
+                for (int i = 0; i < n(8 * prof.density(), budget, r); i++) {
+                    double a = r.nextDouble() * Math.PI * 2, rad = r.nextDouble() * e.size;
+                    add(w, IllusionRenderer.particle(prof), e.origin.add(Math.cos(a) * rad, r.nextDouble() * 2.5 - 0.6, Math.sin(a) * rad), new Vec3d(0, 0.01, 0));
+                }
+            }
             case MARK -> {
                 Entity target = w.getEntityById((int) e.extra);
                 if (target == null || e.age % 4 != 0) return;
@@ -330,6 +338,7 @@ public final class VfxManager {
                 VfxDraw.disc(vc, m, o, r * 0.5 * fade, VfxDraw.argb(e.core(), 0.5f * fade), VfxDraw.argb(e.mid(), 0f), 14);
             }
             case AREA -> runeCircle(vc, m, o.add(0, -0.85, 0), e, p, delta);
+            case ILLUSION -> IllusionRenderer.world(vc, m, o, illusion(e), e.size, e.age + delta, Math.min(1f, Math.min(p * 6, (1 - p) * 3)));
             case WALL -> {
                 Vec3d axis = e.dir.lengthSquared() > 1e-4 ? e.dir.normalize() : ex;
                 double h = e.extra * easeOut(Math.min(1, p * 2));
@@ -385,6 +394,11 @@ public final class VfxManager {
                 }
             }
         }
+    }
+
+    private static com.animecore.vfx.IllusionProfile illusion(Effect e) {
+        return new com.animecore.vfx.IllusionProfile(com.animecore.vfx.IllusionProfile.Pattern.byOrdinal((int) e.dir.x), e.color, (int) e.extra,
+                Math.max(1, (int) e.dir.y), (float) Math.max(0.1, e.dir.z), 1f, java.util.Optional.empty());
     }
 
     /** Ground sigil for area techniques: rotating double ring with spokes, plus a sweeping cone edge. */

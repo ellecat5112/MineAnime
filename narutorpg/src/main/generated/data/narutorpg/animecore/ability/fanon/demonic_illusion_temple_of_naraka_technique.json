@@ -1,0 +1,57 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 14679965,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Temple of Naraka Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_temple_of_naraka_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 14679965,
+    "illusion": {
+      "color": 14679965,
+      "color2": 6953882,
+      "density": 1.2,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "lotus",
+      "speed": 1.8
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 4597957,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Hundred Samurai",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_hundred_samurai"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 4597957,
+    "illusion": {
+      "color": 4597957,
+      "color2": 2171169,
+      "count": 6,
+      "density": 0.99,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.73
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

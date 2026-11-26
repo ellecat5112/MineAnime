@@ -19,7 +19,9 @@ public enum VfxKind {
     /** Burst at a projectile / strike hit; size = radius. */
     IMPACT,
     /** Lingering mark above a target (illusion spiral, binding chains); size = duration ticks. */
-    MARK;
+    MARK,
+    /** Genjutsu field around the cast with its own pattern: dir = (pattern ordinal, count, speed), size = radius, extra = color2. */
+    ILLUSION;
 
     public static VfxKind byOrdinal(int i) {
         VfxKind[] v = values();

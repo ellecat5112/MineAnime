@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13803944,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Tree Binding Death Explosion",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_tree_binding_death_explosion"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13803944,
+    "illusion": {
+      "color": 13803944,
+      "color2": 2503224,
+      "density": 1.54,
+      "particle": "minecraft:crit",
+      "pattern": "chains",
+      "speed": 1.77
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

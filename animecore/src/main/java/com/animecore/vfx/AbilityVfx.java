@@ -92,6 +92,12 @@ public final class AbilityVfx {
         AnimeNetworking.send(target, new ScreenEffectPayload(effect, style, color, ticks));
     }
 
+    /** Genjutsu vision with a technique's own {@link IllusionProfile}. */
+    public static void screen(ServerPlayerEntity target, ScreenEffect effect, VfxStyle style, int color, int ticks, IllusionProfile profile) {
+        if (effect == ScreenEffect.NONE || effect == ScreenEffect.AUTO) return;
+        AnimeNetworking.send(target, new ScreenEffectPayload(effect, style, color, ticks, profile));
+    }
+
     // ------------------------------------------------------------------ default cast animations
 
     /**

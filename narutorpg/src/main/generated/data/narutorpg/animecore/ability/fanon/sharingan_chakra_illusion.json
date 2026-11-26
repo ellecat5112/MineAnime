@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12921015,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sharingan: Chakra Illusion",
+    "translate": "ability.narutorpg.fanon/sharingan_chakra_illusion"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12921015,
+    "illusion": {
+      "color": 12921015,
+      "color2": 2171169,
+      "count": 9,
+      "density": 0.6,
+      "particle": "minecraft:ash",
+      "pattern": "eyes",
+      "speed": 0.71
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

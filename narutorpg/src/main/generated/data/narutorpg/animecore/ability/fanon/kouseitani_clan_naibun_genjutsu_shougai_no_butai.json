@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9893219,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kouseitani Clan Naibun Genjutsu: Shougai no Butai",
+    "translate": "ability.narutorpg.fanon/kouseitani_clan_naibun_genjutsu_shougai_no_butai"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9893219,
+    "illusion": {
+      "color": 9893219,
+      "color2": 870305,
+      "count": 10,
+      "density": 0.62,
+      "particle": "minecraft:portal",
+      "pattern": "rain",
+      "speed": 0.84
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

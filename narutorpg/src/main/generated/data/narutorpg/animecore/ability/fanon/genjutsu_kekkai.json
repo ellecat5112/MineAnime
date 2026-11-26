@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10597074,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Kekkai",
+    "translate": "ability.narutorpg.fanon/genjutsu_kekkai"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10597074,
+    "illusion": {
+      "color": 10597074,
+      "color2": 2503224,
+      "count": 6,
+      "density": 1.59,
+      "particle": "minecraft:sculk_soul",
+      "pattern": "chains",
+      "speed": 1.51
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15254778,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Tsukimi (Snow)",
+    "translate": "ability.narutorpg.fanon/tsukimi_snow"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15254778,
+    "illusion": {
+      "color": 15254778,
+      "color2": 5227511,
+      "count": 4,
+      "density": 1.43,
+      "particle": "minecraft:portal",
+      "pattern": "snow",
+      "speed": 0.89
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

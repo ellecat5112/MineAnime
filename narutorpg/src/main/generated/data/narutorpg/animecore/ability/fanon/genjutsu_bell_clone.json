@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15237030,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Bell Clone",
+    "translate": "ability.narutorpg.fanon/genjutsu_bell_clone"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15237030,
+    "illusion": {
+      "color": 15237030,
+      "color2": 1713022,
+      "density": 1.55,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.99
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

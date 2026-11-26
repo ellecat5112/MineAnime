@@ -1,0 +1,52 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10597074,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:tiger",
+    "narutorpg:boar",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Ash Cloud Apparition",
+    "translate": "ability.narutorpg.fanon/fire_release_ash_cloud_apparition"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10597074,
+    "illusion": {
+      "color": 10597074,
+      "color2": 3622735,
+      "count": 9,
+      "density": 1.01,
+      "particle": "minecraft:campfire_cosy_smoke",
+      "pattern": "fog",
+      "speed": 1.14
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

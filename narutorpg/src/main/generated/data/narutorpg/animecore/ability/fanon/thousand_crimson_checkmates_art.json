@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12000284,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Thousand Crimson Checkmates Art",
+    "translate": "ability.narutorpg.fanon/thousand_crimson_checkmates_art"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12000284,
+    "illusion": {
+      "color": 12000284,
+      "color2": 2503224,
+      "count": 8,
+      "density": 1.1,
+      "particle": "minecraft:crit",
+      "pattern": "chains",
+      "speed": 0.87
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

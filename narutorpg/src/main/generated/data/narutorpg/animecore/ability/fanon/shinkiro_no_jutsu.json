@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15527921,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 6,
+          "duration": 140,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Shinkiro no Jutsu",
+    "translate": "ability.narutorpg.fanon/shinkiro_no_jutsu"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15527921,
+    "illusion": {
+      "color": 15527921,
+      "color2": 2503224,
+      "density": 1.28,
+      "particle": "minecraft:white_ash",
+      "pattern": "web",
+      "speed": 1.59
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

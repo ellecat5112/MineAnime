@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1710638,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sound Release Illusion: Needle Melody",
+    "translate": "ability.narutorpg.fanon/sound_release_illusion_needle_melody"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1710638,
+    "illusion": {
+      "color": 1710638,
+      "color2": 1713022,
+      "count": 7,
+      "density": 1.3,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.99
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

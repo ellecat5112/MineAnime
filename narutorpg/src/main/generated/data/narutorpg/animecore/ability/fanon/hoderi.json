@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13263861,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Hoderi",
+    "translate": "ability.narutorpg.fanon/hoderi"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13263861,
+    "illusion": {
+      "color": 13263861,
+      "color2": 870305,
+      "count": 7,
+      "density": 1.32,
+      "particle": "minecraft:electric_spark",
+      "pattern": "rain",
+      "speed": 1.03
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

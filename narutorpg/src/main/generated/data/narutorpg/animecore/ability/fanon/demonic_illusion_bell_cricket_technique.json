@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8368618,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Bell Cricket Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_bell_cricket_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8368618,
+    "illusion": {
+      "color": 8368618,
+      "color2": 1713022,
+      "count": 8,
+      "density": 0.76,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.06
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

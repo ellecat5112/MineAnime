@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16448250,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Monochrome",
+    "translate": "ability.narutorpg.fanon/genjutsu_monochrome"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16448250,
+    "illusion": {
+      "color": 16448250,
+      "color2": 1118481,
+      "count": 7,
+      "density": 0.77,
+      "particle": "minecraft:electric_spark",
+      "pattern": "eyes",
+      "speed": 1.4
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

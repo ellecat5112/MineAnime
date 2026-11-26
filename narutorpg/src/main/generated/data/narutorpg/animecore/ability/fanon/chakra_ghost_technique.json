@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10661586,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Chakra Ghost Technique",
+    "translate": "ability.narutorpg.fanon/chakra_ghost_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10661586,
+    "illusion": {
+      "color": 10661586,
+      "color2": 3622735,
+      "count": 7,
+      "density": 1.44,
+      "particle": "minecraft:campfire_cosy_smoke",
+      "pattern": "fog",
+      "speed": 1.01
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

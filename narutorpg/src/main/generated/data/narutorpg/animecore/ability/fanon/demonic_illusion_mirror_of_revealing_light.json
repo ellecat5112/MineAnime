@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 14808574,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Mirror of Revealing Light",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_mirror_of_revealing_light"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 14808574,
+    "illusion": {
+      "color": 14808574,
+      "count": 7,
+      "density": 1.09,
+      "particle": "minecraft:enchant",
+      "pattern": "shards",
+      "speed": 1.31
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

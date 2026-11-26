@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16029582,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Inner Sakura (RW109)",
+    "translate": "ability.narutorpg.fanon/inner_sakura_rw109"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16029582,
+    "illusion": {
+      "color": 16029582,
+      "color2": 8916559,
+      "count": 7,
+      "density": 1.27,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 0.94
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

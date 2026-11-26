@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10661586,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Smoke Illusion Technique",
+    "translate": "ability.narutorpg.fanon/smoke_illusion_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10661586,
+    "illusion": {
+      "color": 10661586,
+      "color2": 3622735,
+      "count": 9,
+      "density": 0.88,
+      "particle": "minecraft:soul",
+      "pattern": "fog",
+      "speed": 0.76
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

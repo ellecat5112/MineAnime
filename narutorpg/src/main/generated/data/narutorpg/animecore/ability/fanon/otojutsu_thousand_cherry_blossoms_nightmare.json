@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15753874,
+      "cone_degrees": 70.0,
+      "damage": 1.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Otojutsu: Thousand Cherry Blossoms Nightmare",
+    "translate": "ability.narutorpg.fanon/otojutsu_thousand_cherry_blossoms_nightmare"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15753874,
+    "illusion": {
+      "color": 15753874,
+      "color2": 8916559,
+      "count": 6,
+      "density": 1.14,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 1.16
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

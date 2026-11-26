@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2001125,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Blue Lotus Style: Dance Of The Petals",
+    "translate": "ability.narutorpg.fanon/blue_lotus_style_dance_of_the_petals"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2001125,
+    "illusion": {
+      "color": 2001125,
+      "color2": 8916559,
+      "count": 4,
+      "density": 1.04,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 0.9
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

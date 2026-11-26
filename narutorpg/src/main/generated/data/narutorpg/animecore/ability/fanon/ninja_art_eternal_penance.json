@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9287450,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ninja Art: Eternal Penance",
+    "translate": "ability.narutorpg.fanon/ninja_art_eternal_penance"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9287450,
+    "illusion": {
+      "color": 9287450,
+      "color2": 4063232,
+      "count": 7,
+      "density": 1.32,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 0.83
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12996094,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Infinite Spiraling Illusion Technique",
+    "translate": "ability.narutorpg.fanon/infinite_spiraling_illusion_technique"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12996094,
+    "illusion": {
+      "color": 12996094,
+      "color2": 0,
+      "count": 7,
+      "density": 1.53,
+      "particle": "minecraft:reverse_portal",
+      "pattern": "vortex",
+      "speed": 1.46
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

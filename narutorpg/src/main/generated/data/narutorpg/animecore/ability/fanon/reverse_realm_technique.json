@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13893494,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Reverse Realm Technique",
+    "translate": "ability.narutorpg.fanon/reverse_realm_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13893494,
+    "illusion": {
+      "color": 13893494,
+      "color2": 858942,
+      "density": 1.46,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.27
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

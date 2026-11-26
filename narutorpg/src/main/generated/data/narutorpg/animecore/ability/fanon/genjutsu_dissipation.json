@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16739584,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu Dissipation",
+    "translate": "ability.narutorpg.fanon/genjutsu_dissipation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16739584,
+    "illusion": {
+      "color": 16739584,
+      "color2": 12000284,
+      "count": 5,
+      "density": 0.95,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.47
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

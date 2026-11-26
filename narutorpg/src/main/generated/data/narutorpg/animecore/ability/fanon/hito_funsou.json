@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1255710,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Hito Funsou",
+    "translate": "ability.narutorpg.fanon/hito_funsou"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1255710,
+    "illusion": {
+      "color": 1255710,
+      "color2": 12000284,
+      "count": 4,
+      "density": 1.16,
+      "particle": "minecraft:enchant",
+      "pattern": "crows",
+      "speed": 1.01
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

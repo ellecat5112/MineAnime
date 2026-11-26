@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10661586,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Depth Haze",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_depth_haze"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10661586,
+    "illusion": {
+      "color": 10661586,
+      "color2": 3622735,
+      "density": 1.22,
+      "particle": "minecraft:campfire_cosy_smoke",
+      "pattern": "fog",
+      "speed": 2.0
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

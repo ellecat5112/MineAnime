@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12833789,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: The labyrinth of mirrors",
+    "translate": "ability.narutorpg.fanon/genjutsu_the_labyrinth_of_mirrors"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12833789,
+    "illusion": {
+      "color": 12833789,
+      "count": 8,
+      "density": 0.84,
+      "particle": "minecraft:enchant",
+      "pattern": "shards",
+      "speed": 1.39
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

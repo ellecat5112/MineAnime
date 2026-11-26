@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12047009,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sage Art: Illusion",
+    "translate": "ability.narutorpg.fanon/sage_art_illusion"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12047009,
+    "illusion": {
+      "color": 12047009,
+      "color2": 3622735,
+      "count": 6,
+      "density": 0.91,
+      "particle": "minecraft:campfire_cosy_smoke",
+      "pattern": "fog",
+      "speed": 1.7
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

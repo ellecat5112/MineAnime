@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12000284,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Crimson Leaf Dream",
+    "translate": "ability.narutorpg.fanon/crimson_leaf_dream"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12000284,
+    "illusion": {
+      "color": 12000284,
+      "color2": 15753874,
+      "count": 7,
+      "density": 1.21,
+      "particle": "minecraft:end_rod",
+      "pattern": "kaleidoscope",
+      "speed": 0.91
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

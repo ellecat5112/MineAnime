@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13803944,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Dream Mist",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_dream_mist"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13803944,
+    "illusion": {
+      "color": 13803944,
+      "color2": 3622735,
+      "count": 10,
+      "density": 1.36,
+      "particle": "minecraft:wax_on",
+      "pattern": "fog",
+      "speed": 1.66
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

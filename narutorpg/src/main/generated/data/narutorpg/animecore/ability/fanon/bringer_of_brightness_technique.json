@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16448250,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Bringer-of-Brightness Technique",
+    "translate": "ability.narutorpg.fanon/bringer_of_brightness_technique"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16448250,
+    "illusion": {
+      "color": 16448250,
+      "color2": 2171169,
+      "density": 1.15,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.8
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

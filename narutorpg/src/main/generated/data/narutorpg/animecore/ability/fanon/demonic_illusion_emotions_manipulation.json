@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13893494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Emotions Manipulation",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_emotions_manipulation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13893494,
+    "illusion": {
+      "color": 13893494,
+      "color2": 858942,
+      "count": 10,
+      "density": 1.2,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.54
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

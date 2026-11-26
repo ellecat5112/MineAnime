@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8445674,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Bladesong Technique",
+    "translate": "ability.narutorpg.fanon/bladesong_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8445674,
+    "illusion": {
+      "color": 8445674,
+      "color2": 1713022,
+      "count": 8,
+      "density": 0.91,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.91
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

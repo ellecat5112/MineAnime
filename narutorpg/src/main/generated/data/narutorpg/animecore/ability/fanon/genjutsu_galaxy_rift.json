@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16773494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Galaxy Rift",
+    "translate": "ability.narutorpg.fanon/genjutsu_galaxy_rift"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16773494,
+    "illusion": {
+      "color": 16773494,
+      "color2": 858942,
+      "count": 5,
+      "density": 0.7,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.36
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

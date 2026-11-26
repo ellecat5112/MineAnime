@@ -1,0 +1,52 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13981952,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Getsurin no Kekkai",
+    "translate": "ability.narutorpg.fanon/getsurin_no_kekkai"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13981952,
+    "illusion": {
+      "color": 13981952,
+      "color2": 1703936,
+      "count": 7,
+      "density": 1.46,
+      "particle": "minecraft:wax_on",
+      "pattern": "blood_moon",
+      "speed": 0.61
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

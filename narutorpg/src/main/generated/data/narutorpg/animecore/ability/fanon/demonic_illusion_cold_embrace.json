@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 14938877,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Cold Embrace",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_cold_embrace"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 14938877,
+    "illusion": {
+      "color": 14938877,
+      "color2": 5227511,
+      "count": 5,
+      "density": 0.62,
+      "particle": "minecraft:snowflake",
+      "pattern": "snow",
+      "speed": 1.84
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

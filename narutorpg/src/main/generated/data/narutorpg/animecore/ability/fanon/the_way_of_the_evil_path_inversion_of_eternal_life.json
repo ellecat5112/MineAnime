@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15022389,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Way of the Evil Path: Inversion of Eternal Life",
+    "translate": "ability.narutorpg.fanon/the_way_of_the_evil_path_inversion_of_eternal_life"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15022389,
+    "illusion": {
+      "color": 15022389,
+      "color2": 1118481,
+      "count": 4,
+      "density": 0.72,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 1.77
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

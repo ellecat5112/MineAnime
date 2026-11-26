@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9237663,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Flower Blade Ginjutsu",
+    "translate": "ability.narutorpg.fanon/flower_blade_ginjutsu"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9237663,
+    "illusion": {
+      "color": 9237663,
+      "color2": 8916559,
+      "density": 1.34,
+      "particle": "minecraft:electric_spark",
+      "pattern": "petals",
+      "speed": 1.64
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

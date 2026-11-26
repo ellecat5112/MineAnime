@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8368618,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Doppler effect",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_doppler_effect"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8368618,
+    "illusion": {
+      "color": 8368618,
+      "color2": 1713022,
+      "density": 1.08,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.93
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

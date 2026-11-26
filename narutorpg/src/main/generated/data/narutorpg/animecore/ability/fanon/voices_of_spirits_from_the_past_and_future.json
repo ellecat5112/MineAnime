@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8371430,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Voices of Spirits from the Past and Future",
+    "translate": "ability.narutorpg.fanon/voices_of_spirits_from_the_past_and_future"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8371430,
+    "illusion": {
+      "color": 8371430,
+      "color2": 1713022,
+      "count": 10,
+      "density": 0.73,
+      "particle": "minecraft:witch",
+      "pattern": "rings",
+      "speed": 1.54
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2369811,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ravenous Heaven",
+    "translate": "ability.narutorpg.fanon/ravenous_heaven"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2369811,
+    "illusion": {
+      "color": 2369811,
+      "color2": 12000284,
+      "count": 7,
+      "density": 0.65,
+      "particle": "minecraft:soul",
+      "pattern": "crows",
+      "speed": 1.86
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12986408,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Banquet Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_banquet_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12986408,
+    "illusion": {
+      "color": 12986408,
+      "color2": 2171169,
+      "density": 0.95,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.23
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

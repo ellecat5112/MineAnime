@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 5242624,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:horse",
+    "narutorpg:snake",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wind Illusion Breeze of Wind Pillar",
+    "translate": "ability.narutorpg.fanon/wind_illusion_breeze_of_wind_pillar"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 5242624,
+    "illusion": {
+      "color": 5242624,
+      "color2": 12000284,
+      "count": 6,
+      "density": 0.65,
+      "particle": "minecraft:wax_on",
+      "pattern": "flames",
+      "speed": 0.69
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

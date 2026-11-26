@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16448250,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "White Squall",
+    "translate": "ability.narutorpg.fanon/white_squall"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16448250,
+    "illusion": {
+      "color": 16448250,
+      "color2": 1118481,
+      "count": 7,
+      "density": 1.14,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 0.93
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

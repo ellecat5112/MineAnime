@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9306112,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Crawling Transfusion",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_crawling_transfusion"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9306112,
+    "illusion": {
+      "color": 9306112,
+      "color2": 1793568,
+      "density": 1.02,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "serpents",
+      "speed": 1.74
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

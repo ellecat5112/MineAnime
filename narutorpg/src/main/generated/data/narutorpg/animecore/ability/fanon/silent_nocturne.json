@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12920902,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Silent Nocturne",
+    "translate": "ability.narutorpg.fanon/silent_nocturne"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12920902,
+    "illusion": {
+      "color": 12920902,
+      "color2": 2171169,
+      "count": 9,
+      "density": 1.16,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.39
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

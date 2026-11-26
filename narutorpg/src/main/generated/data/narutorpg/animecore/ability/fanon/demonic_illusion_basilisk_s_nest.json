@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8172354,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Basilisk's Nest",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_basilisk_s_nest"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8172354,
+    "illusion": {
+      "color": 8172354,
+      "color2": 1793568,
+      "count": 4,
+      "density": 1.27,
+      "particle": "minecraft:glow",
+      "pattern": "serpents",
+      "speed": 1.93
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

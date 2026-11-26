@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2693395,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wakaremichi",
+    "translate": "ability.narutorpg.fanon/wakaremichi"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2693395,
+    "illusion": {
+      "color": 2693395,
+      "color2": 12000284,
+      "count": 10,
+      "density": 1.13,
+      "particle": "minecraft:mycelium",
+      "pattern": "crows",
+      "speed": 1.23
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

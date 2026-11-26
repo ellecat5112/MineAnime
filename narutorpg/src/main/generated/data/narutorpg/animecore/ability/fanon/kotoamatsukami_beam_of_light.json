@@ -1,0 +1,57 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16752116,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kotoamatsukami: Beam of Light",
+    "translate": "ability.narutorpg.fanon/kotoamatsukami_beam_of_light"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16752116,
+    "illusion": {
+      "color": 16752116,
+      "color2": 6953882,
+      "count": 6,
+      "density": 1.12,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "lotus",
+      "speed": 1.24
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3741879,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "False Death Technique",
+    "translate": "ability.narutorpg.fanon/false_death_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 3741879,
+    "illusion": {
+      "color": 3741879,
+      "color2": 4063232,
+      "density": 1.01,
+      "particle": "minecraft:ash",
+      "pattern": "veins",
+      "speed": 0.84
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

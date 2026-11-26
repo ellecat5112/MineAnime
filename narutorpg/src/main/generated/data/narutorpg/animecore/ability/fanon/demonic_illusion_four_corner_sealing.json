@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6600182,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Four Corner Sealing",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_four_corner_sealing"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6600182,
+    "illusion": {
+      "color": 6600182,
+      "color2": 870305,
+      "count": 6,
+      "density": 1.11,
+      "particle": "minecraft:soul",
+      "pattern": "rain",
+      "speed": 1.41
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

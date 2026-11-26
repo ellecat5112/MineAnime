@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6518774,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Hang in the Balance",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_hang_in_the_balance"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6518774,
+    "illusion": {
+      "color": 6518774,
+      "color2": 870305,
+      "count": 4,
+      "density": 0.88,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 0.77
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

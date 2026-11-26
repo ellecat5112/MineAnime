@@ -1,0 +1,62 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 14679965,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:bird",
+    "narutorpg:ram"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Heavenly Illusion: Kneel in Fear",
+    "translate": "ability.narutorpg.fanon/heavenly_illusion_kneel_in_fear"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 14679965,
+    "illusion": {
+      "color": 14679965,
+      "color2": 6953882,
+      "count": 7,
+      "density": 0.88,
+      "particle": "minecraft:enchant",
+      "pattern": "lotus",
+      "speed": 0.84
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

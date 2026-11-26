@@ -50,7 +50,10 @@ public record AreaEffectAction(float radius, float coneDegrees, List<SelfBuffAct
             com.animecore.vfx.AbilityVfx.emit(ctx.world(), target, com.animecore.vfx.VfxKind.MARK, ctx.vfxStyle(), ctx.vfxColor(),
                     target.getPos().add(0, target.getHeight() + 0.4, 0), Vec3d.ZERO, Math.min(200, dur), target.getId());
             if (target instanceof net.minecraft.server.network.ServerPlayerEntity sp) {
-                com.animecore.vfx.AbilityVfx.screen(sp, screen, ctx.vfxStyle(), ctx.vfxColor(), Math.max(60, Math.min(200, dur)));
+                int ticks = Math.max(60, Math.min(200, dur));
+                var profile = ctx.definition().visuals().illusion();
+                if (profile.isPresent()) com.animecore.vfx.AbilityVfx.screen(sp, screen, ctx.vfxStyle(), ctx.vfxColor(), ticks, profile.get());
+                else com.animecore.vfx.AbilityVfx.screen(sp, screen, ctx.vfxStyle(), ctx.vfxColor(), ticks);
             }
             if (pull != 0f && to.lengthSquared() > 1e-4) {
                 Vec3d v = to.normalize().multiply(-pull * 0.5);
@@ -58,6 +61,13 @@ public record AreaEffectAction(float radius, float coneDegrees, List<SelfBuffAct
                 target.velocityModified = true;
             }
         }
-        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.AREA, origin, look, r, coneDegrees);
+        var illusion = ctx.definition().visuals().illusion();
+        if (illusion.isPresent()) {
+            var pr = illusion.get();
+            com.animecore.vfx.AbilityVfx.emit(ctx.world(), ctx.caster(), com.animecore.vfx.VfxKind.ILLUSION, ctx.vfxStyle(), pr.color(), origin,
+                    new Vec3d(pr.pattern().ordinal(), pr.count(), pr.speed()), r, pr.color2());
+        } else {
+            com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.AREA, origin, look, r, coneDegrees);
+        }
     }
 }

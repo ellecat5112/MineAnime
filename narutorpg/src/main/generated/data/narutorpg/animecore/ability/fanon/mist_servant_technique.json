@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1118481,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mist Servant Technique",
+    "translate": "ability.narutorpg.fanon/mist_servant_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1118481,
+    "illusion": {
+      "color": 1118481,
+      "color2": 3622735,
+      "count": 5,
+      "density": 1.54,
+      "particle": "minecraft:mycelium",
+      "pattern": "fog",
+      "speed": 1.33
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

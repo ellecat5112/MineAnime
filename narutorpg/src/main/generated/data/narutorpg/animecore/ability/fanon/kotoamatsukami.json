@@ -1,0 +1,56 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16774557,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kotoamatsukami",
+    "translate": "ability.narutorpg.fanon/kotoamatsukami"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16774557,
+    "illusion": {
+      "color": 16774557,
+      "color2": 6953882,
+      "count": 5,
+      "density": 1.41,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "lotus",
+      "speed": 1.83
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

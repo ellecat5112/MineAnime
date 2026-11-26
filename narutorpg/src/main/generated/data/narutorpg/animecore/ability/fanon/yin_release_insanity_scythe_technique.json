@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2694163,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Yin Release: Insanity Scythe Technique",
+    "translate": "ability.narutorpg.fanon/yin_release_insanity_scythe_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2694163,
+    "illusion": {
+      "color": 2694163,
+      "color2": 12000284,
+      "count": 7,
+      "density": 1.13,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 1.39
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

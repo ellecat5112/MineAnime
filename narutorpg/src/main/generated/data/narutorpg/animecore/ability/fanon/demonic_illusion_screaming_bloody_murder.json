@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9306112,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Screaming Bloody Murder",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_screaming_bloody_murder"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9306112,
+    "illusion": {
+      "color": 9306112,
+      "color2": 4063232,
+      "count": 6,
+      "density": 0.83,
+      "particle": "minecraft:enchant",
+      "pattern": "veins",
+      "speed": 1.2
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

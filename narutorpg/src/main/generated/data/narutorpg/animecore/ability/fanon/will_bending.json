@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9790453,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Will Bending",
+    "translate": "ability.narutorpg.fanon/will_bending"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9790453,
+    "illusion": {
+      "color": 9790453,
+      "color2": 870305,
+      "count": 4,
+      "density": 1.56,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.06
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

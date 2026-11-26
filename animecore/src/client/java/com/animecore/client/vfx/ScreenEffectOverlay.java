@@ -36,12 +36,14 @@ public final class ScreenEffectOverlay {
     private static VfxStyle style = VfxStyle.ILLUSION;
     private static int color = 0xC2185B;
     private static int total, remaining;
+    private static com.animecore.vfx.IllusionProfile profile = com.animecore.vfx.IllusionProfile.DEFAULT;
 
     public static void start(ScreenEffectPayload p) {
         effect = p.effect();
         style = p.style();
         color = p.color();
         total = remaining = Math.max(10, p.ticks());
+        profile = p.profile();
     }
 
     public static boolean active() { return remaining > 0 && effect != ScreenEffect.NONE; }
@@ -53,7 +55,7 @@ public final class ScreenEffectOverlay {
             Random r = client.world.getRandom();
             var pos = client.player.getPos();
             for (int i = 0; i < 2; i++) {
-                client.world.addParticle(style == VfxStyle.ILLUSION ? ParticleTypes.CHERRY_LEAVES : ParticleTypes.WITCH,
+                client.world.addParticle(IllusionRenderer.particle(profile),
                         pos.x + (r.nextDouble() - 0.5) * 6, pos.y + 1 + r.nextDouble() * 2.5, pos.z + (r.nextDouble() - 0.5) * 6, 0, -0.02, 0);
             }
         }
@@ -83,7 +85,7 @@ public final class ScreenEffectOverlay {
         BufferBuilder b = Tessellator.getInstance().begin(VertexFormat.DrawMode.TRIANGLES, VertexFormats.POSITION_COLOR);
         float cx = w / 2f, cy = h / 2f, R = (float) Math.hypot(cx, cy);
         switch (effect) {
-            case ILLUSION -> illusion(b, m, cx, cy, R, w, h, time, env);
+            case ILLUSION -> IllusionRenderer.screen(b, m, profile, w, h, time, env);
             case DARKNESS -> darkness(b, m, cx, cy, R, time, env);
             case FLASH -> rect(b, m, 0, 0, w, h, VfxDraw.argb(0xFFFFFF, 0.9f * env * env));
             default -> { }

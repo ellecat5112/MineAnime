@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 11583173,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Flute: Phantom Sound Chains",
+    "translate": "ability.narutorpg.fanon/demonic_flute_phantom_sound_chains"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 11583173,
+    "illusion": {
+      "color": 11583173,
+      "color2": 2503224,
+      "density": 1.4,
+      "particle": "minecraft:soul",
+      "pattern": "chains",
+      "speed": 1.84
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

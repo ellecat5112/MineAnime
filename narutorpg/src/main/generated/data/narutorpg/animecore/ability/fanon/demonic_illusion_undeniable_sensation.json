@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12000284,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Undeniable Sensation",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_undeniable_sensation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12000284,
+    "illusion": {
+      "color": 12000284,
+      "color2": 4063232,
+      "count": 6,
+      "density": 0.6,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 0.94
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15022389,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dojutsu: Sovern Eye",
+    "translate": "ability.narutorpg.fanon/dojutsu_sovern_eye"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15022389,
+    "illusion": {
+      "color": 15022389,
+      "color2": 16448250,
+      "count": 6,
+      "density": 1.31,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.39
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

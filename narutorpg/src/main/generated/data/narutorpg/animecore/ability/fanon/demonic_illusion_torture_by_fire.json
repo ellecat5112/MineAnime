@@ -1,0 +1,52 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 5242624,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:tiger",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Torture by Fire",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_torture_by_fire"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 5242624,
+    "illusion": {
+      "color": 5242624,
+      "color2": 12000284,
+      "count": 8,
+      "density": 1.36,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.71
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

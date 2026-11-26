@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12016923,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Curse of Hatred",
+    "translate": "ability.narutorpg.fanon/curse_of_hatred"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12016923,
+    "illusion": {
+      "color": 12016923,
+      "color2": 4063232,
+      "count": 8,
+      "density": 0.88,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 1.76
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15400861,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Temple of Suffering Technique",
+    "translate": "ability.narutorpg.fanon/temple_of_suffering_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15400861,
+    "illusion": {
+      "color": 15400861,
+      "color2": 6953882,
+      "count": 6,
+      "density": 0.6,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "lotus",
+      "speed": 1.11
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

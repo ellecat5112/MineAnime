@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10911721,
+      "cone_degrees": 70.0,
+      "damage": 1.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Illusion Bell Needles",
+    "translate": "ability.narutorpg.fanon/illusion_bell_needles"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10911721,
+    "illusion": {
+      "color": 10911721,
+      "color2": 1713022,
+      "count": 9,
+      "density": 0.67,
+      "particle": "minecraft:sculk_soul",
+      "pattern": "rings",
+      "speed": 0.64
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

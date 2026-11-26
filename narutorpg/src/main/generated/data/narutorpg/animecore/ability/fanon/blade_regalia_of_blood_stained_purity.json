@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9306112,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Blade Regalia of Blood-stained Purity",
+    "translate": "ability.narutorpg.fanon/blade_regalia_of_blood_stained_purity"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9306112,
+    "illusion": {
+      "color": 9306112,
+      "color2": 4063232,
+      "count": 8,
+      "density": 0.88,
+      "particle": "minecraft:enchant",
+      "pattern": "veins",
+      "speed": 0.9
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

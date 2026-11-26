@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1118481,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dark Night in the Rainy Season",
+    "translate": "ability.narutorpg.fanon/dark_night_in_the_rainy_season"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1118481,
+    "illusion": {
+      "color": 1118481,
+      "color2": 1710638,
+      "count": 8,
+      "density": 1.13,
+      "particle": "minecraft:portal",
+      "pattern": "tendrils",
+      "speed": 1.23
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

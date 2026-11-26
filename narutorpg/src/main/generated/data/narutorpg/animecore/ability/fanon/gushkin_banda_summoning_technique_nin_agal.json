@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 5242624,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Summoning Technique: Nin-Agal",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_summoning_technique_nin_agal"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 5242624,
+    "illusion": {
+      "color": 5242624,
+      "color2": 12000284,
+      "count": 9,
+      "density": 1.41,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.8
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

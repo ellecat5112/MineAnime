@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2671993,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:boar",
+    "narutorpg:ram",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Hypnotic Influencer",
+    "translate": "ability.narutorpg.fanon/genjutsu_hypnotic_influencer"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2671993,
+    "illusion": {
+      "color": 2671993,
+      "color2": 2171169,
+      "count": 4,
+      "density": 1.42,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.46
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

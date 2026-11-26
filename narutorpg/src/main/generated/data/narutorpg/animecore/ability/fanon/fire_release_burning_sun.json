@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2001125,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Burning Sun",
+    "translate": "ability.narutorpg.fanon/fire_release_burning_sun"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2001125,
+    "illusion": {
+      "color": 2001125,
+      "color2": 12000284,
+      "density": 1.02,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.73
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

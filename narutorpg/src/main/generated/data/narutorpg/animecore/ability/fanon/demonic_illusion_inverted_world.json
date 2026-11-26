@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1118481,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Inverted world",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_inverted_world"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1118481,
+    "illusion": {
+      "color": 1118481,
+      "color2": 8916559,
+      "count": 8,
+      "density": 1.21,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 1.97
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

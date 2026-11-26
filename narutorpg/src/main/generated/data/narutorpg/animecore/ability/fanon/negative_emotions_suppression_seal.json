@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13263861,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Negative Emotions Suppression Seal",
+    "translate": "ability.narutorpg.fanon/negative_emotions_suppression_seal"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13263861,
+    "illusion": {
+      "color": 13263861,
+      "color2": 870305,
+      "count": 8,
+      "density": 1.07,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.79
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12996094,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Lightning Illusion Static Genesis",
+    "translate": "ability.narutorpg.fanon/lightning_illusion_static_genesis"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12996094,
+    "illusion": {
+      "color": 12996094,
+      "color2": 0,
+      "count": 8,
+      "density": 1.59,
+      "particle": "minecraft:reverse_portal",
+      "pattern": "vortex",
+      "speed": 1.97
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

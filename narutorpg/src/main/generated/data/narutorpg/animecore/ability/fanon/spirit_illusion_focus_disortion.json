@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8146431,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Spirit Illusion: Focus Disortion",
+    "translate": "ability.narutorpg.fanon/spirit_illusion_focus_disortion"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8146431,
+    "illusion": {
+      "color": 8146431,
+      "color2": 0,
+      "count": 8,
+      "density": 1.19,
+      "particle": "minecraft:mycelium",
+      "pattern": "vortex",
+      "speed": 1.34
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

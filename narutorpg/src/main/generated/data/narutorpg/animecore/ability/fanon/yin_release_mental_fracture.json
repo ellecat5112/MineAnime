@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10395294,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Yin Release: Mental Fracture",
+    "translate": "ability.narutorpg.fanon/yin_release_mental_fracture"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10395294,
+    "illusion": {
+      "color": 10395294,
+      "color2": 1118481,
+      "count": 8,
+      "density": 1.09,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.51
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

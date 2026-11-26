@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16773494,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Piercing Shooting Stars",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_piercing_shooting_stars"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16773494,
+    "illusion": {
+      "color": 16773494,
+      "color2": 858942,
+      "density": 1.38,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.54
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

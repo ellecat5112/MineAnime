@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 5026625,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Dragon Assault",
+    "translate": "ability.narutorpg.fanon/genjutsu_dragon_assault"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 5026625,
+    "illusion": {
+      "color": 5026625,
+      "color2": 1793568,
+      "count": 7,
+      "density": 1.47,
+      "particle": "minecraft:sculk_soul",
+      "pattern": "serpents",
+      "speed": 1.06
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15458005,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Opalescence",
+    "translate": "ability.narutorpg.fanon/opalescence"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15458005,
+    "illusion": {
+      "color": 15458005,
+      "color2": 2171169,
+      "count": 7,
+      "density": 1.37,
+      "particle": "minecraft:portal",
+      "pattern": "eyes",
+      "speed": 1.69
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

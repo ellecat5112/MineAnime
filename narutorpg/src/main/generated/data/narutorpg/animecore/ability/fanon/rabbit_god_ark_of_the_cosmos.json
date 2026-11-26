@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 7798668,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:wood",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Rabbit God: Ark Of The Cosmos",
+    "translate": "ability.narutorpg.fanon/rabbit_god_ark_of_the_cosmos"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 7798668,
+    "illusion": {
+      "color": 7798668,
+      "color2": 858942,
+      "count": 9,
+      "density": 1.2,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.7
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12986408,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Amatsukami",
+    "translate": "ability.narutorpg.fanon/amatsukami"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12986408,
+    "illusion": {
+      "color": 12986408,
+      "color2": 2171169,
+      "count": 8,
+      "density": 0.99,
+      "particle": "minecraft:wax_on",
+      "pattern": "eyes",
+      "speed": 1.21
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

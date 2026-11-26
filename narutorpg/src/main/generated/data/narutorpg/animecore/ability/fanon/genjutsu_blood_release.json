@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9321216,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Blood Release",
+    "translate": "ability.narutorpg.fanon/genjutsu_blood_release"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9321216,
+    "illusion": {
+      "color": 9321216,
+      "color2": 4063232,
+      "count": 9,
+      "density": 1.19,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 1.17
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

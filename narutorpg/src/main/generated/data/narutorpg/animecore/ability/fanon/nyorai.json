@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1710638,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Nyorai",
+    "translate": "ability.narutorpg.fanon/nyorai"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1710638,
+    "illusion": {
+      "color": 1710638,
+      "color2": 12000284,
+      "count": 7,
+      "density": 0.66,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 1.74
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

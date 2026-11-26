@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10597074,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Scattered Clouds Vanishing Mist",
+    "translate": "ability.narutorpg.fanon/scattered_clouds_vanishing_mist"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10597074,
+    "illusion": {
+      "color": 10597074,
+      "color2": 3622735,
+      "count": 6,
+      "density": 0.97,
+      "particle": "minecraft:glow",
+      "pattern": "fog",
+      "speed": 0.86
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

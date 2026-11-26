@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9306112,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Yin Release: Thousand Droplets",
+    "translate": "ability.narutorpg.fanon/yin_release_thousand_droplets"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9306112,
+    "illusion": {
+      "color": 9306112,
+      "color2": 12000284,
+      "count": 8,
+      "density": 1.54,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 1.23
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

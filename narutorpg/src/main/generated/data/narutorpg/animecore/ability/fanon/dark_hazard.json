@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1710638,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dark Hazard",
+    "translate": "ability.narutorpg.fanon/dark_hazard"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1710638,
+    "illusion": {
+      "color": 1710638,
+      "color2": 327688,
+      "count": 6,
+      "density": 0.78,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 1.9
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

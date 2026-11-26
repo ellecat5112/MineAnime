@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 5242624,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Lightning Release: Lightning Illusion Flash of Lightning Pillar",
+    "translate": "ability.narutorpg.fanon/lightning_release_lightning_illusion_flash_of_lightning_pillar"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 5242624,
+    "illusion": {
+      "color": 5242624,
+      "color2": 12000284,
+      "count": 7,
+      "density": 1.46,
+      "particle": "minecraft:electric_spark",
+      "pattern": "flames",
+      "speed": 1.4
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13958918,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Suppressing Holy Dragon of 8 Purifications",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_suppressing_holy_dragon_of_8_purifications"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13958918,
+    "illusion": {
+      "color": 13958918,
+      "color2": 6953882,
+      "count": 8,
+      "density": 0.83,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "lotus",
+      "speed": 0.73
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

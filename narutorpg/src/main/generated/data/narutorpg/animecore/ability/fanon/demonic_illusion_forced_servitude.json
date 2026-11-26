@@ -1,0 +1,55 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6518774,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:horse",
+    "narutorpg:bird",
+    "narutorpg:tiger",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Forced Servitude",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_forced_servitude"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6518774,
+    "illusion": {
+      "color": 6518774,
+      "color2": 870305,
+      "count": 7,
+      "density": 1.08,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 0.96
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16666017,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Magen: Denkōsekka",
+    "translate": "ability.narutorpg.fanon/magen_denkosekka"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16666017,
+    "illusion": {
+      "color": 16666017,
+      "color2": 0,
+      "count": 4,
+      "density": 1.54,
+      "particle": "minecraft:electric_spark",
+      "pattern": "vortex",
+      "speed": 1.09
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

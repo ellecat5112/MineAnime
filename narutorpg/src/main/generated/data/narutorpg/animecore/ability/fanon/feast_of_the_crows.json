@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1255710,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Feast of the Crows",
+    "translate": "ability.narutorpg.fanon/feast_of_the_crows"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1255710,
+    "illusion": {
+      "color": 1255710,
+      "color2": 12000284,
+      "count": 7,
+      "density": 0.77,
+      "particle": "minecraft:squid_ink",
+      "pattern": "crows",
+      "speed": 1.87
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

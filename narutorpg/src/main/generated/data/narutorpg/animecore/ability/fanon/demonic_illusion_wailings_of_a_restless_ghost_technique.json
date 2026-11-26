@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1685356,
+      "cone_degrees": 70.0,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Wailings of a Restless Ghost Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_wailings_of_a_restless_ghost_technique"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1685356,
+    "illusion": {
+      "color": 1685356,
+      "color2": 4063232,
+      "count": 4,
+      "density": 1.25,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 1.91
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

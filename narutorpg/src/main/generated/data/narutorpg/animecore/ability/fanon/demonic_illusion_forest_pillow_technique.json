@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13893494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Forest Pillow Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_forest_pillow_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13893494,
+    "illusion": {
+      "color": 13893494,
+      "color2": 858942,
+      "count": 4,
+      "density": 1.26,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 0.6
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

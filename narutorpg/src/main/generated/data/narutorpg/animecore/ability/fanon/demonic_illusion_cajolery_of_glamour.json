@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10661586,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Cajolery of Glamour",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_cajolery_of_glamour"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10661586,
+    "illusion": {
+      "color": 10661586,
+      "color2": 2503224,
+      "count": 7,
+      "density": 1.31,
+      "particle": "minecraft:soul",
+      "pattern": "chains",
+      "speed": 1.21
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

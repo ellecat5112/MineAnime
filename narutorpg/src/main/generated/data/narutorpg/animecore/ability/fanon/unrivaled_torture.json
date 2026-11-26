@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 11946008,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Unrivaled Torture",
+    "translate": "ability.narutorpg.fanon/unrivaled_torture"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 11946008,
+    "illusion": {
+      "color": 11946008,
+      "color2": 4063232,
+      "count": 9,
+      "density": 1.55,
+      "particle": "minecraft:witch",
+      "pattern": "veins",
+      "speed": 1.9
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

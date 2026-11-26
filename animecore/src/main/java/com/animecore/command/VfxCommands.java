@@ -32,6 +32,10 @@ public final class VfxCommands {
         d.register(literal("vfx").requires(s -> s.hasPermissionLevel(2))
                 .then(literal("play").then(argument("kind", StringArgumentType.word()).suggests(names(VfxKind.values()))
                         .then(argument("style", StringArgumentType.word()).suggests(names(VfxStyle.values())).executes(VfxCommands::play))))
+                .then(literal("genjutsu").then(argument("ability", net.minecraft.command.argument.IdentifierArgumentType.identifier())
+                        .suggests((c, bld) -> CommandSource.suggestIdentifiers(c.getSource().getRegistryManager().get(com.animecore.registry.AnimeRegistries.ABILITY)
+                                .getEntrySet().stream().filter(e -> e.getValue().visuals().illusion().isPresent()).map(e -> e.getKey().getValue()), bld))
+                        .executes(VfxCommands::genjutsu)))
                 .then(literal("screen").then(argument("effect", StringArgumentType.word()).suggests(names(ScreenEffect.values()))
                         .executes(c -> screen(c, VfxStyle.ILLUSION))
                         .then(argument("style", StringArgumentType.word()).suggests(names(VfxStyle.values()))
@@ -52,6 +56,20 @@ public final class VfxCommands {
             case AREA -> AbilityVfx.emit(p.getServerWorld(), p, kind, style, style.mid(), p.getPos().add(0, 0.9, 0), look, 9f, 70f);
             default -> AbilityVfx.emit(p.getServerWorld(), p, kind, style, style.mid(), front, look, 4f, 0f);
         }
+        return 1;
+    }
+
+    /** Shows a technique's own illusion: the victim's vision on your screen and its world effect around you. */
+    private static int genjutsu(CommandContext<ServerCommandSource> c) throws CommandSyntaxException {
+        ServerPlayerEntity p = c.getSource().getPlayerOrThrow();
+        var id = net.minecraft.command.argument.IdentifierArgumentType.getIdentifier(c, "ability");
+        var def = com.animecore.registry.AnimeRegistries.ability(p.getRegistryManager(), id).map(e -> e.value()).orElse(null);
+        if (def == null || def.visuals().illusion().isEmpty()) return 0;
+        var pr = def.visuals().illusion().get();
+        AbilityVfx.screen(p, ScreenEffect.ILLUSION, VfxStyle.ILLUSION, pr.color(), 160, pr);
+        AbilityVfx.emit(p.getServerWorld(), p, VfxKind.ILLUSION, VfxStyle.ILLUSION, pr.color(), p.getPos().add(0, 0.9, 0),
+                new Vec3d(pr.pattern().ordinal(), pr.count(), pr.speed()), 8f, pr.color2());
+        c.getSource().sendFeedback(() -> def.name().copy().append(" (" + pr.pattern().asString() + ")"), false);
         return 1;
     }
 

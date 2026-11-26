@@ -127,6 +127,9 @@ def main():
     # Nature releases (Category:Chakra Natures): every nature jutsu.
     import natures
     natures.main()
+    # Fan genjutsu (Naruto Fanon Category:Genjutsu): every technique with its own illusion.
+    import fanon_genjutsu
+    fanon_genjutsu.main()
     # Technique tokens (AHZNB-style jutsu items) and default cast animations.
     import tokens
     tokens.build()

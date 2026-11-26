@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12493266,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: A Conjured Tale",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_a_conjured_tale"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12493266,
+    "illusion": {
+      "color": 12493266,
+      "color2": 3622735,
+      "count": 4,
+      "density": 1.21,
+      "particle": "minecraft:electric_spark",
+      "pattern": "fog",
+      "speed": 1.44
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

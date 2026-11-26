@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 7798668,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Taikonokodō",
+    "translate": "ability.narutorpg.fanon/taikonokodo"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 7798668,
+    "illusion": {
+      "color": 7798668,
+      "color2": 858942,
+      "count": 8,
+      "density": 1.07,
+      "particle": "minecraft:wax_on",
+      "pattern": "stars",
+      "speed": 1.74
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13100927,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Yin Release: Voice of the Forest Technique",
+    "translate": "ability.narutorpg.fanon/yin_release_voice_of_the_forest_technique"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13100927,
+    "illusion": {
+      "color": 13100927,
+      "color2": 1713022,
+      "count": 6,
+      "density": 0.64,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.9
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

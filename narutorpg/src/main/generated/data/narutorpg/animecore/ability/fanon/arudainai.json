@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12000284,
+      "cone_degrees": 70.0,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Arudainai",
+    "translate": "ability.narutorpg.fanon/arudainai"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12000284,
+    "illusion": {
+      "color": 12000284,
+      "color2": 4063232,
+      "count": 4,
+      "density": 1.13,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 1.06
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

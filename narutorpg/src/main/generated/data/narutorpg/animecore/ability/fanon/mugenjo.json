@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16666017,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mugenjō",
+    "translate": "ability.narutorpg.fanon/mugenjo"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16666017,
+    "illusion": {
+      "color": 16666017,
+      "color2": 0,
+      "count": 8,
+      "density": 1.04,
+      "particle": "minecraft:reverse_portal",
+      "pattern": "vortex",
+      "speed": 2.0
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

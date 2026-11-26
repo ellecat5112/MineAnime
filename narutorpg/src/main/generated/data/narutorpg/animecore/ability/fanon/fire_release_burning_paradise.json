@@ -1,0 +1,61 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16774557,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Burning Paradise",
+    "translate": "ability.narutorpg.fanon/fire_release_burning_paradise"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16774557,
+    "illusion": {
+      "color": 16774557,
+      "color2": 6953882,
+      "density": 1.16,
+      "particle": "minecraft:portal",
+      "pattern": "lotus",
+      "speed": 1.2
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

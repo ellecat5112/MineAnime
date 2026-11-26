@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16723712,
+      "cone_degrees": 70.0,
+      "damage": 3.6,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mushroom Spore Technique",
+    "translate": "ability.narutorpg.fanon/mushroom_spore_technique"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16723712,
+    "illusion": {
+      "color": 16723712,
+      "color2": 12000284,
+      "count": 5,
+      "density": 1.07,
+      "particle": "minecraft:glow",
+      "pattern": "flames",
+      "speed": 0.94
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

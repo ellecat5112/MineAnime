@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10603730,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Izanagi (Yakujō's Genjutsu)",
+    "translate": "ability.narutorpg.fanon/izanagi_yakujo_s_genjutsu"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10603730,
+    "illusion": {
+      "color": 10603730,
+      "color2": 2503224,
+      "count": 9,
+      "density": 1.22,
+      "particle": "minecraft:crit",
+      "pattern": "chains",
+      "speed": 0.7
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

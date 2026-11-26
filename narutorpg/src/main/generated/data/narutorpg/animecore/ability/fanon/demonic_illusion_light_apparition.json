@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6429330,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Light Apparition",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_light_apparition"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6429330,
+    "illusion": {
+      "color": 6429330,
+      "color2": 327688,
+      "count": 4,
+      "density": 1.5,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 1.59
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

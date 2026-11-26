@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15022389,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Way of the Evil Path: Emerging Tendrils",
+    "translate": "ability.narutorpg.fanon/the_way_of_the_evil_path_emerging_tendrils"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15022389,
+    "illusion": {
+      "color": 15022389,
+      "color2": 1118481,
+      "count": 8,
+      "density": 1.1,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 1.83
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

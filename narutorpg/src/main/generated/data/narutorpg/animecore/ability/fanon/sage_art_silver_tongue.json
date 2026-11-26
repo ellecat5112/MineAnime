@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13621468,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sage Art: Silver Tongue",
+    "translate": "ability.narutorpg.fanon/sage_art_silver_tongue"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13621468,
+    "illusion": {
+      "color": 13621468,
+      "color2": 870305,
+      "density": 1.06,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.46
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

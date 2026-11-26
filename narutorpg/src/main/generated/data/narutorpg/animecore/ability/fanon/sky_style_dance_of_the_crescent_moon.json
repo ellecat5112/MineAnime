@@ -1,0 +1,52 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 54638,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sky Style: Dance of the Crescent Moon",
+    "translate": "ability.narutorpg.fanon/sky_style_dance_of_the_crescent_moon"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 54638,
+    "illusion": {
+      "color": 54638,
+      "color2": 1703936,
+      "count": 6,
+      "density": 0.79,
+      "particle": "minecraft:enchant",
+      "pattern": "blood_moon",
+      "speed": 1.8
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

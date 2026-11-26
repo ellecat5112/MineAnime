@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1610309,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:wood",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wood Release: Aokigahara",
+    "translate": "ability.narutorpg.fanon/wood_release_aokigahara"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 1610309,
+    "illusion": {
+      "color": 1610309,
+      "color2": 327688,
+      "count": 9,
+      "density": 1.2,
+      "particle": "minecraft:portal",
+      "pattern": "tendrils",
+      "speed": 1.43
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2643397,
+      "damage": 1.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kotoamatsukami (RW109)",
+    "translate": "ability.narutorpg.fanon/kotoamatsukami_rw109"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2643397,
+    "illusion": {
+      "color": 2643397,
+      "color2": 2171169,
+      "density": 1.42,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.96
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

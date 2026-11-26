@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2671926,
+      "cone_degrees": 70.0,
+      "damage": 0.9,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 96,
+  "cost": {
+    "amount": 10.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Phantom Veil Technique",
+    "translate": "ability.narutorpg.fanon/phantom_veil_technique"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2671926,
+    "illusion": {
+      "color": 2671926,
+      "color2": 2171169,
+      "density": 1.14,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.77
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

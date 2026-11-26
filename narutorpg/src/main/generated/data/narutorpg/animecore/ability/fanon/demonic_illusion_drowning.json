@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6600182,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Drowning",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_drowning"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6600182,
+    "illusion": {
+      "color": 6600182,
+      "color2": 870305,
+      "count": 4,
+      "density": 1.03,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 0.97
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

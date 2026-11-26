@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16773494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Bubbled Existence",
+    "translate": "ability.narutorpg.fanon/bubbled_existence"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16773494,
+    "illusion": {
+      "color": 16773494,
+      "color2": 858942,
+      "count": 6,
+      "density": 1.58,
+      "particle": "minecraft:ash",
+      "pattern": "stars",
+      "speed": 1.16
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

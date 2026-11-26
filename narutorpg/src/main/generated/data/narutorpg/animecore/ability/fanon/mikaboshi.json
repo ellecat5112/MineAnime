@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13893494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mikaboshi",
+    "translate": "ability.narutorpg.fanon/mikaboshi"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13893494,
+    "illusion": {
+      "color": 13893494,
+      "color2": 858942,
+      "count": 7,
+      "density": 0.63,
+      "particle": "minecraft:electric_spark",
+      "pattern": "stars",
+      "speed": 1.03
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

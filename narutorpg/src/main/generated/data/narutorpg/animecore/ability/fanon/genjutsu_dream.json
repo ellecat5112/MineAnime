@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 31231,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Dream",
+    "translate": "ability.narutorpg.fanon/genjutsu_dream"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 31231,
+    "illusion": {
+      "color": 31231,
+      "color2": 13959417,
+      "count": 9,
+      "density": 1.05,
+      "particle": "minecraft:sculk_soul",
+      "pattern": "kaleidoscope",
+      "speed": 0.71
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

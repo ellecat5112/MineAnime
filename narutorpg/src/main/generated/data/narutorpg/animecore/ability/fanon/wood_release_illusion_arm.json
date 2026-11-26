@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 4532421,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:wood",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wood Release: Illusion Arm",
+    "translate": "ability.narutorpg.fanon/wood_release_illusion_arm"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 4532421,
+    "illusion": {
+      "color": 4532421,
+      "color2": 2171169,
+      "count": 6,
+      "density": 1.54,
+      "particle": "minecraft:soul",
+      "pattern": "eyes",
+      "speed": 1.57
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

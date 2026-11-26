@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16761095,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Elkeid",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_elkeid"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16761095,
+    "illusion": {
+      "color": 16761095,
+      "color2": 16448250,
+      "count": 4,
+      "density": 1.52,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.81
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

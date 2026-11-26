@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 11946008,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wicked Tongue Curse",
+    "translate": "ability.narutorpg.fanon/wicked_tongue_curse"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 11946008,
+    "illusion": {
+      "color": 11946008,
+      "color2": 4063232,
+      "density": 1.17,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 0.66
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

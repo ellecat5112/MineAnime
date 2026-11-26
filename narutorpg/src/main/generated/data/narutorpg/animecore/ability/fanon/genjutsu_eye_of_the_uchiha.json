@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10274088,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:tiger",
+    "narutorpg:snake",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Eye of the Uchiha",
+    "translate": "ability.narutorpg.fanon/genjutsu_eye_of_the_uchiha"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10274088,
+    "illusion": {
+      "color": 10274088,
+      "color2": 2171169,
+      "count": 5,
+      "density": 1.17,
+      "particle": "minecraft:glow",
+      "pattern": "eyes",
+      "speed": 2.01
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

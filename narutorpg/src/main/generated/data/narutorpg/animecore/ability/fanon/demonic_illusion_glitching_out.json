@@ -1,0 +1,55 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9287450,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:tiger",
+    "narutorpg:ram",
+    "narutorpg:boar",
+    "narutorpg:bird"
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Glitching Out",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_glitching_out"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9287450,
+    "illusion": {
+      "color": 9287450,
+      "color2": 4063232,
+      "count": 5,
+      "density": 1.54,
+      "particle": "minecraft:damage_indicator",
+      "pattern": "veins",
+      "speed": 1.8
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

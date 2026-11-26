@@ -1,0 +1,57 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10336255,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Defensive Arts of the Heavenly Hermits",
+    "translate": "ability.narutorpg.fanon/the_defensive_arts_of_the_heavenly_hermits"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10336255,
+    "illusion": {
+      "color": 10336255,
+      "color2": 6953882,
+      "count": 7,
+      "density": 0.6,
+      "particle": "minecraft:ash",
+      "pattern": "lotus",
+      "speed": 0.74
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

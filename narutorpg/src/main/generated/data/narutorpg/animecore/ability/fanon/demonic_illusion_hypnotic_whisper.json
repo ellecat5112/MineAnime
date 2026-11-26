@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15237030,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Hypnotic Whisper",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_hypnotic_whisper"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15237030,
+    "illusion": {
+      "color": 15237030,
+      "color2": 1713022,
+      "count": 10,
+      "density": 0.63,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.73
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

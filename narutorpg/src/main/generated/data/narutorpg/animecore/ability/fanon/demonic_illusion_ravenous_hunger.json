@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2369811,
+      "damage": 1.8,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Ravenous Hunger",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_ravenous_hunger"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2369811,
+    "illusion": {
+      "color": 2369811,
+      "color2": 12000284,
+      "count": 9,
+      "density": 1.18,
+      "particle": "minecraft:enchant",
+      "pattern": "crows",
+      "speed": 1.97
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

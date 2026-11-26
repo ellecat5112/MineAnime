@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 14014955,
+      "cone_degrees": 70.0,
+      "damage": 1.8,
+      "effects": [
+        {
+          "amplifier": 6,
+          "duration": 140,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Virtual",
+    "translate": "ability.narutorpg.fanon/virtual"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 14014955,
+    "illusion": {
+      "color": 14014955,
+      "color2": 2503224,
+      "count": 8,
+      "density": 1.45,
+      "particle": "minecraft:white_ash",
+      "pattern": "web",
+      "speed": 1.51
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

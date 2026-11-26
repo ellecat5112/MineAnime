@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 65522,
+      "cone_degrees": 70.0,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Inner Demon Lust",
+    "translate": "ability.narutorpg.fanon/genjutsu_inner_demon_lust"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 65522,
+    "illusion": {
+      "color": 65522,
+      "color2": 12000284,
+      "count": 6,
+      "density": 1.02,
+      "particle": "minecraft:soul",
+      "pattern": "flames",
+      "speed": 1.77
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

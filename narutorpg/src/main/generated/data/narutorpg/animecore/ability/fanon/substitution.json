@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12963578,
+      "cone_degrees": 70.0,
+      "damage": 1.2,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Substitution",
+    "translate": "ability.narutorpg.fanon/substitution"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12963578,
+    "illusion": {
+      "color": 12963578,
+      "color2": 5227511,
+      "count": 9,
+      "density": 0.96,
+      "particle": "minecraft:mycelium",
+      "pattern": "snow",
+      "speed": 0.96
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

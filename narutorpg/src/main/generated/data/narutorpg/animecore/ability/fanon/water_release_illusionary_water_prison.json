@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10597074,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 2,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Illusionary Water Prison",
+    "translate": "ability.narutorpg.fanon/water_release_illusionary_water_prison"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10597074,
+    "illusion": {
+      "color": 10597074,
+      "color2": 2503224,
+      "count": 5,
+      "density": 1.24,
+      "particle": "minecraft:crit",
+      "pattern": "chains",
+      "speed": 1.96
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

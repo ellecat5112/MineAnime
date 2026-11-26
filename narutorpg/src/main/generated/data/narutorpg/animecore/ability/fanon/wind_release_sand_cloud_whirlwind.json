@@ -1,0 +1,51 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13803944,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "combo": [
+    "narutorpg:bird",
+    "narutorpg:boar"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wind Release: Sand Cloud Whirlwind",
+    "translate": "ability.narutorpg.fanon/wind_release_sand_cloud_whirlwind"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13803944,
+    "illusion": {
+      "color": 13803944,
+      "color2": 3622735,
+      "count": 4,
+      "density": 1.51,
+      "particle": "minecraft:electric_spark",
+      "pattern": "fog",
+      "speed": 1.03
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13621468,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Infinitesimal Controlling Awareness",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_infinitesimal_controlling_awareness"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13621468,
+    "illusion": {
+      "color": 13621468,
+      "color2": 2171169,
+      "count": 7,
+      "density": 1.39,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.61
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

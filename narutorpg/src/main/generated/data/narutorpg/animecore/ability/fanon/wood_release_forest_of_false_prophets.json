@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 4834600,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:wood",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wood Release: Forest of False Prophets",
+    "translate": "ability.narutorpg.fanon/wood_release_forest_of_false_prophets"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 4834600,
+    "illusion": {
+      "color": 4834600,
+      "color2": 2171169,
+      "count": 7,
+      "density": 1.36,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.03
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

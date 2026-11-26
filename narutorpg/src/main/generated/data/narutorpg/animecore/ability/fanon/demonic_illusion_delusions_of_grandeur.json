@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12937768,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Delusions of Grandeur",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_delusions_of_grandeur"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12937768,
+    "illusion": {
+      "color": 12937768,
+      "color2": 2171169,
+      "count": 8,
+      "density": 1.21,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 2.01
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

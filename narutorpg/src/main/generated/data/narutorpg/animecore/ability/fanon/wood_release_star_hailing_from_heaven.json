@@ -1,0 +1,58 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16768925,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:yang",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wood Release: Star Hailing from Heaven",
+    "translate": "ability.narutorpg.fanon/wood_release_star_hailing_from_heaven"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16768925,
+    "illusion": {
+      "color": 16768925,
+      "color2": 6953882,
+      "count": 9,
+      "density": 1.18,
+      "particle": "minecraft:electric_spark",
+      "pattern": "lotus",
+      "speed": 1.49
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

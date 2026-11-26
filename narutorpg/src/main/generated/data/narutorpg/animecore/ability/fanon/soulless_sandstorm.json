@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6522869,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Soulless Sandstorm",
+    "translate": "ability.narutorpg.fanon/soulless_sandstorm"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6522869,
+    "illusion": {
+      "color": 6522869,
+      "color2": 870305,
+      "count": 6,
+      "density": 1.17,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.56
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

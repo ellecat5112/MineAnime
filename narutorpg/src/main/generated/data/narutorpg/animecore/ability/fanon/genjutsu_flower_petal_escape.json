@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16027569,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Flower Petal Escape",
+    "translate": "ability.narutorpg.fanon/genjutsu_flower_petal_escape"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16027569,
+    "illusion": {
+      "color": 16027569,
+      "color2": 8916559,
+      "density": 0.77,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 1.94
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

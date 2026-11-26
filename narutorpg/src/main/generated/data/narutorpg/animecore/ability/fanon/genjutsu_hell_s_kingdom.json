@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 49407,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu: Hell's Kingdom",
+    "translate": "ability.narutorpg.fanon/genjutsu_hell_s_kingdom"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 49407,
+    "illusion": {
+      "color": 49407,
+      "color2": 12000284,
+      "density": 1.34,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.81
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

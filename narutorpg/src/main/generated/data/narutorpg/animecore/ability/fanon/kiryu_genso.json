@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8445674,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kiryū Gensō",
+    "translate": "ability.narutorpg.fanon/kiryu_genso"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8445674,
+    "illusion": {
+      "color": 8445674,
+      "color2": 1713022,
+      "count": 5,
+      "density": 1.5,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 0.93
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

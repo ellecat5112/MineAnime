@@ -1,0 +1,45 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12833789,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Prismatic Illusion: Mirror Shuriken Torrent",
+    "translate": "ability.narutorpg.fanon/prismatic_illusion_mirror_shuriken_torrent"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12833789,
+    "illusion": {
+      "color": 12833789,
+      "count": 7,
+      "density": 1.55,
+      "particle": "minecraft:sculk_soul",
+      "pattern": "shards",
+      "speed": 0.79
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

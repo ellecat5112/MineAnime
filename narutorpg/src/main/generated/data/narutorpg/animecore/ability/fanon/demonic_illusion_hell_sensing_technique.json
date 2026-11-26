@@ -1,0 +1,45 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766976,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Hell Sensing Technique",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_hell_sensing_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16766976,
+    "illusion": {
+      "color": 16766976,
+      "color2": 12000284,
+      "density": 1.17,
+      "particle": "minecraft:ash",
+      "pattern": "flames",
+      "speed": 1.69
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

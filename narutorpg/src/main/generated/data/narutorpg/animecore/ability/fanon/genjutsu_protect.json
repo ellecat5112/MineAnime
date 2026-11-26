@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15527921,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 6,
+          "duration": 140,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu Protect",
+    "translate": "ability.narutorpg.fanon/genjutsu_protect"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15527921,
+    "illusion": {
+      "color": 15527921,
+      "color2": 2503224,
+      "count": 4,
+      "density": 1.41,
+      "particle": "minecraft:electric_spark",
+      "pattern": "web",
+      "speed": 1.04
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

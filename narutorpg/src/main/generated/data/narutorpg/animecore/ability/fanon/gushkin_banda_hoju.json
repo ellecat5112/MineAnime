@@ -1,0 +1,58 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16761095,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "combo": [
+    "narutorpg:tiger",
+    "narutorpg:horse",
+    "narutorpg:tiger",
+    "narutorpg:ram",
+    "narutorpg:snake",
+    "narutorpg:ram",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Gushkin-banda: Hoju",
+    "translate": "ability.narutorpg.fanon/gushkin_banda_hoju"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16761095,
+    "illusion": {
+      "color": 16761095,
+      "color2": 8916559,
+      "count": 8,
+      "density": 0.6,
+      "particle": "minecraft:cherry_leaves",
+      "pattern": "petals",
+      "speed": 1.53
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

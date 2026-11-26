@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9893219,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kamiyonanayo",
+    "translate": "ability.narutorpg.fanon/kamiyonanayo"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9893219,
+    "illusion": {
+      "color": 9893219,
+      "color2": 870305,
+      "count": 6,
+      "density": 1.06,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.13
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

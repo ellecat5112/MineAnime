@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13805985,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Shinigami no shiren",
+    "translate": "ability.narutorpg.fanon/shinigami_no_shiren"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13805985,
+    "illusion": {
+      "color": 13805985,
+      "color2": 3622735,
+      "count": 10,
+      "density": 1.18,
+      "particle": "minecraft:electric_spark",
+      "pattern": "fog",
+      "speed": 0.73
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

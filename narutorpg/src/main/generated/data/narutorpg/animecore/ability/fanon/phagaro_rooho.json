@@ -1,0 +1,49 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16761095,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Phagaro Rooho",
+    "translate": "ability.narutorpg.fanon/phagaro_rooho"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16761095,
+    "illusion": {
+      "color": 16761095,
+      "color2": 16448250,
+      "count": 6,
+      "density": 1.38,
+      "particle": "minecraft:squid_ink",
+      "pattern": "tendrils",
+      "speed": 1.7
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

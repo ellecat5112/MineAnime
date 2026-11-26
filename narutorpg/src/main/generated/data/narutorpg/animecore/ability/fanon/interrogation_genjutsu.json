@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9574749,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:darkness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Interrogation Genjutsu",
+    "translate": "ability.narutorpg.fanon/interrogation_genjutsu"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 9574749,
+    "illusion": {
+      "color": 9574749,
+      "color2": 327688,
+      "count": 4,
+      "density": 1.26,
+      "particle": "minecraft:ash",
+      "pattern": "tendrils",
+      "speed": 0.91
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

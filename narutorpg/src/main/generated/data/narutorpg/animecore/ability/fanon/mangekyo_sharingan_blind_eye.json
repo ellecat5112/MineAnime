@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2643397,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mangekyō Sharingan: Blind Eye",
+    "translate": "ability.narutorpg.fanon/mangekyo_sharingan_blind_eye"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2643397,
+    "illusion": {
+      "color": 2643397,
+      "color2": 2171169,
+      "count": 10,
+      "density": 0.8,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.6
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

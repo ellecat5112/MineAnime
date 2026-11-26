@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6522869,
+      "damage": 3.3,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sōjōbō",
+    "translate": "ability.narutorpg.fanon/sojobo"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 6522869,
+    "illusion": {
+      "color": 6522869,
+      "color2": 870305,
+      "count": 4,
+      "density": 1.15,
+      "particle": "minecraft:falling_water",
+      "pattern": "rain",
+      "speed": 1.41
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

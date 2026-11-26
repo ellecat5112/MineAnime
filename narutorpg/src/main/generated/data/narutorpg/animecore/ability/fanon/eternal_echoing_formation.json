@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10911721,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Eternal Echoing Formation",
+    "translate": "ability.narutorpg.fanon/eternal_echoing_formation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 10911721,
+    "illusion": {
+      "color": 10911721,
+      "color2": 1713022,
+      "count": 8,
+      "density": 1.39,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 0.96
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

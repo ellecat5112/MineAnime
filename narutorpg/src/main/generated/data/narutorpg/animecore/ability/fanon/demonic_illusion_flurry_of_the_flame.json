@@ -1,0 +1,46 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 15022389,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Flurry of the Flame",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_flurry_of_the_flame"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 15022389,
+    "illusion": {
+      "color": 15022389,
+      "color2": 12000284,
+      "count": 5,
+      "density": 0.96,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 1.81
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

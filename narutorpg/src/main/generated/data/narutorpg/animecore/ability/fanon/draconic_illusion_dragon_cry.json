@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8172354,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Draconic Illusion: Dragon Cry",
+    "translate": "ability.narutorpg.fanon/draconic_illusion_dragon_cry"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 8172354,
+    "illusion": {
+      "color": 8172354,
+      "color2": 1793568,
+      "density": 1.2,
+      "particle": "minecraft:spore_blossom_air",
+      "pattern": "serpents",
+      "speed": 1.43
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

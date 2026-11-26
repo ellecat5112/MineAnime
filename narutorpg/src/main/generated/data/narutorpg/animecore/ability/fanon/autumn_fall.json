@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16773494,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:levitation"
+        },
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Autumn Fall",
+    "translate": "ability.narutorpg.fanon/autumn_fall"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16773494,
+    "illusion": {
+      "color": 16773494,
+      "color2": 858942,
+      "count": 8,
+      "density": 1.46,
+      "particle": "minecraft:end_rod",
+      "pattern": "stars",
+      "speed": 1.5
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

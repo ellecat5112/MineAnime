@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13100927,
+      "cone_degrees": 70.0,
+      "damage": 3.3,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Leaf Whistle Genjustu",
+    "translate": "ability.narutorpg.fanon/leaf_whistle_genjustu"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 13100927,
+    "illusion": {
+      "color": 13100927,
+      "color2": 1713022,
+      "count": 4,
+      "density": 1.17,
+      "particle": "minecraft:note",
+      "pattern": "rings",
+      "speed": 1.87
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

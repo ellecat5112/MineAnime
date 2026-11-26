@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2672030,
+      "cone_degrees": 70.0,
+      "damage": 2.4,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sharingan: Static Reality",
+    "translate": "ability.narutorpg.fanon/sharingan_static_reality"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2672030,
+    "illusion": {
+      "color": 2672030,
+      "color2": 2171169,
+      "count": 9,
+      "density": 1.4,
+      "particle": "minecraft:enchant",
+      "pattern": "eyes",
+      "speed": 1.53
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

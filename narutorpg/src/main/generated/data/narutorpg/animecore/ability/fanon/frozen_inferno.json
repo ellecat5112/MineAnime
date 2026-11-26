@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16739584,
+      "cone_degrees": 70.0,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 80,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "affinity": "narutorpg:ice",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Frozen Inferno",
+    "translate": "ability.narutorpg.fanon/frozen_inferno"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 16739584,
+    "illusion": {
+      "color": 16739584,
+      "color2": 12000284,
+      "count": 8,
+      "density": 1.07,
+      "particle": "minecraft:flame",
+      "pattern": "flames",
+      "speed": 0.99
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

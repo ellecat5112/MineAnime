@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2694163,
+      "cone_degrees": 70.0,
+      "damage": 4.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Illusion: Killing Intent of the Nine Tails",
+    "translate": "ability.narutorpg.fanon/demonic_illusion_killing_intent_of_the_nine_tails"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 2694163,
+    "illusion": {
+      "color": 2694163,
+      "color2": 12000284,
+      "count": 9,
+      "density": 0.64,
+      "particle": "minecraft:ash",
+      "pattern": "crows",
+      "speed": 1.64
+    },
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

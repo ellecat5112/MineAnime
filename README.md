@@ -141,6 +141,26 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Fan genjutsu (Naruto Fanon `Category:Genjutsu`), each with its own vision
+
+All **582 genjutsu** from the Naruto Fanon wiki are in. That covers the main category plus the *Path Gold Alignment
+Techniques* and *The Way of the Evil Path* subcategories. The *Genjutsu User* and *Specialist* subcategories list
+characters, so they were skipped; see `docs/wiki/narutofanon_genjutsu.md`.
+
+- **Unique visuals per genjutsu**: each one has an `illusion` profile.
+  - The pattern comes from its own description, out of 20 procedural patterns: blood moon, crow flock, petals, lotus,
+    shattered mirror, fog, chains, watching eyes, darkness, flames, stars, spider web, sound rings, rain, vortex,
+    serpents, blood veins, kaleidoscope, snow and spiral.
+  - Colours come from the colour words in its description, and the element count, speed, density and particle differ
+    per technique.
+  - A uniqueness pass guarantees that no two genjutsu look alike.
+- Victims see the vision full-screen; everyone nearby sees the matching world effect (crows circling, a moon overhead,
+  chains rising, a lotus blooming...).
+- Effects follow the motif: chains bind, flames burn, vortices pull, serpents poison, and lotus heals the caster.
+- They live on the **Genjutsu** item and unlock through Genjutsu mastery. Ops can preview any one with `/vfx genjutsu <id>`.
+
+![Fan genjutsu](docs/screenshots/fan_genjutsu.png)
+
 ## Nature releases (Narutopedia `Category:Chakra Natures`)
 
 All **23 nature releases** are in: the 5 basic natures; Yin, Yang and Yin–Yang; Wood, Ice, Lava, Magnet, Storm, Boil, Scorch,
