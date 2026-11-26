@@ -21,7 +21,7 @@
     "translate": "ability.narutorpg.may_rain_blood_river"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "blood"
   }

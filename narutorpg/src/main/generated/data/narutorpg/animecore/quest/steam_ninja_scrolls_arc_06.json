@@ -1,4 +1,8 @@
 {
+  "allies": [
+    "narutorpg:mirai_sarutobi_ally_boruto",
+    "narutorpg:asuma_sarutobi_ally_boruto"
+  ],
   "arc": {
     "fallback": "Steam Ninja Scrolls Arc",
     "translate": "quest.narutorpg.arc.steam_ninja_scrolls_arc"
@@ -37,19 +41,18 @@
     },
     {
       "type": "travel",
-      "count": 46,
+      "count": 66,
       "text": {
-        "fallback": "Go: The Steam Ninja Scrolls: Mirai's King!",
+        "fallback": "Head out: The Steam Ninja Scrolls: Mirai's King!",
         "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.travel"
       }
     },
     {
       "type": "defeat",
-      "count": 3,
-      "target": "narutorpg:rogue_ninja_boruto",
+      "target": "narutorpg:ryuki_foe_boruto",
       "text": {
-        "fallback": "Defeat the attackers",
-        "translate": "quest.narutorpg.minion.boruto"
+        "fallback": "Defeat Ryūki",
+        "translate": "quest.narutorpg.defeat.ryuki_foe_boruto"
       }
     }
   ],

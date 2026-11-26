@@ -93,6 +93,10 @@
       {
         "count": 12,
         "id": "narutorpg:senbon"
+      },
+      {
+        "count": 1,
+        "id": "narutorpg:kurama_seal"
       }
     ],
     "skill_points": 3,

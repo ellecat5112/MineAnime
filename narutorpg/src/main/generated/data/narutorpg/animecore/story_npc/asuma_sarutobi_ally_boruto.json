@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:chakra_blade_straight_line",
+    "narutorpg:fire_release_ash_pile_burning",
+    "narutorpg:fire_release_flint_yagura_technique",
+    "narutorpg:flying_swallow",
+    "narutorpg:welcoming_approach_thousand_armed_murder",
+    "narutorpg:water_release_hiding_in_water_technique"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 2001125,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 3046706
+  },
+  "attack": 16.0,
+  "health": 228.0,
+  "name": {
+    "fallback": "Asuma Sarutobi",
+    "translate": "npc.narutorpg.asuma_sarutobi"
+  },
+  "power": 2.44,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,67 @@
+{
+  "activation_cost": 30.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.14,
+  "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:freight_bundle_bubble",
+    "narutorpg:poison_mist",
+    "narutorpg:soap_bubble_ninjutsu",
+    "narutorpg:sticky_bite",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball"
+  ],
+  "mastery_to_evolve": 9600,
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 8.666666666666666,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.25,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 6.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 10.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.5
+    }
+  ],
+  "name": {
+    "fallback": "Six-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.saiken_tailed_beast_mode"
+  },
+  "next_stage": "narutorpg:saiken_tailed_beast_transformation",
+  "pool": "narutorpg:chakra",
+  "required_tier": 7,
+  "system": "narutorpg",
+  "token": "narutorpg:jinchuriki",
+  "traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.0
+    },
+    {
+      "type": "animecore:sense",
+      "radius": 24.0
+    }
+  ],
+  "visuals": {
+    "aura_color": 13041408,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 13041408
+  }
+}

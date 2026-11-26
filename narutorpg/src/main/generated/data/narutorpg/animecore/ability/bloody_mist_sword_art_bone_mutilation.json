@@ -18,7 +18,7 @@
     "translate": "ability.narutorpg.bloody_mist_sword_art_bone_mutilation"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "blood"
   }

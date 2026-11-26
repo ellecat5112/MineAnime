@@ -1,0 +1,60 @@
+{
+  "activation_cost": 50.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.3,
+  "granted_abilities": [
+    "narutorpg:infinite_tsukuyomi",
+    "narutorpg:amenominaka",
+    "narutorpg:yomotsu_hirasaka",
+    "narutorpg:all_killing_ash_bones",
+    "narutorpg:eighty_gods_vacuum_attack",
+    "narutorpg:expansive_truth_seeking_ball",
+    "narutorpg:rabbit_hair_needle",
+    "narutorpg:god_nativity_of_a_world_of_trees"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 2.0
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 8.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 6.0,
+      "attribute": "minecraft:generic.armor"
+    }
+  ],
+  "name": {
+    "fallback": "Rinne Sharingan",
+    "translate": "transformation.narutorpg.rinne_sharingan"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 12,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 64.0
+    },
+    {
+      "type": "animecore:evasion",
+      "chance": 0.25,
+      "projectiles_only": true
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.0
+    }
+  ],
+  "visuals": {
+    "aura_color": 11771355,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.25,
+    "cloak_color": 15591414
+  }
+}

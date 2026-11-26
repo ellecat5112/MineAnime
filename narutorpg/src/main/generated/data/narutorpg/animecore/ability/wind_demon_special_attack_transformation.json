@@ -36,7 +36,7 @@
     "translate": "ability.narutorpg.wind_demon_special_attack_transformation"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "smoke"
   }

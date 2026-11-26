@@ -1,0 +1,4001 @@
+{
+ "abilities": {},
+ "crawled": "2026-11-26",
+ "generated_from": "docs/wiki/narutopedia_forms.json",
+ "lang": {
+  "item.narutorpg.baryon_mode": "Baryon Mode Scroll",
+  "item.narutorpg.baryon_mode.lore": "Baryon Mode is a unique transformation accessible to Kurama with its jinchūriki.",
+  "item.narutorpg.chomei_seal": "Tailed Beast Seal: Chōmei (Seven-Tails)",
+  "item.narutorpg.chomei_seal.lore": "Chōmei, more commonly known as the Seven-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.clone_link_awakening": "Clone Link (Yanaru) Awakening",
+  "item.narutorpg.clone_link_awakening.lore": "Yanaru possesses a unique Kekkei Genkai, allowing him to mentally exchange information with his shadow clones, just as clones are able to transmit information to the main body.",
+  "item.narutorpg.cursed_seal_of_earth": "Cursed Seal of Earth",
+  "item.narutorpg.cursed_seal_of_earth.lore": "The Cursed Seal of Earth is one of the strongest of Orochimaru's cursed seals, the other being its counterpart: the Cursed Seal of Heaven.",
+  "item.narutorpg.cursed_seal_of_heaven": "Cursed Seal of Heaven",
+  "item.narutorpg.cursed_seal_of_heaven.lore": "The Cursed Seal of Heaven is one of the strongest of Orochimaru's cursed seals, the other being its counterpart, the Cursed Seal of Earth.",
+  "item.narutorpg.dragon_life_awakening": "Dragon Life (Ryūzetsu) Awakening",
+  "item.narutorpg.dragon_life_awakening.lore": "This unnamed kekkei genkai apparently allows the user to perform Reincarnation Ninjutsu as it allowed Ryūzetsu to perform the Dragon Life Reincarnation technique.",
+  "item.narutorpg.eternal_mangekyo": "Eternal Mangekyō Sharingan",
+  "item.narutorpg.eternal_mangekyo.lore": "The Mangekyō Sharingan is an advanced form of the Sharingan that has only been activated by a handful of Uchiha when enduring a traumatic enough experience.",
+  "item.narutorpg.gyuki_seal": "Tailed Beast Seal: Gyūki (Eight-Tails)",
+  "item.narutorpg.gyuki_seal.lore": "Gyūki, more commonly known as the Eight-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.isobu_seal": "Tailed Beast Seal: Isobu (Three-Tails)",
+  "item.narutorpg.isobu_seal.lore": "Isobu, more commonly known as the Three-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.kama_seal": "Kāma",
+  "item.narutorpg.kama_seal.lore": "Kāma is a seal that serves as a compressed backup of an Ōtsutsuki clan member's biological data that they can embed in the body of a compatible recipient known as a vessel.",
+  "item.narutorpg.kokuo_seal": "Tailed Beast Seal: Kokuō (Five-Tails)",
+  "item.narutorpg.kokuo_seal.lore": "Kokuō, more commonly known as the Five-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.kurama_clan_illusion_awakening": "Kurama Clan Genjutsu Awakening",
+  "item.narutorpg.kurama_clan_illusion_awakening.lore": "A rare trait of the Kurama Clan.",
+  "item.narutorpg.kurama_seal": "Tailed Beast Seal: Kurama (Nine-Tails)",
+  "item.narutorpg.kurama_seal.lore": "Kurama, more commonly known as the Nine-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.matatabi_seal": "Tailed Beast Seal: Matatabi (Two-Tails)",
+  "item.narutorpg.matatabi_seal.lore": "Matatabi, more commonly known as the Two-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.molecular_fusion_awakening": "Molecular Fusion (Sakon and Ukon) Awakening",
+  "item.narutorpg.molecular_fusion_awakening.lore": "Sakon and Ukon's unnamed kekkei genkai gives them the unique ability to break their bodies down to a molecular level.",
+  "item.narutorpg.ranmaru_eye": "Ranmaru's Dōjutsu",
+  "item.narutorpg.ranmaru_eye.lore": "Ranmaru uniquely possessed a dōjutsu kekkei genkai which, when activated, causes his eyes to glow red in colour.",
+  "item.narutorpg.rinha_absorption_awakening": "Rinha Clan Absorption Awakening",
+  "item.narutorpg.rinha_absorption_awakening.lore": "The kekkei genkai of the Rinha clan allows them to absorb a person's chakra and duplicate their appearance and memories.",
+  "item.narutorpg.rinne_sharingan_eye": "Rinne Sharingan",
+  "item.narutorpg.rinne_sharingan_eye.lore": "The Rinne Sharingan is a dōjutsu kekkei mōra and the predecessor to the Rinnegan and Sharingan.",
+  "item.narutorpg.sage_scroll": "Sage Training Scroll (Mount Myōboku)",
+  "item.narutorpg.sage_scroll.lore": "Sage Mode is an empowered state that can be entered by blending natural energy with one's chakra, creating senjutsu chakra.",
+  "item.narutorpg.sage_transformation_awakening": "Sage Transformation (Jūgo Clan) Awakening",
+  "item.narutorpg.sage_transformation_awakening.lore": "The kekkei genkai of Jūgo's clan is an instinctual ability which allows its members to absorb and make use of natural energy without any training in senjutsu.",
+  "item.narutorpg.saiken_seal": "Tailed Beast Seal: Saiken (Six-Tails)",
+  "item.narutorpg.saiken_seal.lore": "Saiken, more commonly known as the Six-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.shikotsumyaku_awakening": "Shikotsumyaku Awakening",
+  "item.narutorpg.shikotsumyaku_awakening.lore": "Shikotsumyaku is a kekkei genkai which gives its wielder the ability to manipulate their own bones.",
+  "item.narutorpg.shukaku_seal": "Tailed Beast Seal: Shukaku (One-Tails)",
+  "item.narutorpg.shukaku_seal.lore": "Shukaku, more commonly known as the One-Tail, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.smoke_body_awakening": "Smoke Body (Iburi Clan) Awakening",
+  "item.narutorpg.smoke_body_awakening.lore": "This unique kekkei genkai is possessed by the members of the Iburi clan, which allows them to turn their bodies, either partially or fully, into smoke to serve various purposes.",
+  "item.narutorpg.son_goku_seal": "Tailed Beast Seal: Son Gokū (Four-Tails)",
+  "item.narutorpg.son_goku_seal.lore": "Seiten Taisei Son Gokū, more commonly known as Son Gokū or simply the Four-Tails, is one of the nine tailed beasts. Becoming its jinchūriki grants the chakra cloak.",
+  "item.narutorpg.susanoo_scroll": "Susanoo Awakening",
+  "item.narutorpg.susanoo_scroll.lore": "Susanoo is the strongest ability available to those who have awakened the Mangekyō Sharingan in both eyes, having been passed down through the Uchiha Clan's generations.",
+  "item.narutorpg.ten_tails_seal": "Tailed Beast Seal: Ten-Tails",
+  "item.narutorpg.ten_tails_seal.lore": "This Ten-Tails is the Tailed Beast incarnation of the God Tree previously cultivated by Isshiki Ōtsutsuki and Kaguya Ōtsutsuki; the latter having eaten its chakra fruit and later merged with the God Tree in a battle agai",
+  "item.narutorpg.tenseigan_chakra": "Tenseigan Chakra Mode Scroll",
+  "item.narutorpg.tenseigan_chakra.lore": "The Tenseigan Chakra Mode is a heightened transformation unique to those who possess the Tenseigan.",
+  "transformation.narutorpg.baryon_mode_form": "Baryon Mode",
+  "transformation.narutorpg.chomei_tailed_beast_mode": "Seven-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.chomei_tailed_beast_transformation": "Seven-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.chomei_version_1": "Seven-Tails Cloak: Version 1",
+  "transformation.narutorpg.chomei_version_2": "Seven-Tails Cloak: Version 2",
+  "transformation.narutorpg.clone_link": "Clone Link (Yanaru)",
+  "transformation.narutorpg.cursed_seal_of_earth_level_1": "Cursed Seal of Earth: Level 1",
+  "transformation.narutorpg.cursed_seal_of_earth_level_2": "Cursed Seal of Earth: Level 2",
+  "transformation.narutorpg.cursed_seal_of_heaven_level_1": "Cursed Seal of Heaven: Level 1",
+  "transformation.narutorpg.cursed_seal_of_heaven_level_2": "Cursed Seal of Heaven: Level 2",
+  "transformation.narutorpg.dragon_life": "Dragon Life (Ryūzetsu)",
+  "transformation.narutorpg.eternal_mangekyo_sharingan": "Eternal Mangekyō Sharingan",
+  "transformation.narutorpg.gyuki_tailed_beast_mode": "Eight-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.gyuki_tailed_beast_transformation": "Eight-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.gyuki_version_1": "Eight-Tails Cloak: Version 1",
+  "transformation.narutorpg.gyuki_version_2": "Eight-Tails Cloak: Version 2",
+  "transformation.narutorpg.isobu_tailed_beast_mode": "Three-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.isobu_tailed_beast_transformation": "Three-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.isobu_version_1": "Three-Tails Cloak: Version 1",
+  "transformation.narutorpg.isobu_version_2": "Three-Tails Cloak: Version 2",
+  "transformation.narutorpg.kama": "Kāma",
+  "transformation.narutorpg.kama_otsutsuki_awakening": "Kāma: Ōtsutsuki Awakening",
+  "transformation.narutorpg.kokuo_tailed_beast_mode": "Five-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.kokuo_tailed_beast_transformation": "Five-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.kokuo_version_1": "Five-Tails Cloak: Version 1",
+  "transformation.narutorpg.kokuo_version_2": "Five-Tails Cloak: Version 2",
+  "transformation.narutorpg.kurama_clan_illusion": "Kurama Clan Genjutsu",
+  "transformation.narutorpg.kurama_tailed_beast_transformation": "Nine-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.kurama_version_1": "Nine-Tails Cloak: Version 1",
+  "transformation.narutorpg.kurama_version_2": "Nine-Tails Cloak: Version 2",
+  "transformation.narutorpg.matatabi_tailed_beast_mode": "Two-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.matatabi_tailed_beast_transformation": "Two-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.matatabi_version_1": "Two-Tails Cloak: Version 1",
+  "transformation.narutorpg.matatabi_version_2": "Two-Tails Cloak: Version 2",
+  "transformation.narutorpg.molecular_fusion": "Molecular Fusion (Sakon and Ukon)",
+  "transformation.narutorpg.nine_tails_chakra_mode": "Nine-Tails Chakra Mode",
+  "transformation.narutorpg.ranmaru_dojutsu": "Ranmaru's Dōjutsu",
+  "transformation.narutorpg.rinha_absorption": "Rinha Clan Absorption",
+  "transformation.narutorpg.rinne_sharingan": "Rinne Sharingan",
+  "transformation.narutorpg.sage_mode": "Sage Mode",
+  "transformation.narutorpg.sage_transformation": "Sage Transformation (Jūgo Clan)",
+  "transformation.narutorpg.saiken_tailed_beast_mode": "Six-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.saiken_tailed_beast_transformation": "Six-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.saiken_version_1": "Six-Tails Cloak: Version 1",
+  "transformation.narutorpg.saiken_version_2": "Six-Tails Cloak: Version 2",
+  "transformation.narutorpg.shikotsumyaku": "Shikotsumyaku",
+  "transformation.narutorpg.shukaku_tailed_beast_mode": "One-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.shukaku_tailed_beast_transformation": "One-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.shukaku_version_1": "One-Tails Cloak: Version 1",
+  "transformation.narutorpg.shukaku_version_2": "One-Tails Cloak: Version 2",
+  "transformation.narutorpg.six_paths_sage_mode": "Six Paths Sage Mode",
+  "transformation.narutorpg.smoke_body": "Smoke Body (Iburi Clan)",
+  "transformation.narutorpg.son_goku_tailed_beast_mode": "Four-Tails: Tailed Beast Mode",
+  "transformation.narutorpg.son_goku_tailed_beast_transformation": "Four-Tails: Full Tailed Beast Transformation",
+  "transformation.narutorpg.son_goku_version_1": "Four-Tails Cloak: Version 1",
+  "transformation.narutorpg.son_goku_version_2": "Four-Tails Cloak: Version 2",
+  "transformation.narutorpg.susanoo": "Susanoo",
+  "transformation.narutorpg.ten_tails_jinchuriki": "Ten-Tails Jinchūriki",
+  "transformation.narutorpg.tenseigan_chakra_mode": "Tenseigan Chakra Mode"
+ },
+ "transformations": {
+  "baryon_mode_form": {
+   "activation_cost": 60,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.5,
+   "granted_abilities": [
+    "narutorpg:baryon_bullet_barrage",
+    "narutorpg:baryon_mode",
+    "narutorpg:baryon_rasengan",
+    "narutorpg:baryon_rasengan_heaven_pierce",
+    "narutorpg:baryon_scarlet_flash",
+    "narutorpg:baryon_tail_breaker"
+   ],
+   "modifiers": [
+    {
+     "amount": 14,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.35,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 2.0,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Baryon Mode",
+    "translate": "transformation.narutorpg.baryon_mode_form"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 12,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amplifier": 1,
+     "chance": 0.5,
+     "duration": 60,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16747109,
+    "aura_intensity": 1.5,
+    "cloak_alpha": 0.55,
+    "cloak_color": 16740419
+   }
+  },
+  "chomei_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:brilliant_fluttering_wings",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:flying_single_foot",
+    "narutorpg:hiden_scale_powder_enfolding_attack_technique",
+    "narutorpg:hiden_scale_powder_technique",
+    "narutorpg:mingling_arm_flying_thrust",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 9.11111111111111,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Seven-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.chomei_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:chomei_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 58998,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 58998
+   }
+  },
+  "chomei_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:brilliant_fluttering_wings",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:flying_single_foot",
+    "narutorpg:hiden_scale_powder_enfolding_attack_technique",
+    "narutorpg:hiden_scale_powder_technique",
+    "narutorpg:mingling_arm_flying_thrust",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 3.75,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 48,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 14.666666666666668,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Seven-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.chomei_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 58998,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 58998
+   }
+  },
+  "chomei_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:brilliant_fluttering_wings",
+    "narutorpg:cooperation_tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 3.5555555555555554,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:wind",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Seven-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.chomei_version_1"
+   },
+   "next_stage": "narutorpg:chomei_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 58998,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 58998
+   }
+  },
+  "chomei_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:brilliant_fluttering_wings",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:flying_single_foot",
+    "narutorpg:hiden_scale_powder_enfolding_attack_technique"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 6.333333333333334,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:wind",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Seven-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.chomei_version_2"
+   },
+   "next_stage": "narutorpg:chomei_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 58998,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 58998
+   }
+  },
+  "clone_link": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:shadow_clone_technique",
+    "narutorpg:multiple_shadow_clone_technique"
+   ],
+   "modifiers": [
+    {
+     "multiplier": 1.1,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Clone Link (Yanaru)",
+    "translate": "transformation.narutorpg.clone_link"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "hostile_only": true,
+     "radius": 32,
+     "type": "animecore:sense"
+    },
+    {
+     "multiplier": 1.25,
+     "type": "animecore:skill_experience_boost"
+    }
+   ],
+   "visuals": {
+    "aura_color": 4545124,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 11583173
+   }
+  },
+  "cursed_seal_of_earth_level_1": {
+   "activation_cost": 8,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:cursed_seal_of_earth"
+   ],
+   "mastery_to_evolve": 3600,
+   "modifiers": [
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.15,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.2,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Cursed Seal of Earth: Level 1",
+    "translate": "transformation.narutorpg.cursed_seal_of_earth_level_1"
+   },
+   "next_stage": "narutorpg:cursed_seal_of_earth_level_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "traits": [
+    {
+     "amplifier": 0,
+     "effect": "minecraft:hunger",
+     "type": "animecore:passive_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 4854924,
+    "aura_intensity": 0.5,
+    "cloak_alpha": 0.35,
+    "cloak_color": 4073251
+   }
+  },
+  "cursed_seal_of_earth_level_2": {
+   "activation_cost": 15,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:cursed_seal_of_earth",
+    "narutorpg:sound_four_s_cursed_seals"
+   ],
+   "modifiers": [
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.08,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.22,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.45,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Cursed Seal of Earth: Level 2",
+    "translate": "transformation.narutorpg.cursed_seal_of_earth_level_2"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "traits": [
+    {
+     "amplifier": 1,
+     "effect": "minecraft:hunger",
+     "type": "animecore:passive_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 6953882,
+    "aura_intensity": 1.0,
+    "cloak_alpha": 0.6,
+    "cloak_color": 9268835
+   }
+  },
+  "cursed_seal_of_heaven_level_1": {
+   "activation_cost": 8,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:cursed_seal_of_heaven"
+   ],
+   "mastery_to_evolve": 3600,
+   "modifiers": [
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 1,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.15,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.2,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Cursed Seal of Heaven: Level 1",
+    "translate": "transformation.narutorpg.cursed_seal_of_heaven_level_1"
+   },
+   "next_stage": "narutorpg:cursed_seal_of_heaven_level_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "traits": [
+    {
+     "amplifier": 0,
+     "effect": "minecraft:hunger",
+     "type": "animecore:passive_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 4854924,
+    "aura_intensity": 0.5,
+    "cloak_alpha": 0.35,
+    "cloak_color": 1710618
+   }
+  },
+  "cursed_seal_of_heaven_level_2": {
+   "activation_cost": 15,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:cursed_seal_of_heaven",
+    "narutorpg:sound_four_s_cursed_seals"
+   ],
+   "modifiers": [
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 3,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.08,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.22,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.45,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Cursed Seal of Heaven: Level 2",
+    "translate": "transformation.narutorpg.cursed_seal_of_heaven_level_2"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "traits": [
+    {
+     "amplifier": 1,
+     "effect": "minecraft:hunger",
+     "type": "animecore:passive_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 6953882,
+    "aura_intensity": 1.0,
+    "cloak_alpha": 0.6,
+    "cloak_color": 7162945
+   }
+  },
+  "dragon_life": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:dragon_life_reincarnation"
+   ],
+   "modifiers": [
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ],
+   "name": {
+    "fallback": "Dragon Life (Ryūzetsu)",
+    "translate": "transformation.narutorpg.dragon_life"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "cooldown_id": "narutorpg:fatal_save/dragon_life",
+     "cooldown_ticks": 6000,
+     "heal_to": 10.0,
+     "type": "animecore:fatal_save"
+    },
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2533018,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 11722715
+   }
+  },
+  "eternal_mangekyo_sharingan": {
+   "activation_cost": 15,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.08,
+   "granted_abilities": [
+    "narutorpg:amaterasu",
+    "narutorpg:amaterasu_flame_wrapping_fire",
+    "narutorpg:blaze_release_kagutsuchi_flying_flame",
+    "narutorpg:kamui",
+    "narutorpg:tsukuyomi",
+    "narutorpg:izanagi"
+   ],
+   "modifiers": [
+    {
+     "multiplier": 1.6,
+     "type": "animecore:ability_power"
+    },
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.3,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    }
+   ],
+   "name": {
+    "fallback": "Eternal Mangekyō Sharingan",
+    "translate": "transformation.narutorpg.eternal_mangekyo_sharingan"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
+   "traits": [
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    },
+    {
+     "chance": 0.2,
+     "projectiles_only": true,
+     "type": "animecore:evasion"
+    }
+   ],
+   "visuals": {
+    "aura_color": 12000284,
+    "aura_intensity": 0.6
+   }
+  },
+  "gyuki_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:lightning_jutsu",
+    "narutorpg:octopus_hug",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 9.555555555555555,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Eight-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.gyuki_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:gyuki_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 9315498,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 9315498
+   }
+  },
+  "gyuki_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:lightning_jutsu",
+    "narutorpg:octopus_hug",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 4.0,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 52,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 15.333333333333332,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Eight-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.gyuki_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 9315498,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 9315498
+   }
+  },
+  "gyuki_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 3.7777777777777777,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:lightning",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Eight-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.gyuki_version_1"
+   },
+   "next_stage": "narutorpg:gyuki_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 9315498,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 9315498
+   }
+  },
+  "gyuki_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:lightning_jutsu"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 6.666666666666666,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:lightning",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Eight-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.gyuki_version_2"
+   },
+   "next_stage": "narutorpg:gyuki_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 9315498,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 9315498
+   }
+  },
+  "isobu_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:illusionary_mist",
+    "narutorpg:leaping_bullet_shell_tower",
+    "narutorpg:piercing_separation_spring",
+    "narutorpg:rough_sea_splash",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 7.333333333333333,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Three-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.isobu_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:isobu_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2533018,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 2533018
+   }
+  },
+  "isobu_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:illusionary_mist",
+    "narutorpg:leaping_bullet_shell_tower",
+    "narutorpg:piercing_separation_spring",
+    "narutorpg:rough_sea_splash",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 2.75,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 32,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 12.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Three-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.isobu_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2533018,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 2533018
+   }
+  },
+  "isobu_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 2.6666666666666665,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:water",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Three-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.isobu_version_1"
+   },
+   "next_stage": "narutorpg:isobu_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2533018,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 2533018
+   }
+  },
+  "isobu_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:illusionary_mist",
+    "narutorpg:leaping_bullet_shell_tower"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 5.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:water",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Three-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.isobu_version_2"
+   },
+   "next_stage": "narutorpg:isobu_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2533018,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 2533018
+   }
+  },
+  "kama": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.08,
+   "granted_abilities": [
+    "narutorpg:kama",
+    "narutorpg:kama_spiral",
+    "narutorpg:kama_rasengan",
+    "narutorpg:kama_great_burial_wave"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.4,
+     "type": "animecore:ability_power"
+    },
+    {
+     "multiplier": 2.0,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    }
+   ],
+   "name": {
+    "fallback": "Kāma",
+    "translate": "transformation.narutorpg.kama"
+   },
+   "next_stage": "narutorpg:kama_otsutsuki_awakening",
+   "pool": "narutorpg:chakra",
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "traits": [
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 60,
+     "effect": "minecraft:weakness",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2171169,
+    "aura_intensity": 0.8,
+    "cloak_alpha": 0.35,
+    "cloak_color": 1118481
+   }
+  },
+  "kama_otsutsuki_awakening": {
+   "activation_cost": 40,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.25,
+   "granted_abilities": [
+    "narutorpg:daikokuten",
+    "narutorpg:daikokuten_collapse",
+    "narutorpg:daikokuten_disaster",
+    "narutorpg:daikokuten_divine_descent",
+    "narutorpg:daikokuten_falling_star",
+    "narutorpg:daikokuten_karma_flame",
+    "narutorpg:daikokuten_shokatsu",
+    "narutorpg:daikokuten_sukunahikona_twin_crash",
+    "narutorpg:kama",
+    "narutorpg:kama_rasengan"
+   ],
+   "modifiers": [
+    {
+     "amount": 12,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.9,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Kāma: Ōtsutsuki Awakening",
+    "translate": "transformation.narutorpg.kama_otsutsuki_awakening"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 13,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "chance": 0.15,
+     "projectiles_only": true,
+     "type": "animecore:evasion"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16448250,
+    "aura_intensity": 1.3,
+    "cloak_alpha": 0.5,
+    "cloak_color": 16119285
+   }
+  },
+  "kokuo_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:five_mountain_jump",
+    "narutorpg:forward_trampling_jump",
+    "narutorpg:great_trample_circle",
+    "narutorpg:horn_breaking",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 8.222222222222221,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Five-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.kokuo_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:kokuo_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15527921,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 15527921
+   }
+  },
+  "kokuo_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:five_mountain_jump",
+    "narutorpg:forward_trampling_jump",
+    "narutorpg:great_trample_circle",
+    "narutorpg:horn_breaking",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 3.25,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 40,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 13.333333333333334,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Five-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.kokuo_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15527921,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 15527921
+   }
+  },
+  "kokuo_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:five_mountain_jump"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 3.111111111111111,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:boil",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Five-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.kokuo_version_1"
+   },
+   "next_stage": "narutorpg:kokuo_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15527921,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 15527921
+   }
+  },
+  "kokuo_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:five_mountain_jump",
+    "narutorpg:forward_trampling_jump",
+    "narutorpg:great_trample_circle"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 5.666666666666667,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:boil",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Five-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.kokuo_version_2"
+   },
+   "next_stage": "narutorpg:kokuo_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15527921,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 15527921
+   }
+  },
+  "kurama_clan_illusion": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:demonic_illusion_cajolery_of_glamour",
+    "narutorpg:demonic_illusion_dancing_blossom_swarm_technique",
+    "narutorpg:demonic_illusion_descending_hell_technique",
+    "narutorpg:demonic_illusion_double_false_surroundings_technique",
+    "narutorpg:demonic_illusion_false_surroundings_technique"
+   ],
+   "modifiers": [
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Kurama Clan Genjutsu",
+    "translate": "transformation.narutorpg.kurama_clan_illusion"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 4,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "amplifier": 0,
+     "chance": 0.5,
+     "duration": 80,
+     "effect": "minecraft:nausea",
+     "type": "animecore:on_hit_effect"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.2,
+     "duration": 30,
+     "effect": "minecraft:blindness",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 11342935,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 16301008
+   }
+  },
+  "kurama_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:kurama_claw_slice",
+    "narutorpg:kurama_great_crumbling",
+    "narutorpg:kurama_great_rotating_attack",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:super_mini_tailed_beast_ball"
+   ],
+   "modifiers": [
+    {
+     "amount": 4.25,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 56,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 16.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Nine-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.kurama_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16739584,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 16739584
+   }
+  },
+  "kurama_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 4.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:fire",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Nine-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.kurama_version_1"
+   },
+   "next_stage": "narutorpg:kurama_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16739584,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 16739584
+   }
+  },
+  "kurama_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:kurama_claw_slice"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 7.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:fire",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Nine-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.kurama_version_2"
+   },
+   "next_stage": "narutorpg:nine_tails_chakra_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16739584,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 16739584
+   }
+  },
+  "matatabi_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:cat_claw",
+    "narutorpg:cat_fire_bowl",
+    "narutorpg:cat_flame_roaring_fire",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:fire_rat",
+    "narutorpg:great_cat_claw_attack",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 6.888888888888889,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Two-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.matatabi_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:matatabi_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2718207,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 2718207
+   }
+  },
+  "matatabi_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:cat_claw",
+    "narutorpg:cat_fire_bowl",
+    "narutorpg:cat_flame_roaring_fire",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:fire_rat",
+    "narutorpg:great_cat_claw_attack",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 2.5,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 28,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 11.333333333333334,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Two-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.matatabi_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2718207,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 2718207
+   }
+  },
+  "matatabi_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:cat_claw",
+    "narutorpg:cat_fire_bowl"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 2.4444444444444446,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:fire",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Two-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.matatabi_version_1"
+   },
+   "next_stage": "narutorpg:matatabi_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2718207,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 2718207
+   }
+  },
+  "matatabi_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:cat_claw",
+    "narutorpg:cat_fire_bowl",
+    "narutorpg:cat_flame_roaring_fire",
+    "narutorpg:cooperation_tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 4.666666666666667,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:fire",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Two-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.matatabi_version_2"
+   },
+   "next_stage": "narutorpg:matatabi_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 2718207,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 2718207
+   }
+  },
+  "molecular_fusion": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:ukon_s_mad_dance",
+    "narutorpg:attack_of_the_twin_demons",
+    "narutorpg:dying_wail_fist",
+    "narutorpg:landslide_assault"
+   ],
+   "modifiers": [
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 3,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ],
+   "name": {
+    "fallback": "Molecular Fusion (Sakon and Ukon)",
+    "translate": "transformation.narutorpg.molecular_fusion"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 4,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "chance": 0.15,
+     "type": "animecore:evasion"
+    }
+   ],
+   "visuals": {
+    "aura_color": 6953882,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 13538264
+   }
+  },
+  "nine_tails_chakra_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:kurama_claw_slice",
+    "narutorpg:kurama_great_crumbling",
+    "narutorpg:kurama_great_rotating_attack",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 10.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Nine-Tails Chakra Mode",
+    "translate": "transformation.narutorpg.nine_tails_chakra_mode"
+   },
+   "next_stage": "narutorpg:kurama_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16766287,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 16757504
+   }
+  },
+  "ranmaru_dojutsu": {
+   "activation_cost": 6,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.02,
+   "granted_abilities": [],
+   "modifiers": [
+    {
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Ranmaru's Dōjutsu",
+    "translate": "transformation.narutorpg.ranmaru_dojutsu"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
+   "traits": [
+    {
+     "hostile_only": true,
+     "radius": 48,
+     "type": "animecore:sense"
+    },
+    {
+     "chance": 0.1,
+     "type": "animecore:evasion"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15022389,
+    "aura_intensity": 0.3
+   }
+  },
+  "rinha_absorption": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:absorption_sphere"
+   ],
+   "modifiers": [
+    {
+     "multiplier": 2.0,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    },
+    {
+     "multiplier": 1.2,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Rinha Clan Absorption",
+    "translate": "transformation.narutorpg.rinha_absorption"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 4,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "amplifier": 0,
+     "chance": 0.5,
+     "duration": 60,
+     "effect": "minecraft:weakness",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 4532128,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 13747433
+   }
+  },
+  "rinne_sharingan": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:infinite_tsukuyomi",
+    "narutorpg:amenominaka",
+    "narutorpg:yomotsu_hirasaka",
+    "narutorpg:all_killing_ash_bones",
+    "narutorpg:eighty_gods_vacuum_attack",
+    "narutorpg:expansive_truth_seeking_ball",
+    "narutorpg:rabbit_hair_needle",
+    "narutorpg:god_nativity_of_a_world_of_trees"
+   ],
+   "modifiers": [
+    {
+     "multiplier": 2.0,
+     "type": "animecore:ability_power"
+    },
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    }
+   ],
+   "name": {
+    "fallback": "Rinne Sharingan",
+    "translate": "transformation.narutorpg.rinne_sharingan"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 12,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
+   "traits": [
+    {
+     "hostile_only": true,
+     "radius": 64,
+     "type": "animecore:sense"
+    },
+    {
+     "chance": 0.25,
+     "projectiles_only": true,
+     "type": "animecore:evasion"
+    },
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 11771355,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.25,
+    "cloak_color": 15591414
+   }
+  },
+  "sage_mode": {
+   "activation_cost": 15,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:sage_art_amphibian_technique",
+    "narutorpg:sage_art_big_ball_spiralling_drop_instant_lightning",
+    "narutorpg:sage_art_five_fire_gods_fan_of_flames",
+    "narutorpg:sage_art_five_fire_gods_fan_of_flames_true_fire",
+    "narutorpg:sage_art_frog_call",
+    "narutorpg:sage_art_frog_call_spiral",
+    "narutorpg:sage_art_gate_of_the_great_god",
+    "narutorpg:sage_art_goemon",
+    "narutorpg:sage_art_great_snake_lightning",
+    "narutorpg:sage_art_great_snake_lightning_white_snake"
+   ],
+   "mastery_to_evolve": 12000,
+   "modifiers": [
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    },
+    {
+     "multiplier": 1.5,
+     "pool": "narutorpg:chakra",
+     "type": "animecore:energy_regen"
+    }
+   ],
+   "name": {
+    "fallback": "Sage Mode",
+    "translate": "transformation.narutorpg.sage_mode"
+   },
+   "next_stage": "narutorpg:six_paths_sage_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:senjutsu",
+   "traits": [
+    {
+     "hostile_only": true,
+     "radius": 32,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16757504,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.18,
+    "cloak_color": 16748288
+   }
+  },
+  "sage_transformation": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:sage_transformation",
+    "narutorpg:blaze_release_susanoo_odachi",
+    "narutorpg:broadaxe",
+    "narutorpg:cellular_regeneration_absorption",
+    "narutorpg:chain"
+   ],
+   "modifiers": [
+    {
+     "amount": 7,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.15,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Sage Transformation (Jūgo Clan)",
+    "translate": "transformation.narutorpg.sage_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 7162945,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 9268835
+   }
+  },
+  "saiken_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:freight_bundle_bubble",
+    "narutorpg:poison_mist",
+    "narutorpg:soap_bubble_ninjutsu",
+    "narutorpg:sticky_bite",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 8.666666666666666,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Six-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.saiken_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:saiken_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13041408,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 13041408
+   }
+  },
+  "saiken_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:freight_bundle_bubble",
+    "narutorpg:poison_mist",
+    "narutorpg:soap_bubble_ninjutsu",
+    "narutorpg:sticky_bite",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 3.5,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 44,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 14.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Six-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.saiken_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13041408,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 13041408
+   }
+  },
+  "saiken_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:freight_bundle_bubble"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 3.333333333333333,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:water",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Six-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.saiken_version_1"
+   },
+   "next_stage": "narutorpg:saiken_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13041408,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 13041408
+   }
+  },
+  "saiken_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:freight_bundle_bubble",
+    "narutorpg:poison_mist",
+    "narutorpg:soap_bubble_ninjutsu"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 6.0,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:water",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Six-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.saiken_version_2"
+   },
+   "next_stage": "narutorpg:saiken_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13041408,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 13041408
+   }
+  },
+  "shikotsumyaku": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:dance_of_the_camellia",
+    "narutorpg:dance_of_the_clematis_flower",
+    "narutorpg:dance_of_the_clematis_vine",
+    "narutorpg:dance_of_the_larch",
+    "narutorpg:dance_of_the_willow",
+    "narutorpg:bone_pellet",
+    "narutorpg:all_killing_ash_bones",
+    "narutorpg:alder",
+    "narutorpg:bone_pellet",
+    "narutorpg:clethra"
+   ],
+   "modifiers": [
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 4,
+     "attribute": "minecraft:generic.armor_toughness",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Shikotsumyaku",
+    "translate": "transformation.narutorpg.shikotsumyaku"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "amplifier": 1,
+     "chance": 0.4,
+     "duration": 40,
+     "effect": "minecraft:slowness",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16119285,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 15723497
+   }
+  },
+  "shukaku_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:claw_of_shukaku",
+    "narutorpg:great_roar",
+    "narutorpg:stomach_reflection",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 6.444444444444445,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "One-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.shukaku_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:shukaku_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13148506,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 13148506
+   }
+  },
+  "shukaku_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:claw_of_shukaku",
+    "narutorpg:great_roar",
+    "narutorpg:stomach_reflection",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 2.25,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 24,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10.666666666666666,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "One-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.shukaku_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13148506,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 13148506
+   }
+  },
+  "shukaku_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:claw_of_shukaku",
+    "narutorpg:great_roar"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 2.2222222222222223,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:wind",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "One-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.shukaku_version_1"
+   },
+   "next_stage": "narutorpg:shukaku_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13148506,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 13148506
+   }
+  },
+  "shukaku_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:claw_of_shukaku",
+    "narutorpg:great_roar",
+    "narutorpg:stomach_reflection",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 4.333333333333333,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:wind",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "One-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.shukaku_version_2"
+   },
+   "next_stage": "narutorpg:shukaku_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 13148506,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 13148506
+   }
+  },
+  "six_paths_sage_mode": {
+   "activation_cost": 40,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.2,
+   "granted_abilities": [
+    "narutorpg:six_paths_chakra_rebirth",
+    "narutorpg:six_paths_chibaku_tensei",
+    "narutorpg:six_paths_cross_lantern",
+    "narutorpg:six_paths_five_balls",
+    "narutorpg:six_paths_flame_extinction_hand",
+    "narutorpg:six_paths_kunitsukami",
+    "narutorpg:six_paths_of_pain",
+    "narutorpg:six_paths_sage_mode",
+    "narutorpg:six_paths_shinra_tenkyo",
+    "narutorpg:six_paths_super_tailed_beast_rasenshuriken",
+    "narutorpg:truth_seeking_ball"
+   ],
+   "modifiers": [
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.3,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Six Paths Sage Mode",
+    "translate": "transformation.narutorpg.six_paths_sage_mode"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:senjutsu",
+   "traits": [
+    {
+     "hostile_only": true,
+     "radius": 48,
+     "type": "animecore:sense"
+    },
+    {
+     "chance": 0.15,
+     "projectiles_only": true,
+     "type": "animecore:evasion"
+    },
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16774557,
+    "aura_intensity": 1.5,
+    "cloak_alpha": 0.5,
+    "cloak_color": 16766287
+   }
+  },
+  "smoke_body": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.06,
+   "granted_abilities": [
+    "narutorpg:smoke_clone",
+    "narutorpg:binding_smoke_prison",
+    "narutorpg:dark_smoke_sphere"
+   ],
+   "modifiers": [
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    }
+   ],
+   "name": {
+    "fallback": "Smoke Body (Iburi Clan)",
+    "translate": "transformation.narutorpg.smoke_body"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 4,
+   "system": "narutorpg",
+   "token": "narutorpg:kekkei_genkai",
+   "traits": [
+    {
+     "chance": 0.5,
+     "projectiles_only": true,
+     "type": "animecore:evasion"
+    },
+    {
+     "amplifier": 0,
+     "effect": "minecraft:slow_falling",
+     "type": "animecore:passive_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 12434877,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 14737632
+   }
+  },
+  "son_goku_tailed_beast_mode": {
+   "activation_cost": 30,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.14,
+   "granted_abilities": [
+    "narutorpg:dramingo",
+    "narutorpg:great_strike_outburst",
+    "narutorpg:lava_release_fiery_rock_bullet",
+    "narutorpg:monkey_flame_arson",
+    "narutorpg:scorching_river_great_eruption",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball"
+   ],
+   "mastery_to_evolve": 9600,
+   "modifiers": [
+    {
+     "amount": 7.777777777777778,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.25,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Four-Tails: Tailed Beast Mode",
+    "translate": "transformation.narutorpg.son_goku_tailed_beast_mode"
+   },
+   "next_stage": "narutorpg:son_goku_tailed_beast_transformation",
+   "pool": "narutorpg:chakra",
+   "required_tier": 7,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "hostile_only": true,
+     "radius": 24,
+     "type": "animecore:sense"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15092249,
+    "aura_intensity": 1.2,
+    "cloak_alpha": 0.5,
+    "cloak_color": 15092249
+   }
+  },
+  "son_goku_tailed_beast_transformation": {
+   "activation_cost": 50,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:dramingo",
+    "narutorpg:great_strike_outburst",
+    "narutorpg:lava_release_fiery_rock_bullet",
+    "narutorpg:monkey_flame_arson",
+    "narutorpg:scorching_river_great_eruption",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+   ],
+   "modifiers": [
+    {
+     "amount": 3.0,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 36,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 12.666666666666666,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2.0,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.safe_fall_distance",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.jump_strength",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.8,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Four-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.son_goku_tailed_beast_transformation"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 9,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15092249,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 15092249
+   }
+  },
+  "son_goku_version_1": {
+   "activation_cost": 12,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.05,
+   "granted_abilities": [
+    "narutorpg:dramingo",
+    "narutorpg:great_strike_outburst"
+   ],
+   "mastery_to_evolve": 2400,
+   "modifiers": [
+    {
+     "amount": 2.888888888888889,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.12,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 2,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:lava",
+     "multiplier": 1.15,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Four-Tails Cloak: Version 1",
+    "translate": "transformation.narutorpg.son_goku_version_1"
+   },
+   "next_stage": "narutorpg:son_goku_version_2",
+   "pool": "narutorpg:chakra",
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 0.5,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15092249,
+    "aura_intensity": 0.6,
+    "cloak_alpha": 0.3,
+    "cloak_color": 15092249
+   }
+  },
+  "son_goku_version_2": {
+   "activation_cost": 20,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.1,
+   "granted_abilities": [
+    "narutorpg:dramingo",
+    "narutorpg:great_strike_outburst",
+    "narutorpg:lava_release_fiery_rock_bullet",
+    "narutorpg:monkey_flame_arson"
+   ],
+   "mastery_to_evolve": 4800,
+   "modifiers": [
+    {
+     "amount": 5.333333333333333,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 5,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.1,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "affinity": "narutorpg:lava",
+     "multiplier": 1.3,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Four-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.son_goku_version_2"
+   },
+   "next_stage": "narutorpg:son_goku_tailed_beast_mode",
+   "pool": "narutorpg:chakra",
+   "required_tier": 5,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "amount": 1.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    },
+    {
+     "amplifier": 0,
+     "chance": 0.3,
+     "duration": 40,
+     "effect": "minecraft:wither",
+     "type": "animecore:on_hit_effect"
+    }
+   ],
+   "visuals": {
+    "aura_color": 15092249,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 15092249
+   }
+  },
+  "susanoo": {
+   "activation_cost": 40,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.3,
+   "granted_abilities": [
+    "narutorpg:susanoo_attack",
+    "narutorpg:susanoo_blade_of_yachihoko",
+    "narutorpg:susanoo_captive_slash",
+    "narutorpg:susanoo_chidori",
+    "narutorpg:susanoo_crush",
+    "narutorpg:susanoo_dance_of_the_sword",
+    "narutorpg:susanoo_dance_of_two_swords",
+    "narutorpg:susanoo_destruction",
+    "narutorpg:amaterasu",
+    "narutorpg:blaze_release_kagutsuchi_flying_flame"
+   ],
+   "modifiers": [
+    {
+     "amount": 1.6,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 14,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 1.5,
+     "attribute": "minecraft:generic.step_height",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.5,
+     "type": "animecore:ability_power"
+    },
+    {
+     "amount": -0.15,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    }
+   ],
+   "name": {
+    "fallback": "Susanoo",
+    "translate": "transformation.narutorpg.susanoo"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 8,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
+   "traits": [],
+   "visuals": {
+    "aura_color": 8280002,
+    "aura_intensity": 1.5,
+    "cloak_alpha": 0.55,
+    "cloak_color": 9795021
+   }
+  },
+  "ten_tails_jinchuriki": {
+   "activation_cost": 60,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.35,
+   "granted_abilities": [
+    "narutorpg:truth_seeking_ball",
+    "narutorpg:big_truth_seeking_ball",
+    "narutorpg:truth_seeking_chaos_bullets",
+    "narutorpg:six_paths_chibaku_tensei",
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:crushing_collision",
+    "narutorpg:great_roar"
+   ],
+   "modifiers": [
+    {
+     "amount": 0.15,
+     "attribute": "minecraft:generic.scale",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 12,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 10,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 20,
+     "attribute": "minecraft:generic.max_health",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 2.0,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Ten-Tails Jinchūriki",
+    "translate": "transformation.narutorpg.ten_tails_jinchuriki"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 12,
+   "system": "narutorpg",
+   "token": "narutorpg:jinchuriki",
+   "traits": [
+    {
+     "chance": 0.2,
+     "projectiles_only": true,
+     "type": "animecore:evasion"
+    },
+    {
+     "amount": 2.0,
+     "below_health_ratio": 1.0,
+     "type": "animecore:regeneration"
+    }
+   ],
+   "visuals": {
+    "aura_color": 16119285,
+    "aura_intensity": 1.4,
+    "cloak_alpha": 0.35,
+    "cloak_color": 16448250
+   }
+  },
+  "tenseigan_chakra_mode": {
+   "activation_cost": 35,
+   "cooldown_ticks": 200,
+   "drain_per_tick": 0.2,
+   "granted_abilities": [
+    "narutorpg:tenseigan_chakra_mode",
+    "narutorpg:golden_wheel_reincarnation_explosion",
+    "narutorpg:truth_seeking_ball",
+    "narutorpg:silver_wheel_reincarnation_explosion"
+   ],
+   "modifiers": [
+    {
+     "amount": 8,
+     "attribute": "minecraft:generic.attack_damage",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 6,
+     "attribute": "minecraft:generic.armor",
+     "operation": "add_value",
+     "type": "animecore:attribute"
+    },
+    {
+     "amount": 0.2,
+     "attribute": "minecraft:generic.movement_speed",
+     "operation": "add_multiplied_base",
+     "type": "animecore:attribute"
+    },
+    {
+     "multiplier": 1.7,
+     "type": "animecore:ability_power"
+    }
+   ],
+   "name": {
+    "fallback": "Tenseigan Chakra Mode",
+    "translate": "transformation.narutorpg.tenseigan_chakra_mode"
+   },
+   "pool": "narutorpg:chakra",
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
+   "traits": [
+    {
+     "chance": 0.15,
+     "projectiles_only": true,
+     "type": "animecore:evasion"
+    }
+   ],
+   "visuals": {
+    "aura_color": 8445674,
+    "aura_intensity": 1.3,
+    "cloak_alpha": 0.5,
+    "cloak_color": 14743546
+   }
+  }
+ }
+}

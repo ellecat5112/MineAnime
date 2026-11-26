@@ -1,0 +1,52 @@
+{
+  "activation_cost": 8.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.05,
+  "granted_abilities": [
+    "narutorpg:cursed_seal_of_heaven"
+  ],
+  "mastery_to_evolve": 3600,
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.15,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.2
+    }
+  ],
+  "name": {
+    "fallback": "Cursed Seal of Heaven: Level 1",
+    "translate": "transformation.narutorpg.cursed_seal_of_heaven_level_1"
+  },
+  "next_stage": "narutorpg:cursed_seal_of_heaven_level_2",
+  "pool": "narutorpg:chakra",
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "traits": [
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:hunger"
+    }
+  ],
+  "visuals": {
+    "aura_color": 4854924,
+    "aura_intensity": 0.5,
+    "cloak_alpha": 0.35,
+    "cloak_color": 1710618
+  }
+}

@@ -318,6 +318,11 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
                         'effects': [effect('glowing', 200)]})
     elif (c & {'Medical Ninjutsu', 'Regeneration Techniques'} and not offensive) or 'heal' in lt or 'mystical palm' in lt:
         actions.append({'type': 'animecore:self_buff', 'heal': 6.0, 'effects': [effect('regeneration', 120, 1)]})
+        if 'Medical Ninjutsu' in c or 'heal' in lt or 'mystical palm' in lt:
+            # medical-nin treat the whole squad: allies around the caster are healed too
+            actions.append({'type': 'animecore:area_effect', 'radius': 6.0 if rank in 'DEC' else 9.0, 'targets': 'allies',
+                            'color': 0x76FF03, 'effects': [effect('instant_health', 1, 0 if rank in 'DEC' else 1),
+                                                         effect('regeneration', 160, 1)]})
     elif 'Space–Time Ninjutsu' in c and offensive and re.search(r'thunder god|teleport|flicker|flash|instant|warp', lt):
         # teleport strikes (Flying Thunder God): blink up to 18 blocks and hit everything along the way
         actions.append({'type': 'animecore:dash_strike', 'mode': 'look', 'distance': 18.0, 'damage': dmg, 'hit_radius': 1.6, 'knockback': 1.2})
@@ -458,7 +463,9 @@ def token_for(c, kgs):
         return 'medical_ninjutsu'
     if c & {'Fūinjutsu', 'Juinjutsu', 'Barrier Ninjutsu'}:
         return 'fuinjutsu'
-    if c & {'Taijutsu', 'Fighting Style', 'Fighting style', 'Kenjutsu', 'Bukijutsu', 'Shurikenjutsu'}:
+    if c & {'Kenjutsu', 'Bukijutsu', 'Shurikenjutsu'}:
+        return 'bukijutsu'
+    if c & {'Taijutsu', 'Fighting Style', 'Fighting style'}:
         return 'taijutsu'
     if 'Hiden' in c:
         return 'hiden'

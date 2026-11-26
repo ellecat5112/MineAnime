@@ -232,6 +232,10 @@ public final class AnimeCoreDataGenerator implements DataGeneratorEntrypoint {
             t.add("tooltip.animecore.admin.max_all", "Use: max rank, max clan level, master all your natures, refill");
             t.add("tooltip.animecore.admin.only", "Admin item: operators / creative mode only");
             t.add("entity.animecore.story_npc", "Story Character");
+            t.add("message.animecore.awaken.known", "You already have %s");
+            t.add("message.animecore.awaken.rank", "Requires rank %s (you are rank %s)");
+            t.add("message.animecore.awaken.done", "Awakened: %s! It is on your technique item - forms grow stronger with mastery.");
+            t.add("tooltip.animecore.awaken", "Use: awaken this power (later stages evolve with mastery)");
             t.add("message.animecore.admin.story", "Story: %s quest(s) completed");
             t.add("message.animecore.admin.story_none", "No story quest available");
             t.add("tooltip.animecore.admin.story", "Use: complete your story quest; sneak + use: the rest of its arc");

@@ -26,6 +26,8 @@ TOKENS = {
     'genjutsu': (0x4A148C, 0xF06292, 'eye'), 'fuinjutsu': (0x3E2723, 0xFFD54F, 'seal'),
     'medical_ninjutsu': (0x1B5E20, 0x76FF03, 'cross'), 'hiden': (0x212121, 0xBDBDBD, 'scroll'),
     'dojutsu': (0x7F0000, 0xE53935, 'tomoe'),
+    'bukijutsu': (0x37474F, 0xCFD8DC, 'blade'), 'jinchuriki': (0x4A0000, 0xFF6D00, 'tails'),
+    'senjutsu': (0x1B5E20, 0xFFB300, 'toad'), 'kekkei_genkai': (0x311B92, 0xB388FF, 'helix'),
 }
 
 
@@ -124,6 +126,28 @@ def build():
             d.rectangle([9, 11, 22, 21], fill=(236, 226, 196, 255))
             d.rectangle([8, 10, 10, 22], fill=(120, 72, 40, 255))
             d.rectangle([21, 10, 23, 22], fill=(120, 72, 40, 255))
+        elif glyph == 'blade':      # crossed kunai and sword
+            d.line([(10, 23), (21, 10)], fill=g, width=2)
+            d.line([(10, 10), (21, 23)], fill=g, width=2)
+            d.polygon([(21, 10), (23, 8), (22, 12)], fill=g)
+            d.rectangle([9, 22, 11, 24], fill=(120, 72, 40, 255))
+        elif glyph == 'tails':      # a spiral of chakra tails
+            for k in range(5):
+                a = k * 2 * math.pi / 5
+                d.line([(cx, cy), (cx + 8 * math.cos(a), cy + 8 * math.sin(a))], fill=g, width=2)
+                d.ellipse([cx + 8 * math.cos(a) - 1.5, cy + 8 * math.sin(a) - 1.5, cx + 8 * math.cos(a) + 1.5, cy + 8 * math.sin(a) + 1.5], fill=g)
+            d.ellipse([cx - 2.5, cy - 2.5, cx + 2.5, cy + 2.5], fill=(255, 240, 200, 255))
+        elif glyph == 'toad':       # sage eye: horizontal bar pupil in an orange iris
+            d.ellipse([9, 12, 22, 21], fill=(255, 179, 0, 255))
+            d.rectangle([10, 16, 21, 17], fill=(20, 10, 0, 255))
+            d.arc([7, 9, 24, 24], 200, 340, fill=g, width=1)
+        elif glyph == 'helix':      # double helix (bloodline)
+            for y in range(9, 25):
+                t = (y - 9) / 15 * 2 * math.pi
+                d.point((cx + 4 * math.sin(t), y), fill=g)
+                d.point((cx - 4 * math.sin(t), y), fill=g)
+                if y % 3 == 0:
+                    d.line([(cx + 4 * math.sin(t), y), (cx - 4 * math.sin(t), y)], fill=mix(g, (0, 0, 0), 0.4))
         elif glyph == 'tomoe':
             d.ellipse([9, 10, 22, 23], fill=I)
             d.ellipse([14, 15, 17, 18], fill=(10, 0, 0, 255))

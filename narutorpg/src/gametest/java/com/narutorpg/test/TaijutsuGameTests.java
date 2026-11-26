@@ -50,7 +50,7 @@ public final class TaijutsuGameTests implements FabricGameTest {
             ctx.assertTrue(AnimeRegistries.ability(rm, NarutoRPG.CTX.id(id)).isPresent(), "missing taijutsu " + id);
         }
         int onToken = TechniqueMastery.list(rm, NarutoRPG.CTX.id("taijutsu")).size();
-        ctx.assertTrue(onToken >= 400, "taijutsu mastery list has " + onToken);
+        ctx.assertTrue(onToken >= 350, "taijutsu mastery list has " + onToken);   // weapon taijutsu are on the Bukijutsu item
         ctx.complete();
     }
 

@@ -1,0 +1,69 @@
+{
+  "activation_cost": 40.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.2,
+  "granted_abilities": [
+    "narutorpg:six_paths_chakra_rebirth",
+    "narutorpg:six_paths_chibaku_tensei",
+    "narutorpg:six_paths_cross_lantern",
+    "narutorpg:six_paths_five_balls",
+    "narutorpg:six_paths_flame_extinction_hand",
+    "narutorpg:six_paths_kunitsukami",
+    "narutorpg:six_paths_of_pain",
+    "narutorpg:six_paths_sage_mode",
+    "narutorpg:six_paths_shinra_tenkyo",
+    "narutorpg:six_paths_super_tailed_beast_rasenshuriken",
+    "narutorpg:truth_seeking_ball"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 10.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 8.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.3,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.8
+    }
+  ],
+  "name": {
+    "fallback": "Six Paths Sage Mode",
+    "translate": "transformation.narutorpg.six_paths_sage_mode"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:senjutsu",
+  "traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 48.0
+    },
+    {
+      "type": "animecore:evasion",
+      "chance": 0.15,
+      "projectiles_only": true
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.5
+    }
+  ],
+  "visuals": {
+    "aura_color": 16774557,
+    "aura_intensity": 1.5,
+    "cloak_alpha": 0.5,
+    "cloak_color": 16766287
+  }
+}

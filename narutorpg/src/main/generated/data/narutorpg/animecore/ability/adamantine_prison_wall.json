@@ -35,7 +35,7 @@
     "translate": "ability.narutorpg.adamantine_prison_wall"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "smoke"
   }

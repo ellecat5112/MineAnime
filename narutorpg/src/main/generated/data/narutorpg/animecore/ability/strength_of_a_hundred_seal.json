@@ -1,0 +1,42 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:mining_fatigue"
+        },
+        {
+          "amplifier": 1,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Strength of a Hundred Seal",
+    "translate": "ability.narutorpg.strength_of_a_hundred_seal"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
+}

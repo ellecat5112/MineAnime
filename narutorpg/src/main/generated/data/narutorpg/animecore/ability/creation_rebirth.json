@@ -10,6 +10,24 @@
         }
       ],
       "heal": 6.0
+    },
+    {
+      "type": "animecore:area_effect",
+      "color": 7798531,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 1,
+          "effect": "minecraft:instant_health"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "radius": 9.0,
+      "targets": "allies"
     }
   ],
   "cooldown_ticks": 228,

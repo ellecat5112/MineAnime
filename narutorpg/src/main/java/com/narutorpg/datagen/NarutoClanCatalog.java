@@ -47,7 +47,9 @@ final class NarutoClanCatalog {
             instance.loadNatures(clans.resolveSibling("fanon_genjutsu_catalog.json"));   // same shape: abilities + lang
             instance.loadNatures(clans.resolveSibling("taijutsu_catalog.json"));         // tools/catalog/taijutsu.py
             instance.loadNatures(clans.resolveSibling("ninjutsu_catalog.json"));         // tools/catalog/ninjutsu.py
+            instance.loadNatures(clans.resolveSibling("schools_catalog.json"));          // tools/catalog/schools.py
             instance.loadStory(clans.resolveSibling("story_catalog.json"));              // tools/catalog/story.py
+            instance.loadForms(clans.resolveSibling("forms_catalog.json"));              // tools/catalog/forms.py
         }
         return instance;
     }
@@ -100,6 +102,17 @@ final class NarutoClanCatalog {
             root.getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
         } catch (IOException e) {
             throw new IllegalStateException("Cannot read " + path + " - run python3 tools/catalog/story.py", e);
+        }
+    }
+
+    /** {@code forms_catalog.json} (tools/catalog/forms.py): tailed beasts, curse marks, Kāma, modes, bloodline forms. */
+    private void loadForms(Path path) {
+        try (Reader r = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+            JsonObject root = JsonParser.parseReader(r).getAsJsonObject();
+            decode(root, "transformations", TransformationDefinition.CODEC, transformations);
+            root.getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
+        } catch (IOException e) {
+            throw new IllegalStateException("Cannot read " + path + " - run python3 tools/catalog/forms.py", e);
         }
     }
 

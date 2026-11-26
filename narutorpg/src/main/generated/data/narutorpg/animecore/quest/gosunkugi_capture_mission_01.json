@@ -1,4 +1,8 @@
 {
+  "allies": [
+    "narutorpg:hinata_hyuga_ally_naruto",
+    "narutorpg:kiba_inuzuka_ally_naruto"
+  ],
   "arc": {
     "fallback": "Gosunkugi Capture Mission",
     "translate": "quest.narutorpg.arc.gosunkugi_capture_mission"
@@ -37,19 +41,18 @@
     },
     {
       "type": "travel",
-      "count": 45,
+      "count": 95,
       "text": {
-        "fallback": "Go: The Bounty Hunter from the Wilderness",
+        "fallback": "Head out: The Bounty Hunter from the Wilderness",
         "translate": "quest.narutorpg.gosunkugi_capture_mission_01.travel"
       }
     },
     {
       "type": "defeat",
-      "count": 3,
-      "target": "narutorpg:rogue_ninja_naruto",
+      "target": "narutorpg:sazanami_foe_naruto",
       "text": {
-        "fallback": "Defeat the attackers",
-        "translate": "quest.narutorpg.minion.naruto"
+        "fallback": "Defeat Sazanami",
+        "translate": "quest.narutorpg.defeat.sazanami_foe_naruto"
       }
     }
   ],

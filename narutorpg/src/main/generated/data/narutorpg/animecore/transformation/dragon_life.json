@@ -1,0 +1,41 @@
+{
+  "activation_cost": 12.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.06,
+  "granted_abilities": [
+    "narutorpg:dragon_life_reincarnation"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 6.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ],
+  "name": {
+    "fallback": "Dragon Life (Ryūzetsu)",
+    "translate": "transformation.narutorpg.dragon_life"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 5,
+  "system": "narutorpg",
+  "token": "narutorpg:kekkei_genkai",
+  "traits": [
+    {
+      "type": "animecore:fatal_save",
+      "cooldown_id": "narutorpg:fatal_save/dragon_life",
+      "cooldown_ticks": 6000,
+      "heal_to": 10.0
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.0
+    }
+  ],
+  "visuals": {
+    "aura_color": 2533018,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 11722715
+  }
+}

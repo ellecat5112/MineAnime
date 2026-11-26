@@ -241,6 +241,7 @@
   "npc.narutorpg.ruiga": "Ruiga",
   "npc.narutorpg.ryogi": "Ryōgi",
   "npc.narutorpg.ryu": "Ryū",
+  "npc.narutorpg.ryuki": "Ryūki",
   "npc.narutorpg.ryusui": "Ryūsui",
   "npc.narutorpg.ryuzetsu": "Ryūzetsu",
   "npc.narutorpg.sabiru": "Sabiru",
@@ -257,6 +258,7 @@
   "npc.narutorpg.sasori": "Sasori",
   "npc.narutorpg.sasuke_uchiha": "Sasuke Uchiha",
   "npc.narutorpg.satori": "Satori",
+  "npc.narutorpg.sazanami": "Sazanami",
   "npc.narutorpg.seimei": "Seimei",
   "npc.narutorpg.seiren_funato": "Seiren Funato",
   "npc.narutorpg.shabadaba": "Shabadaba",
@@ -1348,6 +1350,7 @@
   "quest.narutorpg.defeat.ruiga_foe_naruto": "Defeat Ruiga",
   "quest.narutorpg.defeat.ryogi_foe_boruto": "Defeat Ryōgi",
   "quest.narutorpg.defeat.ryu_foe_boruto": "Defeat Ryū",
+  "quest.narutorpg.defeat.ryuki_foe_boruto": "Defeat Ryūki",
   "quest.narutorpg.defeat.ryuzetsu_foe_movies": "Defeat Ryūzetsu",
   "quest.narutorpg.defeat.sabiru_foe_shippuden": "Defeat Sabiru",
   "quest.narutorpg.defeat.sabu_foe_shippuden": "Defeat Sabu",
@@ -1357,6 +1360,7 @@
   "quest.narutorpg.defeat.sasuke_uchiha_foe_naruto": "Defeat Sasuke Uchiha",
   "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden": "Defeat Sasuke Uchiha",
   "quest.narutorpg.defeat.satori_foe_movies": "Defeat Satori",
+  "quest.narutorpg.defeat.sazanami_foe_naruto": "Defeat Sazanami",
   "quest.narutorpg.defeat.seimei_foe_shippuden": "Defeat Seimei",
   "quest.narutorpg.defeat.seiren_funato_foe_boruto": "Defeat Seiren Funato",
   "quest.narutorpg.defeat.shiin_foe_naruto": "Defeat Shiin",
@@ -1822,7 +1826,7 @@
   "quest.narutorpg.gosunkugi_capture_mission_01.intro1": "Upon arriving at the thief's last known location however, they learn that another bounty hunter, Sazanami, is pursuing the thief and also that he is a skilled swordsman.",
   "quest.narutorpg.gosunkugi_capture_mission_01.intro2": "Sazanami is later wounded in the battle and Naruto's group takes him to safety, but discover that he too is a wanted criminal when a bounty hunter tried to catch him.",
   "quest.narutorpg.gosunkugi_capture_mission_01.o1": "Talk to Naruto Uzumaki",
-  "quest.narutorpg.gosunkugi_capture_mission_01.travel": "Go: The Bounty Hunter from the Wilderness",
+  "quest.narutorpg.gosunkugi_capture_mission_01.travel": "Head out: The Bounty Hunter from the Wilderness",
   "quest.narutorpg.gosunkugi_capture_mission_02": "Hunt or Be Hunted?! Showdown at the O.K. Temple!",
   "quest.narutorpg.gosunkugi_capture_mission_02.desc": "Sazanami reveals that he was accused of murdering a family (he was delivering a sword they had ordered) and that the thief that he and Naruto's group is hunting is the main suspect; he wants to capture him to prove his innocence. The four locate the thief in a nearby city, in the process of attempting to steal a valuable bell from a temple. After Sazanami captures the thief, he is also captured himself, but his...",
   "quest.narutorpg.gosunkugi_capture_mission_02.intro0": "Sazanami reveals that he was accused of murdering a family (he was delivering a sword they had ordered) and that the thief that he and Naruto's group is hunting is the main suspect; he wants to capture him to prove his...",
@@ -1831,7 +1835,7 @@
   "quest.narutorpg.gosunkugi_capture_mission_02.o1": "Talk to Naruto Uzumaki",
   "quest.narutorpg.gosunkugi_capture_mission_02.outro0": "After Sazanami captures the thief, he is also captured himself, but his innocence is revealed.",
   "quest.narutorpg.gosunkugi_capture_mission_02.outro1": "Despite this, Naruto's group fails the mission because they did not capture the thief, but are happy for him.",
-  "quest.narutorpg.gosunkugi_capture_mission_02.travel": "Go: Hunt or Be Hunted?! Showdown at the O.K. Temple!",
+  "quest.narutorpg.gosunkugi_capture_mission_02.travel": "Head out: Hunt or Be Hunted?! Showdown at the O.K. Temple!",
   "quest.narutorpg.graduation_exams_arc_01": "The Night of the Shooting Stars",
   "quest.narutorpg.graduation_exams_arc_01.desc": "[Anime-only side story] Boruto finds his classmates are generally concerned with upcoming graduation exams, leaving them no time to hang out. Boruto finds Shikadai, Inojin, and Chōchō, who are exhausted from training. He tries starting a conversation, but the three just discuss their training.",
   "quest.narutorpg.graduation_exams_arc_01.intro0": "Boruto finds his classmates are generally concerned with upcoming graduation exams, leaving them no time to hang out.",
@@ -5436,7 +5440,7 @@
   "quest.narutorpg.steam_ninja_scrolls_arc_06.o1": "Talk to Shikamaru Nara",
   "quest.narutorpg.steam_ninja_scrolls_arc_06.outro0": "Ryūki cuts Tatsumi's cheek for some of her blood, and creates a link between her and a puppet, which puts her under his control.",
   "quest.narutorpg.steam_ninja_scrolls_arc_06.outro1": "He orders Tatsumi to kill Mirai, and mocks Mirai for not fighting back against a non-shinobi opponent.",
-  "quest.narutorpg.steam_ninja_scrolls_arc_06.travel": "Go: The Steam Ninja Scrolls: Mirai's King!",
+  "quest.narutorpg.steam_ninja_scrolls_arc_06.travel": "Head out: The Steam Ninja Scrolls: Mirai's King!",
   "quest.narutorpg.sunagakure_support_mission_01": "The Targeted Shukaku",
   "quest.narutorpg.sunagakure_support_mission_01.desc": "[Anime-only side story] A group of missing-nin from the Takumi Village invades Sunagakure and kidnaps Matsuri, the Academy student. They seek Gaara's powers to revive their village's ultimate weapon. Gaara, Kankurō and Temari pursue them alone.",
   "quest.narutorpg.sunagakure_support_mission_01.intro0": "A group of missing-nin from the Takumi Village invades Sunagakure and kidnaps Matsuri, the Academy student.",
@@ -6745,7 +6749,7 @@
     "narutorpg:peregrine_falcon_drop",
     "narutorpg:sly_mind_affect_technique",
     "narutorpg:twin_snakes_mutual_death_technique",
-    "narutorpg:shadow_clone_technique"
+    "narutorpg:cursed_seal_of_heaven"
    ],
    "appearance": {
     "accent": 5143098,
@@ -6777,7 +6781,7 @@
     "narutorpg:many_hidden_shadow_snake_hands",
     "narutorpg:peregrine_falcon_drop",
     "narutorpg:sly_mind_affect_technique",
-    "narutorpg:shadow_clone_technique"
+    "narutorpg:cursed_seal_of_heaven"
    ],
    "appearance": {
     "accent": 5143098,
@@ -6949,6 +6953,7 @@
   },
   "araya_ally_boruto": {
    "abilities": [
+    "narutorpg:iaido",
     "narutorpg:magnetic_iron_sand_sealing_blade",
     "narutorpg:puppet_technique",
     "narutorpg:wind_release_sand_cloud_breakthrough"
@@ -6996,6 +7001,38 @@
     "translate": "npc.narutorpg.asuma_sarutobi"
    },
    "role": "giver",
+   "system": "narutorpg"
+  },
+  "asuma_sarutobi_ally_boruto": {
+   "abilities": [
+    "narutorpg:chakra_blade_straight_line",
+    "narutorpg:fire_release_ash_pile_burning",
+    "narutorpg:fire_release_flint_yagura_technique",
+    "narutorpg:flying_swallow",
+    "narutorpg:welcoming_approach_thousand_armed_murder",
+    "narutorpg:water_release_hiding_in_water_technique"
+   ],
+   "appearance": {
+    "accent": 1793568,
+    "eyes": 2001125,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 3046706
+   },
+   "attack": 16,
+   "cast_interval": 60,
+   "health": 228,
+   "name": {
+    "fallback": "Asuma Sarutobi",
+    "translate": "npc.narutorpg.asuma_sarutobi"
+   },
+   "power": 2.44,
+   "role": "ally",
+   "speed": 0.34,
    "system": "narutorpg"
   },
   "asuma_sarutobi_ally_movies": {
@@ -12899,11 +12936,11 @@
   },
   "kisame_hoshigaki_foe_naruto": {
    "abilities": [
+    "narutorpg:iaido",
     "narutorpg:summoning_technique",
     "narutorpg:water_prison_technique",
     "narutorpg:water_release_great_waterfall_technique",
     "narutorpg:water_release_water_dragon_bullet_technique",
-    "narutorpg:water_release_water_shark_bullet_technique",
     "narutorpg:chakra_transfer_technique"
    ],
    "appearance": {
@@ -12936,10 +12973,10 @@
   "kisame_hoshigaki_foe_shippuden": {
    "abilities": [
     "narutorpg:earth_release_subterranean_voyage",
+    "narutorpg:iaido",
     "narutorpg:summoning_technique",
     "narutorpg:water_prison_technique",
     "narutorpg:water_release_a_thousand_feeding_sharks",
-    "narutorpg:water_release_exploding_water_colliding_wave",
     "narutorpg:chakra_transfer_technique"
    ],
    "appearance": {
@@ -16390,6 +16427,36 @@
     "translate": "npc.narutorpg.title.boss"
    }
   },
+  "ryuki_foe_boruto": {
+   "abilities": [
+    "narutorpg:curse_technique_body_controlling_manipulated_blood"
+   ],
+   "appearance": {
+    "accent": 1793568,
+    "eyes": 3877402,
+    "hair": 1973790,
+    "hair_style": "short",
+    "outfit": "shirt",
+    "pants": 3622735,
+    "skin": 15843965,
+    "top": 7162945
+   },
+   "attack": 17.0,
+   "cast_interval": 40,
+   "health": 590,
+   "name": {
+    "fallback": "Ryūki",
+    "translate": "npc.narutorpg.ryuki"
+   },
+   "power": 2.34,
+   "role": "boss",
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
   "ryusui_ally_shippuden": {
    "abilities": [
     "narutorpg:leaf_rock_destroying_rise"
@@ -17333,6 +17400,36 @@
    "title": {
     "fallback": "",
     "translate": "npc.narutorpg.title.foe"
+   }
+  },
+  "sazanami_foe_naruto": {
+   "abilities": [
+    "narutorpg:iaido"
+   ],
+   "appearance": {
+    "accent": 7162945,
+    "eyes": 4431943,
+    "hair": 1973790,
+    "hair_style": "short",
+    "outfit": "shirt",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 2503224
+   },
+   "attack": 6.5,
+   "cast_interval": 40,
+   "health": 202,
+   "name": {
+    "fallback": "Sazanami",
+    "translate": "npc.narutorpg.sazanami"
+   },
+   "power": 1.26,
+   "role": "boss",
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
    }
   },
   "seimei_foe_shippuden": {
@@ -22031,6 +22128,10 @@
      {
       "count": 8,
       "id": "narutorpg:kunai"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:matatabi_seal"
      }
     ],
     "skill_points": 3,
@@ -23406,6 +23507,10 @@
      {
       "count": 8,
       "id": "narutorpg:kunai"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:ten_tails_seal"
      }
     ],
     "skill_points": 3,
@@ -26625,6 +26730,10 @@
      {
       "count": 3,
       "id": "narutorpg:smoke_bomb"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:cursed_seal_of_heaven"
      }
     ],
     "skill_points": 3,
@@ -27978,6 +28087,14 @@
      {
       "count": 3,
       "id": "narutorpg:smoke_bomb"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:susanoo_scroll"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:eternal_mangekyo"
      }
     ],
     "skill_points": 3,
@@ -29815,6 +29932,10 @@
      {
       "count": 2,
       "id": "narutorpg:blood_increasing_pill"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:ranmaru_eye"
      }
     ],
     "skill_points": 3,
@@ -30487,6 +30608,22 @@
      {
       "count": 2,
       "id": "narutorpg:blood_increasing_pill"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:kokuo_seal"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:chomei_seal"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:shikotsumyaku_awakening"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:sage_transformation_awakening"
      }
     ],
     "skill_points": 3,
@@ -31157,6 +31294,14 @@
      {
       "count": 4,
       "id": "narutorpg:explosive_tag"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:gyuki_seal"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:son_goku_seal"
      }
     ],
     "skill_points": 3,
@@ -31743,6 +31888,10 @@
    "system": "narutorpg"
   },
   "gosunkugi_capture_mission_01": {
+   "allies": [
+    "narutorpg:hinata_hyuga_ally_naruto",
+    "narutorpg:kiba_inuzuka_ally_naruto"
+   ],
    "arc": {
     "fallback": "Gosunkugi Capture Mission",
     "translate": "quest.narutorpg.arc.gosunkugi_capture_mission"
@@ -31780,19 +31929,18 @@
      "type": "talk"
     },
     {
-     "count": 45,
+     "count": 95,
      "text": {
-      "fallback": "Go: The Bounty Hunter from the Wilderness",
+      "fallback": "Head out: The Bounty Hunter from the Wilderness",
       "translate": "quest.narutorpg.gosunkugi_capture_mission_01.travel"
      },
      "type": "travel"
     },
     {
-     "count": 3,
-     "target": "narutorpg:rogue_ninja_naruto",
+     "target": "narutorpg:sazanami_foe_naruto",
      "text": {
-      "fallback": "Defeat the attackers",
-      "translate": "quest.narutorpg.minion.naruto"
+      "fallback": "Defeat Sazanami",
+      "translate": "quest.narutorpg.defeat.sazanami_foe_naruto"
      },
      "type": "defeat"
     }
@@ -31853,19 +32001,18 @@
      "type": "talk"
     },
     {
-     "count": 63,
+     "count": 93,
      "text": {
-      "fallback": "Go: Hunt or Be Hunted?! Showdown at the O.K. Temple!",
+      "fallback": "Head out: Hunt or Be Hunted?! Showdown at the O.K. Temple!",
       "translate": "quest.narutorpg.gosunkugi_capture_mission_02.travel"
      },
      "type": "travel"
     },
     {
-     "count": 3,
-     "target": "narutorpg:rogue_ninja_naruto",
+     "target": "narutorpg:sazanami_foe_naruto",
      "text": {
-      "fallback": "Defeat the attackers",
-      "translate": "quest.narutorpg.minion.naruto"
+      "fallback": "Defeat Sazanami",
+      "translate": "quest.narutorpg.defeat.sazanami_foe_naruto"
      },
      "type": "defeat"
     }
@@ -36418,6 +36565,10 @@
      {
       "count": 8,
       "id": "narutorpg:kunai"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:rinne_sharingan_eye"
      }
     ],
     "skill_points": 3,
@@ -37858,6 +38009,10 @@
      {
       "count": 12,
       "id": "narutorpg:senbon"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:clone_link_awakening"
      }
     ],
     "skill_points": 3
@@ -38031,6 +38186,10 @@
      {
       "count": 2,
       "id": "narutorpg:blood_increasing_pill"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:molecular_fusion_awakening"
      }
     ],
     "skill_points": 3
@@ -38743,6 +38902,10 @@
      {
       "count": 2,
       "id": "narutorpg:blood_increasing_pill"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:baryon_mode"
      }
     ],
     "skill_points": 3,
@@ -40263,6 +40426,10 @@
      {
       "count": 4,
       "id": "narutorpg:explosive_tag"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:shukaku_seal"
      }
     ],
     "skill_points": 3,
@@ -43395,6 +43562,10 @@
      {
       "count": 16,
       "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:rinha_absorption_awakening"
      }
     ],
     "skill_points": 3
@@ -47570,6 +47741,10 @@
      {
       "count": 3,
       "id": "narutorpg:smoke_bomb"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:smoke_body_awakening"
      }
     ],
     "skill_points": 3,
@@ -49741,6 +49916,10 @@
      {
       "count": 16,
       "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:dragon_life_awakening"
      }
     ],
     "skill_points": 3
@@ -52927,6 +53106,10 @@
      {
       "count": 12,
       "id": "narutorpg:senbon"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:kurama_seal"
      }
     ],
     "skill_points": 3,
@@ -59266,6 +59449,10 @@
      {
       "count": 16,
       "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:cursed_seal_of_earth"
      }
     ],
     "skill_points": 3,
@@ -63171,6 +63358,10 @@
      {
       "count": 2,
       "id": "narutorpg:blood_increasing_pill"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:saiken_seal"
      }
     ],
     "skill_points": 3
@@ -64079,6 +64270,10 @@
    "system": "narutorpg"
   },
   "steam_ninja_scrolls_arc_06": {
+   "allies": [
+    "narutorpg:mirai_sarutobi_ally_boruto",
+    "narutorpg:asuma_sarutobi_ally_boruto"
+   ],
    "arc": {
     "fallback": "Steam Ninja Scrolls Arc",
     "translate": "quest.narutorpg.arc.steam_ninja_scrolls_arc"
@@ -64116,19 +64311,18 @@
      "type": "talk"
     },
     {
-     "count": 46,
+     "count": 66,
      "text": {
-      "fallback": "Go: The Steam Ninja Scrolls: Mirai's King!",
+      "fallback": "Head out: The Steam Ninja Scrolls: Mirai's King!",
       "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.travel"
      },
      "type": "travel"
     },
     {
-     "count": 3,
-     "target": "narutorpg:rogue_ninja_boruto",
+     "target": "narutorpg:ryuki_foe_boruto",
      "text": {
-      "fallback": "Defeat the attackers",
-      "translate": "quest.narutorpg.minion.boruto"
+      "fallback": "Defeat Ryūki",
+      "translate": "quest.narutorpg.defeat.ryuki_foe_boruto"
      },
      "type": "defeat"
     }
@@ -66461,6 +66655,10 @@
      {
       "count": 2,
       "id": "narutorpg:blood_increasing_pill"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:sage_scroll"
      }
     ],
     "skill_points": 3,
@@ -67383,6 +67581,10 @@
      {
       "count": 2,
       "id": "narutorpg:blood_increasing_pill"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:tenseigan_chakra"
      }
     ],
     "skill_points": 3
@@ -69527,6 +69729,10 @@
      {
       "count": 8,
       "id": "narutorpg:kunai"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:isobu_seal"
      }
     ],
     "skill_points": 3
@@ -72171,6 +72377,10 @@
      {
       "count": 8,
       "id": "narutorpg:kunai"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:kama_seal"
      }
     ],
     "skill_points": 3,
@@ -72550,6 +72760,10 @@
      {
       "count": 16,
       "id": "narutorpg:shuriken"
+     },
+     {
+      "count": 1,
+      "id": "narutorpg:kurama_clan_illusion_awakening"
      }
     ],
     "skill_points": 3

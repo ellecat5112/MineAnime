@@ -42,11 +42,12 @@ The articles *Ninjutsu* and the sub-type articles themselves are topic pages, no
 | technique item | new ninjutsu |
 |---|---:|
 | `narutorpg:ninjutsu` | 529 |
-| `narutorpg:taijutsu` | 116 |
+| `narutorpg:bukijutsu` | 107 |
 | `narutorpg:fuinjutsu` | 100 |
 | `narutorpg:hiden` | 44 |
 | `narutorpg:dojutsu` | 37 |
 | `narutorpg:medical_ninjutsu` | 33 |
+| `narutorpg:taijutsu` | 9 |
 
 Each is generated from its infobox (classification, rank, range, class type, hand signs, nature) by the shared mapping in `tools/catalog/clans.py`: attacks become projectiles / beams / bursts by range and nature, binds and prisons hold targets, barriers raise walls, clones and space-time techniques move you, medical ninjutsu heal. Hold the item while defeating enemies to master the next technique (rank still gates them).
 

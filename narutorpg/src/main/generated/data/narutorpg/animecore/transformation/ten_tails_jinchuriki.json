@@ -1,0 +1,65 @@
+{
+  "activation_cost": 60.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.35,
+  "granted_abilities": [
+    "narutorpg:truth_seeking_ball",
+    "narutorpg:big_truth_seeking_ball",
+    "narutorpg:truth_seeking_chaos_bullets",
+    "narutorpg:six_paths_chibaku_tensei",
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:crushing_collision",
+    "narutorpg:great_roar"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.15,
+      "attribute": "minecraft:generic.scale"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 12.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 10.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 20.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 2.0
+    }
+  ],
+  "name": {
+    "fallback": "Ten-Tails Jinchūriki",
+    "translate": "transformation.narutorpg.ten_tails_jinchuriki"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 12,
+  "system": "narutorpg",
+  "token": "narutorpg:jinchuriki",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.2,
+      "projectiles_only": true
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 2.0
+    }
+  ],
+  "visuals": {
+    "aura_color": 16119285,
+    "aura_intensity": 1.4,
+    "cloak_alpha": 0.35,
+    "cloak_color": 16448250
+  }
+}

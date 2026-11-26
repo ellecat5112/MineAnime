@@ -1,0 +1,33 @@
+{
+  "activation_cost": 6.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.02,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.15
+    }
+  ],
+  "name": {
+    "fallback": "Ranmaru's Dōjutsu",
+    "translate": "transformation.narutorpg.ranmaru_dojutsu"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 48.0
+    },
+    {
+      "type": "animecore:evasion",
+      "chance": 0.1
+    }
+  ],
+  "visuals": {
+    "aura_color": 15022389,
+    "aura_intensity": 0.3
+  }
+}

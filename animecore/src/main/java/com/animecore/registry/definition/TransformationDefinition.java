@@ -31,20 +31,47 @@ public record TransformationDefinition(
         int masteryToEvolve,
         Optional<Identifier> requiredLineage,
         List<Identifier> grantedAbilities,
-        Visuals visuals
+        Visuals visuals,
+        Optional<Identifier> token,
+        List<com.animecore.clan.IClanTrait> traits
 ) {
+    /** Without bloodline-style traits. */
+    public TransformationDefinition(String system, Text name, Identifier pool, float activationCost, float drainPerTick, int durationTicks,
+                                    int cooldownTicks, int requiredTier, List<ITraitModifier> modifiers, Optional<Identifier> nextStage,
+                                    int masteryToEvolve, Optional<Identifier> requiredLineage, List<Identifier> grantedAbilities, Visuals visuals,
+                                    Optional<Identifier> token) {
+        this(system, name, pool, activationCost, drainPerTick, durationTicks, cooldownTicks, requiredTier, modifiers, nextStage,
+                masteryToEvolve, requiredLineage, grantedAbilities, visuals, token, List.of());
+    }
+
+    /** Pre-token constructor (forms listed on the system's default forms token). */
+    public TransformationDefinition(String system, Text name, Identifier pool, float activationCost, float drainPerTick, int durationTicks,
+                                    int cooldownTicks, int requiredTier, List<ITraitModifier> modifiers, Optional<Identifier> nextStage,
+                                    int masteryToEvolve, Optional<Identifier> requiredLineage, List<Identifier> grantedAbilities, Visuals visuals) {
+        this(system, name, pool, activationCost, drainPerTick, durationTicks, cooldownTicks, requiredTier, modifiers, nextStage,
+                masteryToEvolve, requiredLineage, grantedAbilities, visuals, Optional.empty(), List.of());
+    }
+
     /**
      * @param stanceAnimation PlayerAnimator id looped on the BASE layer while active
      * @param auraColor       RGB tint for the procedural aura (no textures)
      * @param geoAttachment   optional GeckoLib attachment model id (Susanoo ribs, tails, wings)
+     * @param cloakColor      optional RGB of a translucent shroud drawn over the body (chakra cloaks, curse-mark skin, Kāma)
+     * @param cloakAlpha      shroud opacity 0..1
      */
-    public record Visuals(Optional<Identifier> stanceAnimation, int auraColor, float auraIntensity, Optional<Identifier> geoAttachment) {
+    public record Visuals(Optional<Identifier> stanceAnimation, int auraColor, float auraIntensity, Optional<Identifier> geoAttachment,
+                          Optional<Integer> cloakColor, float cloakAlpha) {
+        public Visuals(Optional<Identifier> stanceAnimation, int auraColor, float auraIntensity, Optional<Identifier> geoAttachment) {
+            this(stanceAnimation, auraColor, auraIntensity, geoAttachment, Optional.empty(), 0.45f);
+        }
         public static final Visuals NONE = new Visuals(Optional.empty(), 0xFFFFFF, 0f, Optional.empty());
         public static final Codec<Visuals> CODEC = RecordCodecBuilder.create(i -> i.group(
                 Identifier.CODEC.optionalFieldOf("stance_animation").forGetter(Visuals::stanceAnimation),
                 Codec.INT.optionalFieldOf("aura_color", 0xFFFFFF).forGetter(Visuals::auraColor),
                 Codec.floatRange(0f, 4f).optionalFieldOf("aura_intensity", 1f).forGetter(Visuals::auraIntensity),
-                Identifier.CODEC.optionalFieldOf("geo_attachment").forGetter(Visuals::geoAttachment)
+                Identifier.CODEC.optionalFieldOf("geo_attachment").forGetter(Visuals::geoAttachment),
+                Codec.INT.optionalFieldOf("cloak_color").forGetter(Visuals::cloakColor),
+                Codec.floatRange(0f, 1f).optionalFieldOf("cloak_alpha", 0.45f).forGetter(Visuals::cloakAlpha)
         ).apply(i, Visuals::new));
     }
 
@@ -62,6 +89,8 @@ public record TransformationDefinition(
             Codec.intRange(0, Integer.MAX_VALUE).optionalFieldOf("mastery_to_evolve", 0).forGetter(TransformationDefinition::masteryToEvolve),
             Identifier.CODEC.optionalFieldOf("required_lineage").forGetter(TransformationDefinition::requiredLineage),
             Identifier.CODEC.listOf().optionalFieldOf("granted_abilities", List.of()).forGetter(TransformationDefinition::grantedAbilities),
-            Visuals.CODEC.optionalFieldOf("visuals", Visuals.NONE).forGetter(TransformationDefinition::visuals)
+            Visuals.CODEC.optionalFieldOf("visuals", Visuals.NONE).forGetter(TransformationDefinition::visuals),
+            Identifier.CODEC.optionalFieldOf("token").forGetter(TransformationDefinition::token),
+            com.animecore.clan.IClanTrait.CODEC.listOf().optionalFieldOf("traits", List.of()).forGetter(TransformationDefinition::traits)
     ).apply(i, TransformationDefinition::new));
 }

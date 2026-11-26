@@ -29,7 +29,7 @@ DOC_JSON = os.path.join(ROOT, 'docs', 'wiki', 'narutopedia_story.json')
 GEN = os.path.join(ROOT, 'tools', 'catalog', 'generated')
 OUT = os.path.join(GEN, 'story_catalog.json')
 ABILITY_CATALOGS = ['clan_catalog.json', 'village_catalog.json', 'nature_catalog.json', 'fanon_genjutsu_catalog.json',
-                    'taijutsu_catalog.json', 'ninjutsu_catalog.json']
+                    'taijutsu_catalog.json', 'ninjutsu_catalog.json', 'schools_catalog.json']
 
 SERIES = ['naruto', 'shippuden', 'boruto', 'movies']
 SERIES_NAMES = {'naruto': 'Naruto', 'shippuden': 'Naruto Shippuden', 'boruto': 'Boruto', 'movies': 'Movies'}
@@ -650,6 +650,9 @@ def main():
             quests[qid] = q
             arc_row['quests'].append(qid)
             prev = qid
+        # sealed powers awarded where the story hands them out (tailed beasts, curse marks, Kāma, sage training...)
+        for it in ARC_ITEMS.get(arc, []):
+            quests[prev]['rewards'].setdefault('items', []).append({'id': f'{NS}:{it}', 'count': 1})
         # tier reward at the end of each canon arc: the next canon arc's level
         if not filler and series != 'movies':
             canon = [x[2] for x in canon_by_series[series]]
@@ -669,6 +672,23 @@ def main():
     roles = Counter(n['role'] for n in npcs.values())
     print(f"story: {len(arc_rows)} arcs, {len(quests)} quests, {len(npcs)} story characters {dict(roles)}")
     write_doc(data, arc_rows, quests, npcs)
+
+
+ARC_ITEMS = {
+    'Chūnin Exams (Arc)': ['cursed_seal_of_heaven'], 'Sasuke Recovery Mission': ['cursed_seal_of_earth'],
+    'Kazekage Rescue Mission': ['shukaku_seal'], 'Akatsuki Suppression Mission': ['matatabi_seal'],
+    "Three-Tails' Appearance": ['isobu_seal'], 'Tale of Jiraiya the Gallant': ['sage_scroll'],
+    'Fated Battle Between Brothers': ['susanoo_scroll', 'eternal_mangekyo'], "Pain's Assault (Arc)": ['kurama_seal'],
+    'Six-Tails Unleashed': ['saiken_seal'], 'Fourth Shinobi World War: Countdown': ['gyuki_seal', 'son_goku_seal'],
+    'Fourth Shinobi World War: Confrontation': ['kokuo_seal', 'chomei_seal', 'shikotsumyaku_awakening', 'sage_transformation_awakening'],
+    "Birth of the Ten-Tails' Jinchūriki": ['ten_tails_seal'], 'Kaguya Ōtsutsuki Strikes': ['rinne_sharingan_eye'],
+    'Fourth Shinobi World War: Climax': ['ranmaru_eye'],
+    'The Last: Naruto the Movie': ['tenseigan_chakra'], 'Versus Momoshiki Arc': ['kama_seal'], 'Kawaki Arc': ['baryon_mode'],
+    'Naruto the Movie: Blood Prison': ['dragon_life_awakening'], 'Yakumo Kurama Rescue Mission': ['kurama_clan_illusion_awakening'],
+    'Mujina Bandits Arc': ['smoke_body_awakening'], 'Kara Actuation Arc': ['molecular_fusion_awakening'],
+    'Kakashi\'s Anbu Arc: The Shinobi That Lives in the Darkness': ['clone_link_awakening'],
+    'Land of Rice Fields Investigation Mission': ['rinha_absorption_awakening'],
+}
 
 
 def minion(npcs, lang, series, tier):

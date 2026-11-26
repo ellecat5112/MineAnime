@@ -1,0 +1,55 @@
+{
+  "activation_cost": 20.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.08,
+  "granted_abilities": [
+    "narutorpg:kama",
+    "narutorpg:kama_spiral",
+    "narutorpg:kama_rasengan",
+    "narutorpg:kama_great_burial_wave"
+  ],
+  "mastery_to_evolve": 9600,
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 6.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.4
+    },
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 2.0,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "name": {
+    "fallback": "Kāma",
+    "translate": "transformation.narutorpg.kama"
+  },
+  "next_stage": "narutorpg:kama_otsutsuki_awakening",
+  "pool": "narutorpg:chakra",
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.3,
+      "effect": "minecraft:weakness"
+    }
+  ],
+  "visuals": {
+    "aura_color": 2171169,
+    "aura_intensity": 0.8,
+    "cloak_alpha": 0.35,
+    "cloak_color": 1118481
+  }
+}

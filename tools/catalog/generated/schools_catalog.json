@@ -1,0 +1,3250 @@
+{
+ "abilities": {
+  "afterglow": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Afterglow",
+    "translate": "ability.narutorpg.afterglow"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "animal_cursed_seal": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:strength"
+      },
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 300,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Animal Cursed Seal",
+    "translate": "ability.narutorpg.animal_cursed_seal"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "assassination_technique": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Assassination Technique",
+    "translate": "ability.narutorpg.assassination_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "battojutsu": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Battōjutsu",
+    "translate": "ability.narutorpg.battojutsu"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "beigoma": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Beigoma",
+    "translate": "ability.narutorpg.beigoma"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "blastsword_consecutive_slashes": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Blastsword: Consecutive Slashes",
+    "translate": "ability.narutorpg.blastsword_consecutive_slashes"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "blastsword_earth_rupture": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Blastsword: Earth Rupture",
+    "translate": "ability.narutorpg.blastsword_earth_rupture"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "blastsword_technique_blasting_bridle_repeating_death": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Blastsword Technique: Blasting Bridle Repeating Death",
+    "translate": "ability.narutorpg.blastsword_technique_blasting_bridle_repeating_death"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "bluntsword_spin_strike": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Bluntsword: Spin Strike",
+    "translate": "ability.narutorpg.bluntsword_spin_strike"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "bunmawashi": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Bunmawashi",
+    "translate": "ability.narutorpg.bunmawashi"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "burial_arm_attack": {
+   "actions": [
+    {
+     "color": 12986408,
+     "damage": 14.0,
+     "fire_ticks": 0,
+     "pierce": false,
+     "range": 24.0,
+     "type": "animecore:beam_raycast",
+     "width": 0.5
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Burial Arm Attack",
+    "translate": "ability.narutorpg.burial_arm_attack"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "byakugan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Byakugan",
+    "translate": "ability.narutorpg.byakugan"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "certain_kill_treasured_tool_meteor": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Certain-Kill Treasured Tool Meteor",
+    "translate": "ability.narutorpg.certain_kill_treasured_tool_meteor"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "chains_twin_fangs_slash": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Chains: Twin Fangs Slash",
+    "translate": "ability.narutorpg.chains_twin_fangs_slash"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "circle_wild_dance": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Circle Wild Dance",
+    "translate": "ability.narutorpg.circle_wild_dance"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "covert_cut": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Covert Cut",
+    "translate": "ability.narutorpg.covert_cut"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "curse_technique_body_controlling_manipulated_blood": {
+   "actions": [
+    {
+     "color": 9489145,
+     "damage": 6.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Curse Technique: Body Controlling Manipulated Blood",
+    "translate": "ability.narutorpg.curse_technique_body_controlling_manipulated_blood"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:hiden",
+   "visuals": {
+    "style": "blood"
+   }
+  },
+  "cursed_seal_of_earth": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:strength"
+      },
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 300,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Cursed Seal of Earth",
+    "translate": "ability.narutorpg.cursed_seal_of_earth"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "cursed_seal_of_heaven": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:strength"
+      },
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 300,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Cursed Seal of Heaven",
+    "translate": "ability.narutorpg.cursed_seal_of_heaven"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "daikokuten_shokatsu": {
+   "actions": [
+    {
+     "color": 12986408,
+     "damage": 14.0,
+     "fire_ticks": 0,
+     "pierce": false,
+     "range": 24.0,
+     "type": "animecore:beam_raycast",
+     "width": 0.5
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Daikokuten: Shokatsu",
+    "translate": "ability.narutorpg.daikokuten_shokatsu"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "dance_of_the_kusanagi": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dance of the Kusanagi",
+    "translate": "ability.narutorpg.dance_of_the_kusanagi"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "dance_of_the_sickle_blade_rising_lift_blade": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dance of the Sickle Blade: Rising Lift Blade",
+    "translate": "ability.narutorpg.dance_of_the_sickle_blade_rising_lift_blade"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "dance_of_the_sickle_blade_strong_blade": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dance of the Sickle Blade: Strong Blade",
+    "translate": "ability.narutorpg.dance_of_the_sickle_blade_strong_blade"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "dance_of_the_sickle_blade_vertical_revolving_blade": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dance of the Sickle Blade: Vertical Revolving Blade",
+    "translate": "ability.narutorpg.dance_of_the_sickle_blade_vertical_revolving_blade"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "dance_of_the_sword": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dance of the Sword",
+    "translate": "ability.narutorpg.dance_of_the_sword"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "dancing_blade_risk": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Dancing Blade Risk",
+    "translate": "ability.narutorpg.dancing_blade_risk"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "evernight": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Evernight",
+    "translate": "ability.narutorpg.evernight"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "evil_sealing_method": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Evil Sealing Method",
+    "translate": "ability.narutorpg.evil_sealing_method"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "existence_beheading": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Existence Beheading",
+    "translate": "ability.narutorpg.existence_beheading"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "explosive_parachute": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Explosive Parachute",
+    "translate": "ability.narutorpg.explosive_parachute"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "five_elements_seal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Five Elements Seal",
+    "translate": "ability.narutorpg.five_elements_seal"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "five_elements_unseal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Five Elements Unseal",
+    "translate": "ability.narutorpg.five_elements_unseal"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "flash_slice": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 2.4,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Flash Slice",
+    "translate": "ability.narutorpg.flash_slice"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "flying_revolving_sword": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Flying Revolving Sword",
+    "translate": "ability.narutorpg.flying_revolving_sword"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "forbidden_technique_gedo_seal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Forbidden Technique: Gedō Seal",
+    "translate": "ability.narutorpg.forbidden_technique_gedo_seal"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "frying_pan_attack": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Frying Pan Attack",
+    "translate": "ability.narutorpg.frying_pan_attack"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "frying_pan_rapid_fire_strikes": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Frying Pan Rapid Fire Strikes",
+    "translate": "ability.narutorpg.frying_pan_rapid_fire_strikes"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "future_telling": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Future Telling",
+    "translate": "ability.narutorpg.future_telling"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "gedo_seal_release": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Gedō Seal: Release",
+    "translate": "ability.narutorpg.gedo_seal_release"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "giant_spinning_axe": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Giant Spinning Axe",
+    "translate": "ability.narutorpg.giant_spinning_axe"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "great_dance_slash": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Great Dance Slash",
+    "translate": "ability.narutorpg.great_dance_slash"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "hazy_moon_night": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Hazy Moon Night",
+    "translate": "ability.narutorpg.hazy_moon_night"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "iai_beheading": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Iai Beheading",
+    "translate": "ability.narutorpg.iai_beheading"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "iaido": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Iaidō",
+    "translate": "ability.narutorpg.iaido"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "instant": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Instant",
+    "translate": "ability.narutorpg.instant"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "iq200": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "IQ200",
+    "translate": "ability.narutorpg.iq200"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "iron_armour_seal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Iron Armour Seal",
+    "translate": "ability.narutorpg.iron_armour_seal"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "iron_hammer_of_kirigakure_game": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Iron Hammer of Kirigakure (game)",
+    "translate": "ability.narutorpg.iron_hammer_of_kirigakure_game"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "jogan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Jōgan",
+    "translate": "ability.narutorpg.jogan"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "ketsuryugan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Ketsuryūgan",
+    "translate": "ability.narutorpg.ketsuryugan"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "kokugan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Kokugan",
+    "translate": "ability.narutorpg.kokugan"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "kumogakure_taijutsu_wolf_ring": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Kumogakure Taijutsu: Wolf Ring",
+    "translate": "ability.narutorpg.kumogakure_taijutsu_wolf_ring"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "leaf_style_swift_sword": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Leaf Style: Swift Sword",
+    "translate": "ability.narutorpg.leaf_style_swift_sword"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "longsword_ninja_art_earth_spider_sewing": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Longsword Ninja Art — Earth Spider Sewing",
+    "translate": "ability.narutorpg.longsword_ninja_art_earth_spider_sewing"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "longsword_ninja_art_massacre_method_formation": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Longsword Ninja Art: Massacre Method Formation",
+    "translate": "ability.narutorpg.longsword_ninja_art_massacre_method_formation"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "mach_boomerang": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Mach Boomerang",
+    "translate": "ability.narutorpg.mach_boomerang"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "mangekyo_sharingan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Mangekyō Sharingan",
+    "translate": "ability.narutorpg.mangekyo_sharingan"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "ninja_wolfsbane": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 2.4,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Ninja Wolfsbane",
+    "translate": "ability.narutorpg.ninja_wolfsbane"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "nuibari_fall": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Nuibari: Fall",
+    "translate": "ability.narutorpg.nuibari_fall"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "oblique_shadow_slash": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Oblique Shadow Slash",
+    "translate": "ability.narutorpg.oblique_shadow_slash"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "orochimaru_s_juinjutsu": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:strength"
+      },
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 300,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Orochimaru's Juinjutsu",
+    "translate": "ability.narutorpg.orochimaru_s_juinjutsu"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "piercing_showers": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 2.4,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Piercing Showers",
+    "translate": "ability.narutorpg.piercing_showers"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "poison_senbon": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 2.4,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Poison Senbon",
+    "translate": "ability.narutorpg.poison_senbon"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu",
+   "visuals": {
+    "style": "poison"
+   }
+  },
+  "raging_thunder": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Raging Thunder",
+    "translate": "ability.narutorpg.raging_thunder"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "retreating_tear_sever": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Retreating Tear Sever",
+    "translate": "ability.narutorpg.retreating_tear_sever"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "rinne_sharingan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rinne Sharingan",
+    "translate": "ability.narutorpg.rinne_sharingan"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "rinnegan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 192,
+   "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rinnegan",
+    "translate": "ability.narutorpg.rinnegan"
+   },
+   "required_tier": 6,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "rolling_pin_shuriken": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 2.4,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rolling Pin Shuriken",
+    "translate": "ability.narutorpg.rolling_pin_shuriken"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "rotating_destruction_slash": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Rotating Destruction Slash",
+    "translate": "ability.narutorpg.rotating_destruction_slash"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "samehada_wild_dance": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Samehada Wild Dance",
+    "translate": "ability.narutorpg.samehada_wild_dance"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "sealing_technique_four_limbs_weighting_seal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sealing Technique: Four Limbs Weighting Seal",
+    "translate": "ability.narutorpg.sealing_technique_four_limbs_weighting_seal"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "sealing_technique_spirit_sealing": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sealing Technique: Spirit Sealing",
+    "translate": "ability.narutorpg.sealing_technique_spirit_sealing"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "secret_sword_moonlight": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Secret Sword: Moonlight",
+    "translate": "ability.narutorpg.secret_sword_moonlight"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "secret_technique_sealing_release": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Secret Technique: Sealing Release",
+    "translate": "ability.narutorpg.secret_technique_sealing_release"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "senrigan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Senrigan",
+    "translate": "ability.narutorpg.senrigan"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "severed_inscription": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Severed Inscription",
+    "translate": "ability.narutorpg.severed_inscription"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "severed_land": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Severed Land",
+    "translate": "ability.narutorpg.severed_land"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "sharingan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sharingan",
+    "translate": "ability.narutorpg.sharingan"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "shark_slaying_slash": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Shark-Slaying Slash",
+    "translate": "ability.narutorpg.shark_slaying_slash"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "shrine_seal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Shrine Seal",
+    "translate": "ability.narutorpg.shrine_seal"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "shrine_seal_release": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Shrine Seal: Release",
+    "translate": "ability.narutorpg.shrine_seal_release"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "skewering_punishment": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Skewering Punishment",
+    "translate": "ability.narutorpg.skewering_punishment"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "slashing_handling_punishment": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Slashing Handling Punishment",
+    "translate": "ability.narutorpg.slashing_handling_punishment"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "soul_hunting": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Soul Hunting",
+    "translate": "ability.narutorpg.soul_hunting"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "sound_four_s_cursed_seals": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:strength"
+      },
+      {
+       "amplifier": 1,
+       "duration": 300,
+       "effect": "minecraft:speed"
+      },
+      {
+       "amplifier": 0,
+       "duration": 300,
+       "effect": "minecraft:resistance"
+      }
+     ],
+     "type": "animecore:self_buff"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sound Four's Cursed Seals",
+    "translate": "ability.narutorpg.sound_four_s_cursed_seals"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "spike_rain": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Spike Rain",
+    "translate": "ability.narutorpg.spike_rain"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "strength_of_a_hundred_seal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Strength of a Hundred Seal",
+    "translate": "ability.narutorpg.strength_of_a_hundred_seal"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "sukunahikona_canopy_box_drop": {
+   "actions": [
+    {
+     "color": 12986408,
+     "damage": 14.0,
+     "fire_ticks": 0,
+     "pierce": false,
+     "range": 24.0,
+     "type": "animecore:beam_raycast",
+     "width": 0.5
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sukunahikona: Canopy Box Drop",
+    "translate": "ability.narutorpg.sukunahikona_canopy_box_drop"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "sukunahikona_chaos_bloom": {
+   "actions": [
+    {
+     "color": 12986408,
+     "damage": 14.0,
+     "fire_ticks": 0,
+     "pierce": false,
+     "range": 24.0,
+     "type": "animecore:beam_raycast",
+     "width": 0.5
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sukunahikona: Chaos Bloom",
+    "translate": "ability.narutorpg.sukunahikona_chaos_bloom"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "sukunahikona_mighty_thrashing": {
+   "actions": [
+    {
+     "color": 12986408,
+     "damage": 14.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 4.0,
+     "type": "animecore:aoe_sphere"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Sukunahikona: Mighty Thrashing",
+    "translate": "ability.narutorpg.sukunahikona_mighty_thrashing"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "tatami_return": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Tatami Return",
+    "translate": "ability.narutorpg.tatami_return"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "tearing_blade": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Tearing Blade",
+    "translate": "ability.narutorpg.tearing_blade"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "tenseigan": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Tenseigan",
+    "translate": "ability.narutorpg.tenseigan"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "torii_seal": {
+   "actions": [
+    {
+     "color": 16766287,
+     "cone_degrees": 50.0,
+     "damage": 3.5999999999999996,
+     "effects": [
+      {
+       "amplifier": 3,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "pull": 1.5,
+     "radius": 7.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Torii Seal",
+    "translate": "ability.narutorpg.torii_seal"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "twin_fangs_slash": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Twin Fangs Slash",
+    "translate": "ability.narutorpg.twin_fangs_slash"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "uchiha_style_kenjutsu": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Uchiha Style Kenjutsu",
+    "translate": "ability.narutorpg.uchiha_style_kenjutsu"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu",
+   "visuals": {
+    "style": "wind"
+   }
+  },
+  "unstoppable_blade_shuriken": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Unstoppable Blade Shuriken",
+    "translate": "ability.narutorpg.unstoppable_blade_shuriken"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "white_light_blade": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "White Light Blade",
+    "translate": "ability.narutorpg.white_light_blade"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "wild_shuriken_dance": {
+   "actions": [
+    {
+     "aoe_radius": 0.0,
+     "color": 9489145,
+     "count": 5,
+     "damage": 2.4,
+     "fire_ticks": 0,
+     "lifetime_ticks": 30,
+     "size": 0.3,
+     "speed": 2.0,
+     "spread_degrees": 8.0,
+     "type": "animecore:projectile"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Wild Shuriken Dance",
+    "translate": "ability.narutorpg.wild_shuriken_dance"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "yachihoko": {
+   "actions": [
+    {
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 400,
+       "effect": "minecraft:night_vision"
+      }
+     ],
+     "type": "animecore:self_buff"
+    },
+    {
+     "color": 12986408,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 200,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 24.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 156,
+   "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Yachihoko",
+    "translate": "ability.narutorpg.yachihoko"
+   },
+   "required_tier": 3,
+   "system": "narutorpg",
+   "token": "narutorpg:dojutsu"
+  },
+  "yin_seal_release": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 228,
+   "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Yin Seal: Release",
+    "translate": "ability.narutorpg.yin_seal_release"
+   },
+   "required_tier": 10,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  },
+  "you_won_t_get_away": {
+   "actions": [
+    {
+     "damage": 6.0,
+     "distance": 6.0,
+     "hit_radius": 1.4,
+     "knockback": 1.0,
+     "mode": "look",
+     "type": "animecore:dash_strike"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "You Won't Get Away!",
+    "translate": "ability.narutorpg.you_won_t_get_away"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:bukijutsu"
+  },
+  "zero_tails_sealing_technique": {
+   "actions": [
+    {
+     "color": 16766287,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
+      }
+     ],
+     "radius": 6.0,
+     "type": "animecore:area_effect"
+    }
+   ],
+   "cast_type": "instant",
+   "cooldown_ticks": 132,
+   "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+   },
+   "name": {
+    "fallback": "Zero-Tails Sealing Technique",
+    "translate": "ability.narutorpg.zero_tails_sealing_technique"
+   },
+   "required_tier": 1,
+   "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
+  }
+ },
+ "crawled": "2026-11-26",
+ "generated_from": "docs/wiki/narutopedia_schools.json",
+ "lang": {
+  "ability.narutorpg.afterglow": "Afterglow",
+  "ability.narutorpg.animal_cursed_seal": "Animal Cursed Seal",
+  "ability.narutorpg.assassination_technique": "Assassination Technique",
+  "ability.narutorpg.battojutsu": "Battōjutsu",
+  "ability.narutorpg.beigoma": "Beigoma",
+  "ability.narutorpg.blastsword_consecutive_slashes": "Blastsword: Consecutive Slashes",
+  "ability.narutorpg.blastsword_earth_rupture": "Blastsword: Earth Rupture",
+  "ability.narutorpg.blastsword_technique_blasting_bridle_repeating_death": "Blastsword Technique: Blasting Bridle Repeating Death",
+  "ability.narutorpg.bluntsword_spin_strike": "Bluntsword: Spin Strike",
+  "ability.narutorpg.bunmawashi": "Bunmawashi",
+  "ability.narutorpg.burial_arm_attack": "Burial Arm Attack",
+  "ability.narutorpg.byakugan": "Byakugan",
+  "ability.narutorpg.certain_kill_treasured_tool_meteor": "Certain-Kill Treasured Tool Meteor",
+  "ability.narutorpg.chains_twin_fangs_slash": "Chains: Twin Fangs Slash",
+  "ability.narutorpg.circle_wild_dance": "Circle Wild Dance",
+  "ability.narutorpg.covert_cut": "Covert Cut",
+  "ability.narutorpg.curse_technique_body_controlling_manipulated_blood": "Curse Technique: Body Controlling Manipulated Blood",
+  "ability.narutorpg.cursed_seal_of_earth": "Cursed Seal of Earth",
+  "ability.narutorpg.cursed_seal_of_heaven": "Cursed Seal of Heaven",
+  "ability.narutorpg.daikokuten_shokatsu": "Daikokuten: Shokatsu",
+  "ability.narutorpg.dance_of_the_kusanagi": "Dance of the Kusanagi",
+  "ability.narutorpg.dance_of_the_sickle_blade_rising_lift_blade": "Dance of the Sickle Blade: Rising Lift Blade",
+  "ability.narutorpg.dance_of_the_sickle_blade_strong_blade": "Dance of the Sickle Blade: Strong Blade",
+  "ability.narutorpg.dance_of_the_sickle_blade_vertical_revolving_blade": "Dance of the Sickle Blade: Vertical Revolving Blade",
+  "ability.narutorpg.dance_of_the_sword": "Dance of the Sword",
+  "ability.narutorpg.dancing_blade_risk": "Dancing Blade Risk",
+  "ability.narutorpg.evernight": "Evernight",
+  "ability.narutorpg.evil_sealing_method": "Evil Sealing Method",
+  "ability.narutorpg.existence_beheading": "Existence Beheading",
+  "ability.narutorpg.explosive_parachute": "Explosive Parachute",
+  "ability.narutorpg.five_elements_seal": "Five Elements Seal",
+  "ability.narutorpg.five_elements_unseal": "Five Elements Unseal",
+  "ability.narutorpg.flash_slice": "Flash Slice",
+  "ability.narutorpg.flying_revolving_sword": "Flying Revolving Sword",
+  "ability.narutorpg.forbidden_technique_gedo_seal": "Forbidden Technique: Gedō Seal",
+  "ability.narutorpg.frying_pan_attack": "Frying Pan Attack",
+  "ability.narutorpg.frying_pan_rapid_fire_strikes": "Frying Pan Rapid Fire Strikes",
+  "ability.narutorpg.future_telling": "Future Telling",
+  "ability.narutorpg.gedo_seal_release": "Gedō Seal: Release",
+  "ability.narutorpg.giant_spinning_axe": "Giant Spinning Axe",
+  "ability.narutorpg.great_dance_slash": "Great Dance Slash",
+  "ability.narutorpg.hazy_moon_night": "Hazy Moon Night",
+  "ability.narutorpg.iai_beheading": "Iai Beheading",
+  "ability.narutorpg.iaido": "Iaidō",
+  "ability.narutorpg.instant": "Instant",
+  "ability.narutorpg.iq200": "IQ200",
+  "ability.narutorpg.iron_armour_seal": "Iron Armour Seal",
+  "ability.narutorpg.iron_hammer_of_kirigakure_game": "Iron Hammer of Kirigakure (game)",
+  "ability.narutorpg.jogan": "Jōgan",
+  "ability.narutorpg.ketsuryugan": "Ketsuryūgan",
+  "ability.narutorpg.kokugan": "Kokugan",
+  "ability.narutorpg.kumogakure_taijutsu_wolf_ring": "Kumogakure Taijutsu: Wolf Ring",
+  "ability.narutorpg.leaf_style_swift_sword": "Leaf Style: Swift Sword",
+  "ability.narutorpg.longsword_ninja_art_earth_spider_sewing": "Longsword Ninja Art — Earth Spider Sewing",
+  "ability.narutorpg.longsword_ninja_art_massacre_method_formation": "Longsword Ninja Art: Massacre Method Formation",
+  "ability.narutorpg.mach_boomerang": "Mach Boomerang",
+  "ability.narutorpg.mangekyo_sharingan": "Mangekyō Sharingan",
+  "ability.narutorpg.ninja_wolfsbane": "Ninja Wolfsbane",
+  "ability.narutorpg.nuibari_fall": "Nuibari: Fall",
+  "ability.narutorpg.oblique_shadow_slash": "Oblique Shadow Slash",
+  "ability.narutorpg.orochimaru_s_juinjutsu": "Orochimaru's Juinjutsu",
+  "ability.narutorpg.piercing_showers": "Piercing Showers",
+  "ability.narutorpg.poison_senbon": "Poison Senbon",
+  "ability.narutorpg.raging_thunder": "Raging Thunder",
+  "ability.narutorpg.retreating_tear_sever": "Retreating Tear Sever",
+  "ability.narutorpg.rinne_sharingan": "Rinne Sharingan",
+  "ability.narutorpg.rinnegan": "Rinnegan",
+  "ability.narutorpg.rolling_pin_shuriken": "Rolling Pin Shuriken",
+  "ability.narutorpg.rotating_destruction_slash": "Rotating Destruction Slash",
+  "ability.narutorpg.samehada_wild_dance": "Samehada Wild Dance",
+  "ability.narutorpg.sealing_technique_four_limbs_weighting_seal": "Sealing Technique: Four Limbs Weighting Seal",
+  "ability.narutorpg.sealing_technique_spirit_sealing": "Sealing Technique: Spirit Sealing",
+  "ability.narutorpg.secret_sword_moonlight": "Secret Sword: Moonlight",
+  "ability.narutorpg.secret_technique_sealing_release": "Secret Technique: Sealing Release",
+  "ability.narutorpg.senrigan": "Senrigan",
+  "ability.narutorpg.severed_inscription": "Severed Inscription",
+  "ability.narutorpg.severed_land": "Severed Land",
+  "ability.narutorpg.sharingan": "Sharingan",
+  "ability.narutorpg.shark_slaying_slash": "Shark-Slaying Slash",
+  "ability.narutorpg.shrine_seal": "Shrine Seal",
+  "ability.narutorpg.shrine_seal_release": "Shrine Seal: Release",
+  "ability.narutorpg.skewering_punishment": "Skewering Punishment",
+  "ability.narutorpg.slashing_handling_punishment": "Slashing Handling Punishment",
+  "ability.narutorpg.soul_hunting": "Soul Hunting",
+  "ability.narutorpg.sound_four_s_cursed_seals": "Sound Four's Cursed Seals",
+  "ability.narutorpg.spike_rain": "Spike Rain",
+  "ability.narutorpg.strength_of_a_hundred_seal": "Strength of a Hundred Seal",
+  "ability.narutorpg.sukunahikona_canopy_box_drop": "Sukunahikona: Canopy Box Drop",
+  "ability.narutorpg.sukunahikona_chaos_bloom": "Sukunahikona: Chaos Bloom",
+  "ability.narutorpg.sukunahikona_mighty_thrashing": "Sukunahikona: Mighty Thrashing",
+  "ability.narutorpg.tatami_return": "Tatami Return",
+  "ability.narutorpg.tearing_blade": "Tearing Blade",
+  "ability.narutorpg.tenseigan": "Tenseigan",
+  "ability.narutorpg.torii_seal": "Torii Seal",
+  "ability.narutorpg.twin_fangs_slash": "Twin Fangs Slash",
+  "ability.narutorpg.uchiha_style_kenjutsu": "Uchiha Style Kenjutsu",
+  "ability.narutorpg.unstoppable_blade_shuriken": "Unstoppable Blade Shuriken",
+  "ability.narutorpg.white_light_blade": "White Light Blade",
+  "ability.narutorpg.wild_shuriken_dance": "Wild Shuriken Dance",
+  "ability.narutorpg.yachihoko": "Yachihoko",
+  "ability.narutorpg.yin_seal_release": "Yin Seal: Release",
+  "ability.narutorpg.you_won_t_get_away": "You Won't Get Away!",
+  "ability.narutorpg.zero_tails_sealing_technique": "Zero-Tails Sealing Technique"
+ }
+}

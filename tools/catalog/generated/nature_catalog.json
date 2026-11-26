@@ -1520,6 +1520,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:lightning",
@@ -19386,6 +19404,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:water",
@@ -19418,6 +19454,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:water",
@@ -23262,6 +23316,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:yin",

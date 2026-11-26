@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 400,
+          "effect": "minecraft:night_vision"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "color": 12986408,
+      "effects": [
+        {
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 24.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Rinne Sharingan",
+    "translate": "ability.narutorpg.rinne_sharingan"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu"
+}

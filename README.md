@@ -141,6 +141,41 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Forms: tailed beasts, curse marks, Kāma, modes, kekkei genkai / mōra / tōta
+
+59 new forms (70 in total), awakened with 28 sealed-power items. Story arcs hand them out where the story does
+(One-Tails seal in Kazekage Rescue, curse marks in the Chūnin Exams / Sasuke Recovery, Sage scroll in Tale of Jiraiya,
+Nine-Tails in Pain's Assault, Kāma in Versus Momoshiki...). Bloodline awakenings and curse marks can also appear as
+very rare cache loot, and every item is in the creative tab. Use the item, then switch the form on from its
+technique item. Later stages **evolve with mastery** (time spent in the form).
+
+| Technique item | Forms |
+|---|---|
+| **Jinchūriki** | All nine tailed beasts: Version 1 → Version 2 → Tailed Beast Mode (Nine-Tails Chakra Mode for Kurama) → Full Tailed Beast Transformation (you become a giant). Plus Baryon Mode and the Ten-Tails Jinchūriki. |
+| **Senjutsu** | Sage Mode → Six Paths Sage Mode |
+| **Fūinjutsu** | Cursed Seal of Heaven / Earth (Level 1 → 2), Kāma → Kāma: Ōtsutsuki Awakening |
+| **Dōjutsu** | New: Susanoo (giant chakra armour), Eternal Mangekyō, Rinne Sharingan (the kekkei mōra techniques), Tenseigan Chakra Mode, Ranmaru's dōjutsu. Existing: Sharingan stages, Mangekyō, Byakugan, Rinnegan, Tenseigan, Jōgan, Ketsuryūgan, Kokugan, Senrigan. |
+| **Kekkei Genkai** | Shikotsumyaku, Jūgo clan Sage Transformation, Iburi smoke body, Kurama clan genjutsu, Rinha absorption, Ryūzetsu's Dragon Life, Sakon and Ukon's fusion, Yanaru's clone link |
+
+**What a form gives you:**
+- Stat powers: strength, armour, speed, size, max health.
+- Bloodline-style traits: regeneration, evasion, sensing, on-hit effects, a death save.
+- The jutsu its Narutopedia users wield. Shukaku's sand claws, Gyūki's ink and Kurama's tailed beast balls are
+  castable while the form is active.
+- An aura plus a translucent chakra cloak in the form's colour.
+
+The kekkei genkai natures (Wood, Lava, Dust...) were already in the game as nature releases. Coverage is listed in
+`docs/wiki/narutopedia_forms.md` and the generator is `tools/catalog/forms.py`.
+
+## Jutsu schools: Hiden, Medical, Fūinjutsu, Bukijutsu, Dōjutsu, Kekkei Genkai techniques
+
+There are 1,386 Narutopedia techniques across these schools and their sub-types (Regeneration, Juinjutsu, Kenjutsu,
+Shurikenjutsu, Kekkei Mōra / Tōta). They are all in the game; 103 are new in this release. Coverage is listed in
+`docs/wiki/narutopedia_schools.md` and the generator is `tools/catalog/schools.py`.
+- Weapon techniques now have their own **Bukijutsu** technique item.
+- **Medical ninjutsu heal allies**: every player, tamed animal and friendly story character within 6-9 blocks of the
+  medic.
+
 ## Story mode: quest scroll (every Narutopedia arc and movie)
 
 Every player gets a **Quest Scroll** on their first join. Use it to open the **Story Journal**, which covers all

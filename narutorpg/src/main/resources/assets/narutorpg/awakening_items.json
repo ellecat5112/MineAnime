@@ -1,0 +1,142 @@
+[
+ {
+  "item": "shukaku_seal",
+  "form": "narutorpg:shukaku_version_1",
+  "lore": "item.narutorpg.shukaku_seal.lore"
+ },
+ {
+  "item": "matatabi_seal",
+  "form": "narutorpg:matatabi_version_1",
+  "lore": "item.narutorpg.matatabi_seal.lore"
+ },
+ {
+  "item": "isobu_seal",
+  "form": "narutorpg:isobu_version_1",
+  "lore": "item.narutorpg.isobu_seal.lore"
+ },
+ {
+  "item": "son_goku_seal",
+  "form": "narutorpg:son_goku_version_1",
+  "lore": "item.narutorpg.son_goku_seal.lore"
+ },
+ {
+  "item": "kokuo_seal",
+  "form": "narutorpg:kokuo_version_1",
+  "lore": "item.narutorpg.kokuo_seal.lore"
+ },
+ {
+  "item": "saiken_seal",
+  "form": "narutorpg:saiken_version_1",
+  "lore": "item.narutorpg.saiken_seal.lore"
+ },
+ {
+  "item": "chomei_seal",
+  "form": "narutorpg:chomei_version_1",
+  "lore": "item.narutorpg.chomei_seal.lore"
+ },
+ {
+  "item": "gyuki_seal",
+  "form": "narutorpg:gyuki_version_1",
+  "lore": "item.narutorpg.gyuki_seal.lore"
+ },
+ {
+  "item": "kurama_seal",
+  "form": "narutorpg:kurama_version_1",
+  "lore": "item.narutorpg.kurama_seal.lore"
+ },
+ {
+  "item": "baryon_mode",
+  "form": "narutorpg:baryon_mode_form",
+  "lore": "item.narutorpg.baryon_mode.lore"
+ },
+ {
+  "item": "ten_tails_seal",
+  "form": "narutorpg:ten_tails_jinchuriki",
+  "lore": "item.narutorpg.ten_tails_seal.lore"
+ },
+ {
+  "item": "sage_scroll",
+  "form": "narutorpg:sage_mode",
+  "lore": "item.narutorpg.sage_scroll.lore"
+ },
+ {
+  "item": "cursed_seal_of_heaven",
+  "form": "narutorpg:cursed_seal_of_heaven_level_1",
+  "lore": "item.narutorpg.cursed_seal_of_heaven.lore"
+ },
+ {
+  "item": "cursed_seal_of_earth",
+  "form": "narutorpg:cursed_seal_of_earth_level_1",
+  "lore": "item.narutorpg.cursed_seal_of_earth.lore"
+ },
+ {
+  "item": "kama_seal",
+  "form": "narutorpg:kama",
+  "lore": "item.narutorpg.kama_seal.lore"
+ },
+ {
+  "item": "susanoo_scroll",
+  "form": "narutorpg:susanoo",
+  "lore": "item.narutorpg.susanoo_scroll.lore"
+ },
+ {
+  "item": "eternal_mangekyo",
+  "form": "narutorpg:eternal_mangekyo_sharingan",
+  "lore": "item.narutorpg.eternal_mangekyo.lore"
+ },
+ {
+  "item": "rinne_sharingan_eye",
+  "form": "narutorpg:rinne_sharingan",
+  "lore": "item.narutorpg.rinne_sharingan_eye.lore"
+ },
+ {
+  "item": "tenseigan_chakra",
+  "form": "narutorpg:tenseigan_chakra_mode",
+  "lore": "item.narutorpg.tenseigan_chakra.lore"
+ },
+ {
+  "item": "ranmaru_eye",
+  "form": "narutorpg:ranmaru_dojutsu",
+  "lore": "item.narutorpg.ranmaru_eye.lore"
+ },
+ {
+  "item": "shikotsumyaku_awakening",
+  "form": "narutorpg:shikotsumyaku",
+  "lore": "item.narutorpg.shikotsumyaku_awakening.lore"
+ },
+ {
+  "item": "sage_transformation_awakening",
+  "form": "narutorpg:sage_transformation",
+  "lore": "item.narutorpg.sage_transformation_awakening.lore"
+ },
+ {
+  "item": "smoke_body_awakening",
+  "form": "narutorpg:smoke_body",
+  "lore": "item.narutorpg.smoke_body_awakening.lore"
+ },
+ {
+  "item": "kurama_clan_illusion_awakening",
+  "form": "narutorpg:kurama_clan_illusion",
+  "lore": "item.narutorpg.kurama_clan_illusion_awakening.lore"
+ },
+ {
+  "item": "rinha_absorption_awakening",
+  "form": "narutorpg:rinha_absorption",
+  "lore": "item.narutorpg.rinha_absorption_awakening.lore"
+ },
+ {
+  "item": "dragon_life_awakening",
+  "form": "narutorpg:dragon_life",
+  "lore": "item.narutorpg.dragon_life_awakening.lore"
+ },
+ {
+  "item": "molecular_fusion_awakening",
+  "form": "narutorpg:molecular_fusion",
+  "lore": "item.narutorpg.molecular_fusion_awakening.lore"
+ },
+ {
+  "item": "clone_link_awakening",
+  "form": "narutorpg:clone_link",
+  "lore": "item.narutorpg.clone_link_awakening.lore"
+ }
+]

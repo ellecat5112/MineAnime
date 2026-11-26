@@ -1,0 +1,68 @@
+{
+  "activation_cost": 40.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.3,
+  "granted_abilities": [
+    "narutorpg:susanoo_attack",
+    "narutorpg:susanoo_blade_of_yachihoko",
+    "narutorpg:susanoo_captive_slash",
+    "narutorpg:susanoo_chidori",
+    "narutorpg:susanoo_crush",
+    "narutorpg:susanoo_dance_of_the_sword",
+    "narutorpg:susanoo_dance_of_two_swords",
+    "narutorpg:susanoo_destruction",
+    "narutorpg:amaterasu",
+    "narutorpg:blaze_release_kagutsuchi_flying_flame"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.6,
+      "attribute": "minecraft:generic.scale"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 14.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 20.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 8.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 1.5,
+      "attribute": "minecraft:generic.step_height"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.5
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": -0.15,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Susanoo",
+    "translate": "transformation.narutorpg.susanoo"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 8,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "aura_color": 8280002,
+    "aura_intensity": 1.5,
+    "cloak_alpha": 0.55,
+    "cloak_color": 9795021
+  }
+}

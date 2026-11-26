@@ -1,0 +1,39 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:speed"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Animal Cursed Seal",
+    "translate": "ability.narutorpg.animal_cursed_seal"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
+}

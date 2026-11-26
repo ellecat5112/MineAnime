@@ -51,7 +51,9 @@ final class NarutoLootTableProvider extends SimpleFabricLootTableProvider {
                         .with(supply("smoke_bomb", 3, 1, 3)).with(supply("makibishi", 3, 2, 6)).with(supply("barrier_tag", 3, 1, 4))
                         .with(supply("military_rations_pill", 3, 1, 3)).with(supply("blood_increasing_pill", 2, 1, 2))
                         .with(supply("flash_bomb", 2, 1, 2)).with(supply("wire_strings", 2, 1, 3)))
-                .pool(AnimeLootHelper.pool(1, 1).with(ItemEntry.builder(NarutoItems.FORGED_PAPERS).weight(1)).with(EmptyEntry.builder().weight(30))));
+                .pool(AnimeLootHelper.pool(1, 1).with(ItemEntry.builder(NarutoItems.FORGED_PAPERS).weight(1)).with(EmptyEntry.builder().weight(30)))
+                // very rare: a sealed power (curse mark, sage scroll, bloodline awakening - tailed beasts are story rewards)
+                .pool(forms(AnimeLootHelper.pool(1, 1)).with(EmptyEntry.builder().weight(400))));
         villageCaches(exporter);
     }
 
@@ -86,5 +88,12 @@ final class NarutoLootTableProvider extends SimpleFabricLootTableProvider {
         return ItemEntry.builder(NarutoTools.item(id)).weight(weight)
                 .apply(net.minecraft.loot.function.SetCountLootFunction.builder(
                         net.minecraft.loot.provider.number.UniformLootNumberProvider.create(min, max)));
+    }
+
+    private static net.minecraft.loot.LootPool.Builder forms(net.minecraft.loot.LootPool.Builder pool) {
+        com.narutorpg.content.NarutoForms.ITEMS.forEach((id, item) -> {
+            if (!id.endsWith("_seal") || id.startsWith("cursed")) pool.with(ItemEntry.builder(item).weight(1));
+        });
+        return pool;
     }
 }

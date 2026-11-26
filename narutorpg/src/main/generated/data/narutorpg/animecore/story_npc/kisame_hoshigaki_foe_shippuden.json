@@ -1,10 +1,10 @@
 {
   "abilities": [
     "narutorpg:earth_release_subterranean_voyage",
+    "narutorpg:iaido",
     "narutorpg:summoning_technique",
     "narutorpg:water_prison_technique",
     "narutorpg:water_release_a_thousand_feeding_sharks",
-    "narutorpg:water_release_exploding_water_colliding_wave",
     "narutorpg:chakra_transfer_technique"
   ],
   "appearance": {

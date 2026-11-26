@@ -105,7 +105,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -222,7 +222,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "afterimage_clone": {
    "actions": [
@@ -342,7 +342,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -2122,7 +2122,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "blood"
    }
@@ -2170,7 +2170,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -2366,6 +2366,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -2409,7 +2427,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "booby_trap": {
    "actions": [
@@ -2434,7 +2452,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "bouncy_bouncy_technique": {
    "actions": [
@@ -2711,6 +2729,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -2792,7 +2828,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "chakra_burning": {
    "actions": [
@@ -3261,7 +3297,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "chakra_shockwave_slash": {
    "actions": [
@@ -3286,7 +3322,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "chakra_sword_great_intersecting_wound": {
    "actions": [
@@ -3319,7 +3355,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "charge_konohamaru_army_corps": {
    "actions": [
@@ -3582,7 +3618,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -3803,7 +3839,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "club_technique": {
    "actions": [
@@ -4321,6 +4357,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -4676,7 +4730,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -4768,7 +4822,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "dance_of_the_shikigami_punishment": {
    "actions": [
@@ -4994,6 +5048,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -5164,6 +5236,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -5605,7 +5695,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -5708,7 +5798,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "earth_grudge_fear": {
    "actions": [
@@ -5825,7 +5915,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "eight_branches_technique": {
    "actions": [
@@ -6176,7 +6266,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -6615,7 +6705,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "falling_vortex_interment": {
    "actions": [
@@ -7143,7 +7233,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "flaming_fang_petrification_poison": {
    "actions": [
@@ -7196,7 +7286,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "flash_mode": {
    "actions": [
@@ -7671,7 +7761,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -7699,7 +7789,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -7727,7 +7817,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -8380,7 +8470,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -8436,7 +8526,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "furious_smelting_whirlwind": {
    "actions": [
@@ -8461,7 +8551,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "gelel_rasengan": {
    "actions": [
@@ -8570,7 +8660,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "god_nativity_of_a_world_of_trees": {
    "actions": [
@@ -9419,7 +9509,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -9436,6 +9526,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -9468,6 +9576,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -9601,7 +9727,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "heavenly_advent": {
    "actions": [
@@ -10115,7 +10241,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "hog_release_tonton": {
    "actions": [
@@ -10788,7 +10914,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "iwagakure_kinjutsu": {
    "actions": [
@@ -10849,7 +10975,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "kagura_square_formation": {
    "actions": [
@@ -10958,6 +11084,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -11598,7 +11742,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_binding_meteor": {
    "actions": [
@@ -11652,7 +11796,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_deadly_spheres_strike": {
    "actions": [
@@ -11677,7 +11821,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_exploding_sphere": {
    "actions": [
@@ -11741,7 +11885,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_gigantic_iron_ball": {
    "actions": [
@@ -11795,7 +11939,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_heavenly_chain_disaster": {
    "actions": [
@@ -11857,7 +12001,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_one_thousand_blades_attack": {
    "actions": [
@@ -11886,7 +12030,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_spinning_swallow_show": {
    "actions": [
@@ -11921,7 +12065,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_steel_needles_wild_flower": {
    "actions": [
@@ -11975,7 +12119,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulated_tools_thousand_blades_attack_performance": {
    "actions": [
@@ -12000,7 +12144,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "manipulating_attack_blades_explosion": {
    "actions": [
@@ -12029,7 +12173,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "many_hidden_shadow_snake_hands": {
    "actions": [
@@ -12138,7 +12282,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "blood"
    }
@@ -12211,6 +12355,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -12484,7 +12646,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "mimetic_insects_crawl": {
    "actions": [
@@ -12565,6 +12727,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -12928,7 +13108,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "multiple_shadow_clone_technique": {
    "actions": [
@@ -13083,7 +13263,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "mysterious_peacock_method": {
    "actions": [
@@ -13565,6 +13745,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -13699,7 +13897,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "ninja_art_ten_thousand_flowers_profusion": {
    "actions": [
@@ -14273,7 +14471,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "paper_shuriken": {
    "actions": [
@@ -14999,7 +15197,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "piercing_cloud_spear": {
    "actions": [
@@ -15024,7 +15222,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "planetary_rasengan": {
    "actions": [
@@ -15272,7 +15470,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "prepared_puppet_eight_waves_of_needles": {
    "actions": [
@@ -15301,7 +15499,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "pressure_points_of_harm_and_death": {
    "actions": [
@@ -15726,7 +15924,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "puppet_early_summer_rain": {
    "actions": [
@@ -15848,7 +16046,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "puppet_performance_one_in_body_and_soul": {
    "actions": [
@@ -15930,7 +16128,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "puppet_smoke_bombs": {
    "actions": [
@@ -16068,7 +16266,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "puppet_technique_prosthetic_arm_senbon": {
    "actions": [
@@ -16097,7 +16295,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "puppet_technique_spear": {
    "actions": [
@@ -16122,7 +16320,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "puppet_technique_sword": {
    "actions": [
@@ -16147,7 +16345,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "quarantine_wall": {
    "actions": [
@@ -16272,7 +16470,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "rain_of_spiders": {
    "actions": [
@@ -16334,7 +16532,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "rasengan_connection": {
    "actions": [
@@ -16438,7 +16636,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "red_banded_snake": {
    "actions": [
@@ -16522,7 +16720,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "red_secret_technique_performance_of_a_hundred_puppets": {
    "actions": [
@@ -16577,7 +16775,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "redaku_reincarnation_ninjutsu": {
    "actions": [
@@ -16704,7 +16902,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -16896,7 +17094,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "rope_escape_technique": {
    "actions": [
@@ -17066,7 +17264,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "ryumyaku_chakra_control": {
    "actions": [
@@ -17432,7 +17630,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "sakura_special_shuriken_throwing_technique": {
    "actions": [
@@ -17461,7 +17659,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "samurai_sabre_technique": {
    "actions": [
@@ -17486,7 +17684,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -18364,7 +18562,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "sand_waterfall_funeral": {
    "actions": [
@@ -19284,6 +19482,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -19347,7 +19563,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -19375,7 +19591,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "secret_technique_insect_arm": {
    "actions": [
@@ -19521,7 +19737,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "secret_technique_summoning_mugen_castle": {
    "actions": [
@@ -19601,6 +19817,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -20288,7 +20522,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "shadow_sword": {
    "actions": [
@@ -20506,7 +20740,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -20760,7 +20994,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -20788,7 +21022,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "slithering_snake_mode": {
    "actions": [
@@ -21336,7 +21570,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "soft_physique_modification": {
    "actions": [
@@ -21532,7 +21766,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -21834,7 +22068,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "spider_web_area": {
    "actions": [
@@ -22073,7 +22307,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -22335,6 +22569,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -22378,7 +22630,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "student_and_teacher_rasengan": {
    "actions": [
@@ -23344,7 +23596,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "super_beast_imitating_drawing_dragon": {
    "actions": [
@@ -23802,7 +24054,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -23838,7 +24090,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "sword_of_kusanagi_one_stab_death": {
    "actions": [
@@ -23871,7 +24123,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -24266,7 +24518,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -24414,7 +24666,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "thousand_hands_manipulation_force": {
    "actions": [
@@ -24499,7 +24751,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "three_colouring": {
    "actions": [
@@ -25376,7 +25628,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "twin_swift_rasengan": {
    "actions": [
@@ -25426,7 +25678,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "twinsword_technique_cut_to_pieces": {
    "actions": [
@@ -25451,7 +25703,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "two_calm_kusanagi": {
    "actions": [
@@ -25484,7 +25736,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "two_tails_exploding_orbs": {
    "actions": [
@@ -25581,7 +25833,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "uchiha_style_blade_technique_hagoromo": {
    "actions": [
@@ -25606,7 +25858,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "uchiha_style_shurikenjutsu_hazy_wheel": {
    "actions": [
@@ -25635,7 +25887,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "ultimate_poison_scattering": {
    "actions": [
@@ -26481,7 +26733,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "white_assimilation_poison_mist": {
    "actions": [
@@ -26730,6 +26982,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 0,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 6.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -26879,7 +27149,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -26927,7 +27197,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -26975,7 +27245,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -27054,7 +27324,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "winding_smoke_technique": {
    "actions": [
@@ -27336,7 +27606,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "yachihoko_no_kami": {
    "actions": [
@@ -27394,7 +27664,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu",
+   "token": "narutorpg:bukijutsu",
    "visuals": {
     "style": "space"
    }
@@ -27439,6 +27709,24 @@
      ],
      "heal": 6.0,
      "type": "animecore:self_buff"
+    },
+    {
+     "color": 7798531,
+     "effects": [
+      {
+       "amplifier": 1,
+       "duration": 1,
+       "effect": "minecraft:instant_health"
+      },
+      {
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:regeneration"
+      }
+     ],
+     "radius": 9.0,
+     "targets": "allies",
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",

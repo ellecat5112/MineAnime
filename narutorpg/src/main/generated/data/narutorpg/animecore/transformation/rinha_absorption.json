@@ -1,0 +1,40 @@
+{
+  "activation_cost": 12.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.06,
+  "granted_abilities": [
+    "narutorpg:absorption_sphere"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 2.0,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.2
+    }
+  ],
+  "name": {
+    "fallback": "Rinha Clan Absorption",
+    "translate": "transformation.narutorpg.rinha_absorption"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 4,
+  "system": "narutorpg",
+  "token": "narutorpg:kekkei_genkai",
+  "traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.5,
+      "effect": "minecraft:weakness"
+    }
+  ],
+  "visuals": {
+    "aura_color": 4532128,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 13747433
+  }
+}

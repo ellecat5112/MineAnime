@@ -36,7 +36,7 @@
     "translate": "ability.narutorpg.reverse_mist_beheading"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "smoke"
   }

@@ -31,7 +31,8 @@ public final class NarutoTokens {
             {"crystal", "crystal_release", "F8BBD0"}, {"dark", "dark_release", "5E35B1"}, {"steel", "steel_release", "CFD8DC"},
             {"swift", "swift_release", "FFF59D"}, {"typhoon", "typhoon_release", "80CBC4"}, {"ninjutsu", "ninjutsu", "90CAF9"}, {"taijutsu", "taijutsu", "66BB6A"},
             {"genjutsu", "genjutsu", "F06292"}, {"fuinjutsu", "fuinjutsu", "FFD54F"}, {"medical_ninjutsu", "medical_ninjutsu", "76FF03"},
-            {"hiden", "hiden", "BDBDBD"}, {"dojutsu", "dojutsu", "E53935"},
+            {"hiden", "hiden", "BDBDBD"}, {"dojutsu", "dojutsu", "E53935"}, {"bukijutsu", "bukijutsu", "CFD8DC"},
+            {"jinchuriki", "jinchuriki", "FF6D00"}, {"senjutsu", "senjutsu", "FFB300"}, {"kekkei_genkai", "kekkei_genkai", "B388FF"},
     };
 
     public static final Map<Identifier, Item> ITEMS = new LinkedHashMap<>();
@@ -53,7 +54,8 @@ public final class NarutoTokens {
     /** item path for the lang / model providers */
     public static Map<Item, String> names() {
         Map<Item, String> out = new LinkedHashMap<>();
-        String[] schools = {"Ninjutsu", "Taijutsu", "Genjutsu", "Fūinjutsu", "Medical Ninjutsu", "Hiden Techniques", "Dōjutsu"};
+        String[] schools = {"Ninjutsu", "Taijutsu", "Genjutsu", "Fūinjutsu", "Medical Ninjutsu", "Hiden Techniques", "Dōjutsu", "Bukijutsu",
+                "Jinchūriki", "Senjutsu", "Kekkei Genkai"};
         int s = 0;
         for (String[] t : TOKENS) {
             Item item = ITEMS.get(NarutoRPG.CTX.id(t[0]));

@@ -1,0 +1,46 @@
+{
+  "activation_cost": 12.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.06,
+  "granted_abilities": [
+    "narutorpg:demonic_illusion_cajolery_of_glamour",
+    "narutorpg:demonic_illusion_dancing_blossom_swarm_technique",
+    "narutorpg:demonic_illusion_descending_hell_technique",
+    "narutorpg:demonic_illusion_double_false_surroundings_technique",
+    "narutorpg:demonic_illusion_false_surroundings_technique"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.5
+    }
+  ],
+  "name": {
+    "fallback": "Kurama Clan Genjutsu",
+    "translate": "transformation.narutorpg.kurama_clan_illusion"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 4,
+  "system": "narutorpg",
+  "token": "narutorpg:kekkei_genkai",
+  "traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.5,
+      "duration": 80,
+      "effect": "minecraft:nausea"
+    },
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.2,
+      "duration": 30,
+      "effect": "minecraft:blindness"
+    }
+  ],
+  "visuals": {
+    "aura_color": 11342935,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 16301008
+  }
+}

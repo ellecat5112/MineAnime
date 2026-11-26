@@ -1,0 +1,53 @@
+{
+  "activation_cost": 12.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.06,
+  "granted_abilities": [
+    "narutorpg:sage_transformation",
+    "narutorpg:blaze_release_susanoo_odachi",
+    "narutorpg:broadaxe",
+    "narutorpg:cellular_regeneration_absorption",
+    "narutorpg:chain"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 7.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.15,
+      "attribute": "minecraft:generic.scale"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.3
+    }
+  ],
+  "name": {
+    "fallback": "Sage Transformation (Jūgo Clan)",
+    "translate": "transformation.narutorpg.sage_transformation"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 5,
+  "system": "narutorpg",
+  "token": "narutorpg:kekkei_genkai",
+  "traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.0
+    }
+  ],
+  "visuals": {
+    "aura_color": 7162945,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 9268835
+  }
+}

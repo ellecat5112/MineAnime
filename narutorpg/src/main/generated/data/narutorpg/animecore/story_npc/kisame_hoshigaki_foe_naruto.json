@@ -1,10 +1,10 @@
 {
   "abilities": [
+    "narutorpg:iaido",
     "narutorpg:summoning_technique",
     "narutorpg:water_prison_technique",
     "narutorpg:water_release_great_waterfall_technique",
     "narutorpg:water_release_water_dragon_bullet_technique",
-    "narutorpg:water_release_water_shark_bullet_technique",
     "narutorpg:chakra_transfer_technique"
   ],
   "appearance": {

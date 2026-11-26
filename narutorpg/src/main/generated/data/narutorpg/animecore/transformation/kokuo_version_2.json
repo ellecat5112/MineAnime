@@ -1,0 +1,67 @@
+{
+  "activation_cost": 20.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.1,
+  "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:five_mountain_jump",
+    "narutorpg:forward_trampling_jump",
+    "narutorpg:great_trample_circle"
+  ],
+  "mastery_to_evolve": 4800,
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 5.666666666666667,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.2,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 5.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.scale"
+    },
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:boil",
+      "multiplier": 1.3
+    }
+  ],
+  "name": {
+    "fallback": "Five-Tails Cloak: Version 2",
+    "translate": "transformation.narutorpg.kokuo_version_2"
+  },
+  "next_stage": "narutorpg:kokuo_tailed_beast_mode",
+  "pool": "narutorpg:chakra",
+  "required_tier": 5,
+  "system": "narutorpg",
+  "token": "narutorpg:jinchuriki",
+  "traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.0
+    },
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.3,
+      "duration": 40,
+      "effect": "minecraft:wither"
+    }
+  ],
+  "visuals": {
+    "aura_color": 15527921,
+    "aura_intensity": 0.9,
+    "cloak_alpha": 0.6,
+    "cloak_color": 15527921
+  }
+}

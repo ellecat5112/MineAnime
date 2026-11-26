@@ -303,6 +303,88 @@
         "max": 1.0,
         "min": 1.0
       }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:baryon_mode"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:sage_scroll"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:cursed_seal_of_heaven"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:cursed_seal_of_earth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:susanoo_scroll"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:eternal_mangekyo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:rinne_sharingan_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:tenseigan_chakra"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:ranmaru_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:shikotsumyaku_awakening"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:sage_transformation_awakening"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:smoke_body_awakening"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:kurama_clan_illusion_awakening"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:rinha_absorption_awakening"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:dragon_life_awakening"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:molecular_fusion_awakening"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "narutorpg:clone_link_awakening"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 400
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 1.0,
+        "min": 1.0
+      }
     }
   ]
 }

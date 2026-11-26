@@ -36,7 +36,7 @@
     "translate": "ability.narutorpg.clone_flicker"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "smoke"
   }

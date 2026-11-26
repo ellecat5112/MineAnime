@@ -1,0 +1,66 @@
+{
+  "activation_cost": 15.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.06,
+  "granted_abilities": [
+    "narutorpg:sage_art_amphibian_technique",
+    "narutorpg:sage_art_big_ball_spiralling_drop_instant_lightning",
+    "narutorpg:sage_art_five_fire_gods_fan_of_flames",
+    "narutorpg:sage_art_five_fire_gods_fan_of_flames_true_fire",
+    "narutorpg:sage_art_frog_call",
+    "narutorpg:sage_art_frog_call_spiral",
+    "narutorpg:sage_art_gate_of_the_great_god",
+    "narutorpg:sage_art_goemon",
+    "narutorpg:sage_art_great_snake_lightning",
+    "narutorpg:sage_art_great_snake_lightning_white_snake"
+  ],
+  "mastery_to_evolve": 12000,
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.3
+    },
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.5,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "name": {
+    "fallback": "Sage Mode",
+    "translate": "transformation.narutorpg.sage_mode"
+  },
+  "next_stage": "narutorpg:six_paths_sage_mode",
+  "pool": "narutorpg:chakra",
+  "required_tier": 5,
+  "system": "narutorpg",
+  "token": "narutorpg:senjutsu",
+  "traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 32.0
+    }
+  ],
+  "visuals": {
+    "aura_color": 16757504,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.18,
+    "cloak_color": 16748288
+  }
+}

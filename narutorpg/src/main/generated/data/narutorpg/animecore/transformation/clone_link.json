@@ -1,0 +1,39 @@
+{
+  "activation_cost": 12.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.06,
+  "granted_abilities": [
+    "narutorpg:shadow_clone_technique",
+    "narutorpg:multiple_shadow_clone_technique"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.1
+    }
+  ],
+  "name": {
+    "fallback": "Clone Link (Yanaru)",
+    "translate": "transformation.narutorpg.clone_link"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:kekkei_genkai",
+  "traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 32.0
+    },
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.25
+    }
+  ],
+  "visuals": {
+    "aura_color": 4545124,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 11583173
+  }
+}

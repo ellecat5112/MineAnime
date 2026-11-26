@@ -18,7 +18,7 @@
     "translate": "ability.narutorpg.puppet_technique"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "wind"
   }

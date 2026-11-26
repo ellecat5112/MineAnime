@@ -1,0 +1,76 @@
+{
+  "activation_cost": 50.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.3,
+  "granted_abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:freight_bundle_bubble",
+    "narutorpg:poison_mist",
+    "narutorpg:soap_bubble_ninjutsu",
+    "narutorpg:sticky_bite",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:continuous_tailed_beast_balls"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 3.5,
+      "attribute": "minecraft:generic.scale"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 44.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 14.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 10.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.step_height"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 20.0,
+      "attribute": "minecraft:generic.safe_fall_distance"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.2,
+      "attribute": "minecraft:generic.jump_strength"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.8
+    }
+  ],
+  "name": {
+    "fallback": "Six-Tails: Full Tailed Beast Transformation",
+    "translate": "transformation.narutorpg.saiken_tailed_beast_transformation"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 9,
+  "system": "narutorpg",
+  "token": "narutorpg:jinchuriki",
+  "traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.5
+    }
+  ],
+  "visuals": {
+    "aura_color": 13041408,
+    "aura_intensity": 1.6,
+    "cloak_alpha": 0.85,
+    "cloak_color": 13041408
+  }
+}

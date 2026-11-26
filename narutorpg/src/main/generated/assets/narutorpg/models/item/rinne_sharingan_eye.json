@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "narutorpg:item/rinne_sharingan_eye"
+  }
+}

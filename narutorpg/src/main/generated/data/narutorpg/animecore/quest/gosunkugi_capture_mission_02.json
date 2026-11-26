@@ -37,19 +37,18 @@
     },
     {
       "type": "travel",
-      "count": 63,
+      "count": 93,
       "text": {
-        "fallback": "Go: Hunt or Be Hunted?! Showdown at the O.K. Temple!",
+        "fallback": "Head out: Hunt or Be Hunted?! Showdown at the O.K. Temple!",
         "translate": "quest.narutorpg.gosunkugi_capture_mission_02.travel"
       }
     },
     {
       "type": "defeat",
-      "count": 3,
-      "target": "narutorpg:rogue_ninja_naruto",
+      "target": "narutorpg:sazanami_foe_naruto",
       "text": {
-        "fallback": "Defeat the attackers",
-        "translate": "quest.narutorpg.minion.naruto"
+        "fallback": "Defeat Sazanami",
+        "translate": "quest.narutorpg.defeat.sazanami_foe_naruto"
       }
     }
   ],

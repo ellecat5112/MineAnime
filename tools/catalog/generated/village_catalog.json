@@ -141,7 +141,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "dance_performance_second_step": {
    "actions": [
@@ -170,7 +170,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "desert_hand": {
    "actions": [
@@ -607,7 +607,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "giant_sphere": {
    "actions": [
@@ -732,7 +732,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "horn_breaking": {
    "actions": [
@@ -995,7 +995,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "mechanical_light_shield_block": {
    "actions": [
@@ -1058,7 +1058,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "nadeshiko_style_hardliner_gale_fist": {
    "actions": [
@@ -1222,7 +1222,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "peacock_whirlwind": {
    "actions": [
@@ -1612,7 +1612,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   },
   "sly_mind_affect_technique": {
    "actions": [
@@ -2149,7 +2149,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
-   "token": "narutorpg:taijutsu"
+   "token": "narutorpg:bukijutsu"
   }
  },
  "backgrounds": {

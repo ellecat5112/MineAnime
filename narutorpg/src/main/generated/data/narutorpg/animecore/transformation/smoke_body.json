@@ -1,0 +1,43 @@
+{
+  "activation_cost": 12.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.06,
+  "granted_abilities": [
+    "narutorpg:smoke_clone",
+    "narutorpg:binding_smoke_prison",
+    "narutorpg:dark_smoke_sphere"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.2,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Smoke Body (Iburi Clan)",
+    "translate": "transformation.narutorpg.smoke_body"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 4,
+  "system": "narutorpg",
+  "token": "narutorpg:kekkei_genkai",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.5,
+      "projectiles_only": true
+    },
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:slow_falling"
+    }
+  ],
+  "visuals": {
+    "aura_color": 12434877,
+    "aura_intensity": 0.7,
+    "cloak_alpha": 0.3,
+    "cloak_color": 14737632
+  }
+}

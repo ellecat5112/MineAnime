@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 12986408,
+      "damage": 14.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sukunahikona: Mighty Thrashing",
+    "translate": "ability.narutorpg.sukunahikona_mighty_thrashing"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu"
+}

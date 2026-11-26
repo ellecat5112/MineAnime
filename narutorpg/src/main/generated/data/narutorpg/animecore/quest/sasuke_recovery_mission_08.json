@@ -73,6 +73,10 @@
       {
         "count": 16,
         "id": "narutorpg:shuriken"
+      },
+      {
+        "count": 1,
+        "id": "narutorpg:cursed_seal_of_earth"
       }
     ],
     "skill_points": 3,

@@ -58,6 +58,12 @@ public final class TechniqueTokens {
         });
     }
 
+    /** The token a form is listed on: its own {@code token}, else the system's forms token. */
+    private static @Nullable Identifier formToken(DynamicRegistryManager rm, SystemTokens s, Identifier form) {
+        return AnimeRegistries.transformation(rm, form).flatMap(e -> e.value().token())
+                .filter(t -> s.items().containsKey(t)).orElse(s.formsToken());
+    }
+
     public static java.util.Set<Identifier> tokenIds(String system) {
         SystemTokens s = SYSTEMS.get(system);
         return s == null ? java.util.Set.of() : s.items().keySet();
@@ -79,8 +85,10 @@ public final class TechniqueTokens {
     public static List<Entry> entries(DynamicRegistryManager rm, PlayerPowerComponent power, Identifier token) {
         List<Entry> out = new ArrayList<>();
         SystemTokens s = SYSTEMS.get(power.context().modId());
-        if (s != null && token.equals(s.formsToken())) {
-            power.unlockedTransformations().stream().sorted(Comparator.comparing(Identifier::toString)).forEach(f -> out.add(new Entry(f, true)));
+        if (s != null) {
+            power.unlockedTransformations().stream().sorted(Comparator.comparing(Identifier::toString))
+                    .filter(f -> token.equals(formToken(rm, s, f)))
+                    .forEach(f -> out.add(new Entry(f, true)));
         }
         List<Map.Entry<Identifier, AbilityDefinition>> abilities = new ArrayList<>();
         for (Identifier id : power.castableAbilities()) {
@@ -102,7 +110,10 @@ public final class TechniqueTokens {
         for (Identifier id : List.copyOf(power.unlockedAbilities())) {
             AnimeRegistries.ability(rm, id).ifPresent(e -> give(player, power, s, tokenOf(e.value())));
         }
-        if (s.formsToken() != null && !power.unlockedTransformations().isEmpty()) give(player, power, s, s.formsToken());
+        for (Identifier f : List.copyOf(power.unlockedTransformations())) {
+            Identifier t = formToken(rm, s, f);
+            if (t != null) give(player, power, s, t);
+        }
     }
 
     /** {@code /jutsu tokens}: re-issues tokens the player no longer carries. */

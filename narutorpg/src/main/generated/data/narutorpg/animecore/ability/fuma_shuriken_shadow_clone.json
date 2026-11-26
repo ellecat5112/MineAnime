@@ -36,7 +36,7 @@
     "translate": "ability.narutorpg.fuma_shuriken_shadow_clone"
   },
   "system": "narutorpg",
-  "token": "narutorpg:taijutsu",
+  "token": "narutorpg:bukijutsu",
   "visuals": {
     "style": "smoke"
   }

@@ -7,7 +7,7 @@ Source: https://naruto.fandom.com/wiki/Category:Arcs, https://naruto.fandom.com/
 - `Category:Arcs`: 82 pages, 0 subcategories
 - `Category:Movies`: 11 pages, 0 subcategories
 
-**92 arcs and movies, 635 story quests, 477 story characters.** Every page of both categories is in the game except the index pages below. Quest texts are condensed from Narutopedia (CC BY-SA).
+**92 arcs and movies, 635 story quests, 480 story characters.** Every page of both categories is in the game except the index pages below. Quest texts are condensed from Narutopedia (CC BY-SA).
 
 ### Pages intentionally not turned into quests
 

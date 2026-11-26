@@ -56,9 +56,17 @@ public final class ClanTraitHooks {
         for (IClanTrait t : traits(player, power)) t.tick(player, power);
     }
 
+    /** The clan's traits plus those of the active transformation (tailed-beast regeneration, Iburi smoke evasion...). */
     public static List<IClanTrait> traits(ServerPlayerEntity player, PlayerPowerComponent power) {
-        return power.lineage().flatMap(id -> AnimeRegistries.lineage(player.getRegistryManager(), id))
+        List<IClanTrait> clan = power.lineage().flatMap(id -> AnimeRegistries.lineage(player.getRegistryManager(), id))
                 .map(LineageDefinition::clanTraits).orElse(List.of());
+        List<IClanTrait> form = power.activeTransformation()
+                .flatMap(id -> AnimeRegistries.transformation(player.getRegistryManager(), id))
+                .map(e -> e.value().traits()).orElse(List.of());
+        if (form.isEmpty()) return clan;
+        List<IClanTrait> all = new java.util.ArrayList<>(clan);
+        all.addAll(form);
+        return all;
     }
 
     /**
