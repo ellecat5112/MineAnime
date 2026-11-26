@@ -33,7 +33,7 @@ public final class NarutoItems {
 
     private static final String SYSTEM = NarutoRPG.MOD_ID;
 
-    static { NarutoTools.init(); NarutoTokens.init(); }
+    static { NarutoTools.init(); NarutoTokens.init(); NarutoAdmin.init(); }
 
     /** From the wiki catalog: stab, or throw (with an Explosive Tag in the off-hand: explosive kunai). */
     public static final Item KUNAI = NarutoTools.item("kunai");

@@ -437,6 +437,11 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         return end == null ? 0 : (int) Math.max(0, end - now());
     }
 
+    public void clearCooldowns() {
+        cooldownEnds.clear();
+        markDirty(false);
+    }
+
     public void setCooldown(Identifier id, int ticks) {
         if (ticks <= 0) cooldownEnds.remove(id);
         else cooldownEnds.put(id, now() + ticks);

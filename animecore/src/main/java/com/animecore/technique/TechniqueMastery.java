@@ -114,14 +114,19 @@ public final class TechniqueMastery {
         DynamicRegistryManager rm = player.getRegistryManager();
         List<Identifier> list = list(rm, token);
         int level = power.tokenLevel(token);
+        List<Identifier> learned = new ArrayList<>();
         for (int i = 0; i < Math.min(level, list.size()); i++) {
             Identifier id = list.get(i);
             int tier = AnimeRegistries.ability(rm, id).map(e -> e.value().requiredTier()).orElse(1);
             if (power.tier() < tier || power.unlockedAbilities().contains(id)) continue;
-            if (power.unlockAbility(id)) {
-                AnimeRegistries.ability(rm, id).ifPresent(e -> player.sendMessage(
-                        Text.translatable("message.animecore.mastery.learned", e.value().name()).formatted(Formatting.AQUA), false));
-            }
+            if (power.unlockAbility(id)) learned.add(id);
+        }
+        if (learned.size() > 3) {   // bulk unlock (admin seal, big level jump): one summary line instead of chat spam
+            Text name = TechniqueTokens.item(power.context().modId(), token).map(i -> (Text) i.getName()).orElse(Text.literal(token.getPath()));
+            player.sendMessage(Text.translatable("message.animecore.mastery.learned_many", learned.size(), name).formatted(Formatting.AQUA), false);
+        } else {
+            for (Identifier id : learned) AnimeRegistries.ability(rm, id).ifPresent(e -> player.sendMessage(
+                    Text.translatable("message.animecore.mastery.learned", e.value().name()).formatted(Formatting.AQUA), false));
         }
         awaken(player, power, token, level);
     }

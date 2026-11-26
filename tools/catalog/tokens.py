@@ -29,6 +29,11 @@ TOKENS = {
 }
 
 
+# admin seals: gold-framed black talisman with an action glyph
+ADMIN = {'admin_seal_rank_up': 'chevron', 'admin_seal_clan_level': 'tomoe', 'admin_seal_mastery': 'flame', 'admin_seal_skill_points': 'dots',
+         'admin_seal_natures': 'swirl', 'admin_seal_reputation': 'leaf', 'admin_seal_refill': 'drop', 'admin_seal_max_all': 'sun'}
+
+
 def rgb(h, a=255):
     return ((h >> 16) & 255, (h >> 8) & 255, h & 255, a)
 
@@ -126,7 +131,44 @@ def build():
                 x, y = cx + 4.2 * math.cos(a), cy + 4.2 * math.sin(a)
                 d.ellipse([x - 1.6, y - 1.6, x + 1.6, y + 1.6], fill=(10, 0, 0, 255))
         im.save(os.path.join(ITEM_DIR, name + '.png'), optimize=True)
-    print(f'{len(TOKENS)} technique tokens -> {ITEM_DIR}')
+    for name, glyph in ADMIN.items():
+        im = Image.new('RGBA', (32, 32), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.rectangle([5, 2, 26, 29], fill=(212, 160, 23, 255))
+        d.rectangle([6, 3, 25, 28], fill=(24, 18, 28, 255))
+        d.rectangle([8, 5, 23, 26], outline=(160, 30, 40, 255))
+        g = (255, 214, 90, 255)
+        cx, cy = 15.5, 15.5
+        if glyph == 'chevron':
+            for k in range(3):
+                d.line([(10, 20 - k * 5), (cx, 15 - k * 5), (21, 20 - k * 5)], fill=g, width=2)
+        elif glyph == 'tomoe':
+            d.ellipse([10, 10, 21, 21], outline=g, width=2)
+            for k in range(3):
+                a = k * 2 * math.pi / 3
+                d.ellipse([cx + 3 * math.cos(a) - 1.5, cy + 3 * math.sin(a) - 1.5, cx + 3 * math.cos(a) + 1.5, cy + 3 * math.sin(a) + 1.5], fill=g)
+        elif glyph == 'flame':
+            d.polygon([(cx, 8), (cx + 5, 17), (cx + 3, 23), (cx - 3, 23), (cx - 5, 17)], fill=g)
+        elif glyph == 'dots':
+            for k in range(5):
+                a = k * 2 * math.pi / 5 - math.pi / 2
+                d.ellipse([cx + 5 * math.cos(a) - 1.5, cy + 5 * math.sin(a) - 1.5, cx + 5 * math.cos(a) + 1.5, cy + 5 * math.sin(a) + 1.5], fill=g)
+        elif glyph == 'swirl':
+            for k in range(3):
+                d.arc([cx - 6 + k * 2, cy - 6 + k * 2, cx + 6 - k * 2, cy + 6 - k * 2], k * 90, k * 90 + 220, fill=g, width=2)
+        elif glyph == 'leaf':
+            d.ellipse([10, 9, 21, 22], fill=g)
+            d.line([(cx, 9), (cx, 24)], fill=(24, 18, 28, 255))
+        elif glyph == 'drop':
+            d.polygon([(cx, 8), (cx + 5, 17), (cx, 22), (cx - 5, 17)], fill=(90, 190, 255, 255))
+            d.ellipse([cx - 5, 13, cx + 5, 22], fill=(90, 190, 255, 255))
+        elif glyph == 'sun':
+            d.ellipse([11, 11, 20, 20], fill=g)
+            for k in range(8):
+                a = k * math.pi / 4
+                d.line([(cx + 6 * math.cos(a), cy + 6 * math.sin(a)), (cx + 9 * math.cos(a), cy + 9 * math.sin(a))], fill=g, width=2)
+        im.save(os.path.join(ITEM_DIR, name + '.png'), optimize=True)
+    print(f'{len(TOKENS)} technique tokens + {len(ADMIN)} admin seals -> {ITEM_DIR}')
 
 
 if __name__ == '__main__':

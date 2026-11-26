@@ -108,23 +108,29 @@ public final class ClanAbilityManager {
         Optional<LineageDefinition> def = AnimeRegistries.lineage(player.getRegistryManager(), lineage);
         if (def.isEmpty()) return;
         int level = power.clanSkillLevel(lineage);
+        int before = power.unlockedAbilities().size() + power.unlockedTransformations().size();
+        boolean quiet = def.get().progression().stream().filter(e -> e.skillLevel() <= level && power.tier() >= e.requiredTier()
+                && !e.ability().map(power.unlockedAbilities()::contains).orElse(false)
+                && !e.transformation().map(power.unlockedTransformations()::contains).orElse(false)).count() > 3;
         for (LineageDefinition.ProgressionEntry entry : def.get().progression()) {
             if (level < entry.skillLevel() || power.tier() < entry.requiredTier()) continue;
             entry.ability().ifPresent(id -> {
                 if (power.grantClanAbility(id)) {
                     AnimeCoreEvents.CLAN_UNLOCK.invoker().onUnlock(player, power, lineage, id, false);
-                    AnimeRegistries.ability(player.getRegistryManager(), id).ifPresent(a -> player.sendMessage(
+                    if (!quiet) AnimeRegistries.ability(player.getRegistryManager(), id).ifPresent(a -> player.sendMessage(
                             Text.translatable("message.animecore.clan.unlocked", a.value().name()).formatted(Formatting.AQUA), false));
                 }
             });
             entry.transformation().ifPresent(id -> {
                 if (power.grantClanForm(id)) {
                     AnimeCoreEvents.CLAN_UNLOCK.invoker().onUnlock(player, power, lineage, id, true);
-                    AnimeRegistries.transformation(player.getRegistryManager(), id).ifPresent(f -> player.sendMessage(
+                    if (!quiet) AnimeRegistries.transformation(player.getRegistryManager(), id).ifPresent(f -> player.sendMessage(
                             Text.translatable("message.animecore.clan.unlocked", f.value().name()).formatted(Formatting.LIGHT_PURPLE), false));
                 }
             });
         }
+        int gained = power.unlockedAbilities().size() + power.unlockedTransformations().size() - before;
+        if (quiet && gained > 0) player.sendMessage(Text.translatable("message.animecore.clan.unlocked_many", gained, def.get().name()).formatted(Formatting.AQUA), false);
     }
 
     /**

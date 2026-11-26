@@ -141,6 +141,24 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Admin / cheat seals (creative tab "NarutoRPG Admin")
+
+These are for testing and server staff. Only operators (permission level 2) or players in creative mode can use them,
+and they're never used up. Right-click does a small step; sneak + right-click does a big one.
+
+| Seal | Use | Sneak + use |
+|---|---|---|
+| Rank Up Seal | +1 rank | +10 ranks |
+| Clan Awakening Seal | +1 clan skill level (unlocks follow) | max clan level |
+| Mastery Seal | +1 mastery on the jutsu item in your other hand | master it fully (empty hand: all your items) |
+| Skill Point Seal | +5 skill points | +50 |
+| Nature Seal | all basic natures | all 23 natures |
+| Reputation Seal | +50 with every village | allied with all |
+| Chakra Seal | refill all energy and clear every cooldown | same |
+| Kage Seal | max rank and clan level, master all your natures, refill | same |
+
+Big unlocks post one summary chat line instead of hundreds.
+
 ## Fan genjutsu (Naruto Fanon `Category:Genjutsu`), each with its own vision
 
 All **582 genjutsu** from the Naruto Fanon wiki are in. That covers the main category plus the *Path Gold Alignment
