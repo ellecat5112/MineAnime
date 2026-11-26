@@ -21,5 +21,6 @@
     "fallback": "Memory Blocking Technique",
     "translate": "ability.narutorpg.memory_blocking_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

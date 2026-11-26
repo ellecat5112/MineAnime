@@ -18,6 +18,7 @@
     "translate": "ability.narutorpg.furious_smelting"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

@@ -28,6 +28,7 @@
     "translate": "ability.narutorpg.four_legs_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

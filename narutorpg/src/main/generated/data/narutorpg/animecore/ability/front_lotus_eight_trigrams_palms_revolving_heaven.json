@@ -27,6 +27,7 @@
   },
   "required_tier": 10,
   "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
   "visuals": {
     "style": "light"
   }

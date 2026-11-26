@@ -45,6 +45,7 @@ import static com.narutorpg.content.NarutoContent.CHAKRA;
 /** Narutopedia Category:Tools: every tool registered, textured, translated, and both moves executable. */
 @SuppressWarnings("removal") // createMockCreativeServerPlayerInWorld is the 1.21.1 API
 public final class NinjaToolGameTests implements FabricGameTest {
+    private static final net.minecraft.util.Identifier CHAKRA_ID = com.narutorpg.content.NarutoContent.CHAKRA;
 
     private static ServerPlayerEntity survival(TestContext ctx, Vec3d rel) {
         ServerPlayerEntity player = ctx.createMockCreativeServerPlayerInWorld();
@@ -238,10 +239,18 @@ public final class NinjaToolGameTests implements FabricGameTest {
     @GameTest(templateName = EMPTY_STRUCTURE)
     public void karasuSummonsLoyalPuppet(TestContext ctx) {
         ServerPlayerEntity player = survival(ctx, new Vec3d(0.5, 2, 0.5));
+        // GameTest places tests at random coordinates; the puppet appears 2 blocks away, which can fall into a
+        // neighbouring, unloaded chunk where entity lookups cannot see it. Stand in the middle of the loaded chunk.
+        player.refreshPositionAndAngles(Math.floor(player.getX() / 16) * 16 + 8.5, player.getY(), Math.floor(player.getZ() / 16) * 16 + 8.5, 0f, 0f);
         hold(player, "karasu", 1);
         NarutoTools.item("karasu").use(ctx.getWorld(), player, Hand.MAIN_HAND);
         List<PuppetEntity> puppets = ctx.getWorld().getEntitiesByClass(PuppetEntity.class, player.getBoundingBox().expand(5), p -> true);
-        ctx.assertTrue(puppets.size() == 1, "expected one puppet, got " + puppets.size());
+        var dbgPower = NarutoRPG.CTX.power(player);
+        ctx.assertTrue(puppets.size() == 1, "expected one puppet, got " + puppets.size() + " chakra=" + dbgPower.pool(CHAKRA_ID).map(x -> x.current()).orElse(-1f)
+                + " access=" + com.animecore.origin.VillageAccessManager.access(player, player.getMainHandStack())
+                + " cd=" + player.getItemCooldownManager().isCoolingDown(NarutoTools.item("karasu")) + " sneak=" + player.isSneaking()
+                + " lineage=" + dbgPower.lineage() + " all=" + ctx.getWorld().getEntitiesByClass(PuppetEntity.class, player.getBoundingBox().expand(40), q -> true).size()
+                + " held=" + player.getMainHandStack());
         PuppetEntity karasu = puppets.get(0);
         ctx.assertTrue(karasu.isAlly(player) && karasu.kind().equals("crow") && karasu.style().equals("poison"), "wrong puppet setup");
         ctx.assertTrue(!karasu.damage(player.getDamageSources().playerAttack(player), 5f), "puppets ignore their owner's hits");

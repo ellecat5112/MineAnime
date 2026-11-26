@@ -21,5 +21,6 @@
     "fallback": "Shadow Cage Technique",
     "translate": "ability.narutorpg.shadow_cage_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

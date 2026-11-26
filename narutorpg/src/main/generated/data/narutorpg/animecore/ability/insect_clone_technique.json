@@ -35,6 +35,7 @@
     "translate": "ability.narutorpg.insect_clone_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "insect"
   }

@@ -32,6 +32,7 @@
     "translate": "ability.narutorpg.parasitic_giant_insect_bug_bite"
   },
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "insect"
   }

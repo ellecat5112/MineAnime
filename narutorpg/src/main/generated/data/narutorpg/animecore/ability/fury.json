@@ -26,5 +26,6 @@
     "translate": "ability.narutorpg.fury"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

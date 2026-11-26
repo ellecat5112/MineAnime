@@ -36,6 +36,7 @@
     "translate": "ability.narutorpg.iron_mountain_leaning"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "insect"
   }

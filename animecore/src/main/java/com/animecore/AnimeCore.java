@@ -44,6 +44,10 @@ public final class AnimeCore implements ModInitializer {
         com.animecore.clan.ClanRollService.init();
         com.animecore.clan.ClanTraitHooks.register();
         com.animecore.origin.OriginSelectionService.init();
+        com.animecore.technique.TechniqueTokens.init();
+        ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
+            for (var ctx : com.animecore.api.AnimeModRegistry.all()) com.animecore.technique.TechniqueTokens.ensureTokens(handler.player, ctx.power(handler.player));
+        });
         com.animecore.origin.VillageAccessManager.register();
         net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((s, m, ok) -> com.animecore.origin.VillageAccessManager.invalidate());
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> com.animecore.clan.ClanRollService.onJoin(handler.player));
@@ -53,6 +57,12 @@ public final class AnimeCore implements ModInitializer {
             com.animecore.command.ClanCommands.register(dispatcher);
             com.animecore.command.VfxCommands.register(dispatcher);
             com.animecore.command.OriginCommands.register(dispatcher);
+            dispatcher.register(net.minecraft.server.command.CommandManager.literal("jutsu").then(net.minecraft.server.command.CommandManager.literal("tokens").executes(c -> {
+                var p = c.getSource().getPlayerOrThrow();
+                int n = 0;
+                for (var ctx : com.animecore.api.AnimeModRegistry.all()) n += com.animecore.technique.TechniqueTokens.restore(p, ctx.power(p));
+                return n;
+            })));
         });
         EntityTrackingEvents.START_TRACKING.register(AnimationService::onStartTracking);
         ServerPlayConnectionEvents.DISCONNECT.register((handler, server) -> AnimationService.onDisconnect(handler.player));

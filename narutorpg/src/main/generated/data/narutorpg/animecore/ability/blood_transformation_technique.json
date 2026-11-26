@@ -31,6 +31,7 @@
   },
   "required_tier": 3,
   "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
   "visuals": {
     "style": "blood"
   }

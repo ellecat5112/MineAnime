@@ -22,5 +22,6 @@
     "translate": "ability.narutorpg.mind_body_disturbance_technique"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

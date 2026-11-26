@@ -17,6 +17,7 @@
   },
   "required_tier": 10,
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "style": "space"
   }

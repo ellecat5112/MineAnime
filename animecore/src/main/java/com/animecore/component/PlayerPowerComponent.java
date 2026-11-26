@@ -108,6 +108,8 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private boolean originSelected;
     private boolean rogue;
     private @Nullable Identifier formerFaction;
+    /** Technique tokens already handed out (a dropped / stored token is not re-given; /jutsu tokens restores them). */
+    private final Set<Identifier> tokensGiven = new LinkedHashSet<>();
 
     // ---- synced, derived / session-only ----
     private final EnumSet<MovementMode> activeMovement = EnumSet.noneOf(MovementMode.class);
@@ -220,6 +222,8 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     public void setRogue(boolean value) { rogue = value; markDirty(true); }
     public Optional<Identifier> formerFaction() { return Optional.ofNullable(formerFaction); }
     public void setFormerFaction(@Nullable Identifier id) { formerFaction = id; markDirty(false); }
+    public boolean markTokenGiven(Identifier token) { boolean a = tokensGiven.add(token); if (a) markDirty(false); return a; }
+    public void clearTokensGiven() { tokensGiven.clear(); markDirty(false); }
     public Map<Identifier, Integer> reputations() { return Collections.unmodifiableMap(reputation); }
     public void setReputation(Identifier faction, int value) { reputation.put(faction, value); markDirty(false); }
     public void setClanInitialized(boolean value) { clanInitialized = value; markDirty(false); }
@@ -322,6 +326,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         if (added) {
             autoFillHotbar(id);
             markDirty(false);
+            if (player instanceof ServerPlayerEntity sp) com.animecore.technique.TechniqueTokens.ensureTokens(sp, this);
         }
         return added;
     }
@@ -347,7 +352,10 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
 
     public boolean unlockTransformation(Identifier id) {
         boolean added = unlockedTransformations.add(id);
-        if (added) markDirty(false);
+        if (added) {
+            markDirty(false);
+            if (player instanceof ServerPlayerEntity sp) com.animecore.technique.TechniqueTokens.ensureTokens(sp, this);
+        }
         return added;
     }
 
@@ -684,6 +692,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         origin.putBoolean("selected", originSelected);
         origin.putBoolean("rogue", rogue);
         tag.put("origin", origin);
+        tag.put("tokens_given", writeIds(tokensGiven));
         if (armedReactive != null && reactiveWindow > 0) {
             tag.putString("armed_reactive", armedReactive.toString());
             tag.putInt("reactive_window", reactiveWindow);
@@ -755,6 +764,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         formerFaction = readId(origin, "former_faction");
         originSelected = origin.getBoolean("selected");
         rogue = origin.getBoolean("rogue");
+        readIds(tag.getList("tokens_given", NbtElement.STRING_TYPE), tokensGiven);
         armedReactive = readId(tag, "armed_reactive");
         reactiveWindow = tag.getInt("reactive_window");
         comboBuffer.clear();

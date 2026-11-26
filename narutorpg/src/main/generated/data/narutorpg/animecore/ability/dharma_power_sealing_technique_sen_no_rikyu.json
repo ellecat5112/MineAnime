@@ -32,6 +32,7 @@
     "translate": "ability.narutorpg.dharma_power_sealing_technique_sen_no_rikyu"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

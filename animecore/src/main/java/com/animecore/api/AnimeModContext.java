@@ -40,8 +40,10 @@ public final class AnimeModContext {
     private final int hotbarSize;
     private final Function<Identifier, Identifier> comboAnimation;
     private final ComponentKey<PlayerPowerComponent> powerKey;
+    private final boolean passiveMovement;
 
     private AnimeModContext(Builder b) {
+        this.passiveMovement = b.passiveMovement;
         this.modId = b.modId;
         this.pools = List.copyOf(b.pools);
         this.movement = List.copyOf(b.movement);
@@ -63,6 +65,8 @@ public final class AnimeModContext {
         return movement.stream().filter(m -> m.mode() == mode).findFirst();
     }
     public ComponentKey<PlayerPowerComponent> powerKey() { return powerKey; }
+    /** Keybind-free movement: automatic water walking, jump-at-a-wall-looking-up climbing, sneak + jump burst step. */
+    public boolean passiveMovement() { return passiveMovement; }
 
     public Identifier id(String path) { return Ids.of(modId, path); }
 
@@ -98,6 +102,7 @@ public final class AnimeModContext {
         private final List<MovementSpec> movement = new ArrayList<>();
         private int hotbarSize = DEFAULT_HOTBAR_SIZE;
         private Function<Identifier, Identifier> comboAnimation;
+        private boolean passiveMovement;
 
         private Builder(String modId) {
             if (!modId.matches("[a-z0-9_.-]+")) throw new IllegalArgumentException("Invalid mod id: " + modId);
@@ -140,6 +145,16 @@ public final class AnimeModContext {
         public Builder movement(MovementSpec spec) {
             movement.removeIf(m -> m.mode() == spec.mode());
             movement.add(spec);
+            return this;
+        }
+
+        /**
+         * Movement without keybinds (AHZNB-style): surface adhesion switches itself on while the pool can pay
+         * (water walking; climb by jumping at a wall while looking up; sneak to dive / let go) and sneak + jump performs
+         * the burst step. The toggle keybinds keep working for players who bind them.
+         */
+        public Builder passiveMovement() {
+            this.passiveMovement = true;
             return this;
         }
 

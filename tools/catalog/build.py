@@ -124,6 +124,11 @@ def main():
     import villages
     villages.main()
     villages.build_sprites()
+    # Technique tokens (AHZNB-style jutsu items) and default cast animations.
+    import tokens
+    tokens.build()
+    import animations
+    animations.main()
 
 
 def mv(m):

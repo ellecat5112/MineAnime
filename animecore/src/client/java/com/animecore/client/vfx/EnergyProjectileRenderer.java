@@ -52,6 +52,10 @@ public final class EnergyProjectileRenderer extends EntityRenderer<EnergyProject
         int mid = style == VfxStyle.ENERGY ? color : style.mid();
         int outer = style == VfxStyle.ENERGY ? VfxDraw.lerpRgb(color, 0, 0.5f) : style.outer();
         float flicker = 0.85f + 0.15f * MathHelper.sin(time * 1.7f);
+        // never glare into a camera the ball is leaving from: fade near the camera, grow the tail over the first ticks
+        float near = (float) MathHelper.clamp((c.length() - R) / (R * 2 + 1.5), 0.0, 1.0);
+        double tail = Math.min(1.0, time / 6.0);
+        if (near <= 0.01f) { matrices.pop(); return; }
 
         switch (style) {
             case LIGHTNING -> lightning(glow, m, c, R, time, mid);
@@ -62,8 +66,8 @@ public final class EnergyProjectileRenderer extends EntityRenderer<EnergyProject
         }
         if (!StyleParticles.solid(style)) {
             // core + halo
-            VfxDraw.disc(glow, m, c, R * 0.95 * flicker, VfxDraw.argb(mid, 0.55f), VfxDraw.argb(outer, 0f), 16);
-            VfxDraw.disc(glow, m, c, R * 0.55, VfxDraw.argb(core, 0.95f), VfxDraw.argb(mid, 0.25f), 12);
+            VfxDraw.disc(glow, m, c, R * 0.95 * flicker, VfxDraw.argb(mid, 0.55f * near), VfxDraw.argb(outer, 0f), 16);
+            VfxDraw.disc(glow, m, c, R * 0.55, VfxDraw.argb(core, 0.95f * near), VfxDraw.argb(mid, 0.25f * near), 12);
             // spiral arms swirling in toward the ball from behind
             int arms = style == VfxStyle.WATER ? 5 : style == VfxStyle.WIND ? 3 : 4;
             int seg = 14;
@@ -77,11 +81,11 @@ public final class EnergyProjectileRenderer extends EntityRenderer<EnergyProject
                     double ang = a * Math.PI * 2 / arms + spin + t * Math.PI * 2.2;
                     double wobble = style == VfxStyle.WATER ? 1 + 0.18 * Math.sin(time * 0.6 + t * 9 + a) : 1;
                     double rad = R * (0.55 + 1.15 * t) * wobble;
-                    Vec3d p = c.subtract(axis.multiply(t * R * 3.2))
+                    Vec3d p = c.subtract(axis.multiply(t * R * 3.2 * tail))
                             .add(u.multiply(Math.cos(ang) * rad)).add(v.multiply(Math.sin(ang) * rad));
                     double w = R * 0.32 * (1 - t * 0.85);
                     int col = VfxDraw.argb(VfxDraw.lerpRgb(VfxDraw.lerpRgb(core, mid, (float) Math.min(1, t * 2)), outer,
-                            (float) Math.max(0, t * 2 - 1)), (float) (0.85 * (1 - t)));
+                            (float) Math.max(0, t * 2 - 1)), (float) (0.85 * (1 - t) * near));
                     if (prev != null) VfxDraw.ribbon(glow, m, prev, p, prevW, w, prevC, col);
                     prev = p;
                     prevW = w;

@@ -21,5 +21,6 @@
     "fallback": "Mind Body Switch Technique",
     "translate": "ability.narutorpg.mind_body_switch_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

@@ -21,5 +21,6 @@
     "fallback": "Face Copying Technique",
     "translate": "ability.narutorpg.face_copying_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

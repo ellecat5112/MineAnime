@@ -22,6 +22,7 @@
     "translate": "ability.narutorpg.cursed_tongue_eradication_seal"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

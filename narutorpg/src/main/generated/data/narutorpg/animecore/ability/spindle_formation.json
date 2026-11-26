@@ -28,6 +28,7 @@
     "translate": "ability.narutorpg.spindle_formation"
   },
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "insect"
   }

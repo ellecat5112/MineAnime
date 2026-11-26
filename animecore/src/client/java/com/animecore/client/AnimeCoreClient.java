@@ -35,5 +35,6 @@ public final class AnimeCoreClient implements ClientModInitializer {
         com.animecore.client.render.ClanItemColors.register();
         com.animecore.client.vfx.VfxManager.init();
         com.animecore.client.origin.OriginClient.init();
+        com.animecore.client.technique.TokenClient.init();
     }
 }

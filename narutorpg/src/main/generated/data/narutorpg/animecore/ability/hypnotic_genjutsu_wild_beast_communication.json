@@ -34,6 +34,7 @@
     "translate": "ability.narutorpg.hypnotic_genjutsu_wild_beast_communication"
   },
   "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
   "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"

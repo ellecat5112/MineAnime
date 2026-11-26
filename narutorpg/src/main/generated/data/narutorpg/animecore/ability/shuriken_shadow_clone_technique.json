@@ -42,6 +42,7 @@
   },
   "required_tier": 6,
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "smoke"
   }

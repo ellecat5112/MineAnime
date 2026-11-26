@@ -17,5 +17,6 @@
     "fallback": "Heavenly Punishment",
     "translate": "ability.narutorpg.heavenly_punishment"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

@@ -28,6 +28,7 @@
     "translate": "ability.narutorpg.butterfly_mode"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

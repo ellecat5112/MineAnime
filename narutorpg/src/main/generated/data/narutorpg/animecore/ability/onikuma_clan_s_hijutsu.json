@@ -19,5 +19,6 @@
     "fallback": "Onikuma Clan's Hijutsu",
     "translate": "ability.narutorpg.onikuma_clan_s_hijutsu"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

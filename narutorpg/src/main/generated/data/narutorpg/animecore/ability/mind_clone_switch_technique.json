@@ -40,6 +40,7 @@
     "translate": "ability.narutorpg.mind_clone_switch_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "smoke"
   }

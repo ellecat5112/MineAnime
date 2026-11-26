@@ -34,6 +34,7 @@
     "translate": "ability.narutorpg.demonic_illusion_hell_viewing_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
   "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"

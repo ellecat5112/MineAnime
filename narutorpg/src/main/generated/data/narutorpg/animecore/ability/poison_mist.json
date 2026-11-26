@@ -23,6 +23,7 @@
   },
   "required_tier": 3,
   "system": "narutorpg",
+  "token": "narutorpg:medical_ninjutsu",
   "visuals": {
     "style": "poison"
   }

@@ -35,6 +35,7 @@
   },
   "required_tier": 3,
   "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
   "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"

@@ -18,6 +18,7 @@
     "translate": "ability.narutorpg.parasitic_destruction_insect_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "insect"
   }

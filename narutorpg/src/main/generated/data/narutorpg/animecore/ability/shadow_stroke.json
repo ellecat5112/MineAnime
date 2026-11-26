@@ -18,6 +18,7 @@
     "translate": "ability.narutorpg.shadow_stroke"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

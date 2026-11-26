@@ -22,6 +22,7 @@
     "translate": "ability.narutorpg.uzumaki_sealing_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

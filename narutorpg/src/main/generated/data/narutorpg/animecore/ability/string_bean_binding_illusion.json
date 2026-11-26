@@ -34,6 +34,7 @@
     "translate": "ability.narutorpg.string_bean_binding_illusion"
   },
   "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
   "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"

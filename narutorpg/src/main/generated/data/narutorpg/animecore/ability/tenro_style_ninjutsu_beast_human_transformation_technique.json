@@ -22,6 +22,7 @@
     "translate": "ability.narutorpg.tenro_style_ninjutsu_beast_human_transformation_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "smoke"
   }

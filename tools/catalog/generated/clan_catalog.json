@@ -33,6 +33,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -144,6 +145,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -206,6 +208,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 1710618,
     "style": "flame"
@@ -250,6 +253,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 1710618,
     "style": "flame"
@@ -385,6 +389,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -413,6 +418,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -506,6 +512,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -534,6 +541,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -600,6 +608,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -674,6 +683,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -704,7 +714,8 @@
     "translate": "ability.narutorpg.beast_human_needle_senbon"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "bee_bomb_technique": {
    "actions": [
@@ -740,6 +751,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "poison"
    }
@@ -778,6 +790,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "poison"
    }
@@ -825,6 +838,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "poison"
    }
@@ -853,6 +867,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -912,6 +927,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -1011,6 +1027,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 1710618,
     "style": "flame"
@@ -1042,6 +1059,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 1710618,
     "style": "flame"
@@ -1073,6 +1091,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 1710618,
     "style": "flame"
@@ -1104,6 +1123,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 1710618,
     "style": "flame"
@@ -1146,6 +1166,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -1174,6 +1195,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "blood"
    }
@@ -1215,6 +1237,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "blood"
    }
@@ -1306,6 +1329,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -1341,6 +1365,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -1380,6 +1405,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -1482,6 +1508,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -1522,6 +1549,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -1562,6 +1590,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -1592,6 +1621,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:medical_ninjutsu",
    "visuals": {
     "color": 7798531,
     "style": "light"
@@ -1746,6 +1776,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -1902,7 +1933,8 @@
     "translate": "ability.narutorpg.chakra_threads_fuma"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "chakra_transfer_technique": {
    "actions": [
@@ -1958,6 +1990,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -1997,6 +2030,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2119,6 +2153,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -2148,6 +2183,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -2185,6 +2221,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -2227,7 +2264,8 @@
     "translate": "ability.narutorpg.curse_mandala"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "cursed_tongue_eradication_seal": {
    "actions": [
@@ -2259,6 +2297,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -2288,6 +2327,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2329,6 +2369,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2357,6 +2398,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2385,6 +2427,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2413,6 +2456,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2454,6 +2498,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2482,6 +2527,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -2517,6 +2563,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "color": 16119285,
     "style": "light"
@@ -2553,6 +2600,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "color": 16119285,
     "style": "light"
@@ -2589,6 +2637,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "color": 16119285,
     "style": "light"
@@ -2625,6 +2674,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "color": 16119285,
     "style": "light"
@@ -2695,6 +2745,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "color": 16119285,
     "style": "light"
@@ -2743,6 +2794,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -2788,6 +2840,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -2833,6 +2886,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -2879,6 +2933,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -2925,6 +2980,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -2975,6 +3031,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -3049,6 +3106,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -3090,6 +3148,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -3207,6 +3266,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -3246,6 +3306,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -3587,6 +3648,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3622,6 +3684,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3657,6 +3720,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3694,6 +3758,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3728,6 +3793,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -3764,6 +3830,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3799,6 +3866,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3834,6 +3902,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3875,6 +3944,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3910,6 +3980,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -3947,6 +4018,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -4032,6 +4104,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -4061,6 +4134,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "blood"
    }
@@ -4094,7 +4168,8 @@
     "translate": "ability.narutorpg.face_copying_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "fang_passing_fang": {
    "actions": [
@@ -4119,6 +4194,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -4154,6 +4230,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -4189,6 +4266,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -4455,6 +4533,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -4483,6 +4562,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -4555,6 +4635,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -4589,6 +4670,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -4625,6 +4707,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -4652,6 +4735,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -4688,7 +4772,8 @@
     "translate": "ability.narutorpg.fury"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "genjutsu_ketsuryugan": {
    "actions": [
@@ -4730,6 +4815,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -4775,6 +4861,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -4804,6 +4891,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -4831,6 +4919,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -4866,6 +4955,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -4907,6 +4997,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -4948,6 +5039,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -4976,6 +5068,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -5152,6 +5245,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -5269,6 +5363,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "smoke"
    }
@@ -5365,6 +5460,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -5393,6 +5489,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -5429,6 +5526,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -5506,6 +5604,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -5541,6 +5640,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -6105,6 +6205,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -6147,6 +6248,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -6195,6 +6297,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -6236,6 +6339,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -6274,6 +6378,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -6315,6 +6420,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -6353,6 +6459,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -6400,6 +6507,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "insect"
    }
@@ -6777,6 +6885,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -6823,6 +6932,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -6862,6 +6972,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "style": "insect"
    }
@@ -6943,6 +7054,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -6982,6 +7094,7 @@
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -7013,6 +7126,7 @@
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -7056,6 +7170,7 @@
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -7087,6 +7202,7 @@
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -7117,6 +7233,7 @@
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -7194,6 +7311,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -7224,6 +7342,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -7251,6 +7370,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -7278,6 +7398,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -7305,6 +7426,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -7445,6 +7567,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -7474,6 +7597,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -7515,6 +7639,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -7787,6 +7912,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -7818,7 +7944,8 @@
     "translate": "ability.narutorpg.manipulated_shuriken_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "manipulating_windmill_triple_blades": {
    "actions": [
@@ -7846,7 +7973,8 @@
     "translate": "ability.narutorpg.manipulating_windmill_triple_blades"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "mayfly": {
    "actions": [
@@ -7909,7 +8037,8 @@
     "translate": "ability.narutorpg.memory_blocking_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "memory_erasing_technique": {
    "actions": [
@@ -7971,7 +8100,8 @@
     "translate": "ability.narutorpg.mind_body_disturbance_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "mind_body_switch_technique": {
    "actions": [
@@ -8002,7 +8132,8 @@
     "translate": "ability.narutorpg.mind_body_switch_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "mind_body_transmission_formation": {
    "actions": [
@@ -8033,7 +8164,8 @@
     "translate": "ability.narutorpg.mind_body_transmission_formation"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "mind_body_transmission_technique": {
    "actions": [
@@ -8064,7 +8196,8 @@
     "translate": "ability.narutorpg.mind_body_transmission_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "mind_clone_switch_technique": {
    "actions": [
@@ -8114,6 +8247,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "smoke"
    }
@@ -8144,7 +8278,8 @@
     "translate": "ability.narutorpg.mind_disturbance_dance_performance_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "mind_puppet_switch_cursed_seal_technique": {
    "actions": [
@@ -8181,6 +8316,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -8296,6 +8432,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -8375,6 +8512,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:medical_ninjutsu",
    "visuals": {
     "color": 7798531,
     "style": "light"
@@ -8413,6 +8551,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -8442,6 +8581,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -8475,7 +8615,8 @@
     "translate": "ability.narutorpg.net_shadow_paralysis_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "object_manipulation_technique": {
    "actions": [
@@ -8513,6 +8654,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -8586,6 +8728,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -8616,6 +8759,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -8647,7 +8791,8 @@
     "translate": "ability.narutorpg.onikuma_clan_s_hijutsu"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "origami_replacement_technique": {
    "actions": [
@@ -8686,6 +8831,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -8727,6 +8873,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -8768,6 +8915,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -8803,6 +8951,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -8847,6 +8996,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -8875,6 +9025,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "insect"
    }
@@ -8916,6 +9067,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -8980,6 +9132,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -9015,6 +9168,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -9050,6 +9204,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -9088,6 +9243,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -9118,6 +9274,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:medical_ninjutsu",
    "visuals": {
     "style": "poison"
    }
@@ -9159,6 +9316,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -9193,6 +9351,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -9229,6 +9388,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -9257,6 +9417,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -9284,6 +9445,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -9319,6 +9481,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -9420,6 +9583,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -9617,6 +9781,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -9658,6 +9823,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -9688,6 +9854,7 @@
    "required_tier": 10,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -9759,6 +9926,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -9831,6 +9999,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -9874,6 +10043,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -9912,6 +10082,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -9953,6 +10124,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -9994,6 +10166,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -10031,6 +10204,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -10065,6 +10239,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -10131,7 +10306,8 @@
     "translate": "ability.narutorpg.sensing_transmission"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "shadow_cage_technique": {
    "actions": [
@@ -10162,7 +10338,8 @@
     "translate": "ability.narutorpg.shadow_cage_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "shadow_clone_technique": {
    "actions": [
@@ -10488,7 +10665,8 @@
     "translate": "ability.narutorpg.shadow_shuriken_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "shadow_stroke": {
    "actions": [
@@ -10513,6 +10691,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -10591,6 +10770,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -10620,6 +10800,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -10672,6 +10853,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "smoke"
    }
@@ -10711,6 +10893,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -10739,6 +10922,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -10774,6 +10958,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -10802,6 +10987,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -10843,6 +11029,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -10884,6 +11071,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -10947,6 +11135,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "insect"
    }
@@ -11089,6 +11278,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -11127,6 +11317,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -11155,6 +11346,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -11227,6 +11419,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -11268,6 +11461,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -11296,6 +11490,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -11324,6 +11519,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -11352,6 +11548,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -11380,6 +11577,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -11421,6 +11619,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -11456,6 +11655,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -11555,6 +11755,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11592,6 +11793,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11623,6 +11825,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11653,6 +11856,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11683,6 +11887,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11714,6 +11919,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11744,6 +11950,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11775,6 +11982,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -11811,6 +12019,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -11934,6 +12143,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -12006,6 +12216,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -12041,6 +12252,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "color": 16119285,
     "style": "light"
@@ -12071,6 +12283,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -12106,6 +12319,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "smoke"
    }
@@ -12151,6 +12365,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -12196,6 +12411,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:hiden",
    "visuals": {
     "style": "space"
    }
@@ -12268,6 +12484,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -12342,6 +12559,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 1710618,
     "style": "flame"
@@ -12385,6 +12603,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -12491,6 +12710,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "space"
    }
@@ -12525,6 +12745,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -12571,6 +12792,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",
@@ -12681,6 +12903,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -12822,6 +13045,7 @@
    },
    "required_tier": 3,
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "style": "light"
    }
@@ -13392,7 +13616,8 @@
     "translate": "ability.narutorpg.weather_manipulation"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:hiden"
   },
   "wind_release_bursting_compressed_air": {
    "actions": [
@@ -14309,6 +14534,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"
@@ -14347,6 +14573,7 @@
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
    "system": "narutorpg",
+   "token": "narutorpg:dojutsu",
    "visuals": {
     "color": 12986408,
     "style": "illusion"

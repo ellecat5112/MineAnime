@@ -28,6 +28,7 @@ final class NarutoModelProvider extends FabricModelProvider {
         generator.register(NarutoItems.LEAF_HEADBAND, Models.GENERATED);
         generator.register(NarutoItems.BLOODLINE_SCROLL, Models.GENERATED);
         generator.register(NarutoItems.FORGED_PAPERS, Models.GENERATED);
+        com.narutorpg.content.NarutoTokens.ITEMS.values().forEach(i -> generator.register(i, Models.GENERATED));
         // Two-layer clan items: layer0 frame / cloth, layer1 crest / trim (tinted per clan by ClanItemColors).
         twoLayer(generator, NarutoItems.CLAN_EMBLEM);
         twoLayer(generator, NarutoItems.CLAN_GARB);

@@ -28,6 +28,7 @@
     "translate": "ability.narutorpg.cat_surprise"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

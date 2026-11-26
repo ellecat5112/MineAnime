@@ -33,8 +33,9 @@ abstract class LivingEntityMixin {
 
     @Inject(method = "isClimbing", at = @At("HEAD"), cancellable = true)
     private void animecore$wallWalk(CallbackInfoReturnable<Boolean> cir) {
-        if ((Object) this instanceof PlayerEntity player && player.horizontalCollision && AnimeMovementHandler.isAdhering(player)) {
-            cir.setReturnValue(true);
+        if ((Object) this instanceof PlayerEntity player && player.horizontalCollision && AnimeMovementHandler.isAdhering(player)
+                && (!AnimeMovementHandler.isPassive(player) || player.getPitch() < -15f)) {
+            cir.setReturnValue(true);   // passive mode: look up and jump at the wall to start climbing
         }
     }
 

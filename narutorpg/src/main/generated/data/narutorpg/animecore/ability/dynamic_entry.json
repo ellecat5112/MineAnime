@@ -18,6 +18,7 @@
     "translate": "ability.narutorpg.dynamic_entry"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

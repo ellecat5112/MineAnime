@@ -22,5 +22,6 @@
     "translate": "ability.narutorpg.ninja_tools_barrier_reverse_fish_scales_formation"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

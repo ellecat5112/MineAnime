@@ -278,6 +278,8 @@ public final class VfxManager {
         Vec3d up = new Vec3d(0, 1, 0), ex = new Vec3d(1, 0, 0), ez = new Vec3d(0, 0, 1);
         switch (e.kind) {
             case CAST -> {
+                // the caster's own first-person camera sits right behind this point: particles only, no glare
+                if (client.player != null && e.entityId == client.player.getId() && client.options.getPerspective().isFirstPerson()) return;
                 double r = (0.25 + e.size * 0.35) * (p < 0.4 ? p / 0.4 : 1);
                 VfxDraw.disc(vc, m, o, r, VfxDraw.argb(e.core(), 0.9f * fade), VfxDraw.argb(e.mid(), 0f), 12);
             }

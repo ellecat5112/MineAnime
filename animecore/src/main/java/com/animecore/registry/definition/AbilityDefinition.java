@@ -32,8 +32,18 @@ public record AbilityDefinition(
         Optional<Identifier> requiredTransformation,
         Optional<Identifier> castAnimation,
         List<IAbilityAction> actions,
-        com.animecore.vfx.AbilityVisuals visuals
+        com.animecore.vfx.AbilityVisuals visuals,
+        Optional<Identifier> token
 ) {
+    /** Constructor without a token: the technique token is derived from the affinity (or the system's default token). */
+    public AbilityDefinition(String system, Text name, CastType castType, EnergyCost cost, int cooldownTicks, int requiredTier,
+                             List<Identifier> combo, int maxChargeTicks, Optional<Identifier> affinity,
+                             Optional<Identifier> requiredTransformation, Optional<Identifier> castAnimation, List<IAbilityAction> actions,
+                             com.animecore.vfx.AbilityVisuals visuals) {
+        this(system, name, castType, cost, cooldownTicks, requiredTier, combo, maxChargeTicks, affinity, requiredTransformation,
+                castAnimation, actions, visuals, Optional.empty());
+    }
+
     /** Constructor without visuals: the look is derived from the affinity and actions. */
     public AbilityDefinition(String system, Text name, CastType castType, EnergyCost cost, int cooldownTicks, int requiredTier,
                              List<Identifier> combo, int maxChargeTicks, Optional<Identifier> affinity,
@@ -55,6 +65,7 @@ public record AbilityDefinition(
             Identifier.CODEC.optionalFieldOf("required_transformation").forGetter(AbilityDefinition::requiredTransformation),
             Identifier.CODEC.optionalFieldOf("cast_animation").forGetter(AbilityDefinition::castAnimation),
             IAbilityAction.CODEC.listOf().fieldOf("actions").forGetter(AbilityDefinition::actions),
-            com.animecore.vfx.AbilityVisuals.CODEC.optionalFieldOf("visuals", com.animecore.vfx.AbilityVisuals.AUTO).forGetter(AbilityDefinition::visuals)
+            com.animecore.vfx.AbilityVisuals.CODEC.optionalFieldOf("visuals", com.animecore.vfx.AbilityVisuals.AUTO).forGetter(AbilityDefinition::visuals),
+            Identifier.CODEC.optionalFieldOf("token").forGetter(AbilityDefinition::token)
     ).apply(i, AbilityDefinition::new));
 }

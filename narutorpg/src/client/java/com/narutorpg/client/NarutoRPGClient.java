@@ -10,31 +10,31 @@ import net.fabricmc.api.ClientModInitializer;
 import org.lwjgl.glfw.GLFW;
 
 /**
- * Controls (all under "NarutoRPG" in Controls; everything rebindable):
+ * Controls are item-based (AHZNB-style) - no keybinds needed:
  * <ul>
- *   <li>R / G / V - jutsu slots 1-3 (hold to charge)</li>
- *   <li>Z (hold) - hand-sign wheel; numpad 1-6 + numpad 0 as a keyboard alternative</li>
- *   <li>B - toggle Sharingan, N / M - next / previous stage</li>
- *   <li>J - chakra control (tree &amp; water walking), Left Alt - Body Flicker (Shunshin)</li>
+ *   <li>jutsu tokens (Fire Release, Ninjutsu, Dōjutsu...): right-click to cast, hold to charge, sneak + scroll / sneak +
+ *       left-click to switch jutsu; the Dōjutsu token toggles the eyes</li>
+ *   <li>movement: water walking is automatic, jump at a wall while looking up to climb, sneak + jump for Body Flicker</li>
  * </ul>
+ * The old keybinds still exist under Controls › NarutoRPG but are <b>unbound by default</b> for players who prefer them.
  */
 public final class NarutoRPGClient implements ClientModInitializer {
-    private static final int[] SLOT_KEYS = {GLFW.GLFW_KEY_R, GLFW.GLFW_KEY_G, GLFW.GLFW_KEY_V};
-    private static final int[] SIGN_KEYS = {GLFW.GLFW_KEY_KP_1, GLFW.GLFW_KEY_KP_2, GLFW.GLFW_KEY_KP_3,
-            GLFW.GLFW_KEY_KP_4, GLFW.GLFW_KEY_KP_5, GLFW.GLFW_KEY_KP_6};
+    private static final int UNBOUND = GLFW.GLFW_KEY_UNKNOWN;
+    private static final int[] SLOT_KEYS = {UNBOUND, UNBOUND, UNBOUND};
+    private static final int[] SIGN_KEYS = {UNBOUND, UNBOUND, UNBOUND, UNBOUND, UNBOUND, UNBOUND};
 
     @Override
     public void onInitializeClient() {
         var ctx = NarutoRPG.CTX;
         for (int slot = 0; slot < SLOT_KEYS.length; slot++) AnimeKeybinds.hotbarSlot(ctx, slot, SLOT_KEYS[slot]);
-        AnimeKeybinds.comboWheel(ctx, HandSigns.ALL, GLFW.GLFW_KEY_Z);
+        AnimeKeybinds.comboWheel(ctx, HandSigns.ALL, UNBOUND);
         for (int i = 0; i < HandSigns.ALL.size(); i++) AnimeKeybinds.comboToken(ctx, HandSigns.ALL.get(i), SIGN_KEYS[i]);
-        AnimeKeybinds.comboCommit(ctx, GLFW.GLFW_KEY_KP_0);
-        AnimeKeybinds.transform(ctx, GLFW.GLFW_KEY_B);
-        AnimeKeybinds.transformStage(ctx, +1, GLFW.GLFW_KEY_N);
-        AnimeKeybinds.transformStage(ctx, -1, GLFW.GLFW_KEY_M);
-        AnimeKeybinds.movementToggle(ctx, MovementMode.SURFACE_ADHESION, GLFW.GLFW_KEY_J);
-        AnimeKeybinds.burstStep(ctx, GLFW.GLFW_KEY_LEFT_ALT);
+        AnimeKeybinds.comboCommit(ctx, UNBOUND);
+        AnimeKeybinds.transform(ctx, UNBOUND);
+        AnimeKeybinds.transformStage(ctx, +1, UNBOUND);
+        AnimeKeybinds.transformStage(ctx, -1, UNBOUND);
+        AnimeKeybinds.movementToggle(ctx, MovementMode.SURFACE_ADHESION, UNBOUND);
+        AnimeKeybinds.burstStep(ctx, UNBOUND);
 
         // Low-poly 3D models for weapons (tools/catalog/model3d.py): flat icon in GUIs, 3D in hand / world.
         NarutoTools.model3dIds().forEach(id -> HeldModels.register(NarutoTools.item(id), ctx.id("item/3d/" + id)));

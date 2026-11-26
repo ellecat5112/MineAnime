@@ -21,5 +21,6 @@
     "fallback": "Sensing Transmission",
     "translate": "ability.narutorpg.sensing_transmission"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

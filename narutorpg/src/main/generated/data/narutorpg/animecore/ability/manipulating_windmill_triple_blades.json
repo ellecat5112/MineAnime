@@ -20,5 +20,6 @@
     "fallback": "Manipulating Windmill Triple Blades",
     "translate": "ability.narutorpg.manipulating_windmill_triple_blades"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

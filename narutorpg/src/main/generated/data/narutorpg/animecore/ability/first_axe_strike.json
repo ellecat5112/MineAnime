@@ -17,5 +17,6 @@
     "fallback": "First Axe Strike",
     "translate": "ability.narutorpg.first_axe_strike"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

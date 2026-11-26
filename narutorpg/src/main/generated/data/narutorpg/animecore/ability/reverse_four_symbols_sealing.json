@@ -32,6 +32,7 @@
   },
   "required_tier": 10,
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

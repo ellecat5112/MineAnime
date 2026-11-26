@@ -19,5 +19,6 @@
     "fallback": "Shadow Shuriken Technique",
     "translate": "ability.narutorpg.shadow_shuriken_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

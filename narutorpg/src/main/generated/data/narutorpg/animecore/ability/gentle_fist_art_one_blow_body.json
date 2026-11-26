@@ -18,6 +18,7 @@
     "translate": "ability.narutorpg.gentle_fist_art_one_blow_body"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

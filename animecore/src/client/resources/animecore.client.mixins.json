@@ -4,7 +4,8 @@
   "package": "com.animecore.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
-    "ItemRendererMixin"
+    "ItemRendererMixin",
+    "MouseMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -34,6 +34,9 @@ public final class Phase2GameTests implements FabricGameTest {
         ctx.assertTrue(!player.isClimbing(), "should not climb walls without chakra control");
         ctx.assertTrue(AnimeMovementHandler.toggle(player, NarutoRPG.CTX, MovementMode.SURFACE_ADHESION), "toggle failed");
         ctx.assertTrue(NarutoRPG.CTX.power(player).isMovementActive(MovementMode.SURFACE_ADHESION), "adhesion not active");
+        player.setPitch(0f);
+        ctx.assertTrue(!player.isClimbing(), "passive mode: walking into a wall while looking ahead does not climb");
+        player.setPitch(-30f);   // look up at the wall (AHZNB-style) to start climbing
         ctx.assertTrue(player.isClimbing(), "wall should act as a ladder");
         ctx.assertTrue(player.canWalkOnFluid(Fluids.WATER.getDefaultState()), "should walk on water");
         ctx.assertTrue(!player.canWalkOnFluid(Fluids.LAVA.getDefaultState()), "lava is not walkable");

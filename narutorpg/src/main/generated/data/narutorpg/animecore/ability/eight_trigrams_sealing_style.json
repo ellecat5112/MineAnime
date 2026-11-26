@@ -22,6 +22,7 @@
     "translate": "ability.narutorpg.eight_trigrams_sealing_style"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

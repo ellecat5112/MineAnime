@@ -23,5 +23,6 @@
     "fallback": "Wind Cutter Technique",
     "translate": "ability.narutorpg.wind_cutter_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

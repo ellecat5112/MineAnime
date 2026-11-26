@@ -28,6 +28,7 @@
     "translate": "ability.narutorpg.bee_bomb_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "poison"
   }

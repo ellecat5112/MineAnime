@@ -22,5 +22,6 @@
     "translate": "ability.narutorpg.chakra_threads_fuma"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

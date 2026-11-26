@@ -19,5 +19,6 @@
     "fallback": "Mind Disturbance Dance Performance Technique",
     "translate": "ability.narutorpg.mind_disturbance_dance_performance_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

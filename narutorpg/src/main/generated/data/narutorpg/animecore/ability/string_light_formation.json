@@ -25,6 +25,7 @@
     "translate": "ability.narutorpg.string_light_formation"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

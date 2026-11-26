@@ -18,6 +18,7 @@
     "translate": "ability.narutorpg.leaf_great_whirlwind"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

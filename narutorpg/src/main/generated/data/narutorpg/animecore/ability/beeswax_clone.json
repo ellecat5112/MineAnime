@@ -35,6 +35,7 @@
     "translate": "ability.narutorpg.beeswax_clone"
   },
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "poison"
   }

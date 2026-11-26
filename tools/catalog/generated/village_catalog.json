@@ -140,7 +140,8 @@
     "translate": "ability.narutorpg.dance_of_the_sickle_blade_falling_descent_blade"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "dance_performance_second_step": {
    "actions": [
@@ -168,7 +169,8 @@
     "translate": "ability.narutorpg.dance_performance_second_step"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "desert_hand": {
    "actions": [
@@ -231,6 +233,7 @@
    },
    "required_tier": 6,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -331,6 +334,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -373,6 +377,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -495,6 +500,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -577,7 +583,8 @@
     "translate": "ability.narutorpg.first_axe_strike"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "giant_sphere": {
    "actions": [
@@ -701,7 +708,8 @@
     "translate": "ability.narutorpg.heavenly_punishment"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "horn_breaking": {
    "actions": [
@@ -726,6 +734,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -962,7 +971,8 @@
     "translate": "ability.narutorpg.manipulating_attack_blades"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "mechanical_light_shield_block": {
    "actions": [
@@ -1024,7 +1034,8 @@
     "translate": "ability.narutorpg.nadeshiko_style_deep_crimson_dance_performance"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "nadeshiko_style_hardliner_gale_fist": {
    "actions": [
@@ -1166,7 +1177,8 @@
     "translate": "ability.narutorpg.ninja_tools_barrier_reverse_fish_scales_formation"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "peacock_whirlwind": {
    "actions": [
@@ -1307,6 +1319,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -1404,6 +1417,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -1464,6 +1478,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -1504,6 +1519,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "color": 16766287,
     "style": "light"
@@ -1535,7 +1551,8 @@
     "translate": "ability.narutorpg.senbon_shower"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   },
   "sly_mind_affect_technique": {
    "actions": [
@@ -1577,6 +1594,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:genjutsu",
    "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"
@@ -1630,6 +1648,7 @@
    },
    "required_tier": 10,
    "system": "narutorpg",
+   "token": "narutorpg:fuinjutsu",
    "visuals": {
     "style": "space"
    }
@@ -1657,6 +1676,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -1780,6 +1800,7 @@
    },
    "required_tier": 1,
    "system": "narutorpg",
+   "token": "narutorpg:taijutsu",
    "visuals": {
     "style": "wind"
    }
@@ -2060,7 +2081,8 @@
     "translate": "ability.narutorpg.wind_cutter_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "token": "narutorpg:taijutsu"
   }
  },
  "backgrounds": {

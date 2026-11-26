@@ -31,6 +31,7 @@
     "translate": "ability.narutorpg.tight_binding_golden_chain_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

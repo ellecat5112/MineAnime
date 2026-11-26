@@ -30,5 +30,6 @@
     "translate": "ability.narutorpg.curse_mandala"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

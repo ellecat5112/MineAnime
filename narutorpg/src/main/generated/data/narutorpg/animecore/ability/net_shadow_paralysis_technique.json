@@ -21,5 +21,6 @@
     "fallback": "Net Shadow Paralysis Technique",
     "translate": "ability.narutorpg.net_shadow_paralysis_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

@@ -36,6 +36,7 @@
   "required_tier": 3,
   "required_transformation": "narutorpg:mangekyo_sharingan",
   "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
   "visuals": {
     "color": 12986408,
     "screen_effect": "illusion",

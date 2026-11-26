@@ -20,5 +20,6 @@
     "fallback": "Manipulating Attack Blades",
     "translate": "ability.narutorpg.manipulating_attack_blades"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

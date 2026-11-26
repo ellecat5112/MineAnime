@@ -19,5 +19,6 @@
     "fallback": "Beast-Human Needle Senbon",
     "translate": "ability.narutorpg.beast_human_needle_senbon"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

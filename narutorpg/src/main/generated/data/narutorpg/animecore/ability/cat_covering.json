@@ -22,6 +22,7 @@
     "translate": "ability.narutorpg.cat_covering"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

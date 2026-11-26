@@ -22,6 +22,7 @@
     "translate": "ability.narutorpg.sealing_technique_roen_kodon"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

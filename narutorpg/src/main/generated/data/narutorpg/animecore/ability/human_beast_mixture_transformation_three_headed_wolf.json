@@ -36,6 +36,7 @@
   },
   "required_tier": 3,
   "system": "narutorpg",
+  "token": "narutorpg:hiden",
   "visuals": {
     "style": "smoke"
   }

@@ -20,5 +20,6 @@
     "fallback": "Senbon Shower",
     "translate": "ability.narutorpg.senbon_shower"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

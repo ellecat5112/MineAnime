@@ -28,6 +28,7 @@
     "translate": "ability.narutorpg.silent_killing"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

@@ -43,6 +43,15 @@ public final class AnimeMovementHandler {
         return false;
     }
 
+    /** True if every system adhering for this player uses passive (keybind-free) movement. */
+    public static boolean isPassive(PlayerEntity player) {
+        for (AnimeModContext ctx : AnimeModRegistry.all()) {
+            Optional<PlayerPowerComponent> power = ctx.maybePower(player);
+            if (power.isPresent() && power.get().isMovementActive(MovementMode.SURFACE_ADHESION) && !ctx.passiveMovement()) return false;
+        }
+        return true;
+    }
+
     // ------------------------------------------------------------------ toggles
 
     public static boolean toggle(ServerPlayerEntity player, AnimeModContext ctx, MovementMode mode) {
@@ -77,6 +86,13 @@ public final class AnimeMovementHandler {
         // Flight granted in a previous session (abilities persist in player NBT, our toggle state does not).
         if (power.flightGranted() && !power.isMovementActive(MovementMode.OMNIDIRECTIONAL_FLIGHT)) revokeFlight(player, power);
 
+        if (power.context().passiveMovement()) {
+            power.context().movement(MovementMode.SURFACE_ADHESION).ifPresent(spec -> {
+                boolean able = power.tier() >= spec.requiredTier() && power.pool(spec.pool()).map(p -> p.current() > spec.drainPerTick() * 40).orElse(false);
+                if (able != power.isMovementActive(MovementMode.SURFACE_ADHESION)) power.setMovementActive(MovementMode.SURFACE_ADHESION, able);
+            });
+        }
+
         for (MovementMode mode : MovementMode.values()) {
             if (!mode.continuous() || !power.isMovementActive(mode)) continue;
             Optional<MovementSpec> spec = power.context().movement(mode);
@@ -84,7 +100,8 @@ public final class AnimeMovementHandler {
                 deactivate(player, power, mode);
                 continue;
             }
-            float drain = spec.get().drainPerTick() * (inUse(player, mode) ? 1f : IDLE_DRAIN_FACTOR);
+            boolean passive = mode == MovementMode.SURFACE_ADHESION && power.context().passiveMovement();
+            float drain = spec.get().drainPerTick() * (inUse(player, mode) ? 1f : passive ? 0f : IDLE_DRAIN_FACTOR);
             if (!power.tryConsume(spec.get().pool(), drain)) {
                 deactivate(player, power, mode);
                 player.sendMessage(Text.translatable("message.animecore.movement.exhausted", Text.translatable(mode.translationKey()))

@@ -31,6 +31,7 @@
     "translate": "ability.narutorpg.sealing_trap_explosion"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"

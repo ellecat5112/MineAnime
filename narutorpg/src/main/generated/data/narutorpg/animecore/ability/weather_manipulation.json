@@ -19,5 +19,6 @@
     "fallback": "Weather Manipulation",
     "translate": "ability.narutorpg.weather_manipulation"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

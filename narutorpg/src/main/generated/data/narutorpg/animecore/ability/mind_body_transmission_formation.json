@@ -21,5 +21,6 @@
     "fallback": "Mind Body Transmission Formation",
     "translate": "ability.narutorpg.mind_body_transmission_formation"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
 }

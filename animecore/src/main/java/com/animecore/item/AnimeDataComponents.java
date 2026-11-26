@@ -102,6 +102,10 @@ public final class AnimeDataComponents {
                 ClanSkill::new);
     }
 
+    /** Technique currently selected on a technique token (ability or transformation id). */
+    public static final ComponentType<Identifier> TOKEN_SELECTION =
+            register(Ids.core("token_selection"), Identifier.CODEC, AnimePacketCodecs.IDENTIFIER);
+
     public static final ComponentType<ClanBinding> CLAN_BINDING =
             register(Ids.core("clan_binding"), ClanBinding.CODEC, ClanBinding.PACKET_CODEC);
     public static final ComponentType<ClanSkill> CLAN_SKILL =

@@ -19,5 +19,6 @@
     "fallback": "Manipulated Shuriken Technique",
     "translate": "ability.narutorpg.manipulated_shuriken_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

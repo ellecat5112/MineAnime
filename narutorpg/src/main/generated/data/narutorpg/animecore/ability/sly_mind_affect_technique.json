@@ -34,6 +34,7 @@
     "translate": "ability.narutorpg.sly_mind_affect_technique"
   },
   "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
   "visuals": {
     "screen_effect": "illusion",
     "style": "illusion"

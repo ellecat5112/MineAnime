@@ -197,6 +197,13 @@ public final class AnimeCoreDataGenerator implements DataGeneratorEntrypoint {
             t.add("jei.animecore.village.jutsu", "Village techniques: %s");
             t.add("jei.animecore.village.gear", "Exclusive gear: %s (outsiders need reputation %s)");
             t.add("gamerule.animecoreOriginScreen", "Show the origin screen to new players");
+            t.add("message.animecore.token.received", "New jutsu item: %s");
+            t.add("message.animecore.token.selected", "Selected: %s");
+            t.add("message.animecore.token.empty", "You know no techniques of this kind yet");
+            t.add("tooltip.animecore.token.controls", "Right-click: use · hold: charge · Sneak + scroll / Sneak + left-click: switch");
+            t.add("tooltip.animecore.token.charge", "  (hold)");
+            t.add("tooltip.animecore.token.form", "  (eyes / form)");
+            t.add("hud.animecore.token.hint", "Right-click to use · Sneak + scroll to switch");
             t.add("entity.animecore.puppet.wood", "Puppet");
             t.add("entity.animecore.puppet.metal", "Metal Puppet");
             t.add("entity.animecore.puppet.crimson", "Human Puppet");

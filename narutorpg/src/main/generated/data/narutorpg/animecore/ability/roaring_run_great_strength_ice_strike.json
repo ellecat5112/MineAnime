@@ -18,6 +18,7 @@
     "translate": "ability.narutorpg.roaring_run_great_strength_ice_strike"
   },
   "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
   "visuals": {
     "style": "wind"
   }

@@ -17,6 +17,7 @@ public final class NarutoRPG implements ModInitializer {
             .comboAnimations(sign -> Identifier.of(MOD_ID, "sign_" + sign.getPath()))
             .surfaceAdhesion("chakra", 0.05f, 1)          // Chakra control: tree & water walking
             .burstStep("chakra", 6f, 7f, 20, 1)            // Body Flicker (Shunshin): 7 blocks, 1s cooldown
+            .passiveMovement()                             // no keybinds: water walking, look-up wall climbing, sneak+jump Shunshin
             .register();
 
     @Override

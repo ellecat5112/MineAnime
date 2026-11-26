@@ -182,16 +182,27 @@ Every ability is animated by the engine from its data, so new techniques from an
   focus or lunge (`tools/catalog/animations.py`).
 - Preview with `/vfx play <kind> <style>` and `/vfx screen <illusion|darkness|flash> [style]` (ops).
 
-## Controls (NarutoRPG, all rebindable under *Controls › NarutoRPG*)
-| Key | Action |
-|---|---|
-| R / G / V | Jutsu slots 1-3 (hold to charge, release to fire) |
-| Z (hold) | Hand-sign wheel: click or 1-6 to sign, release Z / right-click to perform |
-| Numpad 1-6, Numpad 0 | Hand signs without the wheel / release |
-| B | Toggle Sharingan · N / M next / previous stage |
-| J | Chakra control: run up walls, walk on water (sneak to dive) |
-| Left Alt | Body Flicker (Shunshin): 7-block blink toward WASD direction |
+## Controls: item-based, no keybinds needed (AHZNB-style)
+Jutsu live on **jutsu items (tokens)**: one per nature release (Fire, Wind, Lightning, Earth, Water, Wood, Ice, Lava, Magnet,
+Storm, Boil, Scorch, Explosion, Dust, Yin, Yang) and one per school (Ninjutsu, Taijutsu, Genjutsu, Fūinjutsu, Medical
+Ninjutsu, Hiden, Dōjutsu). Learning a jutsu hands you its token (once; `/jutsu tokens` replaces lost ones).
 
+| Action | How |
+|---|---|
+| Use the selected jutsu | Hold the token, **right-click** (hold for charged jutsu, release to fire) |
+| Switch jutsu | **Sneak + mouse wheel**, or **sneak + left-click** |
+| Activate / switch eyes (Sharingan, Byakugan...) | The **Dōjutsu** token: right-click, or sneak + wheel to pick the eye |
+| See what a token holds | Tooltip lists every jutsu with cost; the selected jutsu and its cooldown show above the hotbar |
+| Walk on water | Automatic while you have chakra (sneak to dive) |
+| Climb walls / trees | Jump at the wall while **looking up**; sneak to cling |
+| Body Flicker (Shunshin) | **Sneak + jump** |
+
+Techniques added later are placed on a token automatically: their `token` field, else their nature, else Ninjutsu.
+The old keybinds (jutsu slots, hand-sign wheel, Sharingan, chakra control, Shunshin) still exist under
+*Controls › NarutoRPG* but are **unbound by default** for players who prefer keys.
+
+![Jutsu tokens](docs/screenshots/jutsu_tokens.png)
+![Token cast](docs/screenshots/jutsu_token_cast.png)
 ![HUD](docs/screenshots/1_firstperson_hud.png)
 ![Aura](docs/screenshots/2_aura_front.png)
 ![Combo wheel](docs/screenshots/3_combo_wheel.png)

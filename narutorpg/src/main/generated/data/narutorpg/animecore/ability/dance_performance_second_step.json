@@ -20,5 +20,6 @@
     "fallback": "Dance Performance: Second Step",
     "translate": "ability.narutorpg.dance_performance_second_step"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
 }

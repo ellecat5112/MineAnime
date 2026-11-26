@@ -375,12 +375,37 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
     if anim:
         d['cast_animation'] = anim
     kgs = kg_of_jutsu.get(title, [])
+    # nature-release jutsu sit on their release token automatically (affinity); the rest by school.
+    # Genjutsu and dojutsu techniques always go on their own tokens (Amaterasu is a Dojutsu technique, not Fire Release).
+    tok = token_for(c, kgs)
+    if tok and (not nature or tok in ('genjutsu', 'dojutsu')):
+        d['token'] = ns(tok)
     vis = visuals_for(title, c, clan_id, kgs, nature)
     if vis:
         d['visuals'] = vis
     if 'Mangekyō Sharingan' in kgs and 'Sharingan' not in kgs:
         d['required_transformation'] = ns('mangekyo_sharingan')
     return d, rank
+
+
+DOJUTSU_KG = {'Sharingan', 'Mangekyō Sharingan', 'Byakugan', 'Rinnegan', 'Tenseigan', 'Ketsuryūgan', 'Kokugan', 'Jōgan', 'Senrigan'}
+
+
+def token_for(c, kgs):
+    """Technique token (item) for a jutsu without a nature release; None = the default Ninjutsu token."""
+    if 'Genjutsu' in c:
+        return 'genjutsu'
+    if 'Dōjutsu' in c or set(kgs) & DOJUTSU_KG:
+        return 'dojutsu'
+    if c & {'Medical Ninjutsu', 'Regeneration Techniques'}:
+        return 'medical_ninjutsu'
+    if c & {'Fūinjutsu', 'Juinjutsu', 'Barrier Ninjutsu'}:
+        return 'fuinjutsu'
+    if c & {'Taijutsu', 'Fighting Style', 'Fighting style', 'Kenjutsu', 'Bukijutsu', 'Shurikenjutsu'}:
+        return 'taijutsu'
+    if 'Hiden' in c:
+        return 'hiden'
+    return None
 
 
 def visuals_for(title, c, clan_id, kgs, nature):

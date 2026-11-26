@@ -22,6 +22,7 @@
     "translate": "ability.narutorpg.tsuchigumo_style_forbidden_life_technique_release_creation_of_heaven_and_earth"
   },
   "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
   "visuals": {
     "color": 16766287,
     "style": "light"
