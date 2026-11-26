@@ -59,3 +59,28 @@ loom {
         }
     }
 }
+
+// ---------------------------------------------------------------------------------
+// Production smoke test: runs the REAL remapped jars (intermediary names, refmaps) like a launcher would.
+//   ./gradlew :narutorpg:prodClient
+// ---------------------------------------------------------------------------------
+configurations {
+    productionRuntimeMods { transitive = false }
+}
+dependencies {
+    productionRuntimeMods "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+    productionRuntimeMods "org.ladysnake.cardinal-components-api:cardinal-components-base:${rootProject.cca_version}"
+    productionRuntimeMods "org.ladysnake.cardinal-components-api:cardinal-components-entity:${rootProject.cca_version}"
+    productionRuntimeMods "dev.kosmx.player-anim:player-animation-lib-fabric:${rootProject.player_anim_version}"
+    productionRuntimeMods "software.bernie.geckolib:geckolib-fabric-${rootProject.minecraft_version}:${rootProject.geckolib_version}"
+}
+tasks.register('prodClient', net.fabricmc.loom.task.prod.ClientProductionRunTask) {
+    mods.from(configurations.productionRuntimeMods)
+    mods.from(project(':animecore').tasks.named('remapJar'))
+    mods.from(tasks.named('remapJar'))
+    runDir = layout.projectDirectory.dir('run-prod')
+    useXVFB = false
+    if (project.hasProperty('prodQuickPlay')) {
+        programArgs.addAll('--quickPlaySingleplayer', project.property('prodQuickPlay').toString(), '--width', '1280', '--height', '720')
+    }
+}

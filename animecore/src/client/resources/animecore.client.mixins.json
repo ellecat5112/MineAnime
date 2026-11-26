@@ -3,7 +3,6 @@
   "minVersion": "0.8",
   "package": "com.animecore.client.mixin",
   "compatibilityLevel": "JAVA_21",
-  "refmap": "animecore-refmap.json",
   "client": [
     "ItemRendererMixin"
   ],

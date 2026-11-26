@@ -4,6 +4,13 @@ loom {
     // No access widener needed for Phase 1; add here if a later phase requires one.
     splitEnvironmentSourceSets()   // client code physically separated: src/client/java
 
+    // Remap mixin targets directly in the bytecode at remapJar time instead of via refmap files.
+    // (With split source sets the legacy AP wrote client mappings to a second refmap that the release jar
+    //  did not reference, which crashed real launchers while the dev environment worked.)
+    mixin {
+        useLegacyMixinAp = false
+    }
+
     mods {
         animecore {
             sourceSet sourceSets.main
