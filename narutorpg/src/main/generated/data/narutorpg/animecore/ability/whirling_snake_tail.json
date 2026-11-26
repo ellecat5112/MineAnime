@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 11.0,
+      "knockback": 1.6,
+      "radius": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_spin",
+  "cooldown_ticks": 128,
+  "cost": {
+    "amount": 27.5,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Whirling Snake Tail",
+    "translate": "ability.narutorpg.whirling_snake_tail"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

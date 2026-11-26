@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 14.0,
+      "knockback": 1.6,
+      "radius": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_spin",
+  "cooldown_ticks": 152,
+  "cost": {
+    "amount": 35.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Leaf Roaring Flame Hurricane",
+    "translate": "ability.narutorpg.leaf_roaring_flame_hurricane"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

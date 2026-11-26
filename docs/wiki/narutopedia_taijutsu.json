@@ -1,0 +1,6617 @@
+{
+ "api": "https://naruto.fandom.com/api.php",
+ "category_tree": {
+  "Category:Taijutsu": {
+   "pages": [],
+   "subcats": []
+  }
+ },
+ "crawled": "2026-11-26",
+ "fighting_style_not_taijutsu": [
+  "Assassination Technique",
+  "Black Lightning",
+  "Bubblegum Ninjutsu",
+  "Butterfly Mode",
+  "Calorie Control",
+  "Character Bind Technique",
+  "Circular Formation",
+  "Dance of the Shikigami",
+  "Earth Grudge Fear",
+  "Enclosing Technique",
+  "Evernight",
+  "Explosive Clay",
+  "Flower Ninja Art",
+  "Four Legs Technique",
+  "Furious Smelting",
+  "Iaidō",
+  "Magnet Ninja Art",
+  "Mysterious Peacock Method",
+  "Parasitic Destruction Insect Technique",
+  "Puppet Technique",
+  "Reverse Scale",
+  "Sage Transformation",
+  "Samurai Sabre Technique",
+  "Sandstone Fist",
+  "Silent Killing",
+  "Six Paths of Pain",
+  "Soap Bubble Ninjutsu",
+  "Spider Sticky Gold",
+  "Super Beast Imitating Drawing",
+  "Uchiha Style Kenjutsu",
+  "Unsealing Technique"
+ ],
+ "jutsu": {
+  "10 Hit Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jū Ren Konbo",
+   "title": "10 Hit Combo"
+  },
+  "100 Metre Punch": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "100 Panchi",
+   "title": "100 Metre Punch"
+  },
+  "100% Single Punch": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "100-Pāsento Shingurupanchi",
+   "title": "100% Single Punch"
+  },
+  "1000 Metre Punch": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "1000M Panchi",
+   "title": "1000 Metre Punch"
+  },
+  "16 Hit Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūroku Ren Konbo",
+   "title": "16 Hit Combo"
+  },
+  "Absolute: Fang Passing Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Zetsu: Gatsūga",
+   "title": "Absolute: Fang Passing Fang"
+  },
+  "Accelerated Armed Revolving Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Kinjutsu, Fūinjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kasoku Busō Kaiten",
+   "title": "Accelerated Armed Revolving Heaven"
+  },
+  "Acrobat": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Akurobatto",
+   "title": "Acrobat"
+  },
+  "Adamantine Power: Acala": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kongōriki: Fudō",
+   "title": "Adamantine Power: Acala"
+  },
+  "Aerobatic Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Aerobatic Strike"
+  },
+  "Agonizing Thorn Technique (Simply Put a Kanchō)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Monzetsutoge no Jutsu (Yōsuruni Kanchō)",
+   "title": "Agonizing Thorn Technique (Simply Put a Kanchō)"
+  },
+  "Air Lightning Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kūraidan",
+   "title": "Air Lightning Bullet"
+  },
+  "Air Lightning Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kūraigeki",
+   "title": "Air Lightning Strike"
+  },
+  "Alder": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yashabushi",
+   "title": "Alder"
+  },
+  "Allied Shinobi Forces Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Genjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shinobi Rengōgun no Jutsu",
+   "title": "Allied Shinobi Forces Technique"
+  },
+  "Almighty Sakura": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Almighty Sakura"
+  },
+  "Amputation Punishment": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Setsudan no Kei",
+   "title": "Amputation Punishment"
+  },
+  "Anger of the Sky and the Cherry Blossom and the Earth": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sora to Sakura to Daichi no Ikari",
+   "title": "Anger of the Sky and the Cherry Blossom and the Earth"
+  },
+  "Annihilation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mekkyaku",
+   "title": "Annihilation"
+  },
+  "Apricot Blossom Droop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Anshōsui",
+   "title": "Apricot Blossom Droop"
+  },
+  "Arhat Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Rakanken",
+   "title": "Arhat Fist"
+  },
+  "Assimilation: Rock Tank": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dōka: Ganseki Sensha",
+   "title": "Assimilation: Rock Tank"
+  },
+  "Avalanche Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nadare Mai",
+   "title": "Avalanche Dance"
+  },
+  "Ballistic Waterwheel": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mizudan Suisha",
+   "title": "Ballistic Waterwheel"
+  },
+  "Barrage of Gentle Fists": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Barrage of Gentle Fists"
+  },
+  "Baryon Bullet Barrage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Barion Tadangeki",
+   "title": "Baryon Bullet Barrage"
+  },
+  "Baryon: Scarlet Flash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Barion: Hisenkō",
+   "title": "Baryon: Scarlet Flash"
+  },
+  "Beast-Human Fury Kicks": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Beast-Human Fury Kicks"
+  },
+  "Beheading Prison Chop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Zangoku Shutō",
+   "title": "Beheading Prison Chop"
+  },
+  "Big Ball Rasengan: Rising Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ōdama Rasengan: Shōgeki",
+   "title": "Big Ball Rasengan: Rising Attack"
+  },
+  "Biting Cut": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Biting Cut"
+  },
+  "Black Passing Secret Fang Technique Machine One Shot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Black Passing Secret Fang Technique Machine One Shot"
+  },
+  "Black Tornado": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kuro Tatsumaki",
+   "title": "Black Tornado"
+  },
+  "Blade of Wind Barrage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Blade of Wind Barrage"
+  },
+  "Boil Release: Unrivalled Strength": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Futton: Kairiki Musō",
+   "title": "Boil Release: Unrivalled Strength"
+  },
+  "Bolting Blossom": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu, Kenjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Bolting Blossom"
+  },
+  "Bone Pellet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hone Tsubute",
+   "title": "Bone Pellet"
+  },
+  "Boruto Rush": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Boruto Rasshu",
+   "title": "Boruto Rush"
+  },
+  "Boruto Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Clone Techniques",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Boruto Sutoraiku",
+   "title": "Boruto Strike"
+  },
+  "Brace Yourself!": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Haa Kuishibare!",
+   "title": "Brace Yourself!"
+  },
+  "Branding Punishment": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rakuin no Kei",
+   "title": "Branding Punishment"
+  },
+  "Brilliant Fluttering Wings": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kiki Honshi",
+   "title": "Brilliant Fluttering Wings"
+  },
+  "Broadaxe": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Masakari",
+   "title": "Broadaxe"
+  },
+  "Bug Bite": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mushikui",
+   "title": "Bug Bite"
+  },
+  "Burning Legs": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Burning Legs"
+  },
+  "Burning Passion": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Burning Passion"
+  },
+  "Burning Slap of Youth": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Burning Slap of Youth"
+  },
+  "Butterfly Bullet Bombing": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "B",
+   "jutsu type": "",
+   "romaji": "Chōdan Bakugeki",
+   "title": "Butterfly Bullet Bombing"
+  },
+  "By Brute Force": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chikaramakase",
+   "title": "By Brute Force"
+  },
+  "Cat Chakra Claw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Cat Chakra Claw"
+  },
+  "Cat Claw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nekozume",
+   "title": "Cat Claw"
+  },
+  "Cat Claw Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nekozumeashi",
+   "title": "Cat Claw Foot"
+  },
+  "Cat Surprise": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nekodamashi",
+   "title": "Cat Surprise"
+  },
+  "Cha Barrage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shannarō Rendan",
+   "title": "Cha Barrage"
+  },
+  "Chain Pull": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Space–Time Ninjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sain",
+   "title": "Chain Pull"
+  },
+  "Chain Rope": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Space–Time Ninjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kusarinawa",
+   "title": "Chain Rope"
+  },
+  "Chained Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Space–Time Ninjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Saten",
+   "title": "Chained Heaven"
+  },
+  "Chakra Enhanced Strength": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Chakra Enhanced Strength"
+  },
+  "Chaos Fan Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Midare Senbu",
+   "title": "Chaos Fan Dance"
+  },
+  "Charge! Konohamaru Platoon": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Totsugeki! Konohamaru Shōtai",
+   "title": "Charge! Konohamaru Platoon"
+  },
+  "Cherry Blossom Banner": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ōdanmaku",
+   "title": "Cherry Blossom Banner"
+  },
+  "Cherry Blossom Impact": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Ōkashō",
+   "title": "Cherry Blossom Impact"
+  },
+  "Cherry Blossom Profusion Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ōka Ryōranshō",
+   "title": "Cherry Blossom Profusion Palm"
+  },
+  "Cherry Blossom Tearing Impact": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ōka Resshō",
+   "title": "Cherry Blossom Tearing Impact"
+  },
+  "Cherry Blossom Violent Impact": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ōka Retsushō",
+   "title": "Cherry Blossom Violent Impact"
+  },
+  "Cherry Blossom Wild Dance: Chidori": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ōka Ranbu: Chidori",
+   "title": "Cherry Blossom Wild Dance: Chidori"
+  },
+  "Chidori: Chakra Blade": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chidori: Chakuratō",
+   "title": "Chidori: Chakra Blade"
+  },
+  "Chopping Punishment": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kirikizami no Kei",
+   "title": "Chopping Punishment"
+  },
+  "Chubby Go-Round": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Potchari Gōraundo",
+   "title": "Chubby Go-Round"
+  },
+  "Chubby Megaton": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Potchari Megaton",
+   "title": "Chubby Megaton"
+  },
+  "Chunk Slash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Butsugiri",
+   "title": "Chunk Slash"
+  },
+  "Claw of Shukaku": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shukaku no Tsume",
+   "title": "Claw of Shukaku"
+  },
+  "Clawing Swift Wolf Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sōjin Rōga",
+   "title": "Clawing Swift Wolf Fang"
+  },
+  "Clethra": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ryōbu",
+   "title": "Clethra"
+  },
+  "Climbing Sparrow": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tōenjaku",
+   "title": "Climbing Sparrow"
+  },
+  "Clone Body Blow": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Bunshin Taiatari",
+   "title": "Clone Body Blow"
+  },
+  "Clone Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bunshin Konbo",
+   "title": "Clone Combo"
+  },
+  "Clone Ladder": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bunshin Hashigo",
+   "title": "Clone Ladder"
+  },
+  "Clone Lasso": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bunshin Nagenawa",
+   "title": "Clone Lasso"
+  },
+  "Clone Spinning Heel Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bunshin Kaiten Kakato Otoshi",
+   "title": "Clone Spinning Heel Drop"
+  },
+  "Cloud-Style Crescent Moon Beheading": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kumo-Ryū Mikazukigiri",
+   "title": "Cloud-Style Crescent Moon Beheading"
+  },
+  "Cloud-Style Front Beheading": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kumo-Ryū Omotegiri",
+   "title": "Cloud-Style Front Beheading"
+  },
+  "Cloud-Style Reverse Beheading": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kumo-Ryū Uragiri",
+   "title": "Cloud-Style Reverse Beheading"
+  },
+  "Cloud-Style Rising Dragon": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Cloud-Style Rising Dragon"
+  },
+  "Coiling Around": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Makitsuki",
+   "title": "Coiling Around"
+  },
+  "Cold Needles": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Medical Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rinshin",
+   "title": "Cold Needles"
+  },
+  "Combination Secret Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gattai Ōgi",
+   "title": "Combination Secret Technique"
+  },
+  "Combo Attack: Shinra Tensei": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rengeki: Shinra Tensei",
+   "title": "Combo Attack: Shinra Tensei"
+  },
+  "Coming of Spring Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Haru no Shūrai",
+   "title": "Coming of Spring Kick"
+  },
+  "Concussive Chakra Cannon": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Bukijutsu",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Concussive Chakra Cannon"
+  },
+  "Confusing Claw Instant Thrust": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sakusō Shuntotsu",
+   "title": "Confusing Claw Instant Thrust"
+  },
+  "Copy Ninjutsu": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kopī Ninjutsu",
+   "title": "Copy Ninjutsu"
+  },
+  "Coral Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sangoshō",
+   "title": "Coral Palm"
+  },
+  "Crane Wing Formation": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kakuyoku no Jin",
+   "title": "Crane Wing Formation"
+  },
+  "Crane Wing Formation (Eight Gates)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kakuyoku no Jin",
+   "title": "Crane Wing Formation (Eight Gates)"
+  },
+  "Crazy Butterfly Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Crazy Butterfly Kick"
+  },
+  "Crazy Butterfly Punch": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Crazy Butterfly Punch"
+  },
+  "Crazy Hair Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Crazy Hair Technique"
+  },
+  "Crimson Flash Colliding Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Senkō Shōken",
+   "title": "Crimson Flash Colliding Fist"
+  },
+  "Crimson Impact": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Guren Resshō",
+   "title": "Crimson Impact"
+  },
+  "Crimson Leaf Dream": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Genjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kōyōmu",
+   "title": "Crimson Leaf Dream"
+  },
+  "Cross Lariat": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kurosu Rariatto",
+   "title": "Cross Lariat"
+  },
+  "Crushing Collision": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kaisaishō",
+   "title": "Crushing Collision"
+  },
+  "Crushing Rage: Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tōgeki: Rasengan",
+   "title": "Crushing Rage: Rasengan"
+  },
+  "Culminated Feelings: Wind Lightning Cherry Blossom Formation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Kinjutsu, Senjutsu, Cooperation Ninjutsu, Medical Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gokui: Fūraiōka no Jin",
+   "title": "Culminated Feelings: Wind Lightning Cherry Blossom Formation"
+  },
+  "Cursed Seal: Killing Shout": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Juin: Bakusatsu Kyō",
+   "title": "Cursed Seal: Killing Shout"
+  },
+  "Cypress": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sawara",
+   "title": "Cypress"
+  },
+  "Dance of the Camellia": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tsubaki no Mai",
+   "title": "Dance of the Camellia"
+  },
+  "Dance of the Clematis: Flower": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tessenka no Mai: Hana",
+   "title": "Dance of the Clematis: Flower"
+  },
+  "Dance of the Clematis: Vine": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tessenka no Mai: Tsuru",
+   "title": "Dance of the Clematis: Vine"
+  },
+  "Dance of the False Cleavers": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yaemugura no Mai",
+   "title": "Dance of the False Cleavers"
+  },
+  "Dance of the Genji": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Genji no Mai",
+   "title": "Dance of the Genji"
+  },
+  "Dance of the Larch": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Karamatsu no Mai",
+   "title": "Dance of the Larch"
+  },
+  "Dance of the Willow": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yanagi no Mai",
+   "title": "Dance of the Willow"
+  },
+  "Daytime Tiger": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Hirudora",
+   "title": "Daytime Tiger"
+  },
+  "Deer Butterfly Seal Binding": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kachōfūketsu",
+   "title": "Deer Butterfly Seal Binding"
+  },
+  "Demonic Illusion: Flying Shadow": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Genjutsu, Cooperation Ninjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Magen: Hiei",
+   "title": "Demonic Illusion: Flying Shadow"
+  },
+  "Demonic Illusion: Tree Binding Wind Blade": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Genjutsu, Cooperation Ninjutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Demonic Illusion: Tree Binding Wind Blade"
+  },
+  "Demonic Rush": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Demonic Rush"
+  },
+  "Demonic Statue of the Outer Path: Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Barrier Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gedō Mazō: Shō",
+   "title": "Demonic Statue of the Outer Path: Palm"
+  },
+  "Deutzia": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Utsugi",
+   "title": "Deutzia"
+  },
+  "Deviate Sword": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ittō",
+   "title": "Deviate Sword"
+  },
+  "Disturbance Taijutsu": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kakuran Taijutsu",
+   "title": "Disturbance Taijutsu"
+  },
+  "Divine Retribution": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tenchū",
+   "title": "Divine Retribution"
+  },
+  "Dog Wall Formation": {
+   "hand signs": "",
+   "jutsu class type": "Defensive, Supplementary",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Inukabe no Jin",
+   "title": "Dog Wall Formation"
+  },
+  "Don't Let Your Guard Down!": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yudan Shicha Damedesho!",
+   "title": "Don't Let Your Guard Down!"
+  },
+  "Double Dynamic Entry": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daburu Dainamikku Entorī",
+   "title": "Double Dynamic Entry"
+  },
+  "Double Heavenly Foot of Pain": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daburu Tsūtenkyaku",
+   "title": "Double Heavenly Foot of Pain"
+  },
+  "Double Human Bullet Tank": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daburu Nikudan Sensha",
+   "title": "Double Human Bullet Tank"
+  },
+  "Dragging Punishment": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hikizurimawashi no Kei",
+   "title": "Dragging Punishment"
+  },
+  "Dragon Cat": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Dragon Cat"
+  },
+  "Dragon Tail Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ryūbikyaku",
+   "title": "Dragon Tail Foot"
+  },
+  "Dramingo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Doraminkō",
+   "title": "Dramingo"
+  },
+  "Drilling Crimson Blade": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Drilling Crimson Blade"
+  },
+  "Drilling Needles": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Drilling Needles"
+  },
+  "Drooping Flower": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shidarehana",
+   "title": "Drooping Flower"
+  },
+  "Drop Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Doroppu Kikku",
+   "title": "Drop Kick"
+  },
+  "Drunken Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Suiken",
+   "title": "Drunken Fist"
+  },
+  "Dying Wail Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Dying Wail Fist"
+  },
+  "Dynamic Action": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dainamikku Akushyon",
+   "title": "Dynamic Action"
+  },
+  "Dynamic Entry": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "D",
+   "jutsu type": "",
+   "romaji": "Dainamikku Entorī",
+   "title": "Dynamic Entry"
+  },
+  "Dynamic Marking": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dainamikku Mākingu",
+   "title": "Dynamic Marking"
+  },
+  "Early Sacrifice": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hayanie",
+   "title": "Early Sacrifice"
+  },
+  "Earth Cutter": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jikoku",
+   "title": "Earth Cutter"
+  },
+  "Earth Release: Earth Crust Tearing Impact": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Doton: Chikaku Resshō",
+   "title": "Earth Release: Earth Crust Tearing Impact"
+  },
+  "Earth Release: Fist Rock Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Doton: Kengan no Jutsu",
+   "title": "Earth Release: Fist Rock Technique"
+  },
+  "Earth Splitting": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daichiwari",
+   "title": "Earth Splitting"
+  },
+  "Earth-Shattering": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyōtendōchi",
+   "title": "Earth-Shattering"
+  },
+  "Earth-Tearing Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Hiden, Shinjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chiretsukyaku",
+   "title": "Earth-Tearing Foot"
+  },
+  "Eight Gates Released Formation": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Hachimon Tonkō no Jin",
+   "title": "Eight Gates Released Formation"
+  },
+  "Eight Trigrams Aerial Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Eight Trigrams Aerial Attack"
+  },
+  "Eight Trigrams Aiki Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Aikishō",
+   "title": "Eight Trigrams Aiki Palm"
+  },
+  "Eight Trigrams Breaching Vacuum Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Hakō Kūshō",
+   "title": "Eight Trigrams Breaching Vacuum Palm"
+  },
+  "Eight Trigrams Four Sky Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Shitenkūshō",
+   "title": "Eight Trigrams Four Sky Palms"
+  },
+  "Eight Trigrams Lion Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Shishō",
+   "title": "Eight Trigrams Lion Palm"
+  },
+  "Eight Trigrams Mountain Crusher": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Hazangeki",
+   "title": "Eight Trigrams Mountain Crusher"
+  },
+  "Eight Trigrams One Hundred Twenty-Eight Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Hyaku Nijūhasshō",
+   "title": "Eight Trigrams One Hundred Twenty-Eight Palms"
+  },
+  "Eight Trigrams Palms Great Revolving Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakkeshō Dai Kaiten",
+   "title": "Eight Trigrams Palms Great Revolving Heaven"
+  },
+  "Eight Trigrams Palms Revolving Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakkeshō Kaiten",
+   "title": "Eight Trigrams Palms Revolving Heaven"
+  },
+  "Eight Trigrams Palms Revolving Heaven: Sever": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakkeshō Kaiten: Zetsu",
+   "title": "Eight Trigrams Palms Revolving Heaven: Sever"
+  },
+  "Eight Trigrams Palms Storm Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakkeshō Ranbu",
+   "title": "Eight Trigrams Palms Storm Dance"
+  },
+  "Eight Trigrams Palms Twin Handed Back": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakkeshō Sōshutsūhai",
+   "title": "Eight Trigrams Palms Twin Handed Back"
+  },
+  "Eight Trigrams Palms Vacuum Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakkeshō Kūten",
+   "title": "Eight Trigrams Palms Vacuum Heaven"
+  },
+  "Eight Trigrams Sect Palm Wave": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakkeshū Shōha",
+   "title": "Eight Trigrams Sect Palm Wave"
+  },
+  "Eight Trigrams Sixteen Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Jūroku Shō",
+   "title": "Eight Trigrams Sixteen Palms"
+  },
+  "Eight Trigrams Sixty-Four Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Rokujūyon Shō",
+   "title": "Eight Trigrams Sixty-Four Palms"
+  },
+  "Eight Trigrams Spirit Sixty-Four Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Eight Trigrams Spirit Sixty-Four Palms"
+  },
+  "Eight Trigrams Thirty-Two Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Sanjūni Shō",
+   "title": "Eight Trigrams Thirty-Two Palms"
+  },
+  "Eight Trigrams Three-Hundred-Sixty-One Style": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Sanbyakurokujū Isshiki",
+   "title": "Eight Trigrams Three-Hundred-Sixty-One Style"
+  },
+  "Eight Trigrams Twin Lions Crumbling Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Chakra Absorption Techniques, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Sōjishi Hōgeki",
+   "title": "Eight Trigrams Twin Lions Crumbling Attack"
+  },
+  "Eight Trigrams Vacuum Lion Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Kūshishō",
+   "title": "Eight Trigrams Vacuum Lion Palm"
+  },
+  "Eight Trigrams Vacuum Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Mid, Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Kūshō",
+   "title": "Eight Trigrams Vacuum Palm"
+  },
+  "Eight Trigrams Vacuum Wall Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakke Kūhekishō",
+   "title": "Eight Trigrams Vacuum Wall Palm"
+  },
+  "Eighty Gods Vacuum Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kekkei Mōra",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yasogami Kūgeki",
+   "title": "Eighty Gods Vacuum Attack"
+  },
+  "Empty Crash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kara no Dōn",
+   "title": "Empty Crash"
+  },
+  "Ensnaring Exploding Flame": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rōraku no Bakuen",
+   "title": "Ensnaring Exploding Flame"
+  },
+  "Erupting Falling Stomp": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Funkōtō",
+   "title": "Erupting Falling Stomp"
+  },
+  "Erupting Propulsion Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Funsuiken",
+   "title": "Erupting Propulsion Fist"
+  },
+  "Erupting Revolving Arm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Funsenwan",
+   "title": "Erupting Revolving Arm"
+  },
+  "Erupting Revolving Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Funsenkyaku",
+   "title": "Erupting Revolving Foot"
+  },
+  "Erupting Strong Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Fungōkyaku",
+   "title": "Erupting Strong Foot"
+  },
+  "Erupting Thrust Cannon": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Funkahō",
+   "title": "Erupting Thrust Cannon"
+  },
+  "Eruption Legs": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Eruption Legs"
+  },
+  "Eternal Rival (Ultimate Ninja 3)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Eien no Raibaru",
+   "title": "Eternal Rival (Ultimate Ninja 3)"
+  },
+  "Eternal Rival (Ultimate Ninja Storm Revolution)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kinjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Eien no Raibaru",
+   "title": "Eternal Rival (Ultimate Ninja Storm Revolution)"
+  },
+  "Evening Elephant": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Sekizō",
+   "title": "Evening Elephant"
+  },
+  "Evening Shower Heavenly Crush": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yūdachi Amakuzushi",
+   "title": "Evening Shower Heavenly Crush"
+  },
+  "Explosion Release: Defence Technique": {
+   "hand signs": "",
+   "jutsu class type": "Defensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bakuton: Bōgyojutsu",
+   "title": "Explosion Release: Defence Technique"
+  },
+  "Explosion Release: Landmine Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bakuton: Jiraiken",
+   "title": "Explosion Release: Landmine Fist"
+  },
+  "Explosion Release: Quick Explosive Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Explosion Release: Quick Explosive Kick"
+  },
+  "Explosion: Ice Mountain Destruction": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bakuretsu: Hyōzankuzushi",
+   "title": "Explosion: Ice Mountain Destruction"
+  },
+  "Fairy Tale Get": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Meruhen Getto",
+   "title": "Fairy Tale Get"
+  },
+  "Falling Chain": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rakusa",
+   "title": "Falling Chain"
+  },
+  "Falling Wrapping Thrust": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kōten Tsuki",
+   "title": "Falling Wrapping Thrust"
+  },
+  "Fang Beheading Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gazanga",
+   "title": "Fang Beheading Fang"
+  },
+  "Fang Heaven Wolf": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gatenrō",
+   "title": "Fang Heaven Wolf"
+  },
+  "Fang Insects Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gachūga",
+   "title": "Fang Insects Fang"
+  },
+  "Fang Passing Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Gatsūga",
+   "title": "Fang Passing Fang"
+  },
+  "Fang Rotating Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gatenga",
+   "title": "Fang Rotating Fang"
+  },
+  "Fang Violent Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Garega",
+   "title": "Fang Violent Fang"
+  },
+  "Fang Wolf Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "B",
+   "jutsu type": "",
+   "romaji": "Garōga",
+   "title": "Fang Wolf Fang"
+  },
+  "Fangs of the Monkey King": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "En'ō no Kiba",
+   "title": "Fangs of the Monkey King"
+  },
+  "Fat Couple Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Fat Couple Attack"
+  },
+  "Fierce Snake": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Takerikuchinawa",
+   "title": "Fierce Snake"
+  },
+  "Fire Leaping Windhole": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Fūinjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kachō Kazaana",
+   "title": "Fire Leaping Windhole"
+  },
+  "Fire Release: Great Fire Annihilation: Earth": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Katon: Gōka Mekkyaku: Chi",
+   "title": "Fire Release: Great Fire Annihilation: Earth"
+  },
+  "Fire Release: Great Fire Annihilation: Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Katon: Gōka Mekkyaku: Ten",
+   "title": "Fire Release: Great Fire Annihilation: Heaven"
+  },
+  "Fire Release: Great Fireball Technique: Falling Fire": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Katon: Gōkakyū no Jutsu: Rakka",
+   "title": "Fire Release: Great Fireball Technique: Falling Fire"
+  },
+  "Fire Release: Great Fireball Technique: First Step": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Fire Release: Great Fireball Technique: First Step"
+  },
+  "Fire Release: Great Fireball Technique: Onibi": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Katon: Gōkakyū no Jutsu: Onibi",
+   "title": "Fire Release: Great Fireball Technique: Onibi"
+  },
+  "Fist Slam": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Fist Slam"
+  },
+  "Five-Mountain Jump": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gozan Tobi",
+   "title": "Five-Mountain Jump"
+  },
+  "Flash Cross Sever": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Senkō Jūjiki",
+   "title": "Flash Cross Sever"
+  },
+  "Flash Revolving Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sensenkyaku",
+   "title": "Flash Revolving Foot"
+  },
+  "Flash Swallow Dance: Heaven Step": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Senkō Enbu: Ten no Dan",
+   "title": "Flash Swallow Dance: Heaven Step"
+  },
+  "Flawless Three": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Kenjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kanzenmuketsu no Sannin",
+   "title": "Flawless Three"
+  },
+  "Flight": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hishō",
+   "title": "Flight"
+  },
+  "Flower–Fruit Mountain": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kakazan",
+   "title": "Flower–Fruit Mountain"
+  },
+  "Flowing Blade": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Medical Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ryūjin",
+   "title": "Flowing Blade"
+  },
+  "Fluttering Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Honten",
+   "title": "Fluttering Heaven"
+  },
+  "Flying Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hikōgeki",
+   "title": "Flying Attack"
+  },
+  "Flying Claw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hisō",
+   "title": "Flying Claw"
+  },
+  "Flying Single Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hishō Hitoashi",
+   "title": "Flying Single Foot"
+  },
+  "Flying Swallow": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Chakra Flow, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "B",
+   "jutsu type": "",
+   "romaji": "Hien",
+   "title": "Flying Swallow"
+  },
+  "Flying Swallow Barrage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Flying Swallow Barrage"
+  },
+  "Flying Swallow: Cross Cut": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Chakra Flow, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hien: Jūjigiri",
+   "title": "Flying Swallow: Cross Cut"
+  },
+  "Flying Thunder God: Sequential Steps": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hiraishin: Ren no Dan",
+   "title": "Flying Thunder God: Sequential Steps"
+  },
+  "Formation Ino–Shika–Chō": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Fōmēshon Ino–Shika–Chō",
+   "title": "Formation Ino–Shika–Chō"
+  },
+  "Forward Trampling Jump": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Zentōyō",
+   "title": "Forward Trampling Jump"
+  },
+  "Frog": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kenzan",
+   "title": "Frog"
+  },
+  "Frog Kata": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Senjutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Kawazu Kumite",
+   "title": "Frog Kata"
+  },
+  "Frog Kata: Dual Gale": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Senjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kawazu Kumite: Sōfū",
+   "title": "Frog Kata: Dual Gale"
+  },
+  "Frog Kata: Frog Throw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Frog Kata: Frog Throw"
+  },
+  "Frog Kata: Heaven Return": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kawazu Kumite: Tenkan",
+   "title": "Frog Kata: Heaven Return"
+  },
+  "Frog Kata: Roaring Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kawazu Kumite: Hōgeki",
+   "title": "Frog Kata: Roaring Attack"
+  },
+  "Frog Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Kawazu Tataki",
+   "title": "Frog Strike"
+  },
+  "Front Lotus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "B",
+   "jutsu type": "",
+   "romaji": "Omote Renge",
+   "title": "Front Lotus"
+  },
+  "Front Lotus Guy Version": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Omote Renge Gai Bājon",
+   "title": "Front Lotus Guy Version"
+  },
+  "Front Lotus of Love and Youth": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ai to Seishun no Omote Renge",
+   "title": "Front Lotus of Love and Youth"
+  },
+  "Front Lotus: Eight Trigrams Palms Revolving Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kinjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Omote Renge: Hakkeshō Kaiten",
+   "title": "Front Lotus: Eight Trigrams Palms Revolving Heaven"
+  },
+  "Furious Tail Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Furious Tail Strike"
+  },
+  "Gale Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Gale Bullet"
+  },
+  "Gamaken's Clumsy Shake-Down": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Gamaken's Clumsy Shake-Down"
+  },
+  "Gentle Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive, Supplementary",
+   "jutsu classification": "Taijutsu, Hiden, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūken",
+   "title": "Gentle Fist"
+  },
+  "Gentle Fist Art One Blow Body": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūkenhō Ichigekishin",
+   "title": "Gentle Fist Art One Blow Body"
+  },
+  "Gentle Fist Art: Exorcism": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūkenpō: Harai",
+   "title": "Gentle Fist Art: Exorcism"
+  },
+  "Gentle Fist Instruction": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūken Shinan",
+   "title": "Gentle Fist Instruction"
+  },
+  "Gentle Fist: Tenketsu Needle": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūken: Tenketsushin",
+   "title": "Gentle Fist: Tenketsu Needle"
+  },
+  "Gentle Phoenix Spiralling Twin Lion Fists": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūhō Rasen Sōshiken",
+   "title": "Gentle Phoenix Spiralling Twin Lion Fists"
+  },
+  "Gentle Step Tailed Beast Twin Lion Fists": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Chakra Absorption Techniques, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūho Bijū Sōshiken",
+   "title": "Gentle Step Tailed Beast Twin Lion Fists"
+  },
+  "Gentle Step Twin Lion Fists": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Chakra Absorption Techniques, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūho Sōshiken",
+   "title": "Gentle Step Twin Lion Fists"
+  },
+  "Gentle Step Twin Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūho Sōshō",
+   "title": "Gentle Step Twin Palms"
+  },
+  "Gentle Wind Spiralling Twin Lion Fists: Snow White": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Chakra Absorption Techniques, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jūfū Rasen Sōshiken: Shirayuki",
+   "title": "Gentle Wind Spiralling Twin Lion Fists: Snow White"
+  },
+  "Giant Insect Fang: Sixty-Four Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Chakra Absorption Techniques, Hiden, Clone Techniques, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daichūga: Rokujūyon Shō",
+   "title": "Giant Insect Fang: Sixty-Four Palms"
+  },
+  "Giant Swing": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shaianto Suingu",
+   "title": "Giant Swing"
+  },
+  "Giant Tree Strong Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyoki Gōriki Otoshi",
+   "title": "Giant Tree Strong Drop"
+  },
+  "Grass Shadow-Style Emit Destroy Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kusakage-Ryū Happa Shō",
+   "title": "Grass Shadow-Style Emit Destroy Palm"
+  },
+  "Great Barrage Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gōrendada",
+   "title": "Great Barrage Strike"
+  },
+  "Great Cat Claw Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daibyō Sōgeki",
+   "title": "Great Cat Claw Attack"
+  },
+  "Great Entrance of Burning Spirit": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kake Agaru Atsuki Tamashii",
+   "title": "Great Entrance of Burning Spirit"
+  },
+  "Great Gunpowder Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Great Gunpowder Attack"
+  },
+  "Great Rotating Pushing Kick (Failed…)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daikaiten Abisegeri (Shippai…)",
+   "title": "Great Rotating Pushing Kick (Failed…)"
+  },
+  "Great Strike Outburst": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daikōbō",
+   "title": "Great Strike Outburst"
+  },
+  "Great Trample Circle": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daitōen",
+   "title": "Great Trample Circle"
+  },
+  "Great Wild Snake": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dairanja",
+   "title": "Great Wild Snake"
+  },
+  "Green Impact": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Aoi Shōgeki",
+   "title": "Green Impact"
+  },
+  "Green Roar": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Aoi Hōkō",
+   "title": "Green Roar"
+  },
+  "Ground Splitting": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jimenwari",
+   "title": "Ground Splitting"
+  },
+  "Gunpowder Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Gunpowder Fist"
+  },
+  "Hanabi Style: Eight Trigrams Sixty-Four Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hanabi Ryū: Hakke Rokujūyon Shō",
+   "title": "Hanabi Style: Eight Trigrams Sixty-Four Palms"
+  },
+  "Hanabi Style: Revolving Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hanabi-ryū: Kaiten",
+   "title": "Hanabi Style: Revolving Heaven"
+  },
+  "Headbutt": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Heddo Batto",
+   "title": "Headbutt"
+  },
+  "Headbutt (game)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Headbutt (game)"
+  },
+  "Heaven Collapse": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tenhō",
+   "title": "Heaven Collapse"
+  },
+  "Heaven Cutter": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tenkoku",
+   "title": "Heaven Cutter"
+  },
+  "Heaven Twin Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tensōga",
+   "title": "Heaven Twin Fang"
+  },
+  "Heaven's Blessing": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ten no Megumi",
+   "title": "Heaven's Blessing"
+  },
+  "Heaven's Needle Barrage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu, Shurikenjutsu",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Heaven's Needle Barrage"
+  },
+  "Heavenly Chidori: Cherry Blossom": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Amanochidori: Ōka",
+   "title": "Heavenly Chidori: Cherry Blossom"
+  },
+  "Heavenly Defending Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tenshukyaku",
+   "title": "Heavenly Defending Foot"
+  },
+  "Heavenly Foot of Pain": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Tsūtenkyaku",
+   "title": "Heavenly Foot of Pain"
+  },
+  "Heavenly Foot of Pain: Kirin": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Heavenly Foot of Pain: Kirin"
+  },
+  "Heavenly Kick Wild Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tenshū Ranbu",
+   "title": "Heavenly Kick Wild Dance"
+  },
+  "Heavenly Palm Wild Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tenshō Ranbu",
+   "title": "Heavenly Palm Wild Dance"
+  },
+  "Heavenly Spear Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sōtenkyaku",
+   "title": "Heavenly Spear Foot"
+  },
+  "Heavy Hammer Spark": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Heavy Hammer Spark"
+  },
+  "Heel Falling Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kakato Rakugeki",
+   "title": "Heel Falling Attack"
+  },
+  "Hell Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Hell Drop"
+  },
+  "Hell Stab Four-Finger Spear Hand: Sky Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Hell Stab Four-Finger Spear Hand: Sky Drop"
+  },
+  "Hell Stab One-Finger Nukite: Ultimate": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jigokuzuki Ippon Nukite: Kyoku",
+   "title": "Hell Stab One-Finger Nukite: Ultimate"
+  },
+  "Hell Stab Three-Finger Spear Hand: Side Swipe": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Hell Stab Three-Finger Spear Hand: Side Swipe"
+  },
+  "Hero of the Sharingan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sharingan no Eiyū",
+   "title": "Hero of the Sharingan"
+  },
+  "Holly": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hiiragi",
+   "title": "Holly"
+  },
+  "Horizon Meteor": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Fūinjutsu, Clone Techniques",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tengai Ryūsei",
+   "title": "Horizon Meteor"
+  },
+  "Horn Breaking": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tsunoori",
+   "title": "Horn Breaking"
+  },
+  "Horror of Akatsuki": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Kinjutsu, Hiden, Cooperation Ninjutsu, Kenjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Senritsu no Akatsuki",
+   "title": "Horror of Akatsuki"
+  },
+  "Host Transformation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Host Transformation"
+  },
+  "Hot Sand Waterfall Funeral": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nessabakusō",
+   "title": "Hot Sand Waterfall Funeral"
+  },
+  "Hot-Blooded Dynamic Entry": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nekketsu Dainamikku Entorī",
+   "title": "Hot-Blooded Dynamic Entry"
+  },
+  "Human Bullet Big Tank": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nikudan Daisensha",
+   "title": "Human Bullet Big Tank"
+  },
+  "Human Bullet Heavy Tank": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nikudan Jūsensha",
+   "title": "Human Bullet Heavy Tank"
+  },
+  "Human Bullet Tank": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Nikudan Sensha",
+   "title": "Human Bullet Tank"
+  },
+  "Human Bullet Yo-Yo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nikudan Yōyō",
+   "title": "Human Bullet Yo-Yo"
+  },
+  "Hundred Furious Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hyaku Retsushō",
+   "title": "Hundred Furious Palms"
+  },
+  "Hurricane Head Butt": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Harikēnheddobatto",
+   "title": "Hurricane Head Butt"
+  },
+  "Hurricane Thunderclap — Majestic Attire Sword Stroke": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shippū Jinrai — Isō no Hitotachi",
+   "title": "Hurricane Thunderclap — Majestic Attire Sword Stroke"
+  },
+  "Husband and Wife Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Husband and Wife Rasengan"
+  },
+  "Hyūga Great Combo Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hyūga Dairenshō",
+   "title": "Hyūga Great Combo Palm"
+  },
+  "Hyūga: Great Revolving Heaven": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hyūga: Daikaiten",
+   "title": "Hyūga: Great Revolving Heaven"
+  },
+  "I Won't Let You Go!": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mooyurusanaitsu!",
+   "title": "I Won't Let You Go!"
+  },
+  "Ice Release: Icicle Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hyōton: Tsurara Rendan",
+   "title": "Ice Release: Icicle Combo"
+  },
+  "Incursion of Clarity": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gojin",
+   "title": "Incursion of Clarity"
+  },
+  "Infinite Wild Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mugen Ranbu",
+   "title": "Infinite Wild Dance"
+  },
+  "Ink Lariat": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Ink Lariat"
+  },
+  "Inner Sakura": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Genjutsu, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uchi Naru Sakura",
+   "title": "Inner Sakura"
+  },
+  "Instant Earth Burial": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Instant Earth Burial"
+  },
+  "Instant Lightning Blade": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shunraijin",
+   "title": "Instant Lightning Blade"
+  },
+  "Instant Lightning: Combination Tag": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu, Cooperation Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shunrai: Konbinēshon Taggu",
+   "title": "Instant Lightning: Combination Tag"
+  },
+  "Instant Water": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shunsui",
+   "title": "Instant Water"
+  },
+  "Intense Passion: Ferocious Tiger Lotus Peacock Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gekiatsu: Mōko Renjaku no Kō",
+   "title": "Intense Passion: Ferocious Tiger Lotus Peacock Attack"
+  },
+  "Internal Weapon": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tainai Heiki",
+   "title": "Internal Weapon"
+  },
+  "Intersection Method": {
+   "hand signs": "",
+   "jutsu class type": "Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kōsahō",
+   "title": "Intersection Method"
+  },
+  "Inuzuka Clan Glory": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Inuzuka Clan Glory"
+  },
+  "Invariant Connection": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kinjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kawaranai Kankei",
+   "title": "Invariant Connection"
+  },
+  "Iron Claw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Aian Kurō",
+   "title": "Iron Claw"
+  },
+  "Iron Mountain Leaning": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tetsuzankō",
+   "title": "Iron Mountain Leaning"
+  },
+  "Iron Pan Furious Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tetsunabe Mōgeki",
+   "title": "Iron Pan Furious Attack"
+  },
+  "Jawbreaker": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Agitowari",
+   "title": "Jawbreaker"
+  },
+  "Kagutsuchi Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Kinjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kagutsuchi Rasengan",
+   "title": "Kagutsuchi Rasengan"
+  },
+  "Kara Savagery": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu, Space–Time Ninjutsu, Shinjutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sanretsu naru Kara",
+   "title": "Kara Savagery"
+  },
+  "Kick Attack Crash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shūgeki no Tsui",
+   "title": "Kick Attack Crash"
+  },
+  "Konoha Jōseki Formation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu, Bukijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Jōseki no Jin",
+   "title": "Konoha Jōseki Formation"
+  },
+  "Kunoichi Rumble": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Kunoichi Rumble"
+  },
+  "Kurama Great Crumbling": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kurama Taihō",
+   "title": "Kurama Great Crumbling"
+  },
+  "Kāma Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques, Shinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kāma Rasengan",
+   "title": "Kāma Rasengan"
+  },
+  "Kāma: Great Burial Wave": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Shinjutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kāma: Daisōha",
+   "title": "Kāma: Great Burial Wave"
+  },
+  "Landslide Assault": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Landslide Assault"
+  },
+  "Last Resort: Eight Gates Crumbling Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Zesshō: Hachimon Hōgeki",
+   "title": "Last Resort: Eight Gates Crumbling Attack"
+  },
+  "Lava Release Chakra Mode": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Chakra Flow",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yōton Chakura Mōdo",
+   "title": "Lava Release Chakra Mode"
+  },
+  "Lava Release: Scorching Armoured Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yōton: Shakugaikōken",
+   "title": "Lava Release: Scorching Armoured Fist"
+  },
+  "Lava Release: Scorching Flow Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yōton: Shakuryūken",
+   "title": "Lava Release: Scorching Flow Fist"
+  },
+  "Lava Release: Scorching Flower Great Crumbling": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yōton: Shakuka Taihō",
+   "title": "Lava Release: Scorching Flower Great Crumbling"
+  },
+  "Lava Release: Scorching Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yōton: Shakushū",
+   "title": "Lava Release: Scorching Kick"
+  },
+  "Leaf Broadminded": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Gōhōrairaku",
+   "title": "Leaf Broadminded"
+  },
+  "Leaf Coiling Whirlwind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Tsumuji Senpū",
+   "title": "Leaf Coiling Whirlwind"
+  },
+  "Leaf Coiling Wind": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Tsumujikaze",
+   "title": "Leaf Coiling Wind"
+  },
+  "Leaf Dragon God": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Ryūjin",
+   "title": "Leaf Dragon God"
+  },
+  "Leaf Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Otoshi",
+   "title": "Leaf Drop"
+  },
+  "Leaf Flash Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Senshū",
+   "title": "Leaf Flash Kick"
+  },
+  "Leaf Gale": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "D",
+   "jutsu type": "",
+   "romaji": "Konoha Reppū",
+   "title": "Leaf Gale"
+  },
+  "Leaf Great Combo Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Tai Rengeki",
+   "title": "Leaf Great Combo Attack"
+  },
+  "Leaf Great Flash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Daisenkō",
+   "title": "Leaf Great Flash"
+  },
+  "Leaf Great Violent Sky": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Dairekkū",
+   "title": "Leaf Great Violent Sky"
+  },
+  "Leaf Great Whirlwind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Konoha Daisenpū",
+   "title": "Leaf Great Whirlwind"
+  },
+  "Leaf Gust": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Toppū",
+   "title": "Leaf Gust"
+  },
+  "Leaf Hot Wind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Neppū",
+   "title": "Leaf Hot Wind"
+  },
+  "Leaf Hurricane Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Shippūdan",
+   "title": "Leaf Hurricane Bullet"
+  },
+  "Leaf Revolving Light": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Senkō",
+   "title": "Leaf Revolving Light"
+  },
+  "Leaf Rising Wind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Konoha Shōfū",
+   "title": "Leaf Rising Wind"
+  },
+  "Leaf Roaring Flame Hurricane": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Gōen Shippū",
+   "title": "Leaf Roaring Flame Hurricane"
+  },
+  "Leaf Rock-Destroying Rise": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Kaiganshō",
+   "title": "Leaf Rock-Destroying Rise"
+  },
+  "Leaf Shuriken": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Shuriken",
+   "title": "Leaf Shuriken"
+  },
+  "Leaf Springtime of Life Lotus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Seishun Renge",
+   "title": "Leaf Springtime of Life Lotus"
+  },
+  "Leaf Strong Whirlwind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "B",
+   "jutsu type": "",
+   "romaji": "Konoha Gōriki Senpū",
+   "title": "Leaf Strong Whirlwind"
+  },
+  "Leaf Sweet Riot Car": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Kanransha",
+   "title": "Leaf Sweet Riot Car"
+  },
+  "Leaf Taijutsu: Whirlwind Furious Feet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Taijutsu: Senpū Rekkyaku",
+   "title": "Leaf Taijutsu: Whirlwind Furious Feet"
+  },
+  "Leaf Whirlwind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "D",
+   "jutsu type": "",
+   "romaji": "Konoha Senpū",
+   "title": "Leaf Whirlwind"
+  },
+  "Leaf Windstorm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha Bōfū",
+   "title": "Leaf Windstorm"
+  },
+  "Leaf-Style: Empty Cicada": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konoha-Ryu: Utsusemi",
+   "title": "Leaf-Style: Empty Cicada"
+  },
+  "Leaping Bullet Shell Tower": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chōdan Kōro",
+   "title": "Leaping Bullet Shell Tower"
+  },
+  "Leech Gap": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hiruma",
+   "title": "Leech Gap"
+  },
+  "Legend of the White Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shiroi Kiba no Densetsu",
+   "title": "Legend of the White Fang"
+  },
+  "Liger Two Platoons Bomb": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Raigāzu Tsū Puraton Bomu",
+   "title": "Liger Two Platoons Bomb"
+  },
+  "Lightning Cutter Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Raikiri Rendan",
+   "title": "Lightning Cutter Combo"
+  },
+  "Lightning Cutter: Double Lightning Quake": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Raikiri: Sōraishin",
+   "title": "Lightning Cutter: Double Lightning Quake"
+  },
+  "Lightning Flash (Game)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Raikō",
+   "title": "Lightning Flash (Game)"
+  },
+  "Lightning Flash Lion Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Raikō Shishi Rendan",
+   "title": "Lightning Flash Lion Combo"
+  },
+  "Lightning Release: Double Lariat": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Raiton: Daburu Rariatto",
+   "title": "Lightning Release: Double Lariat"
+  },
+  "Lightning Release: Lariat": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Raiton: Rariatto",
+   "title": "Lightning Release: Lariat"
+  },
+  "Lightning Speed (Minato)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Space–Time Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Denkō Sekka",
+   "title": "Lightning Speed (Minato)"
+  },
+  "Lion Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Shishi Rendan",
+   "title": "Lion Combo"
+  },
+  "Lion Flame Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shishi Kaendan",
+   "title": "Lion Flame Bullet"
+  },
+  "Little Toe Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Koyubi Kōgeki",
+   "title": "Little Toe Attack"
+  },
+  "Love Roar": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ai no Ikkatsu",
+   "title": "Love Roar"
+  },
+  "Married Couple Combination: Adamantine Impact": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Married Couple Combination: Adamantine Impact"
+  },
+  "Maximum Entry": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Makishimamu Entorī",
+   "title": "Maximum Entry"
+  },
+  "Mecha-Naruto Taijutsu Combo": {
+   "hand signs": "",
+   "jutsu class type": "Defensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Mecha-Naruto Taijutsu Combo"
+  },
+  "Medical Empress Gambler": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Itei Toonna",
+   "title": "Medical Empress Gambler"
+  },
+  "Medical Ninjutsu: Strong Flash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Medical Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Iryō Ninjutsu: Gōsen",
+   "title": "Medical Ninjutsu: Strong Flash"
+  },
+  "Medullary Cut": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Enzuigiri",
+   "title": "Medullary Cut"
+  },
+  "Middle-Aged Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Midoru Ējido Atakku",
+   "title": "Middle-Aged Attack"
+  },
+  "Might Cyclone": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Might Cyclone"
+  },
+  "Mingling Arm Flying Thrust": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kōwan Hitotsu",
+   "title": "Mingling Arm Flying Thrust"
+  },
+  "Moonlight": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tsukikage",
+   "title": "Moonlight"
+  },
+  "Morning Peacock": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Asakujaku",
+   "title": "Morning Peacock"
+  },
+  "Mountain Face": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sangan",
+   "title": "Mountain Face"
+  },
+  "Multiple Connected Feet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tarenkyaku",
+   "title": "Multiple Connected Feet"
+  },
+  "Multiple Connected Fists": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tarenken",
+   "title": "Multiple Connected Fists"
+  },
+  "Multiple Connected Fists: Rakshasa": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tarenken: Rasetsu",
+   "title": "Multiple Connected Fists: Rakshasa"
+  },
+  "Multiple Connected Whirlwinds": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tarensenpū",
+   "title": "Multiple Connected Whirlwinds"
+  },
+  "Multiple Shadows Attack Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kinjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Taeigeki Rendan",
+   "title": "Multiple Shadows Attack Combo"
+  },
+  "Nagi Snake Tail": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Nagi Snake Tail"
+  },
+  "Naruto Punch": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Naruto Panchi",
+   "title": "Naruto Punch"
+  },
+  "Naruto Region Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kinjutsu, Senjutsu, Clone Techniques",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Naruto Ittai Rendan",
+   "title": "Naruto Region Combo"
+  },
+  "Naruto Uzumaki Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "B",
+   "jutsu type": "",
+   "romaji": "Uzumaki Naruto Rendan",
+   "title": "Naruto Uzumaki Combo"
+  },
+  "Naruto Uzumaki Combo Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uzumaki Naruto Rengeki",
+   "title": "Naruto Uzumaki Combo Attack"
+  },
+  "Naruto Uzumaki Five Thousand Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kinjutsu, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uzumaki Naruto Gosen Rendan",
+   "title": "Naruto Uzumaki Five Thousand Combo"
+  },
+  "Naruto Uzumaki Spiralling Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uzumaki Naruto Rasenrendan",
+   "title": "Naruto Uzumaki Spiralling Combo"
+  },
+  "Naruto Uzumaki Two Thousand Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kinjutsu, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Uzumaki Naruto Nisen Rendan",
+   "title": "Naruto Uzumaki Two Thousand Combo"
+  },
+  "Naruto Uzumaki's Shinobi Handbook (Ultimate Ninja 3)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kinjutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uzumaki Naruto Ninpōchō",
+   "title": "Naruto Uzumaki's Shinobi Handbook (Ultimate Ninja 3)"
+  },
+  "New Naruto Uzumaki Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shin Uzumaki Naruto Rendan",
+   "title": "New Naruto Uzumaki Combo"
+  },
+  "New: Summoning Three-Way Deadlock": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shin: Kuchiyose Sansukumi",
+   "title": "New: Summoning Three-Way Deadlock"
+  },
+  "Newly Invented: Lightning Swift Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shin'ei: Raijin Rasengan",
+   "title": "Newly Invented: Lightning Swift Rasengan"
+  },
+  "Night Guy": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "S",
+   "jutsu type": "",
+   "romaji": "Yagai",
+   "title": "Night Guy"
+  },
+  "Night Phoenix": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yoruhōō",
+   "title": "Night Phoenix"
+  },
+  "Nine-Tailed Fox Barrage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Nine-Tailed Fox Barrage"
+  },
+  "Nine-Tailed Fox Rapid Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Nine-Tailed Fox Rapid Combo"
+  },
+  "Nine-Tailed Naruto Wild Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyūbi Naruto Rangeki",
+   "title": "Nine-Tailed Naruto Wild Attack"
+  },
+  "Nine-Tails Surge": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyūbi no Hadō",
+   "title": "Nine-Tails Surge"
+  },
+  "Nine-Tails' Claw: Fission": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyūbi no Tsume: Bunretsu",
+   "title": "Nine-Tails' Claw: Fission"
+  },
+  "Nine-Tails' Claw: Great Rampage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyūbi no Tsume: Daiabare",
+   "title": "Nine-Tails' Claw: Great Rampage"
+  },
+  "Nine-Tails' Power": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyūbi no Chikara",
+   "title": "Nine-Tails' Power"
+  },
+  "Ninja Art: Bare-Handed Blade Block": {
+   "hand signs": "",
+   "jutsu class type": "Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ninpō: Shinken Shirahadori",
+   "title": "Ninja Art: Bare-Handed Blade Block"
+  },
+  "Ninja Art: Moonlight Beauty": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ninpō: Gekka Bijin",
+   "title": "Ninja Art: Moonlight Beauty"
+  },
+  "Ninken Ninja Art: Dance of the Dust Cloud": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ninken Ninpō: Sajin no Mai",
+   "title": "Ninken Ninja Art: Dance of the Dust Cloud"
+  },
+  "Noisy Riot: Super Beast Imitating Drawing Picture Scroll": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kenran: Chōjū Giga Emaki",
+   "title": "Noisy Riot: Super Beast Imitating Drawing Picture Scroll"
+  },
+  "Nosedive": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyūkōka",
+   "title": "Nosedive"
+  },
+  "Nunchaku Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Nunchaku Combo"
+  },
+  "Octopus Hug": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Okutopasu Hagu",
+   "title": "Octopus Hug"
+  },
+  "One Thousand Years of Death": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "E",
+   "jutsu type": "",
+   "romaji": "Sennen Goroshi",
+   "title": "One Thousand Years of Death"
+  },
+  "One-Man Front Lotus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hitori Omote Renge",
+   "title": "One-Man Front Lotus"
+  },
+  "Oneself's Rule": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jibun Rūru",
+   "title": "Oneself's Rule"
+  },
+  "Order of Glamour": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu, Genjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kowaku no Gōrei",
+   "title": "Order of Glamour"
+  },
+  "Ostrich Aerial": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dachō Seikūzan",
+   "title": "Ostrich Aerial"
+  },
+  "Ostrich Meteor Blast": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dachō Ryūseibaku",
+   "title": "Ostrich Meteor Blast"
+  },
+  "Ostrich Rising Dragon Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dachō Shōryūdan",
+   "title": "Ostrich Rising Dragon Bullet"
+  },
+  "Ostrich Whirlwind Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dachō Senpūgeki",
+   "title": "Ostrich Whirlwind Attack"
+  },
+  "Outcry of Earth": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Daichi no Sakebi",
+   "title": "Outcry of Earth"
+  },
+  "Overwhelm: Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Attō: Rasengan",
+   "title": "Overwhelm: Rasengan"
+  },
+  "Owl Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Owl Drop"
+  },
+  "Owl Guardian Pursuit": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Owl Guardian Pursuit"
+  },
+  "Pacification of the Grounds": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Senjutsu",
+   "jutsu range": "Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jichinsai",
+   "title": "Pacification of the Grounds"
+  },
+  "Pair's Kamui": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Barrier Ninjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tsui no Kamui",
+   "title": "Pair's Kamui"
+  },
+  "Palm Bottom": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shōtei",
+   "title": "Palm Bottom"
+  },
+  "Palm Wave": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Medical Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shōha",
+   "title": "Palm Wave"
+  },
+  "Pampas": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Susuki",
+   "title": "Pampas"
+  },
+  "Parachute": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rakkasan",
+   "title": "Parachute"
+  },
+  "Parasitic Destruction Insect Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Parasitic Destruction Insect Fang"
+  },
+  "Partial Multi-Size Leg Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Partial Multi-Size Leg Technique"
+  },
+  "Passing Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "D",
+   "jutsu type": "",
+   "romaji": "Tsūga",
+   "title": "Passing Fang"
+  },
+  "Peerless Great Flame Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Musō Gōendan",
+   "title": "Peerless Great Flame Bullet"
+  },
+  "Peerless Hurricane Formation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Musō Shippūjin",
+   "title": "Peerless Hurricane Formation"
+  },
+  "Peony Snow": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Botanyuki",
+   "title": "Peony Snow"
+  },
+  "Peregrine Falcon Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hayabusa Otoshi",
+   "title": "Peregrine Falcon Drop"
+  },
+  "Petal-Dancing Flower Garden": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hanabiramau Hanazono",
+   "title": "Petal-Dancing Flower Garden"
+  },
+  "Piercing Burning Emotions": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tsukinukeru Atsuki Omoi",
+   "title": "Piercing Burning Emotions"
+  },
+  "Piercing Funeral Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sensōkyaku",
+   "title": "Piercing Funeral Foot"
+  },
+  "Piercing Stab": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kanzashi",
+   "title": "Piercing Stab"
+  },
+  "Pinching Rage: Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyōgeki: Rasengan",
+   "title": "Pinching Rage: Rasengan"
+  },
+  "Piston Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kassokuken",
+   "title": "Piston Fist"
+  },
+  "Piston Fist: Style One": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kassokuken: Ichishiki",
+   "title": "Piston Fist: Style One"
+  },
+  "Piston Fist: Style Zero": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kassokuken: Reishiki",
+   "title": "Piston Fist: Style Zero"
+  },
+  "Poisonous Claw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dokusō",
+   "title": "Poisonous Claw"
+  },
+  "Power Bomb": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Pawaa Bomu",
+   "title": "Power Bomb"
+  },
+  "Power of the Hokage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hokage no Chikara",
+   "title": "Power of the Hokage"
+  },
+  "Pressurisation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kaatsu",
+   "title": "Pressurisation"
+  },
+  "Prison Flame Funeral": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gokuensō",
+   "title": "Prison Flame Funeral"
+  },
+  "Prison Gate Palm Bottom": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gokumon Shōtei",
+   "title": "Prison Gate Palm Bottom"
+  },
+  "Protecting Eight Trigrams One Hundred Twenty-Eight Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shugohakke Hyaku Nijūhachi Shō",
+   "title": "Protecting Eight Trigrams One Hundred Twenty-Eight Palms"
+  },
+  "Protecting Eight Trigrams Sixty-Four Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shugohakke Rokujūyon Shō",
+   "title": "Protecting Eight Trigrams Sixty-Four Palms"
+  },
+  "Pulverisation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Senjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Funsai",
+   "title": "Pulverisation"
+  },
+  "Puppet White Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kugutsu no Hakugeki",
+   "title": "Puppet White Attack"
+  },
+  "Puppet: Dance of the Cherry Blossom": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kugutsu: Sakura Mai",
+   "title": "Puppet: Dance of the Cherry Blossom"
+  },
+  "Puppet: Rotation Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kugutsu: Kaisengeki",
+   "title": "Puppet: Rotation Attack"
+  },
+  "Puppet: Shadow Actor": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kugutsu: Kageyakusha",
+   "title": "Puppet: Shadow Actor"
+  },
+  "Puppet: Spring Punishing Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kugutsu: Haruchūgeki",
+   "title": "Puppet: Spring Punishing Strike"
+  },
+  "Pure Land of Paradise": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gokuraku Jōdo",
+   "title": "Pure Land of Paradise"
+  },
+  "Quaking Leg": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shinkyaku",
+   "title": "Quaking Leg"
+  },
+  "Rabbit Hair Needle": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kekkei Mōra",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Togebari",
+   "title": "Rabbit Hair Needle"
+  },
+  "Raging Pounce": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Raging Pounce"
+  },
+  "Rampaging Barrage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bōsō Rangeki",
+   "title": "Rampaging Barrage"
+  },
+  "Rasengan: \"Ensemble\"": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu, Cooperation Ninjutsu, Shinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rasengan: \"Gassō\"",
+   "title": "Rasengan: \"Ensemble\""
+  },
+  "Rasengan: Aerial Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rasengan: Chūgeki",
+   "title": "Rasengan: Aerial Attack"
+  },
+  "Rasengan: Crown of the Head": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rasengan: Nōten",
+   "title": "Rasengan: Crown of the Head"
+  },
+  "Rasengan: Hail": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rasengan: Amearare",
+   "title": "Rasengan: Hail"
+  },
+  "Rasengan: Nosedive": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rasengan: Kyūkōka",
+   "title": "Rasengan: Nosedive"
+  },
+  "Rasengan: Parachute": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rasengan: Rakkasan",
+   "title": "Rasengan: Parachute"
+  },
+  "Red Chakra": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Akai Chakura",
+   "title": "Red Chakra"
+  },
+  "Repent!": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hansei Shinasaai!",
+   "title": "Repent!"
+  },
+  "Reverse Lotus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "A",
+   "jutsu type": "",
+   "romaji": "Ura Renge",
+   "title": "Reverse Lotus"
+  },
+  "Right Pinching Melody": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Right Pinching Melody"
+  },
+  "Righteous Fist Thrust": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Seikentsuki",
+   "title": "Righteous Fist Thrust"
+  },
+  "Rinne Six Paths": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rinne Rikudō",
+   "title": "Rinne Six Paths"
+  },
+  "Rising Bomber": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Raijingubonbā",
+   "title": "Rising Bomber"
+  },
+  "Roaring Run: Great Strength Ice Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bakusō: Gōriki Hyōda",
+   "title": "Roaring Run: Great Strength Ice Strike"
+  },
+  "Rock Avalanche Formation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Iwa Nadare no Jin",
+   "title": "Rock Avalanche Formation"
+  },
+  "Rough Rampage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Rough Rampage"
+  },
+  "Rumoured Endeavour Star": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uwasa no Doryokushō",
+   "title": "Rumoured Endeavour Star"
+  },
+  "Sadistic Combination": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Sadistic Combination"
+  },
+  "Sage Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Senjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Sage Combo"
+  },
+  "Samehada's Gonna Shank Ya!": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Samehada de Buttobasareru Sadame sa!",
+   "title": "Samehada's Gonna Shank Ya!"
+  },
+  "Sand Formation Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Sand Formation Combo"
+  },
+  "Sand Taijutsu Tsunami": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Sand Taijutsu Tsunami"
+  },
+  "Scale Wrapping Rotating Flight": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rinten Kaishō",
+   "title": "Scale Wrapping Rotating Flight"
+  },
+  "Scarlet Invitation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yūkōju",
+   "title": "Scarlet Invitation"
+  },
+  "Scent Blossom Colouring": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kashōsai",
+   "title": "Scent Blossom Colouring"
+  },
+  "Seasickness Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Funeyoi Kobushi",
+   "title": "Seasickness Fist"
+  },
+  "Secret Ingredient": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kakushiaji",
+   "title": "Secret Ingredient"
+  },
+  "Secret Taijutsu: Super Fire Release Illusion Great Shuriken Two-Stage Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Genjutsu, Cooperation Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Secret Taijutsu: Super Fire Release Illusion Great Shuriken Two-Stage Technique"
+  },
+  "Secret Taijutsu: Wild Stone Dance Flame Killing Kunai Endless Style Multi-Shot Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Secret Taijutsu: Wild Stone Dance Flame Killing Kunai Endless Style Multi-Shot Technique"
+  },
+  "Self-Taught: Instant Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Garyū: Shungeki",
+   "title": "Self-Taught: Instant Attack"
+  },
+  "Self-Taught: Youth Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Garyū: Seishun Keri",
+   "title": "Self-Taught: Youth Kick"
+  },
+  "Serial Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Serial Kick"
+  },
+  "Shadow Clone Elite Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kage Bunshin Tokkōdan",
+   "title": "Shadow Clone Elite Bullet"
+  },
+  "Shadow Clone Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Shadow Clone Kick"
+  },
+  "Shadow Clone Roundhouse Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kage Bunshin Mawashigeri",
+   "title": "Shadow Clone Roundhouse Kick"
+  },
+  "Shadow Clone: Upper": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kage Bunshin: Appā",
+   "title": "Shadow Clone: Upper"
+  },
+  "Shadow Stroke": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kagenade",
+   "title": "Shadow Stroke"
+  },
+  "Shadow of the Dancing Leaf": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Kage Buyō",
+   "title": "Shadow of the Dancing Leaf"
+  },
+  "Shining Ostrich Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shainingu Dachō Kikku",
+   "title": "Shining Ostrich Kick"
+  },
+  "Shock Wave Blossom": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shōha Midare Saki",
+   "title": "Shock Wave Blossom"
+  },
+  "Shock Wave Thrust": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shōha Ichirinzashi",
+   "title": "Shock Wave Thrust"
+  },
+  "Shrike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mozu",
+   "title": "Shrike"
+  },
+  "Shuriken: Double Knockdown Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Shuriken: Double Knockdown Technique"
+  },
+  "Silent Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Muon no Ken",
+   "title": "Silent Fist"
+  },
+  "Single Claw Bisection": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Isō Ryōdan",
+   "title": "Single Claw Bisection"
+  },
+  "Skewering Headbutt (Me)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kushizashi Zutsuki (Boku ga)",
+   "title": "Skewering Headbutt (Me)"
+  },
+  "Sky Claw Double Scratch": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kūsō Ryōsō",
+   "title": "Sky Claw Double Scratch"
+  },
+  "Sky Shaking Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kūshinken",
+   "title": "Sky Shaking Fist"
+  },
+  "Snake (jutsu)": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Senjutsu, Cooperation Ninjutsu, Kenjutsu",
+   "jutsu range": "Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hebi",
+   "title": "Snake (jutsu)"
+  },
+  "Snake Wild Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jarangeki",
+   "title": "Snake Wild Strike"
+  },
+  "Soaring Bird Crusher": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kakedori Kuzushi",
+   "title": "Soaring Bird Crusher"
+  },
+  "Soaring Shine Falling Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shōyō Kōdan",
+   "title": "Soaring Shine Falling Bullet"
+  },
+  "Soaring Swallow Stepping Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shōen Tōkyaku",
+   "title": "Soaring Swallow Stepping Foot"
+  },
+  "Soft Neck Throw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nan no Keitō",
+   "title": "Soft Neck Throw"
+  },
+  "Sonic Blast": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Sonic Blast"
+  },
+  "Spear Attack Shining Horn": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gekitō Yōkaku",
+   "title": "Spear Attack Shining Horn"
+  },
+  "Special Attack Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tokkō Rasengan",
+   "title": "Special Attack Rasengan"
+  },
+  "Spiked Human Bullet Tank": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "C",
+   "jutsu type": "",
+   "romaji": "Nikudan Hari Sensha",
+   "title": "Spiked Human Bullet Tank"
+  },
+  "Spinning Top Swing": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Koma Mawashi",
+   "title": "Spinning Top Swing"
+  },
+  "Spiral Boruto Storm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Supairaru Boruto Sutōmu",
+   "title": "Spiral Boruto Storm"
+  },
+  "Spiral Lotus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uzumaki Renge",
+   "title": "Spiral Lotus"
+  },
+  "Spirit Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shinkyaku",
+   "title": "Spirit Foot"
+  },
+  "Steam Dash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jōki Bakushin",
+   "title": "Steam Dash"
+  },
+  "Sticky Bite": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nenkō",
+   "title": "Sticky Bite"
+  },
+  "Stomach Reflection": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Stomach Reflection"
+  },
+  "Stone Pillar Destruction": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sekichū Messai",
+   "title": "Stone Pillar Destruction"
+  },
+  "Strong Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gōken",
+   "title": "Strong Fist"
+  },
+  "Sukunahikona: God Hunter": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Hiden, Shinjutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Sukunahikona: God Hunter"
+  },
+  "Super Excellent Hyper Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sūpā Ekuserento Haipā Atakku",
+   "title": "Super Excellent Hyper Attack"
+  },
+  "Super Fang Wolf Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chō Garōga",
+   "title": "Super Fang Wolf Fang"
+  },
+  "Super Inner Sakura": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Super Inner Sakura"
+  },
+  "Super Light Foot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chōkōkyaku",
+   "title": "Super Light Foot"
+  },
+  "Super Open Hand Slap": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Chakra Flow",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "B",
+   "jutsu type": "",
+   "romaji": "Chōharite",
+   "title": "Super Open Hand Slap"
+  },
+  "Super Pressure": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chō Jūatsu",
+   "title": "Super Pressure"
+  },
+  "Super: Human Bullet Tank": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Hiden",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chō: Nikudan Sensha",
+   "title": "Super: Human Bullet Tank"
+  },
+  "Surging Fire Wild Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hōka Ranbu",
+   "title": "Surging Fire Wild Dance"
+  },
+  "Susanoo: Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Susanoo: Geki",
+   "title": "Susanoo: Attack"
+  },
+  "Susanoo: Sever": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Susanoo: Dan",
+   "title": "Susanoo: Sever"
+  },
+  "Sword Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Tsurugi Rendan",
+   "title": "Sword Combo"
+  },
+  "Sword of Kusanagi: Hawk Flash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kusanagi no Tsurugi: Takasen",
+   "title": "Sword of Kusanagi: Hawk Flash"
+  },
+  "Sōshūga": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Fighting Style",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sōshūga",
+   "title": "Sōshūga"
+  },
+  "Tail Chasing Fang Fang Rotating Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ooiga Gatenga",
+   "title": "Tail Chasing Fang Fang Rotating Fang"
+  },
+  "Tail Sweep": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Tail Sweep"
+  },
+  "Tailed Beast Eight Twists": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bijū Hachimaki",
+   "title": "Tailed Beast Eight Twists"
+  },
+  "Tailed Beast Flash Bullet": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bijū Senkōdan",
+   "title": "Tailed Beast Flash Bullet"
+  },
+  "Tailed Beast Full Charge": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bijū Sōshingeki",
+   "title": "Tailed Beast Full Charge"
+  },
+  "Tailed Beast Lariat": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bijū no Rariatto",
+   "title": "Tailed Beast Lariat"
+  },
+  "Tailed Beast Seventeen Whirlwinds Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bijū Jūnana Senpūgeki",
+   "title": "Tailed Beast Seventeen Whirlwinds Attack"
+  },
+  "Tailed Beast Tail": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bijū no O",
+   "title": "Tailed Beast Tail"
+  },
+  "Takigakure Whirlwind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Takigakure no Senpū",
+   "title": "Takigakure Whirlwind"
+  },
+  "Team-work is Outstanding": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Chīmuwāku wa Batsugun",
+   "title": "Team-work is Outstanding"
+  },
+  "Tearing Fang": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Regga",
+   "title": "Tearing Fang"
+  },
+  "Ten-Finger Drilling Bullets": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Teshi Sendan",
+   "title": "Ten-Finger Drilling Bullets"
+  },
+  "Tenketsu Blocking Strikes": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Tenketsu Blocking Strikes"
+  },
+  "The Inheritance of the Will of Fire": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Cooperation Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uketsugareru Hi no Ishi",
+   "title": "The Inheritance of the Will of Fire"
+  },
+  "The Red-Hot Habanero": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Akai Chishio no Habanero",
+   "title": "The Red-Hot Habanero"
+  },
+  "Thistle": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Azami",
+   "title": "Thistle"
+  },
+  "Thorn": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ibara",
+   "title": "Thorn"
+  },
+  "Thorn Explosion": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Thorn Explosion"
+  },
+  "Threaded Tree": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hōrenju",
+   "title": "Threaded Tree"
+  },
+  "Three-Tails' Rampage": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sanbi Bōsō",
+   "title": "Three-Tails' Rampage"
+  },
+  "Thunder Sabre": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Gelel Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sandā Sāburu",
+   "title": "Thunder Sabre"
+  },
+  "Thunderclap Drill": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Jinrai Ugachi",
+   "title": "Thunderclap Drill"
+  },
+  "Tiger Lily": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Oniyuri",
+   "title": "Tiger Lily"
+  },
+  "Toad Sword Beheading": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gamadosuzan",
+   "title": "Toad Sword Beheading"
+  },
+  "Toad Three Slashes": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Gamasanzan",
+   "title": "Toad Three Slashes"
+  },
+  "Torn Castle": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hajō",
+   "title": "Torn Castle"
+  },
+  "Tornado High": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Toruneido Hai",
+   "title": "Tornado High"
+  },
+  "Torsion Flower": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Nejirihana",
+   "title": "Torsion Flower"
+  },
+  "Towards the Setting Sun": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ano Yūhi ni Mukatte",
+   "title": "Towards the Setting Sun"
+  },
+  "Trinity": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Kenjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sanmiittai",
+   "title": "Trinity"
+  },
+  "Triple Strike: Breaking Through the Clouds": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Chakra Flow",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Triple Strike: Breaking Through the Clouds"
+  },
+  "True Eight Trigrams Sixty-Four Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shin Hakke Rokujūyon Shō",
+   "title": "True Eight Trigrams Sixty-Four Palms"
+  },
+  "True Reverse Lotus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shin Ura Renge",
+   "title": "True Reverse Lotus"
+  },
+  "True: Tailed Beast Rasenshuriken": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Senjutsu, Clone Techniques",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Shin: Bijū Rasenshuriken",
+   "title": "True: Tailed Beast Rasenshuriken"
+  },
+  "Trump Card of Pair": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Clone Techniques, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Futari no Kirifuda",
+   "title": "Trump Card of Pair"
+  },
+  "Twin Pole Heavely Drop": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Sōgoku Rakuten",
+   "title": "Twin Pole Heavely Drop"
+  },
+  "Twinkling Maiden's Heart": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Genjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kirakira Otome Kokoro",
+   "title": "Twinkling Maiden's Heart"
+  },
+  "Two Lights Beams of Kumogakure": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Two Lights Beams of Kumogakure"
+  },
+  "Two Rays of Light Among the Clouds": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Kenjutsu, Bukijutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Two Rays of Light Among the Clouds"
+  },
+  "Two-Tailed Cat Flame Incineration Slash": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu, Kenjutsu, Chakra Flow",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Two-Tailed Cat Flame Incineration Slash"
+  },
+  "Uchiha Cherry Blossom Thunderclap": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uchiha Ōkajinrai",
+   "title": "Uchiha Cherry Blossom Thunderclap"
+  },
+  "Uchiha Family: Trinity Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uchiha-ke: Sanmiittai no Jutsu",
+   "title": "Uchiha Family: Trinity Technique"
+  },
+  "Uchiha Shuriken Formation: Spring Lightning": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Shurikenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uchiha Shurikenjin: Shunrai",
+   "title": "Uchiha Shuriken Formation: Spring Lightning"
+  },
+  "Ukon's Mad Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Ukon's Mad Dance"
+  },
+  "Ultimate Reverse Lotus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kyūkyoku Ura Renge",
+   "title": "Ultimate Reverse Lotus"
+  },
+  "Uncontrollable Power": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Osaekirenai Chikara",
+   "title": "Uncontrollable Power"
+  },
+  "Uzumaki Twin Striking Palms": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Hiden, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Uzumaki Sōgekishō",
+   "title": "Uzumaki Twin Striking Palms"
+  },
+  "Very Hiden: Venomous Insect Venom": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Supplementary",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Goku Hiden: Dokuchūdoku",
+   "title": "Very Hiden: Venomous Insect Venom"
+  },
+  "Veteran Taijutsu": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hyakusenrenma no Taijutsu",
+   "title": "Veteran Taijutsu"
+  },
+  "Violent Arm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Scientific Ninja Tool Techniques",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Bōwan",
+   "title": "Violent Arm"
+  },
+  "Violent Headspinner": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Violent Headspinner"
+  },
+  "Violent Stabbing Face Slap": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Geki Tsunbinta",
+   "title": "Violent Stabbing Face Slap"
+  },
+  "Violent — Leaf Adamantine-Strength Whirlwind": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Geki — Konoha Kongōriki Senpū",
+   "title": "Violent — Leaf Adamantine-Strength Whirlwind"
+  },
+  "Water Clone Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Water Clone Combo"
+  },
+  "Water Palm Blade": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Suishōjin",
+   "title": "Water Palm Blade"
+  },
+  "Water Release: Azure Dragon Palm": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Suiton: Suiryūshō",
+   "title": "Water Release: Azure Dragon Palm"
+  },
+  "Water Release: Bubbles Technique — Great River": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Suiton: Hōmatsu no Jutsu — Taiga",
+   "title": "Water Release: Bubbles Technique — Great River"
+  },
+  "Water Release: Bubbles Technique — Ripples": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Suiton: Hōmatsu no Jutsu — Sazanami",
+   "title": "Water Release: Bubbles Technique — Ripples"
+  },
+  "Water Release: Great Water Arm Technique: Half-Moon Cut": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Suiton: Gōsuiwan no Jutsu: Hangetsugiri",
+   "title": "Water Release: Great Water Arm Technique: Half-Moon Cut"
+  },
+  "Water Release: Water Lock Technique": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Chakra Flow",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Suiton: Suijō no Jutsu",
+   "title": "Water Release: Water Lock Technique"
+  },
+  "Water Retain": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Space–Time Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hōsui",
+   "title": "Water Retain"
+  },
+  "Whip of Love": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ai no Muchi",
+   "title": "Whip of Love"
+  },
+  "Whirling Snake Tail": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Space–Time Ninjutsu, Medical Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Senten Dabi",
+   "title": "Whirling Snake Tail"
+  },
+  "Whirlwind Sweep": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Senpū Harai",
+   "title": "Whirlwind Sweep"
+  },
+  "Whirlwind of Feet": {
+   "hand signs": "",
+   "jutsu class type": "Supplementary, Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Whirlwind of Feet"
+  },
+  "White Haze Heavenly Dance": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Hakurō Tenbu",
+   "title": "White Haze Heavenly Dance"
+  },
+  "White Spirit Release": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Hiden",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Byakki Kaihō",
+   "title": "White Spirit Release"
+  },
+  "Whole Body One Shot": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Konshin Ippatsu",
+   "title": "Whole Body One Shot"
+  },
+  "Wicked Gong Mouth": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Wicked Gong Mouth"
+  },
+  "Wicked Tongue Combo": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Dokuzetsu Konbo",
+   "title": "Wicked Tongue Combo"
+  },
+  "Wild Boar Spin": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Shurikenjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Wild Boar Spin"
+  },
+  "Wild Body Strike": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Wild Body Strike"
+  },
+  "Wild Serpent": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Hiden",
+   "jutsu range": "Mid, Long",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ara Uwabami",
+   "title": "Wild Serpent"
+  },
+  "Willow": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yanagi",
+   "title": "Willow"
+  },
+  "Wind Dust Violent Wave": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Kenjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Fūjin Reppa",
+   "title": "Wind Dust Violent Wave"
+  },
+  "Windmill": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Kazaguruma",
+   "title": "Windmill"
+  },
+  "Windmill Throw": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Fūshanage",
+   "title": "Windmill Throw"
+  },
+  "Wolf Fang Punishing Drill": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kenjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rōga Bassui",
+   "title": "Wolf Fang Punishing Drill"
+  },
+  "Wolf Fang Rising Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rōga Shōken",
+   "title": "Wolf Fang Rising Fist"
+  },
+  "Wolf River": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Taijutsu, Cooperation Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Rōka",
+   "title": "Wolf River"
+  },
+  "Wood Pillar Sky Kick": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Wood Pillar Sky Kick"
+  },
+  "Wood Release: Adamantine Fist": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mokuton: Kongōken",
+   "title": "Wood Release: Adamantine Fist"
+  },
+  "Wood Release: All Creation": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mokuton: Shinra Banshō",
+   "title": "Wood Release: All Creation"
+  },
+  "Wood Release: Firmament Splinter": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mokuton: Itten Koba",
+   "title": "Wood Release: Firmament Splinter"
+  },
+  "Wood Release: Revolt of Hell": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Dōjutsu, Taijutsu, Ninjutsu",
+   "jutsu range": "Short, Mid",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mokuton: Jigoku no Ran",
+   "title": "Wood Release: Revolt of Hell"
+  },
+  "Wood Release: Tree of Flight": {
+   "hand signs": "",
+   "jutsu class type": "Offensive, Defensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Mokuton: Hinoki",
+   "title": "Wood Release: Tree of Flight"
+  },
+  "Wood Release: Wooden Spear Heavenly Tear": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Wood Release: Wooden Spear Heavenly Tear"
+  },
+  "Wrapping Flame Cat Fire": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Ten'en Byōka",
+   "title": "Wrapping Flame Cat Fire"
+  },
+  "Yellow Flash Rasengan": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu, Space–Time Ninjutsu, Shurikenjutsu",
+   "jutsu range": "",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "",
+   "title": "Yellow Flash Rasengan"
+  },
+  "Yosaku Cut": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Bukijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Yosakugiri",
+   "title": "Yosaku Cut"
+  },
+  "Young Spirited Embrace of Youth": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Seishun no Atsuki Hōyō",
+   "title": "Young Spirited Embrace of Youth"
+  },
+  "Youth Full Power": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Seishun Furu Pawā",
+   "title": "Youth Full Power"
+  },
+  "Youth Leaf Lotus Attack": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Kinjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Seishun Konoha Rengeki",
+   "title": "Youth Leaf Lotus Attack"
+  },
+  "Zelkova": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Kekkei Genkai, Taijutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Keyaki",
+   "title": "Zelkova"
+  },
+  "Zeus": {
+   "hand signs": "",
+   "jutsu class type": "Offensive",
+   "jutsu classification": "Taijutsu, Ninjutsu",
+   "jutsu range": "Short",
+   "jutsu rank": "",
+   "jutsu type": "",
+   "romaji": "Zeusu",
+   "title": "Zeus"
+  }
+ },
+ "method": "list=categorymembers (recursive) on Category:Taijutsu; action=ask [[Jutsu classification::Taijutsu]] (Semantic MediaWiki drill-down) with infobox printouts; action=ask [[Jutsu classification::Fighting Style]] checked for pages outside the Taijutsu classification",
+ "source": "https://naruto.fandom.com/wiki/Category:Taijutsu"
+}

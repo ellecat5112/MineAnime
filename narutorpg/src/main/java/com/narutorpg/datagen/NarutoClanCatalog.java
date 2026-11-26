@@ -43,6 +43,7 @@ final class NarutoClanCatalog {
             instance.loadVillages(clans.resolveSibling("village_catalog.json"));
             instance.loadNatures(clans.resolveSibling("nature_catalog.json"));
             instance.loadNatures(clans.resolveSibling("fanon_genjutsu_catalog.json"));   // same shape: abilities + lang
+            instance.loadNatures(clans.resolveSibling("taijutsu_catalog.json"));         // tools/catalog/taijutsu.py
         }
         return instance;
     }

@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 2.5,
+      "color": 16119285,
+      "damage": 11.0,
+      "lifetime_ticks": 16,
+      "size": 1.3,
+      "speed": 1.6,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 128,
+  "cost": {
+    "amount": 27.5,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cursed Seal: Killing Shout",
+    "translate": "ability.narutorpg.cursed_seal_killing_shout"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

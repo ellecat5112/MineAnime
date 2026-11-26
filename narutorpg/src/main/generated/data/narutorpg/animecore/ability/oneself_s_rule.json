@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.4
+    }
+  ],
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 88,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Oneself's Rule",
+    "translate": "ability.narutorpg.oneself_s_rule"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

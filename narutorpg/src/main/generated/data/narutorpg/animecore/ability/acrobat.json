@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16119285,
+      "damage": 11.0,
+      "range": 6.0,
+      "width": 1.2
+    },
+    {
+      "type": "animecore:dash_strike",
+      "distance": 2.5,
+      "hit_radius": 1.4,
+      "knockback": 0.0
+    }
+  ],
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 128,
+  "cost": {
+    "amount": 27.5,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Acrobat",
+    "translate": "ability.narutorpg.acrobat"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

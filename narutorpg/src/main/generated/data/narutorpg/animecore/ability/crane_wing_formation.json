@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:speed"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 104,
+  "cost": {
+    "amount": 20.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Crane Wing Formation",
+    "translate": "ability.narutorpg.crane_wing_formation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

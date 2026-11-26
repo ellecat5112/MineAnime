@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 2.9,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "hits": 6,
+      "knockback": 1.4
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 104,
+  "cost": {
+    "amount": 20.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Eight Trigrams Palms Storm Dance",
+    "translate": "ability.narutorpg.eight_trigrams_palms_storm_dance"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 16119285,
+      "count": 5,
+      "damage": 2.4,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 88,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Shuriken: Double Knockdown Technique",
+    "translate": "ability.narutorpg.shuriken_double_knockdown_technique"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
+}

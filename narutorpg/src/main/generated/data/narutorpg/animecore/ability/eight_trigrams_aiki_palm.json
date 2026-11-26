@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 8.0,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.4
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 2.5
+    }
+  ],
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 104,
+  "cost": {
+    "amount": 20.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Eight Trigrams Aiki Palm",
+    "translate": "ability.narutorpg.eight_trigrams_aiki_palm"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 33.6,
+      "distance": 22.0,
+      "hit_radius": 2.2,
+      "knockback": 3.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 11.2,
+      "knockback": 2.0,
+      "radius": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_lunge",
+  "cooldown_ticks": 152,
+  "cost": {
+    "amount": 35.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Night Guy",
+    "translate": "ability.narutorpg.night_guy"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 13959168,
+    "style": "flame"
+  }
+}

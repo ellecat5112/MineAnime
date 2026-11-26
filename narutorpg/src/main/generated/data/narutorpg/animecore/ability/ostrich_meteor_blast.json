@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 2.4,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "knockback": 0.2
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9268835,
+      "damage": 6.0,
+      "forward_offset": 2.5,
+      "knockback": 1.0,
+      "lift": 0.6,
+      "radius": 2.8
+    }
+  ],
+  "cast_animation": "animecore:cast_slam",
+  "cooldown_ticks": 88,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Ostrich Meteor Blast",
+    "translate": "ability.narutorpg.ostrich_meteor_blast"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "style": "earth"
+  }
+}

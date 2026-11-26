@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.0,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.4
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 5.5,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 2.5
+    }
+  ],
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 128,
+  "cost": {
+    "amount": 27.5,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Pressurisation",
+    "translate": "ability.narutorpg.pressurisation"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 400,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 3,
+          "duration": 400,
+          "effect": "minecraft:speed"
+        },
+        {
+          "amplifier": 1,
+          "duration": 400,
+          "effect": "minecraft:resistance"
+        },
+        {
+          "amplifier": 1,
+          "duration": 400,
+          "effect": "minecraft:jump_boost"
+        },
+        {
+          "amplifier": 2,
+          "duration": 400,
+          "effect": "minecraft:health_boost"
+        },
+        {
+          "amplifier": 2,
+          "effect": "minecraft:hunger"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 152,
+  "cost": {
+    "amount": 35.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Crane Wing Formation (Eight Gates)",
+    "translate": "ability.narutorpg.crane_wing_formation_eight_gates"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 13959168,
+    "style": "flame"
+  }
+}

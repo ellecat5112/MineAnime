@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 5.0,
+      "distance": 3.0,
+      "hit_radius": 1.4,
+      "hits": 6,
+      "knockback": 1.0,
+      "lift": 2.0
+    }
+  ],
+  "cast_animation": "animecore:cast_uppercut",
+  "cooldown_ticks": 128,
+  "cost": {
+    "amount": 27.5,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Reverse Lotus",
+    "translate": "ability.narutorpg.reverse_lotus"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 6732650,
+    "style": "flame"
+  }
+}

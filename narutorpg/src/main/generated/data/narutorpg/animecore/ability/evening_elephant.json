@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16119285,
+      "damage": 6.6,
+      "range": 14.0,
+      "width": 2.2
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 6.6,
+      "forward_offset": 4.0,
+      "knockback": 2.4,
+      "lift": 1.2,
+      "radius": 5.0
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 128,
+  "cost": {
+    "amount": 27.5,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Evening Elephant",
+    "translate": "ability.narutorpg.evening_elephant"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "style": "wind"
+  }
+}

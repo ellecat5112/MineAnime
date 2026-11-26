@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 2.5,
+      "color": 16119285,
+      "damage": 8.0,
+      "lifetime_ticks": 16,
+      "size": 1.3,
+      "speed": 1.6,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 104,
+  "cost": {
+    "amount": 20.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Eight Trigrams Vacuum Lion Palm",
+    "translate": "ability.narutorpg.eight_trigrams_vacuum_lion_palm"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

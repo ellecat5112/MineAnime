@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 16119285,
+      "damage": 6.0,
+      "lifetime_ticks": 16,
+      "size": 0.9,
+      "speed": 1.6,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 88,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Shock Wave Thrust",
+    "translate": "ability.narutorpg.shock_wave_thrust"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 8.0,
+      "knockback": 1.6,
+      "radius": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_spin",
+  "cooldown_ticks": 104,
+  "cost": {
+    "amount": 20.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Multiple Connected Whirlwinds",
+    "translate": "ability.narutorpg.multiple_connected_whirlwinds"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

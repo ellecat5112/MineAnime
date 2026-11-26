@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 1.7,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "hits": 4,
+      "knockback": 1.4
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 64,
+  "cost": {
+    "amount": 8.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "One Thousand Years of Death",
+    "translate": "ability.narutorpg.one_thousand_years_of_death"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

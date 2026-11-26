@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16119285,
+      "cone_degrees": 60.0,
+      "damage": 6.0,
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.2,
+      "radius": 5.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 0.0,
+      "forward_offset": 1.0,
+      "knockback": 0.0,
+      "lift": 0.9,
+      "radius": 2.0
+    }
+  ],
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 88,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Young Spirited Embrace of Youth",
+    "translate": "ability.narutorpg.young_spirited_embrace_of_youth"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

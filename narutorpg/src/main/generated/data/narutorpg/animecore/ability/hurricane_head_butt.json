@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16119285,
+      "damage": 6.0,
+      "knockback": 1.6,
+      "radius": 3.2
+    }
+  ],
+  "cast_animation": "animecore:cast_spin",
+  "cooldown_ticks": 88,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Hurricane Head Butt",
+    "translate": "ability.narutorpg.hurricane_head_butt"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

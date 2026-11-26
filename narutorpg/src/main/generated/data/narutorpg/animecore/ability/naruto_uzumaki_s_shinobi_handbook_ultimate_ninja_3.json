@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 16119285,
+      "count": 5,
+      "damage": 5.6,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 152,
+  "cost": {
+    "amount": 35.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Naruto Uzumaki's Shinobi Handbook",
+    "translate": "ability.narutorpg.naruto_uzumaki_s_shinobi_handbook_ultimate_ninja_3"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
+}

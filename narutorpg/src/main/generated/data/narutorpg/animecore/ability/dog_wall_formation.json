@@ -1,0 +1,39 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "duration": 40,
+          "effect": "minecraft:slowness"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 104,
+  "cost": {
+    "amount": 20.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Dog Wall Formation",
+    "translate": "ability.narutorpg.dog_wall_formation"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}

@@ -15,9 +15,15 @@ import net.minecraft.util.math.Vec3d;
 /**
  * Short-range blink with optional strike along the path.
  * {@code behind_attacker} powers reactive dodges (Substitution, Z-Vanish, Flash Step counter).
+ * {@code hits} > 1 follows up with extra blows on everything struck, 3 ticks apart (barrages, Lotus combos);
+ * {@code lift} launches struck targets upward (rising kicks, Leaf Rising Wind).
  */
-public record DashStrikeAction(Mode mode, float distance, float damage, float hitRadius, float knockback)
+public record DashStrikeAction(Mode mode, float distance, float damage, float hitRadius, float knockback, int hits, float lift)
         implements IAbilityAction {
+    public DashStrikeAction(Mode mode, float distance, float damage, float hitRadius, float knockback) {
+        this(mode, distance, damage, hitRadius, knockback, 1, 0f);
+    }
+
     public enum Mode implements StringIdentifiable {
         LOOK("look"), BACKWARD("backward"), BEHIND_ATTACKER("behind_attacker");
         public static final Codec<Mode> CODEC = StringIdentifiable.createCodec(Mode::values);
@@ -31,7 +37,9 @@ public record DashStrikeAction(Mode mode, float distance, float damage, float hi
             Codec.floatRange(0.5f, 64f).fieldOf("distance").forGetter(DashStrikeAction::distance),
             Codec.FLOAT.optionalFieldOf("damage", 0f).forGetter(DashStrikeAction::damage),
             Codec.floatRange(0.1f, 8f).optionalFieldOf("hit_radius", 1f).forGetter(DashStrikeAction::hitRadius),
-            Codec.FLOAT.optionalFieldOf("knockback", 0.6f).forGetter(DashStrikeAction::knockback)
+            Codec.FLOAT.optionalFieldOf("knockback", 0.6f).forGetter(DashStrikeAction::knockback),
+            Codec.intRange(1, 12).optionalFieldOf("hits", 1).forGetter(DashStrikeAction::hits),
+            Codec.floatRange(0f, 4f).optionalFieldOf("lift", 0f).forGetter(DashStrikeAction::lift)
     ).apply(i, DashStrikeAction::new));
 
     @Override public AbilityActionType<?> type() { return AbilityActions.DASH_STRIKE; }
@@ -60,12 +68,39 @@ public record DashStrikeAction(Mode mode, float distance, float damage, float hi
                 travel.lengthSquared() > 1e-4 ? travel.normalize() : Vec3d.ZERO, (float) travel.length(), damage > 0f ? 1f : 0f);
         if (damage > 0f) {
             Box path = new Box(start, destination).expand(hitRadius).stretch(0, caster.getHeight(), 0);
-            for (LivingEntity target : ctx.world().getEntitiesByClass(LivingEntity.class, path, e -> e != caster && e.isAlive())) {
-                ctx.damage(target, damage, 0, knockback);
+            java.util.List<LivingEntity> struck = ctx.world().getEntitiesByClass(LivingEntity.class, path, e -> e != caster && e.isAlive());
+            for (LivingEntity target : struck) {
+                ctx.damage(target, damage, 0, hits > 1 ? knockback * 0.25f : knockback);
+                launch(target, lift);
             }
+            if (hits > 1 && !struck.isEmpty()) followUps(ctx, struck);
         }
         caster.networkHandler.requestTeleport(destination.x, destination.y, destination.z, yaw, caster.getPitch());
         caster.fallDistance = 0f;
+    }
+
+    /** Extra blows of a barrage: every 3 ticks, each struck target still near the caster takes another hit. */
+    private void followUps(AbilityContext ctx, java.util.List<LivingEntity> struck) {
+        var caster = ctx.caster();
+        com.animecore.tool.ToolScheduler.run((hits - 1) * 3 + 1, t -> {
+            if (caster.isDead()) return false;   // a caster who logs out mid-barrage still finishes it
+            if (t == 0 || t % 3 != 0) return true;
+            boolean last = t / 3 == hits - 1;
+            for (LivingEntity target : struck) {
+                if (!target.isAlive() || target.squaredDistanceTo(caster) > 36) continue;
+                ctx.damage(target, damage, 0, last ? knockback : 0.1f);
+                if (last) launch(target, lift);
+                com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.IMPACT,
+                        target.getPos().add(0, target.getHeight() * 0.6, 0), caster.getRotationVec(1f), last ? 1.2f : 0.6f, 0f);
+            }
+            return true;
+        });
+    }
+
+    static void launch(LivingEntity target, float lift) {
+        if (lift <= 0f) return;
+        target.addVelocity(0, 0.45 * lift, 0);
+        target.velocityModified = true;
     }
 
     private static Vec3d clip(AbilityContext ctx, Vec3d from, Vec3d to) {

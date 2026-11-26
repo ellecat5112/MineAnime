@@ -141,6 +141,33 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Taijutsu (Narutopedia, all 657 techniques)
+
+Narutopedia has no `Category:Taijutsu` page; taijutsu are grouped by the "Jutsu classification: Taijutsu" filter, and
+all 657 pages in it are in the game. 475 are new; the other 182 already existed as clan, village or nature jutsu.
+Coverage is listed in `docs/wiki/narutopedia_taijutsu.md` and the generator is `tools/catalog/taijutsu.py`.
+
+- They sit on the **Taijutsu** item (Gentle Fist moves go on the Dōjutsu item). Hold it while defeating enemies to
+  master the next technique. Pure taijutsu costs **stamina**, not chakra.
+- Each technique plays as a move type matched from its name, with its own animation:
+
+| Move type | Examples | What it does |
+|---|---|---|
+| Barrage | Multiple Connected Fists, Great Combo Attack | dash with 4-6 rapid follow-up blows |
+| Lotus | Front / Reverse Lotus | launch the target, then a combo |
+| Rising strike | Leaf Rock-Destroying Rise | launches the target upward |
+| Spin | Wild Boar Spin, Leaf Whirlwind | spinning burst that knocks back everything around you |
+| Drop / slam | Heel drops, Earth-Shattering | dash and ground impact |
+| Charge | Human Bullet Tank, Lightning Speed | long charge through enemies |
+| Air pressure | Vacuum Palm, Leaf Gale | air wave fired forward |
+| Slash | Fang, claw and blade moves | piercing close-range cut |
+| Grapple | Windmill Throw, Clone Lasso | pull in, slow and toss up |
+| Kick / punch | everything else | striking dash with knockback |
+| Eight Gates | Eight Gates Released Formation | power-up that scales with the gate number (costs hunger) |
+
+Guy's Gate moves are tuned by hand: Morning Peacock (fiery barrage), Daytime Tiger (huge air tiger), Evening
+Elephant (crushing pressure beam), Night Guy (a 22-block charge).
+
 ## Admin / cheat seals (creative tab "NarutoRPG Admin")
 
 These are for testing and server staff. Only operators (permission level 2) or players in creative mode can use them,

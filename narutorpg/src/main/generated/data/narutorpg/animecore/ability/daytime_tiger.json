@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 4.5,
+      "color": 16119285,
+      "damage": 17.6,
+      "lifetime_ticks": 30,
+      "size": 2.2,
+      "speed": 1.2,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 128,
+  "cost": {
+    "amount": 27.5,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Daytime Tiger",
+    "translate": "ability.narutorpg.daytime_tiger"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 15267305,
+    "style": "wind"
+  }
+}

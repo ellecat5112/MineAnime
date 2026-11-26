@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16119285,
+      "range": 6.0,
+      "width": 1.2
+    },
+    {
+      "type": "animecore:dash_strike",
+      "distance": 2.5,
+      "hit_radius": 1.4,
+      "knockback": 0.0
+    }
+  ],
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 88,
+  "cost": {
+    "amount": 15.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Toad Three Slashes",
+    "translate": "ability.narutorpg.toad_three_slashes"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "color": 16119285,
+    "style": "wind"
+  }
+}
