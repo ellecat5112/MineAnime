@@ -1,0 +1,36 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 0.25,
+      "below_health_ratio": 0.4
+    }
+  ],
+  "color": 16757504,
+  "description": {
+    "fallback": "The Kohaku Clan was a shinobi clan that had a village near the border of the Land of Fire to that of Amegakure.",
+    "translate": "lineage.narutorpg.kohaku.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "name": {
+    "fallback": "Kohaku Clan",
+    "translate": "lineage.narutorpg.kohaku"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:body_flicker_technique",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ],
+  "weight": 9
+}

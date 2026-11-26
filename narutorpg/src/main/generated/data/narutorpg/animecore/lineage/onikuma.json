@@ -1,0 +1,40 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 0.25,
+      "below_health_ratio": 0.3
+    }
+  ],
+  "color": 5125166,
+  "description": {
+    "fallback": "The Onikuma Clan is one of the many clans that reside in Konohagakure.",
+    "translate": "lineage.narutorpg.onikuma.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:onikuma_clan_s_hijutsu"
+  ],
+  "name": {
+    "fallback": "Onikuma Clan",
+    "translate": "lineage.narutorpg.onikuma"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:string_light_formation",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:multiple_string_light_formation",
+      "skill_level": 7
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "weight": 8
+}

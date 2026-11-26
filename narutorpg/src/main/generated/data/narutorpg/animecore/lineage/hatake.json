@@ -1,0 +1,78 @@
+{
+  "clan_items": [
+    "narutorpg:white_light_chakra_sabre",
+    "narutorpg:bow_and_arrow",
+    "narutorpg:chakra_suppressing_seal",
+    "narutorpg:flying_thunder_god_kunai",
+    "narutorpg:kubikiribocho",
+    "narutorpg:kusarigama",
+    "narutorpg:lightning_barrel",
+    "narutorpg:makibishi"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.25
+    }
+  ],
+  "color": 11583173,
+  "description": {
+    "fallback": "The Hatake Clan is one of the many clans that reside in Konohagakure.",
+    "translate": "lineage.narutorpg.hatake.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:area_scanning_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:lightning"
+  ],
+  "name": {
+    "fallback": "Hatake Clan",
+    "translate": "lineage.narutorpg.hatake"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:demonic_illusion_hell_viewing_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:earth_release_double_suicide_decapitation_technique",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:earth_release_earth_quartz_technique",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:earth_release_earth_wave_technique",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:earth_release_hiding_like_a_mole_technique",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:earth_release_earth_style_wall",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:chidori",
+      "skill_level": 32
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:lightning",
+      "multiplier": 1.15
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "weight": 5
+}

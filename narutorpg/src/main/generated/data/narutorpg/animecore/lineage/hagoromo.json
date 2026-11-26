@@ -1,0 +1,40 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.1
+    }
+  ],
+  "color": 9479342,
+  "description": {
+    "fallback": "The is one of the earlier clans which existed during the war-torn era preceding the creation of the hidden villages.",
+    "translate": "lineage.narutorpg.hagoromo.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "name": {
+    "fallback": "Hagoromo Clan",
+    "translate": "lineage.narutorpg.hagoromo"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:body_flicker_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:fireball_jutsu",
+      "skill_level": 7
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "weight": 9
+}

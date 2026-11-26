@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 14.0,
+      "knockback": 0.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Yomotsu Hirasaka",
+    "translate": "ability.narutorpg.yomotsu_hirasaka"
+  },
+  "required_tier": 6,
+  "system": "narutorpg"
+}

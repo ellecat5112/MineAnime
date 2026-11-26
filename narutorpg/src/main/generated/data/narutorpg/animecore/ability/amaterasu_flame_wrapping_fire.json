@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 400,
+          "effect": "minecraft:night_vision"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "color": 16738816,
+      "effects": [
+        {
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 24.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Amaterasu: Flame Wrapping Fire",
+    "translate": "ability.narutorpg.amaterasu_flame_wrapping_fire"
+  },
+  "required_tier": 3,
+  "required_transformation": "narutorpg:mangekyo_sharingan",
+  "system": "narutorpg"
+}

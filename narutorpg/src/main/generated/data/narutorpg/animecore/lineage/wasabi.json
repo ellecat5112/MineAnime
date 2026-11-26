@@ -1,0 +1,33 @@
+{
+  "clan_items": [
+    "narutorpg:weights"
+  ],
+  "color": 6732650,
+  "description": {
+    "fallback": "The Wasabi Family is a clan from the Land of Tea.",
+    "translate": "lineage.narutorpg.wasabi.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:transformation_technique"
+  ],
+  "name": {
+    "fallback": "Wasabi Family",
+    "translate": "lineage.narutorpg.wasabi"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:body_flicker_technique",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.06,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "weight": 12
+}

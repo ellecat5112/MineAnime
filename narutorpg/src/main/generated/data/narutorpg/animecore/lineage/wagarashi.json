@@ -1,0 +1,29 @@
+{
+  "color": 16754470,
+  "description": {
+    "fallback": "The Wagarashi Family is a clan in the Land of Tea.",
+    "translate": "lineage.narutorpg.wagarashi.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:clone_technique"
+  ],
+  "name": {
+    "fallback": "Wagarashi Family",
+    "translate": "lineage.narutorpg.wagarashi"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:substitution_jutsu",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.luck"
+    }
+  ],
+  "weight": 12
+}

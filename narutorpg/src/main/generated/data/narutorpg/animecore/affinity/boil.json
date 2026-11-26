@@ -1,0 +1,15 @@
+{
+  "color": 16755601,
+  "fusion_of": [
+    "narutorpg:fire",
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Boil Release",
+    "translate": "affinity.narutorpg.boil"
+  },
+  "strong_against": [
+    "narutorpg:ice"
+  ],
+  "system": "narutorpg"
+}

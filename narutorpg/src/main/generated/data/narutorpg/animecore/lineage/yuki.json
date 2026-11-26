@@ -1,0 +1,112 @@
+{
+  "clan_items": [
+    "narutorpg:senbon"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.35,
+      "effect": "minecraft:slowness"
+    }
+  ],
+  "color": 11789820,
+  "description": {
+    "fallback": "The Yuki Clan lived in the Land of Water.",
+    "translate": "lineage.narutorpg.yuki.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:ice_prison_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:water",
+    "narutorpg:wind",
+    "narutorpg:ice"
+  ],
+  "name": {
+    "fallback": "Yuki Clan",
+    "translate": "lineage.narutorpg.yuki"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:ice_release_black_dragon_blizzard",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:ice_release_one_horned_white_whale",
+      "skill_level": 4
+    },
+    {
+      "ability": "narutorpg:ice_release_swallow_snow_storm",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:ice_release_tearing_dragon_fierce_tiger",
+      "skill_level": 10
+    },
+    {
+      "ability": "narutorpg:ice_release_twin_dragon_blizzard",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:ice_release_wolf_fang_avalanche_technique",
+      "skill_level": 15
+    },
+    {
+      "ability": "narutorpg:thousand_flying_water_needles_of_death",
+      "skill_level": 18
+    },
+    {
+      "ability": "narutorpg:certain_kill_ice_spears",
+      "skill_level": 20
+    },
+    {
+      "ability": "narutorpg:ice_release_crystal_wall",
+      "skill_level": 23
+    },
+    {
+      "ability": "narutorpg:ice_release_earthen_consecutive_chains_of_ice",
+      "skill_level": 26
+    },
+    {
+      "ability": "narutorpg:ice_release_frozen_capturing_field",
+      "skill_level": 28
+    },
+    {
+      "ability": "narutorpg:ice_release_ice_rock_dome_of_magnificent_nothingness",
+      "skill_level": 31
+    },
+    {
+      "ability": "narutorpg:ice_release_ice_breaking_sledgehammer",
+      "skill_level": 34
+    },
+    {
+      "ability": "narutorpg:ice_release_ten_thousand_ice_petals",
+      "skill_level": 36
+    },
+    {
+      "ability": "narutorpg:ice_release_whirlwind",
+      "skill_level": 39
+    },
+    {
+      "ability": "narutorpg:ice_sword_technique",
+      "skill_level": 42
+    },
+    {
+      "ability": "narutorpg:ice_breaking_fist",
+      "skill_level": 44
+    },
+    {
+      "ability": "narutorpg:demonic_mirroring_ice_crystals",
+      "skill_level": 47
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:ice",
+      "multiplier": 1.15
+    }
+  ],
+  "weight": 3
+}

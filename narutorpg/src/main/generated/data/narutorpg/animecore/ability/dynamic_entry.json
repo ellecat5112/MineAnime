@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 4.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:stamina"
+  },
+  "name": {
+    "fallback": "Dynamic Entry",
+    "translate": "ability.narutorpg.dynamic_entry"
+  },
+  "system": "narutorpg"
+}

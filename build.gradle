@@ -87,7 +87,9 @@ subprojects {
                         int h = java.nio.ByteBuffer.wrap(head, 20, 4).int
                         boolean geo = f.path.replace('\\', '/').contains('/textures/entity/') ||
                                 f.path.replace('\\', '/').contains('/textures/geo/')
-                        int max = geo ? 128 : 32
+                        // Vanilla armor layers are a fixed 64x32 biped UV sheet.
+                        boolean armor = f.path.replace('\\', '/').contains('/textures/models/armor/')
+                        int max = geo ? 128 : (armor ? 64 : 32)
                         // Animated strips (.png.mcmeta) may be taller; width is still bounded.
                         boolean animated = new File(f.path + '.mcmeta').exists()
                         if (w > max || (!animated && h > max)) problems << "Texture too large (${w}x${h}, max ${max}): ${f}"

@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "combo": [
+    "narutorpg:boar",
+    "narutorpg:snake",
+    "narutorpg:bird",
+    "narutorpg:boar",
+    "narutorpg:boar",
+    "narutorpg:boar"
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Curse Mandala",
+    "translate": "ability.narutorpg.curse_mandala"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

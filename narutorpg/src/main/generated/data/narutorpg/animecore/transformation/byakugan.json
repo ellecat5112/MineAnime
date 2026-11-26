@@ -1,0 +1,26 @@
+{
+  "activation_cost": 3.0,
+  "drain_per_tick": 0.05,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.08
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.06,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Byakugan",
+    "translate": "transformation.narutorpg.byakugan"
+  },
+  "pool": "narutorpg:chakra",
+  "system": "narutorpg",
+  "visuals": {
+    "aura_color": 15264502,
+    "aura_intensity": 0.5
+  }
+}

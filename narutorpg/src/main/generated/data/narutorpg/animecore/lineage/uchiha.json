@@ -1,19 +1,256 @@
 {
+  "clan_items": [
+    "narutorpg:fuma_shuriken",
+    "narutorpg:gunbai",
+    "narutorpg:kusari",
+    "narutorpg:wire_strings",
+    "narutorpg:antidote",
+    "narutorpg:lightning_barrel",
+    "narutorpg:senbon",
+    "narutorpg:kiseki"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.08
+    }
+  ],
+  "color": 12986408,
   "description": {
+    "fallback": "The Uchiha Clan is a well-known clan of Konohagakure, reputed to be the village's strongest because of their elite battle prowess and the Sharingan.",
     "translate": "lineage.narutorpg.uchiha.desc"
   },
   "granted_abilities": [
     "narutorpg:fireball_jutsu"
   ],
-  "granted_transformations": [
-    "narutorpg:sharingan_one_tomoe"
-  ],
   "innate_affinities": [
     "narutorpg:fire"
   ],
   "name": {
+    "fallback": "Uchiha Clan",
     "translate": "lineage.narutorpg.uchiha"
   },
+  "progression": [
+    {
+      "ability": "narutorpg:fire_release_great_fire_destruction",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:fire_release_great_flame_flower",
+      "skill_level": 2
+    },
+    {
+      "skill_level": 3,
+      "transformation": "narutorpg:sharingan_one_tomoe"
+    },
+    {
+      "ability": "narutorpg:manipulating_windmill_triple_blades",
+      "skill_level": 3
+    },
+    {
+      "ability": "narutorpg:naka_shrine_pass_technique",
+      "skill_level": 4
+    },
+    {
+      "ability": "narutorpg:fire_release_great_fire_annihilation",
+      "skill_level": 5
+    },
+    {
+      "ability": "narutorpg:uchiha_flame_formation",
+      "skill_level": 6
+    },
+    {
+      "ability": "narutorpg:genjutsu_sharingan",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:uchiha_return",
+      "skill_level": 9
+    },
+    {
+      "required_tier": 3,
+      "skill_level": 10,
+      "transformation": "narutorpg:sharingan_two_tomoe"
+    },
+    {
+      "required_tier": 5,
+      "skill_level": 20,
+      "transformation": "narutorpg:sharingan_three_tomoe"
+    },
+    {
+      "ability": "narutorpg:coercion_sharingan",
+      "skill_level": 30
+    },
+    {
+      "ability": "narutorpg:demonic_illusion_mirage_crow",
+      "skill_level": 31
+    },
+    {
+      "ability": "narutorpg:demonic_illusion_mirror_heaven_and_earth_change",
+      "skill_level": 32
+    },
+    {
+      "ability": "narutorpg:demonic_illusion_shackling_stakes_technique",
+      "skill_level": 33
+    },
+    {
+      "ability": "narutorpg:lightning_transmission",
+      "skill_level": 34
+    },
+    {
+      "required_tier": 10,
+      "skill_level": 35,
+      "transformation": "narutorpg:mangekyo_sharingan"
+    },
+    {
+      "ability": "narutorpg:susanoo_great_fireball_technique",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:amaterasu",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:amaterasu_flame_wrapping_fire",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:blaze_release_honoikazuchi",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:blaze_release_kagutsuchi",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:blaze_release_susanoo_kagutsuchi",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:blaze_release_yasaka_magatama",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:evil_disturbance_waltz",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:hinokagutsuchi",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:indra_s_arrow",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:kotoamatsukami",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:majestic_attire_susanoo",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:susanoo",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:susanoo_chidori",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:susanoo_crush",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:susanoo_fist",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:susanoo_tsukumo",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:sword_of_kagutsuchi",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:tengai_shinsei",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:tsukuyomi",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:yasaka_magatama",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:ohirume",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:object_manipulation_technique",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:susanoo_captive_slash",
+      "skill_level": 36
+    },
+    {
+      "ability": "narutorpg:transcription_seal_amaterasu",
+      "skill_level": 37
+    },
+    {
+      "ability": "narutorpg:transcription_seal_izanagi",
+      "skill_level": 38
+    },
+    {
+      "ability": "narutorpg:yasaka_magatama_tailed_beast_noka",
+      "skill_level": 39
+    },
+    {
+      "ability": "narutorpg:hurricane_thunderclap_majestic_attire_sword_stroke",
+      "skill_level": 40
+    },
+    {
+      "ability": "narutorpg:kamui_lightning_cutter",
+      "skill_level": 41
+    },
+    {
+      "ability": "narutorpg:kamui_running",
+      "skill_level": 42
+    },
+    {
+      "ability": "narutorpg:kamui_running_brutal",
+      "skill_level": 43
+    },
+    {
+      "ability": "narutorpg:kamui_shuriken",
+      "skill_level": 44
+    },
+    {
+      "ability": "narutorpg:kamui",
+      "skill_level": 45
+    },
+    {
+      "ability": "narutorpg:shin_uchiha_s_spacetime_dojutsu",
+      "skill_level": 46
+    },
+    {
+      "ability": "narutorpg:izanagi",
+      "skill_level": 47
+    },
+    {
+      "ability": "narutorpg:izanami",
+      "skill_level": 48
+    },
+    {
+      "ability": "narutorpg:scorch_release_halo_hurricane_jet_black_arrow_style_zero",
+      "skill_level": 49
+    }
+  ],
   "system": "narutorpg",
   "traits": [
     {
@@ -31,5 +268,6 @@
       "amount": 1.0,
       "attribute": "minecraft:generic.attack_damage"
     }
-  ]
+  ],
+  "weight": 3
 }

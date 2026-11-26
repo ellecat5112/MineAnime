@@ -1,0 +1,102 @@
+{
+  "clan_items": [
+    "narutorpg:bo",
+    "narutorpg:three_coloured_pills",
+    "narutorpg:shield"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 0.25,
+      "below_health_ratio": 0.5
+    }
+  ],
+  "color": 12597547,
+  "description": {
+    "fallback": "The Akimichi Clan is a well known clan of Konohagakure.",
+    "translate": "lineage.narutorpg.akimichi.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:partial_multi_size_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:yang"
+  ],
+  "name": {
+    "fallback": "Akimichi Clan",
+    "translate": "lineage.narutorpg.akimichi"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:ballistic_waterwheel",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:empty_crash",
+      "skill_level": 5
+    },
+    {
+      "ability": "narutorpg:human_bullet_tank",
+      "skill_level": 9
+    },
+    {
+      "ability": "narutorpg:spiked_human_bullet_tank",
+      "skill_level": 13
+    },
+    {
+      "ability": "narutorpg:multi_size_technique",
+      "skill_level": 16
+    },
+    {
+      "ability": "narutorpg:super_multi_size_technique",
+      "skill_level": 20
+    },
+    {
+      "ability": "narutorpg:butterfly_mode",
+      "skill_level": 24
+    },
+    {
+      "ability": "narutorpg:calorie_control",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:butterfly_bullet_bombing",
+      "skill_level": 31
+    },
+    {
+      "ability": "narutorpg:double_human_bullet_tank",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:super_open_hand_slap",
+      "skill_level": 38
+    },
+    {
+      "ability": "narutorpg:formation_inoshikacho",
+      "skill_level": 42
+    },
+    {
+      "ability": "narutorpg:human_bullet_yo_yo",
+      "skill_level": 46
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.2,
+      "attribute": "minecraft:generic.knockback_resistance"
+    },
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 30.0,
+      "pool": "narutorpg:stamina"
+    }
+  ],
+  "weight": 8
+}

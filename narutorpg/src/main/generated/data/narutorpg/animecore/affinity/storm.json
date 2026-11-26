@@ -1,0 +1,15 @@
+{
+  "color": 2541274,
+  "fusion_of": [
+    "narutorpg:water",
+    "narutorpg:lightning"
+  ],
+  "name": {
+    "fallback": "Storm Release",
+    "translate": "affinity.narutorpg.storm"
+  },
+  "strong_against": [
+    "narutorpg:earth"
+  ],
+  "system": "narutorpg"
+}

@@ -1,0 +1,45 @@
+{
+  "color": 35195,
+  "description": {
+    "fallback": "The Rinha Clan was a clan with specialists in medical ninjutsu.",
+    "translate": "lineage.narutorpg.rinha.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:crystal_barrier_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:earth"
+  ],
+  "name": {
+    "fallback": "Rinha Clan",
+    "translate": "lineage.narutorpg.rinha"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:puppet_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:self_seal_technique",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:spirit_reflection_technique",
+      "skill_level": 12
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:earth",
+      "multiplier": 1.05
+    }
+  ],
+  "weight": 5
+}

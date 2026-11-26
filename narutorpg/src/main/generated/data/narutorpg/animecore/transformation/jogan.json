@@ -1,0 +1,27 @@
+{
+  "activation_cost": 6.0,
+  "drain_per_tick": 0.08,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.15
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.08,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Jōgan",
+    "translate": "transformation.narutorpg.jogan"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 4,
+  "system": "narutorpg",
+  "visuals": {
+    "aura_color": 5227511,
+    "aura_intensity": 0.5
+  }
+}

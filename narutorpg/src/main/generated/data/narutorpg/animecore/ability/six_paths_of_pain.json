@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 8.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 12986408,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Six Paths of Pain",
+    "translate": "ability.narutorpg.six_paths_of_pain"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

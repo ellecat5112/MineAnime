@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Tsuchigumo Style: Forbidden Life Technique Release: Creation of Heaven and Earth",
+    "translate": "ability.narutorpg.tsuchigumo_style_forbidden_life_technique_release_creation_of_heaven_and_earth"
+  },
+  "system": "narutorpg"
+}

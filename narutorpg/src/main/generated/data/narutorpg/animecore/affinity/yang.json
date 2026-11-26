@@ -1,0 +1,11 @@
+{
+  "color": 16766287,
+  "name": {
+    "fallback": "Yang Release",
+    "translate": "affinity.narutorpg.yang"
+  },
+  "strong_against": [
+    "narutorpg:yin"
+  ],
+  "system": "narutorpg"
+}

@@ -1,0 +1,72 @@
+{
+  "clan_items": [
+    "narutorpg:chakra_cannon",
+    "narutorpg:marlin_harpoon",
+    "narutorpg:spear",
+    "narutorpg:ray_bow",
+    "narutorpg:kabutowari",
+    "narutorpg:blowpipe",
+    "narutorpg:senbon"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:water_breathing"
+    }
+  ],
+  "color": 161725,
+  "description": {
+    "fallback": "The Funato Clan is a clan of pirates in the Land of Water.",
+    "translate": "lineage.narutorpg.funato.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:water_release_blood_conversion_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Funato Clan",
+    "translate": "lineage.narutorpg.funato"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:water_prison_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:water_release_furious_roaring_tornado",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:water_release_imminent_danger",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:water_release_jadeite",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:water_release_raging_jellyfish",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:water_release_water_formation_wall",
+      "skill_level": 27
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.5,
+      "attribute": "minecraft:generic.water_movement_efficiency"
+    },
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:water",
+      "multiplier": 1.08
+    }
+  ],
+  "weight": 8
+}

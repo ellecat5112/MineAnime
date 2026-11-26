@@ -34,14 +34,21 @@ public final class AnimeCore implements ModInitializer {
         AnimeBuiltinRegistries.init();
         AbilityActions.init();
         TraitModifiers.init();
+        com.animecore.clan.ClanTraits.init();
         AnimeRegistries.init();
         AnimeEntities.init();
         AnimeDataComponents.init();
         WardBlocks.init();
         AnimeLootFunctions.init();
         AnimeCoreNetworking.init();
+        com.animecore.clan.ClanRollService.init();
+        com.animecore.clan.ClanTraitHooks.register();
+        ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> com.animecore.clan.ClanRollService.onJoin(handler.player));
 
-        CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> AnimeCoreCommands.register(dispatcher));
+        CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> {
+            AnimeCoreCommands.register(dispatcher);
+            com.animecore.command.ClanCommands.register(dispatcher);
+        });
         EntityTrackingEvents.START_TRACKING.register(AnimationService::onStartTracking);
         ServerPlayConnectionEvents.DISCONNECT.register((handler, server) -> AnimationService.onDisconnect(handler.player));
 

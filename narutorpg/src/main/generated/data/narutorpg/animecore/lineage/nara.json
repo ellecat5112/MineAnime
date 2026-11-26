@@ -1,0 +1,96 @@
+{
+  "clan_items": [
+    "narutorpg:giant_folding_fan",
+    "narutorpg:wire_strings",
+    "narutorpg:chakra_blade",
+    "narutorpg:explosive_tag",
+    "narutorpg:flash_bomb",
+    "narutorpg:gold_dust",
+    "narutorpg:sand"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:energy_discount",
+      "multiplier": 0.85,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.1
+    }
+  ],
+  "color": 3369246,
+  "description": {
+    "fallback": "The Nara Clan or Nara Family is one of the many clans of Konohagakure.",
+    "translate": "lineage.narutorpg.nara.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:shadow_imitation_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:yin"
+  ],
+  "name": {
+    "fallback": "Nara Clan",
+    "translate": "lineage.narutorpg.nara"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:black_spider_lily",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:net_shadow_paralysis_technique",
+      "skill_level": 6
+    },
+    {
+      "ability": "narutorpg:shadow_cage_technique",
+      "skill_level": 10
+    },
+    {
+      "ability": "narutorpg:shadow_gathering_technique",
+      "skill_level": 14
+    },
+    {
+      "ability": "narutorpg:shadow_imitation_field_technique",
+      "skill_level": 18
+    },
+    {
+      "ability": "narutorpg:shadow_imitation_shadow_bind_technique",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:shadow_sewing_technique",
+      "skill_level": 26
+    },
+    {
+      "ability": "narutorpg:shadowneck_binding_technique",
+      "skill_level": 30
+    },
+    {
+      "ability": "narutorpg:shadow_imitation_shuriken_technique",
+      "skill_level": 34
+    },
+    {
+      "ability": "narutorpg:formation_inoshikacho",
+      "skill_level": 38
+    },
+    {
+      "ability": "narutorpg:human_bullet_yo_yo",
+      "skill_level": 42
+    },
+    {
+      "ability": "narutorpg:shadow_clutch_technique",
+      "skill_level": 46
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.1,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "weight": 8
+}

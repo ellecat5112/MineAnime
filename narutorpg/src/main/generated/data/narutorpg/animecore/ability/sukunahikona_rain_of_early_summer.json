@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 12986408,
+      "damage": 14.0,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sukunahikona: Rain of Early Summer",
+    "translate": "ability.narutorpg.sukunahikona_rain_of_early_summer"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

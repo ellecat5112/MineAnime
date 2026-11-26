@@ -112,6 +112,39 @@ public abstract class AbstractAnimeJeiPlugin implements IModPlugin {
             }
         }
         if (!infusions.isEmpty()) registration.addRecipes(infusionType(), infusions);
+
+        // Clan items: one info page per clan listing its default + progression techniques and clan items.
+        for (com.animecore.item.ClanEmblemItem emblem : modItems(com.animecore.item.ClanEmblemItem.class)) {
+            for (ItemStack stack : AnimeItemVariants.clanBound(emblem, system, rm)) {
+                com.animecore.clan.ClanRollService.binding(stack).flatMap(id -> AnimeRegistries.lineage(rm, id))
+                        .ifPresent(def -> registration.addItemStackInfo(stack, clanInfo(rm, def)));
+            }
+        }
+    }
+
+    private static net.minecraft.text.Text[] clanInfo(DynamicRegistryManager rm, com.animecore.registry.definition.LineageDefinition def) {
+        List<net.minecraft.text.Text> lines = new ArrayList<>();
+        lines.add(def.name().copy().styled(s -> s.withColor(def.color()).withBold(true)));
+        if (!def.description().getString().isEmpty()) lines.add(def.description());
+        lines.add(net.minecraft.text.Text.translatable("jei.animecore.clan.header"));
+        for (Identifier id : def.grantedAbilities()) {
+            AnimeRegistries.ability(rm, id).ifPresent(a -> lines.add(net.minecraft.text.Text.translatable("jei.animecore.clan.entry", 1, a.value().name())));
+        }
+        for (var e : def.progression()) {
+            net.minecraft.text.Text name = e.ability().flatMap(id -> AnimeRegistries.ability(rm, id)).<net.minecraft.text.Text>map(a -> a.value().name())
+                    .or(() -> e.transformation().flatMap(id -> AnimeRegistries.transformation(rm, id)).map(f -> f.value().name()))
+                    .orElse(net.minecraft.text.Text.literal("?"));
+            lines.add(net.minecraft.text.Text.translatable("jei.animecore.clan.entry", e.skillLevel(), name));
+        }
+        if (!def.clanItems().isEmpty()) {
+            net.minecraft.text.MutableText items = net.minecraft.text.Text.empty();
+            for (int i = 0; i < def.clanItems().size(); i++) {
+                if (i > 0) items.append(", ");
+                items.append(Registries.ITEM.get(def.clanItems().get(i)).getName());
+            }
+            lines.add(net.minecraft.text.Text.translatable("jei.animecore.clan.items", items));
+        }
+        return lines.toArray(net.minecraft.text.Text[]::new);
     }
 
     @Override

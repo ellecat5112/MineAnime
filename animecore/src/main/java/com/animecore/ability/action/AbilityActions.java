@@ -19,6 +19,8 @@ public final class AbilityActions {
     public static final AbilityActionType<DashStrikeAction> DASH_STRIKE = register(Ids.core("dash_strike"), DashStrikeAction.CODEC);
     public static final AbilityActionType<SelfBuffAction> SELF_BUFF = register(Ids.core("self_buff"), SelfBuffAction.CODEC);
     public static final AbilityActionType<SummonEntityAction> SUMMON_ENTITY = register(Ids.core("summon_entity"), SummonEntityAction.CODEC);
+    public static final AbilityActionType<AreaEffectAction> AREA_EFFECT = register(Ids.core("area_effect"), AreaEffectAction.CODEC);
+    public static final AbilityActionType<RaiseWallAction> RAISE_WALL = register(Ids.core("raise_wall"), RaiseWallAction.CODEC);
 
     public static <T extends IAbilityAction> AbilityActionType<T> register(Identifier id, MapCodec<T> codec) {
         return Registry.register(AnimeBuiltinRegistries.ABILITY_ACTION_TYPES, id, new AbilityActionType<>(codec));

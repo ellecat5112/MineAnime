@@ -1,0 +1,39 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.04
+    }
+  ],
+  "color": 26972,
+  "description": {
+    "fallback": "The Ryū Clan was once a powerful clan of Dragon Guardians entrusted with keeping the Dragon Blade.",
+    "translate": "lineage.narutorpg.ryu.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:sealing_technique_black_aura"
+  ],
+  "innate_affinities": [
+    "narutorpg:water",
+    "narutorpg:wind"
+  ],
+  "name": {
+    "fallback": "Ryū Clan",
+    "translate": "lineage.narutorpg.ryu"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:sealing_technique_five_elements",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:water",
+      "multiplier": 1.1
+    }
+  ],
+  "weight": 6
+}

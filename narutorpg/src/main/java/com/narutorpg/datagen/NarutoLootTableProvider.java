@@ -2,6 +2,7 @@ package com.narutorpg.datagen;
 
 import com.animecore.loot.AnimeLootHelper;
 import com.animecore.loot.SetAbilityScrollFunction;
+import com.animecore.loot.SetLineageFunction;
 import com.narutorpg.NarutoRPG;
 import com.narutorpg.content.NarutoContent;
 import com.narutorpg.content.NarutoItems;
@@ -37,6 +38,11 @@ final class NarutoLootTableProvider extends SimpleFabricLootTableProvider {
                         .with(AnimeLootHelper.elementalWeapon(NarutoItems.KUNAI, system, 10))
                         .with(AnimeLootHelper.elementalWeapon(NarutoItems.CHAKRA_BLADE, system, 1))
                         .with(ItemEntry.builder(NarutoItems.LEAF_HEADBAND).weight(3))
+                        // Bloodlines: an unsealed reroll scroll, a scroll sealed with a (rare) clan, a random clan emblem.
+                        .with(ItemEntry.builder(NarutoItems.BLOODLINE_SCROLL).weight(2))
+                        .with(ItemEntry.builder(NarutoItems.BLOODLINE_SCROLL).weight(1).apply(SetLineageFunction.random(system, true, 3)))
+                        .with(ItemEntry.builder(NarutoItems.CLAN_EMBLEM).weight(2).apply(SetLineageFunction.random(system, false, 3)))
+                        .with(ItemEntry.builder(NarutoItems.CLAN_GARB).weight(2).apply(SetLineageFunction.random(system, false, 3)))
                         .with(EmptyEntry.builder().weight(6)))
                 // Everyday shinobi supplies from the wiki tool catalog.
                 .pool(AnimeLootHelper.pool(1, 3)

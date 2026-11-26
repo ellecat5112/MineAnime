@@ -1,0 +1,37 @@
+{
+  "color": 16771899,
+  "description": {
+    "fallback": "The Yotsuki Clan is a clan from Kumogakure.",
+    "translate": "lineage.narutorpg.yotsuki.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:lightning_release_thunderclap_arrow"
+  ],
+  "innate_affinities": [
+    "narutorpg:lightning"
+  ],
+  "name": {
+    "fallback": "Yotsuki Clan",
+    "translate": "lineage.narutorpg.yotsuki"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:lightning_release_chakra_mode",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:lightning",
+      "multiplier": 1.15
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "weight": 6
+}

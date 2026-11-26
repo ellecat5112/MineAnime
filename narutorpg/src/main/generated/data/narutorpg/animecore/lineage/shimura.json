@@ -1,0 +1,59 @@
+{
+  "clan_items": [
+    "narutorpg:sealing_arm_braces"
+  ],
+  "color": 4545124,
+  "description": {
+    "fallback": "The Shimura Clan is a shinobi clan from Konohagakure.",
+    "translate": "lineage.narutorpg.shimura.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:hiding_in_surface_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:wind"
+  ],
+  "name": {
+    "fallback": "Shimura Clan",
+    "translate": "lineage.narutorpg.shimura"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:regeneration_ability",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:cursed_tongue_eradication_seal",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:self_cursing_seal",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:genjutsu_sharingan",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:kotoamatsukami",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:reverse_four_symbols_sealing",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:izanagi",
+      "skill_level": 32
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:wind",
+      "multiplier": 1.15
+    }
+  ],
+  "weight": 7
+}

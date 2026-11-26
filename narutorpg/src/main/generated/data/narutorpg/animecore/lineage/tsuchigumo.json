@@ -1,0 +1,63 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:energy_discount",
+      "multiplier": 0.9,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "color": 7162945,
+  "description": {
+    "fallback": "The Tsuchigumo Clan is a clan that formed a pact with the Third Hokage during the Third Shinobi World War.",
+    "translate": "lineage.narutorpg.tsuchigumo.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:dragon_spying_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:earth"
+  ],
+  "name": {
+    "fallback": "Tsuchigumo Clan",
+    "translate": "lineage.narutorpg.tsuchigumo"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:water_release_wild_water_wave",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:hidden_rock_trap",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:character_bind_technique",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:tsuchigumo_style_forbidden_life_technique_release_creation_of_heaven_and_earth",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:infinite_embrace",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:hiding_with_camouflage_technique",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:fury",
+      "skill_level": 32
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.armor"
+    }
+  ],
+  "weight": 6
+}

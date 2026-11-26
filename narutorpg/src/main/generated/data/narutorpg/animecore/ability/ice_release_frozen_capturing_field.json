@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:ice",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ice Release: Frozen Capturing Field",
+    "translate": "ability.narutorpg.ice_release_frozen_capturing_field"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

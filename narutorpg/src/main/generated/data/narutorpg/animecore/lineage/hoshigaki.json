@@ -1,0 +1,71 @@
+{
+  "clan_items": [
+    "narutorpg:samehada"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:water_breathing"
+    }
+  ],
+  "color": 2533018,
+  "description": {
+    "fallback": "This shinobi clan is from Kirigakure.",
+    "translate": "lineage.narutorpg.hoshigaki.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:silent_killing"
+  ],
+  "innate_affinities": [
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Hoshigaki Clan",
+    "translate": "lineage.narutorpg.hoshigaki"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:water_prison_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:earth_release_subterranean_voyage",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:water_clone_technique",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:water_release_a_thousand_feeding_sharks",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:water_prison_shark_dance_technique",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:chakra_transfer_technique",
+      "skill_level": 27
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 40.0,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.15,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "weight": 5
+}

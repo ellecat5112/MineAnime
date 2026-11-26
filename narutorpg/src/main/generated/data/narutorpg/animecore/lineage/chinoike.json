@@ -1,0 +1,53 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.25,
+      "duration": 40,
+      "effect": "minecraft:wither"
+    }
+  ],
+  "color": 9109504,
+  "description": {
+    "fallback": "The Chinoike Clan was a clan active during the Warring States Period.",
+    "translate": "lineage.narutorpg.chinoike.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:blood_dragon_ascension"
+  ],
+  "innate_affinities": [
+    "narutorpg:water",
+    "narutorpg:yin"
+  ],
+  "name": {
+    "fallback": "Chinoike Clan",
+    "translate": "lineage.narutorpg.chinoike"
+  },
+  "progression": [
+    {
+      "required_tier": 3,
+      "skill_level": 2,
+      "transformation": "narutorpg:ketsuryugan"
+    },
+    {
+      "ability": "narutorpg:blood_transformation_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:genjutsu_ketsuryugan",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:exploding_human_technique",
+      "skill_level": 12
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.1
+    }
+  ],
+  "weight": 3
+}

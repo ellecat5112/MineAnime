@@ -1,0 +1,59 @@
+{
+  "clan_items": [
+    "narutorpg:chakra_blade",
+    "narutorpg:adamantine_staff",
+    "narutorpg:fuma_shuriken",
+    "narutorpg:shuriken",
+    "narutorpg:shinobi_gauntlet"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.15
+    }
+  ],
+  "color": 15690752,
+  "description": {
+    "fallback": "The Sarutobi Clan is an influential clan from Konohagakure.",
+    "translate": "lineage.narutorpg.sarutobi.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:fire_release_great_flame_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:fire",
+    "narutorpg:wind"
+  ],
+  "name": {
+    "fallback": "Sarutobi Clan",
+    "translate": "lineage.narutorpg.sarutobi"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:fire_release_ash_pile_burning",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:fire_release_fire_dragon_flame_bullet",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:allied_shinobi_forces_technique",
+      "skill_level": 12
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:fire",
+      "multiplier": 1.1
+    },
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 20.0,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "weight": 6
+}

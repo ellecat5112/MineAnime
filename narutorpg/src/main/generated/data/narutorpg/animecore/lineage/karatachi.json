@@ -1,0 +1,69 @@
+{
+  "clan_items": [
+    "narutorpg:hiramekarei",
+    "narutorpg:claw_club",
+    "narutorpg:club"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.05
+    }
+  ],
+  "color": 5533306,
+  "description": {
+    "fallback": "This family was a group of people from Kirigakure, which has produced renowned shinobi.",
+    "translate": "lineage.narutorpg.karatachi.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:prisoner_cursed_seal"
+  ],
+  "innate_affinities": [
+    "narutorpg:water",
+    "narutorpg:wind"
+  ],
+  "name": {
+    "fallback": "Karatachi Family",
+    "translate": "lineage.narutorpg.karatachi"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:water_release_clear_mirror_still_water",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:wind_release_passing_typhoon",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:leaping_bullet_shell_tower",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:shadow_stroke",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:coral_palm",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:water_release_water_mirror_technique",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:tailed_beast_ball",
+      "skill_level": 32
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "weight": 7
+}

@@ -1,0 +1,16 @@
+{
+  "color": 12755563,
+  "fusion_of": [
+    "narutorpg:wind",
+    "narutorpg:earth"
+  ],
+  "name": {
+    "fallback": "Magnet Release",
+    "translate": "affinity.narutorpg.magnet"
+  },
+  "required_lineage": "narutorpg:kazekage",
+  "strong_against": [
+    "narutorpg:wind"
+  ],
+  "system": "narutorpg"
+}

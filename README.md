@@ -118,6 +118,29 @@ Display transforms are derived from vanilla's handheld/generated transforms and 
 
 ![Low-poly models](docs/screenshots/p5_lowpoly_first_person.png)
 
+## Clans & bloodlines (Narutopedia `Category:Clans`)
+
+All **52 wiki clans** plus a **Clanless** fallback are playable lineages (`docs/wiki/narutopedia_clans.md` has the crawl,
+member list and per-clan data). The clans carry **417 clan jutsu**, generated from each jutsu's wiki infobox (classification,
+nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced natures (Wood, Ice, Lava, Magnet...).
+
+- **One jutsu unlocked by default**. The rest unlock by **clan skill level**. Hold your **Clan Emblem** in either hand while
+  defeating enemies: their experience becomes clan skill XP instead of orbs. Use the emblem to see your level and next unlock.
+- **First join**: a weighted clan roll (gamerule `animecoreClanAutoRoll`, default on). With it off, players start Clanless and
+  can `/clan choose <clan>` once. Rarer clans (Uchiha, Senju, Uzumaki, Hyūga, Ōtsutsuki...) have low weights. A **pity counter**
+  guarantees a rare bloodline after 10 common rolls.
+- **Bloodline Scroll**: an unsealed scroll rerolls (never your current clan). A sealed scroll (from loot) awakens that exact clan.
+  Switching removes the old clan's jutsu, forms, stat modifiers and traits but keeps abilities you learned elsewhere. Clan level
+  is saved per clan.
+- **Starter kit** (once per clan): bound emblem, **Clan Garb** dyed in the clan colour, and the clan's signature tools from its
+  members' wiki tool lists.
+- **Clan traits** (`animecore:clan_trait_type`): evasion, energy discount, sensing, on-hit effects, regeneration, fatal save,
+  passive effects and skill XP boost. Uchiha is the reference clan: +15% Fire Release power, +20 chakra, +1 attack, Fire affinity,
+  Great Fireball by default, Sharingan stages at clan levels 3/10/20/35 and a Sharingan-precognition evasion trait.
+- Commands: `/clan info|list|choose`, plus `/clan roll|set|skill|level` for operators. Loot function `animecore:set_lineage` (Lootr-safe).
+  JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
+- Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
+
 ## Controls (NarutoRPG, all rebindable under *Controls › NarutoRPG*)
 | Key | Action |
 |---|---|

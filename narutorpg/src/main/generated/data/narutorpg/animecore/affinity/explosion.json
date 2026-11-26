@@ -1,0 +1,15 @@
+{
+  "color": 16763432,
+  "fusion_of": [
+    "narutorpg:earth",
+    "narutorpg:lightning"
+  ],
+  "name": {
+    "fallback": "Explosion Release",
+    "translate": "affinity.narutorpg.explosion"
+  },
+  "strong_against": [
+    "narutorpg:earth"
+  ],
+  "system": "narutorpg"
+}

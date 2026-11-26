@@ -36,6 +36,8 @@ public final class NarutoGameTests implements FabricGameTest {
         player.changeGameMode(GameMode.SURVIVAL);
         PlayerPowerComponent power = NarutoRPG.CTX.power(player);
         power.setLineage(UCHIHA.getValue());
+        power.setClanSkill(UCHIHA.getValue(), 3, 0); // Sharingan unlocks at clan skill level 3
+        com.animecore.clan.ClanAbilityManager.evaluate(player, power);
         power.setFaction(HIDDEN_LEAF.getValue());
         power.serverTick(); // applies traits
         return player;
@@ -130,6 +132,8 @@ public final class NarutoGameTests implements FabricGameTest {
     public void substitutionNegatesHit(TestContext ctx) {
         ServerPlayerEntity player = uchiha(ctx);
         PlayerPowerComponent power = NarutoRPG.CTX.power(player);
+        // Uchiha's Sharingan precognition is a random evasion trait; use an evasion-free clan so hits are deterministic.
+        power.setLineage(NarutoRPG.CTX.id("akimichi"));
         ZombieEntity zombie = ctx.spawnEntity(EntityType.ZOMBIE, 2, 2, 2);
         var hit = player.getDamageSources().mobAttack(zombie);
 

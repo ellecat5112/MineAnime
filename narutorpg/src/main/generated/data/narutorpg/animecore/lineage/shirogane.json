@@ -1,0 +1,37 @@
+{
+  "clan_items": [
+    "narutorpg:barrier_puppets",
+    "narutorpg:elemental_puppets",
+    "narutorpg:lizard_puppet",
+    "narutorpg:spirit_orbs",
+    "narutorpg:insect_queen_bee_drone_puppet"
+  ],
+  "color": 13621468,
+  "description": {
+    "fallback": "The Shirogane Clan was a puppet clan from the Land of Wind.",
+    "translate": "lineage.narutorpg.shirogane.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:transformation_technique"
+  ],
+  "name": {
+    "fallback": "Shirogane Clan",
+    "translate": "lineage.narutorpg.shirogane"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:puppet_technique",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.15,
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "weight": 6
+}

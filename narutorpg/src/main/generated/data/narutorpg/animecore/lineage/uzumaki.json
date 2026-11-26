@@ -1,0 +1,79 @@
+{
+  "clan_items": [
+    "narutorpg:absorbing_hand",
+    "narutorpg:bo",
+    "narutorpg:shinobi_gauntlet",
+    "narutorpg:chakra_blade",
+    "narutorpg:hidden_kunai_mechanism",
+    "narutorpg:hyuga_clan_secret_ointment",
+    "narutorpg:microscopic_scientific_ninja_tools",
+    "narutorpg:smoke_flash_bomb"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:fatal_save",
+      "cooldown_id": "narutorpg:fatal_save/uzumaki",
+      "cooldown_ticks": 24000
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 0.25,
+      "below_health_ratio": 0.5
+    }
+  ],
+  "color": 13840175,
+  "description": {
+    "fallback": "The Uzumaki Clan was a formerly prominent clan in Uzushiogakure.",
+    "translate": "lineage.narutorpg.uzumaki.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:adamantine_sealing_chains"
+  ],
+  "innate_affinities": [
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Uzumaki Clan",
+    "translate": "lineage.narutorpg.uzumaki"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:heal_bite",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_sealing_style",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:four_symbols_seal",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:uzumaki_sealing_technique",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:tight_binding_golden_chain_technique",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:dead_demon_consuming_seal",
+      "skill_level": 27
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 60.0,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.25,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "weight": 3
+}

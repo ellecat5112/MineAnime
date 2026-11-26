@@ -1,0 +1,27 @@
+{
+  "activation_cost": 12.0,
+  "drain_per_tick": 0.2,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.35
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Rinnegan",
+    "translate": "transformation.narutorpg.rinnegan"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 8,
+  "system": "narutorpg",
+  "visuals": {
+    "aura_color": 9795021,
+    "aura_intensity": 0.5
+  }
+}

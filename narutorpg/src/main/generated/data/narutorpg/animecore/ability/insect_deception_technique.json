@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8280002,
+      "damage": 3.6,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:hunger"
+        }
+      ],
+      "radius": 5.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Insect Deception Technique",
+    "translate": "ability.narutorpg.insect_deception_technique"
+  },
+  "system": "narutorpg"
+}

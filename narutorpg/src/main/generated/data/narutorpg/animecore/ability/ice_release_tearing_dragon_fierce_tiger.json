@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 10875635,
+      "damage": 6.0,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "narutorpg:ice",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ice Release: Tearing Dragon Fierce Tiger",
+    "translate": "ability.narutorpg.ice_release_tearing_dragon_fierce_tiger"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 12986408,
+      "damage": 11.0,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Summoning: Demonic Statue of the Outer Path",
+    "translate": "ability.narutorpg.summoning_demonic_statue_of_the_outer_path"
+  },
+  "required_tier": 6,
+  "system": "narutorpg"
+}

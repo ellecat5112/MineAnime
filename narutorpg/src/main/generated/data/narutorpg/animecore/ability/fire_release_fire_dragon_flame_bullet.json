@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 16738816,
+      "damage": 8.0,
+      "fire_ticks": 60,
+      "lifetime_ticks": 25,
+      "size": 1.0,
+      "speed": 1.1,
+      "trail_particle": "minecraft:flame"
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cast_animation": "narutorpg:fireball_exhale",
+  "cast_type": "charged",
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:horse",
+    "narutorpg:snake",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Fire Dragon Flame Bullet",
+    "translate": "ability.narutorpg.fire_release_fire_dragon_flame_bullet"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

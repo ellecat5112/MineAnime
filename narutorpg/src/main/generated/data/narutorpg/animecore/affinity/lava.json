@@ -1,0 +1,15 @@
+{
+  "color": 15094016,
+  "fusion_of": [
+    "narutorpg:fire",
+    "narutorpg:earth"
+  ],
+  "name": {
+    "fallback": "Lava Release",
+    "translate": "affinity.narutorpg.lava"
+  },
+  "strong_against": [
+    "narutorpg:wood"
+  ],
+  "system": "narutorpg"
+}

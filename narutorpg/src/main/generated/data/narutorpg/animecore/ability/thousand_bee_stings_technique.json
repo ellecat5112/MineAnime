@@ -1,0 +1,39 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3369246,
+      "cone_degrees": 90.0,
+      "damage": 5.5,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:ram",
+    "narutorpg:bird",
+    "narutorpg:horse",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Thousand Bee Stings Technique",
+    "translate": "ability.narutorpg.thousand_bee_stings_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg"
+}

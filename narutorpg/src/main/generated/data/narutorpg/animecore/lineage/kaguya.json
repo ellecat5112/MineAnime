@@ -1,0 +1,62 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.2,
+      "duration": 40,
+      "effect": "minecraft:slowness"
+    }
+  ],
+  "color": 15658734,
+  "description": {
+    "fallback": "The Kaguya Clan is a now extinct clan, known for their savage battle tactics and archaic values, and as descendants of Kaguya Ōtsutsuki, a select few have inherited a derivative of her original ability to manipulate...",
+    "translate": "lineage.narutorpg.kaguya.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:dance_of_the_camellia"
+  ],
+  "name": {
+    "fallback": "Kaguya Clan",
+    "translate": "lineage.narutorpg.kaguya"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:dance_of_the_clematis_flower",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:dance_of_the_clematis_vine",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:dance_of_the_larch",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:dance_of_the_seedling_fern",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:dance_of_the_willow",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:ten_finger_drilling_bullets",
+      "skill_level": 27
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "weight": 3
+}

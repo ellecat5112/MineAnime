@@ -1,0 +1,49 @@
+{
+  "clan_items": [
+    "narutorpg:gold_dust"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.04
+    }
+  ],
+  "color": 9268835,
+  "description": {
+    "fallback": "The Hōki Family is a matrilineal shinobi clan (and family) of medical-nin and information gatherers from Sunagakure, who originated in and moved down to the village of Konohagakure.",
+    "translate": "lineage.narutorpg.hoki.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:water_release_water_blade_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:wind"
+  ],
+  "name": {
+    "fallback": "Hōki Family",
+    "translate": "lineage.narutorpg.hoki"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:water_release_water_shuriken",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:wind_release_bursting_compressed_air",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:mystical_palm_technique",
+      "skill_level": 12
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.08,
+      "attribute": "minecraft:generic.jump_strength"
+    }
+  ],
+  "weight": 8
+}

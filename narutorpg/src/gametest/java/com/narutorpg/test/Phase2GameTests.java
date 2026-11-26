@@ -110,6 +110,8 @@ public final class Phase2GameTests implements FabricGameTest {
         ServerPlayerEntity player = player(ctx);
         PlayerPowerComponent power = NarutoRPG.CTX.power(player);
         power.setLineage(UCHIHA.getValue());
+        power.setClanSkill(UCHIHA.getValue(), 3, 0); // Sharingan unlocks at clan skill level 3
+        com.animecore.clan.ClanAbilityManager.evaluate(player, power);
         power.setTier(5);
         power.unlockTransformation(SHARINGAN_2.getValue());
         power.serverTick();

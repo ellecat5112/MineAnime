@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Tenrō-Style Ninjutsu: Beast-Human Transformation Technique",
+    "translate": "ability.narutorpg.tenro_style_ninjutsu_beast_human_transformation_technique"
+  },
+  "system": "narutorpg"
+}

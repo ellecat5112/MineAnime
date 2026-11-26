@@ -1,0 +1,38 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.05
+    }
+  ],
+  "color": 6056896,
+  "description": {
+    "fallback": "The Izuno Clan is a family of shinobi in Konohagakure known for their use of cat-inspired ninjutsu.",
+    "translate": "lineage.narutorpg.izuno.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:cat_covering"
+  ],
+  "name": {
+    "fallback": "Izuno Clan",
+    "translate": "lineage.narutorpg.izuno"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:cat_god_possession_monster_cat_beckoning_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:cat_surprise",
+      "skill_level": 7
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.05
+    }
+  ],
+  "weight": 8
+}

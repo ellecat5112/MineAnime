@@ -68,6 +68,44 @@
           "weight": 3
         },
         {
+          "type": "minecraft:item",
+          "name": "narutorpg:bloodline_scroll",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "animecore:set_lineage",
+              "rare_only": true,
+              "system": "narutorpg"
+            }
+          ],
+          "name": "narutorpg:bloodline_scroll"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "animecore:set_lineage",
+              "system": "narutorpg"
+            }
+          ],
+          "name": "narutorpg:clan_emblem",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "animecore:set_lineage",
+              "system": "narutorpg"
+            }
+          ],
+          "name": "narutorpg:clan_garb",
+          "weight": 2
+        },
+        {
           "type": "minecraft:empty",
           "weight": 6
         }

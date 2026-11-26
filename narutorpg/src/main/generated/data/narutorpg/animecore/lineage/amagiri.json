@@ -1,0 +1,57 @@
+{
+  "clan_items": [
+    "narutorpg:chakra_enhanced_triple_bladed_claw"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.05
+    }
+  ],
+  "color": 8280002,
+  "description": {
+    "fallback": "The Amagiri Clan is a clan that founded Yumegakure, and one of the three clans that hail from the village.",
+    "translate": "lineage.narutorpg.amagiri.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:chakra_levitation_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:lightning"
+  ],
+  "name": {
+    "fallback": "Amagiri Clan",
+    "translate": "lineage.narutorpg.amagiri"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:tailed_beast_replication",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:taisa_s_transformation_technique",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:lightning_tackle",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:poison_mist",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:telescope_technique",
+      "skill_level": 22
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:lightning",
+      "multiplier": 1.1
+    }
+  ],
+  "weight": 6
+}

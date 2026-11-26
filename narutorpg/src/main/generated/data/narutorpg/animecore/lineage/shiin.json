@@ -1,0 +1,43 @@
+{
+  "clan_items": [
+    "narutorpg:ocarina",
+    "narutorpg:demonic_flute"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 16.0
+    }
+  ],
+  "color": 7162945,
+  "description": {
+    "fallback": "The Shiin Clan was a small shinobi clan from the Land of the Rice Fields, where Orochimaru established the Land of Sound.",
+    "translate": "lineage.narutorpg.shiin.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:chakra_enhancing_music"
+  ],
+  "innate_affinities": [
+    "narutorpg:yin"
+  ],
+  "name": {
+    "fallback": "Shiin Clan",
+    "translate": "lineage.narutorpg.shiin"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:offsetting_sound",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:paralysing_flute_genjutsu",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:memory_blocking_technique",
+      "skill_level": 12
+    }
+  ],
+  "system": "narutorpg",
+  "weight": 7
+}

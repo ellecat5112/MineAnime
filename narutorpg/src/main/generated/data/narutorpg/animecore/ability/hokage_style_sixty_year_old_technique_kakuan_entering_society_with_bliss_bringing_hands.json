@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:wood",
+  "combo": [
+    "narutorpg:boar",
+    "narutorpg:bird",
+    "narutorpg:ram",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Hokage-Style Sixty-Year-Old Technique — Kakuan Entering Society with Bliss-Bringing Hands",
+    "translate": "ability.narutorpg.hokage_style_sixty_year_old_technique_kakuan_entering_society_with_bliss_bringing_hands"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

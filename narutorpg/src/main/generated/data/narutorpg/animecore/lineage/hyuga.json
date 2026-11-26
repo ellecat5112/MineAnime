@@ -1,0 +1,138 @@
+{
+  "clan_items": [
+    "narutorpg:shinobi_gauntlet",
+    "narutorpg:hyuga_clan_secret_ointment",
+    "narutorpg:absorbing_hand",
+    "narutorpg:bo",
+    "narutorpg:microscopic_scientific_ninja_tools",
+    "narutorpg:smoke_flash_bomb",
+    "narutorpg:chakra_blade",
+    "narutorpg:flash_bomb"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:sense",
+      "hostile_only": false,
+      "radius": 24.0
+    },
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.3,
+      "effect": "minecraft:weakness"
+    }
+  ],
+  "color": 13747433,
+  "description": {
+    "fallback": "The Hyūga Clan or Hyūga Family is a well known clan of Konohagakure, as well as the strongest clan in the village, standing alongside the Uchiha Clan, with the Hyūga said to also possess the oldest and most...",
+    "translate": "lineage.narutorpg.hyuga.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:gentle_fist"
+  ],
+  "innate_affinities": [
+    "narutorpg:fire"
+  ],
+  "name": {
+    "fallback": "Hyūga Clan",
+    "translate": "lineage.narutorpg.hyuga"
+  },
+  "progression": [
+    {
+      "skill_level": 2,
+      "transformation": "narutorpg:byakugan"
+    },
+    {
+      "ability": "narutorpg:gentle_fist_art_one_blow_body",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_mountain_crusher",
+      "skill_level": 4
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_one_hundred_twenty_eight_palms",
+      "skill_level": 6
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_palms_revolving_heaven",
+      "skill_level": 8
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_sixteen_palms",
+      "skill_level": 11
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_sixty_four_palms",
+      "skill_level": 13
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_thirty_two_palms",
+      "skill_level": 15
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_vacuum_palm",
+      "skill_level": 18
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_vacuum_wall_palm",
+      "skill_level": 20
+    },
+    {
+      "ability": "narutorpg:gentle_fist_tenketsu_needle",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:palm_bottom",
+      "skill_level": 24
+    },
+    {
+      "ability": "narutorpg:protecting_eight_trigrams_sixty_four_palms",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:water_needle",
+      "skill_level": 29
+    },
+    {
+      "ability": "narutorpg:puppet_reincarnation",
+      "skill_level": 31
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_grid_palm",
+      "skill_level": 34
+    },
+    {
+      "ability": "narutorpg:eight_trigrams_twin_lions_crumbling_attack",
+      "skill_level": 36
+    },
+    {
+      "ability": "narutorpg:gentle_step_twin_lion_fists",
+      "skill_level": 38
+    },
+    {
+      "ability": "narutorpg:gentle_wind_spiralling_twin_lion_fists_snow_white",
+      "skill_level": 40
+    },
+    {
+      "ability": "narutorpg:hyuga_main_family_s_juinjutsu",
+      "skill_level": 43
+    },
+    {
+      "ability": "narutorpg:rabbit_hair_needle",
+      "skill_level": 45
+    },
+    {
+      "ability": "narutorpg:front_lotus_eight_trigrams_palms_revolving_heaven",
+      "skill_level": 47
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.5,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "weight": 3
+}

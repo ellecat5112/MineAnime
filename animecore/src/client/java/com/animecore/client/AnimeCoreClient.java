@@ -32,5 +32,6 @@ public final class AnimeCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.CHAKRA_WALL, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.BARRIER_GATE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.WARD_TAG, RenderLayer.getCutout());
+        com.animecore.client.render.ClanItemColors.register();
     }
 }

@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 10875635,
+      "damage": 6.0,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "narutorpg:ice",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ice Release: Wolf Fang Avalanche Technique",
+    "translate": "ability.narutorpg.ice_release_wolf_fang_avalanche_technique"
+  },
+  "system": "narutorpg"
+}

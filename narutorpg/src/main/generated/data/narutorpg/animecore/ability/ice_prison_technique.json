@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 10875635,
+      "damage": 6.0,
+      "lifetime_ticks": 25,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "narutorpg:ice",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ice Prison Technique",
+    "translate": "ability.narutorpg.ice_prison_technique"
+  },
+  "system": "narutorpg"
+}

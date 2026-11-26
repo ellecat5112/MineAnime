@@ -1,0 +1,79 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:fatal_save",
+      "cooldown_id": "narutorpg:fatal_save/jugo",
+      "cooldown_ticks": 18000,
+      "heal_to": 8.0
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 0.5,
+      "below_health_ratio": 0.5
+    }
+  ],
+  "color": 16748288,
+  "description": {
+    "fallback": "This clan is an unnamed family, which originated from an unknown area.",
+    "translate": "lineage.narutorpg.jugo.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:sage_transformation"
+  ],
+  "innate_affinities": [
+    "narutorpg:wind",
+    "narutorpg:earth"
+  ],
+  "name": {
+    "fallback": "Jūgo's Clan",
+    "translate": "lineage.narutorpg.jugo"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:cellular_regeneration_ejection",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:chain",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:jet_booster_jump",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:multiple_lotus_nonself_connected_cannons",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:broadaxe",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:cellular_regeneration_absorption",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:piston_fist",
+      "skill_level": 32
+    },
+    {
+      "ability": "narutorpg:piston_fist_style_one",
+      "skill_level": 37
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ],
+  "weight": 3
+}

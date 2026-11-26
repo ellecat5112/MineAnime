@@ -1,6 +1,7 @@
 package com.animecore.registry;
 
 import com.animecore.ability.action.AbilityActionType;
+import com.animecore.clan.ClanTraitType;
 import com.animecore.platform.Ids;
 import com.animecore.trait.TraitModifierType;
 import net.fabricmc.fabric.api.event.registry.FabricRegistryBuilder;
@@ -20,10 +21,16 @@ public final class AnimeBuiltinRegistries {
     public static final RegistryKey<Registry<TraitModifierType<?>>> TRAIT_MODIFIER_TYPE_KEY =
             RegistryKey.ofRegistry(Ids.core("trait_modifier_type"));
 
+    public static final RegistryKey<Registry<ClanTraitType<?>>> CLAN_TRAIT_TYPE_KEY =
+            RegistryKey.ofRegistry(Ids.core("clan_trait_type"));
+
     public static final Registry<AbilityActionType<?>> ABILITY_ACTION_TYPES =
             FabricRegistryBuilder.createSimple(ABILITY_ACTION_TYPE_KEY).attribute(RegistryAttribute.SYNCED).buildAndRegister();
     public static final Registry<TraitModifierType<?>> TRAIT_MODIFIER_TYPES =
             FabricRegistryBuilder.createSimple(TRAIT_MODIFIER_TYPE_KEY).attribute(RegistryAttribute.SYNCED).buildAndRegister();
+
+    public static final Registry<ClanTraitType<?>> CLAN_TRAIT_TYPES =
+            FabricRegistryBuilder.createSimple(CLAN_TRAIT_TYPE_KEY).attribute(RegistryAttribute.SYNCED).buildAndRegister();
 
     public static void init() {
         // class-load trigger

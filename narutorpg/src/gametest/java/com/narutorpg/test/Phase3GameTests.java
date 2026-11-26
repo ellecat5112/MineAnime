@@ -44,6 +44,8 @@ public final class Phase3GameTests implements FabricGameTest {
         player.changeGameMode(GameMode.SURVIVAL);
         PlayerPowerComponent power = NarutoRPG.CTX.power(player);
         power.setLineage(UCHIHA.getValue());
+        power.setClanSkill(UCHIHA.getValue(), 3, 0); // Sharingan unlocks at clan skill level 3
+        com.animecore.clan.ClanAbilityManager.evaluate(player, power);
         power.serverTick();
         return player;
     }
@@ -140,6 +142,7 @@ public final class Phase3GameTests implements FabricGameTest {
     @GameTest(templateName = EMPTY_STRUCTURE)
     public void infusedBladeDeflectsFrontalArrows(TestContext ctx) {
         ServerPlayerEntity player = uchiha(ctx);
+        NarutoRPG.CTX.power(player).setLineage(NarutoRPG.CTX.id("akimichi")); // no random evasion trait: deterministic hits
         Vec3d at = ctx.getAbsolute(new Vec3d(0.5, 100, 0.5));
         player.refreshPositionAndAngles(at.x, at.y, at.z, 0f, 0f); // facing +Z
         ItemStack stack = AnimeItemVariants.infused(NarutoItems.CHAKRA_BLADE, FIRE.getValue(), true);

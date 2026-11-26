@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16738816,
+      "damage": 6.0,
+      "fire_ticks": 60,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "combo": [
+    "narutorpg:tiger",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Phoenix Sage Fire Technique",
+    "translate": "ability.narutorpg.fire_release_phoenix_sage_fire_technique"
+  },
+  "system": "narutorpg"
+}

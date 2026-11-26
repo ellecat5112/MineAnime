@@ -1,0 +1,42 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.25
+    }
+  ],
+  "color": 10395294,
+  "description": {
+    "fallback": "No bloodline - only the academy basics and hard work.",
+    "translate": "lineage.narutorpg.clanless.desc"
+  },
+  "fallback": true,
+  "granted_abilities": [
+    "narutorpg:clone_technique"
+  ],
+  "name": {
+    "fallback": "Clanless",
+    "translate": "lineage.narutorpg.clanless"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:transformation_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:body_flicker_technique",
+      "skill_level": 5
+    },
+    {
+      "ability": "narutorpg:substitution_jutsu",
+      "skill_level": 8
+    },
+    {
+      "ability": "narutorpg:shadow_clone_technique",
+      "skill_level": 11
+    }
+  ],
+  "selectable": false,
+  "system": "narutorpg",
+  "weight": 0
+}

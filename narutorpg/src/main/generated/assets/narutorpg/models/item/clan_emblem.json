@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "narutorpg:item/clan_emblem",
+    "layer1": "narutorpg:item/clan_emblem_overlay"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "activation_cost": 4.0,
+  "drain_per_tick": 0.07,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.12
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.06,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Ketsuryūgan",
+    "translate": "transformation.narutorpg.ketsuryugan"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 3,
+  "system": "narutorpg",
+  "visuals": {
+    "aura_color": 12000284,
+    "aura_intensity": 0.5
+  }
+}

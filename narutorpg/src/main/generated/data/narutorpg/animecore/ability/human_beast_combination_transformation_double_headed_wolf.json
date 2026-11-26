@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Human Beast Combination Transformation: Double-Headed Wolf",
+    "translate": "ability.narutorpg.human_beast_combination_transformation_double_headed_wolf"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

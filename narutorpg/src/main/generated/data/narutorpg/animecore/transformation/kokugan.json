@@ -1,0 +1,27 @@
+{
+  "activation_cost": 10.0,
+  "drain_per_tick": 0.15,
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.25
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.08,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Kokugan",
+    "translate": "transformation.narutorpg.kokugan"
+  },
+  "pool": "narutorpg:chakra",
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "aura_color": 2171169,
+    "aura_intensity": 0.5
+  }
+}

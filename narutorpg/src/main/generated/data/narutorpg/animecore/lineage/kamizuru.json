@@ -1,0 +1,48 @@
+{
+  "clan_items": [
+    "narutorpg:sword"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.4,
+      "duration": 80,
+      "effect": "minecraft:poison"
+    }
+  ],
+  "color": 16498733,
+  "description": {
+    "fallback": "The Kamizuru Clan was a clan of bee users from Iwagakure who were once very well-known and revered.",
+    "translate": "lineage.narutorpg.kamizuru.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:bee_bomb_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:earth"
+  ],
+  "name": {
+    "fallback": "Kamizuru Clan",
+    "translate": "lineage.narutorpg.kamizuru"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:bee_honey_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:rock_hive",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:beeswax_clone",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:thousand_bee_stings_technique",
+      "skill_level": 17
+    }
+  ],
+  "system": "narutorpg",
+  "weight": 6
+}

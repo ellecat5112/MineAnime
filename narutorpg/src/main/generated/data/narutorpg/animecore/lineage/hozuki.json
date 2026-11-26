@@ -1,0 +1,72 @@
+{
+  "clan_items": [
+    "narutorpg:kubikiribocho",
+    "narutorpg:explosive_tag",
+    "narutorpg:hiramekarei",
+    "narutorpg:kabutowari",
+    "narutorpg:kiba_swords",
+    "narutorpg:nuibari",
+    "narutorpg:samehada",
+    "narutorpg:shibuki_sword"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.12
+    },
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:water_breathing"
+    }
+  ],
+  "color": 5227511,
+  "description": {
+    "fallback": "The Hōzuki Clan is a group of ninja that settled in Kirigakure after the ending of the Warring States Period.",
+    "translate": "lineage.narutorpg.hozuki.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:drowning_water_blob_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Hōzuki Clan",
+    "translate": "lineage.narutorpg.hozuki"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:hydrification_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:water_gun_two_guns",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:water_release_great_water_leg_technique",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:water_release_tate_eboshi",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:water_gun_technique",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:water_release_great_water_arm_technique",
+      "skill_level": 27
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:water",
+      "multiplier": 1.1
+    }
+  ],
+  "weight": 4
+}

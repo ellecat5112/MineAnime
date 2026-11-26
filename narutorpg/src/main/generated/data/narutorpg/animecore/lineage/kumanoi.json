@@ -1,0 +1,32 @@
+{
+  "color": 2001125,
+  "description": {
+    "fallback": "The Kumanoi Clan was a clan of the Howling Wolf Village.",
+    "translate": "lineage.narutorpg.kumanoi.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:fire_release_phoenix_sage_fire_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:fire"
+  ],
+  "name": {
+    "fallback": "Kumanoi Clan",
+    "translate": "lineage.narutorpg.kumanoi"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:fireball_jutsu",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:fire",
+      "multiplier": 1.1
+    }
+  ],
+  "weight": 9
+}

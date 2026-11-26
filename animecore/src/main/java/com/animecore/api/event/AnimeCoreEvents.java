@@ -73,6 +73,43 @@ public final class AnimeCoreEvents {
                 return false;
             });
 
+    /**
+     * A player's lineage (clan) changed. Fired after old clan abilities/forms were removed and the new clan's default
+     * abilities were granted. {@code previous} is null on first assignment.
+     */
+    public static final Event<ClanAssigned> CLAN_ASSIGNED = EventFactory.createArrayBacked(ClanAssigned.class,
+            listeners -> (player, power, previous, lineage, reason) -> {
+                for (ClanAssigned l : listeners) l.onAssigned(player, power, previous, lineage, reason);
+            });
+
+    /** A clan default or progression ability / transformation was granted ({@code transformation} tells which). */
+    public static final Event<ClanUnlock> CLAN_UNLOCK = EventFactory.createArrayBacked(ClanUnlock.class,
+            listeners -> (player, power, lineage, id, transformation) -> {
+                for (ClanUnlock l : listeners) l.onUnlock(player, power, lineage, id, transformation);
+            });
+
+    /** Clan skill level increased. */
+    public static final Event<ClanSkillLevelUp> CLAN_SKILL_LEVEL_UP = EventFactory.createArrayBacked(ClanSkillLevelUp.class,
+            listeners -> (player, power, lineage, level) -> {
+                for (ClanSkillLevelUp l : listeners) l.onLevelUp(player, power, lineage, level);
+            });
+
+    @FunctionalInterface
+    public interface ClanAssigned {
+        void onAssigned(ServerPlayerEntity player, PlayerPowerComponent power, @org.jetbrains.annotations.Nullable Identifier previous,
+                        Identifier lineage, com.animecore.clan.ClanAbilityManager.Reason reason);
+    }
+
+    @FunctionalInterface
+    public interface ClanUnlock {
+        void onUnlock(ServerPlayerEntity player, PlayerPowerComponent power, Identifier lineage, Identifier id, boolean transformation);
+    }
+
+    @FunctionalInterface
+    public interface ClanSkillLevelUp {
+        void onLevelUp(ServerPlayerEntity player, PlayerPowerComponent power, Identifier lineage, int level);
+    }
+
     @FunctionalInterface
     public interface PreAbilityCast {
         ActionResult onPreCast(ServerPlayerEntity player, RegistryEntry<AbilityDefinition> ability, AbilityContext context);

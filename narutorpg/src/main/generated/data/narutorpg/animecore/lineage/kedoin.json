@@ -1,0 +1,32 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.05
+    },
+    {
+      "type": "animecore:skill_experience_boost",
+      "multiplier": 1.1
+    }
+  ],
+  "color": 9315498,
+  "description": {
+    "fallback": "The Kedōin Clan is a small clan led by Agari Kaisen.",
+    "translate": "lineage.narutorpg.kedoin.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:face_copying_technique"
+  ],
+  "name": {
+    "fallback": "Kedōin Clan",
+    "translate": "lineage.narutorpg.kedoin"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:shadow_clone_technique",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "weight": 8
+}

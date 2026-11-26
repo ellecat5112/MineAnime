@@ -1,0 +1,15 @@
+{
+  "color": 16740419,
+  "fusion_of": [
+    "narutorpg:fire",
+    "narutorpg:wind"
+  ],
+  "name": {
+    "fallback": "Scorch Release",
+    "translate": "affinity.narutorpg.scorch"
+  },
+  "strong_against": [
+    "narutorpg:ice"
+  ],
+  "system": "narutorpg"
+}

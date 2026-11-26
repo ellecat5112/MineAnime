@@ -1,0 +1,29 @@
+{
+  "color": 4342338,
+  "description": {
+    "fallback": "The Sendō Clan is a clan of the Howling Wolf Village led by Jiryū Sendō.",
+    "translate": "lineage.narutorpg.sendo.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:body_flicker_technique"
+  ],
+  "name": {
+    "fallback": "Sendō Clan",
+    "translate": "lineage.narutorpg.sendo"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:shadow_clone_technique",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "weight": 9
+}

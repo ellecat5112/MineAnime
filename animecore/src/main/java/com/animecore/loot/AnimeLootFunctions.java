@@ -15,6 +15,8 @@ public final class AnimeLootFunctions {
             register(Ids.core("set_ability_scroll"), SetAbilityScrollFunction.CODEC);
     public static final LootFunctionType<SetAnimeWeaponDataFunction> SET_ANIME_WEAPON_DATA =
             register(Ids.core("set_anime_weapon_data"), SetAnimeWeaponDataFunction.CODEC);
+    public static final LootFunctionType<SetLineageFunction> SET_LINEAGE =
+            register(Ids.core("set_lineage"), SetLineageFunction.CODEC);
 
     /** Content mods can register their own loot functions under their namespace with this helper. */
     public static <T extends LootFunction> LootFunctionType<T> register(Identifier id, MapCodec<T> codec) {

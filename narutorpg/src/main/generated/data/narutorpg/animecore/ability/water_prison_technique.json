@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:ram",
+    "narutorpg:horse",
+    "narutorpg:ram",
+    "narutorpg:horse"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Prison Technique",
+    "translate": "ability.narutorpg.water_prison_technique"
+  },
+  "system": "narutorpg"
+}

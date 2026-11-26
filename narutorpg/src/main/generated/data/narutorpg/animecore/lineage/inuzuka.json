@@ -1,0 +1,88 @@
+{
+  "clan_items": [
+    "narutorpg:shinobi_gauntlet",
+    "narutorpg:flash_bomb"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:night_vision"
+    },
+    {
+      "type": "animecore:sense",
+      "radius": 12.0
+    }
+  ],
+  "color": 7951688,
+  "description": {
+    "fallback": "The Inuzuka Clan or Inuzuka Family is a family of shinobi in Konohagakure known for their use of ninken as fighting companions and are easily identified by the distinctive red fang markings on their cheeks.",
+    "translate": "lineage.narutorpg.inuzuka.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:four_legs_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:earth"
+  ],
+  "name": {
+    "fallback": "Inuzuka Clan",
+    "translate": "lineage.narutorpg.inuzuka"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:dynamic_marking",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:passing_fang",
+      "skill_level": 6
+    },
+    {
+      "ability": "narutorpg:beast_human_clone",
+      "skill_level": 11
+    },
+    {
+      "ability": "narutorpg:fang_passing_fang",
+      "skill_level": 16
+    },
+    {
+      "ability": "narutorpg:fang_wolf_fang",
+      "skill_level": 21
+    },
+    {
+      "ability": "narutorpg:human_beast_combination_transformation_double_headed_wolf",
+      "skill_level": 26
+    },
+    {
+      "ability": "narutorpg:super_fang_wolf_fang",
+      "skill_level": 30
+    },
+    {
+      "ability": "narutorpg:fang_rotating_fang",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:tail_chasing_fang_fang_rotating_fang",
+      "skill_level": 40
+    },
+    {
+      "ability": "narutorpg:human_beast_mixture_transformation_three_headed_wolf",
+      "skill_level": 45
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.08,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "weight": 8
+}

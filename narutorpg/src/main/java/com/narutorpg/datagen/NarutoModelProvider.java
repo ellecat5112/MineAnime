@@ -26,5 +26,16 @@ final class NarutoModelProvider extends FabricModelProvider {
         });
         generator.register(NarutoItems.JUTSU_SCROLL, Models.GENERATED);
         generator.register(NarutoItems.LEAF_HEADBAND, Models.GENERATED);
+        generator.register(NarutoItems.BLOODLINE_SCROLL, Models.GENERATED);
+        // Two-layer clan items: layer0 frame / cloth, layer1 crest / trim (tinted per clan by ClanItemColors).
+        twoLayer(generator, NarutoItems.CLAN_EMBLEM);
+        twoLayer(generator, NarutoItems.CLAN_GARB);
+    }
+
+    private static void twoLayer(ItemModelGenerator generator, net.minecraft.item.Item item) {
+        net.minecraft.util.Identifier id = net.minecraft.data.client.ModelIds.getItemModelId(item);
+        Models.GENERATED_TWO_LAYERS.upload(id, net.minecraft.data.client.TextureMap.layered(
+                net.minecraft.data.client.TextureMap.getId(item), net.minecraft.data.client.TextureMap.getSubId(item, "_overlay")),
+                generator.writer);
     }
 }

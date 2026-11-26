@@ -1,0 +1,78 @@
+{
+  "clan_items": [
+    "narutorpg:chakra_transmission_communication_device",
+    "narutorpg:flash_bomb",
+    "narutorpg:wire_strings",
+    "narutorpg:kama",
+    "narutorpg:kuwa",
+    "narutorpg:makibishi",
+    "narutorpg:mind_reading_amplification_machine"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:sense",
+      "hostile_only": false,
+      "radius": 20.0
+    },
+    {
+      "type": "animecore:energy_discount",
+      "multiplier": 0.9,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "color": 9315498,
+  "description": {
+    "fallback": "The Yamanaka Clan is a family of shinobi found in Konohagakure.",
+    "translate": "lineage.narutorpg.yamanaka.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:mind_body_switch_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:yin"
+  ],
+  "name": {
+    "fallback": "Yamanaka Clan",
+    "translate": "lineage.narutorpg.yamanaka"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:mind_body_transmission_formation",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:mind_body_transmission_technique",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:mind_disturbance_dance_performance_technique",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:sensing_transmission",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:mind_clone_switch_technique",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:mind_puppet_switch_cursed_seal_technique",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:mind_body_disturbance_technique",
+      "skill_level": 32
+    },
+    {
+      "ability": "narutorpg:formation_inoshikacho",
+      "skill_level": 37
+    },
+    {
+      "ability": "narutorpg:human_bullet_yo_yo",
+      "skill_level": 42
+    }
+  ],
+  "system": "narutorpg",
+  "weight": 8
+}

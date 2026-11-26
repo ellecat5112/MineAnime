@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 400,
+          "effect": "minecraft:night_vision"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "color": 12986408,
+      "effects": [
+        {
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 24.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Transcription Seal: Izanagi",
+    "translate": "ability.narutorpg.transcription_seal_izanagi"
+  },
+  "required_tier": 3,
+  "required_transformation": "narutorpg:mangekyo_sharingan",
+  "system": "narutorpg"
+}

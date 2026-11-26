@@ -1,0 +1,39 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 8.0
+    }
+  ],
+  "color": 10275941,
+  "description": {
+    "fallback": "The Taketori Clan is a clan, presumably outside of Konohagakure.",
+    "translate": "lineage.narutorpg.taketori.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:substitution_jutsu"
+  ],
+  "name": {
+    "fallback": "Taketori Clan",
+    "translate": "lineage.narutorpg.taketori"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:transformation_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:hiding_in_mist_technique",
+      "skill_level": 7
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.armor"
+    }
+  ],
+  "weight": 8
+}

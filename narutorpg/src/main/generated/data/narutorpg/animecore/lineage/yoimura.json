@@ -1,0 +1,29 @@
+{
+  "color": 6056896,
+  "description": {
+    "fallback": "The Yoimura Clan is a clan that resides in Daidai Village.",
+    "translate": "lineage.narutorpg.yoimura.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:transformation_technique"
+  ],
+  "name": {
+    "fallback": "Yoimura Clan",
+    "translate": "lineage.narutorpg.yoimura"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:clone_technique",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ],
+  "weight": 12
+}

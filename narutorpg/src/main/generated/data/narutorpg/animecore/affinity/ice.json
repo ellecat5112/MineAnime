@@ -1,0 +1,16 @@
+{
+  "color": 10875635,
+  "fusion_of": [
+    "narutorpg:wind",
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Ice Release",
+    "translate": "affinity.narutorpg.ice"
+  },
+  "required_lineage": "narutorpg:yuki",
+  "strong_against": [
+    "narutorpg:water"
+  ],
+  "system": "narutorpg"
+}

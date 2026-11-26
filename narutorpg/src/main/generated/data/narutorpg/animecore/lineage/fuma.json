@@ -1,0 +1,47 @@
+{
+  "clan_items": [
+    "narutorpg:fuma_shuriken"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.2,
+      "duration": 40,
+      "effect": "minecraft:slowness"
+    }
+  ],
+  "color": 3622735,
+  "description": {
+    "fallback": "The Fūma Clan is a renowned ninja clan distantly related to the Uchiha Clan, famous in at least Amegakure and the Land of Fire.",
+    "translate": "lineage.narutorpg.fuma.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:manipulated_shuriken_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:wind"
+  ],
+  "name": {
+    "fallback": "Fūma Clan",
+    "translate": "lineage.narutorpg.fuma"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:shadow_shuriken_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:shuriken_shadow_clone_technique",
+      "skill_level": 7
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "weight": 7
+}

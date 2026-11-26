@@ -112,7 +112,9 @@ public final class TransformationService {
 
         int mastery = power.addMastery(active, 1);
         if (def.nextStage().isPresent() && def.masteryToEvolve() > 0 && mastery == def.masteryToEvolve()
-                && power.unlockTransformation(def.nextStage().get())) {
+                && (power.clanGrantedForms().contains(active)
+                    ? power.grantClanForm(def.nextStage().get())     // evolutions of a clan form stay clan-owned
+                    : power.unlockTransformation(def.nextStage().get()))) {
             AnimeRegistries.transformation(player.getRegistryManager(), def.nextStage().get()).ifPresent(next ->
                     player.sendMessage(Text.translatable("message.animecore.evolved", next.value().name()).formatted(Formatting.LIGHT_PURPLE), false));
             player.getServerWorld().playSound(null, player.getBlockPos(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.PLAYERS, 0.8f, 1.4f);

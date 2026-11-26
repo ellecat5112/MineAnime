@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 12986408,
+      "damage": 8.0,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Susanoo",
+    "translate": "ability.narutorpg.susanoo"
+  },
+  "required_tier": 3,
+  "required_transformation": "narutorpg:mangekyo_sharingan",
+  "system": "narutorpg"
+}

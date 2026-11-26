@@ -1,0 +1,32 @@
+{
+  "clan_items": [
+    "narutorpg:tanto"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.15
+    }
+  ],
+  "color": 10395294,
+  "description": {
+    "fallback": "The Iburi Clan was a seclusive clan that lived underground in the Land of Fire.",
+    "translate": "lineage.narutorpg.iburi.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:body_oxidation_technique"
+  ],
+  "name": {
+    "fallback": "Iburi Clan",
+    "translate": "lineage.narutorpg.iburi"
+  },
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": -2.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ],
+  "weight": 4
+}

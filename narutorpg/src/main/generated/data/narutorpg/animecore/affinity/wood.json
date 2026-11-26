@@ -1,0 +1,16 @@
+{
+  "color": 7179066,
+  "fusion_of": [
+    "narutorpg:earth",
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Wood Release",
+    "translate": "affinity.narutorpg.wood"
+  },
+  "required_lineage": "narutorpg:senju",
+  "strong_against": [
+    "narutorpg:earth"
+  ],
+  "system": "narutorpg"
+}

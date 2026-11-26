@@ -50,4 +50,14 @@ public final class AnimeItemVariants {
     public static List<ItemStack> infusedVariants(Item weapon, String system, RegistryWrapper.WrapperLookup lookup) {
         return baseAffinities(system, lookup).stream().map(a -> infused(weapon, a, false)).toList();
     }
+
+    /** One stack per lineage of {@code system} bound with {@code animecore:clan_binding} (dyed for armor). */
+    public static List<ItemStack> clanBound(Item item, String system, RegistryWrapper.WrapperLookup lookup) {
+        return lookup.getOptionalWrapper(AnimeRegistries.LINEAGE).stream()
+                .flatMap(RegistryWrapper::streamEntries)
+                .filter(e -> e.value().system().equals(system))
+                .sorted(Comparator.comparing(e -> e.registryKey().getValue()))
+                .map(e -> com.animecore.clan.ClanRollService.boundStack(item, e.registryKey().getValue(), e.value()))
+                .toList();
+    }
 }

@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16738816,
+      "damage": 14.0,
+      "fire_ticks": 100,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Scorch Release: Halo Hurricane Jet Black Arrow Style Zero",
+    "translate": "ability.narutorpg.scorch_release_halo_hurricane_jet_black_arrow_style_zero"
+  },
+  "required_tier": 10,
+  "required_transformation": "narutorpg:mangekyo_sharingan",
+  "system": "narutorpg"
+}

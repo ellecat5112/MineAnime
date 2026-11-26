@@ -1,0 +1,134 @@
+{
+  "clan_items": [
+    "narutorpg:sand",
+    "narutorpg:gold_dust",
+    "narutorpg:giant_folding_fan",
+    "narutorpg:johyo",
+    "narutorpg:sand_gourd",
+    "narutorpg:sealing_tag",
+    "narutorpg:flamethrower",
+    "narutorpg:karasu"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.1,
+      "projectiles_only": true
+    }
+  ],
+  "color": 14133358,
+  "description": {
+    "fallback": "This shinobi clan from Sunagakure holds high influential authority in its village.",
+    "translate": "lineage.narutorpg.kazekage.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:air_gold_dust_protective_wall"
+  ],
+  "innate_affinities": [
+    "narutorpg:wind",
+    "narutorpg:magnet"
+  ],
+  "name": {
+    "fallback": "Kazekage Clan",
+    "translate": "lineage.narutorpg.kazekage"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:black_iron_fist",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:iron_sand_body",
+      "skill_level": 4
+    },
+    {
+      "ability": "narutorpg:iron_sand_drizzle",
+      "skill_level": 6
+    },
+    {
+      "ability": "narutorpg:iron_sand_gathering_assault",
+      "skill_level": 8
+    },
+    {
+      "ability": "narutorpg:iron_sand_marking",
+      "skill_level": 10
+    },
+    {
+      "ability": "narutorpg:iron_sand_wall",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:iron_sand_wave",
+      "skill_level": 15
+    },
+    {
+      "ability": "narutorpg:iron_sand_weaponry",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:iron_sand_world_method",
+      "skill_level": 19
+    },
+    {
+      "ability": "narutorpg:iron_sand_black_iron_wings",
+      "skill_level": 21
+    },
+    {
+      "ability": "narutorpg:magnet_release_body_control",
+      "skill_level": 23
+    },
+    {
+      "ability": "narutorpg:magnet_release_gold_dust_imperial_funeral",
+      "skill_level": 26
+    },
+    {
+      "ability": "narutorpg:magnet_release_lightning_god_self",
+      "skill_level": 28
+    },
+    {
+      "ability": "narutorpg:successive_shots_iron_sand_drizzle",
+      "skill_level": 30
+    },
+    {
+      "ability": "narutorpg:black_secret_technique_black_iron",
+      "skill_level": 32
+    },
+    {
+      "ability": "narutorpg:iron_sand_clone",
+      "skill_level": 34
+    },
+    {
+      "ability": "narutorpg:magnet_release_conserving_bee_twin_blades",
+      "skill_level": 36
+    },
+    {
+      "ability": "narutorpg:magnet_iron_grain_seal_palm",
+      "skill_level": 39
+    },
+    {
+      "ability": "narutorpg:magnetic_iron_sand_sealing_blade",
+      "skill_level": 41
+    },
+    {
+      "ability": "narutorpg:sage_art_super_tailed_beast_rasenshuriken",
+      "skill_level": 43
+    },
+    {
+      "ability": "narutorpg:sage_art_magnet_release_rasengan",
+      "skill_level": 45
+    },
+    {
+      "ability": "narutorpg:magnet_release_spiral_jet_black",
+      "skill_level": 47
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.armor"
+    }
+  ],
+  "weight": 4
+}

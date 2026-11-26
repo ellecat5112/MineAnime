@@ -1,0 +1,38 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 12.0
+    }
+  ],
+  "color": 6174129,
+  "description": {
+    "fallback": "The Hirasaka Clan is one of the three clans that hail from Yumegakure.",
+    "translate": "lineage.narutorpg.hirasaka.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:chakra_levitation_technique"
+  ],
+  "name": {
+    "fallback": "Hirasaka Clan",
+    "translate": "lineage.narutorpg.hirasaka"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:yomito_s_transformation_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:chakra_slicers",
+      "skill_level": 7
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.05
+    }
+  ],
+  "weight": 6
+}

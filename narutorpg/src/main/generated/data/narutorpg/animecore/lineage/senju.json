@@ -1,0 +1,194 @@
+{
+  "clan_items": [
+    "narutorpg:first_hokage_s_necklace",
+    "narutorpg:explosive_tag",
+    "narutorpg:sword_of_the_thunder_god",
+    "narutorpg:antidote",
+    "narutorpg:mechanical_eight_trigrams_formation_drum",
+    "narutorpg:ninja_info_cards"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 0.5,
+      "below_health_ratio": 0.6
+    }
+  ],
+  "color": 3046706,
+  "description": {
+    "fallback": "The Senju Clan was one of the clans responsible for founding the first shinobi village: Konohagakure — the other being their rival Uchiha Clan.",
+    "translate": "lineage.narutorpg.senju.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:wood_release_secret_technique_nativity_of_a_world_of_trees"
+  ],
+  "innate_affinities": [
+    "narutorpg:earth",
+    "narutorpg:water",
+    "narutorpg:wood"
+  ],
+  "name": {
+    "fallback": "Senju Clan",
+    "translate": "lineage.narutorpg.senju"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:all_is_suffering",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:hokage_style_sixty_year_old_technique_kakuan_entering_society_with_bliss_bringing_hands",
+      "skill_level": 3
+    },
+    {
+      "ability": "narutorpg:impaling_spear_tree",
+      "skill_level": 4
+    },
+    {
+      "ability": "narutorpg:kanzeon_lotus_king",
+      "skill_level": 6
+    },
+    {
+      "ability": "narutorpg:mayfly",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:resonance_blast",
+      "skill_level": 8
+    },
+    {
+      "ability": "narutorpg:sea_of_trees_erosion",
+      "skill_level": 10
+    },
+    {
+      "ability": "narutorpg:spontaneous_tree_summoning",
+      "skill_level": 11
+    },
+    {
+      "ability": "narutorpg:top_transformed_buddha",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:transmission_wood",
+      "skill_level": 14
+    },
+    {
+      "ability": "narutorpg:wood_release_advent_of_a_world_of_flowering_trees",
+      "skill_level": 15
+    },
+    {
+      "ability": "narutorpg:wood_release_cutting_technique",
+      "skill_level": 16
+    },
+    {
+      "ability": "narutorpg:wood_release_four_pillar_house_technique",
+      "skill_level": 18
+    },
+    {
+      "ability": "narutorpg:wood_release_four_pillar_prison_technique",
+      "skill_level": 19
+    },
+    {
+      "ability": "narutorpg:wood_release_great_forest_technique",
+      "skill_level": 20
+    },
+    {
+      "ability": "narutorpg:wood_release_great_spear_tree",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:wood_release_hand_tool_manipulation",
+      "skill_level": 23
+    },
+    {
+      "ability": "narutorpg:wood_release_hotei_technique",
+      "skill_level": 24
+    },
+    {
+      "ability": "narutorpg:wood_release_nativity_of_a_sea_of_trees",
+      "skill_level": 26
+    },
+    {
+      "ability": "narutorpg:wood_release_serial_pillar_houses_technique",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:wood_release_stocks",
+      "skill_level": 28
+    },
+    {
+      "ability": "narutorpg:wood_release_transformation",
+      "skill_level": 30
+    },
+    {
+      "ability": "narutorpg:wood_release_tree_bind_flourishing_burial",
+      "skill_level": 31
+    },
+    {
+      "ability": "narutorpg:wood_release_wood_human_technique",
+      "skill_level": 32
+    },
+    {
+      "ability": "narutorpg:wood_release_wood_locking_wall",
+      "skill_level": 34
+    },
+    {
+      "ability": "narutorpg:wood_release_wood_spikes_ring",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:wood_release_world_of_trees_wall",
+      "skill_level": 36
+    },
+    {
+      "ability": "narutorpg:multiple_wood_release_clone_technique",
+      "skill_level": 38
+    },
+    {
+      "ability": "narutorpg:spiralling_tower_technique",
+      "skill_level": 39
+    },
+    {
+      "ability": "narutorpg:wood_clone_technique",
+      "skill_level": 40
+    },
+    {
+      "ability": "narutorpg:wood_release_foo_dog_heads",
+      "skill_level": 42
+    },
+    {
+      "ability": "narutorpg:wood_release_hobi_technique",
+      "skill_level": 43
+    },
+    {
+      "ability": "narutorpg:wood_release_smothering_binding_technique",
+      "skill_level": 44
+    },
+    {
+      "ability": "narutorpg:wood_release_wood_dragon_technique",
+      "skill_level": 46
+    },
+    {
+      "ability": "narutorpg:sage_art_wood_release_true_several_thousand_hands",
+      "skill_level": 47
+    },
+    {
+      "ability": "narutorpg:kamui_running_brutal",
+      "skill_level": 48
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_capacity",
+      "flat": 40.0,
+      "pool": "narutorpg:chakra"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ],
+  "weight": 3
+}

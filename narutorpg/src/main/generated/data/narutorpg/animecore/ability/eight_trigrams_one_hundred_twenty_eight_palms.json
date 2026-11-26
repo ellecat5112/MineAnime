@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 8.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Eight Trigrams One Hundred Twenty-Eight Palms",
+    "translate": "ability.narutorpg.eight_trigrams_one_hundred_twenty_eight_palms"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

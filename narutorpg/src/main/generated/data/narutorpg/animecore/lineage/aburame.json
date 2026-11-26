@@ -1,0 +1,109 @@
+{
+  "clan_items": [
+    "narutorpg:antidote",
+    "narutorpg:sealing_tag",
+    "narutorpg:wire_strings"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:sense",
+      "radius": 16.0
+    },
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.35,
+      "effect": "minecraft:poison"
+    }
+  ],
+  "color": 5135153,
+  "description": {
+    "fallback": "The Aburame Clan is a well-known clan of Konohagakure.",
+    "translate": "lineage.narutorpg.aburame.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:parasitic_destruction_insect_technique"
+  ],
+  "name": {
+    "fallback": "Aburame Clan",
+    "translate": "lineage.narutorpg.aburame"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:human_cocoon_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:insect_jamming_technique",
+      "skill_level": 4
+    },
+    {
+      "ability": "narutorpg:insect_jar_technique",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:insect_rope_technique",
+      "skill_level": 10
+    },
+    {
+      "ability": "narutorpg:poison_cloud_technique",
+      "skill_level": 13
+    },
+    {
+      "ability": "narutorpg:secret_technique_insect_cocoon",
+      "skill_level": 16
+    },
+    {
+      "ability": "narutorpg:secret_technique_insect_gathering",
+      "skill_level": 18
+    },
+    {
+      "ability": "narutorpg:secret_technique_insect_wall",
+      "skill_level": 21
+    },
+    {
+      "ability": "narutorpg:spindle_formation",
+      "skill_level": 24
+    },
+    {
+      "ability": "narutorpg:insect_clone_technique",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:insect_deception_technique",
+      "skill_level": 30
+    },
+    {
+      "ability": "narutorpg:parasitic_giant_insect_bug_bite",
+      "skill_level": 33
+    },
+    {
+      "ability": "narutorpg:secret_technique_insect_sphere",
+      "skill_level": 35
+    },
+    {
+      "ability": "narutorpg:secret_technique_insect_tornado",
+      "skill_level": 38
+    },
+    {
+      "ability": "narutorpg:iron_mountain_leaning",
+      "skill_level": 41
+    },
+    {
+      "ability": "narutorpg:allied_shinobi_forces_technique",
+      "skill_level": 44
+    },
+    {
+      "ability": "narutorpg:jar_of_poison_technique",
+      "skill_level": 47
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.1,
+      "pool": "narutorpg:chakra"
+    }
+  ],
+  "weight": 8
+}

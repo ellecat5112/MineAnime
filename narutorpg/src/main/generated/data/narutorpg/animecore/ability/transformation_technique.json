@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 96,
+  "cost": {
+    "amount": 10.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Transformation Technique",
+    "translate": "ability.narutorpg.transformation_technique"
+  },
+  "system": "narutorpg"
+}

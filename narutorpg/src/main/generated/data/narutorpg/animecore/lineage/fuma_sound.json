@@ -1,0 +1,67 @@
+{
+  "clan_items": [
+    "narutorpg:scissor_pincers",
+    "narutorpg:makibishi"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.05
+    }
+  ],
+  "color": 6111287,
+  "description": {
+    "fallback": "The Fūma Clan is a shinobi clan from the Land of the Rice Fields, where Orochimaru established the Land of Sound.",
+    "translate": "lineage.narutorpg.fuma_sound.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:empty_cicada_shell_technique"
+  ],
+  "innate_affinities": [
+    "narutorpg:earth",
+    "narutorpg:fire"
+  ],
+  "name": {
+    "fallback": "Fūma Clan (Sound)",
+    "translate": "lineage.narutorpg.fuma_sound"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:wind_spider_technique",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:earth_release_antlion_technique",
+      "skill_level": 7
+    },
+    {
+      "ability": "narutorpg:earth_release_underground_projection_fish_technique",
+      "skill_level": 12
+    },
+    {
+      "ability": "narutorpg:casualty_puppet",
+      "skill_level": 17
+    },
+    {
+      "ability": "narutorpg:antlion_ninja_arts_ephemeral",
+      "skill_level": 22
+    },
+    {
+      "ability": "narutorpg:chakra_threads_fuma",
+      "skill_level": 27
+    },
+    {
+      "ability": "narutorpg:curse_mandala",
+      "skill_level": 32
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.armor"
+    }
+  ],
+  "weight": 7
+}

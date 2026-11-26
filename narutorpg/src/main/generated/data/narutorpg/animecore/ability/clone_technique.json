@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:snake",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 96,
+  "cost": {
+    "amount": 10.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Clone Technique",
+    "translate": "ability.narutorpg.clone_technique"
+  },
+  "system": "narutorpg"
+}

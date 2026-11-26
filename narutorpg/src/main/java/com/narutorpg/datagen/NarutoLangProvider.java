@@ -22,8 +22,11 @@ final class NarutoLangProvider extends FabricLanguageProvider {
         t.add("affinity.narutorpg.lightning", "Lightning Release");
         t.add("affinity.narutorpg.earth", "Earth Release");
         t.add("affinity.narutorpg.water", "Water Release");
-        t.add("lineage.narutorpg.uchiha", "Uchiha Clan");
-        t.add("lineage.narutorpg.uchiha.desc", "Masters of Fire Release, blessed with the Sharingan.");
+        // Clans, clan jutsu, dojutsu and advanced natures (from the Narutopedia clan catalog).
+        NarutoClanCatalog.get().lang.forEach(t::add);
+        t.add("item.narutorpg.clan_emblem", "Clan Emblem");
+        t.add("item.narutorpg.clan_garb", "Clan Garb");
+        t.add("item.narutorpg.bloodline_scroll", "Bloodline Scroll");
         t.add("faction.narutorpg.hidden_leaf", "Hidden Leaf Village");
         t.add("ability.narutorpg.fireball_jutsu", "Fire Release: Great Fireball Technique");
         t.add("ability.narutorpg.substitution_jutsu", "Substitution Jutsu");

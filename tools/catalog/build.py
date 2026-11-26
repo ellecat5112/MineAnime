@@ -115,6 +115,11 @@ def main():
         json.dump(out, f, indent=1, ensure_ascii=False)
     write_doc(out, pages)
     print(f"{len(out)} tools ({len(catalog.EXCLUDED)} index pages excluded) -> {RES}")
+    # Clans / bloodlines (Category:Clans): catalog for datagen + clan item sprites.
+    import clans
+    clans.main()
+    clans.build_sprites()
+    clans.write_doc()
 
 
 def mv(m):

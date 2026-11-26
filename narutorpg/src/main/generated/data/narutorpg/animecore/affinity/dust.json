@@ -1,0 +1,16 @@
+{
+  "color": 15527921,
+  "fusion_of": [
+    "narutorpg:earth",
+    "narutorpg:wind",
+    "narutorpg:fire"
+  ],
+  "name": {
+    "fallback": "Dust Release",
+    "translate": "affinity.narutorpg.dust"
+  },
+  "strong_against": [
+    "narutorpg:wood"
+  ],
+  "system": "narutorpg"
+}

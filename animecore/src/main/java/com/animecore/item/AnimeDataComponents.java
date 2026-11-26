@@ -56,6 +56,34 @@ public final class AnimeDataComponents {
                 AnimePacketCodecs.IDENTIFIER.xmap(FactionBadge::new, FactionBadge::faction);
     }
 
+    /** Lineage (clan) an emblem / garb / sealed bloodline scroll belongs to. */
+    public record ClanBinding(Identifier lineage) {
+        public static final Codec<ClanBinding> CODEC = RecordCodecBuilder.create(i -> i.group(
+                Identifier.CODEC.fieldOf("lineage").forGetter(ClanBinding::lineage)).apply(i, ClanBinding::new));
+        public static final PacketCodec<ByteBuf, ClanBinding> PACKET_CODEC =
+                AnimePacketCodecs.IDENTIFIER.xmap(ClanBinding::new, ClanBinding::lineage);
+    }
+
+    /**
+     * Display mirror of the owner's clan skill, written by the server whenever skill experience is gained while the
+     * item is held. The authoritative value lives in the player's power component.
+     */
+    public record ClanSkill(int level, float progress) {
+        public static final Codec<ClanSkill> CODEC = RecordCodecBuilder.create(i -> i.group(
+                Codec.INT.fieldOf("level").forGetter(ClanSkill::level),
+                Codec.FLOAT.optionalFieldOf("progress", 0f).forGetter(ClanSkill::progress)
+        ).apply(i, ClanSkill::new));
+        public static final PacketCodec<ByteBuf, ClanSkill> PACKET_CODEC = PacketCodec.tuple(
+                net.minecraft.network.codec.PacketCodecs.VAR_INT, ClanSkill::level,
+                net.minecraft.network.codec.PacketCodecs.FLOAT, ClanSkill::progress,
+                ClanSkill::new);
+    }
+
+    public static final ComponentType<ClanBinding> CLAN_BINDING =
+            register(Ids.core("clan_binding"), ClanBinding.CODEC, ClanBinding.PACKET_CODEC);
+    public static final ComponentType<ClanSkill> CLAN_SKILL =
+            register(Ids.core("clan_skill"), ClanSkill.CODEC, ClanSkill.PACKET_CODEC);
+
     public static final ComponentType<AbilityScroll> ABILITY_SCROLL =
             register(Ids.core("ability_scroll"), AbilityScroll.CODEC, AbilityScroll.PACKET_CODEC);
     public static final ComponentType<WeaponInfusion> WEAPON_INFUSION =

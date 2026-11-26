@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:health_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:yang",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Multi-Size Technique",
+    "translate": "ability.narutorpg.multi_size_technique"
+  },
+  "system": "narutorpg"
+}

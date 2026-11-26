@@ -1,6 +1,10 @@
 package com.animecore.mixin;
 
+import com.animecore.clan.ClanTraitHooks;
 import com.animecore.movement.AnimeMovementHandler;
+import net.minecraft.entity.Entity;
+import org.jetbrains.annotations.Nullable;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
@@ -16,6 +20,17 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
  */
 @Mixin(LivingEntity.class)
 abstract class LivingEntityMixin {
+    /**
+     * Clan skill: kill experience becomes clan skill experience while the killer holds their clan's skill item.
+     * Mirrors vanilla's own guards (doMobLoot / player-kill conditions live in getXpToDrop and shouldDropXp).
+     */
+    @Inject(method = "dropXp", at = @At("HEAD"), cancellable = true)
+    private void animecore$clanSkillXp(@Nullable Entity attacker, CallbackInfo ci) {
+        LivingEntity self = (LivingEntity) (Object) this;
+        if (attacker == null || self.getWorld().isClient() || self.isExperienceDroppingDisabled() || !self.shouldDropXp()) return;
+        if (ClanTraitHooks.convertKillExperience(self, attacker)) ci.cancel();
+    }
+
     @Inject(method = "isClimbing", at = @At("HEAD"), cancellable = true)
     private void animecore$wallWalk(CallbackInfoReturnable<Boolean> cir) {
         if ((Object) this instanceof PlayerEntity player && player.horizontalCollision && AnimeMovementHandler.isAdhering(player)) {

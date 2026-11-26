@@ -1,0 +1,39 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.2,
+      "effect": "minecraft:nausea"
+    }
+  ],
+  "color": 6953882,
+  "description": {
+    "fallback": "The Kodon Clan is a clan of the Howling Wolf Village.",
+    "translate": "lineage.narutorpg.kodon.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:hypnotic_genjutsu_wild_beast_communication"
+  ],
+  "innate_affinities": [
+    "narutorpg:yin"
+  ],
+  "name": {
+    "fallback": "Kodon Clan",
+    "translate": "lineage.narutorpg.kodon"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:sealing_technique_roen_kodon",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "narutorpg:yin",
+      "multiplier": 1.05
+    }
+  ],
+  "weight": 7
+}

@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 12755563,
+      "count": 5,
+      "damage": 8.0,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0
+    }
+  ],
+  "affinity": "narutorpg:magnet",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Magnet Release: Conserving Bee Twin Blades",
+    "translate": "ability.narutorpg.magnet_release_conserving_bee_twin_blades"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

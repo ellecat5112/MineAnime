@@ -1,0 +1,39 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.15,
+      "duration": 40,
+      "effect": "minecraft:blindness"
+    }
+  ],
+  "color": 8069026,
+  "description": {
+    "fallback": "The Kurama Clan is a clan of extremely skilled genjutsu users, exclusive to the anime.",
+    "translate": "lineage.narutorpg.kurama.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:string_bean_binding_illusion"
+  ],
+  "innate_affinities": [
+    "narutorpg:yin"
+  ],
+  "name": {
+    "fallback": "Kurama Clan",
+    "translate": "lineage.narutorpg.kurama"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:demonic_illusion_tree_binding_death",
+      "skill_level": 2
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.1
+    }
+  ],
+  "weight": 4
+}

@@ -1,0 +1,43 @@
+{
+  "clan_items": [
+    "narutorpg:shakujo"
+  ],
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.05
+    }
+  ],
+  "color": 9268835,
+  "description": {
+    "fallback": "The Tenrō Clan is a clan of shinobi that hail from Yumegakure.",
+    "translate": "lineage.narutorpg.tenro.desc"
+  },
+  "granted_abilities": [
+    "narutorpg:beast_human_fury_kicks"
+  ],
+  "name": {
+    "fallback": "Tenrō Clan",
+    "translate": "lineage.narutorpg.tenro"
+  },
+  "progression": [
+    {
+      "ability": "narutorpg:beast_human_needle_senbon",
+      "skill_level": 2
+    },
+    {
+      "ability": "narutorpg:tenro_style_ninjutsu_beast_human_transformation_technique",
+      "skill_level": 7
+    }
+  ],
+  "system": "narutorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 0.05,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "weight": 6
+}

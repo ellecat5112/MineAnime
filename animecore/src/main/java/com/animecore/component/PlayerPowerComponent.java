@@ -6,6 +6,8 @@ import com.animecore.affinity.AffinityMatrix;
 import com.animecore.api.AnimeModContext;
 import com.animecore.api.EnergyPoolSpec;
 import com.animecore.api.event.AnimeCoreEvents;
+import com.animecore.clan.ClanAbilityManager;
+import com.animecore.clan.ClanTraitHooks;
 import com.animecore.movement.AnimeMovementHandler;
 import com.animecore.movement.MovementMode;
 import com.animecore.registry.AnimeRegistries;
@@ -57,7 +59,7 @@ import java.util.Set;
  */
 public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingComponent {
     /** Bump when the NBT layout changes and add a step to {@link #migrate(NbtCompound, int)}. */
-    public static final int SCHEMA_VERSION = 1;
+    public static final int SCHEMA_VERSION = 2;
     public static final int MAX_TIER = 100;
     public static final int COMBO_TIMEOUT_TICKS = 40;
     public static final int MAX_COMBO_LENGTH = 12;
@@ -84,6 +86,22 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private final Identifier[] hotbar;
     /** We switched on vanilla flight and must switch it off again (survives relog, unlike the toggle). */
     private boolean flightGranted;
+
+    // ---- clan / bloodline (schema v2) ----
+    /** lineage -> clan skill level (kept per clan, so switching back restores progress). */
+    private final Map<Identifier, Integer> clanSkillLevels = new HashMap<>();
+    /** lineage -> experience towards the next clan skill level. */
+    private final Map<Identifier, Long> clanSkillXp = new HashMap<>();
+    /** Abilities that exist only because the current clan granted them (removed on clan switch). */
+    private final Set<Identifier> clanGrantedAbilities = new LinkedHashSet<>();
+    private final Set<Identifier> clanGrantedForms = new LinkedHashSet<>();
+    /** Clans whose starter kit was already handed out (no farming through rerolls). */
+    private final Set<Identifier> clanKitsGiven = new LinkedHashSet<>();
+    /** Rolls since the last rare result (pity counter). */
+    private int clanPity;
+    private int clanRerolls;
+    /** First-join clan assignment happened. */
+    private boolean clanInitialized;
 
     // ---- synced, derived / session-only ----
     private final EnumSet<MovementMode> activeMovement = EnumSet.noneOf(MovementMode.class);
@@ -143,6 +161,50 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     public boolean isMovementActive(MovementMode mode) { return activeMovement.contains(mode); }
     public Set<MovementMode> activeMovement() { return Collections.unmodifiableSet(activeMovement); }
     public boolean flightGranted() { return flightGranted; }
+
+    // ---- clan accessors (logic lives in ClanAbilityManager / ClanRollService) ----
+    public int clanSkillLevel(Identifier lineage) { return clanSkillLevels.getOrDefault(lineage, 1); }
+    public long clanSkillXp(Identifier lineage) { return clanSkillXp.getOrDefault(lineage, 0L); }
+    public void setClanSkill(Identifier lineage, int level, long xp) {
+        clanSkillLevels.put(lineage, Math.max(1, level));
+        clanSkillXp.put(lineage, Math.max(0L, xp));
+        markDirty(false);
+    }
+    public Set<Identifier> clanGrantedAbilities() { return Collections.unmodifiableSet(clanGrantedAbilities); }
+    public Set<Identifier> clanGrantedForms() { return Collections.unmodifiableSet(clanGrantedForms); }
+    /** Unlocks and remembers it as clan-granted; an ability the player already knew stays "learned" (not clan-owned). */
+    public boolean grantClanAbility(Identifier id) {
+        if (!unlockAbility(id)) return false;
+        clanGrantedAbilities.add(id);
+        return true;
+    }
+    public boolean grantClanForm(Identifier id) {
+        if (!unlockTransformation(id)) return false;
+        clanGrantedForms.add(id);
+        return true;
+    }
+    /** Removes every clan-granted ability/form; learned (scroll, faction, command) abilities are untouched. */
+    public void revokeClanGrants() {
+        for (Identifier id : List.copyOf(clanGrantedAbilities)) lockAbility(id);
+        for (Identifier id : List.copyOf(clanGrantedForms)) {
+            unlockedTransformations.remove(id);
+            transformationMastery.remove(id);
+        }
+        clanGrantedAbilities.clear();
+        clanGrantedForms.clear();
+        markDirty(false);
+    }
+    public boolean markClanKitGiven(Identifier lineage) {
+        boolean added = clanKitsGiven.add(lineage);
+        if (added) markDirty(false);
+        return added;
+    }
+    public int clanPity() { return clanPity; }
+    public void setClanPity(int pity) { clanPity = Math.max(0, pity); markDirty(false); }
+    public int clanRerolls() { return clanRerolls; }
+    public void incrementClanRerolls() { clanRerolls++; markDirty(false); }
+    public boolean clanInitialized() { return clanInitialized; }
+    public void setClanInitialized(boolean value) { clanInitialized = value; markDirty(false); }
 
     public void setMovementActive(MovementMode mode, boolean active) {
         if (active ? activeMovement.add(mode) : activeMovement.remove(mode)) markDirty(true);
@@ -215,11 +277,18 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
             for (EnergyPool pool : pools.values()) pool.setBaseMax(pool.baseMax() + pool.spec().baseMax() * 0.05f);
         }
         markDirty(true);
+        onTierChanged();
     }
 
     public void setTier(int tier) {
         this.tier = Math.max(1, Math.min(MAX_TIER, tier));
         markDirty(true);
+        onTierChanged();
+    }
+
+    /** Rank-gated clan progression entries are re-evaluated whenever the tier moves. */
+    private void onTierChanged() {
+        if (player instanceof ServerPlayerEntity sp && lineage != null) ClanAbilityManager.evaluate(sp, this);
     }
 
     public void addSkillPoints(int amount) {
@@ -281,15 +350,19 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     // Lineage / Faction
     // =====================================================================================
 
-    /** Sets the lineage and grants its abilities/transformations. Caller validates ownership ({@code system}). */
+    /**
+     * Switches clan through {@link ClanAbilityManager#assign} on the server (old clan grants and modifiers are removed,
+     * defaults granted, progression evaluated). On the client this only mirrors the value.
+     * Caller validates ownership ({@code system}).
+     */
     public void setLineage(@Nullable Identifier id) {
+        if (player instanceof ServerPlayerEntity sp) ClanAbilityManager.assign(sp, this, id, ClanAbilityManager.Reason.COMMAND);
+        else setLineageRaw(id);
+    }
+
+    /** Low-level setter used by {@link ClanAbilityManager}: no grants, no events. */
+    public void setLineageRaw(@Nullable Identifier id) {
         this.lineage = id;
-        if (id != null) {
-            AnimeRegistries.lineage(registries(), id).ifPresent(def -> {
-                def.grantedAbilities().forEach(this::unlockAbility);
-                def.grantedTransformations().forEach(this::unlockTransformation);
-            });
-        }
         traitsDirty = true;
         markDirty(true);
     }
@@ -476,6 +549,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
 
         if (activeTransformation != null) TransformationService.tick(sp, this);
         AnimeMovementHandler.tick(sp, this);
+        if (lineage != null && player.age % 20 == 0) ClanTraitHooks.tick(sp, this);
 
         if (reactiveWindow > 0 && --reactiveWindow == 0) {
             armedReactive = null;
@@ -568,6 +642,18 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         tag.put("hotbar", bar);
         tag.put("affinities", writeIds(effectiveAffinities));
         if (flightGranted) tag.putBoolean("flight_granted", true);
+        NbtCompound clan = new NbtCompound();
+        clan.put("levels", writeIntMap(clanSkillLevels));
+        NbtCompound xp = new NbtCompound();
+        clanSkillXp.forEach((k, v) -> xp.putLong(k.toString(), v));
+        clan.put("xp", xp);
+        clan.put("granted_abilities", writeIds(clanGrantedAbilities));
+        clan.put("granted_forms", writeIds(clanGrantedForms));
+        clan.put("kits", writeIds(clanKitsGiven));
+        clan.putInt("pity", clanPity);
+        clan.putInt("rerolls", clanRerolls);
+        clan.putBoolean("initialized", clanInitialized);
+        tag.put("clan", clan);
         if (armedReactive != null && reactiveWindow > 0) {
             tag.putString("armed_reactive", armedReactive.toString());
             tag.putInt("reactive_window", reactiveWindow);
@@ -620,6 +706,20 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         readIds(tag.getList("affinities", NbtElement.STRING_TYPE), aff);
         effectiveAffinities = Set.copyOf(aff);
         flightGranted = tag.getBoolean("flight_granted");
+        NbtCompound clan = tag.getCompound("clan");
+        readIntMap(clan.getCompound("levels"), clanSkillLevels);
+        clanSkillXp.clear();
+        NbtCompound xp = clan.getCompound("xp");
+        for (String key : xp.getKeys()) {
+            Identifier id = Identifier.tryParse(key);
+            if (id != null) clanSkillXp.put(id, xp.getLong(key));
+        }
+        readIds(clan.getList("granted_abilities", NbtElement.STRING_TYPE), clanGrantedAbilities);
+        readIds(clan.getList("granted_forms", NbtElement.STRING_TYPE), clanGrantedForms);
+        readIds(clan.getList("kits", NbtElement.STRING_TYPE), clanKitsGiven);
+        clanPity = clan.getInt("pity");
+        clanRerolls = clan.getInt("rerolls");
+        clanInitialized = clan.getBoolean("initialized");
         armedReactive = readId(tag, "armed_reactive");
         reactiveWindow = tag.getInt("reactive_window");
         comboBuffer.clear();
@@ -677,6 +777,13 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
                 });
                 tag.remove("energy");
             }
+        }
+        if (from < 2) {
+            // v1 had no clan bookkeeping. A v1 lineage counts as an already-made first-join choice, and the abilities
+            // it granted are kept as "learned" (clan_granted stays empty), so nothing a player owned disappears.
+            NbtCompound clan = new NbtCompound();
+            clan.putBoolean("initialized", tag.contains("lineage", NbtElement.STRING_TYPE));
+            tag.put("clan", clan);
         }
     }
 
