@@ -204,6 +204,12 @@ public final class AnimeCoreDataGenerator implements DataGeneratorEntrypoint {
             t.add("tooltip.animecore.token.charge", "  (hold)");
             t.add("tooltip.animecore.token.form", "  (eyes / form)");
             t.add("hud.animecore.token.hint", "Right-click to use · Sneak + scroll to switch");
+            t.add("message.animecore.mastery.level", "%s mastery reached level %s!");
+            t.add("message.animecore.mastery.learned", "Jutsu mastered: %s");
+            t.add("message.animecore.mastery.awakened", "A new nature awakens within you: %s!");
+            t.add("message.animecore.mastery.nature", "Your chakra nature: %s");
+            t.add("tooltip.animecore.token.mastery", "Mastery level %s (%s/%s xp) · %s/%s jutsu · hold while defeating enemies to train");
+            t.add("tooltip.animecore.token.off_affinity", "Not your nature: training takes 2.5x longer");
             t.add("entity.animecore.puppet.wood", "Puppet");
             t.add("entity.animecore.puppet.metal", "Metal Puppet");
             t.add("entity.animecore.puppet.crimson", "Human Puppet");

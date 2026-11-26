@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ankorodō Hiden Ninjutsu: Mochi Release: Infinite Dumplings",
+    "translate": "ability.narutorpg.ankorodo_hiden_ninjutsu_mochi_release_infinite_dumplings"
+  },
+  "system": "narutorpg"
+}

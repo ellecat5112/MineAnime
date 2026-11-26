@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9315498,
+      "cone_degrees": 70.0,
+      "damage": 3.2,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sharingan: Negative Confusion",
+    "translate": "ability.narutorpg.sharingan_negative_confusion"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

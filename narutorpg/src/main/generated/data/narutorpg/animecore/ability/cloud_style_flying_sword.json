@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cloud-Style Flying Sword",
+    "translate": "ability.narutorpg.cloud_style_flying_sword"
+  },
+  "system": "narutorpg"
+}

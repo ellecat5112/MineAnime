@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 180,
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fan Wind Roaring Wall",
+    "translate": "ability.narutorpg.fan_wind_roaring_wall"
+  },
+  "system": "narutorpg"
+}

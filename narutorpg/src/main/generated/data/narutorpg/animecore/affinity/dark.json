@@ -1,0 +1,13 @@
+{
+  "awaken_from": "narutorpg:yin",
+  "color": 3218322,
+  "name": {
+    "fallback": "Dark Release",
+    "translate": "affinity.narutorpg.dark"
+  },
+  "strong_against": [
+    "narutorpg:yang"
+  ],
+  "system": "narutorpg",
+  "vfx_style": "shadow"
+}

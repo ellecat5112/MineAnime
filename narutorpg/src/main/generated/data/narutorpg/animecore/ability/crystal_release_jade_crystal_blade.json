@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16027569,
+      "damage": 8.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "narutorpg:crystal",
+  "combo": [
+    "narutorpg:horse",
+    "narutorpg:boar",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Crystal Release: Jade Crystal Blade",
+    "translate": "ability.narutorpg.crystal_release_jade_crystal_blade"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

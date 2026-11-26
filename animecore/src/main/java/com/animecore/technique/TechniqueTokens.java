@@ -58,6 +58,11 @@ public final class TechniqueTokens {
         });
     }
 
+    public static java.util.Set<Identifier> tokenIds(String system) {
+        SystemTokens s = SYSTEMS.get(system);
+        return s == null ? java.util.Set.of() : s.items().keySet();
+    }
+
     public static Optional<Item> item(String system, Identifier token) {
         SystemTokens s = SYSTEMS.get(system);
         return s == null ? Optional.empty() : Optional.ofNullable(s.items().get(token));

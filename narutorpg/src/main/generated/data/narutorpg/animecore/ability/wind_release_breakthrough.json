@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 11730777,
+      "damage": 6.0,
+      "lifetime_ticks": 25,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cast_animation": "narutorpg:fireball_exhale",
+  "combo": [
+    "narutorpg:horse",
+    "narutorpg:bird"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wind Release: Breakthrough",
+    "translate": "ability.narutorpg.wind_release_breakthrough"
+  },
+  "system": "narutorpg"
+}

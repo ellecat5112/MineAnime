@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:crystal",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:ram",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Crystal Release: Jade Crystal Hexagonal Pillars",
+    "translate": "ability.narutorpg.crystal_release_jade_crystal_hexagonal_pillars"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

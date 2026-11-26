@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9268835,
+      "damage": 6.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Whac-A-Mole Technique",
+    "translate": "ability.narutorpg.whac_a_mole_technique"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 180,
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wind Release: Great Wind Protective Wall",
+    "translate": "ability.narutorpg.wind_release_great_wind_protective_wall"
+  },
+  "system": "narutorpg"
+}

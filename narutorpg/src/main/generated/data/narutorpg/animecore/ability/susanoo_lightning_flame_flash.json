@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16738816,
+      "damage": 8.0,
+      "fire_ticks": 100,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Susanoo: Lightning Flame Flash",
+    "translate": "ability.narutorpg.susanoo_lightning_flame_flash"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+  }
+}

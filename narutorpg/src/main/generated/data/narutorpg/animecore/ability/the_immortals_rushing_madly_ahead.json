@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 14.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16738816,
+      "damage": 7.0,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "The Immortals Rushing Madly Ahead",
+    "translate": "ability.narutorpg.the_immortals_rushing_madly_ahead"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

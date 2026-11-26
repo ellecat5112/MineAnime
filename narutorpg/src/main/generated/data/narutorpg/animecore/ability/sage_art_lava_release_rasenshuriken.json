@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:speed"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:lava",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sage Art: Lava Release Rasenshuriken",
+    "translate": "ability.narutorpg.sage_art_lava_release_rasenshuriken"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

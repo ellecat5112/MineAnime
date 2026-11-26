@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 11730777,
+      "damage": 14.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cast_animation": "narutorpg:fireball_exhale",
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wind Release: Rasenshuriken",
+    "translate": "ability.narutorpg.wind_release_rasenshuriken"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

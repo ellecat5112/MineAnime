@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Submerged Shark Scraping Destruction",
+    "translate": "ability.narutorpg.water_release_submerged_shark_scraping_destruction"
+  },
+  "system": "narutorpg"
+}

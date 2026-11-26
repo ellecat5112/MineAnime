@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 7179066,
+      "damage": 8.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "narutorpg:wood",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wood Release: Wood Fetters Technique",
+    "translate": "ability.narutorpg.wood_release_wood_fetters_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

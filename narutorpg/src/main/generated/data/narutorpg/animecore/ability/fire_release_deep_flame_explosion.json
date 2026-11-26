@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16738816,
+      "damage": 6.0,
+      "fire_ticks": 60,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:bird",
+    "narutorpg:boar",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Deep Flame Explosion",
+    "translate": "ability.narutorpg.fire_release_deep_flame_explosion"
+  },
+  "system": "narutorpg"
+}

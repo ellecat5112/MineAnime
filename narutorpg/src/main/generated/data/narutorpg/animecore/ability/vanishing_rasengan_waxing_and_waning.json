@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 8444159,
+      "range": 28.0,
+      "width": 0.6
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Vanishing Rasengan: Waxing and Waning",
+    "translate": "ability.narutorpg.vanishing_rasengan_waxing_and_waning"
+  },
+  "system": "narutorpg"
+}

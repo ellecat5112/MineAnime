@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Divine Might: Thousand Blades of Hearts - Instant Falcon Thunder Burial",
+    "translate": "ability.narutorpg.divine_might_thousand_blades_of_hearts_instant_falcon_thunder_burial"
+  },
+  "system": "narutorpg"
+}

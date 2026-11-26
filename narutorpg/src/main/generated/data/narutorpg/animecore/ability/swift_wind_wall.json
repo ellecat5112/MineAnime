@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Swift Wind Wall",
+    "translate": "ability.narutorpg.swift_wind_wall"
+  },
+  "system": "narutorpg"
+}

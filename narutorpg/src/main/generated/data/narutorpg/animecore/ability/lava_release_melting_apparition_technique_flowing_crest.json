@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 15094016,
+      "damage": 8.0,
+      "fire_ticks": 60,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "narutorpg:lava",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Lava Release: Melting Apparition Technique: Flowing Crest",
+    "translate": "ability.narutorpg.lava_release_melting_apparition_technique_flowing_crest"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

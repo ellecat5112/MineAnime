@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 11730777,
+      "damage": 6.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wind Release: Dragon Blade Rasengan",
+    "translate": "ability.narutorpg.wind_release_dragon_blade_rasengan"
+  },
+  "system": "narutorpg"
+}

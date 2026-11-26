@@ -69,6 +69,22 @@ public final class ClanTraitHooks {
      */
     public static boolean convertKillExperience(LivingEntity victim, Entity attacker) {
         if (!(attacker instanceof ServerPlayerEntity player) || !(victim.getWorld() instanceof ServerWorld world)) return false;
+        boolean converted = false;
+        // technique tokens in either hand: nature / school mastery
+        for (Hand hand : Hand.values()) {
+            if (player.getStackInHand(hand).getItem() instanceof com.animecore.technique.TechniqueTokenItem token) {
+                int xp = victim.getXpToDrop(world, player);
+                if (xp > 0) {
+                    com.animecore.technique.TechniqueMastery.addExperience(player, token.context().power(player), token.token(), xp);
+                    converted = true;
+                }
+            }
+        }
+        if (convertClan(victim, player, world)) converted = true;
+        return converted;
+    }
+
+    private static boolean convertClan(LivingEntity victim, ServerPlayerEntity player, ServerWorld world) {
         for (AnimeModContext ctx : AnimeModRegistry.all()) {
             PlayerPowerComponent power = ctx.power(player);
             if (power.lineage().isEmpty()) continue;

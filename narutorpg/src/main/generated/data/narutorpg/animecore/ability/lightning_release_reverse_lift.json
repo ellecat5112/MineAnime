@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Lightning Release: Reverse Lift",
+    "translate": "ability.narutorpg.lightning_release_reverse_lift"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:speed"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release Chakra Mode",
+    "translate": "ability.narutorpg.fire_release_chakra_mode"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,53 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 2718207,
+      "damage": 8.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cast_animation": "narutorpg:fireball_exhale",
+  "cast_type": "charged",
+  "combo": [
+    "narutorpg:boar",
+    "narutorpg:bird",
+    "narutorpg:horse",
+    "narutorpg:bird",
+    "narutorpg:tiger",
+    "narutorpg:tiger",
+    "narutorpg:snake",
+    "narutorpg:ram",
+    "narutorpg:snake",
+    "narutorpg:boar",
+    "narutorpg:ram",
+    "narutorpg:bird",
+    "narutorpg:bird",
+    "narutorpg:horse",
+    "narutorpg:ram",
+    "narutorpg:tiger",
+    "narutorpg:snake",
+    "narutorpg:boar",
+    "narutorpg:ram",
+    "narutorpg:bird",
+    "narutorpg:boar",
+    "narutorpg:bird"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Water Dragon Bullet Technique",
+    "translate": "ability.narutorpg.water_release_water_dragon_bullet_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

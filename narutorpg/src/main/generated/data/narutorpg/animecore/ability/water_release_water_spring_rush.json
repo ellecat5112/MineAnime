@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Water Spring Rush",
+    "translate": "ability.narutorpg.water_release_water_spring_rush"
+  },
+  "system": "narutorpg"
+}

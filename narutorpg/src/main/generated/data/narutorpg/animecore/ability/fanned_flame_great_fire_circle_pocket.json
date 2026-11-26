@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fanned Flame Great Fire: Circle Pocket",
+    "translate": "ability.narutorpg.fanned_flame_great_fire_circle_pocket"
+  },
+  "system": "narutorpg"
+}

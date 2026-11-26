@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "combo": [
+    "narutorpg:tiger",
+    "narutorpg:horse"
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Fire Dragon Wall",
+    "translate": "ability.narutorpg.fire_release_fire_dragon_wall"
+  },
+  "system": "narutorpg"
+}

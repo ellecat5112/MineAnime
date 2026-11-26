@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 2171169,
+      "damage": 8.0,
+      "fire_ticks": 100,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Amaterasu: Lingering Fire",
+    "translate": "ability.narutorpg.amaterasu_lingering_fire"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "color": 1710618,
+    "style": "flame"
+  }
+}

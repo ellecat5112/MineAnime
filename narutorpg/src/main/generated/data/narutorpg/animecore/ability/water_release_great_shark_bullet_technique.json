@@ -1,0 +1,37 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8280002,
+      "damage": 6.6,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:hunger"
+        }
+      ],
+      "radius": 5.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Great Shark Bullet Technique",
+    "translate": "ability.narutorpg.water_release_great_shark_bullet_technique"
+  },
+  "required_tier": 6,
+  "system": "narutorpg"
+}

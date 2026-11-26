@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 15527921,
+      "damage": 6.0,
+      "lifetime_ticks": 25,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "affinity": "narutorpg:dust",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dust Release: Detachment of the Primitive World Technique Area",
+    "translate": "ability.narutorpg.dust_release_detachment_of_the_primitive_world_technique_area"
+  },
+  "system": "narutorpg"
+}

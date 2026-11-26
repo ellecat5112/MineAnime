@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 2718207,
+      "damage": 6.0,
+      "lifetime_ticks": 25,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cast_animation": "narutorpg:fireball_exhale",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Drowning Bubble Technique",
+    "translate": "ability.narutorpg.drowning_bubble_technique"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Sand Dance",
+    "translate": "ability.narutorpg.earth_release_sand_dance"
+  },
+  "system": "narutorpg"
+}

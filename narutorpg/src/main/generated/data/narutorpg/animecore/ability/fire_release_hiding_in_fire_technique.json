@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Hiding in Fire Technique",
+    "translate": "ability.narutorpg.fire_release_hiding_in_fire_technique"
+  },
+  "system": "narutorpg"
+}

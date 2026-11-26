@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 15094016,
+      "damage": 8.0,
+      "fire_ticks": 60,
+      "lifetime_ticks": 25,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "affinity": "narutorpg:lava",
+  "cast_type": "charged",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Lava Release: Expanding Flame Rings",
+    "translate": "ability.narutorpg.lava_release_expanding_flame_rings"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

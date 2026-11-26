@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dustless Bewildering Cover",
+    "translate": "ability.narutorpg.dustless_bewildering_cover"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

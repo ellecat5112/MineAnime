@@ -41,6 +41,7 @@ final class NarutoClanCatalog {
             Path clans = locate();
             instance = load(clans);
             instance.loadVillages(clans.resolveSibling("village_catalog.json"));
+            instance.loadNatures(clans.resolveSibling("nature_catalog.json"));
         }
         return instance;
     }
@@ -80,6 +81,17 @@ final class NarutoClanCatalog {
             root.getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
         } catch (IOException e) {
             throw new IllegalStateException("Cannot read " + path + " - run python3 tools/catalog/villages.py", e);
+        }
+    }
+
+    /** {@code nature_catalog.json} (tools/catalog/natures.py): every nature release jutsu. */
+    private void loadNatures(Path path) {
+        try (Reader r = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+            JsonObject root = JsonParser.parseReader(r).getAsJsonObject();
+            decode(root, "abilities", AbilityDefinition.CODEC, abilities);
+            root.getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
+        } catch (IOException e) {
+            throw new IllegalStateException("Cannot read " + path + " - run python3 tools/catalog/natures.py", e);
         }
     }
 

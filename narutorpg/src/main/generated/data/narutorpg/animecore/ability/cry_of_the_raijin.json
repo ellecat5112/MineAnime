@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 8444159,
+      "damage": 6.0,
+      "lifetime_ticks": 25,
+      "size": 0.6,
+      "speed": 1.4
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cry of the Raijin",
+    "translate": "ability.narutorpg.cry_of_the_raijin"
+  },
+  "system": "narutorpg"
+}

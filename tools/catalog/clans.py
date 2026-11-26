@@ -45,7 +45,8 @@ BASE = {'Fire Release': 'fire', 'Wind Release': 'wind', 'Lightning Release': 'li
         'Earth Release': 'earth', 'Water Release': 'water'}
 # advanced natures added as fusion affinities: id -> (name, color, fusion_of, strong_against, required_lineage)
 ADV_STYLE = {'wood': 'plant', 'ice': 'ice', 'lava': 'lava', 'magnet': 'sand', 'storm': 'lightning', 'boil': 'water',
-             'scorch': 'flame', 'explosion': 'flame', 'dust': 'light', 'yin': 'shadow', 'yang': 'light'}
+             'scorch': 'flame', 'explosion': 'flame', 'dust': 'light', 'yin': 'shadow', 'yang': 'light', 'mud': 'earth',
+             'yin_yang': 'energy', 'crystal': 'ice', 'dark': 'shadow', 'steel': 'earth', 'swift': 'wind', 'typhoon': 'wind'}
 ADVANCED = {
     'wood': ('Wood Release', 0x6D8B3A, ['earth', 'water'], ['earth'], 'senju'),
     'ice': ('Ice Release', 0xA5F2F3, ['wind', 'water'], ['water'], 'yuki'),
@@ -58,7 +59,17 @@ ADVANCED = {
     'dust': ('Dust Release', 0xECEFF1, ['earth', 'wind', 'fire'], ['wood'], None),
     'yin': ('Yin Release', 0x6A1B9A, [], ['yang'], None),
     'yang': ('Yang Release', 0xFFD54F, [], ['yin'], None),
+    'mud': ('Mud Release', 0x6D4C41, ['earth', 'water'], ['lightning'], None),
+    'yin_yang': ('Yin–Yang Release', 0xE0E0E0, ['yin', 'yang'], ['yin', 'yang'], None),
+    'crystal': ('Crystal Release', 0xF48FB1, [], ['earth'], None),
+    'dark': ('Dark Release', 0x311B92, [], ['yang'], None),
+    'steel': ('Steel Release', 0x90A4AE, [], ['earth'], None),
+    'swift': ('Swift Release', 0xFFF176, [], ['wind'], None),
+    'typhoon': ('Typhoon Release', 0x80CBC4, [], ['fire'], None),
 }
+# kekkei genkai natures without a two-nature recipe awaken from training their source nature (wiki "Basic Natures"
+# where listed: Crystal <- Earth, Typhoon <- Wind; lore choice otherwise: Dark <- Yin, Steel <- Earth, Swift <- Lightning)
+AWAKEN = {'crystal': ('earth', 30), 'typhoon': ('wind', 30), 'dark': ('yin', 30), 'steel': ('earth', 40), 'swift': ('lightning', 30)}
 NATURE_IDS = dict(BASE)
 NATURE_IDS.update({v[0]: k for k, v in ADVANCED.items()})
 COLORS = {'fire': 0xFF6A00, 'wind': 0xB2FF59, 'lightning': 0x80D8FF, 'earth': 0x8D6E63, 'water': 0x2979FF}
@@ -480,6 +491,8 @@ def main():
              'vfx_style': ADV_STYLE[aid]}
         if lineage:
             a['required_lineage'] = ns(lineage)
+        if aid in AWAKEN:
+            a['awaken_from'], a['awaken_level'] = ns(AWAKEN[aid][0]), AWAKEN[aid][1]
         out['affinities'][aid] = a
         lang[f'affinity.{NS}.{aid}'] = name
 

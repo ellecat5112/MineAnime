@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16738816,
+      "damage": 8.0,
+      "fire_ticks": 60,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Susanoo: Rotating Flame",
+    "translate": "ability.narutorpg.susanoo_rotating_flame"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+  }
+}

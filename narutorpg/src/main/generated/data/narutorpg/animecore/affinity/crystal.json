@@ -1,0 +1,13 @@
+{
+  "awaken_from": "narutorpg:earth",
+  "color": 16027569,
+  "name": {
+    "fallback": "Crystal Release",
+    "translate": "affinity.narutorpg.crystal"
+  },
+  "strong_against": [
+    "narutorpg:earth"
+  ],
+  "system": "narutorpg",
+  "vfx_style": "ice"
+}

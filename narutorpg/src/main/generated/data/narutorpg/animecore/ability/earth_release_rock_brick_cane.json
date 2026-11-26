@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Rock Brick Cane",
+    "translate": "ability.narutorpg.earth_release_rock_brick_cane"
+  },
+  "system": "narutorpg"
+}

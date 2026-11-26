@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 8444159,
+      "range": 28.0,
+      "width": 0.6
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:tiger",
+    "narutorpg:boar",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Lightning Release: Lightning Net Technique",
+    "translate": "ability.narutorpg.lightning_release_lightning_net_technique"
+  },
+  "system": "narutorpg"
+}

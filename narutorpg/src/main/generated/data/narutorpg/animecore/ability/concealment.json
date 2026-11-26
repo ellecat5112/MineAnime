@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 6.0
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Concealment",
+    "translate": "ability.narutorpg.concealment"
+  },
+  "system": "narutorpg",
+  "visuals": {
+    "color": 7798531,
+    "style": "light"
+  }
+}

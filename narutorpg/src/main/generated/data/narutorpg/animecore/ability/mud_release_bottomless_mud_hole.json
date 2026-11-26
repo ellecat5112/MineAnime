@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:mud",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mud Release: Bottomless Mud Hole",
+    "translate": "ability.narutorpg.mud_release_bottomless_mud_hole"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

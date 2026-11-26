@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 8.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16738816,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Blaze Release: Kagutsuchi — Heaven Step",
+    "translate": "ability.narutorpg.blaze_release_kagutsuchi_heaven_step"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "color": 1710618,
+    "style": "flame"
+  }
+}

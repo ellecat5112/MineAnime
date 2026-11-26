@@ -57,7 +57,7 @@ public final class NarutoContentBootstrap {
     private static void affinity(Registerable<AffinityDefinition> ctx, RegistryKey<AffinityDefinition> key, int color,
                                  RegistryKey<AffinityDefinition> beats, VfxStyle style) {
         ctx.register(key, new AffinityDefinition(SYSTEM, name("affinity", key), color, List.of(beats.getValue()), 1.5f,
-                List.of(), Optional.empty(), Optional.of(style)));
+                List.of(), Optional.empty(), Optional.of(style), true, Optional.empty(), 30));   // basic nature
     }
 
     // ------------------------------------------------------------------ Clans (Narutopedia Category:Clans)

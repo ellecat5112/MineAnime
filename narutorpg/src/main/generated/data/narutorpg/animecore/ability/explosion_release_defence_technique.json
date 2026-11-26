@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 200,
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:explosion",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Explosion Release: Defence Technique",
+    "translate": "ability.narutorpg.explosion_release_defence_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

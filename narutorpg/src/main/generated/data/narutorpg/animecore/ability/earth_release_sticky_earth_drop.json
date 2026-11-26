@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 14.0,
+      "knockback": 0.0
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Sticky Earth Drop",
+    "translate": "ability.narutorpg.earth_release_sticky_earth_drop"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

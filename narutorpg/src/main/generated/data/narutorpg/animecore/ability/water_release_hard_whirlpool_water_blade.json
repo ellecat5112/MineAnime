@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 2718207,
+      "damage": 6.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Hard Whirlpool Water Blade",
+    "translate": "ability.narutorpg.water_release_hard_whirlpool_water_blade"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Rock Shelter",
+    "translate": "ability.narutorpg.earth_release_rock_shelter"
+  },
+  "system": "narutorpg"
+}

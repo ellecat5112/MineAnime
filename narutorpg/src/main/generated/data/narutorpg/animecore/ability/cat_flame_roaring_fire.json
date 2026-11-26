@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16738816,
+      "damage": 6.0,
+      "fire_ticks": 60,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cat Flame Roaring Fire",
+    "translate": "ability.narutorpg.cat_flame_roaring_fire"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16740419,
+      "damage": 8.0,
+      "fire_ticks": 60,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "narutorpg:scorch",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Scorch Release: Extremely Steaming Murder",
+    "translate": "ability.narutorpg.scorch_release_extremely_steaming_murder"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 10875635,
+      "count": 5,
+      "damage": 8.0,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "narutorpg:ice",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Blasting Ice Crystal",
+    "translate": "ability.narutorpg.blasting_ice_crystal"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

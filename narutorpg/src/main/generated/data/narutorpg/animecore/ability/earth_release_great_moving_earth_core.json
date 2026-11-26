@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 9268835,
+      "damage": 6.0,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "speed": 1.4
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:snake",
+    "narutorpg:ram",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Great Moving Earth Core",
+    "translate": "ability.narutorpg.earth_release_great_moving_earth_core"
+  },
+  "system": "narutorpg"
+}

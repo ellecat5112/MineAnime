@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "kind": "crystal"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Water Body",
+    "translate": "ability.narutorpg.water_release_water_body"
+  },
+  "system": "narutorpg"
+}

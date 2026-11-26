@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 8440772,
+      "damage": 8.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "affinity": "narutorpg:typhoon",
+  "cast_type": "charged",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Typhoon Release: Consecutive Bursting Strong Winds",
+    "translate": "ability.narutorpg.typhoon_release_consecutive_bursting_strong_winds"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

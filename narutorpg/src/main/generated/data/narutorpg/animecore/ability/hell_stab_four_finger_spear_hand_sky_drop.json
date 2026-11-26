@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Hell Stab Four-Finger Spear Hand: Sky Drop",
+    "translate": "ability.narutorpg.hell_stab_four_finger_spear_hand_sky_drop"
+  },
+  "system": "narutorpg"
+}

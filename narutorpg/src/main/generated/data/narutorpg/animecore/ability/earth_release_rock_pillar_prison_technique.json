@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "combo": [
+    "narutorpg:horse",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Rock Pillar Prison Technique",
+    "translate": "ability.narutorpg.earth_release_rock_pillar_prison_technique"
+  },
+  "system": "narutorpg"
+}

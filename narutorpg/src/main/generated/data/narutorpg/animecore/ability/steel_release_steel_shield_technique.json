@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 200,
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:steel",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Steel Release: Steel Shield Technique",
+    "translate": "ability.narutorpg.steel_release_steel_shield_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

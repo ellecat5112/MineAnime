@@ -61,11 +61,12 @@ public final class TokenGameTests implements FabricGameTest {
         ItemStack token = new ItemStack(fire);
         p.setStackInHand(Hand.MAIN_HAND, token);
         TechniqueTokenItem item = (TechniqueTokenItem) fire;
-        ctx.assertTrue(item.entries(p).size() == 2, "two Fire Release jutsu on the token, got " + item.entries(p).size());
+        int size = item.entries(p).size();   // 2 Uchiha fire jutsu + the first Fire Release mastery jutsu (innate nature)
+        ctx.assertTrue(size >= 2, "Fire Release jutsu on the token, got " + size);
         var first = item.selected(p, token).orElseThrow().id();
         item.cycle(p, token, 1);
         ctx.assertTrue(!token.get(AnimeDataComponents.TOKEN_SELECTION).equals(first), "sneak+scroll switched the jutsu");
-        item.cycle(p, token, 1);
+        for (int i = 1; i < size; i++) item.cycle(p, token, 1);
         ctx.assertTrue(token.get(AnimeDataComponents.TOKEN_SELECTION).equals(first), "wraps around");
 
         // select the instant / charged fireball and right-click: charged -> charging, release fires

@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 2541274,
+      "damage": 8.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "narutorpg:storm",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Storm Release: Thunder Cloud Inner Wave",
+    "translate": "ability.narutorpg.storm_release_thunder_cloud_inner_wave"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

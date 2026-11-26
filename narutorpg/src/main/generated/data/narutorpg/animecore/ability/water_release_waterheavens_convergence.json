@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "kind": "crystal"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:water",
+  "combo": [
+    "narutorpg:tiger",
+    "narutorpg:snake",
+    "narutorpg:boar",
+    "narutorpg:tiger"
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Water Release: Water–Heavens Convergence",
+    "translate": "ability.narutorpg.water_release_waterheavens_convergence"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,45 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "damage": 4.0,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Horizon Meteor",
+    "translate": "ability.narutorpg.horizon_meteor"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "style": "smoke"
+  }
+}

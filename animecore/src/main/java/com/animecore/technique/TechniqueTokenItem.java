@@ -140,6 +140,16 @@ public class TechniqueTokenItem extends Item {
         List<TechniqueTokens.Entry> list = entries(player);
         Optional<TechniqueTokens.Entry> sel = selected(player, stack);
         List<Text> out = new java.util.ArrayList<>();
+        PlayerPowerComponent power = context.power(player);
+        List<Identifier> mastery = TechniqueMastery.list(rm, token);
+        if (!mastery.isEmpty()) {
+            int lvl = power.tokenLevel(token);
+            out.add(Text.translatable("tooltip.animecore.token.mastery", lvl, power.tokenXp(token),
+                    com.animecore.clan.ClanSkill.experienceForNext(Math.max(1, lvl)), Math.min(lvl, mastery.size()), mastery.size()).formatted(Formatting.DARK_AQUA));
+            if (AnimeRegistries.affinities(rm).getOrEmpty(token).isPresent() && !power.effectiveAffinities().contains(token)) {
+                out.add(Text.translatable("tooltip.animecore.token.off_affinity").formatted(Formatting.RED));
+            }
+        }
         if (list.isEmpty()) out.add(Text.translatable("message.animecore.token.empty").formatted(Formatting.GRAY));
         for (TechniqueTokens.Entry e : list) {
             boolean s = sel.map(e::equals).orElse(false);

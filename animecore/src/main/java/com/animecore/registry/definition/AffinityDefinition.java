@@ -25,12 +25,21 @@ public record AffinityDefinition(
         float advantageMultiplier,
         List<Identifier> fusionOf,
         Optional<Identifier> requiredLineage,
-        Optional<com.animecore.vfx.VfxStyle> vfxStyle
+        Optional<com.animecore.vfx.VfxStyle> vfxStyle,
+        boolean basic,
+        Optional<Identifier> awakenFrom,
+        int awakenLevel
 ) {
     public AffinityDefinition(String system, Text name, int color, List<Identifier> strongAgainst, float advantageMultiplier,
                               List<Identifier> fusionOf, Optional<Identifier> requiredLineage) {
-        this(system, name, color, strongAgainst, advantageMultiplier, fusionOf, requiredLineage, Optional.empty());
+        this(system, name, color, strongAgainst, advantageMultiplier, fusionOf, requiredLineage, Optional.empty(), false, Optional.empty(), 30);
     }
+
+    public AffinityDefinition(String system, Text name, int color, List<Identifier> strongAgainst, float advantageMultiplier,
+                              List<Identifier> fusionOf, Optional<Identifier> requiredLineage, Optional<com.animecore.vfx.VfxStyle> vfxStyle) {
+        this(system, name, color, strongAgainst, advantageMultiplier, fusionOf, requiredLineage, vfxStyle, false, Optional.empty(), 30);
+    }
+
 
     public static final Codec<AffinityDefinition> CODEC = RecordCodecBuilder.create(i -> i.group(
             Codec.STRING.fieldOf("system").forGetter(AffinityDefinition::system),
@@ -40,6 +49,9 @@ public record AffinityDefinition(
             Codec.floatRange(1f, 10f).optionalFieldOf("advantage_multiplier", 1.5f).forGetter(AffinityDefinition::advantageMultiplier),
             Identifier.CODEC.listOf().optionalFieldOf("fusion_of", List.of()).forGetter(AffinityDefinition::fusionOf),
             Identifier.CODEC.optionalFieldOf("required_lineage").forGetter(AffinityDefinition::requiredLineage),
-            com.animecore.vfx.VfxStyle.CODEC.optionalFieldOf("vfx_style").forGetter(AffinityDefinition::vfxStyle)
+            com.animecore.vfx.VfxStyle.CODEC.optionalFieldOf("vfx_style").forGetter(AffinityDefinition::vfxStyle),
+            Codec.BOOL.optionalFieldOf("basic", false).forGetter(AffinityDefinition::basic),
+            Identifier.CODEC.optionalFieldOf("awaken_from").forGetter(AffinityDefinition::awakenFrom),
+            Codec.intRange(1, 1000).optionalFieldOf("awaken_level", 30).forGetter(AffinityDefinition::awakenLevel)
     ).apply(i, AffinityDefinition::new));
 }

@@ -76,7 +76,7 @@ The category has **no subcategories** and no Semantic MediaWiki drill-down group
 | [Ōtsutsuki Clan](https://naruto.fandom.com/wiki/Ōtsutsuki_Clan) | `otsutsuki` | 1 | yin, yang | Chakra Suppression Technique | 113 | byakugan, tenseigan, rinnegan, kokugan, jogan, senrigan | 8 | clan 26, kg 131 |
 | Clanless (fallback, not a wiki page) | `clanless` | 0 | - | Clone Technique | 4 | - | 0 | academy basics |
 
-Total: 53 lineages, 417 generated clan jutsu (+ the hand-written Great Fireball and Substitution), 7 dojutsu forms, 11 advanced natures.
+Total: 53 lineages, 417 generated clan jutsu (+ the hand-written Great Fireball and Substitution), 7 dojutsu forms, 18 advanced natures.
 
 ## Jutsu -> engine mapping
 

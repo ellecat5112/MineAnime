@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 16738816,
+      "count": 5,
+      "damage": 8.0,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0,
+      "trail_particle": "minecraft:flame"
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Phoenix Sage Flower Nail Crimson",
+    "translate": "ability.narutorpg.fire_release_phoenix_sage_flower_nail_crimson"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

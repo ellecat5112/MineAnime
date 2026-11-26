@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9315498,
+      "cone_degrees": 70.0,
+      "damage": 5.6,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Jibakugan",
+    "translate": "ability.narutorpg.jibakugan"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

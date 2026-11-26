@@ -127,6 +127,8 @@ public final class ClanGameTests implements FabricGameTest {
         PlayerPowerComponent power = NarutoRPG.CTX.power(player);
         ClanAbilityManager.assign(player, power, NARA, ClanAbilityManager.Reason.COMMAND);
         ZombieEntity zombie = ctx.spawnEntity(EntityType.ZOMBIE, 1, 2, 1);
+        player.setStackInHand(Hand.MAIN_HAND, ItemStack.EMPTY);   // jutsu tokens in hand would take the xp as mastery
+        player.setStackInHand(Hand.OFF_HAND, ItemStack.EMPTY);
 
         ctx.assertTrue(!ClanTraitHooks.convertKillExperience(zombie, player), "no emblem held: vanilla orbs");
         ItemStack foreign = ClanRollService.boundStack(NarutoItems.CLAN_EMBLEM, UCHIHA.getValue(), null);

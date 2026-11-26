@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 16763432,
+      "damage": 8.0,
+      "lifetime_ticks": 25,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "affinity": "narutorpg:explosion",
+  "cast_type": "charged",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Carpet Bombing",
+    "translate": "ability.narutorpg.carpet_bombing"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

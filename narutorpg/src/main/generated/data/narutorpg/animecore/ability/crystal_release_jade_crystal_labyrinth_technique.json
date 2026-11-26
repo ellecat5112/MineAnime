@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 200,
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:crystal",
+  "combo": [
+    "narutorpg:boar",
+    "narutorpg:horse",
+    "narutorpg:ram"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Crystal Release: Jade Crystal Labyrinth Technique",
+    "translate": "ability.narutorpg.crystal_release_jade_crystal_labyrinth_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

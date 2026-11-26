@@ -1,0 +1,13 @@
+{
+  "awaken_from": "narutorpg:lightning",
+  "color": 16773494,
+  "name": {
+    "fallback": "Swift Release",
+    "translate": "affinity.narutorpg.swift"
+  },
+  "strong_against": [
+    "narutorpg:wind"
+  ],
+  "system": "narutorpg",
+  "vfx_style": "wind"
+}

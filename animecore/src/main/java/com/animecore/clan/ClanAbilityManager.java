@@ -82,6 +82,8 @@ public final class ClanAbilityManager {
             def.clanTraits().forEach(t -> t.onAssigned(player, power));
             if (power.markClanKitGiven(lineage)) giveStarterKit(player, power, lineage, def);
             evaluate(player, power);
+            power.forceRefreshTraits(player);
+            com.animecore.technique.TechniqueMastery.evaluateAll(player, power);   // innate natures train from level 1
             player.sendMessage(Text.translatable("message.animecore.clan.assigned", def.name())
                     .styled(s -> s.withColor(def.color())), false);
             player.getWorld().playSound(null, player.getBlockPos(), SoundEvents.UI_TOAST_CHALLENGE_COMPLETE, SoundCategory.PLAYERS, 0.5f, 1.2f);

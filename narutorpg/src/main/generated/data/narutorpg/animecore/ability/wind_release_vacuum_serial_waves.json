@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 11730777,
+      "damage": 8.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1,
+      "trail_particle": "minecraft:cloud"
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cast_animation": "narutorpg:fireball_exhale",
+  "cast_type": "charged",
+  "combo": [
+    "narutorpg:snake",
+    "narutorpg:horse",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Wind Release: Vacuum Serial Waves",
+    "translate": "ability.narutorpg.wind_release_vacuum_serial_waves"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

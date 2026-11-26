@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 6.0
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Chakra Scalpel Snake Crush",
+    "translate": "ability.narutorpg.chakra_scalpel_snake_crush"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "visuals": {
+    "color": 7798531,
+    "style": "light"
+  }
+}

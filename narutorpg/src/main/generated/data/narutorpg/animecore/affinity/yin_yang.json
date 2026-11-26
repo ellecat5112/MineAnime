@@ -1,0 +1,17 @@
+{
+  "color": 14737632,
+  "fusion_of": [
+    "narutorpg:yin",
+    "narutorpg:yang"
+  ],
+  "name": {
+    "fallback": "Yin–Yang Release",
+    "translate": "affinity.narutorpg.yin_yang"
+  },
+  "strong_against": [
+    "narutorpg:yin",
+    "narutorpg:yang"
+  ],
+  "system": "narutorpg",
+  "vfx_style": "energy"
+}

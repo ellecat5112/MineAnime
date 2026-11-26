@@ -1,0 +1,37 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8280002,
+      "damage": 4.8,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:hunger"
+        }
+      ],
+      "radius": 5.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "heal": 4.0
+    }
+  ],
+  "affinity": "narutorpg:dark",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dark Release: Inhaling Maw",
+    "translate": "ability.narutorpg.dark_release_inhaling_maw"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 11730777,
+      "damage": 14.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Watchful Eye's Torrent",
+    "translate": "ability.narutorpg.watchful_eye_s_torrent"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

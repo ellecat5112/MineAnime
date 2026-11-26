@@ -1,0 +1,42 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9315498,
+      "cone_degrees": 70.0,
+      "damage": 1.6,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 80,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Genjutsu Communication",
+    "translate": "ability.narutorpg.genjutsu_communication"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:genjutsu",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
+}

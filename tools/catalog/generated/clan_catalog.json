@@ -14659,6 +14659,38 @@
    "system": "narutorpg",
    "vfx_style": "water"
   },
+  "crystal": {
+   "advantage_multiplier": 1.5,
+   "awaken_from": "narutorpg:earth",
+   "awaken_level": 30,
+   "color": 16027569,
+   "fusion_of": [],
+   "name": {
+    "fallback": "Crystal Release",
+    "translate": "affinity.narutorpg.crystal"
+   },
+   "strong_against": [
+    "narutorpg:earth"
+   ],
+   "system": "narutorpg",
+   "vfx_style": "ice"
+  },
+  "dark": {
+   "advantage_multiplier": 1.5,
+   "awaken_from": "narutorpg:yin",
+   "awaken_level": 30,
+   "color": 3218322,
+   "fusion_of": [],
+   "name": {
+    "fallback": "Dark Release",
+    "translate": "affinity.narutorpg.dark"
+   },
+   "strong_against": [
+    "narutorpg:yang"
+   ],
+   "system": "narutorpg",
+   "vfx_style": "shadow"
+  },
   "dust": {
    "advantage_multiplier": 1.5,
    "color": 15527921,
@@ -14747,6 +14779,23 @@
    "system": "narutorpg",
    "vfx_style": "sand"
   },
+  "mud": {
+   "advantage_multiplier": 1.5,
+   "color": 7162945,
+   "fusion_of": [
+    "narutorpg:earth",
+    "narutorpg:water"
+   ],
+   "name": {
+    "fallback": "Mud Release",
+    "translate": "affinity.narutorpg.mud"
+   },
+   "strong_against": [
+    "narutorpg:lightning"
+   ],
+   "system": "narutorpg",
+   "vfx_style": "earth"
+  },
   "scorch": {
    "advantage_multiplier": 1.5,
    "color": 16740419,
@@ -14764,6 +14813,22 @@
    "system": "narutorpg",
    "vfx_style": "flame"
   },
+  "steel": {
+   "advantage_multiplier": 1.5,
+   "awaken_from": "narutorpg:earth",
+   "awaken_level": 40,
+   "color": 9479342,
+   "fusion_of": [],
+   "name": {
+    "fallback": "Steel Release",
+    "translate": "affinity.narutorpg.steel"
+   },
+   "strong_against": [
+    "narutorpg:earth"
+   ],
+   "system": "narutorpg",
+   "vfx_style": "earth"
+  },
   "storm": {
    "advantage_multiplier": 1.5,
    "color": 2541274,
@@ -14780,6 +14845,38 @@
    ],
    "system": "narutorpg",
    "vfx_style": "lightning"
+  },
+  "swift": {
+   "advantage_multiplier": 1.5,
+   "awaken_from": "narutorpg:lightning",
+   "awaken_level": 30,
+   "color": 16773494,
+   "fusion_of": [],
+   "name": {
+    "fallback": "Swift Release",
+    "translate": "affinity.narutorpg.swift"
+   },
+   "strong_against": [
+    "narutorpg:wind"
+   ],
+   "system": "narutorpg",
+   "vfx_style": "wind"
+  },
+  "typhoon": {
+   "advantage_multiplier": 1.5,
+   "awaken_from": "narutorpg:wind",
+   "awaken_level": 30,
+   "color": 8440772,
+   "fusion_of": [],
+   "name": {
+    "fallback": "Typhoon Release",
+    "translate": "affinity.narutorpg.typhoon"
+   },
+   "strong_against": [
+    "narutorpg:fire"
+   ],
+   "system": "narutorpg",
+   "vfx_style": "wind"
   },
   "wood": {
    "advantage_multiplier": 1.5,
@@ -14826,6 +14923,24 @@
    ],
    "system": "narutorpg",
    "vfx_style": "shadow"
+  },
+  "yin_yang": {
+   "advantage_multiplier": 1.5,
+   "color": 14737632,
+   "fusion_of": [
+    "narutorpg:yin",
+    "narutorpg:yang"
+   ],
+   "name": {
+    "fallback": "Yin–Yang Release",
+    "translate": "affinity.narutorpg.yin_yang"
+   },
+   "strong_against": [
+    "narutorpg:yin",
+    "narutorpg:yang"
+   ],
+   "system": "narutorpg",
+   "vfx_style": "energy"
   }
  },
  "crawled": "2026-11-26",
@@ -15249,16 +15364,23 @@
   "ability.narutorpg.yomito_s_transformation_technique": "Yomito's Transformation Technique",
   "ability.narutorpg.yomotsu_hirasaka": "Yomotsu Hirasaka",
   "affinity.narutorpg.boil": "Boil Release",
+  "affinity.narutorpg.crystal": "Crystal Release",
+  "affinity.narutorpg.dark": "Dark Release",
   "affinity.narutorpg.dust": "Dust Release",
   "affinity.narutorpg.explosion": "Explosion Release",
   "affinity.narutorpg.ice": "Ice Release",
   "affinity.narutorpg.lava": "Lava Release",
   "affinity.narutorpg.magnet": "Magnet Release",
+  "affinity.narutorpg.mud": "Mud Release",
   "affinity.narutorpg.scorch": "Scorch Release",
+  "affinity.narutorpg.steel": "Steel Release",
   "affinity.narutorpg.storm": "Storm Release",
+  "affinity.narutorpg.swift": "Swift Release",
+  "affinity.narutorpg.typhoon": "Typhoon Release",
   "affinity.narutorpg.wood": "Wood Release",
   "affinity.narutorpg.yang": "Yang Release",
   "affinity.narutorpg.yin": "Yin Release",
+  "affinity.narutorpg.yin_yang": "Yin–Yang Release",
   "lineage.narutorpg.aburame": "Aburame Clan",
   "lineage.narutorpg.aburame.desc": "The Aburame Clan is a well-known clan of Konohagakure.",
   "lineage.narutorpg.akimichi": "Akimichi Clan",

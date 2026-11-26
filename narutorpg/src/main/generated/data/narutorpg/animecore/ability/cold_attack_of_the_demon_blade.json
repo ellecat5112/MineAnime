@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 8.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 10875635,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:ice",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cold Attack of the Demon Blade",
+    "translate": "ability.narutorpg.cold_attack_of_the_demon_blade"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 2541274,
+      "damage": 8.0,
+      "range": 28.0,
+      "width": 0.6
+    }
+  ],
+  "affinity": "narutorpg:storm",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Storm Release: Laser Circus",
+    "translate": "ability.narutorpg.storm_release_laser_circus"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

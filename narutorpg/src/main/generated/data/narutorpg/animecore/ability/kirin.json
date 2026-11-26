@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 8444159,
+      "damage": 14.0,
+      "range": 28.0,
+      "width": 0.6
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Kirin",
+    "translate": "ability.narutorpg.kirin"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

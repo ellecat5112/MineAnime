@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 8444159,
+      "damage": 8.0,
+      "lifetime_ticks": 25,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cast_type": "charged",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Coming of the Lightning Fire Phoenix Technique",
+    "translate": "ability.narutorpg.coming_of_the_lightning_fire_phoenix_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

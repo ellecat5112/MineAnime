@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "effect": "minecraft:speed"
+        },
+        {
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Chidori Katana: Crescent Shadow",
+    "translate": "ability.narutorpg.chidori_katana_crescent_shadow"
+  },
+  "system": "narutorpg"
+}

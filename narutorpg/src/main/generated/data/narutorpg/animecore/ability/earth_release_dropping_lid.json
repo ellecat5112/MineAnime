@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 9268835,
+      "damage": 11.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cast_type": "charged",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Dropping Lid",
+    "translate": "ability.narutorpg.earth_release_dropping_lid"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

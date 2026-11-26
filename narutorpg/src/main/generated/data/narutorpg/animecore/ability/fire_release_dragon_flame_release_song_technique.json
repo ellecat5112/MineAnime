@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 16738816,
+      "damage": 6.0,
+      "fire_ticks": 60,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:flame"
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "cast_animation": "narutorpg:fireball_exhale",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Dragon Flame Release Song Technique",
+    "translate": "ability.narutorpg.fire_release_dragon_flame_release_song_technique"
+  },
+  "system": "narutorpg"
+}

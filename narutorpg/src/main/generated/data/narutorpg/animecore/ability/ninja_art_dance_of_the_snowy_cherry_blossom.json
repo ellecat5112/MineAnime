@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 6953882,
+      "count": 5,
+      "damage": 6.0,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0
+    }
+  ],
+  "affinity": "narutorpg:yin",
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ninja Art: Dance of the Snowy Cherry Blossom",
+    "translate": "ability.narutorpg.ninja_art_dance_of_the_snowy_cherry_blossom"
+  },
+  "system": "narutorpg"
+}

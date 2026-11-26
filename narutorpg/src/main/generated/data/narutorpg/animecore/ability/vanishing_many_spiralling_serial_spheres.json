@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "damage": 7.0,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Vanishing Many Spiralling Serial Spheres",
+    "translate": "ability.narutorpg.vanishing_many_spiralling_serial_spheres"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
+}

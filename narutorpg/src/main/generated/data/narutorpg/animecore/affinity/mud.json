@@ -1,0 +1,16 @@
+{
+  "color": 7162945,
+  "fusion_of": [
+    "narutorpg:earth",
+    "narutorpg:water"
+  ],
+  "name": {
+    "fallback": "Mud Release",
+    "translate": "affinity.narutorpg.mud"
+  },
+  "strong_against": [
+    "narutorpg:lightning"
+  ],
+  "system": "narutorpg",
+  "vfx_style": "earth"
+}

@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 200
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:earth",
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Earth Release: Earth-Style Wall of Ten Thousand Ri",
+    "translate": "ability.narutorpg.earth_release_earth_style_wall_of_ten_thousand_ri"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

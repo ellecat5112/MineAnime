@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 14.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 7179066,
+      "damage": 7.0,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:wood",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Horror of Akatsuki",
+    "translate": "ability.narutorpg.horror_of_akatsuki"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu"
+}

@@ -1,0 +1,14 @@
+{
+  "awaken_from": "narutorpg:earth",
+  "awaken_level": 40,
+  "color": 9479342,
+  "name": {
+    "fallback": "Steel Release",
+    "translate": "affinity.narutorpg.steel"
+  },
+  "strong_against": [
+    "narutorpg:earth"
+  ],
+  "system": "narutorpg",
+  "vfx_style": "earth"
+}

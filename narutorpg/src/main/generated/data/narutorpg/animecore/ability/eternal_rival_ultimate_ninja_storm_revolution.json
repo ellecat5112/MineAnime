@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 14.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 8444159,
+      "damage": 7.0,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:lightning",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Eternal Rival (Ultimate Ninja Storm Revolution)",
+    "translate": "ability.narutorpg.eternal_rival_ultimate_ninja_storm_revolution"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

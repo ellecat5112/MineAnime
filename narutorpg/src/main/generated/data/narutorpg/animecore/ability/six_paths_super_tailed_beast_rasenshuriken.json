@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "damage": 7.0,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Six Paths: Super Tailed Beast Rasenshuriken",
+    "translate": "ability.narutorpg.six_paths_super_tailed_beast_rasenshuriken"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
+}

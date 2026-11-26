@@ -1,0 +1,13 @@
+{
+  "awaken_from": "narutorpg:wind",
+  "color": 8440772,
+  "name": {
+    "fallback": "Typhoon Release",
+    "translate": "affinity.narutorpg.typhoon"
+  },
+  "strong_against": [
+    "narutorpg:fire"
+  ],
+  "system": "narutorpg",
+  "vfx_style": "wind"
+}

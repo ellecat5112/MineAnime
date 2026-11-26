@@ -46,10 +46,14 @@ public final class AnimeCore implements ModInitializer {
         com.animecore.origin.OriginSelectionService.init();
         com.animecore.technique.TechniqueTokens.init();
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
+            com.animecore.technique.TechniqueMastery.onJoin(handler.player);
             for (var ctx : com.animecore.api.AnimeModRegistry.all()) com.animecore.technique.TechniqueTokens.ensureTokens(handler.player, ctx.power(handler.player));
         });
         com.animecore.origin.VillageAccessManager.register();
-        net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((s, m, ok) -> com.animecore.origin.VillageAccessManager.invalidate());
+        net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.END_DATA_PACK_RELOAD.register((s, m, ok) -> {
+            com.animecore.origin.VillageAccessManager.invalidate();
+            com.animecore.technique.TechniqueMastery.invalidate();
+        });
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> com.animecore.clan.ClanRollService.onJoin(handler.player));
 
         CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> {

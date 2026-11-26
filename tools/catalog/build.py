@@ -124,6 +124,9 @@ def main():
     import villages
     villages.main()
     villages.build_sprites()
+    # Nature releases (Category:Chakra Natures): every nature jutsu.
+    import natures
+    natures.main()
     # Technique tokens (AHZNB-style jutsu items) and default cast animations.
     import tokens
     tokens.build()

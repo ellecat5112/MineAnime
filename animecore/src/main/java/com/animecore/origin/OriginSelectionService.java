@@ -185,8 +185,10 @@ public final class OriginSelectionService {
             if (background.startingTierBonus() > 0) power.setTier(power.tier() + background.startingTierBonus());
         }
         power.setOriginSelected(true);
-        power.markTraitsDirty();
+        power.forceRefreshTraits(player);
         VillageAccessManager.evaluatePool(player, power);
+        com.animecore.technique.TechniqueMastery.rollStartingNature(player, power, faction);   // AHZNB: chakra comes with a nature
+        com.animecore.technique.TechniqueMastery.evaluateAll(player, power);
 
         Text bgName = background == null ? Text.empty() : Text.literal(" · ").append(background.name());
         player.sendMessage(Text.translatable("message.animecore.origin.chosen", faction.name()).append(bgName)

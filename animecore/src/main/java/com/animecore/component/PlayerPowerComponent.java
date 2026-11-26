@@ -108,6 +108,11 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private boolean originSelected;
     private boolean rogue;
     private @Nullable Identifier formerFaction;
+    /** Natures the player personally holds (rolled at origin, awakened by mastery) on top of lineage innate ones. */
+    private final Set<Identifier> personalAffinities = new LinkedHashSet<>();
+    /** token -> mastery level / experience towards the next level (nature release training). */
+    private final Map<Identifier, Integer> tokenLevels = new HashMap<>();
+    private final Map<Identifier, Long> tokenXp = new HashMap<>();
     /** Technique tokens already handed out (a dropped / stored token is not re-given; /jutsu tokens restores them). */
     private final Set<Identifier> tokensGiven = new LinkedHashSet<>();
 
@@ -222,6 +227,11 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     public void setRogue(boolean value) { rogue = value; markDirty(true); }
     public Optional<Identifier> formerFaction() { return Optional.ofNullable(formerFaction); }
     public void setFormerFaction(@Nullable Identifier id) { formerFaction = id; markDirty(false); }
+    public Set<Identifier> personalAffinities() { return Collections.unmodifiableSet(personalAffinities); }
+    public boolean addPersonalAffinity(Identifier id) { boolean a = personalAffinities.add(id); if (a) { traitsDirty = true; markDirty(true); } return a; }
+    public int tokenLevel(Identifier token) { return tokenLevels.getOrDefault(token, 0); }
+    public long tokenXp(Identifier token) { return tokenXp.getOrDefault(token, 0L); }
+    public void setTokenMastery(Identifier token, int level, long xp) { tokenLevels.put(token, Math.max(0, level)); tokenXp.put(token, Math.max(0, xp)); markDirty(false); }
     public boolean markTokenGiven(Identifier token) { boolean a = tokensGiven.add(token); if (a) markDirty(false); return a; }
     public void clearTokensGiven() { tokensGiven.clear(); markDirty(false); }
     public Map<Identifier, Integer> reputations() { return Collections.unmodifiableMap(reputation); }
@@ -313,6 +323,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         if (player instanceof ServerPlayerEntity sp) {
             if (lineage != null) ClanAbilityManager.evaluate(sp, this);
             if (originSelected) com.animecore.origin.VillageAccessManager.evaluatePool(sp, this);   // rank-gated village jutsu
+            com.animecore.technique.TechniqueMastery.evaluateAll(sp, this);                          // rank-gated mastery jutsu
         }
     }
 
@@ -493,6 +504,9 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
 
     public void markTraitsDirty() { traitsDirty = true; }
 
+    /** Recomputes traits / effective affinities right now (instead of on the next tick). */
+    public void forceRefreshTraits(ServerPlayerEntity sp) { refreshTraits(sp); }
+
     private void refreshTraits(ServerPlayerEntity sp) {
         DynamicRegistryManager rm = registries();
         TraitAccumulator acc = new TraitAccumulator();
@@ -505,6 +519,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
                 affinities.addAll(d.innateAffinities());
             });
         }
+        affinities.addAll(personalAffinities);
         if (faction != null) {
             AnimeRegistries.faction(rm, faction).map(FactionDefinition::traits)
                     .ifPresent(list -> list.forEach(t -> t.accumulate(acc)));
@@ -693,6 +708,13 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         origin.putBoolean("rogue", rogue);
         tag.put("origin", origin);
         tag.put("tokens_given", writeIds(tokensGiven));
+        NbtCompound nature = new NbtCompound();
+        nature.put("personal", writeIds(personalAffinities));
+        nature.put("levels", writeIntMap(tokenLevels));
+        NbtCompound txp = new NbtCompound();
+        tokenXp.forEach((k, v) -> txp.putLong(k.toString(), v));
+        nature.put("xp", txp);
+        tag.put("nature", nature);
         if (armedReactive != null && reactiveWindow > 0) {
             tag.putString("armed_reactive", armedReactive.toString());
             tag.putInt("reactive_window", reactiveWindow);
@@ -765,6 +787,12 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         originSelected = origin.getBoolean("selected");
         rogue = origin.getBoolean("rogue");
         readIds(tag.getList("tokens_given", NbtElement.STRING_TYPE), tokensGiven);
+        NbtCompound nature = tag.getCompound("nature");
+        readIds(nature.getList("personal", NbtElement.STRING_TYPE), personalAffinities);
+        readIntMap(nature.getCompound("levels"), tokenLevels);
+        tokenXp.clear();
+        NbtCompound txp = nature.getCompound("xp");
+        for (String key : txp.getKeys()) { Identifier id = Identifier.tryParse(key); if (id != null) tokenXp.put(id, txp.getLong(key)); }
         armedReactive = readId(tag, "armed_reactive");
         reactiveWindow = tag.getInt("reactive_window");
         comboBuffer.clear();

@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16738816,
+      "damage": 6.0,
+      "fire_ticks": 60,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "affinity": "narutorpg:fire",
+  "combo": [
+    "narutorpg:ram",
+    "narutorpg:horse",
+    "narutorpg:snake"
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Release: Fire Dragon Bullet",
+    "translate": "ability.narutorpg.fire_release_fire_dragon_bullet"
+  },
+  "system": "narutorpg"
+}

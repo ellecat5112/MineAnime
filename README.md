@@ -141,6 +141,22 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Nature releases (Narutopedia `Category:Chakra Natures`)
+
+All **23 nature releases** are in: the 5 basic natures; Yin, Yang and Yin–Yang; Wood, Ice, Lava, Magnet, Storm, Boil, Scorch,
+Explosion, Dust and Mud; and Crystal, Dark, Steel, Swift and Typhoon. Each has its own release item. They carry **1,286
+nature jutsu** taken from the wiki, 1,078 of them new; the full list is in `docs/wiki/narutopedia_natures.md`.
+
+- Choosing an origin gives you a **basic nature**, which leans toward your village's element, plus its first jutsu. Clan
+  natures (Uchiha Fire, Senju Wood...) count too.
+- **Nature mastery**: hold a release item while defeating enemies to gain mastery XP. Each level unlocks the next jutsu of
+  that release in rank order. A release outside your natures trains 2.5× slower. Training a basic release to level 10 makes
+  it your nature.
+- **Fusions** awaken once you hold both natures (Lava = Fire + Earth, Storm = Water + Lightning, Mud = Earth + Water...).
+  Wood, Ice and Magnet stay clan kekkei genkai. Crystal (Earth 30), Typhoon (Wind 30), Dark (Yin 30), Steel (Earth 40) and
+  Swift (Lightning 30) awaken through mastery.
+- Clan and village jutsu keep their own unlock systems. Scrolls still teach single jutsu.
+
 ## Village origins & backgrounds (Narutopedia `Category:Villages`)
 
 All **40 wiki villages** are factions (18 hidden villages, 19 civilian villages, 3 sage realms), plus the **Missing-nin**

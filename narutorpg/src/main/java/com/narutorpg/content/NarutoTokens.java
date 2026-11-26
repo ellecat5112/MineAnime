@@ -27,7 +27,9 @@ public final class NarutoTokens {
             {"ice", "ice_release", "B3F0FF"}, {"lava", "lava_release", "FF5722"}, {"magnet", "magnet_release", "D7A86E"},
             {"storm", "storm_release", "26C6DA"}, {"boil", "boil_release", "FFAB91"}, {"scorch", "scorch_release", "FFCC80"},
             {"explosion", "explosion_release", "FFEE58"}, {"dust", "dust_release", "FFFFFF"}, {"yin", "yin_release", "7B1FA2"},
-            {"yang", "yang_release", "FFE57F"}, {"ninjutsu", "ninjutsu", "90CAF9"}, {"taijutsu", "taijutsu", "66BB6A"},
+            {"yang", "yang_release", "FFE57F"}, {"mud", "mud_release", "8D6E63"}, {"yin_yang", "yin_yang_release", "FAFAFA"},
+            {"crystal", "crystal_release", "F8BBD0"}, {"dark", "dark_release", "5E35B1"}, {"steel", "steel_release", "CFD8DC"},
+            {"swift", "swift_release", "FFF59D"}, {"typhoon", "typhoon_release", "80CBC4"}, {"ninjutsu", "ninjutsu", "90CAF9"}, {"taijutsu", "taijutsu", "66BB6A"},
             {"genjutsu", "genjutsu", "F06292"}, {"fuinjutsu", "fuinjutsu", "FFD54F"}, {"medical_ninjutsu", "medical_ninjutsu", "76FF03"},
             {"hiden", "hiden", "BDBDBD"}, {"dojutsu", "dojutsu", "E53935"},
     };
@@ -57,7 +59,7 @@ public final class NarutoTokens {
             Item item = ITEMS.get(NarutoRPG.CTX.id(t[0]));
             if (t[1].endsWith("_release")) {
                 String n = t[1].replace("_release", "");
-                out.put(item, Character.toUpperCase(n.charAt(0)) + n.substring(1) + " Release");
+                out.put(item, n.equals("yin_yang") ? "Yin–Yang Release" : Character.toUpperCase(n.charAt(0)) + n.substring(1) + " Release");
             } else {
                 out.put(item, schools[s++]);
             }

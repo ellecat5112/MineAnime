@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "narutorpg:wind",
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Dust Wind Technique",
+    "translate": "ability.narutorpg.dust_wind_technique"
+  },
+  "system": "narutorpg"
+}
