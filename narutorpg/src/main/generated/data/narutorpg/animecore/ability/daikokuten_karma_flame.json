@@ -1,23 +1,12 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "duration": 400,
-          "effect": "minecraft:night_vision"
-        }
-      ]
-    },
-    {
-      "type": "animecore:area_effect",
+      "type": "animecore:aoe_sphere",
       "color": 12986408,
-      "effects": [
-        {
-          "effect": "minecraft:glowing"
-        }
-      ],
-      "radius": 24.0
+      "damage": 14.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
     }
   ],
   "cooldown_ticks": 228,

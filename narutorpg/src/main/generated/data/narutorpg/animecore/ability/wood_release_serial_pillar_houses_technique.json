@@ -1,18 +1,17 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "effect": "minecraft:speed"
-        },
-        {
-          "effect": "minecraft:jump_boost"
-        }
-      ]
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 7179066,
+      "damage": 8.0,
+      "lifetime_ticks": 25,
+      "size": 1.0,
+      "speed": 1.1
     }
   ],
   "affinity": "narutorpg:wood",
+  "cast_type": "charged",
   "combo": [
     "narutorpg:ram",
     "narutorpg:snake"
@@ -20,6 +19,7 @@
   "cooldown_ticks": 156,
   "cost": {
     "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
   },
   "name": {

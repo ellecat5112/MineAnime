@@ -1,13 +1,23 @@
 {
   "actions": [
     {
-      "type": "animecore:projectile",
-      "aoe_radius": 1.5,
+      "type": "animecore:area_effect",
       "color": 9268835,
+      "cone_degrees": 80.0,
       "damage": 6.0,
-      "lifetime_ticks": 50,
-      "size": 0.6,
-      "speed": 1.4
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 8.0
     }
   ],
   "affinity": "narutorpg:earth",

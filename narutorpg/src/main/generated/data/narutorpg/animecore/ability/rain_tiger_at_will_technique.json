@@ -1,18 +1,17 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "effect": "minecraft:speed"
-        },
-        {
-          "effect": "minecraft:jump_boost"
-        }
-      ]
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 2718207,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "speed": 1.4,
+      "trail_particle": "minecraft:splash"
     }
   ],
   "affinity": "narutorpg:water",
+  "cast_animation": "narutorpg:fireball_exhale",
   "cooldown_ticks": 108,
   "cost": {
     "amount": 12.0,

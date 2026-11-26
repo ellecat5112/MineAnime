@@ -1,15 +1,12 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "amplifier": 1,
-          "duration": 120,
-          "effect": "minecraft:regeneration"
-        }
-      ],
-      "heal": 6.0
+      "type": "animecore:aoe_sphere",
+      "color": 9268835,
+      "damage": 11.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
     }
   ],
   "affinity": "narutorpg:earth",

@@ -1,23 +1,12 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "amplifier": 1,
-          "duration": 300,
-          "effect": "minecraft:strength"
-        },
-        {
-          "amplifier": 1,
-          "duration": 300,
-          "effect": "minecraft:speed"
-        },
-        {
-          "duration": 300,
-          "effect": "minecraft:resistance"
-        }
-      ]
+      "type": "animecore:aoe_sphere",
+      "color": 8444159,
+      "damage": 11.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
     }
   ],
   "affinity": "narutorpg:lightning",

@@ -1,23 +1,12 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "amplifier": 1,
-          "duration": 300,
-          "effect": "minecraft:strength"
-        },
-        {
-          "amplifier": 1,
-          "duration": 300,
-          "effect": "minecraft:speed"
-        },
-        {
-          "duration": 300,
-          "effect": "minecraft:resistance"
-        }
-      ]
+      "type": "animecore:beam_raycast",
+      "color": 16738816,
+      "damage": 11.0,
+      "fire_ticks": 100,
+      "pierce": false,
+      "range": 24.0
     }
   ],
   "affinity": "narutorpg:fire",

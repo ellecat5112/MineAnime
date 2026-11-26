@@ -426,19 +426,26 @@
   "antlion_ninja_arts_ephemeral": {
    "actions": [
     {
-     "aoe_radius": 3.0,
      "color": 9489145,
-     "count": 1,
+     "cone_degrees": 80.0,
      "damage": 14.0,
-     "fire_ticks": 0,
-     "lifetime_ticks": 50,
-     "size": 1.0,
-     "speed": 1.1,
-     "spread_degrees": 0.0,
-     "type": "animecore:projectile"
+     "effects": [
+      {
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
-   "cast_type": "charged",
+   "cast_type": "instant",
    "combo": [
     "narutorpg:snake",
     "narutorpg:bird"
@@ -446,10 +453,8 @@
    "cooldown_ticks": 228,
    "cost": {
     "amount": 42.0,
-    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
-   "max_charge_ticks": 40,
    "name": {
     "fallback": "Antlion Ninja Arts: Ephemeral",
     "translate": "ability.narutorpg.antlion_ninja_arts_ephemeral"
@@ -1598,15 +1603,13 @@
   "cellular_regeneration_absorption": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 1,
-       "duration": 120,
-       "effect": "minecraft:regeneration"
-      }
-     ],
-     "heal": 6.0,
-     "type": "animecore:self_buff"
+     "color": 9489145,
+     "damage": 11.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 4.0,
+     "type": "animecore:aoe_sphere"
     }
    ],
    "cast_type": "instant",
@@ -1702,24 +1705,24 @@
   "chain": {
    "actions": [
     {
+     "color": 16766287,
+     "cone_degrees": 50.0,
+     "damage": 6.6,
      "effects": [
       {
-       "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:strength"
+       "amplifier": 3,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
        "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 300,
-       "effect": "minecraft:resistance"
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "pull": 1.5,
+     "radius": 7.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -1908,26 +1911,31 @@
   "chakra_threads_fuma": {
    "actions": [
     {
-     "aoe_radius": 3.0,
      "color": 9489145,
-     "count": 1,
+     "cone_degrees": 80.0,
      "damage": 14.0,
-     "fire_ticks": 0,
-     "lifetime_ticks": 25,
-     "size": 1.0,
-     "speed": 1.1,
-     "spread_degrees": 0.0,
-     "type": "animecore:projectile"
+     "effects": [
+      {
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
-   "cast_type": "charged",
+   "cast_type": "instant",
    "cooldown_ticks": 228,
    "cost": {
     "amount": 42.0,
-    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
-   "max_charge_ticks": 40,
    "name": {
     "fallback": "Chakra Threads (Fūma)",
     "translate": "ability.narutorpg.chakra_threads_fuma"
@@ -2464,26 +2472,13 @@
   "daikokuten_karma_flame": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 400,
-       "effect": "minecraft:night_vision"
-      }
-     ],
-     "type": "animecore:self_buff"
-    },
-    {
      "color": 12986408,
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:glowing"
-      }
-     ],
-     "radius": 24.0,
-     "type": "animecore:area_effect"
+     "damage": 14.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 4.0,
+     "type": "animecore:aoe_sphere"
     }
    ],
    "cast_type": "instant",
@@ -3314,16 +3309,23 @@
   "earth_release_antlion_technique": {
    "actions": [
     {
-     "aoe_radius": 1.5,
      "color": 9268835,
-     "count": 1,
+     "cone_degrees": 80.0,
      "damage": 6.0,
-     "fire_ticks": 0,
-     "lifetime_ticks": 50,
-     "size": 0.6,
-     "speed": 1.4,
-     "spread_degrees": 0.0,
-     "type": "animecore:projectile"
+     "effects": [
+      {
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:earth",
@@ -3343,19 +3345,13 @@
   "earth_release_double_suicide_decapitation_technique": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "color": 9268835,
+     "damage": 4.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
     }
    ],
    "affinity": "narutorpg:earth",
@@ -3446,19 +3442,13 @@
   "earth_release_earth_wave_technique": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "color": 9268835,
+     "damage": 4.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 3.0,
+     "type": "animecore:aoe_sphere"
     }
    ],
    "affinity": "narutorpg:earth",
@@ -5675,17 +5665,23 @@
   "ice_prison_technique": {
    "actions": [
     {
-     "aoe_radius": 1.5,
      "color": 10875635,
-     "count": 1,
+     "cone_degrees": 80.0,
      "damage": 6.0,
-     "fire_ticks": 0,
-     "lifetime_ticks": 25,
-     "size": 0.6,
-     "speed": 1.4,
-     "spread_degrees": 0.0,
-     "trail_particle": "minecraft:splash",
-     "type": "animecore:projectile"
+     "effects": [
+      {
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:ice",
@@ -5812,19 +5808,23 @@
   "ice_release_frozen_capturing_field": {
    "actions": [
     {
+     "color": 10875635,
+     "cone_degrees": 80.0,
+     "damage": 8.0,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:ice",
@@ -6428,19 +6428,19 @@
   "insect_rope_technique": {
    "actions": [
     {
-     "color": 3369246,
-     "cone_degrees": 90.0,
-     "damage": 3.0,
+     "color": 9489145,
+     "cone_degrees": 80.0,
+     "damage": 6.0,
      "effects": [
       {
-       "amplifier": 0,
+       "amplifier": 4,
        "duration": 100,
-       "effect": "minecraft:poison"
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
+       "amplifier": 1,
        "duration": 100,
-       "effect": "minecraft:weakness"
+       "effect": "minecraft:mining_fatigue"
       }
      ],
      "radius": 8.0,
@@ -7716,7 +7716,7 @@
      "aoe_radius": 0.0,
      "color": 12755563,
      "count": 5,
-     "damage": 8.0,
+     "damage": 3.2,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -7807,24 +7807,24 @@
   "magnet_release_spiral_jet_black": {
    "actions": [
     {
+     "color": 16766287,
+     "cone_degrees": 50.0,
+     "damage": 6.6,
      "effects": [
       {
-       "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:strength"
+       "amplifier": 3,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
        "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 300,
-       "effect": "minecraft:resistance"
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "pull": 1.5,
+     "radius": 7.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:magnet",
@@ -7924,7 +7924,7 @@
      "aoe_radius": 0.0,
      "color": 9489145,
      "count": 5,
-     "damage": 4.0,
+     "damage": 1.6,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -7953,7 +7953,7 @@
      "aoe_radius": 0.0,
      "color": 9489145,
      "count": 5,
-     "damage": 6.0,
+     "damage": 2.4,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -8362,32 +8362,26 @@
   "multiple_lotus_nonself_connected_cannons": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:strength"
-      },
-      {
-       "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 300,
-       "effect": "minecraft:resistance"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "aoe_radius": 3.0,
+     "color": 9489145,
+     "count": 1,
+     "damage": 11.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 50,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
     }
    ],
-   "cast_type": "instant",
+   "cast_type": "charged",
    "cooldown_ticks": 192,
    "cost": {
     "amount": 33.0,
+    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
+   "max_charge_ticks": 40,
    "name": {
     "fallback": "Multiple Lotus Nonself Connected Cannons",
     "translate": "ability.narutorpg.multiple_lotus_nonself_connected_cannons"
@@ -9251,23 +9245,26 @@
   "poison_mist": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 1,
-       "duration": 120,
-       "effect": "minecraft:regeneration"
-      }
-     ],
-     "heal": 6.0,
-     "type": "animecore:self_buff"
+     "aoe_radius": 3.0,
+     "color": 9489145,
+     "count": 1,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
     }
    ],
-   "cast_type": "instant",
+   "cast_type": "charged",
    "cooldown_ticks": 156,
    "cost": {
     "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
+   "max_charge_ticks": 40,
    "name": {
     "fallback": "Poison Mist",
     "translate": "ability.narutorpg.poison_mist"
@@ -9324,19 +9321,23 @@
   "prisoner_cursed_seal": {
    "actions": [
     {
+     "color": 9489145,
+     "cone_degrees": 80.0,
+     "damage": 4.0,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -9631,24 +9632,24 @@
   "sage_art_magnet_release_rasengan": {
    "actions": [
     {
+     "color": 16766287,
+     "cone_degrees": 50.0,
+     "damage": 6.6,
      "effects": [
       {
-       "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:strength"
+       "amplifier": 3,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
        "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 300,
-       "effect": "minecraft:resistance"
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "pull": 1.5,
+     "radius": 7.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:magnet",
@@ -9716,33 +9717,27 @@
   "sage_art_wood_release_true_several_thousand_hands": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:strength"
-      },
-      {
-       "amplifier": 1,
-       "duration": 300,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 300,
-       "effect": "minecraft:resistance"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "aoe_radius": 3.0,
+     "color": 7179066,
+     "count": 1,
+     "damage": 11.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
     }
    ],
    "affinity": "narutorpg:wood",
-   "cast_type": "instant",
+   "cast_type": "charged",
    "cooldown_ticks": 192,
    "cost": {
     "amount": 33.0,
+    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
+   "max_charge_ticks": 40,
    "name": {
     "fallback": "Sage Art Wood Release: True Several Thousand Hands",
     "translate": "ability.narutorpg.sage_art_wood_release_true_several_thousand_hands"
@@ -10312,19 +10307,23 @@
   "shadow_cage_technique": {
    "actions": [
     {
+     "color": 9489145,
+     "cone_degrees": 80.0,
+     "damage": 6.0,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -10502,23 +10501,22 @@
   "shadow_imitation_shadow_bind_technique": {
    "actions": [
     {
-     "color": 2171169,
-     "cone_degrees": 60.0,
-     "damage": 0.0,
+     "color": 6953882,
+     "cone_degrees": 80.0,
+     "damage": 6.0,
      "effects": [
       {
-       "amplifier": 5,
+       "amplifier": 4,
        "duration": 100,
        "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 2,
+       "amplifier": 1,
        "duration": 100,
        "effect": "minecraft:mining_fatigue"
       }
      ],
-     "pull": 0.0,
-     "radius": 10.0,
+     "radius": 8.0,
      "type": "animecore:area_effect"
     }
    ],
@@ -10542,7 +10540,7 @@
      "aoe_radius": 0.0,
      "color": 6953882,
      "count": 5,
-     "damage": 6.0,
+     "damage": 2.4,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -10645,7 +10643,7 @@
      "aoe_radius": 0.0,
      "color": 9489145,
      "count": 5,
-     "damage": 4.0,
+     "damage": 1.6,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -10699,23 +10697,22 @@
   "shadowneck_binding_technique": {
    "actions": [
     {
-     "color": 2171169,
-     "cone_degrees": 60.0,
-     "damage": 2.4000000000000004,
+     "color": 6953882,
+     "cone_degrees": 80.0,
+     "damage": 6.0,
      "effects": [
       {
-       "amplifier": 5,
+       "amplifier": 4,
        "duration": 100,
        "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 2,
+       "amplifier": 1,
        "duration": 100,
        "effect": "minecraft:mining_fatigue"
       }
      ],
-     "pull": 0.0,
-     "radius": 10.0,
+     "radius": 8.0,
      "type": "animecore:area_effect"
     }
    ],
@@ -12057,19 +12054,16 @@
   "tailed_beast_replication": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "aoe_radius": 1.5,
+     "color": 9489145,
+     "count": 1,
+     "damage": 4.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
     }
    ],
    "cast_type": "instant",
@@ -12452,12 +12446,12 @@
   "tight_binding_golden_chain_technique": {
    "actions": [
     {
-     "color": 16766287,
-     "cone_degrees": 50.0,
-     "damage": 3.5999999999999996,
+     "color": 9489145,
+     "cone_degrees": 80.0,
+     "damage": 6.0,
      "effects": [
       {
-       "amplifier": 3,
+       "amplifier": 4,
        "duration": 100,
        "effect": "minecraft:slowness"
       },
@@ -12467,8 +12461,7 @@
        "effect": "minecraft:mining_fatigue"
       }
      ],
-     "pull": 1.5,
-     "radius": 7.0,
+     "radius": 8.0,
      "type": "animecore:area_effect"
     }
    ],
@@ -13053,19 +13046,23 @@
   "water_prison_shark_dance_technique": {
    "actions": [
     {
+     "color": 2718207,
+     "cone_degrees": 80.0,
+     "damage": 14.0,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:water",
@@ -13085,19 +13082,23 @@
   "water_prison_technique": {
    "actions": [
     {
+     "color": 2718207,
+     "cone_degrees": 80.0,
+     "damage": 6.0,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:water",
@@ -13261,28 +13262,29 @@
   "water_release_great_water_arm_technique": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "aoe_radius": 3.0,
+     "color": 2718207,
+     "count": 1,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "trail_particle": "minecraft:splash",
+     "type": "animecore:projectile"
     }
    ],
    "affinity": "narutorpg:water",
-   "cast_type": "instant",
+   "cast_animation": "narutorpg:fireball_exhale",
+   "cast_type": "charged",
    "cooldown_ticks": 156,
    "cost": {
     "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
+   "max_charge_ticks": 40,
    "name": {
     "fallback": "Water Release: Great Water Arm Technique",
     "translate": "ability.narutorpg.water_release_great_water_arm_technique"
@@ -13647,22 +13649,21 @@
   "wind_release_passing_typhoon": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "aoe_radius": 1.5,
+     "color": 11730777,
+     "count": 1,
+     "damage": 4.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 0.6,
+     "speed": 1.4,
+     "spread_degrees": 0.0,
+     "trail_particle": "minecraft:cloud",
+     "type": "animecore:projectile"
     }
    ],
    "affinity": "narutorpg:wind",
+   "cast_animation": "narutorpg:fireball_exhale",
    "cast_type": "instant",
    "cooldown_ticks": 108,
    "cost": {
@@ -13863,19 +13864,13 @@
   "wood_release_four_pillar_house_technique": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "color": 7179066,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 4.0,
+     "type": "animecore:aoe_sphere"
     }
    ],
    "affinity": "narutorpg:wood",
@@ -13900,19 +13895,23 @@
   "wood_release_four_pillar_prison_technique": {
    "actions": [
     {
+     "color": 7179066,
+     "cone_degrees": 80.0,
+     "damage": 8.0,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:wood",
@@ -14101,28 +14100,27 @@
   "wood_release_nativity_of_a_sea_of_trees": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "aoe_radius": 3.0,
+     "color": 7179066,
+     "count": 1,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
     }
    ],
    "affinity": "narutorpg:wood",
-   "cast_type": "instant",
+   "cast_type": "charged",
    "cooldown_ticks": 156,
    "cost": {
     "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
+   "max_charge_ticks": 40,
    "name": {
     "fallback": "Wood Release: Nativity of a Sea of Trees",
     "translate": "ability.narutorpg.wood_release_nativity_of_a_sea_of_trees"
@@ -14164,23 +14162,20 @@
   "wood_release_serial_pillar_houses_technique": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "aoe_radius": 3.0,
+     "color": 7179066,
+     "count": 1,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "lifetime_ticks": 25,
+     "size": 1.0,
+     "speed": 1.1,
+     "spread_degrees": 0.0,
+     "type": "animecore:projectile"
     }
    ],
    "affinity": "narutorpg:wood",
-   "cast_type": "instant",
+   "cast_type": "charged",
    "combo": [
     "narutorpg:ram",
     "narutorpg:snake"
@@ -14188,8 +14183,10 @@
    "cooldown_ticks": 156,
    "cost": {
     "amount": 24.0,
+    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
+   "max_charge_ticks": 40,
    "name": {
     "fallback": "Wood Release: Serial Pillar Houses Technique",
     "translate": "ability.narutorpg.wood_release_serial_pillar_houses_technique"
@@ -14200,12 +14197,12 @@
   "wood_release_smothering_binding_technique": {
    "actions": [
     {
-     "color": 16766287,
-     "cone_degrees": 50.0,
-     "damage": 4.8,
+     "color": 7179066,
+     "cone_degrees": 80.0,
+     "damage": 8.0,
      "effects": [
       {
-       "amplifier": 3,
+       "amplifier": 4,
        "duration": 100,
        "effect": "minecraft:slowness"
       },
@@ -14215,8 +14212,7 @@
        "effect": "minecraft:mining_fatigue"
       }
      ],
-     "pull": 1.5,
-     "radius": 7.0,
+     "radius": 8.0,
      "type": "animecore:area_effect"
     }
    ],
@@ -14237,19 +14233,23 @@
   "wood_release_stocks": {
    "actions": [
     {
+     "color": 7179066,
+     "cone_degrees": 80.0,
+     "damage": 8.0,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:wood",
@@ -14305,27 +14305,32 @@
   "wood_release_tree_bind_flourishing_burial": {
    "actions": [
     {
-     "aoe_radius": 3.0,
      "color": 7179066,
-     "count": 1,
+     "cone_degrees": 80.0,
      "damage": 8.0,
-     "fire_ticks": 0,
-     "lifetime_ticks": 25,
-     "size": 1.0,
-     "speed": 1.1,
-     "spread_degrees": 0.0,
-     "type": "animecore:projectile"
+     "effects": [
+      {
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:wood",
-   "cast_type": "charged",
+   "cast_type": "instant",
    "cooldown_ticks": 156,
    "cost": {
     "amount": 24.0,
-    "charge_drain_per_tick": 0.25,
     "pool": "narutorpg:chakra"
    },
-   "max_charge_ticks": 40,
    "name": {
     "fallback": "Wood Release: Tree Bind Flourishing Burial",
     "translate": "ability.narutorpg.wood_release_tree_bind_flourishing_burial"
@@ -14445,19 +14450,13 @@
   "wood_release_wood_spikes_ring": {
    "actions": [
     {
-     "effects": [
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
-      {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
-      }
-     ],
-     "type": "animecore:self_buff"
+     "color": 7179066,
+     "damage": 8.0,
+     "fire_ticks": 0,
+     "forward_offset": 2.0,
+     "knockback": 0.8,
+     "radius": 4.0,
+     "type": "animecore:aoe_sphere"
     }
    ],
    "affinity": "narutorpg:wood",

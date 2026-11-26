@@ -4,6 +4,7 @@
       "type": "animecore:projectile",
       "color": 9489145,
       "count": 5,
+      "damage": 1.6,
       "lifetime_ticks": 30,
       "size": 0.3,
       "speed": 2.0,

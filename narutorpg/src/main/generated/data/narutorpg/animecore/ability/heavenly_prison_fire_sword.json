@@ -1,13 +1,23 @@
 {
   "actions": [
     {
-      "type": "animecore:aoe_sphere",
+      "type": "animecore:area_effect",
       "color": 16738816,
+      "cone_degrees": 80.0,
       "damage": 6.0,
-      "fire_ticks": 60,
-      "forward_offset": 2.0,
-      "knockback": 0.8,
-      "radius": 3.0
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 8.0
     }
   ],
   "affinity": "narutorpg:fire",

@@ -149,7 +149,7 @@
      "aoe_radius": 0.0,
      "color": 9489145,
      "count": 5,
-     "damage": 6.0,
+     "damage": 2.4,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -951,7 +951,7 @@
      "aoe_radius": 0.0,
      "color": 9489145,
      "count": 5,
-     "damage": 6.0,
+     "damage": 2.4,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -1014,7 +1014,7 @@
      "aoe_radius": 0.0,
      "color": 9489145,
      "count": 5,
-     "damage": 6.0,
+     "damage": 2.4,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -1123,16 +1123,23 @@
   "net_shaped_prison": {
    "actions": [
     {
-     "aoe_radius": 1.5,
      "color": 9489145,
-     "count": 1,
+     "cone_degrees": 80.0,
      "damage": 6.0,
-     "fire_ticks": 0,
-     "lifetime_ticks": 50,
-     "size": 0.6,
-     "speed": 1.4,
-     "spread_degrees": 0.0,
-     "type": "animecore:projectile"
+     "effects": [
+      {
+       "amplifier": 4,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:mining_fatigue"
+      }
+     ],
+     "radius": 8.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -1531,7 +1538,7 @@
      "aoe_radius": 0.0,
      "color": 9489145,
      "count": 5,
-     "damage": 6.0,
+     "damage": 2.4,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,
@@ -1901,7 +1908,7 @@
      "aoe_radius": 0.0,
      "color": 2718207,
      "count": 5,
-     "damage": 6.0,
+     "damage": 2.4,
      "fire_ticks": 0,
      "lifetime_ticks": 30,
      "size": 0.3,

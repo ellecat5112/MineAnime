@@ -1,15 +1,11 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "effect": "minecraft:speed"
-        },
-        {
-          "effect": "minecraft:jump_boost"
-        }
-      ]
+      "type": "animecore:beam_raycast",
+      "color": 8444159,
+      "damage": 4.0,
+      "range": 28.0,
+      "width": 0.6
     }
   ],
   "affinity": "narutorpg:lightning",

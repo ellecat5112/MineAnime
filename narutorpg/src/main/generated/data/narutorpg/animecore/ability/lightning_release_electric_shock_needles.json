@@ -1,15 +1,12 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "effect": "minecraft:speed"
-        },
-        {
-          "effect": "minecraft:jump_boost"
-        }
-      ]
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 8444159,
+      "lifetime_ticks": 25,
+      "size": 0.6,
+      "speed": 1.4
     }
   ],
   "affinity": "narutorpg:lightning",

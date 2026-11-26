@@ -37,11 +37,22 @@ public final class AbilityDamage {
         if (target == attacker || !target.isAlive()) return false;
         float clash = affinity == null ? 1f
                 : AffinityMatrix.clash(AnimeRegistries.affinities(world.getRegistryManager()), affinity, AnimeCoreApi.affinitiesOf(target));
-        boolean hit = damage <= 0f || target.damage(source(world, direct, attacker), damage * clash);
+        boolean hit = damage <= 0f || damageIgnoringHurtCooldown(world, target, source(world, direct, attacker), damage * clash);
         if (hit) {
             if (fireTicks > 0) target.setOnFireForTicks(fireTicks);
             if (knockback > 0f) target.takeKnockback(knockback, from.x - target.getX(), from.z - target.getZ());
         }
         return hit;
+    }
+
+    /**
+     * Vanilla gives a mob ~10 ticks of hurt cooldown after any hit, during which further damage only counts the amount
+     * above the previous hit. A jutsu cast right after a punch, the second shot of a volley, or a beam that follows its
+     * own explosion was therefore reduced to little or nothing. Ability hits ignore that cooldown (it still starts
+     * afterwards, so melee spam cannot exploit it).
+     */
+    private static boolean damageIgnoringHurtCooldown(ServerWorld world, LivingEntity target, DamageSource source, float amount) {
+        target.timeUntilRegen = 0;
+        return target.damage(source, amount);
     }
 }

@@ -1,15 +1,11 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
-      "effects": [
-        {
-          "effect": "minecraft:speed"
-        },
-        {
-          "effect": "minecraft:jump_boost"
-        }
-      ]
+      "type": "animecore:aoe_sphere",
+      "color": 11730777,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
     }
   ],
   "affinity": "narutorpg:wind",

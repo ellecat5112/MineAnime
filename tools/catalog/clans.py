@@ -260,6 +260,21 @@ def nature_of(info):
     return None
 
 
+# Attack words in a technique's name. Many wiki infoboxes leave out the "Offensive" class type, which used to turn
+# attacks like Big Flame Bullet or Earth Spear into a harmless speed buff.
+ATTACK_NAME = re.compile(r'bullet|spear|blast|bomb|cannon|rasen|chidori|raikiri|drill|missile|slash|strike|fist(?! prison)|'
+                         r'kick|punch|lariat|explo|crush|burial|decapitat|needle|arrow|fang|shot|blade|sword|katana|odachi|ōdachi|'
+                         r'incinerat|fireball|flame|dragon|cutter|scythe|lance|stake|bullet|barrage|meteor|bolt|thunder|'
+                         r'hammer|smash|tornado|vortex|typhoon|wave|storm|shark|wolf|tiger|lion|hound|beast|kunai|shuriken|'
+                         r'senbon|wheel|cutting|piercing|severing|destruction|annihilat|breaker|impact|dance|assault|rampage|'
+                         r'great ball|bijū|tailed beast ball|jet|gun|rain|hail|torrent|whirl|split|tearing|pillar|spike|thorn|horn|'
+                         r'gravel|landslide|archerfish|water arm|rush|locust|pulveris|lightning flash|sea of trees|earth drop',
+                         re.I)
+BIND_NAME = re.compile(r'prison|imprison|binding|bind|swamp|antlion|coffin|entomb|capture|capturing|restrain|cage|stocks|rope|mud hole|threads', re.I)
+UTILITY_NAME = re.compile(r'hiding|tunnel|projection|spying|corridor|transformation|clone|substitution|'
+                          r'ultralight|weight|jump|transmission|mode|luster|armou?r|wall|dome|shield|barrier|shelter|rampart|defen', re.I)
+
+
 def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
     c = classes(info)
     types = set(split(info['jutsu class type']))
@@ -269,15 +284,20 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
     dmg = float(RANK_DAMAGE[rank])
     color = COLORS.get(nature, 0xC62828 if 'Dōjutsu' in c else 0x90CAF9)
     jtype = info['jutsu type']
-    offensive = 'Offensive' in types
-    defensive = 'Defensive' in types and not offensive
     lt = title.lower()
+    named_attack = bool(ATTACK_NAME.search(lt)) and not UTILITY_NAME.search(lt)
+    offensive = 'Offensive' in types or (named_attack and 'Defensive' not in types)
+    defensive = 'Defensive' in types and not offensive
+    binding = bool(BIND_NAME.search(lt))
     actions = []
     cast = 'instant'
     anim = None
 
     def proj(speed=1.3, size=0.6, aoe=0.0, count=1, spread=0.0, life=40, fire=0):
-        d = {'type': 'animecore:projectile', 'speed': speed, 'damage': dmg, 'size': size, 'aoe_radius': aoe,
+        # every shot of a volley deals its own damage (ability hits ignore the hurt cooldown), so a volley that lands
+        # completely deals about twice a single shot
+        shot = dmg if count == 1 else round(dmg * 2.0 / count, 1)
+        d = {'type': 'animecore:projectile', 'speed': speed, 'damage': shot, 'size': size, 'aoe_radius': aoe,
              'fire_ticks': fire, 'count': count, 'spread_degrees': spread, 'lifetime_ticks': life, 'color': color}
         if nature == 'fire':
             d['trail_particle'] = 'minecraft:flame'
@@ -296,7 +316,7 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
         actions.append({'type': 'animecore:self_buff', 'effects': [effect('night_vision', 400)]})
         actions.append({'type': 'animecore:area_effect', 'radius': 24.0, 'color': color,
                         'effects': [effect('glowing', 200)]})
-    elif c & {'Medical Ninjutsu', 'Regeneration Techniques'} or 'heal' in lt or 'mystical palm' in lt:
+    elif (c & {'Medical Ninjutsu', 'Regeneration Techniques'} and not offensive) or 'heal' in lt or 'mystical palm' in lt:
         actions.append({'type': 'animecore:self_buff', 'heal': 6.0, 'effects': [effect('regeneration', 120, 1)]})
     elif 'Space–Time Ninjutsu' in c and not offensive:
         actions.append({'type': 'animecore:dash_strike', 'mode': 'look', 'distance': 14.0, 'damage': 0.0, 'hit_radius': 1.0, 'knockback': 0.0})
@@ -322,7 +342,11 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
         if rank in 'ABS':
             actions.append({'type': 'animecore:aoe_sphere', 'radius': 3.0, 'damage': dmg * 0.5, 'knockback': 1.2,
                             'forward_offset': 1.5, 'color': color})
-    elif c & {'Taijutsu', 'Fighting Style', 'Fighting style', 'Senjutsu'} or 'gate' in lt or 'mode' in lt:
+    elif binding and not defensive:
+        # prisons, swamps and binds: crush and hold every target in front of the caster
+        actions.append({'type': 'animecore:area_effect', 'radius': 8.0, 'cone_degrees': 80.0, 'damage': dmg, 'color': color,
+                        'effects': [effect('slowness', 100, 4), effect('mining_fatigue', 100, 1)]})
+    elif (c & {'Taijutsu', 'Fighting Style', 'Fighting style', 'Senjutsu'} and not offensive) or 'gate' in lt or 'mode' in lt:
         amp = 1 if rank in 'ABS' else 0
         actions.append({'type': 'animecore:self_buff', 'effects': [effect('strength', 300, amp), effect('speed', 300, amp),
                                                                   effect('resistance', 300, 0)]})

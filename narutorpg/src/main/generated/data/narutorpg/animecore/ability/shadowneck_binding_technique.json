@@ -2,22 +2,22 @@
   "actions": [
     {
       "type": "animecore:area_effect",
-      "color": 2171169,
-      "cone_degrees": 60.0,
-      "damage": 2.4,
+      "color": 6953882,
+      "cone_degrees": 80.0,
+      "damage": 6.0,
       "effects": [
         {
-          "amplifier": 5,
+          "amplifier": 4,
           "duration": 100,
           "effect": "minecraft:slowness"
         },
         {
-          "amplifier": 2,
+          "amplifier": 1,
           "duration": 100,
           "effect": "minecraft:mining_fatigue"
         }
       ],
-      "radius": 10.0
+      "radius": 8.0
     }
   ],
   "affinity": "narutorpg:yin",
