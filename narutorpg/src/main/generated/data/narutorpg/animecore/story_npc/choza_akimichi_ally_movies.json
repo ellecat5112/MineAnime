@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:butterfly_bullet_bombing",
+    "narutorpg:double_human_bullet_tank",
+    "narutorpg:formation_inoshikacho",
+    "narutorpg:human_bullet_tank",
+    "narutorpg:spiked_human_bullet_tank",
+    "narutorpg:butterfly_mode"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "hair": 9255710,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "armor",
+    "pants": 1713022,
+    "top": 12000284
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Chōza Akimichi",
+    "translate": "npc.narutorpg.choza_akimichi"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

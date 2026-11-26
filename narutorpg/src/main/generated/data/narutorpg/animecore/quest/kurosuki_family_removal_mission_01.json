@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kurosuki Family Removal Mission",
+    "translate": "quest.narutorpg.arc.kurosuki_family_removal_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] When Naruto saves Rokusuke, Sangorō, and Hachidai, he is dragged into yet another mission. However, unlike the last two involving a search for Sasuke Uchiha, he is reluctant to participate. However, when Guy reveals information that the leader of the Kurosuki family, Raiga, is connected with the Seven Ninja Swordsmen of the Mist, Naruto changes his mind, since Kisame Hoshigaki of Akatsuki was a part of the group.",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.desc"
+  },
+  "giver": "narutorpg:might_guy",
+  "intro": [
+    {
+      "fallback": "When Naruto saves Rokusuke, Sangorō, and Hachidai, he is dragged into yet another mission.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.intro0"
+    },
+    {
+      "fallback": "However, unlike the last two involving a search for Sasuke Uchiha, he is reluctant to participate.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.intro1"
+    },
+    {
+      "fallback": "However, when Guy reveals information that the leader of the Kurosuki family, Raiga, is connected with the Seven Ninja Swordsmen of the Mist, Naruto changes his mind, since Kisame Hoshigaki of Akatsuki was a part of the...",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Funeral March for the Living",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:might_guy",
+      "text": {
+        "fallback": "Talk to Might Guy",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Funeral March for the Living",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.o3"
+      }
+    }
+  ],
+  "order": 16200,
+  "outro": [
+    {
+      "fallback": "Lee concludes that as Kisame is Itachi's partner, and finding Itachi may bring them closer to Sasuke.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.outro0"
+    },
+    {
+      "fallback": "With Neji, Lee, and Tenten as his allies, the group goes on their new mission.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

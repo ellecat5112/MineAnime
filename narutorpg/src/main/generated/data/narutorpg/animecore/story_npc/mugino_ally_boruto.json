@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_rock_gun_technique",
+    "narutorpg:earth_release_rock_lodging_destruction",
+    "narutorpg:barrier_releasing_technique"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "hair": 9268835,
+    "headband": 1981066,
+    "outfit": "jacket",
+    "skin": 16767916,
+    "top": 2046559
+  },
+  "attack": 16.0,
+  "health": 228.0,
+  "name": {
+    "fallback": "Mugino",
+    "translate": "npc.narutorpg.mugino"
+  },
+  "power": 2.44,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

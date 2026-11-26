@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Konoha Hiden: The Perfect Day for a Wedding",
+    "translate": "quest.narutorpg.arc.konoha_hiden_the_perfect_day_for_a_wedding"
+  },
+  "description": {
+    "fallback": "Iruka dreams back to when Naruto stole the Scroll of Seals. Konohamaru wants to record another message from Iruka, finding the previous one to be uninspired. Iruka still doesn't know what to say.",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Iruka dreams back to when Naruto stole the Scroll of Seals.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.intro0"
+    },
+    {
+      "fallback": "Konohamaru wants to record another message from Iruka, finding the previous one to be uninspired.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.intro1"
+    },
+    {
+      "fallback": "Iruka still doesn't know what to say.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Message",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: The Message",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Meet Iruka Umino",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.o3"
+      }
+    }
+  ],
+  "order": 150406,
+  "outro": [
+    {
+      "fallback": "He scolds Tsukune, Mibuna, and Sansho for vandalising the Third Hokage's statue again.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.outro0"
+    },
+    {
+      "fallback": "Sadoru asks Iruka if he'll be making a speech during the ceremony, but Iruka says Kakashi will do it.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_07.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_06"
+  ],
+  "rewards": {
+    "experience": 35,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

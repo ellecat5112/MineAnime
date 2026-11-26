@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:iwabee_yuino_ally_boruto",
+    "narutorpg:denki_kaminarimon_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Two days after Funamushi's defeat, the village receives relief supplies from Kirigakure. They're concerned about Iwabee and Denki, but Metal is still searching for them with Team 7's assistance. They find an injured Funato soldier, and take him back to the village, where Sarada heals him.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Two days after Funamushi's defeat, the village receives relief supplies from Kirigakure.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.intro0"
+    },
+    {
+      "fallback": "They're concerned about Iwabee and Denki, but Metal is still searching for them with Team 7's assistance.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.intro1"
+    },
+    {
+      "fallback": "They find an injured Funato soldier, and take him back to the village, where Sarada heals him.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Burgeoning Hatred",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Burgeoning Hatred",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:funamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Funamushi",
+        "translate": "quest.narutorpg.defeat.funamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 224316,
+  "outro": [
+    {
+      "fallback": "Sarada takes responsibility for Hebiichigo's death as captain.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.outro0"
+    },
+    {
+      "fallback": "They agree that Kagura would be glad they saved the village, and commit themselves to finding Denki and Iwabee, and bringing them home.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_17.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_16"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

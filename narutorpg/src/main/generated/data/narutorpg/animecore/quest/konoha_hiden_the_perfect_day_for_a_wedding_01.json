@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Konoha Hiden: The Perfect Day for a Wedding",
+    "translate": "quest.narutorpg.arc.konoha_hiden_the_perfect_day_for_a_wedding"
+  },
+  "description": {
+    "fallback": "Konohamaru records a congratulatory message from Sakura for Naruto and Hinata's wedding. Sai isn't sure he can express himself in such a manner, but Sakura forces him to record a message as well. Sai struggles, coming off too stiff or too forced.",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Konohamaru records a congratulatory message from Sakura for Naruto and Hinata's wedding.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.intro0"
+    },
+    {
+      "fallback": "Sai isn't sure he can express himself in such a manner, but Sakura forces him to record a message as well.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.intro1"
+    },
+    {
+      "fallback": "Sai struggles, coming off too stiff or too forced.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Naruto's Wedding",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: Naruto's Wedding",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Meet Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.o3"
+      }
+    }
+  ],
+  "order": 150400,
+  "outro": [
+    {
+      "fallback": "Ino begins recording her message, but gets angry with Chōji and Shikamaru's comments.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.outro0"
+    },
+    {
+      "fallback": "Akamaru suddenly topples her, and Kiba takes over the recording, sparking an argument with Ino.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_01.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

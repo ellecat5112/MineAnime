@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:insect_jamming_technique",
+    "narutorpg:parasitic_destruction_insect_technique"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "mark": "glasses",
+    "outfit": "robe",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 5533306
+  },
+  "attack": 11.0,
+  "health": 158.0,
+  "name": {
+    "fallback": "Muta Aburame",
+    "translate": "npc.narutorpg.muta_aburame"
+  },
+  "power": 1.84,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

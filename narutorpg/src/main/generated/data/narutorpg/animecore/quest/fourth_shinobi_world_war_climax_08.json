@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:minato_namikaze_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "In present time, when Madara attempts to have him see things his way, Naruto declares that he is Minato's son and would not be persuaded by him. Noting that he was being lenient because Naruto was a true jinchūriki, declares he will no longer hold back. Creating an enormous wooden dragon, he notes that it had been used by Hashirama Senju in the past to bind the Nine-Tails, which prompts Naruto to manifest Kurama's...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "In present time, when Madara attempts to have him see things his way, Naruto declares that he is Minato's son and would not be persuaded by him.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.intro0"
+    },
+    {
+      "fallback": "Noting that he was being lenient because Naruto was a true jinchūriki, declares he will no longer hold back.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.intro1"
+    },
+    {
+      "fallback": "Creating an enormous wooden dragon, he notes that it had been used by Hashirama Senju in the past to bind the Nine-Tails, which prompts Naruto to manifest Kurama's body in Tailed Beast Mode to fight it.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kakashi vs. Obito & The Ten-Tails' Return",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: Kakashi vs. Obito & The Ten-Tails' Return",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:demonic_statue_of_the_outer_path_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Demonic Statue of the Outer Path",
+        "translate": "quest.narutorpg.defeat.demonic_statue_of_the_outer_path_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133207,
+  "outro": [
+    {
+      "fallback": "Obito uses his own wood technique to attempt to restrain Naruto while he attacked Kakashi, but is sent reeling by Naruto's intercepting headbutt.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.outro0"
+    },
+    {
+      "fallback": "Gyūki then decides to attack the Demonic Statue of the Outer Path before its transforma",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_08.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_07"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

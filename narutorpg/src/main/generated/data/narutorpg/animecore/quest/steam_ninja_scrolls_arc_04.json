@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Steam Ninja Scrolls Arc",
+    "translate": "quest.narutorpg.arc.steam_ninja_scrolls_arc"
+  },
+  "description": {
+    "fallback": "Shikamaru thinks back to playing shōgi with Asuma, back when he still didn't know who was the \"king\". He believes Mirai will soon be old enough to realise the answer as well. Mirai, Kakashi, Guy, and Tatsumi travel to their next stop, a supposedly lesser known hot spring.",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Shikamaru thinks back to playing shōgi with Asuma, back when he still didn't know who was the \"king\".",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.intro0"
+    },
+    {
+      "fallback": "He believes Mirai will soon be old enough to realise the answer as well.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.intro1"
+    },
+    {
+      "fallback": "Mirai, Kakashi, Guy, and Tatsumi travel to their next stop, a supposedly lesser known hot spring.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Steam Ninja Scrolls: Potato Chips and the Giant Boulder!",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Go: The Steam Ninja Scrolls: Potato Chips and the Giant Boulder!",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:asuma_sarutobi",
+      "text": {
+        "fallback": "Meet Asuma Sarutobi",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.o3"
+      }
+    }
+  ],
+  "order": 211603,
+  "outro": [
+    {
+      "fallback": "They haven't asked the Land of Fire for help because they think they wouldn't bother coming all the way, or that they'd send low ranking individuals with no real authority.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.outro0"
+    },
+    {
+      "fallback": "Later, Mirai tries moving the boulder by herself, to no avail.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:steam_ninja_scrolls_arc_03"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

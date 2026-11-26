@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Sasuke Retsuden Arc",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_arc"
+  },
+  "description": {
+    "fallback": "Near the Land of Redaku, Sasuke overhears a pair of women discussing a wedding ring, recalling being told of the custom. He sends a messenger hawk, expending his search for intel on Code, returning to the Land of Redaku for the first time since Naruto was afflicted with an illness years prior. Kurama had shared with Naruto that the Sage of Six Paths suffered from the same illness.",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Near the Land of Redaku, Sasuke overhears a pair of women discussing a wedding ring, recalling being told of the custom.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_01.intro0"
+    },
+    {
+      "fallback": "He sends a messenger hawk, expending his search for intel on Code, returning to the Land of Redaku for the first time since Naruto was afflicted with an illness years prior.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_01.intro1"
+    },
+    {
+      "fallback": "Kurama had shared with Naruto that the Sage of Six Paths suffered from the same illness.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke Retsuden: Infiltration",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Go: Sasuke Retsuden: Infiltration",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Meet Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_01.o3"
+      }
+    }
+  ],
+  "order": 229200,
+  "outro": [
+    {
+      "fallback": "Sasuke decided to investigate on his own, Naruto too weak to stop him.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_01.outro0"
+    },
+    {
+      "fallback": "He infiltrated the institute as a prisoner, the institute now functioning as a prison, to look for records of how the Sage recovered from the illness.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_10"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

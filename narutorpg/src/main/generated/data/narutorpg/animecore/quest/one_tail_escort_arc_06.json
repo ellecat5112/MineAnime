@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shinki_ally_boruto",
+    "narutorpg:mirai_sarutobi_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "One-Tail Escort Arc",
+    "translate": "quest.narutorpg.arc.one_tail_escort_arc"
+  },
+  "description": {
+    "fallback": "Shinki continues towards the Land of Fire, while Shukaku wonders how Boruto is doing. Boruto attempts to hide from Urashiki to buy Shinki time, but Urashiki finds him with his Byakugan. Shinki arrives at the Land of Fire border, but is stopped by Mirai, who recognises him as Gaara's son.",
+    "translate": "quest.narutorpg.one_tail_escort_arc_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Shinki continues towards the Land of Fire, while Shukaku wonders how Boruto is doing.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_06.intro0"
+    },
+    {
+      "fallback": "Boruto attempts to hide from Urashiki to buy Shinki time, but Urashiki finds him with his Byakugan.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_06.intro1"
+    },
+    {
+      "fallback": "Shinki arrives at the Land of Fire border, but is stopped by Mirai, who recognises him as Gaara's son.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Boruto and Shinki",
+    "translate": "quest.narutorpg.one_tail_escort_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.one_tail_escort_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Boruto and Shinki",
+        "translate": "quest.narutorpg.one_tail_escort_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213005,
+  "outro": [
+    {
+      "fallback": "Urashiki attempts to steal Boruto's chakra, but is blocked by Shinki's Iron Sand.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_06.outro0"
+    },
+    {
+      "fallback": "Shinki tells Boruto he's guaranteed Shukaku's safety, and proceeds to attempt crushing Urashiki.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:one_tail_escort_arc_05"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

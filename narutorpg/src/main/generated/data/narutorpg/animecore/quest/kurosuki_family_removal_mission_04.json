@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kurosuki Family Removal Mission",
+    "translate": "quest.narutorpg.arc.kurosuki_family_removal_mission"
+  },
+  "description": {
+    "fallback": "With Raiga seemingly dead, the gang headed back to find Karashi waiting for them. It turned out to be a trap, as the Kurosuki family then ambushed them. Luckily, Naruto fooled them not once, but twice, with his clones.",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "With Raiga seemingly dead, the gang headed back to find Karashi waiting for them.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.intro0"
+    },
+    {
+      "fallback": "It turned out to be a trap, as the Kurosuki family then ambushed them.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.intro1"
+    },
+    {
+      "fallback": "Luckily, Naruto fooled them not once, but twice, with his clones.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Dark Creeping Clouds",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: The Dark Creeping Clouds",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 16203,
+  "outro": [
+    {
+      "fallback": "They headed back to the Curry of Life shop for a meal, where Naruto tried to retrieve information from Ranmaru.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.outro0"
+    },
+    {
+      "fallback": "Ranmaru had Karashi take him to the canyon where Raiga had fallen, and used his own chakra to revive him.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kurosuki_family_removal_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

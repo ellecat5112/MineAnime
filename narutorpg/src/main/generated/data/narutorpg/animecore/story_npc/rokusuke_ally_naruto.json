@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 2503224,
+    "eyes": 4431943,
+    "hair": 1973790,
+    "pants": 1713022,
+    "top": 7162945
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Rokusuke",
+    "translate": "npc.narutorpg.rokusuke"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

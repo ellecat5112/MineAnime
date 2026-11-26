@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sasuke_uchiha_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "Elsewhere in Konoha, though sensing Naruto's chakra as it was being given, Sasuke instructs Suigetsu and Jūgo to press onwards with Orochimaru before they arrive to the Uzumaki Clan's Mask Storage Temple. Though it was actually a detour, Orochimaru took one of the masks with Suigetsu unnerved by Orochimaru's choosing. After Sasuke breaks away from the group to survey the village from a high point, he and his group...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Elsewhere in Konoha, though sensing Naruto's chakra as it was being given, Sasuke instructs Suigetsu and Jūgo to press onwards with Orochimaru before they arrive to the Uzumaki Clan's Mask Storage Temple.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.intro0"
+    },
+    {
+      "fallback": "Though it was actually a detour, Orochimaru took one of the masks with Suigetsu unnerved by Orochimaru's choosing.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.intro1"
+    },
+    {
+      "fallback": "After Sasuke breaks away from the group to survey the village from a high point, he and his group arrive to their destination: the remains of the ruined Naka Shrine.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Past Revealed",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: The Past Revealed",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:izuna_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Izuna Uchiha",
+        "translate": "quest.narutorpg.defeat.izuna_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133209,
+  "outro": [
+    {
+      "fallback": "He concludes that all had he done was an attempt to use the Uchiha's cursed heritage in a positive way and cannot be blamed their self destructive nature.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.outro0"
+    },
+    {
+      "fallback": "Hearing enough, Sasuke turns his attention to Hashirama to ask him wha",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_10.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_09"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

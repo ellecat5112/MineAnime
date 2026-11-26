@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "Konoha Plans Recapture Mission",
+    "translate": "quest.narutorpg.arc.konoha_plans_recapture_mission"
+  },
+  "description": {
+    "fallback": "The Anbu agents use reverse hypnosis on Naruto, but realise that he remembers nothing of importance. Some of the group researches Gennō, but finds little except for him being a mediocre carpenter who did little out of the ordinary. However, it is revealed that his letter of introduction was forged, and investigation of the scene of his suicide bombing and the corpse in the hospital suggests that Gennō staged his...",
+    "translate": "quest.narutorpg.konoha_plans_recapture_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The Anbu agents use reverse hypnosis on Naruto, but realise that he remembers nothing of importance.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_02.intro0"
+    },
+    {
+      "fallback": "Some of the group researches Gennō, but finds little except for him being a mediocre carpenter who did little out of the ordinary.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_02.intro1"
+    },
+    {
+      "fallback": "However, it is revealed that his letter of introduction was forged, and investigation of the scene of his suicide bombing and the corpse in the hospital suggests that Gennō staged his death.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Anbu Gives Up? Naruto's Recollection",
+    "translate": "quest.narutorpg.konoha_plans_recapture_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 41,
+      "text": {
+        "fallback": "Go: The Anbu Gives Up? Naruto's Recollection",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:genno",
+      "text": {
+        "fallback": "Meet Gennō",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_02.o3"
+      }
+    }
+  ],
+  "order": 20701,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:konoha_plans_recapture_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

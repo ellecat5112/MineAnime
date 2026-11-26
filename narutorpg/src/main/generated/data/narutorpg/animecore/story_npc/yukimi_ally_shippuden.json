@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4545124,
+    "eyes": 1118481,
+    "hair": 14737632,
+    "hair_style": "long",
+    "skin": 16767916,
+    "top": 2635155
+  },
+  "attack": 12.0,
+  "health": 172.0,
+  "name": {
+    "fallback": "Yukimi",
+    "translate": "npc.narutorpg.yukimi"
+  },
+  "power": 1.96,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

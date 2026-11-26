@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "Post Mamushi Arc",
+    "translate": "quest.narutorpg.arc.post_mamushi_arc"
+  },
+  "description": {
+    "fallback": "Earlier, Boruto tells Sarada two ways of reaching the Human God Tree hideout. Because the Flying Thunder God Technique cannot work without Boruto's symbols being placed at the desired location, he suggests they must rely on Code's Claw Marks by him kidnapping Sarada and her leaving a symbol. Boruto stresses the mission must succeed with her only being taken by Code due to his desire of using her as bait for Boruto.",
+    "translate": "quest.narutorpg.post_mamushi_arc_03.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Earlier, Boruto tells Sarada two ways of reaching the Human God Tree hideout.",
+      "translate": "quest.narutorpg.post_mamushi_arc_03.intro0"
+    },
+    {
+      "fallback": "Because the Flying Thunder God Technique cannot work without Boruto's symbols being placed at the desired location, he suggests they must rely on Code's Claw Marks by him kidnapping Sarada and her leaving a symbol.",
+      "translate": "quest.narutorpg.post_mamushi_arc_03.intro1"
+    },
+    {
+      "fallback": "Boruto stresses the mission must succeed with her only being taken by Code due to his desire of using her as bait for Boruto.",
+      "translate": "quest.narutorpg.post_mamushi_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Trust",
+    "translate": "quest.narutorpg.post_mamushi_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.post_mamushi_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Trust",
+        "translate": "quest.narutorpg.post_mamushi_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    }
+  ],
+  "order": 304502,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:post_mamushi_arc_02"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

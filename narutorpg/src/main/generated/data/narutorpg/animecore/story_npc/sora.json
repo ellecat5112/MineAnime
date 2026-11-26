@@ -1,0 +1,16 @@
+{
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 2001125,
+    "hair": 1973790,
+    "skin": 16767916
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Sora",
+    "translate": "npc.narutorpg.sora"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

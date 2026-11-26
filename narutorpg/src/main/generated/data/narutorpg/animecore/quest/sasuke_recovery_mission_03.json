@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "Next, Neji ended up fighting Kidōmaru. Kidōmaru had trouble at short-range, since Neji's Byakugan and Gentle Fist were too powerful to penetrate. Kidōmaru ended up fighting from long-range, but the battle was locked in a stalemate, until Kidōmaru discovered a weakness of the Byakugan: it has a blind spot behind Neji's first thoracic vertebrae.",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_03.desc"
+  },
+  "giver": "narutorpg:neji_hyuga",
+  "intro": [
+    {
+      "fallback": "Next, Neji ended up fighting Kidōmaru.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_03.intro0"
+    },
+    {
+      "fallback": "Kidōmaru had trouble at short-range, since Neji's Byakugan and Gentle Fist were too powerful to penetrate.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_03.intro1"
+    },
+    {
+      "fallback": "Kidōmaru ended up fighting from long-range, but the battle was locked in a stalemate, until Kidōmaru discovered a weakness of the Byakugan: it has a blind spot behind Neji's first thoracic vertebrae.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Neji vs. Kidōmaru",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:neji_hyuga",
+      "text": {
+        "fallback": "Talk to Neji Hyūga",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Neji vs. Kidōmaru",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kidomaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kidōmaru",
+        "translate": "quest.narutorpg.defeat.kidomaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 11702,
+  "outro": [
+    {
+      "fallback": "Neji then caught up with Kidōmaru, and used his 8 Trigrams to close Kidōmaru's tenketsu (chakra points); Kidōmaru died shortly after.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_03.outro0"
+    },
+    {
+      "fallback": "Neji was left in a critical state after the fight.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

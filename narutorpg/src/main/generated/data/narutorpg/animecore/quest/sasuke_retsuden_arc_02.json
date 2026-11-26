@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_boruto",
+    "narutorpg:kakashi_hatake_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden Arc",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_arc"
+  },
+  "description": {
+    "fallback": "Sasuke receives a beating from the guards over his attempt to put Zansūru under genjutsu, putting up no resistance and giving no reaction. Jiji and Penjira check on him. Jiji suggests Sasuke get himself checked in the infirmary, having learned of a new, attractive, and single doctor.",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_02.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Sasuke receives a beating from the guards over his attempt to put Zansūru under genjutsu, putting up no resistance and giving no reaction.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_02.intro0"
+    },
+    {
+      "fallback": "Jiji and Penjira check on him.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_02.intro1"
+    },
+    {
+      "fallback": "Jiji suggests Sasuke get himself checked in the infirmary, having learned of a new, attractive, and single doctor.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke Retsuden: Star Lines",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Sasuke Retsuden: Star Lines",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zansuru_foe_boruto",
+      "text": {
+        "fallback": "Defeat Zansūru",
+        "translate": "quest.narutorpg.defeat.zansuru_foe_boruto"
+      }
+    }
+  ],
+  "order": 229201,
+  "outro": [
+    {
+      "fallback": "She has come to update him on his mission, having received intel from Kakashi about the Sage of Six Paths' illness, detailing how he was cured from it with what became known as polar particles.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_02.outro0"
+    },
+    {
+      "fallback": "He hid the rest of it, leaving behind clues on where and how to find it.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:sasuke_retsuden_arc_01"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

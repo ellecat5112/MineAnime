@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "hair": 6111287,
+    "top": 2635155
+  },
+  "attack": 5.3,
+  "cast_interval": 40,
+  "health": 158.0,
+  "name": {
+    "fallback": "Temujin",
+    "translate": "npc.narutorpg.temujin"
+  },
+  "power": 1.14,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

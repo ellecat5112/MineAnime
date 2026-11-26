@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:shizune_ally_shippuden",
+    "narutorpg:tsuchigumo_chief_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Six-Tails Unleashed",
+    "translate": "quest.narutorpg.arc.six_tails_unleashed"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] On a cliff, a young lady named Hotaru sits on the edge overlooking the mountain when she is approached by a young man named Utakata. Hotaru's servant, Tonbee, tells them that there are enemies out there triggering their traps and are most likely invading Mount Katsuragi in order to get their hands on Hotaru's grandfather's forbidden technique. Tonbee decides to protect the fort as Utakata and Hotaru escape.",
+    "translate": "quest.narutorpg.six_tails_unleashed_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "On a cliff, a young lady named Hotaru sits on the edge overlooking the mountain when she is approached by a young man named Utakata.",
+      "translate": "quest.narutorpg.six_tails_unleashed_01.intro0"
+    },
+    {
+      "fallback": "Hotaru's servant, Tonbee, tells them that there are enemies out there triggering their traps and are most likely invading Mount Katsuragi in order to get their hands on Hotaru's grandfather's forbidden technique.",
+      "translate": "quest.narutorpg.six_tails_unleashed_01.intro1"
+    },
+    {
+      "fallback": "Tonbee decides to protect the fort as Utakata and Hotaru escape.",
+      "translate": "quest.narutorpg.six_tails_unleashed_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Wanderer",
+    "translate": "quest.narutorpg.six_tails_unleashed_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.six_tails_unleashed_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: Wanderer",
+        "translate": "quest.narutorpg.six_tails_unleashed_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tonbee_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Tonbee",
+        "translate": "quest.narutorpg.defeat.tonbee_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:en_no_gyoja_foe_shippuden",
+      "text": {
+        "fallback": "Defeat En no Gyōja",
+        "translate": "quest.narutorpg.defeat.en_no_gyoja_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hotaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hotaru",
+        "translate": "quest.narutorpg.defeat.hotaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 115400,
+  "outro": [
+    {
+      "fallback": "Hotaru does not care, and cries for her \"master\" to train her.",
+      "translate": "quest.narutorpg.six_tails_unleashed_01.outro0"
+    },
+    {
+      "fallback": "Angered at being called master, Utakata lashes out, only for Naruto to interfere.",
+      "translate": "quest.narutorpg.six_tails_unleashed_01.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:fated_battle_between_brothers_04"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

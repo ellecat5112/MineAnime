@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 2001125,
+    "hair": 9255710,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "armor",
+    "pants": 3622735,
+    "top": 12000284
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Chōji Akimichi",
+    "translate": "npc.narutorpg.choji_akimichi"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

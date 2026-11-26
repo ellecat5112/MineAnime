@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: Bonds",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_bonds"
+  },
+  "description": {
+    "fallback": "Naruto and company finally reached Amaru's village, and found that the village had been badly attacked, with some parts now in ruins and with the inhabitants nowhere to be seen. Amaru ran around trying to find some villagers before she unknowingly triggered a trap which sent a volley of kunai flying towards her. Her sensei, Shinnō, rushed to block the kunai to protect her, but was hit in the process.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto and company finally reached Amaru's village, and found that the village had been badly attacked, with some parts now in ruins and with the inhabitants nowhere to be seen.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.intro0"
+    },
+    {
+      "fallback": "Amaru ran around trying to find some villagers before she unknowingly triggered a trap which sent a volley of kunai flying towards her.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.intro1"
+    },
+    {
+      "fallback": "Her sensei, Shinnō, rushed to block the kunai to protect her, but was hit in the process.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Part 3",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301402,
+  "outro": [
+    {
+      "fallback": "This made Naruto remember his failure in saving Sasuke, and became emotionally unstable, which caused him to enter his initial jinchūriki form, his three-tailed state, and finally his four-tailed state.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.outro0"
+    },
+    {
+      "fallback": "After fighting with the monster for a while, a seal on Naruto given by Jiraiya came off and reminded him of how the tailed beast chakra hurt his friends, causing him to immediately turn back to normal.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_bonds_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

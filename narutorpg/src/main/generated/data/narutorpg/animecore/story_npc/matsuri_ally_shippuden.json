@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:bashosen_coil_of_wind",
+    "narutorpg:beast_tearing_gale_palm"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "hair": 4073251,
+    "hair_style": "long",
+    "headband": 6111287,
+    "outfit": "robe",
+    "skin": 13010498,
+    "top": 10586239
+  },
+  "attack": 11.0,
+  "health": 158.0,
+  "name": {
+    "fallback": "Matsuri",
+    "translate": "npc.narutorpg.matsuri"
+  },
+  "power": 1.84,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:gentle_fist",
+    "narutorpg:hair_binding_technique",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 8280002,
+    "eyes": 14802156,
+    "hair": 2763315,
+    "hair_style": "long",
+    "headband": 1981066,
+    "mark": "pale_eyes",
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 15591388
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Himawari Uzumaki",
+    "translate": "npc.narutorpg.himawari_uzumaki"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

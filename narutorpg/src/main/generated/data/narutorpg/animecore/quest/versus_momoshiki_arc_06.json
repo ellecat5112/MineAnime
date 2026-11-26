@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Versus Momoshiki Arc",
+    "translate": "quest.narutorpg.arc.versus_momoshiki_arc"
+  },
+  "description": {
+    "fallback": "The five Kage, Sasuke, and Boruto return to Konoha. Hinata and Himawari embrace Naruto and Boruto, and Sakura and Sarada embrace Sasuke. The extensive damage caused by the attacks results in the Chūnin Exams being cancelled.",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The five Kage, Sasuke, and Boruto return to Konoha.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_06.intro0"
+    },
+    {
+      "fallback": "Hinata and Himawari embrace Naruto and Boruto, and Sakura and Sarada embrace Sasuke.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_06.intro1"
+    },
+    {
+      "fallback": "The extensive damage caused by the attacks results in the Chūnin Exams being cancelled.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Epilogue",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: Epilogue",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 206105,
+  "outro": [
+    {
+      "fallback": "When Himawari jumps on the two, Hinata threatens to put the cake away.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_06.outro0"
+    },
+    {
+      "fallback": "Naruto and Boruto both wake up late the next day, and fist bump",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:versus_momoshiki_arc_05"
+  ],
+  "rewards": {
+    "experience": 37,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 12
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

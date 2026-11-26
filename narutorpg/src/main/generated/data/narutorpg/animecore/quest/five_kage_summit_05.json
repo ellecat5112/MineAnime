@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:a_fourth_raikage_ally_shippuden",
+    "narutorpg:mei_terumi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "Killer B having faked his capture at the hands of Taka, takes the opportunity to escape his duty as a guardian of his village. At an unknown location, while he was practising singing with the leader of the enka ninja Sabu, Kisame Hoshigaki arrived. After quickly dispatching Sabu's companion Ponta, a tanuki, Kisame went on to battle both Killer B and Sabu, feeding his sword, Samehada, with enough of the B's chakra to...",
+    "translate": "quest.narutorpg.five_kage_summit_05.desc"
+  },
+  "giver": "narutorpg:killer_b",
+  "intro": [
+    {
+      "fallback": "Killer B having faked his capture at the hands of Taka, takes the opportunity to escape his duty as a guardian of his village.",
+      "translate": "quest.narutorpg.five_kage_summit_05.intro0"
+    },
+    {
+      "fallback": "At an unknown location, while he was practising singing with the leader of the enka ninja Sabu, Kisame Hoshigaki arrived.",
+      "translate": "quest.narutorpg.five_kage_summit_05.intro1"
+    },
+    {
+      "fallback": "After quickly dispatching Sabu's companion Ponta, a tanuki, Kisame went on to battle both Killer B and Sabu, feeding his sword, Samehada, with enough of the B's chakra to reveal its true form.",
+      "translate": "quest.narutorpg.five_kage_summit_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "After the Summit",
+    "translate": "quest.narutorpg.five_kage_summit_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:killer_b",
+      "text": {
+        "fallback": "Talk to Killer B",
+        "translate": "quest.narutorpg.five_kage_summit_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: After the Summit",
+        "translate": "quest.narutorpg.five_kage_summit_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ponta_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Ponta",
+        "translate": "quest.narutorpg.defeat.ponta_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sabu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sabu",
+        "translate": "quest.narutorpg.defeat.sabu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kisame_hoshigaki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kisame Hoshigaki",
+        "translate": "quest.narutorpg.defeat.kisame_hoshigaki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120704,
+  "outro": [
+    {
+      "fallback": "Fū, sensing Mei and Chōjūrō coming, and unable to steal the Byakugan due its protective seal, attempted to trick Mei into dispelling the seal for him.",
+      "translate": "quest.narutorpg.five_kage_summit_05.outro0"
+    },
+    {
+      "fallback": "However, because his mannerisms were so different from the real Ao, Mei saw through the trick and forced Fū dispelled the technique himself.",
+      "translate": "quest.narutorpg.five_kage_summit_05.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:five_kage_summit_04"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

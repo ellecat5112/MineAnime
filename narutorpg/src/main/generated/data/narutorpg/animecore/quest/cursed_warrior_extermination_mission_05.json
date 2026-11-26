@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sagi_ally_naruto",
+    "narutorpg:toki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Cursed Warrior Extermination Mission",
+    "translate": "quest.narutorpg.arc.cursed_warrior_extermination_mission"
+  },
+  "description": {
+    "fallback": "A flashback reveals that Sagi, not Toki, died, and that Toki took on her brother's identity to avenge his death. Toki assumes the identity of the Cursed Warrior, and attempts to attack Mōsō, but is subdued by Mōsō's imitation ninjutsu. Mōsō's Watari ninja and Naruto's group join the battle.",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "A flashback reveals that Sagi, not Toki, died, and that Toki took on her brother's identity to avenge his death.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.intro0"
+    },
+    {
+      "fallback": "Toki assumes the identity of the Cursed Warrior, and attempts to attack Mōsō, but is subdued by Mōsō's imitation ninjutsu.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.intro1"
+    },
+    {
+      "fallback": "Mōsō's Watari ninja and Naruto's group join the battle.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "When Time Stands Still",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: When Time Stands Still",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hoki_watari_foe_naruto",
+      "text": {
+        "fallback": "Defeat Hōki (Watari)",
+        "translate": "quest.narutorpg.defeat.hoki_watari_foe_naruto"
+      }
+    }
+  ],
+  "order": 17204,
+  "outro": [
+    {
+      "fallback": "While his companions fight the Watari ninja, Naruto pursues Mōsō and is caught in a genjutsu.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.outro0"
+    },
+    {
+      "fallback": "Mōsō reveals himself to be Hōki the migrating ninja, who plans to travel and collect as many techniques as possible.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:cursed_warrior_extermination_mission_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

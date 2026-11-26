@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Cursed Warrior Extermination Mission",
+    "translate": "quest.narutorpg.arc.cursed_warrior_extermination_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto, Neji, and Tenten are sent by Tsunade to the Land of Birds to investigate reports of a ghost, Cursed Warrior, terrorising the local population. Upon arriving, they learn that the daimyō has died, and that his son, the successor, cares little about his duties due to the recent death of his sister. Later that evening, the Konoha ninja encounter Cursed Warrior and give chase.",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Naruto, Neji, and Tenten are sent by Tsunade to the Land of Birds to investigate reports of a ghost, Cursed Warrior, terrorising the local population.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.intro0"
+    },
+    {
+      "fallback": "Upon arriving, they learn that the daimyō has died, and that his son, the successor, cares little about his duties due to the recent death of his sister.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.intro1"
+    },
+    {
+      "fallback": "Later that evening, the Konoha ninja encounter Cursed Warrior and give chase.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Cursed Warrior",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: The Cursed Warrior",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 17200,
+  "outro": [
+    {
+      "fallback": "Later that evening, the Konoha ninja encounter Cursed Warrior and give chase.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.outro0"
+    },
+    {
+      "fallback": "After cornering it, however, an examination by Neji's Byakugan makes the group realise that the armour the Cursed Warrior is wearing is empty.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

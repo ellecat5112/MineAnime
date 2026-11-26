@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "School Trip Arc",
+    "translate": "quest.narutorpg.arc.school_trip_arc"
+  },
+  "description": {
+    "fallback": "After Boruto and company read the kidnapping note, it fades. Kagura tells them Tsurushi Hachiya, a genin from his class who dislikes the current state of Kirigakure, is most likely responsible. Kagura wants to inform Chōjūrō, but Boruto doesn't want the field trip to be cancelled, so he and the others convince Kagura to handle the situation himself with their help.",
+    "translate": "quest.narutorpg.school_trip_arc_03.desc"
+  },
+  "giver": "narutorpg:tsurushi_hachiya",
+  "intro": [
+    {
+      "fallback": "After Boruto and company read the kidnapping note, it fades.",
+      "translate": "quest.narutorpg.school_trip_arc_03.intro0"
+    },
+    {
+      "fallback": "Kagura tells them Tsurushi Hachiya, a genin from his class who dislikes the current state of Kirigakure, is most likely responsible.",
+      "translate": "quest.narutorpg.school_trip_arc_03.intro1"
+    },
+    {
+      "fallback": "Kagura wants to inform Chōjūrō, but Boruto doesn't want the field trip to be cancelled, so he and the others convince Kagura to handle the situation himself with their help.",
+      "translate": "quest.narutorpg.school_trip_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Shinobi Bout of Friendship",
+    "translate": "quest.narutorpg.school_trip_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsurushi_hachiya",
+      "text": {
+        "fallback": "Talk to Tsurushi Hachiya",
+        "translate": "quest.narutorpg.school_trip_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: A Shinobi Bout of Friendship",
+        "translate": "quest.narutorpg.school_trip_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 203502,
+  "outro": [
+    {
+      "fallback": "Boruto and his friends make short work of Tsurushi's group.",
+      "translate": "quest.narutorpg.school_trip_arc_03.outro0"
+    },
+    {
+      "fallback": "Tsurushi dares Kagura to draw his blade, revealing he killed while in the Academy, and exposing him as the Fourth Mizukage's grandson.",
+      "translate": "quest.narutorpg.school_trip_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_02"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

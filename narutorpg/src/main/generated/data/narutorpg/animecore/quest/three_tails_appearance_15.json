@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:shizune_ally_shippuden",
+    "narutorpg:yamato_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "The Orochimaru Search Team split off into their three respective sub-teams; Shizune's team begin to erect their Four-Corner Sealing Barrier while Yamato and Kakashi's team head off to defeat Team Guren. Lee is dismayed as he is not on Kakashi's team, as he wanted to fight a Crystal Release user, but Kiba comforts him by telling him that her followers are pretty powerful on their own. With Tenten asking to join their...",
+    "translate": "quest.narutorpg.three_tails_appearance_15.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "The Orochimaru Search Team split off into their three respective sub-teams; Shizune's team begin to erect their Four-Corner Sealing Barrier while Yamato and Kakashi's team head off to defeat Team Guren.",
+      "translate": "quest.narutorpg.three_tails_appearance_15.intro0"
+    },
+    {
+      "fallback": "Lee is dismayed as he is not on Kakashi's team, as he wanted to fight a Crystal Release user, but Kiba comforts him by telling him that her followers are pretty powerful on their own.",
+      "translate": "quest.narutorpg.three_tails_appearance_15.intro1"
+    },
+    {
+      "fallback": "With Tenten asking to join their conversation, he debriefs them on their attacks, including their reliance on a smokescreen.",
+      "translate": "quest.narutorpg.three_tails_appearance_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Four-Corner Sealing Barrier (episode)",
+    "translate": "quest.narutorpg.three_tails_appearance_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.three_tails_appearance_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out: The Four-Corner Sealing Barrier (episode)",
+        "translate": "quest.narutorpg.three_tails_appearance_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kiho_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kihō",
+        "translate": "quest.narutorpg.defeat.kiho_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:guren_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Guren",
+        "translate": "quest.narutorpg.defeat.guren_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109914,
+  "outro": [
+    {
+      "fallback": "As Kihō awaits Rinji's orders, the latter merely states that he has other matters to attend to and disappears.",
+      "translate": "quest.narutorpg.three_tails_appearance_15.outro0"
+    },
+    {
+      "fallback": "Despite his sense of sight being robbed, Lee is able to",
+      "translate": "quest.narutorpg.three_tails_appearance_15.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_14"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

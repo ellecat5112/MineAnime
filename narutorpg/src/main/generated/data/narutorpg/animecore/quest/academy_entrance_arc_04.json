@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "Shino recruits the help of Konohamaru to teach his Academy class about the Summoning Technique. Konohamaru summons Gamagorō much to the amazement of most of the students except Boruto. When accused of jealousy by Chōchō, Boruto tries and fail to summon a creature since, as Shino explains to him and the class, he has signed no contract with a summoned creature.",
+    "translate": "quest.narutorpg.academy_entrance_arc_04.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Shino recruits the help of Konohamaru to teach his Academy class about the Summoning Technique.",
+      "translate": "quest.narutorpg.academy_entrance_arc_04.intro0"
+    },
+    {
+      "fallback": "Konohamaru summons Gamagorō much to the amazement of most of the students except Boruto.",
+      "translate": "quest.narutorpg.academy_entrance_arc_04.intro1"
+    },
+    {
+      "fallback": "When accused of jealousy by Chōchō, Boruto tries and fail to summon a creature since, as Shino explains to him and the class, he has signed no contract with a summoned creature.",
+      "translate": "quest.narutorpg.academy_entrance_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Ninjutsu Battle of the Sexes!",
+    "translate": "quest.narutorpg.academy_entrance_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.academy_entrance_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Go: A Ninjutsu Battle of the Sexes!",
+        "translate": "quest.narutorpg.academy_entrance_arc_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Meet Shino Aburame",
+        "translate": "quest.narutorpg.academy_entrance_arc_04.o3"
+      }
+    }
+  ],
+  "order": 201103,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_03"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Parent and Child Day Arc",
+    "translate": "quest.narutorpg.arc.parent_and_child_day_arc"
+  },
+  "description": {
+    "fallback": "Naruto and Shikamaru watch the announcement of the new Parent and Child Day holiday. The two discuss how the shinobi life has changed since their days. Shikamaru intends to free Naruto's schedule so he can spend it with his children, but several shopkeepers arrive at his office, needing his signature on several forms.",
+    "translate": "quest.narutorpg.parent_and_child_day_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto and Shikamaru watch the announcement of the new Parent and Child Day holiday.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_01.intro0"
+    },
+    {
+      "fallback": "The two discuss how the shinobi life has changed since their days.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_01.intro1"
+    },
+    {
+      "fallback": "Shikamaru intends to free Naruto's schedule so he can spend it with his children, but several shopkeepers arrive at his office, needing his signature on several forms.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Parent and Child Day (episode)",
+    "translate": "quest.narutorpg.parent_and_child_day_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.parent_and_child_day_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Go: Parent and Child Day (episode)",
+        "translate": "quest.narutorpg.parent_and_child_day_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Meet Shikamaru Nara",
+        "translate": "quest.narutorpg.parent_and_child_day_arc_01.o3"
+      }
+    }
+  ],
+  "order": 210300,
+  "outro": [
+    {
+      "fallback": "He wants to take a nap first, but sees the toy is a limited edition sale for the holiday.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_01.outro0"
+    },
+    {
+      "fallback": "Naruto chooses to go with her instead of sleeping.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:versus_momoshiki_arc_06"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

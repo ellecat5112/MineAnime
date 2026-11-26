@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness",
+    "translate": "quest.narutorpg.arc.shikamaru_hiden_a_cloud_drifting_in_silent_darkn"
+  },
+  "description": {
+    "fallback": "Shikamaru wakes up from nightmares of the death of Asuma and the times his comrades were injured. Rō asks him about the nightmares. Shikamaru notices the lack of wind in Tobari.",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Shikamaru wakes up from nightmares of the death of Asuma and the times his comrades were injured.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.intro0"
+    },
+    {
+      "fallback": "Rō asks him about the nightmares.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.intro1"
+    },
+    {
+      "fallback": "Shikamaru notices the lack of wind in Tobari.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Recklessness",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Recklessness",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 149902,
+  "outro": [
+    {
+      "fallback": "Hinoko reunites with Rō and Shikamaru, informing them about how no one seems to know anything about Gengo or the Fushū Castle.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.outro0"
+    },
+    {
+      "fallback": "The three go around Tobari gathering information, seeing people from all over, learning Gengo arrived ten years prior, and that Tobari is better now than it was then.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

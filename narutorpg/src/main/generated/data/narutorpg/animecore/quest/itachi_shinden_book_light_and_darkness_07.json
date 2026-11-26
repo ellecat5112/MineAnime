@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "narutorpg:third_kazekage_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "Sasori, Itachi, and Kisame pay a visit to Deidara to recruit him on Pain's orders. Deidara is recruited into Akatsuki, partnered with Sasori, and the two are ordered to kill Orochimaru, who escaped into the Land of Wind. Itachi and Kisame are given a mission in Kusagakure.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.desc"
+  },
+  "giver": "narutorpg:shikaku_nara",
+  "intro": [
+    {
+      "fallback": "Sasori, Itachi, and Kisame pay a visit to Deidara to recruit him on Pain's orders.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.intro0"
+    },
+    {
+      "fallback": "Deidara is recruited into Akatsuki, partnered with Sasori, and the two are ordered to kill Orochimaru, who escaped into the Land of Wind.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.intro1"
+    },
+    {
+      "fallback": "Itachi and Kisame are given a mission in Kusagakure.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Partner",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikaku_nara",
+      "text": {
+        "fallback": "Talk to Shikaku Nara",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: Partner",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:deidara_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Deidara",
+        "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasori_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasori",
+        "translate": "quest.narutorpg.defeat.sasori_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146106,
+  "outro": [
+    {
+      "fallback": "Sasori orders Deidara to keep an eye from the sky so Orochimaru can't get away.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.outro0"
+    },
+    {
+      "fallback": "Sasori brings out his Third Kazekage puppet, while Orochimaru reveals a reincarnated Third Kazekage in his possession.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_07.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:itachi_shinden_book_light_and_darkness_06"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

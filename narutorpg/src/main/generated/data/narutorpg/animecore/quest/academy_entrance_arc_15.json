@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "In the weeks following the end of the Ghost incidents, Boruto wonders why his eye has stopped activating. Naruto, Sai, and Shikamaru stroll through the village, glad to see everything is back to normal. Sai informs them of the role the Academy students had in stopping Sumire.",
+    "translate": "quest.narutorpg.academy_entrance_arc_15.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In the weeks following the end of the Ghost incidents, Boruto wonders why his eye has stopped activating.",
+      "translate": "quest.narutorpg.academy_entrance_arc_15.intro0"
+    },
+    {
+      "fallback": "Naruto, Sai, and Shikamaru stroll through the village, glad to see everything is back to normal.",
+      "translate": "quest.narutorpg.academy_entrance_arc_15.intro1"
+    },
+    {
+      "fallback": "Sai informs them of the role the Academy students had in stopping Sumire.",
+      "translate": "quest.narutorpg.academy_entrance_arc_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A New Path",
+    "translate": "quest.narutorpg.academy_entrance_arc_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.academy_entrance_arc_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: A New Path",
+        "translate": "quest.narutorpg.academy_entrance_arc_15.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sai",
+      "text": {
+        "fallback": "Meet Sai",
+        "translate": "quest.narutorpg.academy_entrance_arc_15.o3"
+      }
+    }
+  ],
+  "order": 201114,
+  "outro": [
+    {
+      "fallback": "Sarada questions Sumire's prolonged absence.",
+      "translate": "quest.narutorpg.academy_entrance_arc_15.outro0"
+    },
+    {
+      "fallback": "Mitsuki insists on partnering with Boruto again, but they lack a third member, as Iwabee and Denki are already partners, as are Shikadai, Chōchō, and Inojin.",
+      "translate": "quest.narutorpg.academy_entrance_arc_15.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_14"
+  ],
+  "rewards": {
+    "experience": 35,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

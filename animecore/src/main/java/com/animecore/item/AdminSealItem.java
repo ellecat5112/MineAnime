@@ -33,7 +33,7 @@ import java.util.List;
  */
 public class AdminSealItem extends Item {
     public enum Action {
-        RANK_UP, CLAN_LEVEL, MASTERY, SKILL_POINTS, NATURES, REPUTATION, REFILL, MAX_ALL;
+        RANK_UP, CLAN_LEVEL, MASTERY, SKILL_POINTS, NATURES, REPUTATION, REFILL, MAX_ALL, STORY;
         public String key() { return name().toLowerCase(java.util.Locale.ROOT); }
     }
 
@@ -123,6 +123,30 @@ public class AdminSealItem extends Item {
             case REFILL -> {
                 refill(power);
                 return Text.translatable("message.animecore.admin.refill");
+            }
+            case STORY -> {
+                // finish the active story quest (rewards included); sneak: keep going to the end of its arc
+                String system = power.context().modId();
+                var log = power.quests();
+                int done = 0;
+                if (log.active().isEmpty()) {
+                    var next = com.animecore.quest.QuestManager.quests(rm, system).stream()
+                            .filter(e -> !log.isCompleted(e.getKey()) && com.animecore.quest.QuestManager.available(log, e.getValue())).findFirst();
+                    if (next.isEmpty()) return Text.translatable("message.animecore.admin.story_none");
+                    com.animecore.quest.QuestManager.accept(player, next.get().getKey());
+                }
+                Text arc = log.active().flatMap(id -> com.animecore.quest.QuestManager.quest(player, id)).map(q -> q.arc()).orElse(Text.empty());
+                do {
+                    if (!com.animecore.quest.QuestManager.completeActive(player, system)) break;
+                    done++;
+                    if (!big) break;
+                    var next = com.animecore.quest.QuestManager.quests(rm, system).stream()
+                            .filter(e -> !log.isCompleted(e.getKey()) && com.animecore.quest.QuestManager.available(log, e.getValue())
+                                    && e.getValue().arc().getString().equals(arc.getString())).findFirst();
+                    if (next.isEmpty()) break;
+                    com.animecore.quest.QuestManager.accept(player, next.get().getKey());
+                } while (done < 64);
+                return Text.translatable("message.animecore.admin.story", done);
             }
             case MAX_ALL -> {
                 power.setTier(PlayerPowerComponent.MAX_TIER);

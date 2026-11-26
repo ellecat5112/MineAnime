@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:neji_hyuga_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Third Great Beast Arc",
+    "translate": "quest.narutorpg.arc.third_great_beast_arc"
+  },
+  "description": {
+    "fallback": "Guy is trapped inside a pagoda made out of kung fu training dummies while Naruto, Neji, Tenten and a recently arrived Lee fight off the dummies outside. It is revealed that the impostor student and his two brothers want revenge for Guy defeating their father and badly wounding him, causing him to be unable to train or take missions and eventually die. Lee enters, and is trapped in a technique that causes him and Guy...",
+    "translate": "quest.narutorpg.third_great_beast_arc_02.desc"
+  },
+  "giver": "narutorpg:might_guy",
+  "intro": [
+    {
+      "fallback": "Guy is trapped inside a pagoda made out of kung fu training dummies while Naruto, Neji, Tenten and a recently arrived Lee fight off the dummies outside.",
+      "translate": "quest.narutorpg.third_great_beast_arc_02.intro0"
+    },
+    {
+      "fallback": "It is revealed that the impostor student and his two brothers want revenge for Guy defeating their father and badly wounding him, causing him to be unable to train or take missions and eventually die.",
+      "translate": "quest.narutorpg.third_great_beast_arc_02.intro1"
+    },
+    {
+      "fallback": "Lee enters, and is trapped in a technique that causes him and Guy to mistake the other for a hostile training dummy.",
+      "translate": "quest.narutorpg.third_great_beast_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Hot-Blooded Confrontation: Student vs. Sensei",
+    "translate": "quest.narutorpg.third_great_beast_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:might_guy",
+      "text": {
+        "fallback": "Talk to Might Guy",
+        "translate": "quest.narutorpg.third_great_beast_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Hot-Blooded Confrontation: Student vs. Sensei",
+        "translate": "quest.narutorpg.third_great_beast_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:agira_ryudoin_foe_naruto",
+      "text": {
+        "fallback": "Defeat Agira Ryūdōin",
+        "translate": "quest.narutorpg.defeat.agira_ryudoin_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gensho_ryudoin_foe_naruto",
+      "text": {
+        "fallback": "Defeat Genshō Ryūdōin",
+        "translate": "quest.narutorpg.defeat.gensho_ryudoin_foe_naruto"
+      }
+    }
+  ],
+  "order": 20501,
+  "outro": [
+    {
+      "fallback": "The two see through the technique, and simultaneously use the Hidden Lotus to destroy their own dummies without harming each other, wrecking the pagoda.",
+      "translate": "quest.narutorpg.third_great_beast_arc_02.outro0"
+    },
+    {
+      "fallback": "Guy then tells the brothers that their father respected him and wanted another match for him, and that he wanted them to fight him fairly, allowing them to understand their father's dying wish.",
+      "translate": "quest.narutorpg.third_great_beast_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:third_great_beast_arc_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:hayate_gekko_ally_naruto",
+    "narutorpg:sakura_haruno_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Chūnin Exams",
+    "translate": "quest.narutorpg.arc.chunin_exams"
+  },
+  "description": {
+    "fallback": "Seven teams managed to pass, which was more than twice as many as had been expected. To cut down the prevailing genin from the second exam, a preliminary round was staged before the third and final stage of the Chūnin Exams. The twenty-one people — or twenty, after Kabuto withdrew — were to be matched up with each other, in a fight that lasted until somebody gave in or was unable to continue fighting.",
+    "translate": "quest.narutorpg.chunin_exams_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Seven teams managed to pass, which was more than twice as many as had been expected.",
+      "translate": "quest.narutorpg.chunin_exams_04.intro0"
+    },
+    {
+      "fallback": "To cut down the prevailing genin from the second exam, a preliminary round was staged before the third and final stage of the Chūnin Exams.",
+      "translate": "quest.narutorpg.chunin_exams_04.intro1"
+    },
+    {
+      "fallback": "The twenty-one people — or twenty, after Kabuto withdrew — were to be matched up with each other, in a fight that lasted until somebody gave in or was unable to continue fighting.",
+      "translate": "quest.narutorpg.chunin_exams_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Preliminaries",
+    "translate": "quest.narutorpg.chunin_exams_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.chunin_exams_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Preliminaries",
+        "translate": "quest.narutorpg.chunin_exams_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yoroi_akado_foe_naruto",
+      "text": {
+        "fallback": "Defeat Yoroi Akadō",
+        "translate": "quest.narutorpg.defeat.yoroi_akado_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zaku_abumi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Zaku Abumi",
+        "translate": "quest.narutorpg.defeat.zaku_abumi_foe_naruto"
+      }
+    }
+  ],
+  "order": 3003,
+  "outro": [
+    {
+      "fallback": "Zaku then revealed he could use both arms, but it was too late.",
+      "translate": "quest.narutorpg.chunin_exams_04.outro0"
+    },
+    {
+      "fallback": "The insects had blocked the tubes in Zaku's arms, building up the chakra he was trying to use and making the arms explode, thus ending the fight.",
+      "translate": "quest.narutorpg.chunin_exams_04.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:chunin_exams_03"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

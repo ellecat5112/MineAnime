@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:isaribi_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Kaima Capture Mission",
+    "translate": "quest.narutorpg.arc.kaima_capture_mission"
+  },
+  "description": {
+    "fallback": "The Nine-Tails within Naruto helps beat Amachi. Although Amachi is quickly defeated and captured, the Umibōzu threatens to attack Naruto. Naruto summons Gamabunta and defeats it by evaporating its nucleus.",
+    "translate": "quest.narutorpg.kaima_capture_mission_05.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "The Nine-Tails within Naruto helps beat Amachi.",
+      "translate": "quest.narutorpg.kaima_capture_mission_05.intro0"
+    },
+    {
+      "fallback": "Although Amachi is quickly defeated and captured, the Umibōzu threatens to attack Naruto.",
+      "translate": "quest.narutorpg.kaima_capture_mission_05.intro1"
+    },
+    {
+      "fallback": "Naruto summons Gamabunta and defeats it by evaporating its nucleus.",
+      "translate": "quest.narutorpg.kaima_capture_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Battle at Sea: The Power Unleashed!",
+    "translate": "quest.narutorpg.kaima_capture_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.kaima_capture_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Battle at Sea: The Power Unleashed!",
+        "translate": "quest.narutorpg.kaima_capture_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:amachi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Amachi",
+        "translate": "quest.narutorpg.defeat.amachi_foe_naruto"
+      }
+    }
+  ],
+  "order": 17904,
+  "outro": [
+    {
+      "fallback": "Isaribi realises what Naruto said was right and that he did understand her because Naruto was also treated as a monster and with his help, Isaribi was happy.",
+      "translate": "quest.narutorpg.kaima_capture_mission_05.outro0"
+    },
+    {
+      "fallback": "Afterwards, Isaribi decided to go to Konoha in the hopes that Tsunade can cure her.",
+      "translate": "quest.narutorpg.kaima_capture_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kaima_capture_mission_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

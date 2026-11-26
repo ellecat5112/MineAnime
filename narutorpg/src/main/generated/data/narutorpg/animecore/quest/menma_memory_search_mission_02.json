@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Menma Memory Search Mission",
+    "translate": "quest.narutorpg.arc.menma_memory_search_mission"
+  },
+  "description": {
+    "fallback": "Naruto and Menma are sent on a mission with Neji and Tenten. Tsunade begins believing that Menma is an Otogakure ninja due to his skills, and Neji begins suspecting the same thing when Menma moves even faster than he does. The group enters a town that has been largely destroyed by bandits, and Menma convinces Naruto's unit to help rebuild it to guard against another potential attack.",
+    "translate": "quest.narutorpg.menma_memory_search_mission_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Naruto and Menma are sent on a mission with Neji and Tenten.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_02.intro0"
+    },
+    {
+      "fallback": "Tsunade begins believing that Menma is an Otogakure ninja due to his skills, and Neji begins suspecting the same thing when Menma moves even faster than he does.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_02.intro1"
+    },
+    {
+      "fallback": "The group enters a town that has been largely destroyed by bandits, and Menma convinces Naruto's unit to help rebuild it to guard against another potential attack.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Bringing Back Reality",
+    "translate": "quest.narutorpg.menma_memory_search_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.menma_memory_search_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Go: Bringing Back Reality",
+        "translate": "quest.narutorpg.menma_memory_search_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 22301,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:menma_memory_search_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

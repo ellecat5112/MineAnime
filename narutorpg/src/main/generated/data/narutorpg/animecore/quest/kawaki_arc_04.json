@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:ino_yamanaka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "Meanwhile, Kawaki, inspired by Naruto giving a prosthetic hand to him despite it inhibiting his chakra, asked to learn ninjutsu from him and gradually opened up to others. He was eventually moved to tears when Kurama reveals just how similar Naruto's childhood was to his own when he was searching for the last piece of the vase and was confronted by Kurama. However, as Boruto and Mitsuki left to ask Tsunade about the...",
+    "translate": "quest.narutorpg.kawaki_arc_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Kawaki, inspired by Naruto giving a prosthetic hand to him despite it inhibiting his chakra, asked to learn ninjutsu from him and gradually opened up to others.",
+      "translate": "quest.narutorpg.kawaki_arc_04.intro0"
+    },
+    {
+      "fallback": "He was eventually moved to tears when Kurama reveals just how similar Naruto's childhood was to his own when he was searching for the last piece of the vase and was confronted by Kurama.",
+      "translate": "quest.narutorpg.kawaki_arc_04.intro1"
+    },
+    {
+      "fallback": "However, as Boruto and Mitsuki left to ask Tsunade about the similarities of the Strength of a Hundred Seal to that of the Kāma, Sasuke, in his investigation of a location from the coordinates retrieved from Kara...",
+      "translate": "quest.narutorpg.kawaki_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jigen's Surprise Attack",
+    "translate": "quest.narutorpg.kawaki_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: Jigen's Surprise Attack",
+        "translate": "quest.narutorpg.kawaki_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jigen_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jigen",
+        "translate": "quest.narutorpg.defeat.jigen_foe_boruto"
+      }
+    }
+  ],
+  "order": 219803,
+  "outro": [
+    {
+      "fallback": "Jigen voiced his lack of interest in fighting the Seventh Hokage and even apologised for his rude arrival and when Naruto coldly rebuked his civility and attacked him, Jigen easily overpowered and subdued him with a...",
+      "translate": "quest.narutorpg.kawaki_arc_04.outro0"
+    },
+    {
+      "fallback": "Jigen then turned his sights on Kawaki and commanded him to prepare to return and effortlessly restrained his adopted son when he tried to punch him, expressing disgust and exasperation at his prosthetic arm and on how...",
+      "translate": "quest.narutorpg.kawaki_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_03"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

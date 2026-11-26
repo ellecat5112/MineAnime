@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:memory_blocking_technique",
+    "narutorpg:offsetting_sound",
+    "narutorpg:chakra_enhancing_music"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "hair": 12986408,
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 2046559
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Menma (anime)",
+    "translate": "npc.narutorpg.menma_anime"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

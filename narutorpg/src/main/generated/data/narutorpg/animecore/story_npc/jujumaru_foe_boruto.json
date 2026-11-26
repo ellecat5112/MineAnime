@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:blood_needle",
+    "narutorpg:secret_technique_tree_blood_barrier"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "eyes": 4431943,
+    "hair": 5125166,
+    "hair_style": "spiky",
+    "pants": 1713022,
+    "skin": 14724201
+  },
+  "attack": 14.7,
+  "cast_interval": 70,
+  "health": 264.0,
+  "name": {
+    "fallback": "Jujumaru",
+    "translate": "npc.narutorpg.jujumaru"
+  },
+  "power": 2.46,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

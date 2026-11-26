@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:aoba_yamashiro_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "While on their voyage to the Land of Lightning, a giant bird swoops down and kidnaps Guy. The team pursues the bird and are lead to a volcanic island. Upon arrival, Aoba spots a mysterious girl watching them and decides to pursue her while Yamato and Naruto search for Guy.",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_05.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "While on their voyage to the Land of Lightning, a giant bird swoops down and kidnaps Guy.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_05.intro0"
+    },
+    {
+      "fallback": "The team pursues the bird and are lead to a volcanic island.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_05.intro1"
+    },
+    {
+      "fallback": "Upon arrival, Aoba spots a mysterious girl watching them and decides to pursue her while Yamato and Naruto search for Guy.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Forgotten Island",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: The Forgotten Island",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:honoka_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Honoka",
+        "translate": "quest.narutorpg.defeat.honoka_foe_shippuden"
+      }
+    }
+  ],
+  "order": 123304,
+  "outro": [
+    {
+      "fallback": "The girl, actually the spirit of the girl who the researchers used to restrain the beast until it grew too strong, appears and manages to immobilise the beast, with Naruto finishing it off with Wind Release...",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_05.outro0"
+    },
+    {
+      "fallback": "As the ship leaves, Aoba released the flower he got, and the closing scene returns to the abandoned building, the book flips, and drops a picture of Honoka with the researchers.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_05.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_04"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:ino_yamanaka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Ada observes Boruto's talk with Mitsuki, being flustered by Boruto's attitude. Kawaki hurries her to find Boruto by tracking Mitsuki. He ignores Delta's admonishing of his rudeness to Ada.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_08.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Ada observes Boruto's talk with Mitsuki, being flustered by Boruto's attitude.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_08.intro0"
+    },
+    {
+      "fallback": "Kawaki hurries her to find Boruto by tracking Mitsuki.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_08.intro1"
+    },
+    {
+      "fallback": "He ignores Delta's admonishing of his rudeness to Ada.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "It Doesn't Matter",
+    "translate": "quest.narutorpg.boruto_s_return_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.boruto_s_return_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: It Doesn't Matter",
+        "translate": "quest.narutorpg.boruto_s_return_arc_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ada_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ada",
+        "translate": "quest.narutorpg.defeat.ada_foe_boruto"
+      }
+    }
+  ],
+  "order": 301107,
+  "outro": [
+    {
+      "fallback": "Delta just finds him unlucky.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_08.outro0"
+    },
+    {
+      "fallback": "Mitsuki joins Ada and Daemon, and they discuss their relationship with Kawaki.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_07"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

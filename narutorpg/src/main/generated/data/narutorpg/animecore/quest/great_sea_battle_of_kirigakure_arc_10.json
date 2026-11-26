@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "The Funato and Kirigakure fleets meet at sea. Kagura wants to get the Konoha shinobi back to Kirigakure, but is ordered to join the conflict. Hebiichigo identifies a Funato on the approaching ship.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.desc"
+  },
+  "giver": "narutorpg:ikada_funato",
+  "intro": [
+    {
+      "fallback": "The Funato and Kirigakure fleets meet at sea.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.intro0"
+    },
+    {
+      "fallback": "Kagura wants to get the Konoha shinobi back to Kirigakure, but is ordered to join the conflict.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.intro1"
+    },
+    {
+      "fallback": "Hebiichigo identifies a Funato on the approaching ship.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Seiren (episode)",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:ikada_funato",
+      "text": {
+        "fallback": "Talk to Ikada Funato",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 42,
+      "text": {
+        "fallback": "Go: Seiren (episode)",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 224309,
+  "outro": [
+    {
+      "fallback": "She attacks with him a ray bow, firing chakra arrows, pursuing him as he flees.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.outro0"
+    },
+    {
+      "fallback": "Team 5 is attacked by a controlled Kiri shinobi, Metal Lee deals with him, the others going to check on Kajiki's dock upon hearing an explosion.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_10.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_09"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

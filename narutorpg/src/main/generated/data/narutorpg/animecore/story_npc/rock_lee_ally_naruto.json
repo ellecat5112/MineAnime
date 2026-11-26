@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:double_dynamic_entry",
+    "narutorpg:drunken_fist",
+    "narutorpg:dynamic_entry",
+    "narutorpg:front_lotus",
+    "narutorpg:leaf_drop",
+    "narutorpg:eight_gates"
+  ],
+  "appearance": {
+    "accent": 16485376,
+    "eyes": 1118481,
+    "hair": 1118481,
+    "hair_style": "bowl",
+    "headband": 1981066,
+    "outfit": "bodysuit",
+    "pants": 3046706,
+    "top": 3046706
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Rock Lee",
+    "translate": "npc.narutorpg.rock_lee"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

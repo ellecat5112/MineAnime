@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "It is the time of the Third Shinobi World War. Obito Uchiha is running late, for which his teammate, a young Kakashi Hatake, reprimands him when he eventually arrives. Kakashi, having recently become a jōnin, is given gifts by his team-mates.",
+    "translate": "quest.narutorpg.kakashi_gaiden_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "It is the time of the Third Shinobi World War.",
+      "translate": "quest.narutorpg.kakashi_gaiden_03.intro0"
+    },
+    {
+      "fallback": "Obito Uchiha is running late, for which his teammate, a young Kakashi Hatake, reprimands him when he eventually arrives.",
+      "translate": "quest.narutorpg.kakashi_gaiden_03.intro1"
+    },
+    {
+      "fallback": "Kakashi, having recently become a jōnin, is given gifts by his team-mates.",
+      "translate": "quest.narutorpg.kakashi_gaiden_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Side Story 1: Mission Start…!!",
+    "translate": "quest.narutorpg.kakashi_gaiden_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 43,
+      "text": {
+        "fallback": "Go: Side Story 1: Mission Start…!!",
+        "translate": "quest.narutorpg.kakashi_gaiden_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 112802,
+  "outro": [
+    {
+      "fallback": "As they travel through Kusagakure they discover they are being watched by an enemy ninja.",
+      "translate": "quest.narutorpg.kakashi_gaiden_03.outro0"
+    },
+    {
+      "fallback": "Kakashi decides to deal with the ninja with a new technique: the Chidori. pt-br:Capítulo 239: Primeira Parte: O Início da Missão...!!",
+      "translate": "quest.narutorpg.kakashi_gaiden_03.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_02"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

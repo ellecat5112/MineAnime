@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kaima Capture Mission",
+    "translate": "quest.narutorpg.arc.kaima_capture_mission"
+  },
+  "description": {
+    "fallback": "While on the beach, Anko, still unconscious, was being tended to by Ino. Meanwhile, Naruto spoke of his encounter with Isaribi earlier. The episode then moved to Anko's sudden reflection on her memories.",
+    "translate": "quest.narutorpg.kaima_capture_mission_03.desc"
+  },
+  "giver": "narutorpg:ino_yamanaka",
+  "intro": [
+    {
+      "fallback": "While on the beach, Anko, still unconscious, was being tended to by Ino.",
+      "translate": "quest.narutorpg.kaima_capture_mission_03.intro0"
+    },
+    {
+      "fallback": "Meanwhile, Naruto spoke of his encounter with Isaribi earlier.",
+      "translate": "quest.narutorpg.kaima_capture_mission_03.intro1"
+    },
+    {
+      "fallback": "The episode then moved to Anko's sudden reflection on her memories.",
+      "translate": "quest.narutorpg.kaima_capture_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Infiltration: The Set-Up!",
+    "translate": "quest.narutorpg.kaima_capture_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:ino_yamanaka",
+      "text": {
+        "fallback": "Talk to Ino Yamanaka",
+        "translate": "quest.narutorpg.kaima_capture_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Infiltration: The Set-Up!",
+        "translate": "quest.narutorpg.kaima_capture_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 17902,
+  "outro": [
+    {
+      "fallback": "Isaribi, Amachi and Yoroi escaped on a ship, leaving Team Anko to perish in the collapsing building.",
+      "translate": "quest.narutorpg.kaima_capture_mission_03.outro0"
+    },
+    {
+      "fallback": "Naruto began to frantically search for an exit.",
+      "translate": "quest.narutorpg.kaima_capture_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kaima_capture_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Konoha Plans Recapture Mission",
+    "translate": "quest.narutorpg.arc.konoha_plans_recapture_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto has lunch with an old man named Gennō, who came to Konoha as a carpenter to help rebuild the village. However, during the night, the carpenter escapes with some documents and seemingly blows himself up in a suicide bombing, warning that Konoha will soon be destroyed. The Konoha 11 are told to find out more about the man's activities, but the Anbu brings Naruto in for questioning, saying that Gennō was the one...",
+    "translate": "quest.narutorpg.konoha_plans_recapture_mission_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto has lunch with an old man named Gennō, who came to Konoha as a carpenter to help rebuild the village.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_01.intro0"
+    },
+    {
+      "fallback": "However, during the night, the carpenter escapes with some documents and seemingly blows himself up in a suicide bombing, warning that Konoha will soon be destroyed.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_01.intro1"
+    },
+    {
+      "fallback": "The Konoha 11 are told to find out more about the man's activities, but the Anbu brings Naruto in for questioning, saying that Gennō was the one who stole the plans and escaped.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Crisis: The Konoha 11 Gather!",
+    "translate": "quest.narutorpg.konoha_plans_recapture_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Go: Crisis: The Konoha 11 Gather!",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 20700,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

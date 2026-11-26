@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_earth_spear",
+    "narutorpg:earth_release_rock_trail",
+    "narutorpg:fire_release_intelligent_hard_work",
+    "narutorpg:lightning_release_false_darkness",
+    "narutorpg:wind_release_pressure_damage",
+    "narutorpg:earth_grudge_fear"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 5025616,
+    "hair": 4073251,
+    "headband": 1793568,
+    "mark": "mask",
+    "outfit": "cloak",
+    "top": 1052692
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 331.0,
+  "name": {
+    "fallback": "Kakuzu",
+    "translate": "npc.narutorpg.kakuzu"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

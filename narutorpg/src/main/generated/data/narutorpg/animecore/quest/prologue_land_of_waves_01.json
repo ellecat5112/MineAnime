@@ -1,0 +1,69 @@
+{
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "Twelve years ago, there was once an evil monster known as the Nine-Tailed Demon Fox. One night, it attacked the village of Konoha and killed many innocent people that night. None of the ninja of Konoha could stop it, so the village leader, the Fourth Hokage, cast a jutsu on the Nine-Tails that sealed it in a newborn boy and cost the Fourth Hokage's life.",
+    "translate": "quest.narutorpg.prologue_land_of_waves_01.desc"
+  },
+  "giver": "narutorpg:minato_namikaze",
+  "intro": [
+    {
+      "fallback": "Twelve years ago, there was once an evil monster known as the Nine-Tailed Demon Fox.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_01.intro0"
+    },
+    {
+      "fallback": "One night, it attacked the village of Konoha and killed many innocent people that night.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_01.intro1"
+    },
+    {
+      "fallback": "None of the ninja of Konoha could stop it, so the village leader, the Fourth Hokage, cast a jutsu on the Nine-Tails that sealed it in a newborn boy and cost the Fourth Hokage's life.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Prologue",
+    "translate": "quest.narutorpg.prologue_land_of_waves_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:minato_namikaze",
+      "text": {
+        "fallback": "Talk to Minato Namikaze",
+        "translate": "quest.narutorpg.prologue_land_of_waves_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Prologue",
+        "translate": "quest.narutorpg.prologue_land_of_waves_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 1100,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

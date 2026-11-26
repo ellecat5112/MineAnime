@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Land of Rice Fields Investigation Mission",
+    "translate": "quest.narutorpg.arc.land_of_rice_fields_investigation_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Jiraiya begins to worry about Naruto and Sakura's well-being. Sakura goes to the hospital and tells Naruto that she wants to try again on getting Sasuke back herself, making Naruto break free from Shizune's restraints and go talk her into it. After requesting Tsunade to send the two on a mission with him, he finds Naruto telling Sakura he is not going to stop her from going after Sasuke.",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Jiraiya begins to worry about Naruto and Sakura's well-being.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.intro0"
+    },
+    {
+      "fallback": "Sakura goes to the hospital and tells Naruto that she wants to try again on getting Sasuke back herself, making Naruto break free from Shizune's restraints and go talk her into it.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.intro1"
+    },
+    {
+      "fallback": "After requesting Tsunade to send the two on a mission with him, he finds Naruto telling Sakura he is not going to stop her from going after Sasuke.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Deep Cover?! A Super S-Ranked Mission!",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 43,
+      "text": {
+        "fallback": "Go: Deep Cover?! A Super S-Ranked Mission!",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 14600,
+  "outro": [
+    {
+      "fallback": "Jiraiya says the same thing and tells them they are going on a mission that in part involves finding Sasuke.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.outro0"
+    },
+    {
+      "fallback": "They soon head off to the Land of Sound to find Otogakure, where Jiraiya gets drunk and pursued by gangsters in a bar, and Naruto and Sakura encounter a mysterious ninja.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

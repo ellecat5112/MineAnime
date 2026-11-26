@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:hiruzen_sarutobi_ally_shippuden",
+    "narutorpg:might_guy_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+    "translate": "quest.narutorpg.arc.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the"
+  },
+  "description": {
+    "fallback": "About two years later, Itachi joins Anbu, becoming its youngest member ever. While his father stresses Itachi's obligation to the clan, Danzō tasks Itachi with monitoring the Uchiha. Hiruzen sends a team containing Guy, Kosuke Maruboshi and two other ninja on a diplomatic mission to meet with envoys of the Land of Woods, and Danzō sends Kakashi and Itachi as back-up in case they're double-crossed.",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "About two years later, Itachi joins Anbu, becoming its youngest member ever.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.intro0"
+    },
+    {
+      "fallback": "While his father stresses Itachi's obligation to the clan, Danzō tasks Itachi with monitoring the Uchiha.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.intro1"
+    },
+    {
+      "fallback": "Hiruzen sends a team containing Guy, Kosuke Maruboshi and two other ninja on a diplomatic mission to meet with envoys of the Land of Woods, and Danzō sends Kakashi and Itachi as back-up in case they're double-crossed.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Uchiha Tragedy",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: The Uchiha Tragedy",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    }
+  ],
+  "order": 135903,
+  "outro": [
+    {
+      "fallback": "Hiruzen decides not to change the barrier's pass code, allowing Itachi to enter the village undetected to check on Sasuke.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.outro0"
+    },
+    {
+      "fallback": "Kakashi is discharged from Anbu, and is told he'll become a sensei to a genin team.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

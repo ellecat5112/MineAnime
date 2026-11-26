@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:summoning_technique"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "hair": 5125166,
+    "headband": 3369246,
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 8916559
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 331.0,
+  "name": {
+    "fallback": "Mui",
+    "translate": "npc.narutorpg.mui"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Sasuke Retsuden Arc",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_arc"
+  },
+  "description": {
+    "fallback": "Penjira loses a bet to Jiji over the timing of Menō passing by their cell. Using an almond tree branch from Ganno, Jiji lures Menō near to pet it. Jiji explains that despite not eating almonds, he always sees Menō under the almond tree, deducing it likes the scent.",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_03.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Penjira loses a bet to Jiji over the timing of Menō passing by their cell.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_03.intro0"
+    },
+    {
+      "fallback": "Using an almond tree branch from Ganno, Jiji lures Menō near to pet it.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_03.intro1"
+    },
+    {
+      "fallback": "Jiji explains that despite not eating almonds, he always sees Menō under the almond tree, deducing it likes the scent.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke Retsuden: The Secret in the Cellar",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Go: Sasuke Retsuden: The Secret in the Cellar",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sakura_haruno",
+      "text": {
+        "fallback": "Meet Sakura Haruno",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_03.o3"
+      }
+    }
+  ],
+  "order": 229202,
+  "outro": [
+    {
+      "fallback": "They go over their plan, and Sakura explains a vulnerability she learned about Zansūru's artificial eye, that it has a narrow field of vision at high angles.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_03.outro0"
+    },
+    {
+      "fallback": "Sakura transforms into Fundaru and goes to meet Zansūru.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:sasuke_retsuden_arc_02"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

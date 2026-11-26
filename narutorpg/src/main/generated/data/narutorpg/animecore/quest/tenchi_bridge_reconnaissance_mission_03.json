@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Tenchi Bridge Reconnaissance Mission",
+    "translate": "quest.narutorpg.arc.tenchi_bridge_reconnaissance_mission"
+  },
+  "description": {
+    "fallback": "Meanwhile, Sai revealed to Orochimaru that he was a messenger from Danzō. Sai, Orochimaru and Kabuto left to a secret hideout. Yamato watched the encounter with a wood clone, and pursued Sai.",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Sai revealed to Orochimaru that he was a messenger from Danzō.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.intro0"
+    },
+    {
+      "fallback": "Sai, Orochimaru and Kabuto left to a secret hideout.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.intro1"
+    },
+    {
+      "fallback": "Yamato watched the encounter with a wood clone, and pursued Sai.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Mystery of Sai",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: Mystery of Sai",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 104302,
+  "outro": [
+    {
+      "fallback": "The centre pages, where the two brothers were supposed to meet, were unfinished.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.outro0"
+    },
+    {
+      "fallback": "Sai's face was incomplete and his brother's picture was missing.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:tenchi_bridge_reconnaissance_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

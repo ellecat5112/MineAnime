@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "From the moon, a shadowy figure observes the stars, noting a constellation as a sign of a coming harvest. Boruto, Denki, Shikadai, and Iwabee watch a movie about Kagemasa. The four discuss the movie at dinner, and compare it to actual life as a shinobi.",
+    "translate": "quest.narutorpg.academy_entrance_arc_08.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "From the moon, a shadowy figure observes the stars, noting a constellation as a sign of a coming harvest.",
+      "translate": "quest.narutorpg.academy_entrance_arc_08.intro0"
+    },
+    {
+      "fallback": "Boruto, Denki, Shikadai, and Iwabee watch a movie about Kagemasa.",
+      "translate": "quest.narutorpg.academy_entrance_arc_08.intro1"
+    },
+    {
+      "fallback": "The four discuss the movie at dinner, and compare it to actual life as a shinobi.",
+      "translate": "quest.narutorpg.academy_entrance_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Dream's Revelation",
+    "translate": "quest.narutorpg.academy_entrance_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.academy_entrance_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: The Dream's Revelation",
+        "translate": "quest.narutorpg.academy_entrance_arc_08.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:denki_kaminarimon",
+      "text": {
+        "fallback": "Meet Denki Kaminarimon",
+        "translate": "quest.narutorpg.academy_entrance_arc_08.o3"
+      }
+    }
+  ],
+  "order": 201107,
+  "outro": [
+    {
+      "fallback": "Boruto goes out to eat and meets Shikadai, who suggests maybe he's awakening the Byakugan.",
+      "translate": "quest.narutorpg.academy_entrance_arc_08.outro0"
+    },
+    {
+      "fallback": "Mitsuki reveals himself, agreeing that Boruto should find out more about the Byakugan.",
+      "translate": "quest.narutorpg.academy_entrance_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_07"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

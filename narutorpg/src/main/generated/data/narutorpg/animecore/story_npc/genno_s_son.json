@@ -1,0 +1,16 @@
+{
+  "appearance": {
+    "accent": 2503224,
+    "eyes": 2001125,
+    "hair": 6111287,
+    "top": 4545124
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Gennō's Son",
+    "translate": "npc.narutorpg.genno_s_son"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

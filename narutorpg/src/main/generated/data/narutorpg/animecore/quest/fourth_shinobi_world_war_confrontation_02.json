@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:a_fourth_raikage_ally_shippuden",
+    "narutorpg:minato_namikaze_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Confrontation",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_confrontation"
+  },
+  "description": {
+    "fallback": "Killer B attempts to teach Naruto how to use the Tailed Beast Ball, but Naruto cannot turn into the Nine-Tails because his bond with it is weak. The Eight-Tails then explained to Naruto that whenever he uses the Nine-Tails' chakra he stocks his own and the Nine-Tails can steal it, in the end Naruto could lose it all and die if he uses the chakra constantly, and using shadow clones speeds up the process, making them...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Killer B attempts to teach Naruto how to use the Tailed Beast Ball, but Naruto cannot turn into the Nine-Tails because his bond with it is weak.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.intro0"
+    },
+    {
+      "fallback": "The Eight-Tails then explained to Naruto that whenever he uses the Nine-Tails' chakra he stocks his own and the Nine-Tails can steal it, in the end Naruto could lose it all and die if he uses the chakra constantly, and...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.intro1"
+    },
+    {
+      "fallback": "The Eight-Tails explained that he and B were able to compromise on how much chakra each would take from the other, eliminating the risk.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Seven Swordsmen Reunited",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: The Seven Swordsmen Reunited",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zabuza_momochi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Zabuza Momochi",
+        "translate": "quest.narutorpg.defeat.zabuza_momochi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 127101,
+  "outro": [
+    {
+      "fallback": "Though the Hiding in Mist Technique ended as he planned, Kakashi expresses his rage about how Impure World Reincarnation is used in such unforgivable matter.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.outro0"
+    },
+    {
+      "fallback": "In the Land of Lightning, Gaara picks up the presence of Second Tsuchikage Mū with Concealed Sand Pict",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_02.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_01"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

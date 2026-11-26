@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Genin Mission Arc",
+    "translate": "quest.narutorpg.arc.genin_mission_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Boruto joins his team on his way to the Hokage's office, where they're to be assigned their first mission. Konohamaru explains that as new shinobi fresh from the Academy, they'll only receive low-rank missions at first. Boruto thinks they should just get those missions over with, so they can get higher ranked missions.",
+    "translate": "quest.narutorpg.genin_mission_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto joins his team on his way to the Hokage's office, where they're to be assigned their first mission.",
+      "translate": "quest.narutorpg.genin_mission_arc_01.intro0"
+    },
+    {
+      "fallback": "Konohamaru explains that as new shinobi fresh from the Academy, they'll only receive low-rank missions at first.",
+      "translate": "quest.narutorpg.genin_mission_arc_01.intro1"
+    },
+    {
+      "fallback": "Boruto thinks they should just get those missions over with, so they can get higher ranked missions.",
+      "translate": "quest.narutorpg.genin_mission_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team 7: The First Mission!",
+    "translate": "quest.narutorpg.genin_mission_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.genin_mission_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 41,
+      "text": {
+        "fallback": "Go: Team 7: The First Mission!",
+        "translate": "quest.narutorpg.genin_mission_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Meet Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.genin_mission_arc_01.o3"
+      }
+    }
+  ],
+  "order": 205000,
+  "outro": [
+    {
+      "fallback": "Boruto still thinks the mission to be easy, and when Konohamaru says the team should take the assignment more seriously, Sarada is angered for being lumped in with Boruto.",
+      "translate": "quest.narutorpg.genin_mission_arc_01.outro0"
+    },
+    {
+      "fallback": "Naruto tells them that even as a D rank mission, it is important and that they should give it their all.",
+      "translate": "quest.narutorpg.genin_mission_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_08"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

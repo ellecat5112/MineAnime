@@ -1,0 +1,36 @@
+{
+  "abilities": [
+    "narutorpg:amenosubaruboshinomikoto",
+    "narutorpg:amenosubaruboshinomikoto_gyokko",
+    "narutorpg:amenosubaruboshinomikoto_ryugu",
+    "narutorpg:black_receiver",
+    "narutorpg:chakra_edible_creation",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 11583173,
+    "eyes": 4431943,
+    "hair": 16119285,
+    "hair_style": "long",
+    "mark": "rinnegan",
+    "outfit": "robe",
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 16448250
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Urashiki Ōtsutsuki",
+    "translate": "npc.narutorpg.urashiki_otsutsuki"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

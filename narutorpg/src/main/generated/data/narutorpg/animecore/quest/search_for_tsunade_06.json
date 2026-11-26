@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Search for Tsunade",
+    "translate": "quest.narutorpg.arc.search_for_tsunade"
+  },
+  "description": {
+    "fallback": "Upon their return, Naruto heard that the village of Konoha must continue their missions as normal. Iruka explained to Naruto (over a bowl of ramen, of course) that they must not show other villages that they were currently weak, so they must do as many missions as they had done before Orochimaru's invasion, even though their strength had been cut in half. Tsunade was well-known as a great medical ninja, and she...",
+    "translate": "quest.narutorpg.search_for_tsunade_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Upon their return, Naruto heard that the village of Konoha must continue their missions as normal.",
+      "translate": "quest.narutorpg.search_for_tsunade_06.intro0"
+    },
+    {
+      "fallback": "Iruka explained to Naruto (over a bowl of ramen, of course) that they must not show other villages that they were currently weak, so they must do as many missions as they had done before Orochimaru's invasion, even...",
+      "translate": "quest.narutorpg.search_for_tsunade_06.intro1"
+    },
+    {
+      "fallback": "Tsunade was well-known as a great medical ninja, and she healed Sasuke and Kakashi of their ailments received during the fight with Itachi.",
+      "translate": "quest.narutorpg.search_for_tsunade_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The New Hokage",
+    "translate": "quest.narutorpg.search_for_tsunade_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.search_for_tsunade_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: The New Hokage",
+        "translate": "quest.narutorpg.search_for_tsunade_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 9105,
+  "outro": [
+    {
+      "fallback": "It showed a series of mathematical equations surrounding a chart of a body.",
+      "translate": "quest.narutorpg.search_for_tsunade_06.outro0"
+    },
+    {
+      "fallback": "\"50%\" was written and crossed out, followed by an arrow pointing to a circle, which contained \"58%\", and Shizune could only smile.",
+      "translate": "quest.narutorpg.search_for_tsunade_06.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:search_for_tsunade_05"
+  ],
+  "rewards": {
+    "experience": 19,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

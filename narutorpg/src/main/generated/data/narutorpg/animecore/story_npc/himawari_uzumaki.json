@@ -1,0 +1,22 @@
+{
+  "appearance": {
+    "accent": 8280002,
+    "eyes": 14802156,
+    "hair": 2763315,
+    "hair_style": "long",
+    "headband": 1981066,
+    "mark": "pale_eyes",
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 15591388
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Himawari Uzumaki",
+    "translate": "npc.narutorpg.himawari_uzumaki"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

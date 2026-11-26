@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:gaara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Sunagakure Support Mission",
+    "translate": "quest.narutorpg.arc.sunagakure_support_mission"
+  },
+  "description": {
+    "fallback": "With Naruto's display of stubborn resistance towards Seimei, Gaara manages to prevent Shukaku from fully emerging and kills Seimei with his Sand Waterfall Imperial Funeral. Everyone returns to Konoha, where Ino makes a request to also become Tsunade's student. Tenten is enraged by the fact that she was left out of the mission.",
+    "translate": "quest.narutorpg.sunagakure_support_mission_05.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "With Naruto's display of stubborn resistance towards Seimei, Gaara manages to prevent Shukaku from fully emerging and kills Seimei with his Sand Waterfall Imperial Funeral.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_05.intro0"
+    },
+    {
+      "fallback": "Everyone returns to Konoha, where Ino makes a request to also become Tsunade's student.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_05.intro1"
+    },
+    {
+      "fallback": "Tenten is enraged by the fact that she was left out of the mission.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Departure (episode)",
+    "translate": "quest.narutorpg.sunagakure_support_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.sunagakure_support_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Departure (episode)",
+        "translate": "quest.narutorpg.sunagakure_support_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:seimei_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Seimei",
+        "translate": "quest.narutorpg.defeat.seimei_foe_shippuden"
+      }
+    }
+  ],
+  "order": 122604,
+  "outro": [
+    {
+      "fallback": "As Naruto prepares to leave for his two-and-a-half years of training with Jiraiya (who had returned with information about the Akatsuki's plans), the others discuss the future and resolve to train harder so as to keep...",
+      "translate": "quest.narutorpg.sunagakure_support_mission_05.outro0"
+    },
+    {
+      "fallback": "Hinata watches him head off with Jiraiya.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:sunagakure_support_mission_04"
+  ],
+  "rewards": {
+    "experience": 29,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

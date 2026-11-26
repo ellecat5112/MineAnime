@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:chakra_enhanced_strength",
+    "narutorpg:chakra_hair_trap_technique",
+    "narutorpg:formation_inoshikacho",
+    "narutorpg:mind_body_disturbance_technique",
+    "narutorpg:mind_body_switch_technique",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 9315498,
+    "hair": 15913323,
+    "hair_style": "ponytail",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "skin": 14724201,
+    "top": 6953882
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Ino Yamanaka",
+    "translate": "npc.narutorpg.ino_yamanaka"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:minato_namikaze_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "After telling Obito that he will not let the world end as long as he lives, Naruto dons his Nine-Tails Chakra Mode mantle with Minato following suit. Their combined efforts bolster the Version 1-like mantles around the shinobi thus allowing Minato to teleport the Alliance outside the barrier before the Tailed Beast Balls exploded. With this, the team presses onwards in their assault on Obito with the father-son duo...",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "After telling Obito that he will not let the world end as long as he lives, Naruto dons his Nine-Tails Chakra Mode mantle with Minato following suit.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.intro0"
+    },
+    {
+      "fallback": "Their combined efforts bolster the Version 1-like mantles around the shinobi thus allowing Minato to teleport the Alliance outside the barrier before the Tailed Beast Balls exploded.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.intro1"
+    },
+    {
+      "fallback": "With this, the team presses onwards in their assault on Obito with the father-son duo going into Tailed Beast Mode and Naruto also using Sage Mode to bolster the attacks so that they would affect Obito.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Will of the Shinobi",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: The Will of the Shinobi",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ten_tails_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Ten-Tails",
+        "translate": "quest.narutorpg.defeat.ten_tails_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138801,
+  "outro": [
+    {
+      "fallback": "As Madara and Hashirama continued to fight, the Uchiha reveals that even without the full chakra of the Eight and Nine-Tails, the tree would bloom in approximately fifteen minutes, during which Madara planned to take...",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.outro0"
+    },
+    {
+      "fallback": "As the info is relayed to him, Hashirama's wood clone called out for a Yamanaka, and while startled, Ino responds t",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_02.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_01"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

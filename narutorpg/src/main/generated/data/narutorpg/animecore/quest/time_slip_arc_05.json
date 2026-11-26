@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Time Slip Arc",
+    "translate": "quest.narutorpg.arc.time_slip_arc"
+  },
+  "description": {
+    "fallback": "Naruto complains about how early they have to train, and that Boruto lied about being a ninja. Boruto says that he's on a secret mission, so he can't freely share his name and identity. Naruto decides to trust him.",
+    "translate": "quest.narutorpg.time_slip_arc_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto complains about how early they have to train, and that Boruto lied about being a ninja.",
+      "translate": "quest.narutorpg.time_slip_arc_05.intro0"
+    },
+    {
+      "fallback": "Boruto says that he's on a secret mission, so he can't freely share his name and identity.",
+      "translate": "quest.narutorpg.time_slip_arc_05.intro1"
+    },
+    {
+      "fallback": "Naruto decides to trust him.",
+      "translate": "quest.narutorpg.time_slip_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jiraiya's Assignment",
+    "translate": "quest.narutorpg.time_slip_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.time_slip_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: Jiraiya's Assignment",
+        "translate": "quest.narutorpg.time_slip_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 213804,
+  "outro": [
+    {
+      "fallback": "They're unable to do it, but are in sync enough to expand it a bit.",
+      "translate": "quest.narutorpg.time_slip_arc_05.outro0"
+    },
+    {
+      "fallback": "Jiraiya leaves them training to run an errand, and observes Sasuke keeping an eye on them from a distance.",
+      "translate": "quest.narutorpg.time_slip_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:time_slip_arc_04"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

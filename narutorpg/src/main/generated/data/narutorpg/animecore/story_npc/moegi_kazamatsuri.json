@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "top": 2046559
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Moegi Kazamatsuri",
+    "translate": "npc.narutorpg.moegi_kazamatsuri"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

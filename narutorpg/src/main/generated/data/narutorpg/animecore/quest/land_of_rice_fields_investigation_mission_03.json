@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sasame_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Land of Rice Fields Investigation Mission",
+    "translate": "quest.narutorpg.arc.land_of_rice_fields_investigation_mission"
+  },
+  "description": {
+    "fallback": "The three servants of Orochimaru from the same clan as Sasame attack Naruto and Sakura with the spider webs. Naruto tries using shadow clones but the enemy brings down the whole arena and Naruto and his clones fall beneath the sand. Jiraiya arrives, summons a big toad and takes Naruto away to safety along with Sakura and Sasame.",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "The three servants of Orochimaru from the same clan as Sasame attack Naruto and Sakura with the spider webs.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.intro0"
+    },
+    {
+      "fallback": "Naruto tries using shadow clones but the enemy brings down the whole arena and Naruto and his clones fall beneath the sand.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.intro1"
+    },
+    {
+      "fallback": "Jiraiya arrives, summons a big toad and takes Naruto away to safety along with Sakura and Sasame.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Pure Betrayal and a Fleeting Plea",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Pure Betrayal and a Fleeting Plea",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jigumo_foe_naruto",
+      "text": {
+        "fallback": "Defeat Jigumo",
+        "translate": "quest.narutorpg.defeat.jigumo_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kamikiri_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kamikiri",
+        "translate": "quest.narutorpg.defeat.kamikiri_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 14602,
+  "outro": [
+    {
+      "fallback": "Kagerō attacks Naruto and Jiraiya with a powerful technique that shortens her life, then escapes with Jigumo and Kamikiri.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.outro0"
+    },
+    {
+      "fallback": "When Jigumo and Kamikiri discover that they were being used by Orochimaru, they attack him, but are apparently killed by the latter.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:land_of_rice_fields_investigation_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

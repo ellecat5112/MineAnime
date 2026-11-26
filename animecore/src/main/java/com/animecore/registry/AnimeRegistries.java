@@ -35,6 +35,9 @@ public final class AnimeRegistries {
     public static final RegistryKey<Registry<TransformationDefinition>> TRANSFORMATION = RegistryKey.ofRegistry(Ids.core("transformation"));
     public static final RegistryKey<Registry<com.animecore.registry.definition.BackgroundDefinition>> BACKGROUND = RegistryKey.ofRegistry(Ids.core("background"));
 
+    public static final RegistryKey<Registry<com.animecore.quest.QuestDefinition>> QUEST = RegistryKey.ofRegistry(Ids.core("quest"));
+    public static final RegistryKey<Registry<com.animecore.quest.StoryNpcDefinition>> STORY_NPC = RegistryKey.ofRegistry(Ids.core("story_npc"));
+
     public static void init() {
         // Synced so clients can render names, colors, combos and HUD icons without extra packets.
         DynamicRegistries.registerSynced(ABILITY, AbilityDefinition.CODEC);
@@ -43,6 +46,8 @@ public final class AnimeRegistries {
         DynamicRegistries.registerSynced(AFFINITY, AffinityDefinition.CODEC);
         DynamicRegistries.registerSynced(TRANSFORMATION, TransformationDefinition.CODEC);
         DynamicRegistries.registerSynced(BACKGROUND, com.animecore.registry.definition.BackgroundDefinition.CODEC);
+        DynamicRegistries.registerSynced(QUEST, com.animecore.quest.QuestDefinition.CODEC);
+        DynamicRegistries.registerSynced(STORY_NPC, com.animecore.quest.StoryNpcDefinition.CODEC);
     }
 
     // ---- convenience lookups (version-shielded) ----
@@ -65,6 +70,14 @@ public final class AnimeRegistries {
 
     public static Optional<com.animecore.registry.definition.BackgroundDefinition> background(DynamicRegistryManager m, Identifier id) {
         return AnimeRegistryAccess.value(m, BACKGROUND, id);
+    }
+
+    public static Optional<com.animecore.quest.QuestDefinition> quest(DynamicRegistryManager m, Identifier id) {
+        return m.getOptional(QUEST).flatMap(r -> r.getOrEmpty(id));
+    }
+
+    public static Optional<com.animecore.quest.StoryNpcDefinition> storyNpc(DynamicRegistryManager m, Identifier id) {
+        return m.getOptional(STORY_NPC).flatMap(r -> r.getOrEmpty(id));
     }
 
     public static Registry<AffinityDefinition> affinities(DynamicRegistryManager m) {

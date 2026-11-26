@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:akahoshi_ally_naruto",
+    "narutorpg:rock_lee_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Star Guard Mission",
+    "translate": "quest.narutorpg.arc.star_guard_mission"
+  },
+  "description": {
+    "fallback": "Akahoshi says that the mission for the Konoha shinobi is over, but Neji says that as the star has not been recovered, the mission will go on. Neji, Lee and Tenten reveal the truth about Akahoshi to the trainees. Naruto awakens and hears about Natsuhi and her husband seeing the horrors of the star training, and trying to steal the star.",
+    "translate": "quest.narutorpg.star_guard_mission_04.desc"
+  },
+  "giver": "narutorpg:neji_hyuga",
+  "intro": [
+    {
+      "fallback": "Akahoshi says that the mission for the Konoha shinobi is over, but Neji says that as the star has not been recovered, the mission will go on.",
+      "translate": "quest.narutorpg.star_guard_mission_04.intro0"
+    },
+    {
+      "fallback": "Neji, Lee and Tenten reveal the truth about Akahoshi to the trainees.",
+      "translate": "quest.narutorpg.star_guard_mission_04.intro1"
+    },
+    {
+      "fallback": "Naruto awakens and hears about Natsuhi and her husband seeing the horrors of the star training, and trying to steal the star.",
+      "translate": "quest.narutorpg.star_guard_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Hoshikage: The Buried Truth",
+    "translate": "quest.narutorpg.star_guard_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:neji_hyuga",
+      "text": {
+        "fallback": "Talk to Neji Hyūga",
+        "translate": "quest.narutorpg.star_guard_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Hoshikage: The Buried Truth",
+        "translate": "quest.narutorpg.star_guard_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:natsuhi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Natsuhi",
+        "translate": "quest.narutorpg.defeat.natsuhi_foe_naruto"
+      }
+    }
+  ],
+  "order": 18803,
+  "outro": [
+    {
+      "fallback": "Akahoshi tracks down the star, and reveals that he assassinated the Hoshikage in order to resume the star training.",
+      "translate": "quest.narutorpg.star_guard_mission_04.outro0"
+    },
+    {
+      "fallback": "He fights Natsuhi and absorbs his subordinates' chakra to grow stronger, but Naruto's team-mates and the star trainees arrive.",
+      "translate": "quest.narutorpg.star_guard_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:star_guard_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

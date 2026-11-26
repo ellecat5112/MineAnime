@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "hair_style": "long",
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 4545124
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Sasame",
+    "translate": "npc.narutorpg.sasame"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:cat_claw",
+    "narutorpg:cat_flame_roaring_fire",
+    "narutorpg:claw_creation_technique",
+    "narutorpg:flying_claw",
+    "narutorpg:great_cat_claw_attack"
+  ],
+  "appearance": {
+    "accent": 16757504,
+    "hair": 9268835,
+    "hair_style": "long",
+    "headband": 2503224,
+    "outfit": "jacket",
+    "skin": 13010498,
+    "top": 16448250
+  },
+  "attack": 8.0,
+  "health": 116.0,
+  "name": {
+    "fallback": "Yugito Nii",
+    "translate": "npc.narutorpg.yugito_nii"
+  },
+  "power": 1.48,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

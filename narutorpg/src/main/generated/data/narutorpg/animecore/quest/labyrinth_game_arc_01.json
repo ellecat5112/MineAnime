@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Sakura informs Sarada that Sasuke is taking Boruto with him to look for a replacement messenger hawk. She advises Sarada to get used to Sasuke leaving and returning suddenly. On the train, Sasuke explains the type of hawk he's after, tended to by a man named Maruta.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_01.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Sakura informs Sarada that Sasuke is taking Boruto with him to look for a replacement messenger hawk.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_01.intro0"
+    },
+    {
+      "fallback": "She advises Sarada to get used to Sasuke leaving and returning suddenly.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_01.intro1"
+    },
+    {
+      "fallback": "On the train, Sasuke explains the type of hawk he's after, tended to by a man named Maruta.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Flightless Hawk",
+    "translate": "quest.narutorpg.labyrinth_game_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.labyrinth_game_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: A Flightless Hawk",
+        "translate": "quest.narutorpg.labyrinth_game_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 228400,
+  "outro": [
+    {
+      "fallback": "Mozu initially intends to send them away, but changes her mind when Boruto recognises Tentō in a photo.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_01.outro0"
+    },
+    {
+      "fallback": "She takes them to see their pens, and berates her son, who took it upon himself to clean the stables when no one else would, for showing up filthy in front of customers.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

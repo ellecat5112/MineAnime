@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Ao Arc",
+    "translate": "quest.narutorpg.arc.ao_arc"
+  },
+  "description": {
+    "fallback": "In a cave, Konohamaru tends to Mugino's injuries. Team 7 finds them, and they catch each other up on what happened. While Konohamaru attempts to let Katasuke analyse the data acquired, they are interrupted by Ao.",
+    "translate": "quest.narutorpg.ao_arc_03.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "In a cave, Konohamaru tends to Mugino's injuries.",
+      "translate": "quest.narutorpg.ao_arc_03.intro0"
+    },
+    {
+      "fallback": "Team 7 finds them, and they catch each other up on what happened.",
+      "translate": "quest.narutorpg.ao_arc_03.intro1"
+    },
+    {
+      "fallback": "While Konohamaru attempts to let Katasuke analyse the data acquired, they are interrupted by Ao.",
+      "translate": "quest.narutorpg.ao_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Ao's Assault",
+    "translate": "quest.narutorpg.ao_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.ao_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Ao's Assault",
+        "translate": "quest.narutorpg.ao_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 218802,
+  "outro": [
+    {
+      "fallback": "Boruto strikes from above with the chakra blade, which Ao blocks with his own.",
+      "translate": "quest.narutorpg.ao_arc_03.outro0"
+    },
+    {
+      "fallback": "Ao grabs Boruto's chakra blade and stabs him with it, only to reveal tha",
+      "translate": "quest.narutorpg.ao_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:ao_arc_02"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

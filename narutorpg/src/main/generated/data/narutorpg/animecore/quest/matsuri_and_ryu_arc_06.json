@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "Sarada thinks back to her conversations with her comrades and friends about her dream of becoming Hokage and her repressed feelings for Boruto. In a flashback, after leaving Konohagakure, Boruto asks Sasuke what the Mangekyō Sharingan is. Sasuke explains it to Boruto but he knows that though Sarada had awakened her Mangekyo Sharingan, she is unaware of the awakening but in due time, she will learn how to use it in...",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Sarada thinks back to her conversations with her comrades and friends about her dream of becoming Hokage and her repressed feelings for Boruto.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.intro0"
+    },
+    {
+      "fallback": "In a flashback, after leaving Konohagakure, Boruto asks Sasuke what the Mangekyō Sharingan is.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.intro1"
+    },
+    {
+      "fallback": "Sasuke explains it to Boruto but he knows that though Sarada had awakened her Mangekyo Sharingan, she is unaware of the awakening but in due time, she will learn how to use it in the future which will benefit them.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Mangekyō Sharingan (chapter)",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Mangekyō Sharingan (chapter)",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Meet Sarada Uchiha",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.o3"
+      }
+    }
+  ],
+  "order": 302605,
+  "outro": [
+    {
+      "fallback": "Sasuke explains it to Boruto but he knows that though Sarada had awakened her Mangekyo Sharingan, she is unaware of the awakening but in due time, she will learn how to use it in the future which will benefit them.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.outro0"
+    },
+    {
+      "fallback": "Sarada coldly combats Ryū with her new ability while Mitsuki watches where she becomes victorious.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_05"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

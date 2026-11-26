@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Sasuke Shinden: Book of Sunrise",
+    "translate": "quest.narutorpg.arc.sasuke_shinden_book_of_sunrise"
+  },
+  "description": {
+    "fallback": "Sasuke wants Fūshin to tell him everything he knows. Fūshin wonders if Sasuke can make him, and creates a strong windstorm. Sasuke dodges Fūshin's exploding chakra blades, getting nearer to Fūshin, but he increases the strength of the windstorm, turning it into a typhoon.",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Sasuke wants Fūshin to tell him everything he knows.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.intro0"
+    },
+    {
+      "fallback": "Fūshin wonders if Sasuke can make him, and creates a strong windstorm.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.intro1"
+    },
+    {
+      "fallback": "Sasuke dodges Fūshin's exploding chakra blades, getting nearer to Fūshin, but he increases the strength of the windstorm, turning it into a typhoon.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Ketsuryūgan",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: The Ketsuryūgan",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nowaki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nowaki",
+        "translate": "quest.narutorpg.defeat.nowaki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 149403,
+  "outro": [
+    {
+      "fallback": "Fūshin creates a greater typhoon, and Sasuke dispels his Susanoo, and takes advantage of the eye of the storm, where there is no wind, to get to Fūshin and strike him with Chidori.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.outro0"
+    },
+    {
+      "fallback": "Sasuke tries reading his memories with the Sharingan, but again meets resistance from the Ketsuryūgan.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_04.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:sasuke_shinden_book_of_sunrise_03"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

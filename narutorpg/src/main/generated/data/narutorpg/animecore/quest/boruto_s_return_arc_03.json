@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Code wonders if Boruto's new Rasengan is his vanishing one, but discards the possibility. He uses Claw Marks to strike him from behind. Boruto dodges it, Code grabs him by the wrist, and Boruto blocks Code's other hand with his sword.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_03.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Code wonders if Boruto's new Rasengan is his vanishing one, but discards the possibility.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_03.intro0"
+    },
+    {
+      "fallback": "He uses Claw Marks to strike him from behind.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_03.intro1"
+    },
+    {
+      "fallback": "Boruto dodges it, Code grabs him by the wrist, and Boruto blocks Code's other hand with his sword.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Uzuhiko (chapter)",
+    "translate": "quest.narutorpg.boruto_s_return_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.boruto_s_return_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Uzuhiko (chapter)",
+        "translate": "quest.narutorpg.boruto_s_return_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    }
+  ],
+  "order": 301102,
+  "outro": [
+    {
+      "fallback": "Boruto can rescind the effects if Code takes him to the Ten-Tails.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_03.outro0"
+    },
+    {
+      "fallback": "Kawaki attacks Boruto, arriving with Team 10 and Himawari.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_02"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

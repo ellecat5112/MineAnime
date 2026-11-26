@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 2001125,
+    "hair": 2503224,
+    "hair_style": "spiky",
+    "pants": 1713022,
+    "skin": 14724201
+  },
+  "attack": 16.0,
+  "health": 228.0,
+  "name": {
+    "fallback": "Ikkyū Madoka",
+    "translate": "npc.narutorpg.ikkyu_madoka"
+  },
+  "power": 2.44,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

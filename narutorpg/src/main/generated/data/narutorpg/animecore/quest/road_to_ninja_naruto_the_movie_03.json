@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Road to Ninja: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.road_to_ninja_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "In the morning, Sakura notices that this world's Kakashi and Guy have switched personalities with Kakashi showing more excitement and displaying a positive attitude and Guy complaining about having to do two missions back to back with a tired uninterested attitude, while Naruto isolates himself from his parents at every turn. They soon locate where Jiraiya hid the scroll, but as the group stops to rest, Naruto...",
+    "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "In the morning, Sakura notices that this world's Kakashi and Guy have switched personalities with Kakashi showing more excitement and displaying a positive attitude and Guy complaining about having to do two missions...",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.intro0"
+    },
+    {
+      "fallback": "They soon locate where Jiraiya hid the scroll, but as the group stops to rest, Naruto charges ahead until he is confronted by the appearance of Gamabunta, Gamahiro and Gamaken.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.intro1"
+    },
+    {
+      "fallback": "They refuse to listen to Naruto and the group who explains their reason for being there and attacks them with an army of frogs.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Part 3",
+        "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301802,
+  "outro": [
+    {
+      "fallback": "At that moment an explosion occurs at the Hokage's office, where the masked man from earlier asks for the scroll they brought back.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.outro0"
+    },
+    {
+      "fallback": "He overpowers Minato, Kushina, and Tsunade, and then Naruto and Sakur",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:road_to_ninja_naruto_the_movie_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

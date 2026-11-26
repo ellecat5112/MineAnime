@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "In order to officially obtain the rank of genin, Academy students must be organised into groups of three to undergo a field evaluation administered by a jōnin, who would be their squad leader should they pass. On the day of organisation, Naruto made sure to have a good breakfast, and headed off to the academy, where the groups were to be decided. Upon arriving there, Naruto showed off his forehead protector to the...",
+    "translate": "quest.narutorpg.prologue_land_of_waves_04.desc"
+  },
+  "giver": "narutorpg:iruka_umino",
+  "intro": [
+    {
+      "fallback": "In order to officially obtain the rank of genin, Academy students must be organised into groups of three to undergo a field evaluation administered by a jōnin, who would be their squad leader should they pass.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_04.intro0"
+    },
+    {
+      "fallback": "On the day of organisation, Naruto made sure to have a good breakfast, and headed off to the academy, where the groups were to be decided.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_04.intro1"
+    },
+    {
+      "fallback": "Upon arriving there, Naruto showed off his forehead protector to the other students, who thought he had failed.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Formation of Team 7",
+    "translate": "quest.narutorpg.prologue_land_of_waves_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Talk to Iruka Umino",
+        "translate": "quest.narutorpg.prologue_land_of_waves_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Formation of Team 7",
+        "translate": "quest.narutorpg.prologue_land_of_waves_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 1103,
+  "outro": [
+    {
+      "fallback": "When she expressed her jealousy of Naruto for having no parents to tell him what to do, Sasuke stated that those without parents grow up lonely, and that Sakura made him sick.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_04.outro0"
+    },
+    {
+      "fallback": "Sasuke left the crushed Sakura by he",
+      "translate": "quest.narutorpg.prologue_land_of_waves_04.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_03"
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

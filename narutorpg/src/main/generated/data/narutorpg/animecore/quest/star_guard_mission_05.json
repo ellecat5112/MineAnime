@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:neji_hyuga_ally_naruto",
+    "narutorpg:rock_lee_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Star Guard Mission",
+    "translate": "quest.narutorpg.arc.star_guard_mission"
+  },
+  "description": {
+    "fallback": "As Sumaru, the rest of the Star trainees and Naruto's teammates arrive, Akahoshi takes Sumaru hostage and forces Natsuhi to hand over the star. Neji examines Natsuhi and reveals that she could die if she uses her star chakra technique again. After Sumaru awakens, he speaks with his mother, who reveals that while she knew that she had to leave him behind to spare him the pain of becoming an exile, she regrets leaving...",
+    "translate": "quest.narutorpg.star_guard_mission_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "As Sumaru, the rest of the Star trainees and Naruto's teammates arrive, Akahoshi takes Sumaru hostage and forces Natsuhi to hand over the star.",
+      "translate": "quest.narutorpg.star_guard_mission_05.intro0"
+    },
+    {
+      "fallback": "Neji examines Natsuhi and reveals that she could die if she uses her star chakra technique again.",
+      "translate": "quest.narutorpg.star_guard_mission_05.intro1"
+    },
+    {
+      "fallback": "After Sumaru awakens, he speaks with his mother, who reveals that while she knew that she had to leave him behind to spare him the pain of becoming an exile, she regrets leaving him.",
+      "translate": "quest.narutorpg.star_guard_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Reunion: The Remaining Time",
+    "translate": "quest.narutorpg.star_guard_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.star_guard_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Reunion: The Remaining Time",
+        "translate": "quest.narutorpg.star_guard_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:natsuhi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Natsuhi",
+        "translate": "quest.narutorpg.defeat.natsuhi_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:akahoshi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Akahoshi",
+        "translate": "quest.narutorpg.defeat.akahoshi_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sumaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Sumaru",
+        "translate": "quest.narutorpg.defeat.sumaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 18804,
+  "outro": [
+    {
+      "fallback": "Sumaru, following with Naruto, Team Guy, and Hokuto, senses her death and flies to the temple.",
+      "translate": "quest.narutorpg.star_guard_mission_05.outro0"
+    },
+    {
+      "fallback": "Akahoshi declares himself Fourth Hoshikage and orders his ninja to kill the Konoha shinobi, Sumaru and Hokuto if they set foot in the village.",
+      "translate": "quest.narutorpg.star_guard_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:star_guard_mission_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

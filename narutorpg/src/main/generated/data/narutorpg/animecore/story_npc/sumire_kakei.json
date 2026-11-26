@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 2001125,
+    "hair": 2503224,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 14724201,
+    "top": 2046559
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Sumire Kakei",
+    "translate": "npc.narutorpg.sumire_kakei"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

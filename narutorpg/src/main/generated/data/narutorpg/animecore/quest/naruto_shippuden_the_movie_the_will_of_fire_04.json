@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_movies",
+    "narutorpg:sai_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Will of Fire",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_will_of_fire"
+  },
+  "description": {
+    "fallback": "As Naruto and company approach the temple, Naruto hears Hiruko's voice, and questions why he did this. Hiruko claims to have been a former friend of the Sannin, but he was not a skilled shinobi like they were. He was developing the Chimera Technique, a jutsu that would allow him to combine several bodies into a a stronger synthetic one.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Naruto and company approach the temple, Naruto hears Hiruko's voice, and questions why he did this.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.intro0"
+    },
+    {
+      "fallback": "Hiruko claims to have been a former friend of the Sannin, but he was not a skilled shinobi like they were.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.intro1"
+    },
+    {
+      "fallback": "He was developing the Chimera Technique, a jutsu that would allow him to combine several bodies into a a stronger synthetic one.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 4",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Part 4",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_movies",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hiruko_missing_nin_foe_movies",
+      "text": {
+        "fallback": "Defeat Hiruko (missing-nin)",
+        "translate": "quest.narutorpg.defeat.hiruko_missing_nin_foe_movies"
+      }
+    }
+  ],
+  "order": 301503,
+  "outro": [
+    {
+      "fallback": "Hiruko is still alive, and he states that the eclipse hasn't ended yet, and releases a large amount of chakra, reducing the surrounding area to rubble.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.outro0"
+    },
+    {
+      "fallback": "When Hiruko summons the chimera beast that the Konoha 11 were keeping restrained, Shikamaru, Sakura, and Sai fight the beast while Naruto and Kakashi face Hiruko.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_04.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_will_of_fire_03"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

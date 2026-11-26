@@ -1,0 +1,17 @@
+{
+  "appearance": {
+    "eyes": 1118481,
+    "hair": 9268835,
+    "headband": 3622735,
+    "outfit": "jacket",
+    "skin": 16767916
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Kagura Karatachi",
+    "translate": "npc.narutorpg.kagura_karatachi"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

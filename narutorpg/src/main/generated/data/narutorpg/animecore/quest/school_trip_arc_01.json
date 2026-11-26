@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "School Trip Arc",
+    "translate": "quest.narutorpg.arc.school_trip_arc"
+  },
+  "description": {
+    "fallback": "Land of Fire daimyō Ikkyū Madoka issues a statement regarding state of affairs with the Land of Waves. Iruka and Anko watch it on the news, disconcerted with his position, and muse how good Konoha has it. Naruto is with them, having come to the Academy, and announced he has reached an agreement with the Land of Water, allowing for field trips there.",
+    "translate": "quest.narutorpg.school_trip_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Land of Fire daimyō Ikkyū Madoka issues a statement regarding state of affairs with the Land of Waves.",
+      "translate": "quest.narutorpg.school_trip_arc_01.intro0"
+    },
+    {
+      "fallback": "Iruka and Anko watch it on the news, disconcerted with his position, and muse how good Konoha has it.",
+      "translate": "quest.narutorpg.school_trip_arc_01.intro1"
+    },
+    {
+      "fallback": "Naruto is with them, having come to the Academy, and announced he has reached an agreement with the Land of Water, allowing for field trips there.",
+      "translate": "quest.narutorpg.school_trip_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Turbulent Field Trip!!",
+    "translate": "quest.narutorpg.school_trip_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.school_trip_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: The Turbulent Field Trip!!",
+        "translate": "quest.narutorpg.school_trip_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:ikkyu_madoka",
+      "text": {
+        "fallback": "Meet Ikkyū Madoka",
+        "translate": "quest.narutorpg.school_trip_arc_01.o3"
+      }
+    }
+  ],
+  "order": 203500,
+  "outro": [
+    {
+      "fallback": "Shino announces the development to his class.",
+      "translate": "quest.narutorpg.school_trip_arc_01.outro0"
+    },
+    {
+      "fallback": "The students discuss the possibilities.",
+      "translate": "quest.narutorpg.school_trip_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:academy_entrance_arc_15"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

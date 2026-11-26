@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:kiba_inuzuka_ally_boruto",
+    "narutorpg:shino_aburame_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Time Slip Arc",
+    "translate": "quest.narutorpg.arc.time_slip_arc"
+  },
+  "description": {
+    "fallback": "Team 10, Kiba, and Shino, leave the hospital after Sasuke is admitted, and discuss what they believe Konohamaru saw, having missed the battle with Urashiki. Jiraiya and Boruto find Sasuke at the hospital roof, and Jiraiya thanks him for his help protecting Naruto. Boruto and Sasuke intend to return home the day after.",
+    "translate": "quest.narutorpg.time_slip_arc_09.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Team 10, Kiba, and Shino, leave the hospital after Sasuke is admitted, and discuss what they believe Konohamaru saw, having missed the battle with Urashiki.",
+      "translate": "quest.narutorpg.time_slip_arc_09.intro0"
+    },
+    {
+      "fallback": "Jiraiya and Boruto find Sasuke at the hospital roof, and Jiraiya thanks him for his help protecting Naruto.",
+      "translate": "quest.narutorpg.time_slip_arc_09.intro1"
+    },
+    {
+      "fallback": "Boruto and Sasuke intend to return home the day after.",
+      "translate": "quest.narutorpg.time_slip_arc_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Crossing Time!",
+    "translate": "quest.narutorpg.time_slip_arc_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.time_slip_arc_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Crossing Time!",
+        "translate": "quest.narutorpg.time_slip_arc_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213808,
+  "outro": [
+    {
+      "fallback": "Sasuke erases their memory with his Sharingan, along with anyone they met in the past.",
+      "translate": "quest.narutorpg.time_slip_arc_09.outro0"
+    },
+    {
+      "fallback": "Hinata and Neji find Naruto and Jiraiya passed out in the forest.",
+      "translate": "quest.narutorpg.time_slip_arc_09.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:time_slip_arc_08"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kakashi_hatake_ally_shippuden",
+    "narutorpg:tonika_village_head_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Power",
+    "translate": "quest.narutorpg.arc.power"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] The reborn Team Kakashi is sent out on a mission by Tsunade to a location known as \"The Hole\" to investigate an incident where Tonika Village's people had been killed. Regretting that she could not assign more people to the mission because of recent incidents elsewhere, the team sets out nonetheless. While there, they split up into two man teams, with Yamato and Sai encountering officers from the neighbouring Hachō...",
+    "translate": "quest.narutorpg.power_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "The reborn Team Kakashi is sent out on a mission by Tsunade to a location known as \"The Hole\" to investigate an incident where Tonika Village's people had been killed.",
+      "translate": "quest.narutorpg.power_01.intro0"
+    },
+    {
+      "fallback": "Regretting that she could not assign more people to the mission because of recent incidents elsewhere, the team sets out nonetheless.",
+      "translate": "quest.narutorpg.power_01.intro1"
+    },
+    {
+      "fallback": "While there, they split up into two man teams, with Yamato and Sai encountering officers from the neighbouring Hachō Village, consisting of Shiseru and her team.",
+      "translate": "quest.narutorpg.power_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Investigation into the Incident",
+    "translate": "quest.narutorpg.power_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.power_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Investigation into the Incident",
+        "translate": "quest.narutorpg.power_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 130000,
+  "outro": [
+    {
+      "fallback": "The village head gives two steel bars to Dokku, instructing him to keep them secret.",
+      "translate": "quest.narutorpg.power_01.outro0"
+    },
+    {
+      "fallback": "The two children, Dokku, Faz, Lando, and Sora survive the attack and make their way to Hachō Village.",
+      "translate": "quest.narutorpg.power_01.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_08"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

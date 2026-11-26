@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Itachi Pursuit Mission",
+    "translate": "quest.narutorpg.arc.itachi_pursuit_mission"
+  },
+  "description": {
+    "fallback": "Elsewhere, Deidara and Tobi attacked Sasuke. Deidara attempted to attack from above using a bomb, but Sasuke used Hidden Shadow Snake Hands to wrap himself with a snake as a shield. Tobi also attempted an attack, but he was scared of Sasuke, and fled from him.",
+    "translate": "quest.narutorpg.itachi_pursuit_mission_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Elsewhere, Deidara and Tobi attacked Sasuke.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_03.intro0"
+    },
+    {
+      "fallback": "Deidara attempted to attack from above using a bomb, but Sasuke used Hidden Shadow Snake Hands to wrap himself with a snake as a shield.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_03.intro1"
+    },
+    {
+      "fallback": "Tobi also attempted an attack, but he was scared of Sasuke, and fled from him.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke vs. Deidara",
+    "translate": "quest.narutorpg.itachi_pursuit_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.itachi_pursuit_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 99,
+      "text": {
+        "fallback": "Head out: Sasuke vs. Deidara",
+        "translate": "quest.narutorpg.itachi_pursuit_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112302,
+  "outro": [
+    {
+      "fallback": "He stopped the genjutsu and freed Deidara, but Deidara was still forced to join for his loss.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_03.outro0"
+    },
+    {
+      "fallback": "Deidara was angered at Itachi and the Sharingan, refusing to accept it as an a",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:itachi_pursuit_mission_02"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

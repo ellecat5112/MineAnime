@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:tenten_ally_naruto",
+    "narutorpg:rock_lee_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Star Guard Mission",
+    "translate": "quest.narutorpg.arc.star_guard_mission"
+  },
+  "description": {
+    "fallback": "With the star being stolen, the group has no leads on the mysterious thief who can use chakra to fly. Naruto learns that Sumaru's parents died defending the star from a foreign ninja. Tenten and Lee attempt to track two of Akahoshi's men, but they are discovered and find no answers.",
+    "translate": "quest.narutorpg.star_guard_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "With the star being stolen, the group has no leads on the mysterious thief who can use chakra to fly.",
+      "translate": "quest.narutorpg.star_guard_mission_02.intro0"
+    },
+    {
+      "fallback": "Naruto learns that Sumaru's parents died defending the star from a foreign ninja.",
+      "translate": "quest.narutorpg.star_guard_mission_02.intro1"
+    },
+    {
+      "fallback": "Tenten and Lee attempt to track two of Akahoshi's men, but they are discovered and find no answers.",
+      "translate": "quest.narutorpg.star_guard_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Remembered Lullaby",
+    "translate": "quest.narutorpg.star_guard_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.star_guard_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out: The Remembered Lullaby",
+        "translate": "quest.narutorpg.star_guard_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sumaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Sumaru",
+        "translate": "quest.narutorpg.defeat.sumaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 18801,
+  "outro": [
+    {
+      "fallback": "Tenten and Lee attempt to track two of Akahoshi's men, but they are discovered and find no answers.",
+      "translate": "quest.narutorpg.star_guard_mission_02.outro0"
+    },
+    {
+      "fallback": "Sumaru and some of his friends came across a masked ninja and restrained him, but he renders them unconscious and kidnaps Sumaru.",
+      "translate": "quest.narutorpg.star_guard_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:star_guard_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

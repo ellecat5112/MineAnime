@@ -1,0 +1,17 @@
+{
+  "appearance": {
+    "accent": 8916559,
+    "eyes": 1118481,
+    "hair": 9268835,
+    "pants": 3622735,
+    "top": 2503224
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Sanzui Unabara",
+    "translate": "npc.narutorpg.sanzui_unabara"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

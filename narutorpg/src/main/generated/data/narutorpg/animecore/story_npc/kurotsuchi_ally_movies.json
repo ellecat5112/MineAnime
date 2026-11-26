@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_earth_flow_spears",
+    "narutorpg:earth_release_earth_and_stone_bamboo_shoot",
+    "narutorpg:earth_release_fist_rock_technique",
+    "narutorpg:earth_release_golem_technique",
+    "narutorpg:earth_release_light_weight_rock_technique",
+    "narutorpg:earth_release_hiding_like_a_mole_technique"
+  ],
+  "appearance": {
+    "accent": 12000284,
+    "eyes": 2001125,
+    "hair": 10395294,
+    "hair_style": "long",
+    "headband": 7162945,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 9268835
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Kurotsuchi",
+    "translate": "npc.narutorpg.kurotsuchi"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

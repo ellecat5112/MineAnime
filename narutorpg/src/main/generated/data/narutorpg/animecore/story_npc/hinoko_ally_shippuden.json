@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:chakra_needle"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "hair": 10395294,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 2046559
+  },
+  "attack": 14.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Hinoko",
+    "translate": "npc.narutorpg.hinoko"
+  },
+  "power": 2.2,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

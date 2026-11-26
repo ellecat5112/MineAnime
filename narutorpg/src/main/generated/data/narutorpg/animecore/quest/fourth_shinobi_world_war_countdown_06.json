@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:might_guy_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Countdown",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_countdown"
+  },
+  "description": {
+    "fallback": "As Naruto returns to the outside, B and Yamato learn of his success and Naruto demonstrates his new power to them. Naruto's new form gives him the ability to sense an evil presence around him which blows Kisame's cover. B is shocked to see Kisame alive and he explains how he survived.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "As Naruto returns to the outside, B and Yamato learn of his success and Naruto demonstrates his new power to them.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.intro0"
+    },
+    {
+      "fallback": "Naruto's new form gives him the ability to sense an evil presence around him which blows Kisame's cover.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.intro1"
+    },
+    {
+      "fallback": "B is shocked to see Kisame alive and he explains how he survived.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kisame Discovered",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Kisame Discovered",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kisame_hoshigaki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kisame Hoshigaki",
+        "translate": "quest.narutorpg.defeat.kisame_hoshigaki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 122505,
+  "outro": [
+    {
+      "fallback": "Guy returns to the others with Kisame where Aoba decides to extract intel from him.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.outro0"
+    },
+    {
+      "fallback": "In a flashback of Kisame's, Kisame is sent on a mission where he must protect the Intelligence Squad but must importantly protect K",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_06.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_countdown_05"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

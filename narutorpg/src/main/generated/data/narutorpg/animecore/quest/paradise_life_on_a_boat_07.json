@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "The group stops for supplies and prepare to enter an area devoid of fish of the sea and wind that takes two weeks to be crossed. In the hold, a mushroom purchased by Naruto begins to multiply and to absorb the chakra of Yamato. After resisting for a long time without food, Naruto and Guy taste the mushrooms and it poisons them and push them to act in a violent manner.",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_07.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "The group stops for supplies and prepare to enter an area devoid of fish of the sea and wind that takes two weeks to be crossed.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_07.intro0"
+    },
+    {
+      "fallback": "In the hold, a mushroom purchased by Naruto begins to multiply and to absorb the chakra of Yamato.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_07.intro1"
+    },
+    {
+      "fallback": "After resisting for a long time without food, Naruto and Guy taste the mushrooms and it poisons them and push them to act in a violent manner.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Eat or Die! Mushrooms from Hell",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: Eat or Die! Mushrooms from Hell",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 123306,
+  "outro": [
+    {
+      "fallback": "All aboard eat and regain strength, even managing to defeat the bandits who sold them the mushroom when they come to look for valuable cargo.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_07.outro0"
+    },
+    {
+      "fallback": "The team then eats, but with their supplies gone, they resort to eating mushrooms, bugs and worms for the duration of the route.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_07.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_06"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:zetsu_ally_shippuden",
+    "narutorpg:rin_nohara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "Obito has a flashback of being found and rescued by an ageing Madara after the events of the Kannabi Bridge. Madara tended to his injuries and, though he had to amputate Obito's arm, he restored it and the damaged half of his body with parts from a Zetsu. Obito was grateful for Madara's help but was adamant about returning to his team-mates: Kakashi and Rin.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Obito has a flashback of being found and rescued by an ageing Madara after the events of the Kannabi Bridge.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.intro0"
+    },
+    {
+      "fallback": "Madara tended to his injuries and, though he had to amputate Obito's arm, he restored it and the damaged half of his body with parts from a Zetsu.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.intro1"
+    },
+    {
+      "fallback": "Obito was grateful for Madara's help but was adamant about returning to his team-mates: Kakashi and Rin.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Obito's Resolve",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: Obito's Resolve",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133206,
+  "outro": [
+    {
+      "fallback": "Left with Madara's name to take as his own, with Zetsu by his side, Obito spent the following decades setting the pieces in place with his meeting with Nagato who was vital to Madara's resurrection.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.outro0"
+    },
+    {
+      "fallback": "Inspired to cause the Nine-Tailed Demon Fox's Attack after overhearing Kakashi, Obito fully embraces his new ideals when he confronted his former mentor Minato Namikaze.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_07.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_06"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

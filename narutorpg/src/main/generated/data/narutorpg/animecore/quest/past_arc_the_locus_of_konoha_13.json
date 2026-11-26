@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "After seeing a travelling musician visiting Konohagakure while the citizens are rebuilding, Kakashi Hatake remembers his and Team 7's incident with Hanare of the Jōmae Village. After returning from a mission, Team 7 sees Anbu members taking a captured spy in for questioning. When she resists Ibiki's interrogation, they decided to have Inoichi Yamanaka to read her mind.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "After seeing a travelling musician visiting Konohagakure while the citizens are rebuilding, Kakashi Hatake remembers his and Team 7's incident with Hanare of the Jōmae Village.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.intro0"
+    },
+    {
+      "fallback": "After returning from a mission, Team 7 sees Anbu members taking a captured spy in for questioning.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.intro1"
+    },
+    {
+      "fallback": "When she resists Ibiki's interrogation, they decided to have Inoichi Yamanaka to read her mind.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jōmae Village",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Jōmae Village",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118612,
+  "outro": [
+    {
+      "fallback": "By the time the others reach him, Kakashi is alone, claiming Hanare jumped off the cliff when she was cornered.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.outro0"
+    },
+    {
+      "fallback": "Hanare lived, and is seen walking where she met Kakashi as a kid.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_13.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_12"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

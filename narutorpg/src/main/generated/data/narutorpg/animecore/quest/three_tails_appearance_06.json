@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "After relaying their mission's results to Orochimaru, Kabuto approaches Guren to tell her that he has orders for her, although not before noticing a bat on the roof on the hideout. He brings Guren into a room with a fountain, where he pairs her with Yūkimaru. Guren is incensed at being forced to travel and take care of a child, but Kabuto reminds her that if she does not succeed in her mission, then she will not...",
+    "translate": "quest.narutorpg.three_tails_appearance_06.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "After relaying their mission's results to Orochimaru, Kabuto approaches Guren to tell her that he has orders for her, although not before noticing a bat on the roof on the hideout.",
+      "translate": "quest.narutorpg.three_tails_appearance_06.intro0"
+    },
+    {
+      "fallback": "He brings Guren into a room with a fountain, where he pairs her with Yūkimaru.",
+      "translate": "quest.narutorpg.three_tails_appearance_06.intro1"
+    },
+    {
+      "fallback": "Guren is incensed at being forced to travel and take care of a child, but Kabuto reminds her that if she does not succeed in her mission, then she will not have a chance at being Orochimaru's new vessel.",
+      "translate": "quest.narutorpg.three_tails_appearance_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Night of Rain",
+    "translate": "quest.narutorpg.three_tails_appearance_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: A Night of Rain",
+        "translate": "quest.narutorpg.three_tails_appearance_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 109905,
+  "outro": [
+    {
+      "fallback": "Shino manages to locate one of the surviving insects and uses his Human Cocoon Technique to shield them from the rain as they proceed to hatch their eggs.",
+      "translate": "quest.narutorpg.three_tails_appearance_06.outro0"
+    },
+    {
+      "fallback": "The other members of Team 8 are forced to temporarily abandon their search due to the rain washing away the scent and Kiba notices the bats on the cave roof where they have sought refuge.",
+      "translate": "quest.narutorpg.three_tails_appearance_06.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_05"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

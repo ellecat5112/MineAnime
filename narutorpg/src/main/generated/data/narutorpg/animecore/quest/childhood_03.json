@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Childhood",
+    "translate": "quest.narutorpg.arc.childhood"
+  },
+  "description": {
+    "fallback": "Part A: A young Gaara struggles with the death of his mother, bonding with his siblings Temari and Kankurō and being despised by the villagers, as well as his father's contempt for him. The three siblings play in the sandbox and Gaara uses his sand to make food under his older brother's request. After his siblings are sent away by their father, Gaara is attacked by the villagers while his father watches but to no...",
+    "translate": "quest.narutorpg.childhood_03.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Part A: A young Gaara struggles with the death of his mother, bonding with his siblings Temari and Kankurō and being despised by the villagers, as well as his father's contempt for him.",
+      "translate": "quest.narutorpg.childhood_03.intro0"
+    },
+    {
+      "fallback": "The three siblings play in the sandbox and Gaara uses his sand to make food under his older brother's request.",
+      "translate": "quest.narutorpg.childhood_03.intro1"
+    },
+    {
+      "fallback": "After his siblings are sent away by their father, Gaara is attacked by the villagers while his father watches but to no effect.",
+      "translate": "quest.narutorpg.childhood_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Gaara and Shikamaru",
+    "translate": "quest.narutorpg.childhood_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.childhood_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Gaara and Shikamaru",
+        "translate": "quest.narutorpg.childhood_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 149002,
+  "outro": [
+    {
+      "fallback": "They see Iruka talking with some women and Naruto uses the Sexy Technique on their instructor to tease him.",
+      "translate": "quest.narutorpg.childhood_03.outro0"
+    },
+    {
+      "fallback": "The three boys later bid farewell for the day.",
+      "translate": "quest.narutorpg.childhood_03.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:childhood_02"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

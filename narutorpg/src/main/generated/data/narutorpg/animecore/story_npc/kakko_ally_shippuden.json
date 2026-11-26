@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_rock_lodging_destruction",
+    "narutorpg:interrogation_genjutsu"
+  ],
+  "appearance": {
+    "accent": 12000284,
+    "eyes": 4431943,
+    "hair": 6111287,
+    "headband": 7162945,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 9268835
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Kakkō",
+    "translate": "npc.narutorpg.kakko"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

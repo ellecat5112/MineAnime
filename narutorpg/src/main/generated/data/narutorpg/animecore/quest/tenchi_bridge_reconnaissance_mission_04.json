@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:yamato_ally_shippuden",
+    "narutorpg:sai_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tenchi Bridge Reconnaissance Mission",
+    "translate": "quest.narutorpg.arc.tenchi_bridge_reconnaissance_mission"
+  },
+  "description": {
+    "fallback": "At Orochimaru's hideout, Yamato revealed that he was able to track Sai through a special plant seed he had hidden in his meal the night before, which responded to an increase in chakra, leading Yamato to him. He gave Sakura and Naruto similar seeds to make sure he could find them if they were separated while infiltrating Orochimaru's base. Once inside, Yamato led the team to a room where Sai was being kept hostage.",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "At Orochimaru's hideout, Yamato revealed that he was able to track Sai through a special plant seed he had hidden in his meal the night before, which responded to an increase in chakra, leading Yamato to him.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.intro0"
+    },
+    {
+      "fallback": "He gave Sakura and Naruto similar seeds to make sure he could find them if they were separated while infiltrating Orochimaru's base.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.intro1"
+    },
+    {
+      "fallback": "Once inside, Yamato led the team to a room where Sai was being kept hostage.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Special Bonds",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: Special Bonds",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 104303,
+  "outro": [
+    {
+      "fallback": "Sai managed to find Sasuke in his room, and woke him up.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.outro0"
+    },
+    {
+      "fallback": "Sasuke, angry at Sai's mention of \"bonds\", blew up the room.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:tenchi_bridge_reconnaissance_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

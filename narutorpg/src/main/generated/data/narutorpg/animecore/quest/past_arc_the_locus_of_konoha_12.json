@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "An elderly ninja named Kosuke Maruboshi has a flashback of a mission he had with Naruto years before Konoha's destruction. Kosuke is a ninja of Konoha who has been genin for fifty years. Naruto is tasked with patrolling areas near the village after the invasion, so other countries won't try invading them, and is surprised to learn that Kosuke is a ninja who's on the same team as this for the mission, and also about...",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "An elderly ninja named Kosuke Maruboshi has a flashback of a mission he had with Naruto years before Konoha's destruction.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.intro0"
+    },
+    {
+      "fallback": "Kosuke is a ninja of Konoha who has been genin for fifty years.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.intro1"
+    },
+    {
+      "fallback": "Naruto is tasked with patrolling areas near the village after the invasion, so other countries won't try invading them, and is surprised to learn that Kosuke is a ninja who's on the same team as this for the mission...",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Eternal Genin",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 42,
+      "text": {
+        "fallback": "Go: Eternal Genin",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118611,
+  "outro": [
+    {
+      "fallback": "Naruto comes back and Kosuke defeats the kunoichi.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.outro0"
+    },
+    {
+      "fallback": "At the present, Kosuke sees Naruto from afar, and remembers serving under the Fourth Hokage, and muses to himself that the Fourth left behind a fine son, meaning he's one of the few people who was aware of Naruto's...",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_12.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_11"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

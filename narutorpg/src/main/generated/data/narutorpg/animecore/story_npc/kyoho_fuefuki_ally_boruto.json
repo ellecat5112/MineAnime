@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "eyes": 2001125,
+    "hair": 2503224,
+    "headband": 3622735,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 16767916
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Kyohō Fuefuki",
+    "translate": "npc.narutorpg.kyoho_fuefuki"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

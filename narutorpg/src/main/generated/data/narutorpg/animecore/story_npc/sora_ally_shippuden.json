@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:beast_tearing_gale_palm",
+    "narutorpg:beast_tearing_palm",
+    "narutorpg:chakra_blade_straight_line",
+    "narutorpg:flying_swallow",
+    "narutorpg:great_roar"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 2001125,
+    "hair": 1973790,
+    "skin": 16767916
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Sora",
+    "translate": "npc.narutorpg.sora"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

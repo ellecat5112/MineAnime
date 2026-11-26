@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_movies",
+    "narutorpg:shikamaru_nara_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Road to Ninja: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.road_to_ninja_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "The movie starts with a flashback to the Nine-Tailed Demon Fox's Attack, which then flashes forward to the present timeline where the eight members of Akatsuki who are meant to be dead, are actually alive and are battling the Konoha shinobi and this in-turn unsettles Sakura. Shikamaru states there is no point in wondering why the dead are back alive and quickly comes up with a counter plan, but Naruto quickly...",
+    "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "The movie starts with a flashback to the Nine-Tailed Demon Fox's Attack, which then flashes forward to the present timeline where the eight members of Akatsuki who are meant to be dead, are actually alive and are...",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.intro0"
+    },
+    {
+      "fallback": "Shikamaru states there is no point in wondering why the dead are back alive and quickly comes up with a counter plan, but Naruto quickly attacks Akatsuki head on, forcing the rest of the Konoha 11 plus Sai, Kakashi and...",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.intro1"
+    },
+    {
+      "fallback": "The battle continues until Naruto is caught by Kakuzu.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 1",
+    "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Part 1",
+        "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kakuzu_foe_movies",
+      "text": {
+        "fallback": "Defeat Kakuzu",
+        "translate": "quest.narutorpg.defeat.kakuzu_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_movies",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_movies"
+      }
+    }
+  ],
+  "order": 301800,
+  "outro": [
+    {
+      "fallback": "While Sakura complains about her family, Tobi appears in front of them and after a small scuffle, he then activates the limited Tsukuyomi.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.outro0"
+    },
+    {
+      "fallback": "Naruto and Sakura are absorbed in a flash of light, and later find themselves still in the same park they were before with no signs of a fight or Tobi himself.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_01.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_06"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

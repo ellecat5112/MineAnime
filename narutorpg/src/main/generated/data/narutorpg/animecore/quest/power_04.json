@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:dokku_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Power",
+    "translate": "quest.narutorpg.arc.power"
+  },
+  "description": {
+    "fallback": "The Nine-Tailed Naruto clone tries to attack Dokku and the orphans, when Might Guy and Rock Lee arrive to repel it. While they fight the beast, Kabuto tries to control it, but to no avail. The rest of Konoha 11 arrive.",
+    "translate": "quest.narutorpg.power_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "The Nine-Tailed Naruto clone tries to attack Dokku and the orphans, when Might Guy and Rock Lee arrive to repel it.",
+      "translate": "quest.narutorpg.power_04.intro0"
+    },
+    {
+      "fallback": "While they fight the beast, Kabuto tries to control it, but to no avail.",
+      "translate": "quest.narutorpg.power_04.intro1"
+    },
+    {
+      "fallback": "The rest of Konoha 11 arrive.",
+      "translate": "quest.narutorpg.power_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Beast Invasion",
+    "translate": "quest.narutorpg.power_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.power_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: The Beast Invasion",
+        "translate": "quest.narutorpg.power_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nine_tailed_naruto_clone_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nine-Tailed Naruto Clone",
+        "translate": "quest.narutorpg.defeat.nine_tailed_naruto_clone_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 130003,
+  "outro": [
+    {
+      "fallback": "While inside the hall, Kabuto, along with two reincarnated puppets, approaches with Disonasu, revealed to have engineered Tonika's destruction.",
+      "translate": "quest.narutorpg.power_04.outro0"
+    },
+    {
+      "fallback": "Disonasu pulls out a scroll from which emerges the item that he desired: the Saezuri.",
+      "translate": "quest.narutorpg.power_04.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:power_03"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

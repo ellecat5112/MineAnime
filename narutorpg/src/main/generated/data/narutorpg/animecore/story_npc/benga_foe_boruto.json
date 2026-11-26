@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "narutorpg:fire_release_flame_attack",
+    "narutorpg:fire_release_flame_bullet",
+    "narutorpg:fire_release_flame_capture",
+    "narutorpg:fire_release_heavenly_prison",
+    "narutorpg:summoning_technique"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 1118481,
+    "hair": 12986408,
+    "headband": 3369246,
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 2635155
+  },
+  "attack": 13.8,
+  "cast_interval": 70,
+  "health": 246.0,
+  "name": {
+    "fallback": "Benga",
+    "translate": "npc.narutorpg.benga"
+  },
+  "power": 2.34,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

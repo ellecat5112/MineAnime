@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:konohamaru_sarutobi_ally_boruto",
+    "narutorpg:katasuke_tono_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "In the base of Kara, Jigen and Delta eat a meal where Delta expressed her exasperation at Koji's lack of progress and kicked the meal table hard enough to destroy it completely. Jigen simply manifested another meal and calmly allowed her to shadow Koji's mission, provided she does not interfere with his methods. Delta requests the help of Garō, an Outer of Kara, and rendezvous' with Koji.",
+    "translate": "quest.narutorpg.kawaki_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In the base of Kara, Jigen and Delta eat a meal where Delta expressed her exasperation at Koji's lack of progress and kicked the meal table hard enough to destroy it completely.",
+      "translate": "quest.narutorpg.kawaki_arc_01.intro0"
+    },
+    {
+      "fallback": "Jigen simply manifested another meal and calmly allowed her to shadow Koji's mission, provided she does not interfere with his methods.",
+      "translate": "quest.narutorpg.kawaki_arc_01.intro1"
+    },
+    {
+      "fallback": "Delta requests the help of Garō, an Outer of Kara, and rendezvous' with Koji.",
+      "translate": "quest.narutorpg.kawaki_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Vessel",
+    "translate": "quest.narutorpg.kawaki_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: The Vessel",
+        "translate": "quest.narutorpg.kawaki_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:delta_foe_boruto",
+      "text": {
+        "fallback": "Defeat Delta",
+        "translate": "quest.narutorpg.defeat.delta_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jigen_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jigen",
+        "translate": "quest.narutorpg.defeat.jigen_foe_boruto"
+      }
+    }
+  ],
+  "order": 219800,
+  "outro": [
+    {
+      "fallback": "Although Kawaki made it clear he saw them as Kara members, he collapsed due to overexerting himself and after Katasuke inspected Kawaki, he revealed that Kawaki's body had been significantly modified by microscopic...",
+      "translate": "quest.narutorpg.kawaki_arc_01.outro0"
+    },
+    {
+      "fallback": "Team 7 and Katasuke decided to take him back to Konohagakure, with Koji allowing it much to Delta's angry surprise.",
+      "translate": "quest.narutorpg.kawaki_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:ao_arc_04"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

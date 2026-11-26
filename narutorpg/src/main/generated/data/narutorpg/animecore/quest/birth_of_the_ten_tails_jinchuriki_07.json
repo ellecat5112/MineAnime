@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:jiraiya_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "Waking up surrounded by a watery surface, Naruto questions if he has died. An unknown figure asks him what his definition of \"death\" is. Naruto asks who this person is, and the figure reveals himself to be none other than Hagoromo Ōtsutsuki, the Sage of Six Paths himself.",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Waking up surrounded by a watery surface, Naruto questions if he has died.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.intro0"
+    },
+    {
+      "fallback": "An unknown figure asks him what his definition of \"death\" is.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.intro1"
+    },
+    {
+      "fallback": "Naruto asks who this person is, and the figure reveals himself to be none other than Hagoromo Ōtsutsuki, the Sage of Six Paths himself.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Return of the Two Saviours",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: The Return of the Two Saviours",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138806,
+  "outro": [
+    {
+      "fallback": "As Guy finishes preparing his attack, he rushes towards Madara, as the latter notices that Guy is managing to distort space, resulting in his inability to counterattack.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.outro0"
+    },
+    {
+      "fallback": "Guy lands a devastatingly powerful kick on Madara, which manages to decimate the complete left side of the Uchiha's upper body, and alm",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_07.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_06"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

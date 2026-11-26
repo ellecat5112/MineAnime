@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sumire_kakei_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "Sarada Uchiha and Sumire are held captive by Daemon, but he suddenly releases his grip on their necks. When Daemon states that he has the ability to kill them before they can even react, as he just demonstrated, Sarada questions why he did not do so. Ada ponders why Sarada and Sumire would be immune to Omnipotence.",
+    "translate": "quest.narutorpg.mamushi_arc_02.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Sarada Uchiha and Sumire are held captive by Daemon, but he suddenly releases his grip on their necks.",
+      "translate": "quest.narutorpg.mamushi_arc_02.intro0"
+    },
+    {
+      "fallback": "When Daemon states that he has the ability to kill them before they can even react, as he just demonstrated, Sarada questions why he did not do so.",
+      "translate": "quest.narutorpg.mamushi_arc_02.intro1"
+    },
+    {
+      "fallback": "Ada ponders why Sarada and Sumire would be immune to Omnipotence.",
+      "translate": "quest.narutorpg.mamushi_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Bet Your Life On It",
+    "translate": "quest.narutorpg.mamushi_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mamushi_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Bet Your Life On It",
+        "translate": "quest.narutorpg.mamushi_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:daemon_foe_boruto",
+      "text": {
+        "fallback": "Defeat Daemon",
+        "translate": "quest.narutorpg.defeat.daemon_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ada_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ada",
+        "translate": "quest.narutorpg.defeat.ada_foe_boruto"
+      }
+    }
+  ],
+  "order": 303601,
+  "outro": [
+    {
+      "fallback": "When Ada questions this, Sarada states that she is showing the proof of her resolve and a symbol of their genuine friendship.",
+      "translate": "quest.narutorpg.mamushi_arc_02.outro0"
+    },
+    {
+      "fallback": "Ada thanks the two of them while Daemon grins.",
+      "translate": "quest.narutorpg.mamushi_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_01"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sakura_haruno_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "When Naruto and Sakura go get water for the comatose Tsunade, Kakashi has a flashback of when he was appointed as the leader of Team 7 after the team's formation. He watches Naruto, Sasuke and Sakura, seeing Naruto and Sasuke's constant competition and remembers what Minato and Obito said to him about teamwork and those abandoning their comrades are worse than scum. Meanwhile, Koharu and Homura discuss with Hiruzen...",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "When Naruto and Sakura go get water for the comatose Tsunade, Kakashi has a flashback of when he was appointed as the leader of Team 7 after the team's formation.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.intro0"
+    },
+    {
+      "fallback": "He watches Naruto, Sasuke and Sakura, seeing Naruto and Sasuke's constant competition and remembers what Minato and Obito said to him about teamwork and those abandoning their comrades are worse than scum.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Koharu and Homura discuss with Hiruzen of his decision of having Naruto outside the village and being put in the same team as Sasuke.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team 7",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Team 7",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118601,
+  "outro": [
+    {
+      "fallback": "Sasuke easily beats Naruto and the members of Team 7 decide to go meet their squad leader.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.outro0"
+    },
+    {
+      "fallback": "Kakashi's flashback ends, knowing as the group's leader, it is up to him to put a stop to Sasuke's road of hatred.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

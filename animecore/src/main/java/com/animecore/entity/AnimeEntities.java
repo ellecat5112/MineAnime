@@ -28,7 +28,14 @@ public final class AnimeEntities {
             EntityType.Builder.<PuppetEntity>create(PuppetEntity::new, SpawnGroup.MISC)
                     .dimensions(0.6f, 1.9f).maxTrackingRange(8).build("puppet"));
 
+    /** Story characters (quest givers, allies, enemies, bosses) of every anime mod; look and stats come from data. */
+    public static final EntityType<StoryNpcEntity> STORY_NPC = Registry.register(Registries.ENTITY_TYPE,
+            Ids.core("story_npc"),
+            EntityType.Builder.<StoryNpcEntity>create(StoryNpcEntity::new, SpawnGroup.MISC)
+                    .dimensions(0.6f, 1.8f).eyeHeight(1.62f).maxTrackingRange(10).build("story_npc"));
+
     public static void init() {
         net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry.register(PUPPET, PuppetEntity.createAttributes());
+        net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry.register(STORY_NPC, StoryNpcEntity.createAttributes());
     }
 }

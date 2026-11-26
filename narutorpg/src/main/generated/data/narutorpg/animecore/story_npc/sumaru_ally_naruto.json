@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "eyes": 4431943,
+    "hair": 9268835,
+    "hair_style": "spiky",
+    "headband": 2635155,
+    "skin": 13010498,
+    "top": 7951688
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Sumaru",
+    "translate": "npc.narutorpg.sumaru"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

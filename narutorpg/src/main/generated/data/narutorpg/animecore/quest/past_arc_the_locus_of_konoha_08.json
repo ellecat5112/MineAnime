@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "In the ruins of Konoha, Mr. Ostrich decides to tell the story of his \"rivalry\" with Naruto to his young and how Naruto would interfere with his freedom. Tsunade assigns Naruto to capture Mr.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "In the ruins of Konoha, Mr.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.intro0"
+    },
+    {
+      "fallback": "Ostrich decides to tell the story of his \"rivalry\" with Naruto to his young and how Naruto would interfere with his freedom.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.intro1"
+    },
+    {
+      "fallback": "Tsunade assigns Naruto to capture Mr.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Training Ground Zero",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Training Ground Zero",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118607,
+  "outro": [
+    {
+      "fallback": "Kotetsu decides to make it up by finishing the work for him.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.outro0"
+    },
+    {
+      "fallback": "The flashback ends and Naruto finds Condor who is surprised to see he escaped yet again and chases after him.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_08.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_07"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

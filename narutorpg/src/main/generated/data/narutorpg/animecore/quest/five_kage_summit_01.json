@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:karui_ally_shippuden",
+    "narutorpg:killer_b_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "When Karui revealed her intention of killing Sasuke to avenge her fallen master, Killer B, Naruto offered to be beaten in order to relieve Karui of her pain. Karui brutally beat Naruto until Sai stepped in to protect his team-mate. Omoi remarked that Naruto would never betray Sasuke.",
+    "translate": "quest.narutorpg.five_kage_summit_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "When Karui revealed her intention of killing Sasuke to avenge her fallen master, Killer B, Naruto offered to be beaten in order to relieve Karui of her pain.",
+      "translate": "quest.narutorpg.five_kage_summit_01.intro0"
+    },
+    {
+      "fallback": "Karui brutally beat Naruto until Sai stepped in to protect his team-mate.",
+      "translate": "quest.narutorpg.five_kage_summit_01.intro1"
+    },
+    {
+      "fallback": "Omoi remarked that Naruto would never betray Sasuke.",
+      "translate": "quest.narutorpg.five_kage_summit_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "New Orders",
+    "translate": "quest.narutorpg.five_kage_summit_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.five_kage_summit_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: New Orders",
+        "translate": "quest.narutorpg.five_kage_summit_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120700,
+  "outro": [
+    {
+      "fallback": "After receiving medical care, Naruto recounted his conversation with his late father, the Fourth Hokage, when he was on the verge of fully transforming into the Nine-Tails.",
+      "translate": "quest.narutorpg.five_kage_summit_01.outro0"
+    },
+    {
+      "fallback": "He convinced Kakashi and Yamato to accompany him to the Land of Iron to ask A's pardon for Sasuke's actions.",
+      "translate": "quest.narutorpg.five_kage_summit_01.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:pain_s_assault_05"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

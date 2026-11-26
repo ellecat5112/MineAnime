@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Time Slip Arc",
+    "translate": "quest.narutorpg.arc.time_slip_arc"
+  },
+  "description": {
+    "fallback": "In the morning, Boruto complains about having ramen for breakfast. Naruto says it's a different flavour from the ones they had the previous night. Boruto decides to switch it up and uses some ingredients from Naruto's fridge to make the ramen spicier, while Sasuke watches them from afar.",
+    "translate": "quest.narutorpg.time_slip_arc_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In the morning, Boruto complains about having ramen for breakfast.",
+      "translate": "quest.narutorpg.time_slip_arc_03.intro0"
+    },
+    {
+      "fallback": "Naruto says it's a different flavour from the ones they had the previous night.",
+      "translate": "quest.narutorpg.time_slip_arc_03.intro1"
+    },
+    {
+      "fallback": "Boruto decides to switch it up and uses some ingredients from Naruto's fridge to make the ramen spicier, while Sasuke watches them from afar.",
+      "translate": "quest.narutorpg.time_slip_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Genin, Assemble!",
+    "translate": "quest.narutorpg.time_slip_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.time_slip_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 48,
+      "text": {
+        "fallback": "Go: Genin, Assemble!",
+        "translate": "quest.narutorpg.time_slip_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Meet Sasuke Uchiha",
+        "translate": "quest.narutorpg.time_slip_arc_03.o3"
+      }
+    }
+  ],
+  "order": 213802,
+  "outro": [
+    {
+      "fallback": "Neji says Tsunade gave him orders to gather Naruto and all available genin.",
+      "translate": "quest.narutorpg.time_slip_arc_03.outro0"
+    },
+    {
+      "fallback": "As Boruto is under his supervision, he has to accompany Naruto to the meeting.",
+      "translate": "quest.narutorpg.time_slip_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:time_slip_arc_02"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

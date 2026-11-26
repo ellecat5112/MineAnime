@@ -123,6 +123,14 @@ public final class NarutoContentBootstrap {
 
     // ------------------------------------------------------------------ Sharingan stages
 
+    public static void quests(Registerable<com.animecore.quest.QuestDefinition> ctx) {
+        NarutoClanCatalog.get().quests.forEach((path, def) -> ctx.register(key(AnimeRegistries.QUEST, path), def));
+    }
+
+    public static void storyNpcs(Registerable<com.animecore.quest.StoryNpcDefinition> ctx) {
+        NarutoClanCatalog.get().npcs.forEach((path, def) -> ctx.register(key(AnimeRegistries.STORY_NPC, path), def));
+    }
+
     public static void transformations(Registerable<TransformationDefinition> ctx) {
         sharingan(ctx, SHARINGAN_1, 2f, 0.04f, 1, 1.05f, 0.05, Optional.of(SHARINGAN_2), 6_000, 0.3f);
         sharingan(ctx, SHARINGAN_2, 3f, 0.06f, 3, 1.10f, 0.08, Optional.of(SHARINGAN_3), 12_000, 0.45f);

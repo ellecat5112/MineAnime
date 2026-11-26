@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie"
+  },
+  "description": {
+    "fallback": "At the mountain temple where Mōryō's body was kept, Naruto and Shion are intercepted by the stone army. On their first attempt to get past, the two fall off a cliff. Shion loses heart until Naruto swears to protect her without succumbing to fate.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "At the mountain temple where Mōryō's body was kept, Naruto and Shion are intercepted by the stone army.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.intro0"
+    },
+    {
+      "fallback": "On their first attempt to get past, the two fall off a cliff.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.intro1"
+    },
+    {
+      "fallback": "Shion loses heart until Naruto swears to protect her without succumbing to fate.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Part 3",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yomi_foe_movies",
+      "text": {
+        "fallback": "Defeat Yomi",
+        "translate": "quest.narutorpg.defeat.yomi_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shion_foe_movies",
+      "text": {
+        "fallback": "Defeat Shion",
+        "translate": "quest.narutorpg.defeat.shion_foe_movies"
+      }
+    }
+  ],
+  "order": 301302,
+  "outro": [
+    {
+      "fallback": "His plan from the beginning was for Shion to use the sealing technique so he could access his body, then devour her.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.outro0"
+    },
+    {
+      "fallback": "He then leaves Yomi's corpse and breaks the seal on his original body, returning to his true form.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

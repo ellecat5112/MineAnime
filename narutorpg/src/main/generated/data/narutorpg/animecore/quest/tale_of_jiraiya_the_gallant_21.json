@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:first_animal_path_character_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Jiraiya, despite having suffered many severe injuries, managed to capture one of the Six Paths of Pain. He tried to figure out why none of the six resembled Nagato, but reaffirmed that one resembled Yahiko and all had the Rinnegan. He considered if Yahiko had taken Nagato's Rinnegan but put this theory to side as all six Pains had the Rinnegan.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Jiraiya, despite having suffered many severe injuries, managed to capture one of the Six Paths of Pain.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.intro0"
+    },
+    {
+      "fallback": "He tried to figure out why none of the six resembled Nagato, but reaffirmed that one resembled Yahiko and all had the Rinnegan.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.intro1"
+    },
+    {
+      "fallback": "He considered if Yahiko had taken Nagato's Rinnegan but put this theory to side as all six Pains had the Rinnegan.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The True Identity…!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: The True Identity…!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113720,
+  "outro": [
+    {
+      "fallback": "Jiraiya upon observing them all closely confirmed that he had met all of them before.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.outro0"
+    },
+    {
+      "fallback": "He had managed to figure out the secret of Pain however, he was soon surrounded and his throat was crushed.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_21.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_20"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

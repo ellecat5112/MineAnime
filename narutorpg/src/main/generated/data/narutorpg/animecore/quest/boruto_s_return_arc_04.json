@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Code recalls Boruto's warnings about the Claw Grime, dismissing it as their only instinct is to devour others. The toad on Boruto hurries him, who replies he's not as skilled as his grandfather. Kawaki notices Boruto talking, but not the toad.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_04.desc"
+  },
+  "giver": "narutorpg:minato_namikaze",
+  "intro": [
+    {
+      "fallback": "Code recalls Boruto's warnings about the Claw Grime, dismissing it as their only instinct is to devour others.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_04.intro0"
+    },
+    {
+      "fallback": "The toad on Boruto hurries him, who replies he's not as skilled as his grandfather.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_04.intro1"
+    },
+    {
+      "fallback": "Kawaki notices Boruto talking, but not the toad.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Awakening",
+    "translate": "quest.narutorpg.boruto_s_return_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:minato_namikaze",
+      "text": {
+        "fallback": "Talk to Minato Namikaze",
+        "translate": "quest.narutorpg.boruto_s_return_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: The Awakening",
+        "translate": "quest.narutorpg.boruto_s_return_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 301103,
+  "outro": [
+    {
+      "fallback": "Boruto rescinds the effects of the Rasengan: \"Uzuhiko\", telling him to prepare for an attack.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_04.outro0"
+    },
+    {
+      "fallback": "He explains that everyone turned into a tree has become one such God Tree.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_03"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

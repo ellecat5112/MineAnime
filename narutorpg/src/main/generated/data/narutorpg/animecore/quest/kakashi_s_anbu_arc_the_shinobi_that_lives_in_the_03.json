@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:hiruzen_sarutobi_ally_shippuden",
+    "narutorpg:tenzo_iburi_clan_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+    "translate": "quest.narutorpg.arc.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the"
+  },
+  "description": {
+    "fallback": "Three years later, under the orders of Danzō, Kinoe, along with Kinoto sets out to take Kakashi's Sharingan. At the same time, Kakashi is sent by Hiruzen to investigate a newly found hideout of Orochimaru's. Kinoe and Kakashi encounter each other there and agree to work together, however, Kinoe soon attacks Kakashi in an attempt to take his eye.",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Three years later, under the orders of Danzō, Kinoe, along with Kinoto sets out to take Kakashi's Sharingan.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.intro0"
+    },
+    {
+      "fallback": "At the same time, Kakashi is sent by Hiruzen to investigate a newly found hideout of Orochimaru's.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.intro1"
+    },
+    {
+      "fallback": "Kinoe and Kakashi encounter each other there and agree to work together, however, Kinoe soon attacks Kakashi in an attempt to take his eye.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kinoe's Mission",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: Kinoe's Mission",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 135902,
+  "outro": [
+    {
+      "fallback": "They are eventually cornered by Danzō and his members, but Hiruzen arrives in time to save them and convinces Danzō to let Kinoe join his Anbu instead.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.outro0"
+    },
+    {
+      "fallback": "The following day, Kakashi introduces Kinoe to his new Anbu comrades, and Kinoe decides to change his codename to \"Tenzō\", after encouragement from Kakashi as he is no longer a member of Root.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_03.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

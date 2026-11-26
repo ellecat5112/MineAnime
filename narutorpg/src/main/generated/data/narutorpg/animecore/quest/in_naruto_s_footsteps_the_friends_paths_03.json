@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "In Naruto's Footsteps: The Friends' Paths",
+    "translate": "quest.narutorpg.arc.in_naruto_s_footsteps_the_friends_paths"
+  },
+  "description": {
+    "fallback": "During nighttime in Sunagakure, a masked man breaks into the Kazekage's office building, only to be confronted by Kankurō. The masked assassin makes his escape, but Kankurō pursues him. Cornered, he attempts to blow himself up along with Kankurō, but is saved thanks to Temari's timely arrival.",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "During nighttime in Sunagakure, a masked man breaks into the Kazekage's office building, only to be confronted by Kankurō.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.intro0"
+    },
+    {
+      "fallback": "The masked assassin makes his escape, but Kankurō pursues him.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.intro1"
+    },
+    {
+      "fallback": "Cornered, he attempts to blow himself up along with Kankurō, but is saved thanks to Temari's timely arrival.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Second Phase",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: Second Phase",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 140402,
+  "outro": [
+    {
+      "fallback": "Questioning Team Shira's motives, Sen reveals to Team Guy that Shira had only recently become a shinobi.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.outro0"
+    },
+    {
+      "fallback": "Seemingly confused as to why someone of his calibre had only become a shinobi, Lee comes to the conclusion that Shira — like himself — is incapable of performing ninjutsu and genjutsu, revealing that he had known this...",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_03.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:in_naruto_s_footsteps_the_friends_paths_02"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

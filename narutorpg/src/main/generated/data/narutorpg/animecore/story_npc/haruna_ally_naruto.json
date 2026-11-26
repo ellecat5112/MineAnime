@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "eyes": 4431943,
+    "hair": 4073251,
+    "hair_style": "long",
+    "pants": 4073251,
+    "skin": 13010498
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Haruna",
+    "translate": "npc.narutorpg.haruna"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

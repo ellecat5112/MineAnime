@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kiba_inuzuka_ally_shippuden",
+    "narutorpg:hinata_hyuga_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "In Konohagakure, Shino is telling a few younger Konoha shinobi, who are curious, about the upcoming war. Shino tells them that this was in fact true but he was not worried because he had friends he could depend on. Shino recounts a mission he had while a genin to capture a bandit.",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_14.desc"
+  },
+  "giver": "narutorpg:shino_aburame",
+  "intro": [
+    {
+      "fallback": "In Konohagakure, Shino is telling a few younger Konoha shinobi, who are curious, about the upcoming war.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_14.intro0"
+    },
+    {
+      "fallback": "Shino tells them that this was in fact true but he was not worried because he had friends he could depend on.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_14.intro1"
+    },
+    {
+      "fallback": "Shino recounts a mission he had while a genin to capture a bandit.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_14.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Friends You Can Count On",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_14"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Talk to Shino Aburame",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_14.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Friends You Can Count On",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_14.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:suika_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Suika",
+        "translate": "quest.narutorpg.defeat.suika_foe_shippuden"
+      }
+    }
+  ],
+  "order": 123313,
+  "outro": [
+    {
+      "fallback": "Using her Gentle Fist, Hinata easily cuts through the web and attacks Suika, leaving him wide open for a Fang Passing Fang attack from Akamaru and Kiba incapacitating him.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_14.outro0"
+    },
+    {
+      "fallback": "Later while at the hot springs, it is revealed that Kurenai had been watching them all along.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_14.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_13"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

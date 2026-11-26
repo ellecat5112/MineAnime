@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Gosunkugi Capture Mission",
+    "translate": "quest.narutorpg.arc.gosunkugi_capture_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto, Hinata, and Kiba accept what they believe will be an very easy mission to catch a criminal. Upon arriving at the thief's last known location however, they learn that another bounty hunter, Sazanami, is pursuing the thief and also that he is a skilled swordsman. Sazanami is later wounded in the battle and Naruto's group takes him to safety, but discover that he too is a wanted criminal when a bounty hunter...",
+    "translate": "quest.narutorpg.gosunkugi_capture_mission_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto, Hinata, and Kiba accept what they believe will be an very easy mission to catch a criminal.",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_01.intro0"
+    },
+    {
+      "fallback": "Upon arriving at the thief's last known location however, they learn that another bounty hunter, Sazanami, is pursuing the thief and also that he is a skilled swordsman.",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_01.intro1"
+    },
+    {
+      "fallback": "Sazanami is later wounded in the battle and Naruto's group takes him to safety, but discover that he too is a wanted criminal when a bounty hunter tried to catch him.",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Bounty Hunter from the Wilderness",
+    "translate": "quest.narutorpg.gosunkugi_capture_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.gosunkugi_capture_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: The Bounty Hunter from the Wilderness",
+        "translate": "quest.narutorpg.gosunkugi_capture_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 16900,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

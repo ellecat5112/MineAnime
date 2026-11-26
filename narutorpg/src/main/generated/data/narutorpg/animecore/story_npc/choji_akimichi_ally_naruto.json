@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:ballistic_waterwheel",
+    "narutorpg:butterfly_bullet_bombing",
+    "narutorpg:formation_inoshikacho",
+    "narutorpg:human_bullet_tank",
+    "narutorpg:spiked_human_bullet_tank",
+    "narutorpg:butterfly_mode"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 2001125,
+    "hair": 9255710,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "armor",
+    "pants": 3622735,
+    "top": 12000284
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Chōji Akimichi",
+    "translate": "npc.narutorpg.choji_akimichi"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

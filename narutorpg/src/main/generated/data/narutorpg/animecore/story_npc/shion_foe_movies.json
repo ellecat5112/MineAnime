@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "hair": 12986408,
+    "hair_style": "long",
+    "skin": 16767916
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 331.0,
+  "name": {
+    "fallback": "Shion",
+    "translate": "npc.narutorpg.shion"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

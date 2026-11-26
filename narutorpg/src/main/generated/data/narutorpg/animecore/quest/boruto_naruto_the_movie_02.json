@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Boruto: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.boruto_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "During a mission to capture a panda/bear, Boruto Uzumaki shows off his newly mastered Shadow Clone Technique and declares the animal as a panda, but Sarada Uchiha argues it is a bear. Because they are childhood friends and rivals, and that she is always watching him, Boruto feels the need to look good in front of Sarada. Boruto gets in Sarada's way as she moves to capture the panda/bear and he uses Shadow Clones to...",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "During a mission to capture a panda/bear, Boruto Uzumaki shows off his newly mastered Shadow Clone Technique and declares the animal as a panda, but Sarada Uchiha argues it is a bear.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_02.intro0"
+    },
+    {
+      "fallback": "Because they are childhood friends and rivals, and that she is always watching him, Boruto feels the need to look good in front of Sarada.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_02.intro1"
+    },
+    {
+      "fallback": "Boruto gets in Sarada's way as she moves to capture the panda/bear and he uses Shadow Clones to subdue the panda/bear, and Sarada is angry at Boruto for getting in her way.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Hero's Child",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: A Hero's Child",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 302001,
+  "outro": [
+    {
+      "fallback": "When Boruto replies he doesn't care, Sarada becomes angry and tells him that her dream is to be Hokage, and he is keeping her from getting closer to her dream.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_02.outro0"
+    },
+    {
+      "fallback": "Boruto retorts that h",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:boruto_naruto_the_movie_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

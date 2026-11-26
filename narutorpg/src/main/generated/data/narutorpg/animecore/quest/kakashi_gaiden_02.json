@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:rin_nohara_ally_shippuden",
+    "narutorpg:mahiru_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "As Kakashi heads through the woods to Kannabi Bridge, he flinches in pain from his wound. Recalling Rin healing his wounds and Obito's steadfast decision to abandon the mission to save her, Kakashi begins to consider his choices. Meanwhile, Obito manages to locate the two Iwa-nin outside their cave.",
+    "translate": "quest.narutorpg.kakashi_gaiden_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Kakashi heads through the woods to Kannabi Bridge, he flinches in pain from his wound.",
+      "translate": "quest.narutorpg.kakashi_gaiden_02.intro0"
+    },
+    {
+      "fallback": "Recalling Rin healing his wounds and Obito's steadfast decision to abandon the mission to save her, Kakashi begins to consider his choices.",
+      "translate": "quest.narutorpg.kakashi_gaiden_02.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Obito manages to locate the two Iwa-nin outside their cave.",
+      "translate": "quest.narutorpg.kakashi_gaiden_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kakashi Chronicles ~ Boys' Life on the Battlefield ~ Part 2",
+    "translate": "quest.narutorpg.kakashi_gaiden_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Kakashi Chronicles ~ Boys' Life on the Battlefield ~ Part 2",
+        "translate": "quest.narutorpg.kakashi_gaiden_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112801,
+  "outro": [
+    {
+      "fallback": "With the transplant completed, Kakashi rushes outside the cave and uses his White Light Chakra Sabre to attack Kakkō.",
+      "translate": "quest.narutorpg.kakashi_gaiden_02.outro0"
+    },
+    {
+      "fallback": "As Kakkō destroys the blade, Kakashi uses his Ch",
+      "translate": "quest.narutorpg.kakashi_gaiden_02.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_01"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

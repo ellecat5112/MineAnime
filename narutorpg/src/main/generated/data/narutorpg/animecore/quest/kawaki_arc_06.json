@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:jiraiya_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "Koji returned to Kara's base, intent on killing Jigen. Amado is revealed to be a conspirator, informing Koji that Jigen has only accumulated 10% of his power. After Amado prepared himself sufficiently, Koji used reverse-summoning to teleport Amado to Konoha while he heads to battle Jigen.",
+    "translate": "quest.narutorpg.kawaki_arc_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Koji returned to Kara's base, intent on killing Jigen.",
+      "translate": "quest.narutorpg.kawaki_arc_06.intro0"
+    },
+    {
+      "fallback": "Amado is revealed to be a conspirator, informing Koji that Jigen has only accumulated 10% of his power.",
+      "translate": "quest.narutorpg.kawaki_arc_06.intro1"
+    },
+    {
+      "fallback": "After Amado prepared himself sufficiently, Koji used reverse-summoning to teleport Amado to Konoha while he heads to battle Jigen.",
+      "translate": "quest.narutorpg.kawaki_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Mutiny Within Kara",
+    "translate": "quest.narutorpg.kawaki_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Mutiny Within Kara",
+        "translate": "quest.narutorpg.kawaki_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.isshiki_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jigen_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jigen",
+        "translate": "quest.narutorpg.defeat.jigen_foe_boruto"
+      }
+    }
+  ],
+  "order": 219805,
+  "outro": [
+    {
+      "fallback": "Isshiki eventually learned that Jigen's body was not strong enough to bear his power, with the reincarnated body lasting only a few days.",
+      "translate": "quest.narutorpg.kawaki_arc_06.outro0"
+    },
+    {
+      "fallback": "Amado furthermore revealed that the Kāma is a seal that compresses the biological profile of an Ōtsutsuki and once implanted on a target, would allow the Ōtsutsuki to resurrect in ti",
+      "translate": "quest.narutorpg.kawaki_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_05"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

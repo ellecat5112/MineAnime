@@ -1,0 +1,82 @@
+{
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie"
+  },
+  "description": {
+    "fallback": "Outside, a team of Konoha and Sunagakure shinobi reach Naruto and engage the stone soldiers, allowing him to chase after Shion. Seeing Naruto enter, Shion breaks down, despairing that her suffering and the sacrifices made to protect her have gone to waste. Mōryō breaks free from the shrine and absorbs Shion, leaving Naruto to fight the demon alone.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Outside, a team of Konoha and Sunagakure shinobi reach Naruto and engage the stone soldiers, allowing him to chase after Shion.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.intro0"
+    },
+    {
+      "fallback": "Seeing Naruto enter, Shion breaks down, despairing that her suffering and the sacrifices made to protect her have gone to waste.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.intro1"
+    },
+    {
+      "fallback": "Mōryō breaks free from the shrine and absorbs Shion, leaving Naruto to fight the demon alone.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 4",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Part 4",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shion_foe_movies",
+      "text": {
+        "fallback": "Defeat Shion",
+        "translate": "quest.narutorpg.defeat.shion_foe_movies"
+      }
+    }
+  ],
+  "order": 301303,
+  "outro": [
+    {
+      "fallback": "Indirectly asking Naruto to father her child, she asks if Naruto would help her, much to everyone's shock.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.outro0"
+    },
+    {
+      "fallback": "Misunderstanding her, Naruto happily agrees.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_04.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_03"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

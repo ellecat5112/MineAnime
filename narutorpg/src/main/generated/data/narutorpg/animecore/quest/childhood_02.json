@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Childhood",
+    "translate": "quest.narutorpg.arc.childhood"
+  },
+  "description": {
+    "fallback": "Part A: A young Sasuke Uchiha asks his brother, Itachi Uchiha, to spend time with him but Itachi declines and pokes his forehead. During dinner, their parents tell Sasuke they will be leaving the next day and Sasuke decides to stay home with Itachi. The brothers train together and Itachi makes a large feast for dinner, -and they sleep outside.",
+    "translate": "quest.narutorpg.childhood_02.desc"
+  },
+  "giver": "narutorpg:sakura_haruno",
+  "intro": [
+    {
+      "fallback": "Part A: A young Sasuke Uchiha asks his brother, Itachi Uchiha, to spend time with him but Itachi declines and pokes his forehead.",
+      "translate": "quest.narutorpg.childhood_02.intro0"
+    },
+    {
+      "fallback": "During dinner, their parents tell Sasuke they will be leaving the next day and Sasuke decides to stay home with Itachi.",
+      "translate": "quest.narutorpg.childhood_02.intro1"
+    },
+    {
+      "fallback": "The brothers train together and Itachi makes a large feast for dinner, -and they sleep outside.",
+      "translate": "quest.narutorpg.childhood_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke and Sakura",
+    "translate": "quest.narutorpg.childhood_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sakura_haruno",
+      "text": {
+        "fallback": "Talk to Sakura Haruno",
+        "translate": "quest.narutorpg.childhood_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Go: Sasuke and Sakura",
+        "translate": "quest.narutorpg.childhood_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:ino_yamanaka",
+      "text": {
+        "fallback": "Meet Ino Yamanaka",
+        "translate": "quest.narutorpg.childhood_02.o3"
+      }
+    }
+  ],
+  "order": 149001,
+  "outro": [
+    {
+      "fallback": "Sakura tries to confess to Sasuke but he simply replies he doesn't know her.",
+      "translate": "quest.narutorpg.childhood_02.outro0"
+    },
+    {
+      "fallback": "To vent her frustration, Sakura repeatedly punches a tree and lashes out via Inner Sakura.",
+      "translate": "quest.narutorpg.childhood_02.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:childhood_01"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

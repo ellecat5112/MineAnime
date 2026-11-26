@@ -1,0 +1,22 @@
+{
+  "appearance": {
+    "accent": 12986408,
+    "eyes": 2001125,
+    "hair": 1119000,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "mark": "red_eyes",
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 16767916,
+    "top": 1844545
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Shisui Uchiha",
+    "translate": "npc.narutorpg.shisui_uchiha"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

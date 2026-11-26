@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:araya_ally_boruto",
+    "narutorpg:shinki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "After being killed by Sarada, Ryū's Thorn Soul Bulb is exposed in the air. Mitsuki tells Araya to retrieve it and return it to Shinki's tree as he deals with the remaining Claw Grime. However, Jura suddenly emerges from a Claw Mark, alerting Mitsuki.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "After being killed by Sarada, Ryū's Thorn Soul Bulb is exposed in the air.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.intro0"
+    },
+    {
+      "fallback": "Mitsuki tells Araya to retrieve it and return it to Shinki's tree as he deals with the remaining Claw Grime.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.intro1"
+    },
+    {
+      "fallback": "However, Jura suddenly emerges from a Claw Mark, alerting Mitsuki.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jura (chapter)",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: Jura (chapter)",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ryū",
+        "translate": "quest.narutorpg.defeat.ryu_foe_boruto"
+      }
+    }
+  ],
+  "order": 302606,
+  "outro": [
+    {
+      "fallback": "However, Jura suddenly emerges from a Claw Mark, alerting Mitsuki.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.outro0"
+    },
+    {
+      "fallback": "Much to the two's surprise, Jura ignores them as well as Ryū's Thorn Soul Bulb, immediately directing his attention to Boruto's location.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_06"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

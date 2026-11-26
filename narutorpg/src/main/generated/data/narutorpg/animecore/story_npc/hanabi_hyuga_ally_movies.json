@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "narutorpg:eight_trigrams_sixty_four_palms",
+    "narutorpg:eight_trigrams_vacuum_palm",
+    "narutorpg:gentle_fist",
+    "narutorpg:gentle_step_twin_lion_fists",
+    "narutorpg:palm_bottom",
+    "narutorpg:eight_trigrams_palms_revolving_heaven"
+  ],
+  "appearance": {
+    "accent": 8280002,
+    "eyes": 14802156,
+    "hair": 2763315,
+    "hair_style": "long",
+    "headband": 1981066,
+    "mark": "pale_eyes",
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 15591388
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Hanabi Hyūga",
+    "translate": "npc.narutorpg.hanabi_hyuga"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Konoha Hiden: The Perfect Day for a Wedding",
+    "translate": "quest.narutorpg.arc.konoha_hiden_the_perfect_day_for_a_wedding"
+  },
+  "description": {
+    "fallback": "Gaara, Temari, and Kankurō arrive at Konoha, where they're greeted by Kakashi and Shizune. Kakashi confirms the arrival of other Kage, with the Mizukage still to arrive due to bad weather. Ōnoki asks Kakashi about Naruto's wedding, intending to give him a gift on Iwa's behalf. A also intends to send a gift on Kumo's behalf.",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Gaara, Temari, and Kankurō arrive at Konoha, where they're greeted by Kakashi and Shizune.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.intro0"
+    },
+    {
+      "fallback": "Kakashi confirms the arrival of other Kage, with the Mizukage still to arrive due to bad weather. Ōnoki asks Kakashi about Naruto's wedding, intending to give him a gift on Iwa's behalf.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.intro1"
+    },
+    {
+      "fallback": "A also intends to send a gift on Kumo's behalf.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Kazekage's Wedding Gift",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: The Kazekage's Wedding Gift",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:gaara",
+      "text": {
+        "fallback": "Meet Gaara",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.o3"
+      }
+    }
+  ],
+  "order": 150403,
+  "outro": [
+    {
+      "fallback": "Lee and Tenten arrive, on duty to show them around the village.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.outro0"
+    },
+    {
+      "fallback": "Gaara asks to see places Naruto likes.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_04.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_03"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

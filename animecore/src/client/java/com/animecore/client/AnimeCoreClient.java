@@ -29,6 +29,8 @@ public final class AnimeCoreClient implements ClientModInitializer {
         // Thrown ninja tools render as their own item sprite; puppets reuse the biped model.
         EntityRendererRegistry.register(AnimeEntities.THROWN_TOOL, ctx -> new FlyingItemEntityRenderer<>(ctx, 1.0f, true));
         EntityRendererRegistry.register(AnimeEntities.PUPPET, PuppetEntityRenderer::new);
+        EntityRendererRegistry.register(AnimeEntities.STORY_NPC, com.animecore.client.render.StoryNpcRenderer::new);
+        com.animecore.client.quest.QuestClient.init();
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.CHAKRA_WALL, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.BARRIER_GATE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.WARD_TAG, RenderLayer.getCutout());

@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:shikaku_nara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "While carrying out Akatsuki's mission, Itachi learns about Sasuke's state of being, as well as learning of Naruto's existence. He learns Sasuke has awakened his Sharingan, and learned Chidori from Kakashi. At a latter occasion, he questions Naruto about how he would measure the safety of Konohagakure against Sasuke's.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "While carrying out Akatsuki's mission, Itachi learns about Sasuke's state of being, as well as learning of Naruto's existence.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.intro0"
+    },
+    {
+      "fallback": "He learns Sasuke has awakened his Sharingan, and learned Chidori from Kakashi.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.intro1"
+    },
+    {
+      "fallback": "At a latter occasion, he questions Naruto about how he would measure the safety of Konohagakure against Sasuke's.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Truth (episode 458)",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Truth (episode 458)",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146107,
+  "outro": [
+    {
+      "fallback": "Sasuke finishes reminiscing on Itachi's memories.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.outro0"
+    },
+    {
+      "fallback": "Meanwhile, back on the battlefield, the light of the Infinite Tsukuyomi fades and Sasuke dispels his protective Susanoo barrier.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_08.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:itachi_shinden_book_light_and_darkness_07"
+  ],
+  "rewards": {
+    "experience": 31,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

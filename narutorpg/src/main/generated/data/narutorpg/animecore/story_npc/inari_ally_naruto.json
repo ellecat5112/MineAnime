@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4545124,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "pants": 4073251,
+    "skin": 16767916,
+    "top": 2503224
+  },
+  "attack": 5.0,
+  "health": 74.0,
+  "name": {
+    "fallback": "Inari",
+    "translate": "npc.narutorpg.inari"
+  },
+  "power": 1.12,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

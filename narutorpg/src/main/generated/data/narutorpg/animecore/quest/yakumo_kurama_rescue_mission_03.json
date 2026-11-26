@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Yakumo Kurama Rescue Mission",
+    "translate": "quest.narutorpg.arc.yakumo_kurama_rescue_mission"
+  },
+  "description": {
+    "fallback": "As Kurenai attempted to escape with Yakumo, Naruto, and Sakura, the members of Team 8 and Might Guy came to their assistance and defeated the enemy. Kurenai and Yakumo revealed that Yakumo had been entrusted to Kurenai as her student, as, while she was unable to fight, she was a talented genjutsu user. However, Kurenai had sealed away her abilities, and Yakumo revealed that she had done so under the orders of the...",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_03.desc"
+  },
+  "giver": "narutorpg:hiruzen_sarutobi",
+  "intro": [
+    {
+      "fallback": "As Kurenai attempted to escape with Yakumo, Naruto, and Sakura, the members of Team 8 and Might Guy came to their assistance and defeated the enemy.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_03.intro0"
+    },
+    {
+      "fallback": "Kurenai and Yakumo revealed that Yakumo had been entrusted to Kurenai as her student, as, while she was unable to fight, she was a talented genjutsu user.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_03.intro1"
+    },
+    {
+      "fallback": "However, Kurenai had sealed away her abilities, and Yakumo revealed that she had done so under the orders of the Third Hokage to do something to Yakumo.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kurenai's Top Secret Mission: The Promise with the Third...",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:hiruzen_sarutobi",
+      "text": {
+        "fallback": "Talk to Hiruzen Sarutobi",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: Kurenai's Top Secret Mission: The Promise with the Third Hokage",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 21302,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:yakumo_kurama_rescue_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

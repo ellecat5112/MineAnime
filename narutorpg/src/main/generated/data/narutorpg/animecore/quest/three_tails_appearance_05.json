@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "Naruto continues his coordination training with Gamatatsu while Gamakichi and Jiraiya observe. After a few hours, he nearly passes out, and is offered a popsicle by Jiraiya. Jiraiya tells him that everyone he has met so far is aware of how strong he is training, and that the mystery is how he keeps it up.",
+    "translate": "quest.narutorpg.three_tails_appearance_05.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Naruto continues his coordination training with Gamatatsu while Gamakichi and Jiraiya observe.",
+      "translate": "quest.narutorpg.three_tails_appearance_05.intro0"
+    },
+    {
+      "fallback": "After a few hours, he nearly passes out, and is offered a popsicle by Jiraiya.",
+      "translate": "quest.narutorpg.three_tails_appearance_05.intro1"
+    },
+    {
+      "fallback": "Jiraiya tells him that everyone he has met so far is aware of how strong he is training, and that the mystery is how he keeps it up.",
+      "translate": "quest.narutorpg.three_tails_appearance_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Connecting Hearts",
+    "translate": "quest.narutorpg.three_tails_appearance_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 42,
+      "text": {
+        "fallback": "Go: Connecting Hearts",
+        "translate": "quest.narutorpg.three_tails_appearance_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 109904,
+  "outro": [
+    {
+      "fallback": "He is then approached by Gozu, who wishes to go out on patrol with him.",
+      "translate": "quest.narutorpg.three_tails_appearance_05.outro0"
+    },
+    {
+      "fallback": "In the woods, Kiba hears the ultrasonic frequency and likens it to the sound of a dog whistle, but is confused as neither he nor Akamaru are able to pick up a dog's",
+      "translate": "quest.narutorpg.three_tails_appearance_05.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_04"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:sarada_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "In a flashback during the three years away from Konohagakure, Boruto practises his kenjutsu. He takes a break with Sasuke and asks about his progression. Sasuke acknowledges that he taught Boruto nearly everything he knows, and doesn't think there’s anything left to teach him, due to the boy's talent for being a quick learner.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In a flashback during the three years away from Konohagakure, Boruto practises his kenjutsu.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_05.intro0"
+    },
+    {
+      "fallback": "He takes a break with Sasuke and asks about his progression.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_05.intro1"
+    },
+    {
+      "fallback": "Sasuke acknowledges that he taught Boruto nearly everything he knows, and doesn't think there’s anything left to teach him, due to the boy's talent for being a quick learner.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Target",
+    "translate": "quest.narutorpg.boruto_s_return_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_s_return_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Target",
+        "translate": "quest.narutorpg.boruto_s_return_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    }
+  ],
+  "order": 301104,
+  "outro": [
+    {
+      "fallback": "He told Boruto to survive, build on what he taught him, and watch over Sarada, before channelling Lightning Release through his sword and engaging the enemy.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_05.outro0"
+    },
+    {
+      "fallback": "Boruto later returned to find several Claw Grime defeated, Sasuke stuck on a tree, and collecting his master's sword.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_04"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Yakumo Kurama Rescue Mission",
+    "translate": "quest.narutorpg.arc.yakumo_kurama_rescue_mission"
+  },
+  "description": {
+    "fallback": "Naruto, Sakura, Kurenai, Yakumo and Team 8 return to Konoha, which appears to have been destroyed in their absence. They learn from the head of the Kurama clan that they are trapped in a genjutsu that has enveloped the entire town, and Naruto, Sakura, and Team 8 manage to escape with the help of Unkai. They then enter the mansion to find Kurenai and Yakumo.",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_04.desc"
+  },
+  "giver": "narutorpg:kurenai_yuhi",
+  "intro": [
+    {
+      "fallback": "Naruto, Sakura, Kurenai, Yakumo and Team 8 return to Konoha, which appears to have been destroyed in their absence.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_04.intro0"
+    },
+    {
+      "fallback": "They learn from the head of the Kurama clan that they are trapped in a genjutsu that has enveloped the entire town, and Naruto, Sakura, and Team 8 manage to escape with the help of Unkai.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_04.intro1"
+    },
+    {
+      "fallback": "They then enter the mansion to find Kurenai and Yakumo.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Genjutsu or Reality?",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kurenai_yuhi",
+      "text": {
+        "fallback": "Talk to Kurenai Yūhi",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: Genjutsu or Reality?",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 21303,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:yakumo_kurama_rescue_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:hinata_hyuga_ally_naruto",
+    "narutorpg:choji_akimichi_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Peddlers Escort Mission",
+    "translate": "quest.narutorpg.arc.peddlers_escort_mission"
+  },
+  "description": {
+    "fallback": "As Naruto is faring poorly in the battle with Jiga, Hinata arrives. Although Hinata is initially unable to damage him, she realises that his magnetism is his potential weakness. She uses her Byakugan and Gentle Fist to interfere with his chakra flow, rendering Jiga unable to turn off his magnetism and buried himself alive in a vortex of iron sand.",
+    "translate": "quest.narutorpg.peddlers_escort_mission_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "As Naruto is faring poorly in the battle with Jiga, Hinata arrives.",
+      "translate": "quest.narutorpg.peddlers_escort_mission_04.intro0"
+    },
+    {
+      "fallback": "Although Hinata is initially unable to damage him, she realises that his magnetism is his potential weakness.",
+      "translate": "quest.narutorpg.peddlers_escort_mission_04.intro1"
+    },
+    {
+      "fallback": "She uses her Byakugan and Gentle Fist to interfere with his chakra flow, rendering Jiga unable to turn off his magnetism and buried himself alive in a vortex of iron sand.",
+      "translate": "quest.narutorpg.peddlers_escort_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Byakugan Sees the Blind Spot!",
+    "translate": "quest.narutorpg.peddlers_escort_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.peddlers_escort_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: The Byakugan Sees the Blind Spot!",
+        "translate": "quest.narutorpg.peddlers_escort_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jiga_foe_naruto",
+      "text": {
+        "fallback": "Defeat Jiga",
+        "translate": "quest.narutorpg.defeat.jiga_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yurinojo_foe_naruto",
+      "text": {
+        "fallback": "Defeat Yurinojō",
+        "translate": "quest.narutorpg.defeat.yurinojo_foe_naruto"
+      }
+    }
+  ],
+  "order": 19703,
+  "outro": [
+    {
+      "fallback": "Hinata, Chōji and Yurinojō are kidnapped by the third brother along with several ninja.",
+      "translate": "quest.narutorpg.peddlers_escort_mission_04.outro0"
+    },
+    {
+      "fallback": "The last criminal brother Renga, who is able to manipulate the water vapour in the air to the extent that he can control sunlight, encounters Naruto and Haruna.",
+      "translate": "quest.narutorpg.peddlers_escort_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:peddlers_escort_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

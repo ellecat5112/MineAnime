@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 4431943,
+    "hair": 4073251,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 13010498,
+    "top": 3046706
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Mirai Sarutobi",
+    "translate": "npc.narutorpg.mirai_sarutobi"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

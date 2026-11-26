@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_boruto",
+    "narutorpg:ino_yamanaka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Ada pauses to consider Shikamaru's offer as he reiterates the Kawaki angle. She activates her Senrigan, and Code protests against being left behind, but Ada tells him she has every right to consider it. Shikamaru wonders what she's doing with her eye.",
+    "translate": "quest.narutorpg.omnipotence_arc_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Ada pauses to consider Shikamaru's offer as he reiterates the Kawaki angle.",
+      "translate": "quest.narutorpg.omnipotence_arc_03.intro0"
+    },
+    {
+      "fallback": "She activates her Senrigan, and Code protests against being left behind, but Ada tells him she has every right to consider it.",
+      "translate": "quest.narutorpg.omnipotence_arc_03.intro1"
+    },
+    {
+      "fallback": "Shikamaru wonders what she's doing with her eye.",
+      "translate": "quest.narutorpg.omnipotence_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "From the Bottom of My Heart",
+    "translate": "quest.narutorpg.omnipotence_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.omnipotence_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: From the Bottom of My Heart",
+        "translate": "quest.narutorpg.omnipotence_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ada_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ada",
+        "translate": "quest.narutorpg.defeat.ada_foe_boruto"
+      }
+    }
+  ],
+  "order": 237802,
+  "outro": [
+    {
+      "fallback": "Shikamaru adds that if she continues to ally herself with Code, she will be considered an enemy.",
+      "translate": "quest.narutorpg.omnipotence_arc_03.outro0"
+    },
+    {
+      "fallback": "Sumire asks Kawaki how's the situation after what happened between him and Boruto.",
+      "translate": "quest.narutorpg.omnipotence_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_02"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

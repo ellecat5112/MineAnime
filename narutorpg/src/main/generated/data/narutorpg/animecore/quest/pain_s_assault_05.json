@@ -1,0 +1,103 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:kakashi_hatake_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Pain's Assault",
+    "translate": "quest.narutorpg.arc.pain_s_assault"
+  },
+  "description": {
+    "fallback": "Naruto erected a shrine in the forest in honour of his sensei and started to make his way back to the ruins of Konoha. He almost succumbed to exhaustion, but was caught by a newly revived Kakashi, who carried Naruto on his back to the border of the village. Awaiting them were his friends and companions.",
+    "translate": "quest.narutorpg.pain_s_assault_05.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Naruto erected a shrine in the forest in honour of his sensei and started to make his way back to the ruins of Konoha.",
+      "translate": "quest.narutorpg.pain_s_assault_05.intro0"
+    },
+    {
+      "fallback": "He almost succumbed to exhaustion, but was caught by a newly revived Kakashi, who carried Naruto on his back to the border of the village.",
+      "translate": "quest.narutorpg.pain_s_assault_05.intro1"
+    },
+    {
+      "fallback": "Awaiting them were his friends and companions.",
+      "translate": "quest.narutorpg.pain_s_assault_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Hero of Konoha",
+    "translate": "quest.narutorpg.pain_s_assault_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.pain_s_assault_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: Hero of Konoha",
+        "translate": "quest.narutorpg.pain_s_assault_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 116204,
+  "outro": [
+    {
+      "fallback": "Tobi told Black Zetsu that Pain's defeat was a major hindrance to his plans and that Sasuke would be of no use to him if he couldn't be controlled properly.",
+      "translate": "quest.narutorpg.pain_s_assault_05.outro0"
+    },
+    {
+      "fallback": "Tobi decided to finally step out of the shadows and commence with his Eye of the Moon Plan.",
+      "translate": "quest.narutorpg.pain_s_assault_05.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:pain_s_assault_04"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 6
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

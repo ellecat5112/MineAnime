@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 2503224,
+    "hair": 1973790,
+    "headband": 4545124,
+    "mark": "mask",
+    "outfit": "bodysuit",
+    "pants": 2171169
+  },
+  "attack": 10.0,
+  "health": 120.0,
+  "held_item": "narutorpg:kunai",
+  "name": {
+    "fallback": "Rogue Ninja",
+    "translate": "npc.narutorpg.rogue_ninja"
+  },
+  "speed": 0.33,
+  "system": "narutorpg"
+}

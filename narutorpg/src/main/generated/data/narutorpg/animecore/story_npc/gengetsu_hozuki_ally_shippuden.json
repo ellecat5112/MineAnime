@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:demonic_illusion_steaming_multistoried_building",
+    "narutorpg:steaming_danger_tyranny",
+    "narutorpg:steaming_danger_tyranny_sleeve_cutter",
+    "narutorpg:summoning_technique",
+    "narutorpg:water_balloon_technique",
+    "narutorpg:hydrification_technique"
+  ],
+  "appearance": {
+    "accent": 4532128,
+    "hair": 13625589,
+    "headband": 3622735,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 8280002
+  },
+  "attack": 11.0,
+  "health": 158.0,
+  "name": {
+    "fallback": "Gengetsu Hōzuki",
+    "translate": "npc.narutorpg.gengetsu_hozuki"
+  },
+  "power": 1.84,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "narutorpg:water_prison_technique",
+    "narutorpg:water_release_great_waterfall_technique",
+    "narutorpg:water_release_water_bullet_technique",
+    "narutorpg:water_release_water_dragon_bullet_technique",
+    "narutorpg:hiding_in_mist_technique"
+  ],
+  "appearance": {
+    "eyes": 1118481,
+    "hair": 1973790,
+    "headband": 3622735,
+    "mark": "mask",
+    "outfit": "bodysuit",
+    "pants": 6323595,
+    "top": 7901340
+  },
+  "attack": 9.3,
+  "cast_interval": 70,
+  "health": 156.0,
+  "name": {
+    "fallback": "Zabuza Momochi",
+    "translate": "npc.narutorpg.zabuza_momochi"
+  },
+  "power": 1.74,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

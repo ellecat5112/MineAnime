@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Yakumo Kurama Rescue Mission",
+    "translate": "quest.narutorpg.arc.yakumo_kurama_rescue_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto encounters a girl named Yakumo, who, by painting a picture of Konoha, causes lightning to strike the Academy. Shortly thereafter, Kurenai Yūhi resigns as leader of Team 8, and Naruto is determined to find out why. Later that night, Naruto — disguised as Kurenai — goes into Yakumo's mansion and discovers a room full of Yakumo's paintings.",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.desc"
+  },
+  "giver": "narutorpg:kurenai_yuhi",
+  "intro": [
+    {
+      "fallback": "Naruto encounters a girl named Yakumo, who, by painting a picture of Konoha, causes lightning to strike the Academy.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.intro0"
+    },
+    {
+      "fallback": "Shortly thereafter, Kurenai Yūhi resigns as leader of Team 8, and Naruto is determined to find out why.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.intro1"
+    },
+    {
+      "fallback": "Later that night, Naruto — disguised as Kurenai — goes into Yakumo's mansion and discovers a room full of Yakumo's paintings.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kurenai's Decision: Team 8 Left Behind",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kurenai_yuhi",
+      "text": {
+        "fallback": "Talk to Kurenai Yūhi",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Kurenai's Decision: Team 8 Left Behind",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 21300,
+  "outro": [
+    {
+      "fallback": "Later that night, Naruto — disguised as Kurenai — goes into Yakumo's mansion and discovers a room full of Yakumo's paintings.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.outro0"
+    },
+    {
+      "fallback": "He escapes after one of the paintings nearly kills him, and is confronted by Anbu security, who tranquillise him.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

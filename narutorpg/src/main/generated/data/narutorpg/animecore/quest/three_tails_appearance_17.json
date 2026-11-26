@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:yukimaru_s_mother_ally_shippuden",
+    "narutorpg:rock_lee_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "Guren and Kabuto return to the lake where the latter attempts to feed Yūkimaru many pills. Knowing that the pills would come at the cost of Yūkimaru's life, Guren offers to deal with the tailed beast without Yūkimaru's involvement. Kabuto relents, but only if she follows his orders, and sends Rinji to relay his orders when the time comes.",
+    "translate": "quest.narutorpg.three_tails_appearance_17.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Guren and Kabuto return to the lake where the latter attempts to feed Yūkimaru many pills.",
+      "translate": "quest.narutorpg.three_tails_appearance_17.intro0"
+    },
+    {
+      "fallback": "Knowing that the pills would come at the cost of Yūkimaru's life, Guren offers to deal with the tailed beast without Yūkimaru's involvement.",
+      "translate": "quest.narutorpg.three_tails_appearance_17.intro1"
+    },
+    {
+      "fallback": "Kabuto relents, but only if she follows his orders, and sends Rinji to relay his orders when the time comes.",
+      "translate": "quest.narutorpg.three_tails_appearance_17.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Battle Over the Barrier",
+    "translate": "quest.narutorpg.three_tails_appearance_17"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.three_tails_appearance_17.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: The Battle Over the Barrier",
+        "translate": "quest.narutorpg.three_tails_appearance_17.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:guren_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Guren",
+        "translate": "quest.narutorpg.defeat.guren_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109916,
+  "outro": [
+    {
+      "fallback": "Meanwhile, Yūkimaru spots the Three-Tails about to harm a winded-out Guren and taps into his Three-Tails Chakra: Release to control the beast and prevent Guren's death.",
+      "translate": "quest.narutorpg.three_tails_appearance_17.outro0"
+    },
+    {
+      "fallback": "As Rinji spots Yūkimaru, it turn",
+      "translate": "quest.narutorpg.three_tails_appearance_17.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_16"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Konohamaru's Love Arc",
+    "translate": "quest.narutorpg.arc.konohamaru_s_love_arc"
+  },
+  "description": {
+    "fallback": "Konohamaru decides he and Boruto should go looking for Asaki themselves. They see Kankitsu leaving Remon's home, and Konohamaru decides to tail him, instructing Boruto to find Asaki. Konohamaru follows Kankitsu to a site, where he's spotted by Kankitsu's subordinates.",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_03.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Konohamaru decides he and Boruto should go looking for Asaki themselves.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_03.intro0"
+    },
+    {
+      "fallback": "They see Kankitsu leaving Remon's home, and Konohamaru decides to tail him, instructing Boruto to find Asaki.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_03.intro1"
+    },
+    {
+      "fallback": "Konohamaru follows Kankitsu to a site, where he's spotted by Kankitsu's subordinates.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Something That Steals Memories",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Go: Something That Steals Memories",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 212602,
+  "outro": [
+    {
+      "fallback": "Two wisps also leave his body through antlers.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_03.outro0"
+    },
+    {
+      "fallback": "Boruto's memories of events since going to the movies are compromised.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:konohamaru_s_love_arc_02"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:sumaru_ally_naruto",
+    "narutorpg:hokuto_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Star Guard Mission",
+    "translate": "quest.narutorpg.arc.star_guard_mission"
+  },
+  "description": {
+    "fallback": "After Akahoshi tries to execute Sumaru, Hokuto and the rest of the children stand up to protect their village, revealing the poisoning caused by the star. After learning the truth, the adults turn on Akahoshi as well. After Akahoshi nearly kills Mizura, he is given no second chances.",
+    "translate": "quest.narutorpg.star_guard_mission_06.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "After Akahoshi tries to execute Sumaru, Hokuto and the rest of the children stand up to protect their village, revealing the poisoning caused by the star.",
+      "translate": "quest.narutorpg.star_guard_mission_06.intro0"
+    },
+    {
+      "fallback": "After learning the truth, the adults turn on Akahoshi as well.",
+      "translate": "quest.narutorpg.star_guard_mission_06.intro1"
+    },
+    {
+      "fallback": "After Akahoshi nearly kills Mizura, he is given no second chances.",
+      "translate": "quest.narutorpg.star_guard_mission_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Star's Radiance",
+    "translate": "quest.narutorpg.star_guard_mission_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.star_guard_mission_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: The Star's Radiance",
+        "translate": "quest.narutorpg.star_guard_mission_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:akahoshi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Akahoshi",
+        "translate": "quest.narutorpg.defeat.akahoshi_foe_naruto"
+      }
+    }
+  ],
+  "order": 18805,
+  "outro": [
+    {
+      "fallback": "Naruto, guided by Natsuhi's spirit, destroys the star and defeats Akahoshi.",
+      "translate": "quest.narutorpg.star_guard_mission_06.outro0"
+    },
+    {
+      "fallback": "Although Tsunade initially seems upset over Naruto failing the mission, she concedes that the mission was cancelled due to being ordered by Akahoshi himself, while Shizune announce the recovery of the children from...",
+      "translate": "quest.narutorpg.star_guard_mission_06.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:star_guard_mission_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

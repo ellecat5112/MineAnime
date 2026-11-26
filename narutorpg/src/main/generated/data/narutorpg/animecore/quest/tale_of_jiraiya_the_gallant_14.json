@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Pain summons a giant crustacean to free Konan from Jiraiya's technique. He instructs Konan to leave them. Jiraiya destroys the crab and asks what Nagato has done to himself and what happened to Yahiko.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Pain summons a giant crustacean to free Konan from Jiraiya's technique.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.intro0"
+    },
+    {
+      "fallback": "He instructs Konan to leave them.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.intro1"
+    },
+    {
+      "fallback": "Jiraiya destroys the crab and asks what Nagato has done to himself and what happened to Yahiko.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Growth into Godhood!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out: Growth into Godhood!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yahiko_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Yahiko",
+        "translate": "quest.narutorpg.defeat.yahiko_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113713,
+  "outro": [
+    {
+      "fallback": "Jiraiya insists that that would never work.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.outro0"
+    },
+    {
+      "fallback": "Pain summons a chameleon to prove his point, and Jiraiya summons Gamaken.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_14.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_13"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

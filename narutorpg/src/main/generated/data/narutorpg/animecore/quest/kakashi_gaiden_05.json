@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_shippuden",
+    "narutorpg:rin_nohara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "Minato Namikaze leaves his students Kakashi, Obito, and Rin to destroy the Kannabi Bridge by themselves while he goes to assist Konoha's forces on the frontlines. The three try to travel in secret but are found by enemy ninja looking for the ninja the team had encountered earlier. They kidnap Rin to see what she knows.",
+    "translate": "quest.narutorpg.kakashi_gaiden_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Minato Namikaze leaves his students Kakashi, Obito, and Rin to destroy the Kannabi Bridge by themselves while he goes to assist Konoha's forces on the frontlines.",
+      "translate": "quest.narutorpg.kakashi_gaiden_05.intro0"
+    },
+    {
+      "fallback": "The three try to travel in secret but are found by enemy ninja looking for the ninja the team had encountered earlier.",
+      "translate": "quest.narutorpg.kakashi_gaiden_05.intro1"
+    },
+    {
+      "fallback": "They kidnap Rin to see what she knows.",
+      "translate": "quest.narutorpg.kakashi_gaiden_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Side Story 3: A True Hero",
+    "translate": "quest.narutorpg.kakashi_gaiden_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Side Story 3: A True Hero",
+        "translate": "quest.narutorpg.kakashi_gaiden_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112804,
+  "outro": [
+    {
+      "fallback": "Obito leaves, claiming that those who abandon their friends are scum.",
+      "translate": "quest.narutorpg.kakashi_gaiden_05.outro0"
+    },
+    {
+      "fallback": "He also says that Sakumo Hatake, despite being disgraced when he abandoned a mission to save his team, was right to do so. pt-br:Capítulo 241: Terceira Parte: Um Verdadeiro Herói",
+      "translate": "quest.narutorpg.kakashi_gaiden_05.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_04"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

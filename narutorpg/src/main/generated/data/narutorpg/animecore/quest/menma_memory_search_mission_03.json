@@ -1,0 +1,85 @@
+{
+  "allies": [
+    "narutorpg:menma_anime_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Menma Memory Search Mission",
+    "translate": "quest.narutorpg.arc.menma_memory_search_mission"
+  },
+  "description": {
+    "fallback": "When Menma is injured by one of the bandits, it is revealed that he was once one of them, and that he was at the town during the attack. Despite this, Menma is willing to risk his own safety to help fight off the bandits, and tells Naruto of the leader's master plan to flood the town by breaching its dam. After revealing that he never lost his memory, Menma sacrifices his life to cause a rockslide to save the town.",
+    "translate": "quest.narutorpg.menma_memory_search_mission_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "When Menma is injured by one of the bandits, it is revealed that he was once one of them, and that he was at the town during the attack.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_03.intro0"
+    },
+    {
+      "fallback": "Despite this, Menma is willing to risk his own safety to help fight off the bandits, and tells Naruto of the leader's master plan to flood the town by breaching its dam.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_03.intro1"
+    },
+    {
+      "fallback": "After revealing that he never lost his memory, Menma sacrifices his life to cause a rockslide to save the town.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Past to Be Erased",
+    "translate": "quest.narutorpg.menma_memory_search_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.menma_memory_search_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: A Past to Be Erased",
+        "translate": "quest.narutorpg.menma_memory_search_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shiin_foe_naruto",
+      "text": {
+        "fallback": "Defeat Shiin",
+        "translate": "quest.narutorpg.defeat.shiin_foe_naruto"
+      }
+    }
+  ],
+  "order": 22302,
+  "outro": [
+    {
+      "fallback": "After revealing that he never lost his memory, Menma sacrifices his life to cause a rockslide to save the town.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_03.outro0"
+    },
+    {
+      "fallback": "Naruto defeats the bandit leader and mourns Menma's death.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:menma_memory_search_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

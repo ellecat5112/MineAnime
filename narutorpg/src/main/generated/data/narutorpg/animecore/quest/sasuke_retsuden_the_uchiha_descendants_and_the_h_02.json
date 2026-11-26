@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": "Sasuke and the other prisoners watch as Menō feasts on an escaping prisoner until Zansūru tells them to get to work. As Sasuke begins digging at the prisoners' worksite, he is joined by one of his cellmates, Jiji. Jiji isn't as diligent about the work as Sasuke is, only making an effort to dig when the prison's guards are nearby.",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Sasuke and the other prisoners watch as Menō feasts on an escaping prisoner until Zansūru tells them to get to work.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.intro0"
+    },
+    {
+      "fallback": "As Sasuke begins digging at the prisoners' worksite, he is joined by one of his cellmates, Jiji.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.intro1"
+    },
+    {
+      "fallback": "Jiji isn't as diligent about the work as Sasuke is, only making an effort to dig when the prison's guards are nearby.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 2 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Chapter 2 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:penjira_foe_boruto",
+      "text": {
+        "fallback": "Defeat Penjira",
+        "translate": "quest.narutorpg.defeat.penjira_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jiji_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jiji",
+        "translate": "quest.narutorpg.defeat.jiji_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zansuru_foe_boruto",
+      "text": {
+        "fallback": "Defeat Zansūru",
+        "translate": "quest.narutorpg.defeat.zansuru_foe_boruto"
+      }
+    }
+  ],
+  "order": 229101,
+  "outro": [
+    {
+      "fallback": "Zansūru is unaffected, which Sasuke, on closer inspection, notices to be because of Zansūru's glass eye.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.outro0"
+    },
+    {
+      "fallback": "Zansūru compliments Sasuke for his obvious skill as a shinobi, but insists he will never manage to wrest control o",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_02.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_01"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

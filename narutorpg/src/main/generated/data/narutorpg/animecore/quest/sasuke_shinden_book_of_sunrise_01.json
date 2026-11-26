@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Sasuke Shinden: Book of Sunrise",
+    "translate": "quest.narutorpg.arc.sasuke_shinden_book_of_sunrise"
+  },
+  "description": {
+    "fallback": "A man called Tadaichi leaves a hot spring. As a storm brews, he is approached by someone on the road, wanting to confirm his status as a Konoha shinobi. Tadaichi confirms he's from Konoha, but denies being a shinobi, claiming to be just a merchant.",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "A man called Tadaichi leaves a hot spring.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.intro0"
+    },
+    {
+      "fallback": "As a storm brews, he is approached by someone on the road, wanting to confirm his status as a Konoha shinobi.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.intro1"
+    },
+    {
+      "fallback": "Tadaichi confirms he's from Konoha, but denies being a shinobi, claiming to be just a merchant.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Exploding Human",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Go: The Exploding Human",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 149400,
+  "outro": [
+    {
+      "fallback": "Naruto and Sakura go investigate.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.outro0"
+    },
+    {
+      "fallback": "Five people are attacking the security personnel from the gates.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_01.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:kaguya_otsutsuki_strikes_04"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

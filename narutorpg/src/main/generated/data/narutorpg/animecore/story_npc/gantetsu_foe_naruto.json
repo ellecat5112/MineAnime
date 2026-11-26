@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "eyes": 4431943,
+    "hair": 4073251,
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 4545124
+  },
+  "attack": 6.5,
+  "cast_interval": 40,
+  "health": 202.0,
+  "name": {
+    "fallback": "Gantetsu",
+    "translate": "npc.narutorpg.gantetsu"
+  },
+  "power": 1.26,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

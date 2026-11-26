@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:dharma_power_sealing_technique_sen_no_rikyu",
+    "narutorpg:dharma_power_seal"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "headband": 6111287,
+    "outfit": "robe",
+    "pants": 3622735,
+    "top": 10586239
+  },
+  "attack": 12.0,
+  "health": 172.0,
+  "name": {
+    "fallback": "Bunpuku",
+    "translate": "npc.narutorpg.bunpuku"
+  },
+  "power": 1.96,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

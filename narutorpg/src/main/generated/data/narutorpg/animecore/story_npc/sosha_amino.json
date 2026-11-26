@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 2001125,
+    "hair": 2503224,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "top": 2046559
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Sōsha Amino",
+    "translate": "npc.narutorpg.sosha_amino"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

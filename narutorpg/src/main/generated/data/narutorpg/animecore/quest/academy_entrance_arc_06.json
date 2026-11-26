@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "Boruto finds Shino to be odd. Shikadai scolds Boruto, and apologises for whatever they did to get out of trouble. Still angry, Shino sicks his insects on them.",
+    "translate": "quest.narutorpg.academy_entrance_arc_06.desc"
+  },
+  "giver": "narutorpg:shino_aburame",
+  "intro": [
+    {
+      "fallback": "Boruto finds Shino to be odd.",
+      "translate": "quest.narutorpg.academy_entrance_arc_06.intro0"
+    },
+    {
+      "fallback": "Shikadai scolds Boruto, and apologises for whatever they did to get out of trouble.",
+      "translate": "quest.narutorpg.academy_entrance_arc_06.intro1"
+    },
+    {
+      "fallback": "Still angry, Shino sicks his insects on them.",
+      "translate": "quest.narutorpg.academy_entrance_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Final Lesson!",
+    "translate": "quest.narutorpg.academy_entrance_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Talk to Shino Aburame",
+        "translate": "quest.narutorpg.academy_entrance_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: The Final Lesson!",
+        "translate": "quest.narutorpg.academy_entrance_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 201105,
+  "outro": [
+    {
+      "fallback": "They flee using a smoke bomb to cover their escape.",
+      "translate": "quest.narutorpg.academy_entrance_arc_06.outro0"
+    },
+    {
+      "fallback": "Hidden, the three discuss their options, Shikadai noting Shino's skill and killing intent.",
+      "translate": "quest.narutorpg.academy_entrance_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_05"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

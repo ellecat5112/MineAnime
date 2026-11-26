@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Sunagakure Support Mission",
+    "translate": "quest.narutorpg.arc.sunagakure_support_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] A group of missing-nin from the Takumi Village invades Sunagakure and kidnaps Matsuri, the Academy student. They seek Gaara's powers to revive their village's ultimate weapon. Gaara, Kankurō and Temari pursue them alone.",
+    "translate": "quest.narutorpg.sunagakure_support_mission_01.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "A group of missing-nin from the Takumi Village invades Sunagakure and kidnaps Matsuri, the Academy student.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_01.intro0"
+    },
+    {
+      "fallback": "They seek Gaara's powers to revive their village's ultimate weapon.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_01.intro1"
+    },
+    {
+      "fallback": "Gaara, Kankurō and Temari pursue them alone.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Targeted Shukaku",
+    "translate": "quest.narutorpg.sunagakure_support_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.sunagakure_support_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: The Targeted Shukaku",
+        "translate": "quest.narutorpg.sunagakure_support_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 122600,
+  "outro": [
+    {
+      "fallback": "Each two-man cell will assist one of the Three Sand Siblings.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_01.outro0"
+    },
+    {
+      "fallback": "Neji and Hinata will avoid combat and scout ahead, while Sakura and Shino act as medical support and command and control (using Shino's bugs to pass along information).",
+      "translate": "quest.narutorpg.sunagakure_support_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_countdown_08"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

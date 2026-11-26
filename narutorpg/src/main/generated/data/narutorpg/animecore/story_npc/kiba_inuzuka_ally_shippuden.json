@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "narutorpg:booby_trap",
+    "narutorpg:fang_passing_fang",
+    "narutorpg:fang_rotating_fang",
+    "narutorpg:fang_wolf_fang",
+    "narutorpg:passing_fang",
+    "narutorpg:beast_human_clone"
+  ],
+  "appearance": {
+    "accent": 10395294,
+    "eyes": 2001125,
+    "hair": 5125166,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "mark": "fangs",
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 6111287
+  },
+  "attack": 8.0,
+  "health": 116.0,
+  "name": {
+    "fallback": "Kiba Inuzuka",
+    "translate": "npc.narutorpg.kiba_inuzuka"
+  },
+  "power": 1.48,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

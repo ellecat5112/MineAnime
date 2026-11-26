@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:shikaku_nara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "Jūzō asks Itachi about Duy, and tells him how he single-handedly defeated four of the Seven Ninja Swordsmen of the Mist. Jūzō and Itachi briefly discuss their specialties before the two carry out an assassination. Akatsuki gathers, and Pain fills the others in on Akatsuki's progress and growing reputation.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.desc"
+  },
+  "giver": "narutorpg:might_duy",
+  "intro": [
+    {
+      "fallback": "Jūzō asks Itachi about Duy, and tells him how he single-handedly defeated four of the Seven Ninja Swordsmen of the Mist.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.intro0"
+    },
+    {
+      "fallback": "Jūzō and Itachi briefly discuss their specialties before the two carry out an assassination.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.intro1"
+    },
+    {
+      "fallback": "Akatsuki gathers, and Pain fills the others in on Akatsuki's progress and growing reputation.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Darkness of the Akatsuki",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:might_duy",
+      "text": {
+        "fallback": "Talk to Might Duy",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: The Darkness of the Akatsuki",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:juzo_biwa_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Jūzō Biwa",
+        "translate": "quest.narutorpg.defeat.juzo_biwa_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146105,
+  "outro": [
+    {
+      "fallback": "Akatsuki gathers, and Pain fills the others in on Akatsuki's progress and growing reputation.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.outro0"
+    },
+    {
+      "fallback": "He informs them about the plan to gather the Tailed Beasts.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_06.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:itachi_shinden_book_light_and_darkness_05"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

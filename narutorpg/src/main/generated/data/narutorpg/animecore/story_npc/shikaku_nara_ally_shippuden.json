@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:black_spider_lily",
+    "narutorpg:formation_inoshikacho",
+    "narutorpg:shadow_sewing_technique",
+    "narutorpg:shadowneck_binding_technique",
+    "narutorpg:shadow_imitation_technique"
+  ],
+  "appearance": {
+    "accent": 3369246,
+    "eyes": 2001125,
+    "hair": 1973790,
+    "hair_style": "ponytail",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "skin": 14724201,
+    "top": 5533306
+  },
+  "attack": 12.0,
+  "health": 172.0,
+  "name": {
+    "fallback": "Shikaku Nara",
+    "translate": "npc.narutorpg.shikaku_nara"
+  },
+  "power": 1.96,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

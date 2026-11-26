@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:kakashi_hatake_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Pain's Assault",
+    "translate": "quest.narutorpg.arc.pain_s_assault"
+  },
+  "description": {
+    "fallback": "Upon reaching Konoha, Pain discussed the battle plans for the invasion. The Asura Path, Preta Path, and new Animal Path will act as diversions while the Deva Path, Naraka Path, Human Path, and Konan interrogated villagers on the whereabouts of Naruto Uzumaki, the jinchūriki of the Nine-Tailed Demon Fox either through mind reading or threat of death. Once preparations were complete, the Asura Path threw the Animal...",
+    "translate": "quest.narutorpg.pain_s_assault_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Upon reaching Konoha, Pain discussed the battle plans for the invasion.",
+      "translate": "quest.narutorpg.pain_s_assault_02.intro0"
+    },
+    {
+      "fallback": "The Asura Path, Preta Path, and new Animal Path will act as diversions while the Deva Path, Naraka Path, Human Path, and Konan interrogated villagers on the whereabouts of Naruto Uzumaki, the jinchūriki of the...",
+      "translate": "quest.narutorpg.pain_s_assault_02.intro1"
+    },
+    {
+      "fallback": "Once preparations were complete, the Asura Path threw the Animal Path into the village where it summoned the other Six Paths of Pain and the invasion began.",
+      "translate": "quest.narutorpg.pain_s_assault_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Pain's Invasion",
+    "translate": "quest.narutorpg.pain_s_assault_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.pain_s_assault_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Pain's Invasion",
+        "translate": "quest.narutorpg.pain_s_assault_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 116201,
+  "outro": [
+    {
+      "fallback": "As Shizune summarised their analysis, the Human Path found and read her mind discovering Naruto was at Mount Myōboku.",
+      "translate": "quest.narutorpg.pain_s_assault_02.outro0"
+    },
+    {
+      "fallback": "Upon finding out and angered by Tsunade's perceived lack of",
+      "translate": "quest.narutorpg.pain_s_assault_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:pain_s_assault_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

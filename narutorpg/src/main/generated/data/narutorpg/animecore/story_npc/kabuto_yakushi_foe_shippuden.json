@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "narutorpg:attack_of_the_twin_demons",
+    "narutorpg:chakra_absorbing_snakes",
+    "narutorpg:chakra_draining_seal",
+    "narutorpg:chakra_scalpel",
+    "narutorpg:clone_snakes_serpent_technique",
+    "narutorpg:body_fluid_shedding_technique"
+  ],
+  "appearance": {
+    "accent": 10395294,
+    "eyes": 1118481,
+    "hair": 13621468,
+    "hair_style": "ponytail",
+    "headband": 4854924,
+    "mark": "glasses",
+    "pants": 3622735,
+    "top": 6953882
+  },
+  "attack": 6.5,
+  "cast_interval": 40,
+  "health": 202.0,
+  "name": {
+    "fallback": "Kabuto Yakushi",
+    "translate": "npc.narutorpg.kabuto_yakushi"
+  },
+  "power": 1.26,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

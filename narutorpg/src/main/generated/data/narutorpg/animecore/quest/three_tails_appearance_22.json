@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:shizune_ally_shippuden",
+    "narutorpg:kakashi_hatake_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "As Shizune's sealing team begins to run out of chakra in their attempt to seal away the Three-Tailed Turtle, they find themselves aided by Katsuyu, a slug personally summoned by Tsunade to assist them. Kakashi, Shino and Yamato find themselves in combat against Team Guren; Kihō uses his Wrist Launcher to send a Smoke Dragon towards Yamato, but the latter counters with his Water Release: Water Bowl technique, which...",
+    "translate": "quest.narutorpg.three_tails_appearance_22.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "As Shizune's sealing team begins to run out of chakra in their attempt to seal away the Three-Tailed Turtle, they find themselves aided by Katsuyu, a slug personally summoned by Tsunade to assist them.",
+      "translate": "quest.narutorpg.three_tails_appearance_22.intro0"
+    },
+    {
+      "fallback": "Kakashi, Shino and Yamato find themselves in combat against Team Guren; Kihō uses his Wrist Launcher to send a Smoke Dragon towards Yamato, but the latter counters with his Water Release: Water Bowl technique, which...",
+      "translate": "quest.narutorpg.three_tails_appearance_22.intro1"
+    },
+    {
+      "fallback": "Yamato then uses his Wood Release: Great Forest Technique to finish Kihō off.",
+      "translate": "quest.narutorpg.three_tails_appearance_22.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Memory of Guilt",
+    "translate": "quest.narutorpg.three_tails_appearance_22"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_22.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Memory of Guilt",
+        "translate": "quest.narutorpg.three_tails_appearance_22.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kiho_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kihō",
+        "translate": "quest.narutorpg.defeat.kiho_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nurari_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nurari",
+        "translate": "quest.narutorpg.defeat.nurari_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:guren_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Guren",
+        "translate": "quest.narutorpg.defeat.guren_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109921,
+  "outro": [
+    {
+      "fallback": "With Team Guren dealt with, the three shinobi are joined by Lee, Tenten.",
+      "translate": "quest.narutorpg.three_tails_appearance_22.outro0"
+    },
+    {
+      "fallback": "Sai and Kiba; they decide to protect the sealing team. find Naruto, and save Yūkimaru, unaware that Nurari's body is beginning to take over the bodies of Kihō and Kigiri.",
+      "translate": "quest.narutorpg.three_tails_appearance_22.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_21"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

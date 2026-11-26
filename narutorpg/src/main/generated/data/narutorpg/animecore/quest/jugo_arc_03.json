@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Jūgo Arc",
+    "translate": "quest.narutorpg.arc.jugo_arc"
+  },
+  "description": {
+    "fallback": "Jūgo removes the cursed seal from infected birds before they go rampage and tags them. Boruto wishes they could do it as well to offer Jūgo some relief. Sarada and Mitsuki arrive, reporting the last places around they have to look for infected birds.",
+    "translate": "quest.narutorpg.jugo_arc_03.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Jūgo removes the cursed seal from infected birds before they go rampage and tags them.",
+      "translate": "quest.narutorpg.jugo_arc_03.intro0"
+    },
+    {
+      "fallback": "Boruto wishes they could do it as well to offer Jūgo some relief.",
+      "translate": "quest.narutorpg.jugo_arc_03.intro1"
+    },
+    {
+      "fallback": "Sarada and Mitsuki arrive, reporting the last places around they have to look for infected birds.",
+      "translate": "quest.narutorpg.jugo_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Predestined Path",
+    "translate": "quest.narutorpg.jugo_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.jugo_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Go: The Predestined Path",
+        "translate": "quest.narutorpg.jugo_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:jugo",
+      "text": {
+        "fallback": "Meet Jūgo",
+        "translate": "quest.narutorpg.jugo_arc_03.o3"
+      }
+    }
+  ],
+  "order": 210802,
+  "outro": [
+    {
+      "fallback": "Jūgo is concerned with removing the cursed seals before the wild geese migrate, which would spread the infection.",
+      "translate": "quest.narutorpg.jugo_arc_03.outro0"
+    },
+    {
+      "fallback": "At the end of the day, Jūgo still goes back to his cave, as his body is building up a resistance to the injections, which won't be useful for much longer.",
+      "translate": "quest.narutorpg.jugo_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:jugo_arc_02"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

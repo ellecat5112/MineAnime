@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:gaara_ally_shippuden",
+    "narutorpg:onoki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "Gaara, the Fifth Kazekage of Sunagakure, Ōnoki the Third Tsuchikage of Iwagakure, and Mei Terumī, the Fifth Mizukage of Kirigakure departed from their villages with two guards each, as requested by the Fourth Raikage, to the location of the summit, the Land of Iron. Before leaving for the Land of Iron, Danzō ordered Root members Dajimu and Terai to find Kabuto before Anko did, believing Kabuto's information might be...",
+    "translate": "quest.narutorpg.five_kage_summit_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Gaara, the Fifth Kazekage of Sunagakure, Ōnoki the Third Tsuchikage of Iwagakure, and Mei Terumī, the Fifth Mizukage of Kirigakure departed from their villages with two guards each, as requested by the Fourth Raikage...",
+      "translate": "quest.narutorpg.five_kage_summit_02.intro0"
+    },
+    {
+      "fallback": "Before leaving for the Land of Iron, Danzō ordered Root members Dajimu and Terai to find Kabuto before Anko did, believing Kabuto's information might be useful for restoring his right arm and eye.",
+      "translate": "quest.narutorpg.five_kage_summit_02.intro1"
+    },
+    {
+      "fallback": "On their way to the summit, Danzō and his bodyguards, Fū Yamanaka and Torune were attacked by assassins.",
+      "translate": "quest.narutorpg.five_kage_summit_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Summit",
+    "translate": "quest.narutorpg.five_kage_summit_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.five_kage_summit_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: The Summit",
+        "translate": "quest.narutorpg.five_kage_summit_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:fu_yamanaka_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Fū Yamanaka",
+        "translate": "quest.narutorpg.defeat.fu_yamanaka_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120701,
+  "outro": [
+    {
+      "fallback": "Shikamaru asked Team 7 for consent.",
+      "translate": "quest.narutorpg.five_kage_summit_02.outro0"
+    },
+    {
+      "fallback": "Sakura, left guilt-ridden and distraught after being talked to by Sai and Shikamaru, decided to find Naruto in the La",
+      "translate": "quest.narutorpg.five_kage_summit_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:five_kage_summit_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:yamato_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "Meanwhile, Kakashi advised that Naruto and Yamato not mention what Tobi had said about the Uchiha clan and Sasuke until they knew more, as they did not know if what he was saying was true. While Naruto contemplated Tobi's words, he attempted to find Sasuke via Sage Mode but was interrupted by the arrival of Sakura Haruno's group. Sakura gave a false confession of love to Naruto and asked him to give up his search...",
+    "translate": "quest.narutorpg.five_kage_summit_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Kakashi advised that Naruto and Yamato not mention what Tobi had said about the Uchiha clan and Sasuke until they knew more, as they did not know if what he was saying was true.",
+      "translate": "quest.narutorpg.five_kage_summit_06.intro0"
+    },
+    {
+      "fallback": "While Naruto contemplated Tobi's words, he attempted to find Sasuke via Sage Mode but was interrupted by the arrival of Sakura Haruno's group.",
+      "translate": "quest.narutorpg.five_kage_summit_06.intro1"
+    },
+    {
+      "fallback": "Sakura gave a false confession of love to Naruto and asked him to give up his search for Sasuke, telling him he was a criminal and that with her love, he would not have to burden himself with his promise.",
+      "translate": "quest.narutorpg.five_kage_summit_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Truth and Realisation",
+    "translate": "quest.narutorpg.five_kage_summit_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.five_kage_summit_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Truth and Realisation",
+        "translate": "quest.narutorpg.five_kage_summit_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120705,
+  "outro": [
+    {
+      "fallback": "Seeing no other choice, Kakashi stated it would be best to return to Konoha and relay the news of the war.",
+      "translate": "quest.narutorpg.five_kage_summit_06.outro0"
+    },
+    {
+      "fallback": "Gaara, knowing Naruto's reluctance in having to fight Sasuke, reminded him that his dream was to be Hokage and as Hokage he must do what needs to be done.",
+      "translate": "quest.narutorpg.five_kage_summit_06.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:five_kage_summit_05"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

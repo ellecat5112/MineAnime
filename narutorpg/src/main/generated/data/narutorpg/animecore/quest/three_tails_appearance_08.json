@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sakura_haruno_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "Naruto continues his training with Gamakichi and Gamatatsu but his session is cut short by the arrival of Sakura, who arrives to drag him away as Team Yamato was waiting for him so they could depart. In the forest, Hinata uses her Byakugan to locate four chakra signatures in front of her, and quickly notices one from behind them. She warns the others as Gozu attacks from behind, using a partial multi-size technique...",
+    "translate": "quest.narutorpg.three_tails_appearance_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto continues his training with Gamakichi and Gamatatsu but his session is cut short by the arrival of Sakura, who arrives to drag him away as Team Yamato was waiting for him so they could depart.",
+      "translate": "quest.narutorpg.three_tails_appearance_08.intro0"
+    },
+    {
+      "fallback": "In the forest, Hinata uses her Byakugan to locate four chakra signatures in front of her, and quickly notices one from behind them.",
+      "translate": "quest.narutorpg.three_tails_appearance_08.intro1"
+    },
+    {
+      "fallback": "She warns the others as Gozu attacks from behind, using a partial multi-size technique to slam a giant fist towards Kakashi, who manages to block it.",
+      "translate": "quest.narutorpg.three_tails_appearance_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Unseeing Enemy",
+    "translate": "quest.narutorpg.three_tails_appearance_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.three_tails_appearance_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: The Unseeing Enemy",
+        "translate": "quest.narutorpg.three_tails_appearance_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gozu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Gozu",
+        "translate": "quest.narutorpg.defeat.gozu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kigiri_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kigiri",
+        "translate": "quest.narutorpg.defeat.kigiri_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nurari_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nurari",
+        "translate": "quest.narutorpg.defeat.nurari_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109907,
+  "outro": [
+    {
+      "fallback": "Not wanting to deal with Kigiri due to the mask on his face, Kiba has Akamaru transform into him as he attempts to hit Nurari with his Fang Passing Fang.",
+      "translate": "quest.narutorpg.three_tails_appearance_08.outro0"
+    },
+    {
+      "fallback": "Nurari is able to evade the technique as Kigiri uses his Destroying Smell Smoke Prison to create a thick smokescreen to rob Kiba and Akamaru of their sense of sight and smell.",
+      "translate": "quest.narutorpg.three_tails_appearance_08.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_07"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

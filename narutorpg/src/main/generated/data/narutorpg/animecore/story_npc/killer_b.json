@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 7951688,
+    "eyes": 1118481,
+    "hair": 16119285,
+    "headband": 2503224,
+    "mark": "glasses",
+    "outfit": "jacket",
+    "top": 16448250
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Killer B",
+    "translate": "npc.narutorpg.killer_b"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

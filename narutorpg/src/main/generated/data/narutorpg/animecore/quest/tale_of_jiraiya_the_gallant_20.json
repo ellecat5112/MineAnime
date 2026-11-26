@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:first_animal_path_character_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Seeing the Six Paths of Pain, Jiraiya recognises one of them as Yahiko. On closer inspection, he finds that none of them resemble the Nagato he knew despite early convincing himself that Nagato was amongst them. Pain attacks, not giving him the chance to figure out who is who.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Seeing the Six Paths of Pain, Jiraiya recognises one of them as Yahiko.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.intro0"
+    },
+    {
+      "fallback": "On closer inspection, he finds that none of them resemble the Nagato he knew despite early convincing himself that Nagato was amongst them.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.intro1"
+    },
+    {
+      "fallback": "Pain attacks, not giving him the chance to figure out who is who.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Those Faces…!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Those Faces…!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113719,
+  "outro": [
+    {
+      "fallback": "Elsewhere, Team 7 and Team 8 are stopped from continuing their pursuit of Sasuke by Tobi.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.outro0"
+    },
+    {
+      "fallback": "Naruto tries to attack him, but it does nothing.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_20.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_19"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

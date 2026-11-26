@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "With Danzō dead, Tobi claimed his body and told Sasuke to kill Karin if he had no use for her before leaving. Sasuke moved to finish her off as Sakura Haruno arrived after knocking out her group and declared she would defect from Konoha to follow him. Back at the inn, Naruto awakened and was told by Yamato that they are to return to Konoha while Kakashi handles Sakura.",
+    "translate": "quest.narutorpg.five_kage_summit_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "With Danzō dead, Tobi claimed his body and told Sasuke to kill Karin if he had no use for her before leaving.",
+      "translate": "quest.narutorpg.five_kage_summit_08.intro0"
+    },
+    {
+      "fallback": "Sasuke moved to finish her off as Sakura Haruno arrived after knocking out her group and declared she would defect from Konoha to follow him.",
+      "translate": "quest.narutorpg.five_kage_summit_08.intro1"
+    },
+    {
+      "fallback": "Back at the inn, Naruto awakened and was told by Yamato that they are to return to Konoha while Kakashi handles Sakura.",
+      "translate": "quest.narutorpg.five_kage_summit_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Confrontation",
+    "translate": "quest.narutorpg.five_kage_summit_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.five_kage_summit_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Confrontation",
+        "translate": "quest.narutorpg.five_kage_summit_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120707,
+  "outro": [
+    {
+      "fallback": "Sasuke then ordered her to kill Karin to take her place in his group as evidence of her loyalty to him, but a moment of hesitation in her told him she was lying and so he attempted to kill her.",
+      "translate": "quest.narutorpg.five_kage_summit_08.outro0"
+    },
+    {
+      "fallback": "Kakashi suddenly arrived to stop Sasuke's attack, and prepared to fight his former student after seeing how far he had fallen and feeling responsible for all it had lead to.",
+      "translate": "quest.narutorpg.five_kage_summit_08.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:five_kage_summit_07"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 7
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Team Asuma returns to Konoha from their mission, with Asuma reporting to Tsunade that various villages in border towns located in the Land of Fire have been destroyed, with only an insignia of Amegakure left. Tsunade theorises that the massacres might be a false flag attack meant to incite a war or a response from the Fire Daimyō himself; she then tells Team Asuma to remain on standby for further instructions....",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_09.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Team Asuma returns to Konoha from their mission, with Asuma reporting to Tsunade that various villages in border towns located in the Land of Fire have been destroyed, with only an insignia of Amegakure left.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_09.intro0"
+    },
+    {
+      "fallback": "Tsunade theorises that the massacres might be a false flag attack meant to incite a war or a response from the Fire Daimyō himself; she then tells Team Asuma to remain on standby for further instructions.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_09.intro1"
+    },
+    {
+      "fallback": "Shizune recalls that Asuma was one of the Twelve Guardian Ninja tasked to protect the daimyō.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Teammate",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 48,
+      "text": {
+        "fallback": "Go: Teammate",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 106408,
+  "outro": [
+    {
+      "fallback": "Due to the fact that Sora is a member of their team, Naruto does not feel right leaving Sora to fight two opponents at once and attempts to back Sora up.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_09.outro0"
+    },
+    {
+      "fallback": "Sora does not want Naruto involved, but is slightly touched when Naruto says that he is doing so only because he sees Sora as his comrade.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_09.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

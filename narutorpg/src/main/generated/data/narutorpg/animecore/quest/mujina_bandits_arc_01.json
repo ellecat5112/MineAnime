@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Konohamaru relays orders to Boruto, Sarada, and Mitsuki over the radio. Boruto is absent-minded, which Sarada comments on, but Boruto brushes it off. Boruto thinks back to talking to Sasuke about his new seal and the conversation with Momoshiki when time stopped, which Sasuke was able to perceive due to his Rinnegan.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_01.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Konohamaru relays orders to Boruto, Sarada, and Mitsuki over the radio.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_01.intro0"
+    },
+    {
+      "fallback": "Boruto is absent-minded, which Sarada comments on, but Boruto brushes it off.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_01.intro1"
+    },
+    {
+      "fallback": "Boruto thinks back to talking to Sasuke about his new seal and the conversation with Momoshiki when time stopped, which Sasuke was able to perceive due to his Rinnegan.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A New Mission!!",
+    "translate": "quest.narutorpg.mujina_bandits_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.mujina_bandits_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Go: A New Mission!!",
+        "translate": "quest.narutorpg.mujina_bandits_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 215100,
+  "outro": [
+    {
+      "fallback": "Sarada lands a hit on another, and exchanges a few blows before defeating him.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_01.outro0"
+    },
+    {
+      "fallback": "She is not impressed with them, though the third bandit says she is nothing compared to their boss.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:steam_ninja_scrolls_arc_06"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

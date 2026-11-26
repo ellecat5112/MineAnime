@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:tsuchigumo_chief_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Six-Tails Unleashed",
+    "translate": "quest.narutorpg.arc.six_tails_unleashed"
+  },
+  "description": {
+    "fallback": "Shiranami uses the Tsuchigumo Style: Forbidden Life Technique Release: Creation of Heaven and Earth on Hotaru's seal in order to have her gather the natural energy and chakra in the surrounding environment in order to gain the power necessary to use the Tsuchigumo clan's kinjutsu. Utakata and Naruto follow the trail of the gathered chakra, where they see Hotaru being controlled by the Character Bind Technique....",
+    "translate": "quest.narutorpg.six_tails_unleashed_07.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Shiranami uses the Tsuchigumo Style: Forbidden Life Technique Release: Creation of Heaven and Earth on Hotaru's seal in order to have her gather the natural energy and chakra in the surrounding environment in order to...",
+      "translate": "quest.narutorpg.six_tails_unleashed_07.intro0"
+    },
+    {
+      "fallback": "Utakata and Naruto follow the trail of the gathered chakra, where they see Hotaru being controlled by the Character Bind Technique.",
+      "translate": "quest.narutorpg.six_tails_unleashed_07.intro1"
+    },
+    {
+      "fallback": "Shiranami reveals to them that he killed his own father and that he plans to control Hotaru, using her as the vessel for the kinjutsu, in order to challenge the Five Kage and the daimyō of all the nations in order to...",
+      "translate": "quest.narutorpg.six_tails_unleashed_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Forbidden Jutsu Released",
+    "translate": "quest.narutorpg.six_tails_unleashed_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.six_tails_unleashed_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: The Forbidden Jutsu Released",
+        "translate": "quest.narutorpg.six_tails_unleashed_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shiranami_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Shiranami",
+        "translate": "quest.narutorpg.defeat.shiranami_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hotaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hotaru",
+        "translate": "quest.narutorpg.defeat.hotaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:utakata_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Utakata",
+        "translate": "quest.narutorpg.defeat.utakata_foe_shippuden"
+      }
+    }
+  ],
+  "order": 115406,
+  "outro": [
+    {
+      "fallback": "Outside, Yamato, Sakura and Sai have difficulty defeating the Magaki Group as well the manipulated villagers who are attacking them.",
+      "translate": "quest.narutorpg.six_tails_unleashed_07.outro0"
+    },
+    {
+      "fallback": "As Shiranami uses his kanji to dispel the shadow clones, he unleashes Fury, the Tsuchigumo clan's forbidden technique.",
+      "translate": "quest.narutorpg.six_tails_unleashed_07.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:six_tails_unleashed_06"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

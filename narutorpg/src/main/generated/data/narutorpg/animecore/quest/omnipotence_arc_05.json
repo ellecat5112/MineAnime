@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Kawaki stresses to Shikamaru he doesn't know about Amado's objectives, pointing out Amado restored his Kāma in secret. He believes Amado's motives no longer matter, confident that Code has killed him, which Naruto admonishes him for. He also antagonises Shikamaru, drawing more censure from Naruto.",
+    "translate": "quest.narutorpg.omnipotence_arc_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Kawaki stresses to Shikamaru he doesn't know about Amado's objectives, pointing out Amado restored his Kāma in secret.",
+      "translate": "quest.narutorpg.omnipotence_arc_05.intro0"
+    },
+    {
+      "fallback": "He believes Amado's motives no longer matter, confident that Code has killed him, which Naruto admonishes him for.",
+      "translate": "quest.narutorpg.omnipotence_arc_05.intro1"
+    },
+    {
+      "fallback": "He also antagonises Shikamaru, drawing more censure from Naruto.",
+      "translate": "quest.narutorpg.omnipotence_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Smaller and More Useful",
+    "translate": "quest.narutorpg.omnipotence_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.omnipotence_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Smaller and More Useful",
+        "translate": "quest.narutorpg.omnipotence_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:amado_sanzu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Amado Sanzu",
+        "translate": "quest.narutorpg.defeat.amado_sanzu_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    }
+  ],
+  "order": 237804,
+  "outro": [
+    {
+      "fallback": "Shikamaru tells them there will be questions when they arrive, and they hang up.",
+      "translate": "quest.narutorpg.omnipotence_arc_05.outro0"
+    },
+    {
+      "fallback": "Ada is displeased with Amado calling them game pieces, but he defends himself, saying that figures of speech are effective with Shikamaru.",
+      "translate": "quest.narutorpg.omnipotence_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_04"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

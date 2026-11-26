@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_shippuden",
+    "narutorpg:hashirama_senju_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "As Madara's eyes crumble, having bestowed them to Nagato prior to his death, he is suddenly struck ablaze by Amaterasu, courtesy of Sasuke. The legend is unfazed though, and simply absorbed the technique. As his armour falls away, Madara reminds Hashirama about the conversation they had under the Naka Shrine, stating that he believes the unity stated refers to the combination of both Uchiha and Senju, revealing the...",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Madara's eyes crumble, having bestowed them to Nagato prior to his death, he is suddenly struck ablaze by Amaterasu, courtesy of Sasuke.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.intro0"
+    },
+    {
+      "fallback": "The legend is unfazed though, and simply absorbed the technique.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.intro1"
+    },
+    {
+      "fallback": "As his armour falls away, Madara reminds Hashirama about the conversation they had under the Naka Shrine, stating that he believes the unity stated refers to the combination of both Uchiha and Senju, revealing the face...",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Revival of Madara Uchiha",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Revival of Madara Uchiha",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:black_zetsu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Black Zetsu",
+        "translate": "quest.narutorpg.defeat.black_zetsu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138803,
+  "outro": [
+    {
+      "fallback": "Though they manage to do so, Madara still manages to break out using Susanoo, but is quickly knocked back down by Naruto and Kurama.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.outro0"
+    },
+    {
+      "fallback": "They are then joined by B and Gyūki, and together, the beasts use their tails to rain down a barrage of hits, stripping away the Susanoo to get to the man within.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_04.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_03"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

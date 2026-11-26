@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:ice_prison_technique",
+    "narutorpg:ice_release_black_dragon_blizzard"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "hair": 12986408,
+    "headband": 9479342,
+    "pants": 4073251,
+    "top": 8916559
+  },
+  "attack": 5.3,
+  "cast_interval": 40,
+  "health": 158.0,
+  "name": {
+    "fallback": "Dotō Kazahana",
+    "translate": "npc.narutorpg.doto_kazahana"
+  },
+  "power": 1.14,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

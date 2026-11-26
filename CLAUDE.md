@@ -18,6 +18,8 @@
   `tools/catalog/` (`build.py` - re-run it instead of editing PNGs/models by hand). Clans: `tools/catalog/clans.py`
   turns `docs/wiki/narutopedia_clans.json` into `tools/catalog/generated/clan_catalog.json`, `villages.py` turns
   `docs/wiki/narutopedia_villages.json` into `village_catalog.json` (both read by DataGen); `natures.py`, `fanon_genjutsu.py`, `taijutsu.py` and `ninjutsu.py` (in that order) add their jutsu catalogs (run after `clans.py` / `villages.py`);
+  `story.py` (after those) turns `docs/wiki/narutopedia_story.json` into `story_catalog.json` (quests + story characters);
+  `npc_skins.py` writes the tinted story-character layer textures;
   `animations.py` writes cast animations.
 
 ## Verification

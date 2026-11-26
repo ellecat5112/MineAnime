@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:shisui_uchiha_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "Naruto caught up with Sasuke and they began battling. Sasuke's Cursed Seal of Heaven, which had been powered up by a pill given to him by the Sound Four (this was why he was in the coffin), gave Sasuke inhuman strength, which he used to reduce Naruto to almost rag-doll levels. Meanwhile, Sasuke recalled his experiences with Itachi and his parents up to the point of the Uchiha Clan Downfall.",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_07.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto caught up with Sasuke and they began battling.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_07.intro0"
+    },
+    {
+      "fallback": "Sasuke's Cursed Seal of Heaven, which had been powered up by a pill given to him by the Sound Four (this was why he was in the coffin), gave Sasuke inhuman strength, which he used to reduce Naruto to almost rag-doll...",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_07.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Sasuke recalled his experiences with Itachi and his parents up to the point of the Uchiha Clan Downfall.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Naruto vs. Sasuke",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Naruto vs. Sasuke",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_naruto"
+      }
+    }
+  ],
+  "order": 11706,
+  "outro": [
+    {
+      "fallback": "Both Sasuke and Naruto realised the cost of their respective abilities at that point, but both decided that they had no other choice.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_07.outro0"
+    },
+    {
+      "fallback": "Sasuke revealed that the location of their fight was the Valley of the End, and, determ",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_07.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_06"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

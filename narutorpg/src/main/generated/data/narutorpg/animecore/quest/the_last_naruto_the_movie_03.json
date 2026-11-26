@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:hanabi_hyuga_ally_movies",
+    "narutorpg:naruto_uzumaki_ally_movies"
+  ],
+  "arc": {
+    "fallback": "The Last: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.the_last_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "With Hanabi captured by Toneri, Naruto, Hinata, Sakura, Sai, and Shikamaru are deployed by Kakashi to go and rescue her. To accommodate for the mission, Shikamaru is given a special clock held only by the five Kage, which apparently counts down the time till doomsday. As the group follow Toneri's trail, courtesy of Sai, Hinata finds Hanabi's kunai and puts it in her bag where Naruto sees the ripped scarf.",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "With Hanabi captured by Toneri, Naruto, Hinata, Sakura, Sai, and Shikamaru are deployed by Kakashi to go and rescue her.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_03.intro0"
+    },
+    {
+      "fallback": "To accommodate for the mission, Shikamaru is given a special clock held only by the five Kage, which apparently counts down the time till doomsday.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_03.intro1"
+    },
+    {
+      "fallback": "As the group follow Toneri's trail, courtesy of Sai, Hinata finds Hanabi's kunai and puts it in her bag where Naruto sees the ripped scarf.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Search for Hanabi",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Search for Hanabi",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:toneri_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Toneri Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.toneri_otsutsuki_foe_movies"
+      }
+    }
+  ],
+  "order": 301902,
+  "outro": [
+    {
+      "fallback": "They make their way to an abandoned shinobi village of the Ōtsutsuki clan.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_03.outro0"
+    },
+    {
+      "fallback": "At some point, Toneri takes Hanabi's Byakugan, which he remarks it incredibly \"pure\" after he implants th",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_03.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:the_last_naruto_the_movie_02"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

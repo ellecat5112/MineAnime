@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Chōchō Arc",
+    "translate": "quest.narutorpg.arc.chocho_arc"
+  },
+  "description": {
+    "fallback": "In her excitement about the kiss scene, Chōchō briefly loses control over her jutsu, returning to her true form for a moment. Sarada is impressed with Chōchō when she's done with hair and make-up. Chōchō wants to deliver Tomaru the perfect kiss in their scene.",
+    "translate": "quest.narutorpg.chocho_arc_02.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "In her excitement about the kiss scene, Chōchō briefly loses control over her jutsu, returning to her true form for a moment.",
+      "translate": "quest.narutorpg.chocho_arc_02.intro0"
+    },
+    {
+      "fallback": "Sarada is impressed with Chōchō when she's done with hair and make-up.",
+      "translate": "quest.narutorpg.chocho_arc_02.intro1"
+    },
+    {
+      "fallback": "Chōchō wants to deliver Tomaru the perfect kiss in their scene.",
+      "translate": "quest.narutorpg.chocho_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Super Chōchō Kiss Mode!",
+    "translate": "quest.narutorpg.chocho_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.chocho_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Super Chōchō Kiss Mode!",
+        "translate": "quest.narutorpg.chocho_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 207701,
+  "outro": [
+    {
+      "fallback": "Between takes, Ashina makes suggestions for how Tomaru should deliver his lines, and it's revealed the episode they're shooting will be her last.",
+      "translate": "quest.narutorpg.chocho_arc_02.outro0"
+    },
+    {
+      "fallback": "Boruto and Sarada comment on the strange atmosphere at the studio.",
+      "translate": "quest.narutorpg.chocho_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:chocho_arc_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

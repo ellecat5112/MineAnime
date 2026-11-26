@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "The Konoha shinobi continue to defend the main border against the reanimated corpse army besieged upon them. Although the corpses are not too difficult to defeat, the sheer number of their forces makes the shinobi's tasks more arduous. Meanwhile, Naruto is still engaged in combat with Fūka, who offers to spare his life if he gives her his body.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_14.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "The Konoha shinobi continue to defend the main border against the reanimated corpse army besieged upon them.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_14.intro0"
+    },
+    {
+      "fallback": "Although the corpses are not too difficult to defeat, the sheer number of their forces makes the shinobi's tasks more arduous.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_14.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Naruto is still engaged in combat with Fūka, who offers to spare his life if he gives her his body.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_14.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Everyone's Struggle to the Death",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_14"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_14.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: Everyone's Struggle to the Death",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_14.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 106413,
+  "outro": [
+    {
+      "fallback": "Asuma is unable to get out of the lightning trap due to the electricity that flows through the walls.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_14.outro0"
+    },
+    {
+      "fallback": "In another part of the vill",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_14.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_13"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

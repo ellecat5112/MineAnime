@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_naruto",
+    "narutorpg:hashirama_senju_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Konoha Crush",
+    "translate": "quest.narutorpg.arc.konoha_crush"
+  },
+  "description": {
+    "fallback": "With the invasion of Konoha's start, Suna and Oto ninja pour into Konoha, using giant snakes to topple the village's protective wall. As this goes on, the Fourth Kazekage holds a kunai to the Third Hokage's neck, holding him hostage and allowing them both to get to the roof of their sitting area without confrontation. As Anbu members try to come to the Third's rescue, the Kazekage's minions erect the Four Violet...",
+    "translate": "quest.narutorpg.konoha_crush_01.desc"
+  },
+  "giver": "narutorpg:hiruzen_sarutobi",
+  "intro": [
+    {
+      "fallback": "With the invasion of Konoha's start, Suna and Oto ninja pour into Konoha, using giant snakes to topple the village's protective wall.",
+      "translate": "quest.narutorpg.konoha_crush_01.intro0"
+    },
+    {
+      "fallback": "As this goes on, the Fourth Kazekage holds a kunai to the Third Hokage's neck, holding him hostage and allowing them both to get to the roof of their sitting area without confrontation.",
+      "translate": "quest.narutorpg.konoha_crush_01.intro1"
+    },
+    {
+      "fallback": "As Anbu members try to come to the Third's rescue, the Kazekage's minions erect the Four Violet Flames Formation, preventing anyone from getting in or out.",
+      "translate": "quest.narutorpg.konoha_crush_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Third Hokage vs. Orochimaru",
+    "translate": "quest.narutorpg.konoha_crush_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:hiruzen_sarutobi",
+      "text": {
+        "fallback": "Talk to Hiruzen Sarutobi",
+        "translate": "quest.narutorpg.konoha_crush_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: The Third Hokage vs. Orochimaru",
+        "translate": "quest.narutorpg.konoha_crush_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:rasa_foe_naruto",
+      "text": {
+        "fallback": "Defeat Rasa",
+        "translate": "quest.narutorpg.defeat.rasa_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 7800,
+  "outro": [
+    {
+      "fallback": "The legs, however, regenerate, showing the Third that conventional attacks are useless.",
+      "translate": "quest.narutorpg.konoha_crush_01.outro0"
+    },
+    {
+      "fallback": "Out of options, the Third prepares to use the only jutsu that will work, though",
+      "translate": "quest.narutorpg.konoha_crush_01.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:chunin_exams_05"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

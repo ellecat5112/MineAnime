@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Chūnin Exams",
+    "translate": "quest.narutorpg.arc.chunin_exams"
+  },
+  "description": {
+    "fallback": "Team 7 returned to Konoha to continue with their lives as regular genin. One day, whilst playing with Konohamaru, Udon, and Moegi, Naruto met three genin from Sunagakure, Gaara, Kankurō, and Temari, and learned that they were in Konoha to participate in the Chūnin Selection Exams. Meanwhile, Kakashi, Asuma and Kurenai all volunteered their teams for the exam as well.",
+    "translate": "quest.narutorpg.chunin_exams_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Team 7 returned to Konoha to continue with their lives as regular genin.",
+      "translate": "quest.narutorpg.chunin_exams_01.intro0"
+    },
+    {
+      "fallback": "One day, whilst playing with Konohamaru, Udon, and Moegi, Naruto met three genin from Sunagakure, Gaara, Kankurō, and Temari, and learned that they were in Konoha to participate in the Chūnin Selection Exams.",
+      "translate": "quest.narutorpg.chunin_exams_01.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Kakashi, Asuma and Kurenai all volunteered their teams for the exam as well.",
+      "translate": "quest.narutorpg.chunin_exams_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Chūnin Exam",
+    "translate": "quest.narutorpg.chunin_exams_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.chunin_exams_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: The Chūnin Exam",
+        "translate": "quest.narutorpg.chunin_exams_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Meet Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.chunin_exams_01.o3"
+      }
+    }
+  ],
+  "order": 3000,
+  "outro": [
+    {
+      "fallback": "Meanwhile, Kakashi, Asuma and Kurenai all volunteered their teams for the exam as well.",
+      "translate": "quest.narutorpg.chunin_exams_01.outro0"
+    },
+    {
+      "fallback": "Naruto was thrilled at the possibility of becoming a chūnin.",
+      "translate": "quest.narutorpg.chunin_exams_01.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:prologue_land_of_waves_10"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

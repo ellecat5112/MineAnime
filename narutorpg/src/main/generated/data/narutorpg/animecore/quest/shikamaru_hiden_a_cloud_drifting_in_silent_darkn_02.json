@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sai_ally_shippuden",
+    "narutorpg:hinoko_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness",
+    "translate": "quest.narutorpg.arc.shikamaru_hiden_a_cloud_drifting_in_silent_darkn"
+  },
+  "description": {
+    "fallback": "Someone tries pitting Sai against Konoha, questioning his position in Team 7 and pointing out Sasuke's return. Shikamaru, Hinoko, and Rō scout Sai's last known location, an inn. Shikamaru has disguised them as merchants to get past a checkpoint into a village, Tobari, while Hinoko argues it would be easier to kill the lookouts.",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Someone tries pitting Sai against Konoha, questioning his position in Team 7 and pointing out Sasuke's return.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.intro0"
+    },
+    {
+      "fallback": "Shikamaru, Hinoko, and Rō scout Sai's last known location, an inn.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.intro1"
+    },
+    {
+      "fallback": "Shikamaru has disguised them as merchants to get past a checkpoint into a village, Tobari, while Hinoko argues it would be easier to kill the lookouts.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Dark Clouds",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: Dark Clouds",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gengo_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Gengo",
+        "translate": "quest.narutorpg.defeat.gengo_foe_shippuden"
+      }
+    }
+  ],
+  "order": 149901,
+  "outro": [
+    {
+      "fallback": "She kills another one, who ends up falling on top of the vehicle they were using to pass as merchants.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.outro0"
+    },
+    {
+      "fallback": "Shikamaru goes to the inn, where he manages to get information playing shōgi with a patron.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_02.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Boruto awakens to find himself in an interrogation room with Konohamaru and Ibiki, healed of his wounds thanks to Himawari. He notices his hands are in cuffs, created by Amado that contains a fūinjutsu. Boruto asks if everyone is ok, with Konohamaru confirming their targets are safe despite the casualties. pt-br:Capítulo 14: Dever",
+    "translate": "quest.narutorpg.boruto_s_return_arc_14.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Boruto awakens to find himself in an interrogation room with Konohamaru and Ibiki, healed of his wounds thanks to Himawari.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_14.intro0"
+    },
+    {
+      "fallback": "He notices his hands are in cuffs, created by Amado that contains a fūinjutsu.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_14.intro1"
+    },
+    {
+      "fallback": "Boruto asks if everyone is ok, with Konohamaru confirming their targets are safe despite the casualties. pt-br:Capítulo 14: Dever",
+      "translate": "quest.narutorpg.boruto_s_return_arc_14.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Duty",
+    "translate": "quest.narutorpg.boruto_s_return_arc_14"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.boruto_s_return_arc_14.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: Duty",
+        "translate": "quest.narutorpg.boruto_s_return_arc_14.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:ibiki_morino",
+      "text": {
+        "fallback": "Meet Ibiki Morino",
+        "translate": "quest.narutorpg.boruto_s_return_arc_14.o3"
+      }
+    }
+  ],
+  "order": 301113,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_13"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Chōchō Arc",
+    "translate": "quest.narutorpg.arc.chocho_arc"
+  },
+  "description": {
+    "fallback": "As shooting continues, Chōchō is still hurt by Tomaru's words, and discusses her self-image with Sarada. Tomaru and the director look through photos of Ashina's potential successors. Ashina refuses to have her mended dress back when Chōchō offers it to her.",
+    "translate": "quest.narutorpg.chocho_arc_03.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "As shooting continues, Chōchō is still hurt by Tomaru's words, and discusses her self-image with Sarada.",
+      "translate": "quest.narutorpg.chocho_arc_03.intro0"
+    },
+    {
+      "fallback": "Tomaru and the director look through photos of Ashina's potential successors.",
+      "translate": "quest.narutorpg.chocho_arc_03.intro1"
+    },
+    {
+      "fallback": "Ashina refuses to have her mended dress back when Chōchō offers it to her.",
+      "translate": "quest.narutorpg.chocho_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Super Chōchō Love Upheaval!",
+    "translate": "quest.narutorpg.chocho_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.chocho_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 43,
+      "text": {
+        "fallback": "Go: Super Chōchō Love Upheaval!",
+        "translate": "quest.narutorpg.chocho_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 207702,
+  "outro": [
+    {
+      "fallback": "Konohamaru goes to report to the Hokage.",
+      "translate": "quest.narutorpg.chocho_arc_03.outro0"
+    },
+    {
+      "fallback": "The ransom note for the production specifies Ashina is to deliver the money.",
+      "translate": "quest.narutorpg.chocho_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:chocho_arc_02"
+  ],
+  "rewards": {
+    "experience": 37,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

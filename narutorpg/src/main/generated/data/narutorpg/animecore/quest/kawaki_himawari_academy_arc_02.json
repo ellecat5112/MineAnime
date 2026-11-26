@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "At the Academy, Himawari asks Kawaki if he'll be protecting Kae again that day, startling him. He deduces she eavesdropped on him. She promises to keep his secret mission quiet, and explains he's been acting different since starting at the Academy.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "At the Academy, Himawari asks Kawaki if he'll be protecting Kae again that day, startling him.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.intro0"
+    },
+    {
+      "fallback": "He deduces she eavesdropped on him.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.intro1"
+    },
+    {
+      "fallback": "She promises to keep his secret mission quiet, and explains he's been acting different since starting at the Academy.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Princess's Tea Party",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: The Princess's Tea Party",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Meet Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.o3"
+      }
+    }
+  ],
+  "order": 227101,
+  "outro": [
+    {
+      "fallback": "At night, Kawaki recalls Naruto's and Shikamaru's instructions to protect her at the party, and decides to figure the tea party out as it unfolds.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.outro0"
+    },
+    {
+      "fallback": "Himawari startles him, saying that's not an option, and stresses the importance of proper tea party etiquette, saying he needs her help.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_01"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

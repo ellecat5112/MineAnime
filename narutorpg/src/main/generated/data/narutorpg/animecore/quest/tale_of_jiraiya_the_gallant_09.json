@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "The first of his prisoners is uncooperative, so Jiraiya demonstrates how \"ruthless\" he can be to those who do not help him; he turns the Amegakure ninja into a toad. His companion is suddenly very forthcoming with information. He tells Jiraiya that little about Pain is known by Amegakure citizens.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "The first of his prisoners is uncooperative, so Jiraiya demonstrates how \"ruthless\" he can be to those who do not help him; he turns the Amegakure ninja into a toad.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.intro0"
+    },
+    {
+      "fallback": "His companion is suddenly very forthcoming with information.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.intro1"
+    },
+    {
+      "fallback": "He tells Jiraiya that little about Pain is known by Amegakure citizens.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Regarding Pain",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Regarding Pain",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hanzo_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hanzō",
+        "translate": "quest.narutorpg.defeat.hanzo_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113708,
+  "outro": [
+    {
+      "fallback": "The ninja goes on to detail how Pain came to be regarded as a god amongst Amegakure's villagers by killing everyone even remotely affiliated to Hanzō in order to remove any possibility of dissent.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.outro0"
+    },
+    {
+      "fallback": "Meanwhile, Pain sets out to face Jiraiya.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_09.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_08"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

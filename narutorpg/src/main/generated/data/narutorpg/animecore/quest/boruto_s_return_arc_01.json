@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Three years after Boruto and Sasuke left Konohagakure, Sarada once again tries to speak on Boruto's behalf to Shikamaru, now the Eighth Hokage. He is resolute that Boruto crossed the line after being given many chances, and Konohamaru, now Shikamaru's attendant, adds they have Ada's testimony with her Senrigan. Shikamaru adds that even if he rescinded kill orders for Boruto, many villagers would still hate him for...",
+    "translate": "quest.narutorpg.boruto_s_return_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Three years after Boruto and Sasuke left Konohagakure, Sarada once again tries to speak on Boruto's behalf to Shikamaru, now the Eighth Hokage.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_01.intro0"
+    },
+    {
+      "fallback": "He is resolute that Boruto crossed the line after being given many chances, and Konohamaru, now Shikamaru's attendant, adds they have Ada's testimony with her Senrigan.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_01.intro1"
+    },
+    {
+      "fallback": "Shikamaru adds that even if he rescinded kill orders for Boruto, many villagers would still hate him for killing Naruto, and tells her to return to her missions.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Boruto (chapter)",
+    "translate": "quest.narutorpg.boruto_s_return_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_s_return_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: Boruto (chapter)",
+        "translate": "quest.narutorpg.boruto_s_return_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 301100,
+  "outro": [
+    {
+      "fallback": "Sarada discusses her meeting and outburst with Sumire, who recapitulates how they're the ones deemed weird, remembering true history.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_01.outro0"
+    },
+    {
+      "fallback": "While some inconsistencies bothered others and even Shikamaru at first, like Kawaki's body being modified by Kara despite supposedly being born and raised in Konoha, and Momoshiki's absence in Kawaki, Omnipotence slowly...",
+      "translate": "quest.narutorpg.boruto_s_return_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:omnipotence_arc_13"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

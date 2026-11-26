@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kakko_ally_shippuden",
+    "narutorpg:rin_nohara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "Kakashi ignores his damaged left eye and joins Obito in confronting Kakkō, Rin's only remaining captor. They attack him and manage to release her. Kakkō, rather than let a group of kids continue to believe it would be that simple, causes a cave-in.",
+    "translate": "quest.narutorpg.kakashi_gaiden_07.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Kakashi ignores his damaged left eye and joins Obito in confronting Kakkō, Rin's only remaining captor.",
+      "translate": "quest.narutorpg.kakashi_gaiden_07.intro0"
+    },
+    {
+      "fallback": "They attack him and manage to release her.",
+      "translate": "quest.narutorpg.kakashi_gaiden_07.intro1"
+    },
+    {
+      "fallback": "Kakkō, rather than let a group of kids continue to believe it would be that simple, causes a cave-in.",
+      "translate": "quest.narutorpg.kakashi_gaiden_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Side Story 5: Gift",
+    "translate": "quest.narutorpg.kakashi_gaiden_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: Side Story 5: Gift",
+        "translate": "quest.narutorpg.kakashi_gaiden_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112806,
+  "outro": [
+    {
+      "fallback": "Kakashi regrets allowing this to have happened, but Obito makes a proposition: since he never gave Kakashi a gift for becoming a jōnin, Kakashi can have his remaining Sharingan eye as a replacement for Kakashi's damaged...",
+      "translate": "quest.narutorpg.kakashi_gaiden_07.outro0"
+    },
+    {
+      "fallback": "Rin performs the transplant and Kakashi emerges from the rubble to face Kakkō. pt-br:Capítulo 243: Quinta Parte: Um Presente",
+      "translate": "quest.narutorpg.kakashi_gaiden_07.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_06"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

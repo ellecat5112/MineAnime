@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kokuri_ally_boruto",
+    "narutorpg:benga_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Tsukiyo attacks Kokuri with his shadow, which Mitsuki blocks. Sarada compares his jutsu to the Nara clan's Shadow Imitation Technique. Tsukiyo explains that under a full moon, his jutsu can manifest the most of its power, and manifests shadow versions of the genin, which can also use their jutsu.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_12.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Tsukiyo attacks Kokuri with his shadow, which Mitsuki blocks.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_12.intro0"
+    },
+    {
+      "fallback": "Sarada compares his jutsu to the Nara clan's Shadow Imitation Technique.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_12.intro1"
+    },
+    {
+      "fallback": "Tsukiyo explains that under a full moon, his jutsu can manifest the most of its power, and manifests shadow versions of the genin, which can also use their jutsu.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Fateful Moonlit Battle",
+    "translate": "quest.narutorpg.mujina_bandits_arc_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mujina_bandits_arc_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: The Fateful Moonlit Battle",
+        "translate": "quest.narutorpg.mujina_bandits_arc_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tsukiyo_foe_boruto",
+      "text": {
+        "fallback": "Defeat Tsukiyo",
+        "translate": "quest.narutorpg.defeat.tsukiyo_foe_boruto"
+      }
+    }
+  ],
+  "order": 215111,
+  "outro": [
+    {
+      "fallback": "The genin attack their shadows and Tsukiyo, creating a smokescreen and a distraction, giving Kokuri time to get to a searchlight, which dissipates the shadows.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_12.outro0"
+    },
+    {
+      "fallback": "Tsukiyo procures a sword out of his own shadow, which doesn't fade under the searchlight.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_12.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_11"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:asuma_sarutobi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Naruto and Asuma arrive just in time to witness Sora giving in to the nature of the Nine-Tailed Fox. Asuma realises that Furido is none other than Sora's father, Kazuma, whom he thought he had killed years ago. Kazuma explains to Naruto that some of the Nine-Tails' leaked chakra was sealed and suppressed inside of Sora, but now that the seal had been removed, the fox's chakra was taking over Sora's body, all part of...",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_16.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Naruto and Asuma arrive just in time to witness Sora giving in to the nature of the Nine-Tailed Fox.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_16.intro0"
+    },
+    {
+      "fallback": "Asuma realises that Furido is none other than Sora's father, Kazuma, whom he thought he had killed years ago.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_16.intro1"
+    },
+    {
+      "fallback": "Kazuma explains to Naruto that some of the Nine-Tails' leaked chakra was sealed and suppressed inside of Sora, but now that the seal had been removed, the fox's chakra was taking over Sora's body, all part of Kazuma's...",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_16.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Despair",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_16"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_16.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 95,
+      "text": {
+        "fallback": "Head out: Despair",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_16.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kazuma_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kazuma",
+        "translate": "quest.narutorpg.defeat.kazuma_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106415,
+  "outro": [
+    {
+      "fallback": "Naruto tells Sora that he cannot allow Sora to use their power for evil.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_16.outro0"
+    },
+    {
+      "fallback": "When Sora asks what he means, Naruto explains that he is the jinchūriki of the Nine-Tailed Fox.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_16.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_15"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

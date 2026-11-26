@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:first_animal_path_character_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "As Hebi heads to the rendezvous point with Itachi, they come across one of Naruto's shadow clones. Sasuke destroys the clone, but Naruto and the other Konoha ninja pick up on his trail. In Amegakure, Jiraiya sends one of his prisoners to Konoha while he takes control of the other to explore the village.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "As Hebi heads to the rendezvous point with Itachi, they come across one of Naruto's shadow clones.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.intro0"
+    },
+    {
+      "fallback": "Sasuke destroys the clone, but Naruto and the other Konoha ninja pick up on his trail.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.intro1"
+    },
+    {
+      "fallback": "In Amegakure, Jiraiya sends one of his prisoners to Konoha while he takes control of the other to explore the village.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Old Friends…!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Old Friends…!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:konan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Konan",
+        "translate": "quest.narutorpg.defeat.konan_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113710,
+  "outro": [
+    {
+      "fallback": "Konan confronts Jiraiya and releases the Amegakure ninja under his control.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.outro0"
+    },
+    {
+      "fallback": "Jiraiya, surprised to see her, remarks that she has grown.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_11.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_10"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

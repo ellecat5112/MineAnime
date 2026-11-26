@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "As Kawaki was left to realise in horror that Naruto had lost to Jigen, Boruto, Sarada and Mitsuki came in and soon Shikamaru and Konoha shinobi arrived and as Kawaki let them on the situation, Shikamaru was left perplexed with the situation as if Jigen had only planned to strand Naruto in another dimension, he could just come back for Kawaki and as he hasn't, the only possibilities are that either Jigen had defeated...",
+    "translate": "quest.narutorpg.kawaki_arc_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "As Kawaki was left to realise in horror that Naruto had lost to Jigen, Boruto, Sarada and Mitsuki came in and soon Shikamaru and Konoha shinobi arrived and as Kawaki let them on the situation, Shikamaru was left...",
+      "translate": "quest.narutorpg.kawaki_arc_05.intro0"
+    },
+    {
+      "fallback": "The best possibility would be that Naruto had defeated Jigen but cannot come back on his own but with him unable to contact Sasuke, they have no choice but to wait for his return and Shikamaru allowed Kawaki to remain...",
+      "translate": "quest.narutorpg.kawaki_arc_05.intro1"
+    },
+    {
+      "fallback": "Eventually, Kawaki was able to open a portal to Naruto's location along with Boruto and easily absorbing Shikamaru's attempt to paralyse him, left with Team 7 to rescue Naruto.",
+      "translate": "quest.narutorpg.kawaki_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The New Team 7",
+    "translate": "quest.narutorpg.kawaki_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: The New Team 7",
+        "translate": "quest.narutorpg.kawaki_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:boro_foe_boruto",
+      "text": {
+        "fallback": "Defeat Boro",
+        "translate": "quest.narutorpg.defeat.boro_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jigen_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jigen",
+        "translate": "quest.narutorpg.defeat.jigen_foe_boruto"
+      }
+    }
+  ],
+  "order": 219804,
+  "outro": [
+    {
+      "fallback": "Only Sarada's intervention kept them from being defeated as they fell back.",
+      "translate": "quest.narutorpg.kawaki_arc_05.outro0"
+    },
+    {
+      "fallback": "They were able to figure out that the origins of the mist were physical matter and with the substance inside Mitsuki's snake, Sarada managed to figure out they were vir",
+      "translate": "quest.narutorpg.kawaki_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_04"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

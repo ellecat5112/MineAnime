@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:certain_kill_ice_spears",
+    "narutorpg:demonic_mirroring_ice_crystals",
+    "narutorpg:thousand_flying_water_needles_of_death",
+    "narutorpg:silent_killing"
+  ],
+  "appearance": {
+    "accent": 3369246,
+    "eyes": 4073251,
+    "hair": 1118481,
+    "hair_style": "long",
+    "outfit": "robe",
+    "pants": 3046706,
+    "top": 9159498
+  },
+  "attack": 3.9,
+  "cast_interval": 70,
+  "health": 48.0,
+  "name": {
+    "fallback": "Haku",
+    "translate": "npc.narutorpg.haku"
+  },
+  "power": 1.02,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

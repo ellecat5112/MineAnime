@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sai_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Danzō is caught by the Anbu meeting with an Amegakure ninja in the woods. Both of them are chained and brought back to Konohagakure in order to be interrogated by Tsunade. At the Konoha Hospital, Naruto visits Sai, reading his books while Sai repeats Sakura's advice about gaining real-life experiences.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_11.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Danzō is caught by the Anbu meeting with an Amegakure ninja in the woods.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_11.intro0"
+    },
+    {
+      "fallback": "Both of them are chained and brought back to Konohagakure in order to be interrogated by Tsunade.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_11.intro1"
+    },
+    {
+      "fallback": "At the Konoha Hospital, Naruto visits Sai, reading his books while Sai repeats Sakura's advice about gaining real-life experiences.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_11.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Jet-Black Signal Fire",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_11"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_11.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: The Jet-Black Signal Fire",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_11.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kazuma_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kazuma",
+        "translate": "quest.narutorpg.defeat.kazuma_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106410,
+  "outro": [
+    {
+      "fallback": "Manifesting his chakra and transforming his right hand into a monstrous limb, Sora knocks out the Anbu members holding him and attempts to attack Asuma, who blocks the former's Beast Tearing Gale Palm with his chakra...",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_11.outro0"
+    },
+    {
+      "fallback": "Their bout destroys the wall, and the fight continues outside.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_11.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_10"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

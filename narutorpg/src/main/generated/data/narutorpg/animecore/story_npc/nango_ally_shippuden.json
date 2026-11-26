@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_mud_body_technique",
+    "narutorpg:impermanence_of_worldly_things",
+    "narutorpg:infinite_embrace",
+    "narutorpg:shadow_rope_technique",
+    "narutorpg:telegram_flash",
+    "narutorpg:barrier_shattering_technique"
+  ],
+  "appearance": {
+    "accent": 4545124,
+    "eyes": 2001125,
+    "hair": 15913323,
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 6111287
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Nangō",
+    "translate": "npc.narutorpg.nango"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

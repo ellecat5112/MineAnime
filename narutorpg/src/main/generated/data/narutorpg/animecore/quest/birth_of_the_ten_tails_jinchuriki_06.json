@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "As Kurama's chakra vanishes from around her, Sakura notices that Naruto has lost his pulse and heartbeat. Confused as to why her medical ninjutsu isn't working, Gaara explains that the Nine-Tails has been extracted from Naruto. He then explains Kurama's plan: to bring Naruto to his father, in order to place the Yin-half of Kurama within him, which would allow him to be saved.",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Kurama's chakra vanishes from around her, Sakura notices that Naruto has lost his pulse and heartbeat.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.intro0"
+    },
+    {
+      "fallback": "Confused as to why her medical ninjutsu isn't working, Gaara explains that the Nine-Tails has been extracted from Naruto.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.intro1"
+    },
+    {
+      "fallback": "He then explains Kurama's plan: to bring Naruto to his father, in order to place the Yin-half of Kurama within him, which would allow him to be saved.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The New Ten-Tails' Jinchūriki & The Crimson Beast Emerges",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: The New Ten-Tails' Jinchūriki & The Crimson Beast Emerges",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:karin_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Karin",
+        "translate": "quest.narutorpg.defeat.karin_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138805,
+  "outro": [
+    {
+      "fallback": "As Minato begins the transference, Black Zetsu suddenly intercepts him and absorbs Yin-Kurama, becoming its jinchūriki.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.outro0"
+    },
+    {
+      "fallback": "With no hope left, Madara arrives on the battlefield, chastising Black Zetsu for taking",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_06.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_05"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

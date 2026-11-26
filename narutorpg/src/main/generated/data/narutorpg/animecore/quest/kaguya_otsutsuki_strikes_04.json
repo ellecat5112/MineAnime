@@ -1,0 +1,103 @@
+{
+  "allies": [
+    "narutorpg:killer_b_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kaguya Ōtsutsuki Strikes",
+    "translate": "quest.narutorpg.arc.kaguya_otsutsuki_strikes"
+  },
+  "description": {
+    "fallback": "Free to roam once more, the tailed beasts decide to return to their homes, though Gyūki decides to stay with Killer B, and Kurama is elected to stay with Naruto by Hagoromo in order to preside over any meetings the tailed beasts have with their small portions of chakra within Naruto. Hagoromo tells them that the next order of business is to dispel the Infinite Tsukuyomi, using Naruto's tailed beast chakra and...",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Free to roam once more, the tailed beasts decide to return to their homes, though Gyūki decides to stay with Killer B, and Kurama is elected to stay with Naruto by Hagoromo in order to preside over any meetings the...",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.intro0"
+    },
+    {
+      "fallback": "Hagoromo tells them that the next order of business is to dispel the Infinite Tsukuyomi, using Naruto's tailed beast chakra and Sasuke's Rinnegan.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.intro1"
+    },
+    {
+      "fallback": "Sasuke however revealed his plan to execute the sitting five Kage and start a revolution, beginning by taking direct control of all the tailed beasts, and then trapping them inside satellites, revealing that he had been...",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Naruto and Sasuke's Last Battle",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: Naruto and Sasuke's Last Battle",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kaguya_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kaguya Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.kaguya_otsutsuki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146103,
+  "outro": [
+    {
+      "fallback": "Resolved that he is leaving Itachi, his clan, and everything else in the past, Sasuke explains to Naruto that he will take on the shinobi world's hatred by himself and become darkness itself, so that the shinobi world...",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.outro0"
+    },
+    {
+      "fallback": "Naruto tries to convince Sasuke of the error in his ways, but fails, as Sasuke notes that Naruto's death will be the beginning of a clean sl",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_04.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:kaguya_otsutsuki_strikes_03"
+  ],
+  "rewards": {
+    "experience": 33,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 9
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

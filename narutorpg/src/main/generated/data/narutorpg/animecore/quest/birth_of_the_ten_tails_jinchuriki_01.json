@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "Despite Minato's attempt to stop him, Obito goes after Naruto and proceeds to attack him and Sasuke. Luckily, Naruto uses his chakra arms on his father and Sasuke so the former can teleport them away. By that time, his body beginning to mutate as he attempted to attack, Obito is losing control as the Ten-Tails is asserting itself and destroying the human's mind.",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Despite Minato's attempt to stop him, Obito goes after Naruto and proceeds to attack him and Sasuke.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.intro0"
+    },
+    {
+      "fallback": "Luckily, Naruto uses his chakra arms on his father and Sasuke so the former can teleport them away.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.intro1"
+    },
+    {
+      "fallback": "By that time, his body beginning to mutate as he attempted to attack, Obito is losing control as the Ten-Tails is asserting itself and destroying the human's mind.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Obito, The Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: Obito, The Ten-Tails' Jinchūriki",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138800,
+  "outro": [
+    {
+      "fallback": "In response to this, Naruto tries to enter Tailed Beast Mode in order to deliver an even more powerful attack, but fails completely, earning himself blank looks from both enemy and allies.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.outro0"
+    },
+    {
+      "fallback": "After Kurama tells Naruto to hold off from using its chakra, Gamakichi fires a natural energy infused Starch Syrup Gun in a last ditch effort to help before disappeari",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_01.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_12"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

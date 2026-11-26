@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "An expelled Academy student causes a commotion in revenge. Boruto perceives the same dark aura in the student as he did in others before. Iwabee covers Boruto from the student's attack, allowing him to land a hit.",
+    "translate": "quest.narutorpg.academy_entrance_arc_05.desc"
+  },
+  "giver": "narutorpg:shino_aburame",
+  "intro": [
+    {
+      "fallback": "An expelled Academy student causes a commotion in revenge.",
+      "translate": "quest.narutorpg.academy_entrance_arc_05.intro0"
+    },
+    {
+      "fallback": "Boruto perceives the same dark aura in the student as he did in others before.",
+      "translate": "quest.narutorpg.academy_entrance_arc_05.intro1"
+    },
+    {
+      "fallback": "Iwabee covers Boruto from the student's attack, allowing him to land a hit.",
+      "translate": "quest.narutorpg.academy_entrance_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Mysterious Transfer Student!",
+    "translate": "quest.narutorpg.academy_entrance_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Talk to Shino Aburame",
+        "translate": "quest.narutorpg.academy_entrance_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Go: The Mysterious Transfer Student!",
+        "translate": "quest.narutorpg.academy_entrance_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 201104,
+  "outro": [
+    {
+      "fallback": "Sumire asks the students not to talk over Shino.",
+      "translate": "quest.narutorpg.academy_entrance_arc_05.outro0"
+    },
+    {
+      "fallback": "Mitsuki sits by Boruto, striking up a conversation.",
+      "translate": "quest.narutorpg.academy_entrance_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_04"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

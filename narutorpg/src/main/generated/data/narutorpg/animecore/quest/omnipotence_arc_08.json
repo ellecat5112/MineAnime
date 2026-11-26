@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Amado summarises Ada's and Daemon's abilities. Boruto is sceptical of Daemon reflecting even murderous intent, but Kawaki tests it and confirms it, receiving a hit from just thinking it. Naruto asks Amado how he developed such abilities, and he explains he is only human, and didn't create the abilities, having merely transplanted them.",
+    "translate": "quest.narutorpg.omnipotence_arc_08.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Amado summarises Ada's and Daemon's abilities.",
+      "translate": "quest.narutorpg.omnipotence_arc_08.intro0"
+    },
+    {
+      "fallback": "Boruto is sceptical of Daemon reflecting even murderous intent, but Kawaki tests it and confirms it, receiving a hit from just thinking it.",
+      "translate": "quest.narutorpg.omnipotence_arc_08.intro1"
+    },
+    {
+      "fallback": "Naruto asks Amado how he developed such abilities, and he explains he is only human, and didn't create the abilities, having merely transplanted them.",
+      "translate": "quest.narutorpg.omnipotence_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Domain of Gods",
+    "translate": "quest.narutorpg.omnipotence_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.omnipotence_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: The Domain of Gods",
+        "translate": "quest.narutorpg.omnipotence_arc_08.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Meet Shikamaru Nara",
+        "translate": "quest.narutorpg.omnipotence_arc_08.o3"
+      }
+    }
+  ],
+  "order": 237807,
+  "outro": [
+    {
+      "fallback": "Amado is offended by Shikamaru's distrust.",
+      "translate": "quest.narutorpg.omnipotence_arc_08.outro0"
+    },
+    {
+      "fallback": "Giving examples of Shibai's abilities, he explains those were not ninjutsu or senjutsu, but rather divine miracles called shinjutsu, of which he deems ninjutsu merely an attempt to replicate, which offends Sarada.",
+      "translate": "quest.narutorpg.omnipotence_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_07"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -150,6 +150,11 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
 
     public PlayerEntity player() { return player; }
     public AnimeModContext context() { return context; }
+
+    private final com.animecore.quest.QuestLog quests = new com.animecore.quest.QuestLog(() -> markDirty(false));
+
+    /** Story mode progress for this system (see {@link com.animecore.quest.QuestManager}). */
+    public com.animecore.quest.QuestLog quests() { return quests; }
     public Collection<EnergyPool> pools() { return Collections.unmodifiableCollection(pools.values()); }
     public Optional<EnergyPool> pool(Identifier id) { return Optional.ofNullable(pools.get(id)); }
     public Optional<EnergyPool> primaryPool() { return context.pool(EnergyPoolSpec.Role.PRIMARY).map(s -> pools.get(s.id())); }
@@ -693,6 +698,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         for (Identifier id : hotbar) bar.add(NbtString.of(id == null ? "" : id.toString()));
         tag.put("hotbar", bar);
         tag.put("affinities", writeIds(effectiveAffinities));
+        tag.put("quests", quests.write());
         if (flightGranted) tag.putBoolean("flight_granted", true);
         NbtCompound clan = new NbtCompound();
         clan.put("levels", writeIntMap(clanSkillLevels));
@@ -772,6 +778,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         readIds(tag.getList("affinities", NbtElement.STRING_TYPE), aff);
         effectiveAffinities = Set.copyOf(aff);
         flightGranted = tag.getBoolean("flight_granted");
+        quests.read(tag.getCompound("quests"));
         NbtCompound clan = tag.getCompound("clan");
         readIntMap(clan.getCompound("levels"), clanSkillLevels);
         clanSkillXp.clear();

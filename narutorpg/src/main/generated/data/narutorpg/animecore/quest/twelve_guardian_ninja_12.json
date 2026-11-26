@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Sakura wanders the streets looking for Naruto when she manages to spot him pursuing Sora. Konohagakure suffers a power outage and Tsunade, fearing that it is a sabotaged effort as she hears no reply from the power station, moves the village to a Stage Two security threat. Sakura reports to Tsunade's office by running down the dark hallway and yelling out Tsunade’s name.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_12.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Sakura wanders the streets looking for Naruto when she manages to spot him pursuing Sora.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_12.intro0"
+    },
+    {
+      "fallback": "Konohagakure suffers a power outage and Tsunade, fearing that it is a sabotaged effort as she hears no reply from the power station, moves the village to a Stage Two security threat.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_12.intro1"
+    },
+    {
+      "fallback": "Sakura reports to Tsunade's office by running down the dark hallway and yelling out Tsunade’s name.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Lockdown of Darkness",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Lockdown of Darkness",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 106411,
+  "outro": [
+    {
+      "fallback": "Sakura holds her nose with a pained expression but then notices Tsunade’s office being destroyed and asks what happened, where she discovers that Sora attacked Tsunade.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_12.outro0"
+    },
+    {
+      "fallback": "Tsunade then tells Sakura to do her duty as a Medical-nin and heal the wounded.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_12.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_11"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

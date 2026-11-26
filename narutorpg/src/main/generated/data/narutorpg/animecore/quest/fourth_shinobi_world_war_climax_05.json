@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "Having finished reminiscing about his childhood, Kabuto tells the brothers that he assimilated more than just Orochimaru's DNA, that his pawns were a show of his own power and refuses to have Itachi oppose him any longer. Even though Itachi rejects what Kabuto says, Kabuto presses on with his attack. A construct of Sakon emerges from the base of his navel snake, and Kabuto uses his Attack of the Twin Demons...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.desc"
+  },
+  "giver": "narutorpg:a_fourth_raikage",
+  "intro": [
+    {
+      "fallback": "Having finished reminiscing about his childhood, Kabuto tells the brothers that he assimilated more than just Orochimaru's DNA, that his pawns were a show of his own power and refuses to have Itachi oppose him any...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.intro0"
+    },
+    {
+      "fallback": "Even though Itachi rejects what Kabuto says, Kabuto presses on with his attack.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.intro1"
+    },
+    {
+      "fallback": "A construct of Sakon emerges from the base of his navel snake, and Kabuto uses his Attack of the Twin Demons technique as he has the construct transform into Jirōbō, who then uses the Earth Release: Earth Shore Return...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Three Climatic Battles",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:a_fourth_raikage",
+      "text": {
+        "fallback": "Talk to A (Fourth Raikage)",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: The Three Climatic Battles",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133204,
+  "outro": [
+    {
+      "fallback": "Through the mist created from the two clashing techniques, Kabuto noticed that Itachi, who Kabuto stabbed with the sword for him disappeared into a flurry of crows and attack Kabuto with the sword he took from him.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.outro0"
+    },
+    {
+      "fallback": "Chastising him for using the same attack pattern he had used before to cut his horn off, to which Itachi rebuffs that he cannot be harmed also refuting Kabuto's claims that genjutsu cannot affect him, stating that it...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_05.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_04"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

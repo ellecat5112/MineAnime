@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "Madara, who has recovered his left Rinnegan from Obito, mocks Team Kakashi's pledge to defeat him with teamwork. Black Zetsu informs the group that Obito is no more, and that he has completely taken possession over his body. Sakura sees an opening and activates her Ninja Art Creation Rebirth — Strength of a Hundred Technique to attack Madara, but to no avail, as Naruto and Sasuke quickly rescue her from Madara's...",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Madara, who has recovered his left Rinnegan from Obito, mocks Team Kakashi's pledge to defeat him with teamwork.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.intro0"
+    },
+    {
+      "fallback": "Black Zetsu informs the group that Obito is no more, and that he has completely taken possession over his body.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.intro1"
+    },
+    {
+      "fallback": "Sakura sees an opening and activates her Ninja Art Creation Rebirth — Strength of a Hundred Technique to attack Madara, but to no avail, as Naruto and Sasuke quickly rescue her from Madara's wrath.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Infinite Dream",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: The Infinite Dream",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138807,
+  "outro": [
+    {
+      "fallback": "Around the world, all living souls fall victim to the Infinite Tsukuyomi, with the Rinnegan reflecting in their eyes.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.outro0"
+    },
+    {
+      "fallback": "The only ones who are not affected by the technique are the reincarnated Hokage, who watch in horror as Madara activates a technique that connects all life forms to the roots of the Ten-Tails' tree form, and Team 7...",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_08.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_07"
+  ],
+  "rewards": {
+    "experience": 31,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 8
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

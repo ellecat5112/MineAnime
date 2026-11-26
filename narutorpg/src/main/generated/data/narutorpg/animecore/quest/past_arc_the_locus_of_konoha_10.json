@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "After leaving for his two year training with Jiraiya, Naruto begins training to prepare to counter genjutsu when he meets Sasuke again. Jiraiya summons Gamariki to help train Naruto to cancel genjutsu by putting in under a weird genjutsu by kissing him. Naruto finds Jiraiya, Sasuke and Sakura all with the appearance of Gamariki in the weird genjutsu world.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "After leaving for his two year training with Jiraiya, Naruto begins training to prepare to counter genjutsu when he meets Sasuke again.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.intro0"
+    },
+    {
+      "fallback": "Jiraiya summons Gamariki to help train Naruto to cancel genjutsu by putting in under a weird genjutsu by kissing him.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.intro1"
+    },
+    {
+      "fallback": "Naruto finds Jiraiya, Sasuke and Sakura all with the appearance of Gamariki in the weird genjutsu world.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Genjutsu Training",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Genjutsu Training",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118609,
+  "outro": [
+    {
+      "fallback": "The real Tanishi arrives, exposing of Naruto and Jiraiya's plan.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.outro0"
+    },
+    {
+      "fallback": "Keeping his promise, Kandachi summons the Conch King",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_10.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_09"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

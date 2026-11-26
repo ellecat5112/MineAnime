@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "narutorpg:gentle_fist",
+    "narutorpg:six_paths_chibaku_tensei",
+    "narutorpg:summoning_technique",
+    "narutorpg:truth_seeking_ball",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 11583173,
+    "hair": 16119285,
+    "hair_style": "long",
+    "mark": "pale_eyes",
+    "outfit": "robe",
+    "top": 16448250
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Hamura Ōtsutsuki",
+    "translate": "npc.narutorpg.hamura_otsutsuki"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

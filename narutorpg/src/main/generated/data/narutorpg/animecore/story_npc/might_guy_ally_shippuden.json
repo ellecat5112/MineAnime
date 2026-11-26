@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:daytime_tiger",
+    "narutorpg:double_dynamic_entry",
+    "narutorpg:dynamic_action",
+    "narutorpg:dynamic_entry",
+    "narutorpg:evening_elephant",
+    "narutorpg:eight_gates"
+  ],
+  "appearance": {
+    "accent": 16485376,
+    "eyes": 1118481,
+    "hair": 1118481,
+    "hair_style": "bowl",
+    "headband": 1981066,
+    "outfit": "bodysuit",
+    "pants": 3046706,
+    "top": 3046706
+  },
+  "attack": 11.0,
+  "health": 158.0,
+  "name": {
+    "fallback": "Might Guy",
+    "translate": "npc.narutorpg.might_guy"
+  },
+  "power": 1.84,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

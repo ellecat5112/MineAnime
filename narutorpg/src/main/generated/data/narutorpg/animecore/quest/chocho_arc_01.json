@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Chōchō Arc",
+    "translate": "quest.narutorpg.arc.chocho_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] During a training session, Chōji demonstrates some of their clan's secret techniques to Chōchō, but she is distracted watching T.V. Chōchō asks her father to sign a scroll about a background check for an upcoming mission. In Otogakure, Mitsuki trains with Orochimaru, and also asks him to sign a scroll.",
+    "translate": "quest.narutorpg.chocho_arc_01.desc"
+  },
+  "giver": "narutorpg:choji_akimichi",
+  "intro": [
+    {
+      "fallback": "During a training session, Chōji demonstrates some of their clan's secret techniques to Chōchō, but she is distracted watching T.V.",
+      "translate": "quest.narutorpg.chocho_arc_01.intro0"
+    },
+    {
+      "fallback": "Chōchō asks her father to sign a scroll about a background check for an upcoming mission.",
+      "translate": "quest.narutorpg.chocho_arc_01.intro1"
+    },
+    {
+      "fallback": "In Otogakure, Mitsuki trains with Orochimaru, and also asks him to sign a scroll.",
+      "translate": "quest.narutorpg.chocho_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Super Chōchō Butterfly Mode!",
+    "translate": "quest.narutorpg.chocho_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:choji_akimichi",
+      "text": {
+        "fallback": "Talk to Chōji Akimichi",
+        "translate": "quest.narutorpg.chocho_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: Super Chōchō Butterfly Mode!",
+        "translate": "quest.narutorpg.chocho_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:chocho_akimichi",
+      "text": {
+        "fallback": "Meet Chōchō Akimichi",
+        "translate": "quest.narutorpg.chocho_arc_01.o3"
+      }
+    }
+  ],
+  "order": 207700,
+  "outro": [
+    {
+      "fallback": "The two meet up with Sarada and Chōchō outside of the Information & Receiving Centre, but Boruto doesn't recognise Chōchō.",
+      "translate": "quest.narutorpg.chocho_arc_01.outro0"
+    },
+    {
+      "fallback": "On the way to receive their mission, they meet with Tomaru and Ashina from the soap opera Chōchō watches, who are the actors they're supposed to bodyguard.",
+      "translate": "quest.narutorpg.chocho_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:versus_momoshiki_arc_06"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

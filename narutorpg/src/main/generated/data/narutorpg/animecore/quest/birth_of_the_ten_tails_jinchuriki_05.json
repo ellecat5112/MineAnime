@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:bunpuku_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "Naruto tries to exit Tailed Beast Mode, but finds it futile, as Madara has Kurama's chakra trapped with the chains. The clone of White Zetsu informs Madara that it would be best to recapture the beasts in numerical order, starting with Shukaku. Madara, with a readjusted strategy, attempts to capture Shukaku with the chains first; however, Gaara manages to stop this transaction with two enormous sand hands.",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.desc"
+  },
+  "giver": "narutorpg:gaara",
+  "intro": [
+    {
+      "fallback": "Naruto tries to exit Tailed Beast Mode, but finds it futile, as Madara has Kurama's chakra trapped with the chains.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.intro0"
+    },
+    {
+      "fallback": "The clone of White Zetsu informs Madara that it would be best to recapture the beasts in numerical order, starting with Shukaku.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.intro1"
+    },
+    {
+      "fallback": "Madara, with a readjusted strategy, attempts to capture Shukaku with the chains first; however, Gaara manages to stop this transaction with two enormous sand hands.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Fall of Two Shinobi",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:gaara",
+      "text": {
+        "fallback": "Talk to Gaara",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: The Fall of Two Shinobi",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:izuna_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Izuna Uchiha",
+        "translate": "quest.narutorpg.defeat.izuna_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138804,
+  "outro": [
+    {
+      "fallback": "Gaara rushes Naruto to help, while Tobirama curses Madara for stabbing Sasuke, which has left the young Uchiha severely injured.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.outro0"
+    },
+    {
+      "fallback": "Meanwhile, Tobi appears on the battlefield and uses his Kanzeon Lotus King to attack the alliance.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_05.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_04"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

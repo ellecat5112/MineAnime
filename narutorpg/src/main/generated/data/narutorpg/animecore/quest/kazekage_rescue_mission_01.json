@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:jiraiya_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kazekage Rescue Mission",
+    "translate": "quest.narutorpg.arc.kazekage_rescue_mission"
+  },
+  "description": {
+    "fallback": "To prepare for the eventual confrontation with both Akatsuki and Orochimaru, Naruto left the village and underwent intensive training under Jiraiya. At the same time, Sakura became Tsunade's apprentice, and Sasuke trained under Orochimaru. Thus, the three members of the original Team 7 were now training individually under each of the Legendary Sannin.",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "To prepare for the eventual confrontation with both Akatsuki and Orochimaru, Naruto left the village and underwent intensive training under Jiraiya.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_01.intro0"
+    },
+    {
+      "fallback": "At the same time, Sakura became Tsunade's apprentice, and Sasuke trained under Orochimaru.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_01.intro1"
+    },
+    {
+      "fallback": "Thus, the three members of the original Team 7 were now training individually under each of the Legendary Sannin.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Returning to Konoha",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Returning to Konoha",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 101100,
+  "outro": [
+    {
+      "fallback": "To commemorate the event, they conducted another bell test, with Naruto and Sakura succeeding by attempting to reveal the ending of Icha Icha Tactics, forcing Kakashi to close his eyes (because his Sharingan could read...",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_01.outro0"
+    },
+    {
+      "fallback": "When he opened his eyes he realised that Naruto and Sakura were holding the bells.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

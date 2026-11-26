@@ -1,0 +1,17 @@
+{
+  "appearance": {
+    "accent": 1793568,
+    "hair": 15913323,
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 8916559
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Ikada Funato",
+    "translate": "npc.narutorpg.ikada_funato"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

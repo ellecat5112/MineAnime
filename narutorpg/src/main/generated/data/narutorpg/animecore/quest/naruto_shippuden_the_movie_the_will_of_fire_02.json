@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:tsunade_ally_movies",
+    "narutorpg:gaara_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Will of Fire",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_will_of_fire"
+  },
+  "description": {
+    "fallback": "Tsunade is awaiting Gaara at a secret meeting place to discuss what shall be done. However, on the way there Gaara and his Sunagakure shinobi are attacked by a bird-like creature, which traps them in an avalanche. Meanwhile, Hiruko states that the Chimera Technique alone can only absorb a maximum of four kekkei genkai, and that certain conditions, most importantly the light of an annular eclipse, which is two days...",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Tsunade is awaiting Gaara at a secret meeting place to discuss what shall be done.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.intro0"
+    },
+    {
+      "fallback": "However, on the way there Gaara and his Sunagakure shinobi are attacked by a bird-like creature, which traps them in an avalanche.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Hiruko states that the Chimera Technique alone can only absorb a maximum of four kekkei genkai, and that certain conditions, most importantly the light of an annular eclipse, which is two days away, is...",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Part 2",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hiruko_missing_nin_foe_movies",
+      "text": {
+        "fallback": "Defeat Hiruko (missing-nin)",
+        "translate": "quest.narutorpg.defeat.hiruko_missing_nin_foe_movies"
+      }
+    }
+  ],
+  "order": 301501,
+  "outro": [
+    {
+      "fallback": "However the scene is interrupted by Ichi, who was sent by Hiruko to stop and/or delay them, using his chimera snakes.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.outro0"
+    },
+    {
+      "fallback": "Team Guy stays behind to allow the others to pass through the first gate.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_will_of_fire_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

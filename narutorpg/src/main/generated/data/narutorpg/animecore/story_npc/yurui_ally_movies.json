@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:bubblegum_ninjutsu"
+  ],
+  "appearance": {
+    "accent": 16757504,
+    "hair": 1973790,
+    "hair_style": "spiky",
+    "headband": 2503224,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 13010498,
+    "top": 16448250
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Yurui",
+    "translate": "npc.narutorpg.yurui"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

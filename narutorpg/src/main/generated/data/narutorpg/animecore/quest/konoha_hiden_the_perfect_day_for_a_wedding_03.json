@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Konoha Hiden: The Perfect Day for a Wedding",
+    "translate": "quest.narutorpg.arc.konoha_hiden_the_perfect_day_for_a_wedding"
+  },
+  "description": {
+    "fallback": "Shikamaru and Chōji visit Ino at Yamanaka Flowers, wanting to discuss what to get for Naruto and Hinata. Ino says she already picked her present, and says they can't go shop with her when Shikamaru wants to go to the same store. At Yakiniku Q, Shikamaru discusses with Chōji about ideas, and is shocked to find he's already picked a gift, vouchers for dinner at a fancy tea house.",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Shikamaru and Chōji visit Ino at Yamanaka Flowers, wanting to discuss what to get for Naruto and Hinata.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.intro0"
+    },
+    {
+      "fallback": "Ino says she already picked her present, and says they can't go shop with her when Shikamaru wants to go to the same store.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.intro1"
+    },
+    {
+      "fallback": "At Yakiniku Q, Shikamaru discusses with Chōji about ideas, and is shocked to find he's already picked a gift, vouchers for dinner at a fancy tea house.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Steam and Food Pills",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Steam and Food Pills",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:choji_akimichi",
+      "text": {
+        "fallback": "Meet Chōji Akimichi",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.o3"
+      }
+    }
+  ],
+  "order": 150402,
+  "outro": [
+    {
+      "fallback": "At Yakiniku Q, Shikamaru discusses with Chōji about ideas, and is shocked to find he's already picked a gift, vouchers for dinner at a fancy tea house.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.outro0"
+    },
+    {
+      "fallback": "Shikamaru considers giving them cash, so they can pick whatever they want, but considers it to be too impersonal and lazy for a gift.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_03.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_02"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

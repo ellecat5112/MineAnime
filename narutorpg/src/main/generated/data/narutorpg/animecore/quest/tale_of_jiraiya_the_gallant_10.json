@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:minato_namikaze_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "The Amegakure ninja refuses to tell Jiraiya anything about Pain's current activities. Jiraiya leaves him, admiring his loyalty. He removes Gerotora from his body, explaining that he is worried about confronting Pain.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "The Amegakure ninja refuses to tell Jiraiya anything about Pain's current activities.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.intro0"
+    },
+    {
+      "fallback": "Jiraiya leaves him, admiring his loyalty.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.intro1"
+    },
+    {
+      "fallback": "He removes Gerotora from his body, explaining that he is worried about confronting Pain.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Unease",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Unease",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113709,
+  "outro": [
+    {
+      "fallback": "Gerotora, containing the key to the seal that keeps the Nine-Tails within Naruto, advises against it.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.outro0"
+    },
+    {
+      "fallback": "Jiraiya insists, believing Minato would want Naruto to master the Nine-Tails for some unknown purpose, perhaps to combat Tobi.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_10.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_09"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

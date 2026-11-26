@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:rock_lee_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Kurosuki Family Removal Mission",
+    "translate": "quest.narutorpg.arc.kurosuki_family_removal_mission"
+  },
+  "description": {
+    "fallback": "With Neji unable to see through the mist, the group loses the advantage of his eyesight. He is tricked into thinking that random objects are real people by a mysterious jutsu. Rock Lee manages to hold Raiga off by fighting while still unconscious.",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.desc"
+  },
+  "giver": "narutorpg:neji_hyuga",
+  "intro": [
+    {
+      "fallback": "With Neji unable to see through the mist, the group loses the advantage of his eyesight.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.intro0"
+    },
+    {
+      "fallback": "He is tricked into thinking that random objects are real people by a mysterious jutsu.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.intro1"
+    },
+    {
+      "fallback": "Rock Lee manages to hold Raiga off by fighting while still unconscious.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Enemy of the Byakugan",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:neji_hyuga",
+      "text": {
+        "fallback": "Talk to Neji Hyūga",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 95,
+      "text": {
+        "fallback": "Head out: The Enemy of the Byakugan",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ranmaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Ranmaru",
+        "translate": "quest.narutorpg.defeat.ranmaru_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:raiga_kurosuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Raiga Kurosuki",
+        "translate": "quest.narutorpg.defeat.raiga_kurosuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 16202,
+  "outro": [
+    {
+      "fallback": "When the gang opens the case, they discover a young boy named Ranmaru, who has been riding on Raiga's back the entire time.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.outro0"
+    },
+    {
+      "fallback": "Ranmaru reveals that Raiga cared for him, and that he helps Raiga fight by serving as his \"eyes\".",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kurosuki_family_removal_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

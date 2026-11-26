@@ -67,7 +67,8 @@ public final class NatureGameTests implements FabricGameTest {
         Identifier other = List.of("fire", "wind", "lightning", "earth", "water").stream().map(NarutoRPG.CTX::id)
                 .filter(n -> !power.effectiveAffinities().contains(n)).findFirst().orElseThrow();
         TechniqueMastery.addExperience(p, power, other, 100);
-        ctx.assertTrue(power.tokenLevel(other) < power.tokenLevel(nature), "off-affinity trains slower");
+        ctx.assertTrue(power.tokenLevel(other) < power.tokenLevel(nature), "off-affinity trains slower: " + other.getPath() + " " + power.tokenLevel(other)
+                + " vs " + nature.getPath() + " " + power.tokenLevel(nature) + " personal " + power.personalAffinities() + " effective " + power.effectiveAffinities());
         TechniqueMastery.addExperience(p, power, other, 5000);
         ctx.assertTrue(power.personalAffinities().contains(other), "level 10 attunes " + other.getPath());
         ctx.complete();

@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_movies",
+    "narutorpg:kamira_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Legend of the Stone of Gelel",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_legend_of_the_stone_of_gelel"
+  },
+  "description": {
+    "fallback": "Meanwhile, Shikamaru infiltrates the mechanical structure and finds what appears to be a lab with children in capsules. They are overlooked by a pair of women (Kamira and Ranke) with similar armour to what Temujin had been wearing, whom operate a machine that makes the bulky soldiers from before. The two discuss the Gelel Stone, something that Shikamaru has never heard of.",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Shikamaru infiltrates the mechanical structure and finds what appears to be a lab with children in capsules.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.intro0"
+    },
+    {
+      "fallback": "They are overlooked by a pair of women (Kamira and Ranke) with similar armour to what Temujin had been wearing, whom operate a machine that makes the bulky soldiers from before.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.intro1"
+    },
+    {
+      "fallback": "The two discuss the Gelel Stone, something that Shikamaru has never heard of.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: Part 2",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ranke_foe_movies",
+      "text": {
+        "fallback": "Defeat Ranke",
+        "translate": "quest.narutorpg.defeat.ranke_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:temujin_foe_movies",
+      "text": {
+        "fallback": "Defeat Temujin",
+        "translate": "quest.narutorpg.defeat.temujin_foe_movies"
+      }
+    }
+  ],
+  "order": 301101,
+  "outro": [
+    {
+      "fallback": "Naruto demands an explanation, but all Temujin can reply is 'Noble sacrifices for the greater good.' Before they battle, they are interrupted by the Kamira and Ranke, whom Kankurō and Gaara take on.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.outro0"
+    },
+    {
+      "fallback": "Kamira uses a kind of mind control that seems to be genjutsu.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_02.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_legend_of_the_stone_of_gelel_01"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

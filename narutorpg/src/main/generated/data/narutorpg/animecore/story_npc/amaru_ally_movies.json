@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "eyes": 1118481,
+    "hair": 9268835,
+    "hair_style": "long",
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 6111287
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Amaru",
+    "translate": "npc.narutorpg.amaru"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

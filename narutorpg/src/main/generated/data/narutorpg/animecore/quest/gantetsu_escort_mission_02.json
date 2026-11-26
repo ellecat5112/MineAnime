@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:todoroki_ally_naruto",
+    "narutorpg:sakura_haruno_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Gantetsu Escort Mission",
+    "translate": "quest.narutorpg.arc.gantetsu_escort_mission"
+  },
+  "description": {
+    "fallback": "The boat that Naruto's group was on washed over a waterfall, allowing Naruto, Gantetsu and Todoroki to escape into the forest. Naruto learned from Gantetsu that the forest was the Ninja Dropout hideout and that only a Ninja Dropout like him could find the way through. Naruto's group defeated one of the Ninja Dropout members, who attacked with a large claw-like machine.",
+    "translate": "quest.narutorpg.gantetsu_escort_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The boat that Naruto's group was on washed over a waterfall, allowing Naruto, Gantetsu and Todoroki to escape into the forest.",
+      "translate": "quest.narutorpg.gantetsu_escort_mission_02.intro0"
+    },
+    {
+      "fallback": "Naruto learned from Gantetsu that the forest was the Ninja Dropout hideout and that only a Ninja Dropout like him could find the way through.",
+      "translate": "quest.narutorpg.gantetsu_escort_mission_02.intro1"
+    },
+    {
+      "fallback": "Naruto's group defeated one of the Ninja Dropout members, who attacked with a large claw-like machine.",
+      "translate": "quest.narutorpg.gantetsu_escort_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Bewildering Forest",
+    "translate": "quest.narutorpg.gantetsu_escort_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.gantetsu_escort_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 99,
+      "text": {
+        "fallback": "Head out: The Bewildering Forest",
+        "translate": "quest.narutorpg.gantetsu_escort_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:toki_shinobazu_foe_naruto",
+      "text": {
+        "fallback": "Defeat Toki (Shinobazu)",
+        "translate": "quest.narutorpg.defeat.toki_shinobazu_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gantetsu_foe_naruto",
+      "text": {
+        "fallback": "Defeat Gantetsu",
+        "translate": "quest.narutorpg.defeat.gantetsu_foe_naruto"
+      }
+    }
+  ],
+  "order": 21901,
+  "outro": [
+    {
+      "fallback": "Sakura and Lee encountered some orphans who were taking refuge in the forest.",
+      "translate": "quest.narutorpg.gantetsu_escort_mission_02.outro0"
+    },
+    {
+      "fallback": "It was then revealed that Todoroki intended to kill Gantetsu to avenge his family, and would go so far as to kill Naruto to eliminate a witness to his crime.",
+      "translate": "quest.narutorpg.gantetsu_escort_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:gantetsu_escort_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

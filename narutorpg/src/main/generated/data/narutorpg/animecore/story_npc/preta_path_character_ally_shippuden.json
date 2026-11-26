@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "hair": 10395294,
+    "headband": 3369246,
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 8916559
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Preta Path (character)",
+    "translate": "npc.narutorpg.preta_path_character"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

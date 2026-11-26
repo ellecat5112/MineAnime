@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_shippuden",
+    "narutorpg:chiyo_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kazekage Rescue Mission",
+    "translate": "quest.narutorpg.arc.kazekage_rescue_mission"
+  },
+  "description": {
+    "fallback": "Although Sasori \"wore\" his puppet and controlled it from inside, this technique of puppeteer fighting soon proved to be futile against Sakura and Chiyo. By controlling Sakura like a puppet, Chiyo was able to get Sakura close enough to demolish the puppet with one punch. With his first puppet destroyed, Sasori is revealed, looking just as young as he did when he left the village.",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_04.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Although Sasori \"wore\" his puppet and controlled it from inside, this technique of puppeteer fighting soon proved to be futile against Sakura and Chiyo.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_04.intro0"
+    },
+    {
+      "fallback": "By controlling Sakura like a puppet, Chiyo was able to get Sakura close enough to demolish the puppet with one punch.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_04.intro1"
+    },
+    {
+      "fallback": "With his first puppet destroyed, Sasori is revealed, looking just as young as he did when he left the village.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chiyo and Sakura vs. Sasori",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Chiyo and Sakura vs. Sasori",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasori_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasori",
+        "translate": "quest.narutorpg.defeat.sasori_foe_shippuden"
+      }
+    }
+  ],
+  "order": 101103,
+  "outro": [
+    {
+      "fallback": "When trapped in a seal performed by four of Chikamatsu's puppets, Chiyo used the mother and father puppets to stab through his heart.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_04.outro0"
+    },
+    {
+      "fallback": "In spite of the victory, Chiyo believed that Sasori allowed himself to",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

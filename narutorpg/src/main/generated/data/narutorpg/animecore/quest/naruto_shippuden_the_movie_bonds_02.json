@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sai_ally_movies",
+    "narutorpg:shikamaru_nara_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: Bonds",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_bonds"
+  },
+  "description": {
+    "fallback": "Meanwhile, at Konoha, the Sora-nin retreated because they were out of chakra to continue flying, so Konoha sent another special team to search for their base. Sai approached the ships they were using as a base near a beach on one of his ink birds to attract their attention and to gauge their abilities, while Shikamaru and Kakashi hid behind some rocks near the shore, waiting for the fourth man of their team, Shino...",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Meanwhile, at Konoha, the Sora-nin retreated because they were out of chakra to continue flying, so Konoha sent another special team to search for their base.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.intro0"
+    },
+    {
+      "fallback": "Sai approached the ships they were using as a base near a beach on one of his ink birds to attract their attention and to gauge their abilities, while Shikamaru and Kakashi hid behind some rocks near the shore, waiting...",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.intro1"
+    },
+    {
+      "fallback": "At Orochimaru's lair, Orochimaru had become even more ill because the body transfer technique he used was close to its expiration.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: Part 2",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_movies",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_movies"
+      }
+    }
+  ],
+  "order": 301401,
+  "outro": [
+    {
+      "fallback": "Kabuto was attending to him, and told Sasuke that the Sora-nin were attacking Konoha, to which Sasuke replied that he didn't care.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.outro0"
+    },
+    {
+      "fallback": "Orochimaru ordered Sasuke to capture and bring back to him a man who would be able to help him perfect his reincarnation technique.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_bonds_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_bonds_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

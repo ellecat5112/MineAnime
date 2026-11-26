@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Sōsha talks about an urban legend about the Academy. Ehō gets scared while other students are interested. Himawari suggests investigating the places involved with the Academy's Seven Mysteries at night.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Sōsha talks about an urban legend about the Academy.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.intro0"
+    },
+    {
+      "fallback": "Ehō gets scared while other students are interested.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.intro1"
+    },
+    {
+      "fallback": "Himawari suggests investigating the places involved with the Academy's Seven Mysteries at night.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Seven Mysteries Investigative Team Forms!",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: The Seven Mysteries Investigative Team Forms!",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sosha_amino",
+      "text": {
+        "fallback": "Meet Sōsha Amino",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.o3"
+      }
+    }
+  ],
+  "order": 227103,
+  "outro": [
+    {
+      "fallback": "The rest of the group notices their absence.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.outro0"
+    },
+    {
+      "fallback": "Kura wonders if one of the mysteries got to them, and the twins try to assure one another it's ok for them to leave.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_03"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:sealing_technique_tiger_vision_staring_bullet",
+    "narutorpg:super_beast_imitating_drawing",
+    "narutorpg:super_god_imitating_drawing",
+    "narutorpg:earth_release_hiding_like_a_mole_technique"
+  ],
+  "appearance": {
+    "accent": 9315498,
+    "eyes": 4431943,
+    "hair": 15913323,
+    "hair_style": "ponytail",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 6953882
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Sai",
+    "translate": "npc.narutorpg.sai"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

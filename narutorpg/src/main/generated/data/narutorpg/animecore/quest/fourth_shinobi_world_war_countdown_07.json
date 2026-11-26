@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Countdown",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_countdown"
+  },
+  "description": {
+    "fallback": "Elsewhere in Amegakure, Tobi confronts Konan, looking for Nagato's body to obtain his Rinnegan. Konan states she has been waiting for a chance to kill him and Tobi says he won't go easy on a former Akatsuki member. Tobi asks why she decided to betray Akatsuki, despite still wearing the uniform.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Elsewhere in Amegakure, Tobi confronts Konan, looking for Nagato's body to obtain his Rinnegan.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.intro0"
+    },
+    {
+      "fallback": "Konan states she has been waiting for a chance to kill him and Tobi says he won't go easy on a former Akatsuki member.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.intro1"
+    },
+    {
+      "fallback": "Tobi asks why she decided to betray Akatsuki, despite still wearing the uniform.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Retrieving the Rinnegan",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 91,
+      "text": {
+        "fallback": "Head out: Retrieving the Rinnegan",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:konan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Konan",
+        "translate": "quest.narutorpg.defeat.konan_foe_shippuden"
+      }
+    }
+  ],
+  "order": 122506,
+  "outro": [
+    {
+      "fallback": "The red side indicates that the person is home and the white side with a frog head states that the person is away.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.outro0"
+    },
+    {
+      "fallback": "Even after Jiraiya left, the three kept up with the \"hop-in\" card system.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_07.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_countdown_06"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:bringer_of_darkness_technique",
+    "narutorpg:dance_of_the_crescent_moon",
+    "narutorpg:flying_thunder_god_mutually_instantaneous_revolving_technique",
+    "narutorpg:flying_thunder_god_slash",
+    "narutorpg:heavenly_weeping",
+    "narutorpg:area_scanning_technique"
+  ],
+  "appearance": {
+    "accent": 2171169,
+    "hair": 5125166,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "armor",
+    "pants": 1713022,
+    "skin": 13010498,
+    "top": 12000284
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Tobirama Senju",
+    "translate": "npc.narutorpg.tobirama_senju"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

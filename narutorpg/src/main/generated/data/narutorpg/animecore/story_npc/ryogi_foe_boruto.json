@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:ice_release_frozen_capturing_field",
+    "narutorpg:ice_release_ten_thousand_ice_petals",
+    "narutorpg:ice_release_whirlwind",
+    "narutorpg:ice_release_crystal_wall"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 1118481,
+    "hair": 5125166,
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 2635155
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Ryōgi",
+    "translate": "npc.narutorpg.ryogi"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

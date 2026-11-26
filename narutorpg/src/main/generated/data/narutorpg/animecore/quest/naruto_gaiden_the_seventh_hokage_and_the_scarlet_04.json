@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_boruto",
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Naruto Gaiden: The Seventh Hokage and the Scarlet Spring",
+    "translate": "quest.narutorpg.arc.naruto_gaiden_the_seventh_hokage_and_the_scarlet"
+  },
+  "description": {
+    "fallback": "While Naruto detects Sakura, Shin and his clones attack her, injuring her right arm. Sasuke and Naruto arrive in time to save her mid-battle. As Sasuke cares for Sakura's injuries, Sarada watches, realising there is love between her parents.",
+    "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "While Naruto detects Sakura, Shin and his clones attack her, injuring her right arm.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.intro0"
+    },
+    {
+      "fallback": "Sasuke and Naruto arrive in time to save her mid-battle.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.intro1"
+    },
+    {
+      "fallback": "As Sasuke cares for Sakura's injuries, Sarada watches, realising there is love between her parents.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A True Family",
+    "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: A True Family",
+        "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shin_uchiha_foe_boruto",
+      "text": {
+        "fallback": "Defeat Shin Uchiha",
+        "translate": "quest.narutorpg.defeat.shin_uchiha_foe_boruto"
+      }
+    }
+  ],
+  "order": 200903,
+  "outro": [
+    {
+      "fallback": "Karin then orders Suigetsu to apologise to Sarada and give her a new pair of glasses.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.outro0"
+    },
+    {
+      "fallback": "In the final scene, Sarada smiles at the family photo of her parents and herself.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_04.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:naruto_gaiden_the_seventh_hokage_and_the_scarlet_03"
+  ],
+  "rewards": {
+    "experience": 35,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

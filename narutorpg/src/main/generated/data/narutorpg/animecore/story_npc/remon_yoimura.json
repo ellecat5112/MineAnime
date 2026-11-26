@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 1118481,
+    "hair": 9268835,
+    "hair_style": "long",
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 7162945
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Remon Yoimura",
+    "translate": "npc.narutorpg.remon_yoimura"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

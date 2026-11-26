@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:yamato_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Yamato attempts to teach Naruto, Sakura and Sora new team formation techniques due to the fact that they are now a team. Naruto and Sora do not wish to waste time learning team formations when they would rather use their time to continue their Nature Transformation training. However, Naruto asks Yamato regarding the five elements and asks whether it would be possible for him to learn a secondary type, such as Water...",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_10.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Yamato attempts to teach Naruto, Sakura and Sora new team formation techniques due to the fact that they are now a team.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_10.intro0"
+    },
+    {
+      "fallback": "Naruto and Sora do not wish to waste time learning team formations when they would rather use their time to continue their Nature Transformation training.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_10.intro1"
+    },
+    {
+      "fallback": "However, Naruto asks Yamato regarding the five elements and asks whether it would be possible for him to learn a secondary type, such as Water Release, by the time he became Jōnin.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Two Kings",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: The Two Kings",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kazuma_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kazuma",
+        "translate": "quest.narutorpg.defeat.kazuma_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106409,
+  "outro": [
+    {
+      "fallback": "In the woods, Asuma watches over Naruto and Sora attempting to master their Wind Release ability.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_10.outro0"
+    },
+    {
+      "fallback": "After a few hours, he tells the two that they should continue their training tomorrow as it is getting late, but the two believe that As",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_10.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_09"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "In the Konohagakure Intelligence Division, Karin feigns mental instability to lessen the guards' attention to her, and begins plotting her escape with a lock-pick set hidden in her glasses and under a portrait of Sasuke she made. Jūgo and Suigetsu learn about the war, near one of Orochimaru's hideouts. Jūgo questions Suigetsu's reasons to be part of Taka, and while the two argue, Jūgo's killing intent kicks in, and...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "In the Konohagakure Intelligence Division, Karin feigns mental instability to lessen the guards' attention to her, and begins plotting her escape with a lock-pick set hidden in her glasses and under a portrait of Sasuke...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.intro0"
+    },
+    {
+      "fallback": "Jūgo and Suigetsu learn about the war, near one of Orochimaru's hideouts.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.intro1"
+    },
+    {
+      "fallback": "Jūgo questions Suigetsu's reasons to be part of Taka, and while the two argue, Jūgo's killing intent kicks in, and he attacks Suigetsu.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Against the Uchiha",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Against the Uchiha",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zetsu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Zetsu",
+        "translate": "quest.narutorpg.defeat.zetsu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jugo_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Jūgo",
+        "translate": "quest.narutorpg.defeat.jugo_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:suigetsu_hozuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Suigetsu Hōzuki",
+        "translate": "quest.narutorpg.defeat.suigetsu_hozuki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133202,
+  "outro": [
+    {
+      "fallback": "After Sasuke spots Itachi, he chases his brother down.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.outro0"
+    },
+    {
+      "fallback": "Itachi refuses to be swaye",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_03.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_02"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

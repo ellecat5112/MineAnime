@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Jura wonders if Team 10 is running away to avoid damage to the village. Konohamaru arrives with back-up, and is informed by Shikamaru that they have fled with Himawari, who is the God Trees' target. Shikamaru wants Kawaki to let Boruto free, because he also considers the God Trees as enemies.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_10.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Jura wonders if Team 10 is running away to avoid damage to the village.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_10.intro0"
+    },
+    {
+      "fallback": "Konohamaru arrives with back-up, and is informed by Shikamaru that they have fled with Himawari, who is the God Trees' target.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_10.intro1"
+    },
+    {
+      "fallback": "Shikamaru wants Kawaki to let Boruto free, because he also considers the God Trees as enemies.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kernel",
+    "translate": "quest.narutorpg.boruto_s_return_arc_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_s_return_arc_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Go: Kernel",
+        "translate": "quest.narutorpg.boruto_s_return_arc_10.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Meet Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.boruto_s_return_arc_10.o3"
+      }
+    }
+  ],
+  "order": 301109,
+  "outro": [
+    {
+      "fallback": "Jura is catching up to Team 10.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_10.outro0"
+    },
+    {
+      "fallback": "Kurama confirms to Himawari that its previous self existed inside Naruto, but its life was extinguished, and explains that death isn't permanent for tailed beasts, a kernel of them eventually remanifesting somewhere.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_10.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_09"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

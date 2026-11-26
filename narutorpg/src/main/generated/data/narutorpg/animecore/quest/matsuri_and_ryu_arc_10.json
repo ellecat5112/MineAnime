@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "Team 7 has returned to Konohagakure with Matsuri's Thornsoul. Team 7 and Team 10 witness Konohamaru using the Thornsoul to successfully free Moegi. Up above, Boruto watches with a smile.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Team 7 has returned to Konohagakure with Matsuri's Thornsoul.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.intro0"
+    },
+    {
+      "fallback": "Team 7 and Team 10 witness Konohamaru using the Thornsoul to successfully free Moegi.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.intro1"
+    },
+    {
+      "fallback": "Up above, Boruto watches with a smile.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Those Girls",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Go: Those Girls",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:moegi_kazamatsuri",
+      "text": {
+        "fallback": "Meet Moegi Kazamatsuri",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.o3"
+      }
+    }
+  ],
+  "order": 302609,
+  "outro": [
+    {
+      "fallback": "Elsewhere, Himawari tries to learn how to control Kurama's chakra better but she is not making much progress much to the dismay of both.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.outro0"
+    },
+    {
+      "fallback": "Boruto goes to the mental plane where he converses with Momoshiki and he gives him a deal that neither of them can resist.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_10.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_09"
+  ],
+  "rewards": {
+    "experience": 45,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 16
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

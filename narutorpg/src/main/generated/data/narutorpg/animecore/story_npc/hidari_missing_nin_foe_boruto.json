@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:clone_trap",
+    "narutorpg:agonizing_thorn_technique_simply_put_a_kancho",
+    "narutorpg:black_spider_lily"
+  ],
+  "appearance": {
+    "accent": 2503224,
+    "hair": 15913323,
+    "hair_style": "spiky",
+    "pants": 1713022,
+    "skin": 13010498,
+    "top": 8916559
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Hidari (missing-nin)",
+    "translate": "npc.narutorpg.hidari_missing_nin"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

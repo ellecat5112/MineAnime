@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_guardians_of_the_crescent_moon_"
+  },
+  "description": {
+    "fallback": "Hikaru kept insisting Naruto to accept but Naruto gets annoyed and tells him to stop looking down on people and grow up...Hikaru gets disappointed in this and shoots a Toy Arrow at the back of his headband...causing Naruto to turn red and become terrifyingly enraged...nearly becoming One Tailed chakra in the process...Naruto in rage snaps his Suction Cup arrow in half...Hikaru becomes frightened and attempts to flee...",
+    "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Hikaru kept insisting Naruto to accept but Naruto gets annoyed and tells him to stop looking down on people and grow up...Hikaru gets disappointed in this and shoots a Toy Arrow at the back of his headband...causing...",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.intro0"
+    },
+    {
+      "fallback": "During the trip, the caravan stopped at a circus.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.intro1"
+    },
+    {
+      "fallback": "When Hikaru took a liking to a rare sabre-toothed tiger, Chamū, which was featured there, Michiru ended up purchasing not only it, but the rest of the circus as well, placing it under the team's protection.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: Part 2",
+        "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:hikaru_tsuki",
+      "text": {
+        "fallback": "Meet Hikaru Tsuki",
+        "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.o3"
+      }
+    }
+  ],
+  "order": 301201,
+  "outro": [
+    {
+      "fallback": "Upset by Naruto's view of him, Hikaru went out to help Chamū get to safety, and Naruto saved both of them after they were washed overboard.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.outro0"
+    },
+    {
+      "fallback": "The next day, Naruto, Sakura and Lee become friends with Hikaru.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__02.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_guardians_of_the_crescent_moon__01"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

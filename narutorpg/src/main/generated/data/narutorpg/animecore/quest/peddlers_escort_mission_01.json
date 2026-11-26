@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "Peddlers Escort Mission",
+    "translate": "quest.narutorpg.arc.peddlers_escort_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto, Chōji, and Hinata are sent to help some peddlers move out of the Land of Vegetables. Because of a package from Tsunade, the peddlers mistake them for \"The Konoha Moving Service\". Unbeknownst to them, a group called the Janin, have taken control of the land and are looking for one of the peddlers.",
+    "translate": "quest.narutorpg.peddlers_escort_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Naruto, Chōji, and Hinata are sent to help some peddlers move out of the Land of Vegetables.",
+      "translate": "quest.narutorpg.peddlers_escort_mission_01.intro0"
+    },
+    {
+      "fallback": "Because of a package from Tsunade, the peddlers mistake them for \"The Konoha Moving Service\".",
+      "translate": "quest.narutorpg.peddlers_escort_mission_01.intro1"
+    },
+    {
+      "fallback": "Unbeknownst to them, a group called the Janin, have taken control of the land and are looking for one of the peddlers.",
+      "translate": "quest.narutorpg.peddlers_escort_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Open for Business! The Leaf Moving Service",
+    "translate": "quest.narutorpg.peddlers_escort_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.peddlers_escort_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Go: Open for Business! The Leaf Moving Service",
+        "translate": "quest.narutorpg.peddlers_escort_mission_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.peddlers_escort_mission_01.o3"
+      }
+    }
+  ],
+  "order": 19700,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Cursed Warrior Extermination Mission",
+    "translate": "quest.narutorpg.arc.cursed_warrior_extermination_mission"
+  },
+  "description": {
+    "fallback": "The group talks at Mōsō's house. After that, they discuss that Kōmei, the village strategist and the son's potential rival for succession, may be behind the Cursed Warrior. To prove this, they try to visit the new feudal lord Sagi at a lake where he holds his lost memories of his sister Toki.",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.desc"
+  },
+  "giver": "narutorpg:komei",
+  "intro": [
+    {
+      "fallback": "The group talks at Mōsō's house.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.intro0"
+    },
+    {
+      "fallback": "After that, they discuss that Kōmei, the village strategist and the son's potential rival for succession, may be behind the Cursed Warrior.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.intro1"
+    },
+    {
+      "fallback": "To prove this, they try to visit the new feudal lord Sagi at a lake where he holds his lost memories of his sister Toki.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Tactician's Intent",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:komei",
+      "text": {
+        "fallback": "Talk to Kōmei",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Go: The Tactician's Intent",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 17201,
+  "outro": [
+    {
+      "fallback": "The group protects the feudal lord from assassins and pursues the Cursed Warrior to its meeting with Kōmei, whereafter it is defeated, it is revealed that it and the previous Cursed Warrior were two different...",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.outro0"
+    },
+    {
+      "fallback": "The group finds evidence that indicates that Kōmei may have been behind the second Cursed Warrior's appearance, and Kōmei is arrested.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:cursed_warrior_extermination_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Cursed Warrior Extermination Mission",
+    "translate": "quest.narutorpg.arc.cursed_warrior_extermination_mission"
+  },
+  "description": {
+    "fallback": "Mōsō states the mission is over. Naruto, however, is sceptical, and investigates where he and his companions fought the Cursed Warrior. He finds a secret passage to the feudal lord's mansion, but is caught.",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Mōsō states the mission is over.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.intro0"
+    },
+    {
+      "fallback": "Naruto, however, is sceptical, and investigates where he and his companions fought the Cursed Warrior.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.intro1"
+    },
+    {
+      "fallback": "He finds a secret passage to the feudal lord's mansion, but is caught.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Too Late for Help",
+    "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: Too Late for Help",
+        "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 17202,
+  "outro": [
+    {
+      "fallback": "The Cursed Warrior arrives in Naruto's cell, but turns out to be Sagi in the Cursed Warrior's armour.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.outro0"
+    },
+    {
+      "fallback": "Sagi decides that because Naruto trespassed, he will be sentenced to death.",
+      "translate": "quest.narutorpg.cursed_warrior_extermination_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:cursed_warrior_extermination_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

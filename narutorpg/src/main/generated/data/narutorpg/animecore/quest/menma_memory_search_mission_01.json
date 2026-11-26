@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Menma Memory Search Mission",
+    "translate": "quest.narutorpg.arc.menma_memory_search_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] While on his way to collect bamboo shoots for menma ramen, Naruto finds a man close to a river bank and helps him out. The man is unable to remember even his own name, so Naruto calls him \"Menma\". As Naruto tries to help him recover his memories, he learns that Menma is extraordinarily good natured and helpful.",
+    "translate": "quest.narutorpg.menma_memory_search_mission_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "While on his way to collect bamboo shoots for menma ramen, Naruto finds a man close to a river bank and helps him out.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_01.intro0"
+    },
+    {
+      "fallback": "The man is unable to remember even his own name, so Naruto calls him \"Menma\".",
+      "translate": "quest.narutorpg.menma_memory_search_mission_01.intro1"
+    },
+    {
+      "fallback": "As Naruto tries to help him recover his memories, he learns that Menma is extraordinarily good natured and helpful.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Vanished Memories",
+    "translate": "quest.narutorpg.menma_memory_search_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.menma_memory_search_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Vanished Memories",
+        "translate": "quest.narutorpg.menma_memory_search_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 22300,
+  "outro": [
+    {
+      "fallback": "As Naruto tries to help him recover his memories, he learns that Menma is extraordinarily good natured and helpful.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_01.outro0"
+    },
+    {
+      "fallback": "When a mysterious man attacks the two, Menma uses an ocarina to increase Naruto's abilities, causing Naruto to wonder who he really is.",
+      "translate": "quest.narutorpg.menma_memory_search_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

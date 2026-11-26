@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Confrontation",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_confrontation"
+  },
+  "description": {
+    "fallback": "In the rubble of a smashed pillar, a damaged Mū stands up. He reveals that he split his body in two, and that only half of him was sealed. He tries to remove the tags from his other half, but the seal is too strong in his weakened state.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "In the rubble of a smashed pillar, a damaged Mū stands up.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.intro0"
+    },
+    {
+      "fallback": "He reveals that he split his body in two, and that only half of him was sealed.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.intro1"
+    },
+    {
+      "fallback": "He tries to remove the tags from his other half, but the seal is too strong in his weakened state.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kabuto's Trump Card: The Real Madara Uchiha",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Go: Kabuto's Trump Card: The Real Madara Uchiha",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.travel"
+      }
+    },
+    {
+      "type": "use_ability",
+      "count": 3,
+      "text": {
+        "fallback": "Train: use 3 techniques",
+        "translate": "quest.narutorpg.train"
+      }
+    }
+  ],
+  "order": 127107,
+  "outro": [
+    {
+      "fallback": "Mū then, eventually due to his weakened state, performs a summoning of the reincarnated ninja who is Kabuto's ultimate weapon.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.outro0"
+    },
+    {
+      "fallback": "The figure, whose power is so intense that the coffin's lid bursted open, is revealed to be Madara Uchiha.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_08.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_07"
+  ],
+  "rewards": {
+    "experience": 29,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 8
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

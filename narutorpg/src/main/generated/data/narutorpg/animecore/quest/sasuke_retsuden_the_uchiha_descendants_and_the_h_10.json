@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_boruto",
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": "Before its soul returns to the afterlife, one of the revived dragons takes advantage of the fact that it is no longer under Jiji's control by attacking Jiji. Sakura immediately starts healing his injuries, but Jiji pleads with her to let him die as punishment for his actions. She refuses, reminding him that he must reunite with Margo.",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Before its soul returns to the afterlife, one of the revived dragons takes advantage of the fact that it is no longer under Jiji's control by attacking Jiji.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.intro0"
+    },
+    {
+      "fallback": "Sakura immediately starts healing his injuries, but Jiji pleads with her to let him die as punishment for his actions.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.intro1"
+    },
+    {
+      "fallback": "She refuses, reminding him that he must reunite with Margo.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 10 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Chapter 10 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nanara_foe_boruto",
+      "text": {
+        "fallback": "Defeat Nanara",
+        "translate": "quest.narutorpg.defeat.nanara_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jiji_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jiji",
+        "translate": "quest.narutorpg.defeat.jiji_foe_boruto"
+      }
+    }
+  ],
+  "order": 229109,
+  "outro": [
+    {
+      "fallback": "Sakura asks if this means the ring he gave her was meant to ward off other men.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.outro0"
+    },
+    {
+      "fallback": "Sasuke chokes on his drink, but Sakura thanks him anyway.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_10.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_09"
+  ],
+  "rewards": {
+    "experience": 41,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 14
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

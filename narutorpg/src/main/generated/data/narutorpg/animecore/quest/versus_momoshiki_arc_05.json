@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:killer_b_ally_boruto",
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Versus Momoshiki Arc",
+    "translate": "quest.narutorpg.arc.versus_momoshiki_arc"
+  },
+  "description": {
+    "fallback": "In a wasteland where a God Tree resides, Momoshiki drains Kurama's chakra from Naruto. Kinshiki explains that this God Tree was created from a man who also harboured a Tailed Beast, who Naruto understands to be Killer B. Momoshiki complains about how long the process is taking, having only absorbed half of the chakra in Naruto.",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In a wasteland where a God Tree resides, Momoshiki drains Kurama's chakra from Naruto.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_05.intro0"
+    },
+    {
+      "fallback": "Kinshiki explains that this God Tree was created from a man who also harboured a Tailed Beast, who Naruto understands to be Killer B.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_05.intro1"
+    },
+    {
+      "fallback": "Momoshiki complains about how long the process is taking, having only absorbed half of the chakra in Naruto.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Rescuing Naruto",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Rescuing Naruto",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kinshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Kinshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.kinshiki_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:momoshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Momoshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.momoshiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 206104,
+  "outro": [
+    {
+      "fallback": "Momoshiki releases a pulse of energy that cuts clean through the God Tree, and pushes everyone back.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_05.outro0"
+    },
+    {
+      "fallback": "Momoshiki proceeds to knock out Chōjūrō, Darui, Gaara and Kurotsuchi.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:versus_momoshiki_arc_04"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

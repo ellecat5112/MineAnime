@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kankuro_ally_boruto",
+    "narutorpg:shinki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "One-Tail Escort Arc",
+    "translate": "quest.narutorpg.arc.one_tail_escort_arc"
+  },
+  "description": {
+    "fallback": "Kankurō battles Urashiki's puppets to buy Shinki and Boruto more time. As the puppets increase in numbers, Kankurō summons more puppets to battle his foes. He is overwhelmed and decides to self-destruct his puppets to destroy the remaining enemies.",
+    "translate": "quest.narutorpg.one_tail_escort_arc_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Kankurō battles Urashiki's puppets to buy Shinki and Boruto more time.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_03.intro0"
+    },
+    {
+      "fallback": "As the puppets increase in numbers, Kankurō summons more puppets to battle his foes.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_03.intro1"
+    },
+    {
+      "fallback": "He is overwhelmed and decides to self-destruct his puppets to destroy the remaining enemies.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Puppet Battle!",
+    "translate": "quest.narutorpg.one_tail_escort_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.one_tail_escort_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: The Puppet Battle!",
+        "translate": "quest.narutorpg.one_tail_escort_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213002,
+  "outro": [
+    {
+      "fallback": "Shukaku appears and tells Boruto how Shinki was similar to Gaara until Gaara was saved by Naruto, who gave him a different path of fighting to protect people and never giving up on that, instead of fighting for hatred.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_03.outro0"
+    },
+    {
+      "fallback": "This surprises Boruto, who decides to go see if Kankurō is okay.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:one_tail_escort_arc_02"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

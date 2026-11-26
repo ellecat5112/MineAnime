@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:roshi_ally_shippuden",
+    "narutorpg:yagura_karatachi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "Naruto and B encounter Tobi and Naruto head-butts him head-on, sending them both reeling. Tobi's mask doesn't even get a scratch on it. B catches Naruto and advises him to calm down.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto and B encounter Tobi and Naruto head-butts him head-on, sending them both reeling.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.intro0"
+    },
+    {
+      "fallback": "Tobi's mask doesn't even get a scratch on it.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.intro1"
+    },
+    {
+      "fallback": "B catches Naruto and advises him to calm down.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Showdown with Tobi",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: The Showdown with Tobi",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tobi_zetsu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Tobi (Zetsu)",
+        "translate": "quest.narutorpg.defeat.tobi_zetsu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133201,
+  "outro": [
+    {
+      "fallback": "Naruto goes in the open and tries destroying a receiver in Rōshi while being attacked, but is stopped by Han.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.outro0"
+    },
+    {
+      "fallback": "The Eight-Tails says that the forest will hinder their field of vision, so",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_02.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_01"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

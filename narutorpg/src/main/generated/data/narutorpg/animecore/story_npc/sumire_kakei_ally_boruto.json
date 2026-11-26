@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:summoning_technique",
+    "narutorpg:water_release_water_spirit_wave",
+    "narutorpg:gozu_tenno"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 2001125,
+    "hair": 2503224,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 14724201,
+    "top": 2046559
+  },
+  "attack": 18.0,
+  "health": 256.0,
+  "name": {
+    "fallback": "Sumire Kakei",
+    "translate": "npc.narutorpg.sumire_kakei"
+  },
+  "power": 2.68,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

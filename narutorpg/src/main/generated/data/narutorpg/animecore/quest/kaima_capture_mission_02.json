@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kaima Capture Mission",
+    "translate": "quest.narutorpg.arc.kaima_capture_mission"
+  },
+  "description": {
+    "fallback": "Naruto awakens in the girl's hut, where she identifies herself as Isaribi. Upon thanking her, Naruto realises that she is being ostracised by the local residents, and he angrily chases away the children that have arrived to torment her. Meanwhile, Orochimaru is meeting with Amachi, a scientist conducting experiments under his direction.",
+    "translate": "quest.narutorpg.kaima_capture_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto awakens in the girl's hut, where she identifies herself as Isaribi.",
+      "translate": "quest.narutorpg.kaima_capture_mission_02.intro0"
+    },
+    {
+      "fallback": "Upon thanking her, Naruto realises that she is being ostracised by the local residents, and he angrily chases away the children that have arrived to torment her.",
+      "translate": "quest.narutorpg.kaima_capture_mission_02.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Orochimaru is meeting with Amachi, a scientist conducting experiments under his direction.",
+      "translate": "quest.narutorpg.kaima_capture_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Closed Door",
+    "translate": "quest.narutorpg.kaima_capture_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kaima_capture_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: The Closed Door",
+        "translate": "quest.narutorpg.kaima_capture_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 17901,
+  "outro": [
+    {
+      "fallback": "Anko attempts to pursue but is paralysed by pain from her cursed seal.",
+      "translate": "quest.narutorpg.kaima_capture_mission_02.outro0"
+    },
+    {
+      "fallback": "Anko falls unconscious from the pain caused by the cursed seal.",
+      "translate": "quest.narutorpg.kaima_capture_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kaima_capture_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

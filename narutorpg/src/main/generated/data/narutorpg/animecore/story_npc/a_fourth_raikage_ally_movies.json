@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:drop_kick",
+    "narutorpg:elbow",
+    "narutorpg:guillotine_drop",
+    "narutorpg:headbutt",
+    "narutorpg:iron_claw",
+    "narutorpg:body_flicker_technique"
+  ],
+  "appearance": {
+    "accent": 16757504,
+    "eyes": 1118481,
+    "hair": 5125166,
+    "headband": 2503224,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 16448250
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "A (Fourth Raikage)",
+    "translate": "npc.narutorpg.a_fourth_raikage"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

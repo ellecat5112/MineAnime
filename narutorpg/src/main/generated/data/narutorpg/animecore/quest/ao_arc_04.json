@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:orochimaru_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Ao Arc",
+    "translate": "quest.narutorpg.arc.ao_arc"
+  },
+  "description": {
+    "fallback": "As the building begins to collapse under the toad's weight, Ao uses Water Release to push Boruto out of the debris' way, and is crushed by the toad. Koji wonders what motivated Ao to use ninjutsu at the very end, and introduces himself after releasing his summon. Koji congratulates the shinobi for defeating Ao, with Konohamaru asking him on information about Kara.",
+    "translate": "quest.narutorpg.ao_arc_04.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "As the building begins to collapse under the toad's weight, Ao uses Water Release to push Boruto out of the debris' way, and is crushed by the toad.",
+      "translate": "quest.narutorpg.ao_arc_04.intro0"
+    },
+    {
+      "fallback": "Koji wonders what motivated Ao to use ninjutsu at the very end, and introduces himself after releasing his summon.",
+      "translate": "quest.narutorpg.ao_arc_04.intro1"
+    },
+    {
+      "fallback": "Koji congratulates the shinobi for defeating Ao, with Konohamaru asking him on information about Kara.",
+      "translate": "quest.narutorpg.ao_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Koji's Appearance",
+    "translate": "quest.narutorpg.ao_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.ao_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Koji's Appearance",
+        "translate": "quest.narutorpg.ao_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    }
+  ],
+  "order": 218803,
+  "outro": [
+    {
+      "fallback": "Chamaru draws their attention to a passed out boy, who they believe to be the one who defeated the puppets.",
+      "translate": "quest.narutorpg.ao_arc_04.outro0"
+    },
+    {
+      "fallback": "Despite Konohamaru's warning, Boruto approaches him, and notices he has the same mark as him.",
+      "translate": "quest.narutorpg.ao_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:ao_arc_03"
+  ],
+  "rewards": {
+    "experience": 41,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "narutorpg:hiruzen_sarutobi_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Konoha Crush",
+    "translate": "quest.narutorpg.arc.konoha_crush"
+  },
+  "description": {
+    "fallback": "Back at the stadium, the Jōnin of Konoha observe their field of victory, the bodies of Oto and Suna ninja strewn across the arena. The battle between the Third Hokage and Orochimaru has, over the past hour, not changed, as each is still locked in place; the Kusanagi in the Third's back and the soul partially removed from Orochimaru's body. The Third, wise as he is, has used this time to come to the conclusion that...",
+    "translate": "quest.narutorpg.konoha_crush_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Back at the stadium, the Jōnin of Konoha observe their field of victory, the bodies of Oto and Suna ninja strewn across the arena.",
+      "translate": "quest.narutorpg.konoha_crush_03.intro0"
+    },
+    {
+      "fallback": "The battle between the Third Hokage and Orochimaru has, over the past hour, not changed, as each is still locked in place; the Kusanagi in the Third's back and the soul partially removed from Orochimaru's body.",
+      "translate": "quest.narutorpg.konoha_crush_03.intro1"
+    },
+    {
+      "fallback": "The Third, wise as he is, has used this time to come to the conclusion that he no longer has the strength needed to completely remove Orochimaru's soul, and decides instead to make this Orochimaru's last battle.",
+      "translate": "quest.narutorpg.konoha_crush_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Finale",
+    "translate": "quest.narutorpg.konoha_crush_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.konoha_crush_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Finale",
+        "translate": "quest.narutorpg.konoha_crush_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gaara_foe_naruto",
+      "text": {
+        "fallback": "Defeat Gaara",
+        "translate": "quest.narutorpg.defeat.gaara_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 7802,
+  "outro": [
+    {
+      "fallback": "Upon getting close enough, instead of harming Gaara, Naruto displays pity, stating that he too knows the pain of being alone.",
+      "translate": "quest.narutorpg.konoha_crush_03.outro0"
+    },
+    {
+      "fallback": "Naruto, however, was a",
+      "translate": "quest.narutorpg.konoha_crush_03.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:konoha_crush_02"
+  ],
+  "rewards": {
+    "experience": 19,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 2
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:acid_permeation",
+    "narutorpg:aqua_shoot"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "hair": 15913323,
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 8916559
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Ikada Funato",
+    "translate": "npc.narutorpg.ikada_funato"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:asuma_sarutobi_ally_shippuden",
+    "narutorpg:shikamaru_nara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Team Asuma recognises the reanimated corpses fighting them as those of the Kohaku Clan as well as the citizens of all the villages attacked by Furido's 4-Man Team. Shikamaru, meanwhile, is in a meeting with Tsunade and Shizune discussing defensive countermeasures. Asuma tells Team Ebisu to send any shinobi of chūnin rank or higher to the power station, and heads off in that direction.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_13.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Team Asuma recognises the reanimated corpses fighting them as those of the Kohaku Clan as well as the citizens of all the villages attacked by Furido's 4-Man Team.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_13.intro0"
+    },
+    {
+      "fallback": "Shikamaru, meanwhile, is in a meeting with Tsunade and Shizune discussing defensive countermeasures.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_13.intro1"
+    },
+    {
+      "fallback": "Asuma tells Team Ebisu to send any shinobi of chūnin rank or higher to the power station, and heads off in that direction.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Revived Souls",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: Revived Souls",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_13.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kazuma_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kazuma",
+        "translate": "quest.narutorpg.defeat.kazuma_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106412,
+  "outro": [
+    {
+      "fallback": "Fuen traps Sakura, but shows disdain in trapping a female and asks where Sai is; Fudō manages to ensnare Yamato, and after coating himself with his Rock Armour, hits the captain with his Chakra Enhanced Strength.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_13.outro0"
+    },
+    {
+      "fallback": "On the outskirts of the village, Sora finds Furido, who confirms that Konoha will be burned down for the benefit of the Land of Fire, much to Sora's horror.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_13.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_12"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

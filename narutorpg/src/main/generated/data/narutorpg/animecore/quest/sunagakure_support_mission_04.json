@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:matsuri_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Sunagakure Support Mission",
+    "translate": "quest.narutorpg.arc.sunagakure_support_mission"
+  },
+  "description": {
+    "fallback": "Although his comrades are defeated, Hōki puts his final plan in motion by using Gaara to revive the \"ultimate weapon\" of Takumi Village, Seimei. To do this, he traps Gaara in a metal sphere that starts draining his chakra. Gaara partially transforms into the One-Tailed Shukaku, the overflowing chakra fuelling Hōki's sacrifice of his body for Seimei's revival.",
+    "translate": "quest.narutorpg.sunagakure_support_mission_04.desc"
+  },
+  "giver": "narutorpg:gaara",
+  "intro": [
+    {
+      "fallback": "Although his comrades are defeated, Hōki puts his final plan in motion by using Gaara to revive the \"ultimate weapon\" of Takumi Village, Seimei.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_04.intro0"
+    },
+    {
+      "fallback": "To do this, he traps Gaara in a metal sphere that starts draining his chakra.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_04.intro1"
+    },
+    {
+      "fallback": "Gaara partially transforms into the One-Tailed Shukaku, the overflowing chakra fuelling Hōki's sacrifice of his body for Seimei's revival.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Ultimate Weapon Reborn",
+    "translate": "quest.narutorpg.sunagakure_support_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:gaara",
+      "text": {
+        "fallback": "Talk to Gaara",
+        "translate": "quest.narutorpg.sunagakure_support_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: The Ultimate Weapon Reborn",
+        "translate": "quest.narutorpg.sunagakure_support_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hoki_takumi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hōki (Takumi)",
+        "translate": "quest.narutorpg.defeat.hoki_takumi_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:seimei_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Seimei",
+        "translate": "quest.narutorpg.defeat.seimei_foe_shippuden"
+      }
+    }
+  ],
+  "order": 122603,
+  "outro": [
+    {
+      "fallback": "Gaara partially transforms into the One-Tailed Shukaku, the overflowing chakra fuelling Hōki's sacrifice of his body for Seimei's revival.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_04.outro0"
+    },
+    {
+      "fallback": "Taking the weapons of the Four Celestial Symbols Men and wearing it as a spectral armour, he was able to drive Naruto to a corner despite Matsuri's attempted assistance.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:sunagakure_support_mission_03"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

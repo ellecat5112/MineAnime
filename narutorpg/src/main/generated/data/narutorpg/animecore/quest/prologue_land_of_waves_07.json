@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:tazuna_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "Kakashi suddenly told everyone to duck as a giant sword spun past them, nearly killing them all. The sword embedded itself in a tree, and Zabuza Momochi, a missing-nin from Kirigakure, jumped onto its handle, intent on killing Tazuna. Kakashi, recognising Zabuza as a formidable opponent, revealed his Sharingan, saying that he will need to use it.",
+    "translate": "quest.narutorpg.prologue_land_of_waves_07.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Kakashi suddenly told everyone to duck as a giant sword spun past them, nearly killing them all.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_07.intro0"
+    },
+    {
+      "fallback": "The sword embedded itself in a tree, and Zabuza Momochi, a missing-nin from Kirigakure, jumped onto its handle, intent on killing Tazuna.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_07.intro1"
+    },
+    {
+      "fallback": "Kakashi, recognising Zabuza as a formidable opponent, revealed his Sharingan, saying that he will need to use it.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Demon of the Hidden Mist",
+    "translate": "quest.narutorpg.prologue_land_of_waves_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.prologue_land_of_waves_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: The Demon of the Hidden Mist",
+        "translate": "quest.narutorpg.prologue_land_of_waves_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zabuza_momochi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Zabuza Momochi",
+        "translate": "quest.narutorpg.defeat.zabuza_momochi_foe_naruto"
+      }
+    }
+  ],
+  "order": 1106,
+  "outro": [
+    {
+      "fallback": "Sasuke, sensing Naruto's plan, hurled the fūma shuriken at Zabuza, who easily grabbed it from the air.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_07.outro0"
+    },
+    {
+      "fallback": "To his surprise, a second shuriken was hiding in the shadow of the first due to Sasuke's S",
+      "translate": "quest.narutorpg.prologue_land_of_waves_07.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_06"
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

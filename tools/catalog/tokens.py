@@ -31,7 +31,8 @@ TOKENS = {
 
 # admin seals: gold-framed black talisman with an action glyph
 ADMIN = {'admin_seal_rank_up': 'chevron', 'admin_seal_clan_level': 'tomoe', 'admin_seal_mastery': 'flame', 'admin_seal_skill_points': 'dots',
-         'admin_seal_natures': 'swirl', 'admin_seal_reputation': 'leaf', 'admin_seal_refill': 'drop', 'admin_seal_max_all': 'sun'}
+         'admin_seal_natures': 'swirl', 'admin_seal_reputation': 'leaf', 'admin_seal_refill': 'drop', 'admin_seal_max_all': 'sun',
+         'admin_seal_story': 'scroll'}
 
 
 def rgb(h, a=255):
@@ -162,13 +163,35 @@ def build():
         elif glyph == 'drop':
             d.polygon([(cx, 8), (cx + 5, 17), (cx, 22), (cx - 5, 17)], fill=(90, 190, 255, 255))
             d.ellipse([cx - 5, 13, cx + 5, 22], fill=(90, 190, 255, 255))
+        elif glyph == 'scroll':
+            d.rectangle([10, 11, 21, 20], fill=(240, 226, 190, 255))
+            d.rectangle([9, 9, 11, 22], fill=g); d.rectangle([20, 9, 22, 22], fill=g)
+            d.line([(13, 14), (18, 14)], fill=(60, 40, 30, 255)); d.line([(13, 17), (18, 17)], fill=(60, 40, 30, 255))
         elif glyph == 'sun':
             d.ellipse([11, 11, 20, 20], fill=g)
             for k in range(8):
                 a = k * math.pi / 4
                 d.line([(cx + 6 * math.cos(a), cy + 6 * math.sin(a)), (cx + 9 * math.cos(a), cy + 9 * math.sin(a))], fill=g, width=2)
         im.save(os.path.join(ITEM_DIR, name + '.png'), optimize=True)
-    print(f'{len(TOKENS)} technique tokens + {len(ADMIN)} admin seals -> {ITEM_DIR}')
+    quest_scroll()
+    print(f'{len(TOKENS)} technique tokens + {len(ADMIN)} admin seals + quest scroll -> {ITEM_DIR}')
+
+
+def quest_scroll():
+    """Story journal: an opened parchment scroll with red-lacquered rollers and a tied cord."""
+    from PIL import Image, ImageDraw
+    im = Image.new('RGBA', (32, 32), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    d.polygon([(7, 7), (25, 5), (26, 25), (8, 27)], fill=(238, 222, 180, 255))
+    for i, y in enumerate((11, 14, 17, 20)):
+        d.line([(11, y), (22 - (i % 2) * 3, y - 1)], fill=(70, 48, 36, 255))
+    d.rounded_rectangle([4, 4, 9, 28], 2, fill=(160, 32, 40, 255))
+    d.rounded_rectangle([23, 3, 28, 27], 2, fill=(160, 32, 40, 255))
+    d.rectangle([5, 3, 8, 4], fill=(212, 160, 23, 255)); d.rectangle([5, 28, 8, 29], fill=(212, 160, 23, 255))
+    d.rectangle([24, 2, 27, 3], fill=(212, 160, 23, 255)); d.rectangle([24, 27, 27, 28], fill=(212, 160, 23, 255))
+    d.ellipse([13, 22, 19, 28], fill=(200, 40, 40, 255))
+    d.point((16, 25), fill=(255, 220, 120, 255))
+    im.save(os.path.join(ITEM_DIR, 'quest_scroll.png'), optimize=True)
 
 
 if __name__ == '__main__':

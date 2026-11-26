@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shabadaba_ally_movies",
+    "narutorpg:michiru_tsuki_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_guardians_of_the_crescent_moon_"
+  },
+  "description": {
+    "fallback": "At the castle, Shabadaba's reasons for taking over the country were revealed to be purely material, the same things Michiru had considered important, as he intended to use the nation's wealth for himself rather than the people. Michiru was disgusted by Shabadaba's attitude, and realised the truth of what his father had said. Shabadaba decided to put him to death by a drawn out hanging: he had Michiru balance on a...",
+    "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "At the castle, Shabadaba's reasons for taking over the country were revealed to be purely material, the same things Michiru had considered important, as he intended to use the nation's wealth for himself rather than the...",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.intro0"
+    },
+    {
+      "fallback": "Michiru was disgusted by Shabadaba's attitude, and realised the truth of what his father had said.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.intro1"
+    },
+    {
+      "fallback": "Shabadaba decided to put him to death by a drawn out hanging: he had Michiru balance on a board of wood not strong enough to support his weight while wearing a noose, ensuring that, sooner or later, he would fall and be...",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 4",
+    "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: Part 4",
+        "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ishidate_foe_movies",
+      "text": {
+        "fallback": "Defeat Ishidate",
+        "translate": "quest.narutorpg.defeat.ishidate_foe_movies"
+      }
+    }
+  ],
+  "order": 301203,
+  "outro": [
+    {
+      "fallback": "Sakura was able to dispatch her poison and genjutsu-using opponent, Karenbana, by shattering a chandelier to locate her by watching where she moved, and subsequently killed her with one punch.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.outro0"
+    },
+    {
+      "fallback": "It turned out Karebana had worn too much perfume (which had helped Sakura locate her opponent while in a genjutsu by smelling for the perfume).",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__04.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_guardians_of_the_crescent_moon__03"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

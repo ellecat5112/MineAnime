@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:sakura_haruno_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Land of Rice Fields Investigation Mission",
+    "translate": "quest.narutorpg.arc.land_of_rice_fields_investigation_mission"
+  },
+  "description": {
+    "fallback": "Naruto, Sakura, and Jiraiya look at the directions leading to their destination. With the perverted pictures in the map, Naruto and Sakura start thinking this is one of Jiraiya's destinations, only to find out that the place was worse than the one they saw before. Jiraiya heads off to a bar with women and bribes them to get info on Otogakure.",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Naruto, Sakura, and Jiraiya look at the directions leading to their destination.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.intro0"
+    },
+    {
+      "fallback": "With the perverted pictures in the map, Naruto and Sakura start thinking this is one of Jiraiya's destinations, only to find out that the place was worse than the one they saw before.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.intro1"
+    },
+    {
+      "fallback": "Jiraiya heads off to a bar with women and bribes them to get info on Otogakure.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Town of Outlaws, The Shadow of the Fūma Clan",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: A Town of Outlaws, The Shadow of the Fūma Clan",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 14601,
+  "outro": [
+    {
+      "fallback": "They get stuck in the cabin they were at, because of Jigumo's Wind Spider Technique and Empty Cicada Shell Technique.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.outro0"
+    },
+    {
+      "fallback": "After Naruto leaves Sakura to fight the attackers, he creates several clones to scout the area, only to get surprised by Kagerō's Earth Release: Antlion Technique.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:land_of_rice_fields_investigation_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shinki_ally_boruto",
+    "narutorpg:gaara_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "One-Tail Escort Arc",
+    "translate": "quest.narutorpg.arc.one_tail_escort_arc"
+  },
+  "description": {
+    "fallback": "Boruto, Shinki, and Shukaku approach the Land of Fire, noticing more vegetation. Urashiki intercepts them. Shinki is incredulous that Urashiki broke through Gaara's seal, and wonders how he tracked Shukaku when the kettle should suppress their chakra.",
+    "translate": "quest.narutorpg.one_tail_escort_arc_05.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto, Shinki, and Shukaku approach the Land of Fire, noticing more vegetation.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_05.intro0"
+    },
+    {
+      "fallback": "Urashiki intercepts them.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_05.intro1"
+    },
+    {
+      "fallback": "Shinki is incredulous that Urashiki broke through Gaara's seal, and wonders how he tracked Shukaku when the kettle should suppress their chakra.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Decision Time",
+    "translate": "quest.narutorpg.one_tail_escort_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.one_tail_escort_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Decision Time",
+        "translate": "quest.narutorpg.one_tail_escort_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213004,
+  "outro": [
+    {
+      "fallback": "They flee, and Shinki leaves several Third Eyes behind to keep track of Urashiki, certain that his seal won't hold as long as Gaara's.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_05.outro0"
+    },
+    {
+      "fallback": "Boruto is concerned about the Byakugan, and Shinki changes their direction.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:one_tail_escort_arc_04"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,82 @@
+{
+  "arc": {
+    "fallback": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+    "translate": "quest.narutorpg.arc.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the"
+  },
+  "description": {
+    "fallback": "Despite his assignment to mentor a genin team, Kakashi consistently fails the teams he tests over their lack of team-work, wanting to make sure that no team will ever suffer the same losses his team had over what Kakashi perceived as improper team-work. Kakashi's interest is sparked when a team similar to his own, consisting of his sensei's orphan, Itachi's brother, and a clever kunoichi are to be evaluated by him....",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Despite his assignment to mentor a genin team, Kakashi consistently fails the teams he tests over their lack of team-work, wanting to make sure that no team will ever suffer the same losses his team had over what...",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.intro0"
+    },
+    {
+      "fallback": "Kakashi's interest is sparked when a team similar to his own, consisting of his sensei's orphan, Itachi's brother, and a clever kunoichi are to be evaluated by him.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.intro1"
+    },
+    {
+      "fallback": "Despite his initial reservation and disappointment while meeting them, the team is able to grasp his lesson in team-work, ignoring the rules when one of their own needed help.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jōnin Leader",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Jōnin Leader",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.o3"
+      }
+    }
+  ],
+  "order": 135904,
+  "outro": [
+    {
+      "fallback": "Despite his initial reservation and disappointment while meeting them, the team is able to grasp his lesson in team-work, ignoring the rules when one of their own needed help.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.outro0"
+    },
+    {
+      "fallback": "Kakashi passes them and officially becomes their team leader.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_05.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_04"
+  ],
+  "rewards": {
+    "experience": 31,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

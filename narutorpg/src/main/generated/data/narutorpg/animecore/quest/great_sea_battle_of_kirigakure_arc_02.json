@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:awaji_unabara_ally_boruto",
+    "narutorpg:chojuro_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Sanzui has to be stopped from going into the burning airship to look for Awaji. Chōjūrō and other Kiri shinobi put out the fire. Team 7 tends to Katasuke's injuries.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.desc"
+  },
+  "giver": "narutorpg:sanzui_unabara",
+  "intro": [
+    {
+      "fallback": "Sanzui has to be stopped from going into the burning airship to look for Awaji.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.intro0"
+    },
+    {
+      "fallback": "Chōjūrō and other Kiri shinobi put out the fire.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.intro1"
+    },
+    {
+      "fallback": "Team 7 tends to Katasuke's injuries.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Unleashed Villain",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sanzui_unabara",
+      "text": {
+        "fallback": "Talk to Sanzui Unabara",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: The Unleashed Villain",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isari_funato_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isari Funato",
+        "translate": "quest.narutorpg.defeat.isari_funato_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:araumi_funato_foe_boruto",
+      "text": {
+        "fallback": "Defeat Araumi Funato",
+        "translate": "quest.narutorpg.defeat.araumi_funato_foe_boruto"
+      }
+    }
+  ],
+  "order": 224301,
+  "outro": [
+    {
+      "fallback": "Misuno asks Chōjūrō to return to his office, where he can ask for reinforcements.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.outro0"
+    },
+    {
+      "fallback": "Isari arrives at his father Araumi's cell, defeating the guards posted there, and breaks his glass containment.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_01"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

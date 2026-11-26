@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Konoha Hiden: The Perfect Day for a Wedding",
+    "translate": "quest.narutorpg.arc.konoha_hiden_the_perfect_day_for_a_wedding"
+  },
+  "description": {
+    "fallback": "The Konoha 11 wonder what to gift Naruto and Hinata. Lee tries Naruto's favourite ramen to get into his shoes and figure out something he'd like. He asks Iruka about Naruto, but Iruka barely sees Naruto nowadays.",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The Konoha 11 wonder what to gift Naruto and Hinata.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.intro0"
+    },
+    {
+      "fallback": "Lee tries Naruto's favourite ramen to get into his shoes and figure out something he'd like.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.intro1"
+    },
+    {
+      "fallback": "He asks Iruka about Naruto, but Iruka barely sees Naruto nowadays.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Full-Powered Wedding Gift",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Go: A Full-Powered Wedding Gift",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 150401,
+  "outro": [
+    {
+      "fallback": "Lee considers giving them dumbbells, but decides against it.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.outro0"
+    },
+    {
+      "fallback": "Tenten thinks about giving them cute kunai, but realises giving them a weapon might reflect poorly on her.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_02.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_01"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

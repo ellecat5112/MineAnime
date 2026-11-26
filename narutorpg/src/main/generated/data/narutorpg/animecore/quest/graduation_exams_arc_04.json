@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Graduation Exams Arc",
+    "translate": "quest.narutorpg.arc.graduation_exams_arc"
+  },
+  "description": {
+    "fallback": "Kakashi has Boruto pinned down in a way that would require Boruto to break his own arm to break free. He admonishes Boruto's lack of resolve and motivation to change, and reveals his Sukea disguise. Kakashi believes Boruto's influence on his classmates to have made them unsuitable to become shinobi.",
+    "translate": "quest.narutorpg.graduation_exams_arc_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Kakashi has Boruto pinned down in a way that would require Boruto to break his own arm to break free.",
+      "translate": "quest.narutorpg.graduation_exams_arc_04.intro0"
+    },
+    {
+      "fallback": "He admonishes Boruto's lack of resolve and motivation to change, and reveals his Sukea disguise.",
+      "translate": "quest.narutorpg.graduation_exams_arc_04.intro1"
+    },
+    {
+      "fallback": "Kakashi believes Boruto's influence on his classmates to have made them unsuitable to become shinobi.",
+      "translate": "quest.narutorpg.graduation_exams_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Shinobi's Resolve",
+    "translate": "quest.narutorpg.graduation_exams_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.graduation_exams_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: A Shinobi's Resolve",
+        "translate": "quest.narutorpg.graduation_exams_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 204403,
+  "outro": [
+    {
+      "fallback": "Iwabee aggressively tells Boruto he made it this far because of Boruto, something he intends on telling Kakashi.",
+      "translate": "quest.narutorpg.graduation_exams_arc_04.outro0"
+    },
+    {
+      "fallback": "Denki and Sumire share Iwabee's opinion.",
+      "translate": "quest.narutorpg.graduation_exams_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:graduation_exams_arc_03"
+  ],
+  "rewards": {
+    "experience": 37,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

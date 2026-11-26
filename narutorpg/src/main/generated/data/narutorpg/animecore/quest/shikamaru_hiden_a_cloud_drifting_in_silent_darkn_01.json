@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness",
+    "translate": "quest.narutorpg.arc.shikamaru_hiden_a_cloud_drifting_in_silent_darkn"
+  },
+  "description": {
+    "fallback": "Shikamaru and Yurito handle documents for Kakashi. Kakashi tells them they should take a break sometimes. During a break, Shikamaru looks at the clouds, and Yurito asks if he gets bored with a desk job.",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Shikamaru and Yurito handle documents for Kakashi.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.intro0"
+    },
+    {
+      "fallback": "Kakashi tells them they should take a break sometimes.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.intro1"
+    },
+    {
+      "fallback": "During a break, Shikamaru looks at the clouds, and Yurito asks if he gets bored with a desk job.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The State of Affairs",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: The State of Affairs",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Meet Shikamaru Nara",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.o3"
+      }
+    }
+  ],
+  "order": 149900,
+  "outro": [
+    {
+      "fallback": "At the game, Shikamaru beats him.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.outro0"
+    },
+    {
+      "fallback": "Later that night, Shikamaru trains.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_01.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:sasuke_shinden_book_of_sunrise_05"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

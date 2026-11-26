@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_boruto",
+    "narutorpg:araya_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "Konohamaru's neck is being crushed within Matsuri's grasp. Thinking back to Shikamaru's words, Konohamaru tried to reach out to Matsuri, saying if he is devoured by her, he will die. Matsuri is conflicted by her feelings, her infatuation with Konohamaru and her instinct to devour him.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Konohamaru's neck is being crushed within Matsuri's grasp.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.intro0"
+    },
+    {
+      "fallback": "Thinking back to Shikamaru's words, Konohamaru tried to reach out to Matsuri, saying if he is devoured by her, he will die.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.intro1"
+    },
+    {
+      "fallback": "Matsuri is conflicted by her feelings, her infatuation with Konohamaru and her instinct to devour him.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Because of Love",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Because of Love",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:matsuri_god_tree_foe_boruto",
+      "text": {
+        "fallback": "Defeat Matsuri (God Tree)",
+        "translate": "quest.narutorpg.defeat.matsuri_god_tree_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ryū",
+        "translate": "quest.narutorpg.defeat.ryu_foe_boruto"
+      }
+    }
+  ],
+  "order": 302604,
+  "outro": [
+    {
+      "fallback": "Yodo is stabbed through her torso by an Iron Sand spear attack from Ryū, as Sarada, Mitsuki and Araya watch.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.outro0"
+    },
+    {
+      "fallback": "Sarada runs to Yodo's side as Araya, still ensnared by the Iron Sand, cu",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_04"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

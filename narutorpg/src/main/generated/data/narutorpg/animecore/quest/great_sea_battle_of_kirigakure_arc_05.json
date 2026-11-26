@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Buntan takes their discovery as confirmation of the rumours she'd heard about the Funato. Boruto wants to inform Kagura, certain the fortress should have a way to make contact. Iwabee informs the others there are no ships pursuing them and the freed hostages.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Buntan takes their discovery as confirmation of the rumours she'd heard about the Funato.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.intro0"
+    },
+    {
+      "fallback": "Boruto wants to inform Kagura, certain the fortress should have a way to make contact.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.intro1"
+    },
+    {
+      "fallback": "Iwabee informs the others there are no ships pursuing them and the freed hostages.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Mobile Fortress",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: The Mobile Fortress",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 224304,
+  "outro": [
+    {
+      "fallback": "Boruto decides they have to destroy the fortress's weapon themselves.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.outro0"
+    },
+    {
+      "fallback": "Kagura wants to use Taiki's damaged boat as a distraction to help Boruto.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_04"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

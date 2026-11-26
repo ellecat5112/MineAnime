@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Boruto dreams of Momoshiki's warning to him, and looks at the mark on his hand when he wakes up, wondering why he dreamt of it after all this time. While on a mission, Boruto thinks back to Sasuke's recommendations about the mark. Team 7 pursues bank robbers, but Boruto knocks out the one who was supposed to get away, leading them to their leader.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_13.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto dreams of Momoshiki's warning to him, and looks at the mark on his hand when he wakes up, wondering why he dreamt of it after all this time.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_13.intro0"
+    },
+    {
+      "fallback": "While on a mission, Boruto thinks back to Sasuke's recommendations about the mark.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_13.intro1"
+    },
+    {
+      "fallback": "Team 7 pursues bank robbers, but Boruto knocks out the one who was supposed to get away, leading them to their leader.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A New Mission!! (episode)",
+    "translate": "quest.narutorpg.mujina_bandits_arc_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.mujina_bandits_arc_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: A New Mission!! (episode)",
+        "translate": "quest.narutorpg.mujina_bandits_arc_13.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 215112,
+  "outro": [
+    {
+      "fallback": "Boruto buys a pack, but is disappointed in getting another card of his father, which he gives to Iwabee.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_13.outro0"
+    },
+    {
+      "fallback": "Sarada and Chōchō don't get the appeal of the cards.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_13.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_12"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

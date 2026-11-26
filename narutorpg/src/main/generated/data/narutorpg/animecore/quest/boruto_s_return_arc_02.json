@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shikadai_nara_ally_boruto",
+    "narutorpg:chocho_akimichi_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Code is surprised by how fast Boruto reappeared, regretting not attacking Konoha sooner. Boruto threatens him to withdraw the Claw Grime, Code incredulous at that, believing it to be a bluff, recalling how Boruto fled two years prior. Boruto remains resolute, assuring Code he'll lose more than just his left eye this time.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_02.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Code is surprised by how fast Boruto reappeared, regretting not attacking Konoha sooner.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_02.intro0"
+    },
+    {
+      "fallback": "Boruto threatens him to withdraw the Claw Grime, Code incredulous at that, believing it to be a bluff, recalling how Boruto fled two years prior.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_02.intro1"
+    },
+    {
+      "fallback": "Boruto remains resolute, assuring Code he'll lose more than just his left eye this time.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Tree",
+    "translate": "quest.narutorpg.boruto_s_return_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.boruto_s_return_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: Tree",
+        "translate": "quest.narutorpg.boruto_s_return_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    }
+  ],
+  "order": 301101,
+  "outro": [
+    {
+      "fallback": "Shikadai finds the grime stronger than the rest.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_02.outro0"
+    },
+    {
+      "fallback": "It jumps between grimes to slam Kawaki at the ground from behind, referring to him as an Ōtsutsuki.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_01"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

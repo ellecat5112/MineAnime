@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:bashosen_coil_of_fire",
+    "narutorpg:bashosen_coil_of_wind",
+    "narutorpg:furious_tail_strike",
+    "narutorpg:tail_sweep",
+    "narutorpg:tailed_beast_chakra_arms"
+  ],
+  "appearance": {
+    "accent": 16757504,
+    "eyes": 1118481,
+    "hair": 12986408,
+    "headband": 2503224,
+    "outfit": "jacket",
+    "skin": 14724201,
+    "top": 16448250
+  },
+  "attack": 11.0,
+  "health": 158.0,
+  "name": {
+    "fallback": "Kinkaku",
+    "translate": "npc.narutorpg.kinkaku"
+  },
+  "power": 1.84,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

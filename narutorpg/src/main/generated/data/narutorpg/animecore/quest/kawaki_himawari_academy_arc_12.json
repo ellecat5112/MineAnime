@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Having seemingly killed Kae, Hana gets off the bridge and burns it, separating herself from Kawaki and Himawari. Despite Kawaki's assertions, Himawari refuses to believe Hana was deceiving them the whole time. The rest of the class arrives, drawn by the noise, and Kawaki tells them that Hana killed Kae.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Having seemingly killed Kae, Hana gets off the bridge and burns it, separating herself from Kawaki and Himawari.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.intro0"
+    },
+    {
+      "fallback": "Despite Kawaki's assertions, Himawari refuses to believe Hana was deceiving them the whole time.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.intro1"
+    },
+    {
+      "fallback": "The rest of the class arrives, drawn by the noise, and Kawaki tells them that Hana killed Kae.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Students Unite!",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Go: Students Unite!",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 227111,
+  "outro": [
+    {
+      "fallback": "Tears well up in one of Assassin-Hana's eyes, and she determines Teacher-Hana is sad inside her.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.outro0"
+    },
+    {
+      "fallback": "Instead of killing Kae, Hana is waiting for the imprisoned minister's subordinate to arrive by ship, so they can return to the Land of Bamboo with Kae as a hostage.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_12.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_11"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

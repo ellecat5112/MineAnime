@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "eyes": 1118481,
+    "hair": 2503224,
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 6111287
+  },
+  "attack": 14.7,
+  "cast_interval": 70,
+  "health": 264.0,
+  "name": {
+    "fallback": "Penjira",
+    "translate": "npc.narutorpg.penjira"
+  },
+  "power": 2.46,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

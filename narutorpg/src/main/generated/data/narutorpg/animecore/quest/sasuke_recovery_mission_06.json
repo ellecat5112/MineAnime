@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "Last, Kimimaro, who was stronger than all of the Sound Four combined, came to aid the escort mission. At first, he was faced with Naruto, but even Naruto's massive amounts of shadow clones proved to be no match for Kimimaro, whose taijutsu skills were more than a match for Naruto's superior numbers. Naruto even used the Nine-Tailed Demon Fox's chakra, but was still losing.",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_06.desc"
+  },
+  "giver": "narutorpg:rock_lee",
+  "intro": [
+    {
+      "fallback": "Last, Kimimaro, who was stronger than all of the Sound Four combined, came to aid the escort mission.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_06.intro0"
+    },
+    {
+      "fallback": "At first, he was faced with Naruto, but even Naruto's massive amounts of shadow clones proved to be no match for Kimimaro, whose taijutsu skills were more than a match for Naruto's superior numbers.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_06.intro1"
+    },
+    {
+      "fallback": "Naruto even used the Nine-Tailed Demon Fox's chakra, but was still losing.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Rock Lee and Gaara vs. Kimimaro",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:rock_lee",
+      "text": {
+        "fallback": "Talk to Rock Lee",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Rock Lee and Gaara vs. Kimimaro",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gaara_foe_naruto",
+      "text": {
+        "fallback": "Defeat Gaara",
+        "translate": "quest.narutorpg.defeat.gaara_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kimimaro_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kimimaro",
+        "translate": "quest.narutorpg.defeat.kimimaro_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_naruto"
+      }
+    }
+  ],
+  "order": 11705,
+  "outro": [
+    {
+      "fallback": "Even Sand Waterfall Funeral and other crushing forces couldn't bring down Kimimaro, as he used his Cursed Seal Level Two and created a film of bone beneath his skin to protect himself.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_06.outro0"
+    },
+    {
+      "fallback": "Kimimaro would have defeated and killed Gaara with his last attack, but, just before Kimimaro could finish Gaara, his terminal illness ended his life.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_06.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

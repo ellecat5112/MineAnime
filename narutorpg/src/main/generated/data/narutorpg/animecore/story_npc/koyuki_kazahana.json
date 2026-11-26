@@ -1,0 +1,18 @@
+{
+  "appearance": {
+    "accent": 2503224,
+    "eyes": 1118481,
+    "hair": 14737632,
+    "hair_style": "long",
+    "headband": 9479342,
+    "top": 7162945
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Koyuki Kazahana",
+    "translate": "npc.narutorpg.koyuki_kazahana"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:prisoner_cursed_seal",
+    "narutorpg:water_release_clear_mirror_still_water"
+  ],
+  "appearance": {
+    "eyes": 1118481,
+    "hair": 9268835,
+    "headband": 3622735,
+    "outfit": "jacket",
+    "skin": 16767916
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Kagura Karatachi",
+    "translate": "npc.narutorpg.kagura_karatachi"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_boruto",
+    "narutorpg:tsunade_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": "Sasuke visits the Astronomy Research Institute's library and seeks out Penjira, the library's attendant. Penjira is surprised when he sees Sasuke and shows him the book he's been looking at: it's about extinct dragons whose fossils can be found in the area near the Institute. Sasuke asks about the astronomy book that's supposed to lead to the polar particles' location.",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Sasuke visits the Astronomy Research Institute's library and seeks out Penjira, the library's attendant.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.intro0"
+    },
+    {
+      "fallback": "Penjira is surprised when he sees Sasuke and shows him the book he's been looking at: it's about extinct dragons whose fossils can be found in the area near the Institute.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.intro1"
+    },
+    {
+      "fallback": "Sasuke asks about the astronomy book that's supposed to lead to the polar particles' location.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 4 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Chapter 4 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:penjira_foe_boruto",
+      "text": {
+        "fallback": "Defeat Penjira",
+        "translate": "quest.narutorpg.defeat.penjira_foe_boruto"
+      }
+    }
+  ],
+  "order": 229103,
+  "outro": [
+    {
+      "fallback": "Before entering the basement, Sakura uses her chakra to sense the area ahead.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.outro0"
+    },
+    {
+      "fallback": "In doing so, she notices that there's a secret basement accessible from Zansūru's office.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_04.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_03"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

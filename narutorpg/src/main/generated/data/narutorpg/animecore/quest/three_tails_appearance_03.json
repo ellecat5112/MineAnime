@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kiba_inuzuka_ally_shippuden",
+    "narutorpg:hinata_hyuga_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "As Team 8, with Kakashi as their temporary leader, head off towards Orochimaru's hideout, Kiba recalls his past experience with Sakon and Ukon, an encounter which left Akamaru seriously injured. Hinata is able to tell that something is on Kiba's mind and Kiba relays his thoughts to them, although he quickly remarks that if Shikamaru and Naruto were able to take out two members of the Akatsuki, then he should be able...",
+    "translate": "quest.narutorpg.three_tails_appearance_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Team 8, with Kakashi as their temporary leader, head off towards Orochimaru's hideout, Kiba recalls his past experience with Sakon and Ukon, an encounter which left Akamaru seriously injured.",
+      "translate": "quest.narutorpg.three_tails_appearance_03.intro0"
+    },
+    {
+      "fallback": "Hinata is able to tell that something is on Kiba's mind and Kiba relays his thoughts to them, although he quickly remarks that if Shikamaru and Naruto were able to take out two members of the Akatsuki, then he should be...",
+      "translate": "quest.narutorpg.three_tails_appearance_03.intro1"
+    },
+    {
+      "fallback": "Shino also voices his desire to prove himself on a mission, and Kiba chalks it up to Shino's irritation of not being a member of the Sasuke Recovery Team.",
+      "translate": "quest.narutorpg.three_tails_appearance_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Orochimaru's Hideout Discovered",
+    "translate": "quest.narutorpg.three_tails_appearance_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.three_tails_appearance_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Orochimaru's Hideout Discovered",
+        "translate": "quest.narutorpg.three_tails_appearance_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109902,
+  "outro": [
+    {
+      "fallback": "Shino explains that his disappointment is not just because he was not available to participate in the Sasuke Recovery Mission, but also because Naruto did not recognise him when he returned to Konoha.",
+      "translate": "quest.narutorpg.three_tails_appearance_03.outro0"
+    },
+    {
+      "fallback": "Privately, Hinata remarks on how she too wishes to prove herself so that Naruto may finally acknowledge her, while Kakashi reflects on how far the team has matured.",
+      "translate": "quest.narutorpg.three_tails_appearance_03.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_02"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

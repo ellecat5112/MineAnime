@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Bug watches Amado at Code's mercy. Amado wants to talk to Ada about Kawaki, which stays Code. Amado explains that Kawaki is his ace in case Konoha abandons or tries to eliminate him.",
+    "translate": "quest.narutorpg.omnipotence_arc_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Bug watches Amado at Code's mercy.",
+      "translate": "quest.narutorpg.omnipotence_arc_04.intro0"
+    },
+    {
+      "fallback": "Amado wants to talk to Ada about Kawaki, which stays Code.",
+      "translate": "quest.narutorpg.omnipotence_arc_04.intro1"
+    },
+    {
+      "fallback": "Amado explains that Kawaki is his ace in case Konoha abandons or tries to eliminate him.",
+      "translate": "quest.narutorpg.omnipotence_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Hindrance",
+    "translate": "quest.narutorpg.omnipotence_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.omnipotence_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Hindrance",
+        "translate": "quest.narutorpg.omnipotence_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:daemon_foe_boruto",
+      "text": {
+        "fallback": "Defeat Daemon",
+        "translate": "quest.narutorpg.defeat.daemon_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ada_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ada",
+        "translate": "quest.narutorpg.defeat.ada_foe_boruto"
+      }
+    }
+  ],
+  "order": 237803,
+  "outro": [
+    {
+      "fallback": "Code accuses him of tricking Ada and attacks him, but Daemon gets in between them, reflecting his attack.",
+      "translate": "quest.narutorpg.omnipotence_arc_04.outro0"
+    },
+    {
+      "fallback": "Daemon says that if he can't understand when Ada tells him to stop, he needs to be disposed of.",
+      "translate": "quest.narutorpg.omnipotence_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_03"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

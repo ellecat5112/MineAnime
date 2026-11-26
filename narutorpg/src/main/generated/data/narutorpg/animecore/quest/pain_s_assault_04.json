@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "narutorpg:fire_daimyo_part_i_ii_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Pain's Assault",
+    "translate": "quest.narutorpg.arc.pain_s_assault"
+  },
+  "description": {
+    "fallback": "Having reached the makeshift tree, Naruto asked Nagato why he hated Konoha, and what had made him the way he was. Nagato, still wanting to know Naruto's reply to his question, answered with two stories. The first was how his parents were accidentally killed during the Second Shinobi World War by Konoha ninjas, which led to the activation of his Rinnegan, but he had no clue of it.",
+    "translate": "quest.narutorpg.pain_s_assault_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Having reached the makeshift tree, Naruto asked Nagato why he hated Konoha, and what had made him the way he was.",
+      "translate": "quest.narutorpg.pain_s_assault_04.intro0"
+    },
+    {
+      "fallback": "Nagato, still wanting to know Naruto's reply to his question, answered with two stories.",
+      "translate": "quest.narutorpg.pain_s_assault_04.intro1"
+    },
+    {
+      "fallback": "The first was how his parents were accidentally killed during the Second Shinobi World War by Konoha ninjas, which led to the activation of his Rinnegan, but he had no clue of it.",
+      "translate": "quest.narutorpg.pain_s_assault_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Talk with Nagato",
+    "translate": "quest.narutorpg.pain_s_assault_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.pain_s_assault_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: The Talk with Nagato",
+        "translate": "quest.narutorpg.pain_s_assault_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hanzo_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hanzō",
+        "translate": "quest.narutorpg.defeat.hanzo_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yahiko_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Yahiko",
+        "translate": "quest.narutorpg.defeat.yahiko_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 116203,
+  "outro": [
+    {
+      "fallback": "Their fame captured the attention of Hanzō, who approached Yahiko to join hands and work together to bring peace among the war-torn countries of Earth, Fire and Wind.",
+      "translate": "quest.narutorpg.pain_s_assault_04.outro0"
+    },
+    {
+      "fallback": "But this association turned out to be a trap laid by Hanzō, as he feared that Yahiko's group would take over the leadership of Amegakure.",
+      "translate": "quest.narutorpg.pain_s_assault_04.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:pain_s_assault_03"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

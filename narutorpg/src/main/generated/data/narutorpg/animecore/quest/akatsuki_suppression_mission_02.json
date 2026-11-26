@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:yamato_ally_shippuden",
+    "narutorpg:asuma_sarutobi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Akatsuki Suppression Mission",
+    "translate": "quest.narutorpg.arc.akatsuki_suppression_mission"
+  },
+  "description": {
+    "fallback": "After the encounter with Sasuke, Naruto realised that Sasuke was far too strong for him to possibly defeat. Kakashi revealed a special training method which took advantage of Naruto's high chakra. It involved the Multiple Shadow Clone Technique.",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "After the encounter with Sasuke, Naruto realised that Sasuke was far too strong for him to possibly defeat.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_02.intro0"
+    },
+    {
+      "fallback": "Kakashi revealed a special training method which took advantage of Naruto's high chakra.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_02.intro1"
+    },
+    {
+      "fallback": "It involved the Multiple Shadow Clone Technique.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Training Naruto",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Training Naruto",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 108201,
+  "outro": [
+    {
+      "fallback": "If he had used his full chakra, the knife would have also gone through the rock.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_02.outro0"
+    },
+    {
+      "fallback": "Using this advice, Naruto was able to completely split a leaf, but passed o",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:akatsuki_suppression_mission_01"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

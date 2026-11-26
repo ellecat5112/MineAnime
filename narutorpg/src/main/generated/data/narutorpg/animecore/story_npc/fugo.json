@@ -1,0 +1,17 @@
+{
+  "appearance": {
+    "accent": 2635155,
+    "eyes": 4431943,
+    "hair": 12986408,
+    "skin": 13010498,
+    "top": 2503224
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Fugō",
+    "translate": "npc.narutorpg.fugo"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

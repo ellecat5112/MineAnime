@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "In Konohagakure, Kakashi while meeting with Tsunade about the impending war, receives an emergency messenger tortoise from Guy with an SOS message, so he heads out to find out what has happened. On board the ship, Guy recalls the time when he and Kakashi first became rivals and their numerous battles since then. Later on in the night, the jōnin meet where Yamato tells them about a rumour of a shinobi capable of not...",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_19.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "In Konohagakure, Kakashi while meeting with Tsunade about the impending war, receives an emergency messenger tortoise from Guy with an SOS message, so he heads out to find out what has happened.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_19.intro0"
+    },
+    {
+      "fallback": "On board the ship, Guy recalls the time when he and Kakashi first became rivals and their numerous battles since then.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_19.intro1"
+    },
+    {
+      "fallback": "Later on in the night, the jōnin meet where Yamato tells them about a rumour of a shinobi capable of not only copying someone's appearance, but also their chakra.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_19.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kakashi, My Eternal Rival!",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_19"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_19.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Kakashi, My Eternal Rival!",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_19.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 123318,
+  "outro": [
+    {
+      "fallback": "With this notion Guy proceeds to attack Kakashi and later Aoba and Yamato when they side with Kakashi.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_19.outro0"
+    },
+    {
+      "fallback": "After giving Guy irrefutable proof that he was who he said he was by telling him something from their youth, Kakashi returns to Konoha upon learning that the SOS tortoise was sent by accident.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_19.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_18"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

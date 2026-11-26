@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "During the reign of the Second Hokage, Jiraiya, Tsunade and Orochimaru are placed in a squad under Hiruzen Sarutobi, who conducts a bell test with the trio. Tsunade and Orochimaru manage to retrieve both bells while Jiraiya is tied to a stump as punishment for failure. In order to motivate Jiraiya, Hiruzen shows him his Summoning Technique, calling forth Monkey King: Enma.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "During the reign of the Second Hokage, Jiraiya, Tsunade and Orochimaru are placed in a squad under Hiruzen Sarutobi, who conducts a bell test with the trio.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.intro0"
+    },
+    {
+      "fallback": "Tsunade and Orochimaru manage to retrieve both bells while Jiraiya is tied to a stump as punishment for failure.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.intro1"
+    },
+    {
+      "fallback": "In order to motivate Jiraiya, Hiruzen shows him his Summoning Technique, calling forth Monkey King: Enma.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Tales of a Gutsy Ninja ~Jiraiya Ninja Scroll~ Part 1",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Tales of a Gutsy Ninja ~Jiraiya Ninja Scroll~ Part 1",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 113700,
+  "outro": [
+    {
+      "fallback": "His sojourn for his apprentice, however, is cut short when the Third Shinobi World War begins and he is forced to return to Konoha, later witnessing Tsunade mourning the loss of her brother, Nawaki, who was killed in...",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.outro0"
+    },
+    {
+      "fallback": "Jiraiya, along with his teammates Orochimaru and Tsunade, join the war where they would later become known as the \"Legendary Sannin\".",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_01.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_08"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kamira_ally_movies",
+    "narutorpg:shikamaru_nara_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Legend of the Stone of Gelel",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_legend_of_the_stone_of_gelel"
+  },
+  "description": {
+    "fallback": "Meanwhile, Kamira toys with Shikamaru as she flies around, he is unable to get a lock on her shadow. But then he suddenly spots Kankurō on the far side of the ruins. As Fugai chases after Sakura, she is unable to lose her even after Sakura blinds her.",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Kamira toys with Shikamaru as she flies around, he is unable to get a lock on her shadow.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.intro0"
+    },
+    {
+      "fallback": "But then he suddenly spots Kankurō on the far side of the ruins.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.intro1"
+    },
+    {
+      "fallback": "As Fugai chases after Sakura, she is unable to lose her even after Sakura blinds her.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 4",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Part 4",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:temujin_foe_movies",
+      "text": {
+        "fallback": "Defeat Temujin",
+        "translate": "quest.narutorpg.defeat.temujin_foe_movies"
+      }
+    }
+  ],
+  "order": 301103,
+  "outro": [
+    {
+      "fallback": "If Temujin puts his hand on the seal from before, he can summon a time/space continuum.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.outro0"
+    },
+    {
+      "fallback": "Only royal blood can do it, and the one who does",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_04.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_legend_of_the_stone_of_gelel_03"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

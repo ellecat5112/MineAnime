@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_swamp_of_the_underworld",
+    "narutorpg:fire_release_dragon_fire_technique",
+    "narutorpg:fire_release_fire_dragon_flame_bullet",
+    "narutorpg:fire_release_flame_bullet",
+    "narutorpg:fire_release_toad_oil_flame_bullet",
+    "narutorpg:earth_release_earth_style_wall"
+  ],
+  "appearance": {
+    "accent": 12986408,
+    "eyes": 1118481,
+    "hair": 16119285,
+    "hair_style": "wild",
+    "mark": "paint",
+    "outfit": "robe",
+    "pants": 12986408,
+    "top": 3046706
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Jiraiya",
+    "translate": "npc.narutorpg.jiraiya"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

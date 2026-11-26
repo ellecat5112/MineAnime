@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:dance_of_the_sickle_blade_falling_descent_blade",
+    "narutorpg:fire_release_exploding_flame_formation",
+    "narutorpg:poison_mist",
+    "narutorpg:summoning_technique",
+    "narutorpg:summoning_ibuse_poisoning"
+  ],
+  "appearance": {
+    "accent": 8916559,
+    "hair": 9268835,
+    "headband": 4545124,
+    "skin": 16767916,
+    "top": 2503224
+  },
+  "attack": 7.5,
+  "cast_interval": 70,
+  "health": 120.0,
+  "name": {
+    "fallback": "Hanzō",
+    "translate": "npc.narutorpg.hanzo"
+  },
+  "power": 1.5,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

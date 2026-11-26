@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "School Trip Arc",
+    "translate": "quest.narutorpg.arc.school_trip_arc"
+  },
+  "description": {
+    "fallback": "Boruto's class bids Kirigakure farewell. Chōchō arrives late over having brought along numerous souvenirs. Boruto notices Kagura's absence, unaware he is watching the ship depart from afar.",
+    "translate": "quest.narutorpg.school_trip_arc_08.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto's class bids Kirigakure farewell.",
+      "translate": "quest.narutorpg.school_trip_arc_08.intro0"
+    },
+    {
+      "fallback": "Chōchō arrives late over having brought along numerous souvenirs.",
+      "translate": "quest.narutorpg.school_trip_arc_08.intro1"
+    },
+    {
+      "fallback": "Boruto notices Kagura's absence, unaware he is watching the ship depart from afar.",
+      "translate": "quest.narutorpg.school_trip_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Quest for Souvenirs",
+    "translate": "quest.narutorpg.school_trip_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.school_trip_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Go: The Quest for Souvenirs",
+        "translate": "quest.narutorpg.school_trip_arc_08.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:chocho_akimichi",
+      "text": {
+        "fallback": "Meet Chōchō Akimichi",
+        "translate": "quest.narutorpg.school_trip_arc_08.o3"
+      }
+    }
+  ],
+  "order": 203507,
+  "outro": [
+    {
+      "fallback": "Orochimaru implies to have facilitated the conflicts, in order to make moving around easier.",
+      "translate": "quest.narutorpg.school_trip_arc_08.outro0"
+    },
+    {
+      "fallback": "Suigetsu reports Shizuma and his accomplices have been silently arrested, and put in rehabilitation facilities.",
+      "translate": "quest.narutorpg.school_trip_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_07"
+  ],
+  "rewards": {
+    "experience": 37,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:rock_lee_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "Naruto is overjoyed to see Lee once more, while Sakura and Ino resume their rivalry. Back at their hideout, Kabuto asks Yūkimaru if he would like to return to Orochimaru with him, but Yūkimaru refuses to come unless Guren accompanies him. Yūkimaru attempts to flee when Kabuto reminds him that he belongs to Orochimaru, prompting Kabuto to yank Yūkimaru around and slap him.",
+    "translate": "quest.narutorpg.three_tails_appearance_14.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Naruto is overjoyed to see Lee once more, while Sakura and Ino resume their rivalry.",
+      "translate": "quest.narutorpg.three_tails_appearance_14.intro0"
+    },
+    {
+      "fallback": "Back at their hideout, Kabuto asks Yūkimaru if he would like to return to Orochimaru with him, but Yūkimaru refuses to come unless Guren accompanies him.",
+      "translate": "quest.narutorpg.three_tails_appearance_14.intro1"
+    },
+    {
+      "fallback": "Yūkimaru attempts to flee when Kabuto reminds him that he belongs to Orochimaru, prompting Kabuto to yank Yūkimaru around and slap him.",
+      "translate": "quest.narutorpg.three_tails_appearance_14.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Regroup!",
+    "translate": "quest.narutorpg.three_tails_appearance_14"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_14.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Regroup!",
+        "translate": "quest.narutorpg.three_tails_appearance_14.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:rinji_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Rinji",
+        "translate": "quest.narutorpg.defeat.rinji_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:guren_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Guren",
+        "translate": "quest.narutorpg.defeat.guren_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109913,
+  "outro": [
+    {
+      "fallback": "She places Hinata, Ino and Sakura under her command, forming a sub-team, that will focus on sealing the tailed beast and protecting Yūkimaru while the others deal with Guren and her team.",
+      "translate": "quest.narutorpg.three_tails_appearance_14.outro0"
+    },
+    {
+      "fallback": "Knowing that Shizune's team cannot protect the boy and seal the beast at the same time, Kakashi splits the other team into two as well, assigning Kiba, Akamaru, Lee and Tenten on Yamato's team as their guardians while...",
+      "translate": "quest.narutorpg.three_tails_appearance_14.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_13"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

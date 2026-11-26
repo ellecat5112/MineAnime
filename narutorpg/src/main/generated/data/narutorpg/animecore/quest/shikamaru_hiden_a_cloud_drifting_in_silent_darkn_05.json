@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:ino_yamanaka_ally_shippuden",
+    "narutorpg:choji_akimichi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness",
+    "translate": "quest.narutorpg.arc.shikamaru_hiden_a_cloud_drifting_in_silent_darkn"
+  },
+  "description": {
+    "fallback": "Shikamaru pursues Gengo through the Fushū Castle. Ino, Chōji, and Temari fight Sai, Rō, and Hinoko, Gengo's hold over them weakening as the fight drags on. Gengo lures Shikamaru in a dark room, both so he can't use his shadows and for his hearing to become more sensitive, and more vulnerable to Gengo's jutsu.",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Shikamaru pursues Gengo through the Fushū Castle.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.intro0"
+    },
+    {
+      "fallback": "Ino, Chōji, and Temari fight Sai, Rō, and Hinoko, Gengo's hold over them weakening as the fight drags on.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.intro1"
+    },
+    {
+      "fallback": "Gengo lures Shikamaru in a dark room, both so he can't use his shadows and for his hearing to become more sensitive, and more vulnerable to Gengo's jutsu.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Dawn",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Dawn",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gengo_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Gengo",
+        "translate": "quest.narutorpg.defeat.gengo_foe_shippuden"
+      }
+    }
+  ],
+  "order": 149904,
+  "outro": [
+    {
+      "fallback": "Gengo tells Shikamaru about his past with Zabuza, and how it shaped his ideology.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.outro0"
+    },
+    {
+      "fallback": "Ino enters Sai's mind to break Gengo's hold on him.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_05.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04"
+  ],
+  "rewards": {
+    "experience": 35,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

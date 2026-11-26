@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_boruto",
+    "narutorpg:sarada_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "In the past, Koji explains to Boruto the mechanics of space–time ninjutsu. Boruto's usage of it appears to be akin to his grandfather's Flying Thunder God Technique, which is what Boruto had been referring to it as, but is completely separate. Using his grandfather's technique as inspiration, Boruto devised his own variant that utilizes metal objects to mark his desired location.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "In the past, Koji explains to Boruto the mechanics of space–time ninjutsu.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.intro0"
+    },
+    {
+      "fallback": "Boruto's usage of it appears to be akin to his grandfather's Flying Thunder God Technique, which is what Boruto had been referring to it as, but is completely separate.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.intro1"
+    },
+    {
+      "fallback": "Using his grandfather's technique as inspiration, Boruto devised his own variant that utilizes metal objects to mark his desired location.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Singularity of Fate",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: The Singularity of Fate",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    }
+  ],
+  "order": 302600,
+  "outro": [
+    {
+      "fallback": "Shikamaru Nara mentally contacts Ada.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.outro0"
+    },
+    {
+      "fallback": "Meanwhile, Koharu Utatane and Homura Mitokado are contacted by Ikkyū Madoka regarding Konohagakure's fail",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_15"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

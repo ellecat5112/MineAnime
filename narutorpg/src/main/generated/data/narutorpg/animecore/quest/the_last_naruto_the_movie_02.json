@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "The Last: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.the_last_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "In the present time, two years after the Fourth Shinobi World War, Hiashi Hyūga accompanied by two subordinates met with Toneri Ōtsutsuki outside of Konohagakure. Asking for an answer to his earlier proposition and stating the fate of the Hyūga clan depends on Hiashi's answer, he declined Toneri's offer. Engaging in combat, Hiashi is overwhelmed by his puppet army and trapped in a cave.",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "In the present time, two years after the Fourth Shinobi World War, Hiashi Hyūga accompanied by two subordinates met with Toneri Ōtsutsuki outside of Konohagakure.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_02.intro0"
+    },
+    {
+      "fallback": "Asking for an answer to his earlier proposition and stating the fate of the Hyūga clan depends on Hiashi's answer, he declined Toneri's offer.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_02.intro1"
+    },
+    {
+      "fallback": "Engaging in combat, Hiashi is overwhelmed by his puppet army and trapped in a cave.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Natural Disaster",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Natural Disaster",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301901,
+  "outro": [
+    {
+      "fallback": "Sakura catches up to Hinata, telling her that Naruto is very dense about love due to not having anyone in his life to express it for him and assures Hinata she'll be able to win him over if she’s confident enough.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_02.outro0"
+    },
+    {
+      "fallback": "Meanwhile, various puppets",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:the_last_naruto_the_movie_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

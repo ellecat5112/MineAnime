@@ -1,0 +1,102 @@
+{
+  "allies": [
+    "narutorpg:inari_ally_naruto",
+    "narutorpg:kaiza_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "Kakashi charged towards Zabuza while, at the same time, a number of mirrors begin to surround Zabuza as protection. As the Lightning Cutter made contact with flesh, needles struck the bloody scroll, and the dogs holding Zabuza in place disappeared. To Kakashi's surprise, he impaled Haku, who had used the last of his strength to grab hold of Kakashi.",
+    "translate": "quest.narutorpg.prologue_land_of_waves_10.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Kakashi charged towards Zabuza while, at the same time, a number of mirrors begin to surround Zabuza as protection.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_10.intro0"
+    },
+    {
+      "fallback": "As the Lightning Cutter made contact with flesh, needles struck the bloody scroll, and the dogs holding Zabuza in place disappeared.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_10.intro1"
+    },
+    {
+      "fallback": "To Kakashi's surprise, he impaled Haku, who had used the last of his strength to grab hold of Kakashi.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Tool's Feelings",
+    "translate": "quest.narutorpg.prologue_land_of_waves_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.prologue_land_of_waves_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: The Tool's Feelings",
+        "translate": "quest.narutorpg.prologue_land_of_waves_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gato_foe_naruto",
+      "text": {
+        "fallback": "Defeat Gatō",
+        "translate": "quest.narutorpg.defeat.gato_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:haku_foe_naruto",
+      "text": {
+        "fallback": "Defeat Haku",
+        "translate": "quest.narutorpg.defeat.haku_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zabuza_momochi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Zabuza Momochi",
+        "translate": "quest.narutorpg.defeat.zabuza_momochi_foe_naruto"
+      }
+    }
+  ],
+  "order": 1109,
+  "outro": [
+    {
+      "fallback": "After Naruto decried how Haku had died as a tool that had never achieved his dreams, Zabuza broke into tears, admitting defeat to Naruto.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_10.outro0"
+    },
+    {
+      "fallback": "As he began to reflect upon the pureness of Hak",
+      "translate": "quest.narutorpg.prologue_land_of_waves_10.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_09"
+  ],
+  "rewards": {
+    "experience": 17,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 2
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

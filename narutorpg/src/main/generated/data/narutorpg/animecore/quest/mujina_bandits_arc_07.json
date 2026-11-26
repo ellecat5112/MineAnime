@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Kokuri tells Boruto and the prison doctor that his assailant was wearing a prison uniform. The doctor says access to the medical ward is restricted, requiring a special wooden tag to get in. Boruto suggests a doctor lost theirs.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_07.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Kokuri tells Boruto and the prison doctor that his assailant was wearing a prison uniform.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_07.intro0"
+    },
+    {
+      "fallback": "The doctor says access to the medical ward is restricted, requiring a special wooden tag to get in.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_07.intro1"
+    },
+    {
+      "fallback": "Boruto suggests a doctor lost theirs.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Test of Willpower",
+    "translate": "quest.narutorpg.mujina_bandits_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mujina_bandits_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: A Test of Willpower",
+        "translate": "quest.narutorpg.mujina_bandits_arc_07.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kokuri",
+      "text": {
+        "fallback": "Meet Kokuri",
+        "translate": "quest.narutorpg.mujina_bandits_arc_07.o3"
+      }
+    }
+  ],
+  "order": 215106,
+  "outro": [
+    {
+      "fallback": "Benga complains to a guard that Mujō is just a figurehead of the clan, and that he's the one who actually runs the prison.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_07.outro0"
+    },
+    {
+      "fallback": "Sarada leaves Boruto and Mitsuki a note explaining Benga's interference with prison management, and investigates Benga's office.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_06"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

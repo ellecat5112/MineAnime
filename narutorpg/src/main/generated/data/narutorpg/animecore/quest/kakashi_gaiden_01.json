@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "Obito Uchiha rushes to a clearing where his teammate Kakashi Hatake admonishes him for being late, declaring that the shinobi rules of conduct state that a shinobi is to be on time. The team's leader, Minato Namikaze, tells them they have a new mission, and that since Kakashi has just become a jōnin, he would be leading himself, Obito and their other teammate Rin Nohara while he goes on his own mission. In order to...",
+    "translate": "quest.narutorpg.kakashi_gaiden_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Obito Uchiha rushes to a clearing where his teammate Kakashi Hatake admonishes him for being late, declaring that the shinobi rules of conduct state that a shinobi is to be on time.",
+      "translate": "quest.narutorpg.kakashi_gaiden_01.intro0"
+    },
+    {
+      "fallback": "The team's leader, Minato Namikaze, tells them they have a new mission, and that since Kakashi has just become a jōnin, he would be leading himself, Obito and their other teammate Rin Nohara while he goes on his own...",
+      "translate": "quest.narutorpg.kakashi_gaiden_01.intro1"
+    },
+    {
+      "fallback": "In order to celebrate Kakashi's promotion, Minato gives Kakashi a Flying Thunder God Kunai while Rin gives him a specially made medic-kit.",
+      "translate": "quest.narutorpg.kakashi_gaiden_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kakashi Chronicles ~ Boys' Life on the Battlefield ~ Part 1",
+    "translate": "quest.narutorpg.kakashi_gaiden_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Kakashi Chronicles ~ Boys' Life on the Battlefield ~ Part 1",
+        "translate": "quest.narutorpg.kakashi_gaiden_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:minato_namikaze",
+      "text": {
+        "fallback": "Meet Minato Namikaze",
+        "translate": "quest.narutorpg.kakashi_gaiden_01.o3"
+      }
+    }
+  ],
+  "order": 112800,
+  "outro": [
+    {
+      "fallback": "In order to celebrate Kakashi's promotion, Minato gives Kakashi a Flying Thunder God Kunai while Rin gives him a specially made medic-kit.",
+      "translate": "quest.narutorpg.kakashi_gaiden_01.outro0"
+    },
+    {
+      "fallback": "Obito, however, has forgotten to bring a gift for Kakashi and is vexed when Kakashi states that it would have been useless anyways.",
+      "translate": "quest.narutorpg.kakashi_gaiden_01.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:itachi_pursuit_mission_04"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

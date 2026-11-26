@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "A flashback commences of Boruto's conversation with Kawaki on top of the Hokage Rock. Boruto instructs Kawaki to head to Sunagakure after his limiters are removed by Amado. Boruto will arrive after he does, which will most likely cause Jura to appear, but with Kawaki's presence, they will have a fighting chance.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "A flashback commences of Boruto's conversation with Kawaki on top of the Hokage Rock.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.intro0"
+    },
+    {
+      "fallback": "Boruto instructs Kawaki to head to Sunagakure after his limiters are removed by Amado.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.intro1"
+    },
+    {
+      "fallback": "Boruto will arrive after he does, which will most likely cause Jura to appear, but with Kawaki's presence, they will have a fighting chance.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kawaki Uzumaki (chapter)",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Kawaki Uzumaki (chapter)",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jura_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jura",
+        "translate": "quest.narutorpg.defeat.jura_foe_boruto"
+      }
+    }
+  ],
+  "order": 302608,
+  "outro": [
+    {
+      "fallback": "However, there are conditions Boruto must fulfill in order to teleport long distances.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.outro0"
+    },
+    {
+      "fallback": "By his admission, he will be unable to fulfill those conditions while he is fighting Jura, and as the scene cuts back to the present, Kawaki accepts that his role is to buy him time.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_09.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_08"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

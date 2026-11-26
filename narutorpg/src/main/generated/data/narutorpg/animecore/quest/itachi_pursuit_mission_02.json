@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Itachi Pursuit Mission",
+    "translate": "quest.narutorpg.arc.itachi_pursuit_mission"
+  },
+  "description": {
+    "fallback": "After defeating his mentor, Sasuke freed Suigetsu, whom Orochimaru had imprisoned in a glass tank filled with water. Sasuke led Suigetsu to the Land of Waves, to retrieve Zabuza Momochi's sword from his grave. Upon their arrival, Sasuke noticed the bridge that was being built during his time there as a Konoha genin, which was now named the Great Naruto Bridge.",
+    "translate": "quest.narutorpg.itachi_pursuit_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "After defeating his mentor, Sasuke freed Suigetsu, whom Orochimaru had imprisoned in a glass tank filled with water.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_02.intro0"
+    },
+    {
+      "fallback": "Sasuke led Suigetsu to the Land of Waves, to retrieve Zabuza Momochi's sword from his grave.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_02.intro1"
+    },
+    {
+      "fallback": "Upon their arrival, Sasuke noticed the bridge that was being built during his time there as a Konoha genin, which was now named the Great Naruto Bridge.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Hebi Assembled",
+    "translate": "quest.narutorpg.itachi_pursuit_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.itachi_pursuit_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Hebi Assembled",
+        "translate": "quest.narutorpg.itachi_pursuit_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:suigetsu_hozuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Suigetsu Hōzuki",
+        "translate": "quest.narutorpg.defeat.suigetsu_hozuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112301,
+  "outro": [
+    {
+      "fallback": "As the three made their way to the Northern Hideout, Karin explained that Sasuke's next target, Jūgo, was the means behind Orochimaru's development of the cursed seals.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_02.outro0"
+    },
+    {
+      "fallback": "When the group got there, prisoners infect",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:itachi_pursuit_mission_01"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

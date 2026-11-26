@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:ino_yamanaka_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Mizuki Tracking Mission",
+    "translate": "quest.narutorpg.arc.mizuki_tracking_mission"
+  },
+  "description": {
+    "fallback": "Mizuki is determined to make Naruto and Iruka suffer, and it appears like he has the upper edge with his improved strength and speed. Meanwhile, Ino, Chōji, and Shikamaru are at their limits, and now Fūjin and Raijin are free. That is until Tsunade shows up and defeats them both easily.",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_06.desc"
+  },
+  "giver": "narutorpg:iruka_umino",
+  "intro": [
+    {
+      "fallback": "Mizuki is determined to make Naruto and Iruka suffer, and it appears like he has the upper edge with his improved strength and speed.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_06.intro0"
+    },
+    {
+      "fallback": "Meanwhile, Ino, Chōji, and Shikamaru are at their limits, and now Fūjin and Raijin are free.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_06.intro1"
+    },
+    {
+      "fallback": "That is until Tsunade shows up and defeats them both easily.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Clash of Fate: You Can't Bring Me Down!",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Talk to Iruka Umino",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: A Clash of Fate: You Can't Bring Me Down!",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mizuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Mizuki",
+        "translate": "quest.narutorpg.defeat.mizuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 15205,
+  "outro": [
+    {
+      "fallback": "Mizuki will no longer be able to fight as a shinobi.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_06.outro0"
+    },
+    {
+      "fallback": "Iruka offers to treat everyone at the ramen bar and thinks about how Naruto saved his life the same way he had saved Naruto before.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_06.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:mizuki_tracking_mission_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

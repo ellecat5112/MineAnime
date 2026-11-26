@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_naruto",
+    "narutorpg:sakura_haruno_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "The next morning, Kakashi, Sasuke, and Sakura escorted Tazuna to work at the bridge, leaving Naruto behind to rest. Upon arriving at the bridge, however, they found Tazuna's workers to have been attacked, and the area quickly became covered with a veil of mist. After a quick defeat of Zabuza's water clones at the hands of Sasuke, Zabuza and a masked Haku revealed themselves, confirming Kakashi's suspicions.",
+    "translate": "quest.narutorpg.prologue_land_of_waves_09.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "The next morning, Kakashi, Sasuke, and Sakura escorted Tazuna to work at the bridge, leaving Naruto behind to rest.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_09.intro0"
+    },
+    {
+      "fallback": "Upon arriving at the bridge, however, they found Tazuna's workers to have been attacked, and the area quickly became covered with a veil of mist.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_09.intro1"
+    },
+    {
+      "fallback": "After a quick defeat of Zabuza's water clones at the hands of Sasuke, Zabuza and a masked Haku revealed themselves, confirming Kakashi's suspicions.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Round Two",
+    "translate": "quest.narutorpg.prologue_land_of_waves_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.prologue_land_of_waves_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Round Two",
+        "translate": "quest.narutorpg.prologue_land_of_waves_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:haku_foe_naruto",
+      "text": {
+        "fallback": "Defeat Haku",
+        "translate": "quest.narutorpg.defeat.haku_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zabuza_momochi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Zabuza Momochi",
+        "translate": "quest.narutorpg.defeat.zabuza_momochi_foe_naruto"
+      }
+    }
+  ],
+  "order": 1108,
+  "outro": [
+    {
+      "fallback": "Heavily injured, Kakashi resorted to using an attack that he himself had created.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_09.outro0"
+    },
+    {
+      "fallback": "Meanwhile, the fight between Haku an",
+      "translate": "quest.narutorpg.prologue_land_of_waves_09.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_08"
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

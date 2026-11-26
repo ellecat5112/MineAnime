@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "In Konoha, the crystallised bug is analysed and Tsunade confirms her suspicion to Shizune about Orochimaru's follower using Crystal Release, an ability thought to be non-existent. Team Yamato finds themselves lost as Kakashi had not left any trails or signs for them to follow; Sai creates an ink bird to fly above the perimeter to scout for any signs while Naruto excuses himself from the group on the pretence of...",
+    "translate": "quest.narutorpg.three_tails_appearance_09.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "In Konoha, the crystallised bug is analysed and Tsunade confirms her suspicion to Shizune about Orochimaru's follower using Crystal Release, an ability thought to be non-existent.",
+      "translate": "quest.narutorpg.three_tails_appearance_09.intro0"
+    },
+    {
+      "fallback": "Team Yamato finds themselves lost as Kakashi had not left any trails or signs for them to follow; Sai creates an ink bird to fly above the perimeter to scout for any signs while Naruto excuses himself from the group on...",
+      "translate": "quest.narutorpg.three_tails_appearance_09.intro1"
+    },
+    {
+      "fallback": "However, once he finds himself secluded, he attempts to continue his training in secret until he notices a light mist settling in and spots Yūkimaru, the young boy he had met at the hot springs.",
+      "translate": "quest.narutorpg.three_tails_appearance_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Labyrinth of Distorted Reflection",
+    "translate": "quest.narutorpg.three_tails_appearance_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: The Labyrinth of Distorted Reflection",
+        "translate": "quest.narutorpg.three_tails_appearance_09.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shizune",
+      "text": {
+        "fallback": "Meet Shizune",
+        "translate": "quest.narutorpg.three_tails_appearance_09.o3"
+      }
+    }
+  ],
+  "order": 109908,
+  "outro": [
+    {
+      "fallback": "Yūkimaru is cryptic, but after Naruto reaffirms that the people who are thinking about you is where your home is, Yūkimaru disappears, along with the mist.",
+      "translate": "quest.narutorpg.three_tails_appearance_09.outro0"
+    },
+    {
+      "fallback": "Sakura arrives, and believing that Naruto is lying about having encountered someone, ushers him off as Yamato had found one of Shino's bugs.",
+      "translate": "quest.narutorpg.three_tails_appearance_09.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_08"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

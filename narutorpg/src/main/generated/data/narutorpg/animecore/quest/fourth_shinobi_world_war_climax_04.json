@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "Kabuto then remembers his first meeting with Orochimaru while aiding the wounds of several Konohagakure shinobi, declining the offer of being a shinobi. Nonō is later approached by Danzō Shimura, Orochimaru and an Aburame shinobi, who blackmail her into undertaking an intelligence gathering mission based on the intel they had received that Iwagakure was planning a big attack. Taking Kabuto along with them to replace...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.desc"
+  },
+  "giver": "narutorpg:kitsuchi",
+  "intro": [
+    {
+      "fallback": "Kabuto then remembers his first meeting with Orochimaru while aiding the wounds of several Konohagakure shinobi, declining the offer of being a shinobi.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.intro0"
+    },
+    {
+      "fallback": "Nonō is later approached by Danzō Shimura, Orochimaru and an Aburame shinobi, who blackmail her into undertaking an intelligence gathering mission based on the intel they had received that Iwagakure was planning a big...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.intro1"
+    },
+    {
+      "fallback": "Taking Kabuto along with them to replace a dead Root member, the young man was sent on several spy mission in different hidden villages inclusive of the Five Great Shinobi Countries.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Tale of Kabuto",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kitsuchi",
+      "text": {
+        "fallback": "Talk to Kitsuchi",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: The Tale of Kabuto",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nono_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nonō Yakushi",
+        "translate": "quest.narutorpg.defeat.nono_yakushi_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133203,
+  "outro": [
+    {
+      "fallback": "He explains to Kabuto that he has found value in Kabuto's skill and wants his services within the newly created Otogakure with the promise of a new identity.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.outro0"
+    },
+    {
+      "fallback": "Accepting the offer, Kabuto becomes Orochimaru's spy, pretending to be a spy for Sasori in order to learn about Akatsuki, and aids his new employer in his experiments through the years.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_04.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_03"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

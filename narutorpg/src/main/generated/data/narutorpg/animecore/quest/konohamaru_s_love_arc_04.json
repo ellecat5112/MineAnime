@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Konohamaru's Love Arc",
+    "translate": "quest.narutorpg.arc.konohamaru_s_love_arc"
+  },
+  "description": {
+    "fallback": "The wedding ceremony between Kankitsu and Remon begins. Boruto and Konohamaru rush back to Daidai village. Kankitsu and Remon join hands, and are instructed to cut the stone's horns to keep Sōma sealed.",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_04.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "The wedding ceremony between Kankitsu and Remon begins.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_04.intro0"
+    },
+    {
+      "fallback": "Boruto and Konohamaru rush back to Daidai village.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_04.intro1"
+    },
+    {
+      "fallback": "Kankitsu and Remon join hands, and are instructed to cut the stone's horns to keep Sōma sealed.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Konohamaru's Ninja Way",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Konohamaru's Ninja Way",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 212603,
+  "outro": [
+    {
+      "fallback": "Remon says it only fears Kuen's hair clip, which Konohamaru has.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_04.outro0"
+    },
+    {
+      "fallback": "Remon wants to seal Sōma inside her body, Kankitsu stressing the risks.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:konohamaru_s_love_arc_03"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

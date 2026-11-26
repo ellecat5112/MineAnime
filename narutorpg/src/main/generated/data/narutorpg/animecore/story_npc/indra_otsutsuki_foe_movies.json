@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "narutorpg:amaterasu",
+    "narutorpg:destructive_jinrai",
+    "narutorpg:fire_release_great_fire_annihilation",
+    "narutorpg:genjutsu_sharingan",
+    "narutorpg:hinokagutsuchi",
+    "narutorpg:sensing_technique"
+  ],
+  "appearance": {
+    "accent": 11583173,
+    "eyes": 1118481,
+    "hair": 16119285,
+    "hair_style": "long",
+    "mark": "red_eyes",
+    "outfit": "robe",
+    "pants": 3622735,
+    "top": 16448250
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Indra Ōtsutsuki",
+    "translate": "npc.narutorpg.indra_otsutsuki"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Boruto meets Tentō at the Konoha Mountain Villa and soon realises that the daimyō has rented out the entire hotel. Tentō soon dismisses this trail of conversation, as he is way more interested in seeing Boruto use ninjutsu. While hesitant at first, Boruto displays the use of the Shadow Clone Technique to Tentō, and while he was momentarily awed, he soon lamented the fact that he heard the Seventh Hokage could...",
+    "translate": "quest.narutorpg.mujina_bandits_arc_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto meets Tentō at the Konoha Mountain Villa and soon realises that the daimyō has rented out the entire hotel.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_02.intro0"
+    },
+    {
+      "fallback": "Tentō soon dismisses this trail of conversation, as he is way more interested in seeing Boruto use ninjutsu.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_02.intro1"
+    },
+    {
+      "fallback": "While hesitant at first, Boruto displays the use of the Shadow Clone Technique to Tentō, and while he was momentarily awed, he soon lamented the fact that he heard the Seventh Hokage could produce thousands of clones...",
+      "translate": "quest.narutorpg.mujina_bandits_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Friends…!!",
+    "translate": "quest.narutorpg.mujina_bandits_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.mujina_bandits_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: Friends…!!",
+        "translate": "quest.narutorpg.mujina_bandits_arc_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:tento_madoka",
+      "text": {
+        "fallback": "Meet Tentō Madoka",
+        "translate": "quest.narutorpg.mujina_bandits_arc_02.o3"
+      }
+    }
+  ],
+  "order": 215101,
+  "outro": [
+    {
+      "fallback": "This, however, has no effect on Tentō other than causing him to launch into a fit of laughter.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_02.outro0"
+    },
+    {
+      "fallback": "After the laughter subsides, Tentō plainly states that this was nothing unusual to him because women were usually parading through his house.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_01"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

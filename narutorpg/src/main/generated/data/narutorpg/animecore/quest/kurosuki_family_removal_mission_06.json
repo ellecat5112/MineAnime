@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:neji_hyuga_ally_naruto",
+    "narutorpg:rock_lee_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Kurosuki Family Removal Mission",
+    "translate": "quest.narutorpg.arc.kurosuki_family_removal_mission"
+  },
+  "description": {
+    "fallback": "Naruto and Neji are knocked out while Rock Lee gets pushed off of lightning pass from Raiga's lightning rod attack. Sanshō, Tenten, Karashi and Ranmaru discover Lee lying on the ground and give him the Curry of Life. Lee starts acting strange and Sanshō remembers that a bottle of wine was knocked into the curry pot before they left.",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto and Neji are knocked out while Rock Lee gets pushed off of lightning pass from Raiga's lightning rod attack.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.intro0"
+    },
+    {
+      "fallback": "Sanshō, Tenten, Karashi and Ranmaru discover Lee lying on the ground and give him the Curry of Life.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.intro1"
+    },
+    {
+      "fallback": "Lee starts acting strange and Sanshō remembers that a bottle of wine was knocked into the curry pot before they left.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Run! The Curry of Life!",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Run! The Curry of Life!",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ranmaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Ranmaru",
+        "translate": "quest.narutorpg.defeat.ranmaru_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:raiga_kurosuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Raiga Kurosuki",
+        "translate": "quest.narutorpg.defeat.raiga_kurosuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 16205,
+  "outro": [
+    {
+      "fallback": "Naruto returns and defeats Raiga by punching him off a ledge, from which Raiga commits suicide by using lightning to incinerate his body.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.outro0"
+    },
+    {
+      "fallback": "Ranmaru begins training alongside Karashi as an apprentice at the curry shop, and Naruto's team returns to Konoha.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_06.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kurosuki_family_removal_mission_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

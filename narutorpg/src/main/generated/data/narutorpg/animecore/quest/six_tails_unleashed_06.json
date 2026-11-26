@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:tsuchigumo_chief_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Six-Tails Unleashed",
+    "translate": "quest.narutorpg.arc.six_tails_unleashed"
+  },
+  "description": {
+    "fallback": "Naruto arrives at Shiranami's cabin, only to be bound by ropes. Looking up, he is shocked to see the Magaki Group, the four bandits who had attacked Hotaru earlier. Meanwhile, Hotaru is encountered by Shiranami, who explains how his father Hāto had been killed by enemy shinobi who wanted the Tsuchigumo clan's forbidden technique, and how En no Gyōja had banished him elsewhere since he knew how to use the kinjutsu as...",
+    "translate": "quest.narutorpg.six_tails_unleashed_06.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Naruto arrives at Shiranami's cabin, only to be bound by ropes.",
+      "translate": "quest.narutorpg.six_tails_unleashed_06.intro0"
+    },
+    {
+      "fallback": "Looking up, he is shocked to see the Magaki Group, the four bandits who had attacked Hotaru earlier.",
+      "translate": "quest.narutorpg.six_tails_unleashed_06.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Hotaru is encountered by Shiranami, who explains how his father Hāto had been killed by enemy shinobi who wanted the Tsuchigumo clan's forbidden technique, and how En no Gyōja had banished him elsewhere since...",
+      "translate": "quest.narutorpg.six_tails_unleashed_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Separation",
+    "translate": "quest.narutorpg.six_tails_unleashed_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.six_tails_unleashed_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 99,
+      "text": {
+        "fallback": "Head out: Separation",
+        "translate": "quest.narutorpg.six_tails_unleashed_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:en_no_gyoja_foe_shippuden",
+      "text": {
+        "fallback": "Defeat En no Gyōja",
+        "translate": "quest.narutorpg.defeat.en_no_gyoja_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shiranami_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Shiranami",
+        "translate": "quest.narutorpg.defeat.shiranami_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hotaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hotaru",
+        "translate": "quest.narutorpg.defeat.hotaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 115405,
+  "outro": [
+    {
+      "fallback": "Utakata and Naruto find themselves at the Tsuchigumo clan's village, where they find out that all the villagers are being controlled by Shiranami.",
+      "translate": "quest.narutorpg.six_tails_unleashed_06.outro0"
+    },
+    {
+      "fallback": "Whilst trying to defend themselves without killing the villagers, they are encountered by the four",
+      "translate": "quest.narutorpg.six_tails_unleashed_06.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:six_tails_unleashed_05"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,75 @@
+{
+  "arc": {
+    "fallback": "The Last: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.the_last_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "The movie ends with a series of flash-forwards of Naruto and Hinata's wedding. It further flash forwards to them having a peaceful morning with their two children, Boruto Uzumaki and Himawari Uzumaki who playfully order their father to play with them instigating the happy family into a snowball fight.",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The movie ends with a series of flash-forwards of Naruto and Hinata's wedding.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_06.intro0"
+    },
+    {
+      "fallback": "It further flash forwards to them having a peaceful morning with their two children, Boruto Uzumaki and Himawari Uzumaki who playfully order their father to play with them instigating the happy family into a snowball...",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_06.intro1"
+    }
+  ],
+  "name": {
+    "fallback": "To Tomorrow",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: To Tomorrow",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301905,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:the_last_naruto_the_movie_05"
+  ],
+  "rewards": {
+    "experience": 37,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

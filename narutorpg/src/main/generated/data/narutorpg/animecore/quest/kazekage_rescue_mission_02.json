@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:gaara_ally_shippuden",
+    "narutorpg:kankuro_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kazekage Rescue Mission",
+    "translate": "quest.narutorpg.arc.kazekage_rescue_mission"
+  },
+  "description": {
+    "fallback": "In Sunagakure, the Akatsuki duo of Deidara and Sasori made their way to the village in search of Gaara. Deidara went off to fight Gaara alone while Sasori guarded the entrance. Gaara intercepted Deidara during the battle and managed to crush one of Deidara's arms using his Sand Binding Coffin.",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "In Sunagakure, the Akatsuki duo of Deidara and Sasori made their way to the village in search of Gaara.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_02.intro0"
+    },
+    {
+      "fallback": "Deidara went off to fight Gaara alone while Sasori guarded the entrance.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_02.intro1"
+    },
+    {
+      "fallback": "Gaara intercepted Deidara during the battle and managed to crush one of Deidara's arms using his Sand Binding Coffin.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Rescue Gaara",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Rescue Gaara",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:deidara_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Deidara",
+        "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasori_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasori",
+        "translate": "quest.narutorpg.defeat.sasori_foe_shippuden"
+      }
+    }
+  ],
+  "order": 101101,
+  "outro": [
+    {
+      "fallback": "After learning this, Sakura vowed to do everything she could to protect Naruto from being a victim of Akatsuki.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_02.outro0"
+    },
+    {
+      "fallback": "Temari was thankful that there was finally someone who could understand Gaara, and grateful to Naruto for changing Gaara and attempting to save him.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

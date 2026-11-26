@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "Kawaki asks Boruto what he meant about Thornsouls rotting away. He reiterates that if nothing is done with a Thornsoul, they will rot away. Not only does the Human God Tree perish, but the person they are modeled after will die too.",
+    "translate": "quest.narutorpg.mamushi_arc_09.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Kawaki asks Boruto what he meant about Thornsouls rotting away.",
+      "translate": "quest.narutorpg.mamushi_arc_09.intro0"
+    },
+    {
+      "fallback": "He reiterates that if nothing is done with a Thornsoul, they will rot away.",
+      "translate": "quest.narutorpg.mamushi_arc_09.intro1"
+    },
+    {
+      "fallback": "Not only does the Human God Tree perish, but the person they are modeled after will die too.",
+      "translate": "quest.narutorpg.mamushi_arc_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Used to It",
+    "translate": "quest.narutorpg.mamushi_arc_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.mamushi_arc_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Used to It",
+        "translate": "quest.narutorpg.mamushi_arc_09.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:inojin_yamanaka",
+      "text": {
+        "fallback": "Meet Inojin Yamanaka",
+        "translate": "quest.narutorpg.mamushi_arc_09.o3"
+      }
+    }
+  ],
+  "order": 303608,
+  "outro": [
+    {
+      "fallback": "Not only does the Human God Tree perish, but the person they are modeled after will die too.",
+      "translate": "quest.narutorpg.mamushi_arc_09.outro0"
+    },
+    {
+      "fallback": "Meanwhile, Inojin regains consciousness after Himawari healed his eyes.",
+      "translate": "quest.narutorpg.mamushi_arc_09.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_08"
+  ],
+  "rewards": {
+    "experience": 47,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 16
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

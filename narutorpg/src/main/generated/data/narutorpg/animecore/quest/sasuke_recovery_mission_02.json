@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kiba_inuzuka_ally_naruto",
+    "narutorpg:choji_akimichi_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "A five-man squad was gathered by Shikamaru, including himself, Kiba, Naruto, Chōji, and Neji. Naruto also recommended Shino, however Shino was on a special mission with his father at the time. Sakura arrives just before they're leaving and explains to while crying that she failed to stop Sasuke, and asks Naruto, who she believes to be the only one capable of doing so, to do it as a once in a lifetime request.",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_02.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "A five-man squad was gathered by Shikamaru, including himself, Kiba, Naruto, Chōji, and Neji.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_02.intro0"
+    },
+    {
+      "fallback": "Naruto also recommended Shino, however Shino was on a special mission with his father at the time.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_02.intro1"
+    },
+    {
+      "fallback": "Sakura arrives just before they're leaving and explains to while crying that she failed to stop Sasuke, and asks Naruto, who she believes to be the only one capable of doing so, to do it as a once in a lifetime request.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chōji vs. Jirōbō",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Chōji vs. Jirōbō",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jirobo_foe_naruto",
+      "text": {
+        "fallback": "Defeat Jirōbō",
+        "translate": "quest.narutorpg.defeat.jirobo_foe_naruto"
+      }
+    }
+  ],
+  "order": 11701,
+  "outro": [
+    {
+      "fallback": "Taking the pill slimmed down his body, as the excess calories were converted into butterfly wings of chakra.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_02.outro0"
+    },
+    {
+      "fallback": "After getting his revenge on Jirōbō for eating the last chip and for calling him fat, Chōji put all his chakra and power into his fist, and killed Jirōbō for insulting his best friend, Shikamaru.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

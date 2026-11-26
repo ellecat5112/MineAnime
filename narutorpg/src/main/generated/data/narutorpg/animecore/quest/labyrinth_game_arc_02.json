@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "Mozu cages Yuki despite Tsuzura's protests, wishing to sell her. Tsuzura doesn't care about an animal's rarity, and Mozu says this is because he hasn't experienced hardship, recounting how in her past, she was neglected until she discovered a marten thought to be extinct, which earned her recognition. She has since worn it around her neck, and hopes Tsuzura will one day understand their value.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_02.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Mozu cages Yuki despite Tsuzura's protests, wishing to sell her.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_02.intro0"
+    },
+    {
+      "fallback": "Tsuzura doesn't care about an animal's rarity, and Mozu says this is because he hasn't experienced hardship, recounting how in her past, she was neglected until she discovered a marten thought to be extinct, which...",
+      "translate": "quest.narutorpg.labyrinth_game_arc_02.intro1"
+    },
+    {
+      "fallback": "She has since worn it around her neck, and hopes Tsuzura will one day understand their value.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Into the Sky Again",
+    "translate": "quest.narutorpg.labyrinth_game_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.labyrinth_game_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Go: Into the Sky Again",
+        "translate": "quest.narutorpg.labyrinth_game_arc_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:mozu_shitakiri",
+      "text": {
+        "fallback": "Meet Mozu Shitakiri",
+        "translate": "quest.narutorpg.labyrinth_game_arc_02.o3"
+      }
+    }
+  ],
+  "order": 228401,
+  "outro": [
+    {
+      "fallback": "They're approached by a subordinate of Yuki's buyer, asking for directions.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_02.outro0"
+    },
+    {
+      "fallback": "Upon learning the buyer is a taxidermist, Boruto rushes out, followed by Sasuke.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:labyrinth_game_arc_01"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

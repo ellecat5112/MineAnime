@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Parent and Child Day Arc",
+    "translate": "quest.narutorpg.arc.parent_and_child_day_arc"
+  },
+  "description": {
+    "fallback": "Several cooks discuss an upcoming eating contest, and wonder how to account for Chōji Akimichi's participation. Chōji watches the announcement of the Parent and Child Day holiday on tv, but keeps on flicking through channels and eating. Seeing her father, Chōchō asks Karui why she married him.",
+    "translate": "quest.narutorpg.parent_and_child_day_arc_02.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Several cooks discuss an upcoming eating contest, and wonder how to account for Chōji Akimichi's participation.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_02.intro0"
+    },
+    {
+      "fallback": "Chōji watches the announcement of the Parent and Child Day holiday on tv, but keeps on flicking through channels and eating.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_02.intro1"
+    },
+    {
+      "fallback": "Seeing her father, Chōchō asks Karui why she married him.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Heaping Helping! The Eating Contest!",
+    "translate": "quest.narutorpg.parent_and_child_day_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.parent_and_child_day_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Go: A Heaping Helping! The Eating Contest!",
+        "translate": "quest.narutorpg.parent_and_child_day_arc_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:choji_akimichi",
+      "text": {
+        "fallback": "Meet Chōji Akimichi",
+        "translate": "quest.narutorpg.parent_and_child_day_arc_02.o3"
+      }
+    }
+  ],
+  "order": 210301,
+  "outro": [
+    {
+      "fallback": "At the contest, they also find Sai and Inojin, Rock Lee, Metal Lee, Shikamaru and Shikadai participating as well.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_02.outro0"
+    },
+    {
+      "fallback": "Chōji and Chōchō advance to the second round, and are surprised when another team ties with them.",
+      "translate": "quest.narutorpg.parent_and_child_day_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:parent_and_child_day_arc_01"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

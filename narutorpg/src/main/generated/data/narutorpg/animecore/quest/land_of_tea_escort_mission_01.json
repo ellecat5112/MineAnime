@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Land of Tea Escort Mission",
+    "translate": "quest.narutorpg.arc.land_of_tea_escort_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Team 7 (without Kakashi) is given a mission to protect a young man, Idate, during his foot race against a rival clan that will settle the feud between the two. They are known as the Wasabi family and the Wagarashi family. Idate, however, has a strong distaste for ninja, and always ends up arguing with Naruto.",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Team 7 (without Kakashi) is given a mission to protect a young man, Idate, during his foot race against a rival clan that will settle the feud between the two.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_01.intro0"
+    },
+    {
+      "fallback": "They are known as the Wasabi family and the Wagarashi family.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_01.intro1"
+    },
+    {
+      "fallback": "Idate, however, has a strong distaste for ninja, and always ends up arguing with Naruto.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Mission: Help an Old Friend in the Land of Tea",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Mission: Help an Old Friend in the Land of Tea",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:idate_morino_foe_naruto",
+      "text": {
+        "fallback": "Defeat Idate Morino",
+        "translate": "quest.narutorpg.defeat.idate_morino_foe_naruto"
+      }
+    }
+  ],
+  "order": 11200,
+  "outro": [
+    {
+      "fallback": "Just like the Wasabi clan hired ninja to protect their runner, the Wagarashi clan did the same.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_01.outro0"
+    },
+    {
+      "fallback": "In the opening of the race, Idate runs off in the wrong direction, confusing everyone.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:search_for_tsunade_06"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

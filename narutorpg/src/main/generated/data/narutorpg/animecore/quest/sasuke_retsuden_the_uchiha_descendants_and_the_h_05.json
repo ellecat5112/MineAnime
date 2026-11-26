@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": "Sasuke reads a note from Sakura with her findings about Hoshinarabe; the card \"Bonfire\", for example, corresponds to a constellation visible in the ninth month. That night, Jiji accurately predicts that Menō will pass by their cell. Using a stick from a tree that he's seen Menō rest under, Jiji lures Menō close enough to pet and invites his cellmates to join him.",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Sasuke reads a note from Sakura with her findings about Hoshinarabe; the card \"Bonfire\", for example, corresponds to a constellation visible in the ninth month.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.intro0"
+    },
+    {
+      "fallback": "That night, Jiji accurately predicts that Menō will pass by their cell.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.intro1"
+    },
+    {
+      "fallback": "Using a stick from a tree that he's seen Menō rest under, Jiji lures Menō close enough to pet and invites his cellmates to join him.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 5 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Chapter 5 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:penjira_foe_boruto",
+      "text": {
+        "fallback": "Defeat Penjira",
+        "translate": "quest.narutorpg.defeat.penjira_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jiji_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jiji",
+        "translate": "quest.narutorpg.defeat.jiji_foe_boruto"
+      }
+    }
+  ],
+  "order": 229104,
+  "outro": [
+    {
+      "fallback": "At the same moment, Sasuke unlocks the door, causing a sound; Sakura taps the real staff on the ground to keep Zansūru from noticing.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.outro0"
+    },
+    {
+      "fallback": "Sasuke quickly descen",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_05.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_04"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

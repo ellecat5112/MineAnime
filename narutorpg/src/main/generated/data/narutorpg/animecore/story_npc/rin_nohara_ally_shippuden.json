@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:booby_trap",
+    "narutorpg:leaping_bullet_shell_tower",
+    "narutorpg:shadow_stroke",
+    "narutorpg:summoning_technique",
+    "narutorpg:water_release_great_water_mass_bullet",
+    "narutorpg:mystical_palm_technique"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 4431943,
+    "hair": 6111287,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 16767916,
+    "top": 2046559
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Rin Nohara",
+    "translate": "npc.narutorpg.rin_nohara"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

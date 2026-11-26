@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:jiraiya_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Time Slip Arc",
+    "translate": "quest.narutorpg.arc.time_slip_arc"
+  },
+  "description": {
+    "fallback": "Urashiki complains about Boruto's constant interference with his plans. Sasuke attacks him, but before Boruto can get Naruto to flee, Urashiki's line finds its way to Naruto. Urashiki yanks back his line, but is surprised that there is no chakra on his hook.",
+    "translate": "quest.narutorpg.time_slip_arc_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Urashiki complains about Boruto's constant interference with his plans.",
+      "translate": "quest.narutorpg.time_slip_arc_04.intro0"
+    },
+    {
+      "fallback": "Sasuke attacks him, but before Boruto can get Naruto to flee, Urashiki's line finds its way to Naruto.",
+      "translate": "quest.narutorpg.time_slip_arc_04.intro1"
+    },
+    {
+      "fallback": "Urashiki yanks back his line, but is surprised that there is no chakra on his hook.",
+      "translate": "quest.narutorpg.time_slip_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Power of the Nine-Tails",
+    "translate": "quest.narutorpg.time_slip_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.time_slip_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: The Power of the Nine-Tails",
+        "translate": "quest.narutorpg.time_slip_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213803,
+  "outro": [
+    {
+      "fallback": "Urashiki tells Naruto he'll extract the Nine-Tails from him.",
+      "translate": "quest.narutorpg.time_slip_arc_04.outro0"
+    },
+    {
+      "fallback": "Boruto explains Urashiki's ability to Jiraiya, who in line with Sasuke's earlier speculation, attributes the failure to the seal keeping the fox in Naruto, and stresses that if Urashiki forcefully breaks the seal...",
+      "translate": "quest.narutorpg.time_slip_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:time_slip_arc_03"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

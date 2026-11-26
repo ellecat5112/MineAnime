@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:kama"
+  ],
+  "appearance": {
+    "accent": 16119285,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "hair_style": "spiky",
+    "outfit": "cloak",
+    "skin": 14724201,
+    "top": 1710618
+  },
+  "attack": 18.2,
+  "cast_interval": 40,
+  "health": 634.0,
+  "name": {
+    "fallback": "Jigen",
+    "translate": "npc.narutorpg.jigen"
+  },
+  "power": 2.46,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

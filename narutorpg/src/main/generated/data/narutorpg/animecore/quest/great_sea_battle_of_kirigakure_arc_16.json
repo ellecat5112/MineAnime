@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Metal Lee and Boruto wait at the village for the return of Denki's group. The children rush back without Denki and Iwabee, and inform everyone that they were captured by the Funato. Buntan and Kawaki believe they're either dead or will be soon, recalling Kagura, but Metal is steadfast in believing they're ok, urging everyone to prepare to fight the Funato.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Metal Lee and Boruto wait at the village for the return of Denki's group.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.intro0"
+    },
+    {
+      "fallback": "The children rush back without Denki and Iwabee, and inform everyone that they were captured by the Funato.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.intro1"
+    },
+    {
+      "fallback": "Buntan and Kawaki believe they're either dead or will be soon, recalling Kagura, but Metal is steadfast in believing they're ok, urging everyone to prepare to fight the Funato.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Another Fierce Battle",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: Another Fierce Battle",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 224315,
+  "outro": [
+    {
+      "fallback": "Kawaki wonders if they're trying to starve them out after learning their situation from Denki and Iwabee searching for food.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.outro0"
+    },
+    {
+      "fallback": "Boruto doesn't think that's the case, recalling that Funamushi went straight for Kagura because he was avenging Seiren, and believes Funamushi is waiting for something.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_16.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_15"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

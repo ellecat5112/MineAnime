@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "Fugaku feeds the fish in the Uchiha District, and talks to Itachi about the Sharingan as he leaves. Itachi is angry that Fugaku doesn't care Tenma Izumo died, but hides it. Sasuke wants to play with Itachi, but he has a mission.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.desc"
+  },
+  "giver": "narutorpg:fugaku_uchiha",
+  "intro": [
+    {
+      "fallback": "Fugaku feeds the fish in the Uchiha District, and talks to Itachi about the Sharingan as he leaves.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.intro0"
+    },
+    {
+      "fallback": "Itachi is angry that Fugaku doesn't care Tenma Izumo died, but hides it.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.intro1"
+    },
+    {
+      "fallback": "Sasuke wants to play with Itachi, but he has a mission.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Shisui's Request",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:fugaku_uchiha",
+      "text": {
+        "fallback": "Talk to Fugaku Uchiha",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 41,
+      "text": {
+        "fallback": "Go: Shisui's Request",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shikaku_nara",
+      "text": {
+        "fallback": "Meet Shikaku Nara",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.o3"
+      }
+    }
+  ],
+  "order": 146103,
+  "outro": [
+    {
+      "fallback": "At night, the two eat and talk.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.outro0"
+    },
+    {
+      "fallback": "Tenma's death continues to weigh on Itachi.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_04.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:itachi_shinden_book_light_and_darkness_03"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

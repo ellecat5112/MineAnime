@@ -1,0 +1,18 @@
+{
+  "appearance": {
+    "accent": 7162945,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 4854924
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Tentō Madoka",
+    "translate": "npc.narutorpg.tento_madoka"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

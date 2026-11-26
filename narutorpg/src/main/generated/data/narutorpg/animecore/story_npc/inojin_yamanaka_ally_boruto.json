@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:formation_inoshikacho",
+    "narutorpg:mind_body_switch_technique",
+    "narutorpg:sealing_technique_tiger_vision_staring_bullet",
+    "narutorpg:super_beast_imitating_drawing",
+    "narutorpg:chakra_lock_on"
+  ],
+  "appearance": {
+    "accent": 9315498,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "hair_style": "ponytail",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 6953882
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Inojin Yamanaka",
+    "translate": "npc.narutorpg.inojin_yamanaka"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

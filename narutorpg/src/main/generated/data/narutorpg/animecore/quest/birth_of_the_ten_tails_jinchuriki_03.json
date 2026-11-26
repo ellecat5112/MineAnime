@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sasuke_uchiha_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Birth of the Ten-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.arc.birth_of_the_ten_tails_jinchuriki"
+  },
+  "description": {
+    "fallback": "With Kurama now in Susanoo armour, Naruto and Sasuke prepare to attack Obito once more. Realising their strength, Obito manifests a gigantic Yin–Yang shield and the Sage of Six Path's legendary Sword of Nunoboko to counter them. As the two young shinobi rush in, Naruto creates nine Rasengan within the tails of his Susanoo-enhanced Tailed Beast Mode.",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "With Kurama now in Susanoo armour, Naruto and Sasuke prepare to attack Obito once more.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.intro0"
+    },
+    {
+      "fallback": "Realising their strength, Obito manifests a gigantic Yin–Yang shield and the Sage of Six Path's legendary Sword of Nunoboko to counter them.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.intro1"
+    },
+    {
+      "fallback": "As the two young shinobi rush in, Naruto creates nine Rasengan within the tails of his Susanoo-enhanced Tailed Beast Mode.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Obito's Last Stand",
+    "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Obito's Last Stand",
+        "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 138802,
+  "outro": [
+    {
+      "fallback": "However, as the Alliance were about to join in before Tsunade tells them to stand down, Kakashi manages to return from the other dimension.",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.outro0"
+    },
+    {
+      "fallback": "Stopping Sasuke, Kakashi informs his former student that killing Obito is his burden to be",
+      "translate": "quest.narutorpg.birth_of_the_ten_tails_jinchuriki_03.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_02"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

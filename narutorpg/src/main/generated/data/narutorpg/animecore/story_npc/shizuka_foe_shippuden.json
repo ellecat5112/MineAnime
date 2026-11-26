@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "narutorpg:dance_performance_second_step",
+    "narutorpg:nadeshiko_style_deep_crimson_dance_performance",
+    "narutorpg:nadeshiko_style_hardliner_gale_fist",
+    "narutorpg:nadeshiko_style_hardliner_revolving_cut",
+    "narutorpg:violent_whirlwind"
+  ],
+  "appearance": {
+    "accent": 8916559,
+    "eyes": 2001125,
+    "hair": 14737632,
+    "hair_style": "long",
+    "skin": 14724201,
+    "top": 7162945
+  },
+  "attack": 11.2,
+  "cast_interval": 40,
+  "health": 374.0,
+  "name": {
+    "fallback": "Shizuka",
+    "translate": "npc.narutorpg.shizuka"
+  },
+  "power": 1.74,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

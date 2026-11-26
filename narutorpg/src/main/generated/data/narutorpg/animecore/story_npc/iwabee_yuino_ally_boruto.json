@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_earth_flow_spears",
+    "narutorpg:earth_release_earth_flow_wave",
+    "narutorpg:earth_release_gravel",
+    "narutorpg:earth_release_moving_earth_core",
+    "narutorpg:earth_release_reverse_antlion",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 2001125,
+    "hair": 6111287,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "top": 2046559
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Iwabee Yuino",
+    "translate": "npc.narutorpg.iwabee_yuino"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:flying_thunder_formation_technique",
+    "narutorpg:flying_thunder_god_mutually_instantaneous_revolving_technique",
+    "narutorpg:flying_thunder_god_slash",
+    "narutorpg:flying_thunder_god_second_step",
+    "narutorpg:area_scanning_technique"
+  ],
+  "appearance": {
+    "accent": 12986408,
+    "eyes": 2001125,
+    "hair": 16766287,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 2046559,
+    "top": 16448250
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Minato Namikaze",
+    "translate": "npc.narutorpg.minato_namikaze"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

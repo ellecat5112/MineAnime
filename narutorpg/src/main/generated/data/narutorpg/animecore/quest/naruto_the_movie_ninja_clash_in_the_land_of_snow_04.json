@@ -1,0 +1,82 @@
+{
+  "arc": {
+    "fallback": "Naruto the Movie: Ninja Clash in the Land of Snow",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_ninja_clash_in_the_land_of_snow"
+  },
+  "description": {
+    "fallback": "With the rogue ninja all gone, Yukie decided to resume her position as the princess of the Land of Snow, which would eventually become the Land of Spring after the technology behind the generator was perfected. Despite being a princess, Yukie intended to continue her role as an actress. At the very end of the movie, Naruto, who had desperately wanted an autograph from the actress, was given an envelope from Sasuke...",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "With the rogue ninja all gone, Yukie decided to resume her position as the princess of the Land of Snow, which would eventually become the Land of Spring after the technology behind the generator was perfected.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.intro0"
+    },
+    {
+      "fallback": "Despite being a princess, Yukie intended to continue her role as an actress.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.intro1"
+    },
+    {
+      "fallback": "At the very end of the movie, Naruto, who had desperately wanted an autograph from the actress, was given an envelope from Sasuke afterwards, who received shocked looks from the other members of Team 7, including Naruto...",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 4",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Part 4",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:koyuki_kazahana",
+      "text": {
+        "fallback": "Meet Koyuki Kazahana",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.o3"
+      }
+    }
+  ],
+  "order": 301003,
+  "outro": [
+    {
+      "fallback": "Inside the envelope was a signed photograph from Yukie.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.outro0"
+    },
+    {
+      "fallback": "The picture was of a bandaged up (and apparently unconscious) Naruto in the hospital, who was receiving a tender kiss on the cheek from the actress.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_04.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_ninja_clash_in_the_land_of_snow_03"
+  ],
+  "rewards": {
+    "experience": 19,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

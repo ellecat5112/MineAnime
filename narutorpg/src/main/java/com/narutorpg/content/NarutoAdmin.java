@@ -22,7 +22,8 @@ public final class NarutoAdmin {
             AdminSealItem.Action.RANK_UP, "Rank Up Seal", AdminSealItem.Action.CLAN_LEVEL, "Clan Awakening Seal",
             AdminSealItem.Action.MASTERY, "Mastery Seal", AdminSealItem.Action.SKILL_POINTS, "Skill Point Seal",
             AdminSealItem.Action.NATURES, "Nature Seal", AdminSealItem.Action.REPUTATION, "Reputation Seal",
-            AdminSealItem.Action.REFILL, "Chakra Seal", AdminSealItem.Action.MAX_ALL, "Kage Seal");
+            AdminSealItem.Action.REFILL, "Chakra Seal", AdminSealItem.Action.MAX_ALL, "Kage Seal",
+            AdminSealItem.Action.STORY, "Story Seal");
 
     static {
         for (AdminSealItem.Action a : AdminSealItem.Action.values()) {

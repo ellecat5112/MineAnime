@@ -75,7 +75,12 @@ public record DashStrikeAction(Mode mode, float distance, float damage, float hi
             }
             if (hits > 1 && !struck.isEmpty()) followUps(ctx, struck);
         }
-        caster.networkHandler.requestTeleport(destination.x, destination.y, destination.z, yaw, caster.getPitch());
+        if (caster instanceof net.minecraft.server.network.ServerPlayerEntity sp) {
+            sp.networkHandler.requestTeleport(destination.x, destination.y, destination.z, yaw, caster.getPitch());
+        } else {
+            caster.requestTeleport(destination.x, destination.y, destination.z);
+            caster.setYaw(yaw);
+        }
         caster.fallDistance = 0f;
     }
 

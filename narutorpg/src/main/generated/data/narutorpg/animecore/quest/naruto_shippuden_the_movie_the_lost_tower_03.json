@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shibi_aburame_ally_movies",
+    "narutorpg:choza_akimichi_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Lost Tower",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_lost_tower"
+  },
+  "description": {
+    "fallback": "Walking along the city, suddenly a child from the group says that Sāra is said to be a \"puppet princess\", only to be scolded by the leader of the group. Sāra then asks her about the rumour, to which she says that it is quite true. She then tells Sāra that most of the men of Rōran were enlisted to work for the city by the queen's order, to which Sāra replies that she never gave a such order and from her palace, the...",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Walking along the city, suddenly a child from the group says that Sāra is said to be a \"puppet princess\", only to be scolded by the leader of the group.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.intro0"
+    },
+    {
+      "fallback": "Sāra then asks her about the rumour, to which she says that it is quite true.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.intro1"
+    },
+    {
+      "fallback": "She then tells Sāra that most of the men of Rōran were enlisted to work for the city by the queen's order, to which Sāra replies that she never gave a such order and from her palace, the people seem to be happy to see...",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 91,
+      "text": {
+        "fallback": "Head out: Part 3",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sara_foe_movies",
+      "text": {
+        "fallback": "Defeat Sāra",
+        "translate": "quest.narutorpg.defeat.sara_foe_movies"
+      }
+    }
+  ],
+  "order": 301602,
+  "outro": [
+    {
+      "fallback": "Naruto is easily defeated by Anrokuzan, and Minato comes to his rescue just before Anrokuzan deals the final blow.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.outro0"
+    },
+    {
+      "fallback": "Minato then tells Naruto to follow the citizens while he is holding back",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_lost_tower_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

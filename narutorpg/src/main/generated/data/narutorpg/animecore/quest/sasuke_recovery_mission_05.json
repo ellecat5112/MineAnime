@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:kiba_inuzuka_ally_naruto",
+    "narutorpg:temari_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "Right before Shikamaru and Kiba were about to die, they were aided by Temari and Kankurō respectively, who had been ordered to help the Konoha ninja. Kankurō's puppets were unaffected by Sakon and Ukon's ability to fuse with cells. When Sakon arrived, he attempted to do the same thing he had almost done with Kiba, but Kankurō turned out to be his new puppet, Kuroari, to injure Sakon, forcing them to fuse back and...",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_05.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Right before Shikamaru and Kiba were about to die, they were aided by Temari and Kankurō respectively, who had been ordered to help the Konoha ninja.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_05.intro0"
+    },
+    {
+      "fallback": "Kankurō's puppets were unaffected by Sakon and Ukon's ability to fuse with cells.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_05.intro1"
+    },
+    {
+      "fallback": "When Sakon arrived, he attempted to do the same thing he had almost done with Kiba, but Kankurō turned out to be his new puppet, Kuroari, to injure Sakon, forcing them to fuse back and Ukon to take over.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Sand Arrives",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: The Sand Arrives",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kankuro_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kankurō",
+        "translate": "quest.narutorpg.defeat.kankuro_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tayuya_foe_naruto",
+      "text": {
+        "fallback": "Defeat Tayuya",
+        "translate": "quest.narutorpg.defeat.tayuya_foe_naruto"
+      }
+    }
+  ],
+  "order": 11704,
+  "outro": [
+    {
+      "fallback": "Shikamaru used this time to tell Temari about Tayuya's strategies.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_05.outro0"
+    },
+    {
+      "fallback": "After a while, Tayuya fixed her flute, and was ready to kill Shikamaru and Temari, but Temari used her Summoning Technique and used the Summoning: Quick Beheading Dance, which was able to kill Tayuya by destroying an...",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

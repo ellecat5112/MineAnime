@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Tenchi Bridge Reconnaissance Mission",
+    "translate": "quest.narutorpg.arc.tenchi_bridge_reconnaissance_mission"
+  },
+  "description": {
+    "fallback": "Upon arriving at Konoha, Kakashi was confined to the hospital, making him unable to lead the team for a while. When reporting to Tsunade, they informed her about the meeting with Sasori's spy in ten days. In order to be able to go, Naruto needed to find a replacement for Sasuke.",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Upon arriving at Konoha, Kakashi was confined to the hospital, making him unable to lead the team for a while.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.intro0"
+    },
+    {
+      "fallback": "When reporting to Tsunade, they informed her about the meeting with Sasori's spy in ten days.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.intro1"
+    },
+    {
+      "fallback": "In order to be able to go, Naruto needed to find a replacement for Sasuke.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "New Team Kakashi",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: New Team Kakashi",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 104300,
+  "outro": [
+    {
+      "fallback": "Tsunade convinced them to let him go by assigning Tenzō, an Anbu, as the temporary leader of Team Kakashi, under the codename Yamato.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.outro0"
+    },
+    {
+      "fallback": "They were to travel to the Tenchi Bridge in Kusagakure to meet Sasori's spy.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_06"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 1118481,
+    "hair": 6111287,
+    "hair_style": "spiky",
+    "headband": 4854924,
+    "outfit": "cloak",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 1052692
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Jūgo",
+    "translate": "npc.narutorpg.jugo"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

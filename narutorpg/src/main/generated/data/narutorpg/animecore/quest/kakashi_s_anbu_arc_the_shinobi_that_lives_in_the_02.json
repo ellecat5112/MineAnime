@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:hiruzen_sarutobi_ally_shippuden",
+    "narutorpg:yukimi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+    "translate": "quest.narutorpg.arc.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the"
+  },
+  "description": {
+    "fallback": "When Orochimaru's illegal experiments are discovered, Hiruzen leads an Anbu team to apprehend him, but is incapable of killing his own student, allowing Orochimaru to escape. Kakashi tries to deter Orochimaru from leaving the country's borders, but is defeated. Orochimaru is injured by an exploding tag hidden inside a snake.",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "When Orochimaru's illegal experiments are discovered, Hiruzen leads an Anbu team to apprehend him, but is incapable of killing his own student, allowing Orochimaru to escape.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.intro0"
+    },
+    {
+      "fallback": "Kakashi tries to deter Orochimaru from leaving the country's borders, but is defeated.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.intro1"
+    },
+    {
+      "fallback": "Orochimaru is injured by an exploding tag hidden inside a snake.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Orochimaru's Defection & The Iburi Clan's Downfall",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Orochimaru's Defection & The Iburi Clan's Downfall",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 135901,
+  "outro": [
+    {
+      "fallback": "Kinoe tries to contain Yukimi's smoke with his Wood Release, and is aided by the smoke of her deceased clansmen, managing to return her to human form, her ability stabilised.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.outro0"
+    },
+    {
+      "fallback": "Yukimi departs, and Kakashi tells Kinoe that he won't report having found Orochimaru or the Iburi clan.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_02.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

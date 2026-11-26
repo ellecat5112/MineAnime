@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:tenten_ally_naruto",
+    "narutorpg:neji_hyuga_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Star Guard Mission",
+    "translate": "quest.narutorpg.arc.star_guard_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Tenten, Neji, and Rock Lee were assigned to a mission to protect the star belonging to Hoshigakure. When Naruto hears of the star's special chakra enhancing power he decides that he too must go along, assuming that Orochimaru may be involved. Naruto convinces Tsunade to have him join Team Guy's mission by bribing her with an expensive treat.",
+    "translate": "quest.narutorpg.star_guard_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Tenten, Neji, and Rock Lee were assigned to a mission to protect the star belonging to Hoshigakure.",
+      "translate": "quest.narutorpg.star_guard_mission_01.intro0"
+    },
+    {
+      "fallback": "When Naruto hears of the star's special chakra enhancing power he decides that he too must go along, assuming that Orochimaru may be involved.",
+      "translate": "quest.narutorpg.star_guard_mission_01.intro1"
+    },
+    {
+      "fallback": "Naruto convinces Tsunade to have him join Team Guy's mission by bribing her with an expensive treat.",
+      "translate": "quest.narutorpg.star_guard_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Encounter! The Boy with a Star's Name",
+    "translate": "quest.narutorpg.star_guard_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.star_guard_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: Encounter! The Boy with a Star's Name",
+        "translate": "quest.narutorpg.star_guard_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sumaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Sumaru",
+        "translate": "quest.narutorpg.defeat.sumaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 18800,
+  "outro": [
+    {
+      "fallback": "Sumaru discovers that the star has been stolen and chases after the thief.",
+      "translate": "quest.narutorpg.star_guard_mission_01.outro0"
+    },
+    {
+      "fallback": "The thief manages to escape from Naruto, and it is revealed that the user was using techniques exclusive to those who had star training, meaning they were once a member of the Hoshigakure.",
+      "translate": "quest.narutorpg.star_guard_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

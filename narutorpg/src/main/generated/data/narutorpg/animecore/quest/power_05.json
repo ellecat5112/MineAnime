@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:tonika_village_head_ally_shippuden",
+    "narutorpg:dokku_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Power",
+    "translate": "quest.narutorpg.arc.power"
+  },
+  "description": {
+    "fallback": "While the Saezuri is revealed, learning that Disonasu employed Kabuto Yakushi to wipe out the residents of Tonika Village, Dokku tried to attack Disonasu, but stopped by a reincarnated puppet and restrained by a resurrected Takigakure shinobi. Disonasu also praised Naruto about defeating Pain, the one who scarred him and left him powerless, before kicking the boy repeatedly. Miina and the orphans came to The Hole to...",
+    "translate": "quest.narutorpg.power_05.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "While the Saezuri is revealed, learning that Disonasu employed Kabuto Yakushi to wipe out the residents of Tonika Village, Dokku tried to attack Disonasu, but stopped by a reincarnated puppet and restrained by a...",
+      "translate": "quest.narutorpg.power_05.intro0"
+    },
+    {
+      "fallback": "Disonasu also praised Naruto about defeating Pain, the one who scarred him and left him powerless, before kicking the boy repeatedly.",
+      "translate": "quest.narutorpg.power_05.intro1"
+    },
+    {
+      "fallback": "Miina and the orphans came to The Hole to give the iron bars, but Kabuto's clone intercepted them.",
+      "translate": "quest.narutorpg.power_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Saezuri Revealed",
+    "translate": "quest.narutorpg.power_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.power_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: The Saezuri Revealed",
+        "translate": "quest.narutorpg.power_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:disonasu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Disonasu",
+        "translate": "quest.narutorpg.defeat.disonasu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hidan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hidan",
+        "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 130004,
+  "outro": [
+    {
+      "fallback": "When the storm expands towards Konoha, Tsunade goes out as the storm engulfs the Land of Fire.",
+      "translate": "quest.narutorpg.power_05.outro0"
+    },
+    {
+      "fallback": "Naruto tried to stop Disonasu from ascending the tower, only to face his clone after he absorbed some of the tower's power and transformed into a Hydra-tailed fox monster.",
+      "translate": "quest.narutorpg.power_05.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:power_04"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

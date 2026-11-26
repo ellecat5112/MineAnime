@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 4431943,
+    "hair": 5125166,
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 2503224
+  },
+  "attack": 14.7,
+  "cast_interval": 70,
+  "health": 264.0,
+  "name": {
+    "fallback": "Nanara",
+    "translate": "npc.narutorpg.nanara"
+  },
+  "power": 2.46,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "arc": {
+    "fallback": "Yakumo Kurama Rescue Mission",
+    "translate": "quest.narutorpg.arc.yakumo_kurama_rescue_mission"
+  },
+  "description": {
+    "fallback": "Naruto and the members of Team 8 head into Yakumo's house to find her with Kurenai, threatening to erase her former sensei from existence. It is revealed that the malicious entity known as the Ido dwelled within Yakumo's subconscious, and was the reason why her abilities were sealed away. Yakumo ultimately overcomes the Ido and realises that Kurenai cared about her.",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.desc"
+  },
+  "giver": "narutorpg:kurenai_yuhi",
+  "intro": [
+    {
+      "fallback": "Naruto and the members of Team 8 head into Yakumo's house to find her with Kurenai, threatening to erase her former sensei from existence.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.intro0"
+    },
+    {
+      "fallback": "It is revealed that the malicious entity known as the Ido dwelled within Yakumo's subconscious, and was the reason why her abilities were sealed away.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.intro1"
+    },
+    {
+      "fallback": "Yakumo ultimately overcomes the Ido and realises that Kurenai cared about her.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Supposed Sealed Ability",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kurenai_yuhi",
+      "text": {
+        "fallback": "Talk to Kurenai Yūhi",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 42,
+      "text": {
+        "fallback": "Go: The Supposed Sealed Ability",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.o3"
+      }
+    }
+  ],
+  "order": 21304,
+  "outro": [
+    {
+      "fallback": "Yakumo ultimately overcomes the Ido and realises that Kurenai cared about her.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.outro0"
+    },
+    {
+      "fallback": "Kurenai then returns to an overjoyed Team 8.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:yakumo_kurama_rescue_mission_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

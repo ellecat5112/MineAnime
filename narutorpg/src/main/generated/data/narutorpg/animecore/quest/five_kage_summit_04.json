@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:killer_b_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "After teleporting Sasuke and Karin to safety, Tobi said he sent Sasuke to the summit to train the Mangekyō Sharingan, and to weaken the Kage for easy capture, but admitted he was pushing his luck. According to Tobi, the Sage of the Six Paths was worshipped as a god throughout the old ninja world because he managed to subdue the Ten-Tails, sealing it within his own body and becoming the very first jinchūriki. The...",
+    "translate": "quest.narutorpg.five_kage_summit_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "After teleporting Sasuke and Karin to safety, Tobi said he sent Sasuke to the summit to train the Mangekyō Sharingan, and to weaken the Kage for easy capture, but admitted he was pushing his luck.",
+      "translate": "quest.narutorpg.five_kage_summit_04.intro0"
+    },
+    {
+      "fallback": "According to Tobi, the Sage of the Six Paths was worshipped as a god throughout the old ninja world because he managed to subdue the Ten-Tails, sealing it within his own body and becoming the very first jinchūriki.",
+      "translate": "quest.narutorpg.five_kage_summit_04.intro1"
+    },
+    {
+      "fallback": "The Sage knew once he died, the Ten-Tails would be unleashed and once again lay waste to the world, so in his final moments, he split its chakra into nine parts, which would become the nine tailed beasts, and sealed its...",
+      "translate": "quest.narutorpg.five_kage_summit_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Declaration of War",
+    "translate": "quest.narutorpg.five_kage_summit_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.five_kage_summit_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: Declaration of War",
+        "translate": "quest.narutorpg.five_kage_summit_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ten_tails_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Ten-Tails",
+        "translate": "quest.narutorpg.defeat.ten_tails_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120703,
+  "outro": [
+    {
+      "fallback": "The Kage decided it would be best to hide the two remaining hosts from the front line as both are unpredictable on the battlefield and Tobi would expect them to turn up.",
+      "translate": "quest.narutorpg.five_kage_summit_04.outro0"
+    },
+    {
+      "fallback": "With his composure regained, A was voted the leader of the Alliance.",
+      "translate": "quest.narutorpg.five_kage_summit_04.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:five_kage_summit_03"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

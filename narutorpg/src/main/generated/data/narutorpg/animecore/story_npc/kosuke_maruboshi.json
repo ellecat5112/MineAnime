@@ -1,0 +1,18 @@
+{
+  "appearance": {
+    "accent": 5143098,
+    "hair": 14737632,
+    "headband": 1981066,
+    "outfit": "jacket",
+    "skin": 14724201,
+    "top": 2046559
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Kosuke Maruboshi",
+    "translate": "npc.narutorpg.kosuke_maruboshi"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

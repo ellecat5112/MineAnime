@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Hana takes her students for an outside class on an uninhabited island that used to be part of the village's training grounds, including spending a night on it. She warns them to be careful of the unmaintained island. The students thank her for arranging it to make up for the festival.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Hana takes her students for an outside class on an uninhabited island that used to be part of the village's training grounds, including spending a night on it.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.intro0"
+    },
+    {
+      "fallback": "She warns them to be careful of the unmaintained island.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.intro1"
+    },
+    {
+      "fallback": "The students thank her for arranging it to make up for the festival.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Island of Treachery",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 48,
+      "text": {
+        "fallback": "Go: The Island of Treachery",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 227110,
+  "outro": [
+    {
+      "fallback": "Osuka finds a game trail leading to edible wild plants, making use of what she learned when she lived in a mountain with her mother for a movie.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.outro0"
+    },
+    {
+      "fallback": "Kae makes a flower arrangement for Hana.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_11.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_10"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

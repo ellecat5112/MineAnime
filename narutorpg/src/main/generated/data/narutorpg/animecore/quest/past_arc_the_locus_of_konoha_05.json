@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "At Sunagakure, Gaara, Kankurō and Temari learn of Akatsuki's invasion of Konoha. Kankurō wonders if they'll be able to rebuild though Gaara knows they will since they have Naruto and has a flashback. Team 7 are sent on a mission to stop a group of bandits located between Konoha and Suna, resulting in the two villages working together for the first time since Suna's invasion though Naruto is reluctant about it.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "At Sunagakure, Gaara, Kankurō and Temari learn of Akatsuki's invasion of Konoha.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.intro0"
+    },
+    {
+      "fallback": "Kankurō wonders if they'll be able to rebuild though Gaara knows they will since they have Naruto and has a flashback.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.intro1"
+    },
+    {
+      "fallback": "Team 7 are sent on a mission to stop a group of bandits located between Konoha and Suna, resulting in the two villages working together for the first time since Suna's invasion though Naruto is reluctant about it.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Gaara's First Bond",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: Gaara's First Bond",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118604,
+  "outro": [
+    {
+      "fallback": "After Team 7 leaves, Gaara asks Yaoki and Korobi what they said to him and they happily say they're his friends which brings a smile to Gaara.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.outro0"
+    },
+    {
+      "fallback": "The flashback ends and Gaara thanks Naruto for helping him form his first bond with Konoha.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_05.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_04"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

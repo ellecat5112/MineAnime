@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Mitsuki draws seagulls in with a call, while Boruto spreads bread crumbs around. Boruto, Mitsuki, and Kokuri are ordered to clean the bird droppings. They use the opportunity to go over escape plans with Sarada.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_10.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Mitsuki draws seagulls in with a call, while Boruto spreads bread crumbs around.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_10.intro0"
+    },
+    {
+      "fallback": "Boruto, Mitsuki, and Kokuri are ordered to clean the bird droppings.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_10.intro1"
+    },
+    {
+      "fallback": "They use the opportunity to go over escape plans with Sarada.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Breaking Out of Hōzuki Castle",
+    "translate": "quest.narutorpg.mujina_bandits_arc_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mujina_bandits_arc_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Go: Breaking Out of Hōzuki Castle",
+        "translate": "quest.narutorpg.mujina_bandits_arc_10.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kokuri",
+      "text": {
+        "fallback": "Meet Kokuri",
+        "translate": "quest.narutorpg.mujina_bandits_arc_10.o3"
+      }
+    }
+  ],
+  "order": 215109,
+  "outro": [
+    {
+      "fallback": "Mitsuki can tell Kedama is hiding something, and sympathises with him, recalling his own time infiltrating enemies.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_10.outro0"
+    },
+    {
+      "fallback": "Kedama reveals how his plan to escape with his friend Kiku resulted in his death.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_10.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_09"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

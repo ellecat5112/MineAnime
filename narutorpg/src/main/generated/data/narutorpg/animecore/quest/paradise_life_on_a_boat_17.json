@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "As Team Asuma considers the impending war, they encounter Kosuke Maruboshi who reminds them of the time that they rescued him while they were still genin. With this, Kosuke retells the tale of the time their fathers saved him during the Konoha Crush with their Formation Ino–Shika–Chō. Somewhat rattled by this story, Kosuke reminds them that great shinobi weren't made in a day.",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_17.desc"
+  },
+  "giver": "narutorpg:ino_yamanaka",
+  "intro": [
+    {
+      "fallback": "As Team Asuma considers the impending war, they encounter Kosuke Maruboshi who reminds them of the time that they rescued him while they were still genin.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_17.intro0"
+    },
+    {
+      "fallback": "With this, Kosuke retells the tale of the time their fathers saved him during the Konoha Crush with their Formation Ino–Shika–Chō.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_17.intro1"
+    },
+    {
+      "fallback": "Somewhat rattled by this story, Kosuke reminds them that great shinobi weren't made in a day.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_17.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Legendary Ino-Shika-Chō",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_17"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:ino_yamanaka",
+      "text": {
+        "fallback": "Talk to Ino Yamanaka",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_17.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: The Legendary Ino-Shika-Chō",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_17.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kosuke_maruboshi",
+      "text": {
+        "fallback": "Meet Kosuke Maruboshi",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_17.o3"
+      }
+    }
+  ],
+  "order": 123316,
+  "outro": [
+    {
+      "fallback": "Somewhat rattled by this story, Kosuke reminds them that great shinobi weren't made in a day.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_17.outro0"
+    },
+    {
+      "fallback": "As the team contemplates everything, they decide to perfect their own formation, insisting that they'd be fine because they were not alone.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_17.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_16"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

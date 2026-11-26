@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 16485376,
+    "eyes": 1118481,
+    "hair": 1118481,
+    "hair_style": "bowl",
+    "headband": 1981066,
+    "outfit": "bodysuit",
+    "pants": 3046706,
+    "top": 3046706
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Rock Lee",
+    "translate": "npc.narutorpg.rock_lee"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

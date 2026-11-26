@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:eight_trigrams_sixty_four_palms",
+    "narutorpg:eight_trigrams_thirty_two_palms",
+    "narutorpg:eight_trigrams_vacuum_palm",
+    "narutorpg:gentle_fist",
+    "narutorpg:gentle_step_twin_lion_fists",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 6174129,
+    "eyes": 14802156,
+    "hair": 1973050,
+    "hair_style": "long",
+    "headband": 1981066,
+    "mark": "pale_eyes",
+    "outfit": "jacket",
+    "pants": 2635155,
+    "top": 13747433
+  },
+  "attack": 8.0,
+  "health": 116.0,
+  "name": {
+    "fallback": "Hinata Hyūga",
+    "translate": "npc.narutorpg.hinata_hyuga"
+  },
+  "power": 1.48,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

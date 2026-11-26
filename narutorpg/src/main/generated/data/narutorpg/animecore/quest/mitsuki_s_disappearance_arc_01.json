@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Mitsuki's Disappearance Arc",
+    "translate": "quest.narutorpg.arc.mitsuki_s_disappearance_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Mitsuki wakes up after dreaming of when Log and Orochimaru both orchestrated him to join either one of them, and becomes surprised he can dream. At Lightning Burger, Mitsuki tells his friends about having his first dream while wondering what to eat, and Boruto is surprised Mitsuki has never had a dream. When Boruto asks him, he confesses he never felt like rebelling against his parent.",
+    "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Mitsuki wakes up after dreaming of when Log and Orochimaru both orchestrated him to join either one of them, and becomes surprised he can dream.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.intro0"
+    },
+    {
+      "fallback": "At Lightning Burger, Mitsuki tells his friends about having his first dream while wondering what to eat, and Boruto is surprised Mitsuki has never had a dream.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.intro1"
+    },
+    {
+      "fallback": "When Boruto asks him, he confesses he never felt like rebelling against his parent.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Five Kage Summit",
+        "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 208100,
+  "outro": [
+    {
+      "fallback": "Waking up, Ōnoki mistakes Boruto for Kozuchi, and explains that he was Ōnoki's grandson who died in his youth.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.outro0"
+    },
+    {
+      "fallback": "Fulfilling his promise to the genin, Ōnoki reveals the hardest rock in the world is the unbreakable will of shinobi. Ōnoki asks Mitsu",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:versus_momoshiki_arc_06"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sai_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tenchi Bridge Reconnaissance Mission",
+    "translate": "quest.narutorpg.arc.tenchi_bridge_reconnaissance_mission"
+  },
+  "description": {
+    "fallback": "Team Kakashi took on their new mission, and a great amount of tension began to build in the team, especially between Naruto and Sai. Naruto disliked Sai since their interactions were similar to those between himself and Sasuke in the beginning of the series. Making matters worse, Sai nonchalantly mentioned Sasuke's treachery, greatly irritating both of his team-mates to the point that Sakura punched him in the face.",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Team Kakashi took on their new mission, and a great amount of tension began to build in the team, especially between Naruto and Sai.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.intro0"
+    },
+    {
+      "fallback": "Naruto disliked Sai since their interactions were similar to those between himself and Sasuke in the beginning of the series.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.intro1"
+    },
+    {
+      "fallback": "Making matters worse, Sai nonchalantly mentioned Sasuke's treachery, greatly irritating both of his team-mates to the point that Sakura punched him in the face.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Encounter with Orochimaru",
+    "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Encounter with Orochimaru",
+        "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 104301,
+  "outro": [
+    {
+      "fallback": "Yamato finally got close enough to use the Hokage-Style Sixty-Year-Old Technique — Kakuan Entering Society with Bliss-Bringing Hands technique to revert Naruto back to human form.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.outro0"
+    },
+    {
+      "fallback": "With Naruto's transformation reversed, Sakura used her medical skills to heal Naruto's severe injuries, still suffering herself from her previous injury.",
+      "translate": "quest.narutorpg.tenchi_bridge_reconnaissance_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:tenchi_bridge_reconnaissance_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

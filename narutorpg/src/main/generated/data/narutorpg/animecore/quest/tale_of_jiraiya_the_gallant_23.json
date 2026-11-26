@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Tobi continues to prevent Konoha's Eight Man Squad from reaching Sasuke. In Amegakure, Pain notices that Jiraiya managed to inscribe a message onto Fukasaku's back before dying. Pain tries to kill Fukasaku, but Fukasaku escapes.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Tobi continues to prevent Konoha's Eight Man Squad from reaching Sasuke.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.intro0"
+    },
+    {
+      "fallback": "In Amegakure, Pain notices that Jiraiya managed to inscribe a message onto Fukasaku's back before dying.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.intro1"
+    },
+    {
+      "fallback": "Pain tries to kill Fukasaku, but Fukasaku escapes.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Final Chapter, and…!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: The Final Chapter, and…!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113722,
+  "outro": [
+    {
+      "fallback": "Jiraiya sinks into the waters of the village with a smile, having decided to name the sequel to his story after Naruto.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.outro0"
+    },
+    {
+      "fallback": "Zetsu remarks on how impressive Jiraiya's fight with Pain was, then decides to go see Sasuke's fight with Itachi.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_23.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_22"
+  ],
+  "rewards": {
+    "experience": 25,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 5
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

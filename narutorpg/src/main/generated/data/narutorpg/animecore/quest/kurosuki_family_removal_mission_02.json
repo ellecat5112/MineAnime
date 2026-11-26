@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:rokusuke_ally_naruto",
+    "narutorpg:rock_lee_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Kurosuki Family Removal Mission",
+    "translate": "quest.narutorpg.arc.kurosuki_family_removal_mission"
+  },
+  "description": {
+    "fallback": "Determined to try and save Rokusuke, Naruto and the others ambushed some members of the Kurosuki family and managed to rescue an old man. They then heard the funeral bell, and went to try and save Rokusuke. However, Rock Lee met an old friend among the group.",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Determined to try and save Rokusuke, Naruto and the others ambushed some members of the Kurosuki family and managed to rescue an old man.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.intro0"
+    },
+    {
+      "fallback": "They then heard the funeral bell, and went to try and save Rokusuke.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.intro1"
+    },
+    {
+      "fallback": "However, Rock Lee met an old friend among the group.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Lesson Learned: The Iron Fist of Love!",
+    "translate": "quest.narutorpg.kurosuki_family_removal_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 95,
+      "text": {
+        "fallback": "Head out: A Lesson Learned: The Iron Fist of Love!",
+        "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:raiga_kurosuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Raiga Kurosuki",
+        "translate": "quest.narutorpg.defeat.raiga_kurosuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 16201,
+  "outro": [
+    {
+      "fallback": "Their time together was cut short, however, as Raiga was watching from the sidelines.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.outro0"
+    },
+    {
+      "fallback": "Naruto and his team pursued Raiga into a thick fog, and found that Raiga was able to conceal himself from even the Byakugan.",
+      "translate": "quest.narutorpg.kurosuki_family_removal_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kurosuki_family_removal_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

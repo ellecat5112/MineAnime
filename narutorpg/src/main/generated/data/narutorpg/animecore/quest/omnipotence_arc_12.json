@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_boruto",
+    "narutorpg:moegi_kazamatsuri_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Boruto demands an explanation from Momoshiki, but he doesn't elaborate. Shikamaru leads the hunt for Kawaki, instructing the sensors to stay sharp for the moment Kawaki exhausts himself and his chakra signature returns. Team 10 wants to search for Kawaki before Moegi stops them.",
+    "translate": "quest.narutorpg.omnipotence_arc_12.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Boruto demands an explanation from Momoshiki, but he doesn't elaborate.",
+      "translate": "quest.narutorpg.omnipotence_arc_12.intro0"
+    },
+    {
+      "fallback": "Shikamaru leads the hunt for Kawaki, instructing the sensors to stay sharp for the moment Kawaki exhausts himself and his chakra signature returns.",
+      "translate": "quest.narutorpg.omnipotence_arc_12.intro1"
+    },
+    {
+      "fallback": "Team 10 wants to search for Kawaki before Moegi stops them.",
+      "translate": "quest.narutorpg.omnipotence_arc_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Omnipotence (chapter)",
+    "translate": "quest.narutorpg.omnipotence_arc_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.omnipotence_arc_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Omnipotence (chapter)",
+        "translate": "quest.narutorpg.omnipotence_arc_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:amado_sanzu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Amado Sanzu",
+        "translate": "quest.narutorpg.defeat.amado_sanzu_foe_boruto"
+      }
+    }
+  ],
+  "order": 237811,
+  "outro": [
+    {
+      "fallback": "Amado contacts Shikamaru, asking him not to kill Kawaki, revealing he can issue a shutdown command, like with Delta.",
+      "translate": "quest.narutorpg.omnipotence_arc_12.outro0"
+    },
+    {
+      "fallback": "Shikamaru admonishes him for still keeping secrets from them, and while sympathetic to Amado's need of Kawaki for Akebi, remains firm about considering Kawaki an enemy to be eliminate if he doesn't surrender completely...",
+      "translate": "quest.narutorpg.omnipotence_arc_12.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_11"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

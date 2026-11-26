@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "At night, Mitsuki discusses the incidents with someone through a white snake, mentioning a Root heirloom and a possible user. Mitsuki recalls waking up in a tank. The Academy teachers have their students run an obstacle course in groups of three.",
+    "translate": "quest.narutorpg.academy_entrance_arc_12.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "At night, Mitsuki discusses the incidents with someone through a white snake, mentioning a Root heirloom and a possible user.",
+      "translate": "quest.narutorpg.academy_entrance_arc_12.intro0"
+    },
+    {
+      "fallback": "Mitsuki recalls waking up in a tank.",
+      "translate": "quest.narutorpg.academy_entrance_arc_12.intro1"
+    },
+    {
+      "fallback": "The Academy teachers have their students run an obstacle course in groups of three.",
+      "translate": "quest.narutorpg.academy_entrance_arc_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Boruto and Mitsuki",
+    "translate": "quest.narutorpg.academy_entrance_arc_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.academy_entrance_arc_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: Boruto and Mitsuki",
+        "translate": "quest.narutorpg.academy_entrance_arc_12.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:denki_kaminarimon",
+      "text": {
+        "fallback": "Meet Denki Kaminarimon",
+        "translate": "quest.narutorpg.academy_entrance_arc_12.o3"
+      }
+    }
+  ],
+  "order": 201111,
+  "outro": [
+    {
+      "fallback": "Konohamaru and Moegi tell the students they'll occasionally drop by for the purposes of seeing who might be under their command, and encourage them to see which formations work better.",
+      "translate": "quest.narutorpg.academy_entrance_arc_12.outro0"
+    },
+    {
+      "fallback": "The boys discuss the recent lack of ghost incidents, and whether they should continue investigating now that they know the adults are also looking into it.",
+      "translate": "quest.narutorpg.academy_entrance_arc_12.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_11"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

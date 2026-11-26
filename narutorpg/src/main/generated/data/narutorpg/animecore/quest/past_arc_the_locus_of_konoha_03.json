@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sakura_haruno_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "Naruto and Sakura meet up with Tazuna and Inari, who came to help rebuild the village. Naruto has a flashback that takes place after Team 7 finished their mission in the Land of Waves. Naruto remembers he had forgotten an Ramen Ichiraku coupon at Inari's house and runs back to go get it.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto and Sakura meet up with Tazuna and Inari, who came to help rebuild the village.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.intro0"
+    },
+    {
+      "fallback": "Naruto has a flashback that takes place after Team 7 finished their mission in the Land of Waves.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.intro1"
+    },
+    {
+      "fallback": "Naruto remembers he had forgotten an Ramen Ichiraku coupon at Inari's house and runs back to go get it.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Inari's Courage",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: Inari's Courage",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118602,
+  "outro": [
+    {
+      "fallback": "Then Inari tells Naruto he left his coupon at his house so then Naruto checks his pocket and wonders why its missing, Sasuke then tells Naruto that it probably drifted while he was at the river pulling out Inari, much...",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.outro0"
+    },
+    {
+      "fallback": "The flashback ends and Inari decides to make it up to Naruto by building a new better Ramen Ichiraku for him.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

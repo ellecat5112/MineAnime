@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_movies",
+    "narutorpg:sai_ally_movies"
+  ],
+  "arc": {
+    "fallback": "The Last: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.the_last_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "Naruto's team invades the palace and split up. Sai and Sakura going to rescue Hanabi, while Shikamaru and Naruto go after Hinata. As Shikamaru holds off Toneri's puppets.",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto's team invades the palace and split up.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_05.intro0"
+    },
+    {
+      "fallback": "Sai and Sakura going to rescue Hanabi, while Shikamaru and Naruto go after Hinata.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_05.intro1"
+    },
+    {
+      "fallback": "As Shikamaru holds off Toneri's puppets.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Account of the Battle for Pure Love",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Account of the Battle for Pure Love",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:toneri_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Toneri Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.toneri_otsutsuki_foe_movies"
+      }
+    }
+  ],
+  "order": 301904,
+  "outro": [
+    {
+      "fallback": "As a huge duel then ensues, Toneri reveals his newfound power to slice the moon in half.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_05.outro0"
+    },
+    {
+      "fallback": "Near the end of the fight, Naruto grasps the last remaining shred of the scarf Hinata had made for him and seemingly redirects and channels his chakra shroud into his the scrap in his right fist and delivers a...",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_05.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:the_last_naruto_the_movie_04"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

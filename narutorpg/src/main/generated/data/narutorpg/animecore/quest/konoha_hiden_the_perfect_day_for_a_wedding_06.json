@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Konoha Hiden: The Perfect Day for a Wedding",
+    "translate": "quest.narutorpg.arc.konoha_hiden_the_perfect_day_for_a_wedding"
+  },
+  "description": {
+    "fallback": "Kakashi and Shizune review the wedding gifts for Naruto and Hinata. Kakashi leans towards having Lee, Guy, and Konohamaru on duty. Kakashi goes out on a stroll, and meets up with Hinata, who is going to meet the other girls.",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Kakashi and Shizune review the wedding gifts for Naruto and Hinata.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.intro0"
+    },
+    {
+      "fallback": "Kakashi leans towards having Lee, Guy, and Konohamaru on duty.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.intro1"
+    },
+    {
+      "fallback": "Kakashi goes out on a stroll, and meets up with Hinata, who is going to meet the other girls.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Outcome of the Secret Mission",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: The Outcome of the Secret Mission",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shizune",
+      "text": {
+        "fallback": "Meet Shizune",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.o3"
+      }
+    }
+  ],
+  "order": 150405,
+  "outro": [
+    {
+      "fallback": "Konohamaru finds Iruka at Ramen Ichiraku, and demands he finally record a message for Naruto and Hinata.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.outro0"
+    },
+    {
+      "fallback": "Iruka is still unsure what to say, recalling that Gaara decided to celebrate Naruto as his friend instead of Kazekage, and wondering what role he should be, though understanding most would consider him Naruto's teacher.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_06.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_05"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

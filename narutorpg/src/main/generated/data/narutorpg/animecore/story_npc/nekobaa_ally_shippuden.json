@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "hair_style": "long",
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 4545124
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Nekobaa",
+    "translate": "npc.narutorpg.nekobaa"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

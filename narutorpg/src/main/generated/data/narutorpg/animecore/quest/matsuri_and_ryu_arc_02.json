@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sarada_uchiha_ally_boruto",
+    "narutorpg:sumire_kakei_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "Sarada thinks back to Sumire's feelings regarding Boruto. Ryū and Matsuri observe the toad, which the latter believes Boruto had placed there according to underground trees. Yodo uses her superior hearing to eavesdrop on their conversation, revealing to the others that they are looking for Boruto and Matsuri has sensory abilities, stating that it is a matter of when, not if, they are exposed.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Sarada thinks back to Sumire's feelings regarding Boruto.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.intro0"
+    },
+    {
+      "fallback": "Ryū and Matsuri observe the toad, which the latter believes Boruto had placed there according to underground trees.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.intro1"
+    },
+    {
+      "fallback": "Yodo uses her superior hearing to eavesdrop on their conversation, revealing to the others that they are looking for Boruto and Matsuri has sensory abilities, stating that it is a matter of when, not if, they are...",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Wild Beast Cubs",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 91,
+      "text": {
+        "fallback": "Head out: Wild Beast Cubs",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Mamushi",
+        "translate": "quest.narutorpg.defeat.mamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 302601,
+  "outro": [
+    {
+      "fallback": "Konohamaru's heart reels, and Shikamaru tells him to not allow this, as if he considers them nothing but an enemy, he should be able to do this.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.outro0"
+    },
+    {
+      "fallback": "Knowing that Naruto would advise against this, Shikamaru states that he is not Naruto, and he is simply acting to save hu",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_01"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

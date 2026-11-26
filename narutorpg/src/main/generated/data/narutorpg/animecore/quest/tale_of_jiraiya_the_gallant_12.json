@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:tobirama_senju_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Jiraiya asks Konan, a former student, who Pain is. She attacks him instead of answering, having orders from Pain to kill him. He quickly neutralises and captures her.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Jiraiya asks Konan, a former student, who Pain is.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.intro0"
+    },
+    {
+      "fallback": "She attacks him instead of answering, having orders from Pain to kill him.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.intro1"
+    },
+    {
+      "fallback": "He quickly neutralises and captures her.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Crying Country!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: The Crying Country!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113711,
+  "outro": [
+    {
+      "fallback": "After the Second Shinobi World War, Jiraiya found three war orphans that he decided to teach how to look after themselves.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.outro0"
+    },
+    {
+      "fallback": "Soon after meeting them, Jiraiya discovered that the boy Nagato possessed the Rinnegan.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_12.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_11"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

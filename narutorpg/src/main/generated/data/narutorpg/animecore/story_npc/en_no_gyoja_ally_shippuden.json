@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 1118481,
+    "hair": 2503224,
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 8916559
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "En no Gyōja",
+    "translate": "npc.narutorpg.en_no_gyoja"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

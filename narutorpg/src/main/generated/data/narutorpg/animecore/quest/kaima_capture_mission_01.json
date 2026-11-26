@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:anko_mitarashi_ally_naruto",
+    "narutorpg:shino_aburame_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Kaima Capture Mission",
+    "translate": "quest.narutorpg.arc.kaima_capture_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Anko Mitarashi is dispatched to the Land of the Sea with Naruto, Shino, and Ino to investigate the nature of the \"Kaima\" monster. Upon arriving, Anko recalls her time with Orochimaru in this area, and her cursed seal begins to resonate and cause her pain. At the docks, Naruto sees Yoroi Akadō and Misumi Tsurugi accosting a young girl.",
+    "translate": "quest.narutorpg.kaima_capture_mission_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Anko Mitarashi is dispatched to the Land of the Sea with Naruto, Shino, and Ino to investigate the nature of the \"Kaima\" monster.",
+      "translate": "quest.narutorpg.kaima_capture_mission_01.intro0"
+    },
+    {
+      "fallback": "Upon arriving, Anko recalls her time with Orochimaru in this area, and her cursed seal begins to resonate and cause her pain.",
+      "translate": "quest.narutorpg.kaima_capture_mission_01.intro1"
+    },
+    {
+      "fallback": "At the docks, Naruto sees Yoroi Akadō and Misumi Tsurugi accosting a young girl.",
+      "translate": "quest.narutorpg.kaima_capture_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Remembrance: The Lost Page",
+    "translate": "quest.narutorpg.kaima_capture_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kaima_capture_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Remembrance: The Lost Page",
+        "translate": "quest.narutorpg.kaima_capture_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yoroi_akado_foe_naruto",
+      "text": {
+        "fallback": "Defeat Yoroi Akadō",
+        "translate": "quest.narutorpg.defeat.yoroi_akado_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:misumi_tsurugi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Misumi Tsurugi",
+        "translate": "quest.narutorpg.defeat.misumi_tsurugi_foe_naruto"
+      }
+    }
+  ],
+  "order": 17900,
+  "outro": [
+    {
+      "fallback": "He chases them away, but does not recognise them.",
+      "translate": "quest.narutorpg.kaima_capture_mission_01.outro0"
+    },
+    {
+      "fallback": "When the group sets off to one of the islands, Yoroi and Misumi attack, and Naruto nearly drowns until he is saved by the girl he saw earlier.",
+      "translate": "quest.narutorpg.kaima_capture_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

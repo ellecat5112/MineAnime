@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Yakumo Kurama Rescue Mission",
+    "translate": "quest.narutorpg.arc.yakumo_kurama_rescue_mission"
+  },
+  "description": {
+    "fallback": "Naruto sneaks into Yakumo's mansion in the night, and has a dream that Kurenai threatened to seal Yakumo's abilities. He then discovers that this is the reason why she left the team, but Kurenai refuses to disclose any more. As Kurenai goes to see Yakumo, several Kurama clan members attack.",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_02.desc"
+  },
+  "giver": "narutorpg:kurenai_yuhi",
+  "intro": [
+    {
+      "fallback": "Naruto sneaks into Yakumo's mansion in the night, and has a dream that Kurenai threatened to seal Yakumo's abilities.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_02.intro0"
+    },
+    {
+      "fallback": "He then discovers that this is the reason why she left the team, but Kurenai refuses to disclose any more.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_02.intro1"
+    },
+    {
+      "fallback": "As Kurenai goes to see Yakumo, several Kurama clan members attack.",
+      "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Yakumo's Sealed Power",
+    "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kurenai_yuhi",
+      "text": {
+        "fallback": "Talk to Kurenai Yūhi",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Yakumo's Sealed Power",
+        "translate": "quest.narutorpg.yakumo_kurama_rescue_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 21301,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:yakumo_kurama_rescue_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

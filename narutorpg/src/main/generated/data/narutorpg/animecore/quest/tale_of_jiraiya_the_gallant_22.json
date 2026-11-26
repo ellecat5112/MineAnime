@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Although he figures out who Pain is, Jiraiya can neither speak nor move. His life begins to fade and he reflects on the many failures of his life; his inability to protect the Third Hokage or Fourth Hokage; his inability to save Orochimaru; his inability to win the heart of Tsunade; and, most sadly for him, his inability to die with honour. He then remembers how Naruto was named after the protagonist of his first...",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Although he figures out who Pain is, Jiraiya can neither speak nor move.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.intro0"
+    },
+    {
+      "fallback": "His life begins to fade and he reflects on the many failures of his life; his inability to protect the Third Hokage or Fourth Hokage; his inability to save Orochimaru; his inability to win the heart of Tsunade; and...",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.intro1"
+    },
+    {
+      "fallback": "He then remembers how Naruto was named after the protagonist of his first book, making him Naruto's godfather.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Real Choice!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: The Real Choice!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Meet Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.o3"
+      }
+    }
+  ],
+  "order": 113721,
+  "outro": [
+    {
+      "fallback": "Since Naruto's nindō is to never give up, Jiraiya, as Naruto's teacher, decides that that should be his nindō too.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.outro0"
+    },
+    {
+      "fallback": "He finds the energy to relay a message to Fukasaku, confident that Naruto will save the world.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_22.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_21"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

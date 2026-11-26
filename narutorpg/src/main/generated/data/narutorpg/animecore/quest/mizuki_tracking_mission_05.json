@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Mizuki Tracking Mission",
+    "translate": "quest.narutorpg.arc.mizuki_tracking_mission"
+  },
+  "description": {
+    "fallback": "Naruto, Iruka, and Pakkun meet up with Mizuki's fiance Tsubaki, and she has come to offer help to the three, feeling responsible for not having stopped him earlier. Meanwhile, Shikamaru, Ino, and Chōji are having trouble holding the two brothers off, and they know that they can't defeat them, so they are stalling for time. Meanwhile, Tsunade discovers a startling secret about Mizuki and Orochimaru, and leaves to...",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_05.desc"
+  },
+  "giver": "narutorpg:iruka_umino",
+  "intro": [
+    {
+      "fallback": "Naruto, Iruka, and Pakkun meet up with Mizuki's fiance Tsubaki, and she has come to offer help to the three, feeling responsible for not having stopped him earlier.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_05.intro0"
+    },
+    {
+      "fallback": "Meanwhile, Shikamaru, Ino, and Chōji are having trouble holding the two brothers off, and they know that they can't defeat them, so they are stalling for time.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_05.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Tsunade discovers a startling secret about Mizuki and Orochimaru, and leaves to intervene.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Remaining Ambition: Orochimaru's Shadow",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Talk to Iruka Umino",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Go: Remaining Ambition: Orochimaru's Shadow",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 15204,
+  "outro": [
+    {
+      "fallback": "Mizuki then drink's the formula becoming a large beast-like creature.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_05.outro0"
+    },
+    {
+      "fallback": "Naruto then recognises Mizuki's transformation as one nearly identical to that of Orochimaru's cursed seal.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:mizuki_tracking_mission_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

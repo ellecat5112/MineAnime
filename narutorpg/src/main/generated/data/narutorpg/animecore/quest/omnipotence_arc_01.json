@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Boruto explains the details of his resurrection to Amado, Katasuke, and Sai, according to what he learned from Momoshiki. While they understand that Momoshiki can no longer resurrect through Boruto, Amado stresses that the issue of his consciousness taking over remains. Katasuke points out the meds have worked so far, but Boruto claims he doesn't need them anymore.",
+    "translate": "quest.narutorpg.omnipotence_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto explains the details of his resurrection to Amado, Katasuke, and Sai, according to what he learned from Momoshiki.",
+      "translate": "quest.narutorpg.omnipotence_arc_01.intro0"
+    },
+    {
+      "fallback": "While they understand that Momoshiki can no longer resurrect through Boruto, Amado stresses that the issue of his consciousness taking over remains.",
+      "translate": "quest.narutorpg.omnipotence_arc_01.intro1"
+    },
+    {
+      "fallback": "Katasuke points out the meds have worked so far, but Boruto claims he doesn't need them anymore.",
+      "translate": "quest.narutorpg.omnipotence_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Scar",
+    "translate": "quest.narutorpg.omnipotence_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.omnipotence_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Scar",
+        "translate": "quest.narutorpg.omnipotence_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:katasuke_tono",
+      "text": {
+        "fallback": "Meet Katasuke Tōno",
+        "translate": "quest.narutorpg.omnipotence_arc_01.o3"
+      }
+    }
+  ],
+  "order": 237800,
+  "outro": [
+    {
+      "fallback": "Naruto intends to have a long talk with Kawaki when he wakes up.",
+      "translate": "quest.narutorpg.omnipotence_arc_01.outro0"
+    },
+    {
+      "fallback": "Sumire notices the heavy atmosphere and asks Shikamaru about it.",
+      "translate": "quest.narutorpg.omnipotence_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:code_s_assault_arc_02"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

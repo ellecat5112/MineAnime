@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kakashi's Anbu Arc: The Shinobi That Lives in the Darkness",
+    "translate": "quest.narutorpg.arc.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] The previous Ino–Shika–Chō is sent out to complete an Iwagakure treaty mission. Iwagakure doesn't intend to keep a peaceful treaty, but as the meeting happened at the border with the Land of Wind, the Fourth Kazekage ensured no fights would break out near his country. The Iwagakure-nin return and update the Third Tsuchikage about the events.",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "The previous Ino–Shika–Chō is sent out to complete an Iwagakure treaty mission.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.intro0"
+    },
+    {
+      "fallback": "Iwagakure doesn't intend to keep a peaceful treaty, but as the meeting happened at the border with the Land of Wind, the Fourth Kazekage ensured no fights would break out near his country.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.intro1"
+    },
+    {
+      "fallback": "The Iwagakure-nin return and update the Third Tsuchikage about the events.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kakashi's Trauma",
+    "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: Kakashi's Trauma",
+        "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 135900,
+  "outro": [
+    {
+      "fallback": "However, he allows the would-be assassin, the boy with Wood Release, to escape, certain that his ability will one day be valuable to Konoha.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.outro0"
+    },
+    {
+      "fallback": "Kakashi tells Hiruzen about Kinoe's existence, and continues to be an Anbu under his command.",
+      "translate": "quest.narutorpg.kakashi_s_anbu_arc_the_shinobi_that_lives_in_the_01.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_climax_12"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

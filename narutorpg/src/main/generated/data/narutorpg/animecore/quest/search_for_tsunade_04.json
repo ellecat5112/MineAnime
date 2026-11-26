@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:tsunade_ally_naruto",
+    "narutorpg:shizune_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Search for Tsunade",
+    "translate": "quest.narutorpg.arc.search_for_tsunade"
+  },
+  "description": {
+    "fallback": "As Orochimaru and Kabuto head towards the meeting place, Orochimaru comments that it may be easier to persuade Tsunade to heal his arms if Shizune weren't around, and so Kabuto heads off to kill her. Naruto, meanwhile, wakes Shizune up having found her on the floor. Realising what happened, Shizune rushes to the window to go after Tsunade, but a weakened Jiraiya stops her before she can leave.",
+    "translate": "quest.narutorpg.search_for_tsunade_04.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "As Orochimaru and Kabuto head towards the meeting place, Orochimaru comments that it may be easier to persuade Tsunade to heal his arms if Shizune weren't around, and so Kabuto heads off to kill her.",
+      "translate": "quest.narutorpg.search_for_tsunade_04.intro0"
+    },
+    {
+      "fallback": "Naruto, meanwhile, wakes Shizune up having found her on the floor.",
+      "translate": "quest.narutorpg.search_for_tsunade_04.intro1"
+    },
+    {
+      "fallback": "Realising what happened, Shizune rushes to the window to go after Tsunade, but a weakened Jiraiya stops her before she can leave.",
+      "translate": "quest.narutorpg.search_for_tsunade_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Decision",
+    "translate": "quest.narutorpg.search_for_tsunade_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.search_for_tsunade_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: Decision",
+        "translate": "quest.narutorpg.search_for_tsunade_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_naruto"
+      }
+    }
+  ],
+  "order": 9103,
+  "outro": [
+    {
+      "fallback": "After Kabuto informs Orochimaru of Jiraiya's presence, they lead Tsunade away, not wanting to fight in the city in case Jiraiya shows up.",
+      "translate": "quest.narutorpg.search_for_tsunade_04.outro0"
+    },
+    {
+      "fallback": "After retreating to an empty fi",
+      "translate": "quest.narutorpg.search_for_tsunade_04.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:search_for_tsunade_03"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

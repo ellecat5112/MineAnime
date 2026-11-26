@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:black_holy_hammer",
+    "narutorpg:daihakoten",
+    "narutorpg:daikokuten_divine_descent",
+    "narutorpg:daikokuten_falling_star",
+    "narutorpg:daikokuten_karma_flame",
+    "narutorpg:daikokuten"
+  ],
+  "appearance": {
+    "accent": 10395294,
+    "eyes": 14802156,
+    "hair": 1118481,
+    "mark": "pale_eyes",
+    "outfit": "robe",
+    "pants": 3622735,
+    "top": 16448250
+  },
+  "attack": 17.0,
+  "cast_interval": 40,
+  "health": 590.0,
+  "name": {
+    "fallback": "Isshiki Ōtsutsuki",
+    "translate": "npc.narutorpg.isshiki_otsutsuki"
+  },
+  "power": 2.34,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Byakuya Gang Arc",
+    "translate": "quest.narutorpg.arc.byakuya_gang_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Kōtarō and Konohamaru inform Boruto, Sarada, and Mitsuki that the hostage situation was just a distraction, allowing noble thieves called Byakuya Gang to steal jewels from the vault. Boruto insists on going in the vault with them, feeling cold from the security system. Considering the security measures in place, Kōtarō suspects an inside job.",
+    "translate": "quest.narutorpg.byakuya_gang_arc_01.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Kōtarō and Konohamaru inform Boruto, Sarada, and Mitsuki that the hostage situation was just a distraction, allowing noble thieves called Byakuya Gang to steal jewels from the vault.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_01.intro0"
+    },
+    {
+      "fallback": "Boruto insists on going in the vault with them, feeling cold from the security system.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_01.intro1"
+    },
+    {
+      "fallback": "Considering the security measures in place, Kōtarō suspects an inside job.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Byakuya Gang Surfaces!",
+    "translate": "quest.narutorpg.byakuya_gang_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.byakuya_gang_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: The Byakuya Gang Surfaces!",
+        "translate": "quest.narutorpg.byakuya_gang_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kotaro_fuma",
+      "text": {
+        "fallback": "Meet Kōtarō Fūma",
+        "translate": "quest.narutorpg.byakuya_gang_arc_01.o3"
+      }
+    }
+  ],
+  "order": 205300,
+  "outro": [
+    {
+      "fallback": "Denki explains to Boruto that noble thieves steal from the rich to give to the poor.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_01.outro0"
+    },
+    {
+      "fallback": "Boruto asks Shikadai his opinion on it, and is surprised when Shikadai answers they must have their reasons, as there is more to what they know and learned in the Academy.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_08"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

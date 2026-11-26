@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:yamato_ally_shippuden",
+    "narutorpg:fire_daimyo_part_i_ii_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Yamato sends a message from the Fire Temple back to Konoha, where Shizune reports its contents to Tsunade. She ponders over the latest string of events - the grave robberies of three of the Twelve Guardian Ninja, the Akatsuki's plans, Orochimaru supposedly returning to hiding following his encounter against Team Yamato and finally, Danzō Shimura himself, a village elder who is attempting to overthrow the current...",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_06.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Yamato sends a message from the Fire Temple back to Konoha, where Shizune reports its contents to Tsunade.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_06.intro0"
+    },
+    {
+      "fallback": "She ponders over the latest string of events - the grave robberies of three of the Twelve Guardian Ninja, the Akatsuki's plans, Orochimaru supposedly returning to hiding following his encounter against Team Yamato and...",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_06.intro1"
+    },
+    {
+      "fallback": "Wanting to deal with the internal affairs first, Tsunade has Shizune dispatch Anbu members not affiliated with Root to observe Danzō at all times.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A New Enemy",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: A New Enemy",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106405,
+  "outro": [
+    {
+      "fallback": "At home, Danzō muses over Sai's request to stay on Team Kakashi, but before he can give it anymore thought, he senses the presence of the Anbu.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_06.outro0"
+    },
+    {
+      "fallback": "Wondering what Tsunade is up to, he tells himself not to worry as he holds all the cards in his favour.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_06.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

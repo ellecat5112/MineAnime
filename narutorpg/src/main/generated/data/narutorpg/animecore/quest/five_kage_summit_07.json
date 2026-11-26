@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "Tobi appeared before Danzō and prepared to engage him in battle, but Danzō ordered his men to back him up as he prepared to release the seal on Shisui's arm. Despite their strength, Tobi eventually captures Fū Yamanaka and Torune just before teleporting into his pocket dimension to retrieve Karin and Sasuke. When they returned, Danzō finishes releasing his arm, which is revealed to have ten Sharingan eyes implanted...",
+    "translate": "quest.narutorpg.five_kage_summit_07.desc"
+  },
+  "giver": "narutorpg:shisui_uchiha",
+  "intro": [
+    {
+      "fallback": "Tobi appeared before Danzō and prepared to engage him in battle, but Danzō ordered his men to back him up as he prepared to release the seal on Shisui's arm.",
+      "translate": "quest.narutorpg.five_kage_summit_07.intro0"
+    },
+    {
+      "fallback": "Despite their strength, Tobi eventually captures Fū Yamanaka and Torune just before teleporting into his pocket dimension to retrieve Karin and Sasuke.",
+      "translate": "quest.narutorpg.five_kage_summit_07.intro1"
+    },
+    {
+      "fallback": "When they returned, Danzō finishes releasing his arm, which is revealed to have ten Sharingan eyes implanted into it.",
+      "translate": "quest.narutorpg.five_kage_summit_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke vs. Danzō",
+    "translate": "quest.narutorpg.five_kage_summit_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shisui_uchiha",
+      "text": {
+        "fallback": "Talk to Shisui Uchiha",
+        "translate": "quest.narutorpg.five_kage_summit_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 91,
+      "text": {
+        "fallback": "Head out: Sasuke vs. Danzō",
+        "translate": "quest.narutorpg.five_kage_summit_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:fu_yamanaka_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Fū Yamanaka",
+        "translate": "quest.narutorpg.defeat.fu_yamanaka_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120706,
+  "outro": [
+    {
+      "fallback": "Desperate, Danzō attempted to use Karin as a hostage, but Sasuke merely stabbed through her to pierce Danzō's heart.",
+      "translate": "quest.narutorpg.five_kage_summit_07.outro0"
+    },
+    {
+      "fallback": "Just before death, Danzō tried to seal Sasuke and Tobi into his own body, and sequentially crushed Shisui's eye preventing Tobi from using it to his advantage.",
+      "translate": "quest.narutorpg.five_kage_summit_07.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:five_kage_summit_06"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

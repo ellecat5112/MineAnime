@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:double_human_bullet_tank",
+    "narutorpg:empty_crash",
+    "narutorpg:formation_inoshikacho",
+    "narutorpg:human_bullet_tank",
+    "narutorpg:butterfly_mode"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 1118481,
+    "hair": 9255710,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "armor",
+    "skin": 14724201,
+    "top": 12000284
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Chōchō Akimichi",
+    "translate": "npc.narutorpg.chocho_akimichi"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_shippuden",
+    "narutorpg:ino_yamanaka_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "As Sakura heals Ino's wounds, Shizune and Hinata tend to Yūkimaru, whose Chakra Pathway System has been severely disrupted, causing him to lose the power over the Three-Tails permanently. Katsuyu, using her Slug Great Division to have one body in Tsunade's office and the other at the Orochimaru Search Team's hideout, relays Tsunade's orders that they are to return to Konoha the following morning as she sends an Anbu...",
+    "translate": "quest.narutorpg.three_tails_appearance_24.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "As Sakura heals Ino's wounds, Shizune and Hinata tend to Yūkimaru, whose Chakra Pathway System has been severely disrupted, causing him to lose the power over the Three-Tails permanently.",
+      "translate": "quest.narutorpg.three_tails_appearance_24.intro0"
+    },
+    {
+      "fallback": "Katsuyu, using her Slug Great Division to have one body in Tsunade's office and the other at the Orochimaru Search Team's hideout, relays Tsunade's orders that they are to return to Konoha the following morning as she...",
+      "translate": "quest.narutorpg.three_tails_appearance_24.intro1"
+    },
+    {
+      "fallback": "As Yūkimaru sleeps that night, he has a vision of Guren being rescued by Gozu; during his time as one of Orochimaru's failed experiments, the sannin had left him to die until Guren had given him a ladle of water, hence...",
+      "translate": "quest.narutorpg.three_tails_appearance_24.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Place to Return To",
+    "translate": "quest.narutorpg.three_tails_appearance_24"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_24.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 95,
+      "text": {
+        "fallback": "Head out: A Place to Return To",
+        "translate": "quest.narutorpg.three_tails_appearance_24.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yukimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Yūkimaru",
+        "translate": "quest.narutorpg.defeat.yukimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109923,
+  "outro": [
+    {
+      "fallback": "Naruto spots Guren's crystallised camellia and realises that there are no cracks in it, meaning that Guren is alive.",
+      "translate": "quest.narutorpg.three_tails_appearance_24.outro0"
+    },
+    {
+      "fallback": "Knowing that Yūkimaru is with her, Naruto uncharacteristically voices his opinion towards the team that they have no need to find Yūkimaru as he is fine; Shino and Kakashi add that Yūkimaru's importance to Konoha has...",
+      "translate": "quest.narutorpg.three_tails_appearance_24.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_23"
+  ],
+  "rewards": {
+    "experience": 23,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

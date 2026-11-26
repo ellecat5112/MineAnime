@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:shikamaru_nara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Pain's Assault",
+    "translate": "quest.narutorpg.arc.pain_s_assault"
+  },
+  "description": {
+    "fallback": "Having caught word of Pain's attack, the toads at Mount Myōboku prepared for the counter-attack. Shima, who was at Konoha at the time, was told to prepare a reverse summoning to bring Naruto, Fukasaku, Gamabunta, Gamaken, Gamahiro, and Gamakichi to Konoha, moments after the Shinra Tensei levelled the village. After using the Naraka Path to repair the destroyed Asura Path, the Animal Path was launched back into the...",
+    "translate": "quest.narutorpg.pain_s_assault_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Having caught word of Pain's attack, the toads at Mount Myōboku prepared for the counter-attack.",
+      "translate": "quest.narutorpg.pain_s_assault_03.intro0"
+    },
+    {
+      "fallback": "Shima, who was at Konoha at the time, was told to prepare a reverse summoning to bring Naruto, Fukasaku, Gamabunta, Gamaken, Gamahiro, and Gamakichi to Konoha, moments after the Shinra Tensei levelled the village.",
+      "translate": "quest.narutorpg.pain_s_assault_03.intro1"
+    },
+    {
+      "fallback": "After using the Naraka Path to repair the destroyed Asura Path, the Animal Path was launched back into the village and re-summoned the rest of the paths back into the village to fight the jinchūriki.",
+      "translate": "quest.narutorpg.pain_s_assault_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Naruto vs. Pain",
+    "translate": "quest.narutorpg.pain_s_assault_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.pain_s_assault_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Naruto vs. Pain",
+        "translate": "quest.narutorpg.pain_s_assault_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 116202,
+  "outro": [
+    {
+      "fallback": "When they were told what information she knew, Shikamaru concluded that Pain's real body was somewhere close to the village, at a high enough place that he could send his chakra across a large enough distance to control...",
+      "translate": "quest.narutorpg.pain_s_assault_03.outro0"
+    },
+    {
+      "fallback": "As Pain was describing his quest for world peace, his true body, Nagato, emaciated and with several chakra blades sticking out of his back, was shown in his and Konan's hiding place, a makeshift tr",
+      "translate": "quest.narutorpg.pain_s_assault_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:pain_s_assault_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

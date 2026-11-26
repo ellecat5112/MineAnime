@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    "narutorpg:water_release_wild_water_wave"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "hair": 2503224,
+    "hair_style": "long",
+    "pants": 3622735,
+    "top": 2635155
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Hotaru",
+    "translate": "npc.narutorpg.hotaru"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

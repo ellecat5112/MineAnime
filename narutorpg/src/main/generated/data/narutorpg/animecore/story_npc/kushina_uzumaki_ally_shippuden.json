@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:tight_binding_golden_chain_technique",
+    "narutorpg:adamantine_sealing_chains"
+  ],
+  "appearance": {
+    "accent": 1713022,
+    "hair": 12986408,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 15094016
+  },
+  "attack": 12.0,
+  "health": 172.0,
+  "name": {
+    "fallback": "Kushina Uzumaki",
+    "translate": "npc.narutorpg.kushina_uzumaki"
+  },
+  "power": 1.96,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

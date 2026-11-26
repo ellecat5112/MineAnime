@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:muku_ally_movies",
+    "narutorpg:maroi_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Blood Prison",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_blood_prison"
+  },
+  "description": {
+    "fallback": "When Naruto is released, he is looked up to by the rest of the prisoners. Naruto later attempts to escape again, by knocking out one of the guards and taking his clothes, when his shadow clone fools everyone. As he is able to get to the edge of the island where Ryūzetsu tells him to stop, Naruto refuses to listen, and he jumps into the whirlpool.",
+    "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "When Naruto is released, he is looked up to by the rest of the prisoners.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.intro0"
+    },
+    {
+      "fallback": "Naruto later attempts to escape again, by knocking out one of the guards and taking his clothes, when his shadow clone fools everyone.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.intro1"
+    },
+    {
+      "fallback": "As he is able to get to the edge of the island where Ryūzetsu tells him to stop, Naruto refuses to listen, and he jumps into the whirlpool.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: Part 2",
+        "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryuzetsu_foe_movies",
+      "text": {
+        "fallback": "Defeat Ryūzetsu",
+        "translate": "quest.narutorpg.defeat.ryuzetsu_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mui_foe_movies",
+      "text": {
+        "fallback": "Defeat Mui",
+        "translate": "quest.narutorpg.defeat.mui_foe_movies"
+      }
+    }
+  ],
+  "order": 301701,
+  "outro": [
+    {
+      "fallback": "This forced Gamabunta to defend him, causing Gamabunta to be defeated.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.outro0"
+    },
+    {
+      "fallback": "Satori then attacks Naruto again, but is saved by Killer B.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_the_movie_blood_prison_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:insect_rope_technique",
+    "narutorpg:manipulated_shuriken_technique",
+    "narutorpg:parasitic_destruction_insect_technique",
+    "narutorpg:secret_technique_insect_gathering",
+    "narutorpg:summoning_technique",
+    "narutorpg:insect_clone_technique"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "hair": 4073251,
+    "headband": 1981066,
+    "mark": "glasses",
+    "outfit": "robe",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 5533306
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Shino Aburame",
+    "translate": "npc.narutorpg.shino_aburame"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

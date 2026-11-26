@@ -1,0 +1,21 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4545124,
+    "hair": 6111287,
+    "hair_style": "long",
+    "skin": 14724201
+  },
+  "attack": 16.0,
+  "health": 228.0,
+  "name": {
+    "fallback": "Mia",
+    "translate": "npc.narutorpg.mia"
+  },
+  "power": 2.44,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

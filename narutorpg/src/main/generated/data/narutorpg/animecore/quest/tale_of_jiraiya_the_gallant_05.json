@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Jiraiya decides to use Sage Mode in his battle against Pain but needs time to prepare. Clasping his hands together and unable to open them, lest he interrupt his preparation, Jiraiya relies on Gamaken to protect and defend him. Pain uses camouflage to turn himself invisible, while Jiraiya erects a spherical detection barrier to locate him.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Jiraiya decides to use Sage Mode in his battle against Pain but needs time to prepare.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.intro0"
+    },
+    {
+      "fallback": "Clasping his hands together and unable to open them, lest he interrupt his preparation, Jiraiya relies on Gamaken to protect and defend him.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.intro1"
+    },
+    {
+      "fallback": "Pain uses camouflage to turn himself invisible, while Jiraiya erects a spherical detection barrier to locate him.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Honoured Sage Mode!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Honoured Sage Mode!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113704,
+  "outro": [
+    {
+      "fallback": "Gamaken is unable to defeat the dogs due to the fact that they are able to multiply when hit; the dogs eventually corner Gamaken and bite into him, wounding him severely.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.outro0"
+    },
+    {
+      "fallback": "Jiraiya uses his Summoning: Crushing Toad Stomach to reverse summon himself, Gamaken and the dogs into the stomach of a toad, where the toad walls begin to absorb the dogs, which dispel themselves.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_05.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_04"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Steam Ninja Scrolls Arc",
+    "translate": "quest.narutorpg.arc.steam_ninja_scrolls_arc"
+  },
+  "description": {
+    "fallback": "Mirai prepares to leave on a mission accompanying Kakashi and Might Guy, and says good-bye to her mother and a memorial to her father. On her way, she muses on why her father chose her name. While praying to her grandfather, Boruto, Shikadai, and Shikamaru pass by, Shikamaru having taken them to try a new burger.",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Mirai prepares to leave on a mission accompanying Kakashi and Might Guy, and says good-bye to her mother and a memorial to her father.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.intro0"
+    },
+    {
+      "fallback": "On her way, she muses on why her father chose her name.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.intro1"
+    },
+    {
+      "fallback": "While praying to her grandfather, Boruto, Shikadai, and Shikamaru pass by, Shikamaru having taken them to try a new burger.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Steam Ninja Scrolls: The S-Rank Mission!",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 41,
+      "text": {
+        "fallback": "Go: The Steam Ninja Scrolls: The S-Rank Mission!",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:mirai_sarutobi",
+      "text": {
+        "fallback": "Meet Mirai Sarutobi",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.o3"
+      }
+    }
+  ],
+  "order": 211600,
+  "outro": [
+    {
+      "fallback": "They point out she's supposed to blend in as a civilian.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.outro0"
+    },
+    {
+      "fallback": "Mirai mistakes their casual conversation as an advanced form of blending in, and continues working herself up, even mistaking an old man on the road for a potential enemy.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:parent_and_child_day_arc_03"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

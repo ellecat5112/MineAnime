@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "After Rock Lee falls into a river during their training, Tenten has a flashback of her youth, while waiting for him to surface. When she was a child, she had dreamed to become a strong kunoichi like her heroine: Tsunade, and thanks to Guy's guidance she initially began her path towards becoming a legendary medical-nin. However she failed during her training trying to heal a fish, and her attempts to sign a contract...",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_15.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "After Rock Lee falls into a river during their training, Tenten has a flashback of her youth, while waiting for him to surface.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_15.intro0"
+    },
+    {
+      "fallback": "When she was a child, she had dreamed to become a strong kunoichi like her heroine: Tsunade, and thanks to Guy's guidance she initially began her path towards becoming a legendary medical-nin.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_15.intro1"
+    },
+    {
+      "fallback": "However she failed during her training trying to heal a fish, and her attempts to sign a contract to summon a creature like Tsunade's famed slugs met no success because of her quarrel with Ningame, Guy's summon.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Ah, My Hero Lady Tsunade!",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: Ah, My Hero Lady Tsunade!",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 123314,
+  "outro": [
+    {
+      "fallback": "After many failures, Guy notes that she had a talent for fūinjutsu and began honing her unique fighting style.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_15.outro0"
+    },
+    {
+      "fallback": "After that she realised that she was a weapons specialist and vowed that instead of becoming just like Tsunade, she would still become a legendary kunoichi, in her own way.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_15.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_14"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:jiraiya_ally_shippuden",
+    "narutorpg:kakashi_hatake_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Childhood",
+    "translate": "quest.narutorpg.arc.childhood"
+  },
+  "description": {
+    "fallback": "Part A: A young Jiraiya calls a young Orochimaru to spy on bathing women. Uninterested, Orochimaru leaves. Jiraiya is caught by an elderly woman, who douses him in hot water.",
+    "translate": "quest.narutorpg.childhood_04.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Part A: A young Jiraiya calls a young Orochimaru to spy on bathing women.",
+      "translate": "quest.narutorpg.childhood_04.intro0"
+    },
+    {
+      "fallback": "Uninterested, Orochimaru leaves.",
+      "translate": "quest.narutorpg.childhood_04.intro1"
+    },
+    {
+      "fallback": "Jiraiya is caught by an elderly woman, who douses him in hot water.",
+      "translate": "quest.narutorpg.childhood_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jiraiya and Kakashi",
+    "translate": "quest.narutorpg.childhood_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.childhood_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Jiraiya and Kakashi",
+        "translate": "quest.narutorpg.childhood_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 149003,
+  "outro": [
+    {
+      "fallback": "At the Academy, Guy challenges Kakashi again, and lasts longer.",
+      "translate": "quest.narutorpg.childhood_04.outro0"
+    },
+    {
+      "fallback": "Obito and Rin cheer on Kakashi.",
+      "translate": "quest.narutorpg.childhood_04.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:childhood_03"
+  ],
+  "rewards": {
+    "experience": 33,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 1118481,
+    "hair": 5125166,
+    "hair_style": "spiky",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 2503224
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "First Animal Path (character)",
+    "translate": "npc.narutorpg.first_animal_path_character"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

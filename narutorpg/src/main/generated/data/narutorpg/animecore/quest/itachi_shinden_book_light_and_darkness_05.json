@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shikaku_nara_ally_shippuden",
+    "narutorpg:fugaku_uchiha_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "Team 7 continues to wait for the light of the Infinite Tsukuyomi to subside. Sasuke continues to ponder about Itachi's memories. In them, Fugaku congratulates Itachi on becoming an Anbu, but reminds him that his loyalty is first and foremost to the clan.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.desc"
+  },
+  "giver": "narutorpg:shibi_aburame",
+  "intro": [
+    {
+      "fallback": "Team 7 continues to wait for the light of the Infinite Tsukuyomi to subside.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.intro0"
+    },
+    {
+      "fallback": "Sasuke continues to ponder about Itachi's memories.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.intro1"
+    },
+    {
+      "fallback": "In them, Fugaku congratulates Itachi on becoming an Anbu, but reminds him that his loyalty is first and foremost to the clan.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Moonlit Night",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shibi_aburame",
+      "text": {
+        "fallback": "Talk to Shibi Aburame",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Moonlit Night",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146104,
+  "outro": [
+    {
+      "fallback": "Sasuke pleads with Itachi, asking him to stop.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.outro0"
+    },
+    {
+      "fallback": "Itachi feigns regret, looking at Sasuke with his Mangekyō Sharingan, hoping Sasuke will realise how shallow the clan is.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_05.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:itachi_shinden_book_light_and_darkness_04"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

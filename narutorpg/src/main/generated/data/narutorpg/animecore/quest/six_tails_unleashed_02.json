@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shiranami_ally_shippuden",
+    "narutorpg:en_no_gyoja_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Six-Tails Unleashed",
+    "translate": "quest.narutorpg.arc.six_tails_unleashed"
+  },
+  "description": {
+    "fallback": "The four bandits have a meeting with their leader, who tells them that En no Gyōja's secret technique unleashed its true potential during the Third Shinobi World War and that if they acquired it, they could use it to become rulers of various lands. However, he advises them not to engage in combat with the Konoha shinobi team dispatched to provide assistance, claiming that once they reached the Tsuchigumo Clan's...",
+    "translate": "quest.narutorpg.six_tails_unleashed_02.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "The four bandits have a meeting with their leader, who tells them that En no Gyōja's secret technique unleashed its true potential during the Third Shinobi World War and that if they acquired it, they could use it to...",
+      "translate": "quest.narutorpg.six_tails_unleashed_02.intro0"
+    },
+    {
+      "fallback": "However, he advises them not to engage in combat with the Konoha shinobi team dispatched to provide assistance, claiming that once they reached the Tsuchigumo Clan's village, they would depart, allowing the bandits to...",
+      "translate": "quest.narutorpg.six_tails_unleashed_02.intro1"
+    },
+    {
+      "fallback": "Elsewhere, Utakata sits against a tree, blowing bubbles.",
+      "translate": "quest.narutorpg.six_tails_unleashed_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Successor of the Forbidden Jutsu",
+    "translate": "quest.narutorpg.six_tails_unleashed_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.six_tails_unleashed_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Successor of the Forbidden Jutsu",
+        "translate": "quest.narutorpg.six_tails_unleashed_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:utakata_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Utakata",
+        "translate": "quest.narutorpg.defeat.utakata_foe_shippuden"
+      }
+    }
+  ],
+  "order": 115401,
+  "outro": [
+    {
+      "fallback": "As they walk, with Naruto constantly swatting away the leeches, Hotaru talks about how she had viewed Utakata as her master.",
+      "translate": "quest.narutorpg.six_tails_unleashed_02.outro0"
+    },
+    {
+      "fallback": "Naruto tells her about his own master, who is a pervert, but states that Jiraiya is strong and k",
+      "translate": "quest.narutorpg.six_tails_unleashed_02.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:six_tails_unleashed_01"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

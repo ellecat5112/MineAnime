@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "Shino begins teaching shurikenjutsu to his class. Most of the class ignores his instructions. Sumire struggles, while Inojin and Shikadai, who were made to practice at home by their parents, breeze through it.",
+    "translate": "quest.narutorpg.academy_entrance_arc_03.desc"
+  },
+  "giver": "narutorpg:shino_aburame",
+  "intro": [
+    {
+      "fallback": "Shino begins teaching shurikenjutsu to his class.",
+      "translate": "quest.narutorpg.academy_entrance_arc_03.intro0"
+    },
+    {
+      "fallback": "Most of the class ignores his instructions.",
+      "translate": "quest.narutorpg.academy_entrance_arc_03.intro1"
+    },
+    {
+      "fallback": "Sumire struggles, while Inojin and Shikadai, who were made to practice at home by their parents, breeze through it.",
+      "translate": "quest.narutorpg.academy_entrance_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Metal Lee Goes Wild!",
+    "translate": "quest.narutorpg.academy_entrance_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Talk to Shino Aburame",
+        "translate": "quest.narutorpg.academy_entrance_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Metal Lee Goes Wild!",
+        "translate": "quest.narutorpg.academy_entrance_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sumire_kakei",
+      "text": {
+        "fallback": "Meet Sumire Kakei",
+        "translate": "quest.narutorpg.academy_entrance_arc_03.o3"
+      }
+    }
+  ],
+  "order": 201102,
+  "outro": [
+    {
+      "fallback": "Lee thinks he can deflect it, but with eyes on him, he falters, instead getting his foot stuck on the shuriken and getting dragged by it.",
+      "translate": "quest.narutorpg.academy_entrance_arc_03.outro0"
+    },
+    {
+      "fallback": "Shikadai asks Boruto where he got a fūma shuriken, as they're not supposed to be using that yet.",
+      "translate": "quest.narutorpg.academy_entrance_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_02"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:bashosen_coil_of_fire",
+    "narutorpg:blazing_lightning_kunai"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "hair_style": "long",
+    "headband": 3369246,
+    "pants": 4073251,
+    "top": 8916559
+  },
+  "attack": 8.4,
+  "cast_interval": 70,
+  "health": 138.0,
+  "name": {
+    "fallback": "Ryūzetsu",
+    "translate": "npc.narutorpg.ryuzetsu"
+  },
+  "power": 1.62,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

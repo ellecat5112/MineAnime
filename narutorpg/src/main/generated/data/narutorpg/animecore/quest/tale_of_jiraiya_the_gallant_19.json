@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Jiraiya is able to hold his own in a fight with Pain long enough for Ma and Pa to use their genjutsu. The three Pains are caught in an illusion and immobilised, allowing Jiraiya to easily kill all three. Confident he has won, Jiraiya thanks Shima and Fukasaku for their help with eliminating Pain.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Jiraiya is able to hold his own in a fight with Pain long enough for Ma and Pa to use their genjutsu.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.intro0"
+    },
+    {
+      "fallback": "The three Pains are caught in an illusion and immobilised, allowing Jiraiya to easily kill all three.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.intro1"
+    },
+    {
+      "fallback": "Confident he has won, Jiraiya thanks Shima and Fukasaku for their help with eliminating Pain.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jiraiya's Choice!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 83,
+      "text": {
+        "fallback": "Head out: Jiraiya's Choice!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113718,
+  "outro": [
+    {
+      "fallback": "He attacks Jiraiya and severs his left arm.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.outro0"
+    },
+    {
+      "fallback": "The Six Paths of Pain confront Jiraiya, amongst them the three bodies he just killed, and all possessing Rinnegan.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_19.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_18"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

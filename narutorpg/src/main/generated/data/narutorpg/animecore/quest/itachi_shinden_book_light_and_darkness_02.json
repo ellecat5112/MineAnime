@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:shikaku_nara_ally_shippuden",
+    "narutorpg:choza_akimichi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "Tobi watches Konoha and teleports away. Itachi feels an ominous wind as Tobi summons the Nine-Tails. Tobi has the Nine-Tails attack the village, and Itachi protects Sasuke during the attack.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.desc"
+  },
+  "giver": "narutorpg:eagle_masked_anbu_member",
+  "intro": [
+    {
+      "fallback": "Tobi watches Konoha and teleports away.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.intro0"
+    },
+    {
+      "fallback": "Itachi feels an ominous wind as Tobi summons the Nine-Tails.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.intro1"
+    },
+    {
+      "fallback": "Tobi has the Nine-Tails attack the village, and Itachi protects Sasuke during the attack.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Genius",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:eagle_masked_anbu_member",
+      "text": {
+        "fallback": "Talk to Eagle-Masked Anbu Member",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: The Genius",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146101,
+  "outro": [
+    {
+      "fallback": "Izumi thanks Itachi for helping her.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.outro0"
+    },
+    {
+      "fallback": "Danzō oversees the rebuilding of the village, and moves clan settlements around, including pushing the Uchiha to the edge of Konoha.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_02.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:itachi_shinden_book_light_and_darkness_01"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "narutorpg:prison_sand_burial",
+    "narutorpg:quicksand_waterfall_flow",
+    "narutorpg:sand_binding_coffin",
+    "narutorpg:sand_drizzle",
+    "narutorpg:sand_pillar",
+    "narutorpg:armour_of_sand"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 8440772,
+    "hair": 12000284,
+    "headband": 6111287,
+    "mark": "forehead_kanji",
+    "outfit": "robe",
+    "pants": 4073251,
+    "top": 9255710
+  },
+  "attack": 5.3,
+  "cast_interval": 40,
+  "health": 158.0,
+  "name": {
+    "fallback": "Gaara",
+    "translate": "npc.narutorpg.gaara"
+  },
+  "power": 1.14,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

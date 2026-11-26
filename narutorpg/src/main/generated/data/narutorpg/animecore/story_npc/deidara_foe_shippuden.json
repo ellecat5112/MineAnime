@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:c0",
+    "narutorpg:c1",
+    "narutorpg:c2",
+    "narutorpg:c3",
+    "narutorpg:c4",
+    "narutorpg:clay_clone"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 2733814,
+    "hair": 15913323,
+    "hair_style": "ponytail",
+    "headband": 7162945,
+    "outfit": "cloak",
+    "top": 1052692
+  },
+  "attack": 6.5,
+  "cast_interval": 40,
+  "health": 202.0,
+  "name": {
+    "fallback": "Deidara",
+    "translate": "npc.narutorpg.deidara"
+  },
+  "power": 1.26,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

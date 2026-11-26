@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:chocho_akimichi_ally_boruto",
+    "narutorpg:inojin_yamanaka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Byakuya Gang Arc",
+    "translate": "quest.narutorpg.arc.byakuya_gang_arc"
+  },
+  "description": {
+    "fallback": "After Ryōgi leaves Shikadai, Chōchō, and Inojin arrive, telling him they've been requested due to the protests against the Kaminarimon Company. Gekkō and Ryōgi watch as protesters march against the Kaminarimon Company, Gekkō praising Ryōgi's strategy. One of the leading protesters has a mark on his neck.",
+    "translate": "quest.narutorpg.byakuya_gang_arc_04.desc"
+  },
+  "giver": "narutorpg:shikadai_nara",
+  "intro": [
+    {
+      "fallback": "After Ryōgi leaves Shikadai, Chōchō, and Inojin arrive, telling him they've been requested due to the protests against the Kaminarimon Company.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_04.intro0"
+    },
+    {
+      "fallback": "Gekkō and Ryōgi watch as protesters march against the Kaminarimon Company, Gekkō praising Ryōgi's strategy.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_04.intro1"
+    },
+    {
+      "fallback": "One of the leading protesters has a mark on his neck.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Go! The Crest of Night Strategy",
+    "translate": "quest.narutorpg.byakuya_gang_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikadai_nara",
+      "text": {
+        "fallback": "Talk to Shikadai Nara",
+        "translate": "quest.narutorpg.byakuya_gang_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Go! The Crest of Night Strategy",
+        "translate": "quest.narutorpg.byakuya_gang_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gekko_foe_boruto",
+      "text": {
+        "fallback": "Defeat Gekkō",
+        "translate": "quest.narutorpg.defeat.gekko_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryogi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ryōgi",
+        "translate": "quest.narutorpg.defeat.ryogi_foe_boruto"
+      }
+    }
+  ],
+  "order": 205303,
+  "outro": [
+    {
+      "fallback": "At the hospital, Iwabee is frustrated at having to stay put, but Metal tells him that orders are absolute.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_04.outro0"
+    },
+    {
+      "fallback": "Shikadai studies the distribution of protesters and security forces, recognising it from somewhere.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:byakuya_gang_arc_03"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

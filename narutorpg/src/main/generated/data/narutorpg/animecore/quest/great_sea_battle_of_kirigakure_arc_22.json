@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:chojuro_ally_boruto",
+    "narutorpg:ikada_funato_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Mitsuki and Sarada are shocked by Boruto's proposal. So is Chōjūrō back on Kirigakure's fleet. Ikada says Boruto's life isn't enough to stop the war, but Boruto says it's all he can do.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Mitsuki and Sarada are shocked by Boruto's proposal.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.intro0"
+    },
+    {
+      "fallback": "So is Chōjūrō back on Kirigakure's fleet.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.intro1"
+    },
+    {
+      "fallback": "Ikada says Boruto's life isn't enough to stop the war, but Boruto says it's all he can do.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Spiral of Revenge",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 83,
+      "text": {
+        "fallback": "Head out: The Spiral of Revenge",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:araumi_funato_foe_boruto",
+      "text": {
+        "fallback": "Defeat Araumi Funato",
+        "translate": "quest.narutorpg.defeat.araumi_funato_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:funamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Funamushi",
+        "translate": "quest.narutorpg.defeat.funamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 224321,
+  "outro": [
+    {
+      "fallback": "Kawaki wonders what Boruto is doing as he prepares to kill Araumi.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.outro0"
+    },
+    {
+      "fallback": "Sarada and Mitsuki approach Boruto on the floor, while Ikada mocks them.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_22.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_21"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Childhood",
+    "translate": "quest.narutorpg.arc.childhood"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Part A: A young Naruto Uzumaki is ostracised by the villagers who blame him for the Fourth Hokage's death and spends his time on the Hokage Rock. Naruto is curious of the world and escapes from the villagers' hostility by training in the woods. One evening, as he eats fish by a bonfire, he meets the Third Hokage.",
+    "translate": "quest.narutorpg.childhood_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Part A: A young Naruto Uzumaki is ostracised by the villagers who blame him for the Fourth Hokage's death and spends his time on the Hokage Rock.",
+      "translate": "quest.narutorpg.childhood_01.intro0"
+    },
+    {
+      "fallback": "Naruto is curious of the world and escapes from the villagers' hostility by training in the woods.",
+      "translate": "quest.narutorpg.childhood_01.intro1"
+    },
+    {
+      "fallback": "One evening, as he eats fish by a bonfire, he meets the Third Hokage.",
+      "translate": "quest.narutorpg.childhood_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Naruto and Hinata",
+    "translate": "quest.narutorpg.childhood_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.childhood_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Naruto and Hinata",
+        "translate": "quest.narutorpg.childhood_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:minato_namikaze",
+      "text": {
+        "fallback": "Meet Minato Namikaze",
+        "translate": "quest.narutorpg.childhood_01.o3"
+      }
+    }
+  ],
+  "order": 149000,
+  "outro": [
+    {
+      "fallback": "After the Hyūga Affair occurs, Hinata runs away after seeing Neji cry and she is found by Naruto, who takes her home and tells her not to cry.",
+      "translate": "quest.narutorpg.childhood_01.outro0"
+    },
+    {
+      "fallback": "Hinata is then told by her father about her duty as the heiress of the clan.",
+      "translate": "quest.narutorpg.childhood_01.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:kaguya_otsutsuki_strikes_04"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

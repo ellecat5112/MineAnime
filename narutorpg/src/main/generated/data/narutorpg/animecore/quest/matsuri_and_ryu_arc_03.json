@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:sumire_kakei_ally_boruto",
+    "narutorpg:yodo_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "Sumire enters Amado's lab to find him pinned against the wall by Kawaki. Kawaki says he is only having a talk with Amado. He demands that Amado upgrade his settings or else he will be killed, forcing the latter to use his shutdown for Kawaki.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Sumire enters Amado's lab to find him pinned against the wall by Kawaki.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.intro0"
+    },
+    {
+      "fallback": "Kawaki says he is only having a talk with Amado.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.intro1"
+    },
+    {
+      "fallback": "He demands that Amado upgrade his settings or else he will be killed, forcing the latter to use his shutdown for Kawaki.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Only Babble in Your Sleep",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Only Babble in Your Sleep",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:amado_sanzu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Amado Sanzu",
+        "translate": "quest.narutorpg.defeat.amado_sanzu_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ryū",
+        "translate": "quest.narutorpg.defeat.ryu_foe_boruto"
+      }
+    }
+  ],
+  "order": 302602,
+  "outro": [
+    {
+      "fallback": "Kawaki declines Amado's terms, as they do not have the luxury to worry about a potential new enemy, and releasing his full powers should come first.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.outro0"
+    },
+    {
+      "fallback": "Kawaki agrees to only help with resurrecting Akebi, only on the premise that he might kill h",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_02"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

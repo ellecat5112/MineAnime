@@ -1,0 +1,80 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "At an earlier time, Matsuri and the Claw Grime invaded the Land of Wind in search of Boruto and his ally's location. She was confronted by Gaara and Team Shinki, the former who is wounded from their fight. Gaara had contained the young shinobi to prevent any harm, willing to risk his life for theirs. pt-br:Capítulo 15: Uma Vida Animada",
+    "translate": "quest.narutorpg.boruto_s_return_arc_15.desc"
+  },
+  "giver": "narutorpg:gaara",
+  "intro": [
+    {
+      "fallback": "At an earlier time, Matsuri and the Claw Grime invaded the Land of Wind in search of Boruto and his ally's location.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_15.intro0"
+    },
+    {
+      "fallback": "She was confronted by Gaara and Team Shinki, the former who is wounded from their fight.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_15.intro1"
+    },
+    {
+      "fallback": "Gaara had contained the young shinobi to prevent any harm, willing to risk his life for theirs. pt-br:Capítulo 15: Uma Vida Animada",
+      "translate": "quest.narutorpg.boruto_s_return_arc_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Vibrant Life",
+    "translate": "quest.narutorpg.boruto_s_return_arc_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:gaara",
+      "text": {
+        "fallback": "Talk to Gaara",
+        "translate": "quest.narutorpg.boruto_s_return_arc_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: A Vibrant Life",
+        "translate": "quest.narutorpg.boruto_s_return_arc_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 301114,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_14"
+  ],
+  "rewards": {
+    "experience": 45,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 15
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

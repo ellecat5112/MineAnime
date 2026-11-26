@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:a_fourth_raikage_ally_movies",
+    "narutorpg:omoi_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Blood Prison",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_blood_prison"
+  },
+  "description": {
+    "fallback": "A discusses a box with Omoi, Karui, Samui and Mabui, when suddenly gas covers the room knocking everyone asleep. Then a hooded figure leaps out attacking the sleeping Raikage, only for the figure to stop right before killing A. When A is seen above the figure, the figure dodges, and is able to fight equally with A.",
+    "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "A discusses a box with Omoi, Karui, Samui and Mabui, when suddenly gas covers the room knocking everyone asleep.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.intro0"
+    },
+    {
+      "fallback": "Then a hooded figure leaps out attacking the sleeping Raikage, only for the figure to stop right before killing A.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.intro1"
+    },
+    {
+      "fallback": "When A is seen above the figure, the figure dodges, and is able to fight equally with A.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 1",
+    "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Part 1",
+        "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mui_foe_movies",
+      "text": {
+        "fallback": "Defeat Mui",
+        "translate": "quest.narutorpg.defeat.mui_foe_movies"
+      }
+    }
+  ],
+  "order": 301700,
+  "outro": [
+    {
+      "fallback": "But the seal causes Naruto to collapse, and he is taken back into solitary confinement.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.outro0"
+    },
+    {
+      "fallback": "During the fight, Mui questions Naruto's devotion to his home, wondering why he bothered being loyal.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_01.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_06"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

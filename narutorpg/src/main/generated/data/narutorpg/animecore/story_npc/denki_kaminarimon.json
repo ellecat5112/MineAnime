@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 5143098,
+    "hair": 2503224,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 2046559
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Denki Kaminarimon",
+    "translate": "npc.narutorpg.denki_kaminarimon"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

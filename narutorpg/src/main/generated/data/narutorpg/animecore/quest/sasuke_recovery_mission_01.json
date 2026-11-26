@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "Naruto's influence on Sasuke, though profound, was powerless to prevent Sasuke from leaving his village and friends to receive training from Orochimaru. Sasuke's decision to leave was the result of a chain of events that rekindled his hatred for his brother and desire to avenge his clan. To do so, he must claim a great amount of power, which became the centre of his entire life.",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto's influence on Sasuke, though profound, was powerless to prevent Sasuke from leaving his village and friends to receive training from Orochimaru.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_01.intro0"
+    },
+    {
+      "fallback": "Sasuke's decision to leave was the result of a chain of events that rekindled his hatred for his brother and desire to avenge his clan.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_01.intro1"
+    },
+    {
+      "fallback": "To do so, he must claim a great amount of power, which became the centre of his entire life.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Lust for Power",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Lust for Power",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_naruto"
+      }
+    }
+  ],
+  "order": 11700,
+  "outro": [
+    {
+      "fallback": "During this conversation, a crying and desperate Sakura confessed her love to Sasuke, and begged him not to leave the village, but he rejected her.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_01.outro0"
+    },
+    {
+      "fallback": "Once she realised that he was going to leave either way, she offered to go with him to hel",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:search_for_tsunade_06"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

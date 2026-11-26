@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Confrontation",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_confrontation"
+  },
+  "description": {
+    "fallback": "Using the Dustless Bewildering Cover, Mū was able to infiltrate the Land of Lightning undetected until Gaara was able to locate him on the first day. Mū then summoned the Second Mizukage, the Third Raikage, and the Fourth Kazekage with the Fourth Division drawing the reincarnated Kage farther into the Land of Lightning while part of the division under Shikamaru broke off to aid Darui in his fight against Kinkaku in...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Using the Dustless Bewildering Cover, Mū was able to infiltrate the Land of Lightning undetected until Gaara was able to locate him on the first day.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.intro0"
+    },
+    {
+      "fallback": "Mū then summoned the Second Mizukage, the Third Raikage, and the Fourth Kazekage with the Fourth Division drawing the reincarnated Kage farther into the Land of Lightning while part of the division under Shikamaru broke...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.intro1"
+    },
+    {
+      "fallback": "Once the battle on the Land of Lightning's coast was won, with the First Division boxing their opponents from the rear, Gaara and Ōnoki engaged the Kage with their attacks countered by their respective predecessors.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Fourth Division vs. The Kage",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: The Fourth Division vs. The Kage",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 127105,
+  "outro": [
+    {
+      "fallback": "After two missed Rasenshuriken, Naruto finally manages to hit the Raikage with the technique, but the Raikage recovers fast as the allied shinobi prepare multiple earth walls, supported by Dodai's Lava Release: Rubber...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.outro0"
+    },
+    {
+      "fallback": "But seeing him break through all their defences, Dodai explains that the Third was very resilient, and was only injured when he",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_06.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_05"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:ino_yamanaka_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Ino notices that Naruto has yet to stand up after using his Wind Release: Rasenshuriken and rushes over to heal him. Kakashi notes that by successfully mastering what he was unable to do, Naruto had finally surpassed him. He then jumps down into the impact crater created by Naruto and kills the defeated Kakuzu with his Chidori.",
+    "translate": "quest.narutorpg.three_tails_appearance_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Ino notices that Naruto has yet to stand up after using his Wind Release: Rasenshuriken and rushes over to heal him.",
+      "translate": "quest.narutorpg.three_tails_appearance_01.intro0"
+    },
+    {
+      "fallback": "Kakashi notes that by successfully mastering what he was unable to do, Naruto had finally surpassed him.",
+      "translate": "quest.narutorpg.three_tails_appearance_01.intro1"
+    },
+    {
+      "fallback": "He then jumps down into the impact crater created by Naruto and kills the defeated Kakuzu with his Chidori.",
+      "translate": "quest.narutorpg.three_tails_appearance_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Price of Power",
+    "translate": "quest.narutorpg.three_tails_appearance_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: The Price of Power",
+        "translate": "quest.narutorpg.three_tails_appearance_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kakuzu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kakuzu",
+        "translate": "quest.narutorpg.defeat.kakuzu_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109900,
+  "outro": [
+    {
+      "fallback": "Team 7 and Team Asuma then return to Konoha to report to Tsunade, with Kakashi having brought back Kakuzu's corpse.",
+      "translate": "quest.narutorpg.three_tails_appearance_01.outro0"
+    },
+    {
+      "fallback": "Tsunade orders everyone to take a few days off to rest but places Naruto at the Konoha Hospital to have his arm wounds checked out.",
+      "translate": "quest.narutorpg.three_tails_appearance_01.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:akatsuki_suppression_mission_05"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

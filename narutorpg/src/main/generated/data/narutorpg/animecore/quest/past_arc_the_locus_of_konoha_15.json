@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:shikamaru_nara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "When Naruto was asked by Shikamaru and Shiho to see if he recognises anyone in the photos they were able to recover, Naruto grabs one and leaves. He then thinks back to how he met the man in the photo. He remembers a time when he found a tag with the name Kisuke written on it.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "When Naruto was asked by Shikamaru and Shiho to see if he recognises anyone in the photos they were able to recover, Naruto grabs one and leaves.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.intro0"
+    },
+    {
+      "fallback": "He then thinks back to how he met the man in the photo.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.intro1"
+    },
+    {
+      "fallback": "He remembers a time when he found a tag with the name Kisuke written on it.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Man Who Died Twice",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: The Man Who Died Twice",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sabiru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sabiru",
+        "translate": "quest.narutorpg.defeat.sabiru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118614,
+  "outro": [
+    {
+      "fallback": "Near the end of the day, Kisuke's soul is ready to depart and says good-bye to Naruto.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.outro0"
+    },
+    {
+      "fallback": "Back in the present, Naruto places a bouquet of tulips on the gravestone of Kisuke, just as he promised him he would do whenever he remembers him.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_15.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_14"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

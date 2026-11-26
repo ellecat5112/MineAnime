@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:gaara_ally_shippuden",
+    "narutorpg:temari_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Sunagakure Support Mission",
+    "translate": "quest.narutorpg.arc.sunagakure_support_mission"
+  },
+  "description": {
+    "fallback": "The missing-nin continue to flee as Gaara, Temari, and Kankurō give chase. At the same time, Shino, Hinata, and Neji are using their abilities to find the location of the Four Celestial Symbols Men. Temari encounters the first of the members (a woman that uses swords to produce wind) and leaves Gaara and Kankurō to chase after the other three members.",
+    "translate": "quest.narutorpg.sunagakure_support_mission_02.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "The missing-nin continue to flee as Gaara, Temari, and Kankurō give chase.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_02.intro0"
+    },
+    {
+      "fallback": "At the same time, Shino, Hinata, and Neji are using their abilities to find the location of the Four Celestial Symbols Men.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_02.intro1"
+    },
+    {
+      "fallback": "Temari encounters the first of the members (a woman that uses swords to produce wind) and leaves Gaara and Kankurō to chase after the other three members.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sand Alliance With the Leaf Shinobi",
+    "translate": "quest.narutorpg.sunagakure_support_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.sunagakure_support_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: Sand Alliance With the Leaf Shinobi",
+        "translate": "quest.narutorpg.sunagakure_support_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kujaku_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kujaku",
+        "translate": "quest.narutorpg.defeat.kujaku_foe_shippuden"
+      }
+    }
+  ],
+  "order": 122601,
+  "outro": [
+    {
+      "fallback": "Gaara then finds himself a battle with a huge, robust man who has a spiked flail.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_02.outro0"
+    },
+    {
+      "fallback": "The Four Celestial Symbols Men prepare to kill Temari and Kankurō; however, Shikamaru saves Temari with his Shadow Imitation Technique, and Kiba saves Kankurō.",
+      "translate": "quest.narutorpg.sunagakure_support_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:sunagakure_support_mission_01"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

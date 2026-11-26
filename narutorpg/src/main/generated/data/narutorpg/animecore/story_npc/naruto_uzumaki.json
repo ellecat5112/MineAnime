@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 1713022,
+    "eyes": 2001125,
+    "hair": 16763176,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "mark": "whiskers",
+    "outfit": "jacket",
+    "pants": 16088064,
+    "top": 16088064
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Naruto Uzumaki",
+    "translate": "npc.narutorpg.naruto_uzumaki"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

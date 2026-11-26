@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kakashi_hatake_ally_boruto",
+    "narutorpg:sakura_haruno_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": "With all of the dragons starting to surround them, Sasuke tells Menō to focus on the Titan; he uses Chidori Senbon to create an opening among the approaching dragons and then uses Susanoo to throw Menō onto the Titan's back. Upon landing, Menō begins charging at Zansūru, but Zansūru flees using a flying dragon before Menō is able to attack him. Annoyed that Menō has now turned against him, Zansūru urges the many...",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "With all of the dragons starting to surround them, Sasuke tells Menō to focus on the Titan; he uses Chidori Senbon to create an opening among the approaching dragons and then uses Susanoo to throw Menō onto the Titan's...",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.intro0"
+    },
+    {
+      "fallback": "Upon landing, Menō begins charging at Zansūru, but Zansūru flees using a flying dragon before Menō is able to attack him.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.intro1"
+    },
+    {
+      "fallback": "Annoyed that Menō has now turned against him, Zansūru urges the many dragons to kill Sasuke quickly.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 9 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 99,
+      "text": {
+        "fallback": "Head out: Chapter 9 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zansuru_foe_boruto",
+      "text": {
+        "fallback": "Defeat Zansūru",
+        "translate": "quest.narutorpg.defeat.zansuru_foe_boruto"
+      }
+    }
+  ],
+  "order": 229108,
+  "outro": [
+    {
+      "fallback": "Redaku's Prime Minister offered to let him leave the army to be with Margo if he would first assist Zansūru with creating a dragon army.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.outro0"
+    },
+    {
+      "fallback": "Jiji fell out of conta",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_09.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

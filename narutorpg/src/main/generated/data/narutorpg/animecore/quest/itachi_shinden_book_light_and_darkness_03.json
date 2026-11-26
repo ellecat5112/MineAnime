@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "Itachi plays with Sasuke, and thinks back to one of his missions. Itachi sees his father after returning from a mission. The Konoha Council discusses with the clan heads of the village about relocating in the aftermath of the Nine-Tails' attack, resulting in the Aburame and Uchiha Clan relocating.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.desc"
+  },
+  "giver": "narutorpg:eagle_masked_anbu_member",
+  "intro": [
+    {
+      "fallback": "Itachi plays with Sasuke, and thinks back to one of his missions.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.intro0"
+    },
+    {
+      "fallback": "Itachi sees his father after returning from a mission.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.intro1"
+    },
+    {
+      "fallback": "The Konoha Council discusses with the clan heads of the village about relocating in the aftermath of the Nine-Tails' attack, resulting in the Aburame and Uchiha Clan relocating.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Pain of Living",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:eagle_masked_anbu_member",
+      "text": {
+        "fallback": "Talk to Eagle-Masked Anbu Member",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: The Pain of Living",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 146102,
+  "outro": [
+    {
+      "fallback": "Itachi and Fugaku go get dumplings, but the store is sold out.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.outro0"
+    },
+    {
+      "fallback": "She and Itachi go to a lake, where Izumi apologises for not giving him anything for his promotion.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_03.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:itachi_shinden_book_light_and_darkness_02"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

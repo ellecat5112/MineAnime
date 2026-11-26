@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 2001125,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 16767916,
+    "top": 3046706
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Asuma Sarutobi",
+    "translate": "npc.narutorpg.asuma_sarutobi"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

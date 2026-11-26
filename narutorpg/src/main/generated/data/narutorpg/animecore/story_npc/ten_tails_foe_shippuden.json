@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:great_roar",
+    "narutorpg:tailed_beast_chakra_arms",
+    "narutorpg:tailed_beast_heavy_cannon",
+    "narutorpg:tenpenchii",
+    "narutorpg:truth_seeking_ball"
+  ],
+  "appearance": {
+    "accent": 2635155,
+    "eyes": 1118481,
+    "hair": 12986408,
+    "mark": "red_eyes",
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 7162945
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 662.0,
+  "name": {
+    "fallback": "Ten-Tails",
+    "translate": "npc.narutorpg.ten_tails"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "scale": 2.2,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

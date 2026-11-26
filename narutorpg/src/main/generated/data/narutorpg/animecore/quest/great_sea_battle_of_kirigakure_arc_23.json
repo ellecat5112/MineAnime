@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "In Konoha, Naruto congratulates Team 7 for their success in the Land of Water, having already been filled in by Chōjūrō. Katasuke was impressed by Boruto's willingness to risk his life to end the conflict, which has bolstered Konoha's reputation. Shikamaru explains that the Funato lost much influence and have been placed under surveillance by Kirigakure.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In Konoha, Naruto congratulates Team 7 for their success in the Land of Water, having already been filled in by Chōjūrō.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.intro0"
+    },
+    {
+      "fallback": "Katasuke was impressed by Boruto's willingness to risk his life to end the conflict, which has bolstered Konoha's reputation.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.intro1"
+    },
+    {
+      "fallback": "Shikamaru explains that the Funato lost much influence and have been placed under surveillance by Kirigakure.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Tricky Assignment",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: A Tricky Assignment",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 224322,
+  "outro": [
+    {
+      "fallback": "Kawaki sees nothing wrong with Ikada facing punishment, as he was a commander.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.outro0"
+    },
+    {
+      "fallback": "Boruto points out that Ikada stopped the fighting, and that resentment over punishing him despite that might spark the conflict again.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_23.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_22"
+  ],
+  "rewards": {
+    "experience": 41,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

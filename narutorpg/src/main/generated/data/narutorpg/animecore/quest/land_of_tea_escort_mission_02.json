@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Land of Tea Escort Mission",
+    "translate": "quest.narutorpg.arc.land_of_tea_escort_mission"
+  },
+  "description": {
+    "fallback": "Team 7 follows Idate to another port which makes a better starting point of the boating part of the race, due to the winds and the current. En route, they are attacked by Team Oboro from the Chūnin Exams, who have been hired by the other clan. Team 7 defends Idate and tell him to swim for the shore, while they follow later.",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_02.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Team 7 follows Idate to another port which makes a better starting point of the boating part of the race, due to the winds and the current.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_02.intro0"
+    },
+    {
+      "fallback": "En route, they are attacked by Team Oboro from the Chūnin Exams, who have been hired by the other clan.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_02.intro1"
+    },
+    {
+      "fallback": "Team 7 defends Idate and tell him to swim for the shore, while they follow later.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Race is On! Trouble on the High Seas!",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 91,
+      "text": {
+        "fallback": "Head out: The Race is On! Trouble on the High Seas!",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:aoi_rokusho_foe_naruto",
+      "text": {
+        "fallback": "Defeat Aoi Rokushō",
+        "translate": "quest.narutorpg.defeat.aoi_rokusho_foe_naruto"
+      }
+    }
+  ],
+  "order": 11201,
+  "outro": [
+    {
+      "fallback": "Team 7 defends Idate and tell him to swim for the shore, while they follow later.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_02.outro0"
+    },
+    {
+      "fallback": "He does so, but is confronted by Aoi, leader of the Ame ninja.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:land_of_tea_escort_mission_01"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:sarada_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Naruto Gaiden: The Seventh Hokage and the Scarlet Spring",
+    "translate": "quest.narutorpg.arc.naruto_gaiden_the_seventh_hokage_and_the_scarlet"
+  },
+  "description": {
+    "fallback": "The mysterious man immediately guides his weapons towards Sasuke who easily counters with his sword and proceeds to attack. The enemy manages to block Sasuke's advance while his son attacks, prompting Sasuke to evade. When Sasuke releases a large fireball at the duo, the older man uses his son as a shield against the attack.",
+    "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The mysterious man immediately guides his weapons towards Sasuke who easily counters with his sword and proceeds to attack.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.intro0"
+    },
+    {
+      "fallback": "The enemy manages to block Sasuke's advance while his son attacks, prompting Sasuke to evade.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.intro1"
+    },
+    {
+      "fallback": "When Sasuke releases a large fireball at the duo, the older man uses his son as a shield against the attack.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Reunions and Revelations",
+    "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Reunions and Revelations",
+        "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shin_uchiha_foe_boruto",
+      "text": {
+        "fallback": "Defeat Shin Uchiha",
+        "translate": "quest.narutorpg.defeat.shin_uchiha_foe_boruto"
+      }
+    }
+  ],
+  "order": 200902,
+  "outro": [
+    {
+      "fallback": "Eventually, Shin learned about and became fascinated with Itachi Uchiha, leading to him abandoning Orochimaru and taking all but one clone with him.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.outro0"
+    },
+    {
+      "fallback": "Orochimaru informs the group that the clones are unlike the standard Shadow Clone Technique, and that they can only be stopped by being killed.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_03.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:naruto_gaiden_the_seventh_hokage_and_the_scarlet_02"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

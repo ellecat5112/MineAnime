@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_boruto",
+    "narutorpg:hinata_hyuga_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Shikamaru is notified that Naruto's and Hinata's chakra vanished, and he wonders if Code is involved. One of the investigators mentioned that for a moment, Kawaki's chakra signature was registered. Himawari arrives home to find it being investigated.",
+    "translate": "quest.narutorpg.omnipotence_arc_11.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Shikamaru is notified that Naruto's and Hinata's chakra vanished, and he wonders if Code is involved.",
+      "translate": "quest.narutorpg.omnipotence_arc_11.intro0"
+    },
+    {
+      "fallback": "One of the investigators mentioned that for a moment, Kawaki's chakra signature was registered.",
+      "translate": "quest.narutorpg.omnipotence_arc_11.intro1"
+    },
+    {
+      "fallback": "Himawari arrives home to find it being investigated.",
+      "translate": "quest.narutorpg.omnipotence_arc_11.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Super Idiot",
+    "translate": "quest.narutorpg.omnipotence_arc_11"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.omnipotence_arc_11.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Super Idiot",
+        "translate": "quest.narutorpg.omnipotence_arc_11.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ada_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ada",
+        "translate": "quest.narutorpg.defeat.ada_foe_boruto"
+      }
+    }
+  ],
+  "order": 237810,
+  "outro": [
+    {
+      "fallback": "Kawaki intercepts Boruto on his way home on the Hokage Rock, trying to send him away as well.",
+      "translate": "quest.narutorpg.omnipotence_arc_11.outro0"
+    },
+    {
+      "fallback": "Boruto stops it with his Kāma.",
+      "translate": "quest.narutorpg.omnipotence_arc_11.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_10"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

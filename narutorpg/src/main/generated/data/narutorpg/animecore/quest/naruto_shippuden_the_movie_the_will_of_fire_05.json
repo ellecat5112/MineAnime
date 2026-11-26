@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Will of Fire",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_will_of_fire"
+  },
+  "description": {
+    "fallback": "The movie ends at Mount Shumisen with Kakashi thinking about Obito, smiling at Naruto after seeing the similarities between the two. Naruto takes the smile as something creepy and random, leading the rest of the Konoha 11 to start making lewd assumptions about Kakashi. While, he hurriedly denies them, Naruto panics and flees.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "The movie ends at Mount Shumisen with Kakashi thinking about Obito, smiling at Naruto after seeing the similarities between the two.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.intro0"
+    },
+    {
+      "fallback": "Naruto takes the smile as something creepy and random, leading the rest of the Konoha 11 to start making lewd assumptions about Kakashi.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.intro1"
+    },
+    {
+      "fallback": "While, he hurriedly denies them, Naruto panics and flees.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 5",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Part 5",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301504,
+  "outro": [
+    {
+      "fallback": "While, he hurriedly denies them, Naruto panics and flees.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.outro0"
+    },
+    {
+      "fallback": "Kakashi then chases after the Naruto, trying to explain the misunderstanding.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_05.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_will_of_fire_04"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

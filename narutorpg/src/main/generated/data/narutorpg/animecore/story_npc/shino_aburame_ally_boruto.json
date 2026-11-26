@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:human_cocoon_technique",
+    "narutorpg:insect_jamming_technique",
+    "narutorpg:insect_rope_technique",
+    "narutorpg:iron_mountain_leaning",
+    "narutorpg:manipulated_shuriken_technique",
+    "narutorpg:insect_clone_technique"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "hair": 4073251,
+    "headband": 1981066,
+    "mark": "glasses",
+    "outfit": "robe",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 5533306
+  },
+  "attack": 16.0,
+  "health": 228.0,
+  "name": {
+    "fallback": "Shino Aburame",
+    "translate": "npc.narutorpg.shino_aburame"
+  },
+  "power": 2.44,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

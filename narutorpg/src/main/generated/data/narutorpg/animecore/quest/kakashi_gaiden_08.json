@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:kakko_ally_shippuden",
+    "narutorpg:rin_nohara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "With his new Sharingan, Kakashi is able to overcome the Chidori's weakness; though the attack is still fast, the Sharingan gives him enough reaction time to avoid counterattacks. He kills Kakkō and returns to Obito's side. With Iwagakure reinforcements incoming, Obito asks Kakashi to take Rin away and protect her from harm.",
+    "translate": "quest.narutorpg.kakashi_gaiden_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "With his new Sharingan, Kakashi is able to overcome the Chidori's weakness; though the attack is still fast, the Sharingan gives him enough reaction time to avoid counterattacks.",
+      "translate": "quest.narutorpg.kakashi_gaiden_08.intro0"
+    },
+    {
+      "fallback": "He kills Kakkō and returns to Obito's side.",
+      "translate": "quest.narutorpg.kakashi_gaiden_08.intro1"
+    },
+    {
+      "fallback": "With Iwagakure reinforcements incoming, Obito asks Kakashi to take Rin away and protect her from harm.",
+      "translate": "quest.narutorpg.kakashi_gaiden_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Side Story Final Story: The Hero of the Sharingan",
+    "translate": "quest.narutorpg.kakashi_gaiden_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Side Story Final Story: The Hero of the Sharingan",
+        "translate": "quest.narutorpg.kakashi_gaiden_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112807,
+  "outro": [
+    {
+      "fallback": "He awakes some time later to find the enemies dead, having been killed by his master.",
+      "translate": "quest.narutorpg.kakashi_gaiden_08.outro0"
+    },
+    {
+      "fallback": "With Rin safe, they complete their mission by destroying the Kannabi Bridge. pt-br:Capítulo 244: Última Parte: O Herói do Sharingan",
+      "translate": "quest.narutorpg.kakashi_gaiden_08.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_07"
+  ],
+  "rewards": {
+    "experience": 25,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 5
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

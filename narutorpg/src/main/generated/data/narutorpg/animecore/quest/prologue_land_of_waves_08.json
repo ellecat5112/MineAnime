@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:tazuna_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "Kakashi was taken to Tazuna's home for recovery, and as he rested he made the observation that Zabuza's apparent death was odd: when hunter-nin killed their target, they usually began to destroy it on the spot. On the other hand, the ninja whom they'd met had taken Zabuza's body elsewhere instead of operating immediately. This, coupled with the fact that Zabuza had been \"killed\" with senbon, weapons that were rarely...",
+    "translate": "quest.narutorpg.prologue_land_of_waves_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Kakashi was taken to Tazuna's home for recovery, and as he rested he made the observation that Zabuza's apparent death was odd: when hunter-nin killed their target, they usually began to destroy it on the spot.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_08.intro0"
+    },
+    {
+      "fallback": "On the other hand, the ninja whom they'd met had taken Zabuza's body elsewhere instead of operating immediately.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_08.intro1"
+    },
+    {
+      "fallback": "This, coupled with the fact that Zabuza had been \"killed\" with senbon, weapons that were rarely fatal and also useful for knocking people out, led Kakashi to believe that Zabuza was still alive, and that he would be...",
+      "translate": "quest.narutorpg.prologue_land_of_waves_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Training",
+    "translate": "quest.narutorpg.prologue_land_of_waves_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.prologue_land_of_waves_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Training",
+        "translate": "quest.narutorpg.prologue_land_of_waves_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zabuza_momochi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Zabuza Momochi",
+        "translate": "quest.narutorpg.defeat.zabuza_momochi_foe_naruto"
+      }
+    }
+  ],
+  "order": 1107,
+  "outro": [
+    {
+      "fallback": "One day, years prior, a flood had threatened to destroy the village, and Kaiza had single-handedly managed to close the floodgates, earning him the title of \"hero\" amongst the villagers.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_08.outro0"
+    },
+    {
+      "fallback": "Once Gatō came to the country, ho",
+      "translate": "quest.narutorpg.prologue_land_of_waves_08.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_07"
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

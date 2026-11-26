@@ -1,0 +1,103 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:hayate_gekko_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Chūnin Exams",
+    "translate": "quest.narutorpg.arc.chunin_exams"
+  },
+  "description": {
+    "fallback": "After the preliminary ends and drawing lots to determine the first round match-ups for the main tournament, there was a one-month period in which the remaining genin could prepare themselves. Various dignitaries were also invited to watch the main matches. During this month, Naruto met Jiraiya, another Sannin, for the first time.",
+    "translate": "quest.narutorpg.chunin_exams_05.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "After the preliminary ends and drawing lots to determine the first round match-ups for the main tournament, there was a one-month period in which the remaining genin could prepare themselves.",
+      "translate": "quest.narutorpg.chunin_exams_05.intro0"
+    },
+    {
+      "fallback": "Various dignitaries were also invited to watch the main matches.",
+      "translate": "quest.narutorpg.chunin_exams_05.intro1"
+    },
+    {
+      "fallback": "During this month, Naruto met Jiraiya, another Sannin, for the first time.",
+      "translate": "quest.narutorpg.chunin_exams_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Finals",
+    "translate": "quest.narutorpg.chunin_exams_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.chunin_exams_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Finals",
+        "translate": "quest.narutorpg.chunin_exams_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:baki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Baki",
+        "translate": "quest.narutorpg.defeat.baki_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gaara_foe_naruto",
+      "text": {
+        "fallback": "Defeat Gaara",
+        "translate": "quest.narutorpg.defeat.gaara_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:neji_hyuga_foe_naruto",
+      "text": {
+        "fallback": "Defeat Neji Hyūga",
+        "translate": "quest.narutorpg.defeat.neji_hyuga_foe_naruto"
+      }
+    }
+  ],
+  "order": 3004,
+  "outro": [
+    {
+      "fallback": "The second match, which featured Sasuke versus Gaara, was moved to be the last, as Sasuke hadn't arrived yet.",
+      "translate": "quest.narutorpg.chunin_exams_05.outro0"
+    },
+    {
+      "fallback": "Normally he would have been disqualified on the spot, but his match had been highly anticipated — in fact, some of the crowd commented they had mostly come just to see him fight, forcing the Thir",
+      "translate": "quest.narutorpg.chunin_exams_05.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:chunin_exams_04"
+  ],
+  "rewards": {
+    "experience": 19,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 2
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

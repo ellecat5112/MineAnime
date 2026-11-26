@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:wind_release_flying_locust_wind",
+    "narutorpg:area_scanning_technique"
+  ],
+  "appearance": {
+    "accent": 16757504,
+    "hair": 12986408,
+    "hair_style": "long",
+    "headband": 2503224,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 14724201,
+    "top": 16448250
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Batta",
+    "translate": "npc.narutorpg.batta"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

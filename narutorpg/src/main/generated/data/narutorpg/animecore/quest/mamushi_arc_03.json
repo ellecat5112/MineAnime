@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "Koji and Boruto watch as Inojin completes his new jutsu. When Boruto compliments Inojin's success on completing his jutsu in a single day, Inojin retorts that he's only here to defend Himawari and Konohagakure, and he does not accept Boruto as an ally. Boruto responds that he doesn't accept Inojin either, and warns him not to make Himawari cry even once, or he will shave Inojin's ridiculous haircut off.",
+    "translate": "quest.narutorpg.mamushi_arc_03.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Koji and Boruto watch as Inojin completes his new jutsu.",
+      "translate": "quest.narutorpg.mamushi_arc_03.intro0"
+    },
+    {
+      "fallback": "When Boruto compliments Inojin's success on completing his jutsu in a single day, Inojin retorts that he's only here to defend Himawari and Konohagakure, and he does not accept Boruto as an ally.",
+      "translate": "quest.narutorpg.mamushi_arc_03.intro1"
+    },
+    {
+      "fallback": "Boruto responds that he doesn't accept Inojin either, and warns him not to make Himawari cry even once, or he will shave Inojin's ridiculous haircut off.",
+      "translate": "quest.narutorpg.mamushi_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "New Powers",
+    "translate": "quest.narutorpg.mamushi_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.mamushi_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: New Powers",
+        "translate": "quest.narutorpg.mamushi_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:inojin_yamanaka",
+      "text": {
+        "fallback": "Meet Inojin Yamanaka",
+        "translate": "quest.narutorpg.mamushi_arc_03.o3"
+      }
+    }
+  ],
+  "order": 303602,
+  "outro": [
+    {
+      "fallback": "Boruto responds that he doesn't accept Inojin either, and warns him not to make Himawari cry even once, or he will shave Inojin's ridiculous haircut off.",
+      "translate": "quest.narutorpg.mamushi_arc_03.outro0"
+    },
+    {
+      "fallback": "Boruto teleports away as a baffled Inojin questions why Boruto would defend Himawari as he's the one who wrecked the Uzumaki Household in the first place.",
+      "translate": "quest.narutorpg.mamushi_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_02"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

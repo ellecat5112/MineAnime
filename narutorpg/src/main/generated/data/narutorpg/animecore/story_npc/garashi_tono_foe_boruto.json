@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:shadow_clone_technique"
+  ],
+  "appearance": {
+    "accent": 16119285,
+    "eyes": 2001125,
+    "hair": 1973790,
+    "hair_style": "spiky",
+    "headband": 4545124,
+    "outfit": "cloak",
+    "pants": 3622735,
+    "top": 1710618
+  },
+  "attack": 17.0,
+  "cast_interval": 40,
+  "health": 590.0,
+  "name": {
+    "fallback": "Garashi Tōno",
+    "translate": "npc.narutorpg.garashi_tono"
+  },
+  "power": 2.34,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

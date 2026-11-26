@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:yugito_nii_ally_shippuden",
+    "narutorpg:zetsu_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Akatsuki Suppression Mission",
+    "translate": "quest.narutorpg.arc.akatsuki_suppression_mission"
+  },
+  "description": {
+    "fallback": "Two newly introduced Akatsuki members, Hidan and Kakuzu, were chasing after the Two-Tails's jinchūriki, Yugito Nii. Despite fully transforming into her two-tailed state, Hidan and Kakuzu defeated Yugito. After the battle, Hidan performed a gruesome religious ritual, greatly annoying Kakuzu, who was a money-obsessed bounty hunter.",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Two newly introduced Akatsuki members, Hidan and Kakuzu, were chasing after the Two-Tails's jinchūriki, Yugito Nii.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_01.intro0"
+    },
+    {
+      "fallback": "Despite fully transforming into her two-tailed state, Hidan and Kakuzu defeated Yugito.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_01.intro1"
+    },
+    {
+      "fallback": "After the battle, Hidan performed a gruesome religious ritual, greatly annoying Kakuzu, who was a money-obsessed bounty hunter.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Akatsuki Strikes",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Akatsuki Strikes",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:deidara_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Deidara",
+        "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kakuzu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kakuzu",
+        "translate": "quest.narutorpg.defeat.kakuzu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hidan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hidan",
+        "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
+      }
+    }
+  ],
+  "order": 108200,
+  "outro": [
+    {
+      "fallback": "Tobi acted strangely flippant before the battle with the immense aquatic beast.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_01.outro0"
+    },
+    {
+      "fallback": "After subduing the monster, Tobi claimed he single-handedly won the battle, provoking another comedic attack from Deidara after commenting \"Senpai, you talk a lot\".",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:tenchi_bridge_reconnaissance_mission_05"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

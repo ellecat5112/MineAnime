@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "Chōji and Naruto bring lunch to Sakura and Shizune with Naruto leaving to assist rebuilding Ichiraku afterwards. Upon hearing Chōji quote the saying, \"Fools never catch a cold\", Sakura gets a flashback of catching Naruto's cold. Sakura sees Tsunade at her office, where she collapses.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Chōji and Naruto bring lunch to Sakura and Shizune with Naruto leaving to assist rebuilding Ichiraku afterwards.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.intro0"
+    },
+    {
+      "fallback": "Upon hearing Chōji quote the saying, \"Fools never catch a cold\", Sakura gets a flashback of catching Naruto's cold.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.intro1"
+    },
+    {
+      "fallback": "Sakura sees Tsunade at her office, where she collapses.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chakra Virus",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: Chakra Virus",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118605,
+  "outro": [
+    {
+      "fallback": "After getting results from Naruto, Shizune tells Tsunade that he does not have the chakra virus but had sneezed due to the pepper he had in his pocket, with Sakura just having an allergic reaction from said sneeze.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.outro0"
+    },
+    {
+      "fallback": "After his release, Naruto demands an apology from Tsunade for her mistake; however, she covers it up by claiming the entire event as an \"emergency drill\".",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_06.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_05"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

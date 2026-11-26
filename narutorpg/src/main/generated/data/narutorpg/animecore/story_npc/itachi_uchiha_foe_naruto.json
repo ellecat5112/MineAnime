@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "narutorpg:amaterasu",
+    "narutorpg:clone_great_explosion",
+    "narutorpg:demonic_illusion_mirror_heaven_and_earth_change",
+    "narutorpg:fire_release_phoenix_sage_fire_technique",
+    "narutorpg:genjutsu_sharingan",
+    "narutorpg:chakra_suppression_technique"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 12986408,
+    "hair": 1382174,
+    "hair_style": "long",
+    "headband": 1981066,
+    "mark": "red_eyes",
+    "outfit": "cloak",
+    "top": 1052692
+  },
+  "attack": 4.2,
+  "cast_interval": 40,
+  "health": 115.0,
+  "name": {
+    "fallback": "Itachi Uchiha",
+    "translate": "npc.narutorpg.itachi_uchiha"
+  },
+  "power": 1.02,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

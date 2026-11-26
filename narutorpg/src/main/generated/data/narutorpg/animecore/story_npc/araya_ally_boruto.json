@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:magnetic_iron_sand_sealing_blade",
+    "narutorpg:puppet_technique",
+    "narutorpg:wind_release_sand_cloud_breakthrough"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "hair": 1973790,
+    "hair_style": "spiky",
+    "headband": 6111287,
+    "outfit": "robe",
+    "skin": 16767916,
+    "top": 10586239
+  },
+  "attack": 19.0,
+  "health": 270.0,
+  "name": {
+    "fallback": "Araya",
+    "translate": "npc.narutorpg.araya"
+  },
+  "power": 2.8,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

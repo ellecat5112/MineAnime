@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sai_ally_boruto",
+    "narutorpg:shikamaru_nara_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Byakuya Gang Arc",
+    "translate": "quest.narutorpg.arc.byakuya_gang_arc"
+  },
+  "description": {
+    "fallback": "A protest against the Kaminarimon Company is held, over supposed exploitative practices. The Byakuya Gang is pleased with the growing turmoil in Konoha. Ryōgi confirms with Gekkō this is all ultimately for justice.",
+    "translate": "quest.narutorpg.byakuya_gang_arc_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "A protest against the Kaminarimon Company is held, over supposed exploitative practices.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_03.intro0"
+    },
+    {
+      "fallback": "The Byakuya Gang is pleased with the growing turmoil in Konoha.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_03.intro1"
+    },
+    {
+      "fallback": "Ryōgi confirms with Gekkō this is all ultimately for justice.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Memories from the Day of Snow",
+    "translate": "quest.narutorpg.byakuya_gang_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.byakuya_gang_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Memories from the Day of Snow",
+        "translate": "quest.narutorpg.byakuya_gang_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryogi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ryōgi",
+        "translate": "quest.narutorpg.defeat.ryogi_foe_boruto"
+      }
+    }
+  ],
+  "order": 205302,
+  "outro": [
+    {
+      "fallback": "When Ryōgi's mother tried to help, she was also killed in front of him.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_03.outro0"
+    },
+    {
+      "fallback": "The assailant tried attacking Ryōgi, who tapped into his Ice Release abilities to stop him before passing out.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:byakuya_gang_arc_02"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

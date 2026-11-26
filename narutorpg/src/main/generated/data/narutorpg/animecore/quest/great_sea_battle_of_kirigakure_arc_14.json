@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:kagura_karatachi_ally_boruto",
+    "narutorpg:hebiichigo_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Funamushi stabs Kagura so they can feel how he felt when Seiren was injured. Team 7 and the swordsmen attack, Funamushi counterattacks with Water Release. Enraged, Boruto activates his Kāma and lands a Rasengan on Funamushi before joining the others in checking on Kagura.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Funamushi stabs Kagura so they can feel how he felt when Seiren was injured.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.intro0"
+    },
+    {
+      "fallback": "Team 7 and the swordsmen attack, Funamushi counterattacks with Water Release.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.intro1"
+    },
+    {
+      "fallback": "Enraged, Boruto activates his Kāma and lands a Rasengan on Funamushi before joining the others in checking on Kagura.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Heavy Loss",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: A Heavy Loss",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:seiren_funato_foe_boruto",
+      "text": {
+        "fallback": "Defeat Seiren Funato",
+        "translate": "quest.narutorpg.defeat.seiren_funato_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:funamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Funamushi",
+        "translate": "quest.narutorpg.defeat.funamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 224313,
+  "outro": [
+    {
+      "fallback": "He gives his final words to Boruto, and dies.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.outro0"
+    },
+    {
+      "fallback": "Misuno and Chōjūrō confirm Kagura's intel that the Funato at sea are stalling for time.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_14.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_13"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:a_fourth_raikage_ally_shippuden",
+    "narutorpg:onoki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Climax",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_climax"
+  },
+  "description": {
+    "fallback": "After emerging from his coffin, Madara believed he has been brought back by Nagato using Outer Path: Samsara of Heavenly Life Technique until Mū reveals the technique to be Impure World Reincarnation. When Madara questions Mū about the user of the technique's identity, Kabuto takes full control of the Tsuchikage to explain to the reincarnated Uchiha that he brought him back and had made enhancements that have gave...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.desc"
+  },
+  "giver": "narutorpg:gaara",
+  "intro": [
+    {
+      "fallback": "After emerging from his coffin, Madara believed he has been brought back by Nagato using Outer Path: Samsara of Heavenly Life Technique until Mū reveals the technique to be Impure World Reincarnation.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.intro0"
+    },
+    {
+      "fallback": "When Madara questions Mū about the user of the technique's identity, Kabuto takes full control of the Tsuchikage to explain to the reincarnated Uchiha that he brought him back and had made enhancements that have gave...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.intro1"
+    },
+    {
+      "fallback": "News of this turn of events reaches the Fourth Division's location with Gaara leading the attack as Madara counters with a widespread fire technique, which is countered by the combined usage of Water Formation Wall by...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Madara Uchiha vs. The Allied Shinobi Forces",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:gaara",
+      "text": {
+        "fallback": "Talk to Gaara",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Madara Uchiha vs. The Allied Shinobi Forces",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 133200,
+  "outro": [
+    {
+      "fallback": "Kabuto speaking through Mū, surmises that Madara intends to destroy everything with the meteor, and Madara states that he is correct as they will simply regenerate. Ōnoki successfully lightens the meteorite, as Gaara...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.outro0"
+    },
+    {
+      "fallback": "Madara asks what they will do about the second one, as it collides it with the fi",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_climax_01.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_08"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

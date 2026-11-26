@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Mitsuki ponders on the importance of the \"sun\" to him as the \"moon\". He attacks Boruto with chakra snakes, deflecting Boruto's shuriken. Boruto avoids them, teleporting to his shuriken, and asks about Kawaki, having expected him to have given chase.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_07.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Mitsuki ponders on the importance of the \"sun\" to him as the \"moon\".",
+      "translate": "quest.narutorpg.boruto_s_return_arc_07.intro0"
+    },
+    {
+      "fallback": "He attacks Boruto with chakra snakes, deflecting Boruto's shuriken.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_07.intro1"
+    },
+    {
+      "fallback": "Boruto avoids them, teleporting to his shuriken, and asks about Kawaki, having expected him to have given chase.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Whereabouts of the Sun",
+    "translate": "quest.narutorpg.boruto_s_return_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.boruto_s_return_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: The Whereabouts of the Sun",
+        "translate": "quest.narutorpg.boruto_s_return_arc_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 301106,
+  "outro": [
+    {
+      "fallback": "Boruto concedes he's to blame, but can't die over unfinished business, so he makes short work of Mitsuki's clones.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_07.outro0"
+    },
+    {
+      "fallback": "Mitsuki attacks with Lightning Release, which Boruto cancels out with his own, allowing him to close in and have his sword to Mitsuki's neck.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_06"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

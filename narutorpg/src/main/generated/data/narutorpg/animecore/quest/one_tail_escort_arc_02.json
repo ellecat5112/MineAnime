@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:gaara_ally_boruto",
+    "narutorpg:shinki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "One-Tail Escort Arc",
+    "translate": "quest.narutorpg.arc.one_tail_escort_arc"
+  },
+  "description": {
+    "fallback": "After Sasuke was teleported to another dimension, Boruto tries to attack Urashiki, but is stopped by Gaara, who takes him to a safe location. Gaara binds Boruto and explains to him that Urashiki is an Ōtsutsuki and he has no chance against Urashiki. Urashiki takes advantage of attacking an exhausted Gaara, but he is saved by Shinki and Shukaku.",
+    "translate": "quest.narutorpg.one_tail_escort_arc_02.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "After Sasuke was teleported to another dimension, Boruto tries to attack Urashiki, but is stopped by Gaara, who takes him to a safe location.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_02.intro0"
+    },
+    {
+      "fallback": "Gaara binds Boruto and explains to him that Urashiki is an Ōtsutsuki and he has no chance against Urashiki.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_02.intro1"
+    },
+    {
+      "fallback": "Urashiki takes advantage of attacking an exhausted Gaara, but he is saved by Shinki and Shukaku.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Entrusted Mission: Protect the One-Tails!",
+    "translate": "quest.narutorpg.one_tail_escort_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.one_tail_escort_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: The Entrusted Mission: Protect the One-Tails!",
+        "translate": "quest.narutorpg.one_tail_escort_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213001,
+  "outro": [
+    {
+      "fallback": "Gaara uses his Desert Layered Imperial Funeral Seal to seal Urashiki temporarily with Urashiki stating that he will \"just bide his time patiently\".",
+      "translate": "quest.narutorpg.one_tail_escort_arc_02.outro0"
+    },
+    {
+      "fallback": "Kankurō, Yodo, and Araya arrive after hearing news that Urashiki plans on targeting Shukaku.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:one_tail_escort_arc_01"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

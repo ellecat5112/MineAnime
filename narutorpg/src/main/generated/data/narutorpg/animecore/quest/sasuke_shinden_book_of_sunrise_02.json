@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:chino_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Sasuke Shinden: Book of Sunrise",
+    "translate": "quest.narutorpg.arc.sasuke_shinden_book_of_sunrise"
+  },
+  "description": {
+    "fallback": "Sasuke sends Konoha a message about his own encounter with the exploding humans. At the village, Sasuke participates in the service of those who died in the attack. Chino and Nowaki confirm Sasuke's identity, and want to join the investigation.",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Sasuke sends Konoha a message about his own encounter with the exploding humans.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.intro0"
+    },
+    {
+      "fallback": "At the village, Sasuke participates in the service of those who died in the attack.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.intro1"
+    },
+    {
+      "fallback": "Chino and Nowaki confirm Sasuke's identity, and want to join the investigation.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Coliseum (episode)",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Coliseum (episode)",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 149401,
+  "outro": [
+    {
+      "fallback": "Sasuke leads them to a cave entrance, where they meet Yamato, who is keeping an eye on Orochimaru.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.outro0"
+    },
+    {
+      "fallback": "Sasuke wants to speak with Orochimaru, believing him to have information about the exploding humans.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_02.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:sasuke_shinden_book_of_sunrise_01"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

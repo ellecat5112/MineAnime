@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:jiraiya_ally_shippuden",
+    "narutorpg:first_animal_path_character_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Jiraiya notices that one of the Paths looks just like Yahiko, and wonders if Pain is Yahiko or Nagato and why there are six Rinnegan wielders; Pain, however, merely states that they are the Six Paths of Pain and attempt to finish off Jiraiya. Using his Barrier: Toad Gourd Prison technique, Jiraiya is able to trap the Animal Path and strike it with his Rasengan, knocking it into gastric acid. Before the Path dies, it...",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Jiraiya notices that one of the Paths looks just like Yahiko, and wonders if Pain is Yahiko or Nagato and why there are six Rinnegan wielders; Pain, however, merely states that they are the Six Paths of Pain and attempt...",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.intro0"
+    },
+    {
+      "fallback": "Using his Barrier: Toad Gourd Prison technique, Jiraiya is able to trap the Animal Path and strike it with his Rasengan, knocking it into gastric acid.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.intro1"
+    },
+    {
+      "fallback": "Before the Path dies, it manages to stab Jiraiya through the arm and chest.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Tale of Jiraiya the Gallant (episode)",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: The Tale of Jiraiya the Gallant (episode)",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113706,
+  "outro": [
+    {
+      "fallback": "In Konoha, Tsunade sits on a ledge watching a river, noticing a frog.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.outro0"
+    },
+    {
+      "fallback": "Naruto, who is running through the woods, suddenly stops when he feels Jiraiya's arm on his shoulder, unaware that a light is shining on him from up above.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_07.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_06"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

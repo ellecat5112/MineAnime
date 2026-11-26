@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 2635155,
+    "eyes": 2001125,
+    "hair": 10395294,
+    "hair_style": "spiky",
+    "pants": 4073251,
+    "top": 7951688
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Kajiki",
+    "translate": "npc.narutorpg.kajiki"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

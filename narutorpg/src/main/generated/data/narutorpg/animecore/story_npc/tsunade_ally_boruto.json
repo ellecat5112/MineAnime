@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:chakra_enhanced_strength",
+    "narutorpg:chakra_scalpel",
+    "narutorpg:cherry_blossom_impact",
+    "narutorpg:genjutsu_binding",
+    "narutorpg:heavenly_foot_of_pain",
+    "narutorpg:body_pathway_derangement"
+  ],
+  "appearance": {
+    "accent": 10395294,
+    "eyes": 9268835,
+    "hair": 15913323,
+    "hair_style": "ponytail",
+    "mark": "forehead",
+    "outfit": "robe",
+    "top": 8172354
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Tsunade",
+    "translate": "npc.narutorpg.tsunade"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

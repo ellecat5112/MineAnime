@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:sai_ally_boruto",
+    "narutorpg:kaito_kawanami_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Chūnin Re-Examination Arc",
+    "translate": "quest.narutorpg.arc.chunin_re_examination_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Following the defeat of Isshiki Ōtsutsuki, Konoha decides to host another round of Chūnin Exams as the previous one had been disrupted by the invasion of Momoshiki, Kinshiki, and Urashiki. Sai administers the written portion of the Chūnin Exam, while Naruto gives an interview explaining the need for qualified shinobi based on recent events. Throughout the written exam, the genin teams use their skills to share...",
+    "translate": "quest.narutorpg.chunin_re_examination_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Following the defeat of Isshiki Ōtsutsuki, Konoha decides to host another round of Chūnin Exams as the previous one had been disrupted by the invasion of Momoshiki, Kinshiki, and Urashiki.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_01.intro0"
+    },
+    {
+      "fallback": "Sai administers the written portion of the Chūnin Exam, while Naruto gives an interview explaining the need for qualified shinobi based on recent events.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_01.intro1"
+    },
+    {
+      "fallback": "Throughout the written exam, the genin teams use their skills to share answers, with one genin disqualified from being caught cheating.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Chūnin Exams Resume",
+    "translate": "quest.narutorpg.chunin_re_examination_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.chunin_re_examination_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: The Chūnin Exams Resume",
+        "translate": "quest.narutorpg.chunin_re_examination_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.isshiki_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:momoshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Momoshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.momoshiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 223100,
+  "outro": [
+    {
+      "fallback": "Wasabi and Iwabee succeed in taking their subordinates out of the forest.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_01.outro0"
+    },
+    {
+      "fallback": "Kaito lays a trap for Boruto, having placed a transmitter on him before the exam began, a",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

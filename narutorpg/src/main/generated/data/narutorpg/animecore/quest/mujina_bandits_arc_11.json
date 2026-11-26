@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kokuri_ally_boruto",
+    "narutorpg:kedama_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Boruto and Mitsuki move Kokuri around at night, Mitsuki relying on his snakes to alert him of the guards' movements. As they near the tank, Kokuri is concerned by Sarada's lack of communication, but Boruto is confident that she'll pull through. Sarada is unconscious, and the water level at her location is rising.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_11.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto and Mitsuki move Kokuri around at night, Mitsuki relying on his snakes to alert him of the guards' movements.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_11.intro0"
+    },
+    {
+      "fallback": "As they near the tank, Kokuri is concerned by Sarada's lack of communication, but Boruto is confident that she'll pull through.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_11.intro1"
+    },
+    {
+      "fallback": "Sarada is unconscious, and the water level at her location is rising.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_11.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Executing the Prison Break!",
+    "translate": "quest.narutorpg.mujina_bandits_arc_11"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mujina_bandits_arc_11.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: Executing the Prison Break!",
+        "translate": "quest.narutorpg.mujina_bandits_arc_11.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:benga_foe_boruto",
+      "text": {
+        "fallback": "Defeat Benga",
+        "translate": "quest.narutorpg.defeat.benga_foe_boruto"
+      }
+    }
+  ],
+  "order": 215110,
+  "outro": [
+    {
+      "fallback": "They need to keep moving to avoid Benga's hound.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_11.outro0"
+    },
+    {
+      "fallback": "Sarada is saved from the rising water by Kedama, who explains the location was part of his failed break out plan involving the spring tide, and that Benga is aware of theirs.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_11.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_10"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

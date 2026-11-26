@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:ino_yamanaka_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Mizuki Tracking Mission",
+    "translate": "quest.narutorpg.arc.mizuki_tracking_mission"
+  },
+  "description": {
+    "fallback": "Team 10 tells Naruto that they will take care of the brothers, and use their combined skills to immobilise them. Naruto leaves to catch up to Iruka, who is fighting Mizuki in a building used to test Academy instructors. It is revealed that Iruka and Mizuki are childhood friends, although Mizuki only hoped to get close to the Hokage.",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_04.desc"
+  },
+  "giver": "narutorpg:iruka_umino",
+  "intro": [
+    {
+      "fallback": "Team 10 tells Naruto that they will take care of the brothers, and use their combined skills to immobilise them.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_04.intro0"
+    },
+    {
+      "fallback": "Naruto leaves to catch up to Iruka, who is fighting Mizuki in a building used to test Academy instructors.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_04.intro1"
+    },
+    {
+      "fallback": "It is revealed that Iruka and Mizuki are childhood friends, although Mizuki only hoped to get close to the Hokage.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A New Formation: Ino–Shika–Chō!",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Talk to Iruka Umino",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: A New Formation: Ino–Shika–Chō!",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mizuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Mizuki",
+        "translate": "quest.narutorpg.defeat.mizuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 15203,
+  "outro": [
+    {
+      "fallback": "Meanwhile Ino, Shikamaru and Chōji form a new formation.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_04.outro0"
+    },
+    {
+      "fallback": "Mizuki sets exploding tags on the building and blows it up with Iruka inside.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:mizuki_tracking_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

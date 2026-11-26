@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Will of Fire",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_will_of_fire"
+  },
+  "description": {
+    "fallback": "The film concerns the potential outbreak of a Fourth Shinobi World War when ninja with kekkei genkai abilities begin to disappear from Kumogakure, Iwagakure, Kirigakure, and Sunagakure. Team Kakashi is sent on a mission to follow the tracks of the missing kekkei genkai-wielding ninja, which leads them to Mount Shumisen, located between the Land of Earth and Kusagakure. Sai, who is flying on his ink bird, is attacked...",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "The film concerns the potential outbreak of a Fourth Shinobi World War when ninja with kekkei genkai abilities begin to disappear from Kumogakure, Iwagakure, Kirigakure, and Sunagakure.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.intro0"
+    },
+    {
+      "fallback": "Team Kakashi is sent on a mission to follow the tracks of the missing kekkei genkai-wielding ninja, which leads them to Mount Shumisen, located between the Land of Earth and Kusagakure.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.intro1"
+    },
+    {
+      "fallback": "Sai, who is flying on his ink bird, is attacked by a bird which attacks with explosive tag-like feathers.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 1",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: Part 1",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301500,
+  "outro": [
+    {
+      "fallback": "Rumours circulate that they are preparing a rebellion.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.outro0"
+    },
+    {
+      "fallback": "With the other nations amassing troops at the Land of Fire's borders, threatening invasion, the Fire Daimyō orders Tsunade to apprehend those who are responsible and prove Konoha's innocence; in the event of failure...",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_01.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_06"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

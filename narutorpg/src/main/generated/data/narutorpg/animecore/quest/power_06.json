@@ -1,0 +1,102 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:yamato_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Power",
+    "translate": "quest.narutorpg.arc.power"
+  },
+  "description": {
+    "fallback": "Absorbing the power within the Ama no Hoko, the Nine-Tailed Naruto Clone mutated into a hydra-tailed version of the Nine-Tails while seemingly sending Disonasu to his death. Overpowered, Naruto almost gave in to the Nine-Tails' offer for power when Minato's voice urges the boy to control the tailed beast as Naruto is engulfed in a six-tailed chakra cloak in the Nine-Tails' image. Over time, as he starts to lose...",
+    "translate": "quest.narutorpg.power_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Absorbing the power within the Ama no Hoko, the Nine-Tailed Naruto Clone mutated into a hydra-tailed version of the Nine-Tails while seemingly sending Disonasu to his death.",
+      "translate": "quest.narutorpg.power_06.intro0"
+    },
+    {
+      "fallback": "Overpowered, Naruto almost gave in to the Nine-Tails' offer for power when Minato's voice urges the boy to control the tailed beast as Naruto is engulfed in a six-tailed chakra cloak in the Nine-Tails' image.",
+      "translate": "quest.narutorpg.power_06.intro1"
+    },
+    {
+      "fallback": "Over time, as he starts to lose against the clone, the Nine-Tails starts to take control over Naruto's body and assumes a seven-tailed jinchūriki state with Yamato trying to restrain it.",
+      "translate": "quest.narutorpg.power_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Power of the Family",
+    "translate": "quest.narutorpg.power_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.power_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 91,
+      "text": {
+        "fallback": "Head out: The Power of the Family",
+        "translate": "quest.narutorpg.power_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nine_tailed_naruto_clone_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nine-Tailed Naruto Clone",
+        "translate": "quest.narutorpg.defeat.nine_tailed_naruto_clone_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:disonasu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Disonasu",
+        "translate": "quest.narutorpg.defeat.disonasu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 130005,
+  "outro": [
+    {
+      "fallback": "The group's celebration coincides with Kabuto having Tonika Village Head executed Disonasu who revealed to survive Nine-Tailed Naruto Clone albeit severely crippled, killing him once and for all as well as allowing the...",
+      "translate": "quest.narutorpg.power_06.outro0"
+    },
+    {
+      "fallback": "As Naruto, Sai, and Sakura receive a letter and pictures sent by Dokku which reveals developments since the battle (Dokku and Shiseru's marriage and subsequent adoption of the orphans, Saezuri's resealing in the Hole...",
+      "translate": "quest.narutorpg.power_06.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:power_05"
+  ],
+  "rewards": {
+    "experience": 29,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

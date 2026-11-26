@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:acrobat",
+    "narutorpg:cloud_style_deception_beheading",
+    "narutorpg:continuous_tailed_beast_balls",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:disturbance_taijutsu",
+    "narutorpg:ink_clone_technique"
+  ],
+  "appearance": {
+    "accent": 7951688,
+    "eyes": 1118481,
+    "hair": 16119285,
+    "headband": 2503224,
+    "mark": "glasses",
+    "outfit": "jacket",
+    "top": 16448250
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Killer B",
+    "translate": "npc.narutorpg.killer_b"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

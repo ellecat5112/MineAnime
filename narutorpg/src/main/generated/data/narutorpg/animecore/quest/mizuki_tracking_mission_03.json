@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:shikamaru_nara_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Mizuki Tracking Mission",
+    "translate": "quest.narutorpg.arc.mizuki_tracking_mission"
+  },
+  "description": {
+    "fallback": "While Naruto has trouble with the Legendary Stupid Brothers, Iruka has his share of difficulties with Mizuki. Iruka struggles to try to get the old Mizuki back, but Mizuki explains the only reason he was ever nice to Iruka was because he wanted to be the Hokage's favourite too. He truly wanted Iruka to be miserable and be an outcast.",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_03.desc"
+  },
+  "giver": "narutorpg:iruka_umino",
+  "intro": [
+    {
+      "fallback": "While Naruto has trouble with the Legendary Stupid Brothers, Iruka has his share of difficulties with Mizuki.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_03.intro0"
+    },
+    {
+      "fallback": "Iruka struggles to try to get the old Mizuki back, but Mizuki explains the only reason he was ever nice to Iruka was because he wanted to be the Hokage's favourite too.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_03.intro1"
+    },
+    {
+      "fallback": "He truly wanted Iruka to be miserable and be an outcast.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A New Squad! Two People and a Dog?!",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Talk to Iruka Umino",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: A New Squad! Two People and a Dog?!",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mizuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Mizuki",
+        "translate": "quest.narutorpg.defeat.mizuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 15202,
+  "outro": [
+    {
+      "fallback": "The brothers accidentally destroy their lunch and make Naruto's attack hit his shadow clones.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_03.outro0"
+    },
+    {
+      "fallback": "As they prepare to kill him, Shikamaru, Chōji, and Ino come to the rescue.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:mizuki_tracking_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

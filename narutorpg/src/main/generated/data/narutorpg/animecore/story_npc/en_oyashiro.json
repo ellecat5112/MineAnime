@@ -1,0 +1,17 @@
+{
+  "appearance": {
+    "accent": 4545124,
+    "hair": 2503224,
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 1793568
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "En Oyashiro",
+    "translate": "npc.narutorpg.en_oyashiro"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

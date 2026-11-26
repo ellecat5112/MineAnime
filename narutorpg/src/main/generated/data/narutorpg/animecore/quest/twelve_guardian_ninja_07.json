@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shizune_ally_shippuden",
+    "narutorpg:fire_daimyo_part_i_ii_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "In Konoha, Tsunade is notified by Shizune that they have received a letter from the Fire Temple, stating that Team Yamato had been ambushed. Elsewhere in the village, Danzō Shimura is aware of the Anbu observing him at all times, placed under supervision by Tsunade herself. Near the Fire Temple, Fudō, with his Rock Armour, is seemingly invincible, avoiding all of Yamato's Wood Release and kunai equipped with...",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_07.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "In Konoha, Tsunade is notified by Shizune that they have received a letter from the Fire Temple, stating that Team Yamato had been ambushed.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_07.intro0"
+    },
+    {
+      "fallback": "Elsewhere in the village, Danzō Shimura is aware of the Anbu observing him at all times, placed under supervision by Tsunade herself.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_07.intro1"
+    },
+    {
+      "fallback": "Near the Fire Temple, Fudō, with his Rock Armour, is seemingly invincible, avoiding all of Yamato's Wood Release and kunai equipped with explosive tags.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Impermanence",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Impermanence",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106406,
+  "outro": [
+    {
+      "fallback": "He creates more shadow clones and praises Fūka's soft lips, although he adds that she won't be able to kiss him again.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_07.outro0"
+    },
+    {
+      "fallback": "Using Fire Release: Phoenix Sage Fire Technique, she burns and dispels of all his shadow clones.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_07.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_06"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

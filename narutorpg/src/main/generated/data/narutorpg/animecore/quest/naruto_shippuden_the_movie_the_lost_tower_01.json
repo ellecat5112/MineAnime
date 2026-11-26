@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:yamato_ally_movies",
+    "narutorpg:naruto_uzumaki_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Lost Tower",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_lost_tower"
+  },
+  "description": {
+    "fallback": "Yamato, Naruto Uzumaki, Sakura Haruno, and Sai are assigned on a mission to capture Mukade, a missing-nin. They all have Chakra Blades, which are used to attack. They set out for the once glorious historic ruins of Rōran, a city with once thousands of towers and is located in the middle of the desert.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Yamato, Naruto Uzumaki, Sakura Haruno, and Sai are assigned on a mission to capture Mukade, a missing-nin.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.intro0"
+    },
+    {
+      "fallback": "They all have Chakra Blades, which are used to attack.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.intro1"
+    },
+    {
+      "fallback": "They set out for the once glorious historic ruins of Rōran, a city with once thousands of towers and is located in the middle of the desert.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 1",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Part 1",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mukade_movie_foe_movies",
+      "text": {
+        "fallback": "Defeat Mukade (movie)",
+        "translate": "quest.narutorpg.defeat.mukade_movie_foe_movies"
+      }
+    }
+  ],
+  "order": 301600,
+  "outro": [
+    {
+      "fallback": "Naruto rescues her and then they introduce themselves to each other after Sāra mistakes him as a bad guy.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.outro0"
+    },
+    {
+      "fallback": "Naruto asks her whether there are people who are after her, the young queen immediately disagrees with it, saying that Naruto has seen for himself that the crowd was very happy to meet her.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_01.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_06"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

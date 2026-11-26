@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Having entered Sage Mode, Jiraiya faces Pain in battle with the help of Two Great Sage Toads. They ask why he would need their help, to which he responds he must kill a former pupil. Finding this significant, Two Great Sage Toads locate the chameleon Pain is hiding in and force him to show himself.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Having entered Sage Mode, Jiraiya faces Pain in battle with the help of Two Great Sage Toads.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.intro0"
+    },
+    {
+      "fallback": "They ask why he would need their help, to which he responds he must kill a former pupil.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.intro1"
+    },
+    {
+      "fallback": "Finding this significant, Two Great Sage Toads locate the chameleon Pain is hiding in and force him to show himself.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Child of the Prophecy!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: The Child of the Prophecy!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113715,
+  "outro": [
+    {
+      "fallback": "Seeing that Pain has taken the path to the world's destruction, they prepare for battle.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.outro0"
+    },
+    {
+      "fallback": "Pain also prepares by summoning two bodies.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_16.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_15"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

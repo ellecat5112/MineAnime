@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 16485376,
+    "eyes": 1118481,
+    "hair": 1118481,
+    "hair_style": "bowl",
+    "headband": 1981066,
+    "outfit": "bodysuit",
+    "pants": 3046706,
+    "top": 3046706
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Might Guy",
+    "translate": "npc.narutorpg.might_guy"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

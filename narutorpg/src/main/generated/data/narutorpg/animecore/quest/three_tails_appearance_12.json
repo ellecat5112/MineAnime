@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:kakashi_hatake_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "As the Three-Tails retreats, the wave from his rampage sends Naruto towards the land. Separated from the others, he finds himself covered by a mist that induces genjutsu. Within the illusion, he sees Orochimaru asking Naruto to stop interfering with his plans and proceeds to begin his Living Corpse Reincarnation technique in order to take over Sasuke's body.",
+    "translate": "quest.narutorpg.three_tails_appearance_12.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "As the Three-Tails retreats, the wave from his rampage sends Naruto towards the land.",
+      "translate": "quest.narutorpg.three_tails_appearance_12.intro0"
+    },
+    {
+      "fallback": "Separated from the others, he finds himself covered by a mist that induces genjutsu.",
+      "translate": "quest.narutorpg.three_tails_appearance_12.intro1"
+    },
+    {
+      "fallback": "Within the illusion, he sees Orochimaru asking Naruto to stop interfering with his plans and proceeds to begin his Living Corpse Reincarnation technique in order to take over Sasuke's body.",
+      "translate": "quest.narutorpg.three_tails_appearance_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Inside the Mist",
+    "translate": "quest.narutorpg.three_tails_appearance_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: Inside the Mist",
+        "translate": "quest.narutorpg.three_tails_appearance_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yukimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Yūkimaru",
+        "translate": "quest.narutorpg.defeat.yukimaru_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109911,
+  "outro": [
+    {
+      "fallback": "Believing that he is talking about Sasuke, Sakura comforts him by saying that they will never forget or give up on him and thus Konoha shall always be his home.",
+      "translate": "quest.narutorpg.three_tails_appearance_12.outro0"
+    },
+    {
+      "fallback": "As she walks off to resume patrol duty, Narut",
+      "translate": "quest.narutorpg.three_tails_appearance_12.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_11"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

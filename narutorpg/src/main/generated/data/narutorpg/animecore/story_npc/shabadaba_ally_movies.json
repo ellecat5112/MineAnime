@@ -1,0 +1,21 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "hair": 15913323,
+    "skin": 14724201,
+    "top": 7951688
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Shabadaba",
+    "translate": "npc.narutorpg.shabadaba"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

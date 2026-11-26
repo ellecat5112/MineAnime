@@ -1,0 +1,90 @@
+{
+  "arc": {
+    "fallback": "Byakuya Gang Arc",
+    "translate": "quest.narutorpg.arc.byakuya_gang_arc"
+  },
+  "description": {
+    "fallback": "Shikadai asks Ryōgi to snap out of it, and accuses Gekkō of manipulating him, who retorts that reality isn't simple, and accuses Shikadai of being naive in return. Boruto is unimpressed with Gekkō's reason, and strikes him with kunai, which Ryōgi blocks, breaking his mask. Shikadai asks Ryōgi why he protects Gekkō, and Ryōgi tells him of how Gekkō saved him.",
+    "translate": "quest.narutorpg.byakuya_gang_arc_05.desc"
+  },
+  "giver": "narutorpg:shikadai_nara",
+  "intro": [
+    {
+      "fallback": "Shikadai asks Ryōgi to snap out of it, and accuses Gekkō of manipulating him, who retorts that reality isn't simple, and accuses Shikadai of being naive in return.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_05.intro0"
+    },
+    {
+      "fallback": "Boruto is unimpressed with Gekkō's reason, and strikes him with kunai, which Ryōgi blocks, breaking his mask.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_05.intro1"
+    },
+    {
+      "fallback": "Shikadai asks Ryōgi why he protects Gekkō, and Ryōgi tells him of how Gekkō saved him.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Figure I Want to Be",
+    "translate": "quest.narutorpg.byakuya_gang_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikadai_nara",
+      "text": {
+        "fallback": "Talk to Shikadai Nara",
+        "translate": "quest.narutorpg.byakuya_gang_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: The Figure I Want to Be",
+        "translate": "quest.narutorpg.byakuya_gang_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gekko_foe_boruto",
+      "text": {
+        "fallback": "Defeat Gekkō",
+        "translate": "quest.narutorpg.defeat.gekko_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryogi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ryōgi",
+        "translate": "quest.narutorpg.defeat.ryogi_foe_boruto"
+      }
+    }
+  ],
+  "order": 205304,
+  "outro": [
+    {
+      "fallback": "Ryōgi answers it was an act to get closer to him.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_05.outro0"
+    },
+    {
+      "fallback": "Ryōgi's head hurts, and Gekkō orders him to trap Shikadai and Boruto with Ice Release.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:byakuya_gang_arc_04"
+  ],
+  "rewards": {
+    "experience": 37,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "As Naruto runs off to find Yūkimaru, Guren manages to spot him with her crystal ball and heads off to intercept him. Kiba, Akamaru and Sai arrive to relieve Sakura and Naruto of their patrol duty, only to find out that Naruto had gone AWOL. As Pakkun is busy leading Ino, Shizune, Rock Lee and Tenten to their location, Kakashi summons Bisuke, another ninken, and asks him to locate Naruto.",
+    "translate": "quest.narutorpg.three_tails_appearance_13.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Naruto runs off to find Yūkimaru, Guren manages to spot him with her crystal ball and heads off to intercept him.",
+      "translate": "quest.narutorpg.three_tails_appearance_13.intro0"
+    },
+    {
+      "fallback": "Kiba, Akamaru and Sai arrive to relieve Sakura and Naruto of their patrol duty, only to find out that Naruto had gone AWOL.",
+      "translate": "quest.narutorpg.three_tails_appearance_13.intro1"
+    },
+    {
+      "fallback": "As Pakkun is busy leading Ino, Shizune, Rock Lee and Tenten to their location, Kakashi summons Bisuke, another ninken, and asks him to locate Naruto.",
+      "translate": "quest.narutorpg.three_tails_appearance_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Everyone's Feelings",
+    "translate": "quest.narutorpg.three_tails_appearance_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.three_tails_appearance_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: Everyone's Feelings",
+        "translate": "quest.narutorpg.three_tails_appearance_13.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.three_tails_appearance_13.o3"
+      }
+    }
+  ],
+  "order": 109912,
+  "outro": [
+    {
+      "fallback": "As Pakkun is busy leading Ino, Shizune, Rock Lee and Tenten to their location, Kakashi summons Bisuke, another ninken, and asks him to locate Naruto.",
+      "translate": "quest.narutorpg.three_tails_appearance_13.outro0"
+    },
+    {
+      "fallback": "He then tasks Kiba, Hinata and Shino with surveillance of their perimeter while Sai and Sakura are to provide aerial reconnaissance, telling them not to go off on their own and to work together.",
+      "translate": "quest.narutorpg.three_tails_appearance_13.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_12"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

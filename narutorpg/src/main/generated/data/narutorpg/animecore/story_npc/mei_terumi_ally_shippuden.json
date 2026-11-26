@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "narutorpg:boil_release_skilled_mist_technique",
+    "narutorpg:earth_release_earth_wave_technique",
+    "narutorpg:lava_release_melting_apparition_technique",
+    "narutorpg:lightning_water_dragon_bullet",
+    "narutorpg:water_release_water_bullet_technique",
+    "narutorpg:hiding_in_mist_technique"
+  ],
+  "appearance": {
+    "hair": 4073251,
+    "hair_style": "long",
+    "headband": 3622735,
+    "outfit": "jacket",
+    "skin": 14724201
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Mei Terumī",
+    "translate": "npc.narutorpg.mei_terumi"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

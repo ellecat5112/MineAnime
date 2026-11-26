@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "narutorpg:acid_permeation",
+    "narutorpg:aqua_shoot",
+    "narutorpg:10_hit_combo"
+  ],
+  "appearance": {
+    "accent": 16757504,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "headband": 2503224,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 16448250
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Maroi",
+    "translate": "npc.narutorpg.maroi"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

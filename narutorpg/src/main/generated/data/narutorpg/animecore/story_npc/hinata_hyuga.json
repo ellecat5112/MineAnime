@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 6174129,
+    "eyes": 14802156,
+    "hair": 1973050,
+    "hair_style": "long",
+    "headband": 1981066,
+    "mark": "pale_eyes",
+    "outfit": "jacket",
+    "pants": 2635155,
+    "top": 13747433
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Hinata Hyūga",
+    "translate": "npc.narutorpg.hinata_hyuga"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

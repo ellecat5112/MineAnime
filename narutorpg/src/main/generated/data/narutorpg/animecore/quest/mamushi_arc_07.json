@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "Sai informs a unit nearby a group of Mamushi to stand down and watch for civilians. Boruto approaches the bickering Mamushi, seemingly conceding due to the overwhelming number of Mamushi and leads them to Ada. All the divided Mamushi gather together to follow Boruto.",
+    "translate": "quest.narutorpg.mamushi_arc_07.desc"
+  },
+  "giver": "narutorpg:sai",
+  "intro": [
+    {
+      "fallback": "Sai informs a unit nearby a group of Mamushi to stand down and watch for civilians.",
+      "translate": "quest.narutorpg.mamushi_arc_07.intro0"
+    },
+    {
+      "fallback": "Boruto approaches the bickering Mamushi, seemingly conceding due to the overwhelming number of Mamushi and leads them to Ada.",
+      "translate": "quest.narutorpg.mamushi_arc_07.intro1"
+    },
+    {
+      "fallback": "All the divided Mamushi gather together to follow Boruto.",
+      "translate": "quest.narutorpg.mamushi_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Dancing with the Devil",
+    "translate": "quest.narutorpg.mamushi_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sai",
+      "text": {
+        "fallback": "Talk to Sai",
+        "translate": "quest.narutorpg.mamushi_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: Dancing with the Devil",
+        "translate": "quest.narutorpg.mamushi_arc_07.travel"
+      }
+    },
+    {
+      "type": "use_ability",
+      "count": 3,
+      "text": {
+        "fallback": "Train: use 3 techniques",
+        "translate": "quest.narutorpg.train"
+      }
+    }
+  ],
+  "order": 303606,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_06"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:rain_of_spiders",
+    "narutorpg:spider_bind",
+    "narutorpg:spider_cocoon",
+    "narutorpg:spider_sticking_spit",
+    "narutorpg:spider_war_bow_terrible_split",
+    "narutorpg:armour_of_sticky_gold"
+  ],
+  "appearance": {
+    "accent": 8280002,
+    "eyes": 4431943,
+    "hair": 14737632,
+    "headband": 4854924,
+    "outfit": "bodysuit",
+    "pants": 3622735,
+    "skin": 14724201,
+    "top": 5127022
+  },
+  "attack": 5.7,
+  "cast_interval": 70,
+  "health": 84.0,
+  "name": {
+    "fallback": "Kidōmaru",
+    "translate": "npc.narutorpg.kidomaru"
+  },
+  "power": 1.26,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

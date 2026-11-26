@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:booby_trap",
+    "narutorpg:chakra_enhanced_strength",
+    "narutorpg:cherry_blossom_impact",
+    "narutorpg:chidori",
+    "narutorpg:chidori_current",
+    "narutorpg:boruto_stream"
+  ],
+  "appearance": {
+    "accent": 16448250,
+    "eyes": 1118481,
+    "hair": 1118481,
+    "headband": 1981066,
+    "mark": "glasses",
+    "pants": 1118481,
+    "top": 12986408
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "name": {
+    "fallback": "Sarada Uchiha",
+    "translate": "npc.narutorpg.sarada_uchiha"
+  },
+  "power": 2.32,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

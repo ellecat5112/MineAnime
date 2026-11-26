@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    "narutorpg:character_bind_technique",
+    "narutorpg:infinite_embrace",
+    "narutorpg:dragon_spying_technique"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "hair": 6111287,
+    "top": 6111287
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Shiranami",
+    "translate": "npc.narutorpg.shiranami"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

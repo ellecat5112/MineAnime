@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Pain's Assault",
+    "translate": "quest.narutorpg.arc.pain_s_assault"
+  },
+  "description": {
+    "fallback": "Killer B easily disarms Suigetsu Hōzuki, and defeats Jūgo with Suigetsu's own sword. Sasuke challenges him alone, and despite using his Mangekyō Sharingan, Killer B is able fatally injure Sasuke twice: first when he was stabbed multiple times by Killer B's swords, from which he was saved by sucking Karin's chakra, and later by a hit from a three-tailed Killer B's Lightning Release: Lariat, blowing open his chest...",
+    "translate": "quest.narutorpg.pain_s_assault_01.desc"
+  },
+  "giver": "narutorpg:killer_b",
+  "intro": [
+    {
+      "fallback": "Killer B easily disarms Suigetsu Hōzuki, and defeats Jūgo with Suigetsu's own sword.",
+      "translate": "quest.narutorpg.pain_s_assault_01.intro0"
+    },
+    {
+      "fallback": "Sasuke challenges him alone, and despite using his Mangekyō Sharingan, Killer B is able fatally injure Sasuke twice: first when he was stabbed multiple times by Killer B's swords, from which he was saved by sucking...",
+      "translate": "quest.narutorpg.pain_s_assault_01.intro1"
+    },
+    {
+      "fallback": "Annoyed, Killer B fully transformed into the Eight-Tails.",
+      "translate": "quest.narutorpg.pain_s_assault_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Taka vs. the Eight-Tails",
+    "translate": "quest.narutorpg.pain_s_assault_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:killer_b",
+      "text": {
+        "fallback": "Talk to Killer B",
+        "translate": "quest.narutorpg.pain_s_assault_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Taka vs. the Eight-Tails",
+        "translate": "quest.narutorpg.pain_s_assault_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:suigetsu_hozuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Suigetsu Hōzuki",
+        "translate": "quest.narutorpg.defeat.suigetsu_hozuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jugo_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Jūgo",
+        "translate": "quest.narutorpg.defeat.jugo_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 116200,
+  "outro": [
+    {
+      "fallback": "Killer B, still at the battlefield, climbs out of a tentacle at the bottom of the lake, relieved that Akatsuki \"kidnapped\" him and allowed him a chance to leave the village.",
+      "translate": "quest.narutorpg.pain_s_assault_01.outro0"
+    },
+    {
+      "fallback": "The Eight-Tails cautions that Akatsuki will still be pursuing him and asks why B used up nearly all his energy going all out, to which B responds he got carried away because Sasuke was one of the strongest opponents...",
+      "translate": "quest.narutorpg.pain_s_assault_01.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:fated_battle_between_brothers_04"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

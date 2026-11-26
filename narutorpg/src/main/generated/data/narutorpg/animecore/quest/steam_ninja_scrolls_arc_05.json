@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Steam Ninja Scrolls Arc",
+    "translate": "quest.narutorpg.arc.steam_ninja_scrolls_arc"
+  },
+  "description": {
+    "fallback": "Mirai is sceptical about Tatsumi's claim of a hot spring where when one can see the dead. Tatsumi says she came all this way to see her mother, sceptical at first as well, but she had to try. She asks if Mirai doesn't want to see her father.",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.desc"
+  },
+  "giver": "narutorpg:kurenai_yuhi",
+  "intro": [
+    {
+      "fallback": "Mirai is sceptical about Tatsumi's claim of a hot spring where when one can see the dead.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.intro0"
+    },
+    {
+      "fallback": "Tatsumi says she came all this way to see her mother, sceptical at first as well, but she had to try.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.intro1"
+    },
+    {
+      "fallback": "She asks if Mirai doesn't want to see her father.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Steam Ninja Scrolls: The Resurrection Hot Springs!",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kurenai_yuhi",
+      "text": {
+        "fallback": "Talk to Kurenai Yūhi",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 42,
+      "text": {
+        "fallback": "Go: The Steam Ninja Scrolls: The Resurrection Hot Springs!",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 211604,
+  "outro": [
+    {
+      "fallback": "Someone spies on them.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.outro0"
+    },
+    {
+      "fallback": "They arrive at a fork on the road, and the girl who spied on them approaches them, offering to take them to the hot spring, claiming to have been there herself and have met with her dead brother.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:steam_ninja_scrolls_arc_04"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 1118481,
+    "hair": 14737632,
+    "hair_style": "spiky",
+    "pants": 4073251,
+    "skin": 16767916,
+    "top": 6111287
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Haido",
+    "translate": "npc.narutorpg.haido"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:dance_of_the_crescent_moon",
+    "narutorpg:shadow_clone_technique"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "top": 2046559
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Hayate Gekkō",
+    "translate": "npc.narutorpg.hayate_gekko"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

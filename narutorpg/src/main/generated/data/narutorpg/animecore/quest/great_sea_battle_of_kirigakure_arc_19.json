@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:kagura_karatachi_ally_boruto",
+    "narutorpg:hebiichigo_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Misuno confirms Kagura's and Hebiichigo's deaths in action while repelling the detached Funato unit with Konoha's help to Chōjūrō. Chōjūrō is frustrated, having hoped that Kagura would be Mizukage one day, and is determined to wipe out the Funato clan. A messenger arrives with a top secret message from Isari.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.desc"
+  },
+  "giver": "narutorpg:misuno",
+  "intro": [
+    {
+      "fallback": "Misuno confirms Kagura's and Hebiichigo's deaths in action while repelling the detached Funato unit with Konoha's help to Chōjūrō.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.intro0"
+    },
+    {
+      "fallback": "Chōjūrō is frustrated, having hoped that Kagura would be Mizukage one day, and is determined to wipe out the Funato clan.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.intro1"
+    },
+    {
+      "fallback": "A messenger arrives with a top secret message from Isari.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Their Resolve",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:misuno",
+      "text": {
+        "fallback": "Talk to Misuno",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Their Resolve",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isari_funato_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isari Funato",
+        "translate": "quest.narutorpg.defeat.isari_funato_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:araumi_funato_foe_boruto",
+      "text": {
+        "fallback": "Defeat Araumi Funato",
+        "translate": "quest.narutorpg.defeat.araumi_funato_foe_boruto"
+      }
+    }
+  ],
+  "order": 224318,
+  "outro": [
+    {
+      "fallback": "Though tense and filled with posturing, Chōjūrō and Isari agree to talk, however, the Funato suddenly take over the airwaves, and Araumi addresses Chōjūrō and the daimyō, announcing an offensive with their main forces.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.outro0"
+    },
+    {
+      "fallback": "When Araumi says they'll crush anyone in their way, even if they're related, the Marlin Harpoon acts on its own and stabs Isari, killing him.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_19.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_18"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

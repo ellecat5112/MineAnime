@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Sasuke Shinden: Book of Sunrise",
+    "translate": "quest.narutorpg.arc.sasuke_shinden_book_of_sunrise"
+  },
+  "description": {
+    "fallback": "Sasuke uses the Sharingan to stop the exploding human. Orochimaru muses on Sasuke using it to save someone's life, while En Oyashiro watches him from afar, interested. More members of the audience start to display signs of being exploding humans.",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Sasuke uses the Sharingan to stop the exploding human.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.intro0"
+    },
+    {
+      "fallback": "Orochimaru muses on Sasuke using it to save someone's life, while En Oyashiro watches him from afar, interested.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.intro1"
+    },
+    {
+      "fallback": "More members of the audience start to display signs of being exploding humans.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Fūshin (episode)",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Fūshin (episode)",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:en_oyashiro",
+      "text": {
+        "fallback": "Meet En Oyashiro",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.o3"
+      }
+    }
+  ],
+  "order": 149402,
+  "outro": [
+    {
+      "fallback": "Sasuke dodges a chakra-enhanced knife thrown at him, that explodes when it hits the floor.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.outro0"
+    },
+    {
+      "fallback": "Sasuke begins following his assailant, but chooses to rescue Chino from an explosion instead.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_03.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:sasuke_shinden_book_of_sunrise_02"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Iruka welcomes a new class of Academy students. Naruto gives them a speech about what he hopes they learn. Among the new students are Himawari, her friends Ehō Norimaki and Yuina Itomaki, and Kawaki.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Iruka welcomes a new class of Academy students.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.intro0"
+    },
+    {
+      "fallback": "Naruto gives them a speech about what he hopes they learn.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.intro1"
+    },
+    {
+      "fallback": "Among the new students are Himawari, her friends Ehō Norimaki and Yuina Itomaki, and Kawaki.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kawaki Enters the Ninja Academy!",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Kawaki Enters the Ninja Academy!",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Meet Iruka Umino",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.o3"
+      }
+    }
+  ],
+  "order": 227100,
+  "outro": [
+    {
+      "fallback": "Most of them are scared of Kawaki, though Kae finds him interesting.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.outro0"
+    },
+    {
+      "fallback": "Eiki Fūma develops a crush on her, and Osuka is annoyed at not being the centre of attention.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

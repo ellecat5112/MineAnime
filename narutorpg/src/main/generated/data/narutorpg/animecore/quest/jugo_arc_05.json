@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Jūgo Arc",
+    "translate": "quest.narutorpg.arc.jugo_arc"
+  },
+  "description": {
+    "fallback": "Tosaka reveals the tranquilliser he used on them is what he stole from Jūgo. Sasami and Momo activate their cursed seals to fight Karin and Sarada, and Team 15 respectively. Tosaka tells Boruto and Suigetsu their friends won't be coming to save them.",
+    "translate": "quest.narutorpg.jugo_arc_05.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Tosaka reveals the tranquilliser he used on them is what he stole from Jūgo.",
+      "translate": "quest.narutorpg.jugo_arc_05.intro0"
+    },
+    {
+      "fallback": "Sasami and Momo activate their cursed seals to fight Karin and Sarada, and Team 15 respectively.",
+      "translate": "quest.narutorpg.jugo_arc_05.intro1"
+    },
+    {
+      "fallback": "Tosaka tells Boruto and Suigetsu their friends won't be coming to save them.",
+      "translate": "quest.narutorpg.jugo_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Melee!",
+    "translate": "quest.narutorpg.jugo_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.jugo_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Melee!",
+        "translate": "quest.narutorpg.jugo_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 210804,
+  "outro": [
+    {
+      "fallback": "Sumire protects them with a water wall, but a few rocks go through it.",
+      "translate": "quest.narutorpg.jugo_arc_05.outro0"
+    },
+    {
+      "fallback": "Momo criticises her split focus, and tells her to use her summon.",
+      "translate": "quest.narutorpg.jugo_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:jugo_arc_04"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

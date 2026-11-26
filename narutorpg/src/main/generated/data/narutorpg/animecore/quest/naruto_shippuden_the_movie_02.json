@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:taruho_ally_movies",
+    "narutorpg:neji_hyuga_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie"
+  },
+  "description": {
+    "fallback": "The team regroups, at which point Shion's death is revealed to be a ruse: the dead \"Shion\" was actually Taruho, who transformed into a copy of Shion to trick the enemy. Unable to hold back her grief, Shion explains the nature of her foresight: at the moment of her death, her spirit jumps back in time to warn those around her of the danger, allowing her to survive by having someone die in her place. After burying...",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The team regroups, at which point Shion's death is revealed to be a ruse: the dead \"Shion\" was actually Taruho, who transformed into a copy of Shion to trick the enemy.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.intro0"
+    },
+    {
+      "fallback": "Unable to hold back her grief, Shion explains the nature of her foresight: at the moment of her death, her spirit jumps back in time to warn those around her of the danger, allowing her to survive by having someone die...",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.intro1"
+    },
+    {
+      "fallback": "After burying Taruho, Naruto vows to keep Shion safe.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Part 2",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shion_foe_movies",
+      "text": {
+        "fallback": "Defeat Shion",
+        "translate": "quest.narutorpg.defeat.shion_foe_movies"
+      }
+    }
+  ],
+  "order": 301301,
+  "outro": [
+    {
+      "fallback": "Naruto is tasked with taking Shion the rest of the way, while Sakura and Lee trick the assassins into wasting their chakra on futile attacks.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.outro0"
+    },
+    {
+      "fallback": "When they run out of chakra, Neji disables the ninja supplying it, leaving the other two powerless against Lee and Sakura.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

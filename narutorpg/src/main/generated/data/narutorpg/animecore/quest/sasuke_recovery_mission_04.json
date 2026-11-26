@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:kiba_inuzuka_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "Shikamaru was matched up with Tayuya, while Kiba and Akamaru were with Sakon and Ukon. Kiba and Akamaru did an amazing tag team on Sakon, but Sakon split with Ukon right before Kiba and Akamaru could lay a devastating blow. Sakon and Ukon activated their Cursed Seal to Level Two, which made them far too powerful for Kiba and Akamaru to cope with.",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_04.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Shikamaru was matched up with Tayuya, while Kiba and Akamaru were with Sakon and Ukon.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_04.intro0"
+    },
+    {
+      "fallback": "Kiba and Akamaru did an amazing tag team on Sakon, but Sakon split with Ukon right before Kiba and Akamaru could lay a devastating blow.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_04.intro1"
+    },
+    {
+      "fallback": "Sakon and Ukon activated their Cursed Seal to Level Two, which made them far too powerful for Kiba and Akamaru to cope with.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kiba and Akamaru vs. Sakon and Ukon/Shikamaru vs. Tayuya",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Kiba and Akamaru vs. Sakon and Ukon/Shikamaru vs. Tayuya",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tayuya_foe_naruto",
+      "text": {
+        "fallback": "Defeat Tayuya",
+        "translate": "quest.narutorpg.defeat.tayuya_foe_naruto"
+      }
+    }
+  ],
+  "order": 11703,
+  "outro": [
+    {
+      "fallback": "Finally, Shikamaru and Kiba were ready to accept their deaths.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_04.outro0"
+    },
+    {
+      "fallback": "However, before the finishing strikes could be executed, the Sand ninja arrived to help.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

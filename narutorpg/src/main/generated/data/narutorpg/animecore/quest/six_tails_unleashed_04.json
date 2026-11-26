@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sai_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Six-Tails Unleashed",
+    "translate": "quest.narutorpg.arc.six_tails_unleashed"
+  },
+  "description": {
+    "fallback": "Naruto, Sai and Yamato attempt to attack the Kiri hunter-nin, who use their Secret Technique: Mist Rain to absorb the chakra from Naruto's Rasengan while using Water Release: Water Whip to destroy Sai's ink beasts. Their clash is interrupted by Tsurugi, the commander of the hunter-nin's unit. Since Team 7 refuses to hand over Utakata in exchange for Hotaru, Tsurugi offers a counter-proposal — Utakata would be...",
+    "translate": "quest.narutorpg.six_tails_unleashed_04.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Naruto, Sai and Yamato attempt to attack the Kiri hunter-nin, who use their Secret Technique: Mist Rain to absorb the chakra from Naruto's Rasengan while using Water Release: Water Whip to destroy Sai's ink beasts.",
+      "translate": "quest.narutorpg.six_tails_unleashed_04.intro0"
+    },
+    {
+      "fallback": "Their clash is interrupted by Tsurugi, the commander of the hunter-nin's unit.",
+      "translate": "quest.narutorpg.six_tails_unleashed_04.intro1"
+    },
+    {
+      "fallback": "Since Team 7 refuses to hand over Utakata in exchange for Hotaru, Tsurugi offers a counter-proposal — Utakata would be allowed to stay with Hotaru until Team 7's mission is done, at which point Team 7 is to relinquish...",
+      "translate": "quest.narutorpg.six_tails_unleashed_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Rogue Ninja's Past",
+    "translate": "quest.narutorpg.six_tails_unleashed_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.six_tails_unleashed_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Rogue Ninja's Past",
+        "translate": "quest.narutorpg.six_tails_unleashed_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:utakata_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Utakata",
+        "translate": "quest.narutorpg.defeat.utakata_foe_shippuden"
+      }
+    }
+  ],
+  "order": 115403,
+  "outro": [
+    {
+      "fallback": "Utakata reveals that the scar is the Tsuchigumo clan's forbidden technique, which was engraved on to her.",
+      "translate": "quest.narutorpg.six_tails_unleashed_04.outro0"
+    },
+    {
+      "fallback": "Filled with rage, Utakata declares that he has no care for those who merely use people as tools or vessels with no regard for their welfare.",
+      "translate": "quest.narutorpg.six_tails_unleashed_04.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:six_tails_unleashed_03"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

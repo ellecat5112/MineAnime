@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:water_release_water_dragon_bullet_technique",
+    "narutorpg:hiding_in_mist_technique"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 4431943,
+    "hair": 10395294,
+    "headband": 3622735,
+    "outfit": "cloak",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 1052692
+  },
+  "attack": 12.4,
+  "cast_interval": 40,
+  "health": 418.0,
+  "name": {
+    "fallback": "Jūzō Biwa",
+    "translate": "npc.narutorpg.juzo_biwa"
+  },
+  "power": 1.86,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

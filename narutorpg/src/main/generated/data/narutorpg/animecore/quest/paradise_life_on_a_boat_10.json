@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "At a meeting held by the Hyūga clan regarding the impending war, Neji is appointed as the commander of the clan on the frontlines by Hiashi which shocked some of the members, who favoured Hinata as their leader. Hinata later meets with Kurenai where she is told by Shikamaru that he and quite a few of the other members of the Konoha 11 had seen Naruto since he left the village and that Tsunade was looking for her....",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_10.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "At a meeting held by the Hyūga clan regarding the impending war, Neji is appointed as the commander of the clan on the frontlines by Hiashi which shocked some of the members, who favoured Hinata as their leader.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_10.intro0"
+    },
+    {
+      "fallback": "Hinata later meets with Kurenai where she is told by Shikamaru that he and quite a few of the other members of the Konoha 11 had seen Naruto since he left the village and that Tsunade was looking for her.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_10.intro1"
+    },
+    {
+      "fallback": "Hopeful that Tsunade had in fact requested her to go on a mission so she could see Naruto she goes in search of her only to be disappointed.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Girls' Get-Together",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 41,
+      "text": {
+        "fallback": "Go: The Girls' Get-Together",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_10.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:neji_hyuga",
+      "text": {
+        "fallback": "Meet Neji Hyūga",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_10.o3"
+      }
+    }
+  ],
+  "order": 123309,
+  "outro": [
+    {
+      "fallback": "Tsunade attempts to apologise for how she dismissed Hinata earlier but Hinata tells her it was fine as she knew what she had to do.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_10.outro0"
+    },
+    {
+      "fallback": "The next day during her training with Neji she tells him that she bore no ill will towards him for her father's decision and that he was the right person to lead them in the war.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_10.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_09"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

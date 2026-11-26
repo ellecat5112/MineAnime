@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Boruto's Return Arc",
+    "translate": "quest.narutorpg.arc.boruto_s_return_arc"
+  },
+  "description": {
+    "fallback": "Shikamaru has a meeting with Koharu and Homura, who question him about Boruto's return. Shikamaru has no idea on his motives, but points out that Boruto was essential to drive Code back. Homura opines that Boruto should still be eliminated, to restore Konoha's honour over the attempt on Kawaki, and to placate the daimyō, who are responsible for determining the village's budget.",
+    "translate": "quest.narutorpg.boruto_s_return_arc_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Shikamaru has a meeting with Koharu and Homura, who question him about Boruto's return.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_06.intro0"
+    },
+    {
+      "fallback": "Shikamaru has no idea on his motives, but points out that Boruto was essential to drive Code back.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_06.intro1"
+    },
+    {
+      "fallback": "Homura opines that Boruto should still be eliminated, to restore Konoha's honour over the attempt on Kawaki, and to placate the daimyō, who are responsible for determining the village's budget.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Three Years",
+    "translate": "quest.narutorpg.boruto_s_return_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_s_return_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Three Years",
+        "translate": "quest.narutorpg.boruto_s_return_arc_06.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Meet Shikamaru Nara",
+        "translate": "quest.narutorpg.boruto_s_return_arc_06.o3"
+      }
+    }
+  ],
+  "order": 301105,
+  "outro": [
+    {
+      "fallback": "He has a request for her.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_06.outro0"
+    },
+    {
+      "fallback": "Ada informs Kawaki on the development of the sentient God Trees, including that one of them is after Naruto.",
+      "translate": "quest.narutorpg.boruto_s_return_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:boruto_s_return_arc_05"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Boruto: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.boruto_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "When Boruto learns that Naruto sent a shadow clone as a stand-in for Himawari's birthday party, Boruto lashes out at his mother as she tries to tell him that Naruto's job as Hokage is very difficult but is important for the village. Boruto further retorts that Naruto must have been lucky to have experienced the joy of having no parents, which upsets Hinata and she tells him that unlike Naruto, Boruto does have a...",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "When Boruto learns that Naruto sent a shadow clone as a stand-in for Himawari's birthday party, Boruto lashes out at his mother as she tries to tell him that Naruto's job as Hokage is very difficult but is important for...",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_03.intro0"
+    },
+    {
+      "fallback": "Boruto further retorts that Naruto must have been lucky to have experienced the joy of having no parents, which upsets Hinata and she tells him that unlike Naruto, Boruto does have a father here.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_03.intro1"
+    },
+    {
+      "fallback": "Boruto, however, replies, its not about him but Himawari before he walks away.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Deprivation",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Deprivation",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 302002,
+  "outro": [
+    {
+      "fallback": "Boruto then goes to Konohamaru in the middle of the night to ask him to teach him how to perform the Rasengan, and Konohamaru agrees due to his belief it would be an honour.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_03.outro0"
+    },
+    {
+      "fallback": "Boruto, however, is dismayed",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_03.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:boruto_naruto_the_movie_02"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

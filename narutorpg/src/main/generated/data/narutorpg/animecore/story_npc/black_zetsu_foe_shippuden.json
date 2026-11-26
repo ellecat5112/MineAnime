@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:all_killing_ash_bones",
+    "narutorpg:black_receiver",
+    "narutorpg:possession",
+    "narutorpg:sea_of_trees_erosion",
+    "narutorpg:temporary_paralysis_technique",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "hair": 14737632,
+    "mark": "rinnegan",
+    "outfit": "cloak",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 1052692
+  },
+  "attack": 11.2,
+  "cast_interval": 40,
+  "health": 374.0,
+  "name": {
+    "fallback": "Black Zetsu",
+    "translate": "npc.narutorpg.black_zetsu"
+  },
+  "power": 1.74,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

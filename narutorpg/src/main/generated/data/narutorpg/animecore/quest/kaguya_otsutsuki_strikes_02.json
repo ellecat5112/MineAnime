@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_shippuden",
+    "narutorpg:sakura_haruno_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kaguya Ōtsutsuki Strikes",
+    "translate": "quest.narutorpg.arc.kaguya_otsutsuki_strikes"
+  },
+  "description": {
+    "fallback": "Naruto tries to pry open the portal with his brute strength, but it is futile, and he is separated from Sasuke. Meanwhile, the four Hokage convene at the location where Kaguya was revived, and find nothing but Madara's lower half. Minato explains that he tried to free those trapped within the Infinite Tsukuyomi, but despite all his attempts, they would not wake up.",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto tries to pry open the portal with his brute strength, but it is futile, and he is separated from Sasuke.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.intro0"
+    },
+    {
+      "fallback": "Meanwhile, the four Hokage convene at the location where Kaguya was revived, and find nothing but Madara's lower half.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.intro1"
+    },
+    {
+      "fallback": "Minato explains that he tried to free those trapped within the Infinite Tsukuyomi, but despite all his attempts, they would not wake up.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Search & Sacrifice",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Search & Sacrifice",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:black_zetsu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Black Zetsu",
+        "translate": "quest.narutorpg.defeat.black_zetsu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kaguya_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kaguya Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.kaguya_otsutsuki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146101,
+  "outro": [
+    {
+      "fallback": "Though hesitant at first, Kaguya complies and uses her All-Killing Ash Bones technique to impale Naruto, and disintegrate his body.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.outro0"
+    },
+    {
+      "fallback": "Kaguya returns to her ice dimension, and is surprised when she notices all of Naruto's sh",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_02.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:kaguya_otsutsuki_strikes_01"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Ao Arc",
+    "translate": "quest.narutorpg.arc.ao_arc"
+  },
+  "description": {
+    "fallback": "At Kara's base, Amado reveals to Code and Delta of Victor's treachery and death. In the meantime, Team 7 and Katasuke arrive at the research facility, where they are greeted by Akita Inuzuka, Nue, and Sumire. As Akita shares excitement over testing Katasuke's prototype, Boruto remains unconvinced of the value of scientific ninja tools.",
+    "translate": "quest.narutorpg.ao_arc_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "At Kara's base, Amado reveals to Code and Delta of Victor's treachery and death.",
+      "translate": "quest.narutorpg.ao_arc_02.intro0"
+    },
+    {
+      "fallback": "In the meantime, Team 7 and Katasuke arrive at the research facility, where they are greeted by Akita Inuzuka, Nue, and Sumire.",
+      "translate": "quest.narutorpg.ao_arc_02.intro1"
+    },
+    {
+      "fallback": "As Akita shares excitement over testing Katasuke's prototype, Boruto remains unconvinced of the value of scientific ninja tools.",
+      "translate": "quest.narutorpg.ao_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A New Mission",
+    "translate": "quest.narutorpg.ao_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.ao_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: A New Mission",
+        "translate": "quest.narutorpg.ao_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 218801,
+  "outro": [
+    {
+      "fallback": "Katasuke steps forward and creates an absorption sphere using his prototype arm to absorb all the attacks to the point where the puppets overheat and temporarily shut down from continuous firing.",
+      "translate": "quest.narutorpg.ao_arc_02.outro0"
+    },
+    {
+      "fallback": "While instructing Team 7 to destroy the puppet's power supplies, Katasuke shares guilt upon learning by Ibiki that he may have leaked intel while under a genjutsu.",
+      "translate": "quest.narutorpg.ao_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:ao_arc_01"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

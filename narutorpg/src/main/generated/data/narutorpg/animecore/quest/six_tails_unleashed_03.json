@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:tsuchigumo_chief_ally_shippuden",
+    "narutorpg:nango_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Six-Tails Unleashed",
+    "translate": "quest.narutorpg.arc.six_tails_unleashed"
+  },
+  "description": {
+    "fallback": "In the Tsuchigumo clan's village, Hotaru notices the stares and glares being given to her by the villagers. She asks her uncle, the Tsuchigumo Chief, if she should have returned, and he reassures her that it is alright as the village is her home. He leaders her to a small room, telling her to stay in there.",
+    "translate": "quest.narutorpg.six_tails_unleashed_03.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "In the Tsuchigumo clan's village, Hotaru notices the stares and glares being given to her by the villagers.",
+      "translate": "quest.narutorpg.six_tails_unleashed_03.intro0"
+    },
+    {
+      "fallback": "She asks her uncle, the Tsuchigumo Chief, if she should have returned, and he reassures her that it is alright as the village is her home.",
+      "translate": "quest.narutorpg.six_tails_unleashed_03.intro1"
+    },
+    {
+      "fallback": "He leaders her to a small room, telling her to stay in there.",
+      "translate": "quest.narutorpg.six_tails_unleashed_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Successor's Wish",
+    "translate": "quest.narutorpg.six_tails_unleashed_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.six_tails_unleashed_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: The Successor's Wish",
+        "translate": "quest.narutorpg.six_tails_unleashed_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shiranami_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Shiranami",
+        "translate": "quest.narutorpg.defeat.shiranami_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hotaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hotaru",
+        "translate": "quest.narutorpg.defeat.hotaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:utakata_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Utakata",
+        "translate": "quest.narutorpg.defeat.utakata_foe_shippuden"
+      }
+    }
+  ],
+  "order": 115402,
+  "outro": [
+    {
+      "fallback": "Utakata, having been assaulted by his own master, cannot understand the student-master bond that Hotaru feels.",
+      "translate": "quest.narutorpg.six_tails_unleashed_03.outro0"
+    },
+    {
+      "fallback": "Hotaru proceeds to remove h",
+      "translate": "quest.narutorpg.six_tails_unleashed_03.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:six_tails_unleashed_02"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

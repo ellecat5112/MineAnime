@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:anko_mitarashi_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Chūnin Exams",
+    "translate": "quest.narutorpg.arc.chunin_exams"
+  },
+  "description": {
+    "fallback": "The second part of the exam (proctored by Anko Mitarashi) was a survival exam in the Forty-Fourth Training Ground, also known as \"The Forest of Death\". During this part, Naruto found himself in a desperate situation against Orochimaru, an S-rank missing-nin from Konoha so powerful that the Third Hokage later mentioned that there was nobody in Konoha that could fight him equally. It turned out that Orochimaru used to...",
+    "translate": "quest.narutorpg.chunin_exams_03.desc"
+  },
+  "giver": "narutorpg:hiruzen_sarutobi",
+  "intro": [
+    {
+      "fallback": "The second part of the exam (proctored by Anko Mitarashi) was a survival exam in the Forty-Fourth Training Ground, also known as \"The Forest of Death\".",
+      "translate": "quest.narutorpg.chunin_exams_03.intro0"
+    },
+    {
+      "fallback": "During this part, Naruto found himself in a desperate situation against Orochimaru, an S-rank missing-nin from Konoha so powerful that the Third Hokage later mentioned that there was nobody in Konoha that could fight...",
+      "translate": "quest.narutorpg.chunin_exams_03.intro1"
+    },
+    {
+      "fallback": "It turned out that Orochimaru used to be one of the Third Hokage's pupils, also known as the Sannin.",
+      "translate": "quest.narutorpg.chunin_exams_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Second Phase",
+    "translate": "quest.narutorpg.chunin_exams_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:hiruzen_sarutobi",
+      "text": {
+        "fallback": "Talk to Hiruzen Sarutobi",
+        "translate": "quest.narutorpg.chunin_exams_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Second Phase",
+        "translate": "quest.narutorpg.chunin_exams_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+      }
+    }
+  ],
+  "order": 3002,
+  "outro": [
+    {
+      "fallback": "As Kin Tsuchi of Team Dosu trapped her by roughly holding her by her hair, Sakura realised how pathetic her behaviour was, always blindly praising and criticising others, when she was the one who hadn't improved at all.",
+      "translate": "quest.narutorpg.chunin_exams_03.outro0"
+    },
+    {
+      "fallback": "She reflected on herself, thinking how she was always telling Naruto that she was better than him, when he had been the one who was consistently improving, and telling Sasuke she loved him when she couldn't even muste",
+      "translate": "quest.narutorpg.chunin_exams_03.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:chunin_exams_02"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

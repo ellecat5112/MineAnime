@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Graduation Exams Arc",
+    "translate": "quest.narutorpg.arc.graduation_exams_arc"
+  },
+  "description": {
+    "fallback": "During a parent teacher conference, Shino informs Hinata that despite the occasional lack of commitment with classes, Boruto's performance is exceptional. When asked what type of shinobi he wants to be, he concerns them with a lack of interest in anything in particular, and confident he will figure something out by graduation. Shino shares his concerns about Boruto with Anko.",
+    "translate": "quest.narutorpg.graduation_exams_arc_02.desc"
+  },
+  "giver": "narutorpg:shino_aburame",
+  "intro": [
+    {
+      "fallback": "During a parent teacher conference, Shino informs Hinata that despite the occasional lack of commitment with classes, Boruto's performance is exceptional.",
+      "translate": "quest.narutorpg.graduation_exams_arc_02.intro0"
+    },
+    {
+      "fallback": "When asked what type of shinobi he wants to be, he concerns them with a lack of interest in anything in particular, and confident he will figure something out by graduation.",
+      "translate": "quest.narutorpg.graduation_exams_arc_02.intro1"
+    },
+    {
+      "fallback": "Shino shares his concerns about Boruto with Anko.",
+      "translate": "quest.narutorpg.graduation_exams_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Parent Teacher Conference!",
+    "translate": "quest.narutorpg.graduation_exams_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Talk to Shino Aburame",
+        "translate": "quest.narutorpg.graduation_exams_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Go: The Parent Teacher Conference!",
+        "translate": "quest.narutorpg.graduation_exams_arc_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:hinata_hyuga",
+      "text": {
+        "fallback": "Meet Hinata Hyūga",
+        "translate": "quest.narutorpg.graduation_exams_arc_02.o3"
+      }
+    }
+  ],
+  "order": 204401,
+  "outro": [
+    {
+      "fallback": "They discuss the structure of the graduation exams, proctors, and past exams.",
+      "translate": "quest.narutorpg.graduation_exams_arc_02.outro0"
+    },
+    {
+      "fallback": "After class, Boruto is approached by Sukea, who is writing a story about graduating students.",
+      "translate": "quest.narutorpg.graduation_exams_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:graduation_exams_arc_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

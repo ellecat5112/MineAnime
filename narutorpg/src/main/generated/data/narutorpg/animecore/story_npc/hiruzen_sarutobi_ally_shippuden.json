@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_double_suicide_decapitation_technique",
+    "narutorpg:earth_release_earth_dragon_bullet",
+    "narutorpg:earth_release_earth_flow_river",
+    "narutorpg:fire_release_fire_dragon_bullet",
+    "narutorpg:fire_release_fire_dragon_flame_bullet",
+    "narutorpg:adamantine_prison_wall"
+  ],
+  "appearance": {
+    "accent": 12986408,
+    "eyes": 4073251,
+    "hair": 10395294,
+    "outfit": "robe",
+    "pants": 3622735,
+    "top": 16448250
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Hiruzen Sarutobi",
+    "translate": "npc.narutorpg.hiruzen_sarutobi"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

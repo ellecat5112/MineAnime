@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Buried Gold Excavation Mission",
+    "translate": "quest.narutorpg.arc.buried_gold_excavation_mission"
+  },
+  "description": {
+    "fallback": "Working together, the group escapes from the cave-in with the treasure, but learns that Hinata injured her leg. After realising that Naruto and Kiba argue too often while Hinata worries for the others too much, they head into the town to stop their copies. The group outwits and defeats their copies except Naruto, who uses Nine-Tails' chakra fuelled shadow clones to defeat his copy, because his copy was running up a...",
+    "translate": "quest.narutorpg.buried_gold_excavation_mission_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Working together, the group escapes from the cave-in with the treasure, but learns that Hinata injured her leg.",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_02.intro0"
+    },
+    {
+      "fallback": "After realising that Naruto and Kiba argue too often while Hinata worries for the others too much, they head into the town to stop their copies.",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_02.intro1"
+    },
+    {
+      "fallback": "The group outwits and defeats their copies except Naruto, who uses Nine-Tails' chakra fuelled shadow clones to defeat his copy, because his copy was running up a huge debt under his name, and ate all his food (including...",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Run, Dodge, Zigzag! Chase or Be Chased!",
+    "translate": "quest.narutorpg.buried_gold_excavation_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.buried_gold_excavation_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Run, Dodge, Zigzag! Chase or Be Chased!",
+        "translate": "quest.narutorpg.buried_gold_excavation_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 18501,
+  "outro": [
+    {
+      "fallback": "Naruto, Kiba, and Hinata learn that the mission was a test to see if they could work together as a team, and that they passed it.",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_02.outro0"
+    },
+    {
+      "fallback": "Tsunade becomes upset when the \"treasure\" turns out to be a bill for services.",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:buried_gold_excavation_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

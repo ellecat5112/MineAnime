@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 2001125,
+    "hair": 12986408,
+    "hair_style": "spiky",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 2503224
+  },
+  "attack": 12.0,
+  "health": 172.0,
+  "name": {
+    "fallback": "Tenzō (Iburi Clan)",
+    "translate": "npc.narutorpg.tenzo_iburi_clan"
+  },
+  "power": 1.96,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

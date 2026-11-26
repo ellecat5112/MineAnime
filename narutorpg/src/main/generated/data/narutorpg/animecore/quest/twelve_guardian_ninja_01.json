@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto has a nightmare about his Version 2 form wreaking havoc, causing him to wake up and question his dream. Sai is in the Konoha Library reading books on how to create and forge friendships. Sakura spots him in the library and invites him to come with her and Naruto to visit Kakashi at the Konoha Hospital, stating that as a member of Team Kakashi, he should meet their leader.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto has a nightmare about his Version 2 form wreaking havoc, causing him to wake up and question his dream.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_01.intro0"
+    },
+    {
+      "fallback": "Sai is in the Konoha Library reading books on how to create and forge friendships.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_01.intro1"
+    },
+    {
+      "fallback": "Sakura spots him in the library and invites him to come with her and Naruto to visit Kakashi at the Konoha Hospital, stating that as a member of Team Kakashi, he should meet their leader.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Nightmare",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Nightmare",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_01.o3"
+      }
+    }
+  ],
+  "order": 106400,
+  "outro": [
+    {
+      "fallback": "Wanting to create nicknames for the two, Sai is unable to find the correct words and is told by Sakura to use personality traits as a basis.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_01.outro0"
+    },
+    {
+      "fallback": "After checking Sakura out, which causes her to blush, he smiles and calls her ugly; Naruto attempts to restrain her, but she proceeds to beat both him and Sai up.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:tenchi_bridge_reconnaissance_mission_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

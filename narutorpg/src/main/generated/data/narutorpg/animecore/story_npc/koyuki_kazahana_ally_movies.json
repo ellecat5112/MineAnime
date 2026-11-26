@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 2503224,
+    "eyes": 1118481,
+    "hair": 14737632,
+    "hair_style": "long",
+    "headband": 9479342,
+    "top": 7162945
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Koyuki Kazahana",
+    "translate": "npc.narutorpg.koyuki_kazahana"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

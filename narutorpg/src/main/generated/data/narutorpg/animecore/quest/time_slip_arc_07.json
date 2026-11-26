@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_boruto",
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Time Slip Arc",
+    "translate": "quest.narutorpg.arc.time_slip_arc"
+  },
+  "description": {
+    "fallback": "Boruto and Naruto continue attacking Urashiki in vain. Sakura watches them from afar. Sasuke tries to buy them some time, and tells Boruto to run away with Naruto.",
+    "translate": "quest.narutorpg.time_slip_arc_07.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto and Naruto continue attacking Urashiki in vain.",
+      "translate": "quest.narutorpg.time_slip_arc_07.intro0"
+    },
+    {
+      "fallback": "Sakura watches them from afar.",
+      "translate": "quest.narutorpg.time_slip_arc_07.intro1"
+    },
+    {
+      "fallback": "Sasuke tries to buy them some time, and tells Boruto to run away with Naruto.",
+      "translate": "quest.narutorpg.time_slip_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Power to See the Future",
+    "translate": "quest.narutorpg.time_slip_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.time_slip_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 99,
+      "text": {
+        "fallback": "Head out: The Power to See the Future",
+        "translate": "quest.narutorpg.time_slip_arc_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213806,
+  "outro": [
+    {
+      "fallback": "They attack with explosive tag kunai, and wired kunai to bind to a tree, but he just vanishes out of them.",
+      "translate": "quest.narutorpg.time_slip_arc_07.outro0"
+    },
+    {
+      "fallback": "Urashiki counters Boruto's attack from a blindspot, and gets some of his blood on him.",
+      "translate": "quest.narutorpg.time_slip_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:time_slip_arc_06"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

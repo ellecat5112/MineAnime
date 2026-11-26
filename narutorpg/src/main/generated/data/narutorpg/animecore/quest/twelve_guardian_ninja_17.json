@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:asuma_sarutobi_ally_shippuden",
+    "narutorpg:sora_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "As Asuma and Kazuma continue their bout, Sora continues to fight against the Konoha shinobi in his three-tailed form. Naruto attempts to stop him, but the anger and hatred of the Nine-Tailed Fox's chakra sealed within Sora resonates with the real fox sealed inside Naruto, causing Naruto to instantly transform into his one-tailed form. Yamato attempts to use his Hokage-Style Sixty-Year-Old Technique — Kakuan Entering...",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_17.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "As Asuma and Kazuma continue their bout, Sora continues to fight against the Konoha shinobi in his three-tailed form.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_17.intro0"
+    },
+    {
+      "fallback": "Naruto attempts to stop him, but the anger and hatred of the Nine-Tailed Fox's chakra sealed within Sora resonates with the real fox sealed inside Naruto, causing Naruto to instantly transform into his one-tailed form.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_17.intro1"
+    },
+    {
+      "fallback": "Yamato attempts to use his Hokage-Style Sixty-Year-Old Technique — Kakuan Entering Society with Bliss-Bringing Hands to suppress Naruto's transformation, but to no avail, as it is Sora's chakra that is causing Naruto's...",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_17.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Resonance (episode)",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_17"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_17.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Resonance (episode)",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_17.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kazuma_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kazuma",
+        "translate": "quest.narutorpg.defeat.kazuma_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106416,
+  "outro": [
+    {
+      "fallback": "The sight of Naruto stabbing himself awakens a part of Sora inside his four-tailed form, where he contemplates on his being alone, watched on by adults who despise him.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_17.outro0"
+    },
+    {
+      "fallback": "He then hears the sound of Naruto's voice calling out to him.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_17.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_16"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

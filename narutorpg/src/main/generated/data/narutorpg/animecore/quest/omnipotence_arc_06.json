@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Team 7 arrives at the Hokage's office, wondering what their mission might be since they've been out of action for so long. Mitsuki points out if would be the debut of the team since Kawaki joined. Shikamaru, Kawaki, Sumire, and Konohamaru are in the office.",
+    "translate": "quest.narutorpg.omnipotence_arc_06.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Team 7 arrives at the Hokage's office, wondering what their mission might be since they've been out of action for so long.",
+      "translate": "quest.narutorpg.omnipotence_arc_06.intro0"
+    },
+    {
+      "fallback": "Mitsuki points out if would be the debut of the team since Kawaki joined.",
+      "translate": "quest.narutorpg.omnipotence_arc_06.intro1"
+    },
+    {
+      "fallback": "Shikamaru, Kawaki, Sumire, and Konohamaru are in the office.",
+      "translate": "quest.narutorpg.omnipotence_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Special Mission (chapter)",
+    "translate": "quest.narutorpg.omnipotence_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.omnipotence_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: A Special Mission (chapter)",
+        "translate": "quest.narutorpg.omnipotence_arc_06.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Meet Shikamaru Nara",
+        "translate": "quest.narutorpg.omnipotence_arc_06.o3"
+      }
+    }
+  ],
+  "order": 237805,
+  "outro": [
+    {
+      "fallback": "On a train, Amado watches Ada watching the meeting.",
+      "translate": "quest.narutorpg.omnipotence_arc_06.outro0"
+    },
+    {
+      "fallback": "Shikamaru explains that while originally an enemy, Amado's plan worked, Code lost her as an ally, and she's on her way to Konoha.",
+      "translate": "quest.narutorpg.omnipotence_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_05"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

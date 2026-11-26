@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_shippuden",
+    "narutorpg:kushina_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+    "translate": "quest.narutorpg.arc.jiraiya_shinobi_handbook_the_tale_of_naruto_the_"
+  },
+  "description": {
+    "fallback": "In the novel, Naruto lives in Konohagakure and is a member of Team Kakashi. His parents did not die during the Nine-Tailed Demon Fox's Attack, in which the half of the Nine-Tails was sealed into him while the other half is sealed within his mother. The villagers dislike Naruto, but show him some respect as he is the Fourth Hokage's son.",
+    "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "In the novel, Naruto lives in Konohagakure and is a member of Team Kakashi.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.intro0"
+    },
+    {
+      "fallback": "His parents did not die during the Nine-Tailed Demon Fox's Attack, in which the half of the Nine-Tails was sealed into him while the other half is sealed within his mother.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.intro1"
+    },
+    {
+      "fallback": "The villagers dislike Naruto, but show him some respect as he is the Fourth Hokage's son.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part One",
+    "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: Part One",
+        "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:konan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Konan",
+        "translate": "quest.narutorpg.defeat.konan_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 144200,
+  "outro": [
+    {
+      "fallback": "They prepare to fight again, but Team Jiraiya leaves just before they're joined by Team Kurenai.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.outro0"
+    },
+    {
+      "fallback": "Shikamaru does not tell them about Team Jiraiya, and decides they need to both report to Konohagakure and regroup with Teams Kakashi an",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__01.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_08"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

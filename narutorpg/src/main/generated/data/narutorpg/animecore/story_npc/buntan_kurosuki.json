@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "eyes": 1118481,
+    "hair": 4073251,
+    "hair_style": "long",
+    "headband": 3622735,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 14724201
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Buntan Kurosuki",
+    "translate": "npc.narutorpg.buntan_kurosuki"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

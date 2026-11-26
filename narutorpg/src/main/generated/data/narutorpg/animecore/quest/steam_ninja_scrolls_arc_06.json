@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Steam Ninja Scrolls Arc",
+    "translate": "quest.narutorpg.arc.steam_ninja_scrolls_arc"
+  },
+  "description": {
+    "fallback": "Mirai recalls reading Shikamaru's report on the mission her father died, which detailed how Hidan used Asuma's blood for his jujutsu, forging a link through which he transferred injuries. Ryūki asks the women if they heard the voice of their loved ones calling out to them, and gives them water to purify themselves, instructing them not to drink until he tells them so. Mirai wants her father to teach her how to play...",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Mirai recalls reading Shikamaru's report on the mission her father died, which detailed how Hidan used Asuma's blood for his jujutsu, forging a link through which he transferred injuries.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.intro0"
+    },
+    {
+      "fallback": "Ryūki asks the women if they heard the voice of their loved ones calling out to them, and gives them water to purify themselves, instructing them not to drink until he tells them so.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.intro1"
+    },
+    {
+      "fallback": "Mirai wants her father to teach her how to play shōgi, and expresses concern her father won't recognise her.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Steam Ninja Scrolls: Mirai's King!",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: The Steam Ninja Scrolls: Mirai's King!",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 211605,
+  "outro": [
+    {
+      "fallback": "Ryūki cuts Tatsumi's cheek for some of her blood, and creates a link between her and a puppet, which puts her under his control.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.outro0"
+    },
+    {
+      "fallback": "He orders Tatsumi to kill Mirai, and mocks Mirai for not fighting back against a non-shinobi opponent.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:steam_ninja_scrolls_arc_05"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 12
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

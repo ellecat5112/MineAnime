@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4545124,
+    "eyes": 4431943,
+    "hair": 10395294,
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 2503224
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Chishima",
+    "translate": "npc.narutorpg.chishima"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

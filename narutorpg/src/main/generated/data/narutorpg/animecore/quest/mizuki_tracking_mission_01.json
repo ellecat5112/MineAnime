@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Mizuki Tracking Mission",
+    "translate": "quest.narutorpg.arc.mizuki_tracking_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] With the events of the Land of Rice Fields behind them, everyone prepares for their training. But, a new threat soon arises. Mizuki is back, and he's planning to break out of Konoha's Correctional Facility along with the help of Fūjin and Raijin, the Legendary Stupid Brothers.",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_01.desc"
+  },
+  "giver": "narutorpg:asuma_sarutobi",
+  "intro": [
+    {
+      "fallback": "With the events of the Land of Rice Fields behind them, everyone prepares for their training.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_01.intro0"
+    },
+    {
+      "fallback": "But, a new threat soon arises.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_01.intro1"
+    },
+    {
+      "fallback": "Mizuki is back, and he's planning to break out of Konoha's Correctional Facility along with the help of Fūjin and Raijin, the Legendary Stupid Brothers.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Three Villains from the Maximum Security Prison",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:asuma_sarutobi",
+      "text": {
+        "fallback": "Talk to Asuma Sarutobi",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Go: The Three Villains from the Maximum Security Prison",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 15200,
+  "outro": [
+    {
+      "fallback": "Asuma and Kurenai are sent to interrogate Mizuki, but they run into trouble on the way.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_01.outro0"
+    },
+    {
+      "fallback": "Naruto shows up and finds the two jōnin injured and defeated.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

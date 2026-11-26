@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:choza_akimichi_ally_shippuden",
+    "narutorpg:dan_kato_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Confrontation",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_confrontation"
+  },
+  "description": {
+    "fallback": "At the Land of Lightning's Coast, Chōza Akimichi confronts Dan and Asuma Sarutobi while Hiashi Hyūga confronts his reincarnated brother, Hizashi Hyūga. Darui reluctantly decides to take on Kinkaku and Ginkaku, the treacherous Gold and Silver Brothers who betrayed Kumogakure in life, with Samui and her brother Atsui aiding him. However, the brothers unveil the Treasured Tools of the Sage of Six Paths.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "At the Land of Lightning's Coast, Chōza Akimichi confronts Dan and Asuma Sarutobi while Hiashi Hyūga confronts his reincarnated brother, Hizashi Hyūga.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.intro0"
+    },
+    {
+      "fallback": "Darui reluctantly decides to take on Kinkaku and Ginkaku, the treacherous Gold and Silver Brothers who betrayed Kumogakure in life, with Samui and her brother Atsui aiding him.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.intro1"
+    },
+    {
+      "fallback": "However, the brothers unveil the Treasured Tools of the Sage of Six Paths.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Clash of Wills",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Clash of Wills",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 127102,
+  "outro": [
+    {
+      "fallback": "Mabui uses her Heavenly Transfer Technique to send Darui the sealing pot while receiving aid from Shikamaru Nara, Chōji Akimichi and Ino Yamanaka as they use their Formation Ino–Shika–Chō to restrain Kinkaku long enough...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.outro0"
+    },
+    {
+      "fallback": "At the Land of Hot Water, Chūkichi receives back-up from a team consisting of Hanzō, Chiyo, and Kimimaro to fight the Surprise Attack Division.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_03.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_02"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

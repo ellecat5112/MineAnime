@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:baki_ally_naruto",
+    "narutorpg:sasuke_uchiha_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Konoha Crush",
+    "translate": "quest.narutorpg.arc.konoha_crush"
+  },
+  "description": {
+    "fallback": "As the Hokage battle goes on, the Jonin in the audience that had managed to repel out Kabuto's genjutsu begin to confront the invading ninja, determined to protect the audience from stray attacks. Meanwhile, Baki informs Kankurō and Temari to take Gaara elsewhere, his injury making him useless for the planned invasion. Sasuke, confused about what is going on, follows the three, wanting to finish his fight with Gaara.",
+    "translate": "quest.narutorpg.konoha_crush_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As the Hokage battle goes on, the Jonin in the audience that had managed to repel out Kabuto's genjutsu begin to confront the invading ninja, determined to protect the audience from stray attacks.",
+      "translate": "quest.narutorpg.konoha_crush_02.intro0"
+    },
+    {
+      "fallback": "Meanwhile, Baki informs Kankurō and Temari to take Gaara elsewhere, his injury making him useless for the planned invasion.",
+      "translate": "quest.narutorpg.konoha_crush_02.intro1"
+    },
+    {
+      "fallback": "Sasuke, confused about what is going on, follows the three, wanting to finish his fight with Gaara.",
+      "translate": "quest.narutorpg.konoha_crush_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Pursuing Gaara",
+    "translate": "quest.narutorpg.konoha_crush_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.konoha_crush_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: Pursuing Gaara",
+        "translate": "quest.narutorpg.konoha_crush_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kankuro_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kankurō",
+        "translate": "quest.narutorpg.defeat.kankuro_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gaara_foe_naruto",
+      "text": {
+        "fallback": "Defeat Gaara",
+        "translate": "quest.narutorpg.defeat.gaara_foe_naruto"
+      }
+    }
+  ],
+  "order": 7801,
+  "outro": [
+    {
+      "fallback": "Sasuke eventually manages to catch up to Gaara, Kankurō, and Temari.",
+      "translate": "quest.narutorpg.konoha_crush_02.outro0"
+    },
+    {
+      "fallback": "As Kankurō prepares to fight Sasuke in the hopes of gi",
+      "translate": "quest.narutorpg.konoha_crush_02.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:konoha_crush_01"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

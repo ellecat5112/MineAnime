@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "When Jiraiya saw the young Nagato's Rinnegan, Jiraiya decided to train him, Konan, and Yahiko so they could protect themselves and others. Having heard rumours that the Rinnegan originally belonged to the founder of the ninja world, Jiraiya also wished to teach Nagato to control his power for the world's benefit. Once he had taught them all they needed he left them on their own, later hearing they had died.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "When Jiraiya saw the young Nagato's Rinnegan, Jiraiya decided to train him, Konan, and Yahiko so they could protect themselves and others.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.intro0"
+    },
+    {
+      "fallback": "Having heard rumours that the Rinnegan originally belonged to the founder of the ninja world, Jiraiya also wished to teach Nagato to control his power for the world's benefit.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.intro1"
+    },
+    {
+      "fallback": "Once he had taught them all they needed he left them on their own, later hearing they had died.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Era of Teacher and Students…!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: The Era of Teacher and Students…!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.travel"
+      }
+    },
+    {
+      "type": "use_ability",
+      "count": 3,
+      "text": {
+        "fallback": "Train: use 3 techniques",
+        "translate": "quest.narutorpg.train"
+      }
+    }
+  ],
+  "order": 113712,
+  "outro": [
+    {
+      "fallback": "Pain appears and refutes the claim.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.outro0"
+    },
+    {
+      "fallback": "Seeing Pain's Rinnegan, Jiraiya assumes that, although he looks very different, he is Nagato.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_13.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_12"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

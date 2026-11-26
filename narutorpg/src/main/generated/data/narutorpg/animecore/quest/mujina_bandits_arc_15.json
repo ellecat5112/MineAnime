@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Tentō practices shurikenjutsu, remembering Boruto's words, determined to impress his father. Yamaoka arrives and tells him he's seen a suspicious man pretending to be a bodyguard, and fears for Ikkyū's life. Tentō wants to resolve the situation himself, and decides to investigate.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_15.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Tentō practices shurikenjutsu, remembering Boruto's words, determined to impress his father.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_15.intro0"
+    },
+    {
+      "fallback": "Yamaoka arrives and tells him he's seen a suspicious man pretending to be a bodyguard, and fears for Ikkyū's life.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_15.intro1"
+    },
+    {
+      "fallback": "Tentō wants to resolve the situation himself, and decides to investigate.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Value of a Hidden Ace",
+    "translate": "quest.narutorpg.mujina_bandits_arc_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.mujina_bandits_arc_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 41,
+      "text": {
+        "fallback": "Go: The Value of a Hidden Ace",
+        "translate": "quest.narutorpg.mujina_bandits_arc_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 215114,
+  "outro": [
+    {
+      "fallback": "Boruto tries finding Tentō's room, and overhears Ikkyū discussing Tentō's kidnapping.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_15.outro0"
+    },
+    {
+      "fallback": "His captors claim to be the Mujina Bandits, they threaten to kill Tentō if Ikkyū lets the information go public, and their demands include 500 million ryō and the release of all the prisoners from Hōzuki Castle.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_15.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_14"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

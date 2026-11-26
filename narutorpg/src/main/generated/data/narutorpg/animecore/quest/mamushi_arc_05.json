@@ -1,0 +1,76 @@
+{
+  "allies": [
+    "narutorpg:shikadai_nara_ally_boruto",
+    "narutorpg:chocho_akimichi_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "Shikadai, Chōchō and Himawari defeated the divided Mamushi, but more Mamushi emerge. Himawari begins forming a Tailed Beast Ball and to avoid any damage in Konohagakure, Shikadai bundles the Mamushi into ball and Chōchō throws them into the air, allowing the ball to be launched without any casualties. As Shikadai scolds Himawari for being reckless, he notices more divided Mamushi fleeing.",
+    "translate": "quest.narutorpg.mamushi_arc_05.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Shikadai, Chōchō and Himawari defeated the divided Mamushi, but more Mamushi emerge.",
+      "translate": "quest.narutorpg.mamushi_arc_05.intro0"
+    },
+    {
+      "fallback": "Himawari begins forming a Tailed Beast Ball and to avoid any damage in Konohagakure, Shikadai bundles the Mamushi into ball and Chōchō throws them into the air, allowing the ball to be launched without any casualties.",
+      "translate": "quest.narutorpg.mamushi_arc_05.intro1"
+    },
+    {
+      "fallback": "As Shikadai scolds Himawari for being reckless, he notices more divided Mamushi fleeing.",
+      "translate": "quest.narutorpg.mamushi_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "All Them Nuisances",
+    "translate": "quest.narutorpg.mamushi_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.mamushi_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: All Them Nuisances",
+        "translate": "quest.narutorpg.mamushi_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Mamushi",
+        "translate": "quest.narutorpg.defeat.mamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 303604,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_04"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

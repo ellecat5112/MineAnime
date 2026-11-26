@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_movies",
+    "narutorpg:sakura_haruno_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Road to Ninja: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.road_to_ninja_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "This Akatsuki was hired by Tsunade to help Naruto, and they deal with the masked beasts when Naruto attacks the masked man. Itachi saves Sakura and Tobi decides to escape instead. The Akatsuki defeats the masked beasts that turn into nine fox kits, while Naruto chased the masked man into the training grounds.",
+    "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "This Akatsuki was hired by Tsunade to help Naruto, and they deal with the masked beasts when Naruto attacks the masked man.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.intro0"
+    },
+    {
+      "fallback": "Itachi saves Sakura and Tobi decides to escape instead.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.intro1"
+    },
+    {
+      "fallback": "The Akatsuki defeats the masked beasts that turn into nine fox kits, while Naruto chased the masked man into the training grounds.",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 4",
+    "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Part 4",
+        "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_movies",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:menma_uzumaki_foe_movies",
+      "text": {
+        "fallback": "Defeat Menma Uzumaki",
+        "translate": "quest.narutorpg.defeat.menma_uzumaki_foe_movies"
+      }
+    }
+  ],
+  "order": 301803,
+  "outro": [
+    {
+      "fallback": "Tobi decides to give up and exits the genjutsu world just as Naruto and Sakura are enveloped in a bright light, preparing to return to their world as well, but beforehand Naruto thanks Minato and Kushina who quickly...",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.outro0"
+    },
+    {
+      "fallback": "Naruto and Sakura return to their world, where Naruto's Hokage coat breaks down since it",
+      "translate": "quest.narutorpg.road_to_ninja_naruto_the_movie_04.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:road_to_ninja_naruto_the_movie_03"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

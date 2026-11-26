@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "narutorpg:big_ball_rasengan",
+    "narutorpg:earth_release_swamp_of_the_underworld",
+    "narutorpg:fire_release_big_flame_bullet",
+    "narutorpg:fire_release_flame_attack",
+    "narutorpg:fire_release_flame_bullet",
+    "narutorpg:reverse_summoning_technique"
+  ],
+  "appearance": {
+    "accent": 16119285,
+    "eyes": 2001125,
+    "hair": 6111287,
+    "hair_style": "spiky",
+    "outfit": "cloak",
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 1710618
+  },
+  "attack": 18.2,
+  "cast_interval": 40,
+  "health": 634.0,
+  "name": {
+    "fallback": "Koji Kashin",
+    "translate": "npc.narutorpg.koji_kashin"
+  },
+  "power": 2.46,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

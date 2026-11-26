@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "The Kirigakure and Funato fleets battle at sea. Isari and Jibiki discuss how they're luring Kirigakure into a trap. Boruto and Iwabee join Kagura, Sarada, and Denki, who are going over the coded message they discovered.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "The Kirigakure and Funato fleets battle at sea.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.intro0"
+    },
+    {
+      "fallback": "Isari and Jibiki discuss how they're luring Kirigakure into a trap.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.intro1"
+    },
+    {
+      "fallback": "Boruto and Iwabee join Kagura, Sarada, and Denki, who are going over the coded message they discovered.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Where I Belong",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: Where I Belong",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 224310,
+  "outro": [
+    {
+      "fallback": "Sarada agrees with Boruto.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.outro0"
+    },
+    {
+      "fallback": "Kagura asks for the swordsmen's help, but unsatisfied with just a three year sentence reduction for what they've done so far, they ask for a complete acquittal, which Kagura agrees to, intending to negotiate it with...",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_11.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_10"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

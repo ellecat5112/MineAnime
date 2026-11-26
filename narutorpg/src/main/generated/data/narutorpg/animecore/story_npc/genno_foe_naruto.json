@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:heavenly_punishment",
+    "narutorpg:rockslide_genjutsu",
+    "narutorpg:summoning_technique"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 1118481,
+    "hair": 1973790,
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 4545124
+  },
+  "attack": 6.5,
+  "cast_interval": 40,
+  "health": 202.0,
+  "name": {
+    "fallback": "Gennō",
+    "translate": "npc.narutorpg.genno"
+  },
+  "power": 1.26,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

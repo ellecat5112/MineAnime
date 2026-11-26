@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:preta_path_character_ally_shippuden",
+    "narutorpg:human_path_character_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Pain summons two more bodies — the Preta Path and the Human Path. Jiraiya is shocked beyond his wits to see three Rinnegan wielders before him; Pain decides to take advantage of the situation by having his Human Path rush towards Jiraiya, only for Jiraiya to give him a roundhouse kick in the face and blind him. Fukasaku uses a smoke bomb while Jiraiya unleashes his senjutsu-influenced Hair Needle Senbon, which Pain...",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Pain summons two more bodies — the Preta Path and the Human Path.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.intro0"
+    },
+    {
+      "fallback": "Jiraiya is shocked beyond his wits to see three Rinnegan wielders before him; Pain decides to take advantage of the situation by having his Human Path rush towards Jiraiya, only for Jiraiya to give him a roundhouse kick...",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.intro1"
+    },
+    {
+      "fallback": "Fukasaku uses a smoke bomb while Jiraiya unleashes his senjutsu-influenced Hair Needle Senbon, which Pain is able to block by summoning a Giant Panda.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "In Attendance, the Six Paths of Pain",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: In Attendance, the Six Paths of Pain",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113705,
+  "outro": [
+    {
+      "fallback": "Jiraiya attempts to destroy the three Paths using his Sage Art: Goemon, a cooperation ninjutsu used alongside the Two Great Sage Toads, only for the Paths to be unscathed.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.outro0"
+    },
+    {
+      "fallback": "Amazed at how they were able to escape its effects, Jiraiya tries to destroy the Preta Path with an Ultra-Big Ball Rasengan; however, the Path proceeds to absorb the technique and render it useless.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_06.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_05"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

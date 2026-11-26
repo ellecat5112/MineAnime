@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "In Naruto's Footsteps: The Friends' Paths",
+    "translate": "quest.narutorpg.arc.in_naruto_s_footsteps_the_friends_paths"
+  },
+  "description": {
+    "fallback": "As the Suna ninja search for their Kazekage, Gaara appears and orders for the continuation of the Chūnin Exams. He later communicates with Fugi via sand clone, making the latter realise that Hōichi had failed in his assassination and had been defeated. As Gaara talks about his changes as a person and his hopes for the village, Fugi slowly realises that he had misjudged Gaara.",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "As the Suna ninja search for their Kazekage, Gaara appears and orders for the continuation of the Chūnin Exams.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.intro0"
+    },
+    {
+      "fallback": "He later communicates with Fugi via sand clone, making the latter realise that Hōichi had failed in his assassination and had been defeated.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.intro1"
+    },
+    {
+      "fallback": "As Gaara talks about his changes as a person and his hopes for the village, Fugi slowly realises that he had misjudged Gaara.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Exam's End & The Aftermath",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: The Exam's End & The Aftermath",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 140403,
+  "outro": [
+    {
+      "fallback": "Despite being unable to attain the two scrolls needed, Tenten and Lee are promoted to chūnin while Neji is given a double-promotion to jōnin for his actions in saving the Kazekage.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.outro0"
+    },
+    {
+      "fallback": "Elsewhere, Naruto and Jiraiya start to return back to Konoha after Naruto's training.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_04.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:in_naruto_s_footsteps_the_friends_paths_03"
+  ],
+  "rewards": {
+    "experience": 31,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

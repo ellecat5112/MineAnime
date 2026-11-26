@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:iwabee_yuino_ally_boruto",
+    "narutorpg:kagura_karatachi_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Funamushi receives reports that the bridges on their path have been brought down, and wonders if Kirigakure learned of their plan. Denki and Iwabee watch from a distance and see that the Funato have sent a scouting party through the forest, and rush to warn the village. Boruto comments on how reliable the swordsmen have been, and Kagura says he's the one who taught him to trust like that.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.desc"
+  },
+  "giver": "narutorpg:denki_kaminarimon",
+  "intro": [
+    {
+      "fallback": "Funamushi receives reports that the bridges on their path have been brought down, and wonders if Kirigakure learned of their plan.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.intro0"
+    },
+    {
+      "fallback": "Denki and Iwabee watch from a distance and see that the Funato have sent a scouting party through the forest, and rush to warn the village.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.intro1"
+    },
+    {
+      "fallback": "Boruto comments on how reliable the swordsmen have been, and Kagura says he's the one who taught him to trust like that.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Rift (Boruto episode)",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:denki_kaminarimon",
+      "text": {
+        "fallback": "Talk to Denki Kaminarimon",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Rift (Boruto episode)",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:funamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Funamushi",
+        "translate": "quest.narutorpg.defeat.funamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 224311,
+  "outro": [
+    {
+      "fallback": "When the plan happened, the prison's food was poisoned, affecting Buntan.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.outro0"
+    },
+    {
+      "fallback": "Shizuma confessed this was part of the plan, and told her he loved her as he abandoned her.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_12.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_11"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

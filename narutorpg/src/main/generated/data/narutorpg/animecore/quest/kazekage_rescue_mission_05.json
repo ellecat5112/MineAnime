@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:gaara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kazekage Rescue Mission",
+    "translate": "quest.narutorpg.arc.kazekage_rescue_mission"
+  },
+  "description": {
+    "fallback": "During the time of the fight with Sasori, Naruto and Kakashi were chasing after Deidara. Kakashi activated his own version of the Mangekyō Sharingan and aimed to use it to take Deidara's head. However, it was difficult to aim, and all he managed to remove was his arm.",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "During the time of the fight with Sasori, Naruto and Kakashi were chasing after Deidara.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_05.intro0"
+    },
+    {
+      "fallback": "Kakashi activated his own version of the Mangekyō Sharingan and aimed to use it to take Deidara's head.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_05.intro1"
+    },
+    {
+      "fallback": "However, it was difficult to aim, and all he managed to remove was his arm.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Naruto and Kakashi vs. Deidara",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: Naruto and Kakashi vs. Deidara",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:deidara_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Deidara",
+        "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasori_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasori",
+        "translate": "quest.narutorpg.defeat.sasori_foe_shippuden"
+      }
+    }
+  ],
+  "order": 101104,
+  "outro": [
+    {
+      "fallback": "As the dust settled, Kakashi collapsed from exhaustion, explaining that he used his Mangekyō Sharingan to send the explosion to another dimension.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_05.outro0"
+    },
+    {
+      "fallback": "With Naruto carrying Gaara's body, the two teams headed back to Sunagakure.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

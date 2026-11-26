@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "At the top of the Fire Temple, Sora trips Naruto and sends him down the flights of stairs, citing it to be \"divine retribution\". This further's Naruto's irritation towards Sora, but stops when he notices all the glares the other monks give Sora, which seems familiar to him. In the Fire Temple, monk Chiriku explains that the men whose graves were robbed were all fallen members of the Twelve Guardian Ninja, shinobi...",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_05.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "At the top of the Fire Temple, Sora trips Naruto and sends him down the flights of stairs, citing it to be \"divine retribution\".",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_05.intro0"
+    },
+    {
+      "fallback": "This further's Naruto's irritation towards Sora, but stops when he notices all the glares the other monks give Sora, which seems familiar to him.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_05.intro1"
+    },
+    {
+      "fallback": "In the Fire Temple, monk Chiriku explains that the men whose graves were robbed were all fallen members of the Twelve Guardian Ninja, shinobi who were sworn to protect the Land of Fire's daimyō.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Loneliness",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: Loneliness",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_05.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:fire_daimyo_part_i_ii",
+      "text": {
+        "fallback": "Meet Fire Daimyō (Part I-II)",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_05.o3"
+      }
+    }
+  ],
+  "order": 106404,
+  "outro": [
+    {
+      "fallback": "Yamato explains that the shinobi of Konoha protect the nation as a whole with the Guardian Ninja are tasked with protecting only the daimyō, the feudal lord who is the head of the Land of Fire.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_05.outro0"
+    },
+    {
+      "fallback": "He also reveals that Asuma was once one of the twelve guardians.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_05.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_04"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

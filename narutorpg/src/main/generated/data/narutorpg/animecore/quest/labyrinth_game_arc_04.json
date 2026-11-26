@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "The captives wait for Ōga to announce the next experiment. A few complain of thirst, Fugō trying in vain to exchange his luxury watch for another captive's water. The Kusa-nin agrees with Boruto that they need to cooperate to survive.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_04.desc"
+  },
+  "giver": "narutorpg:fugo",
+  "intro": [
+    {
+      "fallback": "The captives wait for Ōga to announce the next experiment.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_04.intro0"
+    },
+    {
+      "fallback": "A few complain of thirst, Fugō trying in vain to exchange his luxury watch for another captive's water.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_04.intro1"
+    },
+    {
+      "fallback": "The Kusa-nin agrees with Boruto that they need to cooperate to survive.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Disappearing Lives",
+    "translate": "quest.narutorpg.labyrinth_game_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:fugo",
+      "text": {
+        "fallback": "Talk to Fugō",
+        "translate": "quest.narutorpg.labyrinth_game_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Disappearing Lives",
+        "translate": "quest.narutorpg.labyrinth_game_arc_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:batta",
+      "text": {
+        "fallback": "Meet Batta",
+        "translate": "quest.narutorpg.labyrinth_game_arc_04.o3"
+      }
+    }
+  ],
+  "order": 228403,
+  "outro": [
+    {
+      "fallback": "An older captive sneezes, blowing out his candle, and dies. Ōga explains the candle flame is their life, showing them lanterns to carry them.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_04.outro0"
+    },
+    {
+      "fallback": "He adds how passing the candles from person to person works, the person not holding a candle dying if one goes out on someone else's hand.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:labyrinth_game_arc_03"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Ada, Daemon, and Amado arrive at Konoha. They're greeted by Sai and Shikamaru, Sai and other civilians becoming attracted to Ada. She informs Shikamaru she's aware of and accepts his cohabitation plan.",
+    "translate": "quest.narutorpg.omnipotence_arc_07.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Ada, Daemon, and Amado arrive at Konoha.",
+      "translate": "quest.narutorpg.omnipotence_arc_07.intro0"
+    },
+    {
+      "fallback": "They're greeted by Sai and Shikamaru, Sai and other civilians becoming attracted to Ada.",
+      "translate": "quest.narutorpg.omnipotence_arc_07.intro1"
+    },
+    {
+      "fallback": "She informs Shikamaru she's aware of and accepts his cohabitation plan.",
+      "translate": "quest.narutorpg.omnipotence_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Baptism by Fire",
+    "translate": "quest.narutorpg.omnipotence_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.omnipotence_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: Baptism by Fire",
+        "translate": "quest.narutorpg.omnipotence_arc_07.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sai",
+      "text": {
+        "fallback": "Meet Sai",
+        "translate": "quest.narutorpg.omnipotence_arc_07.o3"
+      }
+    }
+  ],
+  "order": 237806,
+  "outro": [
+    {
+      "fallback": "Mitsuki alerts Sarada of Ada's arrival, surprising her with her flight.",
+      "translate": "quest.narutorpg.omnipotence_arc_07.outro0"
+    },
+    {
+      "fallback": "Inojin, Chōchō, and Mitsuki are attracted to her.",
+      "translate": "quest.narutorpg.omnipotence_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_06"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

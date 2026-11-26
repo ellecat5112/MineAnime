@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Naruto the Movie: Guardians of the Crescent Moon Kingdom",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_guardians_of_the_crescent_moon_"
+  },
+  "description": {
+    "fallback": "After returning to the Land of the Moon, the team found that the country had been taken over by Shabadaba, one of the nobles and a former friend of Michiru. Having hired three powerful ninja to assist him, Shabadaba had disposed of the king, and planned to do the same with Michiru and Hikaru, the remaining heirs to the throne. He ordered the military forces to kill them all, but the team was able to escape with the...",
+    "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "After returning to the Land of the Moon, the team found that the country had been taken over by Shabadaba, one of the nobles and a former friend of Michiru.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.intro0"
+    },
+    {
+      "fallback": "Having hired three powerful ninja to assist him, Shabadaba had disposed of the king, and planned to do the same with Michiru and Hikaru, the remaining heirs to the throne.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.intro1"
+    },
+    {
+      "fallback": "He ordered the military forces to kill them all, but the team was able to escape with the help of some soldiers still loyal to the king.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: Part 3",
+        "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301202,
+  "outro": [
+    {
+      "fallback": "During an attempt to escape the country by boat, the three ninja hired by Shabadaba attacked, disabling Naruto, Kakashi, Sakura, and Lee with reaction-dulling poison that slowed their reactions.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.outro0"
+    },
+    {
+      "fallback": "The prince was captured, but the emergence of Naruto's fox chakra allowed him to repel the attacking ninja before the prince's son could be taken.",
+      "translate": "quest.narutorpg.naruto_the_movie_guardians_of_the_crescent_moon__03.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_guardians_of_the_crescent_moon__02"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

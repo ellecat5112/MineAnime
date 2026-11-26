@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Kawaki and Himawari confront Hana. Himawari asks if she's really not their teacher, and Hana explains that was a separate personality she used as a cover for her mission. Hana attacks them with Fire Release.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Kawaki and Himawari confront Hana.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.intro0"
+    },
+    {
+      "fallback": "Himawari asks if she's really not their teacher, and Hana explains that was a separate personality she used as a cover for her mission.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.intro1"
+    },
+    {
+      "fallback": "Hana attacks them with Fire Release.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Farewell, Academy!",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: Farewell, Academy!",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 227112,
+  "outro": [
+    {
+      "fallback": "Eiki leads the rest of the class towards the harbour, hoping to get word of the developments out.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.outro0"
+    },
+    {
+      "fallback": "Someone appears in front of them.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_13.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_12"
+  ],
+  "rewards": {
+    "experience": 41,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

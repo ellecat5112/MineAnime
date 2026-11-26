@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Hana's class visits her in the hospital after her injury in the attack on the festival, and wish her a swift recovery. Because of her injuries, her memories of the assailant are hazy. Kawaki is admonished by Shikamaru, Sai, and Naruto about failing to report his suspicion of an assassin, and is taken off the mission.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Hana's class visits her in the hospital after her injury in the attack on the festival, and wish her a swift recovery.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.intro0"
+    },
+    {
+      "fallback": "Because of her injuries, her memories of the assailant are hazy.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.intro1"
+    },
+    {
+      "fallback": "Kawaki is admonished by Shikamaru, Sai, and Naruto about failing to report his suspicion of an assassin, and is taken off the mission.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Sneaking Shadow",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: The Sneaking Shadow",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 227108,
+  "outro": [
+    {
+      "fallback": "From what Eiki gathered, they have an idea where the culprit might have been, so they decide to look through Sōsha's photos.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.outro0"
+    },
+    {
+      "fallback": "Batora tells Kae that Kawaki was likely forbidden from telling anyone about his mission, and speculates that he failed to report the assassin so as to prevent the festival Kae was looking forward to from being cancelled.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_09.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

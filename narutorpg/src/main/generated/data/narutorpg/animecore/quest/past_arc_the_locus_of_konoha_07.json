@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:tenten_ally_shippuden",
+    "narutorpg:neji_hyuga_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "Tenten and Neji Hyūga arrive at a Konoha Tool Research Lab for more tools due the weakened military power after Pain's invasion. In a flashback, Might Guy has Naruto join Team Guy on a mission with Rock Lee in the hospital. For the mission, Guy assigns Tenten as captain of the team.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.desc"
+  },
+  "giver": "narutorpg:might_guy",
+  "intro": [
+    {
+      "fallback": "Tenten and Neji Hyūga arrive at a Konoha Tool Research Lab for more tools due the weakened military power after Pain's invasion.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.intro0"
+    },
+    {
+      "fallback": "In a flashback, Might Guy has Naruto join Team Guy on a mission with Rock Lee in the hospital.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.intro1"
+    },
+    {
+      "fallback": "For the mission, Guy assigns Tenten as captain of the team.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team Tenten",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:might_guy",
+      "text": {
+        "fallback": "Talk to Might Guy",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Team Tenten",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kusune_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kusune",
+        "translate": "quest.narutorpg.defeat.kusune_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118606,
+  "outro": [
+    {
+      "fallback": "Naruto and Neji cheer her up with complementing on how great she was in the fight.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.outro0"
+    },
+    {
+      "fallback": "The flashback ends and Tenten hopes that Iō finished the adjustments to Jidanda.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_07.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_06"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

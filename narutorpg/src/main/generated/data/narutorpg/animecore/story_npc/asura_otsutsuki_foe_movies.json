@@ -1,0 +1,36 @@
+{
+  "abilities": [
+    "narutorpg:big_truth_seeking_ball",
+    "narutorpg:fierce_attack_wind_sphere",
+    "narutorpg:hands_of_bonds",
+    "narutorpg:kanzeon_lotus_king",
+    "narutorpg:sage_art_wood_release_true_several_thousand_hands",
+    "narutorpg:amenomihashira"
+  ],
+  "appearance": {
+    "accent": 11583173,
+    "eyes": 2001125,
+    "hair": 16119285,
+    "hair_style": "long",
+    "mark": "pale_eyes",
+    "outfit": "robe",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 16448250
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Asura Ōtsutsuki",
+    "translate": "npc.narutorpg.asura_otsutsuki"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

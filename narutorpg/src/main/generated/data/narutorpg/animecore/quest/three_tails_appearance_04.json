@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "Kabuto takes Yūkimaru to a lake, where he tells the young child that they are about to have fun. After placing some headgear on Yūkimaru's head, Kabuto gives Yūkimaru a pill that causes the latter to release chakra. The chakra begins to draw out a beast hiding underneath the lake, but Yūkimaru passes out due to exertion before the beast is summoned.",
+    "translate": "quest.narutorpg.three_tails_appearance_04.desc"
+  },
+  "giver": "narutorpg:yukimaru_s_mother",
+  "intro": [
+    {
+      "fallback": "Kabuto takes Yūkimaru to a lake, where he tells the young child that they are about to have fun.",
+      "translate": "quest.narutorpg.three_tails_appearance_04.intro0"
+    },
+    {
+      "fallback": "After placing some headgear on Yūkimaru's head, Kabuto gives Yūkimaru a pill that causes the latter to release chakra.",
+      "translate": "quest.narutorpg.three_tails_appearance_04.intro1"
+    },
+    {
+      "fallback": "The chakra begins to draw out a beast hiding underneath the lake, but Yūkimaru passes out due to exertion before the beast is summoned.",
+      "translate": "quest.narutorpg.three_tails_appearance_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Encounter",
+    "translate": "quest.narutorpg.three_tails_appearance_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yukimaru_s_mother",
+      "text": {
+        "fallback": "Talk to Yūkimaru's Mother",
+        "translate": "quest.narutorpg.three_tails_appearance_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Go: Encounter",
+        "translate": "quest.narutorpg.three_tails_appearance_04.travel"
+      }
+    },
+    {
+      "type": "use_ability",
+      "count": 3,
+      "text": {
+        "fallback": "Train: use 3 techniques",
+        "translate": "quest.narutorpg.train"
+      }
+    }
+  ],
+  "order": 109903,
+  "outro": [
+    {
+      "fallback": "The chakra begins to draw out a beast hiding underneath the lake, but Yūkimaru passes out due to exertion before the beast is summoned.",
+      "translate": "quest.narutorpg.three_tails_appearance_04.outro0"
+    },
+    {
+      "fallback": "Kabuto remarks that Yūkimaru is truly useful to Orochimaru and is content with having located the beast.",
+      "translate": "quest.narutorpg.three_tails_appearance_04.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_03"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

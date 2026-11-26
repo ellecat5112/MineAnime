@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Byakuya Gang Arc",
+    "translate": "quest.narutorpg.arc.byakuya_gang_arc"
+  },
+  "description": {
+    "fallback": "As usual search procedures yielded no results, Kōtarō drafts the recently graduated genin into the search for the Byakuya Gang, instructing them to report anything unusual as they go about their regular missions, and not to engage them in battle. The genin discuss what to do if they are attacked, and Iwabee is surprised by Boruto's reluctance to battle. The Byakuya Gang commits a robbery near where Team 5 is aiding...",
+    "translate": "quest.narutorpg.byakuya_gang_arc_02.desc"
+  },
+  "giver": "narutorpg:kotaro_fuma",
+  "intro": [
+    {
+      "fallback": "As usual search procedures yielded no results, Kōtarō drafts the recently graduated genin into the search for the Byakuya Gang, instructing them to report anything unusual as they go about their regular missions, and...",
+      "translate": "quest.narutorpg.byakuya_gang_arc_02.intro0"
+    },
+    {
+      "fallback": "The genin discuss what to do if they are attacked, and Iwabee is surprised by Boruto's reluctance to battle.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_02.intro1"
+    },
+    {
+      "fallback": "The Byakuya Gang commits a robbery near where Team 5 is aiding a construction company.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Shikadai's Doubts",
+    "translate": "quest.narutorpg.byakuya_gang_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kotaro_fuma",
+      "text": {
+        "fallback": "Talk to Kōtarō Fūma",
+        "translate": "quest.narutorpg.byakuya_gang_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: Shikadai's Doubts",
+        "translate": "quest.narutorpg.byakuya_gang_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 205301,
+  "outro": [
+    {
+      "fallback": "At the hospital, Udon lectures Iwabee and tells him to stay home.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_02.outro0"
+    },
+    {
+      "fallback": "They watch news reports on the Byakuya Gang, and see they are well-received by poorer populations.",
+      "translate": "quest.narutorpg.byakuya_gang_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:byakuya_gang_arc_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

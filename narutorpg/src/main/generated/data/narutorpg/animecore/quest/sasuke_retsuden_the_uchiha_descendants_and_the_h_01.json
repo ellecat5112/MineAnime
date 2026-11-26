@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:sakura_haruno_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": "A sick Naruto Uzumaki tries to stop Sasuke Uchiha from leaving Konohagakure, but Sasuke ignores his pleas. In the distant Land of Redaku, Sasuke asks the locals about the Sage of Six Paths, but most people are unfamiliar with the Sage. Lyla overhears his conversation and suggests that he ask her mother, Kail.",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "A sick Naruto Uzumaki tries to stop Sasuke Uchiha from leaving Konohagakure, but Sasuke ignores his pleas.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.intro0"
+    },
+    {
+      "fallback": "In the distant Land of Redaku, Sasuke asks the locals about the Sage of Six Paths, but most people are unfamiliar with the Sage.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.intro1"
+    },
+    {
+      "fallback": "Lyla overhears his conversation and suggests that he ask her mother, Kail.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 1 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Chapter 1 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:lyla_foe_boruto",
+      "text": {
+        "fallback": "Defeat Lyla",
+        "translate": "quest.narutorpg.defeat.lyla_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kail_foe_boruto",
+      "text": {
+        "fallback": "Defeat Kail",
+        "translate": "quest.narutorpg.defeat.kail_foe_boruto"
+      }
+    }
+  ],
+  "order": 229100,
+  "outro": [
+    {
+      "fallback": "The thief, frustrated by Sasuke's answer, resolves to escape on his own.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.outro0"
+    },
+    {
+      "fallback": "As Sasuke joins the other prisoners after breakfast on their way to the digsite, they see Menō feasting on the thief's body.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_01.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Versus Momoshiki Arc",
+    "translate": "quest.narutorpg.arc.versus_momoshiki_arc"
+  },
+  "description": {
+    "fallback": "Upon being tasked with capturing train robbers and finding out that all but one of them were killed in an abandon mine, Team 7 ventures inside. Konohamaru is surprised to witness a White Zetsu, being under the impression that they all were killed in the Fourth Shinobi World War. As it attacks using with elemental natures, Konohamaru struggles as well as the genin.",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Upon being tasked with capturing train robbers and finding out that all but one of them were killed in an abandon mine, Team 7 ventures inside.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_01.intro0"
+    },
+    {
+      "fallback": "Konohamaru is surprised to witness a White Zetsu, being under the impression that they all were killed in the Fourth Shinobi World War.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_01.intro1"
+    },
+    {
+      "fallback": "As it attacks using with elemental natures, Konohamaru struggles as well as the genin.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "White Zetsu Encounter",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: White Zetsu Encounter",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 206100,
+  "outro": [
+    {
+      "fallback": "Learning that Sasuke's strength rivals Naruto's, Boruto becomes intrigued.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_01.outro0"
+    },
+    {
+      "fallback": "Afterwards, the team contacts Konoha, leading to Naruto's shadow clone coming out with other shinobi.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_08"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Gosunkugi Capture Mission",
+    "translate": "quest.narutorpg.arc.gosunkugi_capture_mission"
+  },
+  "description": {
+    "fallback": "Sazanami reveals that he was accused of murdering a family (he was delivering a sword they had ordered) and that the thief that he and Naruto's group is hunting is the main suspect; he wants to capture him to prove his innocence. The four locate the thief in a nearby city, in the process of attempting to steal a valuable bell from a temple. After Sazanami captures the thief, he is also captured himself, but his...",
+    "translate": "quest.narutorpg.gosunkugi_capture_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Sazanami reveals that he was accused of murdering a family (he was delivering a sword they had ordered) and that the thief that he and Naruto's group is hunting is the main suspect; he wants to capture him to prove his...",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_02.intro0"
+    },
+    {
+      "fallback": "The four locate the thief in a nearby city, in the process of attempting to steal a valuable bell from a temple.",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_02.intro1"
+    },
+    {
+      "fallback": "After Sazanami captures the thief, he is also captured himself, but his innocence is revealed.",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Hunt or Be Hunted?! Showdown at the O.K. Temple!",
+    "translate": "quest.narutorpg.gosunkugi_capture_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.gosunkugi_capture_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Hunt or Be Hunted?! Showdown at the O.K. Temple!",
+        "translate": "quest.narutorpg.gosunkugi_capture_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 16901,
+  "outro": [
+    {
+      "fallback": "After Sazanami captures the thief, he is also captured himself, but his innocence is revealed.",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_02.outro0"
+    },
+    {
+      "fallback": "Despite this, Naruto's group fails the mission because they did not capture the thief, but are happy for him.",
+      "translate": "quest.narutorpg.gosunkugi_capture_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:gosunkugi_capture_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

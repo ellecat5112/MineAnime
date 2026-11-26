@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "School Trip Arc",
+    "translate": "quest.narutorpg.arc.school_trip_arc"
+  },
+  "description": {
+    "fallback": "Kagura tells Boruto he'd never understand his upbringing, and attacks. He seemingly bisects Boruto, but it's only a shadow clone. Kagura continues to attack Boruto, with Shizuma's approval, who tells him to use more of Hiramekarei's power.",
+    "translate": "quest.narutorpg.school_trip_arc_07.desc"
+  },
+  "giver": "narutorpg:kagura_karatachi",
+  "intro": [
+    {
+      "fallback": "Kagura tells Boruto he'd never understand his upbringing, and attacks.",
+      "translate": "quest.narutorpg.school_trip_arc_07.intro0"
+    },
+    {
+      "fallback": "He seemingly bisects Boruto, but it's only a shadow clone.",
+      "translate": "quest.narutorpg.school_trip_arc_07.intro1"
+    },
+    {
+      "fallback": "Kagura continues to attack Boruto, with Shizuma's approval, who tells him to use more of Hiramekarei's power.",
+      "translate": "quest.narutorpg.school_trip_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Boruto and Kagura",
+    "translate": "quest.narutorpg.school_trip_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kagura_karatachi",
+      "text": {
+        "fallback": "Talk to Kagura Karatachi",
+        "translate": "quest.narutorpg.school_trip_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Boruto and Kagura",
+        "translate": "quest.narutorpg.school_trip_arc_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shizuma_hoshigaki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Shizuma Hoshigaki",
+        "translate": "quest.narutorpg.defeat.shizuma_hoshigaki_foe_boruto"
+      }
+    }
+  ],
+  "order": 203506,
+  "outro": [
+    {
+      "fallback": "Boruto continues to dodge and block Kagura's attacks.",
+      "translate": "quest.narutorpg.school_trip_arc_07.outro0"
+    },
+    {
+      "fallback": "Shizuma interrupts their fight, and begins swaying Kagura again, but",
+      "translate": "quest.narutorpg.school_trip_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_06"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

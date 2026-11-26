@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Buried Gold Excavation Mission",
+    "translate": "quest.narutorpg.arc.buried_gold_excavation_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto, Hinata and Kiba are given a mission to find some treasure, and are told that if they fail it, they will be returned to the Academy, due to Naruto's poor performance on missions with at least Kiba and Hinata. They set out to find it, but Naruto and Kiba's arguments prevent them from cooperating. They are ambushed and trapped by three people who then copy their identities, smell, thoughts and learn that the...",
+    "translate": "quest.narutorpg.buried_gold_excavation_mission_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto, Hinata and Kiba are given a mission to find some treasure, and are told that if they fail it, they will be returned to the Academy, due to Naruto's poor performance on missions with at least Kiba and Hinata.",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_01.intro0"
+    },
+    {
+      "fallback": "They set out to find it, but Naruto and Kiba's arguments prevent them from cooperating.",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_01.intro1"
+    },
+    {
+      "fallback": "They are ambushed and trapped by three people who then copy their identities, smell, thoughts and learn that the person who requested the mission is their leader.",
+      "translate": "quest.narutorpg.buried_gold_excavation_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Treasure Hunt is On!",
+    "translate": "quest.narutorpg.buried_gold_excavation_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.buried_gold_excavation_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: The Treasure Hunt is On!",
+        "translate": "quest.narutorpg.buried_gold_excavation_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 18500,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

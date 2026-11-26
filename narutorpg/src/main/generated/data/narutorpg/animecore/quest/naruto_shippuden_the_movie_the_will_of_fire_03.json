@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_movies",
+    "narutorpg:asuma_sarutobi_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Will of Fire",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_will_of_fire"
+  },
+  "description": {
+    "fallback": "Ni and her chimera nin-dogs stop them at the next gate, and Team 8 stays behind to delay her, while Naruto and Sakura, and later Team Asuma, pass. As Naruto, Sakura, and Team 10 reach the next gate, San appears riding the bird that fires exploding feathers. Team 10 is still following the original mission, and tries to stop Naruto and Sakura.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Ni and her chimera nin-dogs stop them at the next gate, and Team 8 stays behind to delay her, while Naruto and Sakura, and later Team Asuma, pass.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.intro0"
+    },
+    {
+      "fallback": "As Naruto, Sakura, and Team 10 reach the next gate, San appears riding the bird that fires exploding feathers.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.intro1"
+    },
+    {
+      "fallback": "Team 10 is still following the original mission, and tries to stop Naruto and Sakura.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: Part 3",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ichi_foe_movies",
+      "text": {
+        "fallback": "Defeat Ichi",
+        "translate": "quest.narutorpg.defeat.ichi_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:san_foe_movies",
+      "text": {
+        "fallback": "Defeat San",
+        "translate": "quest.narutorpg.defeat.san_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hiruko_missing_nin_foe_movies",
+      "text": {
+        "fallback": "Defeat Hiruko (missing-nin)",
+        "translate": "quest.narutorpg.defeat.hiruko_missing_nin_foe_movies"
+      }
+    }
+  ],
+  "order": 301502,
+  "outro": [
+    {
+      "fallback": "Shikamaru meets Gaara, who tells him that he felt what Naruto feels in the battle.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.outro0"
+    },
+    {
+      "fallback": "Meanwhile, Naruto reaches the final gate, which turns out to be the place they investiga",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_will_of_fire_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_will_of_fire_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

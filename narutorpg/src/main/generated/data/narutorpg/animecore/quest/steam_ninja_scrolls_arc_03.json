@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Steam Ninja Scrolls Arc",
+    "translate": "quest.narutorpg.arc.steam_ninja_scrolls_arc"
+  },
+  "description": {
+    "fallback": "Mirai shares a hot spring with Tenten, and thanks her for bring her extra clothes. Tenten says it's no issue, as she intended to take a few days off and go to the hot springs anyway. She's concerned that Guy will stir up trouble with his hotheadedness.",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.desc"
+  },
+  "giver": "narutorpg:tenten",
+  "intro": [
+    {
+      "fallback": "Mirai shares a hot spring with Tenten, and thanks her for bring her extra clothes.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.intro0"
+    },
+    {
+      "fallback": "Tenten says it's no issue, as she intended to take a few days off and go to the hot springs anyway.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.intro1"
+    },
+    {
+      "fallback": "She's concerned that Guy will stir up trouble with his hotheadedness.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Steam Ninja Scrolls: The Haunted Inn!",
+    "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tenten",
+      "text": {
+        "fallback": "Talk to Tenten",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Go: The Steam Ninja Scrolls: The Haunted Inn!",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:mirai_sarutobi",
+      "text": {
+        "fallback": "Meet Mirai Sarutobi",
+        "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.o3"
+      }
+    }
+  ],
+  "order": 211602,
+  "outro": [
+    {
+      "fallback": "The receptionist tells them the story about the hot spring since war times, and how there used to be rumours of a ghost in armour that vanished after a mass exorcism was performed.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.outro0"
+    },
+    {
+      "fallback": "They speak with several employees who tell them of strange occurrences the past few days.",
+      "translate": "quest.narutorpg.steam_ninja_scrolls_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:steam_ninja_scrolls_arc_02"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

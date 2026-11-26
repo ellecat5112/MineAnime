@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:jiraiya_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fated Battle Between Brothers",
+    "translate": "quest.narutorpg.arc.fated_battle_between_brothers"
+  },
+  "description": {
+    "fallback": "After the failed mission to find Sasuke or Itachi, Naruto remembered his encounter with Itachi. Itachi asked Naruto why he insisted on trying to save Sasuke who doesn't want to be saved, and Naruto replied he was more a brother to him than he ever was. Satisfied with his answer, Itachi departs, but not before performing a technique on Naruto, to prepare him for the chance that Sasuke attacks Konoha.",
+    "translate": "quest.narutorpg.fated_battle_between_brothers_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "After the failed mission to find Sasuke or Itachi, Naruto remembered his encounter with Itachi.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_03.intro0"
+    },
+    {
+      "fallback": "Itachi asked Naruto why he insisted on trying to save Sasuke who doesn't want to be saved, and Naruto replied he was more a brother to him than he ever was.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_03.intro1"
+    },
+    {
+      "fallback": "Satisfied with his answer, Itachi departs, but not before performing a technique on Naruto, to prepare him for the chance that Sasuke attacks Konoha.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Decoding the Message",
+    "translate": "quest.narutorpg.fated_battle_between_brothers_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fated_battle_between_brothers_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: Decoding the Message",
+        "translate": "quest.narutorpg.fated_battle_between_brothers_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 114402,
+  "outro": [
+    {
+      "fallback": "After several days to weeks, Naruto successfully learned how to remain perfectly still in order to mould enough natural chakra to enter Sage Mode, and even trained himself in secret to master his Wind Release...",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_03.outro0"
+    },
+    {
+      "fallback": "However, when time came to learn Sage Art: Amphibian Technique to allow Shima and Fukasaku to gather the natural chakra while in combat, the Nine-Tailed Demon Fox prevented the fusion requiring Naruto to come up with an...",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_03.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:fated_battle_between_brothers_02"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

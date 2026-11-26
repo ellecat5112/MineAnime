@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "The next day, Boruto wants Taiki to sail faster so they can help Team 5, and believes he just can't go faster when he claims he's going slow so as not to attract attention from pirates like the Funato. Kagura can tell they're about to enter hostile waters by listening to the sea birds in the air. The shinobi hide as the boat is boarded by Funato clansmen.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "The next day, Boruto wants Taiki to sail faster so they can help Team 5, and believes he just can't go faster when he claims he's going slow so as not to attract attention from pirates like the Funato.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.intro0"
+    },
+    {
+      "fallback": "Kagura can tell they're about to enter hostile waters by listening to the sea birds in the air.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.intro1"
+    },
+    {
+      "fallback": "The shinobi hide as the boat is boarded by Funato clansmen.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Infiltrating Dotō Island",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: Infiltrating Dotō Island",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 224302,
+  "outro": [
+    {
+      "fallback": "Buntan assures Sarada they're taking this mission seriously as a way to shorten their sentences, and if they wanted to do anything, it wouldn't be in front of Kagura.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.outro0"
+    },
+    {
+      "fallback": "They come across a destroyed island where villagers stood up to the Funato.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_02"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

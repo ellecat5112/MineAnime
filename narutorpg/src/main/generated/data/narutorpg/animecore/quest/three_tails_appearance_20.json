@@ -1,0 +1,64 @@
+{
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "After Yūkimaru reveals to the Orochimaru Search Team that Naruto and Guren are trapped inside the Three-Tailed Turtle and that he knows how to find the tailed beast, Kakashi orders Lee, Tenten, Kiba and Akamaru to deal with Team Guren while the others try to locate the beast and rescue Naruto.",
+    "translate": "quest.narutorpg.three_tails_appearance_20.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "After Yūkimaru reveals to the Orochimaru Search Team that Naruto and Guren are trapped inside the Three-Tailed Turtle and that he knows how to find the tailed beast, Kakashi orders Lee, Tenten, Kiba and Akamaru to deal...",
+      "translate": "quest.narutorpg.three_tails_appearance_20.intro0"
+    }
+  ],
+  "name": {
+    "fallback": "Guidepost of the Camellia",
+    "translate": "quest.narutorpg.three_tails_appearance_20"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.three_tails_appearance_20.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Guidepost of the Camellia",
+        "translate": "quest.narutorpg.three_tails_appearance_20.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.three_tails_appearance_20.o3"
+      }
+    }
+  ],
+  "order": 109919,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_19"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

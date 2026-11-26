@@ -1,0 +1,15 @@
+{
+  "appearance": {
+    "accent": 3622735,
+    "hair": 6111287,
+    "top": 2635155
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Temujin",
+    "translate": "npc.narutorpg.temujin"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

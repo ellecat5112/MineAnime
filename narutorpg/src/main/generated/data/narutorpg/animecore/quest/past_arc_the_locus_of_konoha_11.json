@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:nekobaa_ally_shippuden",
+    "narutorpg:sakura_haruno_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "A group of ninja cats led by a giant cat visit Nekobaa's shop who want to buy tools from her. While finding an old book of hers, a picture of Team 7 with a giant paw print falls from which the cat leader picks up and has a flashback. Team 7 is hired by Nekobaa to get the paw print of the boss of the ninja cat underworld, Nekomata to put in her Paw Encyclopaedia which was a game played by Itachi Uchiha and Sasuke...",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "A group of ninja cats led by a giant cat visit Nekobaa's shop who want to buy tools from her.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.intro0"
+    },
+    {
+      "fallback": "While finding an old book of hers, a picture of Team 7 with a giant paw print falls from which the cat leader picks up and has a flashback.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.intro1"
+    },
+    {
+      "fallback": "Team 7 is hired by Nekobaa to get the paw print of the boss of the ninja cat underworld, Nekomata to put in her Paw Encyclopaedia which was a game played by Itachi Uchiha and Sasuke when they were younger.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Paw Encyclopaedia",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Paw Encyclopaedia",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nekomata_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nekomata",
+        "translate": "quest.narutorpg.defeat.nekomata_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118610,
+  "outro": [
+    {
+      "fallback": "Nekomata remembers seven years before his fight with Sasuke that he fought and lost to Itachi who told him Sasuke will fight him in seven years and to not hold back on him.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.outro0"
+    },
+    {
+      "fallback": "Nekobaa states that it is unfortunate that the two brothers who loved each other eventually began to have hatred towards to each other.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_11.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_10"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

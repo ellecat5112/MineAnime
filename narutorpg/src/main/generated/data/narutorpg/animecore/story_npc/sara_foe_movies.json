@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 4431943,
+    "hair": 14737632,
+    "hair_style": "long",
+    "top": 1793568
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 331.0,
+  "name": {
+    "fallback": "Sāra",
+    "translate": "npc.narutorpg.sara"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Furido tells Sora that he had been waiting for him and offers him a baked potato. However, after smelling the soil of the hidden tombs in the breeze, he discovers that Furido is one of the grave robbers and attempts to attack, although he is easily overpowered by Furido. Using a Five Elements Unseal, he unlocks Sora's true power, causing Sora's bandaged right arm to transform into a monstrous limb.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_08.desc"
+  },
+  "giver": "narutorpg:sora",
+  "intro": [
+    {
+      "fallback": "Furido tells Sora that he had been waiting for him and offers him a baked potato.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_08.intro0"
+    },
+    {
+      "fallback": "However, after smelling the soil of the hidden tombs in the breeze, he discovers that Furido is one of the grave robbers and attempts to attack, although he is easily overpowered by Furido.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_08.intro1"
+    },
+    {
+      "fallback": "Using a Five Elements Unseal, he unlocks Sora's true power, causing Sora's bandaged right arm to transform into a monstrous limb.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Contact",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sora",
+      "text": {
+        "fallback": "Talk to Sora",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: Contact",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kazuma_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kazuma",
+        "translate": "quest.narutorpg.defeat.kazuma_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106407,
+  "outro": [
+    {
+      "fallback": "Using a Five Elements Unseal, he unlocks Sora's true power, causing Sora's bandaged right arm to transform into a monstrous limb.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_08.outro0"
+    },
+    {
+      "fallback": "Sora attempts to defeat Furido using an enhanced version of his Beast Tearing Gale Palm, but the attack is blocked by Furido's wind twister.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_08.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_07"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,102 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_movies",
+    "narutorpg:killer_b_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Blood Prison",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_blood_prison"
+  },
+  "description": {
+    "fallback": "Naruto is amazed that Killer B and all his friends have gathered there. As Naruto wonders why this is happening, Tsunade reveals that it was Naruto's mission to destroy the box and that no one believed that Naruto really committed any of the crimes. It was also revealed that Maroi was a friend of B's and he was the mysterious voice.",
+    "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Naruto is amazed that Killer B and all his friends have gathered there.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.intro0"
+    },
+    {
+      "fallback": "As Naruto wonders why this is happening, Tsunade reveals that it was Naruto's mission to destroy the box and that no one believed that Naruto really committed any of the crimes.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.intro1"
+    },
+    {
+      "fallback": "It was also revealed that Maroi was a friend of B's and he was the mysterious voice.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Part 3",
+        "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryuzetsu_foe_movies",
+      "text": {
+        "fallback": "Defeat Ryūzetsu",
+        "translate": "quest.narutorpg.defeat.ryuzetsu_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:satori_foe_movies",
+      "text": {
+        "fallback": "Defeat Satori",
+        "translate": "quest.narutorpg.defeat.satori_foe_movies"
+      }
+    }
+  ],
+  "order": 301702,
+  "outro": [
+    {
+      "fallback": "In the aftermath, Mui and Ryūzetsu were shown to be buried next to each other.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.outro0"
+    },
+    {
+      "fallback": "Naruto then ties Ryūzetsu's bandanna around her gravestone, promising to cherish the life she returned to him, and re-quoting what she said about being a guiding light by protecting the things people cherish.",
+      "translate": "quest.narutorpg.naruto_the_movie_blood_prison_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_the_movie_blood_prison_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 2635155,
+    "eyes": 4431943,
+    "hair": 10395294,
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 1793568
+  },
+  "attack": 13.0,
+  "health": 186.0,
+  "name": {
+    "fallback": "Iō (Bamboo Village)",
+    "translate": "npc.narutorpg.io_bamboo_village"
+  },
+  "power": 2.08,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

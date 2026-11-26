@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Denki is unable to fix the damaged ship parts. Kagura believes they'll have to use a lifeboat to request aid at the nearest island. Boruto suffers from heatstroke and falls into the ocean, where he is saved by a figure with webbed fingers.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.desc"
+  },
+  "giver": "narutorpg:denki_kaminarimon",
+  "intro": [
+    {
+      "fallback": "Denki is unable to fix the damaged ship parts.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.intro0"
+    },
+    {
+      "fallback": "Kagura believes they'll have to use a lifeboat to request aid at the nearest island.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.intro1"
+    },
+    {
+      "fallback": "Boruto suffers from heatstroke and falls into the ocean, where he is saved by a figure with webbed fingers.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Boy from the Isle of Shipbuilders",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:denki_kaminarimon",
+      "text": {
+        "fallback": "Talk to Denki Kaminarimon",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Go: The Boy from the Isle of Shipbuilders",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kagura_karatachi",
+      "text": {
+        "fallback": "Meet Kagura Karatachi",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.o3"
+      }
+    }
+  ],
+  "order": 224306,
+  "outro": [
+    {
+      "fallback": "The boy introduces himself as Ikada, Kajiki's apprentice, and notes most of them are Konoha shinobi.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.outro0"
+    },
+    {
+      "fallback": "Kagura explains their situation, and deciding he can't fix the ship there, Kajiki has Ikada prepare for their ship to tow the damaged one.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_06"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:bashosen_coil_of_wind",
+    "narutorpg:beast_tearing_gale_palm"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "pants": 4073251,
+    "skin": 16767916,
+    "top": 2635155
+  },
+  "attack": 18.2,
+  "cast_interval": 40,
+  "health": 634.0,
+  "name": {
+    "fallback": "Zansūru",
+    "translate": "npc.narutorpg.zansuru"
+  },
+  "power": 2.46,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

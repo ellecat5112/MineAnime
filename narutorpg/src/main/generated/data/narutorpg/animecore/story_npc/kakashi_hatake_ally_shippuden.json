@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:chidori",
+    "narutorpg:demonic_illusion_hell_viewing_technique",
+    "narutorpg:double_dynamic_entry",
+    "narutorpg:dynamic_entry",
+    "narutorpg:earth_release_double_suicide_decapitation_technique",
+    "narutorpg:area_scanning_technique"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 1118481,
+    "hair": 13621468,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "mark": "mask",
+    "outfit": "jacket",
+    "pants": 1976900,
+    "top": 1976900
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Kakashi Hatake",
+    "translate": "npc.narutorpg.kakashi_hatake"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

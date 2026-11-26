@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:flowerfruit_mountain",
+    "narutorpg:lava_release_chakra_mode",
+    "narutorpg:lava_release_scorching_armoured_fist",
+    "narutorpg:lava_release_scorching_stream_rock_technique",
+    "narutorpg:monkey_flame_arson"
+  ],
+  "appearance": {
+    "accent": 12000284,
+    "eyes": 2001125,
+    "hair": 12986408,
+    "headband": 7162945,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 16767916,
+    "top": 9268835
+  },
+  "attack": 12.0,
+  "health": 172.0,
+  "name": {
+    "fallback": "Rōshi",
+    "translate": "npc.narutorpg.roshi"
+  },
+  "power": 1.96,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

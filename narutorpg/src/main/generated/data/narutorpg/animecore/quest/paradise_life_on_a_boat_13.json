@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:jiraiya_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "Kokuyō wants Shizuka to be his wife in order to control her village, which she repeatedly spurns his advances. Tokiwa, her attendant saw Naruto and after being told that he was Jiraiya's student told him he had to battle Shizuka for his hand in marriage as Jiraiya had promised Shizuka's mentor. He declined the offer, but however Tokiwa tracked him down, and narrated Shizuka's past to him, as she also was against the...",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_13.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Kokuyō wants Shizuka to be his wife in order to control her village, which she repeatedly spurns his advances.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_13.intro0"
+    },
+    {
+      "fallback": "Tokiwa, her attendant saw Naruto and after being told that he was Jiraiya's student told him he had to battle Shizuka for his hand in marriage as Jiraiya had promised Shizuka's mentor.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_13.intro1"
+    },
+    {
+      "fallback": "He declined the offer, but however Tokiwa tracked him down, and narrated Shizuka's past to him, as she also was against the village's law that female should marry the man who defeats them in battle, and accept the duel.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Kunoichi of Nadeshiko Village",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: The Kunoichi of Nadeshiko Village",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_13.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kokuyo_puppeteer_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kokuyō (puppeteer)",
+        "translate": "quest.narutorpg.defeat.kokuyo_puppeteer_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tokiwa_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Tokiwa",
+        "translate": "quest.narutorpg.defeat.tokiwa_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shizuka_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Shizuka",
+        "translate": "quest.narutorpg.defeat.shizuka_foe_shippuden"
+      }
+    }
+  ],
+  "order": 123312,
+  "outro": [
+    {
+      "fallback": "Naruto talks to Shizuka about his unrequited love for Sakura Haruno in order to encourage Shizuka to rethink her destiny.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_13.outro0"
+    },
+    {
+      "fallback": "At the end, she decided to return to the village.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_13.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_12"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

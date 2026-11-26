@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:magnet_ninja_art",
+    "narutorpg:magnet_ninja_art_infinite_meteors",
+    "narutorpg:magnet_ninja_art_electromagnetic_vision"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 4431943,
+    "hair": 10395294,
+    "hair_style": "spiky",
+    "pants": 1713022,
+    "top": 2635155
+  },
+  "attack": 5.7,
+  "cast_interval": 70,
+  "health": 84.0,
+  "name": {
+    "fallback": "Jiga",
+    "translate": "npc.narutorpg.jiga"
+  },
+  "power": 1.26,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

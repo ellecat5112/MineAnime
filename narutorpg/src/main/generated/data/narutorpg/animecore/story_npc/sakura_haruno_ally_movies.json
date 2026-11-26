@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:booby_trap",
+    "narutorpg:chakra_enhanced_strength",
+    "narutorpg:chakra_scalpel",
+    "narutorpg:cherry_blossom_impact",
+    "narutorpg:demonic_illusion_tree_binding_death",
+    "narutorpg:area_scanning_technique"
+  ],
+  "appearance": {
+    "accent": 16119285,
+    "eyes": 4431943,
+    "hair": 16027569,
+    "headband": 1981066,
+    "mark": "forehead",
+    "pants": 3622735,
+    "top": 12986408
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Sakura Haruno",
+    "translate": "npc.narutorpg.sakura_haruno"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

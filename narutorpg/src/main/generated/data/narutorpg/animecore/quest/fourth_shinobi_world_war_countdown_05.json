@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Countdown",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_countdown"
+  },
+  "description": {
+    "fallback": "At the Falls of Truth, Motoi tells Naruto to sit in front of the waterfall and close his eyes when an evil version of Naruto appears from the waterfall. Dark Naruto begins to insult the real Naruto, stating that he's an impostor and insults him over the choices he's made, which angers Naruto. They fight but Naruto realises that they are both evenly matched so the battle ends in a tie.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "At the Falls of Truth, Motoi tells Naruto to sit in front of the waterfall and close his eyes when an evil version of Naruto appears from the waterfall.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.intro0"
+    },
+    {
+      "fallback": "Dark Naruto begins to insult the real Naruto, stating that he's an impostor and insults him over the choices he's made, which angers Naruto.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.intro1"
+    },
+    {
+      "fallback": "They fight but Naruto realises that they are both evenly matched so the battle ends in a tie.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Nine-Tails Control Training",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Nine-Tails Control Training",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 122504,
+  "outro": [
+    {
+      "fallback": "Naruto states he has faith in himself and hugs Dark Naruto which causes him to disappear into Naruto.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.outro0"
+    },
+    {
+      "fallback": "With the darkness eliminated inside of him, B takes",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_05.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_countdown_04"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

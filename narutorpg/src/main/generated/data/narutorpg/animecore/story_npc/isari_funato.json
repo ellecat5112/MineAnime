@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 4431943,
+    "hair": 2503224,
+    "hair_style": "spiky",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 4545124
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Isari Funato",
+    "translate": "npc.narutorpg.isari_funato"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] At night, Isari sails to Kirigakure with a fleet. A governor allied with him comments on their partnership before going inside. Isari and his subordinate Jibiki dislike the quiet ocean, and wish for it be a raging ocean.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "At night, Isari sails to Kirigakure with a fleet.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.intro0"
+    },
+    {
+      "fallback": "A governor allied with him comments on their partnership before going inside.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.intro1"
+    },
+    {
+      "fallback": "Isari and his subordinate Jibiki dislike the quiet ocean, and wish for it be a raging ocean.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The New Team 7 Jumps Into Action",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: The New Team 7 Jumps Into Action",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:isari_funato",
+      "text": {
+        "fallback": "Meet Isari Funato",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.o3"
+      }
+    }
+  ],
+  "order": 224300,
+  "outro": [
+    {
+      "fallback": "Kawaki is still seasick when they arrive, so they tell him to rest.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.outro0"
+    },
+    {
+      "fallback": "Sarada recalls Team 5 is also on a mission in the Land of Water, and Katasuke informs them of the details, and that he'll join them after the ceremony.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

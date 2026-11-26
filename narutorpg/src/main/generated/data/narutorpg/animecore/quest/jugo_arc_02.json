@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Jūgo Arc",
+    "translate": "quest.narutorpg.arc.jugo_arc"
+  },
+  "description": {
+    "fallback": "Boruto and Sarada flee the cave and intend to warn Konohamaru. Konohamaru and Mitsuki arrive just in time to protect them from Jūgo's attack. Konohamaru berates them for not contacting him right away, and explains that Jūgo is under a complete Cursed Seal Transformation and running on killing instinct.",
+    "translate": "quest.narutorpg.jugo_arc_02.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Boruto and Sarada flee the cave and intend to warn Konohamaru.",
+      "translate": "quest.narutorpg.jugo_arc_02.intro0"
+    },
+    {
+      "fallback": "Konohamaru and Mitsuki arrive just in time to protect them from Jūgo's attack.",
+      "translate": "quest.narutorpg.jugo_arc_02.intro1"
+    },
+    {
+      "fallback": "Konohamaru berates them for not contacting him right away, and explains that Jūgo is under a complete Cursed Seal Transformation and running on killing instinct.",
+      "translate": "quest.narutorpg.jugo_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jūgo and the Curse Mark",
+    "translate": "quest.narutorpg.jugo_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.jugo_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Go: Jūgo and the Curse Mark",
+        "translate": "quest.narutorpg.jugo_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 210801,
+  "outro": [
+    {
+      "fallback": "Jūgo wakes up, and when an afflicted bird attacks them, he removes their cursed seal.",
+      "translate": "quest.narutorpg.jugo_arc_02.outro0"
+    },
+    {
+      "fallback": "Jūgo refuses to answer Boruto's question, handing him the kunai he used to kill birds earlier.",
+      "translate": "quest.narutorpg.jugo_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:jugo_arc_01"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

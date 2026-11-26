@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Naruto the Movie: Ninja Clash in the Land of Snow",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_ninja_clash_in_the_land_of_snow"
+  },
+  "description": {
+    "fallback": "As it turned out, Naruto was actually watching the scene in a movie, as was the rest of Team 7. However, the audience of the movie began to throw objects at the team for making so much noise whilst arguing with the cinema manager. As the team is forced to leave the theatre without being able to see the ending, suddenly the actress who played Princess Fūun, Yukie Fujikaze passes by on horse, being chased by armoured...",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As it turned out, Naruto was actually watching the scene in a movie, as was the rest of Team 7.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.intro0"
+    },
+    {
+      "fallback": "However, the audience of the movie began to throw objects at the team for making so much noise whilst arguing with the cinema manager.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.intro1"
+    },
+    {
+      "fallback": "As the team is forced to leave the theatre without being able to see the ending, suddenly the actress who played Princess Fūun, Yukie Fujikaze passes by on horse, being chased by armoured men on horses as well.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: Part 2",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_movies",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.movies"
+      }
+    }
+  ],
+  "order": 301001,
+  "outro": [
+    {
+      "fallback": "Sandayū would eventually find her on stage one day and considered himself lucky to have become her manager.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.outro0"
+    },
+    {
+      "fallback": "After the discussion, the director would decide that the filming would continue, intrigued by the idea of having a real princess play the princess in the movie.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_02.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_ninja_clash_in_the_land_of_snow_01"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

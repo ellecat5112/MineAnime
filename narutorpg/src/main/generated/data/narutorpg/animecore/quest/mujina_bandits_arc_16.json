@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:kokuri_ally_boruto",
+    "narutorpg:ikkyu_madoka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Shojoji questions Boruto's presence after his escort mission is over. Boruto derides him as a shinobi. Shojoji signals his underlings to deal with Boruto, but he makes short work of them.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_16.desc"
+  },
+  "giver": "narutorpg:sai",
+  "intro": [
+    {
+      "fallback": "Shojoji questions Boruto's presence after his escort mission is over.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_16.intro0"
+    },
+    {
+      "fallback": "Boruto derides him as a shinobi.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_16.intro1"
+    },
+    {
+      "fallback": "Shojoji signals his underlings to deal with Boruto, but he makes short work of them.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_16.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Boruto and Tentō",
+    "translate": "quest.narutorpg.mujina_bandits_arc_16"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sai",
+      "text": {
+        "fallback": "Talk to Sai",
+        "translate": "quest.narutorpg.mujina_bandits_arc_16.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Boruto and Tentō",
+        "translate": "quest.narutorpg.mujina_bandits_arc_16.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shojoji_foe_boruto",
+      "text": {
+        "fallback": "Defeat Shojoji",
+        "translate": "quest.narutorpg.defeat.shojoji_foe_boruto"
+      }
+    }
+  ],
+  "order": 215115,
+  "outro": [
+    {
+      "fallback": "Tentō hits Shojoji with a shuriken, his surprise at it creating an opening for Boruto to land a Rasengan without Shojoji reflecting it.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_16.outro0"
+    },
+    {
+      "fallback": "Shojoji decides to eat Boruto to take his jutsu, and Boruto's seal activates, causing him pain.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_16.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_15"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

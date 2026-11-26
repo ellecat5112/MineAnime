@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:asuma_sarutobi_ally_shippuden",
+    "narutorpg:kakashi_hatake_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Akatsuki Suppression Mission",
+    "translate": "quest.narutorpg.arc.akatsuki_suppression_mission"
+  },
+  "description": {
+    "fallback": "The new three-man Team 10 prepared to leave and continue Asuma's mission. However, Tsunade refused to let Team 10 go, since they lacked a captain. Kakashi volunteered to temporarily fill the gap, and the four-man team headed off.",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_04.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "The new three-man Team 10 prepared to leave and continue Asuma's mission.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_04.intro0"
+    },
+    {
+      "fallback": "However, Tsunade refused to let Team 10 go, since they lacked a captain.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_04.intro1"
+    },
+    {
+      "fallback": "Kakashi volunteered to temporarily fill the gap, and the four-man team headed off.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team 10 vs. Hidan and Kakuzu",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: Team 10 vs. Hidan and Kakuzu",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kakuzu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kakuzu",
+        "translate": "quest.narutorpg.defeat.kakuzu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hidan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hidan",
+        "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
+      }
+    }
+  ],
+  "order": 108203,
+  "outro": [
+    {
+      "fallback": "Shikamaru decided to separate Hidan and Kakuzu from each other.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_04.outro0"
+    },
+    {
+      "fallback": "Once again capturing Hidan with a Shadow Imi",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:akatsuki_suppression_mission_03"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

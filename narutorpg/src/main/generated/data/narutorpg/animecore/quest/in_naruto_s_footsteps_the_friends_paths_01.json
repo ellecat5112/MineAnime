@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:gaara_ally_shippuden",
+    "narutorpg:kankuro_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "In Naruto's Footsteps: The Friends' Paths",
+    "translate": "quest.narutorpg.arc.in_naruto_s_footsteps_the_friends_paths"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Tsunade, along with the Konoha Council, arranges a meeting with Gaara, who was recently appointed Kazekage, to propose her plans of the new Chūnin Exams. During this meeting, Kankurō and Temari are unsure of Tsunade's intentions and she reveals her motive behind it is to lure Akatsuki in the open. Gaara proposes the exams be held in Sunagakure, hoping to bring Akatsuki out of hiding, as well as exposing those who...",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Tsunade, along with the Konoha Council, arranges a meeting with Gaara, who was recently appointed Kazekage, to propose her plans of the new Chūnin Exams.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.intro0"
+    },
+    {
+      "fallback": "During this meeting, Kankurō and Temari are unsure of Tsunade's intentions and she reveals her motive behind it is to lure Akatsuki in the open.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.intro1"
+    },
+    {
+      "fallback": "Gaara proposes the exams be held in Sunagakure, hoping to bring Akatsuki out of hiding, as well as exposing those who are staging a coup d'état against him.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Invitations & Preparations",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: The Invitations & Preparations",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:konan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Konan",
+        "translate": "quest.narutorpg.defeat.konan_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hanzo_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hanzō",
+        "translate": "quest.narutorpg.defeat.hanzo_foe_shippuden"
+      }
+    }
+  ],
+  "order": 140400,
+  "outro": [
+    {
+      "fallback": "Though Sakura turns down this offer, she eventually accepts in the end.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.outro0"
+    },
+    {
+      "fallback": "All of the genin teams from foreign villages enter through the Konoha gates, signifying the beginning of the Chūnin Exams.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_01.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:birth_of_the_ten_tails_jinchuriki_08"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:first_animal_path_character_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "The two bodies that Pain summons turned out to also possess the Rinnegan. Although confused that there are three people with the Rinnegan, Jiraiya attacks, blinding one of the Rinnegan wielders. He then joins Two Great Sage Toads in a joint elemental attack, but the second body absorbs it and all of their subsequent attacks.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "The two bodies that Pain summons turned out to also possess the Rinnegan.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.intro0"
+    },
+    {
+      "fallback": "Although confused that there are three people with the Rinnegan, Jiraiya attacks, blinding one of the Rinnegan wielders.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.intro1"
+    },
+    {
+      "fallback": "He then joins Two Great Sage Toads in a joint elemental attack, but the second body absorbs it and all of their subsequent attacks.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sage Mode!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: Sage Mode!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113716,
+  "outro": [
+    {
+      "fallback": "Jiraiya tries to attack the blinded body, but it has no difficulty blocking attacks that one of the other bodies can see.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.outro0"
+    },
+    {
+      "fallback": "Noticing this, Fukasaku hypothesises that they are somehow able to share vision.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_17.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_16"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

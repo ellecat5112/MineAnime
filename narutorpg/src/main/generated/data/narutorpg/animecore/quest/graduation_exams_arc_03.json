@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Graduation Exams Arc",
+    "translate": "quest.narutorpg.arc.graduation_exams_arc"
+  },
+  "description": {
+    "fallback": "Boruto's class take their written exam. Denki and Iwabee celebrate successfully stealing the questions from the teacher's lounge. Boruto considers it cheating, but Sarada points out Shino telling them to check the questions and make a strategy before, implying the test was their intelligence gathering skills.",
+    "translate": "quest.narutorpg.graduation_exams_arc_03.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Boruto's class take their written exam.",
+      "translate": "quest.narutorpg.graduation_exams_arc_03.intro0"
+    },
+    {
+      "fallback": "Denki and Iwabee celebrate successfully stealing the questions from the teacher's lounge.",
+      "translate": "quest.narutorpg.graduation_exams_arc_03.intro1"
+    },
+    {
+      "fallback": "Boruto considers it cheating, but Sarada points out Shino telling them to check the questions and make a strategy before, implying the test was their intelligence gathering skills.",
+      "translate": "quest.narutorpg.graduation_exams_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Graduation Exam Begins!",
+    "translate": "quest.narutorpg.graduation_exams_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.graduation_exams_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Go: The Graduation Exam Begins!",
+        "translate": "quest.narutorpg.graduation_exams_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 204402,
+  "outro": [
+    {
+      "fallback": "They explain the rules of the exam, giving each student a white bandanna, and pointing out targets on themselves.",
+      "translate": "quest.narutorpg.graduation_exams_arc_03.outro0"
+    },
+    {
+      "fallback": "If a student has their bandanna taken they fail, if a teacher has their target destroyed they can no longer fight the students.",
+      "translate": "quest.narutorpg.graduation_exams_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:graduation_exams_arc_02"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,103 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:motoi_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Countdown",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_countdown"
+  },
+  "description": {
+    "fallback": "Tobi appears before Kabuto, his arm restored, wearing a new mask resembling the eye of the Ten-Tails, his old Uchiha robes (replacing his Akatsuki uniform), and wielding a warfan. Kabuto mentions that Tobi went through a lot of trouble to obtain his new eye, to which Tobi replies that they were his to begin with. Zetsu informs him that Kisame succeeded delivering the information he had obtained.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Tobi appears before Kabuto, his arm restored, wearing a new mask resembling the eye of the Ten-Tails, his old Uchiha robes (replacing his Akatsuki uniform), and wielding a warfan.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.intro0"
+    },
+    {
+      "fallback": "Kabuto mentions that Tobi went through a lot of trouble to obtain his new eye, to which Tobi replies that they were his to begin with.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.intro1"
+    },
+    {
+      "fallback": "Zetsu informs him that Kisame succeeded delivering the information he had obtained.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Final Preparations",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: The Final Preparations",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:deidara_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Deidara",
+        "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kisame_hoshigaki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kisame Hoshigaki",
+        "translate": "quest.narutorpg.defeat.kisame_hoshigaki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 122507,
+  "outro": [
+    {
+      "fallback": "In the ocean, a giant snake of Kabuto's (his clone of Manda he calls Manda II) bites the island turtle's tail, which reveals its location with its screams of pain.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.outro0"
+    },
+    {
+      "fallback": "Kabuto and Deidara head to the i",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_08.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_countdown_07"
+  ],
+  "rewards": {
+    "experience": 29,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 7
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

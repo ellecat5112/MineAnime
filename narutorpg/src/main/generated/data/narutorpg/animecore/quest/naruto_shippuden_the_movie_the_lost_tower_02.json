@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_movies",
+    "narutorpg:shibi_aburame_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Lost Tower",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_lost_tower"
+  },
+  "description": {
+    "fallback": "Later, Naruto meets Minato again in the queen's palace. Minato scolds him for not keeping his promise, but Naruto tells him that he has no choice and tells him what has happened to him. Seeing the circumstances, Minato and his team reveal themselves and that time Naruto remarks that Minato looks a lot like the Fourth Hokage.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Later, Naruto meets Minato again in the queen's palace.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.intro0"
+    },
+    {
+      "fallback": "Minato scolds him for not keeping his promise, but Naruto tells him that he has no choice and tells him what has happened to him.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.intro1"
+    },
+    {
+      "fallback": "Seeing the circumstances, Minato and his team reveal themselves and that time Naruto remarks that Minato looks a lot like the Fourth Hokage.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 2",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Part 2",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mukade_movie_foe_movies",
+      "text": {
+        "fallback": "Defeat Mukade (movie)",
+        "translate": "quest.narutorpg.defeat.mukade_movie_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sara_foe_movies",
+      "text": {
+        "fallback": "Defeat Sāra",
+        "translate": "quest.narutorpg.defeat.sara_foe_movies"
+      }
+    }
+  ],
+  "order": 301601,
+  "outro": [
+    {
+      "fallback": "They insist Sāra to return it, much to her confusion.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.outro0"
+    },
+    {
+      "fallback": "Naruto enters the room to her aid, only to discover that the group is actually a group of women and children and they don't mean to hurt Sāra at the first place.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_02.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_lost_tower_01"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

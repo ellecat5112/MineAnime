@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "School Trip Arc",
+    "translate": "quest.narutorpg.arc.school_trip_arc"
+  },
+  "description": {
+    "fallback": "As Kagura Karatachi escorts the group, Boruto tells Iwabee not to wander off and pick fights again. Kagura points out some villagers don't like outsiders. He introduces them to Mei, the previous Mizukage, and lists her previous efforts during the war and in beginning Kirigakure's expansion.",
+    "translate": "quest.narutorpg.school_trip_arc_02.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "As Kagura Karatachi escorts the group, Boruto tells Iwabee not to wander off and pick fights again.",
+      "translate": "quest.narutorpg.school_trip_arc_02.intro0"
+    },
+    {
+      "fallback": "Kagura points out some villagers don't like outsiders.",
+      "translate": "quest.narutorpg.school_trip_arc_02.intro1"
+    },
+    {
+      "fallback": "He introduces them to Mei, the previous Mizukage, and lists her previous efforts during the war and in beginning Kirigakure's expansion.",
+      "translate": "quest.narutorpg.school_trip_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Mizukage's Successor",
+    "translate": "quest.narutorpg.school_trip_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.school_trip_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Go: The Mizukage's Successor",
+        "translate": "quest.narutorpg.school_trip_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 203501,
+  "outro": [
+    {
+      "fallback": "Sarada discreetly calls him out on it, but Chōjūrō does concede long speeches are boring.",
+      "translate": "quest.narutorpg.school_trip_arc_02.outro0"
+    },
+    {
+      "fallback": "As the group leaves, Chōjūrō asks if Kagura will give something another try, wanting to groom Kagura for something in the future.",
+      "translate": "quest.narutorpg.school_trip_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

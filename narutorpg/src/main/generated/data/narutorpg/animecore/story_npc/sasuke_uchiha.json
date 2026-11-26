@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 9479342,
+    "eyes": 1118481,
+    "hair": 1382174,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "pants": 14737632,
+    "top": 1844545
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Sasuke Uchiha",
+    "translate": "npc.narutorpg.sasuke_uchiha"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:ryusui_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "When Ryūsui refuses to give up knowledge of the Akatsuki, Jiraiya leaves him trapped inside the stomach of a toad while he decides to deal with Pain himself. However, fearing the worst possible outcome, he regurgitates Gerotora, a scroll toad. In the event that he dies, he tells Gerotora to reside with Naruto, which Gerotora refuses to do, since he holds the \"key\" to the Eight Trigrams Seal on Naruto's stomach, and...",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "When Ryūsui refuses to give up knowledge of the Akatsuki, Jiraiya leaves him trapped inside the stomach of a toad while he decides to deal with Pain himself.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.intro0"
+    },
+    {
+      "fallback": "However, fearing the worst possible outcome, he regurgitates Gerotora, a scroll toad.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.intro1"
+    },
+    {
+      "fallback": "In the event that he dies, he tells Gerotora to reside with Naruto, which Gerotora refuses to do, since he holds the \"key\" to the Eight Trigrams Seal on Naruto's stomach, and claims that the idea of having a key next to...",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Man Who Became God",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: The Man Who Became God",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:konan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Konan",
+        "translate": "quest.narutorpg.defeat.konan_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113703,
+  "outro": [
+    {
+      "fallback": "Pain himself arrives at that moment, and upon seeing the Rinnegan in his eyes, Jiraiya realises that Pain is in fact Nagato.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.outro0"
+    },
+    {
+      "fallback": "Summoning his Giant Crustacean, Pain uses its Water Release: Wild Bubble Wave to remove the oil coating Konan, freeing her.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_04.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_03"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

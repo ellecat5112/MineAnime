@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:jiraiya_ally_boruto",
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Time Slip Arc",
+    "translate": "quest.narutorpg.arc.time_slip_arc"
+  },
+  "description": {
+    "fallback": "Jiraiya tells Sasuke to dismiss his question about his identity as a joke. Boruto goes back to Naruto, the two get over their awkwardness from before and resume training. Jiraiya is willing to stop investigating Sasuke's and Boruto's identities if Sasuke gives him intel on Urashiki.",
+    "translate": "quest.narutorpg.time_slip_arc_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Jiraiya tells Sasuke to dismiss his question about his identity as a joke.",
+      "translate": "quest.narutorpg.time_slip_arc_06.intro0"
+    },
+    {
+      "fallback": "Boruto goes back to Naruto, the two get over their awkwardness from before and resume training.",
+      "translate": "quest.narutorpg.time_slip_arc_06.intro1"
+    },
+    {
+      "fallback": "Jiraiya is willing to stop investigating Sasuke's and Boruto's identities if Sasuke gives him intel on Urashiki.",
+      "translate": "quest.narutorpg.time_slip_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Village Without Sasuke",
+    "translate": "quest.narutorpg.time_slip_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.time_slip_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: A Village Without Sasuke",
+        "translate": "quest.narutorpg.time_slip_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213805,
+  "outro": [
+    {
+      "fallback": "He doesn't know what it's like to have parents or siblings, but he figures that his bond with Sasuke is the closest thing he has to a brother.",
+      "translate": "quest.narutorpg.time_slip_arc_06.outro0"
+    },
+    {
+      "fallback": "Sasuke tells Jiraiya that while his jutsu prevented Urashiki from stealing his chakra, he still hasn't replenished the chakra that was stolen during a previous fight, and that Urashiki could tell.",
+      "translate": "quest.narutorpg.time_slip_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:time_slip_arc_05"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

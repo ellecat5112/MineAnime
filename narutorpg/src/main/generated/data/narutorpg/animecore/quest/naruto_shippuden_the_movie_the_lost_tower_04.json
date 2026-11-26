@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_movies",
+    "narutorpg:naruto_uzumaki_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Lost Tower",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_lost_tower"
+  },
+  "description": {
+    "fallback": "Meanwhile, Minato is able to locate Anrokuzan's weakness but only to find that he cannot match the speed of his regeneration. Anrokuzan is able to get past him and aims to kill Sāra who is planning to seal off the Ryūmyaku for good. Minato then meets Naruto and tells him that he already figured out how to defeat Anrokuzan and he needs Naruto to perform Rasengan for him.",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Minato is able to locate Anrokuzan's weakness but only to find that he cannot match the speed of his regeneration.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.intro0"
+    },
+    {
+      "fallback": "Anrokuzan is able to get past him and aims to kill Sāra who is planning to seal off the Ryūmyaku for good.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.intro1"
+    },
+    {
+      "fallback": "Minato then meets Naruto and tells him that he already figured out how to defeat Anrokuzan and he needs Naruto to perform Rasengan for him.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 4",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Part 4",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sara_foe_movies",
+      "text": {
+        "fallback": "Defeat Sāra",
+        "translate": "quest.narutorpg.defeat.sara_foe_movies"
+      }
+    }
+  ],
+  "order": 301603,
+  "outro": [
+    {
+      "fallback": "Minato says that he is sure one day they would meet again and that time, Naruto would know what he wants to say.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.outro0"
+    },
+    {
+      "fallback": "Naruto begins to ask if Minato can possibly be his father, but Minato interrupts him and replies that if he ever had a son, he wishes that he",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_04.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_lost_tower_03"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

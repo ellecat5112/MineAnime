@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "narutorpg:lightning_release_elekiter",
+    "narutorpg:lightning_release_lightning_slash",
+    "narutorpg:lightning_release_overdrive"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "hair": 2503224,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 2046559
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Denki Kaminarimon",
+    "translate": "npc.narutorpg.denki_kaminarimon"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

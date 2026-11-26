@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "narutorpg:acid_permeation",
+    "narutorpg:blinding_bubbles_technique",
+    "narutorpg:drowning_bubble_technique",
+    "narutorpg:explosive_bubble",
+    "narutorpg:leech_gap",
+    "narutorpg:bubble_clone_technique"
+  ],
+  "appearance": {
+    "eyes": 2001125,
+    "hair": 5125166,
+    "hair_style": "spiky",
+    "headband": 3622735,
+    "outfit": "jacket",
+    "pants": 4073251
+  },
+  "attack": 8.9,
+  "cast_interval": 40,
+  "health": 288.0,
+  "name": {
+    "fallback": "Utakata",
+    "translate": "npc.narutorpg.utakata"
+  },
+  "power": 1.5,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

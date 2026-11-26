@@ -1,0 +1,82 @@
+{
+  "arc": {
+    "fallback": "One-Tail Escort Arc",
+    "translate": "quest.narutorpg.arc.one_tail_escort_arc"
+  },
+  "description": {
+    "fallback": "At Konoha, Naruto, Sasuke, and Shikamaru discuss the situation. They're concerned about the other tailed beasts, now that they know Urashiki wants to collect massive quantities of chakra. They wish to convene a Five Kage Summit.",
+    "translate": "quest.narutorpg.one_tail_escort_arc_07.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "At Konoha, Naruto, Sasuke, and Shikamaru discuss the situation.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_07.intro0"
+    },
+    {
+      "fallback": "They're concerned about the other tailed beasts, now that they know Urashiki wants to collect massive quantities of chakra.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_07.intro1"
+    },
+    {
+      "fallback": "They wish to convene a Five Kage Summit.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Shukaku's Trick",
+    "translate": "quest.narutorpg.one_tail_escort_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.one_tail_escort_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: Shukaku's Trick",
+        "translate": "quest.narutorpg.one_tail_escort_arc_07.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Meet Sasuke Uchiha",
+        "translate": "quest.narutorpg.one_tail_escort_arc_07.o3"
+      }
+    }
+  ],
+  "order": 213006,
+  "outro": [
+    {
+      "fallback": "They talk about their protection, and the others comment on Shukaku's absence in the meeting, which Kurama teasingly attributes to its current situation.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_07.outro0"
+    },
+    {
+      "fallback": "While tucking Himawari in, Naruto and Kurama recall how she knocked them both out when she awakened her Byakugan.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:one_tail_escort_arc_06"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

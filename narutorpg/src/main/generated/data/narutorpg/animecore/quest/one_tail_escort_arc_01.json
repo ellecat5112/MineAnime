@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "One-Tail Escort Arc",
+    "translate": "quest.narutorpg.arc.one_tail_escort_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] At the Lightning Burger, the Konoha genin discuss their plans for upcoming days off. While most are excited, Shikadai isn't looking forward to visiting his mother's family in the Land of Wind. Likewise, Boruto isn't excited to go camping with his excessively doting grandfather.",
+    "translate": "quest.narutorpg.one_tail_escort_arc_01.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "At the Lightning Burger, the Konoha genin discuss their plans for upcoming days off.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_01.intro0"
+    },
+    {
+      "fallback": "While most are excited, Shikadai isn't looking forward to visiting his mother's family in the Land of Wind.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_01.intro1"
+    },
+    {
+      "fallback": "Likewise, Boruto isn't excited to go camping with his excessively doting grandfather.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "With Sasuke as the Goal",
+    "translate": "quest.narutorpg.one_tail_escort_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.one_tail_escort_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: With Sasuke as the Goal",
+        "translate": "quest.narutorpg.one_tail_escort_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shikadai_nara",
+      "text": {
+        "fallback": "Meet Shikadai Nara",
+        "translate": "quest.narutorpg.one_tail_escort_arc_01.o3"
+      }
+    }
+  ],
+  "order": 213000,
+  "outro": [
+    {
+      "fallback": "He is rescued by Isago, and wakes up at her house the next day.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_01.outro0"
+    },
+    {
+      "fallback": "She encourages him to spend the night and go to the train station in the morning.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:steam_ninja_scrolls_arc_06"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

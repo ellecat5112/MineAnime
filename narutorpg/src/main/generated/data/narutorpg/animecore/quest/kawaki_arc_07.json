@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:ino_yamanaka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "Meanwhile, Naruto and Boruto were arguing as Boruto wanted to help but Naruto refused, as Isshiki is a complete monster who only he and Sasuke could fight against, but Boruto pointed out how Isshiki, while weakened, had defeated Naruto and Sasuke. Sasuke told Boruto he and Naruto would gladly die at Isshiki's hands to protect Konoha and told him if he had the same will just as Isshiki finally appeared in Konoha and...",
+    "translate": "quest.narutorpg.kawaki_arc_07.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Naruto and Boruto were arguing as Boruto wanted to help but Naruto refused, as Isshiki is a complete monster who only he and Sasuke could fight against, but Boruto pointed out how Isshiki, while weakened, had...",
+      "translate": "quest.narutorpg.kawaki_arc_07.intro0"
+    },
+    {
+      "fallback": "Sasuke told Boruto he and Naruto would gladly die at Isshiki's hands to protect Konoha and told him if he had the same will just as Isshiki finally appeared in Konoha and Ino notified Naruto.",
+      "translate": "quest.narutorpg.kawaki_arc_07.intro1"
+    },
+    {
+      "fallback": "As the shinobi quickly evacuated the civilians, with the order not to engage Isshiki, Isshiki soon approached two shinobi and easily neutralised thrown shuriken and used them to kill the other before getting the...",
+      "translate": "quest.narutorpg.kawaki_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Isshiki's Time Limit",
+    "translate": "quest.narutorpg.kawaki_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Isshiki's Time Limit",
+        "translate": "quest.narutorpg.kawaki_arc_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:momoshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Momoshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.momoshiki_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.isshiki_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jigen_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jigen",
+        "translate": "quest.narutorpg.defeat.jigen_foe_boruto"
+      }
+    }
+  ],
+  "order": 219806,
+  "outro": [
+    {
+      "fallback": "He inspected Boruto and determined the decompression of Momoshiki's Kāma to be about 80% complete.",
+      "translate": "quest.narutorpg.kawaki_arc_07.outro0"
+    },
+    {
+      "fallback": "Sasuke switched positions with Boruto and attempted a Chidori, but Isshiki swiftly neutralised the attack and after downing Sasuke, declared that while he could easily teleport back to Konoha, they w",
+      "translate": "quest.narutorpg.kawaki_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_06"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

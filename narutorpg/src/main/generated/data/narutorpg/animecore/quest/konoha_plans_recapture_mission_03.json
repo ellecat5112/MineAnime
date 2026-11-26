@@ -1,0 +1,68 @@
+{
+  "arc": {
+    "fallback": "Konoha Plans Recapture Mission",
+    "translate": "quest.narutorpg.arc.konoha_plans_recapture_mission"
+  },
+  "description": {
+    "fallback": "A Giant Eagle drops countless copies of the letter of introduction into town, serving as a diversion from Gennō's true plan. The genin group discovers that a kunai target in the Academy dōjō is actually the trigger for explosive tags in the Academy, and that explosive tags are planted all across the village.",
+    "translate": "quest.narutorpg.konoha_plans_recapture_mission_03.desc"
+  },
+  "giver": "narutorpg:genno",
+  "intro": [
+    {
+      "fallback": "A Giant Eagle drops countless copies of the letter of introduction into town, serving as a diversion from Gennō's true plan.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_03.intro0"
+    },
+    {
+      "fallback": "The genin group discovers that a kunai target in the Academy dōjō is actually the trigger for explosive tags in the Academy, and that explosive tags are planted all across the village.",
+      "translate": "quest.narutorpg.konoha_plans_recapture_mission_03.intro1"
+    }
+  ],
+  "name": {
+    "fallback": "The Missed Target",
+    "translate": "quest.narutorpg.konoha_plans_recapture_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:genno",
+      "text": {
+        "fallback": "Talk to Gennō",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: The Missed Target",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:genno_s_son",
+      "text": {
+        "fallback": "Meet Gennō's Son",
+        "translate": "quest.narutorpg.konoha_plans_recapture_mission_03.o3"
+      }
+    }
+  ],
+  "order": 20702,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:konoha_plans_recapture_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

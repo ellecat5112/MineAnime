@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:all_directions_shuriken",
+    "narutorpg:big_ball_rasengan",
+    "narutorpg:big_ball_spiralling_serial_spheres",
+    "narutorpg:big_ball_spiralling_serial_zone_spheres",
+    "narutorpg:big_truth_seeking_ball",
+    "narutorpg:boil_release_unrivalled_strength"
+  ],
+  "appearance": {
+    "accent": 1713022,
+    "eyes": 2001125,
+    "hair": 16763176,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "mark": "whiskers",
+    "outfit": "jacket",
+    "pants": 16088064,
+    "top": 16088064
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Naruto Uzumaki",
+    "translate": "npc.narutorpg.naruto_uzumaki"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:dance_of_the_camellia",
+    "narutorpg:dance_of_the_clematis_flower",
+    "narutorpg:dance_of_the_clematis_vine",
+    "narutorpg:dance_of_the_larch",
+    "narutorpg:dance_of_the_seedling_fern"
+  ],
+  "appearance": {
+    "accent": 8069026,
+    "eyes": 1118481,
+    "hair": 15527921,
+    "hair_style": "long",
+    "headband": 4854924,
+    "outfit": "bodysuit",
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 4854924
+  },
+  "attack": 5.7,
+  "cast_interval": 70,
+  "health": 84.0,
+  "name": {
+    "fallback": "Kimimaro",
+    "translate": "npc.narutorpg.kimimaro"
+  },
+  "power": 1.26,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

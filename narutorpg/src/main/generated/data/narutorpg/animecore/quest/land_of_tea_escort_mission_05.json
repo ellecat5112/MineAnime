@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Land of Tea Escort Mission",
+    "translate": "quest.narutorpg.arc.land_of_tea_escort_mission"
+  },
+  "description": {
+    "fallback": "Sasuke attacks Aoi with his Chidori, only to fail. Aoi sees his Sharingan up close and realises that he is a member of the Uchiha Clan, and remarks how the last of the clan is nothing but a failure who cannot live up to the family name and their Kekkei Genkai. Infuriated at Aoi's words, Sasuke attempts to kill Aoi with his Chidori again, but only manages to cause a crack in Aoi's Sword of the Thunder God.",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_05.desc"
+  },
+  "giver": "narutorpg:sakura_haruno",
+  "intro": [
+    {
+      "fallback": "Sasuke attacks Aoi with his Chidori, only to fail.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_05.intro0"
+    },
+    {
+      "fallback": "Aoi sees his Sharingan up close and realises that he is a member of the Uchiha Clan, and remarks how the last of the clan is nothing but a failure who cannot live up to the family name and their Kekkei Genkai.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_05.intro1"
+    },
+    {
+      "fallback": "Infuriated at Aoi's words, Sasuke attempts to kill Aoi with his Chidori again, but only manages to cause a crack in Aoi's Sword of the Thunder God.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Last Leg: A Final Act of Desperation",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sakura_haruno",
+      "text": {
+        "fallback": "Talk to Sakura Haruno",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: The Last Leg: A Final Act of Desperation",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:idate_morino_foe_naruto",
+      "text": {
+        "fallback": "Defeat Idate Morino",
+        "translate": "quest.narutorpg.defeat.idate_morino_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:aoi_rokusho_foe_naruto",
+      "text": {
+        "fallback": "Defeat Aoi Rokushō",
+        "translate": "quest.narutorpg.defeat.aoi_rokusho_foe_naruto"
+      }
+    }
+  ],
+  "order": 11204,
+  "outro": [
+    {
+      "fallback": "The tactic works, and Aoi's sword is broken; Aoi himself is sent into the air and then down the cliff.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_05.outro0"
+    },
+    {
+      "fallback": "With Aoi defeated, Naruto helps Idate catch up to Fukusuke.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:land_of_tea_escort_mission_04"
+  ],
+  "rewards": {
+    "experience": 19,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

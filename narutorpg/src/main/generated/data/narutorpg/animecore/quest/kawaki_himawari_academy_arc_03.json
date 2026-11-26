@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "On the way to the Academy, Himawari and Kawaki discuss the progress of his mission. Himawari points out that Hana is pleased that Kawaki made friends, concerned for her student. Kawaki has been unimpressed with her.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "On the way to the Academy, Himawari and Kawaki discuss the progress of his mission.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.intro0"
+    },
+    {
+      "fallback": "Himawari points out that Hana is pleased that Kawaki made friends, concerned for her student.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.intro1"
+    },
+    {
+      "fallback": "Kawaki has been unimpressed with her.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Bloom, Hana! The Teacher's Gifts",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: Bloom, Hana! The Teacher's Gifts",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 227102,
+  "outro": [
+    {
+      "fallback": "Many of the students ask Team 7 to be their teachers.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.outro0"
+    },
+    {
+      "fallback": "Hana feels deflated, lacking flashy jutsu.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_02"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

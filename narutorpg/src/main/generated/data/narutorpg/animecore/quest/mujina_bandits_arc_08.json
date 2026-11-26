@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kokuri_ally_boruto",
+    "narutorpg:kamata_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "The prison goes into lock-down. Boruto asks his cell-mates to check on their belongings, and he and Mitsuki explain what they deduced about who stole the medical tag and attacked Kokuri. Kamata is suspicious of Boruto's claim not to be Tsukiyo's accomplice, but Arai believes him.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_08.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "The prison goes into lock-down.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_08.intro0"
+    },
+    {
+      "fallback": "Boruto asks his cell-mates to check on their belongings, and he and Mitsuki explain what they deduced about who stole the medical tag and attacked Kokuri.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_08.intro1"
+    },
+    {
+      "fallback": "Kamata is suspicious of Boruto's claim not to be Tsukiyo's accomplice, but Arai believes him.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Criminal Targeting Kokuri",
+    "translate": "quest.narutorpg.mujina_bandits_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mujina_bandits_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: The Criminal Targeting Kokuri",
+        "translate": "quest.narutorpg.mujina_bandits_arc_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tsukiyo_foe_boruto",
+      "text": {
+        "fallback": "Defeat Tsukiyo",
+        "translate": "quest.narutorpg.defeat.tsukiyo_foe_boruto"
+      }
+    }
+  ],
+  "order": 215107,
+  "outro": [
+    {
+      "fallback": "Arai voluntarily shows his bunk, and when Kamata refuses to let them search his, Arai points out that he frequently talks to the guard Haie, suggesting that's how he's in touch with Tsukiyo.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_08.outro0"
+    },
+    {
+      "fallback": "Kamata instead mentions how he saw Arai making his way to the medical ward the day before, and accuses him.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_07"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

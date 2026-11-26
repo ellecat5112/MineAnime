@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Post Mamushi Arc",
+    "translate": "quest.narutorpg.arc.post_mamushi_arc"
+  },
+  "description": {
+    "fallback": "In a flashback, Amado tasks Kawaki with abducting Koji Kashin, which he accepts without protest. Amado asks if Boruto is in the village, which Kawaki confirms as he can detect his Ōtsutsuki aura. Amado feels it is the right time to capture Koji before he receives another Ten Directions update.",
+    "translate": "quest.narutorpg.post_mamushi_arc_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In a flashback, Amado tasks Kawaki with abducting Koji Kashin, which he accepts without protest.",
+      "translate": "quest.narutorpg.post_mamushi_arc_02.intro0"
+    },
+    {
+      "fallback": "Amado asks if Boruto is in the village, which Kawaki confirms as he can detect his Ōtsutsuki aura.",
+      "translate": "quest.narutorpg.post_mamushi_arc_02.intro1"
+    },
+    {
+      "fallback": "Amado feels it is the right time to capture Koji before he receives another Ten Directions update.",
+      "translate": "quest.narutorpg.post_mamushi_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Parental Love",
+    "translate": "quest.narutorpg.post_mamushi_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.post_mamushi_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Parental Love",
+        "translate": "quest.narutorpg.post_mamushi_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:amado_sanzu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Amado Sanzu",
+        "translate": "quest.narutorpg.defeat.amado_sanzu_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    }
+  ],
+  "order": 304501,
+  "outro": [
+    {
+      "fallback": "Amado feels it is the right time to capture Koji before he receives another Ten Directions update.",
+      "translate": "quest.narutorpg.post_mamushi_arc_02.outro0"
+    },
+    {
+      "fallback": "Back in the present, Kawaki stands over the unconscious Koji.",
+      "translate": "quest.narutorpg.post_mamushi_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:post_mamushi_arc_01"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

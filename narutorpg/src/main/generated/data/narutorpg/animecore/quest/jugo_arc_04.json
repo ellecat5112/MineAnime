@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Jūgo Arc",
+    "translate": "quest.narutorpg.arc.jugo_arc"
+  },
+  "description": {
+    "fallback": "Boruto watches the birds and thinks about Jūgo being taken away. Sarada and Mitsuki try to reassure him, and suggest focusing on finding Sumire. The Land of Rivers researchers prepare to begin experimenting on Jūgo.",
+    "translate": "quest.narutorpg.jugo_arc_04.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto watches the birds and thinks about Jūgo being taken away.",
+      "translate": "quest.narutorpg.jugo_arc_04.intro0"
+    },
+    {
+      "fallback": "Sarada and Mitsuki try to reassure him, and suggest focusing on finding Sumire.",
+      "translate": "quest.narutorpg.jugo_arc_04.intro1"
+    },
+    {
+      "fallback": "The Land of Rivers researchers prepare to begin experimenting on Jūgo.",
+      "translate": "quest.narutorpg.jugo_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jūgo's Reinforcements",
+    "translate": "quest.narutorpg.jugo_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.jugo_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Go: Jūgo's Reinforcements",
+        "translate": "quest.narutorpg.jugo_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 210803,
+  "outro": [
+    {
+      "fallback": "Boruto requests they wait until Sumire wakes up, so she can tell them what she knows about Wasabi and Namida's cursed seal infections.",
+      "translate": "quest.narutorpg.jugo_arc_04.outro0"
+    },
+    {
+      "fallback": "Karin and Sarada catch up with each other, and Karin wants Sumire to bite her for healing.",
+      "translate": "quest.narutorpg.jugo_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:jugo_arc_03"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

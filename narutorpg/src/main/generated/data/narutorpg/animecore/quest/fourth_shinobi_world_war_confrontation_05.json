@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:a_fourth_raikage_ally_shippuden",
+    "narutorpg:minato_namikaze_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Confrontation",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_confrontation"
+  },
+  "description": {
+    "fallback": "The sun rises, marking the second day of the Fourth Shinobi World War. Tobi makes his move, having his own Six Paths of Pain composed of the reincarnated jinchūriki who have eyes that mirror Tobi's. Knowing Naruto can sense malice in the Nine-Tails form, Tobi knows that Naruto will be taking out the White Zetsu, saying that it is going along perfectly.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "The sun rises, marking the second day of the Fourth Shinobi World War.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.intro0"
+    },
+    {
+      "fallback": "Tobi makes his move, having his own Six Paths of Pain composed of the reincarnated jinchūriki who have eyes that mirror Tobi's.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.intro1"
+    },
+    {
+      "fallback": "Knowing Naruto can sense malice in the Nine-Tails form, Tobi knows that Naruto will be taking out the White Zetsu, saying that it is going along perfectly.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Jinchūriki Enter The War",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: The Jinchūriki Enter The War",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 127104,
+  "outro": [
+    {
+      "fallback": "Regaining his vibrant appearance, Nagato grabs Naruto and begins to remove his soul.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.outro0"
+    },
+    {
+      "fallback": "Naruto tries to escape by attacking Nagato with a Rasen",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_05.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_04"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kagura_karatachi_ally_boruto",
+    "narutorpg:iwabee_yuino_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Despite the losses from the previous battle and still being injured, Funamushi still wishes to get revenge on Boruto for Seiren. Gokai points out that while possible, this might make ambushing Kirigakure harder later on. At the village, everyone tries making repairs while still mourning for Kagura.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Despite the losses from the previous battle and still being injured, Funamushi still wishes to get revenge on Boruto for Seiren.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.intro0"
+    },
+    {
+      "fallback": "Gokai points out that while possible, this might make ambushing Kirigakure harder later on.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.intro1"
+    },
+    {
+      "fallback": "At the village, everyone tries making repairs while still mourning for Kagura.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "For Kagura",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: For Kagura",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:funamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Funamushi",
+        "translate": "quest.narutorpg.defeat.funamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 224314,
+  "outro": [
+    {
+      "fallback": "Boruto, Kawaki, and Buntan want to counterattack the Funato, but Sarada stresses that if they go looking for them, the village will be defenceless if the Funato show up, which would also allow them to carry on with...",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.outro0"
+    },
+    {
+      "fallback": "She wants them to follow her orders so that no one else dies, as Kagura's wish was to protect the village.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_15.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_14"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

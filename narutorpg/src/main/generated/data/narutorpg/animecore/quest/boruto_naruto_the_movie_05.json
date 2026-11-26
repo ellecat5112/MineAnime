@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:yurui_ally_movies",
+    "narutorpg:sarada_uchiha_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Boruto: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.boruto_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "In the third round, Boruto fights Yurui but defeats him with his shuriken and the aid of his Kote. Sarada easily defeats her opponent and gets embarrassed when her mother proudly cheers for her from the audience. Naruto sits with his wife and daughter rather than with the other Kage when his son is matched against Shikadai.",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "In the third round, Boruto fights Yurui but defeats him with his shuriken and the aid of his Kote.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_05.intro0"
+    },
+    {
+      "fallback": "Sarada easily defeats her opponent and gets embarrassed when her mother proudly cheers for her from the audience.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_05.intro1"
+    },
+    {
+      "fallback": "Naruto sits with his wife and daughter rather than with the other Kage when his son is matched against Shikadai.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "From Within Darkness",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: From Within Darkness",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kaguya_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Kaguya Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.kaguya_otsutsuki_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kinshiki_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Kinshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.kinshiki_otsutsuki_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:momoshiki_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Momoshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.momoshiki_otsutsuki_foe_movies"
+      }
+    }
+  ],
+  "order": 302004,
+  "outro": [
+    {
+      "fallback": "Momoshiki creates a Tailed Beast Ball that is amplified by the jutsu he collected and is about to attack everyone with it.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_05.outro0"
+    },
+    {
+      "fallback": "Sarada is fearful of Momoshiki's monstrous strength and falls to her knees,",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_05.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:boruto_naruto_the_movie_04"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

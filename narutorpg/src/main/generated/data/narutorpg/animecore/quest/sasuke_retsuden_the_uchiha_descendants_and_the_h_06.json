@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": ";Part 1 Sasuke tries to make sense of the rocks and chickens being kept in Zansūru's secret basement, but he's interrupted by the sound of Zansūru approaching. Sasuke, who is actually working at the digsite with the other prisoners, releases the shadow clone he's been using so that Zansūru won't find him. Later, Sakura receives a message from Kakashi reporting that the Prime Minister has begun an invasion of Nagare...",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": ";Part 1 Sasuke tries to make sense of the rocks and chickens being kept in Zansūru's secret basement, but he's interrupted by the sound of Zansūru approaching.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.intro0"
+    },
+    {
+      "fallback": "Sasuke, who is actually working at the digsite with the other prisoners, releases the shadow clone he's been using so that Zansūru won't find him.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.intro1"
+    },
+    {
+      "fallback": "Later, Sakura receives a message from Kakashi reporting that the Prime Minister has begun an invasion of Nagare Village and that Prince Nanara has decided to overthrow him.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 6 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: Chapter 6 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sakura_haruno",
+      "text": {
+        "fallback": "Meet Sakura Haruno",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.o3"
+      }
+    }
+  ],
+  "order": 229105,
+  "outro": [
+    {
+      "fallback": "Sasuke finds Sakura, who has had an idea of her own: the Hoshinarabe cards do not solely correspond to constellations, but hand seals as well.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.outro0"
+    },
+    {
+      "fallback": "She believes that, in order to reveal the polar particles that they're looking for, they'll need to perform a particular sequence of hand seals; she guesses that two of the Hoshinarabe hands, Star and Earth, indicate...",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_06.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_05"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

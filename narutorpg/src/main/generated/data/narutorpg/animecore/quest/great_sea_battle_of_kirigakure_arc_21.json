@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Team 7 approaches the Funato fleet. Ikada is notified, and allows them to approach. Boruto comments that it's one of Kajiki's ships, which he lent them when they said they wanted to meet with Ikada.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Team 7 approaches the Funato fleet.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.intro0"
+    },
+    {
+      "fallback": "Ikada is notified, and allows them to approach.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.intro1"
+    },
+    {
+      "fallback": "Boruto comments that it's one of Kajiki's ships, which he lent them when they said they wanted to meet with Ikada.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Conflicting Feelings",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: Conflicting Feelings",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 224320,
+  "outro": [
+    {
+      "fallback": "Ikada assures them he intends to fight until one side goes down.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.outro0"
+    },
+    {
+      "fallback": "Boruto reminds him of his dreams of building a big ship, sailing the world with it, connecting islands and people by trading goods.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_21.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_20"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

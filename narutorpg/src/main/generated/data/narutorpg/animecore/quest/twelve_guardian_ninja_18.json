@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:sora_ally_shippuden",
+    "narutorpg:sai_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "After seeing Sora in his four-tailed form, Kazuma states that his job is done and attempts to flee, but is pursued by Asuma. In the woods, Asuma attempts to strike Kazuma, only for the latter to keep evading. However, Kazuma is stealthily bound by three ink snakes, created by Sai, who had left the hospital when he heard the commotion in the village.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_18.desc"
+  },
+  "giver": "narutorpg:asuma_sarutobi",
+  "intro": [
+    {
+      "fallback": "After seeing Sora in his four-tailed form, Kazuma states that his job is done and attempts to flee, but is pursued by Asuma.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_18.intro0"
+    },
+    {
+      "fallback": "In the woods, Asuma attempts to strike Kazuma, only for the latter to keep evading.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_18.intro1"
+    },
+    {
+      "fallback": "However, Kazuma is stealthily bound by three ink snakes, created by Sai, who had left the hospital when he heard the commotion in the village.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_18.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "My Friend",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_18"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:asuma_sarutobi",
+      "text": {
+        "fallback": "Talk to Asuma Sarutobi",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_18.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: My Friend",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_18.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kazuma_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kazuma",
+        "translate": "quest.narutorpg.defeat.kazuma_foe_shippuden"
+      }
+    }
+  ],
+  "order": 106417,
+  "outro": [
+    {
+      "fallback": "Kazuma breaks out of Sai's binds and attempts to rush at Asuma, but Asuma stabs him with his chakra blades.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_18.outro0"
+    },
+    {
+      "fallback": "As Kazuma dies, Asuma spots his white Land of Fire sash, recalling Sora's words about how the only thing he could remember about his father was his spotless white sash.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_18.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_17"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

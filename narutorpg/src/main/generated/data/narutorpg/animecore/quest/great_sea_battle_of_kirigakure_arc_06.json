@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Without any Funato following them, the group believes they'll make it to Kirigakure without issue. Iwabee expresses distrust of the New Seven Ninja Swordsmen, Kyohō in particular, over the blind rage he went through at the Funato fortress. Boruto points out how calm he is now, and adds that Buntan helped them in tough spots, so he'll trust Kagura's judgement.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.desc"
+  },
+  "giver": "narutorpg:iwabee_yuino",
+  "intro": [
+    {
+      "fallback": "Without any Funato following them, the group believes they'll make it to Kirigakure without issue.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.intro0"
+    },
+    {
+      "fallback": "Iwabee expresses distrust of the New Seven Ninja Swordsmen, Kyohō in particular, over the blind rage he went through at the Funato fortress.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.intro1"
+    },
+    {
+      "fallback": "Boruto points out how calm he is now, and adds that Buntan helped them in tough spots, so he'll trust Kagura's judgement.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Killer on the Ship",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:iwabee_yuino",
+      "text": {
+        "fallback": "Talk to Iwabee Yuino",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: A Killer on the Ship",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kyoho_fuefuki",
+      "text": {
+        "fallback": "Meet Kyohō Fuefuki",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.o3"
+      }
+    }
+  ],
+  "order": 224305,
+  "outro": [
+    {
+      "fallback": "They find Kyohō cleaning blood off Kabutowari, and he claims he slept through the night.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.outro0"
+    },
+    {
+      "fallback": "Kawaki points out he had no memory of going on a rampage in the fortress, and Iwabee believes that's what happened again.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_05"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

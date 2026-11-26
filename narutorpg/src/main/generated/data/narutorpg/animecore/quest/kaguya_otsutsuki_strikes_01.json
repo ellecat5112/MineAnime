@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_shippuden",
+    "narutorpg:sasuke_uchiha_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kaguya Ōtsutsuki Strikes",
+    "translate": "quest.narutorpg.arc.kaguya_otsutsuki_strikes"
+  },
+  "description": {
+    "fallback": "Immediately after the Infinite Tsukuyomi technique is cast, Sakura asks Sasuke what is happening, and he simply berates her and Kakashi, informing them that they are somewhat useless in their current predicament. Much to Naruto's dismay, Sasuke is elected the leader of Team 7 for the time being, as it seems as if only his Rinnegan will be able to counter the Infinite Tsukuyomi. Meanwhile, everyone in the Allied...",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Immediately after the Infinite Tsukuyomi technique is cast, Sakura asks Sasuke what is happening, and he simply berates her and Kakashi, informing them that they are somewhat useless in their current predicament.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.intro0"
+    },
+    {
+      "fallback": "Much to Naruto's dismay, Sasuke is elected the leader of Team 7 for the time being, as it seems as if only his Rinnegan will be able to counter the Infinite Tsukuyomi.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.intro1"
+    },
+    {
+      "fallback": "Meanwhile, everyone in the Allied Shinobi Forces witness their truest desires coming true within the infinite dream, as the light shining down from the moon slowly fades away.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kaguya's Dominance",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Kaguya's Dominance",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:black_zetsu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Black Zetsu",
+        "translate": "quest.narutorpg.defeat.black_zetsu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146100,
+  "outro": [
+    {
+      "fallback": "Due to his quick-thinking, Kakashi manages to save himself and Sakura, as well as Obito, from their fiery deaths.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.outro0"
+    },
+    {
+      "fallback": "Naruto questions Sasuke's disregard for his comrades safety, as he warns Naruto that only he and Naruto have a chance of defeating Kaguya,",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_01.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:jiraiya_shinobi_handbook_the_tale_of_naruto_the__02"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

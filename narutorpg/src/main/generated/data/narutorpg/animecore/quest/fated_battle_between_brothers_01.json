@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Fated Battle Between Brothers",
+    "translate": "quest.narutorpg.arc.fated_battle_between_brothers"
+  },
+  "description": {
+    "fallback": "Sasuke arrived at the Uchiha Hideout, and confronted Itachi. The battle began with both of them seemingly using taijutsu, soon ending with Sasuke cornering Itachi and deciding to ask him one last question before killing him off. Sasuke asked, \"Who is he?\" Sasuke recalled when Itachi had said that three of the Uchiha clan would have the ability to use the Mangekyō Sharingan, including himself, if Sasuke would be able...",
+    "translate": "quest.narutorpg.fated_battle_between_brothers_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Sasuke arrived at the Uchiha Hideout, and confronted Itachi.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_01.intro0"
+    },
+    {
+      "fallback": "The battle began with both of them seemingly using taijutsu, soon ending with Sasuke cornering Itachi and deciding to ask him one last question before killing him off.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_01.intro1"
+    },
+    {
+      "fallback": "Sasuke asked, \"Who is he?\" Sasuke recalled when Itachi had said that three of the Uchiha clan would have the ability to use the Mangekyō Sharingan, including himself, if Sasuke would be able to awaken his.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke vs. Itachi",
+    "translate": "quest.narutorpg.fated_battle_between_brothers_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fated_battle_between_brothers_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Sasuke vs. Itachi",
+        "translate": "quest.narutorpg.fated_battle_between_brothers_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 114400,
+  "outro": [
+    {
+      "fallback": "Itachi dodged, but it still burnt his arm.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_01.outro0"
+    },
+    {
+      "fallback": "Soon it began to rain, and",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_01.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_23"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:sensing_technique"
+  ],
+  "appearance": {
+    "accent": 2635155,
+    "eyes": 1118481,
+    "hair": 14737632,
+    "headband": 2635155,
+    "pants": 1713022,
+    "top": 2635155
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Akahoshi",
+    "translate": "npc.narutorpg.akahoshi"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

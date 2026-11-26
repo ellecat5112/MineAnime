@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:summoning_technique",
+    "narutorpg:eight_gates"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "hair_style": "spiky",
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 2635155
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 331.0,
+  "name": {
+    "fallback": "Shinnō",
+    "translate": "npc.narutorpg.shinno"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

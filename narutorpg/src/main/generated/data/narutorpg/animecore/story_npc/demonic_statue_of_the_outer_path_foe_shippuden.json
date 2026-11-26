@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:black_receiver",
+    "narutorpg:sealing_technique_phantom_dragons_nine_consuming_seals",
+    "narutorpg:demonic_statue_chains"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "hair": 10395294,
+    "outfit": "cloak",
+    "skin": 13010498,
+    "top": 1052692
+  },
+  "attack": 11.2,
+  "cast_interval": 40,
+  "health": 374.0,
+  "name": {
+    "fallback": "Demonic Statue of the Outer Path",
+    "translate": "npc.narutorpg.demonic_statue_of_the_outer_path"
+  },
+  "power": 1.74,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

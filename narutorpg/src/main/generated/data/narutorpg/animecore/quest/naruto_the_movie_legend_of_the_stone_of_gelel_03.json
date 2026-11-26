@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:haido_ally_movies",
+    "narutorpg:shikamaru_nara_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Legend of the Stone of Gelel",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_legend_of_the_stone_of_gelel"
+  },
+  "description": {
+    "fallback": "Through a series of flashbacks, we discover how Temujin met Haido after his village was destroyed. We also discover that Temujin actually has a Gelel stone inside of him, causing his eyes to appear the red colour they are. After getting word that the caravan from before has information, Temujin returns to what is left of it only to be captured by Shikamaru.",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Through a series of flashbacks, we discover how Temujin met Haido after his village was destroyed.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.intro0"
+    },
+    {
+      "fallback": "We also discover that Temujin actually has a Gelel stone inside of him, causing his eyes to appear the red colour they are.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.intro1"
+    },
+    {
+      "fallback": "After getting word that the caravan from before has information, Temujin returns to what is left of it only to be captured by Shikamaru.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Part 3",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:temujin_foe_movies",
+      "text": {
+        "fallback": "Defeat Temujin",
+        "translate": "quest.narutorpg.defeat.temujin_foe_movies"
+      }
+    }
+  ],
+  "order": 301102,
+  "outro": [
+    {
+      "fallback": "Naruto angrily asks him if he even cares about his fallen comrades, whom Haido only claims are 'noble sacrifices.' Temujin grimly agrees.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.outro0"
+    },
+    {
+      "fallback": "After Naruto tells them that dreams without friends are nothing, the elder finally triggers a mechanism that seals him and Temujin into a passageway into",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_03.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_legend_of_the_stone_of_gelel_02"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

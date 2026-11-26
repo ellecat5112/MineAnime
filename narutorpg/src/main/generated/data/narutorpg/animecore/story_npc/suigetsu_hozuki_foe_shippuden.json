@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:drowning_water_blob_technique",
+    "narutorpg:water_gun_technique",
+    "narutorpg:water_gun_two_guns",
+    "narutorpg:water_prison_technique",
+    "narutorpg:water_release_great_water_arm_technique",
+    "narutorpg:silent_killing"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 2001125,
+    "hair": 13625589,
+    "headband": 3622735,
+    "outfit": "cloak",
+    "skin": 16767916,
+    "top": 1052692
+  },
+  "attack": 7.7,
+  "cast_interval": 40,
+  "health": 245.0,
+  "name": {
+    "fallback": "Suigetsu Hōzuki",
+    "translate": "npc.narutorpg.suigetsu_hozuki"
+  },
+  "power": 1.38,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

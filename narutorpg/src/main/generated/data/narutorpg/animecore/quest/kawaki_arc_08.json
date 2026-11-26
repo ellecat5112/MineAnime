@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "After Isshiki's defeat, Sasuke and Kawaki inquired about Naruto's health after using such a tremendously powerful transformation. Before Naruto could explain his condition, Sasuke's left eye was suddenly stabbed by a Momoshiki-controlled Boruto. With Sasuke's Rinnegan destroyed and Isshiki dead, Momoshiki's vessel gloated that the remaining combatants were the only thing standing in his way of achieving salvation.",
+    "translate": "quest.narutorpg.kawaki_arc_08.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "After Isshiki's defeat, Sasuke and Kawaki inquired about Naruto's health after using such a tremendously powerful transformation.",
+      "translate": "quest.narutorpg.kawaki_arc_08.intro0"
+    },
+    {
+      "fallback": "Before Naruto could explain his condition, Sasuke's left eye was suddenly stabbed by a Momoshiki-controlled Boruto.",
+      "translate": "quest.narutorpg.kawaki_arc_08.intro1"
+    },
+    {
+      "fallback": "With Sasuke's Rinnegan destroyed and Isshiki dead, Momoshiki's vessel gloated that the remaining combatants were the only thing standing in his way of achieving salvation.",
+      "translate": "quest.narutorpg.kawaki_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Lingering Adversaries",
+    "translate": "quest.narutorpg.kawaki_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: Lingering Adversaries",
+        "translate": "quest.narutorpg.kawaki_arc_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:momoshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Momoshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.momoshiki_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.isshiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 219807,
+  "outro": [
+    {
+      "fallback": "With encouragement from Kawaki, the group were able to safely return to the village.",
+      "translate": "quest.narutorpg.kawaki_arc_08.outro0"
+    },
+    {
+      "fallback": "Elsewhere, Code awakens from a nap a",
+      "translate": "quest.narutorpg.kawaki_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_07"
+  ],
+  "rewards": {
+    "experience": 41,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

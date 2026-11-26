@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:a_fourth_raikage_ally_shippuden",
+    "narutorpg:a_third_raikage_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Countdown",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_countdown"
+  },
+  "description": {
+    "fallback": "As Sasuke and Kakashi fight, the former's vision starts to fade away from overuse of the Mangekyō Sharingan. Sakura takes the chance and tried to kill Sasuke, but is unable to bring herself to do it. Sasuke then tried to kill her once again, but Naruto appeared and saved her.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "As Sasuke and Kakashi fight, the former's vision starts to fade away from overuse of the Mangekyō Sharingan.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.intro0"
+    },
+    {
+      "fallback": "Sakura takes the chance and tried to kill Sasuke, but is unable to bring herself to do it.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.intro1"
+    },
+    {
+      "fallback": "Sasuke then tried to kill her once again, but Naruto appeared and saved her.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team 7 Reunites & Kabuto's Return",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Team 7 Reunites & Kabuto's Return",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kisame_hoshigaki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kisame Hoshigaki",
+        "translate": "quest.narutorpg.defeat.kisame_hoshigaki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 122500,
+  "outro": [
+    {
+      "fallback": "Back in Kumogakure, A, Killer B, and Team Samui return, Killer B has taken Samehada with Kisame inside the sword planning on infiltrating Kumogakure to retrieve the Eight-Tails.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.outro0"
+    },
+    {
+      "fallback": "And in an unspecified location Kabuto is shown using Orochimaru's snake abilities to subdue a couple of ninja saying that he's getting used to his new powers and it is time to get things moving.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_01.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:five_kage_summit_08"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

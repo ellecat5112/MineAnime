@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Naruto continues his fight with Fūka. Using kunai, he manages to cut her arm. However, by using her Colour Course Change technique, she seemingly regenerates her wounds.",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_15.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto continues his fight with Fūka.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_15.intro0"
+    },
+    {
+      "fallback": "Using kunai, he manages to cut her arm.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_15.intro1"
+    },
+    {
+      "fallback": "However, by using her Colour Course Change technique, she seemingly regenerates her wounds.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Moment of Awakening",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: Moment of Awakening",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 106414,
+  "outro": [
+    {
+      "fallback": "As her body withers away, leaving just a mop of hair floating above, the latter encasing her soul, Fūka rushes towards Naruto; the genin counters by creating a shadow clone and hitting the soul-contained hair with his...",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_15.outro0"
+    },
+    {
+      "fallback": "Meanwhile at the power station, Asuma uses his chakra blades to use his Wind Release: Verdant Mountain Gale to slice through the Lig",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_15.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_14"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

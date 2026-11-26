@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "While on the way to the Land of Lightning, Naruto and his bodyguards stop off at a nearby island, due to all his bodyguards becoming seasick, Guy in particular. While there, they see Sakura, Ino and Chōji picking up medicinal herbs on the orders of Tsunade and Naruto decides to help them, although he does not fare well, from eating poisonous herbs to being paralysed on a bridge. As Chōji spots one of the medicinal...",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "While on the way to the Land of Lightning, Naruto and his bodyguards stop off at a nearby island, due to all his bodyguards becoming seasick, Guy in particular.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_02.intro0"
+    },
+    {
+      "fallback": "While there, they see Sakura, Ino and Chōji picking up medicinal herbs on the orders of Tsunade and Naruto decides to help them, although he does not fare well, from eating poisonous herbs to being paralysed on a bridge.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_02.intro1"
+    },
+    {
+      "fallback": "As Chōji spots one of the medicinal herbs, some ninja from the Benisu Island appear and make the Konoha ninja waste their time, while collecting the exact same herbs.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Ninja of Benisu",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 46,
+      "text": {
+        "fallback": "Go: The Ninja of Benisu",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_02.o3"
+      }
+    }
+  ],
+  "order": 123301,
+  "outro": [
+    {
+      "fallback": "However, they have a change of heart and give Sakura, Ino and Chōji all the herbs they picked up, as Naruto saved them from a monster protecting the Elixir Mud.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_02.outro0"
+    },
+    {
+      "fallback": "With Guy feeling better, they head off towards the Land of Lightning and Tsunade's team back to Konoha happily, unaware that the Benisu ninja just gave them the herbs, so they could collect the debt owed after the war.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_02.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_01"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

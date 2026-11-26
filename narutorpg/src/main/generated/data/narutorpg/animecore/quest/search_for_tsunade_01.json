@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_naruto",
+    "narutorpg:rasa_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Search for Tsunade",
+    "translate": "quest.narutorpg.arc.search_for_tsunade"
+  },
+  "description": {
+    "fallback": "After their failed invasion of Konohagakure, the ninja of Sunagakure look for their now missing Fourth Kazekage. After finding the Kazekage's body and the bodies of his assistants in the neighbouring desert, the people of Suna realise that Orochimaru, the man who originally proposed the invasion to the village, killed and impersonated the Kazekage to give the impression of support for the invasion. This revelation...",
+    "translate": "quest.narutorpg.search_for_tsunade_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "After their failed invasion of Konohagakure, the ninja of Sunagakure look for their now missing Fourth Kazekage.",
+      "translate": "quest.narutorpg.search_for_tsunade_01.intro0"
+    },
+    {
+      "fallback": "After finding the Kazekage's body and the bodies of his assistants in the neighbouring desert, the people of Suna realise that Orochimaru, the man who originally proposed the invasion to the village, killed and...",
+      "translate": "quest.narutorpg.search_for_tsunade_01.intro1"
+    },
+    {
+      "fallback": "This revelation, coupled with Suna's devastating losses at the hands of Konoha's ninja, forces the village to surrender unconditionally, which Konoha accepts.",
+      "translate": "quest.narutorpg.search_for_tsunade_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Return of Itachi",
+    "translate": "quest.narutorpg.search_for_tsunade_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.search_for_tsunade_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: Return of Itachi",
+        "translate": "quest.narutorpg.search_for_tsunade_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kisame_hoshigaki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kisame Hoshigaki",
+        "translate": "quest.narutorpg.defeat.kisame_hoshigaki_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_naruto"
+      }
+    }
+  ],
+  "order": 9100,
+  "outro": [
+    {
+      "fallback": "Despite Kakashi's own formidable abilities and advanced profiency with the Sharingan, Itachi quickly proves to be the superior ninja, displaying his far greater speed and superior Sharingan abilities, and Kakashi is...",
+      "translate": "quest.narutorpg.search_for_tsunade_01.outro0"
+    },
+    {
+      "fallback": "Realising that Itachi is using only a fraction of his abilities, although he still praises Kakashi for being so skilled with the Sharingan despite not being of Uchiha blood, the moment Itachi activates the Mangekyō...",
+      "translate": "quest.narutorpg.search_for_tsunade_01.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:konoha_crush_03"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

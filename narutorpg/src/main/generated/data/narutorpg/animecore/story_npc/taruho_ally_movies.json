@@ -1,0 +1,21 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "hair": 10395294,
+    "pants": 4073251,
+    "top": 7162945
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Taruho",
+    "translate": "npc.narutorpg.taruho"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

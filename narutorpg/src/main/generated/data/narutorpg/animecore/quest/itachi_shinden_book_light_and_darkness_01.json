@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Itachi Shinden Book: Light and Darkness",
+    "translate": "quest.narutorpg.arc.itachi_shinden_book_light_and_darkness"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Naruto tries leaving Sasuke's Susanoo, but Sasuke stops him, telling Naruto he'll also be caught in the Infinite Tsukuyomi. Minato sees Konoha under the Infinite Tsukuyomi, the other great shinobi villages also under it. Tobirama unsuccessfully tries to free some shinobi from the roots of the God Tree.",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto tries leaving Sasuke's Susanoo, but Sasuke stops him, telling Naruto he'll also be caught in the Infinite Tsukuyomi.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.intro0"
+    },
+    {
+      "fallback": "Minato sees Konoha under the Infinite Tsukuyomi, the other great shinobi villages also under it.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.intro1"
+    },
+    {
+      "fallback": "Tobirama unsuccessfully tries to free some shinobi from the roots of the God Tree.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Birth and Death",
+    "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: Birth and Death",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Meet Naruto Uzumaki",
+        "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.o3"
+      }
+    }
+  ],
+  "order": 146100,
+  "outro": [
+    {
+      "fallback": "Sasuke explains they're likely the only ones not caught by the Infinite Tsukuyomi.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.outro0"
+    },
+    {
+      "fallback": "Several shinobi's dreams are shown.",
+      "translate": "quest.narutorpg.itachi_shinden_book_light_and_darkness_01.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:jiraiya_shinobi_handbook_the_tale_of_naruto_the__02"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

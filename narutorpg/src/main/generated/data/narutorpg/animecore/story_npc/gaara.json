@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 8440772,
+    "hair": 12000284,
+    "headband": 6111287,
+    "mark": "forehead_kanji",
+    "outfit": "robe",
+    "pants": 4073251,
+    "top": 9255710
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Gaara",
+    "translate": "npc.narutorpg.gaara"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

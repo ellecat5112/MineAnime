@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:ten_tails_ally_movies",
+    "narutorpg:hashirama_senju_ally_movies"
+  ],
+  "arc": {
+    "fallback": "The Last: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.the_last_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "The film starts off with the explanation of Kaguya Ōtsutsuki consuming the chakra fruit, the birth of the Ten-Tails, the Sage of the Six Paths stopping the beast and creating the tailed beasts. It then moves over to the fight battles between Asura Ōtsutsuki and Indra Ōtsutsuki, to Madara Uchiha and Hashirama Senju, and the ending conflict between Naruto Uzumaki and Sasuke Uchiha. Before enrolling in the Academy, a...",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The film starts off with the explanation of Kaguya Ōtsutsuki consuming the chakra fruit, the birth of the Ten-Tails, the Sage of the Six Paths stopping the beast and creating the tailed beasts.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_01.intro0"
+    },
+    {
+      "fallback": "It then moves over to the fight battles between Asura Ōtsutsuki and Indra Ōtsutsuki, to Madara Uchiha and Hashirama Senju, and the ending conflict between Naruto Uzumaki and Sasuke Uchiha.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_01.intro1"
+    },
+    {
+      "fallback": "Before enrolling in the Academy, a young Hinata Hyūga is seen being bullied by boys over her Byakugan, calling her a monster, which causes her to cry.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Memories",
+    "translate": "quest.narutorpg.the_last_naruto_the_movie_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Memories",
+        "translate": "quest.narutorpg.the_last_naruto_the_movie_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:asura_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Asura Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.asura_otsutsuki_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:indra_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Indra Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.indra_otsutsuki_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:madara_uchiha_foe_movies",
+      "text": {
+        "fallback": "Defeat Madara Uchiha",
+        "translate": "quest.narutorpg.defeat.madara_uchiha_foe_movies"
+      }
+    }
+  ],
+  "order": 301900,
+  "outro": [
+    {
+      "fallback": "Naruto goes on to state that he has no friends nor family, and that the world isn't going to end.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_01.outro0"
+    },
+    {
+      "fallback": "Seeing this, Hinata happily writes Naruto's name on her paper.",
+      "translate": "quest.narutorpg.the_last_naruto_the_movie_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_07"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

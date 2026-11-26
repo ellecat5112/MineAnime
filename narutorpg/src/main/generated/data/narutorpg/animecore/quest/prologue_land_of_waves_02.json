@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:hiruzen_sarutobi_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "Twelve years after the Nine-Tail's attack, at the Ninja Academy, Naruto Uzumaki's reputation as a delinquent and a troublemaker had earned him infamy among the teachers and students. Iruka Umino, and to a lesser extent the Third Hokage, were the only two positive influences on him. Despite this, Naruto continued to fail the graduation exam, which required students to demonstrate how much they had learned by...",
+    "translate": "quest.narutorpg.prologue_land_of_waves_02.desc"
+  },
+  "giver": "narutorpg:iruka_umino",
+  "intro": [
+    {
+      "fallback": "Twelve years after the Nine-Tail's attack, at the Ninja Academy, Naruto Uzumaki's reputation as a delinquent and a troublemaker had earned him infamy among the teachers and students.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_02.intro0"
+    },
+    {
+      "fallback": "Iruka Umino, and to a lesser extent the Third Hokage, were the only two positive influences on him.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_02.intro1"
+    },
+    {
+      "fallback": "Despite this, Naruto continued to fail the graduation exam, which required students to demonstrate how much they had learned by performing the Clone Technique.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Graduation",
+    "translate": "quest.narutorpg.prologue_land_of_waves_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:iruka_umino",
+      "text": {
+        "fallback": "Talk to Iruka Umino",
+        "translate": "quest.narutorpg.prologue_land_of_waves_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Graduation",
+        "translate": "quest.narutorpg.prologue_land_of_waves_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mizuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Mizuki",
+        "translate": "quest.narutorpg.defeat.mizuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 1101,
+  "outro": [
+    {
+      "fallback": "Naruto watched from a distance, eventually learning what Mizuki was after, as well as the true level of Iruka's devotion to Naruto.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_02.outro0"
+    },
+    {
+      "fallback": "Just before Mizuki could kill Iruka, Naruto attacked Mizuki, threatening to k",
+      "translate": "quest.narutorpg.prologue_land_of_waves_02.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_01"
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

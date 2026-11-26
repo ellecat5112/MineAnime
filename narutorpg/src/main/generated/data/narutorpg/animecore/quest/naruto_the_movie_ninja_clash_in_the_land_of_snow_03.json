@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sandayu_asama_ally_movies",
+    "narutorpg:koyuki_kazahana_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Ninja Clash in the Land of Snow",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_ninja_clash_in_the_land_of_snow"
+  },
+  "description": {
+    "fallback": "Eventually, Dotō would arrive with his team and some ninja subordinates by train after melting the ice that covered the tracks to an old railway system. As Sandayū, who leads a group of 50 samurai attempt to charge after them, the mortar-mounted compartments release huge waves of kunai massacring the entire brigade. Sandayū, clinging on to life passes away after telling Yukie not to cry for him.",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Eventually, Dotō would arrive with his team and some ninja subordinates by train after melting the ice that covered the tracks to an old railway system.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.intro0"
+    },
+    {
+      "fallback": "As Sandayū, who leads a group of 50 samurai attempt to charge after them, the mortar-mounted compartments release huge waves of kunai massacring the entire brigade.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.intro1"
+    },
+    {
+      "fallback": "Sandayū, clinging on to life passes away after telling Yukie not to cry for him.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 3",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Part 3",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:doto_kazahana_foe_movies",
+      "text": {
+        "fallback": "Defeat Dotō Kazahana",
+        "translate": "quest.narutorpg.defeat.doto_kazahana_foe_movies"
+      }
+    }
+  ],
+  "order": 301002,
+  "outro": [
+    {
+      "fallback": "After various battles between Team 7 and the rogue ninja, resulting in the death of all of the latter and Nadare, Dotō succeeded in obtaining Yukie's crystal necklace, only to discover that the \"treasure\" of the Land of...",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.outro0"
+    },
+    {
+      "fallback": "After a confrontation with Sasuke and Naruto, Dotō was then killed by Naruto with his Rasengan in a manner reminiscent of Princess Fūun's defeat of Mao, involving \"rainbow chakra\".",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_03.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:naruto_the_movie_ninja_clash_in_the_land_of_snow_02"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

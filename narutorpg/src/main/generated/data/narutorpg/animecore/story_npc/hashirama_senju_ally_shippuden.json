@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:bringer_of_darkness_technique",
+    "narutorpg:chakra_enhanced_strength",
+    "narutorpg:sage_art_wood_release_true_several_thousand_hands",
+    "narutorpg:sea_of_trees_erosion",
+    "narutorpg:shuriken_shadow_clone_technique",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 2171169,
+    "eyes": 2001125,
+    "hair": 5125166,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "armor",
+    "pants": 3622735,
+    "skin": 14724201,
+    "top": 12000284
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Hashirama Senju",
+    "translate": "npc.narutorpg.hashirama_senju"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

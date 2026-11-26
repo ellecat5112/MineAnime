@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:temari_ally_boruto",
+    "narutorpg:kankuro_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "One-Tail Escort Arc",
+    "translate": "quest.narutorpg.arc.one_tail_escort_arc"
+  },
+  "description": {
+    "fallback": "Boruto concedes to Temari that he may not have understood Kankurō's resolve or Shinki's, but he can't accept it, and understands he must protect Shukaku. Shinki begins fighting Urashiki's remaining puppet. It manages to hit Shinki with poisoned needles.",
+    "translate": "quest.narutorpg.one_tail_escort_arc_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto concedes to Temari that he may not have understood Kankurō's resolve or Shinki's, but he can't accept it, and understands he must protect Shukaku.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_04.intro0"
+    },
+    {
+      "fallback": "Shinki begins fighting Urashiki's remaining puppet.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_04.intro1"
+    },
+    {
+      "fallback": "It manages to hit Shinki with poisoned needles.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Urashiki Returns",
+    "translate": "quest.narutorpg.one_tail_escort_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.one_tail_escort_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Urashiki Returns",
+        "translate": "quest.narutorpg.one_tail_escort_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 213003,
+  "outro": [
+    {
+      "fallback": "Shinki berates Shukaku for watching the battle, and Shukaku points out that they do have to deal with pursuers.",
+      "translate": "quest.narutorpg.one_tail_escort_arc_04.outro0"
+    },
+    {
+      "fallback": "The three go against the puppet, and while Shinki thinks their fighting is inefficient because of their emotions, Shukaku points out they're able to coordinate just fine, and adds that while he did compare Boruto to...",
+      "translate": "quest.narutorpg.one_tail_escort_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:one_tail_escort_arc_03"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

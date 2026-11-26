@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:hotaru_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Six-Tails Unleashed",
+    "translate": "quest.narutorpg.arc.six_tails_unleashed"
+  },
+  "description": {
+    "fallback": "Naruto is enraged upon seeing the seal upon Hotaru's back, remembering how he was mistreated during his childhood for being a jinchūriki. Back at Mount Katsuragi, Naruto pressures Tonbee and asks how he could have allowed En no Gyōja to have sealed the Tsuchigumo clan's forbidden technique within his own granddaughter. However, Hotaru reveals that she had specifically asked for it, since it was her grandfather's...",
+    "translate": "quest.narutorpg.six_tails_unleashed_05.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "Naruto is enraged upon seeing the seal upon Hotaru's back, remembering how he was mistreated during his childhood for being a jinchūriki.",
+      "translate": "quest.narutorpg.six_tails_unleashed_05.intro0"
+    },
+    {
+      "fallback": "Back at Mount Katsuragi, Naruto pressures Tonbee and asks how he could have allowed En no Gyōja to have sealed the Tsuchigumo clan's forbidden technique within his own granddaughter.",
+      "translate": "quest.narutorpg.six_tails_unleashed_05.intro1"
+    },
+    {
+      "fallback": "However, Hotaru reveals that she had specifically asked for it, since it was her grandfather's wishes to use the kinjutsu to restore the clan to its former glory and that a student must obey his or her master's wishes.",
+      "translate": "quest.narutorpg.six_tails_unleashed_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Heir to Darkness",
+    "translate": "quest.narutorpg.six_tails_unleashed_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.six_tails_unleashed_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Heir to Darkness",
+        "translate": "quest.narutorpg.six_tails_unleashed_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:utakata_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Utakata",
+        "translate": "quest.narutorpg.defeat.utakata_foe_shippuden"
+      }
+    }
+  ],
+  "order": 115404,
+  "outro": [
+    {
+      "fallback": "As Utakata muses whether Tsurugi's words regarding his master Harusame's intentions were true, the group is unaware that they are being spied on by Shiranami, the leader of the four bandits, who has heard their entire...",
+      "translate": "quest.narutorpg.six_tails_unleashed_05.outro0"
+    },
+    {
+      "fallback": "After Hotaru refuses to have the seal removed, she is slapped by Utakata and flees; Naruto, Utakata and Sakura follow her while Sai, under personal instructions from Yamato, stays behind.",
+      "translate": "quest.narutorpg.six_tails_unleashed_05.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:six_tails_unleashed_04"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

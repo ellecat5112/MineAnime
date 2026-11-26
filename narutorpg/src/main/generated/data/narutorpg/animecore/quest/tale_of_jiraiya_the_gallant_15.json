@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Jiraiya tells Gamaken to buy him time while he prepares for Sage Mode. Pain hides within his chameleon and summons other animals to fight Gamaken. While Gamaken defends against them, Jiraiya points out that Pain, having the Rinnegan, can use almost any technique, yet he has so far used only animal summons.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Jiraiya tells Gamaken to buy him time while he prepares for Sage Mode.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.intro0"
+    },
+    {
+      "fallback": "Pain hides within his chameleon and summons other animals to fight Gamaken.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.intro1"
+    },
+    {
+      "fallback": "While Gamaken defends against them, Jiraiya points out that Pain, having the Rinnegan, can use almost any technique, yet he has so far used only animal summons.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Two Great Sages…!!",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: The Two Great Sages…!!",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    }
+  ],
+  "order": 113714,
+  "outro": [
+    {
+      "fallback": "While Gamaken defends against them, Jiraiya points out that Pain, having the Rinnegan, can use almost any technique, yet he has so far used only animal summons.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.outro0"
+    },
+    {
+      "fallback": "Jiraiya sends Gamaken away once he is ready, blocking a summon by himself and re-entering the battle with two new toads.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_15.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_14"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

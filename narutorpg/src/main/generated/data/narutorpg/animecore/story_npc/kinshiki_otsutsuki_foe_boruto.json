@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "narutorpg:furious_smelting",
+    "narutorpg:odachi_mow_down",
+    "narutorpg:sensing_technique"
+  ],
+  "appearance": {
+    "accent": 11583173,
+    "eyes": 4431943,
+    "hair": 16119285,
+    "hair_style": "long",
+    "mark": "pale_eyes",
+    "outfit": "robe",
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 16448250
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Kinshiki Ōtsutsuki",
+    "translate": "npc.narutorpg.kinshiki_otsutsuki"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

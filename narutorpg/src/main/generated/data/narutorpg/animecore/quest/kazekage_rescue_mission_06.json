@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_shippuden",
+    "narutorpg:gaara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kazekage Rescue Mission",
+    "translate": "quest.narutorpg.arc.kazekage_rescue_mission"
+  },
+  "description": {
+    "fallback": "Stopping in a grassy field near the village, Sakura checked on Gaara and pronounced him dead, making Naruto very upset. Chiyo moved towards Gaara and tried to use her reincarnation technique, but didn't have enough life force left to bring Gaara back to life. Naruto gladly lent his own chakra, and Chiyo was able to revive Gaara at the cost of her own life while the shinobi of Suna watched.",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Stopping in a grassy field near the village, Sakura checked on Gaara and pronounced him dead, making Naruto very upset.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_06.intro0"
+    },
+    {
+      "fallback": "Chiyo moved towards Gaara and tried to use her reincarnation technique, but didn't have enough life force left to bring Gaara back to life.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_06.intro1"
+    },
+    {
+      "fallback": "Naruto gladly lent his own chakra, and Chiyo was able to revive Gaara at the cost of her own life while the shinobi of Suna watched.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Revival",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Revival",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:deidara_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Deidara",
+        "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
+      }
+    }
+  ],
+  "order": 101105,
+  "outro": [
+    {
+      "fallback": "Guy does so piggyback style as he found it easier to carry him for an extended period of time, disturbing everyone present except Lee, who remarked that Guy was training.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_06.outro0"
+    },
+    {
+      "fallback": "Lee then proceeded to offer to carry Neji, who bluntly refused.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_06.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 4,
+        "id": "narutorpg:explosive_tag"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

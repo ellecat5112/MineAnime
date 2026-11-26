@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Recognising Boruto as the Seventh Hokage's son, Shojoji sends his underlings to deal with him. Boruto, however, easily dispatches all of the bandits present leaving Shojoji to deal with him himself. As Shojoji makes his move, Tentō calls out to Boruto to be careful that he's not eaten.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Recognising Boruto as the Seventh Hokage's son, Shojoji sends his underlings to deal with him.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_04.intro0"
+    },
+    {
+      "fallback": "Boruto, however, easily dispatches all of the bandits present leaving Shojoji to deal with him himself.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_04.intro1"
+    },
+    {
+      "fallback": "As Shojoji makes his move, Tentō calls out to Boruto to be careful that he's not eaten.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Teamwork…!!",
+    "translate": "quest.narutorpg.mujina_bandits_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.mujina_bandits_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Go: Teamwork…!!",
+        "translate": "quest.narutorpg.mujina_bandits_arc_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:tento_madoka",
+      "text": {
+        "fallback": "Meet Tentō Madoka",
+        "translate": "quest.narutorpg.mujina_bandits_arc_04.o3"
+      }
+    }
+  ],
+  "order": 215103,
+  "outro": [
+    {
+      "fallback": "Taken aback by the seemingly odd warning, Shojoji is almost able to take Boruto by surprise with his deceptive speed.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_04.outro0"
+    },
+    {
+      "fallback": "Taking to the sky, Boruto is once again able to narrowly avoid being eaten by Shojoji before questioning whether his opponent was actually human.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_03"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

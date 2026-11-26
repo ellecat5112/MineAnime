@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:tobio_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "Soon afterwards, the members of Team 7, after a long wait, finally met their jōnin-sensei, who used the meeting as an opportunity for them to get to know one another. Kakashi went first, and said he didn't feel like telling them anything about himself. Naruto proclaimed that he wanted to become Hokage one day, and that he loved ramen.",
+    "translate": "quest.narutorpg.prologue_land_of_waves_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Soon afterwards, the members of Team 7, after a long wait, finally met their jōnin-sensei, who used the meeting as an opportunity for them to get to know one another.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_05.intro0"
+    },
+    {
+      "fallback": "Kakashi went first, and said he didn't feel like telling them anything about himself.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_05.intro1"
+    },
+    {
+      "fallback": "Naruto proclaimed that he wanted to become Hokage one day, and that he loved ramen.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Evaluation",
+    "translate": "quest.narutorpg.prologue_land_of_waves_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.prologue_land_of_waves_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Evaluation",
+        "translate": "quest.narutorpg.prologue_land_of_waves_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_naruto"
+      }
+    }
+  ],
+  "order": 1104,
+  "outro": [
+    {
+      "fallback": "Eventually, Kakashi ended up behind Naruto, and used his One Thousand Years of Death to send Naruto into the nearby lake.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_05.outro0"
+    },
+    {
+      "fallback": "Naruto recovered and attacked Kaka",
+      "translate": "quest.narutorpg.prologue_land_of_waves_05.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_04"
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

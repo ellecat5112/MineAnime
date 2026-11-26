@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Graduation Exams Arc",
+    "translate": "quest.narutorpg.arc.graduation_exams_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Boruto finds his classmates are generally concerned with upcoming graduation exams, leaving them no time to hang out. Boruto finds Shikadai, Inojin, and Chōchō, who are exhausted from training. He tries starting a conversation, but the three just discuss their training.",
+    "translate": "quest.narutorpg.graduation_exams_arc_01.desc"
+  },
+  "giver": "narutorpg:shikadai_nara",
+  "intro": [
+    {
+      "fallback": "Boruto finds his classmates are generally concerned with upcoming graduation exams, leaving them no time to hang out.",
+      "translate": "quest.narutorpg.graduation_exams_arc_01.intro0"
+    },
+    {
+      "fallback": "Boruto finds Shikadai, Inojin, and Chōchō, who are exhausted from training.",
+      "translate": "quest.narutorpg.graduation_exams_arc_01.intro1"
+    },
+    {
+      "fallback": "He tries starting a conversation, but the three just discuss their training.",
+      "translate": "quest.narutorpg.graduation_exams_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Night of the Shooting Stars",
+    "translate": "quest.narutorpg.graduation_exams_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikadai_nara",
+      "text": {
+        "fallback": "Talk to Shikadai Nara",
+        "translate": "quest.narutorpg.graduation_exams_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: The Night of the Shooting Stars",
+        "translate": "quest.narutorpg.graduation_exams_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:inojin_yamanaka",
+      "text": {
+        "fallback": "Meet Inojin Yamanaka",
+        "translate": "quest.narutorpg.graduation_exams_arc_01.o3"
+      }
+    }
+  ],
+  "order": 204400,
+  "outro": [
+    {
+      "fallback": "Shikadai asks Boruto about his commitment over camping for the carp, something he'd usually find tedious.",
+      "translate": "quest.narutorpg.graduation_exams_arc_01.outro0"
+    },
+    {
+      "fallback": "Boruto confides that he wants them all to do something together before going their separate ways after graduation.",
+      "translate": "quest.narutorpg.graduation_exams_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_08"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

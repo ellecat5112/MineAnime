@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:minato_namikaze_ally_shippuden",
+    "narutorpg:fugaku_uchiha_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Jiraiya Shinobi Handbook: The Tale of Naruto the Hero",
+    "translate": "quest.narutorpg.arc.jiraiya_shinobi_handbook_the_tale_of_naruto_the_"
+  },
+  "description": {
+    "fallback": "After retrieving their team leaders, the genin teams return to the village and Minato decides not to punish them for disobeying orders because their actions resulted in the mission's success. After being scolded by his father and having a talk with his brother about the relation between the Uchiha and the village, Sasuke starts training with Kakashi to learn the Chidori. At the same time, Naruto undergoes training...",
+    "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "After retrieving their team leaders, the genin teams return to the village and Minato decides not to punish them for disobeying orders because their actions resulted in the mission's success.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.intro0"
+    },
+    {
+      "fallback": "After being scolded by his father and having a talk with his brother about the relation between the Uchiha and the village, Sasuke starts training with Kakashi to learn the Chidori.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.intro1"
+    },
+    {
+      "fallback": "At the same time, Naruto undergoes training with Jiraiya and Minato to enhance the Rasengan.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part Two",
+    "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Part Two",
+        "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 144201,
+  "outro": [
+    {
+      "fallback": "This unauthorised act resulted in themselves being arrested.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.outro0"
+    },
+    {
+      "fallback": "Fugaku, greatly displeased as Sasuke's lack of maturity and morals, removed Sasuke from the Police Force completely.",
+      "translate": "quest.narutorpg.jiraiya_shinobi_handbook_the_tale_of_naruto_the__02.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:jiraiya_shinobi_handbook_the_tale_of_naruto_the__01"
+  ],
+  "rewards": {
+    "experience": 31,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 9
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

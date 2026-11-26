@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:animal_path",
+    "narutorpg:asura_path",
+    "narutorpg:big_truth_seeking_ball",
+    "narutorpg:black_receiver",
+    "narutorpg:chibaku_tensei",
+    "narutorpg:bansho_ten_in"
+  ],
+  "appearance": {
+    "accent": 4073251,
+    "eyes": 12986408,
+    "hair": 1119000,
+    "hair_style": "wild",
+    "mark": "red_eyes",
+    "outfit": "armor",
+    "top": 12000284
+  },
+  "attack": 15.9,
+  "cast_interval": 40,
+  "health": 547.0,
+  "name": {
+    "fallback": "Madara Uchiha",
+    "translate": "npc.narutorpg.madara_uchiha"
+  },
+  "power": 2.22,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

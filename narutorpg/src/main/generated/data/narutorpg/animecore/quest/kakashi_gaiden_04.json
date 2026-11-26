@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "His master tries to stop him from attacking, but Kakashi reminds him that he is the team leader for this mission. Kakashi charges at the enemy with his Chidori, defeating wave after wave of shadow clones. When Kakashi finally reaches the real opponent, the speed of his Chidori leaves him unable to dodge a counterattack.",
+    "translate": "quest.narutorpg.kakashi_gaiden_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "His master tries to stop him from attacking, but Kakashi reminds him that he is the team leader for this mission.",
+      "translate": "quest.narutorpg.kakashi_gaiden_04.intro0"
+    },
+    {
+      "fallback": "Kakashi charges at the enemy with his Chidori, defeating wave after wave of shadow clones.",
+      "translate": "quest.narutorpg.kakashi_gaiden_04.intro1"
+    },
+    {
+      "fallback": "When Kakashi finally reaches the real opponent, the speed of his Chidori leaves him unable to dodge a counterattack.",
+      "translate": "quest.narutorpg.kakashi_gaiden_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Side Story 2: Teamwork!!",
+    "translate": "quest.narutorpg.kakashi_gaiden_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Go: Side Story 2: Teamwork!!",
+        "translate": "quest.narutorpg.kakashi_gaiden_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 112803,
+  "outro": [
+    {
+      "fallback": "Despite his injury, Kakashi continues to pick on Obito, drawing attention to each of his infractions of the Shinobi Rules.",
+      "translate": "quest.narutorpg.kakashi_gaiden_04.outro0"
+    },
+    {
+      "fallback": "Though their master does not entirely approve, he explains how Kakashi's father, Sakumo Hatake, was disgraced when he didn't follow the rules and encourages Obito to be more understanding. pt-br:Segunda Parte: Trabalho...",
+      "translate": "quest.narutorpg.kakashi_gaiden_04.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_03"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

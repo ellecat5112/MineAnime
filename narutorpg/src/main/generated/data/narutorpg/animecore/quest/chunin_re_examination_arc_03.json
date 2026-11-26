@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Chūnin Re-Examination Arc",
+    "translate": "quest.narutorpg.arc.chunin_re_examination_arc"
+  },
+  "description": {
+    "fallback": "While Sarada examines her new flak jacket, Sakura mentions how the team dynamic will change since she will serve as captain. She gives Boruto and Mitsuki forms to fill, and they discuss how the team is likely to change. Konohamaru's absence from the team leaves Sarada discontent, and they decide to see how he is, wishing to celebrate Sarada's promotion.",
+    "translate": "quest.narutorpg.chunin_re_examination_arc_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "While Sarada examines her new flak jacket, Sakura mentions how the team dynamic will change since she will serve as captain.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_03.intro0"
+    },
+    {
+      "fallback": "She gives Boruto and Mitsuki forms to fill, and they discuss how the team is likely to change.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_03.intro1"
+    },
+    {
+      "fallback": "Konohamaru's absence from the team leaves Sarada discontent, and they decide to see how he is, wishing to celebrate Sarada's promotion.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Final Mission",
+    "translate": "quest.narutorpg.chunin_re_examination_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.chunin_re_examination_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 42,
+      "text": {
+        "fallback": "Go: Final Mission",
+        "translate": "quest.narutorpg.chunin_re_examination_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Meet Sarada Uchiha",
+        "translate": "quest.narutorpg.chunin_re_examination_arc_03.o3"
+      }
+    }
+  ],
+  "order": 223102,
+  "outro": [
+    {
+      "fallback": "Naruto officially appoints the new chūnin as team captains.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_03.outro0"
+    },
+    {
+      "fallback": "Team 7 takes a team photo.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:chunin_re_examination_arc_02"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

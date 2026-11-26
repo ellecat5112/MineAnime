@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:hiruzen_sarutobi_ally_shippuden",
+    "narutorpg:minato_namikaze_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kakashi Gaiden",
+    "translate": "quest.narutorpg.arc.kakashi_gaiden"
+  },
+  "description": {
+    "fallback": "On the front lines of the Third Shinobi World War, Iwagakure's forces have almost defeated Konoha's. Despite this, when Konoha's Yellow Flash arrives, the surviving Konoha ninja are confident that the battle is about to turn in their favour. Meanwhile, Obito nears the location where Rin is being held captive.",
+    "translate": "quest.narutorpg.kakashi_gaiden_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "On the front lines of the Third Shinobi World War, Iwagakure's forces have almost defeated Konoha's.",
+      "translate": "quest.narutorpg.kakashi_gaiden_06.intro0"
+    },
+    {
+      "fallback": "Despite this, when Konoha's Yellow Flash arrives, the surviving Konoha ninja are confident that the battle is about to turn in their favour.",
+      "translate": "quest.narutorpg.kakashi_gaiden_06.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Obito nears the location where Rin is being held captive.",
+      "translate": "quest.narutorpg.kakashi_gaiden_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Side Story 4: The Crybaby Ninja",
+    "translate": "quest.narutorpg.kakashi_gaiden_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kakashi_gaiden_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Side Story 4: The Crybaby Ninja",
+        "translate": "quest.narutorpg.kakashi_gaiden_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112805,
+  "outro": [
+    {
+      "fallback": "Taiseki survives and tries to attack Obito again, but Kakashi saves him once more, though his left eye is damaged.",
+      "translate": "quest.narutorpg.kakashi_gaiden_06.outro0"
+    },
+    {
+      "fallback": "Obito awakens his Sharingan and kills Taiseki to protect Kakashi. pt-br:Capítulo 242: Quarta Parte: Um Ninja Chorão",
+      "translate": "quest.narutorpg.kakashi_gaiden_06.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:kakashi_gaiden_05"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

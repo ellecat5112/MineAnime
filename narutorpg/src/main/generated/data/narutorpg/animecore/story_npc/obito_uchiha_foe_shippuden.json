@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "narutorpg:animal_path",
+    "narutorpg:asura_path",
+    "narutorpg:big_truth_seeking_ball",
+    "narutorpg:black_receiver",
+    "narutorpg:explosive_landmines",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 12986408,
+    "hair": 1119000,
+    "mark": "red_eyes",
+    "outfit": "cloak",
+    "top": 1052692
+  },
+  "attack": 8.9,
+  "cast_interval": 40,
+  "health": 288.0,
+  "name": {
+    "fallback": "Obito Uchiha",
+    "translate": "npc.narutorpg.obito_uchiha"
+  },
+  "power": 1.5,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

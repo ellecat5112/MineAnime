@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:dokku_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Power",
+    "translate": "quest.narutorpg.arc.power"
+  },
+  "description": {
+    "fallback": "As Team Kakashi continues to battle Kabuto, Hidan and the reincarnated shinobi, Naruto gets swallowed by a giant snake created by Kabuto, but manages to escape using shadow clones, accidentally ingesting Kabuto's clone snakes in the process. When Naruto resurfaces, Kabuto retreats, using the reincarnated Deidara as a diversion, after revealing a village guard's corpse in the mouth of a snake. Meanwhile, Dokku takes...",
+    "translate": "quest.narutorpg.power_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Team Kakashi continues to battle Kabuto, Hidan and the reincarnated shinobi, Naruto gets swallowed by a giant snake created by Kabuto, but manages to escape using shadow clones, accidentally ingesting Kabuto's clone...",
+      "translate": "quest.narutorpg.power_02.intro0"
+    },
+    {
+      "fallback": "When Naruto resurfaces, Kabuto retreats, using the reincarnated Deidara as a diversion, after revealing a village guard's corpse in the mouth of a snake.",
+      "translate": "quest.narutorpg.power_02.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Dokku takes care of the orphans, while Miina, due to trauma, becomes mute.",
+      "translate": "quest.narutorpg.power_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Unexpected Meeting",
+    "translate": "quest.narutorpg.power_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.power_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Unexpected Meeting",
+        "translate": "quest.narutorpg.power_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hidan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hidan",
+        "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 130001,
+  "outro": [
+    {
+      "fallback": "Naruto and Dokku discuss Dokku's failure to save a girl in his prime and all his failures in life, unlike Naruto, who became famous even in the Hachō Village, a rural area.",
+      "translate": "quest.narutorpg.power_02.outro0"
+    },
+    {
+      "fallback": "Kabuto, while testing the effects of his talismans on Hidan and Deidara in a graveyard, converses with an unknown individual that communicates to him through a scroll.",
+      "translate": "quest.narutorpg.power_02.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:power_01"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

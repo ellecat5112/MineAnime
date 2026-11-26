@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 2001125,
+    "hair": 5125166,
+    "hair_style": "long",
+    "pants": 3622735,
+    "top": 8916559
+  },
+  "attack": 11.0,
+  "health": 158.0,
+  "name": {
+    "fallback": "Miina",
+    "translate": "npc.narutorpg.miina"
+  },
+  "power": 1.84,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

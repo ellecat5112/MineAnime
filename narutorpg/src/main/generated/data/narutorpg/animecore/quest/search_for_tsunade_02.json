@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Search for Tsunade",
+    "translate": "quest.narutorpg.arc.search_for_tsunade"
+  },
+  "description": {
+    "fallback": "To act on his promise, Sasuke prepares his Chidori, and then lunges at Itachi. Before Sasuke can land a blow, Itachi grabs and crushes his arm, sending the attack into a nearby wall. To help Sasuke, Naruto taps into the demon fox's chakra, ready to summon a toad to help him in battle.",
+    "translate": "quest.narutorpg.search_for_tsunade_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "To act on his promise, Sasuke prepares his Chidori, and then lunges at Itachi.",
+      "translate": "quest.narutorpg.search_for_tsunade_02.intro0"
+    },
+    {
+      "fallback": "Before Sasuke can land a blow, Itachi grabs and crushes his arm, sending the attack into a nearby wall.",
+      "translate": "quest.narutorpg.search_for_tsunade_02.intro1"
+    },
+    {
+      "fallback": "To help Sasuke, Naruto taps into the demon fox's chakra, ready to summon a toad to help him in battle.",
+      "translate": "quest.narutorpg.search_for_tsunade_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Brothers Reunion",
+    "translate": "quest.narutorpg.search_for_tsunade_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.search_for_tsunade_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Brothers Reunion",
+        "translate": "quest.narutorpg.search_for_tsunade_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kisame_hoshigaki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kisame Hoshigaki",
+        "translate": "quest.narutorpg.defeat.kisame_hoshigaki_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_naruto",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_naruto"
+      }
+    }
+  ],
+  "order": 9101,
+  "outro": [
+    {
+      "fallback": "After Guy apologises, he informs Jiraiya that Kakashi is in the same state as Sasuke and that nothing can be done to help him recover.",
+      "translate": "quest.narutorpg.search_for_tsunade_02.outro0"
+    },
+    {
+      "fallback": "As Guy takes Sasuke back to Konoha to rest, Jiraiya realises that only Tsunade can help Kakashi and Sasuke, strengthening his resolve to find her.",
+      "translate": "quest.narutorpg.search_for_tsunade_02.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:search_for_tsunade_01"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

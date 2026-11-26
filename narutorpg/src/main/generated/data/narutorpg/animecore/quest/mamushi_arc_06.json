@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:inojin_yamanaka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "The group of Mamushi are infuriated by the supposed attack from Kobu and decide to kill him. Koji rushes Inojin to release the Mind Body Switch Technique to avoid sharing Kobu's intended fate. Refusing to let him die, Inojin dodges Mamushi's attack, telling Koji if he can't protect Kobu, he wouldn't deserve to call himself a shinobi.",
+    "translate": "quest.narutorpg.mamushi_arc_06.desc"
+  },
+  "giver": "narutorpg:kobu",
+  "intro": [
+    {
+      "fallback": "The group of Mamushi are infuriated by the supposed attack from Kobu and decide to kill him.",
+      "translate": "quest.narutorpg.mamushi_arc_06.intro0"
+    },
+    {
+      "fallback": "Koji rushes Inojin to release the Mind Body Switch Technique to avoid sharing Kobu's intended fate.",
+      "translate": "quest.narutorpg.mamushi_arc_06.intro1"
+    },
+    {
+      "fallback": "Refusing to let him die, Inojin dodges Mamushi's attack, telling Koji if he can't protect Kobu, he wouldn't deserve to call himself a shinobi.",
+      "translate": "quest.narutorpg.mamushi_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Shut Up",
+    "translate": "quest.narutorpg.mamushi_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kobu",
+      "text": {
+        "fallback": "Talk to Kobu",
+        "translate": "quest.narutorpg.mamushi_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 98,
+      "text": {
+        "fallback": "Head out: Shut Up",
+        "translate": "quest.narutorpg.mamushi_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Mamushi",
+        "translate": "quest.narutorpg.defeat.mamushi_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    }
+  ],
+  "order": 303605,
+  "outro": [
+    {
+      "fallback": "Refusing to let him die, Inojin dodges Mamushi's attack, telling Koji if he can't protect Kobu, he wouldn't deserve to call himself a shinobi.",
+      "translate": "quest.narutorpg.mamushi_arc_06.outro0"
+    },
+    {
+      "fallback": "Koji, annoyed at Inojin for not understanding the situation, immediately undoes the Mind Transfer Jutsu, upsetting Inojin, but Koji orders him to restart the transmission and says that he will face him later.",
+      "translate": "quest.narutorpg.mamushi_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_05"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:big_ball_rasengan",
+    "narutorpg:big_ball_spiralling_serial_spheres",
+    "narutorpg:booby_trap",
+    "narutorpg:fire_release_ash_pile_burning",
+    "narutorpg:fire_release_blazing_meteors",
+    "narutorpg:adamantine_seal_monkey_yang_suppression"
+  ],
+  "appearance": {
+    "accent": 1793568,
+    "eyes": 2001125,
+    "hair": 4073251,
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 13010498,
+    "top": 3046706
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Konohamaru Sarutobi",
+    "translate": "npc.narutorpg.konohamaru_sarutobi"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

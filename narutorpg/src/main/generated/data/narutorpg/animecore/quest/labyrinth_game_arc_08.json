@@ -1,0 +1,82 @@
+{
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "Boruto is incredulous that everything until now was genjutsu, and his legs give out, weak from disuse. Yatsume and Rokuro also wake up, Boruto confirming to Rokuro that Kiseru wasn't working for Ōga, but in fact investigating him. Something about the pain when Kiseru stabbed him was different, which he attributes to it being genjutsu.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_08.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto is incredulous that everything until now was genjutsu, and his legs give out, weak from disuse.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_08.intro0"
+    },
+    {
+      "fallback": "Yatsume and Rokuro also wake up, Boruto confirming to Rokuro that Kiseru wasn't working for Ōga, but in fact investigating him.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_08.intro1"
+    },
+    {
+      "fallback": "Something about the pain when Kiseru stabbed him was different, which he attributes to it being genjutsu.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Eighth Truth",
+    "translate": "quest.narutorpg.labyrinth_game_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.labyrinth_game_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: The Eighth Truth",
+        "translate": "quest.narutorpg.labyrinth_game_arc_08.travel"
+      }
+    },
+    {
+      "type": "use_ability",
+      "count": 3,
+      "text": {
+        "fallback": "Train: use 3 techniques",
+        "translate": "quest.narutorpg.train"
+      }
+    }
+  ],
+  "order": 228407,
+  "outro": [
+    {
+      "fallback": "Yatsume refuses giving the map to Rokuro again.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_08.outro0"
+    },
+    {
+      "fallback": "Boruto fails to break through the wall with his Rasengan and tries to circle back.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:labyrinth_game_arc_07"
+  ],
+  "rewards": {
+    "experience": 41,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

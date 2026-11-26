@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "narutorpg:bee_bomb_technique",
+    "narutorpg:bee_honey_technique",
+    "narutorpg:rock_hive",
+    "narutorpg:summoning_technique",
+    "narutorpg:thousand_bee_stings_technique",
+    "narutorpg:beeswax_clone"
+  ],
+  "appearance": {
+    "accent": 12000284,
+    "eyes": 1118481,
+    "hair": 12986408,
+    "hair_style": "long",
+    "headband": 7162945,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "top": 9268835
+  },
+  "attack": 6.5,
+  "cast_interval": 40,
+  "health": 202.0,
+  "name": {
+    "fallback": "Suzumebachi",
+    "translate": "npc.narutorpg.suzumebachi"
+  },
+  "power": 1.26,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

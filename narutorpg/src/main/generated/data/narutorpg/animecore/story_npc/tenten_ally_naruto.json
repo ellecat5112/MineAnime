@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:dynamic_entry",
+    "narutorpg:manipulated_shuriken_technique",
+    "narutorpg:manipulated_tools_binding_meteor",
+    "narutorpg:manipulating_attack_blades",
+    "narutorpg:puppet_technique",
+    "narutorpg:enclosing_technique"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 2001125,
+    "hair": 14737632,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 3622735,
+    "skin": 14724201,
+    "top": 2046559
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Tenten",
+    "translate": "npc.narutorpg.tenten"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

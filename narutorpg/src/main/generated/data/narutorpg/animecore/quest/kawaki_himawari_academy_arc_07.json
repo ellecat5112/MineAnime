@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "The class rehearses a play about the Sannin for an upcoming festival, in which Kawaki plays Katsuyu. Eiki, playing Jiraiya, mocks him. Kae, who plays Tsunade, is excited about it.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "The class rehearses a play about the Sannin for an upcoming festival, in which Kawaki plays Katsuyu.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.intro0"
+    },
+    {
+      "fallback": "Eiki, playing Jiraiya, mocks him.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.intro1"
+    },
+    {
+      "fallback": "Kae, who plays Tsunade, is excited about it.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kawaki's Cover Blown?!",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: Kawaki's Cover Blown?!",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:eiki_fuma",
+      "text": {
+        "fallback": "Meet Eiki Fūma",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.o3"
+      }
+    }
+  ],
+  "order": 227106,
+  "outro": [
+    {
+      "fallback": "They speculate the motive behind it, Eiki believing it to be nefarious.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.outro0"
+    },
+    {
+      "fallback": "Sōsha asks about what proof he has, and Eiki shows a note sent to him anonymously, which is why he has kept a close eye on Kawaki.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_06"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

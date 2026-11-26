@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:jiraiya_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Search for Tsunade",
+    "translate": "quest.narutorpg.arc.search_for_tsunade"
+  },
+  "description": {
+    "fallback": "Because Akatsuki will henceforth be after Naruto, Jiraiya decides to start teaching Naruto the technique that is supposedly stronger than Sasuke's Chidori: the Rasengan, the jutsu that took the Fourth Hokage three years to master. As the pair goes from place to place in search of Tsunade, Naruto rapidly progresses through the Rasengan's learning steps, coming up with a number of shortcuts along the way. Just as...",
+    "translate": "quest.narutorpg.search_for_tsunade_03.desc"
+  },
+  "giver": "narutorpg:hiruzen_sarutobi",
+  "intro": [
+    {
+      "fallback": "Because Akatsuki will henceforth be after Naruto, Jiraiya decides to start teaching Naruto the technique that is supposedly stronger than Sasuke's Chidori: the Rasengan, the jutsu that took the Fourth Hokage three years...",
+      "translate": "quest.narutorpg.search_for_tsunade_03.intro0"
+    },
+    {
+      "fallback": "As the pair goes from place to place in search of Tsunade, Naruto rapidly progresses through the Rasengan's learning steps, coming up with a number of shortcuts along the way.",
+      "translate": "quest.narutorpg.search_for_tsunade_03.intro1"
+    },
+    {
+      "fallback": "Just as Naruto gets to the final stages of learning the jutsu, Jiraiya learns of Tsunade's location, and the two set out to meet her.",
+      "translate": "quest.narutorpg.search_for_tsunade_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Search for Tsunade",
+    "translate": "quest.narutorpg.search_for_tsunade_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:hiruzen_sarutobi",
+      "text": {
+        "fallback": "Talk to Hiruzen Sarutobi",
+        "translate": "quest.narutorpg.search_for_tsunade_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Search for Tsunade",
+        "translate": "quest.narutorpg.search_for_tsunade_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_naruto",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_naruto"
+      }
+    }
+  ],
+  "order": 9102,
+  "outro": [
+    {
+      "fallback": "After repeating her refusal to help Orochimaru, Tsunade prepares to fight them in the event that they won't leave.",
+      "translate": "quest.narutorpg.search_for_tsunade_03.outro0"
+    },
+    {
+      "fallback": "Just as she is about to attack, Orochimaru offers to revive her dead brother and lover",
+      "translate": "quest.narutorpg.search_for_tsunade_03.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:search_for_tsunade_02"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

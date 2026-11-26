@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:fugo_ally_boruto",
+    "narutorpg:shamo_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "Boruto confronts Kiseru about Batta's and Fugō's deaths. Kiseru questions Boruto's trust in Rokuro's word over his. Boruto questions him about the communication device Batta stole from him.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_07.desc"
+  },
+  "giver": "narutorpg:batta",
+  "intro": [
+    {
+      "fallback": "Boruto confronts Kiseru about Batta's and Fugō's deaths.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_07.intro0"
+    },
+    {
+      "fallback": "Kiseru questions Boruto's trust in Rokuro's word over his.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_07.intro1"
+    },
+    {
+      "fallback": "Boruto questions him about the communication device Batta stole from him.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Breakthrough (episode)",
+    "translate": "quest.narutorpg.labyrinth_game_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:batta",
+      "text": {
+        "fallback": "Talk to Batta",
+        "translate": "quest.narutorpg.labyrinth_game_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 90,
+      "text": {
+        "fallback": "Head out: Breakthrough (episode)",
+        "translate": "quest.narutorpg.labyrinth_game_arc_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kiseru_gankubi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Kiseru Gankubi",
+        "translate": "quest.narutorpg.defeat.kiseru_gankubi_foe_boruto"
+      }
+    }
+  ],
+  "order": 228406,
+  "outro": [
+    {
+      "fallback": "He escapes by digging down with Fire Release, the others following him to an underground cave system.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_07.outro0"
+    },
+    {
+      "fallback": "Kiseru attacks the ceiling, causing parts of it to collapse.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:labyrinth_game_arc_06"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

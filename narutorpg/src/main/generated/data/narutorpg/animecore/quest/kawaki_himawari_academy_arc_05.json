@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Hana announces a practical training session for the class for the next day, and sorts the students into teams of three. Himawari is placed with Kae and Sōsha, Kawaki with Harika and Soul. Hana wants them to strengthen their team-work.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Hana announces a practical training session for the class for the next day, and sorts the students into teams of three.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.intro0"
+    },
+    {
+      "fallback": "Himawari is placed with Kae and Sōsha, Kawaki with Harika and Soul.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.intro1"
+    },
+    {
+      "fallback": "Hana wants them to strengthen their team-work.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team Rivalry: Practical Skills Training!",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: Team Rivalry: Practical Skills Training!",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:hana_kaka",
+      "text": {
+        "fallback": "Meet Hana Kaka",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.o3"
+      }
+    }
+  ],
+  "order": 227104,
+  "outro": [
+    {
+      "fallback": "They stop to make lunch.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.outro0"
+    },
+    {
+      "fallback": "Instead of using sticks to make fire, Kande uses Lightning Release, impressing his team-mates.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_04"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

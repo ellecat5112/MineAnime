@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "Post Mamushi Arc",
+    "translate": "quest.narutorpg.arc.post_mamushi_arc"
+  },
+  "description": {
+    "fallback": "Jura informs Hidari of Mamushi's death, figuring he died because of his warped and twisted version of love for Ada. Hidari asked why Jura didn't save the other fallen Human God Trees but himself, which Jura also wondered. Jura believed that imagining a world without Hidari made him feel sadness.",
+    "translate": "quest.narutorpg.post_mamushi_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Jura informs Hidari of Mamushi's death, figuring he died because of his warped and twisted version of love for Ada.",
+      "translate": "quest.narutorpg.post_mamushi_arc_01.intro0"
+    },
+    {
+      "fallback": "Hidari asked why Jura didn't save the other fallen Human God Trees but himself, which Jura also wondered.",
+      "translate": "quest.narutorpg.post_mamushi_arc_01.intro1"
+    },
+    {
+      "fallback": "Jura believed that imagining a world without Hidari made him feel sadness.",
+      "translate": "quest.narutorpg.post_mamushi_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Cute",
+    "translate": "quest.narutorpg.post_mamushi_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.post_mamushi_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: Cute",
+        "translate": "quest.narutorpg.post_mamushi_arc_01.travel"
+      }
+    },
+    {
+      "type": "use_ability",
+      "count": 3,
+      "text": {
+        "fallback": "Train: use 3 techniques",
+        "translate": "quest.narutorpg.train"
+      }
+    }
+  ],
+  "order": 304500,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_09"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

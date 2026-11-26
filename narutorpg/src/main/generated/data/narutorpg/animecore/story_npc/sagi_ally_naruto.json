@@ -1,0 +1,21 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 7951688,
+    "eyes": 1118481,
+    "hair": 15913323,
+    "top": 1793568
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Sagi",
+    "translate": "npc.narutorpg.sagi"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

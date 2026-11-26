@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "While sailing to the Land of Lightning, Naruto Uzumaki and the others are attacked by pirates who wanted to sink their ship and loot the wreckage. Thanks to some fast thinking on Yamato's part and the early warning by one of the sensor-type shinobi however, the ship is saved and they dock in an underground cavern. There they find a burial ground and a journal telling of the plight of the native islanders at the hand...",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_04.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "While sailing to the Land of Lightning, Naruto Uzumaki and the others are attacked by pirates who wanted to sink their ship and loot the wreckage.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_04.intro0"
+    },
+    {
+      "fallback": "Thanks to some fast thinking on Yamato's part and the early warning by one of the sensor-type shinobi however, the ship is saved and they dock in an underground cavern.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_04.intro1"
+    },
+    {
+      "fallback": "There they find a burial ground and a journal telling of the plight of the native islanders at the hand of the wicked Gataro and his men, being enslaved and died one by one.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Battleship Island",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Go: Battleship Island",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 123303,
+  "outro": [
+    {
+      "fallback": "Using Naruto's strategy the Konoha shinobi and crew were able to escape the island and put Gataro and his men out of commission.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_04.outro0"
+    },
+    {
+      "fallback": "The cloth he wore as substitute for his forehead protector flies towards the island.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_04.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_03"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

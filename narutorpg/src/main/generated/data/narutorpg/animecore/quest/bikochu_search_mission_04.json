@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:kiba_inuzuka_ally_naruto",
+    "narutorpg:naruto_uzumaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Bikōchū Search Mission",
+    "translate": "quest.narutorpg.arc.bikochu_search_mission"
+  },
+  "description": {
+    "fallback": "Shino, Kiba and Naruto are trapped in the hive of the queen bee where Shino provokes her to use the honey spit trap on them. Now rendered immobile, the three get captured by Suzumebachi's team who interrogates them for information on how to find the hidden bikōchū beetle. Shino is reluctant, but eventually agrees to tell if they take them to Hinata first.",
+    "translate": "quest.narutorpg.bikochu_search_mission_04.desc"
+  },
+  "giver": "narutorpg:shino_aburame",
+  "intro": [
+    {
+      "fallback": "Shino, Kiba and Naruto are trapped in the hive of the queen bee where Shino provokes her to use the honey spit trap on them.",
+      "translate": "quest.narutorpg.bikochu_search_mission_04.intro0"
+    },
+    {
+      "fallback": "Now rendered immobile, the three get captured by Suzumebachi's team who interrogates them for information on how to find the hidden bikōchū beetle.",
+      "translate": "quest.narutorpg.bikochu_search_mission_04.intro1"
+    },
+    {
+      "fallback": "Shino is reluctant, but eventually agrees to tell if they take them to Hinata first.",
+      "translate": "quest.narutorpg.bikochu_search_mission_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Blaze Away, Byakugan! This is My Ninja Way!",
+    "translate": "quest.narutorpg.bikochu_search_mission_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Talk to Shino Aburame",
+        "translate": "quest.narutorpg.bikochu_search_mission_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: Blaze Away, Byakugan! This is My Ninja Way!",
+        "translate": "quest.narutorpg.bikochu_search_mission_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:suzumebachi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Suzumebachi",
+        "translate": "quest.narutorpg.defeat.suzumebachi_foe_naruto"
+      }
+    }
+  ],
+  "order": 15803,
+  "outro": [
+    {
+      "fallback": "While trying to retrieve the forehead protector, Naruto accidentally farts on the bikōchū, causing it to memorise his scent instead of Sasuke's.",
+      "translate": "quest.narutorpg.bikochu_search_mission_04.outro0"
+    },
+    {
+      "fallback": "Although the mission fails to find a way of locating Sasuke, Hinata appears more confident, and her father seems to respect her more.",
+      "translate": "quest.narutorpg.bikochu_search_mission_04.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:bikochu_search_mission_03"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

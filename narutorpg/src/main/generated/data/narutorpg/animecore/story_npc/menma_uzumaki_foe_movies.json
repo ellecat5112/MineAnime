@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:negative_emotions_sensing"
+  ],
+  "appearance": {
+    "accent": 1713022,
+    "eyes": 1118481,
+    "hair": 12986408,
+    "hair_style": "long",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 15094016
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 331.0,
+  "name": {
+    "fallback": "Menma Uzumaki",
+    "translate": "npc.narutorpg.menma_uzumaki"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

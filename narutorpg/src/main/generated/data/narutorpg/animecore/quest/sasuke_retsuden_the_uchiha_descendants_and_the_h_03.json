@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:sakura_haruno_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": "At Zansūru's instruction, the prison guards assault Sasuke throughout the day, punishment for his attack on Menō the night before. Sasuke doesn't fight back against the guards, instead taking the opportunity to steal a red cloth from one of them. After his cellmates go to bed, Sasuke ties the cloth to his hand and leaves the cell; because of the cloth, Menō will believe he has permission to be out at night and will...",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "At Zansūru's instruction, the prison guards assault Sasuke throughout the day, punishment for his attack on Menō the night before.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.intro0"
+    },
+    {
+      "fallback": "Sasuke doesn't fight back against the guards, instead taking the opportunity to steal a red cloth from one of them.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.intro1"
+    },
+    {
+      "fallback": "After his cellmates go to bed, Sasuke ties the cloth to his hand and leaves the cell; because of the cloth, Menō will believe he has permission to be out at night and will leave him alone.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 3 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 92,
+      "text": {
+        "fallback": "Head out: Chapter 3 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zansuru_foe_boruto",
+      "text": {
+        "fallback": "Defeat Zansūru",
+        "translate": "quest.narutorpg.defeat.zansuru_foe_boruto"
+      }
+    }
+  ],
+  "order": 229102,
+  "outro": [
+    {
+      "fallback": "Jiji is surprised by Sasuke's presence, and is even more surprised when he is told that Sasuke and Sakura are married.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.outro0"
+    },
+    {
+      "fallback": "Sakura explains that working in the infirmary was her only chance of seein",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_03.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_02"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

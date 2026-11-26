@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_boruto",
+    "narutorpg:sasuke_uchiha_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Naruto Gaiden: The Seventh Hokage and the Scarlet Spring",
+    "translate": "quest.narutorpg.arc.naruto_gaiden_the_seventh_hokage_and_the_scarlet"
+  },
+  "description": {
+    "fallback": "Naruto asks Shikamaru to apologise to Boruto for him and heads off to meet with Sasuke. Just as Naruto leaves, Boruto arrives together with Mitsuki, with the intent of bringing Naruto his lunch. Sarada offers to help bring the food to Naruto and though he is hesitant at first, Boruto later hands it over to Sarada, and she heads off together with Chōchō.",
+    "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto asks Shikamaru to apologise to Boruto for him and heads off to meet with Sasuke.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.intro0"
+    },
+    {
+      "fallback": "Just as Naruto leaves, Boruto arrives together with Mitsuki, with the intent of bringing Naruto his lunch.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.intro1"
+    },
+    {
+      "fallback": "Sarada offers to help bring the food to Naruto and though he is hesitant at first, Boruto later hands it over to Sarada, and she heads off together with Chōchō.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Long-Awaited Encounter",
+    "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: The Long-Awaited Encounter",
+        "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shin_uchiha_foe_boruto",
+      "text": {
+        "fallback": "Defeat Shin Uchiha",
+        "translate": "quest.narutorpg.defeat.shin_uchiha_foe_boruto"
+      }
+    }
+  ],
+  "order": 200901,
+  "outro": [
+    {
+      "fallback": "While Sarada sulks at the fact that Sasuke didn't recognise her, Naruto and Chōchō converge on the scene.",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.outro0"
+    },
+    {
+      "fallback": "Sasuke demands an explanation from Naruto as to why",
+      "translate": "quest.narutorpg.naruto_gaiden_the_seventh_hokage_and_the_scarlet_02.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:naruto_gaiden_the_seventh_hokage_and_the_scarlet_01"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

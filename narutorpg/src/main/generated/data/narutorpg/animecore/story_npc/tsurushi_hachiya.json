@@ -1,0 +1,17 @@
+{
+  "appearance": {
+    "eyes": 4431943,
+    "hair": 14737632,
+    "headband": 3622735,
+    "outfit": "jacket",
+    "skin": 13010498
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Tsurushi Hachiya",
+    "translate": "npc.narutorpg.tsurushi_hachiya"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

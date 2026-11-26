@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Kae wakes up right after Kawaki fends off the assassin. He insists on walking her home, instead of reporting the attempt to the Hokage's office immediately, and decides to protect her on his own until the festival is over. The next day, the students prepare the Academy for the festival.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.desc"
+  },
+  "giver": "narutorpg:shino_aburame",
+  "intro": [
+    {
+      "fallback": "Kae wakes up right after Kawaki fends off the assassin.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.intro0"
+    },
+    {
+      "fallback": "He insists on walking her home, instead of reporting the attempt to the Hokage's office immediately, and decides to protect her on his own until the festival is over.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.intro1"
+    },
+    {
+      "fallback": "The next day, the students prepare the Academy for the festival.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Target: The School Festival",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Talk to Shino Aburame",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: Target: The School Festival",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kae_yukiwari",
+      "text": {
+        "fallback": "Meet Kae Yukiwari",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.o3"
+      }
+    }
+  ],
+  "order": 227107,
+  "outro": [
+    {
+      "fallback": "Hana feels unwell, and agrees with Ehō's suggestion that she should rest in the infirmary.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.outro0"
+    },
+    {
+      "fallback": "Kawaki remains concerned.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_07"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

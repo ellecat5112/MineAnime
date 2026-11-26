@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:kakashi_hatake_ally_shippuden",
+    "narutorpg:kankuro_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kazekage Rescue Mission",
+    "translate": "quest.narutorpg.arc.kazekage_rescue_mission"
+  },
+  "description": {
+    "fallback": "After arriving at Sunagakure, Team Kakashi learned of the attack on Kankurō. Despite the failed attempt by the medics on-hand, Sakura cured Kankurō, thus demonstrating her skill with medical techniques. Sakura also developed several portable antidotes rather quickly.",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "After arriving at Sunagakure, Team Kakashi learned of the attack on Kankurō.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_03.intro0"
+    },
+    {
+      "fallback": "Despite the failed attempt by the medics on-hand, Sakura cured Kankurō, thus demonstrating her skill with medical techniques.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_03.intro1"
+    },
+    {
+      "fallback": "Sakura also developed several portable antidotes rather quickly.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Konoha Against Akatsuki",
+    "translate": "quest.narutorpg.kazekage_rescue_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Konoha Against Akatsuki",
+        "translate": "quest.narutorpg.kazekage_rescue_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:nagato_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Nagato",
+        "translate": "quest.narutorpg.defeat.nagato_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:itachi_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Itachi Uchiha",
+        "translate": "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasori_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasori",
+        "translate": "quest.narutorpg.defeat.sasori_foe_shippuden"
+      }
+    }
+  ],
+  "order": 101102,
+  "outro": [
+    {
+      "fallback": "This lead to Naruto entering tailed-beast state rage upon seeing Deidara sitting on the Kazekage's corpse.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_03.outro0"
+    },
+    {
+      "fallback": "While Chiyo and Sakura fought Sasori, Deidara flew off on a clay bird with Gaara's body, with Naruto and Kakashi in pursuit.",
+      "translate": "quest.narutorpg.kazekage_rescue_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:kazekage_rescue_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

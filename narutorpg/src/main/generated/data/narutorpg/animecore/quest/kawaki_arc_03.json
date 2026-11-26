@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:himawari_uzumaki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "When Naruto sparred with Boruto, effortlessly overpowering him, Kawaki activated his seal to make Boruto use his own to begin studying Kāma, at which point Boruto quickly became significantly stronger but was still defeated easily. Nevertheless, Naruto applauded Boruto and the two mutually shared a seal of reconciliation, which surprised Kawaki who remembered how harsh Jigen was with him whenever training him as he...",
+    "translate": "quest.narutorpg.kawaki_arc_03.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "When Naruto sparred with Boruto, effortlessly overpowering him, Kawaki activated his seal to make Boruto use his own to begin studying Kāma, at which point Boruto quickly became significantly stronger but was still...",
+      "translate": "quest.narutorpg.kawaki_arc_03.intro0"
+    },
+    {
+      "fallback": "Nevertheless, Naruto applauded Boruto and the two mutually shared a seal of reconciliation, which surprised Kawaki who remembered how harsh Jigen was with him whenever training him as he could never remember being...",
+      "translate": "quest.narutorpg.kawaki_arc_03.intro1"
+    },
+    {
+      "fallback": "Naruto then offered to have Kawaki spar with Boruto but Kawaki declined as he couldn't use chakra and unmoved by Naruto's explanation of chakra being a power that connects to others, which is the key to happiness, only...",
+      "translate": "quest.narutorpg.kawaki_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Delta's Assault",
+    "translate": "quest.narutorpg.kawaki_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Delta's Assault",
+        "translate": "quest.narutorpg.kawaki_arc_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:delta_foe_boruto",
+      "text": {
+        "fallback": "Defeat Delta",
+        "translate": "quest.narutorpg.defeat.delta_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    }
+  ],
+  "order": 219802,
+  "outro": [
+    {
+      "fallback": "A fierce fight quickly ensued between Naruto and Delta, with Naruto successfully overwhelming and wearing down his opponent while holding back to not harm his watching children as Kawaki noted how far Naruto surpassed...",
+      "translate": "quest.narutorpg.kawaki_arc_03.outro0"
+    },
+    {
+      "fallback": "However, when Delta revealed her trump card, that of a destructive beam that not even Naruto could heal from, Naruto began to be pressured enough that Boruto tried to help only to make Delta attack Himawari, causing...",
+      "translate": "quest.narutorpg.kawaki_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_02"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

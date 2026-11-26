@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:manipulating_attack_blades",
+    "narutorpg:puppet_performance_skilful_achievement_with_a_human_body",
+    "narutorpg:puppet_technique",
+    "narutorpg:puppet_father_and_mother",
+    "narutorpg:puppet_spring_punishing_strike",
+    "narutorpg:mechanical_light_shield_block"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "hair": 1973790,
+    "hair_style": "long",
+    "headband": 6111287,
+    "outfit": "robe",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 10586239
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Chiyo",
+    "translate": "npc.narutorpg.chiyo"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

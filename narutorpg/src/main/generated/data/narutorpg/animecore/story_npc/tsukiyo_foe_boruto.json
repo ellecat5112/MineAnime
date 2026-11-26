@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:pink_lightning",
+    "narutorpg:shadow_sword",
+    "narutorpg:moon_shadow_technique"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 2001125,
+    "hair": 4073251,
+    "pants": 4073251,
+    "skin": 14724201,
+    "top": 7951688
+  },
+  "attack": 17.0,
+  "cast_interval": 40,
+  "health": 590.0,
+  "name": {
+    "fallback": "Tsukiyo",
+    "translate": "npc.narutorpg.tsukiyo"
+  },
+  "power": 2.34,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Konoha Hiden: The Perfect Day for a Wedding",
+    "translate": "quest.narutorpg.arc.konoha_hiden_the_perfect_day_for_a_wedding"
+  },
+  "description": {
+    "fallback": "Shino has his kikaichū report to him about others buying Naruto and Hinata's wedding gifts. He shows the insects to Academy students, one of them wanting to become Hokage, much like Naruto. Iruka watches them from afar.",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Shino has his kikaichū report to him about others buying Naruto and Hinata's wedding gifts.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.intro0"
+    },
+    {
+      "fallback": "He shows the insects to Academy students, one of them wanting to become Hokage, much like Naruto.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.intro1"
+    },
+    {
+      "fallback": "Iruka watches them from afar.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Last Mission",
+    "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: The Last Mission",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shino_aburame",
+      "text": {
+        "fallback": "Meet Shino Aburame",
+        "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.o3"
+      }
+    }
+  ],
+  "order": 150404,
+  "outro": [
+    {
+      "fallback": "The two ask Kurenai for advice.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.outro0"
+    },
+    {
+      "fallback": "Kurenai tells them about a rare honey wine that the Senju clan would gift in certain occasions.",
+      "translate": "quest.narutorpg.konoha_hiden_the_perfect_day_for_a_wedding_05.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_04"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

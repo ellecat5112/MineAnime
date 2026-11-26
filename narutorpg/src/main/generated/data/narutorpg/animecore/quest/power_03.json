@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:miina_ally_shippuden",
+    "narutorpg:dokku_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Power",
+    "translate": "quest.narutorpg.arc.power"
+  },
+  "description": {
+    "fallback": "After having what was seemingly a bad dream, Miina runs to Dokku in the night to seek comfort. Elsewhere, in a graveyard, Kabuto Yakushi prepares to reincarnate another individual. When day breaks the next morning, Leo, Faz and Lando are eager to start their ninjutsu training with Naruto, who is feeling under the weather.",
+    "translate": "quest.narutorpg.power_03.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "After having what was seemingly a bad dream, Miina runs to Dokku in the night to seek comfort.",
+      "translate": "quest.narutorpg.power_03.intro0"
+    },
+    {
+      "fallback": "Elsewhere, in a graveyard, Kabuto Yakushi prepares to reincarnate another individual.",
+      "translate": "quest.narutorpg.power_03.intro1"
+    },
+    {
+      "fallback": "When day breaks the next morning, Leo, Faz and Lando are eager to start their ninjutsu training with Naruto, who is feeling under the weather.",
+      "translate": "quest.narutorpg.power_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Hidden Ability",
+    "translate": "quest.narutorpg.power_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.power_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 96,
+      "text": {
+        "fallback": "Head out: A Hidden Ability",
+        "translate": "quest.narutorpg.power_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    }
+  ],
+  "order": 130002,
+  "outro": [
+    {
+      "fallback": "The snakes then form into a clone of Naruto in his four-tailed Version 2 state, which attacks all present individuals, including Kabuto, who is unable to gain control of it through a talisman.",
+      "translate": "quest.narutorpg.power_03.outro0"
+    },
+    {
+      "fallback": "As the creature continues attacking indiscriminately, everyone looks on in fear.",
+      "translate": "quest.narutorpg.power_03.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:power_02"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

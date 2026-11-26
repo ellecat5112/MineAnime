@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:mugino_ally_boruto",
+    "narutorpg:mia_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kara Actuation Arc",
+    "translate": "quest.narutorpg.arc.kara_actuation_arc"
+  },
+  "description": {
+    "fallback": "As Boruto excelled in his training of shurikenjutsu, impressing Sasuke, he wanted to find out more about Kara, as Shojoji's intel stated that Kara may know about the seal on his hand, but Sasuke made it clear he can't do that as going against such an unknown enemy will only end badly and told him to simply continue training and doing his assigned missions, despite admitting how he sounded hypocritical as he himself...",
+    "translate": "quest.narutorpg.kara_actuation_arc_02.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "As Boruto excelled in his training of shurikenjutsu, impressing Sasuke, he wanted to find out more about Kara, as Shojoji's intel stated that Kara may know about the seal on his hand, but Sasuke made it clear he can't...",
+      "translate": "quest.narutorpg.kara_actuation_arc_02.intro0"
+    },
+    {
+      "fallback": "Boruto agrees and promises to fulfil any mission given perfectly, only to soon get bored when Team 7 are assigned a missing person's mission in the Land of Valleys, with a recently returned Mugino accompanying them as...",
+      "translate": "quest.narutorpg.kara_actuation_arc_02.intro1"
+    },
+    {
+      "fallback": "As they travel to the Land of Valleys, Mugino reveals he spent the last few years mediating conflicts between smaller nations, as while peace may have settled on the Five Great Shinobi Nations, it has only increased the...",
+      "translate": "quest.narutorpg.kara_actuation_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Mission in the Land of Valleys",
+    "translate": "quest.narutorpg.kara_actuation_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.kara_actuation_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Mission in the Land of Valleys",
+        "translate": "quest.narutorpg.kara_actuation_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.isshiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 216701,
+  "outro": [
+    {
+      "fallback": "Victor told his underlings to stand down, surprising them that the head of the company is involved in the search and explained his motivations is to create a regeneration therapy capable of prolonging life and healing...",
+      "translate": "quest.narutorpg.kara_actuation_arc_02.outro0"
+    },
+    {
+      "fallback": "The two groups exchange information, and narrow down Anato's possible location",
+      "translate": "quest.narutorpg.kara_actuation_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:kara_actuation_arc_01"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

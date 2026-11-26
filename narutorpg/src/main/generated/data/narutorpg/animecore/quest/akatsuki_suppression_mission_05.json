@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "narutorpg:shikamaru_nara_ally_shippuden",
+    "narutorpg:yamato_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Akatsuki Suppression Mission",
+    "translate": "quest.narutorpg.arc.akatsuki_suppression_mission"
+  },
+  "description": {
+    "fallback": "Hidan did not immediately realise what had happened, but Shikamaru attacked him to illustrate the point. However, Shikamaru was weakened from the extended use of his shadow technique, and couldn't hold down Hidan for long. He watched Hidan advance to strike the final blow.",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_05.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Hidan did not immediately realise what had happened, but Shikamaru attacked him to illustrate the point.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_05.intro0"
+    },
+    {
+      "fallback": "However, Shikamaru was weakened from the extended use of his shadow technique, and couldn't hold down Hidan for long.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_05.intro1"
+    },
+    {
+      "fallback": "He watched Hidan advance to strike the final blow.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team Kakashi's Arrival",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: Team Kakashi's Arrival",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kakuzu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kakuzu",
+        "translate": "quest.narutorpg.defeat.kakuzu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hidan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hidan",
+        "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
+      }
+    }
+  ],
+  "order": 108204,
+  "outro": [
+    {
+      "fallback": "Team Kakashi and Team 10 returned, triumphant, to Konoha.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_05.outro0"
+    },
+    {
+      "fallback": "Shikamaru visited Asuma's grave with K",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_05.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:akatsuki_suppression_mission_04"
+  ],
+  "rewards": {
+    "experience": 23,
+    "items": [
+      {
+        "count": 8,
+        "id": "narutorpg:kunai"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 4
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

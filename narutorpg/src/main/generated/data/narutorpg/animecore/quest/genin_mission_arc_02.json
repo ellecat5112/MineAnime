@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sarada_uchiha_ally_boruto",
+    "narutorpg:kiri_villager_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Genin Mission Arc",
+    "translate": "quest.narutorpg.arc.genin_mission_arc"
+  },
+  "description": {
+    "fallback": "Sarada tends to Boruto's injury. Konohamaru confirms the involvement of Pale Blue Valley hired shinobi when a ransom note demands the bridge's deed in exchange for Kiri's life. With Kiri in captivity, Iori confesses to be working for the Pale Blue Valley, having done so since killing her father.",
+    "translate": "quest.narutorpg.genin_mission_arc_02.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Sarada tends to Boruto's injury.",
+      "translate": "quest.narutorpg.genin_mission_arc_02.intro0"
+    },
+    {
+      "fallback": "Konohamaru confirms the involvement of Pale Blue Valley hired shinobi when a ransom note demands the bridge's deed in exchange for Kiri's life.",
+      "translate": "quest.narutorpg.genin_mission_arc_02.intro1"
+    },
+    {
+      "fallback": "With Kiri in captivity, Iori confesses to be working for the Pale Blue Valley, having done so since killing her father.",
+      "translate": "quest.narutorpg.genin_mission_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Strength in Unity",
+    "translate": "quest.narutorpg.genin_mission_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.genin_mission_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: Strength in Unity",
+        "translate": "quest.narutorpg.genin_mission_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hidari_missing_nin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Hidari (missing-nin)",
+        "translate": "quest.narutorpg.defeat.hidari_missing_nin_foe_boruto"
+      }
+    }
+  ],
+  "order": 205001,
+  "outro": [
+    {
+      "fallback": "Iori delivers Kiri to Hidari, and is killed by Ashimaru, telling him they're former shinobi.",
+      "translate": "quest.narutorpg.genin_mission_arc_02.outro0"
+    },
+    {
+      "fallback": "Hidari proposes trading Kiri for the deed to Konohamaru.",
+      "translate": "quest.narutorpg.genin_mission_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:genin_mission_arc_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

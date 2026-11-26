@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:hinata_hyuga_ally_boruto",
+    "narutorpg:himawari_uzumaki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Chūnin Re-Examination Arc",
+    "translate": "quest.narutorpg.arc.chunin_re_examination_arc"
+  },
+  "description": {
+    "fallback": "One morning, Hinata asks Boruto to wake up Kawaki as he has an important meeting at the Hokage's office that he cannot miss. Boruto, however, doesn't do it and after losing to Himawari in rock-paper-scissors, he goes to wake him up. Naruto explains that since Kawaki is already skilled, he has no need to go through the Academy and as such, assigns him D-rank missions with other teams; Kawaki performs poorly as he is...",
+    "translate": "quest.narutorpg.chunin_re_examination_arc_04.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "One morning, Hinata asks Boruto to wake up Kawaki as he has an important meeting at the Hokage's office that he cannot miss.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_04.intro0"
+    },
+    {
+      "fallback": "Boruto, however, doesn't do it and after losing to Himawari in rock-paper-scissors, he goes to wake him up.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_04.intro1"
+    },
+    {
+      "fallback": "Naruto explains that since Kawaki is already skilled, he has no need to go through the Academy and as such, assigns him D-rank missions with other teams; Kawaki performs poorly as he is unable to properly sync with his...",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kawaki's Path to Becoming a Ninja",
+    "translate": "quest.narutorpg.chunin_re_examination_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.chunin_re_examination_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 91,
+      "text": {
+        "fallback": "Head out: Kawaki's Path to Becoming a Ninja",
+        "translate": "quest.narutorpg.chunin_re_examination_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kurobane_foe_boruto",
+      "text": {
+        "fallback": "Defeat Kurobane",
+        "translate": "quest.narutorpg.defeat.kurobane_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jujumaru_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jujumaru",
+        "translate": "quest.narutorpg.defeat.jujumaru_foe_boruto"
+      }
+    }
+  ],
+  "order": 223103,
+  "outro": [
+    {
+      "fallback": "At the same time in the Hokage Residence, Konohamaru gives Naruto and Shikamaru new intel about a boy's corpse and they discuss about the similar incidents happening in other countries.",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_04.outro0"
+    },
+    {
+      "fallback": "Meanwhile, Team 7 is on a D-rank mission guarding livestock when the cows suddenly get agitated as they spot Kurobane and Jujumaru; Boruto smells blood on them and expresses his belief that some",
+      "translate": "quest.narutorpg.chunin_re_examination_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:chunin_re_examination_arc_03"
+  ],
+  "rewards": {
+    "experience": 41,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

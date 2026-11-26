@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "Hiashi explains to Boruto that if he has awakened the Byakugan, it will manifest itself in battle even if Boruto can't activate it at will, something both he and Hanabi will be able to tell. Hanabi decides to take her father's place, sure it will be all for nothing if he simply throws his back out in the fight. Himawari asks Naruto if Boruto will be okay, as they watch him and Hanabi sparring.",
+    "translate": "quest.narutorpg.academy_entrance_arc_09.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Hiashi explains to Boruto that if he has awakened the Byakugan, it will manifest itself in battle even if Boruto can't activate it at will, something both he and Hanabi will be able to tell.",
+      "translate": "quest.narutorpg.academy_entrance_arc_09.intro0"
+    },
+    {
+      "fallback": "Hanabi decides to take her father's place, sure it will be all for nothing if he simply throws his back out in the fight.",
+      "translate": "quest.narutorpg.academy_entrance_arc_09.intro1"
+    },
+    {
+      "fallback": "Himawari asks Naruto if Boruto will be okay, as they watch him and Hanabi sparring.",
+      "translate": "quest.narutorpg.academy_entrance_arc_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Proof of Oneself",
+    "translate": "quest.narutorpg.academy_entrance_arc_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.academy_entrance_arc_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: Proof of Oneself",
+        "translate": "quest.narutorpg.academy_entrance_arc_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 201108,
+  "outro": [
+    {
+      "fallback": "Boruto tries making a distraction using shadow clones and a flash bomb, but Hanabi sees through it.",
+      "translate": "quest.narutorpg.academy_entrance_arc_09.outro0"
+    },
+    {
+      "fallback": "Boruto goes at it once more, this time managing to surround Hanabi with his shadow clones, but she repels them with Eight Trigrams Palms Revolving Heaven.",
+      "translate": "quest.narutorpg.academy_entrance_arc_09.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_08"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

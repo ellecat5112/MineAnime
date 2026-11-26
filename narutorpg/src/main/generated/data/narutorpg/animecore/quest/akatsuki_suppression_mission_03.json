@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:asuma_sarutobi_ally_shippuden",
+    "narutorpg:chiriku_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Akatsuki Suppression Mission",
+    "translate": "quest.narutorpg.arc.akatsuki_suppression_mission"
+  },
+  "description": {
+    "fallback": "At the bounty station, Kakuzu explained to Zangei that Hidan, an immortal, was the only ninja capable of surviving Kakuzu's indiscriminate attack strategies. This was the reason for their partnership, despite their ideological differences and dislike for one another. As Asuma's group moved toward the bounty station, Asuma explained that he and Chiriku had both belonged to the Twelve Guardian Ninja, and that their...",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "At the bounty station, Kakuzu explained to Zangei that Hidan, an immortal, was the only ninja capable of surviving Kakuzu's indiscriminate attack strategies.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_03.intro0"
+    },
+    {
+      "fallback": "This was the reason for their partnership, despite their ideological differences and dislike for one another.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_03.intro1"
+    },
+    {
+      "fallback": "As Asuma's group moved toward the bounty station, Asuma explained that he and Chiriku had both belonged to the Twelve Guardian Ninja, and that their relationship was akin to Shikamaru's relationship with Chōji.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Nijū Shōtai vs. Hidan and Kakuzu",
+    "translate": "quest.narutorpg.akatsuki_suppression_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Nijū Shōtai vs. Hidan and Kakuzu",
+        "translate": "quest.narutorpg.akatsuki_suppression_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kakuzu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kakuzu",
+        "translate": "quest.narutorpg.defeat.kakuzu_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hidan_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hidan",
+        "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
+      }
+    }
+  ],
+  "order": 108202,
+  "outro": [
+    {
+      "fallback": "After Shikamaru had tested his theory, he trapped Hidan with Shadow Sewing.",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_03.outro0"
+    },
+    {
+      "fallback": "Hidan asked Kakuzu to help",
+      "translate": "quest.narutorpg.akatsuki_suppression_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:akatsuki_suppression_mission_02"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

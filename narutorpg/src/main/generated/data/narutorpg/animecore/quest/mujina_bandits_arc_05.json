@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Tentō and Boruto rejoice that their plan to distract then attack Shojoji worked, but is short-lived when the Mujina Bandits boss recovers from the attack. Impressed by Boruto's power he swears to make his death painful when he eats him. Realising that his opponent was badly beaten, Boruto prepares another Rasengan to finish him, however, the seal in Boruto's right palm activates stopping him from moulding chakra and...",
+    "translate": "quest.narutorpg.mujina_bandits_arc_05.desc"
+  },
+  "giver": "narutorpg:tento_madoka",
+  "intro": [
+    {
+      "fallback": "Tentō and Boruto rejoice that their plan to distract then attack Shojoji worked, but is short-lived when the Mujina Bandits boss recovers from the attack.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_05.intro0"
+    },
+    {
+      "fallback": "Impressed by Boruto's power he swears to make his death painful when he eats him.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_05.intro1"
+    },
+    {
+      "fallback": "Realising that his opponent was badly beaten, Boruto prepares another Rasengan to finish him, however, the seal in Boruto's right palm activates stopping him from moulding chakra and leaving him in pain.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Supporting Shadow…!!",
+    "translate": "quest.narutorpg.mujina_bandits_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tento_madoka",
+      "text": {
+        "fallback": "Talk to Tentō Madoka",
+        "translate": "quest.narutorpg.mujina_bandits_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Go: The Supporting Shadow…!!",
+        "translate": "quest.narutorpg.mujina_bandits_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 215104,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_04"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

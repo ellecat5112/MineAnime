@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "In Naruto's Footsteps: The Friends' Paths",
+    "translate": "quest.narutorpg.arc.in_naruto_s_footsteps_the_friends_paths"
+  },
+  "description": {
+    "fallback": "All the arriving genin wait in line for the first phase of the exams. Konohamaru, disappointed that Naruto would not be attending the latest Chūnin Exams, disguises himself as the latter to participate, but is exposed by Neji. All the participating genin are placed in three separate rooms to take the test, which was proctored by Shikamaru.",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "All the arriving genin wait in line for the first phase of the exams.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.intro0"
+    },
+    {
+      "fallback": "Konohamaru, disappointed that Naruto would not be attending the latest Chūnin Exams, disguises himself as the latter to participate, but is exposed by Neji.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.intro1"
+    },
+    {
+      "fallback": "All the participating genin are placed in three separate rooms to take the test, which was proctored by Shikamaru.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "First Phase",
+    "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 43,
+      "text": {
+        "fallback": "Go: First Phase",
+        "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 140401,
+  "outro": [
+    {
+      "fallback": "Homura and Koharu, who arrived before Kankurō, relay a warning from Danzō to be wary of the Amegakure genin.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.outro0"
+    },
+    {
+      "fallback": "With the first phase of the Chūnin Exams completed, those who pass are instructed to journey to Suna for the next phase, which would be proctored by Temari.",
+      "translate": "quest.narutorpg.in_naruto_s_footsteps_the_friends_paths_02.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "narutorpg:in_naruto_s_footsteps_the_friends_paths_01"
+  ],
+  "rewards": {
+    "experience": 31,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

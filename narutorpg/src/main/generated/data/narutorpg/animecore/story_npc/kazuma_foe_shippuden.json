@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:flying_swallow",
+    "narutorpg:wind_release_shakujo_twister",
+    "narutorpg:earth_release_hiding_in_rock_technique"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "eyes": 2001125,
+    "hair": 5125166,
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 7951688
+  },
+  "attack": 6.5,
+  "cast_interval": 40,
+  "health": 202.0,
+  "name": {
+    "fallback": "Kazuma",
+    "translate": "npc.narutorpg.kazuma"
+  },
+  "power": 1.26,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

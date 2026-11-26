@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:empty_cicada_shell_technique"
+  ],
+  "appearance": {
+    "accent": 8280002,
+    "eyes": 1118481,
+    "hair": 12986408,
+    "headband": 4854924,
+    "outfit": "bodysuit",
+    "skin": 13010498,
+    "top": 5127022
+  },
+  "attack": 5.7,
+  "cast_interval": 70,
+  "health": 84.0,
+  "name": {
+    "fallback": "Jigumo",
+    "translate": "npc.narutorpg.jigumo"
+  },
+  "power": 1.26,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

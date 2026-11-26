@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Kawaki is assigned cleaning duty at the end of the day at the Academy. Himawari is going shopping with Kae, Batora overseeing them. Kawaki isn't concerned, as jōnin watch Kae outside the Academy.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Kawaki is assigned cleaning duty at the end of the day at the Academy.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.intro0"
+    },
+    {
+      "fallback": "Himawari is going shopping with Kae, Batora overseeing them.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.intro1"
+    },
+    {
+      "fallback": "Kawaki isn't concerned, as jōnin watch Kae outside the Academy.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Himawari Kidnapped!",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Himawari Kidnapped!",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 227105,
+  "outro": [
+    {
+      "fallback": "While leaving the Academy, Kawaki meets with Batora and Kae, who came looking for Himawari when she didn't show up.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.outro0"
+    },
+    {
+      "fallback": "Kawaki finds it strange, and notices Himawari's pendant on the floor.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_05"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

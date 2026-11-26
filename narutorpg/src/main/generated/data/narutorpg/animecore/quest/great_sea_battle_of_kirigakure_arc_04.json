@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "As the large structure approaches them, they see the Funato crest on it. Kagura thinks it's a fortress, and deduces it was built using technology stolen from Kirigakure, as the Funato have never had this kind of firepower. He wants Boruto, Kawaki, and Buntan to investigate while the others wait to rendezvous with Sarada and Mitsuki.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "As the large structure approaches them, they see the Funato crest on it.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.intro0"
+    },
+    {
+      "fallback": "Kagura thinks it's a fortress, and deduces it was built using technology stolen from Kirigakure, as the Funato have never had this kind of firepower.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.intro1"
+    },
+    {
+      "fallback": "He wants Boruto, Kawaki, and Buntan to investigate while the others wait to rendezvous with Sarada and Mitsuki.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Cut and Run",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Go: Cut and Run",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kagura_karatachi",
+      "text": {
+        "fallback": "Meet Kagura Karatachi",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.o3"
+      }
+    }
+  ],
+  "order": 224303,
+  "outro": [
+    {
+      "fallback": "He throws a rope, allowing Buntan and Kawaki to board.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.outro0"
+    },
+    {
+      "fallback": "Team 5 discusses if the riskier situation around their mission is lucky or unlucky.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_03"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

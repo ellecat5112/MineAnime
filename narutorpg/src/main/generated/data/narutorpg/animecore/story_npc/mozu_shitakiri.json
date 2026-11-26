@@ -1,0 +1,18 @@
+{
+  "appearance": {
+    "accent": 7951688,
+    "eyes": 2001125,
+    "hair": 15913323,
+    "hair_style": "long",
+    "skin": 13010498,
+    "top": 7162945
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Mozu Shitakiri",
+    "translate": "npc.narutorpg.mozu_shitakiri"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Jūgo Arc",
+    "translate": "quest.narutorpg.arc.jugo_arc"
+  },
+  "description": {
+    "fallback": "Karin and Sarada observe the wild geese preparing to migrate as dawn approaches, still infected birds among them. Jūgo begs Boruto to flee while breaking free, while Tosaka yearns to witness Jūgo's full power. His transformation proceeding, Jūgo flees and Boruto follows.",
+    "translate": "quest.narutorpg.jugo_arc_06.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Karin and Sarada observe the wild geese preparing to migrate as dawn approaches, still infected birds among them.",
+      "translate": "quest.narutorpg.jugo_arc_06.intro0"
+    },
+    {
+      "fallback": "Jūgo begs Boruto to flee while breaking free, while Tosaka yearns to witness Jūgo's full power.",
+      "translate": "quest.narutorpg.jugo_arc_06.intro1"
+    },
+    {
+      "fallback": "His transformation proceeding, Jūgo flees and Boruto follows.",
+      "translate": "quest.narutorpg.jugo_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Migration Season",
+    "translate": "quest.narutorpg.jugo_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.jugo_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 44,
+      "text": {
+        "fallback": "Go: Migration Season",
+        "translate": "quest.narutorpg.jugo_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 210805,
+  "outro": [
+    {
+      "fallback": "Nue saves Boruto from Jūgo's attack, and keeps on attacking him, against Sumire's orders.",
+      "translate": "quest.narutorpg.jugo_arc_06.outro0"
+    },
+    {
+      "fallback": "She tries to intervene, but Boruto warns her she'll get caught up in the attacks, and that they have to find a different way.",
+      "translate": "quest.narutorpg.jugo_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:jugo_arc_05"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

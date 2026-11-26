@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:impaling_spear_tree",
+    "narutorpg:miniature_tailed_beast_ball_sniper_shot",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:sensing_technique"
+  ],
+  "appearance": {
+    "accent": 7951688,
+    "eyes": 1118481,
+    "hair": 9268835,
+    "mark": "rinnegan",
+    "pants": 1713022,
+    "top": 7951688
+  },
+  "attack": 16.5,
+  "cast_interval": 70,
+  "health": 300.0,
+  "name": {
+    "fallback": "Jura",
+    "translate": "npc.narutorpg.jura"
+  },
+  "power": 2.7,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

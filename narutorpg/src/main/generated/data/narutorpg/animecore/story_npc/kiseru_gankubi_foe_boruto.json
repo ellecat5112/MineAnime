@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:fire_release_deep_flame_explosion",
+    "narutorpg:fire_release_flame_attack",
+    "narutorpg:fire_release_flame_bullet",
+    "narutorpg:fire_release_flaming_hail",
+    "narutorpg:fire_release_phoenix_sage_fire_technique",
+    "narutorpg:fire_release_chakra_mode"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 4431943,
+    "hair": 15913323,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "outfit": "jacket",
+    "top": 2046559
+  },
+  "attack": 18.2,
+  "cast_interval": 40,
+  "health": 634.0,
+  "name": {
+    "fallback": "Kiseru Gankubi",
+    "translate": "npc.narutorpg.kiseru_gankubi"
+  },
+  "power": 2.46,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

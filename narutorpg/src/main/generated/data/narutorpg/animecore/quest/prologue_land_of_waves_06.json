@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Prologue — Land of Waves",
+    "translate": "quest.narutorpg.arc.prologue_land_of_waves"
+  },
+  "description": {
+    "fallback": "While Genin were normally assigned D-rank missions, Naruto insisted on doing something more exciting, and the Third Hokage agreed to send them on a C-rank mission to escort Tazuna, a master bridge-builder, back to the Land of Waves. During their mission, the team was attacked by two chūnin, enemies at a level that wasn't supposed to be encountered on a C-rank mission. Naruto, surprised by the chūnins' appearances...",
+    "translate": "quest.narutorpg.prologue_land_of_waves_06.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "While Genin were normally assigned D-rank missions, Naruto insisted on doing something more exciting, and the Third Hokage agreed to send them on a C-rank mission to escort Tazuna, a master bridge-builder, back to the...",
+      "translate": "quest.narutorpg.prologue_land_of_waves_06.intro0"
+    },
+    {
+      "fallback": "During their mission, the team was attacked by two chūnin, enemies at a level that wasn't supposed to be encountered on a C-rank mission.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_06.intro1"
+    },
+    {
+      "fallback": "Naruto, surprised by the chūnins' appearances, panicked and was struck by one of the chūnin's poisonous metal gauntlets.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Assignment",
+    "translate": "quest.narutorpg.prologue_land_of_waves_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.prologue_land_of_waves_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Assignment",
+        "translate": "quest.narutorpg.prologue_land_of_waves_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 1105,
+  "outro": [
+    {
+      "fallback": "While the others dismissed his antics as Naruto's usual idiocy, Kakashi noticed something strange about the rabbit: its fur was white.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_06.outro0"
+    },
+    {
+      "fallback": "Snow rabbits are only white during winter, meaning that this rabbit had been raised indoors and therefore belonged to someone nearby.",
+      "translate": "quest.narutorpg.prologue_land_of_waves_06.outro1"
+    }
+  ],
+  "requires": [
+    "narutorpg:prologue_land_of_waves_05"
+  ],
+  "rewards": {
+    "experience": 17,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

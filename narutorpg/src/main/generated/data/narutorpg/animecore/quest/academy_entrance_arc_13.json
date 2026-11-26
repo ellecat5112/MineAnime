@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "Sai investigates the hideout of Tanuki Shigaraki, a missing, former Root researcher who was an avid follower of Danzō, and in charge of developing a weapon based on Hashirama's cells code-named Gozu Tennō. Despite not finding him, Sai finds a picture of him with a little girl, and realises who the culprit is. Mitsuki reveals to Boruto that Sumire is the one behind the incidents.",
+    "translate": "quest.narutorpg.academy_entrance_arc_13.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Sai investigates the hideout of Tanuki Shigaraki, a missing, former Root researcher who was an avid follower of Danzō, and in charge of developing a weapon based on Hashirama's cells code-named Gozu Tennō.",
+      "translate": "quest.narutorpg.academy_entrance_arc_13.intro0"
+    },
+    {
+      "fallback": "Despite not finding him, Sai finds a picture of him with a little girl, and realises who the culprit is.",
+      "translate": "quest.narutorpg.academy_entrance_arc_13.intro1"
+    },
+    {
+      "fallback": "Mitsuki reveals to Boruto that Sumire is the one behind the incidents.",
+      "translate": "quest.narutorpg.academy_entrance_arc_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Demon Beast Appears!",
+    "translate": "quest.narutorpg.academy_entrance_arc_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.academy_entrance_arc_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Go: The Demon Beast Appears!",
+        "translate": "quest.narutorpg.academy_entrance_arc_13.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 201112,
+  "outro": [
+    {
+      "fallback": "He also informs Naruto complaints are being filed that the attacks continued to happen because the police force performed insufficient vetting of those involved.",
+      "translate": "quest.narutorpg.academy_entrance_arc_13.outro0"
+    },
+    {
+      "fallback": "Kakashi arrives at the Hokage's Office, claiming responsibility for himself and Tsunade, having both decided not to expose the identities of everyone involved with Root.",
+      "translate": "quest.narutorpg.academy_entrance_arc_13.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_12"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

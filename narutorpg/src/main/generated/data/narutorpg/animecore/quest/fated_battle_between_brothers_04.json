@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Fated Battle Between Brothers",
+    "translate": "quest.narutorpg.arc.fated_battle_between_brothers"
+  },
+  "description": {
+    "fallback": "Meanwhile, Sasuke decided to not take Itachi's eyes to awaken his Eternal Mangekyō Sharingan, opting to restore their clan his own way. Tobi ordered Taka to find the jinchūriki of the Eight-Tails, Killer B of Kumogakure. They find him at the Valley of Clouds and Lightning and begin to battle.",
+    "translate": "quest.narutorpg.fated_battle_between_brothers_04.desc"
+  },
+  "giver": "narutorpg:killer_b",
+  "intro": [
+    {
+      "fallback": "Meanwhile, Sasuke decided to not take Itachi's eyes to awaken his Eternal Mangekyō Sharingan, opting to restore their clan his own way.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_04.intro0"
+    },
+    {
+      "fallback": "Tobi ordered Taka to find the jinchūriki of the Eight-Tails, Killer B of Kumogakure.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_04.intro1"
+    },
+    {
+      "fallback": "They find him at the Valley of Clouds and Lightning and begin to battle.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Taka Confronts the Eight-Tails' Jinchūriki",
+    "translate": "quest.narutorpg.fated_battle_between_brothers_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:killer_b",
+      "text": {
+        "fallback": "Talk to Killer B",
+        "translate": "quest.narutorpg.fated_battle_between_brothers_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: Taka Confronts the Eight-Tails' Jinchūriki",
+        "translate": "quest.narutorpg.fated_battle_between_brothers_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 114403,
+  "outro": [
+    {
+      "fallback": "They find him at the Valley of Clouds and Lightning and begin to battle.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_04.outro0"
+    },
+    {
+      "fallback": "Taka proves to be a challenge to B, and he proceeds to go all out.",
+      "translate": "quest.narutorpg.fated_battle_between_brothers_04.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:fated_battle_between_brothers_03"
+  ],
+  "rewards": {
+    "experience": 25,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 6
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

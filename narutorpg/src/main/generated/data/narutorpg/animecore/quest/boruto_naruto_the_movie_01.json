@@ -1,0 +1,68 @@
+{
+  "arc": {
+    "fallback": "Boruto: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.boruto_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "In the ruins of Kaguya Ōtsutsuki's palace, Sasuke Uchiha is battling a mysterious shinobi after recovering a scroll that Kaguya had hidden away many centuries ago. After Sasuke narrowly avoids a powerful attack using Amenotejikara, another shinobi with a similar appearance reveals himself - having watched the battle from afar, intrigued by Sasuke's possession of the Rinnegan.",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_01.desc"
+  },
+  "giver": "narutorpg:minato_namikaze",
+  "intro": [
+    {
+      "fallback": "In the ruins of Kaguya Ōtsutsuki's palace, Sasuke Uchiha is battling a mysterious shinobi after recovering a scroll that Kaguya had hidden away many centuries ago.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_01.intro0"
+    },
+    {
+      "fallback": "After Sasuke narrowly avoids a powerful attack using Amenotejikara, another shinobi with a similar appearance reveals himself - having watched the battle from afar, intrigued by Sasuke's possession of the Rinnegan.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_01.intro1"
+    }
+  ],
+  "name": {
+    "fallback": "Prologue",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:minato_namikaze",
+      "text": {
+        "fallback": "Talk to Minato Namikaze",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Prologue",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:momoshiki_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Momoshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.momoshiki_otsutsuki_foe_movies"
+      }
+    }
+  ],
+  "order": 302000,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:konoha_hiden_the_perfect_day_for_a_wedding_07"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

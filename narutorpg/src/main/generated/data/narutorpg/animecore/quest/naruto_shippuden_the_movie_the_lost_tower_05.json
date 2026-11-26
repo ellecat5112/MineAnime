@@ -1,0 +1,85 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto Shippūden the Movie: The Lost Tower",
+    "translate": "quest.narutorpg.arc.naruto_shippuden_the_movie_the_lost_tower"
+  },
+  "description": {
+    "fallback": "This memory suppression holds even 20 years into the future, when the reunited Team 7 is approached by an older Sāra, who claims that she felt a disturbance in the Ryūmyaku and answers that she's the daughter of the former Queen of Rōran, which was destroyed during the then-3rd Shinobi War. Sāra still bears a Konoha Chakra Blade and claims that her mother received it from a hero in a dream, Naruto then notices that...",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "This memory suppression holds even 20 years into the future, when the reunited Team 7 is approached by an older Sāra, who claims that she felt a disturbance in the Ryūmyaku and answers that she's the daughter of the...",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.intro0"
+    },
+    {
+      "fallback": "Sāra still bears a Konoha Chakra Blade and claims that her mother received it from a hero in a dream, Naruto then notices that his own Chakra Blade is missing.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.intro1"
+    },
+    {
+      "fallback": "Bidding the shinobi a polite farewell and informing them that she now felt confident to become leader of her people as her mother willed her to be, Sāra leaves the ruins to the Rōran survivors in their traveling caravan.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 5",
+    "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 94,
+      "text": {
+        "fallback": "Head out: Part 5",
+        "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sara_foe_movies",
+      "text": {
+        "fallback": "Defeat Sāra",
+        "translate": "quest.narutorpg.defeat.sara_foe_movies"
+      }
+    }
+  ],
+  "order": 301604,
+  "outro": [
+    {
+      "fallback": "While watching her depart, Naruto claims that he has the feeling he saw her in a good dream (and in the light novel, feels very strongly that he met her before).",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.outro0"
+    },
+    {
+      "fallback": "Sakura then grabs and pulls on Naruto's ear and yells at him for being a pervert before the team likewise departs the ruins for Konohagakure.",
+      "translate": "quest.narutorpg.naruto_shippuden_the_movie_the_lost_tower_05.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:naruto_shippuden_the_movie_the_lost_tower_04"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

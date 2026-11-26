@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Shikamaru Hiden: A Cloud Drifting in Silent Darkness",
+    "translate": "quest.narutorpg.arc.shikamaru_hiden_a_cloud_drifting_in_silent_darkn"
+  },
+  "description": {
+    "fallback": "Having strangled himself with his shadow and rendered himself unconscious to avoid Gengo converting him, Shikamaru wakes up. He is shackled in a cell, and thinks shōgi movements to pass the time. Sai arrives with food, and compliments him for resisting Gengo for so long.",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Having strangled himself with his shadow and rendered himself unconscious to avoid Gengo converting him, Shikamaru wakes up.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.intro0"
+    },
+    {
+      "fallback": "He is shackled in a cell, and thinks shōgi movements to pass the time.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.intro1"
+    },
+    {
+      "fallback": "Sai arrives with food, and compliments him for resisting Gengo for so long.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Cloud of Suspicion",
+    "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 48,
+      "text": {
+        "fallback": "Go: Cloud of Suspicion",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sai",
+      "text": {
+        "fallback": "Meet Sai",
+        "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.o3"
+      }
+    }
+  ],
+  "order": 149903,
+  "outro": [
+    {
+      "fallback": "The two discuss Sai's current condition, and why Shikamaru came instead of someone from Team 7.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.outro0"
+    },
+    {
+      "fallback": "A while later, Rō is tossed in a cell near Shikamaru, who asks if he is ok, and if Hinoko is with him.",
+      "translate": "quest.narutorpg.shikamaru_hiden_a_cloud_drifting_in_silent_darkn_04.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:shikamaru_hiden_a_cloud_drifting_in_silent_darkn_03"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

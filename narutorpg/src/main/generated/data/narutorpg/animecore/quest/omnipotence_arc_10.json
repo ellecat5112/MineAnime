@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sarada_uchiha_ally_boruto",
+    "narutorpg:sumire_kakei_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Omnipotence Arc",
+    "translate": "quest.narutorpg.arc.omnipotence_arc"
+  },
+  "description": {
+    "fallback": "Boruto tries acting like Momoshiki isn't around, but Kawaki continues telling to come out. The commotion draws Sarada's and Sumire's attention, Sumire recalling their conversation from when he killed Boruto. Sarada stresses there should be no infighting during a mission, which Kawaki counters that Ōtsutsuki don't care about their mission.",
+    "translate": "quest.narutorpg.omnipotence_arc_10.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto tries acting like Momoshiki isn't around, but Kawaki continues telling to come out.",
+      "translate": "quest.narutorpg.omnipotence_arc_10.intro0"
+    },
+    {
+      "fallback": "The commotion draws Sarada's and Sumire's attention, Sumire recalling their conversation from when he killed Boruto.",
+      "translate": "quest.narutorpg.omnipotence_arc_10.intro1"
+    },
+    {
+      "fallback": "Sarada stresses there should be no infighting during a mission, which Kawaki counters that Ōtsutsuki don't care about their mission.",
+      "translate": "quest.narutorpg.omnipotence_arc_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Time Drawing Near",
+    "translate": "quest.narutorpg.omnipotence_arc_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.omnipotence_arc_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: Time Drawing Near",
+        "translate": "quest.narutorpg.omnipotence_arc_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ada_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ada",
+        "translate": "quest.narutorpg.defeat.ada_foe_boruto"
+      }
+    }
+  ],
+  "order": 237809,
+  "outro": [
+    {
+      "fallback": "Konohamaru warns Mitsuki against looking for Ada.",
+      "translate": "quest.narutorpg.omnipotence_arc_10.outro0"
+    },
+    {
+      "fallback": "Ada is unbothered by Kawaki's departure, and asks the girls to go with her.",
+      "translate": "quest.narutorpg.omnipotence_arc_10.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:omnipotence_arc_09"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

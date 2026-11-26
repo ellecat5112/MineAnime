@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "An Anbu member seemingly manages to locate the general area of Orochimaru's hideout and sends a message to Konoha to notify Tsunade, before eliminating all traces of his body. Shizune receives the letter and gives it to Tsunade, who decides to send Kakashi to investigate. She inquires as to Kakashi's whereabouts, and Shizune tells her that he is most likely with Naruto.",
+    "translate": "quest.narutorpg.three_tails_appearance_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "An Anbu member seemingly manages to locate the general area of Orochimaru's hideout and sends a message to Konoha to notify Tsunade, before eliminating all traces of his body.",
+      "translate": "quest.narutorpg.three_tails_appearance_02.intro0"
+    },
+    {
+      "fallback": "Shizune receives the letter and gives it to Tsunade, who decides to send Kakashi to investigate.",
+      "translate": "quest.narutorpg.three_tails_appearance_02.intro1"
+    },
+    {
+      "fallback": "She inquires as to Kakashi's whereabouts, and Shizune tells her that he is most likely with Naruto.",
+      "translate": "quest.narutorpg.three_tails_appearance_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Shinobi's Determination",
+    "translate": "quest.narutorpg.three_tails_appearance_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.three_tails_appearance_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 49,
+      "text": {
+        "fallback": "Go: A Shinobi's Determination",
+        "translate": "quest.narutorpg.three_tails_appearance_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:shizune",
+      "text": {
+        "fallback": "Meet Shizune",
+        "translate": "quest.narutorpg.three_tails_appearance_02.o3"
+      }
+    }
+  ],
+  "order": 109901,
+  "outro": [
+    {
+      "fallback": "She inquires as to Kakashi's whereabouts, and Shizune tells her that he is most likely with Naruto.",
+      "translate": "quest.narutorpg.three_tails_appearance_02.outro0"
+    },
+    {
+      "fallback": "Jiraiya enters through her window, telling Tsunade that he had popped in to see what Naruto was up to, and Tsunade fills him in on what he had missed.",
+      "translate": "quest.narutorpg.three_tails_appearance_02.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_01"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:nawaki_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Search for Tsunade",
+    "translate": "quest.narutorpg.arc.search_for_tsunade"
+  },
+  "description": {
+    "fallback": "Surprised by Naruto's sudden intervention, Kabuto is left momentarily stunned. Using this to his advantage, Naruto tries to use the Rasengan on Kabuto, but because of the slow sweeping motion that Naruto puts into the attack Kabuto is easily able to avoid it. As Naruto lays on the ground due to his lack of speed, Kabuto taunts him by detailing how talentless he is and how hopeless his dreams are.",
+    "translate": "quest.narutorpg.search_for_tsunade_05.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Surprised by Naruto's sudden intervention, Kabuto is left momentarily stunned.",
+      "translate": "quest.narutorpg.search_for_tsunade_05.intro0"
+    },
+    {
+      "fallback": "Using this to his advantage, Naruto tries to use the Rasengan on Kabuto, but because of the slow sweeping motion that Naruto puts into the attack Kabuto is easily able to avoid it.",
+      "translate": "quest.narutorpg.search_for_tsunade_05.intro1"
+    },
+    {
+      "fallback": "As Naruto lays on the ground due to his lack of speed, Kabuto taunts him by detailing how talentless he is and how hopeless his dreams are.",
+      "translate": "quest.narutorpg.search_for_tsunade_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Battle of the Sannin",
+    "translate": "quest.narutorpg.search_for_tsunade_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.search_for_tsunade_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 97,
+      "text": {
+        "fallback": "Head out: Battle of the Sannin",
+        "translate": "quest.narutorpg.search_for_tsunade_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_naruto"
+      }
+    }
+  ],
+  "order": 9104,
+  "outro": [
+    {
+      "fallback": "After he slips into a tired sleep, Tsunade puts her necklace around his neck, hoping just once more that its wearer will someday become Hokage.",
+      "translate": "quest.narutorpg.search_for_tsunade_05.outro0"
+    },
+    {
+      "fallback": "Orochimaru, having just witnessed Naruto's potent",
+      "translate": "quest.narutorpg.search_for_tsunade_05.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:search_for_tsunade_04"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

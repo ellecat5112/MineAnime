@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "Boruto is surprised when Batta accuses Kiseru of working for Ōga. She explains that her home village is near Kiseru's alleged home, and that his claim of watching sunsets on hot springs is impossible because they all face east, allowing only sunrises. His claim made her suspicious, so she searched him and found the communication device.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_06.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto is surprised when Batta accuses Kiseru of working for Ōga.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_06.intro0"
+    },
+    {
+      "fallback": "She explains that her home village is near Kiseru's alleged home, and that his claim of watching sunsets on hot springs is impossible because they all face east, allowing only sunrises.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_06.intro1"
+    },
+    {
+      "fallback": "His claim made her suspicious, so she searched him and found the communication device.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Barrier of Seven",
+    "translate": "quest.narutorpg.labyrinth_game_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.labyrinth_game_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Go: Barrier of Seven",
+        "translate": "quest.narutorpg.labyrinth_game_arc_06.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:batta",
+      "text": {
+        "fallback": "Meet Batta",
+        "translate": "quest.narutorpg.labyrinth_game_arc_06.o3"
+      }
+    }
+  ],
+  "order": 228405,
+  "outro": [
+    {
+      "fallback": "When Batta and Boruto return, Ōga complains about them being late, the next experiment has already been picked, \"Calculation\".",
+      "translate": "quest.narutorpg.labyrinth_game_arc_06.outro0"
+    },
+    {
+      "fallback": "Everyone had to pick an envelope, Shamo picking theirs for them.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:labyrinth_game_arc_05"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

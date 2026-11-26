@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "narutorpg:destruction_of_evil_seal",
+    "narutorpg:welcoming_approach_thousand_armed_murder",
+    "narutorpg:sealed_iron_wall"
+  ],
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 2001125,
+    "hair": 6111287,
+    "pants": 3622735,
+    "top": 1793568
+  },
+  "attack": 8.0,
+  "health": 116.0,
+  "name": {
+    "fallback": "Chiriku",
+    "translate": "npc.narutorpg.chiriku"
+  },
+  "power": 1.48,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

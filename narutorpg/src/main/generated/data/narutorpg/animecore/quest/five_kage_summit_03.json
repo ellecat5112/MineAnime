@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:a_fourth_raikage_ally_shippuden",
+    "narutorpg:kankuro_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Five Kage Summit",
+    "translate": "quest.narutorpg.arc.five_kage_summit"
+  },
+  "description": {
+    "fallback": "Enraged, A choked Zetsu, snapping his neck when he failed to answer his inquires about Sasuke, before storming out of the meeting room with his guards. Outside, Sasuke had already defeated all of the Land of Iron's guards. However, the Kage prove to be stronger than Sasuke had imagined.",
+    "translate": "quest.narutorpg.five_kage_summit_03.desc"
+  },
+  "giver": "narutorpg:gaara",
+  "intro": [
+    {
+      "fallback": "Enraged, A choked Zetsu, snapping his neck when he failed to answer his inquires about Sasuke, before storming out of the meeting room with his guards.",
+      "translate": "quest.narutorpg.five_kage_summit_03.intro0"
+    },
+    {
+      "fallback": "Outside, Sasuke had already defeated all of the Land of Iron's guards.",
+      "translate": "quest.narutorpg.five_kage_summit_03.intro1"
+    },
+    {
+      "fallback": "However, the Kage prove to be stronger than Sasuke had imagined.",
+      "translate": "quest.narutorpg.five_kage_summit_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Kage vs. Taka",
+    "translate": "quest.narutorpg.five_kage_summit_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:gaara",
+      "text": {
+        "fallback": "Talk to Gaara",
+        "translate": "quest.narutorpg.five_kage_summit_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: The Kage vs. Taka",
+        "translate": "quest.narutorpg.five_kage_summit_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:danzo_shimura_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Danzō Shimura",
+        "translate": "quest.narutorpg.defeat.danzo_shimura_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 120702,
+  "outro": [
+    {
+      "fallback": "Sasuke was about to give chase when Terumī sealed off the exit with her Lava Release.",
+      "translate": "quest.narutorpg.five_kage_summit_03.outro0"
+    },
+    {
+      "fallback": "Even though Zetsu's Spore Technique transferred the chakra of everyone in the building to Sasuke, he suffered from Terumī's acidic mist and would have been pulverised by Ōnoki the Tsuchikage, had it not been for the...",
+      "translate": "quest.narutorpg.five_kage_summit_03.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:five_kage_summit_02"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

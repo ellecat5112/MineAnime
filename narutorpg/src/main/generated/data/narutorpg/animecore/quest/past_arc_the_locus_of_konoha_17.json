@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:asuma_sarutobi_ally_shippuden",
+    "narutorpg:shikamaru_nara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "Team Asuma tries to round up some hogs for the villagers to eat. Noticing their teamwork, Shikamaru remembers a time where the team also worked closely together in order to complete a mission. After a Village Headman's granddaughter was kidnapped by Baji, he hired Konohagakure's Team 7 and Team 10 for assistance.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Team Asuma tries to round up some hogs for the villagers to eat.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.intro0"
+    },
+    {
+      "fallback": "Noticing their teamwork, Shikamaru remembers a time where the team also worked closely together in order to complete a mission.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.intro1"
+    },
+    {
+      "fallback": "After a Village Headman's granddaughter was kidnapped by Baji, he hired Konohagakure's Team 7 and Team 10 for assistance.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Team 10's Teamwork",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: Team 10's Teamwork",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:baji_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Baji",
+        "translate": "quest.narutorpg.defeat.baji_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118616,
+  "outro": [
+    {
+      "fallback": "The mission ended with a success, the bandit group were captured, and the Headman's granddaughter was rescued.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.outro0"
+    },
+    {
+      "fallback": "The scene then shifts back to present time, where Ino and Shikamaru leave Chōji the arduous task of carrying all the hogs back to the village.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_17.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_16"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

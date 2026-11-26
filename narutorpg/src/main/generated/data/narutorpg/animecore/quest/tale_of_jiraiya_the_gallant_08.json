@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Sasuke and Hebi head for the meeting place where Itachi is waiting. On a Sunday in Amegakure, Pain instructs Konan to look for the intruder in West Three — the third part of the town's western area — while he prepares to deal with whomever it is. Jiraiya — the intruder — overhears two Amegakure ninja discussing Pain.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Sasuke and Hebi head for the meeting place where Itachi is waiting.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.intro0"
+    },
+    {
+      "fallback": "On a Sunday in Amegakure, Pain instructs Konan to look for the intruder in West Three — the third part of the town's western area — while he prepares to deal with whomever it is.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.intro1"
+    },
+    {
+      "fallback": "Jiraiya — the intruder — overhears two Amegakure ninja discussing Pain.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Intelligence Gathering",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: Intelligence Gathering",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 113707,
+  "outro": [
+    {
+      "fallback": "Jiraiya — the intruder — overhears two Amegakure ninja discussing Pain.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.outro0"
+    },
+    {
+      "fallback": "He proceeds to capture them so that he can interrogate them.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_08.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_07"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:eight_trigrams_mountain_crusher",
+    "narutorpg:eight_trigrams_one_hundred_twenty_eight_palms",
+    "narutorpg:eight_trigrams_sixty_four_palms",
+    "narutorpg:eight_trigrams_vacuum_palm",
+    "narutorpg:gentle_fist",
+    "narutorpg:eight_trigrams_palms_revolving_heaven"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 14802156,
+    "hair": 2763315,
+    "hair_style": "long",
+    "headband": 1981066,
+    "mark": "pale_eyes",
+    "outfit": "robe",
+    "pants": 3622735,
+    "top": 15591388
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Neji Hyūga",
+    "translate": "npc.narutorpg.neji_hyuga"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

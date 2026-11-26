@@ -1,0 +1,68 @@
+{
+  "arc": {
+    "fallback": "Tale of Jiraiya the Gallant",
+    "translate": "quest.narutorpg.arc.tale_of_jiraiya_the_gallant"
+  },
+  "description": {
+    "fallback": "Using his Hiding in a Toad Technique, Jiraiya manages to successfully infiltrate Amegakure. Pain of the Akatsuki is able to sense through the rain that an intruder has set foot inside their village, and tasks Konan with locating him, the latter forming tiny origami birds, who fly around the village.",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_03.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Using his Hiding in a Toad Technique, Jiraiya manages to successfully infiltrate Amegakure.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_03.intro0"
+    },
+    {
+      "fallback": "Pain of the Akatsuki is able to sense through the rain that an intruder has set foot inside their village, and tasks Konan with locating him, the latter forming tiny origami birds, who fly around the village.",
+      "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_03.intro1"
+    }
+  ],
+  "name": {
+    "fallback": "Infiltrate! The Village Hidden in the Rain",
+    "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: Infiltrate! The Village Hidden in the Rain",
+        "translate": "quest.narutorpg.tale_of_jiraiya_the_gallant_03.travel"
+      }
+    },
+    {
+      "type": "use_ability",
+      "count": 3,
+      "text": {
+        "fallback": "Train: use 3 techniques",
+        "translate": "quest.narutorpg.train"
+      }
+    }
+  ],
+  "order": 113702,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "narutorpg:tale_of_jiraiya_the_gallant_02"
+  ],
+  "rewards": {
+    "experience": 25,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

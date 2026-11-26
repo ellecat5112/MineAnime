@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:kokuri_ally_boruto",
+    "narutorpg:kamata_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Boruto and Mitsuki discuss Kokuri, and ask him about the money he stole from the Mujina. Kamata tries ingratiating himself to Kokuri to know about the money. Benga is suspicious of the group.",
+    "translate": "quest.narutorpg.mujina_bandits_arc_09.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto and Mitsuki discuss Kokuri, and ask him about the money he stole from the Mujina.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_09.intro0"
+    },
+    {
+      "fallback": "Kamata tries ingratiating himself to Kokuri to know about the money.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_09.intro1"
+    },
+    {
+      "fallback": "Benga is suspicious of the group.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kokuri's Secret",
+    "translate": "quest.narutorpg.mujina_bandits_arc_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mujina_bandits_arc_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: Kokuri's Secret",
+        "translate": "quest.narutorpg.mujina_bandits_arc_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:benga_foe_boruto",
+      "text": {
+        "fallback": "Defeat Benga",
+        "translate": "quest.narutorpg.defeat.benga_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tsukiyo_foe_boruto",
+      "text": {
+        "fallback": "Defeat Tsukiyo",
+        "translate": "quest.narutorpg.defeat.tsukiyo_foe_boruto"
+      }
+    }
+  ],
+  "order": 215108,
+  "outro": [
+    {
+      "fallback": "Kokuri reveals he donated it all.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_09.outro0"
+    },
+    {
+      "fallback": "Mitsuki confirms it, seeing in the news that the Medical Foundation recently received a mysterious donation.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_09.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_08"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

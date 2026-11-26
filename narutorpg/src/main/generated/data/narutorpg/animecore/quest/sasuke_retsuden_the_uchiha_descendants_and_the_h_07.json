@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sakura_haruno_ally_boruto",
+    "narutorpg:kakashi_hatake_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Sasuke Retsuden: The Uchiha Descendants and the Heavenly Stardust (manga)",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_the_uchiha_descendants_and_the_h"
+  },
+  "description": {
+    "fallback": ";Part 1 Sasuke and Sakura hurry back to the Astronomy Research Institute. When Sasuke notices several flying dragons leaving the area, he turns around to pursue them, instructing Sakura to find Zansūru. Zansūru, riding one of the flying dragons, instead intercepts Sasuke.",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": ";Part 1 Sasuke and Sakura hurry back to the Astronomy Research Institute.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.intro0"
+    },
+    {
+      "fallback": "When Sasuke notices several flying dragons leaving the area, he turns around to pursue them, instructing Sakura to find Zansūru.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.intro1"
+    },
+    {
+      "fallback": "Zansūru, riding one of the flying dragons, instead intercepts Sasuke.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Chapter 7 (Sasuke Retsuden)",
+    "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Chapter 7 (Sasuke Retsuden)",
+        "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:zansuru_foe_boruto",
+      "text": {
+        "fallback": "Defeat Zansūru",
+        "translate": "quest.narutorpg.defeat.zansuru_foe_boruto"
+      }
+    }
+  ],
+  "order": 229106,
+  "outro": [
+    {
+      "fallback": "When Sakura returns to the Institute, she punches through one of the outer walls to give the prisoners an exit.",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.outro0"
+    },
+    {
+      "fallback": "She hurries to Zansūru's office, but he is not there, forcing her to search room by room for h",
+      "translate": "quest.narutorpg.sasuke_retsuden_the_uchiha_descendants_and_the_h_07.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:sasuke_retsuden_the_uchiha_descendants_and_the_h_06"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

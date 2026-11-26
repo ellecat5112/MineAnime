@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:hebiichigo_ally_boruto",
+    "narutorpg:kyoho_fuefuki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Having left the village, Hebiichigo keeps telling herself it was her only choice to survive, insisting she didn't make a mistake. She hears Buntan and Kyohō calling out to her, knowing the route she'd have taken. Buntan is annoyed at the moment she chose to defect, Kyohō knows she feels lonely because they didn't go with her.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.desc"
+  },
+  "giver": "narutorpg:buntan_kurosuki",
+  "intro": [
+    {
+      "fallback": "Having left the village, Hebiichigo keeps telling herself it was her only choice to survive, insisting she didn't make a mistake.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.intro0"
+    },
+    {
+      "fallback": "She hears Buntan and Kyohō calling out to her, knowing the route she'd have taken.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.intro1"
+    },
+    {
+      "fallback": "Buntan is annoyed at the moment she chose to defect, Kyohō knows she feels lonely because they didn't go with her.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Funamushi's Tenacity",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:buntan_kurosuki",
+      "text": {
+        "fallback": "Talk to Buntan Kurosuki",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Funamushi's Tenacity",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:funamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Funamushi",
+        "translate": "quest.narutorpg.defeat.funamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 224312,
+  "outro": [
+    {
+      "fallback": "The Funato forces arrive at the ravine, but their scouts trigger traps early, wasting them.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.outro0"
+    },
+    {
+      "fallback": "The Funato attack Kagura and Team 7.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_13.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_12"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

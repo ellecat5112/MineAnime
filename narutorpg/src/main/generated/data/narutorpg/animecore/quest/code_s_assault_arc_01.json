@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:katasuke_tono_ally_boruto",
+    "narutorpg:sumire_kakei_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Code's Assault Arc",
+    "translate": "quest.narutorpg.arc.code_s_assault_arc"
+  },
+  "description": {
+    "fallback": "While Boruto is interviewed in Konohagakure for his role in saving the village from Isshiki, Amado performs maintenance on Kawaki's restored arm, during which Katasuke explains why Sumire is assisting. As she talks about Boruto, Kawaki embarrasses her by asking if she likes the genin. Elsewhere, Sarada, Mitsuki, and Team 10 discuss the restrictions placed on Boruto and his team.",
+    "translate": "quest.narutorpg.code_s_assault_arc_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "While Boruto is interviewed in Konohagakure for his role in saving the village from Isshiki, Amado performs maintenance on Kawaki's restored arm, during which Katasuke explains why Sumire is assisting.",
+      "translate": "quest.narutorpg.code_s_assault_arc_01.intro0"
+    },
+    {
+      "fallback": "As she talks about Boruto, Kawaki embarrasses her by asking if she likes the genin.",
+      "translate": "quest.narutorpg.code_s_assault_arc_01.intro1"
+    },
+    {
+      "fallback": "Elsewhere, Sarada, Mitsuki, and Team 10 discuss the restrictions placed on Boruto and his team.",
+      "translate": "quest.narutorpg.code_s_assault_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Code: The Last Inner",
+    "translate": "quest.narutorpg.code_s_assault_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.code_s_assault_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: Code: The Last Inner",
+        "translate": "quest.narutorpg.code_s_assault_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ada_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ada",
+        "translate": "quest.narutorpg.defeat.ada_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:code_foe_boruto",
+      "text": {
+        "fallback": "Defeat Code",
+        "translate": "quest.narutorpg.defeat.code_foe_boruto"
+      }
+    }
+  ],
+  "order": 229700,
+  "outro": [
+    {
+      "fallback": "He believes weakening the Byakugan might halt Boruto's transformation.",
+      "translate": "quest.narutorpg.code_s_assault_arc_01.outro0"
+    },
+    {
+      "fallback": "Amado stresses the potential dangers of using it, though the decision to use it ultimately belongs to Boruto.",
+      "translate": "quest.narutorpg.code_s_assault_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:sasuke_retsuden_arc_05"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

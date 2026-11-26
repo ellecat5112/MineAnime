@@ -35,6 +35,8 @@ final class NarutoClanCatalog {
     final Map<String, FactionDefinition> factions = new LinkedHashMap<>();
     final Map<String, BackgroundDefinition> backgrounds = new LinkedHashMap<>();
     final Map<String, String> lang = new LinkedHashMap<>();
+    final Map<String, com.animecore.quest.QuestDefinition> quests = new LinkedHashMap<>();
+    final Map<String, com.animecore.quest.StoryNpcDefinition> npcs = new LinkedHashMap<>();
 
     static synchronized NarutoClanCatalog get() {
         if (instance == null) {
@@ -45,6 +47,7 @@ final class NarutoClanCatalog {
             instance.loadNatures(clans.resolveSibling("fanon_genjutsu_catalog.json"));   // same shape: abilities + lang
             instance.loadNatures(clans.resolveSibling("taijutsu_catalog.json"));         // tools/catalog/taijutsu.py
             instance.loadNatures(clans.resolveSibling("ninjutsu_catalog.json"));         // tools/catalog/ninjutsu.py
+            instance.loadStory(clans.resolveSibling("story_catalog.json"));              // tools/catalog/story.py
         }
         return instance;
     }
@@ -88,6 +91,18 @@ final class NarutoClanCatalog {
     }
 
     /** {@code nature_catalog.json} (tools/catalog/natures.py): every nature release jutsu. */
+    /** {@code story_catalog.json} (tools/catalog/story.py): story quests + story characters + lang. */
+    private void loadStory(Path path) {
+        try (Reader r = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+            JsonObject root = JsonParser.parseReader(r).getAsJsonObject();
+            decode(root, "npcs", com.animecore.quest.StoryNpcDefinition.CODEC, npcs);
+            decode(root, "quests", com.animecore.quest.QuestDefinition.CODEC, quests);
+            root.getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
+        } catch (IOException e) {
+            throw new IllegalStateException("Cannot read " + path + " - run python3 tools/catalog/story.py", e);
+        }
+    }
+
     private void loadNatures(Path path) {
         try (Reader r = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
             JsonObject root = JsonParser.parseReader(r).getAsJsonObject();

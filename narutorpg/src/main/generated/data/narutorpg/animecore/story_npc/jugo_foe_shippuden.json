@@ -1,0 +1,36 @@
+{
+  "abilities": [
+    "narutorpg:broadaxe",
+    "narutorpg:cellular_regeneration_absorption",
+    "narutorpg:chain",
+    "narutorpg:multiple_lotus_nonself_connected_cannons",
+    "narutorpg:piston_fist",
+    "narutorpg:cellular_regeneration_ejection"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 1118481,
+    "hair": 6111287,
+    "hair_style": "spiky",
+    "headband": 4854924,
+    "outfit": "cloak",
+    "pants": 1713022,
+    "skin": 14724201,
+    "top": 1052692
+  },
+  "attack": 10.0,
+  "cast_interval": 40,
+  "health": 331.0,
+  "name": {
+    "fallback": "Jūgo",
+    "translate": "npc.narutorpg.jugo"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

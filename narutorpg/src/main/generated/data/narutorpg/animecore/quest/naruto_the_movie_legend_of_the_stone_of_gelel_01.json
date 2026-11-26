@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kankuro_ally_movies",
+    "narutorpg:gaara_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Naruto the Movie: Legend of the Stone of Gelel",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_legend_of_the_stone_of_gelel"
+  },
+  "description": {
+    "fallback": "The movie revolves mostly around a special mineral called the Gelel Stone, which has a strong and mysterious power. There was once a clan that could control the stone's powers, but they were destroyed because of wars for the stone. A battle was taking place at night on a desolate seaside beach between Sunagakure ninja and soldiers wearing bulky suits of armour.",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The movie revolves mostly around a special mineral called the Gelel Stone, which has a strong and mysterious power.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.intro0"
+    },
+    {
+      "fallback": "There was once a clan that could control the stone's powers, but they were destroyed because of wars for the stone.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.intro1"
+    },
+    {
+      "fallback": "A battle was taking place at night on a desolate seaside beach between Sunagakure ninja and soldiers wearing bulky suits of armour.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 1",
+    "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Part 1",
+        "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:temujin_foe_movies",
+      "text": {
+        "fallback": "Defeat Temujin",
+        "translate": "quest.narutorpg.defeat.temujin_foe_movies"
+      }
+    }
+  ],
+  "order": 301100,
+  "outro": [
+    {
+      "fallback": "The ferret also seems to have a great interest on the unknown man, much to the despair of the elder.",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.outro0"
+    },
+    {
+      "fallback": "While healing, the man seems to have a flashback dream that depicts what happened to him as a",
+      "translate": "quest.narutorpg.naruto_the_movie_legend_of_the_stone_of_gelel_01.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:prologue_land_of_waves_10"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

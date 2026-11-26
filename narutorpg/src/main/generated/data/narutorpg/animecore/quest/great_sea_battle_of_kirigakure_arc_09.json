@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kajiki_ally_boruto",
+    "narutorpg:ikada_funato_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Seiren and her subordinates arrive at an island, where traitors who once followed the Funato attempt to curry favour by offering treasures after learning of Araumi's return. Furious, Seiren kills their elder. At the shipbuilders' island, Kajiki praises Ikada's work, who estimates the repairs will be complete in two or three days.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.desc"
+  },
+  "giver": "narutorpg:araumi_funato",
+  "intro": [
+    {
+      "fallback": "Seiren and her subordinates arrive at an island, where traitors who once followed the Funato attempt to curry favour by offering treasures after learning of Araumi's return.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.intro0"
+    },
+    {
+      "fallback": "Furious, Seiren kills their elder.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.intro1"
+    },
+    {
+      "fallback": "At the shipbuilders' island, Kajiki praises Ikada's work, who estimates the repairs will be complete in two or three days.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Ikada's Secret",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:araumi_funato",
+      "text": {
+        "fallback": "Talk to Araumi Funato",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Ikada's Secret",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:seiren_funato_foe_boruto",
+      "text": {
+        "fallback": "Defeat Seiren Funato",
+        "translate": "quest.narutorpg.defeat.seiren_funato_foe_boruto"
+      }
+    }
+  ],
+  "order": 224308,
+  "outro": [
+    {
+      "fallback": "Ikada claims no memory of displaying any sort of power, and that he left after Araumi was imprisoned so he could become useful to their clan.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.outro0"
+    },
+    {
+      "fallback": "He points out she reasoned with everyone, allowing him to leave, but she reveals that she did so in order for him to witness how corrupt the Land of Water had become, and come back on his own.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_09.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_08"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

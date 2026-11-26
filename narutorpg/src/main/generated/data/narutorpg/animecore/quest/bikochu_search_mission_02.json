@@ -1,0 +1,73 @@
+{
+  "arc": {
+    "fallback": "Bikōchū Search Mission",
+    "translate": "quest.narutorpg.arc.bikochu_search_mission"
+  },
+  "description": {
+    "fallback": "The original members of Team 8 realise that they are being followed by hostile bug-users, but decide not to engage them or tell Naruto about the enemy's presence, for fear of endangering the bikōchū. Hinata begins to worry that she is hindering her group, but eventually manages to locate the bikōchū with her Byakugan, allowing Naruto to capture it. Before Team 8 can leave the forest, however, Hinata is attacked and...",
+    "translate": "quest.narutorpg.bikochu_search_mission_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The original members of Team 8 realise that they are being followed by hostile bug-users, but decide not to engage them or tell Naruto about the enemy's presence, for fear of endangering the bikōchū.",
+      "translate": "quest.narutorpg.bikochu_search_mission_02.intro0"
+    },
+    {
+      "fallback": "Hinata begins to worry that she is hindering her group, but eventually manages to locate the bikōchū with her Byakugan, allowing Naruto to capture it.",
+      "translate": "quest.narutorpg.bikochu_search_mission_02.intro1"
+    },
+    {
+      "fallback": "Before Team 8 can leave the forest, however, Hinata is attacked and abducted by the bug users, who demand the bikōchū in return for her safety.",
+      "translate": "quest.narutorpg.bikochu_search_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "What's the Difference? Don't All Insects Look Alike?",
+    "translate": "quest.narutorpg.bikochu_search_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.bikochu_search_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: What's the Difference? Don't All Insects Look Alike?",
+        "translate": "quest.narutorpg.bikochu_search_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 15801,
+  "outro": [
+    {
+      "fallback": "Well done. The story continues...",
+      "translate": "quest.narutorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:bikochu_search_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kawaki Arc",
+    "translate": "quest.narutorpg.arc.kawaki_arc"
+  },
+  "description": {
+    "fallback": "Once back in Konoha, having decided to allow Kawaki to experience normal life in Konoha, Naruto tried to befriend him but Kawaki remained guarded and hostile, trying to escape before he reached Naruto's house until Naruto foiled it and dismissing his value to Naruto as he couldn't provide much intel on Kara, and once he broke the vase Himawari had given to Hinata and tried to escape from his home, Naruto finally...",
+    "translate": "quest.narutorpg.kawaki_arc_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Once back in Konoha, having decided to allow Kawaki to experience normal life in Konoha, Naruto tried to befriend him but Kawaki remained guarded and hostile, trying to escape before he reached Naruto's house until...",
+      "translate": "quest.narutorpg.kawaki_arc_02.intro0"
+    },
+    {
+      "fallback": "Soon Boruto came home and was furious over Kawaki having broken the vase Himawari made.",
+      "translate": "quest.narutorpg.kawaki_arc_02.intro1"
+    },
+    {
+      "fallback": "Kawaki coldly told him off and hardly apologised to Himawari, which only made Boruto angrier and after Kawaki introduced himself vulgarly, Boruto responded in kind.",
+      "translate": "quest.narutorpg.kawaki_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Integrating Into Konoha",
+    "translate": "quest.narutorpg.kawaki_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.kawaki_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 41,
+      "text": {
+        "fallback": "Go: Integrating Into Konoha",
+        "translate": "quest.narutorpg.kawaki_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 219801,
+  "outro": [
+    {
+      "fallback": "Even Naruto's tolerance was soon pushed to the limits when Kawaki ruthlessly attacked a child just because he bumped into him, which would have certainly killed the boy had Naruto not stopped him, and openly showed a...",
+      "translate": "quest.narutorpg.kawaki_arc_02.outro0"
+    },
+    {
+      "fallback": "When he went to Ino's shop to buy a vase to replace the original, however, Kawaki displayed his vulnerable and traumatised side as just seeing the flowers caused him to remember Jigen, which Naruto comforted him for...",
+      "translate": "quest.narutorpg.kawaki_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_arc_01"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

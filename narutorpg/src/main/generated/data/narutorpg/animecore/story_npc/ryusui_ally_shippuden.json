@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "eyes": 2001125,
+    "hair": 15913323,
+    "headband": 4545124,
+    "pants": 3622735,
+    "top": 8916559
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Ryūsui",
+    "translate": "npc.narutorpg.ryusui"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

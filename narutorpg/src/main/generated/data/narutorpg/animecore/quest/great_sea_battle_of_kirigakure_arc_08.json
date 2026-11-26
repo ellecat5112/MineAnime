@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Great Sea Battle of Kirigakure Arc",
+    "translate": "quest.narutorpg.arc.great_sea_battle_of_kirigakure_arc"
+  },
+  "description": {
+    "fallback": "Boruto almost falls into the ocean again, concerned he won't be saved again, and still puzzled by the person with webbed hands. Ikada warns him they're about to enter more turbulent, stormy waters. Boruto compliments Ikada on his skills, and Ikada reveals he was born on the sea and lived on a boat since he was little.",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Boruto almost falls into the ocean again, concerned he won't be saved again, and still puzzled by the person with webbed hands.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.intro0"
+    },
+    {
+      "fallback": "Ikada warns him they're about to enter more turbulent, stormy waters.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.intro1"
+    },
+    {
+      "fallback": "Boruto compliments Ikada on his skills, and Ikada reveals he was born on the sea and lived on a boat since he was little.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Ikada's Dream",
+    "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 40,
+      "text": {
+        "fallback": "Go: Ikada's Dream",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:ikada_funato",
+      "text": {
+        "fallback": "Meet Ikada Funato",
+        "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.o3"
+      }
+    }
+  ],
+  "order": 224307,
+  "outro": [
+    {
+      "fallback": "Sarada and Mitsuki arrive, and update them on recent developments.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.outro0"
+    },
+    {
+      "fallback": "Iwabee wants to evacuate the researchers as soon as possible.",
+      "translate": "quest.narutorpg.great_sea_battle_of_kirigakure_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:great_sea_battle_of_kirigakure_arc_07"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

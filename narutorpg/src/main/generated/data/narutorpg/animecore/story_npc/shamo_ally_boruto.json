@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_earth_flow_wave",
+    "narutorpg:earth_release_earth_and_stone_bamboo_shoot",
+    "narutorpg:earth_release_earth_style_wall"
+  ],
+  "appearance": {
+    "accent": 12000284,
+    "eyes": 1118481,
+    "hair": 2503224,
+    "headband": 7162945,
+    "outfit": "jacket",
+    "skin": 16767916,
+    "top": 9268835
+  },
+  "attack": 17.0,
+  "health": 242.0,
+  "name": {
+    "fallback": "Shamo",
+    "translate": "npc.narutorpg.shamo"
+  },
+  "power": 2.56,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

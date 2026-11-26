@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:araya_ally_boruto",
+    "narutorpg:shinki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "Mitsuki, having re-activated his Sage Mode, defeated a group of Claw Grime when he is approached by Konohamaru, carrying Matsuri's Thornbulb. Mitsuki informs Konohamaru that Araya has taken Ryū's Thornbulb and is headed to Shinki's tree, while carrying the fallen Yodo. Konohamaru expresses regret of what happened to Yodo, but states that this is the level of resolve needed to deal with the Human God Trees, and Yodo...",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Mitsuki, having re-activated his Sage Mode, defeated a group of Claw Grime when he is approached by Konohamaru, carrying Matsuri's Thornbulb.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.intro0"
+    },
+    {
+      "fallback": "Mitsuki informs Konohamaru that Araya has taken Ryū's Thornbulb and is headed to Shinki's tree, while carrying the fallen Yodo.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.intro1"
+    },
+    {
+      "fallback": "Konohamaru expresses regret of what happened to Yodo, but states that this is the level of resolve needed to deal with the Human God Trees, and Yodo would be happy to hear her sacrifice led to them acquiring the...",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Strong",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: The Strong",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:jura_foe_boruto",
+      "text": {
+        "fallback": "Defeat Jura",
+        "translate": "quest.narutorpg.defeat.jura_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:matsuri_god_tree_foe_boruto",
+      "text": {
+        "fallback": "Defeat Matsuri (God Tree)",
+        "translate": "quest.narutorpg.defeat.matsuri_god_tree_foe_boruto"
+      }
+    }
+  ],
+  "order": 302607,
+  "outro": [
+    {
+      "fallback": "Konohamaru tells Mitsuki that Boruto ordered them to head to the location where they initially met up with Araya and Yodo.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.outro0"
+    },
+    {
+      "fallback": "Despite not knowing why, Konohamaru states that their only option right now is to trust Boruto and they should follow his orders.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_07"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

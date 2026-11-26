@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Kawaki & Himawari Academy Arc",
+    "translate": "quest.narutorpg.arc.kawaki_himawari_academy_arc"
+  },
+  "description": {
+    "fallback": "Kawaki thinks about how the assassination plot played out. He accompanies Himawari to the Academy, despite being taken off his mission to protect Kae. Hana also returns, and discusses the attack with Anko and Shino, having learned Kae might have been the target.",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Kawaki thinks about how the assassination plot played out.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.intro0"
+    },
+    {
+      "fallback": "He accompanies Himawari to the Academy, despite being taken off his mission to protect Kae.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.intro1"
+    },
+    {
+      "fallback": "Hana also returns, and discusses the attack with Anko and Shino, having learned Kae might have been the target.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Two Sides of the Same Coin",
+    "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Go: Two Sides of the Same Coin",
+        "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 227109,
+  "outro": [
+    {
+      "fallback": "Hana rummages through her apartment, and discovers a hidden room with the assassin's belongings.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.outro0"
+    },
+    {
+      "fallback": "Realising the truth, she decides to turn herself in, but her alter, speaking to her through her reflection won't allow it.",
+      "translate": "quest.narutorpg.kawaki_himawari_academy_arc_10.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:kawaki_himawari_academy_arc_09"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

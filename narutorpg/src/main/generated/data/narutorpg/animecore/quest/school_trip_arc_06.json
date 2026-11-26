@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "School Trip Arc",
+    "translate": "quest.narutorpg.arc.school_trip_arc"
+  },
+  "description": {
+    "fallback": "Boruto sees Kagura approaching him, Hiramekarei in hand. Buntan attacks Sarada with lightning from Kiba. Sarada blocks her attack and activates her Sharingan.",
+    "translate": "quest.narutorpg.school_trip_arc_06.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto sees Kagura approaching him, Hiramekarei in hand.",
+      "translate": "quest.narutorpg.school_trip_arc_06.intro0"
+    },
+    {
+      "fallback": "Buntan attacks Sarada with lightning from Kiba.",
+      "translate": "quest.narutorpg.school_trip_arc_06.intro1"
+    },
+    {
+      "fallback": "Sarada blocks her attack and activates her Sharingan.",
+      "translate": "quest.narutorpg.school_trip_arc_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Sharingan vs. The Lightning Blade, Kiba the Fang!",
+    "translate": "quest.narutorpg.school_trip_arc_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.school_trip_arc_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Go: The Sharingan vs. The Lightning Blade, Kiba the Fang!",
+        "translate": "quest.narutorpg.school_trip_arc_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 203505,
+  "outro": [
+    {
+      "fallback": "Sarada blocks another of Buntan's attacks, and causes her to retreat to avoid genjutsu.",
+      "translate": "quest.narutorpg.school_trip_arc_06.outro0"
+    },
+    {
+      "fallback": "Buntan remotely controls Kiba to attack Sarada.",
+      "translate": "quest.narutorpg.school_trip_arc_06.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_05"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

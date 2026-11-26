@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Third Great Beast Arc",
+    "translate": "quest.narutorpg.arc.third_great_beast_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Tsunade, fearing that Rock Lee will overexert himself and once again end his career as a ninja, warns him not to accept missions or train too hard. At the same time, a student arrives in town and is able to beat Lee at taijutsu, dodging all his moves and using one that nearly breaks his ankle. The student goes out with Might Guy on a C-ranked mission to the Land of Mountain Streams while Lee recovers, causing Lee to...",
+    "translate": "quest.narutorpg.third_great_beast_arc_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Tsunade, fearing that Rock Lee will overexert himself and once again end his career as a ninja, warns him not to accept missions or train too hard.",
+      "translate": "quest.narutorpg.third_great_beast_arc_01.intro0"
+    },
+    {
+      "fallback": "At the same time, a student arrives in town and is able to beat Lee at taijutsu, dodging all his moves and using one that nearly breaks his ankle.",
+      "translate": "quest.narutorpg.third_great_beast_arc_01.intro1"
+    },
+    {
+      "fallback": "The student goes out with Might Guy on a C-ranked mission to the Land of Mountain Streams while Lee recovers, causing Lee to believe that Guy has abandoned him.",
+      "translate": "quest.narutorpg.third_great_beast_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Third Super-Beast!",
+    "translate": "quest.narutorpg.third_great_beast_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.third_great_beast_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 43,
+      "text": {
+        "fallback": "Go: The Third Super-Beast!",
+        "translate": "quest.narutorpg.third_great_beast_arc_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:rock_lee",
+      "text": {
+        "fallback": "Meet Rock Lee",
+        "translate": "quest.narutorpg.third_great_beast_arc_01.o3"
+      }
+    }
+  ],
+  "order": 20500,
+  "outro": [
+    {
+      "fallback": "The student goes out with Might Guy on a C-ranked mission to the Land of Mountain Streams while Lee recovers, causing Lee to believe that Guy has abandoned him.",
+      "translate": "quest.narutorpg.third_great_beast_arc_01.outro0"
+    },
+    {
+      "fallback": "It is then revealed that the student is an impostor, and he lures Guy into a trap as Naruto, Neji, and Tenten arrive to support him.",
+      "translate": "quest.narutorpg.third_great_beast_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

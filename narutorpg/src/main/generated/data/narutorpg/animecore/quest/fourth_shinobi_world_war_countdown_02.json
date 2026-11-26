@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Countdown",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_countdown"
+  },
+  "description": {
+    "fallback": "Returning to Kiba, Lee, Akamaru and Sai, Sakura and Naruto all go back to the village along with Kakashi and a weakened Karin. Upon return, the others tell Naruto that they want to fight Sasuke too and he can't fight him alone. Naruto disagrees and says he is the only one who is able to fight Sasuke and the only one that will, the others question him on what happened when he confronted Sasuke.",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Returning to Kiba, Lee, Akamaru and Sai, Sakura and Naruto all go back to the village along with Kakashi and a weakened Karin.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.intro0"
+    },
+    {
+      "fallback": "Upon return, the others tell Naruto that they want to fight Sasuke too and he can't fight him alone.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.intro1"
+    },
+    {
+      "fallback": "Naruto disagrees and says he is the only one who is able to fight Sasuke and the only one that will, the others question him on what happened when he confronted Sasuke.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Fifth Awakens",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: The Fifth Awakens",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 122501,
+  "outro": [
+    {
+      "fallback": "At the same time, in their hideout, Sasuke is shown regaining consciousness again after the operation in which Itachi's eyes were implanted in him.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.outro0"
+    },
+    {
+      "fallback": "Sasuke states he can feel Itachi's power flowing into him.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_countdown_02.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_countdown_01"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

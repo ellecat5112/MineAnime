@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 8916559,
+    "eyes": 4431943,
+    "hair": 15913323,
+    "pants": 3622735,
+    "skin": 13010498,
+    "top": 6111287
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Todoroki",
+    "translate": "npc.narutorpg.todoroki"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

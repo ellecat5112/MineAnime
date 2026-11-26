@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:curse_technique_death_controlling_possessed_blood"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 11771355,
+    "hair": 13621468,
+    "headband": 1981066,
+    "outfit": "cloak",
+    "top": 1052692
+  },
+  "attack": 7.7,
+  "cast_interval": 40,
+  "health": 245.0,
+  "name": {
+    "fallback": "Hidan",
+    "translate": "npc.narutorpg.hidan"
+  },
+  "power": 1.38,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "hair": 4073251,
+    "headband": 1981066,
+    "outfit": "jacket",
+    "pants": 1713022,
+    "top": 2046559
+  },
+  "attack": 19.4,
+  "cast_interval": 40,
+  "health": 677.0,
+  "name": {
+    "fallback": "Daemon",
+    "translate": "npc.narutorpg.daemon"
+  },
+  "power": 2.58,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

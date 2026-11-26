@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] After Naruto defeated Pain, Iruka, along with Suzume and Daikoku Funeno approach the ruins of the Academy to salvage things for class. They split up and Iruka sees the destroyed academy, remembering when he began as a teacher and the day Hiruzen Sarutobi assigned Naruto Uzumaki to his class. Though he refused at first, due to Naruto being the jinchūriki of the Nine-Tails, Iruka accepts.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "After Naruto defeated Pain, Iruka, along with Suzume and Daikoku Funeno approach the ruins of the Academy to salvage things for class.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.intro0"
+    },
+    {
+      "fallback": "They split up and Iruka sees the destroyed academy, remembering when he began as a teacher and the day Hiruzen Sarutobi assigned Naruto Uzumaki to his class.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.intro1"
+    },
+    {
+      "fallback": "Though he refused at first, due to Naruto being the jinchūriki of the Nine-Tails, Iruka accepts.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Rookie Instructor",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Go: Rookie Instructor",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118600,
+  "outro": [
+    {
+      "fallback": "Iruka finds Naruto and tries to get him to go back to the Academy, but Naruto refuses and tells him that he doesn't understand him.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.outro0"
+    },
+    {
+      "fallback": "Naruto uses his Sexy Technique to escape Iruka be",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_01.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:pain_s_assault_05"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

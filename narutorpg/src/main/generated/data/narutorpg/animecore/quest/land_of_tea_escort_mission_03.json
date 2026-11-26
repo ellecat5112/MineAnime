@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:sakura_haruno_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Land of Tea Escort Mission",
+    "translate": "quest.narutorpg.arc.land_of_tea_escort_mission"
+  },
+  "description": {
+    "fallback": "Aoi taunts Idate and attacks him. Team 7, who are still swimming for the island, are attacked underwater by the Ame ninja. Using the first step of training for the Rasengan, Naruto creates a huge whirlpool that saves them.",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_03.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Aoi taunts Idate and attacks him.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_03.intro0"
+    },
+    {
+      "fallback": "Team 7, who are still swimming for the island, are attacked underwater by the Ame ninja.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_03.intro1"
+    },
+    {
+      "fallback": "Using the first step of training for the Rasengan, Naruto creates a huge whirlpool that saves them.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Run Idate Run! Nagi Island Awaits!",
+    "translate": "quest.narutorpg.land_of_tea_escort_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: Run Idate Run! Nagi Island Awaits!",
+        "translate": "quest.narutorpg.land_of_tea_escort_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:idate_morino_foe_naruto",
+      "text": {
+        "fallback": "Defeat Idate Morino",
+        "translate": "quest.narutorpg.defeat.idate_morino_foe_naruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:aoi_rokusho_foe_naruto",
+      "text": {
+        "fallback": "Defeat Aoi Rokushō",
+        "translate": "quest.narutorpg.defeat.aoi_rokusho_foe_naruto"
+      }
+    }
+  ],
+  "order": 11202,
+  "outro": [
+    {
+      "fallback": "Sakura gives them all medicine Tsunade had given her, and they seek shelter in a cave.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_03.outro0"
+    },
+    {
+      "fallback": "Idate explains that he was once a Konoha ninja, but was tricked by Aoi into betraying the village after failing the Chūnin Exams.",
+      "translate": "quest.narutorpg.land_of_tea_escort_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:land_of_tea_escort_mission_02"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

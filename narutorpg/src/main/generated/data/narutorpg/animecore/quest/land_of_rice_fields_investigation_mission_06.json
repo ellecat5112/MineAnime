@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_naruto",
+    "narutorpg:sakura_haruno_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Land of Rice Fields Investigation Mission",
+    "translate": "quest.narutorpg.arc.land_of_rice_fields_investigation_mission"
+  },
+  "description": {
+    "fallback": "Naruto takes on Arashi, but gets trapped easily. Sakura thinks he's dead and Naruto ends up blowing his sneak attack cover to protect her. Naruto tries his attack again, but his injury causes a problem.",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.desc"
+  },
+  "giver": "narutorpg:jiraiya",
+  "intro": [
+    {
+      "fallback": "Naruto takes on Arashi, but gets trapped easily.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.intro0"
+    },
+    {
+      "fallback": "Sakura thinks he's dead and Naruto ends up blowing his sneak attack cover to protect her.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.intro1"
+    },
+    {
+      "fallback": "Naruto tries his attack again, but his injury causes a problem.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sakura's Determination!",
+    "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:jiraiya",
+      "text": {
+        "fallback": "Talk to Jiraiya",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Sakura's Determination!",
+        "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:arashi_foe_naruto",
+      "text": {
+        "fallback": "Defeat Arashi",
+        "translate": "quest.narutorpg.defeat.arashi_foe_naruto"
+      }
+    }
+  ],
+  "order": 14605,
+  "outro": [
+    {
+      "fallback": "Tsunade acknowledges that she wrote the same thing once, but training to become a medical ninja requires special qualities that few possess.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.outro0"
+    },
+    {
+      "fallback": "Considering herself to have been of little use, Sakura asks to become Tsunade's apprentice and learn to become a medical-nin, to which Tsunade agrees.",
+      "translate": "quest.narutorpg.land_of_rice_fields_investigation_mission_06.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:land_of_rice_fields_investigation_mission_05"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

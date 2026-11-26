@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:sasuke_uchiha_ally_boruto",
+    "narutorpg:shinki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Versus Momoshiki Arc",
+    "translate": "quest.narutorpg.arc.versus_momoshiki_arc"
+  },
+  "description": {
+    "fallback": "Meanwhile, as Sasuke arrives in Kaguya's ice dimension, he is watched from above by Momoshiki and Kinshiki. Discovering Toneri's location, Urashiki crashed onto the moon. Urashiki told him that the Ōtsutsuki clan's main family observed everything over the millennium, including the humiliating incident.",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_02.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Meanwhile, as Sasuke arrives in Kaguya's ice dimension, he is watched from above by Momoshiki and Kinshiki.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_02.intro0"
+    },
+    {
+      "fallback": "Discovering Toneri's location, Urashiki crashed onto the moon.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_02.intro1"
+    },
+    {
+      "fallback": "Urashiki told him that the Ōtsutsuki clan's main family observed everything over the millennium, including the humiliating incident.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Ōtsutsuki Clan Investigation",
+    "translate": "quest.narutorpg.versus_momoshiki_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: Ōtsutsuki Clan Investigation",
+        "translate": "quest.narutorpg.versus_momoshiki_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:toneri_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Toneri Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.toneri_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:urashiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Urashiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.urashiki_otsutsuki_foe_boruto"
+      }
+    }
+  ],
+  "order": 206101,
+  "outro": [
+    {
+      "fallback": "Leaving, Sasuke notices Boruto arriving, and decides to block his path.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_02.outro0"
+    },
+    {
+      "fallback": "Impressed, Boruto asks to become Sasuke's student.",
+      "translate": "quest.narutorpg.versus_momoshiki_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:versus_momoshiki_arc_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

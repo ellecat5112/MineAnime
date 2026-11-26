@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:yukimaru_s_mother_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Three-Tails' Appearance",
+    "translate": "quest.narutorpg.arc.three_tails_appearance"
+  },
+  "description": {
+    "fallback": "Naruto and Guren find themselves trapped in the belly of the Three-Tailed Turtle with no way out. Guren attempts to attack Naruto but passes out from her wound. She then has a nightmare about asking Yūkimaru's mother for forgiveness, only for an image of Orochimaru to tell her that she can never ask for that.",
+    "translate": "quest.narutorpg.three_tails_appearance_19.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto and Guren find themselves trapped in the belly of the Three-Tailed Turtle with no way out.",
+      "translate": "quest.narutorpg.three_tails_appearance_19.intro0"
+    },
+    {
+      "fallback": "Guren attempts to attack Naruto but passes out from her wound.",
+      "translate": "quest.narutorpg.three_tails_appearance_19.intro1"
+    },
+    {
+      "fallback": "She then has a nightmare about asking Yūkimaru's mother for forgiveness, only for an image of Orochimaru to tell her that she can never ask for that.",
+      "translate": "quest.narutorpg.three_tails_appearance_19.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Strange Bedfellows",
+    "translate": "quest.narutorpg.three_tails_appearance_19"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.three_tails_appearance_19.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Strange Bedfellows",
+        "translate": "quest.narutorpg.three_tails_appearance_19.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:yukimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Yūkimaru",
+        "translate": "quest.narutorpg.defeat.yukimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:guren_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Guren",
+        "translate": "quest.narutorpg.defeat.guren_foe_shippuden"
+      }
+    }
+  ],
+  "order": 109918,
+  "outro": [
+    {
+      "fallback": "Naruto tells her that Konoha has no need for the Three-Tails and surprises Guren by telling her that he is the jinchūriki of the Nine-Tails.",
+      "translate": "quest.narutorpg.three_tails_appearance_19.outro0"
+    },
+    {
+      "fallback": "Although Guren is conflicted with her lo",
+      "translate": "quest.narutorpg.three_tails_appearance_19.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:three_tails_appearance_18"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

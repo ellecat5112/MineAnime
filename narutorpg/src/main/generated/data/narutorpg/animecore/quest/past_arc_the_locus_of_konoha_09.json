@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "Lee arrives at Tsunade's tent and asks Sakura how she is feeling though Sakura nods her head no. Lee brought a bottle of medicine Guy made for her to get well and has a flashback of when Tsunade told him he could no longer become a ninja. Naruto and Sakura find Ino Yamanaka at the hospital who tells them they have a mission together.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Lee arrives at Tsunade's tent and asks Sakura how she is feeling though Sakura nods her head no.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.intro0"
+    },
+    {
+      "fallback": "Lee brought a bottle of medicine Guy made for her to get well and has a flashback of when Tsunade told him he could no longer become a ninja.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.intro1"
+    },
+    {
+      "fallback": "Naruto and Sakura find Ino Yamanaka at the hospital who tells them they have a mission together.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Jofuku Flower",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: Jofuku Flower",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 118608,
+  "outro": [
+    {
+      "fallback": "With the final ingredient at hand, Guy is able to finish the medicine and makes a bowl full of medicine balls for Lee.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.outro0"
+    },
+    {
+      "fallback": "Lee is shocked to hear that Sakura and her team did th",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_09.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_08"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

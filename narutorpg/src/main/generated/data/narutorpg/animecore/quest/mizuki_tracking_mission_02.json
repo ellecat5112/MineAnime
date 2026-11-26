@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:shizune_ally_naruto",
+    "narutorpg:tsunade_ally_naruto"
+  ],
+  "arc": {
+    "fallback": "Mizuki Tracking Mission",
+    "translate": "quest.narutorpg.arc.mizuki_tracking_mission"
+  },
+  "description": {
+    "fallback": "Shizune and her team encounter Mizuki, but all of them are defeated. When Tonton comes back to warn Tsunade, Naruto takes the initiative to find Shizune with Tonton's help. Kakashi arrives and finds out the situation.",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_02.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Shizune and her team encounter Mizuki, but all of them are defeated.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_02.intro0"
+    },
+    {
+      "fallback": "When Tonton comes back to warn Tsunade, Naruto takes the initiative to find Shizune with Tonton's help.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_02.intro1"
+    },
+    {
+      "fallback": "Kakashi arrives and finds out the situation.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Tonton! I'm Counting on You!",
+    "translate": "quest.narutorpg.mizuki_tracking_mission_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Tonton! I'm Counting on You!",
+        "translate": "quest.narutorpg.mizuki_tracking_mission_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mizuki_foe_naruto",
+      "text": {
+        "fallback": "Defeat Mizuki",
+        "translate": "quest.narutorpg.defeat.mizuki_foe_naruto"
+      }
+    }
+  ],
+  "order": 15201,
+  "outro": [
+    {
+      "fallback": "Mizuki attacks Iruka while Naruto deals with Fūjin and Raijin.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_02.outro0"
+    },
+    {
+      "fallback": "Naruto soon finds that his attacks are ineffective.",
+      "translate": "quest.narutorpg.mizuki_tracking_mission_02.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:mizuki_tracking_mission_01"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

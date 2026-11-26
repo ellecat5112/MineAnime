@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "narutorpg:sai_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Kara Actuation Arc",
+    "translate": "quest.narutorpg.arc.kara_actuation_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Having learned from Team 25 that there was an alleged Kara hideout in Amegakure, Sasuke and Sai arrived in the village to investigate a building that used to be a sewage treatment facility, until it was abandoned due to a toxic gas incident that caused several fatalities, while commenting on how the village's repairs aren't progressing at all. Sensing someone, Sasuke and Sai swiftly exposed and subdued a man named...",
+    "translate": "quest.narutorpg.kara_actuation_arc_01.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "Having learned from Team 25 that there was an alleged Kara hideout in Amegakure, Sasuke and Sai arrived in the village to investigate a building that used to be a sewage treatment facility, until it was abandoned due to...",
+      "translate": "quest.narutorpg.kara_actuation_arc_01.intro0"
+    },
+    {
+      "fallback": "Sensing someone, Sasuke and Sai swiftly exposed and subdued a man named Garashi Tōno who accused them of killing his friends but they were able to convince him that they were Konoha shinobi and with the fact that the...",
+      "translate": "quest.narutorpg.kara_actuation_arc_01.intro1"
+    },
+    {
+      "fallback": "Garashi explains he learned ninjutsu from an old man who raised orphans like him who lost their families during wars and recognises the name Kara when Sai asks about them, and shows them a design he copied from them...",
+      "translate": "quest.narutorpg.kara_actuation_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Kara's Trail",
+    "translate": "quest.narutorpg.kara_actuation_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.kara_actuation_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Kara's Trail",
+        "translate": "quest.narutorpg.kara_actuation_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isshiki_otsutsuki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Isshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.isshiki_otsutsuki_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:garashi_tono_foe_boruto",
+      "text": {
+        "fallback": "Defeat Garashi Tōno",
+        "translate": "quest.narutorpg.defeat.garashi_tono_foe_boruto"
+      }
+    }
+  ],
+  "order": 216700,
+  "outro": [
+    {
+      "fallback": "Fortunately, Sasuke and Sai had anticipated Garashi was a member of Kara all along and the ones Garashi trapped were clones, having noticed that Garashi was careful avoiding dangerous areas along the way, but rushed in...",
+      "translate": "quest.narutorpg.kara_actuation_arc_01.outro0"
+    },
+    {
+      "fallback": "It also turns out that Garashi's mask wasn't designed to protect him from the poisoned gas and he begins to collapse but refuses to let himself be interrogated, still seeing that Kara, while willing to abandon him, had...",
+      "translate": "quest.narutorpg.kara_actuation_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_16"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

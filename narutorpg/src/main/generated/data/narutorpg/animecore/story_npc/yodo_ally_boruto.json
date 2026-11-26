@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "narutorpg:howling_hair_sound_wave"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "eyes": 1118481,
+    "hair": 6111287,
+    "hair_style": "long",
+    "headband": 6111287,
+    "outfit": "robe",
+    "skin": 14724201,
+    "top": 10586239
+  },
+  "attack": 19.0,
+  "health": 270.0,
+  "name": {
+    "fallback": "Yodo",
+    "translate": "npc.narutorpg.yodo"
+  },
+  "power": 2.8,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

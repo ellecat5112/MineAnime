@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:senbon_shower",
+    "narutorpg:umbrella_shock_wave"
+  ],
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 2001125,
+    "hair": 4073251,
+    "headband": 1981066,
+    "outfit": "jacket",
+    "top": 2046559
+  },
+  "attack": 5.3,
+  "cast_interval": 40,
+  "health": 158.0,
+  "name": {
+    "fallback": "Aoi Rokushō",
+    "translate": "npc.narutorpg.aoi_rokusho"
+  },
+  "power": 1.14,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

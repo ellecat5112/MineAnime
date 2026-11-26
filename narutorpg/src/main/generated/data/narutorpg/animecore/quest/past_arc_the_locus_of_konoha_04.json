@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:sakura_haruno_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "In flashback of Naruto and Sakura's, Team 7 are on a mission to take an ostrich called Condor to his home. They arrive at a village where they see a swordsman named Tsukado who has a vendetta to carry on a man named Katazu who killed his distant relative Shikazo. Tsukado fails to defeat him so Naruto decides to teach him unusual revenge lessons.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "In flashback of Naruto and Sakura's, Team 7 are on a mission to take an ostrich called Condor to his home.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.intro0"
+    },
+    {
+      "fallback": "They arrive at a village where they see a swordsman named Tsukado who has a vendetta to carry on a man named Katazu who killed his distant relative Shikazo.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.intro1"
+    },
+    {
+      "fallback": "Tsukado fails to defeat him so Naruto decides to teach him unusual revenge lessons.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Vendettas",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 99,
+      "text": {
+        "fallback": "Head out: Vendettas",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:tsukado_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Tsukado",
+        "translate": "quest.narutorpg.defeat.tsukado_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118603,
+  "outro": [
+    {
+      "fallback": "Ostrich chase the Kanabun Gang out of town.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.outro0"
+    },
+    {
+      "fallback": "While going back home, Naruto wonders if it ended alright and Kakashi says it depends on them, there the flashback ends",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_04.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_03"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

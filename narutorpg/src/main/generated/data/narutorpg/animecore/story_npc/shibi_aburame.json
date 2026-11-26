@@ -1,0 +1,20 @@
+{
+  "appearance": {
+    "accent": 3622735,
+    "eyes": 2001125,
+    "hair": 4073251,
+    "headband": 1981066,
+    "mark": "glasses",
+    "outfit": "robe",
+    "pants": 3622735,
+    "top": 5533306
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Shibi Aburame",
+    "translate": "npc.narutorpg.shibi_aburame"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

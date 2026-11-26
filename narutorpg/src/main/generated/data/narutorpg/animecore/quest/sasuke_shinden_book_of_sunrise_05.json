@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:io_bamboo_village_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Sasuke Shinden: Book of Sunrise",
+    "translate": "quest.narutorpg.arc.sasuke_shinden_book_of_sunrise"
+  },
+  "description": {
+    "fallback": "Chino confirms to Sasuke she intended to use the exploding humans to attack him and Konoha in vengeance against the Uchiha for driving her clan to the Valley of Hell, but ended up meeting him in the Bamboo Village. Her plans changed after Iō last words put Sasuke on Fūshin's track. Chino explains the Chinoike clan's jutsu uses blood, and that with the high iron content of the lake in the Valley of Hell, she'll be...",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.desc"
+  },
+  "giver": "narutorpg:chino",
+  "intro": [
+    {
+      "fallback": "Chino confirms to Sasuke she intended to use the exploding humans to attack him and Konoha in vengeance against the Uchiha for driving her clan to the Valley of Hell, but ended up meeting him in the Bamboo Village.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.intro0"
+    },
+    {
+      "fallback": "Her plans changed after Iō last words put Sasuke on Fūshin's track.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.intro1"
+    },
+    {
+      "fallback": "Chino explains the Chinoike clan's jutsu uses blood, and that with the high iron content of the lake in the Valley of Hell, she'll be even more powerful.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Last One",
+    "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:chino",
+      "text": {
+        "fallback": "Talk to Chino",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: The Last One",
+        "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 149404,
+  "outro": [
+    {
+      "fallback": "Chino explains the Chinoike clan's jutsu uses blood, and that with the high iron content of the lake in the Valley of Hell, she'll be even more powerful.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.outro0"
+    },
+    {
+      "fallback": "She uses her blood and the lake to create a multi-headed blood dragon, but Sasuke quickly decapitates all of its heads with his electrified sword.",
+      "translate": "quest.narutorpg.sasuke_shinden_book_of_sunrise_05.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:sasuke_shinden_book_of_sunrise_04"
+  ],
+  "rewards": {
+    "experience": 33,
+    "items": [
+      {
+        "count": 3,
+        "id": "narutorpg:smoke_bomb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

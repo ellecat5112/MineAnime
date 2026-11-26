@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 7162945,
+    "hair": 15913323,
+    "headband": 6111287,
+    "outfit": "robe",
+    "pants": 4073251,
+    "skin": 16767916,
+    "top": 10586239
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Kankurō",
+    "translate": "npc.narutorpg.kankuro"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "narutorpg:dark_cloud",
+    "narutorpg:genjutsu_communication",
+    "narutorpg:lava_release_planet_branding_blast",
+    "narutorpg:self_healing_technique"
+  ],
+  "appearance": {
+    "accent": 16119285,
+    "eyes": 1118481,
+    "hair": 5125166,
+    "outfit": "cloak",
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 1710618
+  },
+  "attack": 18.2,
+  "cast_interval": 40,
+  "health": 634.0,
+  "name": {
+    "fallback": "Boro",
+    "translate": "npc.narutorpg.boro"
+  },
+  "power": 2.46,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

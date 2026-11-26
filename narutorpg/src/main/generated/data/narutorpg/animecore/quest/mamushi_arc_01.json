@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "narutorpg:inojin_yamanaka_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "Inojin visits Himawari at her home, gifting her her favourite flavor of honey. As he leaves, Koji's toad communicates with the boy. Koji asks if Inojin harbors romantic feelings towards Himawari, confirming his suspicions are correct as he reads Inojin's change in expression.",
+    "translate": "quest.narutorpg.mamushi_arc_01.desc"
+  },
+  "giver": "narutorpg:himawari_uzumaki",
+  "intro": [
+    {
+      "fallback": "Inojin visits Himawari at her home, gifting her her favourite flavor of honey.",
+      "translate": "quest.narutorpg.mamushi_arc_01.intro0"
+    },
+    {
+      "fallback": "As he leaves, Koji's toad communicates with the boy.",
+      "translate": "quest.narutorpg.mamushi_arc_01.intro1"
+    },
+    {
+      "fallback": "Koji asks if Inojin harbors romantic feelings towards Himawari, confirming his suspicions are correct as he reads Inojin's change in expression.",
+      "translate": "quest.narutorpg.mamushi_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Those Like-Minded",
+    "translate": "quest.narutorpg.mamushi_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:himawari_uzumaki",
+      "text": {
+        "fallback": "Talk to Himawari Uzumaki",
+        "translate": "quest.narutorpg.mamushi_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Those Like-Minded",
+        "translate": "quest.narutorpg.mamushi_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    }
+  ],
+  "order": 303600,
+  "outro": [
+    {
+      "fallback": "As their interests are aligned, Koji invites Inojin back to his hideout via Reverse Summoning Technique, where Koji formally introduces himself as one who is fighting to defend the planet from the current threat.",
+      "translate": "quest.narutorpg.mamushi_arc_01.outro0"
+    },
+    {
+      "fallback": "Inojin also meets Boruto who ensures Inojin is not in danger, but there is no physical exit and he has no means of escaping.",
+      "translate": "quest.narutorpg.mamushi_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_10"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

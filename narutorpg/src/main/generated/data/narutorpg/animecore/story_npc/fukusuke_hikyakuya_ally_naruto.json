@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4545124,
+    "eyes": 4431943,
+    "hair": 14737632,
+    "pants": 4073251,
+    "skin": 13010498,
+    "top": 7162945
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Fukusuke Hikyakuya",
+    "translate": "npc.narutorpg.fukusuke_hikyakuya"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,92 @@
+{
+  "arc": {
+    "fallback": "Itachi Pursuit Mission",
+    "translate": "quest.narutorpg.arc.itachi_pursuit_mission"
+  },
+  "description": {
+    "fallback": "At Orochimaru's lair, a sick Orochimaru was confined to his bed. As Kabuto exited to get more medicine, a blade made of lightning chakra shot towards Orochimaru through the door. Orochimaru quickly blocked it with his arms, and thought to himself that he did not recognise the shape manipulation, although the chakra itself seemed familiar.",
+    "translate": "quest.narutorpg.itachi_pursuit_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "At Orochimaru's lair, a sick Orochimaru was confined to his bed.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_01.intro0"
+    },
+    {
+      "fallback": "As Kabuto exited to get more medicine, a blade made of lightning chakra shot towards Orochimaru through the door.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_01.intro1"
+    },
+    {
+      "fallback": "Orochimaru quickly blocked it with his arms, and thought to himself that he did not recognise the shape manipulation, although the chakra itself seemed familiar.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke vs. Orochimaru",
+    "translate": "quest.narutorpg.itachi_pursuit_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.itachi_pursuit_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Sasuke vs. Orochimaru",
+        "translate": "quest.narutorpg.itachi_pursuit_mission_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kabuto_yakushi_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kabuto Yakushi",
+        "translate": "quest.narutorpg.defeat.kabuto_yakushi_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:orochimaru_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Orochimaru",
+        "translate": "quest.narutorpg.defeat.orochimaru_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 112300,
+  "outro": [
+    {
+      "fallback": "Kabuto asked Sasuke which one he was, to which Sasuke replied by showing Kabuto what had happened.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_01.outro0"
+    },
+    {
+      "fallback": "Sasuke stated that he had merely taken over and left triumphantly.",
+      "translate": "quest.narutorpg.itachi_pursuit_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "narutorpg:akatsuki_suppression_mission_05"
+  ],
+  "rewards": {
+    "experience": 23,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

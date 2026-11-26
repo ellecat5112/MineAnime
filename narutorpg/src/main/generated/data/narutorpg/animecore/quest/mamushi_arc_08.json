@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:sumire_kakei_ally_boruto",
+    "narutorpg:himawari_uzumaki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Mamushi Arc",
+    "translate": "quest.narutorpg.arc.mamushi_arc"
+  },
+  "description": {
+    "fallback": "Boruto and the Konoha shinobi are surrounded by the growing number of divided Mamushi. Sumire asks the status of Sarada, with Boruto confirming that she is still breathing but worried how her usage of the Mangekyō Sharingan is effecting her vision. Himawari arrives to heal her injuries and stop the bleeding.",
+    "translate": "quest.narutorpg.mamushi_arc_08.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto and the Konoha shinobi are surrounded by the growing number of divided Mamushi.",
+      "translate": "quest.narutorpg.mamushi_arc_08.intro0"
+    },
+    {
+      "fallback": "Sumire asks the status of Sarada, with Boruto confirming that she is still breathing but worried how her usage of the Mangekyō Sharingan is effecting her vision.",
+      "translate": "quest.narutorpg.mamushi_arc_08.intro1"
+    },
+    {
+      "fallback": "Himawari arrives to heal her injuries and stop the bleeding.",
+      "translate": "quest.narutorpg.mamushi_arc_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Shattering Futures",
+    "translate": "quest.narutorpg.mamushi_arc_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.mamushi_arc_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 93,
+      "text": {
+        "fallback": "Head out: Shattering Futures",
+        "translate": "quest.narutorpg.mamushi_arc_08.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:mamushi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Mamushi",
+        "translate": "quest.narutorpg.defeat.mamushi_foe_boruto"
+      }
+    }
+  ],
+  "order": 303607,
+  "outro": [
+    {
+      "fallback": "Himawari arrives to heal her injuries and stop the bleeding.",
+      "translate": "quest.narutorpg.mamushi_arc_08.outro0"
+    },
+    {
+      "fallback": "Daemon, irritated by the persistent Mamushi, goads them into attacking him all at once.",
+      "translate": "quest.narutorpg.mamushi_arc_08.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "narutorpg:mamushi_arc_07"
+  ],
+  "rewards": {
+    "experience": 47,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

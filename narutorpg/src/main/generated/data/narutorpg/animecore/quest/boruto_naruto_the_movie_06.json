@@ -1,0 +1,94 @@
+{
+  "allies": [
+    "narutorpg:kurotsuchi_ally_movies",
+    "narutorpg:darui_ally_movies"
+  ],
+  "arc": {
+    "fallback": "Boruto: Naruto the Movie",
+    "translate": "quest.narutorpg.arc.boruto_naruto_the_movie"
+  },
+  "description": {
+    "fallback": "Naruto is bound by the Ōtsutsuki pair who tried to extract Kurama's chakra from him but Momoshiki complains it is taking so long. Naruto replies that ninjas don't like taking things easy and they look up to see the other Kage charging at them. The four Kage engage in battle against Kinshiki and Momoshiki while Sasuke and Boruto rescue Naruto, who asks about Boruto and why he's wearing the jacket, and Sasuke says...",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_06.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Naruto is bound by the Ōtsutsuki pair who tried to extract Kurama's chakra from him but Momoshiki complains it is taking so long.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_06.intro0"
+    },
+    {
+      "fallback": "Naruto replies that ninjas don't like taking things easy and they look up to see the other Kage charging at them.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_06.intro1"
+    },
+    {
+      "fallback": "The four Kage engage in battle against Kinshiki and Momoshiki while Sasuke and Boruto rescue Naruto, who asks about Boruto and why he's wearing the jacket, and Sasuke says many things happened but Boruto has become a...",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_06.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Boruto Uzumaki!",
+    "translate": "quest.narutorpg.boruto_naruto_the_movie_06"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_06.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Boruto Uzumaki!",
+        "translate": "quest.narutorpg.boruto_naruto_the_movie_06.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kinshiki_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Kinshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.kinshiki_otsutsuki_foe_movies"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:momoshiki_otsutsuki_foe_movies",
+      "text": {
+        "fallback": "Defeat Momoshiki Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.momoshiki_otsutsuki_foe_movies"
+      }
+    }
+  ],
+  "order": 302005,
+  "outro": [
+    {
+      "fallback": "Boruto launches his Rasengan at Momoshiki, who is knocked down from the impact, and frees Naruto and the Kage.",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_06.outro0"
+    },
+    {
+      "fallback": "In an effort to finish Momoshiki off once and for all, Naruto lends his chakra to Boruto while Sasuke distracts Momoshiki long enough for Boruto to crea",
+      "translate": "quest.narutorpg.boruto_naruto_the_movie_06.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:boruto_naruto_the_movie_05"
+  ],
+  "rewards": {
+    "experience": 37,
+    "items": [
+      {
+        "count": 2,
+        "id": "narutorpg:blood_increasing_pill"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

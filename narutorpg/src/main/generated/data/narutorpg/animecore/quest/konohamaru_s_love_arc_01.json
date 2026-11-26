@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Konohamaru's Love Arc",
+    "translate": "quest.narutorpg.arc.konohamaru_s_love_arc"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Boruto, Sarada, and Chōchō watch a movie in the cinema. Boruto found it to be uninteresting, angering Sarada and Chōchō for not getting the romantic aspects of the plot. They want to have him watch the movie again, but Boruto leaves.",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_01.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Boruto, Sarada, and Chōchō watch a movie in the cinema.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_01.intro0"
+    },
+    {
+      "fallback": "Boruto found it to be uninteresting, angering Sarada and Chōchō for not getting the romantic aspects of the plot.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_01.intro1"
+    },
+    {
+      "fallback": "They want to have him watch the movie again, but Boruto leaves.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Konohamaru and Remon",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: Konohamaru and Remon",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_01.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 212600,
+  "outro": [
+    {
+      "fallback": "She enjoys it so much she decides to live in Konohagakure.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_01.outro0"
+    },
+    {
+      "fallback": "At their suggestion, Konohamaru tries the burger, but doesn't like the sourness.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_01.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:steam_ninja_scrolls_arc_06"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Bikōchū Search Mission",
+    "translate": "quest.narutorpg.arc.bikochu_search_mission"
+  },
+  "description": {
+    "fallback": "Hinata is kidnapped by a group of ninja who use a bug technique similar to the technique used by the Aburame clan. It is revealed that the bug users who kidnapped Hinata are part of a clan that was an old rival of the Aburame clan. Shino explains the feud between the both clans started when an attack on Konoha was organised by the Kamizuru clan of Iwagakure.",
+    "translate": "quest.narutorpg.bikochu_search_mission_03.desc"
+  },
+  "giver": "narutorpg:hinata_hyuga",
+  "intro": [
+    {
+      "fallback": "Hinata is kidnapped by a group of ninja who use a bug technique similar to the technique used by the Aburame clan.",
+      "translate": "quest.narutorpg.bikochu_search_mission_03.intro0"
+    },
+    {
+      "fallback": "It is revealed that the bug users who kidnapped Hinata are part of a clan that was an old rival of the Aburame clan.",
+      "translate": "quest.narutorpg.bikochu_search_mission_03.intro1"
+    },
+    {
+      "fallback": "Shino explains the feud between the both clans started when an attack on Konoha was organised by the Kamizuru clan of Iwagakure.",
+      "translate": "quest.narutorpg.bikochu_search_mission_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "A Battle of Bugs! The Deceivers and the Deceived!",
+    "translate": "quest.narutorpg.bikochu_search_mission_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:hinata_hyuga",
+      "text": {
+        "fallback": "Talk to Hinata Hyūga",
+        "translate": "quest.narutorpg.bikochu_search_mission_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Go: A Battle of Bugs! The Deceivers and the Deceived!",
+        "translate": "quest.narutorpg.bikochu_search_mission_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_naruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.naruto"
+      }
+    }
+  ],
+  "order": 15802,
+  "outro": [
+    {
+      "fallback": "Hinata's companions hide the bikōchū and attempt to rescue her, but are lured into a trap.",
+      "translate": "quest.narutorpg.bikochu_search_mission_03.outro0"
+    },
+    {
+      "fallback": "Hinata attempts to escape, but is swept down a river while stuck in a cocoon.",
+      "translate": "quest.narutorpg.bikochu_search_mission_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:bikochu_search_mission_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

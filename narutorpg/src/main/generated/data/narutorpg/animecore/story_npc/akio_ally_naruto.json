@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 7951688,
+    "eyes": 1118481,
+    "hair": 2503224,
+    "pants": 3622735,
+    "top": 8916559
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Akio",
+    "translate": "npc.narutorpg.akio"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

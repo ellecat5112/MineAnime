@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Twelve Guardian Ninja",
+    "translate": "quest.narutorpg.arc.twelve_guardian_ninja"
+  },
+  "description": {
+    "fallback": "Naruto continues with his chakra nature training, with Yamato on standby, although he can only manage to cause some leaves to tear. Kakashi tells him to dispel his clones in order to gain the cumulative knowledge, but after Naruto almost faints, he also mentions that Naruto would gain cumulative fatigue. Not wanting to give up when he feels so close, Naruto uses the Multiple Shadow Clone Technique to resume his...",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Naruto continues with his chakra nature training, with Yamato on standby, although he can only manage to cause some leaves to tear.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_03.intro0"
+    },
+    {
+      "fallback": "Kakashi tells him to dispel his clones in order to gain the cumulative knowledge, but after Naruto almost faints, he also mentions that Naruto would gain cumulative fatigue.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_03.intro1"
+    },
+    {
+      "fallback": "Not wanting to give up when he feels so close, Naruto uses the Multiple Shadow Clone Technique to resume his training once more, this time with all the shadow clones possessing the prior knowledge and experience.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Writhe",
+    "translate": "quest.narutorpg.twelve_guardian_ninja_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: Writhe",
+        "translate": "quest.narutorpg.twelve_guardian_ninja_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 106402,
+  "outro": [
+    {
+      "fallback": "Struck with a thought, Naruto asks Kakashi whether there are any other shinobi in Konoha who possess Wind Release, in order for him to ask them for advice.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_03.outro0"
+    },
+    {
+      "fallback": "Kakashi tells him that he does know one person who does, who would most likely be playing shōgi at the moment.",
+      "translate": "quest.narutorpg.twelve_guardian_ninja_03.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:twelve_guardian_ninja_02"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

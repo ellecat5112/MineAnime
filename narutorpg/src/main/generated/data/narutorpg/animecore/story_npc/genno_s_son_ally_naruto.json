@@ -1,0 +1,21 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 2503224,
+    "eyes": 2001125,
+    "hair": 6111287,
+    "top": 4545124
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Gennō's Son",
+    "translate": "npc.narutorpg.genno_s_son"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

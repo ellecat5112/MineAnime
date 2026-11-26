@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "narutorpg:manipulating_attack_blades",
+    "narutorpg:puppet_performance_skilful_achievement_with_a_human_body",
+    "narutorpg:puppet_technique"
+  ],
+  "appearance": {
+    "accent": 7162945,
+    "hair": 12986408,
+    "hair_style": "spiky",
+    "headband": 6111287,
+    "outfit": "robe",
+    "pants": 4073251,
+    "top": 10586239
+  },
+  "attack": 8.4,
+  "cast_interval": 70,
+  "health": 138.0,
+  "name": {
+    "fallback": "Mukade (movie)",
+    "translate": "npc.narutorpg.mukade_movie"
+  },
+  "power": 1.62,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

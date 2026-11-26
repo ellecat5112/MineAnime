@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Academy Entrance Arc",
+    "translate": "quest.narutorpg.arc.academy_entrance_arc"
+  },
+  "description": {
+    "fallback": "Boruto eats with Shikadai, and sketches what the possessing spectre looked like to him. The two speculate why it's possessing people, its purpose, and why only Boruto can see it. Sarada complains about the boys to Chōchō and Sumire, but the conversation is cut short when Sumire gets a feeling that someone is spying on them.",
+    "translate": "quest.narutorpg.academy_entrance_arc_07.desc"
+  },
+  "giver": "narutorpg:sarada_uchiha",
+  "intro": [
+    {
+      "fallback": "Boruto eats with Shikadai, and sketches what the possessing spectre looked like to him.",
+      "translate": "quest.narutorpg.academy_entrance_arc_07.intro0"
+    },
+    {
+      "fallback": "The two speculate why it's possessing people, its purpose, and why only Boruto can see it.",
+      "translate": "quest.narutorpg.academy_entrance_arc_07.intro1"
+    },
+    {
+      "fallback": "Sarada complains about the boys to Chōchō and Sumire, but the conversation is cut short when Sumire gets a feeling that someone is spying on them.",
+      "translate": "quest.narutorpg.academy_entrance_arc_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Love and Potato Chips!",
+    "translate": "quest.narutorpg.academy_entrance_arc_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Talk to Sarada Uchiha",
+        "translate": "quest.narutorpg.academy_entrance_arc_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Go: Love and Potato Chips!",
+        "translate": "quest.narutorpg.academy_entrance_arc_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 201106,
+  "outro": [
+    {
+      "fallback": "The boys hear screaming and rush there.",
+      "translate": "quest.narutorpg.academy_entrance_arc_07.outro0"
+    },
+    {
+      "fallback": "Chōchō recognises their stalker as Magire Kakuremino, from another class.",
+      "translate": "quest.narutorpg.academy_entrance_arc_07.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "narutorpg:academy_entrance_arc_06"
+  ],
+  "rewards": {
+    "experience": 35,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

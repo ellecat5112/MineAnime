@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Naruto the Movie: Ninja Clash in the Land of Snow",
+    "translate": "quest.narutorpg.arc.naruto_the_movie_ninja_clash_in_the_land_of_snow"
+  },
+  "description": {
+    "fallback": "The movie begins with a heroine previously unknown in the Naruto continuity: Princess Fūun (Princess Gale in the US version). Fūn's nemesis, Mao, challenged her group with an army of undead soldiers. His dark intentions seemed to prevail; that is, until Princess Fūun and her cohorts, Shishimaru, Brit, and Tsukuyaku, unleashed the power of the Seven-Colour Chakra upon him.",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "The movie begins with a heroine previously unknown in the Naruto continuity: Princess Fūun (Princess Gale in the US version).",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.intro0"
+    },
+    {
+      "fallback": "Fūn's nemesis, Mao, challenged her group with an army of undead soldiers.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.intro1"
+    },
+    {
+      "fallback": "His dark intentions seemed to prevail; that is, until Princess Fūun and her cohorts, Shishimaru, Brit, and Tsukuyaku, unleashed the power of the Seven-Colour Chakra upon him.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Part 1",
+    "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 48,
+      "text": {
+        "fallback": "Go: Part 1",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:koyuki_kazahana",
+      "text": {
+        "fallback": "Meet Koyuki Kazahana",
+        "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.o3"
+      }
+    }
+  ],
+  "order": 301000,
+  "outro": [
+    {
+      "fallback": "His dark intentions seemed to prevail; that is, until Princess Fūun and her cohorts, Shishimaru, Brit, and Tsukuyaku, unleashed the power of the Seven-Colour Chakra upon him.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.outro0"
+    },
+    {
+      "fallback": "They saved the day, and Naruto, watching from afar, couldn't have been more elated.",
+      "translate": "quest.narutorpg.naruto_the_movie_ninja_clash_in_the_land_of_snow_01.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "narutorpg:prologue_land_of_waves_10"
+  ],
+  "rewards": {
+    "experience": 19,
+    "skill_points": 1
+  },
+  "series": "movies",
+  "system": "narutorpg"
+}

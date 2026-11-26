@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "narutorpg:water_release_blood_conversion_technique"
+  ],
+  "appearance": {
+    "accent": 2635155,
+    "hair": 4073251,
+    "hair_style": "spiky",
+    "pants": 1713022,
+    "skin": 13010498,
+    "top": 4854924
+  },
+  "attack": 14.7,
+  "cast_interval": 70,
+  "health": 264.0,
+  "name": {
+    "fallback": "Araumi Funato",
+    "translate": "npc.narutorpg.araumi_funato"
+  },
+  "power": 2.46,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:kinkaku_ally_shippuden",
+    "narutorpg:shibi_aburame_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Confrontation",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_confrontation"
+  },
+  "description": {
+    "fallback": "Back at the Island Turtle, while training, Naruto suddenly sensed the Nine-Tails' chakra within the rampaging six-tailed Kinkaku far away from the temple. Wanting to investigate, Naruto was able to trick Killer B into letting him out but is confronted by Shibi Aburame and a team of Konoha ninja who try to persuade to explain what is happening back inside the temple. Despite Iruka Umino's attempted lie, Naruto...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.desc"
+  },
+  "giver": "narutorpg:shikamaru_nara",
+  "intro": [
+    {
+      "fallback": "Back at the Island Turtle, while training, Naruto suddenly sensed the Nine-Tails' chakra within the rampaging six-tailed Kinkaku far away from the temple.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.intro0"
+    },
+    {
+      "fallback": "Wanting to investigate, Naruto was able to trick Killer B into letting him out but is confronted by Shibi Aburame and a team of Konoha ninja who try to persuade to explain what is happening back inside the temple.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.intro1"
+    },
+    {
+      "fallback": "Despite Iruka Umino's attempted lie, Naruto assumes Sage Mode to force his way out of the Falls of Truth, getting caught in a Nara clan ninja's Shadow Imitation Technique before sensing the chakra of his friends and...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Escaping Jinchūriki and the Fall of Night",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:shikamaru_nara",
+      "text": {
+        "fallback": "Talk to Shikamaru Nara",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Escaping Jinchūriki and the Fall of Night",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:demonic_statue_of_the_outer_path_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Demonic Statue of the Outer Path",
+        "translate": "quest.narutorpg.defeat.demonic_statue_of_the_outer_path_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:obito_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Obito Uchiha",
+        "translate": "quest.narutorpg.defeat.obito_uchiha_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:black_zetsu_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Black Zetsu",
+        "translate": "quest.narutorpg.defeat.black_zetsu_foe_shippuden"
+      }
+    }
+  ],
+  "order": 127103,
+  "outro": [
+    {
+      "fallback": "As the statue fights Chōza, Chōji, and the other the allied shinobi, Tobi uses the opportunity to obtain the Benihisago and Kohaku no Jōhei, containing the sealed Gold and Silver Brothers.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.outro0"
+    },
+    {
+      "fallback": "Shikamaru realises Tobi actually set the event of the brothers' sealing, Tobi taking his prize as Shikamaru and Darui are saved from the statue by",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_04.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_03"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "narutorpg:tight_binding_golden_chain_technique",
+    "narutorpg:adamantine_sealing_chains"
+  ],
+  "appearance": {
+    "accent": 13840175,
+    "eyes": 1118481,
+    "hair": 12986408,
+    "hair_style": "long",
+    "headband": 4854924,
+    "outfit": "cloak",
+    "skin": 13010498,
+    "top": 1052692
+  },
+  "attack": 12.4,
+  "cast_interval": 40,
+  "health": 418.0,
+  "name": {
+    "fallback": "Karin",
+    "translate": "npc.narutorpg.karin"
+  },
+  "power": 1.86,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

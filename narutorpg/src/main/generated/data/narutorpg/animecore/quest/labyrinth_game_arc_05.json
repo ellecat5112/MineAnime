@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:batta_ally_boruto",
+    "narutorpg:fugo_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "While waiting for the next experiment, Batta struggles with having killed civilians for hers and Fugō's survival, and rebuffs Yatsume's attempt to comfort her. She also clashes with Shamo, and chides Boruto when he tries convincing her of the importance of cooperation. Kiseru doesn't judge her, but warns against trying anything against him, showing off his Fire Release.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_05.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "While waiting for the next experiment, Batta struggles with having killed civilians for hers and Fugō's survival, and rebuffs Yatsume's attempt to comfort her.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_05.intro0"
+    },
+    {
+      "fallback": "She also clashes with Shamo, and chides Boruto when he tries convincing her of the importance of cooperation.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_05.intro1"
+    },
+    {
+      "fallback": "Kiseru doesn't judge her, but warns against trying anything against him, showing off his Fire Release.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_05.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Musical Chairs",
+    "translate": "quest.narutorpg.labyrinth_game_arc_05"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.labyrinth_game_arc_05.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Musical Chairs",
+        "translate": "quest.narutorpg.labyrinth_game_arc_05.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:oga_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ōga",
+        "translate": "quest.narutorpg.defeat.oga_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kiseru_gankubi_foe_boruto",
+      "text": {
+        "fallback": "Defeat Kiseru Gankubi",
+        "translate": "quest.narutorpg.defeat.kiseru_gankubi_foe_boruto"
+      }
+    }
+  ],
+  "order": 228404,
+  "outro": [
+    {
+      "fallback": "Fugō wants to deliver a payment to his client, his company's fate at stake.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_05.outro0"
+    },
+    {
+      "fallback": "Batta refuses to share her story, but Yatsume notes her use of \"need\" instead of \"want\" when she mentions money, so she claims she needs money to buy a beach island.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_05.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:labyrinth_game_arc_04"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

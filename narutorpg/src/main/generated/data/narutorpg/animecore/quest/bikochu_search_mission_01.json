@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Bikōchū Search Mission",
+    "translate": "quest.narutorpg.arc.bikochu_search_mission"
+  },
+  "description": {
+    "fallback": "[Anime-only side story] Hinata, Shino and Kiba visit Kurenai Yūhi at the hospital and Hinata faints after getting too close to Naruto who was frustrated by Mizuki's inability to lead him to either Sasuke or Orochimaru. Naruto began pestering Tsunade to allow him to go look for him. Hinata sympathised with Naruto, and suggested trying to find a way to help him.",
+    "translate": "quest.narutorpg.bikochu_search_mission_01.desc"
+  },
+  "giver": "narutorpg:tsunade",
+  "intro": [
+    {
+      "fallback": "Hinata, Shino and Kiba visit Kurenai Yūhi at the hospital and Hinata faints after getting too close to Naruto who was frustrated by Mizuki's inability to lead him to either Sasuke or Orochimaru.",
+      "translate": "quest.narutorpg.bikochu_search_mission_01.intro0"
+    },
+    {
+      "fallback": "Naruto began pestering Tsunade to allow him to go look for him.",
+      "translate": "quest.narutorpg.bikochu_search_mission_01.intro1"
+    },
+    {
+      "fallback": "Hinata sympathised with Naruto, and suggested trying to find a way to help him.",
+      "translate": "quest.narutorpg.bikochu_search_mission_01.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Search for the Rare Bikōchū Beetle",
+    "translate": "quest.narutorpg.bikochu_search_mission_01"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:tsunade",
+      "text": {
+        "fallback": "Talk to Tsunade",
+        "translate": "quest.narutorpg.bikochu_search_mission_01.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: The Search for the Rare Bikōchū Beetle",
+        "translate": "quest.narutorpg.bikochu_search_mission_01.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:hinata_hyuga",
+      "text": {
+        "fallback": "Meet Hinata Hyūga",
+        "translate": "quest.narutorpg.bikochu_search_mission_01.o3"
+      }
+    }
+  ],
+  "order": 15800,
+  "outro": [
+    {
+      "fallback": "The next morning Naruto told Kiba about the \"ultra-pretty\" girl he saw, embarrassing Hinata greatly.",
+      "translate": "quest.narutorpg.bikochu_search_mission_01.outro0"
+    },
+    {
+      "fallback": "As they arrived at the location where the bikōchū is, they were unaware that the enemy group were also searching the bikōchū.",
+      "translate": "quest.narutorpg.bikochu_search_mission_01.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_08"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

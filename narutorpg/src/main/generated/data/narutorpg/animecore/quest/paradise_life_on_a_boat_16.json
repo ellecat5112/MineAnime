@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "Given the day off, Sai spends it strolling the village and drawing. He initially encounters three children that he at first finds it difficult to interact with, but later he realises that two of them remind him of the times he had spent with Naruto and Sakura. He has several flashbacks of their time together and the bonds they share.",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_16.desc"
+  },
+  "giver": "narutorpg:naruto_uzumaki",
+  "intro": [
+    {
+      "fallback": "Given the day off, Sai spends it strolling the village and drawing.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_16.intro0"
+    },
+    {
+      "fallback": "He initially encounters three children that he at first finds it difficult to interact with, but later he realises that two of them remind him of the times he had spent with Naruto and Sakura.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_16.intro1"
+    },
+    {
+      "fallback": "He has several flashbacks of their time together and the bonds they share.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_16.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sai's Day Off",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_16"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:naruto_uzumaki",
+      "text": {
+        "fallback": "Talk to Naruto Uzumaki",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_16.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: Sai's Day Off",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_16.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 123315,
+  "outro": [
+    {
+      "fallback": "He has several flashbacks of their time together and the bonds they share.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_16.outro0"
+    },
+    {
+      "fallback": "In the end he uses the doors of a destroyed house and paints a mural of Team 7 along with Sasuke holding hands.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_16.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_15"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

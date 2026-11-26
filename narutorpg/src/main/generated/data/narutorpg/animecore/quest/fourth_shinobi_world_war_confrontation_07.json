@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:gengetsu_hozuki_ally_shippuden",
+    "narutorpg:onoki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Fourth Shinobi World War: Confrontation",
+    "translate": "quest.narutorpg.arc.fourth_shinobi_world_war_confrontation"
+  },
+  "description": {
+    "fallback": "Elsewhere, Gaara faces the Second Mizukage alone and notices how his opponent's oil is nullifying his sand as he uses his Concealed Sand Picture Cat to find the Giant Clam. After locating it, Ōnoki uses Earth Release: Fist Rock Technique combined with Earth Release: Super Added-Weight Rock Technique to destroy it, revealing the Mizukage's real body. Ōnoki throws out his back, rendering him immobile as the Mizukage...",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.desc"
+  },
+  "giver": "narutorpg:gaara",
+  "intro": [
+    {
+      "fallback": "Elsewhere, Gaara faces the Second Mizukage alone and notices how his opponent's oil is nullifying his sand as he uses his Concealed Sand Picture Cat to find the Giant Clam.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.intro0"
+    },
+    {
+      "fallback": "After locating it, Ōnoki uses Earth Release: Fist Rock Technique combined with Earth Release: Super Added-Weight Rock Technique to destroy it, revealing the Mizukage's real body. Ōnoki throws out his back, rendering him...",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.intro1"
+    },
+    {
+      "fallback": "The Second starts to wash away the sand with oil, but Gaara layers the sand into his Desert Layered Imperial Funeral before it explodes.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Gaara vs. The Mizukage",
+    "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:gaara",
+      "text": {
+        "fallback": "Talk to Gaara",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: Gaara vs. The Mizukage",
+        "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 127106,
+  "outro": [
+    {
+      "fallback": "However, as Naruto and Gaara fought the Third Raikage and Second Mizukage, Sasuke attacks White Zetsu with his Susanoo and sets him ablaze with Amaterasu.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.outro0"
+    },
+    {
+      "fallback": "Saying that his eyes could see just fine in the dark that he should try them outside, Sasuke removes his bandages to see with his newly evolved Eternal Mangekyō Sharingan.",
+      "translate": "quest.narutorpg.fourth_shinobi_world_war_confrontation_07.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:fourth_shinobi_world_war_confrontation_06"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

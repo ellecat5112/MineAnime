@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    "narutorpg:leaf_rock_destroying_rise"
+  ],
+  "appearance": {
+    "accent": 4545124,
+    "hair": 4073251,
+    "hair_style": "long",
+    "pants": 3622735,
+    "skin": 13010498
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Toki",
+    "translate": "npc.narutorpg.toki"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "narutorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "narutorpg:kagura_karatachi_ally_boruto",
+    "narutorpg:suigetsu_hozuki_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "School Trip Arc",
+    "translate": "quest.narutorpg.arc.school_trip_arc"
+  },
+  "description": {
+    "fallback": "Kagura thinks how meeting Boruto has changed him and asks Chōjūrō for a test to claim Hiramekarei. Chōjūrō is glad, and allows Kagura to retrieve the sword from storage. Suigetsu watches the storage building from afar.",
+    "translate": "quest.narutorpg.school_trip_arc_04.desc"
+  },
+  "giver": "narutorpg:chojuro",
+  "intro": [
+    {
+      "fallback": "Kagura thinks how meeting Boruto has changed him and asks Chōjūrō for a test to claim Hiramekarei.",
+      "translate": "quest.narutorpg.school_trip_arc_04.intro0"
+    },
+    {
+      "fallback": "Chōjūrō is glad, and allows Kagura to retrieve the sword from storage.",
+      "translate": "quest.narutorpg.school_trip_arc_04.intro1"
+    },
+    {
+      "fallback": "Suigetsu watches the storage building from afar.",
+      "translate": "quest.narutorpg.school_trip_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Declaration of War (Boruto episode)",
+    "translate": "quest.narutorpg.school_trip_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:chojuro",
+      "text": {
+        "fallback": "Talk to Chōjūrō",
+        "translate": "quest.narutorpg.school_trip_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Declaration of War (Boruto episode)",
+        "translate": "quest.narutorpg.school_trip_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shizuma_hoshigaki_foe_boruto",
+      "text": {
+        "fallback": "Defeat Shizuma Hoshigaki",
+        "translate": "quest.narutorpg.defeat.shizuma_hoshigaki_foe_boruto"
+      }
+    }
+  ],
+  "order": 203503,
+  "outro": [
+    {
+      "fallback": "Shizuma claims Chōjūrō and Mei are simply getting rid of people who don't agree with their policies, and tries winning Kagura to his side by pointing out how he has suffered in the past.",
+      "translate": "quest.narutorpg.school_trip_arc_04.outro0"
+    },
+    {
+      "fallback": "Kagura thinks back to when Shizuma stopped him from killing someone in the Academy, how he was shunned, and how Shizuma said at the time there was nothing wrong with him being a shinobi from the Bloody Mist.",
+      "translate": "quest.narutorpg.school_trip_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:school_trip_arc_03"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

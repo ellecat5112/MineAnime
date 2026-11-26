@@ -141,6 +141,33 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Story mode: quest scroll (every Narutopedia arc and movie)
+
+Every player gets a **Quest Scroll** on their first join. Use it to open the **Story Journal**, which covers all
+**92 arcs and movies** from Narutopedia (`Category:Arcs` + `Category:Movies`): Naruto, Shippuden, Boruto (including
+Two Blue Vortex), the Gaiden / Hiden / Shinden stories and all 11 movies. That's **635 story quests** and
+**477 story characters**. Coverage is listed in `docs/wiki/narutopedia_story.md` and the generator is
+`tools/catalog/story.py`.
+
+- **Chapters:** each arc's summary sections (or its episodes / chapters for short arcs) become quest chapters.
+  - Talk to the chapter's quest giver; the story text plays in a dialogue box.
+  - Travel to the encounter site, marked on the HUD with an arrow and distance.
+  - Fight the chapter's enemies with its allies at your side, or meet the next character / train for story chapters.
+- **Order:** canon arcs form the main chain (Naruto → Shippuden → Boruto). Anime-only arcs are optional side stories
+  that open alongside the canon arc they follow, and movies open in their era. Finishing a canon arc raises your rank,
+  taking you from genin rank 1 to rank 16 by the end of Boruto.
+- **Story characters:**
+  - **Look:** built from their wiki data (clan, village, kekkei genkai) plus hand-tuned looks for the main cast.
+    Skin, hair style, outfit (flak jacket, Akatsuki cloak, robes, armour...), headband and face marks are tinted
+    layers, so they cost almost no assets.
+  - **Combat:** enemies and bosses fight with the jutsu Narutopedia lists for them, era-appropriate (no Baryon Mode
+    in Part I). Bosses have a boss bar.
+  - **Allies and givers:** allies follow and defend you; quest givers can't be hurt.
+- **Journal:** series tabs, collapsible arcs, each chapter's story, objectives and rewards, and Accept / Abandon /
+  Call again (respawns lost characters).
+- **Admins:** `/quest start|complete|unlock|reset <player> ...`. The **Story Seal** (admin tab) completes the current
+  quest; sneak + use completes the rest of its arc.
+
 ## Ninjutsu (Narutopedia, every ninjutsu)
 
 Narutopedia has no `Category:Ninjutsu` page. Ninjutsu are grouped by the "Jutsu classification" filter, so the

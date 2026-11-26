@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Mitsuki's Disappearance Arc",
+    "translate": "quest.narutorpg.arc.mitsuki_s_disappearance_arc"
+  },
+  "description": {
+    "fallback": "Mitsuki later returns to his apartment to find it had been entered, and notices a letter had been placed on his bed, which he decides to light on fire. The next day before dawn at Konoha's main entrance, Uō and Saō are attacked by two assailants. While the Konoha shinobi are losing in their fight, Mitsuki attacks Uō with Lightning Release.",
+    "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Mitsuki later returns to his apartment to find it had been entered, and notices a letter had been placed on his bed, which he decides to light on fire.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.intro0"
+    },
+    {
+      "fallback": "The next day before dawn at Konoha's main entrance, Uō and Saō are attacked by two assailants.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.intro1"
+    },
+    {
+      "fallback": "While the Konoha shinobi are losing in their fight, Mitsuki attacks Uō with Lightning Release.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Attack on Konoha",
+    "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: Attack on Konoha",
+        "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_boruto",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.boruto"
+      }
+    }
+  ],
+  "order": 208101,
+  "outro": [
+    {
+      "fallback": "Sai brings out the headband he discovered, leading to Konohamaru identifying it as Mitsuki's.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.outro0"
+    },
+    {
+      "fallback": "A shinobi informs Naruto that they were ready for the investigation, prompting the group to leave for the medical department.",
+      "translate": "quest.narutorpg.mitsuki_s_disappearance_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "narutorpg:mitsuki_s_disappearance_arc_01"
+  ],
+  "rewards": {
+    "experience": 37,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

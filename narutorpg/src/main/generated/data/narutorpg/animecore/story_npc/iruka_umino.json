@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 5143098,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "hair_style": "ponytail",
+    "headband": 1981066,
+    "mark": "scar",
+    "outfit": "jacket",
+    "pants": 2046559,
+    "top": 2046559
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Iruka Umino",
+    "translate": "npc.narutorpg.iruka_umino"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

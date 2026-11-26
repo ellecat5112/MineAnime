@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "narutorpg:rin_nohara_ally_shippuden",
+    "narutorpg:naruto_uzumaki_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Kaguya Ōtsutsuki Strikes",
+    "translate": "quest.narutorpg.arc.kaguya_otsutsuki_strikes"
+  },
+  "description": {
+    "fallback": "Before they manage to leave, Obito asks Rin to wait a little longer, as he wants to help Kakashi contribute with the ongoing battle. Promising to return soon, Obito uses Kamui to teleport to the core dimension. As he manifests as chakra, Obito inhabits Kakashi and the two enter Kakashi's consciousness.",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "Before they manage to leave, Obito asks Rin to wait a little longer, as he wants to help Kakashi contribute with the ongoing battle.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.intro0"
+    },
+    {
+      "fallback": "Promising to return soon, Obito uses Kamui to teleport to the core dimension.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.intro1"
+    },
+    {
+      "fallback": "As he manifests as chakra, Obito inhabits Kakashi and the two enter Kakashi's consciousness.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Final Mission – Team 7",
+    "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: Final Mission – Team 7",
+        "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:hagoromo_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Hagoromo Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kaguya_otsutsuki_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Kaguya Ōtsutsuki",
+        "translate": "quest.narutorpg.defeat.kaguya_otsutsuki_foe_shippuden"
+      }
+    }
+  ],
+  "order": 146102,
+  "outro": [
+    {
+      "fallback": "Immediately, Naruto and Sasuke begin the ultimate fūinjutsu they obtained from Hagoromo: the Six Paths — Chibaku Tensei.",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.outro0"
+    },
+    {
+      "fallback": "As Kaguya questions how she, the ancestor of all chakra, could be defeated by mere fragments that were once part of herself, her thir",
+      "translate": "quest.narutorpg.kaguya_otsutsuki_strikes_03.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "narutorpg:kaguya_otsutsuki_strikes_02"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

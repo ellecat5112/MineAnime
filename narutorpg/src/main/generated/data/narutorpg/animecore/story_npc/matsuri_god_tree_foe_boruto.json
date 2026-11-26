@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:earth_release_gravel"
+  ],
+  "appearance": {
+    "accent": 4854924,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "mark": "rinnegan",
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 2503224
+  },
+  "attack": 16.5,
+  "cast_interval": 70,
+  "health": 300.0,
+  "name": {
+    "fallback": "Matsuri (God Tree)",
+    "translate": "npc.narutorpg.matsuri_god_tree"
+  },
+  "power": 2.7,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.narutorpg.title.foe"
+  }
+}

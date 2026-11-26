@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Konohamaru's Love Arc",
+    "translate": "quest.narutorpg.arc.konohamaru_s_love_arc"
+  },
+  "description": {
+    "fallback": "Boruto comments on Remon's different demeanour. The stern household member approaches, and tells Remon she must properly thank those she is beholden to, and introduces himself as Kankitsu Akitsuki, Remon's fiancé. Kankitsu asks them to leave as they're busy with wedding preparations.",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_02.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Boruto comments on Remon's different demeanour.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_02.intro0"
+    },
+    {
+      "fallback": "The stern household member approaches, and tells Remon she must properly thank those she is beholden to, and introduces himself as Kankitsu Akitsuki, Remon's fiancé.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_02.intro1"
+    },
+    {
+      "fallback": "Kankitsu asks them to leave as they're busy with wedding preparations.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_02.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Remon's Secret",
+    "translate": "quest.narutorpg.konohamaru_s_love_arc_02"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_02.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Go: Remon's Secret",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_02.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:remon_yoimura",
+      "text": {
+        "fallback": "Meet Remon Yoimura",
+        "translate": "quest.narutorpg.konohamaru_s_love_arc_02.o3"
+      }
+    }
+  ],
+  "order": 212601,
+  "outro": [
+    {
+      "fallback": "Boruto argues that they should visit Remon again.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_02.outro0"
+    },
+    {
+      "fallback": "An old woman talks to Remon, saying how Kankitsu has changed, and informs her another villager lost her memory and got lost, but travellers brought her back.",
+      "translate": "quest.narutorpg.konohamaru_s_love_arc_02.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:konohamaru_s_love_arc_01"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

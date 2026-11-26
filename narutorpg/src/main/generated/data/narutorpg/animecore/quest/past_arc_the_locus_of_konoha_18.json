@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "narutorpg:naruto_uzumaki_ally_shippuden",
+    "narutorpg:gaara_ally_shippuden"
+  ],
+  "arc": {
+    "fallback": "Past Arc: The Locus of Konoha",
+    "translate": "quest.narutorpg.arc.past_arc_the_locus_of_konoha"
+  },
+  "description": {
+    "fallback": "While on the way to Konoha, Taka briefly stops by a construction Sasuke recognises. He thinks back to when he first came across it. During a training section near the location, Sasuke remembers how he was falling behind Naruto after he defeated Gaara.",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "While on the way to Konoha, Taka briefly stops by a construction Sasuke recognises.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.intro0"
+    },
+    {
+      "fallback": "He thinks back to when he first came across it.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.intro1"
+    },
+    {
+      "fallback": "During a training section near the location, Sasuke remembers how he was falling behind Naruto after he defeated Gaara.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Drive Towards Darkness",
+    "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Drive Towards Darkness",
+        "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:sasuke_uchiha_foe_shippuden",
+      "text": {
+        "fallback": "Defeat Sasuke Uchiha",
+        "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
+      }
+    }
+  ],
+  "order": 118617,
+  "outro": [
+    {
+      "fallback": "Kakashi stops him and Sasuke goes back to Konoha by himself.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.outro0"
+    },
+    {
+      "fallback": "Naho comments that Sasuke is scary, but Naruto assures her that Sasuke just has a lot going on with him at the moment, and promises to take her to see him once he's better.",
+      "translate": "quest.narutorpg.past_arc_the_locus_of_konoha_18.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "narutorpg:past_arc_the_locus_of_konoha_17"
+  ],
+  "rewards": {
+    "experience": 27,
+    "items": [
+      {
+        "count": 12,
+        "id": "narutorpg:senbon"
+      }
+    ],
+    "skill_points": 3
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

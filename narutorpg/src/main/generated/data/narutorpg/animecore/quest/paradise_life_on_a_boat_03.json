@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Paradise Life on a Boat",
+    "translate": "quest.narutorpg.arc.paradise_life_on_a_boat"
+  },
+  "description": {
+    "fallback": "As they continue their voyage towards the Land of Lightning, Naruto, Aoba, Guy and Yamato sail through a thick fog. Yamato tells Aoba and Naruto about the \"Ghost Ship\" to pass the time. Suddenly, they met another ship, very much same to Yamato's description of the said ship.",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_03.desc"
+  },
+  "giver": "narutorpg:yamato",
+  "intro": [
+    {
+      "fallback": "As they continue their voyage towards the Land of Lightning, Naruto, Aoba, Guy and Yamato sail through a thick fog.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_03.intro0"
+    },
+    {
+      "fallback": "Yamato tells Aoba and Naruto about the \"Ghost Ship\" to pass the time.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_03.intro1"
+    },
+    {
+      "fallback": "Suddenly, they met another ship, very much same to Yamato's description of the said ship.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Cursed Ghost Ship",
+    "translate": "quest.narutorpg.paradise_life_on_a_boat_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:yamato",
+      "text": {
+        "fallback": "Talk to Yamato",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Go: The Cursed Ghost Ship",
+        "translate": "quest.narutorpg.paradise_life_on_a_boat_03.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "narutorpg:rogue_ninja_shippuden",
+      "text": {
+        "fallback": "Defeat the attackers",
+        "translate": "quest.narutorpg.minion.shippuden"
+      }
+    }
+  ],
+  "order": 123302,
+  "outro": [
+    {
+      "fallback": "After defeating it, Naruto continued sailing, as well the ship set free.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_03.outro0"
+    },
+    {
+      "fallback": "The ship disappears, horrifying Naruto upon realisation that the Ghost Ship was true.",
+      "translate": "quest.narutorpg.paradise_life_on_a_boat_03.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "narutorpg:paradise_life_on_a_boat_02"
+  ],
+  "rewards": {
+    "experience": 29,
+    "skill_points": 1
+  },
+  "series": "shippuden",
+  "system": "narutorpg"
+}

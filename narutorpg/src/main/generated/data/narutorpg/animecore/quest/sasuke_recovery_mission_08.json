@@ -1,0 +1,83 @@
+{
+  "arc": {
+    "fallback": "Sasuke Recovery Mission",
+    "translate": "quest.narutorpg.arc.sasuke_recovery_mission"
+  },
+  "description": {
+    "fallback": "As Kakashi took Naruto back to Konoha, several medical-nin appeared to update him on the situation, and to take care of Naruto \"and Sasuke\", which Kakashi deemed unnecessary for obvious reasons in both cases. Neji and Chōji both underwent intensive medical treatment; both were successfully healed thanks to the Nara clan's medical tome, Tsunade's medical prowess and Shizune and a team of medical-nin. Kiba and Akamaru...",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_08.desc"
+  },
+  "giver": "narutorpg:kakashi_hatake",
+  "intro": [
+    {
+      "fallback": "As Kakashi took Naruto back to Konoha, several medical-nin appeared to update him on the situation, and to take care of Naruto \"and Sasuke\", which Kakashi deemed unnecessary for obvious reasons in both cases.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_08.intro0"
+    },
+    {
+      "fallback": "Neji and Chōji both underwent intensive medical treatment; both were successfully healed thanks to the Nara clan's medical tome, Tsunade's medical prowess and Shizune and a team of medical-nin.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_08.intro1"
+    },
+    {
+      "fallback": "Kiba and Akamaru were also healed from their moderate injuries, under the care of Hana Inuzuka, his elder sister.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_08.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Mission Failure",
+    "translate": "quest.narutorpg.sasuke_recovery_mission_08"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Talk to Kakashi Hatake",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_08.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: Mission Failure",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_08.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:neji_hyuga",
+      "text": {
+        "fallback": "Meet Neji Hyūga",
+        "translate": "quest.narutorpg.sasuke_recovery_mission_08.o3"
+      }
+    }
+  ],
+  "order": 11707,
+  "outro": [
+    {
+      "fallback": "In the manga, he left as soon as he got out of the hospital.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_08.outro0"
+    },
+    {
+      "fallback": "Sakura also asked to become Tsunade's apprentice at the time of Naruto's departure in the manga, while in the anime it was after a mission with Naruto and Jiraiya that happened shortly after Sasuke's departure.",
+      "translate": "quest.narutorpg.sasuke_recovery_mission_08.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "narutorpg:sasuke_recovery_mission_07"
+  ],
+  "rewards": {
+    "experience": 21,
+    "items": [
+      {
+        "count": 16,
+        "id": "narutorpg:shuriken"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 3
+  },
+  "series": "naruto",
+  "system": "narutorpg"
+}

@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 4854924,
+    "eyes": 1118481,
+    "hair": 4073251,
+    "hair_style": "long",
+    "pants": 1713022,
+    "skin": 16767916,
+    "top": 4545124
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Sasame",
+    "translate": "npc.narutorpg.sasame"
+  },
+  "role": "giver",
+  "system": "narutorpg"
+}

@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "narutorpg:amaterasu",
+    "narutorpg:animal_path",
+    "narutorpg:asura_path",
+    "narutorpg:binding_snake_glare_spell",
+    "narutorpg:blaze_release_honoikazuchi",
+    "narutorpg:amaterasu_flame_wrapping_fire"
+  ],
+  "appearance": {
+    "accent": 9479342,
+    "eyes": 1118481,
+    "hair": 1382174,
+    "hair_style": "spiky",
+    "headband": 1981066,
+    "pants": 14737632,
+    "top": 1844545
+  },
+  "attack": 7.7,
+  "cast_interval": 40,
+  "health": 245.0,
+  "name": {
+    "fallback": "Sasuke Uchiha",
+    "translate": "npc.narutorpg.sasuke_uchiha"
+  },
+  "power": 1.38,
+  "role": "boss",
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

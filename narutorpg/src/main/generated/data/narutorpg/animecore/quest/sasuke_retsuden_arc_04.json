@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Sasuke Retsuden Arc",
+    "translate": "quest.narutorpg.arc.sasuke_retsuden_arc"
+  },
+  "description": {
+    "fallback": "A messenger hawk delivers an update from Kakashi to Sakura by sunset, informing her that the Prime Minister has taken military action in Princess Manari's name. She recalls Zansūru's words of sending assets to the capital, wonders where he could be keeping them, and goes to search for Sasuke. She doesn't find him in the lunch hall, and reviews what they don't know yet.",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_04.desc"
+  },
+  "giver": "narutorpg:sasuke_uchiha",
+  "intro": [
+    {
+      "fallback": "A messenger hawk delivers an update from Kakashi to Sakura by sunset, informing her that the Prime Minister has taken military action in Princess Manari's name.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_04.intro0"
+    },
+    {
+      "fallback": "She recalls Zansūru's words of sending assets to the capital, wonders where he could be keeping them, and goes to search for Sasuke.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_04.intro1"
+    },
+    {
+      "fallback": "She doesn't find him in the lunch hall, and reviews what they don't know yet.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Sasuke Retsuden: The Sky that Fell to the Earth",
+    "translate": "quest.narutorpg.sasuke_retsuden_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:sasuke_uchiha",
+      "text": {
+        "fallback": "Talk to Sasuke Uchiha",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: Sasuke Retsuden: The Sky that Fell to the Earth",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_04.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:kakashi_hatake",
+      "text": {
+        "fallback": "Meet Kakashi Hatake",
+        "translate": "quest.narutorpg.sasuke_retsuden_arc_04.o3"
+      }
+    }
+  ],
+  "order": 229203,
+  "outro": [
+    {
+      "fallback": "Sasuke spots a lake on the distance, and Jiji explains it's supposedly a meteor crater that filled with rainwater.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_04.outro0"
+    },
+    {
+      "fallback": "There are no fish, and during the day, its shade of blue makes it look like the sky fell to the earth.",
+      "translate": "quest.narutorpg.sasuke_retsuden_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "narutorpg:sasuke_retsuden_arc_03"
+  ],
+  "rewards": {
+    "experience": 43,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

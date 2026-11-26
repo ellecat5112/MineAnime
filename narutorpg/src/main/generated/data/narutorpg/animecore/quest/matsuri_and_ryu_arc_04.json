@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "narutorpg:shinki_ally_boruto",
+    "narutorpg:araya_ally_boruto"
+  ],
+  "arc": {
+    "fallback": "Matsuri and Ryū Arc",
+    "translate": "quest.narutorpg.arc.matsuri_and_ryu_arc"
+  },
+  "description": {
+    "fallback": "In a flashback, Shinki applies his chakra on Araya's sword to enable him to manipulate his iron sand. Shinki says it is all for the purpose for protecting his father. Araya responds saying he should be focusing on Yodo instead.",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "In a flashback, Shinki applies his chakra on Araya's sword to enable him to manipulate his iron sand.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.intro0"
+    },
+    {
+      "fallback": "Shinki says it is all for the purpose for protecting his father.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.intro1"
+    },
+    {
+      "fallback": "Araya responds saying he should be focusing on Yodo instead.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Konohamaru-chan",
+    "translate": "quest.narutorpg.matsuri_and_ryu_arc_04"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Konohamaru-chan",
+        "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:koji_kashin_foe_boruto",
+      "text": {
+        "fallback": "Defeat Koji Kashin",
+        "translate": "quest.narutorpg.defeat.koji_kashin_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:matsuri_god_tree_foe_boruto",
+      "text": {
+        "fallback": "Defeat Matsuri (God Tree)",
+        "translate": "quest.narutorpg.defeat.matsuri_god_tree_foe_boruto"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ryu_foe_boruto",
+      "text": {
+        "fallback": "Defeat Ryū",
+        "translate": "quest.narutorpg.defeat.ryu_foe_boruto"
+      }
+    }
+  ],
+  "order": 302603,
+  "outro": [
+    {
+      "fallback": "Matsuri begins to angrily question her emotions by looking at Konohamaru, expressing her intense desire to devour him so she can no longer have this feeling again.",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.outro0"
+    },
+    {
+      "fallback": "Jura remembers the Ino–Shika–Chō team prioritizing Himawari Uzumaki's safety over their own, a",
+      "translate": "quest.narutorpg.matsuri_and_ryu_arc_04.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "narutorpg:matsuri_and_ryu_arc_03"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

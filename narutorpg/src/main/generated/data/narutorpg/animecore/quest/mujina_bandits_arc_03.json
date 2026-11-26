@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Mujina Bandits Arc",
+    "translate": "quest.narutorpg.arc.mujina_bandits_arc"
+  },
+  "description": {
+    "fallback": "Team Konohamaru is summoned to their sensei's office. While on their way, Boruto tells Sarada and Mitsuki about his last mission bodyguarding the daimyō's son Tentō and how the two had become friends despite the rough start they had. In Konohamaru's office, the trio are presented with a B-ranked mission and though apprehensive at first about the challenges, after hearing that elite shinobi such as the Fifth Kazekage...",
+    "translate": "quest.narutorpg.mujina_bandits_arc_03.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Team Konohamaru is summoned to their sensei's office.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_03.intro0"
+    },
+    {
+      "fallback": "While on their way, Boruto tells Sarada and Mitsuki about his last mission bodyguarding the daimyō's son Tentō and how the two had become friends despite the rough start they had.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_03.intro1"
+    },
+    {
+      "fallback": "In Konohamaru's office, the trio are presented with a B-ranked mission and though apprehensive at first about the challenges, after hearing that elite shinobi such as the Fifth Kazekage undertook such missions while...",
+      "translate": "quest.narutorpg.mujina_bandits_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "The Value of a Trump Card!!",
+    "translate": "quest.narutorpg.mujina_bandits_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.mujina_bandits_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 47,
+      "text": {
+        "fallback": "Go: The Value of a Trump Card!!",
+        "translate": "quest.narutorpg.mujina_bandits_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:sarada_uchiha",
+      "text": {
+        "fallback": "Meet Sarada Uchiha",
+        "translate": "quest.narutorpg.mujina_bandits_arc_03.o3"
+      }
+    }
+  ],
+  "order": 215102,
+  "outro": [
+    {
+      "fallback": "While on his way from Konohamaru's office, Boruto finds the extremely rare card that he has been searching for and realises Tentō must have slipped it into his pocket.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_03.outro0"
+    },
+    {
+      "fallback": "While he desperately wants the card, Boruto is adamant that he cannot accept it and decides to go to the Konoha Mountain Villa and return the card to Tentō.",
+      "translate": "quest.narutorpg.mujina_bandits_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "narutorpg:mujina_bandits_arc_02"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}

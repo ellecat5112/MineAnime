@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Labyrinth Game Arc",
+    "translate": "quest.narutorpg.arc.labyrinth_game_arc"
+  },
+  "description": {
+    "fallback": "Boruto doesn't recognise his surroundings when he wakes up. He exchanges words with Kiri bounty hunter Anaguma, and asks about an exit. Anaguma points him to a Fire Release user, who has been trying to break out for a while with no result, and accidentally hits Shamo, an Iwa shinobi as he approaches.",
+    "translate": "quest.narutorpg.labyrinth_game_arc_03.desc"
+  },
+  "giver": "narutorpg:konohamaru_sarutobi",
+  "intro": [
+    {
+      "fallback": "Boruto doesn't recognise his surroundings when he wakes up.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_03.intro0"
+    },
+    {
+      "fallback": "He exchanges words with Kiri bounty hunter Anaguma, and asks about an exit.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_03.intro1"
+    },
+    {
+      "fallback": "Anaguma points him to a Fire Release user, who has been trying to break out for a while with no result, and accidentally hits Shamo, an Iwa shinobi as he approaches.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_03.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "Welcome to the Maze",
+    "translate": "quest.narutorpg.labyrinth_game_arc_03"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "narutorpg:konohamaru_sarutobi",
+      "text": {
+        "fallback": "Talk to Konohamaru Sarutobi",
+        "translate": "quest.narutorpg.labyrinth_game_arc_03.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Go: Welcome to the Maze",
+        "translate": "quest.narutorpg.labyrinth_game_arc_03.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "narutorpg:anaguma",
+      "text": {
+        "fallback": "Meet Anaguma",
+        "translate": "quest.narutorpg.labyrinth_game_arc_03.o3"
+      }
+    }
+  ],
+  "order": 228402,
+  "outro": [
+    {
+      "fallback": "A Kumo kunoichi has no recollection of it, but the old man blames it on the gas, claiming that many passengers died over inhaling too much of the gas.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_03.outro0"
+    },
+    {
+      "fallback": "Before letting them go, the man wants them to go through a test, believing that the choices they just happened to make that allowed to survive were not coincidences, but a subconscious ability to avoid death.",
+      "translate": "quest.narutorpg.labyrinth_game_arc_03.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "narutorpg:labyrinth_game_arc_02"
+  ],
+  "rewards": {
+    "experience": 41,
+    "skill_points": 1
+  },
+  "series": "boruto",
+  "system": "narutorpg"
+}
