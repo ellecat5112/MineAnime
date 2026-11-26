@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 14.0,
+      "knockback": 0.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Barrier: Toad Gourd Prison",
+    "translate": "ability.narutorpg.barrier_toad_gourd_prison"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

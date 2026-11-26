@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.0,
+      "distance": 18.0,
+      "hit_radius": 1.6,
+      "knockback": 1.2
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Flying Thunder God: Space–Time Hurricane Flash Sequential Steps: Style Zero",
+    "translate": "ability.narutorpg.flying_thunder_god_spacetime_hurricane_flash_sequential_steps_style_zero"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

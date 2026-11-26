@@ -1,0 +1,37 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9315498,
+      "cone_degrees": 40.0,
+      "damage": 1.6,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ryūmyaku Chakra Control",
+    "translate": "ability.narutorpg.ryumyaku_chakra_control"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,41 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:mining_fatigue"
+        },
+        {
+          "amplifier": 1,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sealing Technique: Release",
+    "translate": "ability.narutorpg.sealing_technique_release"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
+}

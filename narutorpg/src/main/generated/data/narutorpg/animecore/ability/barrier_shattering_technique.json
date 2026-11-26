@@ -1,0 +1,37 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:mining_fatigue"
+        },
+        {
+          "amplifier": 1,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Barrier Shattering Technique",
+    "translate": "ability.narutorpg.barrier_shattering_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Vanishing Facial Copy Technique",
+    "translate": "ability.narutorpg.vanishing_facial_copy_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

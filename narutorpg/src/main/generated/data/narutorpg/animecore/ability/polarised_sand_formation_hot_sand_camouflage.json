@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Polarised Sand Formation: Hot Sand Camouflage",
+    "translate": "ability.narutorpg.polarised_sand_formation_hot_sand_camouflage"
+  },
+  "system": "narutorpg"
+}

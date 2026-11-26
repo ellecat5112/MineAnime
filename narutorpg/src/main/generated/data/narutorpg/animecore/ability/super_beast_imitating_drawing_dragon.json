@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "damage": 6.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Super Beast Imitating Drawing: Dragon",
+    "translate": "ability.narutorpg.super_beast_imitating_drawing_dragon"
+  },
+  "system": "narutorpg"
+}

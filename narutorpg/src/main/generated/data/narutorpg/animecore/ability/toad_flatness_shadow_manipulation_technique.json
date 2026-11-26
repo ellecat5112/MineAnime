@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9489145,
+      "cone_degrees": 70.0,
+      "damage": 4.0,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 7.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Toad Flatness — Shadow Manipulation Technique",
+    "translate": "ability.narutorpg.toad_flatness_shadow_manipulation_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

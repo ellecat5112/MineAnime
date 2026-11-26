@@ -1,0 +1,42 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cursed Doll",
+    "translate": "ability.narutorpg.cursed_doll"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "style": "smoke"
+  }
+}

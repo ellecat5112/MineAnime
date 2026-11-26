@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "damage": 5.5,
+      "forward_offset": 1.5,
+      "knockback": 1.2,
+      "radius": 3.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Mutually Multiplying Explosive Tags",
+    "translate": "ability.narutorpg.mutually_multiplying_explosive_tags"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
+}

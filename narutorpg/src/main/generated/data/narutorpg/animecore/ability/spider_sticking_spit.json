@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9489145,
+      "cone_degrees": 70.0,
+      "damage": 3.0,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 7.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Spider Sticking Spit",
+    "translate": "ability.narutorpg.spider_sticking_spit"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
+}

@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Shadow Mirror Body Changing Method",
+    "translate": "ability.narutorpg.shadow_mirror_body_changing_method"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
+}

@@ -1,0 +1,38 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9315498,
+      "cone_degrees": 40.0,
+      "damage": 3.2,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Demonic Flute: Illusionary Warriors Manipulating Melody",
+    "translate": "ability.narutorpg.demonic_flute_illusionary_warriors_manipulating_melody"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.0,
+      "distance": 18.0,
+      "hit_radius": 1.6,
+      "knockback": 1.2
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Tearing Air Heavenly Light Slashing Flash Style Zero",
+    "translate": "ability.narutorpg.tearing_air_heavenly_light_slashing_flash_style_zero"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

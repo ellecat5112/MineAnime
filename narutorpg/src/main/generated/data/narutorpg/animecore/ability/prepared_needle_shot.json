@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 9489145,
+      "count": 5,
+      "damage": 2.4,
+      "lifetime_ticks": 30,
+      "size": 0.3,
+      "speed": 2.0,
+      "spread_degrees": 8.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Prepared Needle Shot",
+    "translate": "ability.narutorpg.prepared_needle_shot"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
+}

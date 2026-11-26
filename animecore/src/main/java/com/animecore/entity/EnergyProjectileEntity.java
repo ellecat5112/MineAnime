@@ -21,6 +21,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.math.Box;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -105,7 +106,7 @@ public class EnergyProjectileEntity extends ThrownEntity {
         if (world.isClient) {
             spawnTrail(world);
         } else if (age > lifetime) {
-            if (aoeRadius > 0f) detonate((ServerWorld) world);
+            if (aoeRadius > 0f) detonate((ServerWorld) world, null);
             discard();
         }
     }
@@ -128,11 +129,13 @@ public class EnergyProjectileEntity extends ThrownEntity {
         super.onEntityHit(hit);
         if (!(getWorld() instanceof ServerWorld world)) return;
         impact(world, Math.max(0.8f, getSize() * 1.5f));
-        if (aoeRadius > 0f) {
-            detonate(world);
-        } else if (hit.getEntity() instanceof LivingEntity target) {
+        // the entity actually struck always takes the hit; an explosion then catches everything else around it
+        if (hit.getEntity() instanceof LivingEntity target) {
             LivingEntity owner = getOwner() instanceof LivingEntity le ? le : null;
-            AbilityDamage.apply(world, this, owner, target, damage, affinity, fireTicks, 0.3f, getPos());
+            AbilityDamage.apply(world, this, owner, target, damage, affinity, fireTicks, aoeRadius > 0f ? 0.6f : 0.3f, getPos());
+            if (aoeRadius > 0f) detonate(world, target);
+        } else if (aoeRadius > 0f) {
+            detonate(world, null);
         }
         discard();
     }
@@ -142,7 +145,7 @@ public class EnergyProjectileEntity extends ThrownEntity {
         super.onBlockHit(hit);
         if (getWorld() instanceof ServerWorld world) {
             impact(world, Math.max(0.8f, getSize() * 1.5f));
-            if (aoeRadius > 0f) detonate(world);
+            if (aoeRadius > 0f) detonate(world, null);
             discard();
         }
     }
@@ -152,17 +155,26 @@ public class EnergyProjectileEntity extends ThrownEntity {
         return super.canHit(entity) && !(entity instanceof EnergyProjectileEntity);
     }
 
-    private void detonate(ServerWorld world) {
+    /** Blast damage to every living entity whose body (not just its feet) is within the radius; {@code skip} was already hit. */
+    private void detonate(ServerWorld world, @Nullable Entity skip) {
         LivingEntity owner = getOwner() instanceof LivingEntity le ? le : null;
         Box box = getBoundingBox().expand(aoeRadius);
+        Vec3d c = getBoundingBox().getCenter();
         for (LivingEntity target : world.getEntitiesByClass(LivingEntity.class, box,
-                e -> e != owner && e.isAlive() && e.squaredDistanceTo(this) <= aoeRadius * aoeRadius)) {
+                e -> e != owner && e != skip && e.isAlive() && distanceToBox(e.getBoundingBox(), c) <= aoeRadius * aoeRadius)) {
             AbilityDamage.apply(world, this, owner, target, damage, affinity, fireTicks, 0.6f, getPos());
         }
         world.spawnParticles(ParticleTypes.EXPLOSION, getX(), getY(), getZ(), 1, 0, 0, 0, 0);
         impact(world, aoeRadius);
         world.playSound(null, getX(), getY(), getZ(), SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.PLAYERS, 0.6f, 1.2f);
         aoeRadius = 0f; // never detonate twice
+    }
+
+    private static double distanceToBox(Box b, Vec3d p) {
+        double dx = Math.max(0, Math.max(b.minX - p.x, p.x - b.maxX));
+        double dy = Math.max(0, Math.max(b.minY - p.y, p.y - b.maxY));
+        double dz = Math.max(0, Math.max(b.minZ - p.z, p.z - b.maxZ));
+        return dx * dx + dy * dy + dz * dz;
     }
 
     private void impact(ServerWorld world, float radius) {

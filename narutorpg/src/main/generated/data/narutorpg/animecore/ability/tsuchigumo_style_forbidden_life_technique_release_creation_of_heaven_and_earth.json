@@ -4,12 +4,16 @@
       "type": "animecore:self_buff",
       "effects": [
         {
-          "effect": "minecraft:speed"
+          "amplifier": 1,
+          "effect": "minecraft:regeneration"
         },
         {
-          "effect": "minecraft:jump_boost"
+          "amplifier": 1,
+          "duration": 400,
+          "effect": "minecraft:absorption"
         }
-      ]
+      ],
+      "heal": 10.0
     }
   ],
   "cooldown_ticks": 132,

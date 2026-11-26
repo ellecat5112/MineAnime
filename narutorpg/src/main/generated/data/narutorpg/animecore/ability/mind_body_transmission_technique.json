@@ -1,13 +1,22 @@
 {
   "actions": [
     {
+      "type": "animecore:area_effect",
+      "color": 8508666,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 32.0
+    },
+    {
       "type": "animecore:self_buff",
       "effects": [
         {
-          "effect": "minecraft:speed"
-        },
-        {
-          "effect": "minecraft:jump_boost"
+          "duration": 300,
+          "effect": "minecraft:night_vision"
         }
       ]
     }

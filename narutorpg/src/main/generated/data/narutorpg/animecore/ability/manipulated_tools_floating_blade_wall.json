@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 180,
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Manipulated Tools: Floating Blade Wall",
+    "translate": "ability.narutorpg.manipulated_tools_floating_blade_wall"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
+}

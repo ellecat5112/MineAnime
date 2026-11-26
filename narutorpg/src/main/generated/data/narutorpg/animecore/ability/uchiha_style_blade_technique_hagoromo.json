@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.0,
+      "distance": 6.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Uchiha Style Blade Technique: Hagoromo",
+    "translate": "ability.narutorpg.uchiha_style_blade_technique_hagoromo"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu"
+}

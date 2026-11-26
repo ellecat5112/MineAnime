@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Green Rain Ground Levelling",
+    "translate": "ability.narutorpg.green_rain_ground_levelling"
+  },
+  "system": "narutorpg"
+}

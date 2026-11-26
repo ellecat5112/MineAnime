@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8508666,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 32.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:night_vision"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sensing Barrier Pass Technique",
+    "translate": "ability.narutorpg.sensing_barrier_pass_technique"
+  },
+  "system": "narutorpg"
+}

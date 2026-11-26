@@ -1,15 +1,23 @@
 {
   "actions": [
     {
-      "type": "animecore:self_buff",
+      "type": "animecore:area_effect",
+      "color": 9489145,
+      "cone_degrees": 70.0,
+      "damage": 3.0,
       "effects": [
         {
-          "effect": "minecraft:speed"
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
         },
         {
-          "effect": "minecraft:jump_boost"
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
         }
-      ]
+      ],
+      "radius": 7.0
     }
   ],
   "cooldown_ticks": 132,

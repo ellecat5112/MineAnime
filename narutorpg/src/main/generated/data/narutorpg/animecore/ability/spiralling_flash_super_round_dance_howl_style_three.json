@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.0,
+      "distance": 18.0,
+      "hit_radius": 1.6,
+      "knockback": 1.2
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Spiralling Flash Super Round Dance Howl Style Three",
+    "translate": "ability.narutorpg.spiralling_flash_super_round_dance_howl_style_three"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:taijutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

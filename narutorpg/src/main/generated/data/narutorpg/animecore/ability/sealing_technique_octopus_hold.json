@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sealing Technique: Octopus Hold",
+    "translate": "ability.narutorpg.sealing_technique_octopus_hold"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "style": "smoke"
+  }
+}

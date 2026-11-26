@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.0,
+      "distance": 18.0,
+      "hit_radius": 1.6,
+      "knockback": 1.2
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Red Flash",
+    "translate": "ability.narutorpg.red_flash"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

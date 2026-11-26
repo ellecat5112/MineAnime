@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 6.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cell Activation Technique",
+    "translate": "ability.narutorpg.cell_activation_technique"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:medical_ninjutsu",
+  "visuals": {
+    "color": 7798531,
+    "style": "light"
+  }
+}

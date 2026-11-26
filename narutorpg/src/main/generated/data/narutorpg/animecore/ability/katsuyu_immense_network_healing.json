@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 6.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Katsuyu: Immense Network Healing",
+    "translate": "ability.narutorpg.katsuyu_immense_network_healing"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:medical_ninjutsu",
+  "visuals": {
+    "style": "smoke"
+  }
+}

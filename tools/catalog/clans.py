@@ -268,7 +268,7 @@ ATTACK_NAME = re.compile(r'bullet|spear|blast|bomb|cannon|rasen|chidori|raikiri|
                          r'hammer|smash|tornado|vortex|typhoon|wave|storm|shark|wolf|tiger|lion|hound|beast|kunai|shuriken|'
                          r'senbon|wheel|cutting|piercing|severing|destruction|annihilat|breaker|impact|dance|assault|rampage|'
                          r'great ball|bijū|tailed beast ball|jet|gun|rain|hail|torrent|whirl|split|tearing|pillar|spike|thorn|horn|'
-                         r'gravel|landslide|archerfish|water arm|rush|locust|pulveris|lightning flash|sea of trees|earth drop',
+                         r'laser|roar|yellow flash|gravel|landslide|archerfish|water arm|rush|locust|pulveris|lightning flash|sea of trees|earth drop',
                          re.I)
 BIND_NAME = re.compile(r'prison|imprison|binding|bind|swamp|antlion|coffin|entomb|capture|capturing|restrain|cage|stocks|rope|mud hole|threads', re.I)
 UTILITY_NAME = re.compile(r'hiding|tunnel|projection|spying|corridor|transformation|clone|substitution|'
@@ -318,6 +318,9 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
                         'effects': [effect('glowing', 200)]})
     elif (c & {'Medical Ninjutsu', 'Regeneration Techniques'} and not offensive) or 'heal' in lt or 'mystical palm' in lt:
         actions.append({'type': 'animecore:self_buff', 'heal': 6.0, 'effects': [effect('regeneration', 120, 1)]})
+    elif 'Space–Time Ninjutsu' in c and offensive and re.search(r'thunder god|teleport|flicker|flash|instant|warp', lt):
+        # teleport strikes (Flying Thunder God): blink up to 18 blocks and hit everything along the way
+        actions.append({'type': 'animecore:dash_strike', 'mode': 'look', 'distance': 18.0, 'damage': dmg, 'hit_radius': 1.6, 'knockback': 1.2})
     elif 'Space–Time Ninjutsu' in c and not offensive:
         actions.append({'type': 'animecore:dash_strike', 'mode': 'look', 'distance': 14.0, 'damage': 0.0, 'hit_radius': 1.0, 'knockback': 0.0})
     elif 'Clone Techniques' in c:
@@ -386,6 +389,25 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
                 cast = 'charged'
             if nature in ('fire', 'water', 'wind') and 'Release' in jtype:
                 anim = ns('fireball_exhale')
+    elif re.search(r'sens|mind.s eye|echo|lock-on|vision|spying|intelligence|transmission|recording|communication|detect|search', lt):
+        # sensing: reveal everything nearby
+        actions.append({'type': 'animecore:area_effect', 'radius': 32.0, 'color': 0x81D4FA, 'effects': [effect('glowing', 300)]})
+        actions.append({'type': 'animecore:self_buff', 'effects': [effect('night_vision', 300)]})
+    elif re.search(r'hiding|camouflage|invisib|transparent|conceal|disguise|escape|vanish|fog|mist|smoke|shifting body', lt):
+        actions.append({'type': 'animecore:self_buff', 'effects': [effect('invisibility', 160), effect('speed', 160, 1)]})
+    elif re.search(r'trap|web|spit|paraly|cocoon|mesh|stick|flatness|honey|net\b', lt):
+        actions.append({'type': 'animecore:area_effect', 'radius': 7.0, 'cone_degrees': 70.0, 'damage': dmg * 0.5, 'color': color,
+                        'effects': [effect('slowness', 120, 5), effect('mining_fatigue', 120, 1)]})
+    elif re.search(r'possess|mind|soul|curse|memory|puppet|manipulat|control|replacement|psycho|melody|flute', lt):
+        actions.append({'type': 'animecore:area_effect', 'radius': 10.0, 'cone_degrees': 40.0, 'damage': dmg * 0.4, 'color': 0x8E24AA,
+                        'effects': [effect('nausea', 140), effect('slowness', 100, 3), effect('weakness', 100, 1)]})
+    elif re.search(r'reincarnation|immortal|\blife\b|revive|resurrect|heart', lt):
+        actions.append({'type': 'animecore:self_buff', 'heal': 10.0, 'effects': [effect('regeneration', 200, 1), effect('absorption', 400, 1)]})
+    elif re.search(r'seal|sealing|suppress|release technique|releasing|barrier|unite|contract', lt):
+        actions.append({'type': 'animecore:area_effect', 'radius': 6.0, 'color': 0xFFD54F,
+                        'effects': [effect('weakness', 160, 1), effect('mining_fatigue', 160, 1), effect('slowness', 60, 1)]})
+    elif re.search(r'arm|body|growth|alteration|modification|form\b|cloak|entity|materiali|armour|staff', lt):
+        actions.append({'type': 'animecore:self_buff', 'effects': [effect('strength', 300, 1), effect('resistance', 300, 0)]})
     else:  # supplementary fallback
         actions.append({'type': 'animecore:self_buff', 'effects': [effect('speed', 200, 0), effect('jump_boost', 200, 0)]})
 

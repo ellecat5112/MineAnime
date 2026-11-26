@@ -141,6 +141,28 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Ninjutsu (Narutopedia, every ninjutsu)
+
+Narutopedia has no `Category:Ninjutsu` page. Ninjutsu are grouped by the "Jutsu classification" filter, so the
+crawl covers *Ninjutsu* and every ninjutsu sub-type: Barrier, Clone, Cooperation, Medical, Reincarnation, Space–Time,
+Chakra Absorption, Chakra Flow, Regeneration and Shape Transformation. That is **2,455 pages**: 859 are new abilities,
+1,576 already existed as clan, village, nature-release or taijutsu techniques, and 20 are nature / kekkei genkai pages
+that are already in the game as natures. Coverage is listed in `docs/wiki/narutopedia_ninjutsu.md` and the generator is
+`tools/catalog/ninjutsu.py`.
+
+- New ninjutsu go on the **Ninjutsu** item or their school's item (Fūinjutsu, Hiden, Dōjutsu, Medical, Taijutsu) and
+  unlock through mastery like every other jutsu.
+- Each is built from its wiki infobox: attacks become projectiles, beams or bursts; binds and prisons hold targets;
+  barriers raise walls; medical ninjutsu heal.
+- New utility types:
+  - **Sensing** reveals every creature within 32 blocks.
+  - **Hiding / camouflage** makes you invisible.
+  - **Traps and webs** root enemies in front of you.
+  - **Possession / mind / curse** confuses and weakens them.
+  - **Sealing** suppresses enemies' strength.
+  - **Reincarnation** heals you and grants absorption.
+  - **Space–time teleport strikes** (Flying Thunder God) blink you up to 18 blocks, hitting everything on the way.
+
 ## Taijutsu (Narutopedia, all 657 techniques)
 
 Narutopedia has no `Category:Taijutsu` page; taijutsu are grouped by the "Jutsu classification: Taijutsu" filter, and

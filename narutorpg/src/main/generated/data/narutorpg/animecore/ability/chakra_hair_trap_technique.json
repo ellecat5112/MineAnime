@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9489145,
+      "cone_degrees": 70.0,
+      "damage": 2.0,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 7.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Chakra Hair Trap Technique",
+    "translate": "ability.narutorpg.chakra_hair_trap_technique"
+  },
+  "system": "narutorpg"
+}

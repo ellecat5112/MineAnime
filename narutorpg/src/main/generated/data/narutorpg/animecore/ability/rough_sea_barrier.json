@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 14.0,
+      "knockback": 0.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Rough Sea Barrier",
+    "translate": "ability.narutorpg.rough_sea_barrier"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

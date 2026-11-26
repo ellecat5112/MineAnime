@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "damage": 8.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "True: Supreme Ultimate Rasengan",
+    "translate": "ability.narutorpg.true_supreme_ultimate_rasengan"
+  },
+  "required_tier": 3,
+  "system": "narutorpg"
+}

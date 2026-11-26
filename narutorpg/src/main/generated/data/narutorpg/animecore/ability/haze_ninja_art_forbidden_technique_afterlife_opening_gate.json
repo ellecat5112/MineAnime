@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 14.0,
+      "knockback": 0.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Haze Ninja Art: Forbidden Technique: Afterlife Opening Gate",
+    "translate": "ability.narutorpg.haze_ninja_art_forbidden_technique_afterlife_opening_gate"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

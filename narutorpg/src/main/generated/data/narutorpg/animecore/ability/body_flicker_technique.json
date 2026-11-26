@@ -4,10 +4,13 @@
       "type": "animecore:self_buff",
       "effects": [
         {
-          "effect": "minecraft:speed"
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:strength"
         },
         {
-          "effect": "minecraft:jump_boost"
+          "duration": 300,
+          "effect": "minecraft:resistance"
         }
       ]
     }

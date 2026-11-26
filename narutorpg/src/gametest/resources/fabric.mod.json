@@ -7,7 +7,7 @@
   "entrypoints": {
     "main": ["com.narutorpg.test.FlightTestSystem", "com.narutorpg.test.TestServerSetup"],
     "cardinal-components": ["com.narutorpg.test.FlightTestSystem$Components"],
-    "fabric-gametest": ["com.narutorpg.test.NarutoGameTests", "com.narutorpg.test.Phase2GameTests", "com.narutorpg.test.Phase3GameTests", "com.narutorpg.test.NinjaToolGameTests", "com.narutorpg.test.ClanGameTests", "com.narutorpg.test.VfxGameTests", "com.narutorpg.test.VillageGameTests", "com.narutorpg.test.TokenGameTests", "com.narutorpg.test.NatureGameTests", "com.narutorpg.test.GenjutsuGameTests", "com.narutorpg.test.AdminSealGameTests", "com.narutorpg.test.DamageGameTests", "com.narutorpg.test.TaijutsuGameTests"]
+    "fabric-gametest": ["com.narutorpg.test.NarutoGameTests", "com.narutorpg.test.Phase2GameTests", "com.narutorpg.test.Phase3GameTests", "com.narutorpg.test.NinjaToolGameTests", "com.narutorpg.test.ClanGameTests", "com.narutorpg.test.VfxGameTests", "com.narutorpg.test.VillageGameTests", "com.narutorpg.test.TokenGameTests", "com.narutorpg.test.NatureGameTests", "com.narutorpg.test.GenjutsuGameTests", "com.narutorpg.test.AdminSealGameTests", "com.narutorpg.test.DamageGameTests", "com.narutorpg.test.TaijutsuGameTests", "com.narutorpg.test.NinjutsuGameTests"]
   },
   "depends": { "narutorpg": "*", "fabric-gametest-api-v1": "*" },
   "custom": { "cardinal-components": ["animetest:power"] }

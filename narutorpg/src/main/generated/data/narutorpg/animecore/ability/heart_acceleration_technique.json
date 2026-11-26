@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "effect": "minecraft:regeneration"
+        },
+        {
+          "amplifier": 1,
+          "duration": 400,
+          "effect": "minecraft:absorption"
+        }
+      ],
+      "heal": 10.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Heart Acceleration Technique",
+    "translate": "ability.narutorpg.heart_acceleration_technique"
+  },
+  "system": "narutorpg"
+}

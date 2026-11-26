@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "damage": 3.6,
+      "knockback": 1.6,
+      "radius": 4.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Shadow Clone: Great Rotation",
+    "translate": "ability.narutorpg.shadow_clone_great_rotation"
+  },
+  "system": "narutorpg"
+}

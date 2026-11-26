@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8508666,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 32.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:night_vision"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Short Range Mind's Eye of the Kagura",
+    "translate": "ability.narutorpg.short_range_mind_s_eye_of_the_kagura"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
+}

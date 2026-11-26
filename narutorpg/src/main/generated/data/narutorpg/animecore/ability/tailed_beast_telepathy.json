@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 9489145,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "speed": 1.4
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Tailed Beast Telepathy",
+    "translate": "ability.narutorpg.tailed_beast_telepathy"
+  },
+  "system": "narutorpg"
+}

@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "distance": 14.0,
+      "knockback": 0.0
+    }
+  ],
+  "cooldown_ticks": 156,
+  "cost": {
+    "amount": 24.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Amplification Summoning Technique",
+    "translate": "ability.narutorpg.amplification_summoning_technique"
+  },
+  "required_tier": 3,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

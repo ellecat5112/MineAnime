@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "damage": 6.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 3.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ultra-Big Ball Rasengan",
+    "translate": "ability.narutorpg.ultra_big_ball_rasengan"
+  },
+  "system": "narutorpg"
+}

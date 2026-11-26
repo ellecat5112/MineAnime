@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 6.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Yin Healing Wound Destruction",
+    "translate": "ability.narutorpg.yin_healing_wound_destruction"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:medical_ninjutsu",
+  "visuals": {
+    "color": 7798531,
+    "style": "light"
+  }
+}

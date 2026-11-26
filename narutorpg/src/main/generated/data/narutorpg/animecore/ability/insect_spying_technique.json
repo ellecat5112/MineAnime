@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3369246,
+      "cone_degrees": 90.0,
+      "damage": 2.0,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Insect Spying Technique",
+    "translate": "ability.narutorpg.insect_spying_technique"
+  },
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
+}

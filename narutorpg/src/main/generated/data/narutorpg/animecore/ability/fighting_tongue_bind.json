@@ -1,0 +1,38 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9489145,
+      "cone_degrees": 80.0,
+      "damage": 11.0,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fighting Tongue Bind",
+    "translate": "ability.narutorpg.fighting_tongue_bind"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16750592,
+    "style": "energy"
+  }
+}

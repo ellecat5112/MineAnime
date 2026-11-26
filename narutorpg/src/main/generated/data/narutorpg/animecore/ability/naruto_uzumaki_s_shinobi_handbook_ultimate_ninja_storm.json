@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 9489145,
+      "damage": 14.0,
+      "lifetime_ticks": 25,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Naruto Uzumaki's Shinobi Handbook (Ultimate Ninja Storm)",
+    "translate": "ability.narutorpg.naruto_uzumaki_s_shinobi_handbook_ultimate_ninja_storm"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "kind": "barrier"
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ultimately Hard Absolute Defence: Shield of Shukaku",
+    "translate": "ability.narutorpg.ultimately_hard_absolute_defence_shield_of_shukaku"
+  },
+  "system": "narutorpg"
+}

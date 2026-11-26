@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 12986408,
+      "damage": 11.0,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Heaven and Earth Exploding Funeral",
+    "translate": "ability.narutorpg.heaven_and_earth_exploding_funeral"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

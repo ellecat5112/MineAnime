@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 6.0
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Strengthening Prescription: Chakra Injection",
+    "translate": "ability.narutorpg.strengthening_prescription_chakra_injection"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:medical_ninjutsu",
+  "visuals": {
+    "color": 7798531,
+    "style": "light"
+  }
+}

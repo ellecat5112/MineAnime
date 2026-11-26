@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 12986408,
+      "damage": 11.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Rotating Funeral",
+    "translate": "ability.narutorpg.rotating_funeral"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

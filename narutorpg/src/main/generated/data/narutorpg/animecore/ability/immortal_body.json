@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "effect": "minecraft:regeneration"
+        },
+        {
+          "amplifier": 1,
+          "duration": 400,
+          "effect": "minecraft:absorption"
+        }
+      ],
+      "heal": 10.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Immortal Body",
+    "translate": "ability.narutorpg.immortal_body"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:hiden"
+}

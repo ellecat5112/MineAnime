@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 9489145,
+      "lifetime_ticks": 25,
+      "size": 0.6,
+      "speed": 1.4
+    }
+  ],
+  "cooldown_ticks": 108,
+  "cost": {
+    "amount": 12.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Flea Shuriken",
+    "translate": "ability.narutorpg.flea_shuriken"
+  },
+  "system": "narutorpg"
+}

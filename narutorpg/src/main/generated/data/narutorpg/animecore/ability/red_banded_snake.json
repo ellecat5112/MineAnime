@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9489145,
+      "damage": 11.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Red-Banded Snake",
+    "translate": "ability.narutorpg.red_banded_snake"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

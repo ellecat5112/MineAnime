@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "cooldown_ticks": 96,
+  "cost": {
+    "amount": 10.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Cloak of Invisibility Technique",
+    "translate": "ability.narutorpg.cloak_of_invisibility_technique"
+  },
+  "system": "narutorpg"
+}

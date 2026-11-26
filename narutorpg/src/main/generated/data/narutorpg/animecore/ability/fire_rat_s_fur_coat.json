@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 12986408,
+      "damage": 11.0,
+      "forward_offset": 2.0,
+      "knockback": 0.8,
+      "radius": 4.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Fire Rat's Fur Coat",
+    "translate": "ability.narutorpg.fire_rat_s_fur_coat"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

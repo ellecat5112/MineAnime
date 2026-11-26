@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 9489145,
+      "damage": 11.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "All-Killing Ash Bones",
+    "translate": "ability.narutorpg.all_killing_ash_bones"
+  },
+  "required_tier": 6,
+  "system": "narutorpg"
+}

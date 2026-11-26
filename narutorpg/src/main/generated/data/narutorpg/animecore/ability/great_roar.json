@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 9489145,
+      "damage": 6.0,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "speed": 1.4
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Great Roar",
+    "translate": "ability.narutorpg.great_roar"
+  },
+  "system": "narutorpg"
+}

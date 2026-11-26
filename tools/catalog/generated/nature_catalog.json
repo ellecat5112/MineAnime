@@ -7688,13 +7688,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"
@@ -10282,13 +10282,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"
@@ -11850,13 +11850,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"
@@ -12353,13 +12353,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"
@@ -14578,13 +14578,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"
@@ -16093,19 +16093,26 @@
   "lava_release_ash_stone_seal_technique": {
    "actions": [
     {
+     "color": 16766287,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 6.0,
+     "type": "animecore:area_effect"
     }
    ],
    "affinity": "narutorpg:lava",
@@ -22394,16 +22401,23 @@
   "sensing_water_sphere": {
    "actions": [
     {
+     "color": 8508666,
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
+       "duration": 300,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 32.0,
+     "type": "animecore:area_effect"
+    },
+    {
+     "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "duration": 300,
+       "effect": "minecraft:night_vision"
       }
      ],
      "type": "animecore:self_buff"
@@ -27860,16 +27874,23 @@
   "water_flow_sensing_technique": {
    "actions": [
     {
+     "color": 8508666,
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
+       "duration": 300,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 32.0,
+     "type": "animecore:area_effect"
+    },
+    {
+     "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "duration": 300,
+       "effect": "minecraft:night_vision"
       }
      ],
      "type": "animecore:self_buff"
@@ -29298,13 +29319,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"
@@ -29330,13 +29351,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"
@@ -29362,13 +29383,13 @@
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 160,
+       "effect": "minecraft:invisibility"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:speed"
       }
      ],
      "type": "animecore:self_buff"

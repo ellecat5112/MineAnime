@@ -206,19 +206,26 @@
   "desert_layered_imperial_funeral_seal": {
    "actions": [
     {
+     "color": 16766287,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 6.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -307,19 +314,26 @@
   "dharma_power_seal": {
    "actions": [
     {
+     "color": 16766287,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 6.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -508,19 +522,28 @@
   "eye_mind_reading": {
    "actions": [
     {
+     "color": 9315498,
+     "cone_degrees": 40.0,
+     "damage": 1.6,
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 140,
+       "effect": "minecraft:nausea"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 3,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:weakness"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 10.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -1092,16 +1115,23 @@
   "negative_emotions_sensing": {
    "actions": [
     {
+     "color": 8508666,
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
+       "duration": 300,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 32.0,
+     "type": "animecore:area_effect"
+    },
+    {
+     "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "duration": 300,
+       "effect": "minecraft:night_vision"
       }
      ],
      "type": "animecore:self_buff"
@@ -1158,19 +1188,26 @@
   "ninja_tools_barrier_reverse_fish_scales_formation": {
    "actions": [
     {
+     "color": 16766287,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 6.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -1250,19 +1287,28 @@
   "puppet_performance_skilful_achievement_with_a_human_body": {
    "actions": [
     {
+     "color": 9315498,
+     "cone_degrees": 40.0,
+     "damage": 4.4,
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "duration": 140,
+       "effect": "minecraft:nausea"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 3,
+       "duration": 100,
+       "effect": "minecraft:slowness"
+      },
+      {
+       "amplifier": 1,
+       "duration": 100,
+       "effect": "minecraft:weakness"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 10.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -1458,19 +1504,26 @@
   "sealing_technique_vitality_seal_formation": {
    "actions": [
     {
+     "color": 16766287,
      "effects": [
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:weakness"
       },
       {
-       "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "amplifier": 1,
+       "duration": 160,
+       "effect": "minecraft:mining_fatigue"
+      },
+      {
+       "amplifier": 1,
+       "duration": 60,
+       "effect": "minecraft:slowness"
       }
      ],
-     "type": "animecore:self_buff"
+     "radius": 6.0,
+     "type": "animecore:area_effect"
     }
    ],
    "cast_type": "instant",
@@ -2028,16 +2081,23 @@
   "wave_transmission_technique": {
    "actions": [
     {
+     "color": 8508666,
      "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:speed"
-      },
+       "duration": 300,
+       "effect": "minecraft:glowing"
+      }
+     ],
+     "radius": 32.0,
+     "type": "animecore:area_effect"
+    },
+    {
+     "effects": [
       {
        "amplifier": 0,
-       "duration": 200,
-       "effect": "minecraft:jump_boost"
+       "duration": 300,
+       "effect": "minecraft:night_vision"
       }
      ],
      "type": "animecore:self_buff"

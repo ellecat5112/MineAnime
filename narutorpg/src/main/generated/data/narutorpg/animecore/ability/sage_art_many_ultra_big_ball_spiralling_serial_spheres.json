@@ -1,0 +1,43 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:speed"
+        }
+      ]
+    },
+    {
+      "type": "animecore:area_effect",
+      "damage": 5.5,
+      "effects": [
+        {
+          "duration": 30,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "radius": 5.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Sage Art: Many Ultra-Big Ball Spiralling Serial Spheres",
+    "translate": "ability.narutorpg.sage_art_many_ultra_big_ball_spiralling_serial_spheres"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
+}

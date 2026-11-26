@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 14.0,
+      "distance": 18.0,
+      "hit_radius": 1.6,
+      "knockback": 1.2
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Flying Thunder God Technique",
+    "translate": "ability.narutorpg.flying_thunder_god_technique"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

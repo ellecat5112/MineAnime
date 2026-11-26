@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8280002,
+      "damage": 8.4,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:hunger"
+        }
+      ],
+      "radius": 5.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "heal": 4.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Chimera Technique",
+    "translate": "ability.narutorpg.chimera_technique"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}

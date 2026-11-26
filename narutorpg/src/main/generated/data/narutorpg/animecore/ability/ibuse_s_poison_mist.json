@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 9489145,
+      "damage": 11.0,
+      "lifetime_ticks": 50,
+      "size": 1.0,
+      "speed": 1.1
+    }
+  ],
+  "cast_type": "charged",
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "charge_drain_per_tick": 0.25,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Ibuse's Poison Mist",
+    "translate": "ability.narutorpg.ibuse_s_poison_mist"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 12986408,
+      "damage": 11.0,
+      "pierce": false,
+      "range": 24.0
+    }
+  ],
+  "cooldown_ticks": 192,
+  "cost": {
+    "amount": 33.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "God: Nativity of a World of Trees",
+    "translate": "ability.narutorpg.god_nativity_of_a_world_of_trees"
+  },
+  "required_tier": 6,
+  "system": "narutorpg",
+  "token": "narutorpg:dojutsu"
+}

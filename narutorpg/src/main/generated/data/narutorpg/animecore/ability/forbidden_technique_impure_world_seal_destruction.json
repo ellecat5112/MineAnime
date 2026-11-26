@@ -1,0 +1,39 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "cone_degrees": 50.0,
+      "damage": 8.4,
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 7.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Forbidden Technique: Impure World Seal Destruction",
+    "translate": "ability.narutorpg.forbidden_technique_impure_world_seal_destruction"
+  },
+  "required_tier": 10,
+  "system": "narutorpg",
+  "token": "narutorpg:fuinjutsu",
+  "visuals": {
+    "style": "space"
+  }
+}

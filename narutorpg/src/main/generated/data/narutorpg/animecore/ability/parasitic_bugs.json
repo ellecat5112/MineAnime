@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 3369246,
+      "cone_degrees": 90.0,
+      "damage": 3.0,
+      "effects": [
+        {
+          "duration": 100,
+          "effect": "minecraft:poison"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "cooldown_ticks": 132,
+  "cost": {
+    "amount": 18.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "Parasitic Bugs",
+    "translate": "ability.narutorpg.parasitic_bugs"
+  },
+  "system": "narutorpg",
+  "token": "narutorpg:hiden",
+  "visuals": {
+    "style": "insect"
+  }
+}

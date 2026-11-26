@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "effect": "minecraft:regeneration"
+        },
+        {
+          "amplifier": 1,
+          "duration": 400,
+          "effect": "minecraft:absorption"
+        }
+      ],
+      "heal": 10.0
+    }
+  ],
+  "cooldown_ticks": 228,
+  "cost": {
+    "amount": 42.0,
+    "pool": "narutorpg:chakra"
+  },
+  "name": {
+    "fallback": "One's Own Life Reincarnation",
+    "translate": "ability.narutorpg.one_s_own_life_reincarnation"
+  },
+  "required_tier": 10,
+  "system": "narutorpg"
+}
