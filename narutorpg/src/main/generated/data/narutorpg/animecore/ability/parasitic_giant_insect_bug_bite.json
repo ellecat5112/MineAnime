@@ -31,5 +31,8 @@
     "fallback": "Parasitic Giant Insect — Bug Bite",
     "translate": "ability.narutorpg.parasitic_giant_insect_bug_bite"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

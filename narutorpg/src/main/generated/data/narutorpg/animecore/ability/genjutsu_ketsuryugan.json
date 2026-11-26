@@ -34,5 +34,9 @@
     "translate": "ability.narutorpg.genjutsu_ketsuryugan"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

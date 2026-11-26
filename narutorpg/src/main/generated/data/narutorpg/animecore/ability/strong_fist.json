@@ -17,5 +17,8 @@
     "fallback": "Strong Fist",
     "translate": "ability.narutorpg.strong_fist"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

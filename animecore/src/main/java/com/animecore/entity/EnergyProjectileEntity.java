@@ -32,6 +32,7 @@ public class EnergyProjectileEntity extends ThrownEntity {
     private static final TrackedData<Integer> COLOR = DataTracker.registerData(EnergyProjectileEntity.class, TrackedDataHandlerRegistry.INTEGER);
     private static final TrackedData<Float> SIZE = DataTracker.registerData(EnergyProjectileEntity.class, TrackedDataHandlerRegistry.FLOAT);
     private static final TrackedData<String> TRAIL = DataTracker.registerData(EnergyProjectileEntity.class, TrackedDataHandlerRegistry.STRING);
+    private static final TrackedData<Integer> STYLE = DataTracker.registerData(EnergyProjectileEntity.class, TrackedDataHandlerRegistry.INTEGER);
 
     private float damage;
     private @Nullable Identifier affinity;
@@ -66,7 +67,16 @@ public class EnergyProjectileEntity extends ThrownEntity {
         builder.add(COLOR, 0xFFFFFF);
         builder.add(SIZE, 0.5f);
         builder.add(TRAIL, "");
+        builder.add(STYLE, com.animecore.vfx.VfxStyle.ENERGY.ordinal());
     }
+
+    /** Elemental look; the client renders the swirling ball and trail from it ({@code EnergyProjectileRenderer}). */
+    public void setVfx(com.animecore.vfx.VfxStyle style, int color) {
+        dataTracker.set(STYLE, style.ordinal());
+        dataTracker.set(COLOR, color);
+    }
+
+    public com.animecore.vfx.VfxStyle getStyle() { return com.animecore.vfx.VfxStyle.byOrdinal(dataTracker.get(STYLE)); }
 
     public int getColor() { return dataTracker.get(COLOR); }
     public float getSize() { return dataTracker.get(SIZE); }
@@ -101,13 +111,8 @@ public class EnergyProjectileEntity extends ThrownEntity {
     }
 
     private void spawnTrail(World world) {
+        // The swirling ball and elemental trail are drawn by the client VFX renderer; only the optional extra trail here.
         float s = getSize();
-        int density = Math.max(1, (int) (s * 3));
-        for (int n = 0; n < density; n++) {
-            world.addParticle(AnimeParticles.dust(getColor(), Math.min(4f, 0.6f + s * 1.5f)),
-                    getX() + (random.nextDouble() - 0.5) * s, getY() + s / 2 + (random.nextDouble() - 0.5) * s,
-                    getZ() + (random.nextDouble() - 0.5) * s, 0, 0, 0);
-        }
         String trailId = dataTracker.get(TRAIL);
         if (!trailId.equals(cachedTrailId)) {
             cachedTrailId = trailId;
@@ -122,6 +127,7 @@ public class EnergyProjectileEntity extends ThrownEntity {
     protected void onEntityHit(EntityHitResult hit) {
         super.onEntityHit(hit);
         if (!(getWorld() instanceof ServerWorld world)) return;
+        impact(world, Math.max(0.8f, getSize() * 1.5f));
         if (aoeRadius > 0f) {
             detonate(world);
         } else if (hit.getEntity() instanceof LivingEntity target) {
@@ -135,6 +141,7 @@ public class EnergyProjectileEntity extends ThrownEntity {
     protected void onBlockHit(BlockHitResult hit) {
         super.onBlockHit(hit);
         if (getWorld() instanceof ServerWorld world) {
+            impact(world, Math.max(0.8f, getSize() * 1.5f));
             if (aoeRadius > 0f) detonate(world);
             discard();
         }
@@ -153,10 +160,14 @@ public class EnergyProjectileEntity extends ThrownEntity {
             AbilityDamage.apply(world, this, owner, target, damage, affinity, fireTicks, 0.6f, getPos());
         }
         world.spawnParticles(ParticleTypes.EXPLOSION, getX(), getY(), getZ(), 1, 0, 0, 0, 0);
-        world.spawnParticles(AnimeParticles.dust(getColor(), 2.5f), getX(), getY(), getZ(),
-                (int) (aoeRadius * 16), aoeRadius / 2, aoeRadius / 2, aoeRadius / 2, 0.05);
+        impact(world, aoeRadius);
         world.playSound(null, getX(), getY(), getZ(), SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.PLAYERS, 0.6f, 1.2f);
         aoeRadius = 0f; // never detonate twice
+    }
+
+    private void impact(ServerWorld world, float radius) {
+        com.animecore.vfx.AbilityVfx.emit(world, this, com.animecore.vfx.VfxKind.IMPACT, getStyle(), getColor(),
+                getPos().add(0, getSize() / 2, 0), getVelocity().normalize(), radius, 0f);
     }
 
     @Override
@@ -169,6 +180,7 @@ public class EnergyProjectileEntity extends ThrownEntity {
         nbt.putInt("color", getColor());
         nbt.putFloat("size", getSize());
         nbt.putString("trail", dataTracker.get(TRAIL));
+        nbt.putInt("vfx_style", dataTracker.get(STYLE));
         if (affinity != null) nbt.putString("affinity", affinity.toString());
     }
 
@@ -182,6 +194,7 @@ public class EnergyProjectileEntity extends ThrownEntity {
         dataTracker.set(COLOR, nbt.getInt("color"));
         dataTracker.set(SIZE, nbt.contains("size") ? nbt.getFloat("size") : 0.5f);
         dataTracker.set(TRAIL, nbt.getString("trail"));
+        dataTracker.set(STYLE, nbt.getInt("vfx_style"));
         affinity = nbt.contains("affinity") ? Identifier.tryParse(nbt.getString("affinity")) : null;
     }
 }

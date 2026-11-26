@@ -27,5 +27,8 @@
     "fallback": "Dynamic Marking",
     "translate": "ability.narutorpg.dynamic_marking"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

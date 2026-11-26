@@ -36,5 +36,8 @@
     "translate": "ability.narutorpg.iron_sand_clone"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

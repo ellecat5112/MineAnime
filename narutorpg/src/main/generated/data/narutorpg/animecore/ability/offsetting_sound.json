@@ -33,5 +33,9 @@
     "fallback": "Offsetting Sound",
     "translate": "ability.narutorpg.offsetting_sound"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

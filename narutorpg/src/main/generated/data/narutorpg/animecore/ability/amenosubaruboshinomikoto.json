@@ -19,5 +19,8 @@
     "fallback": "Amenosubaruboshinomikoto",
     "translate": "ability.narutorpg.amenosubaruboshinomikoto"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

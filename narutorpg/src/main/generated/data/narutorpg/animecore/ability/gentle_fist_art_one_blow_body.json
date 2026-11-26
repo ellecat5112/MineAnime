@@ -17,5 +17,8 @@
     "fallback": "Gentle Fist Art One Blow Body",
     "translate": "ability.narutorpg.gentle_fist_art_one_blow_body"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

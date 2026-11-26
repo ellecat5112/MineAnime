@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.sukunahikona_rain_of_early_summer"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

@@ -24,8 +24,14 @@ public record AffinityDefinition(
         List<Identifier> strongAgainst,
         float advantageMultiplier,
         List<Identifier> fusionOf,
-        Optional<Identifier> requiredLineage
+        Optional<Identifier> requiredLineage,
+        Optional<com.animecore.vfx.VfxStyle> vfxStyle
 ) {
+    public AffinityDefinition(String system, Text name, int color, List<Identifier> strongAgainst, float advantageMultiplier,
+                              List<Identifier> fusionOf, Optional<Identifier> requiredLineage) {
+        this(system, name, color, strongAgainst, advantageMultiplier, fusionOf, requiredLineage, Optional.empty());
+    }
+
     public static final Codec<AffinityDefinition> CODEC = RecordCodecBuilder.create(i -> i.group(
             Codec.STRING.fieldOf("system").forGetter(AffinityDefinition::system),
             TextCodecs.CODEC.fieldOf("name").forGetter(AffinityDefinition::name),
@@ -33,6 +39,7 @@ public record AffinityDefinition(
             Identifier.CODEC.listOf().optionalFieldOf("strong_against", List.of()).forGetter(AffinityDefinition::strongAgainst),
             Codec.floatRange(1f, 10f).optionalFieldOf("advantage_multiplier", 1.5f).forGetter(AffinityDefinition::advantageMultiplier),
             Identifier.CODEC.listOf().optionalFieldOf("fusion_of", List.of()).forGetter(AffinityDefinition::fusionOf),
-            Identifier.CODEC.optionalFieldOf("required_lineage").forGetter(AffinityDefinition::requiredLineage)
+            Identifier.CODEC.optionalFieldOf("required_lineage").forGetter(AffinityDefinition::requiredLineage),
+            com.animecore.vfx.VfxStyle.CODEC.optionalFieldOf("vfx_style").forGetter(AffinityDefinition::vfxStyle)
     ).apply(i, AffinityDefinition::new));
 }

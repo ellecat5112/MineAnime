@@ -34,5 +34,10 @@
     "translate": "ability.narutorpg.izanami"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

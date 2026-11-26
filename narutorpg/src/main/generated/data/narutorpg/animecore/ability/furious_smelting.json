@@ -17,5 +17,8 @@
     "fallback": "Furious Smelting",
     "translate": "ability.narutorpg.furious_smelting"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

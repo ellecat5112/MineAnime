@@ -25,5 +25,8 @@
     "translate": "ability.narutorpg.protecting_eight_trigrams_sixty_four_palms"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

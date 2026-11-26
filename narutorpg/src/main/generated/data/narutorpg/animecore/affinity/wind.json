@@ -6,5 +6,6 @@
   "strong_against": [
     "narutorpg:lightning"
   ],
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "vfx_style": "wind"
 }

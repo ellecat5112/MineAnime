@@ -19,5 +19,8 @@
     "translate": "ability.narutorpg.limbo_border_jail"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

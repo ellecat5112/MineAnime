@@ -27,5 +27,8 @@
     "fallback": "Insect Jamming Technique",
     "translate": "ability.narutorpg.insect_jamming_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

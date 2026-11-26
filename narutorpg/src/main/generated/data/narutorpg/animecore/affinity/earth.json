@@ -6,5 +6,6 @@
   "strong_against": [
     "narutorpg:water"
   ],
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "vfx_style": "earth"
 }

@@ -17,5 +17,8 @@
     "fallback": "Shadow Stroke",
     "translate": "ability.narutorpg.shadow_stroke"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

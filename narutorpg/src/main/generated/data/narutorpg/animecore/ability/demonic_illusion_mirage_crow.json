@@ -34,5 +34,10 @@
     "translate": "ability.narutorpg.demonic_illusion_mirage_crow"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

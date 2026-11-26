@@ -22,5 +22,8 @@
     "translate": "ability.narutorpg.magnet_release_conserving_bee_twin_blades"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "poison"
+  }
 }

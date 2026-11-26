@@ -17,5 +17,8 @@
     "fallback": "Leaping Bullet Shell Tower",
     "translate": "ability.narutorpg.leaping_bullet_shell_tower"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

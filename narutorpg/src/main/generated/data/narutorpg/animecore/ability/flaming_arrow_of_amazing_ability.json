@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.flaming_arrow_of_amazing_ability"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

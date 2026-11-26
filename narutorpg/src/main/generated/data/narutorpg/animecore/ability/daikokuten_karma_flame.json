@@ -30,5 +30,8 @@
     "translate": "ability.narutorpg.daikokuten_karma_flame"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

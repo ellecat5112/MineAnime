@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.six_paths_technique"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

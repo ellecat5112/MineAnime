@@ -39,5 +39,8 @@
     "fallback": "Mind Clone Switch Technique",
     "translate": "ability.narutorpg.mind_clone_switch_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

@@ -19,5 +19,8 @@
     "fallback": "Amenosubaruboshinomikoto: Ryūgū",
     "translate": "ability.narutorpg.amenosubaruboshinomikoto_ryugu"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

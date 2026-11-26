@@ -33,5 +33,9 @@
     "fallback": "Hypnotic Genjutsu: Wild Beast Communication",
     "translate": "ability.narutorpg.hypnotic_genjutsu_wild_beast_communication"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

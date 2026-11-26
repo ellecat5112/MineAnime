@@ -115,7 +115,8 @@ public final class AbilityExecutor {
         }
 
         power.setCooldown(id(entry), def.cooldownTicks());
-        def.castAnimation().ifPresent(anim -> AnimationService.play(player, AnimLayer.UPPER_BODY, anim, AnimPlayback.UPPER_BODY));
+        AnimationService.play(player, AnimLayer.UPPER_BODY, def.castAnimation()
+                .orElseGet(() -> com.animecore.vfx.AbilityVfx.defaultAnimation(def, context.vfxStyle())), AnimPlayback.UPPER_BODY);
         power.addExperience(Math.max(1, Math.round(def.cost().amount() / 5f)));
         AnimeCoreEvents.POST_ABILITY_CAST.invoker().onPostCast(player, entry, context);
         return CastResult.SUCCESS;
@@ -142,7 +143,9 @@ public final class AbilityExecutor {
         if (!affordable) return feedback(player, CastResult.NO_ENERGY);
         power.beginCharge(id(entry));
         power.markDirty(true);
-        entry.value().castAnimation().ifPresent(anim -> AnimationService.play(player, AnimLayer.UPPER_BODY, anim, AnimPlayback.UPPER_BODY_HOLD));
+        Identifier holdAnim = entry.value().castAnimation().orElseGet(() -> com.animecore.vfx.AbilityVfx.defaultAnimation(entry.value(),
+                com.animecore.vfx.AbilityVfx.resolveStyle(player.getRegistryManager(), entry.value(), id(entry))));
+        AnimationService.play(player, AnimLayer.UPPER_BODY, holdAnim, AnimPlayback.UPPER_BODY_HOLD);
         return CastResult.CHARGING;
     }
 

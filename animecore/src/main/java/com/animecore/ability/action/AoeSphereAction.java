@@ -1,7 +1,6 @@
 package com.animecore.ability.action;
 
 import com.animecore.ability.AbilityContext;
-import com.animecore.platform.AnimeParticles;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -33,11 +32,6 @@ public record AoeSphereAction(float radius, float damage, float knockback, int f
                 e -> e != ctx.caster() && e.isAlive() && e.squaredDistanceTo(center) <= r * r)) {
             ctx.damage(target, damage, fireTicks, knockback);
         }
-        int points = (int) (r * 12);
-        for (int n = 0; n < points; n++) {
-            double a = (Math.PI * 2 * n) / points;
-            ctx.world().spawnParticles(AnimeParticles.dust(color, 1.6f),
-                    center.x + Math.cos(a) * r, center.y, center.z + Math.sin(a) * r, 1, 0, 0.2, 0, 0);
-        }
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.SHOCKWAVE, center, look, r, 0f);
     }
 }

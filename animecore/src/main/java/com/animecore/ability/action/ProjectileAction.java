@@ -55,6 +55,8 @@ public record ProjectileAction(
         float baseYaw = caster.getYaw();
         float pitch = caster.getPitch();
         Vec3d eye = ctx.eyePos();
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.CAST, eye.add(ctx.look().multiply(0.7)).subtract(0, 0.25, 0),
+                ctx.look(), size * ctx.scale(), 0f);
         for (int n = 0; n < count; n++) {
             float yaw = baseYaw + spreadDegrees * (n - (count - 1) / 2f);
             Vec3d dir = Vec3d.fromPolar(pitch, yaw);
@@ -71,6 +73,7 @@ public record ProjectileAction(
                 EnergyProjectileEntity p = new EnergyProjectileEntity(ctx.world(), caster);
                 p.configure(ctx.scaledDamage(damage), ctx.affinity(), aoeRadius * (sizeScalesWithCharge ? ctx.scale() : 1f),
                         fireTicks, lifetimeTicks, color, scaledSize, trailParticle.orElse(null));
+                p.setVfx(ctx.vfxStyle(), ctx.vfxColor());
                 p.refreshPositionAndAngles(spawn.x, spawn.y, spawn.z, yaw, pitch);
                 p.setVelocity(dir.multiply(speed));
                 ctx.world().spawnEntity(p);

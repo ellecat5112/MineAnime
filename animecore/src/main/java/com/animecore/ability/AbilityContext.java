@@ -24,6 +24,8 @@ public final class AbilityContext {
     private final PlayerPowerComponent power;
     private final float chargeRatio;
     private final @Nullable Entity reactiveAttacker;
+    private final com.animecore.vfx.VfxStyle vfxStyle;
+    private final int vfxColor;
 
     public AbilityContext(ServerPlayerEntity caster, RegistryEntry<AbilityDefinition> ability, PlayerPowerComponent power,
                           float chargeRatio, @Nullable Entity reactiveAttacker) {
@@ -32,7 +34,15 @@ public final class AbilityContext {
         this.power = power;
         this.chargeRatio = Math.max(0f, Math.min(1f, chargeRatio));
         this.reactiveAttacker = reactiveAttacker;
+        var rm = caster.getRegistryManager();
+        this.vfxStyle = com.animecore.vfx.AbilityVfx.resolveStyle(rm, ability.value(), ability.getKey().map(k -> k.getValue())
+                .orElse(com.animecore.platform.Ids.core("unknown")));
+        this.vfxColor = com.animecore.vfx.AbilityVfx.resolveColor(rm, ability.value(), vfxStyle);
     }
+
+    /** Resolved elemental look of this cast (see {@link com.animecore.vfx.AbilityVfx#resolveStyle}). */
+    public com.animecore.vfx.VfxStyle vfxStyle() { return vfxStyle; }
+    public int vfxColor() { return vfxColor; }
 
     public ServerPlayerEntity caster() { return caster; }
     public ServerWorld world() { return caster.getServerWorld(); }

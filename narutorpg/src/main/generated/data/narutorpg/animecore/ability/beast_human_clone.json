@@ -34,5 +34,8 @@
     "fallback": "Beast Human Clone",
     "translate": "ability.narutorpg.beast_human_clone"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

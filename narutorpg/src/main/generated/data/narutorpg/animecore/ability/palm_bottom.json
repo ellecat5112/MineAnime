@@ -25,5 +25,8 @@
     "translate": "ability.narutorpg.palm_bottom"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

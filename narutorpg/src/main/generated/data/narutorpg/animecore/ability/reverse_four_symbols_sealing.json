@@ -31,5 +31,9 @@
     "translate": "ability.narutorpg.reverse_four_symbols_sealing"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

@@ -21,5 +21,8 @@
     "fallback": "Transformation Technique",
     "translate": "ability.narutorpg.transformation_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

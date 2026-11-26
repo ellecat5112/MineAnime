@@ -32,5 +32,9 @@
     "translate": "ability.narutorpg.kama"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

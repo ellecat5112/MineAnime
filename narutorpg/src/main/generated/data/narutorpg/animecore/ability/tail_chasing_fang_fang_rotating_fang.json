@@ -25,5 +25,8 @@
     "translate": "ability.narutorpg.tail_chasing_fang_fang_rotating_fang"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

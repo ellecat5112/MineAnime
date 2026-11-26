@@ -6,5 +6,6 @@
   "strong_against": [
     "narutorpg:earth"
   ],
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "vfx_style": "lightning"
 }

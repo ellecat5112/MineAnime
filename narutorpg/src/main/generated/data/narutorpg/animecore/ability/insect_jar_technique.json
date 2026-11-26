@@ -28,5 +28,8 @@
     "fallback": "Insect Jar Technique",
     "translate": "ability.narutorpg.insect_jar_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

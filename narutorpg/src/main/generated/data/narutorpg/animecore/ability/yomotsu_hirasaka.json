@@ -16,5 +16,8 @@
     "translate": "ability.narutorpg.yomotsu_hirasaka"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

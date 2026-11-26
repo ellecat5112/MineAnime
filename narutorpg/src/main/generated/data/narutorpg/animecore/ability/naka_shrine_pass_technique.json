@@ -24,5 +24,9 @@
     "fallback": "Naka Shrine Pass Technique",
     "translate": "ability.narutorpg.naka_shrine_pass_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

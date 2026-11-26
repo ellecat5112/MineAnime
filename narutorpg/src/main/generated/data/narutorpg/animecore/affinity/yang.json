@@ -7,5 +7,6 @@
   "strong_against": [
     "narutorpg:yin"
   ],
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "vfx_style": "light"
 }

@@ -21,5 +21,9 @@
     "fallback": "Eight Trigrams Sealing Style",
     "translate": "ability.narutorpg.eight_trigrams_sealing_style"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

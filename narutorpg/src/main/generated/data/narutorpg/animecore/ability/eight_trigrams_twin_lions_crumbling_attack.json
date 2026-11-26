@@ -32,5 +32,8 @@
     "translate": "ability.narutorpg.eight_trigrams_twin_lions_crumbling_attack"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

@@ -31,5 +31,9 @@
   },
   "required_tier": 3,
   "required_transformation": "narutorpg:mangekyo_sharingan",
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 1710618,
+    "style": "flame"
+  }
 }

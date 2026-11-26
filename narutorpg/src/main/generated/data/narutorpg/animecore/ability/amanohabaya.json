@@ -19,5 +19,8 @@
     "fallback": "Amanohabaya",
     "translate": "ability.narutorpg.amanohabaya"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

@@ -44,6 +44,8 @@ def text(key, fallback):
 BASE = {'Fire Release': 'fire', 'Wind Release': 'wind', 'Lightning Release': 'lightning',
         'Earth Release': 'earth', 'Water Release': 'water'}
 # advanced natures added as fusion affinities: id -> (name, color, fusion_of, strong_against, required_lineage)
+ADV_STYLE = {'wood': 'plant', 'ice': 'ice', 'lava': 'lava', 'magnet': 'sand', 'storm': 'lightning', 'boil': 'water',
+             'scorch': 'flame', 'explosion': 'flame', 'dust': 'light', 'yin': 'shadow', 'yang': 'light'}
 ADVANCED = {
     'wood': ('Wood Release', 0x6D8B3A, ['earth', 'water'], ['earth'], 'senju'),
     'ice': ('Ice Release', 0xA5F2F3, ['wind', 'water'], ['water'], 'yuki'),
@@ -373,9 +375,53 @@ def build_ability(title, info, clan_id, kg_of_jutsu, used_combos):
     if anim:
         d['cast_animation'] = anim
     kgs = kg_of_jutsu.get(title, [])
+    vis = visuals_for(title, c, clan_id, kgs, nature)
+    if vis:
+        d['visuals'] = vis
     if 'Mangekyō Sharingan' in kgs and 'Sharingan' not in kgs:
         d['required_transformation'] = ns('mangekyo_sharingan')
     return d, rank
+
+
+def visuals_for(title, c, clan_id, kgs, nature):
+    """Elemental look override; abilities without one are styled from their affinity by the engine."""
+    lt = title.lower()
+    v = {}
+    if 'Genjutsu' in c or clan_id == 'kurama':
+        v = {'style': 'illusion', 'screen_effect': 'illusion'}
+        if 'Sharingan' in kgs or 'Mangekyō Sharingan' in kgs or 'sharingan' in lt:
+            v['color'] = 0xC62828
+    elif 'amaterasu' in lt or 'blaze release' in lt:
+        v = {'style': 'flame', 'color': 0x1A1A1A}
+    elif 'Sharingan' in kgs or 'Mangekyō Sharingan' in kgs or 'susanoo' in lt:
+        v = {'style': 'illusion', 'color': 0xC62828}
+    elif 'Byakugan' in kgs or 'Tenseigan' in kgs or 'Jōgan' in kgs:
+        v = {'style': 'light'}
+    elif 'Rinnegan' in kgs or 'Kokugan' in kgs or 'Space–Time Ninjutsu' in c:
+        v = {'style': 'space'}
+    elif 'Ketsuryūgan' in kgs or clan_id == 'chinoike' or 'blood' in lt:
+        v = {'style': 'blood'}
+    elif clan_id in ('aburame',) or 'insect' in lt or 'bug' in lt:
+        v = {'style': 'insect'}
+    elif clan_id == 'kamizuru' or 'bee' in lt or 'poison' in lt or 'venom' in lt:
+        v = {'style': 'poison'}
+    elif 'Shikotsumyaku' in kgs:
+        v = {'style': 'light', 'color': 0xF5F5F5}
+    elif 'Clone Techniques' in c or 'transformation technique' in lt or 'smoke' in lt:
+        v = {'style': 'smoke'}
+    elif c & {'Medical Ninjutsu', 'Regeneration Techniques'} or 'mystical palm' in lt:
+        v = {'style': 'light', 'color': 0x76FF03}
+    elif c & {'Fūinjutsu', 'Juinjutsu', 'Barrier Ninjutsu'} and nature is None:
+        v = {'style': 'light', 'color': 0xFFD54F}
+    elif 'gate' in lt and clan_id == 'lee':
+        v = {'style': 'energy', 'color': 0x43A047}
+    elif c & {'Taijutsu', 'Fighting Style', 'Fighting style'} and nature is None:
+        v = {'style': 'wind'}
+    elif 'Senjutsu' in c and nature is None:
+        v = {'style': 'energy', 'color': 0xFF9800}
+    elif clan_id == 'otsutsuki' and nature is None:
+        v = {'style': 'space'}
+    return v
 
 
 def power_score(rank, info):
@@ -405,7 +451,8 @@ def main():
 
     for aid, (name, color, fusion, strong, lineage) in ADVANCED.items():
         a = {'system': SYSTEM, 'name': text(f'affinity.{NS}.{aid}', name), 'color': color,
-             'strong_against': [ns(s) for s in strong], 'advantage_multiplier': 1.5, 'fusion_of': [ns(f) for f in fusion]}
+             'strong_against': [ns(s) for s in strong], 'advantage_multiplier': 1.5, 'fusion_of': [ns(f) for f in fusion],
+             'vfx_style': ADV_STYLE[aid]}
         if lineage:
             a['required_lineage'] = ns(lineage)
         out['affinities'][aid] = a

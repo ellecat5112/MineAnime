@@ -30,5 +30,8 @@
     "translate": "ability.narutorpg.demonic_statue_chains"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

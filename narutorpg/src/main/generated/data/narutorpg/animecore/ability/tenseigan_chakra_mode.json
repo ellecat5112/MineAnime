@@ -36,5 +36,8 @@
     "translate": "ability.narutorpg.tenseigan_chakra_mode"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

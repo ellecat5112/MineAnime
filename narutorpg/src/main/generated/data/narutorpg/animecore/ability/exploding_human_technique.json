@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.exploding_human_technique"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "blood"
+  }
 }

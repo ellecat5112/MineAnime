@@ -31,5 +31,8 @@
   "name": {
     "translate": "ability.narutorpg.substitution_jutsu"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

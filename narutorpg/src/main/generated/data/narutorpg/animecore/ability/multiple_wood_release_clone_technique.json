@@ -36,5 +36,8 @@
     "translate": "ability.narutorpg.multiple_wood_release_clone_technique"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

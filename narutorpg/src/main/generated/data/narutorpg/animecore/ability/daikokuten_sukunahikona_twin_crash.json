@@ -19,5 +19,8 @@
     "translate": "ability.narutorpg.daikokuten_sukunahikona_twin_crash"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

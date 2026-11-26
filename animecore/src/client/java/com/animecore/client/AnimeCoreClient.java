@@ -24,8 +24,8 @@ public final class AnimeCoreClient implements ClientModInitializer {
         AnimeHudLayoutManager.init();
         ProceduralAuraRenderer.init();
         AfterimageEffects.init();
-        // Energy projectiles are drawn entirely by their particle trail: zero texture bytes.
-        EntityRendererRegistry.register(AnimeEntities.ENERGY_PROJECTILE, EmptyEntityRenderer::new);
+        // Energy projectiles: procedural swirling elemental balls (zero texture bytes).
+        EntityRendererRegistry.register(AnimeEntities.ENERGY_PROJECTILE, com.animecore.client.vfx.EnergyProjectileRenderer::new);
         // Thrown ninja tools render as their own item sprite; puppets reuse the biped model.
         EntityRendererRegistry.register(AnimeEntities.THROWN_TOOL, ctx -> new FlyingItemEntityRenderer<>(ctx, 1.0f, true));
         EntityRendererRegistry.register(AnimeEntities.PUPPET, PuppetEntityRenderer::new);
@@ -33,5 +33,6 @@ public final class AnimeCoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.BARRIER_GATE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.WARD_TAG, RenderLayer.getCutout());
         com.animecore.client.render.ClanItemColors.register();
+        com.animecore.client.vfx.VfxManager.init();
     }
 }

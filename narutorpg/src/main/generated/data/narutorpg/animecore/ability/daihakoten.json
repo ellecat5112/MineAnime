@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.daihakoten"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

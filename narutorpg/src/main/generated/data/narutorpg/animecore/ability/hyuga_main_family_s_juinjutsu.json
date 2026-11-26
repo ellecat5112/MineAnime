@@ -22,5 +22,9 @@
     "translate": "ability.narutorpg.hyuga_main_family_s_juinjutsu"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

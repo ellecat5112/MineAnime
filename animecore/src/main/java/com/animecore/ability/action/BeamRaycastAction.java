@@ -1,7 +1,6 @@
 package com.animecore.ability.action;
 
 import com.animecore.ability.AbilityContext;
-import com.animecore.platform.AnimeParticles;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -51,9 +50,8 @@ public record BeamRaycastAction(float range, float damage, float width, boolean 
         }
 
         double length = start.distanceTo(end);
-        for (double d = 0.5; d < length; d += 0.4) {
-            Vec3d p = start.add(dir.multiply(d));
-            ctx.world().spawnParticles(AnimeParticles.dust(color, Math.min(4f, 0.8f + w)), p.x, p.y, p.z, 1, w * 0.2, w * 0.2, w * 0.2, 0);
-        }
+        Vec3d from = start.add(dir.multiply(0.6)).subtract(0, 0.2, 0);
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.BEAM, from, dir, (float) length, w);
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.IMPACT, end, dir, 0.8f + w, 0f);
     }
 }

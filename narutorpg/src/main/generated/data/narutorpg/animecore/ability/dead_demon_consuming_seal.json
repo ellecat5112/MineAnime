@@ -39,5 +39,9 @@
     "translate": "ability.narutorpg.dead_demon_consuming_seal"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

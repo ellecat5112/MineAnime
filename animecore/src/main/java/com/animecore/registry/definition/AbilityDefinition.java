@@ -31,8 +31,17 @@ public record AbilityDefinition(
         Optional<Identifier> affinity,
         Optional<Identifier> requiredTransformation,
         Optional<Identifier> castAnimation,
-        List<IAbilityAction> actions
+        List<IAbilityAction> actions,
+        com.animecore.vfx.AbilityVisuals visuals
 ) {
+    /** Constructor without visuals: the look is derived from the affinity and actions. */
+    public AbilityDefinition(String system, Text name, CastType castType, EnergyCost cost, int cooldownTicks, int requiredTier,
+                             List<Identifier> combo, int maxChargeTicks, Optional<Identifier> affinity,
+                             Optional<Identifier> requiredTransformation, Optional<Identifier> castAnimation, List<IAbilityAction> actions) {
+        this(system, name, castType, cost, cooldownTicks, requiredTier, combo, maxChargeTicks, affinity, requiredTransformation,
+                castAnimation, actions, com.animecore.vfx.AbilityVisuals.AUTO);
+    }
+
     public static final Codec<AbilityDefinition> CODEC = RecordCodecBuilder.create(i -> i.group(
             Codec.STRING.fieldOf("system").forGetter(AbilityDefinition::system),
             TextCodecs.CODEC.fieldOf("name").forGetter(AbilityDefinition::name),
@@ -45,6 +54,7 @@ public record AbilityDefinition(
             Identifier.CODEC.optionalFieldOf("affinity").forGetter(AbilityDefinition::affinity),
             Identifier.CODEC.optionalFieldOf("required_transformation").forGetter(AbilityDefinition::requiredTransformation),
             Identifier.CODEC.optionalFieldOf("cast_animation").forGetter(AbilityDefinition::castAnimation),
-            IAbilityAction.CODEC.listOf().fieldOf("actions").forGetter(AbilityDefinition::actions)
+            IAbilityAction.CODEC.listOf().fieldOf("actions").forGetter(AbilityDefinition::actions),
+            com.animecore.vfx.AbilityVisuals.CODEC.optionalFieldOf("visuals", com.animecore.vfx.AbilityVisuals.AUTO).forGetter(AbilityDefinition::visuals)
     ).apply(i, AbilityDefinition::new));
 }

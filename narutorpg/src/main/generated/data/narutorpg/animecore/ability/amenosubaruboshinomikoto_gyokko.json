@@ -19,5 +19,8 @@
     "fallback": "Amenosubaruboshinomikoto: Gyokkō",
     "translate": "ability.narutorpg.amenosubaruboshinomikoto_gyokko"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

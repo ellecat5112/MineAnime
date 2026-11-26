@@ -25,5 +25,8 @@
     "translate": "ability.narutorpg.butterfly_bullet_bombing"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

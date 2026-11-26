@@ -17,5 +17,8 @@
     "fallback": "Dynamic Entry",
     "translate": "ability.narutorpg.dynamic_entry"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

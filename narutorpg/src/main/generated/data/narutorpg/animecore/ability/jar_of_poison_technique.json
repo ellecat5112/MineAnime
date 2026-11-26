@@ -26,5 +26,8 @@
     "translate": "ability.narutorpg.jar_of_poison_technique"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

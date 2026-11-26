@@ -41,5 +41,8 @@
     "translate": "ability.narutorpg.shuriken_shadow_clone_technique"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

@@ -21,5 +21,9 @@
     "fallback": "Cursed Tongue Eradication Seal",
     "translate": "ability.narutorpg.cursed_tongue_eradication_seal"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

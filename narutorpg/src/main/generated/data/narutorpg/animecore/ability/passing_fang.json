@@ -17,5 +17,8 @@
     "fallback": "Passing Fang",
     "translate": "ability.narutorpg.passing_fang"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

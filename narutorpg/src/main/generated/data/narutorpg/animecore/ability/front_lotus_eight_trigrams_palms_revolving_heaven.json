@@ -26,5 +26,8 @@
     "translate": "ability.narutorpg.front_lotus_eight_trigrams_palms_revolving_heaven"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

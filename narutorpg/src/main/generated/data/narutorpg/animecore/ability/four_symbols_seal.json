@@ -21,5 +21,9 @@
     "fallback": "Four Symbols Seal",
     "translate": "ability.narutorpg.four_symbols_seal"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

@@ -21,5 +21,9 @@
     "fallback": "Sealing Technique: Rōen Kodon",
     "translate": "ability.narutorpg.sealing_technique_roen_kodon"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

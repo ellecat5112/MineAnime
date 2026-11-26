@@ -30,5 +30,8 @@
     "translate": "ability.narutorpg.outer_path_samsara_of_heavenly_life_technique"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

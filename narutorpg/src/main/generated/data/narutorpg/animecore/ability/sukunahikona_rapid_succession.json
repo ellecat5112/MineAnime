@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.sukunahikona_rapid_succession"
   },
   "required_tier": 10,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

@@ -25,5 +25,8 @@
     "translate": "ability.narutorpg.fang_wolf_fang"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

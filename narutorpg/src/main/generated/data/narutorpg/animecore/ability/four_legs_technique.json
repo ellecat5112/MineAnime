@@ -27,5 +27,8 @@
     "fallback": "Four Legs Technique",
     "translate": "ability.narutorpg.four_legs_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

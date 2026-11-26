@@ -18,5 +18,8 @@
     "fallback": "Ōdachi Mow Down",
     "translate": "ability.narutorpg.odachi_mow_down"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

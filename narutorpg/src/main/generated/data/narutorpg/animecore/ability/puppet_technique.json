@@ -17,5 +17,8 @@
     "fallback": "Puppet Technique",
     "translate": "ability.narutorpg.puppet_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

@@ -37,5 +37,8 @@
     "translate": "ability.narutorpg.sage_art_super_tailed_beast_rasenshuriken"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

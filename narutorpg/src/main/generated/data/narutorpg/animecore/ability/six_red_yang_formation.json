@@ -30,5 +30,8 @@
     "translate": "ability.narutorpg.six_red_yang_formation"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

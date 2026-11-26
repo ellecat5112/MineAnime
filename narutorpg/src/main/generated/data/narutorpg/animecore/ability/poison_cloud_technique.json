@@ -27,5 +27,8 @@
     "fallback": "Poison Cloud Technique",
     "translate": "ability.narutorpg.poison_cloud_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

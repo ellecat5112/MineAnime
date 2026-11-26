@@ -34,5 +34,8 @@
     "fallback": "Beeswax Clone",
     "translate": "ability.narutorpg.beeswax_clone"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "poison"
+  }
 }

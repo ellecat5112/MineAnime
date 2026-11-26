@@ -37,5 +37,9 @@
     "translate": "ability.narutorpg.lightning_transmission"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+  }
 }

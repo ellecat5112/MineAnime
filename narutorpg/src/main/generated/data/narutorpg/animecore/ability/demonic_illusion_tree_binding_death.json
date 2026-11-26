@@ -38,5 +38,9 @@
     "translate": "ability.narutorpg.demonic_illusion_tree_binding_death"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

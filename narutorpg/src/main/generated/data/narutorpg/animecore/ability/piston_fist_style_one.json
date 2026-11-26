@@ -26,5 +26,8 @@
     "translate": "ability.narutorpg.piston_fist_style_one"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

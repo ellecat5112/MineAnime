@@ -7,7 +7,6 @@ import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.particle.ParticleTypes;
 import net.minecraft.util.StringIdentifiable;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.MathHelper;
@@ -56,7 +55,9 @@ public record DashStrikeAction(Mode mode, float distance, float damage, float hi
             destination = clip(ctx, start.add(0, 0.1, 0), start.add(dir.multiply(distance * ctx.scale())));
         }
 
-        ctx.world().spawnParticles(ParticleTypes.CLOUD, start.x, start.y + 1, start.z, 12, 0.3, 0.6, 0.3, 0.02);
+        Vec3d travel = destination.subtract(start);
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.DASH, start.add(0, 1, 0),
+                travel.lengthSquared() > 1e-4 ? travel.normalize() : Vec3d.ZERO, (float) travel.length(), damage > 0f ? 1f : 0f);
         if (damage > 0f) {
             Box path = new Box(start, destination).expand(hitRadius).stretch(0, caster.getHeight(), 0);
             for (LivingEntity target : ctx.world().getEntitiesByClass(LivingEntity.class, path, e -> e != caster && e.isAlive())) {

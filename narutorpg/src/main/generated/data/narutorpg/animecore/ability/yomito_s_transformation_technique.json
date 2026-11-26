@@ -21,5 +21,8 @@
     "fallback": "Yomito's Transformation Technique",
     "translate": "ability.narutorpg.yomito_s_transformation_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

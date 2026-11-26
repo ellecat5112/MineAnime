@@ -17,5 +17,8 @@
     "fallback": "Gentle Fist",
     "translate": "ability.narutorpg.gentle_fist"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

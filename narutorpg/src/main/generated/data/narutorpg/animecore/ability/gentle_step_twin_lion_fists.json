@@ -32,5 +32,8 @@
     "translate": "ability.narutorpg.gentle_step_twin_lion_fists"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

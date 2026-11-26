@@ -35,5 +35,8 @@
     "fallback": "Iron Mountain Leaning",
     "translate": "ability.narutorpg.iron_mountain_leaning"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

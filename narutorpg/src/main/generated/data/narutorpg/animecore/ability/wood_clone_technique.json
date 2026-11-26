@@ -40,5 +40,8 @@
     "translate": "ability.narutorpg.wood_clone_technique"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

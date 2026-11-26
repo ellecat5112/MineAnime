@@ -32,5 +32,8 @@
     "translate": "ability.narutorpg.gentle_wind_spiralling_twin_lion_fists_snow_white"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

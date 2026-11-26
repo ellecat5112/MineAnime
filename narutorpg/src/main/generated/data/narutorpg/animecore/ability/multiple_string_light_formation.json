@@ -26,5 +26,9 @@
     "translate": "ability.narutorpg.multiple_string_light_formation"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

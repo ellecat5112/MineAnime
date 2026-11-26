@@ -33,5 +33,8 @@ public record RaiseWallAction(ChakraWallBlock.Kind kind, int width, int height, 
         BlockPos center = ctx.caster().getBlockPos().offset(facing, distance);
         int w = Math.max(1, Math.round(width * (float) Math.sqrt(ctx.scale())));
         WardSystem.raiseWall(ctx.world(), center, facing.rotateYClockwise(), w, height, kind, (int) (durationTicks * ctx.scale()));
+        var axis = facing.rotateYClockwise().getVector();
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.WALL, net.minecraft.util.math.Vec3d.ofBottomCenter(center),
+                new net.minecraft.util.math.Vec3d(axis.getX(), 0, axis.getZ()), w, height);
     }
 }

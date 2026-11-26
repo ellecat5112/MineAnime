@@ -31,5 +31,8 @@
     "translate": "ability.narutorpg.true_chibaku_tensei"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

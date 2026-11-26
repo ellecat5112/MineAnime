@@ -17,5 +17,8 @@
     "fallback": "Beast-Human Fury Kicks",
     "translate": "ability.narutorpg.beast_human_fury_kicks"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

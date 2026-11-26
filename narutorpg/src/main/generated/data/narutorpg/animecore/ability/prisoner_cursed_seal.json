@@ -21,5 +21,9 @@
     "fallback": "Prisoner Cursed Seal",
     "translate": "ability.narutorpg.prisoner_cursed_seal"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

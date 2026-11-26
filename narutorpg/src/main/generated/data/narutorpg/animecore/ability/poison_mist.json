@@ -22,5 +22,8 @@
     "translate": "ability.narutorpg.poison_mist"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "poison"
+  }
 }

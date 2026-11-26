@@ -25,5 +25,8 @@
     "translate": "ability.narutorpg.gentle_fist_tenketsu_needle"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

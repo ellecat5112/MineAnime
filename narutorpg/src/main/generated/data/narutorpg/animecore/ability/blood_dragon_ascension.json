@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.blood_dragon_ascension"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "blood"
+  }
 }

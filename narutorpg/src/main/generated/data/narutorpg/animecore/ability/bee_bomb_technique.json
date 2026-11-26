@@ -27,5 +27,8 @@
     "fallback": "Bee Bomb Technique",
     "translate": "ability.narutorpg.bee_bomb_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "poison"
+  }
 }

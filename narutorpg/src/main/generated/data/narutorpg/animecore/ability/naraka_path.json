@@ -19,5 +19,8 @@
     "translate": "ability.narutorpg.naraka_path"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

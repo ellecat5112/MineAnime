@@ -21,5 +21,8 @@
     "fallback": "Taisa's Transformation Technique",
     "translate": "ability.narutorpg.taisa_s_transformation_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

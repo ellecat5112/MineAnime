@@ -6,5 +6,6 @@
   "strong_against": [
     "narutorpg:fire"
   ],
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "vfx_style": "water"
 }

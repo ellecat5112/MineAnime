@@ -27,5 +27,9 @@
     "fallback": "Eight Gates",
     "translate": "ability.narutorpg.eight_gates"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 4431943,
+    "style": "energy"
+  }
 }

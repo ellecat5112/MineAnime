@@ -32,5 +32,9 @@
     "translate": "ability.narutorpg.infinite_embrace"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

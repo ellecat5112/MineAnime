@@ -28,5 +28,8 @@
     "fallback": "Rock Hive",
     "translate": "ability.narutorpg.rock_hive"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "poison"
+  }
 }

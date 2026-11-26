@@ -21,5 +21,9 @@
     "fallback": "Self-Cursing Seal",
     "translate": "ability.narutorpg.self_cursing_seal"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

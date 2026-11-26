@@ -31,5 +31,8 @@
     "fallback": "Insect Deception Technique",
     "translate": "ability.narutorpg.insect_deception_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

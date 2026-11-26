@@ -30,5 +30,8 @@
     "translate": "ability.narutorpg.origami_replacement_technique"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

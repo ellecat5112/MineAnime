@@ -4,6 +4,8 @@ import com.animecore.ability.action.DashStrikeAction;
 import com.animecore.ability.action.ProjectileAction;
 import com.animecore.ability.action.SelfBuffAction;
 import com.animecore.registry.AnimeRegistries;
+import com.animecore.vfx.AbilityVisuals;
+import com.animecore.vfx.VfxStyle;
 import com.animecore.registry.definition.AbilityDefinition;
 import com.animecore.registry.definition.AffinityDefinition;
 import com.animecore.registry.definition.CastType;
@@ -43,19 +45,19 @@ public final class NarutoContentBootstrap {
 
     public static void affinities(Registerable<AffinityDefinition> ctx) {
         // Fire > Wind > Lightning > Earth > Water > Fire
-        affinity(ctx, FIRE, 0xFF6A00, WIND);
-        affinity(ctx, WIND, 0xB2FF59, LIGHTNING);
-        affinity(ctx, LIGHTNING, 0x80D8FF, EARTH);
-        affinity(ctx, EARTH, 0x8D6E63, WATER);
-        affinity(ctx, WATER, 0x2979FF, FIRE);
+        affinity(ctx, FIRE, 0xFF6A00, WIND, VfxStyle.FLAME);
+        affinity(ctx, WIND, 0xB2FF59, LIGHTNING, VfxStyle.WIND);
+        affinity(ctx, LIGHTNING, 0x80D8FF, EARTH, VfxStyle.LIGHTNING);
+        affinity(ctx, EARTH, 0x8D6E63, WATER, VfxStyle.EARTH);
+        affinity(ctx, WATER, 0x2979FF, FIRE, VfxStyle.WATER);
         // Advanced natures (Wood, Ice, Lava, Magnet, ... Yin, Yang) from the clan catalog.
         NarutoClanCatalog.get().affinities.forEach((path, def) -> ctx.register(key(AnimeRegistries.AFFINITY, path), def));
     }
 
     private static void affinity(Registerable<AffinityDefinition> ctx, RegistryKey<AffinityDefinition> key, int color,
-                                 RegistryKey<AffinityDefinition> beats) {
+                                 RegistryKey<AffinityDefinition> beats, VfxStyle style) {
         ctx.register(key, new AffinityDefinition(SYSTEM, name("affinity", key), color, List.of(beats.getValue()), 1.5f,
-                List.of(), Optional.empty()));
+                List.of(), Optional.empty(), Optional.of(style)));
     }
 
     // ------------------------------------------------------------------ Clans (Narutopedia Category:Clans)
@@ -105,7 +107,8 @@ public final class NarutoContentBootstrap {
                 40,
                 Optional.empty(), Optional.empty(), Optional.empty(),
                 List.of(new DashStrikeAction(DashStrikeAction.Mode.BEHIND_ATTACKER, 3f, 0f, 1f, 0f),
-                        new SelfBuffAction(List.of(new SelfBuffAction.Effect(StatusEffects.SPEED, 40, 1, false)), 0f))));
+                        new SelfBuffAction(List.of(new SelfBuffAction.Effect(StatusEffects.SPEED, 40, 1, false)), 0f)),
+                AbilityVisuals.of(VfxStyle.SMOKE)));   // the log-swap puff
 
         // Every clan jutsu (417) from the clan catalog.
         NarutoClanCatalog.get().abilities.forEach((path, def) -> ctx.register(key(AnimeRegistries.ABILITY, path), def));

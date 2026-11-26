@@ -17,5 +17,8 @@
     "fallback": "Leaf Whirlwind",
     "translate": "ability.narutorpg.leaf_whirlwind"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

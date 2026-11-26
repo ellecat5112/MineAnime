@@ -24,5 +24,9 @@
     "fallback": "Crystal Barrier Technique",
     "translate": "ability.narutorpg.crystal_barrier_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

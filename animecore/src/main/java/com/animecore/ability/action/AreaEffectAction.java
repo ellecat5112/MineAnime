@@ -1,7 +1,6 @@
 package com.animecore.ability.action;
 
 import com.animecore.ability.AbilityContext;
-import com.animecore.platform.AnimeParticles;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -37,6 +36,7 @@ public record AreaEffectAction(float radius, float coneDegrees, List<SelfBuffAct
         Vec3d look = ctx.look();
         double cosHalf = Math.cos(Math.toRadians(coneDegrees / 2.0));
         Box box = new Box(origin, origin).expand(r);
+        com.animecore.vfx.ScreenEffect screen = com.animecore.vfx.AbilityVfx.resolveScreen(ctx.definition(), ctx.vfxStyle(), this);
         for (LivingEntity target : ctx.world().getEntitiesByClass(LivingEntity.class, box,
                 e -> e != ctx.caster() && e.isAlive() && e.squaredDistanceTo(origin) <= r * r)) {
             Vec3d to = target.getPos().add(0, target.getHeight() / 2, 0).subtract(origin);
@@ -46,18 +46,18 @@ public record AreaEffectAction(float radius, float coneDegrees, List<SelfBuffAct
                         false, e.showParticles(), true), ctx.caster());
             }
             if (damage > 0f) ctx.damage(target, damage, 0, 0f);
+            int dur = effects.stream().mapToInt(SelfBuffAction.Effect::duration).max().orElse(60);
+            com.animecore.vfx.AbilityVfx.emit(ctx.world(), target, com.animecore.vfx.VfxKind.MARK, ctx.vfxStyle(), ctx.vfxColor(),
+                    target.getPos().add(0, target.getHeight() + 0.4, 0), Vec3d.ZERO, Math.min(200, dur), target.getId());
+            if (target instanceof net.minecraft.server.network.ServerPlayerEntity sp) {
+                com.animecore.vfx.AbilityVfx.screen(sp, screen, ctx.vfxStyle(), ctx.vfxColor(), Math.max(60, Math.min(200, dur)));
+            }
             if (pull != 0f && to.lengthSquared() > 1e-4) {
                 Vec3d v = to.normalize().multiply(-pull * 0.5);
                 target.addVelocity(v.x, 0.1 * Math.abs(pull), v.z);
                 target.velocityModified = true;
             }
         }
-        int points = (int) (r * 10);
-        for (int n = 0; n < points; n++) {
-            double a = (Math.PI * 2 * n) / points;
-            Vec3d dir = new Vec3d(Math.cos(a), 0, Math.sin(a));
-            if (coneDegrees < 360f && dir.dotProduct(new Vec3d(look.x, 0, look.z).normalize()) < cosHalf) continue;
-            ctx.world().spawnParticles(AnimeParticles.dust(color, 1.2f), origin.x + dir.x * r, origin.y - 0.6, origin.z + dir.z * r, 1, 0, 0.3, 0, 0);
-        }
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.AREA, origin, look, r, coneDegrees);
     }
 }

@@ -21,5 +21,8 @@
     "fallback": "Chakra Suppression Technique",
     "translate": "ability.narutorpg.chakra_suppression_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

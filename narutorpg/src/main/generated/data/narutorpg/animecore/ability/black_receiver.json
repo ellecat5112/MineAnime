@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.black_receiver"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

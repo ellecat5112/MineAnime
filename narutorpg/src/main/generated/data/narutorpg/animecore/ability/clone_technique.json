@@ -39,5 +39,8 @@
     "fallback": "Clone Technique",
     "translate": "ability.narutorpg.clone_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

@@ -27,5 +27,8 @@
     "fallback": "Insect Rope Technique",
     "translate": "ability.narutorpg.insect_rope_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

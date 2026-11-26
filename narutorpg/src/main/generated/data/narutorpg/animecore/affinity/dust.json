@@ -12,5 +12,6 @@
   "strong_against": [
     "narutorpg:wood"
   ],
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "vfx_style": "light"
 }

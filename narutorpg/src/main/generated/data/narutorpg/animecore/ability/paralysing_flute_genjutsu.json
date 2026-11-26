@@ -33,5 +33,9 @@
     "fallback": "Paralysing Flute Genjutsu",
     "translate": "ability.narutorpg.paralysing_flute_genjutsu"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

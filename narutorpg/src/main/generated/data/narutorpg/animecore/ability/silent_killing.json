@@ -27,5 +27,8 @@
     "fallback": "Silent Killing",
     "translate": "ability.narutorpg.silent_killing"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

@@ -32,7 +32,11 @@
     "translate": "ability.narutorpg.adamantine_sealing_chains"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "air_gold_dust_protective_wall": {
    "actions": [
@@ -139,7 +143,11 @@
     "translate": "ability.narutorpg.allied_shinobi_forces_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "amanohabaya": {
    "actions": [
@@ -167,7 +175,10 @@
     "translate": "ability.narutorpg.amanohabaya"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "amaterasu": {
    "actions": [
@@ -194,7 +205,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 1710618,
+    "style": "flame"
+   }
   },
   "amaterasu_flame_wrapping_fire": {
    "actions": [
@@ -234,7 +249,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 1710618,
+    "style": "flame"
+   }
   },
   "amenosubaruboshinomikoto": {
    "actions": [
@@ -262,7 +281,10 @@
     "translate": "ability.narutorpg.amenosubaruboshinomikoto"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "amenosubaruboshinomikoto_gyokko": {
    "actions": [
@@ -290,7 +312,10 @@
     "translate": "ability.narutorpg.amenosubaruboshinomikoto_gyokko"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "amenosubaruboshinomikoto_ryugu": {
    "actions": [
@@ -318,7 +343,10 @@
     "translate": "ability.narutorpg.amenosubaruboshinomikoto_ryugu"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "amenotejikara": {
    "actions": [
@@ -356,7 +384,10 @@
     "translate": "ability.narutorpg.amenotejikara"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "animal_path": {
    "actions": [
@@ -381,7 +412,10 @@
     "translate": "ability.narutorpg.animal_path"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "antlion_ninja_arts_ephemeral": {
    "actions": [
@@ -471,7 +505,10 @@
     "translate": "ability.narutorpg.asura_attack"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "asura_path": {
    "actions": [
@@ -496,7 +533,10 @@
     "translate": "ability.narutorpg.asura_path"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "ballistic_waterwheel": {
    "actions": [
@@ -559,7 +599,10 @@
     "translate": "ability.narutorpg.bansho_ten_in"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "beast_human_clone": {
    "actions": [
@@ -603,7 +646,10 @@
     "translate": "ability.narutorpg.beast_human_clone"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "beast_human_fury_kicks": {
    "actions": [
@@ -627,7 +673,10 @@
     "translate": "ability.narutorpg.beast_human_fury_kicks"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "beast_human_needle_senbon": {
    "actions": [
@@ -690,7 +739,10 @@
     "translate": "ability.narutorpg.bee_bomb_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "poison"
+   }
   },
   "bee_honey_technique": {
    "actions": [
@@ -725,7 +777,10 @@
     "translate": "ability.narutorpg.bee_honey_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "poison"
+   }
   },
   "beeswax_clone": {
    "actions": [
@@ -769,7 +824,10 @@
     "translate": "ability.narutorpg.beeswax_clone"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "poison"
+   }
   },
   "black_holy_hammer": {
    "actions": [
@@ -794,7 +852,10 @@
     "translate": "ability.narutorpg.black_holy_hammer"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "black_iron_fist": {
    "actions": [
@@ -850,7 +911,10 @@
     "translate": "ability.narutorpg.black_receiver"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "black_secret_technique_black_iron": {
    "actions": [
@@ -946,7 +1010,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 1710618,
+    "style": "flame"
+   }
   },
   "blaze_release_kagutsuchi": {
    "actions": [
@@ -973,7 +1041,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 1710618,
+    "style": "flame"
+   }
   },
   "blaze_release_susanoo_kagutsuchi": {
    "actions": [
@@ -1000,7 +1072,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 1710618,
+    "style": "flame"
+   }
   },
   "blaze_release_yasaka_magatama": {
    "actions": [
@@ -1027,7 +1103,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 1710618,
+    "style": "flame"
+   }
   },
   "blocking_technique_absorption_seal": {
    "actions": [
@@ -1065,7 +1145,10 @@
     "translate": "ability.narutorpg.blocking_technique_absorption_seal"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "blood_dragon_ascension": {
    "actions": [
@@ -1090,7 +1173,10 @@
     "translate": "ability.narutorpg.blood_dragon_ascension"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "blood"
+   }
   },
   "blood_transformation_technique": {
    "actions": [
@@ -1128,7 +1214,10 @@
     "translate": "ability.narutorpg.blood_transformation_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "blood"
+   }
   },
   "body_flicker_technique": {
    "actions": [
@@ -1216,7 +1305,10 @@
     "translate": "ability.narutorpg.broadaxe"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "butterfly_bullet_bombing": {
    "actions": [
@@ -1248,7 +1340,10 @@
     "translate": "ability.narutorpg.butterfly_bullet_bombing"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "butterfly_mode": {
    "actions": [
@@ -1284,7 +1379,10 @@
     "translate": "ability.narutorpg.butterfly_mode"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "calorie_control": {
    "actions": [
@@ -1383,7 +1481,11 @@
     "translate": "ability.narutorpg.cat_covering"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "cat_god_possession_monster_cat_beckoning_technique": {
    "actions": [
@@ -1419,7 +1521,11 @@
     "translate": "ability.narutorpg.cat_god_possession_monster_cat_beckoning_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "cat_surprise": {
    "actions": [
@@ -1455,7 +1561,10 @@
     "translate": "ability.narutorpg.cat_surprise"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "cellular_regeneration_absorption": {
    "actions": [
@@ -1482,7 +1591,11 @@
     "translate": "ability.narutorpg.cellular_regeneration_absorption"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 7798531,
+    "style": "light"
+   }
   },
   "cellular_regeneration_ejection": {
    "actions": [
@@ -1518,7 +1631,11 @@
     "translate": "ability.narutorpg.cellular_regeneration_ejection"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16750592,
+    "style": "energy"
+   }
   },
   "certain_kill_ice_spears": {
    "actions": [
@@ -1586,7 +1703,11 @@
     "translate": "ability.narutorpg.chain"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16750592,
+    "style": "energy"
+   }
   },
   "chakra_edible_creation": {
    "actions": [
@@ -1624,7 +1745,10 @@
     "translate": "ability.narutorpg.chakra_edible_creation"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "chakra_enhancing_music": {
    "actions": [
@@ -1745,7 +1869,10 @@
     "translate": "ability.narutorpg.chakra_suppression_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "chakra_threads_fuma": {
    "actions": [
@@ -1830,7 +1957,10 @@
     "translate": "ability.narutorpg.character_bind_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "chibaku_tensei": {
    "actions": [
@@ -1866,7 +1996,10 @@
     "translate": "ability.narutorpg.chibaku_tensei"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "chidori": {
    "actions": [
@@ -1941,7 +2074,10 @@
     "translate": "ability.narutorpg.clone_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "coercion_sharingan": {
    "actions": [
@@ -1982,7 +2118,12 @@
     "translate": "ability.narutorpg.coercion_sharingan"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "coral_palm": {
    "actions": [
@@ -2006,7 +2147,10 @@
     "translate": "ability.narutorpg.coral_palm"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "crystal_barrier_technique": {
    "actions": [
@@ -2040,7 +2184,11 @@
     "translate": "ability.narutorpg.crystal_barrier_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "curse_mandala": {
    "actions": [
@@ -2110,7 +2258,11 @@
     "translate": "ability.narutorpg.cursed_tongue_eradication_seal"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "daihakoten": {
    "actions": [
@@ -2135,7 +2287,10 @@
     "translate": "ability.narutorpg.daihakoten"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "daikokuten": {
    "actions": [
@@ -2173,7 +2328,10 @@
     "translate": "ability.narutorpg.daikokuten"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "daikokuten_collapse": {
    "actions": [
@@ -2198,7 +2356,10 @@
     "translate": "ability.narutorpg.daikokuten_collapse"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "daikokuten_divine_descent": {
    "actions": [
@@ -2223,7 +2384,10 @@
     "translate": "ability.narutorpg.daikokuten_divine_descent"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "daikokuten_falling_star": {
    "actions": [
@@ -2248,7 +2412,10 @@
     "translate": "ability.narutorpg.daikokuten_falling_star"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "daikokuten_karma_flame": {
    "actions": [
@@ -2286,7 +2453,10 @@
     "translate": "ability.narutorpg.daikokuten_karma_flame"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "daikokuten_sukunahikona_twin_crash": {
    "actions": [
@@ -2311,7 +2481,10 @@
     "translate": "ability.narutorpg.daikokuten_sukunahikona_twin_crash"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "dance_of_the_camellia": {
    "actions": [
@@ -2343,7 +2516,11 @@
     "translate": "ability.narutorpg.dance_of_the_camellia"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16119285,
+    "style": "light"
+   }
   },
   "dance_of_the_clematis_flower": {
    "actions": [
@@ -2375,7 +2552,11 @@
     "translate": "ability.narutorpg.dance_of_the_clematis_flower"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16119285,
+    "style": "light"
+   }
   },
   "dance_of_the_clematis_vine": {
    "actions": [
@@ -2407,7 +2588,11 @@
     "translate": "ability.narutorpg.dance_of_the_clematis_vine"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16119285,
+    "style": "light"
+   }
   },
   "dance_of_the_larch": {
    "actions": [
@@ -2439,7 +2624,11 @@
     "translate": "ability.narutorpg.dance_of_the_larch"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16119285,
+    "style": "light"
+   }
   },
   "dance_of_the_seedling_fern": {
    "actions": [
@@ -2469,7 +2658,11 @@
     "translate": "ability.narutorpg.dance_of_the_seedling_fern"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16119285,
+    "style": "light"
+   }
   },
   "dance_of_the_willow": {
    "actions": [
@@ -2501,7 +2694,11 @@
     "translate": "ability.narutorpg.dance_of_the_willow"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16119285,
+    "style": "light"
+   }
   },
   "dead_demon_consuming_seal": {
    "actions": [
@@ -2545,7 +2742,11 @@
     "translate": "ability.narutorpg.dead_demon_consuming_seal"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "demonic_illusion_hell_viewing_technique": {
    "actions": [
@@ -2586,7 +2787,11 @@
     "translate": "ability.narutorpg.demonic_illusion_hell_viewing_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "demonic_illusion_mirage_crow": {
    "actions": [
@@ -2627,7 +2832,12 @@
     "translate": "ability.narutorpg.demonic_illusion_mirage_crow"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "demonic_illusion_mirror_heaven_and_earth_change": {
    "actions": [
@@ -2668,7 +2878,12 @@
     "translate": "ability.narutorpg.demonic_illusion_mirror_heaven_and_earth_change"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "demonic_illusion_shackling_stakes_technique": {
    "actions": [
@@ -2709,7 +2924,12 @@
     "translate": "ability.narutorpg.demonic_illusion_shackling_stakes_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "demonic_illusion_tree_binding_death": {
    "actions": [
@@ -2754,7 +2974,11 @@
     "translate": "ability.narutorpg.demonic_illusion_tree_binding_death"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "demonic_mirroring_ice_crystals": {
    "actions": [
@@ -2824,7 +3048,10 @@
     "translate": "ability.narutorpg.demonic_statue_chains"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "deva_path": {
    "actions": [
@@ -2862,7 +3089,10 @@
     "translate": "ability.narutorpg.deva_path"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "double_human_bullet_tank": {
    "actions": [
@@ -2976,7 +3206,10 @@
     "translate": "ability.narutorpg.dynamic_entry"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "dynamic_marking": {
    "actions": [
@@ -3012,7 +3245,10 @@
     "translate": "ability.narutorpg.dynamic_marking"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "earth_release_antlion_technique": {
    "actions": [
@@ -3305,7 +3541,11 @@
     "translate": "ability.narutorpg.eight_gates"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 4431943,
+    "style": "energy"
+   }
   },
   "eight_trigrams_grid_palm": {
    "actions": [
@@ -3346,7 +3586,10 @@
     "translate": "ability.narutorpg.eight_trigrams_grid_palm"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_mountain_crusher": {
    "actions": [
@@ -3378,7 +3621,10 @@
     "translate": "ability.narutorpg.eight_trigrams_mountain_crusher"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_one_hundred_twenty_eight_palms": {
    "actions": [
@@ -3410,7 +3656,10 @@
     "translate": "ability.narutorpg.eight_trigrams_one_hundred_twenty_eight_palms"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_palms_revolving_heaven": {
    "actions": [
@@ -3444,7 +3693,10 @@
     "translate": "ability.narutorpg.eight_trigrams_palms_revolving_heaven"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_sealing_style": {
    "actions": [
@@ -3475,7 +3727,11 @@
     "translate": "ability.narutorpg.eight_trigrams_sealing_style"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "eight_trigrams_sixteen_palms": {
    "actions": [
@@ -3507,7 +3763,10 @@
     "translate": "ability.narutorpg.eight_trigrams_sixteen_palms"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_sixty_four_palms": {
    "actions": [
@@ -3539,7 +3798,10 @@
     "translate": "ability.narutorpg.eight_trigrams_sixty_four_palms"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_thirty_two_palms": {
    "actions": [
@@ -3571,7 +3833,10 @@
     "translate": "ability.narutorpg.eight_trigrams_thirty_two_palms"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_twin_lions_crumbling_attack": {
    "actions": [
@@ -3609,7 +3874,10 @@
     "translate": "ability.narutorpg.eight_trigrams_twin_lions_crumbling_attack"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_vacuum_palm": {
    "actions": [
@@ -3641,7 +3909,10 @@
     "translate": "ability.narutorpg.eight_trigrams_vacuum_palm"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "eight_trigrams_vacuum_wall_palm": {
    "actions": [
@@ -3675,7 +3946,10 @@
     "translate": "ability.narutorpg.eight_trigrams_vacuum_wall_palm"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "empty_cicada_shell_technique": {
    "actions": [
@@ -3757,7 +4031,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "exploding_human_technique": {
    "actions": [
@@ -3782,7 +4060,10 @@
     "translate": "ability.narutorpg.exploding_human_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "blood"
+   }
   },
   "face_copying_technique": {
    "actions": [
@@ -3837,7 +4118,10 @@
     "translate": "ability.narutorpg.fang_passing_fang"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "fang_rotating_fang": {
    "actions": [
@@ -3869,7 +4153,10 @@
     "translate": "ability.narutorpg.fang_rotating_fang"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "fang_wolf_fang": {
    "actions": [
@@ -3901,7 +4188,10 @@
     "translate": "ability.narutorpg.fang_wolf_fang"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "fire_release_ash_pile_burning": {
    "actions": [
@@ -4164,7 +4454,10 @@
     "translate": "ability.narutorpg.flaming_arrow_of_amazing_ability"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "flaming_arrow_warhead": {
    "actions": [
@@ -4189,7 +4482,10 @@
     "translate": "ability.narutorpg.flaming_arrow_warhead"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "formation_inoshikacho": {
    "actions": [
@@ -4258,7 +4554,10 @@
     "translate": "ability.narutorpg.four_legs_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "four_symbols_seal": {
    "actions": [
@@ -4289,7 +4588,11 @@
     "translate": "ability.narutorpg.four_symbols_seal"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "front_lotus_eight_trigrams_palms_revolving_heaven": {
    "actions": [
@@ -4321,7 +4624,10 @@
     "translate": "ability.narutorpg.front_lotus_eight_trigrams_palms_revolving_heaven"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "furious_smelting": {
    "actions": [
@@ -4345,7 +4651,10 @@
     "translate": "ability.narutorpg.furious_smelting"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "fury": {
    "actions": [
@@ -4420,7 +4729,11 @@
     "translate": "ability.narutorpg.genjutsu_ketsuryugan"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "genjutsu_sharingan": {
    "actions": [
@@ -4461,7 +4774,12 @@
     "translate": "ability.narutorpg.genjutsu_sharingan"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "gentle_fist": {
    "actions": [
@@ -4485,7 +4803,10 @@
     "translate": "ability.narutorpg.gentle_fist"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "gentle_fist_art_one_blow_body": {
    "actions": [
@@ -4509,7 +4830,10 @@
     "translate": "ability.narutorpg.gentle_fist_art_one_blow_body"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "gentle_fist_tenketsu_needle": {
    "actions": [
@@ -4541,7 +4865,10 @@
     "translate": "ability.narutorpg.gentle_fist_tenketsu_needle"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "gentle_step_twin_lion_fists": {
    "actions": [
@@ -4579,7 +4906,10 @@
     "translate": "ability.narutorpg.gentle_step_twin_lion_fists"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "gentle_wind_spiralling_twin_lion_fists_snow_white": {
    "actions": [
@@ -4617,7 +4947,10 @@
     "translate": "ability.narutorpg.gentle_wind_spiralling_twin_lion_fists_snow_white"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "golden_wheel_reincarnation_explosion": {
    "actions": [
@@ -4642,7 +4975,10 @@
     "translate": "ability.narutorpg.golden_wheel_reincarnation_explosion"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "heal_bite": {
    "actions": [
@@ -4815,7 +5151,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "hokage_style_sixty_year_old_technique_kakuan_entering_society_with_bliss_bringing_hands": {
    "actions": [
@@ -4928,7 +5268,10 @@
     "translate": "ability.narutorpg.human_beast_mixture_transformation_three_headed_wolf"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "human_bullet_tank": {
    "actions": [
@@ -5021,7 +5364,10 @@
     "translate": "ability.narutorpg.human_cocoon_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "human_path": {
    "actions": [
@@ -5046,7 +5392,10 @@
     "translate": "ability.narutorpg.human_path"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "hurricane_thunderclap_majestic_attire_sword_stroke": {
    "actions": [
@@ -5079,7 +5428,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "hydrification_technique": {
    "actions": [
@@ -5152,7 +5505,11 @@
     "translate": "ability.narutorpg.hypnotic_genjutsu_wild_beast_communication"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "hyuga_main_family_s_juinjutsu": {
    "actions": [
@@ -5183,7 +5540,11 @@
     "translate": "ability.narutorpg.hyuga_main_family_s_juinjutsu"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "ice_breaking_fist": {
    "actions": [
@@ -5743,7 +6104,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "infinite_embrace": {
    "actions": [
@@ -5781,7 +6146,11 @@
     "translate": "ability.narutorpg.infinite_embrace"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "insect_clone_technique": {
    "actions": [
@@ -5825,7 +6194,10 @@
     "translate": "ability.narutorpg.insect_clone_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "insect_deception_technique": {
    "actions": [
@@ -5863,7 +6235,10 @@
     "translate": "ability.narutorpg.insect_deception_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "insect_jamming_technique": {
    "actions": [
@@ -5898,7 +6273,10 @@
     "translate": "ability.narutorpg.insect_jamming_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "insect_jar_technique": {
    "actions": [
@@ -5936,7 +6314,10 @@
     "translate": "ability.narutorpg.insect_jar_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "insect_rope_technique": {
    "actions": [
@@ -5971,7 +6352,10 @@
     "translate": "ability.narutorpg.insect_rope_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "iron_mountain_leaning": {
    "actions": [
@@ -6015,7 +6399,10 @@
     "translate": "ability.narutorpg.iron_mountain_leaning"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "iron_sand_black_iron_wings": {
    "actions": [
@@ -6123,7 +6510,10 @@
     "translate": "ability.narutorpg.iron_sand_clone"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "iron_sand_drizzle": {
    "actions": [
@@ -6386,7 +6776,12 @@
     "translate": "ability.narutorpg.izanagi"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "izanami": {
    "actions": [
@@ -6427,7 +6822,12 @@
     "translate": "ability.narutorpg.izanami"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "jar_of_poison_technique": {
    "actions": [
@@ -6461,7 +6861,10 @@
     "translate": "ability.narutorpg.jar_of_poison_technique"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "jet_booster_jump": {
    "actions": [
@@ -6497,7 +6900,11 @@
     "translate": "ability.narutorpg.jet_booster_jump"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16750592,
+    "style": "energy"
+   }
   },
   "kama": {
    "actions": [
@@ -6535,7 +6942,11 @@
     "translate": "ability.narutorpg.kama"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "kamui": {
    "actions": [
@@ -6570,7 +6981,11 @@
    },
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "kamui_lightning_cutter": {
    "actions": [
@@ -6597,7 +7012,11 @@
    },
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "kamui_running": {
    "actions": [
@@ -6636,7 +7055,11 @@
    },
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "kamui_running_brutal": {
    "actions": [
@@ -6663,7 +7086,11 @@
    },
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "kamui_shuriken": {
    "actions": [
@@ -6689,7 +7116,11 @@
    },
    "required_tier": 6,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "kanzeon_lotus_king": {
    "actions": [
@@ -6762,7 +7193,12 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "lacquer_bloom": {
    "actions": [
@@ -6787,7 +7223,10 @@
     "translate": "ability.narutorpg.lacquer_bloom"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "leaf_great_whirlwind": {
    "actions": [
@@ -6811,7 +7250,10 @@
     "translate": "ability.narutorpg.leaf_great_whirlwind"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "leaf_whirlwind": {
    "actions": [
@@ -6835,7 +7277,10 @@
     "translate": "ability.narutorpg.leaf_whirlwind"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "leaping_bullet_shell_tower": {
    "actions": [
@@ -6859,7 +7304,10 @@
     "translate": "ability.narutorpg.leaping_bullet_shell_tower"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "lightning_release_chakra_mode": {
    "actions": [
@@ -6996,7 +7444,11 @@
     "translate": "ability.narutorpg.lightning_transmission"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "limbo_border_jail": {
    "actions": [
@@ -7021,7 +7473,10 @@
     "translate": "ability.narutorpg.limbo_border_jail"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "localised_reincarnation_explosion": {
    "actions": [
@@ -7059,7 +7514,10 @@
     "translate": "ability.narutorpg.localised_reincarnation_explosion"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "magnet_iron_grain_seal_palm": {
    "actions": [
@@ -7154,7 +7612,10 @@
     "translate": "ability.narutorpg.magnet_release_conserving_bee_twin_blades"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "poison"
+   }
   },
   "magnet_release_gold_dust_imperial_funeral": {
    "actions": [
@@ -7325,7 +7786,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "manipulated_shuriken_technique": {
    "actions": [
@@ -7648,7 +8113,10 @@
     "translate": "ability.narutorpg.mind_clone_switch_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "mind_disturbance_dance_performance_technique": {
    "actions": [
@@ -7712,7 +8180,11 @@
     "translate": "ability.narutorpg.mind_puppet_switch_cursed_seal_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "multi_size_technique": {
    "actions": [
@@ -7785,7 +8257,11 @@
     "translate": "ability.narutorpg.multiple_lotus_nonself_connected_cannons"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16750592,
+    "style": "energy"
+   }
   },
   "multiple_string_light_formation": {
    "actions": [
@@ -7819,7 +8295,11 @@
     "translate": "ability.narutorpg.multiple_string_light_formation"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "multiple_wood_release_clone_technique": {
    "actions": [
@@ -7864,7 +8344,10 @@
     "translate": "ability.narutorpg.multiple_wood_release_clone_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "mystical_palm_technique": {
    "actions": [
@@ -7891,7 +8374,11 @@
     "translate": "ability.narutorpg.mystical_palm_technique"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 7798531,
+    "style": "light"
+   }
   },
   "naka_shrine_pass_technique": {
    "actions": [
@@ -7925,7 +8412,11 @@
     "translate": "ability.narutorpg.naka_shrine_pass_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "naraka_path": {
    "actions": [
@@ -7950,7 +8441,10 @@
     "translate": "ability.narutorpg.naraka_path"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "net_shadow_paralysis_technique": {
    "actions": [
@@ -8018,7 +8512,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "odachi_mow_down": {
    "actions": [
@@ -8043,7 +8541,10 @@
     "translate": "ability.narutorpg.odachi_mow_down"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "offsetting_sound": {
    "actions": [
@@ -8084,7 +8585,11 @@
     "translate": "ability.narutorpg.offsetting_sound"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "ohirume": {
    "actions": [
@@ -8110,7 +8615,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "onikuma_clan_s_hijutsu": {
    "actions": [
@@ -8176,7 +8685,10 @@
     "translate": "ability.narutorpg.origami_replacement_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "outer_path": {
    "actions": [
@@ -8214,7 +8726,10 @@
     "translate": "ability.narutorpg.outer_path"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "outer_path_samsara_of_heavenly_life_technique": {
    "actions": [
@@ -8252,7 +8767,10 @@
     "translate": "ability.narutorpg.outer_path_samsara_of_heavenly_life_technique"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "palm_bottom": {
    "actions": [
@@ -8284,7 +8802,10 @@
     "translate": "ability.narutorpg.palm_bottom"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "paralysing_flute_genjutsu": {
    "actions": [
@@ -8325,7 +8846,11 @@
     "translate": "ability.narutorpg.paralysing_flute_genjutsu"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "parasitic_destruction_insect_technique": {
    "actions": [
@@ -8349,7 +8874,10 @@
     "translate": "ability.narutorpg.parasitic_destruction_insect_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "parasitic_giant_insect_bug_bite": {
    "actions": [
@@ -8387,7 +8915,10 @@
     "translate": "ability.narutorpg.parasitic_giant_insect_bug_bite"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "partial_multi_size_technique": {
    "actions": [
@@ -8448,7 +8979,10 @@
     "translate": "ability.narutorpg.passing_fang"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "piston_fist": {
    "actions": [
@@ -8480,7 +9014,10 @@
     "translate": "ability.narutorpg.piston_fist"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "piston_fist_style_one": {
    "actions": [
@@ -8512,7 +9049,10 @@
     "translate": "ability.narutorpg.piston_fist_style_one"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "poison_cloud_technique": {
    "actions": [
@@ -8547,7 +9087,10 @@
     "translate": "ability.narutorpg.poison_cloud_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "poison_mist": {
    "actions": [
@@ -8574,7 +9117,10 @@
     "translate": "ability.narutorpg.poison_mist"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "poison"
+   }
   },
   "preta_path": {
    "actions": [
@@ -8612,7 +9158,10 @@
     "translate": "ability.narutorpg.preta_path"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "prisoner_cursed_seal": {
    "actions": [
@@ -8643,7 +9192,11 @@
     "translate": "ability.narutorpg.prisoner_cursed_seal"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "protecting_eight_trigrams_sixty_four_palms": {
    "actions": [
@@ -8675,7 +9228,10 @@
     "translate": "ability.narutorpg.protecting_eight_trigrams_sixty_four_palms"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "puppet_reincarnation": {
    "actions": [
@@ -8700,7 +9256,10 @@
     "translate": "ability.narutorpg.puppet_reincarnation"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "puppet_technique": {
    "actions": [
@@ -8724,7 +9283,10 @@
     "translate": "ability.narutorpg.puppet_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "rabbit_hair_needle": {
    "actions": [
@@ -8756,7 +9318,10 @@
     "translate": "ability.narutorpg.rabbit_hair_needle"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "regeneration_ability": {
    "actions": [
@@ -8854,7 +9419,11 @@
     "translate": "ability.narutorpg.reverse_four_symbols_sealing"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "rock_hive": {
    "actions": [
@@ -8890,7 +9459,10 @@
     "translate": "ability.narutorpg.rock_hive"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "poison"
+   }
   },
   "sage_art_magnet_release_rasengan": {
    "actions": [
@@ -8972,7 +9544,10 @@
     "translate": "ability.narutorpg.sage_art_super_tailed_beast_rasenshuriken"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "sage_art_wood_release_true_several_thousand_hands": {
    "actions": [
@@ -9041,7 +9616,10 @@
     "translate": "ability.narutorpg.sage_transformation"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "sasuke_uchiha_s_spacetime_dojutsu": {
    "actions": [
@@ -9079,7 +9657,10 @@
     "translate": "ability.narutorpg.sasuke_uchiha_s_spacetime_dojutsu"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "scorch_release_halo_hurricane_jet_black_arrow_style_zero": {
    "actions": [
@@ -9106,7 +9687,11 @@
    },
    "required_tier": 10,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "sea_of_trees_erosion": {
    "actions": [
@@ -9173,7 +9758,11 @@
     "translate": "ability.narutorpg.sealing_technique_black_aura"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "sealing_technique_five_elements": {
    "actions": [
@@ -9241,7 +9830,11 @@
     "translate": "ability.narutorpg.sealing_technique_roen_kodon"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "secret_technique_insect_cocoon": {
    "actions": [
@@ -9280,7 +9873,10 @@
     "translate": "ability.narutorpg.secret_technique_insect_cocoon"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "secret_technique_insect_gathering": {
    "actions": [
@@ -9315,7 +9911,10 @@
     "translate": "ability.narutorpg.secret_technique_insect_gathering"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "secret_technique_insect_sphere": {
    "actions": [
@@ -9353,7 +9952,10 @@
     "translate": "ability.narutorpg.secret_technique_insect_sphere"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "secret_technique_insect_tornado": {
    "actions": [
@@ -9391,7 +9993,10 @@
     "translate": "ability.narutorpg.secret_technique_insect_tornado"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "secret_technique_insect_wall": {
    "actions": [
@@ -9425,7 +10030,10 @@
     "translate": "ability.narutorpg.secret_technique_insect_wall"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "self_cursing_seal": {
    "actions": [
@@ -9456,7 +10064,11 @@
     "translate": "ability.narutorpg.self_cursing_seal"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "self_seal_technique": {
    "actions": [
@@ -9594,7 +10206,10 @@
     "translate": "ability.narutorpg.shadow_clone_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "shadow_clutch_technique": {
    "actions": [
@@ -9897,7 +10512,10 @@
     "translate": "ability.narutorpg.shadow_stroke"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "shadowneck_binding_technique": {
    "actions": [
@@ -9972,7 +10590,11 @@
     "translate": "ability.narutorpg.shin_uchiha_s_spacetime_dojutsu"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "shinra_tensei": {
    "actions": [
@@ -9997,7 +10619,10 @@
     "translate": "ability.narutorpg.shinra_tensei"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "shuriken_shadow_clone_technique": {
    "actions": [
@@ -10046,7 +10671,10 @@
     "translate": "ability.narutorpg.shuriken_shadow_clone_technique"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "silent_killing": {
    "actions": [
@@ -10082,7 +10710,10 @@
     "translate": "ability.narutorpg.silent_killing"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "silver_wheel_reincarnation_explosion": {
    "actions": [
@@ -10107,7 +10738,10 @@
     "translate": "ability.narutorpg.silver_wheel_reincarnation_explosion"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "six_paths_of_pain": {
    "actions": [
@@ -10139,7 +10773,10 @@
     "translate": "ability.narutorpg.six_paths_of_pain"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "six_paths_technique": {
    "actions": [
@@ -10164,7 +10801,10 @@
     "translate": "ability.narutorpg.six_paths_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "six_paths_ten_tails_coffin_seal": {
    "actions": [
@@ -10202,7 +10842,10 @@
     "translate": "ability.narutorpg.six_paths_ten_tails_coffin_seal"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "six_red_yang_formation": {
    "actions": [
@@ -10240,7 +10883,10 @@
     "translate": "ability.narutorpg.six_red_yang_formation"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "spiked_human_bullet_tank": {
    "actions": [
@@ -10300,7 +10946,10 @@
     "translate": "ability.narutorpg.spindle_formation"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "insect"
+   }
   },
   "spiralling_tower_technique": {
    "actions": [
@@ -10439,7 +11088,11 @@
     "translate": "ability.narutorpg.string_bean_binding_illusion"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "string_light_formation": {
    "actions": [
@@ -10473,7 +11126,11 @@
     "translate": "ability.narutorpg.string_light_formation"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "strong_fist": {
    "actions": [
@@ -10497,7 +11154,10 @@
     "translate": "ability.narutorpg.strong_fist"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "successive_shots_iron_sand_drizzle": {
    "actions": [
@@ -10566,7 +11226,10 @@
     "translate": "ability.narutorpg.sukunahikona"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "sukunahikona_instant_appearance": {
    "actions": [
@@ -10604,7 +11267,10 @@
     "translate": "ability.narutorpg.sukunahikona_instant_appearance"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "sukunahikona_rain_of_early_summer": {
    "actions": [
@@ -10629,7 +11295,10 @@
     "translate": "ability.narutorpg.sukunahikona_rain_of_early_summer"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "sukunahikona_rapid_succession": {
    "actions": [
@@ -10654,7 +11323,10 @@
     "translate": "ability.narutorpg.sukunahikona_rapid_succession"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "sukunahikona_scale_fragment": {
    "actions": [
@@ -10679,7 +11351,10 @@
     "translate": "ability.narutorpg.sukunahikona_scale_fragment"
    },
    "required_tier": 10,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "summoning_demonic_statue_of_the_outer_path": {
    "actions": [
@@ -10704,7 +11379,10 @@
     "translate": "ability.narutorpg.summoning_demonic_statue_of_the_outer_path"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "summoning_rinnegan": {
    "actions": [
@@ -10742,7 +11420,10 @@
     "translate": "ability.narutorpg.summoning_rinnegan"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "super_fang_wolf_fang": {
    "actions": [
@@ -10774,7 +11455,10 @@
     "translate": "ability.narutorpg.super_fang_wolf_fang"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "super_multi_size_technique": {
    "actions": [
@@ -10870,7 +11554,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "susanoo_captive_slash": {
    "actions": [
@@ -10903,7 +11591,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "susanoo_chidori": {
    "actions": [
@@ -10930,7 +11622,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "susanoo_crush": {
    "actions": [
@@ -10956,7 +11652,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "susanoo_fist": {
    "actions": [
@@ -10982,7 +11682,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "susanoo_great_fireball_technique": {
    "actions": [
@@ -11009,7 +11713,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "susanoo_tsukumo": {
    "actions": [
@@ -11035,7 +11743,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "sword_of_kagutsuchi": {
    "actions": [
@@ -11062,7 +11774,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "tail_chasing_fang_fang_rotating_fang": {
    "actions": [
@@ -11094,7 +11810,10 @@
     "translate": "ability.narutorpg.tail_chasing_fang_fang_rotating_fang"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "wind"
+   }
   },
   "tailed_beast_ball": {
    "actions": [
@@ -11186,7 +11905,10 @@
     "translate": "ability.narutorpg.taisa_s_transformation_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "takamimusubinokami": {
    "actions": [
@@ -11211,7 +11933,10 @@
     "translate": "ability.narutorpg.takamimusubinokami"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "telescope_technique": {
    "actions": [
@@ -11280,7 +12005,10 @@
     "translate": "ability.narutorpg.temporal_rewind"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "ten_finger_drilling_bullets": {
    "actions": [
@@ -11312,7 +12040,11 @@
     "translate": "ability.narutorpg.ten_finger_drilling_bullets"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16119285,
+    "style": "light"
+   }
   },
   "tengai_shinsei": {
    "actions": [
@@ -11338,7 +12070,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "tenro_style_ninjutsu_beast_human_transformation_technique": {
    "actions": [
@@ -11369,7 +12105,10 @@
     "translate": "ability.narutorpg.tenro_style_ninjutsu_beast_human_transformation_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "tenseigan_chakra_mode": {
    "actions": [
@@ -11411,7 +12150,10 @@
     "translate": "ability.narutorpg.tenseigan_chakra_mode"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "thousand_bee_stings_technique": {
    "actions": [
@@ -11453,7 +12195,10 @@
     "translate": "ability.narutorpg.thousand_bee_stings_technique"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "thousand_flying_water_needles_of_death": {
    "actions": [
@@ -11522,7 +12267,11 @@
     "translate": "ability.narutorpg.tight_binding_golden_chain_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "top_transformed_buddha": {
    "actions": [
@@ -11592,7 +12341,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 1710618,
+    "style": "flame"
+   }
   },
   "transcription_seal_izanagi": {
    "actions": [
@@ -11631,7 +12384,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "transformation_technique": {
    "actions": [
@@ -11662,7 +12419,10 @@
     "translate": "ability.narutorpg.transformation_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "transmission_wood": {
    "actions": [
@@ -11730,7 +12490,10 @@
     "translate": "ability.narutorpg.true_chibaku_tensei"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   },
   "tsuchigumo_style_forbidden_life_technique_release_creation_of_heaven_and_earth": {
    "actions": [
@@ -11761,7 +12524,11 @@
     "translate": "ability.narutorpg.tsuchigumo_style_forbidden_life_technique_release_creation_of_heaven_and_earth"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "tsukuyomi": {
    "actions": [
@@ -11803,7 +12570,12 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "screen_effect": "illusion",
+    "style": "illusion"
+   }
   },
   "uchiha_flame_formation": {
    "actions": [
@@ -11908,7 +12680,11 @@
     "translate": "ability.narutorpg.uzumaki_sealing_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 16766287,
+    "style": "light"
+   }
   },
   "water_clone_technique": {
    "actions": [
@@ -11953,7 +12729,10 @@
     "translate": "ability.narutorpg.water_clone_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "water_gun_technique": {
    "actions": [
@@ -12042,7 +12821,10 @@
     "translate": "ability.narutorpg.water_needle"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "light"
+   }
   },
   "water_prison_shark_dance_technique": {
    "actions": [
@@ -12172,7 +12954,10 @@
     "translate": "ability.narutorpg.water_release_blood_conversion_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "blood"
+   }
   },
   "water_release_clear_mirror_still_water": {
    "actions": [
@@ -12744,7 +13529,10 @@
     "translate": "ability.narutorpg.wood_clone_technique"
    },
    "required_tier": 3,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "wood_release_advent_of_a_world_of_flowering_trees": {
    "actions": [
@@ -13520,7 +14308,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "yasaka_magatama_tailed_beast_noka": {
    "actions": [
@@ -13554,7 +14346,11 @@
    },
    "required_tier": 3,
    "required_transformation": "narutorpg:mangekyo_sharingan",
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "color": 12986408,
+    "style": "illusion"
+   }
   },
   "yomito_s_transformation_technique": {
    "actions": [
@@ -13585,7 +14381,10 @@
     "translate": "ability.narutorpg.yomito_s_transformation_technique"
    },
    "required_tier": 1,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "smoke"
+   }
   },
   "yomotsu_hirasaka": {
    "actions": [
@@ -13609,7 +14408,10 @@
     "translate": "ability.narutorpg.yomotsu_hirasaka"
    },
    "required_tier": 6,
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "visuals": {
+    "style": "space"
+   }
   }
  },
  "affinities": {
@@ -13627,7 +14429,8 @@
    "strong_against": [
     "narutorpg:ice"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "water"
   },
   "dust": {
    "advantage_multiplier": 1.5,
@@ -13644,7 +14447,8 @@
    "strong_against": [
     "narutorpg:wood"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "light"
   },
   "explosion": {
    "advantage_multiplier": 1.5,
@@ -13660,7 +14464,8 @@
    "strong_against": [
     "narutorpg:earth"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "flame"
   },
   "ice": {
    "advantage_multiplier": 1.5,
@@ -13677,7 +14482,8 @@
    "strong_against": [
     "narutorpg:water"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "ice"
   },
   "lava": {
    "advantage_multiplier": 1.5,
@@ -13693,7 +14499,8 @@
    "strong_against": [
     "narutorpg:wood"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "lava"
   },
   "magnet": {
    "advantage_multiplier": 1.5,
@@ -13710,7 +14517,8 @@
    "strong_against": [
     "narutorpg:wind"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "sand"
   },
   "scorch": {
    "advantage_multiplier": 1.5,
@@ -13726,7 +14534,8 @@
    "strong_against": [
     "narutorpg:ice"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "flame"
   },
   "storm": {
    "advantage_multiplier": 1.5,
@@ -13742,7 +14551,8 @@
    "strong_against": [
     "narutorpg:earth"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "lightning"
   },
   "wood": {
    "advantage_multiplier": 1.5,
@@ -13759,7 +14569,8 @@
    "strong_against": [
     "narutorpg:earth"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "plant"
   },
   "yang": {
    "advantage_multiplier": 1.5,
@@ -13772,7 +14583,8 @@
    "strong_against": [
     "narutorpg:yin"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "light"
   },
   "yin": {
    "advantage_multiplier": 1.5,
@@ -13785,7 +14597,8 @@
    "strong_against": [
     "narutorpg:yang"
    ],
-   "system": "narutorpg"
+   "system": "narutorpg",
+   "vfx_style": "shadow"
   }
  },
  "crawled": "2026-11-26",

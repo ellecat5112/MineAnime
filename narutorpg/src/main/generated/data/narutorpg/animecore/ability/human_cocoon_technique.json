@@ -27,5 +27,8 @@
     "fallback": "Human Cocoon Technique",
     "translate": "ability.narutorpg.human_cocoon_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

@@ -35,5 +35,8 @@
     "translate": "ability.narutorpg.human_beast_mixture_transformation_three_headed_wolf"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

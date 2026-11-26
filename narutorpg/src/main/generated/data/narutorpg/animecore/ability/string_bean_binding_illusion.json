@@ -33,5 +33,9 @@
     "fallback": "String Bean Binding Illusion",
     "translate": "ability.narutorpg.string_bean_binding_illusion"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

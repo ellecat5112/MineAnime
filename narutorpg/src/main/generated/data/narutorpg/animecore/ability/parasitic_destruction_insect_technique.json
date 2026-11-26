@@ -17,5 +17,8 @@
     "fallback": "Parasitic Destruction Insect Technique",
     "translate": "ability.narutorpg.parasitic_destruction_insect_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

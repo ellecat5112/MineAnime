@@ -34,6 +34,8 @@ public record SummonEntityAction(EntityType<?> entity, int count, float radius, 
             if (e instanceof MobEntity mob && persistent) mob.setPersistent();
             ctx.world().spawnEntity(e);
             ctx.world().spawnParticles(ParticleTypes.POOF, x, caster.getY() + 0.5, z, 10, 0.3, 0.5, 0.3, 0.02);
+            com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.IMPACT, new net.minecraft.util.math.Vec3d(x, caster.getY() + 0.5, z),
+                    net.minecraft.util.math.Vec3d.ZERO, 1.2f, 0f);
         }
     }
 }

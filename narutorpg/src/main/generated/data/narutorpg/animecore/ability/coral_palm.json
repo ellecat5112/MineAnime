@@ -17,5 +17,8 @@
     "fallback": "Coral Palm",
     "translate": "ability.narutorpg.coral_palm"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

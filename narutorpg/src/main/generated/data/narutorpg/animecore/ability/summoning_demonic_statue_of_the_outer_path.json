@@ -18,5 +18,8 @@
     "translate": "ability.narutorpg.summoning_demonic_statue_of_the_outer_path"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

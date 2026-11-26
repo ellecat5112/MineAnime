@@ -25,5 +25,8 @@
     "translate": "ability.narutorpg.eight_trigrams_mountain_crusher"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

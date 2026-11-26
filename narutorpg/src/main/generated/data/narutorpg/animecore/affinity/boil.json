@@ -11,5 +11,6 @@
   "strong_against": [
     "narutorpg:ice"
   ],
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "vfx_style": "water"
 }

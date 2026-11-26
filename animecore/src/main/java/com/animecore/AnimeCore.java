@@ -48,6 +48,7 @@ public final class AnimeCore implements ModInitializer {
         CommandRegistrationCallback.EVENT.register((dispatcher, access, env) -> {
             AnimeCoreCommands.register(dispatcher);
             com.animecore.command.ClanCommands.register(dispatcher);
+            com.animecore.command.VfxCommands.register(dispatcher);
         });
         EntityTrackingEvents.START_TRACKING.register(AnimationService::onStartTracking);
         ServerPlayConnectionEvents.DISCONNECT.register((handler, server) -> AnimationService.onDisconnect(handler.player));

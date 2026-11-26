@@ -24,5 +24,9 @@
     "fallback": "String Light Formation",
     "translate": "ability.narutorpg.string_light_formation"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

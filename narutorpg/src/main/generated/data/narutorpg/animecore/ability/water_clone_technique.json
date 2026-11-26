@@ -35,5 +35,8 @@
     "fallback": "Water Clone Technique",
     "translate": "ability.narutorpg.water_clone_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "smoke"
+  }
 }

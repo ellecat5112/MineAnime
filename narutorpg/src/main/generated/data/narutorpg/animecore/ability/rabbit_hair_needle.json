@@ -26,5 +26,8 @@
     "translate": "ability.narutorpg.rabbit_hair_needle"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

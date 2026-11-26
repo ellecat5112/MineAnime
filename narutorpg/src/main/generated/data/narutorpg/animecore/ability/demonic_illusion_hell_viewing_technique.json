@@ -33,5 +33,9 @@
     "fallback": "Demonic Illusion: Hell Viewing Technique",
     "translate": "ability.narutorpg.demonic_illusion_hell_viewing_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "screen_effect": "illusion",
+    "style": "illusion"
+  }
 }

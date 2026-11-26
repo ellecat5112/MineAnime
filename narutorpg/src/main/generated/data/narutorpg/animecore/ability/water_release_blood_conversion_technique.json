@@ -19,5 +19,8 @@
     "fallback": "Water Release: Blood Conversion Technique",
     "translate": "ability.narutorpg.water_release_blood_conversion_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "blood"
+  }
 }

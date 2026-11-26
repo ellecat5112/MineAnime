@@ -27,5 +27,8 @@
     "fallback": "Cat Surprise",
     "translate": "ability.narutorpg.cat_surprise"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

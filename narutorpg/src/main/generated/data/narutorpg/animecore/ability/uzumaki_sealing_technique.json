@@ -21,5 +21,9 @@
     "fallback": "Uzumaki Sealing Technique",
     "translate": "ability.narutorpg.uzumaki_sealing_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16766287,
+    "style": "light"
+  }
 }

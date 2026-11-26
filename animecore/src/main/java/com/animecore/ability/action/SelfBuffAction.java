@@ -36,5 +36,7 @@ public record SelfBuffAction(List<Effect> effects, float heal) implements IAbili
             ctx.caster().addStatusEffect(new StatusEffectInstance(e.effect(), duration, e.amplifier(), false, e.showParticles(), true));
         }
         if (heal > 0f) ctx.caster().heal(heal * ctx.scale());
+        com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.BUFF, ctx.caster().getPos(), ctx.look(),
+                1f + effects.size() * 0.3f + (heal > 0f ? 0.5f : 0f), heal > 0f ? 1f : 0f);
     }
 }

@@ -25,5 +25,9 @@
     "translate": "ability.narutorpg.dance_of_the_larch"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "color": 16119285,
+    "style": "light"
+  }
 }

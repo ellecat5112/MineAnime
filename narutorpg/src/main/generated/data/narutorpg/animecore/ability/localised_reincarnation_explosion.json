@@ -32,5 +32,8 @@
     "translate": "ability.narutorpg.localised_reincarnation_explosion"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "light"
+  }
 }

@@ -30,5 +30,8 @@
     "translate": "ability.narutorpg.summoning_rinnegan"
   },
   "required_tier": 6,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

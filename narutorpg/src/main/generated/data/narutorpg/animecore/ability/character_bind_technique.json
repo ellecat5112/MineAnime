@@ -17,5 +17,8 @@
     "fallback": "Character Bind Technique",
     "translate": "ability.narutorpg.character_bind_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

@@ -34,5 +34,8 @@
     "fallback": "Insect Clone Technique",
     "translate": "ability.narutorpg.insect_clone_technique"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "insect"
+  }
 }

@@ -27,5 +27,8 @@
     "fallback": "Butterfly Mode",
     "translate": "ability.narutorpg.butterfly_mode"
   },
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "wind"
+  }
 }

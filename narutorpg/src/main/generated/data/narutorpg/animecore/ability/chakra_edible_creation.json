@@ -32,5 +32,8 @@
     "translate": "ability.narutorpg.chakra_edible_creation"
   },
   "required_tier": 3,
-  "system": "narutorpg"
+  "system": "narutorpg",
+  "visuals": {
+    "style": "space"
+  }
 }

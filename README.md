@@ -141,6 +141,23 @@ nature, range, rank, hand signs), plus 7 extra dōjutsu forms and 11 advanced na
   JEI shows every clan emblem as its own entry with an info page listing the clan's jutsu and items.
 - Regenerate: `python3 tools/catalog/clans.py` (catalog, sprites, doc) then `./gradlew :narutorpg:runDatagen`.
 
+## Technique effects & animations (every jutsu, present and future)
+
+Every ability is animated by the engine from its data, so new techniques from any content mod get effects automatically:
+- **Style resolution**: the ability's `visuals.style`, then its affinity's `vfx_style`, then a keyword guess from the ids, then
+  generic energy. There are 18 styles: flame, water, wind, lightning, earth, ice, plant, lava, sand, shadow, light, illusion, space,
+  poison, blood, insect, smoke and energy.
+- **Projectiles** are procedural swirling elemental balls. Spiral arms wrap in toward the core (Great Fireball), and the styles add
+  lightning arcs, wind rings, tumbling rock or wood chunks and dark matter. Particles spiral into the ball as it flies.
+- **Actions**: beams get glow ribbons (jagged for lightning) with helix strands, shockwaves get rings and a wave front, area techniques
+  get a ground rune circle and cone sweep, walls erupt from the ground, buffs raise an aura helix, dashes leave streaks, impacts burst,
+  and caught targets get a sigil above their head.
+- **Screen effects**: genjutsu vision (tint, vignette, rotating three-comma spiral, ripples, petals), shadow darkness closing in,
+  and a blinding flash. These are picked automatically from the ability's effects (nausea means illusion) or set by `visuals.screen_effect`.
+- **Cast animations**: every ability without its own animation gets one by type: exhale, thrust, point, burst, gaze, sweep, slam,
+  focus or lunge (`tools/catalog/animations.py`).
+- Preview with `/vfx play <kind> <style>` and `/vfx screen <illusion|darkness|flash> [style]` (ops).
+
 ## Controls (NarutoRPG, all rebindable under *Controls › NarutoRPG*)
 | Key | Action |
 |---|---|
