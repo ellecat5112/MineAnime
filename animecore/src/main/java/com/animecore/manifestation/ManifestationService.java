@@ -188,6 +188,7 @@ public final class ManifestationService {
         world.spawnParticles(new DustParticleEffect(new Vector3f(((color >> 16) & 255) / 255f, ((color >> 8) & 255) / 255f, (color & 255) / 255f), 1.4f),
                 e.getX(), e.getBodyY(0.5), e.getZ(), 30, 0.4, 0.8, 0.4, 0.05);
         world.playSound(null, user.getBlockPos(), SoundEvents.BLOCK_AMETHYST_BLOCK_RESONATE, SoundCategory.PLAYERS, 1f, 0.6f);
+        world.playSound(null, user.getBlockPos(), SoundEvents.ENTITY_ILLUSIONER_PREPARE_MIRROR, SoundCategory.PLAYERS, 0.8f, 0.8f);
     }
 
     private static void dismiss(LivingEntity user) {

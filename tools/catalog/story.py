@@ -718,7 +718,7 @@ def minion(npcs, lang, series, tier):
         npcs[nid] = {'system': clans.SYSTEM, 'name': clans.text(f'npc.{NS}.rogue_ninja', name), 'role': 'enemy',
                      'appearance': {'hair': 0x1E1E1E, 'outfit': 'bodysuit', 'top': 0x37474F, 'accent': 0x263238, 'pants': 0x212121,
                                     'mark': 'mask', 'headband': 0x455A64},
-                     'abilities': [clans.ns('shuriken_jutsu')] if False else [], 'health': round(20 + 10 * tier),
+                     'abilities': [clans.ns('shadow_shuriken_technique'), clans.ns('manipulated_shuriken_technique')], 'health': round(20 + 10 * tier),
                      'attack': round(3 + 0.7 * tier, 1), 'speed': 0.33, 'held_item': f'{NS}:kunai'}
     return nid
 

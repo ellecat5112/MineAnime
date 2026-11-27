@@ -32,6 +32,8 @@ public final class AnimeCoreClient implements ClientModInitializer {
         EntityRendererRegistry.register(AnimeEntities.STORY_NPC, com.animecore.client.render.StoryNpcRenderer::new);
         EntityRendererRegistry.register(AnimeEntities.MANIFESTATION, com.animecore.client.render.ManifestationRenderer::new);
         com.animecore.client.vfx.TimeStopClient.register();
+        com.animecore.client.vfx.JuiceClient.register();
+        com.animecore.client.vfx.StandFx.register();
         com.animecore.client.quest.QuestClient.init();
         com.animecore.client.render.ChakraCloakFeature.register();
         com.animecore.client.render.FormModels.register();

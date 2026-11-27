@@ -20,6 +20,21 @@ python3 tools/catalog/jojo_content.py && python3 tools/catalog/jojo_story.py   #
 python3 tools/catalog/jojo_stands.py && python3 tools/catalog/stand_models.py && python3 tools/catalog/jojo_part3_story.py   # Part 3
 ```
 
+## Production standard (0.18.0)
+
+Every mod goes through the same engine polish, and new features must meet it (CLAUDE.md "Production standard"):
+
+| | |
+|---|---|
+| Themes | `AnimeTheme` per mod (accent / secondary colour, battle glyph, arc banner): JoJo purple-gold with ゴゴゴ, Naruto Konoha orange |
+| HUD | themed glass panels with the mod's name and a rank badge; animated gradient bars with a damage ghost and low-energy pulse |
+| Feel | `Juice`: camera shake and impact flashes on heavy hits (rushes, blasts, dashes, time stop, getting hit hard) |
+| Title cards | boss intros (letterbox, slashes, the name slammed in, the Stand in 「」), chapter lower-thirds, "To Be Continued ⟵" / "Arc Complete" arc banners |
+| Stands | summon animation, glowing aura, afterimages, menacing glyphs, the stopped-time dome |
+| Words | every technique has a description in its item tooltip: 2,995 Narutopedia leads, 576 Fanon genjutsu, all JoJo techniques and Stands |
+| Audit | `PolishAuditTests` in both mods (`com.animecore.qa.PolishAudit`): names, descriptions, animations, technique items, models, enemies with techniques |
+| Showcase | `python3 tools/qa/showcase.py <mod>` plays `tools/qa/showcase_<mod>.txt` on the real jars in a fresh world and writes `dist/qa/<mod>/contact.png` |
+
 ## Several anime mods in one pack
 
 The engine speaks neutral words (technique, faction, lineage, affinity, energy); each content mod

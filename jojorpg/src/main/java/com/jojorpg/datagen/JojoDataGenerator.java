@@ -87,6 +87,7 @@ public final class JojoDataGenerator implements DataGeneratorEntrypoint {
             t.add("pool.jojorpg.stamina", "Stamina");
             t.add("pool.jojorpg.blood", "Blood");
             t.add("pool.jojorpg.stand", "Stand Energy");
+            t.add("card.jojorpg.to_be_continued", "To Be Continued");
             t.add("itemGroup.jojorpg.stands", "JoJoRPG Stands");
         }
     }

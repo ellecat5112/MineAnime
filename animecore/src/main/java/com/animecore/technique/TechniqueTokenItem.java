@@ -164,6 +164,28 @@ public class TechniqueTokenItem extends Item {
             }
             out.add(line.formatted(s ? Formatting.YELLOW : Formatting.GRAY));
         }
+        // the selected technique explains itself: wiki description + rank / cooldown
+        sel.map(e -> ability(player, e)).ifPresent(def -> {
+            if (!(def.name().getContent() instanceof net.minecraft.text.TranslatableTextContent t)) return;
+            String key = t.getKey() + ".desc";
+            if (!net.minecraft.util.Language.getInstance().hasTranslation(key)) return;
+            out.add(Text.empty());
+            for (String l : wrap(Text.translatable(key).getString(), 44)) out.add(Text.literal(l).formatted(Formatting.GRAY, Formatting.ITALIC));
+            out.add(Text.translatable("tooltip.animecore.token.stats", def.requiredTier(), String.format(java.util.Locale.ROOT, "%.1f", def.cooldownTicks() / 20f))
+                    .formatted(Formatting.DARK_GRAY));
+        });
         return out;
+    }
+
+    static List<String> wrap(String text, int width) {
+        List<String> lines = new java.util.ArrayList<>();
+        StringBuilder cur = new StringBuilder();
+        for (String w : text.split(" ")) {
+            if (cur.length() + w.length() + 1 > width && cur.length() > 0) { lines.add(cur.toString()); cur.setLength(0); }
+            if (cur.length() > 0) cur.append(' ');
+            cur.append(w);
+        }
+        if (cur.length() > 0) lines.add(cur.toString());
+        return lines.size() > 6 ? lines.subList(0, 6) : lines;
     }
 }

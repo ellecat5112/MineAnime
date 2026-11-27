@@ -19,6 +19,7 @@ public final class NarutoRPG implements ModInitializer {
             .burstStep("chakra", 6f, 7f, 20, 1)            // Body Flicker (Shunshin): 7 blocks, 1s cooldown
             .passiveMovement()                             // no keybinds: water walking, look-up wall climbing, sneak+jump Shunshin
             .overrideText(NarutoText.ENGINE.keySet())       // jutsu / village / clan wording for engine messages
+            .theme(new com.animecore.api.AnimeTheme(0xFF8F00, 0x29B6F6, null, "card.narutorpg.arc_complete", false))   // Konoha orange
             .register();
 
     @Override

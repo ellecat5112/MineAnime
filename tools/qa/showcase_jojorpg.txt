@@ -1,0 +1,74 @@
+# JoJoRPG production showcase: HUD, chapter card, boss intro, Stands (glyphs, aura, rush), time stop, arc-end banner
+# a fresh world opens NarutoRPG's Choose Your Origin screen on first join: randomize + confirm
+sleep 2
+click 480 674
+sleep 0.6
+click 796 674
+sleep 1.5
+cmd /spreadplayers 0 0 0 1 false @s
+sleep 2
+cmd /gamerule doDaylightCycle false
+sleep 0.5
+cmd /time set 1000
+sleep 0.5
+cmd /effect give @s resistance 9999 4 true
+sleep 0.5
+cmd /quest unlock @s jojorpg:stardust_crusaders_265
+sleep 0.5
+cmd /quest start @s jojorpg:stardust_crusaders_265
+sleep 1.2
+shot 01_chapter_card
+sleep 3
+cmd /gamemode survival
+sleep 0.5
+cmd /tp @s ~ ~ ~ 0 8
+sleep 0.5
+cmd /summon animecore:story_npc ~ ~ ~7 {npc:"jojorpg:dio_brando_foe_t16",Rotation:[180f,0f]}
+sleep 3
+shot 02_boss_intro
+cmd /tp @e[type=animecore:story_npc] ~ -400 ~
+sleep 1
+cmd /quest complete @s
+sleep 2
+shot 03_to_be_continued
+sleep 3
+# the quest outro dialogue box is open: close it before typing again
+key Escape
+sleep 1
+cmd /gamemode creative
+sleep 0.5
+cmd /manifestation set @s jojorpg:the_world
+sleep 1
+key F5
+sleep 0.5
+key F5
+sleep 3
+cmd /tp @s ~ ~ ~ 180 8
+sleep 2
+shot 04_stand_glyphs_aura
+sleep 0.5
+key F5
+sleep 0.5
+key F5
+sleep 1
+cmd /summon minecraft:zombie ~3 ~ ~6
+sleep 0.5
+cmd /tp @s ~ ~ ~ 0 0
+sleep 1
+cmd /manifestation cast jojorpg:the_world_time_stop
+sleep 0.15
+shot 05_time_stop_flash
+sleep 1.5
+shot 06_time_stop
+sleep 5
+cmd /manifestation set @s jojorpg:star_platinum
+sleep 1
+cmd /summon minecraft:iron_golem ~ ~ ~4 {NoAI:1b}
+# still in third-person back view (F5 cycles first person -> back -> front)
+sleep 1.5
+cmd /tp @s ~ ~ ~ 0 5
+sleep 0.5
+cmd /manifestation cast jojorpg:star_platinum_ora_ora
+sleep 0.7
+shot 07_ora_rush
+sleep 3

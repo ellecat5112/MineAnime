@@ -50,6 +50,7 @@ final class NarutoClanCatalog {
             instance.loadNatures(clans.resolveSibling("schools_catalog.json"));          // tools/catalog/schools.py
             instance.loadStory(clans.resolveSibling("story_catalog.json"));              // tools/catalog/story.py
             instance.loadForms(clans.resolveSibling("forms_catalog.json"));              // tools/catalog/forms.py
+            instance.loadLang(clans.resolveSibling("jutsu_descriptions.json"));          // tools/catalog/jutsu_descriptions.py
         }
         return instance;
     }
@@ -77,6 +78,16 @@ final class NarutoClanCatalog {
             throw new IllegalStateException("Cannot read " + path, e);
         }
         return c;
+    }
+
+    /** A catalog that only adds translations ({@code jutsu_descriptions.json}: every jutsu's description). */
+    private void loadLang(Path path) {
+        if (!Files.exists(path)) return;
+        try (Reader r = Files.newBufferedReader(path, StandardCharsets.UTF_8)) {
+            JsonParser.parseReader(r).getAsJsonObject().getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
+        } catch (IOException e) {
+            throw new IllegalStateException("Cannot read " + path, e);
+        }
     }
 
     /** {@code village_catalog.json} (tools/catalog/villages.py): villages, backgrounds, village techniques. */

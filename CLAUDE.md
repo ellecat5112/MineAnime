@@ -31,8 +31,24 @@
   `jojo_stands_catalog.json` (every Part 3 Stand as an `animecore:manifestation` + its techniques), `jojo_stand_items.json`
   and the disc sprites; `stand_models.py` the low-poly Stand models (`form_models/stand/`); `jojo_part3_story.py` (last)
   `jojo_part3_story_catalog.json` (152 chapter quests, Stand-user characters).
+  `jutsu_descriptions.py` (after the Naruto jutsu catalogs; `--crawl` refreshes `docs/wiki/narutopedia_jutsu_leads.json`)
+  writes `jutsu_descriptions.json` - every jutsu's tooltip description.
 - Engine wording is neutral; a content mod re-words engine messages via `assets/<mod>/engine_text.json` +
   `AnimeModContext.Builder#overrideText` (use `AnimeText.tr(system, key)` for any message a mod might re-word).
+
+## Production standard (applies to every feature of every mod)
+Nothing ships at "it works" - it ships when it feels like the anime. Every new feature must have:
+- **Look**: themed by the mod's `AnimeTheme` (HUD panels, title cards, banners); techniques have VFX (`AbilityVfx`
+  styles) and a cast animation; manifestations/forms have a model or tinted appearance, aura and summon animation.
+- **Feel**: heavy hits use `Juice` (camera shake / impact flash), signature moves get a shout or sound, bosses get the
+  intro title card (automatic for `role: boss` story characters), arcs end with the arc banner (automatic in quests).
+- **Words**: every technique, form, Stand, character, quest, item and energy pool has a translated name; every
+  technique has a description (`ability.<ns>.<id>.desc`, shown in the technique item tooltip) taken from the wiki
+  where one exists (`jutsu_descriptions.py`, `jojo_*.py`).
+- **Audit**: `PolishAuditTests` (both mods) runs `com.animecore.qa.PolishAudit` - it must pass (missing names /
+  descriptions / animations / technique items / models / enemies without techniques fail the build of that mod).
+- **Showcase**: add the feature to `tools/qa/showcase_<mod>.txt` and run `python3 tools/qa/showcase.py <mod>`
+  (real remapped jars, fresh world from `tools/qa/world_template`); look at `dist/qa/<mod>/contact.png` before shipping.
 
 ## Verification
 - `./gradlew build` (includes budget checks), `./gradlew :narutorpg:runDatagen`, `./gradlew :narutorpg:runGametest`,

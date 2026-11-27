@@ -60,6 +60,7 @@ public record RemoteStrikeAction(float range, float damage, float speed, boolean
                 ctx.damage(victim, damage, fireTicks, 0.5f);
                 for (SelfBuffAction.Effect e : effects) victim.addStatusEffect(new StatusEffectInstance(e.effect(), e.duration(), e.amplifier()), caster);
             }
+            com.animecore.vfx.Juice.shakeAround(ctx.world(), hitAt, 10, 0.35f, 6);
             ctx.world().spawnParticles(ParticleTypes.SWEEP_ATTACK, hitAt.x, hitAt.y, hitAt.z, 1, 0, 0, 0, 0);
             ctx.world().spawnParticles(ParticleTypes.CRIT, hitAt.x, hitAt.y, hitAt.z, 10, 0.3, 0.3, 0.3, 0.3);
             return false;

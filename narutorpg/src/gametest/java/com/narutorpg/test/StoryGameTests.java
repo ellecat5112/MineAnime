@@ -64,7 +64,7 @@ public final class StoryGameTests implements FabricGameTest {
     }
 
     /** Graduation (Land of Waves 2): talk to Iruka, travel to the site, defeat Mizuki, get the rewards, unlock the next. */
-    @GameTest(templateName = EMPTY_STRUCTURE, tickLimit = 400)
+    @GameTest(templateName = EMPTY_STRUCTURE, tickLimit = 600)
     public void questPlaysThrough(TestContext ctx) {
         ServerPlayerEntity p = ctx.createMockCreativeServerPlayerInWorld();
         p.changeGameMode(GameMode.SURVIVAL);
@@ -88,7 +88,7 @@ public final class StoryGameTests implements FabricGameTest {
             p.refreshPositionAndAngles(site.x, site.y, site.z, 0f, 0f);
             QuestManager.tickPlayer(p, 10);
             check(ctx, log.step() == 2, "arriving did not advance: step " + log.step());
-            ctx.waitAndRun(30, () -> {
+            ctx.waitAndRun(60, () -> {   // the site chunk loads its entities over a few dozen ticks
                 StoryNpcEntity mizuki = find(ctx, p, id("mizuki_foe_naruto"));
                 check(ctx, mizuki != null, "Mizuki did not appear at the site; spawned " + log.spawned().stream()
                         .map(u -> String.valueOf(ctx.getWorld().getEntity(u))).toList() + " site " + sitePos + " player " + p.getPos() + " step " + log.step());

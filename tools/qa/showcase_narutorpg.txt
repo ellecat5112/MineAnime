@@ -1,0 +1,52 @@
+# NarutoRPG production showcase: themed HUD, chapter card, boss intro, jutsu, arc-complete banner
+# a fresh world opens NarutoRPG's Choose Your Origin screen on first join: randomize + confirm
+sleep 2
+shot 00_origin_screen
+click 480 674
+sleep 0.6
+click 796 674
+sleep 1.5
+cmd /spreadplayers 0 0 0 1 false @s
+sleep 2
+cmd /gamerule doDaylightCycle false
+sleep 0.5
+cmd /time set 1000
+sleep 0.5
+cmd /effect give @s resistance 9999 4 true
+sleep 0.5
+cmd /quest unlock @s narutorpg:prologue_land_of_waves_10
+sleep 0.5
+cmd /quest start @s narutorpg:prologue_land_of_waves_10
+sleep 1.2
+shot 01_chapter_card
+sleep 3
+cmd /gamemode survival
+sleep 0.5
+cmd /tp @s ~ ~ ~ 0 8
+sleep 0.5
+cmd /summon animecore:story_npc ~ ~ ~7 {npc:"narutorpg:deidara_foe_shippuden",Rotation:[180f,0f]}
+sleep 3
+shot 02_boss_intro
+cmd /tp @e[type=animecore:story_npc] ~ -400 ~
+sleep 1
+cmd /quest complete @s
+sleep 2
+shot 03_arc_complete
+sleep 3
+# the quest outro dialogue box is open: close it before typing again
+key Escape
+sleep 1
+cmd /gamemode creative
+sleep 0.5
+cmd /summon minecraft:iron_golem ~ ~ ~6 {NoAI:1b}
+sleep 1
+cmd /tp @s ~ ~ ~ 0 5
+sleep 0.5
+cmd /manifestation cast narutorpg:rasengan
+sleep 0.5
+shot 04_rasengan
+sleep 2
+cmd /manifestation cast narutorpg:fireball_jutsu
+sleep 0.6
+shot 05_fireball
+sleep 3

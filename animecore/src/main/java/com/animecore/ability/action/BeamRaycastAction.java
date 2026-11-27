@@ -33,6 +33,7 @@ public record BeamRaycastAction(float range, float damage, float width, boolean 
         float w = width * ctx.scale();
         Vec3d start = ctx.eyePos();
         Vec3d dir = ctx.look();
+        if (damage > 0f) com.animecore.vfx.Juice.shakeAround(ctx.world(), start, 10, Math.min(0.5f, ctx.scaledDamage(damage) / 40f), 6);
         BlockHitResult blockHit = ctx.world().raycast(new RaycastContext(start, start.add(dir.multiply(range)),
                 RaycastContext.ShapeType.COLLIDER, RaycastContext.FluidHandling.NONE, ctx.caster()));
         final Vec3d blockEnd = blockHit.getPos();

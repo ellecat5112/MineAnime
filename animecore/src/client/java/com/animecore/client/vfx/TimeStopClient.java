@@ -24,6 +24,7 @@ public final class TimeStopClient {
         AnimeClientNetworking.registerReceiver(TimeStopPayload.ID, (p, client) -> {
             if (client.world == null) return;
             REGIONS.add(new Region(new Vec3d(p.x(), p.y(), p.z()), p.radius(), client.world.getTime() + p.ticks(), new HashSet<>(p.moving())));
+            StandFx.dome(new Vec3d(p.x(), p.y() + 1, p.z()), Math.min(p.radius(), 24f), p.ticks());
         });
     }
 

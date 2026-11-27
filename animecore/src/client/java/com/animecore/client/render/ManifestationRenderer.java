@@ -42,13 +42,24 @@ public class ManifestationRenderer extends LivingEntityRenderer<ManifestationEnt
     public void render(ManifestationEntity entity, float yaw, float tickDelta, MatrixStack matrices, VertexConsumerProvider buffers, int light) {
         ManifestationDefinition def = entity.definition().orElse(null);
         if (def == null) return;
+        // summon: rises out of its user, growing and fading in over 8 ticks
+        float k = summonProgress(entity, tickDelta);
+        matrices.push();
+        matrices.translate(0, -(1f - k) * 0.7f, 0);
+        float grow = 0.55f + 0.45f * k;
+        matrices.scale(grow, grow, grow);
         var model = def.appearance().model().map(FormModels::get).orElse(null);
         if (model != null) {
-            int a = Math.round(def.alpha() * 255f);
-            FormModelRenderer.render(entity, model, tickDelta, matrices, buffers, GLOW, (a << 24) | 0xFFFFFF, def.alpha() < 1f);
-            return;
+            int a = Math.round(def.alpha() * k * 255f);
+            FormModelRenderer.render(entity, model, tickDelta, matrices, buffers, GLOW, (a << 24) | 0xFFFFFF, def.alpha() * k < 1f);
+        } else {
+            super.render(entity, yaw, tickDelta, matrices, buffers, GLOW);
         }
-        super.render(entity, yaw, tickDelta, matrices, buffers, GLOW);
+        matrices.pop();
+    }
+
+    static float summonProgress(ManifestationEntity e, float tickDelta) {
+        return MathHelper.clamp((e.age + tickDelta) / 8f, 0f, 1f);
     }
 
     @Override protected boolean hasLabel(ManifestationEntity entity) { return false; }
@@ -129,8 +140,18 @@ public class ManifestationRenderer extends LivingEntityRenderer<ManifestationEnt
             ManifestationDefinition def = entity.definition().orElse(null);
             if (def == null) return;
             StoryNpcDefinition.Appearance a = def.appearance();
-            float alpha = def.alpha();
+            float alpha = def.alpha() * summonProgress(entity, tickDelta);
+            // afterimages trailing behind while it flies out / rushes
+            if (entity.state() == ManifestationEntity.State.STRIKE || entity.state() == ManifestationEntity.State.RUSH) {
+                for (int i = 2; i >= 1; i--) {
+                    matrices.push();
+                    matrices.translate(0, 0, 0.32f * i);
+                    drawAll(matrices, buffers, a, alpha * (0.32f - 0.12f * i));
+                    matrices.pop();
+                }
+            }
             drawAll(matrices, buffers, a, alpha);
+            aura(matrices, buffers, def.color(), alpha, animationProgress);
             if (entity.state() == ManifestationEntity.State.RUSH) ghostFists(matrices, buffers, entity, a, alpha, animationProgress);
         }
 
@@ -146,6 +167,20 @@ public class ManifestationRenderer extends LivingEntityRenderer<ManifestationEnt
             if (!hair.equals("bald")) draw(m, b, "hair_" + hair, a.hair(), alpha);
             a.headband().ifPresent(c -> draw(m, b, "headband", c, alpha));
             a.mark().filter(MARKS::contains).ifPresent(mk -> draw(m, b, "mark_" + mk, 0xFFFFFF, alpha));
+        }
+
+        /** A soft glowing shell in the Stand's colour, breathing slowly. */
+        private void aura(MatrixStack m, VertexConsumerProvider b, int color, float alpha, float age) {
+            float pulse = 0.5f + 0.5f * MathHelper.sin(age * 0.15f);
+            for (int i = 1; i <= 2; i++) {
+                float s = 1f + 0.06f * i + 0.02f * pulse;
+                m.push();
+                m.translate(0, 0.75f, 0);
+                m.scale(s, s * 1.02f, s);
+                m.translate(0, -0.75f, 0);
+                draw(m, b, "skin", color, alpha * (0.16f - 0.05f * i) * (0.7f + 0.3f * pulse));
+                m.pop();
+            }
         }
 
         /** Three extra pairs of fists blurring around the real ones. */

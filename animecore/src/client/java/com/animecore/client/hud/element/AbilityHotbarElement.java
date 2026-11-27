@@ -46,13 +46,14 @@ public final class AbilityHotbarElement extends HudElementBase {
         for (int slot = 0; slot < ctx.hotbarSize(); slot++) {
             int sx = x + slot * (size + 2);
             Optional<Identifier> id = power.hotbarSlot(slot);
-            c.fill(sx, y, sx + size, y + size, PANEL_BG);
+            c.fillGradient(sx, y, sx + size, y + size, 0xD8121018, 0xC01A1626);
             if (id.isPresent()) {
                 Optional<AbilityDefinition> def = AnimeRegistries.ability(rm, id.get()).map(RegistryEntry::value);
                 int color = def.flatMap(AbilityDefinition::affinity)
                         .flatMap(a -> AnimeRegistries.affinities(rm).getOrEmpty(a)).map(AffinityDefinition::color)
                         .orElseGet(() -> ctx.pools().get(0).color());
-                c.fill(sx + 1, y + 1, sx + size - 1, y + size - 1, argb(color, 0x70));
+                c.fillGradient(sx + 1, y + 1, sx + size - 1, y + size - 1, argb(lighten(color), 0x90), argb(darken(color), 0x70));
+                c.fill(sx + 1, y + 1, sx + size - 1, y + 2, argb(0xFFFFFF, 0x50));   // gloss
                 String initials = def.map(d -> initials(d.name().getString())).orElse("?");
                 c.drawCenteredTextWithShadow(client.textRenderer, initials, sx + size / 2, y + (size - 8) / 2, 0xFFFFFFFF);
 
@@ -69,7 +70,8 @@ public final class AbilityHotbarElement extends HudElementBase {
                     c.drawCenteredTextWithShadow(client.textRenderer, secs, sx + size / 2, y + (size - 8) / 2, 0xFFFF6060);
                 }
                 boolean armed = id.get().equals(power.armedReactive().orElse(null));
-                c.drawBorder(sx, y, size, size, armed ? 0xFF66FFFF : argb(color, 0xFF));
+                c.drawBorder(sx, y, size, size, armed ? 0xFF66FFFF : argb(accent(), 0xFF));
+                if (remaining <= 0) c.fill(sx, y + size - 1, sx + size, y + size, argb(color, 0xFF));   // ready: affinity underline
             } else {
                 c.drawBorder(sx, y, size, size, 0x60FFFFFF);
             }

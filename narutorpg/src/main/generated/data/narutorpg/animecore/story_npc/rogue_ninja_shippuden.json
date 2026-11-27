@@ -1,4 +1,8 @@
 {
+  "abilities": [
+    "narutorpg:shadow_shuriken_technique",
+    "narutorpg:manipulated_shuriken_technique"
+  ],
   "appearance": {
     "accent": 2503224,
     "hair": 1973790,

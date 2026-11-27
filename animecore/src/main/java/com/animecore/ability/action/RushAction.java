@@ -59,6 +59,8 @@ public record RushAction(int hits, float damage, float reach, float radius, floa
             double ox = (ctx.world().random.nextDouble() - 0.5) * radius, oy = (ctx.world().random.nextDouble() - 0.5) * radius;
             ctx.world().spawnParticles(last ? ParticleTypes.EXPLOSION : ParticleTypes.CRIT, center.x + ox, center.y + oy, center.z + ox,
                     last ? 1 : 4, 0.1, 0.1, 0.1, 0.25);
+            if (last) com.animecore.vfx.Juice.impact(ctx.world(), center, 14, 0.8f, 12, 0xFFFFFF, 0.25f);
+            else if (n % 3 == 0) com.animecore.vfx.Juice.shakeAround(ctx.world(), center, 8, 0.18f, 4);
             if (n % 2 == 0) ctx.world().playSound(null, caster.getBlockPos(), SoundEvents.ENTITY_PLAYER_ATTACK_STRONG, SoundCategory.PLAYERS,
                     0.6f, 0.9f + ctx.world().random.nextFloat() * 0.4f);
             return true;

@@ -16379,7 +16379,10 @@
    "system": "narutorpg"
   },
   "rogue_ninja_boruto": {
-   "abilities": [],
+   "abilities": [
+    "narutorpg:shadow_shuriken_technique",
+    "narutorpg:manipulated_shuriken_technique"
+   ],
    "appearance": {
     "accent": 2503224,
     "hair": 1973790,
@@ -16401,7 +16404,10 @@
    "system": "narutorpg"
   },
   "rogue_ninja_movies": {
-   "abilities": [],
+   "abilities": [
+    "narutorpg:shadow_shuriken_technique",
+    "narutorpg:manipulated_shuriken_technique"
+   ],
    "appearance": {
     "accent": 2503224,
     "hair": 1973790,
@@ -16423,7 +16429,10 @@
    "system": "narutorpg"
   },
   "rogue_ninja_naruto": {
-   "abilities": [],
+   "abilities": [
+    "narutorpg:shadow_shuriken_technique",
+    "narutorpg:manipulated_shuriken_technique"
+   ],
    "appearance": {
     "accent": 2503224,
     "hair": 1973790,
@@ -16445,7 +16454,10 @@
    "system": "narutorpg"
   },
   "rogue_ninja_shippuden": {
-   "abilities": [],
+   "abilities": [
+    "narutorpg:shadow_shuriken_technique",
+    "narutorpg:manipulated_shuriken_technique"
+   ],
    "appearance": {
     "accent": 2503224,
     "hair": 1973790,

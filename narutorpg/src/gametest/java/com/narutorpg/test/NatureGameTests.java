@@ -64,6 +64,7 @@ public final class NatureGameTests implements FabricGameTest {
         ctx.assertTrue(power.tokenLevel(nature) > 3 && after > before, "training unlocked more jutsu: " + before + " -> " + after);
 
         // off-affinity training is 2.5x slower; reaching level 10 attunes a basic nature
+        power.forceRefreshTraits(p);   // effective affinities refresh on the player tick; mock players do not tick
         Identifier other = List.of("fire", "wind", "lightning", "earth", "water").stream().map(NarutoRPG.CTX::id)
                 .filter(n -> !power.effectiveAffinities().contains(n)).findFirst().orElseThrow();
         TechniqueMastery.addExperience(p, power, other, 100);

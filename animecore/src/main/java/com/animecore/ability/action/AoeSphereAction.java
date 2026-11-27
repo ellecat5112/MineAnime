@@ -33,6 +33,7 @@ public record AoeSphereAction(float radius, float damage, float knockback, int f
         Vec3d look = ctx.look();
         Vec3d center = ctx.caster().getPos().add(look.x * forwardOffset, 0.9, look.z * forwardOffset);
         Box box = new Box(center, center).expand(r);
+        if (damage > 0f) com.animecore.vfx.Juice.shakeAround(ctx.world(), center, r * 3 + 6, Math.min(0.9f, ctx.scaledDamage(damage) / 30f + 0.15f), 10);
         for (LivingEntity target : ctx.world().getEntitiesByClass(LivingEntity.class, box,
                 e -> e != ctx.caster() && e.isAlive() && e.squaredDistanceTo(center) <= r * r)) {
             if (ctx.damage(target, damage, fireTicks, knockback)) DashStrikeAction.launch(target, lift);

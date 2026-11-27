@@ -155,8 +155,8 @@ def main():
         nid = f'{kind}_t{tier}'
         if nid in npcs: return nid
         name, look, abil, undead = {
-            'agent': ("DIO's Agent", AGENT_LOOK, ['jojorpg:razor_frenzy'] if 'razor_frenzy' in abilities else [], False),
-            'puppet': ("Enya's Puppet", dict(AGENT_LOOK, mark='red_eyes', skin=0xBCAAA4), [], False),
+            'agent': ("DIO's Agent", AGENT_LOOK, ['jojorpg:scalpels', 'jojorpg:saw_hat'], False),
+            'puppet': ("Enya's Puppet", dict(AGENT_LOOK, mark='red_eyes', skin=0xBCAAA4), ['jojorpg:eastern_mystery_chinese_kempo'], False),
             'vampire': ('Vampire', VAMPIRE_LOOK, ['jojorpg:claws', 'jojorpg:hypnosis'], True),
         }[kind]
         d = {'system': NS, 'name': t(f'npc.{NS}.{slug(name)}', name), 'role': 'enemy', 'appearance': dict(look), 'abilities': abil,

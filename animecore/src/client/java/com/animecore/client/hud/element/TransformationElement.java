@@ -50,13 +50,13 @@ public final class TransformationElement extends HudElementBase {
             else if (def.nextStage().isPresent() && def.masteryToEvolve() > 0)
                 progress = power.mastery(power.activeTransformation().get()) / (float) def.masteryToEvolve();
             else progress = 1f;
-            bar(c, x + 12, row + 11, width - 12, 1, progress, color);
+            animatedBar(c, "form", x + 12, row + 10, width - 12, 2, progress, color, client.world.getTime(), tickDelta);
             row += 14;
         }
         if (!power.activeMovement().isEmpty()) {
             List<String> names = new ArrayList<>();
             for (MovementMode m : power.activeMovement()) names.add(Text.translatable(m.translationKey()).getString());
-            c.drawTextWithShadow(client.textRenderer, "» " + String.join(", ", names), x, row, 0xFF9FE8FF);
+            c.drawTextWithShadow(client.textRenderer, "» " + String.join(", ", names), x + 1, row, argb(lighten(secondary()), 0xFF));
         }
     }
 }

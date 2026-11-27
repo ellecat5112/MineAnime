@@ -74,6 +74,7 @@ public record DashStrikeAction(Mode mode, float distance, float damage, float hi
                 launch(target, lift);
             }
             if (hits > 1 && !struck.isEmpty()) followUps(ctx, struck);
+            if (!struck.isEmpty()) com.animecore.vfx.Juice.shakeAround(ctx.world(), destination, 10, Math.min(0.6f, 0.2f + ctx.scaledDamage(damage) / 40f), 6);
         }
         if (caster instanceof net.minecraft.server.network.ServerPlayerEntity sp) {
             sp.networkHandler.requestTeleport(destination.x, destination.y, destination.z, yaw, caster.getPitch());

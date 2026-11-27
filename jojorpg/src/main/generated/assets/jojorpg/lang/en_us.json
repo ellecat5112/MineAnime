@@ -459,6 +459,7 @@
   "affinity.jojorpg.ultraviolet": "Ultraviolet",
   "affinity.jojorpg.vampirism": "Vampirism",
   "affinity.jojorpg.wind": "Wind Mode",
+  "card.jojorpg.to_be_continued": "To Be Continued",
   "commands.jojorpg.clan.cannot_choose": "You can only choose a selectable fighting style while you have none",
   "commands.jojorpg.clan.progress": "%s/%s style techniques unlocked, %s rerolls used",
   "item.jojorpg.admin_seal_clan_level": "Style Mastery Seal",

@@ -27,5 +27,6 @@ public record TimeStopAction(int durationTicks, float radius, Optional<Text> sho
     public void execute(AbilityContext ctx) {
         shout.ifPresent(s -> Shouts.shout(ctx, s));
         TimeStopManager.stop(ctx.caster(), radius, durationTicks);
+        com.animecore.vfx.Juice.impact(ctx.world(), ctx.caster().getPos(), radius, 1f, 14, 0xFFFFFF, 0.6f);
     }
 }

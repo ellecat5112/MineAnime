@@ -42,6 +42,7 @@ public final class AnimeModContext {
     private final ComponentKey<PlayerPowerComponent> powerKey;
     private final boolean passiveMovement;
     private final java.util.Set<String> textOverrides;
+    private final AnimeTheme theme;
 
     private AnimeModContext(Builder b) {
         this.passiveMovement = b.passiveMovement;
@@ -51,6 +52,7 @@ public final class AnimeModContext {
         this.hotbarSize = b.hotbarSize;
         this.comboAnimation = b.comboAnimation;
         this.textOverrides = java.util.Set.copyOf(b.textOverrides);
+        this.theme = b.theme;
         this.powerKey = ComponentRegistry.getOrCreate(Ids.of(modId, "power"), PlayerPowerComponent.class);
     }
 
@@ -74,6 +76,9 @@ public final class AnimeModContext {
     public boolean overridesText(String engineKey) { return textOverrides.contains(engineKey); }
 
     public Identifier id(String path) { return Ids.of(modId, path); }
+
+    /** Colours, battle glyph and banner wording of this mod (HUD, title cards). */
+    public AnimeTheme theme() { return theme; }
 
     public <T extends CustomPayload> CustomPayload.Id<T> payloadId(String path) {
         return AnimeNetworking.payloadId(modId, path);
@@ -109,6 +114,13 @@ public final class AnimeModContext {
         private Function<Identifier, Identifier> comboAnimation;
         private boolean passiveMovement;
         private final java.util.Set<String> textOverrides = new java.util.HashSet<>();
+        private AnimeTheme theme = AnimeTheme.DEFAULT;
+
+        /** Colours, battle glyph and arc banner of this mod; see {@link AnimeTheme}. */
+        public Builder theme(AnimeTheme theme) {
+            this.theme = theme;
+            return this;
+        }
 
         private Builder(String modId) {
             if (!modId.matches("[a-z0-9_.-]+")) throw new IllegalArgumentException("Invalid mod id: " + modId);

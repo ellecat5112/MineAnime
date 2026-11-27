@@ -1,4 +1,8 @@
 {
+  "abilities": [
+    "jojorpg:scalpels",
+    "jojorpg:saw_hat"
+  ],
   "appearance": {
     "accent": 6953882,
     "hair": 4073251,

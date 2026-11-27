@@ -57,6 +57,7 @@ public record VoidAction(int durationTicks, float speed, float radius, float dam
                 }
             }
             if (t % 10 == 0) {
+                com.animecore.vfx.Juice.shakeAround(ctx.world(), c, 16, 0.3f, 10);
                 for (LivingEntity e : ctx.world().getEntitiesByClass(LivingEntity.class, new Box(c, c).expand(radius + 0.5),
                         e -> e != caster && e.isAlive() && !(e instanceof ManifestationEntity))) {
                     ctx.damage(e, damage, 0, 0f);

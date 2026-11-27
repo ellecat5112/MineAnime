@@ -83,6 +83,7 @@ public final class TimeStopManager {
         STOPS.add(stop);
         world.playSound(null, caster.getBlockPos(), SoundEvents.BLOCK_BELL_RESONATE, SoundCategory.PLAYERS, 2f, 0.5f);
         world.playSound(null, caster.getBlockPos(), SoundEvents.BLOCK_BEACON_DEACTIVATE, SoundCategory.PLAYERS, 2f, 0.6f);
+        world.playSound(null, caster.getBlockPos(), SoundEvents.ENTITY_WARDEN_SONIC_BOOM, SoundCategory.PLAYERS, 1.2f, 0.5f);
         List<Integer> moving = new ArrayList<>();
         moving.add(caster.getId());
         for (Entity e : world.getOtherEntities(caster, caster.getBoundingBox().expand(radius), stop::covers)) {

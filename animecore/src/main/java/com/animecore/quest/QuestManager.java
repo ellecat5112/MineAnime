@@ -117,6 +117,7 @@ public final class QuestManager {
         }
         log.start(id);
         player.sendMessage(Text.translatable("message.animecore.quest.started", q.name()).formatted(Formatting.GOLD), false);
+        com.animecore.vfx.Juice.card(player, q.system(), com.animecore.vfx.Juice.CardKind.CHAPTER, q.name(), q.arc(), 90);
         if (power.tier() < q.recommendedTier()) {
             player.sendMessage(Text.translatable("message.animecore.quest.underleveled", q.recommendedTier(), power.tier())
                     .formatted(Formatting.YELLOW), false);
@@ -196,6 +197,7 @@ public final class QuestManager {
         }
         for (Identifier ability : r.abilities()) power.unlockAbility(ability);
         player.sendMessage(Text.translatable("message.animecore.quest.completed", q.name()).formatted(Formatting.GREEN, Formatting.BOLD), false);
+        if (lastOfArc(player, q, id)) com.animecore.vfx.Juice.card(player, q.system(), com.animecore.vfx.Juice.CardKind.ARC_END, q.arc(), Text.empty(), 100);
         player.getWorld().playSound(null, player.getBlockPos(), SoundEvents.UI_TOAST_CHALLENGE_COMPLETE, SoundCategory.PLAYERS, 0.7f, 1.1f);
         // point at what comes next
         quests(player.getRegistryManager(), q.system()).stream()
@@ -208,6 +210,14 @@ public final class QuestManager {
     // =====================================================================================
     // steps
     // =====================================================================================
+
+    /** Whether {@code q} closes its arc (no later quest of the same series and arc). */
+    private static boolean lastOfArc(ServerPlayerEntity player, QuestDefinition q, Identifier id) {
+        if (q.arc().getString().isEmpty()) return false;
+        return quests(player.getRegistryManager(), q.system()).stream().noneMatch(e -> !e.getKey().equals(id)
+                && e.getValue().series().equals(q.series()) && e.getValue().arc().getString().equals(q.arc().getString())
+                && e.getValue().order() > q.order());
+    }
 
     private static void prepare(ServerPlayerEntity player, QuestDefinition q, QuestLog log, Identifier id) {
         if (log.stepPrepared() || log.step() >= q.objectives().size()) return;

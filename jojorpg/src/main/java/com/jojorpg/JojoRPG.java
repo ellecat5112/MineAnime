@@ -25,6 +25,7 @@ public final class JojoRPG implements ModInitializer {
             .burstStep("stamina", 8f, 6f, 25, 1)
             .passiveMovement()
             .overrideText(JojoText.ENGINE.keySet())       // "fighting style" instead of "lineage"
+            .theme(new com.animecore.api.AnimeTheme(0x8E24AA, 0xFFD54F, "\u30B4", "card.jojorpg.to_be_continued", true))   // ゴゴゴ menacing
             .register();
 
     @Override

@@ -38,6 +38,9 @@ final class NarutoLangProvider extends FabricLanguageProvider {
         t.add("itemGroup.narutorpg.admin", "NarutoRPG Admin");
         t.add("ability.narutorpg.fireball_jutsu", "Fire Release: Great Fireball Technique");
         t.add("ability.narutorpg.substitution_jutsu", "Substitution Jutsu");
+        // descriptions: Narutopedia leads ("Fire Release: Great Fireball Technique", "Body Replacement Technique")
+        t.add("ability.narutorpg.fireball_jutsu.desc", "The user kneads chakra in their body and turns it into fire, which they then expel from their mouth; the more chakra they use, the more flames that are produced.");
+        t.add("ability.narutorpg.substitution_jutsu.desc", "The instant before they are to be struck by an attack, the user replaces themselves with a block of wood or something similar. Because the attack does hit something, opponents may briefly believe that they have successfully struck the user.");
         t.add("transformation.narutorpg.sharingan_one_tomoe", "Sharingan (1 Tomoe)");
         t.add("transformation.narutorpg.sharingan_two_tomoe", "Sharingan (2 Tomoe)");
         t.add("transformation.narutorpg.sharingan_three_tomoe", "Sharingan (3 Tomoe)");
@@ -57,6 +60,7 @@ final class NarutoLangProvider extends FabricLanguageProvider {
             if (!spec.description().isEmpty()) t.add("item.narutorpg." + id + ".desc", spec.description());
         });
         t.add("pool.narutorpg.chakra", "Chakra");
+        t.add("card.narutorpg.arc_complete", "Arc Complete");
         t.add("pool.narutorpg.stamina", "Stamina");
         t.add("key.categories.narutorpg", "NarutoRPG");
         t.add("key.narutorpg.combo_wheel", "Hand-Sign Wheel (hold)");

@@ -71,6 +71,8 @@ public class StoryNpcEntity extends PathAwareEntity {
     private boolean ambient;
     /** health filled up to the definition's maximum once (quest spawns do it in setup; /summon on the first tick) */
     private boolean healthInitialized;
+    /** players this boss has already been announced to (anime title card) */
+    private final java.util.Set<UUID> announced = new java.util.HashSet<>();
 
     /** Spawned by the world (StorySpawner), not a quest: despawns when no player is near. */
     public void setAmbient() { ambient = true; }
@@ -263,6 +265,7 @@ public class StoryNpcEntity extends PathAwareEntity {
         if (getWorld().isClient) return;
         configure();
         if (bossBar != null) bossBar.setPercent(getHealth() / getMaxHealth());
+        if (getTarget() instanceof ServerPlayerEntity p && role() == StoryNpcDefinition.Role.BOSS && announced.add(p.getUuid())) announce(p);
         definition().flatMap(StoryNpcDefinition::manifestation).ifPresent(m ->
                 com.animecore.manifestation.ManifestationService.tickNpc(this, m, getTarget() != null && getTarget().isAlive()));
         if (age % 20 == 0 && definition().map(StoryNpcDefinition::undead).orElse(false)
@@ -274,6 +277,14 @@ public class StoryNpcEntity extends PathAwareEntity {
             ((ServerWorld) getWorld()).spawnParticles(ParticleTypes.POOF, getX(), getBodyY(0.5), getZ(), 12, 0.3, 0.6, 0.3, 0.02);
             discard();
         }
+    }
+
+    /** The boss intro title card: name + the Stand it fights with (or "Boss"). */
+    private void announce(ServerPlayerEntity player) {
+        definition().ifPresent(d -> com.animecore.vfx.Juice.card(player, d.system(), com.animecore.vfx.Juice.CardKind.BOSS, d.name(),
+                d.manifestation().flatMap(m -> AnimeRegistries.manifestation(getRegistryManager(), m))
+                        .map(m -> (Text) Text.literal("\u300C").append(m.name()).append("\u300D"))
+                        .orElse(Text.translatable("card.animecore.boss")), 70));
     }
 
     @Override

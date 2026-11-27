@@ -1485,7 +1485,10 @@
  },
  "npcs": {
   "agent_t10": {
-   "abilities": [],
+   "abilities": [
+    "jojorpg:scalpels",
+    "jojorpg:saw_hat"
+   ],
    "appearance": {
     "accent": 6953882,
     "hair": 4073251,
@@ -1512,7 +1515,10 @@
    }
   },
   "agent_t11": {
-   "abilities": [],
+   "abilities": [
+    "jojorpg:scalpels",
+    "jojorpg:saw_hat"
+   ],
    "appearance": {
     "accent": 6953882,
     "hair": 4073251,
@@ -1539,7 +1545,10 @@
    }
   },
   "agent_t13": {
-   "abilities": [],
+   "abilities": [
+    "jojorpg:scalpels",
+    "jojorpg:saw_hat"
+   ],
    "appearance": {
     "accent": 6953882,
     "hair": 4073251,
@@ -3506,7 +3515,9 @@
    }
   },
   "puppet_t12": {
-   "abilities": [],
+   "abilities": [
+    "jojorpg:eastern_mystery_chinese_kempo"
+   ],
    "appearance": {
     "accent": 6953882,
     "hair": 4073251,

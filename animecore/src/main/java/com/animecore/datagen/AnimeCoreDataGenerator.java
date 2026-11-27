@@ -234,6 +234,11 @@ public final class AnimeCoreDataGenerator implements DataGeneratorEntrypoint {
             t.add("entity.animecore.story_npc", "Story Character");
             t.add("message.animecore.trait.sunlight", "The sunlight is burning you - get to the shade!");
             t.add("entity.animecore.manifestation", "Manifestation");
+            t.add("hud.animecore.rank", "RANK %s");
+            t.add("tooltip.animecore.token.stats", "Rank %s · cooldown %ss");
+            t.add("card.animecore.arc_end", "Arc Complete");
+            t.add("card.animecore.chapter", "Chapter");
+            t.add("card.animecore.boss", "Boss");
             t.add("message.animecore.manifestation.awakened", "Your spirit awakens: %s");
             t.add("message.animecore.manifestation.known", "You already have this power");
             t.add("message.animecore.manifestation.confirm", "This replaces the power you already have - sneak + use to accept");
