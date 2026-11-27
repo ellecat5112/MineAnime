@@ -2,26 +2,25 @@
   "actions": [
     {
       "type": "animecore:dash_strike",
-      "damage": 11.2,
+      "damage": 5.2,
       "distance": 4.0,
       "hit_radius": 1.4
     },
     {
       "type": "animecore:self_buff",
-      "heal": 6.72
+      "heal": 3.12
     }
   ],
   "cast_animation": "animecore:cast_lunge",
-  "cooldown_ticks": 129,
+  "cooldown_ticks": 81,
   "cost": {
-    "amount": 24.6,
+    "amount": 11.4,
     "pool": "jojorpg:blood"
   },
   "name": {
     "fallback": "Meat Invade",
     "translate": "ability.jojorpg.meat_invade"
   },
-  "required_tier": 6,
   "system": "jojorpg",
   "token": "jojorpg:pillar_men"
 }

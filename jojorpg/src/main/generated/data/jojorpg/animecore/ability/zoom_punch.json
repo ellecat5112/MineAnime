@@ -3,7 +3,7 @@
     {
       "type": "animecore:beam_raycast",
       "color": 16766287,
-      "damage": 6.4,
+      "damage": 5.2,
       "pierce": false,
       "range": 7.0,
       "width": 0.6
@@ -11,16 +11,15 @@
   ],
   "affinity": "jojorpg:ripple",
   "cast_animation": "animecore:cast_punch",
-  "cooldown_ticks": 91,
+  "cooldown_ticks": 81,
   "cost": {
-    "amount": 14.1,
+    "amount": 11.4,
     "pool": "jojorpg:ripple"
   },
   "name": {
     "fallback": "Zoom Punch",
     "translate": "ability.jojorpg.zoom_punch"
   },
-  "required_tier": 2,
   "system": "jojorpg",
   "token": "jojorpg:ripple"
 }

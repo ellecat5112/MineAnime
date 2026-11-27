@@ -24,9 +24,15 @@
   `npc_skins.py` writes the tinted story-character layer textures; `beast_models.py` writes the low-poly form models
   (`assets/narutorpg/form_models/` + `textures/entity/form/`, check them with `form_preview.py out.png`);
   `animations.py` writes cast animations.
+  JoJoRPG: `jojo_content.py --extract <crawl.json>` condenses a jojowiki crawl into `docs/wiki/jojowiki_parts_1_2.json`;
+  `jojo_content.py` writes `jojo_catalog.json` (styles, techniques, forms), `assets/jojorpg/jojo_items.json` and the
+  JoJo sprites; `jojo_story.py` (after it) writes `jojo_story_catalog.json` (chapter quests, characters, night spawns).
+- Engine wording is neutral; a content mod re-words engine messages via `assets/<mod>/engine_text.json` +
+  `AnimeModContext.Builder#overrideText` (use `AnimeText.tr(system, key)` for any message a mod might re-word).
 
 ## Verification
-- `./gradlew build` (includes budget checks), `./gradlew :narutorpg:runDatagen`, `./gradlew :narutorpg:runGametest`.
+- `./gradlew build` (includes budget checks), `./gradlew :narutorpg:runDatagen`, `./gradlew :narutorpg:runGametest`,
+  `./gradlew :jojorpg:runDatagen`, `./gradlew :jojorpg:runGametest` (`:jojorpg:prodClient` runs all three mods together).
 - Re-run the relevant `runDatagen` after changing any DataGen provider (lang, models, loot, registries).
 - Before shipping jars, run `./gradlew :narutorpg:prodClient -PprodQuickPlay=<world>` (production launch with the real
   remapped jars). The dev environment uses named mappings and hides mixin/refmap problems that crash real launchers.

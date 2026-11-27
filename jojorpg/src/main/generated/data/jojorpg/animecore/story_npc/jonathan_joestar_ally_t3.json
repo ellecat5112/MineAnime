@@ -1,11 +1,11 @@
 {
   "abilities": [
+    "jojorpg:overdrive",
     "jojorpg:zoom_punch",
     "jojorpg:sendo_ripple_overdrive",
     "jojorpg:scarlet_overdrive",
     "jojorpg:turquoise_blue_overdrive",
-    "jojorpg:overdrive_barrage",
-    "jojorpg:metal_silver_overdrive"
+    "jojorpg:overdrive_barrage"
   ],
   "appearance": {
     "accent": 2503224,

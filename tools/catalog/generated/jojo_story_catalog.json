@@ -1113,8 +1113,8 @@
   "quest.jojorpg.phantom_blood_044.outro0": "Though she didn't know it at the time Erina was pregnant with their child.",
   "quest.jojorpg.phantom_blood_044.outro1": "After two days, Erina and the baby are rescued from the waters near the Canary Islands.",
   "quest.jojorpg.phantom_blood_044.travel": "Head out: Fire and Ice, Jonathan and Dio, Part 6",
-  "quest.series.jojorpg.battle_tendency": "Part 2: Battle Tendency",
-  "quest.series.jojorpg.phantom_blood": "Part 1: Phantom Blood"
+  "quest.series.jojorpg.battle_tendency": "Battle Tendency",
+  "quest.series.jojorpg.phantom_blood": "Phantom Blood"
  },
  "npcs": {
   "adams_foe_t4": {
@@ -1816,12 +1816,12 @@
   },
   "jonathan_joestar_ally_t3": {
    "abilities": [
+    "jojorpg:overdrive",
     "jojorpg:zoom_punch",
     "jojorpg:sendo_ripple_overdrive",
     "jojorpg:scarlet_overdrive",
     "jojorpg:turquoise_blue_overdrive",
-    "jojorpg:overdrive_barrage",
-    "jojorpg:metal_silver_overdrive"
+    "jojorpg:overdrive_barrage"
    ],
    "appearance": {
     "accent": 2503224,
@@ -2545,6 +2545,7 @@
   },
   "rudol_von_stroheim_ally_t6": {
    "abilities": [
+    "jojorpg:abdominal_machine_gun",
     "jojorpg:cyborg_eyes"
    ],
    "appearance": {

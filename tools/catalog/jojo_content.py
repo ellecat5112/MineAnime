@@ -626,6 +626,9 @@ def main():
     data = json.load(open(DOC_JSON, encoding='utf-8'))
     lang = OrderedDict()
     techniques, skipped_passive, skipped_other = build_techniques(data)
+    for sid, first in GRANTED.items():   # a style's starting techniques work from rank 1
+        for k in first:
+            if k in techniques: techniques[k]['tier'] = 1
     abilities = OrderedDict((tid, ability(tid, t, lang)) for tid, t in techniques.items())
     F = forms(lang, techniques)
     L = lineages(lang, techniques, list(F))

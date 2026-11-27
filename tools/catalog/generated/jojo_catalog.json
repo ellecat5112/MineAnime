@@ -6,7 +6,7 @@
      "aoe_radius": 0.0,
      "color": 16769154,
      "count": 8,
-     "damage": 3.4,
+     "damage": 1.3,
      "fire_ticks": 0,
      "lifetime_ticks": 25,
      "size": 0.2,
@@ -17,16 +17,16 @@
    ],
    "cast_animation": "animecore:cast_thrust",
    "cast_type": "instant",
-   "cooldown_ticks": 148,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 29.9,
+    "amount": 11.4,
     "pool": "jojorpg:stamina"
    },
    "name": {
     "fallback": "Abdominal Machine Gun",
     "translate": "ability.jojorpg.abdominal_machine_gun"
    },
-   "required_tier": 8,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:science"
   },
@@ -396,7 +396,7 @@
   "claws": {
    "actions": [
     {
-     "damage": 7.7,
+     "damage": 6.2,
      "distance": 3.5,
      "hit_radius": 1.4,
      "knockback": 1.6,
@@ -407,16 +407,16 @@
    "affinity": "jojorpg:vampirism",
    "cast_animation": "animecore:cast_sweep",
    "cast_type": "instant",
-   "cooldown_ticks": 91,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 14.1,
+    "amount": 11.4,
     "pool": "jojorpg:blood"
    },
    "name": {
     "fallback": "Claws",
     "translate": "ability.jojorpg.claws"
    },
-   "required_tier": 2,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:vampire"
   },
@@ -440,16 +440,16 @@
    ],
    "cast_animation": "animecore:cast_focus",
    "cast_type": "instant",
-   "cooldown_ticks": 110,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 19.4,
+    "amount": 11.4,
     "pool": "jojorpg:stamina"
    },
    "name": {
     "fallback": "Cyborg Eyes",
     "translate": "ability.jojorpg.cyborg_eyes"
    },
-   "required_tier": 4,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:science"
   },
@@ -863,7 +863,7 @@
     {
      "color": 16766287,
      "cone_degrees": 50,
-     "damage": 1.9,
+     "damage": 1.6,
      "effects": [
       {
        "amplifier": 0,
@@ -884,16 +884,16 @@
    "affinity": "jojorpg:vampirism",
    "cast_animation": "animecore:cast_gaze",
    "cast_type": "instant",
-   "cooldown_ticks": 91,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 14.1,
+    "amount": 11.4,
     "pool": "jojorpg:blood"
    },
    "name": {
     "fallback": "Hypnosis",
     "translate": "ability.jojorpg.hypnosis"
    },
-   "required_tier": 2,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:vampire"
   },
@@ -1122,7 +1122,7 @@
   "meat_invade": {
    "actions": [
     {
-     "damage": 11.2,
+     "damage": 5.2,
      "distance": 4,
      "hit_radius": 1.4,
      "knockback": 0.6,
@@ -1131,22 +1131,22 @@
     },
     {
      "effects": [],
-     "heal": 6.72,
+     "heal": 3.12,
      "type": "animecore:self_buff"
     }
    ],
    "cast_animation": "animecore:cast_lunge",
    "cast_type": "instant",
-   "cooldown_ticks": 129,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 24.6,
+    "amount": 11.4,
     "pool": "jojorpg:blood"
    },
    "name": {
     "fallback": "Meat Invade",
     "translate": "ability.jojorpg.meat_invade"
    },
-   "required_tier": 6,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:pillar_men"
   },
@@ -1266,7 +1266,7 @@
   "overdrive": {
    "actions": [
     {
-     "damage": 8.8,
+     "damage": 5.2,
      "distance": 3.5,
      "hit_radius": 1.4,
      "knockback": 1.3,
@@ -1275,7 +1275,7 @@
     },
     {
      "color": 16766287,
-     "damage": 3.5,
+     "damage": 2.1,
      "fire_ticks": 0,
      "forward_offset": 1.2,
      "knockback": 0.6,
@@ -1286,16 +1286,16 @@
    "affinity": "jojorpg:ripple",
    "cast_animation": "animecore:cast_punch",
    "cast_type": "instant",
-   "cooldown_ticks": 110,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 19.4,
+    "amount": 11.4,
     "pool": "jojorpg:ripple"
    },
    "name": {
     "fallback": "Overdrive",
     "translate": "ability.jojorpg.overdrive"
    },
-   "required_tier": 4,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:ripple"
   },
@@ -1502,7 +1502,7 @@
    "actions": [
     {
      "color": 15723497,
-     "damage": 10.0,
+     "damage": 5.2,
      "fire_ticks": 0,
      "forward_offset": 1.0,
      "knockback": 1.0,
@@ -1512,16 +1512,16 @@
    ],
    "cast_animation": "animecore:cast_burst",
    "cast_type": "instant",
-   "cooldown_ticks": 120,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 22.0,
+    "amount": 11.4,
     "pool": "jojorpg:blood"
    },
    "name": {
     "fallback": "Ribs Blades",
     "translate": "ability.jojorpg.ribs_blades"
    },
-   "required_tier": 5,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:pillar_men"
   },
@@ -2691,7 +2691,7 @@
    "actions": [
     {
      "color": 16766287,
-     "damage": 6.4,
+     "damage": 5.2,
      "fire_ticks": 0,
      "pierce": false,
      "range": 7,
@@ -2702,16 +2702,16 @@
    "affinity": "jojorpg:ripple",
    "cast_animation": "animecore:cast_punch",
    "cast_type": "instant",
-   "cooldown_ticks": 91,
+   "cooldown_ticks": 81,
    "cost": {
-    "amount": 14.1,
+    "amount": 11.4,
     "pool": "jojorpg:ripple"
    },
    "name": {
     "fallback": "Zoom Punch",
     "translate": "ability.jojorpg.zoom_punch"
    },
-   "required_tier": 2,
+   "required_tier": 1,
    "system": "jojorpg",
    "token": "jojorpg:ripple"
   }

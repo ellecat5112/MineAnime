@@ -57,11 +57,11 @@ Every `{{Tech}}` entry on the character pages (and the Hamon, Vampire and Pillar
 |---|---|---|---:|
 | Intangibility | vampire | Wired Beck | 4 |
 | Body Spikes | vampire | Wired Beck | 4 |
-| Hypnosis | vampire | Dio Brando, Vampire | 2 |
+| Hypnosis | vampire | Dio Brando, Vampire | 1 |
 | Vaporization Freezing Technique | vampire | Dio Brando, Vampire | 3 |
 | Flesh Transmutation | vampire | Dio Brando | 4 |
 | Space Ripper Stingy Eyes | vampire | Dio Brando, Straizo, Vampire | 4 |
-| Overdrive | hamon | Straizo, Dire, Jonathan Joestar, Will Anthonio Zeppeli | 4 |
+| Overdrive | hamon | Straizo, Dire, Jonathan Joestar, Will Anthonio Zeppeli | 1 |
 | Satiporoja Beetle Cloth | hamon | Straizo, Lisa Lisa, Hamon | 5 |
 | Zombie/Vampire Creation | vampire | Vampire | 4 |
 | Seated Jump | hamon | Caesar Anthonio Zeppeli, Will Anthonio Zeppeli, Hamon | 6 |
@@ -77,11 +77,11 @@ Every `{{Tech}}` entry on the character pages (and the Hamon, Vampire and Pillar
 | Erratic Blaze King: Giant Cartwheel Prison | pillar_man | Esidisi | 7 |
 | Saw-Hat | brawler | Robert E. O. Speedwagon | 1 |
 | Sledgehammer | brawler | Robert E. O. Speedwagon | 3 |
-| Abdominal Machine Gun | cyborg | Rudol von Stroheim | 8 |
+| Abdominal Machine Gun | cyborg | Rudol von Stroheim | 1 |
 | Ultraviolet Radiation Apparatus | cyborg | Rudol von Stroheim | 8 |
 | Ultraviolet Radiation Apparatus (SPW Variant) | cyborg | Rudol von Stroheim | 9 |
 | Projectile Hand | cyborg | Rudol von Stroheim | 10 |
-| Cyborg Eyes | cyborg | Rudol von Stroheim | 4 |
+| Cyborg Eyes | cyborg | Rudol von Stroheim | 1 |
 | Anti-Ripple Wires | pillar_man | Wamuu | 6 |
 | Switching Winback | pillar_man | Wamuu | 9 |
 | Divine Sandstorm | pillar_man | Wamuu | 6 |
@@ -100,7 +100,7 @@ Every `{{Tech}}` entry on the character pages (and the Hamon, Vampire and Pillar
 | Electrified Halberd | undead | Eijkman | 4 |
 | Scalpels | undead | Jack the Ripper | 2 |
 | Medieval Pincer | undead | Jack the Ripper | 2 |
-| Zoom Punch | hamon | Jonathan Joestar, Will Anthonio Zeppeli, Joseph Joestar, Hamon | 2 |
+| Zoom Punch | hamon | Jonathan Joestar, Will Anthonio Zeppeli, Joseph Joestar, Hamon | 1 |
 | Sendō Ripple Overdrive | hamon | Jonathan Joestar, Will Anthonio Zeppeli, Hamon | 2 |
 | Scarlet Overdrive | hamon | Jonathan Joestar, Hamon | 3 |
 | Turquoise Blue Overdrive | hamon | Jonathan Joestar, Hamon | 3 |
@@ -118,7 +118,7 @@ Every `{{Tech}}` entry on the character pages (and the Hamon, Vampire and Pillar
 | Needle Vein Strike | undead | Page, Jones, Plant, and Bornnam, Zombie | 4 |
 | Hell Heaven Snake Kill | undead | Tarkus | 3 |
 | Precognition | hamon | Tonpetty, Hamon | 3 |
-| Claws | vampire | Wang Chan | 2 |
+| Claws | vampire | Wang Chan | 1 |
 | Axe Wielding | undead | Winzaleo | 4 |
 | Sendō Wave Kick | hamon | Will Anthonio Zeppeli, Hamon | 2 |
 | Ripple Cutter | hamon | Will Anthonio Zeppeli, Hamon | 2 |
@@ -138,8 +138,8 @@ Every `{{Tech}}` entry on the character pages (and the Hamon, Vampire and Pillar
 | Presence Erasing | hamon | Sasha Loggins, Hamon | 1 |
 | Ripple Teleférico (Ropeway) | hamon | Sasha Loggins | 1 |
 | Stone Form | pillar_man | Pillar Men | 4 |
-| Ribs Blades | pillar_man | Santana | 5 |
-| Meat Invade | pillar_man | Santana | 6 |
+| Ribs Blades | pillar_man | Santana | 1 |
+| Meat Invade | pillar_man | Santana | 1 |
 | Medicinal Usage | hamon | Hamon | 2 |
 
 ### Passive abilities (48)

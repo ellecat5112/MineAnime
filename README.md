@@ -1,9 +1,10 @@
-# MineAnime: AnimeCore + NarutoRPG (Minecraft 1.21.1 · Fabric · Java 21)
+# MineAnime: AnimeCore + NarutoRPG + JoJoRPG (Minecraft 1.21.1 · Fabric · Java 21)
 
 | Module | Package | Role | Jar |
 |---|---|---|---|
 | `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~437 KB (budget 1.5 MB) |
-| `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~297 KB (budget 15 MB) |
+| `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~3.9 MB (budget 15 MB) |
+| `:jojorpg` | `com.jojorpg.*` | JoJo's Bizarre Adventure Parts 1-2 content | ~0.3 MB |
 
 Runtime deps (installed separately, **never bundled**): Fabric API, Cardinal Components API 6.1.x,
 PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
@@ -14,7 +15,37 @@ PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
 ./gradlew :narutorpg:runGametest   # 30 headless end-to-end tests (incl. every move of all 244 ninja tools)
 python3 tools/catalog/build.py     # regenerate ninja_tools.json + 244 sprites (then runDatagen)
 ./gradlew :narutorpg:runClient     # dev client with both mods
+./gradlew :jojorpg:runDatagen :jojorpg:runGametest   # JoJo content + its 8 end-to-end tests
+python3 tools/catalog/jojo_content.py && python3 tools/catalog/jojo_story.py   # regenerate the JoJo catalogs
 ```
+
+## Several anime mods in one pack
+
+The engine speaks neutral words (technique, faction, lineage, affinity, energy); each content mod
+re-words the engine messages it cares about (`AnimeModContext.Builder#overrideText` + `assets/<mod>/engine_text.json`,
+resolved by `AnimeText.tr(system, key)`): NarutoRPG says jutsu / clan / village, JoJoRPG says fighting style / technique.
+Each mod has its own `PlayerPowerComponent`, energy pools, items and creative tabs. With several mods installed a mod's
+HUD bars only show once the player has used that mod, and first-join random lineages are per mod (`ClanConfig.rollOnJoin`;
+JoJo styles are learned from items, not rolled). Tested together: `:jojorpg:prodClient` launches all three jars.
+
+## JoJoRPG: Part 1 Phantom Blood + Part 2 Battle Tendency (JoJo's Bizarre Encyclopedia)
+
+Source: jojowiki.com `Category:Part 1` and `Category:Part 2`, crawled recursively (plus Vampires, Pillar Men, Items and
+the Hamon / Vampire / Pillar Men / Stone Mask / Red Stone of Aja pages); coverage in `docs/wiki/jojowiki_parts_1_2.md`.
+
+| | |
+|---|---|
+| Energy | Ripple (Hamon), Stamina, Blood |
+| Fighting styles | **Hamon** (breathing refills the Ripple, blows sear the undead, walk on water), **Vampire** (Stone Mask: strength, regeneration, lifesteal, burns in the sun), **Pillar Man** (absorption, turns to stone in sunlight, Wind / Flame / Light Modes), **Cyborg** (German science: armour, machine guns, UV lamp), **Brawler** (Ogre Street / gentleman boxing) |
+| Techniques | 86 - every `{{Tech}}` entry of the Part 1-2 characters (Zoom Punch, Sunlight Yellow Overdrive, Clacker Volley, Bubble Launcher, Snake Muffler, Space Ripper Stingy Eyes, Vaporization Freezing, Divine Sandstorm, Erratic Blaze King, Light Blades, UV Apparatus...) on 6 technique items |
+| Forms | Wind Mode, Flame Mode, Light Mode, Ultimate Life Form (Red Stone of Aja; immune to the sun) |
+| Items | Ripple Breathing Mask, Stone Mask, Pillar of the Ancients, Cybernetic Overhaul, Ogre Street Gloves, Red Stone of Aja, Style Manual, JoJo's Bizarre Journal, admin seals |
+| Story mode | 113 quests (one per manga chapter) in 24 story arcs, 77 story characters (Dio grows from human rival to vampire lord; Straizo turns in Part 2; the Pillar Men) |
+| World | zombies and vampires at night, Ogre Street thugs |
+
+Engine features added for it: `undead`, `sunlight_weakness`, `breathing`, `lifesteal`, `undead_bane`, `sunlight_immunity`
+traits, affinity `undead_multiplier` (the Ripple does 3x to the undead, UV 4x), `LineageAwakeningItem`, ambient
+`animecore:story_spawn` entries, undead story characters.
 
 ## Namespace isolation
 

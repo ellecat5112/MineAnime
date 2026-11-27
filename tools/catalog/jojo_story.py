@@ -23,7 +23,7 @@ OUT = os.path.join(ROOT, 'tools', 'catalog', 'generated', 'jojo_story_catalog.js
 DOC_MD = os.path.join(ROOT, 'docs', 'wiki', 'jojowiki_parts_1_2.md')
 
 SERIES = ['phantom_blood', 'battle_tendency']
-SERIES_NAMES = {'phantom_blood': 'Part 1: Phantom Blood', 'battle_tendency': 'Part 2: Battle Tendency'}
+SERIES_NAMES = {'phantom_blood': 'Phantom Blood', 'battle_tendency': 'Battle Tendency'}   # journal tab width
 PART_OF = {'Phantom Blood': 'phantom_blood', 'Battle Tendency': 'battle_tendency'}
 
 # chapter of death (later appearances are flashbacks / mentions)
