@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:muhammad_avdol_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Justice",
+    "translate": "quest.jojorpg.arc.justice"
+  },
+  "description": {
+    "fallback": "Surrounded by corpses controlled by Justice, Polnareff runs away. Enya keeps up with his speed despite being an old woman, so he locks himself into a bathroom to escape her. As Polnareff wonders why he's always attacked in bathrooms, Enya orders the corpses to smash the door open.",
+    "translate": "quest.jojorpg.stardust_crusaders_158.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Surrounded by corpses controlled by Justice, Polnareff runs away.",
+      "translate": "quest.jojorpg.stardust_crusaders_158.intro0"
+    },
+    {
+      "fallback": "Enya keeps up with his speed despite being an old woman, so he locks himself into a bathroom to escape her.",
+      "translate": "quest.jojorpg.stardust_crusaders_158.intro1"
+    },
+    {
+      "fallback": "As Polnareff wonders why he's always attacked in bathrooms, Enya orders the corpses to smash the door open.",
+      "translate": "quest.jojorpg.stardust_crusaders_158.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "158. Justice, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_158"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_158.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Justice, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_158.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:puppet_t12",
+      "text": {
+        "fallback": "Defeat Enya's puppets",
+        "translate": "quest.jojorpg.minion.puppet"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:enya_the_hag_foe_t12",
+      "text": {
+        "fallback": "Defeat Enya the Hag",
+        "translate": "quest.jojorpg.defeat.enya_the_hag_foe_t12"
+      }
+    }
+  ],
+  "order": 301580,
+  "outro": [
+    {
+      "fallback": "He is forced to open the door and to lick the toilet clean.",
+      "translate": "quest.jojorpg.stardust_crusaders_158.outro0"
+    },
+    {
+      "fallback": "Jotaro suddenly enters the room, but Enya manages to hide all of the corpses as well as Polnareff inside the bathroom.",
+      "translate": "quest.jojorpg.stardust_crusaders_158.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_157"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

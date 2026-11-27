@@ -1,0 +1,97 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:jotaro_kujo_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Justice",
+    "translate": "quest.jojorpg.arc.justice"
+  },
+  "description": {
+    "fallback": "Polnareff hears the gunshot from Emperor and goes to investigate. Enya distracts him while using Justice to hide Hol Horse's body. Polnareff becomes worried that Enya seems lonely without a family, and asks her what happened to them.",
+    "translate": "quest.jojorpg.stardust_crusaders_157.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Polnareff hears the gunshot from Emperor and goes to investigate.",
+      "translate": "quest.jojorpg.stardust_crusaders_157.intro0"
+    },
+    {
+      "fallback": "Enya distracts him while using Justice to hide Hol Horse's body.",
+      "translate": "quest.jojorpg.stardust_crusaders_157.intro1"
+    },
+    {
+      "fallback": "Polnareff becomes worried that Enya seems lonely without a family, and asks her what happened to them.",
+      "translate": "quest.jojorpg.stardust_crusaders_157.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "157. Justice, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_157"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_157.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Justice, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_157.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:puppet_t12",
+      "text": {
+        "fallback": "Defeat Enya's puppets",
+        "translate": "quest.jojorpg.minion.puppet"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t12",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t12"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:enya_the_hag_foe_t12",
+      "text": {
+        "fallback": "Defeat Enya the Hag",
+        "translate": "quest.jojorpg.defeat.enya_the_hag_foe_t12"
+      }
+    }
+  ],
+  "order": 301570,
+  "outro": [
+    {
+      "fallback": "He is then surrounded by a crowd of corpses controlled by Justice, including the impaled dog Jotaro saw earlier, the dead traveler, and the citizens of the town.",
+      "translate": "quest.jojorpg.stardust_crusaders_157.outro0"
+    },
+    {
+      "fallback": "Hol Horse warns Polnareff not to let himself get wounded.",
+      "translate": "quest.jojorpg.stardust_crusaders_157.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_156"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

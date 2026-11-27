@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t14"
+  ],
+  "arc": {
+    "fallback": "\"Bastet\" Mariah",
+    "translate": "quest.jojorpg.arc.bastet_mariah"
+  },
+  "description": {
+    "fallback": "After avoiding death by train, Avdol uses Magician's Red to break off the piece of railing he and Joseph are joined to. Now that she's within range, Joseph grabs Mariah by the neck with Hermit Purple and prepares to incapacitate her. Suddenly Mariah's breasts begin expanding.",
+    "translate": "quest.jojorpg.stardust_crusaders_203.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After avoiding death by train, Avdol uses Magician's Red to break off the piece of railing he and Joseph are joined to.",
+      "translate": "quest.jojorpg.stardust_crusaders_203.intro0"
+    },
+    {
+      "fallback": "Now that she's within range, Joseph grabs Mariah by the neck with Hermit Purple and prepares to incapacitate her.",
+      "translate": "quest.jojorpg.stardust_crusaders_203.intro1"
+    },
+    {
+      "fallback": "Suddenly Mariah's breasts begin expanding.",
+      "translate": "quest.jojorpg.stardust_crusaders_203.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "203. \"Bastet\" Mariah, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_203"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_203.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Head out: \"Bastet\" Mariah, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_203.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mariah_foe_t14",
+      "text": {
+        "fallback": "Defeat Mariah",
+        "translate": "quest.jojorpg.defeat.mariah_foe_t14"
+      }
+    }
+  ],
+  "order": 302030,
+  "outro": [
+    {
+      "fallback": "She throws a knife into the air which cuts various power cables.",
+      "translate": "quest.jojorpg.stardust_crusaders_203.outro0"
+    },
+    {
+      "fallback": "Now loose, the power cables start attracting to Joseph, and once connected will surely kill him.",
+      "translate": "quest.jojorpg.stardust_crusaders_203.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_202"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

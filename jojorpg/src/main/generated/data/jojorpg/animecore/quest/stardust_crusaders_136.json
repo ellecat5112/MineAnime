@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t11",
+    "jojorpg:jotaro_kujo_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Yellow Temperance",
+    "translate": "quest.jojorpg.arc.yellow_temperance"
+  },
+  "description": {
+    "fallback": "Joseph reasons that if DIO is aware of his and Jotaro's actions because of having Jonathan's body, he can do the same to DIO. Avdol offers to get a camera, but Joseph says it isn't necessary, as he can use televisions as well. By rapidly changing channels with Hermit Purple, Joseph can sync up their speech to hear something he wants to know.",
+    "translate": "quest.jojorpg.stardust_crusaders_136.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Joseph reasons that if DIO is aware of his and Jotaro's actions because of having Jonathan's body, he can do the same to DIO.",
+      "translate": "quest.jojorpg.stardust_crusaders_136.intro0"
+    },
+    {
+      "fallback": "Avdol offers to get a camera, but Joseph says it isn't necessary, as he can use televisions as well.",
+      "translate": "quest.jojorpg.stardust_crusaders_136.intro1"
+    },
+    {
+      "fallback": "By rapidly changing channels with Hermit Purple, Joseph can sync up their speech to hear something he wants to know.",
+      "translate": "quest.jojorpg.stardust_crusaders_136.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "136. Yellow Temperance, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_136"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_136.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Head out: Yellow Temperance, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_136.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:rubber_soul_foe_t11",
+      "text": {
+        "fallback": "Defeat Rubber Soul",
+        "translate": "quest.jojorpg.defeat.rubber_soul_foe_t11"
+      }
+    }
+  ],
+  "order": 301360,
+  "outro": [
+    {
+      "fallback": "Anne is impressed by his attitude, but Jotaro scolds Kakyoin for almost killing the thief and interrupts the attack.",
+      "translate": "quest.jojorpg.stardust_crusaders_136.outro0"
+    },
+    {
+      "fallback": "Kakyoin justifies his actions by saying the pickpocket was a bad man for stealing and needed to be punished.",
+      "translate": "quest.jojorpg.stardust_crusaders_136.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_135"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,13 @@
+{
+  "group": [
+    1,
+    3
+  ],
+  "max_light": 15,
+  "max_nearby": 3,
+  "min_tier": 10,
+  "night_only": false,
+  "npc": "jojorpg:agent_t11",
+  "system": "jojorpg",
+  "weight": 4
+}

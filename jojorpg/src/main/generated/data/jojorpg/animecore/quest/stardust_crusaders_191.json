@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t13",
+    "jojorpg:noriaki_kakyoin_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"Khnum\" Oingo and \"Tohth\" Boingo",
+    "translate": "quest.jojorpg.arc.khnum_oingo_and_tohth_boingo"
+  },
+  "description": {
+    "fallback": "Oingo approaches the Joestar group's car so that he can place a bomb hidden within an orange in it that when detonated will split Jotaro's face in half, as foretold by Tohth's prophecy. Oingo enters the car to place the orange, but Joseph and Polnareff spot him. However, by using Khnum, Oingo is able to disguise himself as Jotaro.",
+    "translate": "quest.jojorpg.stardust_crusaders_191.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Oingo approaches the Joestar group's car so that he can place a bomb hidden within an orange in it that when detonated will split Jotaro's face in half, as foretold by Tohth's prophecy.",
+      "translate": "quest.jojorpg.stardust_crusaders_191.intro0"
+    },
+    {
+      "fallback": "Oingo enters the car to place the orange, but Joseph and Polnareff spot him.",
+      "translate": "quest.jojorpg.stardust_crusaders_191.intro1"
+    },
+    {
+      "fallback": "However, by using Khnum, Oingo is able to disguise himself as Jotaro.",
+      "translate": "quest.jojorpg.stardust_crusaders_191.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "191. \"Khnum\" Oingo and \"Tohth\" Boingo, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_191"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_191.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Head out: \"Khnum\" Oingo and \"Tohth\" Boingo, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_191.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:oingo_foe_t13",
+      "text": {
+        "fallback": "Defeat Oingo",
+        "translate": "quest.jojorpg.defeat.oingo_foe_t13"
+      }
+    }
+  ],
+  "order": 301910,
+  "outro": [
+    {
+      "fallback": "He manages to pull it off, but when asked to drink some juice at the same time he completely fails.",
+      "translate": "quest.jojorpg.stardust_crusaders_191.outro0"
+    },
+    {
+      "fallback": "With fate against him, Oingo believes he has no chance of surviving this encounter.",
+      "translate": "quest.jojorpg.stardust_crusaders_191.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_190"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

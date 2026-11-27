@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t15",
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "Due to Atum's strong grip on Jotaro's arm, the group has no choice but to face off against Telence in a video game competition. Understanding the situation, Jotaro decides he will accept Telence's challenge. However, Telence declares that he will fight Kakyoin first.",
+    "translate": "quest.jojorpg.stardust_crusaders_230.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Due to Atum's strong grip on Jotaro's arm, the group has no choice but to face off against Telence in a video game competition.",
+      "translate": "quest.jojorpg.stardust_crusaders_230.intro0"
+    },
+    {
+      "fallback": "Understanding the situation, Jotaro decides he will accept Telence's challenge.",
+      "translate": "quest.jojorpg.stardust_crusaders_230.intro1"
+    },
+    {
+      "fallback": "However, Telence declares that he will fight Kakyoin first.",
+      "translate": "quest.jojorpg.stardust_crusaders_230.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "230. D'Arby the Player, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_230"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_230.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_230.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302300,
+  "outro": [
+    {
+      "fallback": "Because they have identical cars with identical stats it should be impossible for Kakyoin to pass, but by rotating the d-pad Kakyoin is able to perform a spin attack.",
+      "translate": "quest.jojorpg.stardust_crusaders_230.outro0"
+    },
+    {
+      "fallback": "With this Kakyoin once again has a chance at victory.",
+      "translate": "quest.jojorpg.stardust_crusaders_230.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_229"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

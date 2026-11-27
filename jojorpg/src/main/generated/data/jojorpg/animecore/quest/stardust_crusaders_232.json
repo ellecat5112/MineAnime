@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t15",
+    "jojorpg:noriaki_kakyoin_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "Both Kakyoin and Telence made it into the speedup tunnel, and are still tied in the race. Telence slams his racer against Kakyoin's in hopes of getting ahead. The screen starts to turn black as the two race further into the tunnel.",
+    "translate": "quest.jojorpg.stardust_crusaders_232.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Both Kakyoin and Telence made it into the speedup tunnel, and are still tied in the race.",
+      "translate": "quest.jojorpg.stardust_crusaders_232.intro0"
+    },
+    {
+      "fallback": "Telence slams his racer against Kakyoin's in hopes of getting ahead.",
+      "translate": "quest.jojorpg.stardust_crusaders_232.intro1"
+    },
+    {
+      "fallback": "The screen starts to turn black as the two race further into the tunnel.",
+      "translate": "quest.jojorpg.stardust_crusaders_232.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "232. D'Arby the Player, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_232"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_232.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_232.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302320,
+  "outro": [
+    {
+      "fallback": "Knowing he could never recover from that, Kakyoin admitted defeat in his heart.",
+      "translate": "quest.jojorpg.stardust_crusaders_232.outro0"
+    },
+    {
+      "fallback": "At that moment Atum captures Kakyoin's soul, admired by Telence as his greatest opponent yet.",
+      "translate": "quest.jojorpg.stardust_crusaders_232.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_231"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

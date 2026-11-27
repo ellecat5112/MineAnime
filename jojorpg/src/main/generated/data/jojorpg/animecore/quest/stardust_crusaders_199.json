@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t13",
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"Bastet\" Mariah",
+    "translate": "quest.jojorpg.arc.bastet_mariah"
+  },
+  "description": {
+    "fallback": "The Joestar group continues their journey to Cairo in order to stop DIO and rescue Holy from her curse. They take a quick stop in Luxor, where Joseph decides to use the restroom. However, he quickly decides not to when he realizes how primitive it is.",
+    "translate": "quest.jojorpg.stardust_crusaders_199.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Joestar group continues their journey to Cairo in order to stop DIO and rescue Holy from her curse.",
+      "translate": "quest.jojorpg.stardust_crusaders_199.intro0"
+    },
+    {
+      "fallback": "They take a quick stop in Luxor, where Joseph decides to use the restroom.",
+      "translate": "quest.jojorpg.stardust_crusaders_199.intro1"
+    },
+    {
+      "fallback": "However, he quickly decides not to when he realizes how primitive it is.",
+      "translate": "quest.jojorpg.stardust_crusaders_199.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "199. \"Bastet\" Mariah, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_199"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_199.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: \"Bastet\" Mariah, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_199.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mariah_foe_t13",
+      "text": {
+        "fallback": "Defeat Mariah",
+        "translate": "quest.jojorpg.defeat.mariah_foe_t13"
+      }
+    }
+  ],
+  "order": 301990,
+  "outro": [
+    {
+      "fallback": "The man loses his grip and the hammer goes flying towards Joseph, but Avdol catches it.",
+      "translate": "quest.jojorpg.stardust_crusaders_199.outro0"
+    },
+    {
+      "fallback": "Not realizing what happened, the group assumes the man threw his hammer in frustration after possibly hammering his finger, so they think nothing of it and continue toward a hotel.",
+      "translate": "quest.jojorpg.stardust_crusaders_199.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_198"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

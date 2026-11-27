@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "\"Sethan\" Alessi",
+    "translate": "quest.jojorpg.arc.sethan_alessi"
+  },
+  "description": {
+    "fallback": "Malèna continues cleaning the child Polnareff, unaware of the approaching Sethan. Right before the Stand can strike, Malèna turns around causing it to retreat back into hiding. She then begins shampooing Polnareff's hair.",
+    "translate": "quest.jojorpg.stardust_crusaders_207.desc"
+  },
+  "giver": "jojorpg:jean_pierre_polnareff",
+  "intro": [
+    {
+      "fallback": "Malèna continues cleaning the child Polnareff, unaware of the approaching Sethan.",
+      "translate": "quest.jojorpg.stardust_crusaders_207.intro0"
+    },
+    {
+      "fallback": "Right before the Stand can strike, Malèna turns around causing it to retreat back into hiding.",
+      "translate": "quest.jojorpg.stardust_crusaders_207.intro1"
+    },
+    {
+      "fallback": "She then begins shampooing Polnareff's hair.",
+      "translate": "quest.jojorpg.stardust_crusaders_207.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "207. \"Sethan\" Alessi, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_207"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jean_pierre_polnareff",
+      "text": {
+        "fallback": "Talk to Jean Pierre Polnareff",
+        "translate": "quest.jojorpg.stardust_crusaders_207.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out: \"Sethan\" Alessi, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_207.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:alessi_foe_t14",
+      "text": {
+        "fallback": "Defeat Alessi",
+        "translate": "quest.jojorpg.defeat.alessi_foe_t14"
+      }
+    }
+  ],
+  "order": 302070,
+  "outro": [
+    {
+      "fallback": "Alessi then summons Sethan and de-ages Polnareff to four years old.",
+      "translate": "quest.jojorpg.stardust_crusaders_207.outro0"
+    },
+    {
+      "fallback": "Due to not being in her mother's womb, Malèna will die in a matter of minutes if not returned to normal.",
+      "translate": "quest.jojorpg.stardust_crusaders_207.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_206"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

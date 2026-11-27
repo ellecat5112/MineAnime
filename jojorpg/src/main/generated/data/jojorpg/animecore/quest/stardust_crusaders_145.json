@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t11",
+    "jojorpg:noriaki_kakyoin_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Emperor and Hanged Man",
+    "translate": "quest.jojorpg.arc.emperor_and_hanged_man"
+  },
+  "description": {
+    "fallback": "Kakyoin and Polnareff find a man who they assume to be J. Geil, but Kakyoin notes that he has a right and left hand. Polnareff is hit by a knife thrown by the real J.",
+    "translate": "quest.jojorpg.stardust_crusaders_145.desc"
+  },
+  "giver": "jojorpg:muhammad_avdol",
+  "intro": [
+    {
+      "fallback": "Kakyoin and Polnareff find a man who they assume to be J.",
+      "translate": "quest.jojorpg.stardust_crusaders_145.intro0"
+    },
+    {
+      "fallback": "Geil, but Kakyoin notes that he has a right and left hand.",
+      "translate": "quest.jojorpg.stardust_crusaders_145.intro1"
+    },
+    {
+      "fallback": "Polnareff is hit by a knife thrown by the real J.",
+      "translate": "quest.jojorpg.stardust_crusaders_145.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "145. Emperor and Hanged Man, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_145"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:muhammad_avdol",
+      "text": {
+        "fallback": "Talk to Muhammad Avdol",
+        "translate": "quest.jojorpg.stardust_crusaders_145.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Emperor and Hanged Man, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_145.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:j_geil_foe_t11",
+      "text": {
+        "fallback": "Defeat J. Geil",
+        "translate": "quest.jojorpg.defeat.j_geil_foe_t11"
+      }
+    }
+  ],
+  "order": 301450,
+  "outro": [
+    {
+      "fallback": "Kakyoin notes that this is a fitting end for J.",
+      "translate": "quest.jojorpg.stardust_crusaders_145.outro0"
+    },
+    {
+      "fallback": "Geil, getting hanged just like the Tarot Card he represents: The Hanged Man.",
+      "translate": "quest.jojorpg.stardust_crusaders_145.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_144"
+  ],
+  "rewards": {
+    "experience": 53,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_hanged_man"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

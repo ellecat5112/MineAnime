@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Judgement",
+    "translate": "quest.jojorpg.arc.judgement"
+  },
+  "description": {
+    "fallback": "As Polnareff walks through the tall grass, he spots a female figure in the distance. He asks the figure if it's who he thinks she is, but he loses sight of her when two birds fly upward in front of him. He chases after her, calling her name as Judgement lingers over him, watching.",
+    "translate": "quest.jojorpg.stardust_crusaders_176.desc"
+  },
+  "giver": "jojorpg:muhammad_avdol",
+  "intro": [
+    {
+      "fallback": "As Polnareff walks through the tall grass, he spots a female figure in the distance.",
+      "translate": "quest.jojorpg.stardust_crusaders_176.intro0"
+    },
+    {
+      "fallback": "He asks the figure if it's who he thinks she is, but he loses sight of her when two birds fly upward in front of him.",
+      "translate": "quest.jojorpg.stardust_crusaders_176.intro1"
+    },
+    {
+      "fallback": "He chases after her, calling her name as Judgement lingers over him, watching.",
+      "translate": "quest.jojorpg.stardust_crusaders_176.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "176. Judgement, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_176"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:muhammad_avdol",
+      "text": {
+        "fallback": "Talk to Muhammad Avdol",
+        "translate": "quest.jojorpg.stardust_crusaders_176.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Judgement, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_176.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:cameo_foe_t12",
+      "text": {
+        "fallback": "Defeat Cameo",
+        "translate": "quest.jojorpg.defeat.cameo_foe_t12"
+      }
+    }
+  ],
+  "order": 301760,
+  "outro": [
+    {
+      "fallback": "He mocks Polnareff for his weakness and for his desire to bring the dead back to life.",
+      "translate": "quest.jojorpg.stardust_crusaders_176.outro0"
+    },
+    {
+      "fallback": "Judgement also points out that Polnareff has already made his third wish, and reveals a fake Muhammad Avdol standing behind him.",
+      "translate": "quest.jojorpg.stardust_crusaders_176.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_175"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

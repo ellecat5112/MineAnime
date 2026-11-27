@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t16",
+    "jojorpg:jean_pierre_polnareff_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Having sustained a powerful blow to the head, DIO is momentarily dazed. Although he still appears confident, this confidence begins to deteriorate when he discovers the trauma has left him incapable of walking or moving properly because of the brain damage, which also slows his healing factor. Meanwhile, Jotaro retrieves a nearby bucket and punches a hole in the fuel tank of a car to fill it up with gasoline.",
+    "translate": "quest.jojorpg.stardust_crusaders_261.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Having sustained a powerful blow to the head, DIO is momentarily dazed.",
+      "translate": "quest.jojorpg.stardust_crusaders_261.intro0"
+    },
+    {
+      "fallback": "Although he still appears confident, this confidence begins to deteriorate when he discovers the trauma has left him incapable of walking or moving properly because of the brain damage, which also slows his healing…",
+      "translate": "quest.jojorpg.stardust_crusaders_261.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Jotaro retrieves a nearby bucket and punches a hole in the fuel tank of a car to fill it up with gasoline.",
+      "translate": "quest.jojorpg.stardust_crusaders_261.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "261. DIO's World, Part 15",
+    "translate": "quest.jojorpg.stardust_crusaders_261"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_261.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 15",
+        "translate": "quest.jojorpg.stardust_crusaders_261.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302610,
+  "outro": [
+    {
+      "fallback": "However, the badly beaten DIO begins to laugh as he flies through the air, asking Jotaro if he recognizes the street they're on while explaining this has been his plan all along.",
+      "translate": "quest.jojorpg.stardust_crusaders_261.outro0"
+    },
+    {
+      "fallback": "As the dust cloud settles from the skirmish and it dawns on Jotaro that this is the same street Joseph was stabbed on, DIO emerges, fully regenerated and stronger than ever, having sucked Joseph dry and completed his…",
+      "translate": "quest.jojorpg.stardust_crusaders_261.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_260"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:wheel_of_fortune_car_ram",
+    "jojorpg:wheel_of_fortune_gasoline_spray",
+    "jojorpg:wheel_of_fortune_iron_spikes",
+    "jojorpg:wheel_of_fortune_climbing_tires"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "hair": 2171169,
+    "pants": 3622735,
+    "top": 9268835
+  },
+  "attack": 17.0,
+  "cast_interval": 45,
+  "health": 590.0,
+  "manifestation": "jojorpg:wheel_of_fortune",
+  "name": {
+    "fallback": "ZZ",
+    "translate": "npc.jojorpg.zz"
+  },
+  "power": 2.1,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

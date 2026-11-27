@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t11",
+    "jojorpg:noriaki_kakyoin_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Empress",
+    "translate": "quest.jojorpg.arc.empress"
+  },
+  "description": {
+    "fallback": "Enya is seen crying over her son's death, which she sensed because they are connected by a special link similar to Joseph and Jotaro's. The numerous stabs J. Geil received from Silver Chariot also appear in her, making the woman cry even more, realizing he must have suffered before dying.",
+    "translate": "quest.jojorpg.stardust_crusaders_147.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Enya is seen crying over her son's death, which she sensed because they are connected by a special link similar to Joseph and Jotaro's.",
+      "translate": "quest.jojorpg.stardust_crusaders_147.intro0"
+    },
+    {
+      "fallback": "The numerous stabs J.",
+      "translate": "quest.jojorpg.stardust_crusaders_147.intro1"
+    },
+    {
+      "fallback": "Geil received from Silver Chariot also appear in her, making the woman cry even more, realizing he must have suffered before dying.",
+      "translate": "quest.jojorpg.stardust_crusaders_147.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "147. Empress, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_147"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_147.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Head out: Empress, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_147.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:nena_foe_t11",
+      "text": {
+        "fallback": "Defeat Nena",
+        "translate": "quest.jojorpg.defeat.nena_foe_t11"
+      }
+    }
+  ],
+  "order": 301470,
+  "outro": [
+    {
+      "fallback": "However, the wart reveals itself to be a Stand named Empress and kills the doctor.",
+      "translate": "quest.jojorpg.stardust_crusaders_147.outro0"
+    },
+    {
+      "fallback": "Joseph tries to cut it out himself with the doctor's scalpel, but the Stand grabs it with its teeth and manages to cut one of Joseph's prosthetic fingers.",
+      "translate": "quest.jojorpg.stardust_crusaders_147.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_146"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t14"
+  ],
+  "arc": {
+    "fallback": "The Gatekeeper of Hell, Pet Shop",
+    "translate": "quest.jojorpg.arc.the_gatekeeper_of_hell_pet_shop"
+  },
+  "description": {
+    "fallback": "Hiding at the bottom of the Nile River, Iggy hears the sound of something diving into water. He suspects that it may be Pet Shop as an icicle pierces his sand dome. Iggy sees the blood lust in Pet Shop's gaze, unsure of how to react to the swimming hawk.",
+    "translate": "quest.jojorpg.stardust_crusaders_226.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Hiding at the bottom of the Nile River, Iggy hears the sound of something diving into water.",
+      "translate": "quest.jojorpg.stardust_crusaders_226.intro0"
+    },
+    {
+      "fallback": "He suspects that it may be Pet Shop as an icicle pierces his sand dome.",
+      "translate": "quest.jojorpg.stardust_crusaders_226.intro1"
+    },
+    {
+      "fallback": "Iggy sees the blood lust in Pet Shop's gaze, unsure of how to react to the swimming hawk.",
+      "translate": "quest.jojorpg.stardust_crusaders_226.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "226. The Gatekeeper of Hell, Pet Shop, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_226"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_226.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: The Gatekeeper of Hell, Pet Shop, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_226.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:pet_shop_foe_t14",
+      "text": {
+        "fallback": "Defeat Pet Shop",
+        "translate": "quest.jojorpg.defeat.pet_shop_foe_t14"
+      }
+    }
+  ],
+  "order": 302260,
+  "outro": [
+    {
+      "fallback": "Iggy feels remorse, only wanting a calm and peaceful life.",
+      "translate": "quest.jojorpg.stardust_crusaders_226.outro0"
+    },
+    {
+      "fallback": "However, the boy Iggy had saved earlier sees the dog drowning and rescues him.",
+      "translate": "quest.jojorpg.stardust_crusaders_226.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_225"
+  ],
+  "rewards": {
+    "experience": 62,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_horus"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 14
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

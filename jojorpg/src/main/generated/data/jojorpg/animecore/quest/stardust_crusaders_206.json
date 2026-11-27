@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t14"
+  ],
+  "arc": {
+    "fallback": "\"Sethan\" Alessi",
+    "translate": "quest.jojorpg.arc.sethan_alessi"
+  },
+  "description": {
+    "fallback": "After touching the shadow of Alessi, Polnareff has returned to the form of a child. Despite being unable to remember his name, Polnareff tries running toward Jotaro but is stopped by Alessi. Alessi explains his lust towards abusing the weak, and kicks Polnareff skyward, trapping him in the awning above.",
+    "translate": "quest.jojorpg.stardust_crusaders_206.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "After touching the shadow of Alessi, Polnareff has returned to the form of a child.",
+      "translate": "quest.jojorpg.stardust_crusaders_206.intro0"
+    },
+    {
+      "fallback": "Despite being unable to remember his name, Polnareff tries running toward Jotaro but is stopped by Alessi.",
+      "translate": "quest.jojorpg.stardust_crusaders_206.intro1"
+    },
+    {
+      "fallback": "Alessi explains his lust towards abusing the weak, and kicks Polnareff skyward, trapping him in the awning above.",
+      "translate": "quest.jojorpg.stardust_crusaders_206.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "206. \"Sethan\" Alessi, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_206"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_206.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: \"Sethan\" Alessi, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_206.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:alessi_foe_t14",
+      "text": {
+        "fallback": "Defeat Alessi",
+        "translate": "quest.jojorpg.defeat.alessi_foe_t14"
+      }
+    }
+  ],
+  "order": 302060,
+  "outro": [
+    {
+      "fallback": "The lady begins cleaning him.",
+      "translate": "quest.jojorpg.stardust_crusaders_206.outro0"
+    },
+    {
+      "fallback": "As Polnareff enjoys this rare chance of intimacy, Sethan appears from the doorway, with an axe in hand.",
+      "translate": "quest.jojorpg.stardust_crusaders_206.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_205"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

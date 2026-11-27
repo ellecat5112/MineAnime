@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t14",
+    "jojorpg:jotaro_kujo_ally_t14"
+  ],
+  "arc": {
+    "fallback": "Hol Horse and Boingo",
+    "translate": "quest.jojorpg.arc.hol_horse_and_boingo"
+  },
+  "description": {
+    "fallback": "In Cairo, the Joestar group searches for DIO's mansion. Hiding behind a wall, Hol Horse watches the group and prepares to assassinate them before they can find DIO's hideout. Boingo stays near him, hiding under a box.",
+    "translate": "quest.jojorpg.stardust_crusaders_218.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In Cairo, the Joestar group searches for DIO's mansion.",
+      "translate": "quest.jojorpg.stardust_crusaders_218.intro0"
+    },
+    {
+      "fallback": "Hiding behind a wall, Hol Horse watches the group and prepares to assassinate them before they can find DIO's hideout.",
+      "translate": "quest.jojorpg.stardust_crusaders_218.intro1"
+    },
+    {
+      "fallback": "Boingo stays near him, hiding under a box.",
+      "translate": "quest.jojorpg.stardust_crusaders_218.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "218. Hol Horse and Boingo, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_218"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_218.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out: Hol Horse and Boingo, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_218.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:boingo_foe_t14",
+      "text": {
+        "fallback": "Defeat Boingo",
+        "translate": "quest.jojorpg.defeat.boingo_foe_t14"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t14",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t14"
+      }
+    }
+  ],
+  "order": 302180,
+  "outro": [
+    {
+      "fallback": "Knowing Hol Horse's personality, Polnareff looks for his partner, finding Boingo hiding under the box.",
+      "translate": "quest.jojorpg.stardust_crusaders_218.outro0"
+    },
+    {
+      "fallback": "While Polnareff is distracted, Hol Horse sticks his fingers up Polnareff's nose.",
+      "translate": "quest.jojorpg.stardust_crusaders_218.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_217"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

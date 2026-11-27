@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "Judgement",
+    "translate": "quest.jojorpg.arc.judgement"
+  },
+  "description": {
+    "fallback": "Avdol mocks Cameo about how he is still alive. This causes Judgement to retaliate stating he will kill both Polnareff and Avdol. Avdol summons Magician's Red to attack, but Judgement throws the fake Chérie at him.",
+    "translate": "quest.jojorpg.stardust_crusaders_178.desc"
+  },
+  "giver": "jojorpg:muhammad_avdol",
+  "intro": [
+    {
+      "fallback": "Avdol mocks Cameo about how he is still alive.",
+      "translate": "quest.jojorpg.stardust_crusaders_178.intro0"
+    },
+    {
+      "fallback": "This causes Judgement to retaliate stating he will kill both Polnareff and Avdol.",
+      "translate": "quest.jojorpg.stardust_crusaders_178.intro1"
+    },
+    {
+      "fallback": "Avdol summons Magician's Red to attack, but Judgement throws the fake Chérie at him.",
+      "translate": "quest.jojorpg.stardust_crusaders_178.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "178. Judgement, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_178"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:muhammad_avdol",
+      "text": {
+        "fallback": "Talk to Muhammad Avdol",
+        "translate": "quest.jojorpg.stardust_crusaders_178.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Judgement, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_178.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:cameo_foe_t13",
+      "text": {
+        "fallback": "Defeat Cameo",
+        "translate": "quest.jojorpg.defeat.cameo_foe_t13"
+      }
+    }
+  ],
+  "order": 301780,
+  "outro": [
+    {
+      "fallback": "Cameo, rising from under the earth with a mouthful of piss, begs for forgiveness.",
+      "translate": "quest.jojorpg.stardust_crusaders_178.outro0"
+    },
+    {
+      "fallback": "Avdol's fourth wish is to not grant any of Cameo's wishes and he burns him to a crisp.",
+      "translate": "quest.jojorpg.stardust_crusaders_178.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_177"
+  ],
+  "rewards": {
+    "experience": 59,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_judgement"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

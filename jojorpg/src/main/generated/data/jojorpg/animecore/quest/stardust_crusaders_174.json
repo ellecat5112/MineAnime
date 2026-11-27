@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Judgement",
+    "translate": "quest.jojorpg.arc.judgement"
+  },
+  "description": {
+    "fallback": "The Joestar group begins to cross the Red Sea, the final stretch before Egypt. Jotaro says that they're heading in the wrong direction, and that the boat is going towards a small island. Joseph says that they need to meet someone there who is very important to their journey, but does not reveal who it is.",
+    "translate": "quest.jojorpg.stardust_crusaders_174.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Joestar group begins to cross the Red Sea, the final stretch before Egypt.",
+      "translate": "quest.jojorpg.stardust_crusaders_174.intro0"
+    },
+    {
+      "fallback": "Jotaro says that they're heading in the wrong direction, and that the boat is going towards a small island.",
+      "translate": "quest.jojorpg.stardust_crusaders_174.intro1"
+    },
+    {
+      "fallback": "Joseph says that they need to meet someone there who is very important to their journey, but does not reveal who it is.",
+      "translate": "quest.jojorpg.stardust_crusaders_174.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "174. Judgement, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_174"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_174.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Judgement, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_174.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:cameo_foe_t12",
+      "text": {
+        "fallback": "Defeat Cameo",
+        "translate": "quest.jojorpg.defeat.cameo_foe_t12"
+      }
+    }
+  ],
+  "order": 301740,
+  "outro": [
+    {
+      "fallback": "Polnareff then stumbles upon a that washed up on the beach and rubs it, releasing a genie from it.",
+      "translate": "quest.jojorpg.stardust_crusaders_174.outro0"
+    },
+    {
+      "fallback": "It asks Polnareff for his three wishes.",
+      "translate": "quest.jojorpg.stardust_crusaders_174.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_173"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

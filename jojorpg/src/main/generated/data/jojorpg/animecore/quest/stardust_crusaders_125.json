@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t10",
+    "jojorpg:noriaki_kakyoin_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Silver Chariot",
+    "translate": "quest.jojorpg.arc.silver_chariot"
+  },
+  "description": {
+    "fallback": "In response to the French tourist's cockiness, Avdol destroys the table with the fire clock he made with just a swing of his hand and states that the fire he makes doesn't behave in the same way as other fire would. He asks the tourist his name. The tourist introduces himself as Jean Pierre Polnareff and proclaims that he will defeat Avdol in a place where Avdol can use his full power, suiting his Stand's victory…",
+    "translate": "quest.jojorpg.stardust_crusaders_125.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In response to the French tourist's cockiness, Avdol destroys the table with the fire clock he made with just a swing of his hand and states that the fire he makes doesn't behave in the same way as other fire would.",
+      "translate": "quest.jojorpg.stardust_crusaders_125.intro0"
+    },
+    {
+      "fallback": "He asks the tourist his name.",
+      "translate": "quest.jojorpg.stardust_crusaders_125.intro1"
+    },
+    {
+      "fallback": "The tourist introduces himself as Jean Pierre Polnareff and proclaims that he will defeat Avdol in a place where Avdol can use his full power, suiting his Stand's victory represented by the Tarot Card, The Chariot.",
+      "translate": "quest.jojorpg.stardust_crusaders_125.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "125. Silver Chariot, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_125"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_125.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Silver Chariot, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_125.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:jean_pierre_polnareff_flesh_bud",
+      "text": {
+        "fallback": "Defeat Jean Pierre Polnareff",
+        "translate": "quest.jojorpg.defeat.jean_pierre_polnareff_flesh_bud"
+      }
+    }
+  ],
+  "order": 301250,
+  "outro": [
+    {
+      "fallback": "Avdol tells Polnareff not to underestimate his Stand and mocks him, saying that he is the one who will be defeated by his own Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_125.outro0"
+    },
+    {
+      "fallback": "He tells Polnareff how foolish he was to predict something in front of a fortune teller.",
+      "translate": "quest.jojorpg.stardust_crusaders_125.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_124"
+  ],
+  "rewards": {
+    "experience": 50,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

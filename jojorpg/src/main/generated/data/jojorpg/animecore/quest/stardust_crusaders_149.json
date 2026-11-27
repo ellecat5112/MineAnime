@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t11",
+    "jojorpg:jotaro_kujo_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Empress",
+    "translate": "quest.jojorpg.arc.empress"
+  },
+  "description": {
+    "fallback": "Joseph searches for the user of the Empress, but cannot find anyone. The Stand, still mockingly calling him its father, tells him he should let his child have some freedom and starts eating the rest of Joseph's arm. Now even bigger than before, the stand tries to reach Joseph's artery to finish him off.",
+    "translate": "quest.jojorpg.stardust_crusaders_149.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Joseph searches for the user of the Empress, but cannot find anyone.",
+      "translate": "quest.jojorpg.stardust_crusaders_149.intro0"
+    },
+    {
+      "fallback": "The Stand, still mockingly calling him its father, tells him he should let his child have some freedom and starts eating the rest of Joseph's arm.",
+      "translate": "quest.jojorpg.stardust_crusaders_149.intro1"
+    },
+    {
+      "fallback": "Now even bigger than before, the stand tries to reach Joseph's artery to finish him off.",
+      "translate": "quest.jojorpg.stardust_crusaders_149.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "149. Empress, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_149"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_149.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: Empress, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_149.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:nena_foe_t11",
+      "text": {
+        "fallback": "Defeat Nena",
+        "translate": "quest.jojorpg.defeat.nena_foe_t11"
+      }
+    }
+  ],
+  "order": 301490,
+  "outro": [
+    {
+      "fallback": "Nena's true form was that of the ugly woman; she used her Stand to assimilate people and take on their appearance, so she posed as a beautiful girl.",
+      "translate": "quest.jojorpg.stardust_crusaders_149.outro0"
+    },
+    {
+      "fallback": "Polnareff is left in shock as Nena collapses to the floor, dead.",
+      "translate": "quest.jojorpg.stardust_crusaders_149.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_148"
+  ],
+  "rewards": {
+    "experience": 53,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_empress"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

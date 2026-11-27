@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "\"The Fool\" Iggy and \"Geb\" N'Doul",
+    "translate": "quest.jojorpg.arc.the_fool_iggy_and_geb_ndoul"
+  },
+  "description": {
+    "fallback": "Jotaro hangs onto Iggy as they fly towards their adversary. As the two silently glide towards him N'Doul locates them and begins to panic. However, Jotaro and Iggy's combined weight is too much for The Fool and they begin descending closer and closer to the ground.",
+    "translate": "quest.jojorpg.stardust_crusaders_187.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro hangs onto Iggy as they fly towards their adversary.",
+      "translate": "quest.jojorpg.stardust_crusaders_187.intro0"
+    },
+    {
+      "fallback": "As the two silently glide towards him N'Doul locates them and begins to panic.",
+      "translate": "quest.jojorpg.stardust_crusaders_187.intro1"
+    },
+    {
+      "fallback": "However, Jotaro and Iggy's combined weight is too much for The Fool and they begin descending closer and closer to the ground.",
+      "translate": "quest.jojorpg.stardust_crusaders_187.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "187. \"The Fool\" Iggy and \"Geb\" N'Doul, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_187"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_187.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: \"The Fool\" Iggy and \"Geb\" N'Doul, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_187.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:agent_t13",
+      "text": {
+        "fallback": "Defeat DIO's agents",
+        "translate": "quest.jojorpg.minion.agent"
+      }
+    }
+  ],
+  "order": 301870,
+  "outro": [
+    {
+      "fallback": "N'Doul and Iggy both summon their Stands and save themselves, but in the chaos, N'Doul loses track of Jotaro's location.",
+      "translate": "quest.jojorpg.stardust_crusaders_187.outro0"
+    },
+    {
+      "fallback": "As N'Doul searches for Jotaro, Jotaro reveals that he is now standing right behind him.",
+      "translate": "quest.jojorpg.stardust_crusaders_187.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_186"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

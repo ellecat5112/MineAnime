@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 16777215,
+    "hair": 16769154,
+    "hair_style": "long",
+    "outfit": "robe",
+    "pants": 16027569,
+    "top": 16027569
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "manifestation": "jojorpg:holys_stand",
+  "name": {
+    "fallback": "Holy Kujo",
+    "translate": "npc.jojorpg.holy_kujo"
+  },
+  "role": "giver",
+  "system": "jojorpg"
+}

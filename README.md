@@ -4,7 +4,7 @@
 |---|---|---|---|
 | `:animecore` | `com.animecore.*` | Anime-agnostic RPG engine | ~437 KB (budget 1.5 MB) |
 | `:narutorpg` | `com.narutorpg.*` | Naruto content mapped onto the engine | ~3.9 MB (budget 15 MB) |
-| `:jojorpg` | `com.jojorpg.*` | JoJo's Bizarre Adventure Parts 1-2 content | ~0.3 MB |
+| `:jojorpg` | `com.jojorpg.*` | JoJo's Bizarre Adventure Parts 1-3 content | ~0.7 MB |
 
 Runtime deps (installed separately, **never bundled**): Fabric API, Cardinal Components API 6.1.x,
 PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
@@ -15,8 +15,9 @@ PlayerAnimator 2.0.x, GeckoLib 4.7.x. Optional: JEI, Lootr, Essential.
 ./gradlew :narutorpg:runGametest   # 30 headless end-to-end tests (incl. every move of all 244 ninja tools)
 python3 tools/catalog/build.py     # regenerate ninja_tools.json + 244 sprites (then runDatagen)
 ./gradlew :narutorpg:runClient     # dev client with both mods
-./gradlew :jojorpg:runDatagen :jojorpg:runGametest   # JoJo content + its 8 end-to-end tests
-python3 tools/catalog/jojo_content.py && python3 tools/catalog/jojo_story.py   # regenerate the JoJo catalogs
+./gradlew :jojorpg:runDatagen :jojorpg:runGametest   # JoJo content + its 17 end-to-end tests
+python3 tools/catalog/jojo_content.py && python3 tools/catalog/jojo_story.py   # regenerate the JoJo catalogs (Parts 1-2)
+python3 tools/catalog/jojo_stands.py && python3 tools/catalog/stand_models.py && python3 tools/catalog/jojo_part3_story.py   # Part 3
 ```
 
 ## Several anime mods in one pack
@@ -42,6 +43,24 @@ the Hamon / Vampire / Pillar Men / Stone Mask / Red Stone of Aja pages); coverag
 | Items | Ripple Breathing Mask, Stone Mask, Pillar of the Ancients, Cybernetic Overhaul, Ogre Street Gloves, Red Stone of Aja, Style Manual, JoJo's Bizarre Journal, admin seals |
 | Story mode | 113 quests (one per manga chapter) in 24 story arcs, 77 story characters (Dio grows from human rival to vampire lord; Straizo turns in Part 2; the Pillar Men) |
 | World | zombies and vampires at night, Ogre Street thugs |
+
+### Part 3: Stardust Crusaders - Stands (JoJoRPG 0.2.0)
+
+Source: jojowiki.com `Category:Part 3` (recursively) + `Category:Stands` (its Part 3 members; its classification
+subcategories decide each Stand's kind); coverage in `docs/wiki/jojowiki_part_3.md`.
+
+| | |
+|---|---|
+| Stands | all 35 of `Category:Part 3 Stands` - Star Platinum, The World, Magician's Red, Hierophant Green, Silver Chariot, Hermit Purple, The Fool, Tower of Gray, Dark Blue Moon, Strength, Ebony Devil, Yellow Temperance, Hanged Man, Emperor, Empress, Wheel of Fortune, Justice, Lovers, Sun, Death Thirteen, Judgement, High Priestess, Geb, Khnum, Tohth, Anubis, Bastet, Sethan, Osiris, Horus, Atum, Cream, Tenore Sax, Holy's Stand, Jonathan's Stand |
+| As entities | a Stand manifests as a real entity: it hovers at your shoulder, steps in to punch with you, rushes ("ORA ORA ORA!") with ghost fists, flies out for remote strikes; humanoid Stands are tinted figures, the others low-poly models (`stand_models.py`) |
+| Powers | 141 Stand techniques from each page's abilities: time stop (The World 5 s, Star Platinum: The World 2.5 s; both move in stopped time), rushes, Emerald Splash, Crossfire Hurricane, Red Bind, Hanged Man's light-speed reflection strikes, Emperor's homing bullets, Justice's fog puppets, Lovers' pain link, Cream's void that erases blocks, Sethan's age reversal, Osiris' soul theft... |
+| Getting one | Stand Arrow (random Stand), a Stand Disc per Stand (creative tab "JoJoRPG Stands", arc boss drops); the Stand item casts its techniques (right-click, sneak + wheel); Stand Energy bar |
+| Story | 152 quests, one per chapter (114-265), in the 28 story arcs; 77 story characters, 72 fighting with their own Stand; the Joestar Group fights at your side with theirs; DIO's agents and vampires at night |
+
+Engine features added for it (`animecore`): `animecore:manifestation` registry + `ManifestationEntity` + per-mod
+Stand slot (`ManifestationService`, `/manifestation set|toggle|cast|clear`), actions `time_stop`, `rush`,
+`remote_strike`, `charm`, `damage_link`, `void`, `attribute_shift`, `manifest`, homing projectiles, allied summons,
+the `time_immune` trait, story characters with a `manifestation`, NPC technique cooldowns.
 
 Engine features added for it: `undead`, `sunlight_weakness`, `breathing`, `lifesteal`, `undead_bane`, `sunlight_immunity`
 traits, affinity `undead_multiplier` (the Ripple does 3x to the undead, UV 4x), `LineageAwakeningItem`, ambient

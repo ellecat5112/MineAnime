@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jean_pierre_polnareff_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Wheel of Fortune",
+    "translate": "quest.jojorpg.arc.wheel_of_fortune"
+  },
+  "description": {
+    "fallback": "After the accident, the group wonders if the car that tricked them into the accident with a truck was a Stand. They keep moving at a slower pace to avoid another meeting. Jotaro suggests they leave the destroyed truck behind and act as if nothing happened.",
+    "translate": "quest.jojorpg.stardust_crusaders_151.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After the accident, the group wonders if the car that tricked them into the accident with a truck was a Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_151.intro0"
+    },
+    {
+      "fallback": "They keep moving at a slower pace to avoid another meeting.",
+      "translate": "quest.jojorpg.stardust_crusaders_151.intro1"
+    },
+    {
+      "fallback": "Jotaro suggests they leave the destroyed truck behind and act as if nothing happened.",
+      "translate": "quest.jojorpg.stardust_crusaders_151.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "151. Wheel of Fortune, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_151"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_151.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: Wheel of Fortune, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_151.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:zz_foe_t11",
+      "text": {
+        "fallback": "Defeat ZZ",
+        "translate": "quest.jojorpg.defeat.zz_foe_t11"
+      }
+    }
+  ],
+  "order": 301510,
+  "outro": [
+    {
+      "fallback": "They eventually find out that they were tricked again by the driver of the mysterious car, who quickly leaves the scene before they can see him.",
+      "translate": "quest.jojorpg.stardust_crusaders_151.outro0"
+    },
+    {
+      "fallback": "The group gives chase and are led by the car to a closed road where the car attacks them from behind, trying to push them off of the cliff.",
+      "translate": "quest.jojorpg.stardust_crusaders_151.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_150"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

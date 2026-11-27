@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Sun",
+    "translate": "quest.jojorpg.arc.sun"
+  },
+  "description": {
+    "fallback": "Having crossed the Gulf Straight from Karachi, the Joestar group safely arrive in the city of Abu Dhabi, though Kakyoin cannot shake the feeling that they are being followed, thanks in part to their encounters along the way and the \"loss\" of Avdol. Joseph reveals the next stage of their journey requires them to head 100&nbsp;km Northwest to the village of Yarpline by helicopter, as it would take two days to reach…",
+    "translate": "quest.jojorpg.stardust_crusaders_166.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Having crossed the Gulf Straight from Karachi, the Joestar group safely arrive in the city of Abu Dhabi, though Kakyoin cannot shake the feeling that they are being followed, thanks in part to their encounters along…",
+      "translate": "quest.jojorpg.stardust_crusaders_166.intro0"
+    },
+    {
+      "fallback": "Joseph reveals the next stage of their journey requires them to head 100&nbsp;km Northwest to the village of Yarpline by helicopter, as it would take two days to reach it by car due to the mountains and deserts between…",
+      "translate": "quest.jojorpg.stardust_crusaders_166.intro1"
+    },
+    {
+      "fallback": "Jotaro, naturally, voices his discomfort at flying in anything with Joseph (who has been in three aircraft crashes in his life), forcing Joseph to change their plans to crossing the desert on camelback, to Polnareff's…",
+      "translate": "quest.jojorpg.stardust_crusaders_166.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "166. Sun, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_166"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_166.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 48,
+      "text": {
+        "fallback": "Go: Sun, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_166.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Meet Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_166.o3"
+      }
+    }
+  ],
+  "order": 301660,
+  "outro": [
+    {
+      "fallback": "As the heat slowly rises, Polnareff's comment about it rising to 50 degrees leads Joseph to check his watch, only to be stunned at the time (8:10), well past the time the sun should have started to set.",
+      "translate": "quest.jojorpg.stardust_crusaders_166.outro0"
+    },
+    {
+      "fallback": "As if sensing their awareness, the temperature jumps to 60 Degrees Celsius, which, coupled by Polnareff noticing the \"Sun\" is rising from the west, to lead the group to deduce that the \"Sun\" is, in fact, an enemy Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_166.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_165"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

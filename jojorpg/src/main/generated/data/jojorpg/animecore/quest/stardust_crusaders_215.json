@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t14",
+    "jojorpg:muhammad_avdol_ally_t14"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Gambler",
+    "translate": "quest.jojorpg.arc.darby_the_gambler"
+  },
+  "description": {
+    "fallback": "D'Arby and Jotaro begin their poker battle for everyone's souls. The two look at their cards, and D'Arby chooses to take two more. Jotaro wagers one of his soul chips and takes three cards.",
+    "translate": "quest.jojorpg.stardust_crusaders_215.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "D'Arby and Jotaro begin their poker battle for everyone's souls.",
+      "translate": "quest.jojorpg.stardust_crusaders_215.intro0"
+    },
+    {
+      "fallback": "The two look at their cards, and D'Arby chooses to take two more.",
+      "translate": "quest.jojorpg.stardust_crusaders_215.intro1"
+    },
+    {
+      "fallback": "Jotaro wagers one of his soul chips and takes three cards.",
+      "translate": "quest.jojorpg.stardust_crusaders_215.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "215. D'Arby the Gambler, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_215"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_215.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: D'Arby the Gambler, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_215.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:daniel_j_darby_foe_t14",
+      "text": {
+        "fallback": "Defeat Daniel J. D'Arby",
+        "translate": "quest.jojorpg.defeat.daniel_j_darby_foe_t14"
+      }
+    }
+  ],
+  "order": 302150,
+  "outro": [
+    {
+      "fallback": "D'Arby notices that a lit cigarette had instantaneously appeared in Jotaro's mouth.",
+      "translate": "quest.jojorpg.stardust_crusaders_215.outro0"
+    },
+    {
+      "fallback": "Upon seeing this, D'Arby wonders if Jotaro had used his Star Platinum to do something with the cards.",
+      "translate": "quest.jojorpg.stardust_crusaders_215.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_214"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

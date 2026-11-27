@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t13",
+    "jojorpg:jotaro_kujo_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"Bastet\" Mariah",
+    "translate": "quest.jojorpg.arc.bastet_mariah"
+  },
+  "description": {
+    "fallback": "Now having both touched Bastet, Avdol and Joseph are now stuck to each other due to their combined magnetic attraction due to the Stand's ability. The two awkwardly move over to a wooden fence in order to use as leverage to separate themselves. Once they reach the fence Avdol begins sliding down Joseph's body.",
+    "translate": "quest.jojorpg.stardust_crusaders_202.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Now having both touched Bastet, Avdol and Joseph are now stuck to each other due to their combined magnetic attraction due to the Stand's ability.",
+      "translate": "quest.jojorpg.stardust_crusaders_202.intro0"
+    },
+    {
+      "fallback": "The two awkwardly move over to a wooden fence in order to use as leverage to separate themselves.",
+      "translate": "quest.jojorpg.stardust_crusaders_202.intro1"
+    },
+    {
+      "fallback": "Once they reach the fence Avdol begins sliding down Joseph's body.",
+      "translate": "quest.jojorpg.stardust_crusaders_202.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "202. \"Bastet\" Mariah, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_202"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_202.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: \"Bastet\" Mariah, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_202.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mariah_foe_t13",
+      "text": {
+        "fallback": "Defeat Mariah",
+        "translate": "quest.jojorpg.defeat.mariah_foe_t13"
+      }
+    }
+  ],
+  "order": 302020,
+  "outro": [
+    {
+      "fallback": "As the train gets closer and closer Joseph pulls with all his might, but the pole breaks and the train rides over them.",
+      "translate": "quest.jojorpg.stardust_crusaders_202.outro0"
+    },
+    {
+      "fallback": "Having won, Mariah prepares to hunt down Polnareff and Jotaro, until she sees Avdol and Joseph have survived by digging a hole under the rail.",
+      "translate": "quest.jojorpg.stardust_crusaders_202.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_201"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

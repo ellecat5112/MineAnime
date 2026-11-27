@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:the_fool_sand_blast",
+    "jojorpg:the_fool_sand_glider",
+    "jojorpg:the_fool_sand_decoy",
+    "jojorpg:the_fool_sand_dome"
+  ],
+  "appearance": {
+    "accent": 14142664,
+    "hair": 2171169,
+    "hair_style": "wild",
+    "outfit": "bodysuit",
+    "pants": 6111287,
+    "skin": 4073251,
+    "top": 6111287
+  },
+  "attack": 18.0,
+  "health": 256.0,
+  "manifestation": "jojorpg:the_fool",
+  "name": {
+    "fallback": "Iggy",
+    "translate": "npc.jojorpg.iggy"
+  },
+  "power": 2.4,
+  "role": "ally",
+  "scale": 0.55,
+  "speed": 0.34,
+  "system": "jojorpg"
+}

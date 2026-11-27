@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:ebony_devil_doll_possession",
+    "jojorpg:ebony_devil_anger_empowerment",
+    "jojorpg:ebony_devil_razor_frenzy"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 2171169,
+    "hair_style": "wild",
+    "mark": "paint",
+    "outfit": "robe",
+    "pants": 4073251,
+    "skin": 9268835,
+    "top": 5125166
+  },
+  "attack": 15.9,
+  "cast_interval": 45,
+  "health": 547.0,
+  "manifestation": "jojorpg:ebony_devil",
+  "name": {
+    "fallback": "Devo the Cursed",
+    "translate": "npc.jojorpg.devo_the_cursed"
+  },
+  "power": 2.0,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

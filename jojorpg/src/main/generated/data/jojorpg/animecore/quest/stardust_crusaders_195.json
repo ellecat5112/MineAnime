@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13",
+    "jojorpg:muhammad_avdol_ally_t13"
+  ],
+  "arc": {
+    "fallback": "Anubis",
+    "translate": "quest.jojorpg.arc.anubis"
+  },
+  "description": {
+    "fallback": "Polnareff begins unsheathing Anubis and almost succumbs to its will, however, Jotaro and the others find him and he quickly returns the sword to its sheath. Polnareff confidently tells them about his fight with Chaka. Polnareff tries to pick up the sword but notices that a group of mice is carrying it away.",
+    "translate": "quest.jojorpg.stardust_crusaders_195.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Polnareff begins unsheathing Anubis and almost succumbs to its will, however, Jotaro and the others find him and he quickly returns the sword to its sheath.",
+      "translate": "quest.jojorpg.stardust_crusaders_195.intro0"
+    },
+    {
+      "fallback": "Polnareff confidently tells them about his fight with Chaka.",
+      "translate": "quest.jojorpg.stardust_crusaders_195.intro1"
+    },
+    {
+      "fallback": "Polnareff tries to pick up the sword but notices that a group of mice is carrying it away.",
+      "translate": "quest.jojorpg.stardust_crusaders_195.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "195. Anubis, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_195"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_195.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Anubis, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_195.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:khan_foe_t13",
+      "text": {
+        "fallback": "Defeat Khan",
+        "translate": "quest.jojorpg.defeat.khan_foe_t13"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:chaka_foe_t13",
+      "text": {
+        "fallback": "Defeat Chaka",
+        "translate": "quest.jojorpg.defeat.chaka_foe_t13"
+      }
+    }
+  ],
+  "order": 301950,
+  "outro": [
+    {
+      "fallback": "Polnareff realizes that the sword itself is the Stand and that it is possessing the barber.",
+      "translate": "quest.jojorpg.stardust_crusaders_195.outro0"
+    },
+    {
+      "fallback": "Silver Chariot tries to block Anubis's strike, but Anubis overpowers him stating that he cannot lose to the same opponent twice.",
+      "translate": "quest.jojorpg.stardust_crusaders_195.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_194"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

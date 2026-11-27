@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "jojorpg:high_priestess_mimicry_ambush",
+    "jojorpg:high_priestess_diamond_teeth",
+    "jojorpg:high_priestess_razor_transformation"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 6111287,
+    "hair_style": "long",
+    "mark": "mask",
+    "outfit": "robe",
+    "pants": 1402304,
+    "top": 1402304
+  },
+  "attack": 18.2,
+  "cast_interval": 45,
+  "health": 634.0,
+  "manifestation": "jojorpg:high_priestess",
+  "name": {
+    "fallback": "Midler",
+    "translate": "npc.jojorpg.midler"
+  },
+  "power": 2.2,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

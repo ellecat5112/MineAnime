@@ -38,6 +38,8 @@ public class ManifestationEntity extends MobEntity {
     public enum State { IDLE, PUNCH, RUSH, STRIKE, CAST }
 
     private int stateTicks;
+    /** server: the user itself (players are not always reachable by entity id, e.g. GameTest mock players) */
+    private @Nullable LivingEntity ownerRef;
     private @Nullable Vec3d strikePos;
     /** client: when the current state started (for animation phase) */
     public int clientStateStart;
@@ -68,6 +70,7 @@ public class ManifestationEntity extends MobEntity {
     public void setup(Identifier definition, LivingEntity owner) {
         dataTracker.set(DEF, definition.toString());
         dataTracker.set(OWNER, owner.getId());
+        ownerRef = owner;
         definition().ifPresent(d -> {
             var scale = getAttributeInstance(EntityAttributes.GENERIC_SCALE);
             if (scale != null) scale.setBaseValue(d.scale());
@@ -86,6 +89,7 @@ public class ManifestationEntity extends MobEntity {
     }
 
     public @Nullable LivingEntity owner() {
+        if (ownerRef != null) return ownerRef;
         Entity e = getWorld().getEntityById(dataTracker.get(OWNER));
         return e instanceof LivingEntity l ? l : null;
     }

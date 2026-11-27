@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:magicians_red_crossfire_hurricane",
+    "jojorpg:magicians_red_crossfire_hurricane_special",
+    "jojorpg:magicians_red_red_bind",
+    "jojorpg:magicians_red_life_detector",
+    "jojorpg:magicians_red_pyrokinesis"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 2171169,
+    "hair_style": "ponytail",
+    "headband": 16766287,
+    "outfit": "robe",
+    "pants": 9313051,
+    "skin": 7162945,
+    "top": 12986408
+  },
+  "attack": 18.0,
+  "health": 256.0,
+  "manifestation": "jojorpg:magicians_red",
+  "name": {
+    "fallback": "Muhammad Avdol",
+    "translate": "npc.jojorpg.muhammad_avdol"
+  },
+  "power": 2.4,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

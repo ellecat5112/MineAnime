@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Anubis",
+    "translate": "quest.jojorpg.arc.anubis"
+  },
+  "description": {
+    "fallback": "Under Anubis's control, Silver Chariot inserts its blade further into Jotaro's abdomen. Star Platinum grabs the blade, but Anubis has already memorized Star Platinum's strength making the Stand's efforts fruitless. Jotaro warns Anubis to stop, but Anubis confidently inserts his blade further.",
+    "translate": "quest.jojorpg.stardust_crusaders_198.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Under Anubis's control, Silver Chariot inserts its blade further into Jotaro's abdomen.",
+      "translate": "quest.jojorpg.stardust_crusaders_198.intro0"
+    },
+    {
+      "fallback": "Star Platinum grabs the blade, but Anubis has already memorized Star Platinum's strength making the Stand's efforts fruitless.",
+      "translate": "quest.jojorpg.stardust_crusaders_198.intro1"
+    },
+    {
+      "fallback": "Jotaro warns Anubis to stop, but Anubis confidently inserts his blade further.",
+      "translate": "quest.jojorpg.stardust_crusaders_198.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "198. Anubis, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_198"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_198.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Go: Anubis, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_198.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:agent_t13",
+      "text": {
+        "fallback": "Defeat DIO's agents",
+        "translate": "quest.jojorpg.minion.agent"
+      }
+    }
+  ],
+  "order": 301980,
+  "outro": [
+    {
+      "fallback": "Anubis sinks to the bottom of the Nile, unable to move or even drown.",
+      "translate": "quest.jojorpg.stardust_crusaders_198.outro0"
+    },
+    {
+      "fallback": "The Stand is forced to sit and rust at the bottom of the river until the end of days.",
+      "translate": "quest.jojorpg.stardust_crusaders_198.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_197"
+  ],
+  "rewards": {
+    "experience": 59,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_anubis"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

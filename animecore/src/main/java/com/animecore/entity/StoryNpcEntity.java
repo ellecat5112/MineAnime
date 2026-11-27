@@ -64,9 +64,13 @@ public class StoryNpcEntity extends PathAwareEntity {
     private @Nullable UUID owner;
     private @Nullable Identifier quest;
     private int castCooldown = 40;
+    /** world time at which each technique is usable again (NPCs respect technique cooldowns: no time stop every 3 s) */
+    private final java.util.Map<Identifier, Long> techniqueReady = new java.util.HashMap<>();
     private @Nullable ServerBossBar bossBar;
     private boolean configured;
     private boolean ambient;
+    /** health filled up to the definition's maximum once (quest spawns do it in setup; /summon on the first tick) */
+    private boolean healthInitialized;
 
     /** Spawned by the world (StorySpawner), not a quest: despawns when no player is near. */
     public void setAmbient() { ambient = true; }
@@ -132,6 +136,10 @@ public class StoryNpcEntity extends PathAwareEntity {
         set(EntityAttributes.GENERIC_MOVEMENT_SPEED, d.speed());
         set(EntityAttributes.GENERIC_SCALE, d.scale());
         Text name = d.title().getString().isEmpty() ? d.name() : d.name().copy().append(Text.literal(" ").append(d.title()));
+        if (!healthInitialized) {
+            healthInitialized = true;
+            setHealth(getMaxHealth());
+        }
         setCustomName(name);
         setCustomNameVisible(true);
         d.heldItem().flatMap(Registries.ITEM::getOrEmpty).ifPresent(item -> equipStack(net.minecraft.entity.EquipmentSlot.MAINHAND, new ItemStack(item)));
@@ -189,8 +197,10 @@ public class StoryNpcEntity extends PathAwareEntity {
         @Override public void start() {
             StoryNpcDefinition d = definition().orElseThrow();
             castCooldown = d.castInterval() + random.nextInt(Math.max(1, d.castInterval() / 2));
-            List<Identifier> list = d.abilities();
-            castAt(getTarget(), list.get(random.nextInt(list.size())), d.power());
+            long now = getWorld().getTime();
+            List<Identifier> ready = d.abilities().stream().filter(a -> techniqueReady.getOrDefault(a, 0L) <= now).toList();
+            if (ready.isEmpty()) return;
+            castAt(getTarget(), ready.get(random.nextInt(ready.size())), d.power());
         }
     }
 
@@ -200,6 +210,7 @@ public class StoryNpcEntity extends PathAwareEntity {
         var entry = AnimeRegistries.ability(getRegistryManager(), ability);
         if (entry.isEmpty()) return false;
         if (target != null) face(target);
+        techniqueReady.put(ability, getWorld().getTime() + entry.get().value().cooldownTicks());
         AbilityContext ctx = AbilityContext.forMob(this, entry.get(), power);
         var stand = com.animecore.manifestation.ManifestationService.standOf(this);
         if (stand != null && stand.state() == ManifestationEntity.State.IDLE) stand.act(ManifestationEntity.State.CAST, 12);
@@ -316,6 +327,7 @@ public class StoryNpcEntity extends PathAwareEntity {
         if (owner != null) nbt.putUuid("owner", owner);
         if (quest != null) nbt.putString("quest", quest.toString());
         if (ambient) nbt.putBoolean("ambient", true);
+        if (healthInitialized) nbt.putBoolean("health_initialized", true);
     }
 
     @Override
@@ -325,5 +337,6 @@ public class StoryNpcEntity extends PathAwareEntity {
         owner = nbt.containsUuid("owner") ? nbt.getUuid("owner") : null;
         quest = nbt.contains("quest") ? Identifier.tryParse(nbt.getString("quest")) : null;
         ambient = nbt.getBoolean("ambient");
+        healthInitialized = nbt.getBoolean("health_initialized") || !nbt.contains("npc");
     }
 }

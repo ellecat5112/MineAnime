@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t11",
+    "jojorpg:noriaki_kakyoin_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Empress",
+    "translate": "quest.jojorpg.arc.empress"
+  },
+  "description": {
+    "fallback": "Joseph demands that Empress tell him where its user is, but Empress refuses. Joseph decides to find the rest of the group, but Empress screams that he, Joseph Joestar, just killed the doctor and threatens the nurse. Thinking Joseph himself is saying this, the nurse calls the police, forcing him to flee.",
+    "translate": "quest.jojorpg.stardust_crusaders_148.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Joseph demands that Empress tell him where its user is, but Empress refuses.",
+      "translate": "quest.jojorpg.stardust_crusaders_148.intro0"
+    },
+    {
+      "fallback": "Joseph decides to find the rest of the group, but Empress screams that he, Joseph Joestar, just killed the doctor and threatens the nurse.",
+      "translate": "quest.jojorpg.stardust_crusaders_148.intro1"
+    },
+    {
+      "fallback": "Thinking Joseph himself is saying this, the nurse calls the police, forcing him to flee.",
+      "translate": "quest.jojorpg.stardust_crusaders_148.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "148. Empress, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_148"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_148.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 85,
+      "text": {
+        "fallback": "Head out: Empress, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_148.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:nena_foe_t11",
+      "text": {
+        "fallback": "Defeat Nena",
+        "translate": "quest.jojorpg.defeat.nena_foe_t11"
+      }
+    }
+  ],
+  "order": 301480,
+  "outro": [
+    {
+      "fallback": "The Stand, now capable of reaching Joseph's face, punches him and mockingly demands that \"daddy\" needs to feed it more.",
+      "translate": "quest.jojorpg.stardust_crusaders_148.outro0"
+    },
+    {
+      "fallback": "Joseph tells the Stand he has far more fighting experience than it does, but wonders how he is going to back up this statement.",
+      "translate": "quest.jojorpg.stardust_crusaders_148.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_147"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

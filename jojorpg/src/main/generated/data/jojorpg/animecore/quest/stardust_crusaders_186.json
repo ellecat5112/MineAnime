@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "\"The Fool\" Iggy and \"Geb\" N'Doul",
+    "translate": "quest.jojorpg.arc.the_fool_iggy_and_geb_ndoul"
+  },
+  "description": {
+    "fallback": "After hearing Iggy avoid Geb's attack, N'Doul prepares to finish him off, as he feels that Iggy is his greatest threat. However, as the car the Joestar group is in sinks further into the sand, Iggy sits to the side and begins napping; not caring about the fates of his teammates. N'Doul realizes this and focuses his attack back onto the group.",
+    "translate": "quest.jojorpg.stardust_crusaders_186.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After hearing Iggy avoid Geb's attack, N'Doul prepares to finish him off, as he feels that Iggy is his greatest threat.",
+      "translate": "quest.jojorpg.stardust_crusaders_186.intro0"
+    },
+    {
+      "fallback": "However, as the car the Joestar group is in sinks further into the sand, Iggy sits to the side and begins napping; not caring about the fates of his teammates.",
+      "translate": "quest.jojorpg.stardust_crusaders_186.intro1"
+    },
+    {
+      "fallback": "N'Doul realizes this and focuses his attack back onto the group.",
+      "translate": "quest.jojorpg.stardust_crusaders_186.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "186. \"The Fool\" Iggy and \"Geb\" N'Doul, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_186"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_186.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Go: \"The Fool\" Iggy and \"Geb\" N'Doul, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_186.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:agent_t13",
+      "text": {
+        "fallback": "Defeat DIO's agents",
+        "translate": "quest.jojorpg.minion.agent"
+      }
+    }
+  ],
+  "order": 301860,
+  "outro": [
+    {
+      "fallback": "Jotaro, realizing the power of Iggy's great sense of smell, grabs the dog and forces him into showing where the enemy is.",
+      "translate": "quest.jojorpg.stardust_crusaders_186.outro0"
+    },
+    {
+      "fallback": "Iggy summons The Fool and uses it to fly away, but Jotaro grabs on and rides along with him.",
+      "translate": "quest.jojorpg.stardust_crusaders_186.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_185"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

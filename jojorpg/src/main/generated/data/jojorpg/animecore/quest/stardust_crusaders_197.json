@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Anubis",
+    "translate": "quest.jojorpg.arc.anubis"
+  },
+  "description": {
+    "fallback": "With Anubis unsheathed, Polnareff is now fully under its control. His first act is to punish the police officer who had unfortunately interfered. Jotaro quickly kicks the officer out of Polnareff's way and prepares for their fight.",
+    "translate": "quest.jojorpg.stardust_crusaders_197.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "With Anubis unsheathed, Polnareff is now fully under its control.",
+      "translate": "quest.jojorpg.stardust_crusaders_197.intro0"
+    },
+    {
+      "fallback": "His first act is to punish the police officer who had unfortunately interfered.",
+      "translate": "quest.jojorpg.stardust_crusaders_197.intro1"
+    },
+    {
+      "fallback": "Jotaro quickly kicks the officer out of Polnareff's way and prepares for their fight.",
+      "translate": "quest.jojorpg.stardust_crusaders_197.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "197. Anubis, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_197"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_197.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 45,
+      "text": {
+        "fallback": "Go: Anubis, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_197.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:agent_t13",
+      "text": {
+        "fallback": "Defeat DIO's agents",
+        "translate": "quest.jojorpg.minion.agent"
+      }
+    }
+  ],
+  "order": 301970,
+  "outro": [
+    {
+      "fallback": "Star Platinum and Anubis+Chariot face off in a flurry of punches and dancing blades, but the deadly combo is too powerful and manage to stab Jotaro in the abdomen.",
+      "translate": "quest.jojorpg.stardust_crusaders_197.outro0"
+    },
+    {
+      "fallback": "Anubis gloats as it has finally defeated the invincible Stand warrior.",
+      "translate": "quest.jojorpg.stardust_crusaders_197.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_196"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t11",
+    "jojorpg:noriaki_kakyoin_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Dark Blue Moon",
+    "translate": "quest.jojorpg.arc.dark_blue_moon"
+  },
+  "description": {
+    "fallback": "Joseph warns Jotaro that an underwater Stand is trying to ambush him in the water. Grabbing the girl, Jotaro is saved by Hierophant Green, who brings both back to the boat. The group suspects the girl of being a Stand user who was trying to lure Jotaro into the water to attack him.",
+    "translate": "quest.jojorpg.stardust_crusaders_128.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Joseph warns Jotaro that an underwater Stand is trying to ambush him in the water.",
+      "translate": "quest.jojorpg.stardust_crusaders_128.intro0"
+    },
+    {
+      "fallback": "Grabbing the girl, Jotaro is saved by Hierophant Green, who brings both back to the boat.",
+      "translate": "quest.jojorpg.stardust_crusaders_128.intro1"
+    },
+    {
+      "fallback": "The group suspects the girl of being a Stand user who was trying to lure Jotaro into the water to attack him.",
+      "translate": "quest.jojorpg.stardust_crusaders_128.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "128. Dark Blue Moon, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_128"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_128.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Head out: Dark Blue Moon, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_128.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:imposter_captain_tennille_foe_t11",
+      "text": {
+        "fallback": "Defeat Imposter Captain Tennille",
+        "translate": "quest.jojorpg.defeat.imposter_captain_tennille_foe_t11"
+      }
+    }
+  ],
+  "order": 301280,
+  "outro": [
+    {
+      "fallback": "Jotaro asks Avdol to say something, and the fortune teller questions the imposter about predicting something in front of a fortune teller.",
+      "translate": "quest.jojorpg.stardust_crusaders_128.outro0"
+    },
+    {
+      "fallback": "Polnareff completes the phrase by calling it a foolish attitude, mimicking Avdol and Polnareff's conversation in their earlier battle.",
+      "translate": "quest.jojorpg.stardust_crusaders_128.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_127"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

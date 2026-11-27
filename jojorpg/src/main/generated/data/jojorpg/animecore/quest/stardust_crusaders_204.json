@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t14",
+    "jojorpg:jean_pierre_polnareff_ally_t14"
+  ],
+  "arc": {
+    "fallback": "\"Bastet\" Mariah",
+    "translate": "quest.jojorpg.arc.bastet_mariah"
+  },
+  "description": {
+    "fallback": "With his magnetic attraction stronger than ever, Joseph is unable to move with so many metallic objects joined to him thus making it impossible to dodge the incoming high voltage cables. The cables attract to the two magnetic men. Avdol is able to melt them with Magician's Red, but Hermit Purple isn't strong enough to keep them away from Joseph.",
+    "translate": "quest.jojorpg.stardust_crusaders_204.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "With his magnetic attraction stronger than ever, Joseph is unable to move with so many metallic objects joined to him thus making it impossible to dodge the incoming high voltage cables.",
+      "translate": "quest.jojorpg.stardust_crusaders_204.intro0"
+    },
+    {
+      "fallback": "The cables attract to the two magnetic men.",
+      "translate": "quest.jojorpg.stardust_crusaders_204.intro1"
+    },
+    {
+      "fallback": "Avdol is able to melt them with Magician's Red, but Hermit Purple isn't strong enough to keep them away from Joseph.",
+      "translate": "quest.jojorpg.stardust_crusaders_204.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "204. \"Bastet\" Mariah, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_204"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_204.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: \"Bastet\" Mariah, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_204.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mariah_foe_t14",
+      "text": {
+        "fallback": "Defeat Mariah",
+        "translate": "quest.jojorpg.defeat.mariah_foe_t14"
+      }
+    }
+  ],
+  "order": 302040,
+  "outro": [
+    {
+      "fallback": "While following them, a child runs into him, dirtying his pants.",
+      "translate": "quest.jojorpg.stardust_crusaders_204.outro0"
+    },
+    {
+      "fallback": "After smacking the child the bizarre man, announcing his name as Alessi, continues to stalk Jotaro and Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_204.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_203"
+  ],
+  "rewards": {
+    "experience": 62,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_bastet"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 14
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

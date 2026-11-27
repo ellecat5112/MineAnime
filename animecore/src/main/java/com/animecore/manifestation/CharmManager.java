@@ -68,14 +68,14 @@ public final class CharmManager {
                 mob.setTarget(null);
                 target = null;
             }
-            if ((target == null || !target.isAlive()) && controller != null && mob.age % 10 == 0) {
-                LivingEntity enemy = controller.getAttacker() != null ? controller.getAttacker() : controller.getAttacking();
+            if ((target == null || !target.isAlive()) && world.getTime() % 10 == 0) {
+                LivingEntity enemy = controller == null ? null : controller.getAttacker() != null ? controller.getAttacker() : controller.getAttacking();
                 if (enemy == null || !enemy.isAlive() || enemy == mob || isCharmedBy(enemy, c.controller)) {
                     enemy = nearestHostile(world, mob, c.controller);
                 }
                 if (enemy != null && enemy != mob && enemy != controller) mob.setTarget(enemy);
             }
-            if (mob.age % 20 == 0) world.spawnParticles(ParticleTypes.WITCH, mob.getX(), mob.getEyeY() + 0.3, mob.getZ(), 2, 0.2, 0.1, 0.2, 0.0);
+            if (world.getTime() % 20 == 0) world.spawnParticles(ParticleTypes.WITCH, mob.getX(), mob.getEyeY() + 0.3, mob.getZ(), 2, 0.2, 0.1, 0.2, 0.0);
         }
     }
 }

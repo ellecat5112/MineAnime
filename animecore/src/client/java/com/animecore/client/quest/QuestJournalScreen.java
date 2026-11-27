@@ -80,7 +80,8 @@ public class QuestJournalScreen extends Screen {
         int tx = left + 6;
         for (String s : series) {
             Text label = seriesName(s);
-            int bw = Math.min(90, textRenderer.getWidth(label) + 10);
+            int share = (w - 10) / Math.max(1, series.size()) - 2;   // tabs share the width ("Stardust Crusaders" fits)
+            int bw = Math.min(Math.max(90, share), textRenderer.getWidth(label) + 10);
             if (tx + bw > left + w - 4) break;
             addDrawableChild(ButtonWidget.builder(label, b -> { tab = s; lastTab = s; scroll = 0; rebuild(); })
                     .dimensions(tx, top + 16, bw, 14).build());

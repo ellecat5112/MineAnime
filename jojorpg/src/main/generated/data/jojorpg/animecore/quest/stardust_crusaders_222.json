@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t14",
+    "jojorpg:jotaro_kujo_ally_t14"
+  ],
+  "arc": {
+    "fallback": "The Gatekeeper of Hell, Pet Shop",
+    "translate": "quest.jojorpg.arc.the_gatekeeper_of_hell_pet_shop"
+  },
+  "description": {
+    "fallback": "In Cairo, Polnareff sits in the street with a blanket over his head, trying to escape the heat. He is approached by a strange looking beggar. Polnareff tries to get away, but the beggar won't leave him alone, angered at Polnareff for \"taking his customers.\" Avdol explains that in Cairo, the beggars have their own system, including territories and salaries.",
+    "translate": "quest.jojorpg.stardust_crusaders_222.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In Cairo, Polnareff sits in the street with a blanket over his head, trying to escape the heat.",
+      "translate": "quest.jojorpg.stardust_crusaders_222.intro0"
+    },
+    {
+      "fallback": "He is approached by a strange looking beggar.",
+      "translate": "quest.jojorpg.stardust_crusaders_222.intro1"
+    },
+    {
+      "fallback": "Polnareff tries to get away, but the beggar won't leave him alone, angered at Polnareff for \"taking his customers.\" Avdol explains that in Cairo, the beggars have their own system, including territories and salaries.",
+      "translate": "quest.jojorpg.stardust_crusaders_222.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "222. The Gatekeeper of Hell, Pet Shop, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_222"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_222.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: The Gatekeeper of Hell, Pet Shop, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_222.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:pet_shop_foe_t14",
+      "text": {
+        "fallback": "Defeat Pet Shop",
+        "translate": "quest.jojorpg.defeat.pet_shop_foe_t14"
+      }
+    }
+  ],
+  "order": 302220,
+  "outro": [
+    {
+      "fallback": "The ice falls, both killing the man and ruining his car.",
+      "translate": "quest.jojorpg.stardust_crusaders_222.outro0"
+    },
+    {
+      "fallback": "Iggy watches in fear, knowing that he will have to dispatch this Stand user himself.",
+      "translate": "quest.jojorpg.stardust_crusaders_222.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_221"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

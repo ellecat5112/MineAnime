@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:tohth_read_the_prophecy",
+    "jojorpg:tohth_fateful_link"
+  ],
+  "appearance": {
+    "accent": 12986408,
+    "hair": 2171169,
+    "hair_style": "bowl",
+    "outfit": "robe",
+    "pants": 6111287,
+    "top": 16766287
+  },
+  "attack": 14.7,
+  "cast_interval": 70,
+  "health": 264.0,
+  "manifestation": "jojorpg:tohth",
+  "name": {
+    "fallback": "Boingo",
+    "translate": "npc.jojorpg.boingo"
+  },
+  "power": 2.2,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

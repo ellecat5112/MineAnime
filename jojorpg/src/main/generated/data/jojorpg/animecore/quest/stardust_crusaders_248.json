@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t15",
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "DIO and Polnareff are reunited and the former begins by mockingly congratulating him on surviving up to this point while clapping in a sarcastic fashion. He ignores Polnareff's insistence to claim his life and proposes an ultimatum; Polnareff may either back down the steps and return to serving DIO or proceed up the stairs to his certain death. Firm in his resolutions Polnareff boldly begins to step forward, only…",
+    "translate": "quest.jojorpg.stardust_crusaders_248.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "DIO and Polnareff are reunited and the former begins by mockingly congratulating him on surviving up to this point while clapping in a sarcastic fashion.",
+      "translate": "quest.jojorpg.stardust_crusaders_248.intro0"
+    },
+    {
+      "fallback": "He ignores Polnareff's insistence to claim his life and proposes an ultimatum; Polnareff may either back down the steps and return to serving DIO or proceed up the stairs to his certain death.",
+      "translate": "quest.jojorpg.stardust_crusaders_248.intro1"
+    },
+    {
+      "fallback": "Firm in his resolutions Polnareff boldly begins to step forward, only to look down at DIO's prompting and find that he hasn't moved at all.",
+      "translate": "quest.jojorpg.stardust_crusaders_248.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "248. DIO's World, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_248"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_248.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_248.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t15",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t15"
+      }
+    }
+  ],
+  "order": 302480,
+  "outro": [
+    {
+      "fallback": "Pushing these feelings aside he bounds forward, claiming he will not die until he at least sees his Stand's abilities and summons Silver Chariot to attack him.",
+      "translate": "quest.jojorpg.stardust_crusaders_248.outro0"
+    },
+    {
+      "fallback": "DIO relents and affirms Polnareff's impending death, revealing the physical appearance of his Stand The World for the first time with the intention of killing his opponent, but the arrival of the other crusaders halts…",
+      "translate": "quest.jojorpg.stardust_crusaders_248.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_247"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

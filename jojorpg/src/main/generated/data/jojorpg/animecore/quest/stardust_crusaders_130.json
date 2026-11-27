@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:muhammad_avdol_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Strength",
+    "translate": "quest.jojorpg.arc.strength"
+  },
+  "description": {
+    "fallback": "DIO has a conversation with Enya about what it means to survive. DIO believes that in order to survive, one must eventually end up on top. For this to happen to him, he needs to get rid of the Joestar Family.",
+    "translate": "quest.jojorpg.stardust_crusaders_130.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "DIO has a conversation with Enya about what it means to survive.",
+      "translate": "quest.jojorpg.stardust_crusaders_130.intro0"
+    },
+    {
+      "fallback": "DIO believes that in order to survive, one must eventually end up on top.",
+      "translate": "quest.jojorpg.stardust_crusaders_130.intro1"
+    },
+    {
+      "fallback": "For this to happen to him, he needs to get rid of the Joestar Family.",
+      "translate": "quest.jojorpg.stardust_crusaders_130.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "130. Strength, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_130"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_130.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Head out: Strength, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_130.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:enya_the_hag_foe_t11",
+      "text": {
+        "fallback": "Defeat Enya the Hag",
+        "translate": "quest.jojorpg.defeat.enya_the_hag_foe_t11"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:forever_foe_t11",
+      "text": {
+        "fallback": "Defeat Forever",
+        "translate": "quest.jojorpg.defeat.forever_foe_t11"
+      }
+    }
+  ],
+  "order": 301300,
+  "outro": [
+    {
+      "fallback": "They decide to keep searching for the people who take care of it.",
+      "translate": "quest.jojorpg.stardust_crusaders_130.outro0"
+    },
+    {
+      "fallback": "However, upon entering the deck of the ship, one of the crew members that was with Jotaro's group is suddenly impaled by a hook.",
+      "translate": "quest.jojorpg.stardust_crusaders_130.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_129"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

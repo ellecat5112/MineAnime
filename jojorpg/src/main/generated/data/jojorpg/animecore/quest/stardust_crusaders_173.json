@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Death Thirteen",
+    "translate": "quest.jojorpg.arc.death_thirteen"
+  },
+  "description": {
+    "fallback": "Death Thirteen tries to attack Hierophant Green, but is unable to reach. The group apologizes to Kakyoin for not believing him, but Kakyoin thanks Polnareff for knocking him out. Thanks to that, he had his Stand active when he entered the dream.",
+    "translate": "quest.jojorpg.stardust_crusaders_173.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Death Thirteen tries to attack Hierophant Green, but is unable to reach.",
+      "translate": "quest.jojorpg.stardust_crusaders_173.intro0"
+    },
+    {
+      "fallback": "The group apologizes to Kakyoin for not believing him, but Kakyoin thanks Polnareff for knocking him out.",
+      "translate": "quest.jojorpg.stardust_crusaders_173.intro1"
+    },
+    {
+      "fallback": "Thanks to that, he had his Stand active when he entered the dream.",
+      "translate": "quest.jojorpg.stardust_crusaders_173.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "173. Death Thirteen, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_173"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_173.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Head out: Death Thirteen, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_173.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mannish_boy_foe_t12",
+      "text": {
+        "fallback": "Defeat Mannish Boy",
+        "translate": "quest.jojorpg.defeat.mannish_boy_foe_t12"
+      }
+    }
+  ],
+  "order": 301730,
+  "outro": [
+    {
+      "fallback": "Polnareff tickles the baby to get him to open his mouth, and Joseph feeds him the spoonful.",
+      "translate": "quest.jojorpg.stardust_crusaders_173.outro0"
+    },
+    {
+      "fallback": "Kakyoin smiles and hums to himself, and Jotaro expressing confusion behind him.",
+      "translate": "quest.jojorpg.stardust_crusaders_173.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_172"
+  ],
+  "rewards": {
+    "experience": 56,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_death_thirteen"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 12
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

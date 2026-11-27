@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:anubis_sword_possession",
+    "jojorpg:anubis_learning_blade",
+    "jojorpg:anubis_selective_intangibility"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "hair": 2171169,
+    "outfit": "robe",
+    "pants": 12364452,
+    "top": 12364452
+  },
+  "attack": 14.7,
+  "cast_interval": 70,
+  "health": 264.0,
+  "manifestation": "jojorpg:anubis",
+  "name": {
+    "fallback": "Khan",
+    "translate": "npc.jojorpg.khan"
+  },
+  "power": 2.2,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t15",
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "The Miasma of the Void, Vanilla Ice",
+    "translate": "quest.jojorpg.arc.the_miasma_of_the_void_vanilla_ice"
+  },
+  "description": {
+    "fallback": "Telence suffers Star Platinum's punches, flying away, before crashing a hole through what appeared to be the sky. Surprised, Joseph concludes that their space is also a room in DIO's mansion; deciding to escape through the hole with Jotaro and Kakyoin. A dark and icy atmosphere emanates from a door at the top of a staircase, where a man bows in a crouch, his fist to the ground.",
+    "translate": "quest.jojorpg.stardust_crusaders_238.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Telence suffers Star Platinum's punches, flying away, before crashing a hole through what appeared to be the sky.",
+      "translate": "quest.jojorpg.stardust_crusaders_238.intro0"
+    },
+    {
+      "fallback": "Surprised, Joseph concludes that their space is also a room in DIO's mansion; deciding to escape through the hole with Jotaro and Kakyoin.",
+      "translate": "quest.jojorpg.stardust_crusaders_238.intro1"
+    },
+    {
+      "fallback": "A dark and icy atmosphere emanates from a door at the top of a staircase, where a man bows in a crouch, his fist to the ground.",
+      "translate": "quest.jojorpg.stardust_crusaders_238.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "238.  The Miasma of the Void, Vanilla Ice, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_238"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_238.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out:  The Miasma of the Void, Vanilla Ice, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_238.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:vanilla_ice_foe_t15",
+      "text": {
+        "fallback": "Defeat Vanilla Ice",
+        "translate": "quest.jojorpg.defeat.vanilla_ice_foe_t15"
+      }
+    }
+  ],
+  "order": 302380,
+  "outro": [
+    {
+      "fallback": "Vanilla Ice's Stand consumes him head-first as DIO watches, before consuming itself, from its legs.",
+      "translate": "quest.jojorpg.stardust_crusaders_238.outro0"
+    },
+    {
+      "fallback": "Vanishing, a cloud of dust rises as a massive hole is punched in the nearby wall — after which DIO complains that Vanilla Ice could have used the door, and explains that Vanilla Ice's Stand \"disappears completely from…",
+      "translate": "quest.jojorpg.stardust_crusaders_238.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_237"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t10",
+    "jojorpg:muhammad_avdol_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Tower of Gray",
+    "translate": "quest.jojorpg.arc.tower_of_gray"
+  },
+  "description": {
+    "fallback": "Jotaro manages to block the enemy's attack with his teeth. Avdol recognizes the Stand as Tower of Gray, who is responsible for numerous slaughters disguised as accidents, such as a plane crash that killed 300 victims the year before. Tower of Gray moves away from the group and tears off four passengers' tongues by flying through their heads.",
+    "translate": "quest.jojorpg.stardust_crusaders_123.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro manages to block the enemy's attack with his teeth.",
+      "translate": "quest.jojorpg.stardust_crusaders_123.intro0"
+    },
+    {
+      "fallback": "Avdol recognizes the Stand as Tower of Gray, who is responsible for numerous slaughters disguised as accidents, such as a plane crash that killed 300 victims the year before.",
+      "translate": "quest.jojorpg.stardust_crusaders_123.intro1"
+    },
+    {
+      "fallback": "Tower of Gray moves away from the group and tears off four passengers' tongues by flying through their heads.",
+      "translate": "quest.jojorpg.stardust_crusaders_123.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "123. Tower of Gray",
+    "translate": "quest.jojorpg.stardust_crusaders_123"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_123.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: Tower of Gray",
+        "translate": "quest.jojorpg.stardust_crusaders_123.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:gray_fly_foe_t10",
+      "text": {
+        "fallback": "Defeat Gray Fly",
+        "translate": "quest.jojorpg.defeat.gray_fly_foe_t10"
+      }
+    }
+  ],
+  "order": 301230,
+  "outro": [
+    {
+      "fallback": "While Tower of Gray is about to finish him, Hierophant Green uses the tentacles he had hidden under the seats to pierce through the bug-like Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_123.outro0"
+    },
+    {
+      "fallback": "A bug-shaped wound appears on the Stand user's tongue, revealed to be the old man from earlier, then his head and tongue split in two.",
+      "translate": "quest.jojorpg.stardust_crusaders_123.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_122"
+  ],
+  "rewards": {
+    "experience": 50,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_tower_of_gray"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

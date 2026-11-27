@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t14",
+    "jojorpg:muhammad_avdol_ally_t14"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "In the Cairo streets, Jotaro looks back believing to be beckoned by someone. When the group turns around they see an injured Iggy approaching them. The group rushes to Iggy, realizing he must have fought off an enemy Stand user.",
+    "translate": "quest.jojorpg.stardust_crusaders_227.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In the Cairo streets, Jotaro looks back believing to be beckoned by someone.",
+      "translate": "quest.jojorpg.stardust_crusaders_227.intro0"
+    },
+    {
+      "fallback": "When the group turns around they see an injured Iggy approaching them.",
+      "translate": "quest.jojorpg.stardust_crusaders_227.intro1"
+    },
+    {
+      "fallback": "The group rushes to Iggy, realizing he must have fought off an enemy Stand user.",
+      "translate": "quest.jojorpg.stardust_crusaders_227.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "227. D'Arby the Player, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_227"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_227.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_227.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t14",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t14"
+      }
+    }
+  ],
+  "order": 302270,
+  "outro": [
+    {
+      "fallback": "From it, a strange looking man appears, levitating towards the group.",
+      "translate": "quest.jojorpg.stardust_crusaders_227.outro0"
+    },
+    {
+      "fallback": "The man introduces himself as the butler of DIO's mansion, Telence T.",
+      "translate": "quest.jojorpg.stardust_crusaders_227.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_226"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

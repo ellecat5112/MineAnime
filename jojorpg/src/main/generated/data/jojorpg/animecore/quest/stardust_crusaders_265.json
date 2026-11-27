@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t16",
+    "jojorpg:jean_pierre_polnareff_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "After the Speedwagon Foundation captures DIO's remains and picks up Jotaro and Joseph's body, Jotaro urges the doctors to perform a blood transfusion between DIO's corpse and Joseph, remarking that he died less than four minutes prior. Although the doctors are hesitant when they explain that they have no way of transferring blood into Joseph without his heartbeat regulating his circulatory system, an irritated…",
+    "translate": "quest.jojorpg.stardust_crusaders_265.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After the Speedwagon Foundation captures DIO's remains and picks up Jotaro and Joseph's body, Jotaro urges the doctors to perform a blood transfusion between DIO's corpse and Joseph, remarking that he died less than…",
+      "translate": "quest.jojorpg.stardust_crusaders_265.intro0"
+    },
+    {
+      "fallback": "Although the doctors are hesitant when they explain that they have no way of transferring blood into Joseph without his heartbeat regulating his circulatory system, an irritated Jotaro tells them that nothing is…",
+      "translate": "quest.jojorpg.stardust_crusaders_265.intro1"
+    },
+    {
+      "fallback": "The blood transfusion successfully revives Joseph, although at first by his dialogue it seems as though the transfusion has caused Joseph to become possessed by DIO, only for him to admit he was only teasing Jotaro…",
+      "translate": "quest.jojorpg.stardust_crusaders_265.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "265. The Faraway Journey, Farewell Friends",
+    "translate": "quest.jojorpg.stardust_crusaders_265"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_265.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: The Faraway Journey, Farewell Friends",
+        "translate": "quest.jojorpg.stardust_crusaders_265.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302650,
+  "outro": [
+    {
+      "fallback": "The final scene of Stardust Crusaders is the farewell at the airport between Polnareff and the two Joestar men.",
+      "translate": "quest.jojorpg.stardust_crusaders_265.outro0"
+    },
+    {
+      "fallback": "Having lost great friends along the way, they part wordlessly in deep friendship.",
+      "translate": "quest.jojorpg.stardust_crusaders_265.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_264"
+  ],
+  "rewards": {
+    "experience": 68,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_the_world"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 17
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

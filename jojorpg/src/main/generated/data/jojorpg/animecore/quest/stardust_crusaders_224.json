@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t14"
+  ],
+  "arc": {
+    "fallback": "The Gatekeeper of Hell, Pet Shop",
+    "translate": "quest.jojorpg.arc.the_gatekeeper_of_hell_pet_shop"
+  },
+  "description": {
+    "fallback": "Iggy pushes the dog-loving kid away to save him from Pet Shop. Iggy readies his Stand, The Fool, to fight. Pet Shop smirks and begins freezing the air around the dog.",
+    "translate": "quest.jojorpg.stardust_crusaders_224.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Iggy pushes the dog-loving kid away to save him from Pet Shop.",
+      "translate": "quest.jojorpg.stardust_crusaders_224.intro0"
+    },
+    {
+      "fallback": "Iggy readies his Stand, The Fool, to fight.",
+      "translate": "quest.jojorpg.stardust_crusaders_224.intro1"
+    },
+    {
+      "fallback": "Pet Shop smirks and begins freezing the air around the dog.",
+      "translate": "quest.jojorpg.stardust_crusaders_224.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "224. The Gatekeeper of Hell, Pet Shop, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_224"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_224.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: The Gatekeeper of Hell, Pet Shop, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_224.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:pet_shop_foe_t14",
+      "text": {
+        "fallback": "Defeat Pet Shop",
+        "translate": "quest.jojorpg.defeat.pet_shop_foe_t14"
+      }
+    }
+  ],
+  "order": 302240,
+  "outro": [
+    {
+      "fallback": "However, that wasn't Iggy, but The Fool in disguise.",
+      "translate": "quest.jojorpg.stardust_crusaders_224.outro0"
+    },
+    {
+      "fallback": "Iggy manages to sneak up on Pet Shop and strikes the bird's chest.",
+      "translate": "quest.jojorpg.stardust_crusaders_224.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_223"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "Telence pitches again. Still getting used to the controls, Jotaro swings too late and receives a second strike. Jotaro swings again, getting a third strike and one out.",
+    "translate": "quest.jojorpg.stardust_crusaders_234.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Telence pitches again.",
+      "translate": "quest.jojorpg.stardust_crusaders_234.intro0"
+    },
+    {
+      "fallback": "Still getting used to the controls, Jotaro swings too late and receives a second strike.",
+      "translate": "quest.jojorpg.stardust_crusaders_234.intro1"
+    },
+    {
+      "fallback": "Jotaro swings again, getting a third strike and one out.",
+      "translate": "quest.jojorpg.stardust_crusaders_234.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "234. D'Arby the Player, Part 8",
+    "translate": "quest.jojorpg.stardust_crusaders_234"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_234.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 8",
+        "translate": "quest.jojorpg.stardust_crusaders_234.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302340,
+  "outro": [
+    {
+      "fallback": "Much to the shock of everyone, Jotaro hits a home run.",
+      "translate": "quest.jojorpg.stardust_crusaders_234.outro0"
+    },
+    {
+      "fallback": "Telence feels concerned about Jotaro saying he \"learned how to hit,\" and realizes that he has found his greatest opponent to date.",
+      "translate": "quest.jojorpg.stardust_crusaders_234.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_233"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

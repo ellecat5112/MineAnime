@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:yellow_temperance_assimilation",
+    "jojorpg:yellow_temperance_physical_imperviousness",
+    "jojorpg:yellow_temperance_appearance_replication",
+    "jojorpg:yellow_temperance_acid_engulf"
+  ],
+  "appearance": {
+    "accent": 16777215,
+    "hair": 16769154,
+    "top": 1402304
+  },
+  "attack": 15.9,
+  "cast_interval": 45,
+  "health": 547.0,
+  "manifestation": "jojorpg:yellow_temperance",
+  "name": {
+    "fallback": "Rubber Soul",
+    "translate": "npc.jojorpg.rubber_soul"
+  },
+  "power": 2.0,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

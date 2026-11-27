@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:khnum_transfiguration",
+    "jojorpg:khnum_bomb_orange"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "hair": 2171169,
+    "hair_style": "bald",
+    "pants": 5125166,
+    "top": 10586239
+  },
+  "attack": 18.2,
+  "cast_interval": 45,
+  "health": 634.0,
+  "manifestation": "jojorpg:khnum",
+  "name": {
+    "fallback": "Oingo",
+    "translate": "npc.jojorpg.oingo"
+  },
+  "power": 2.2,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

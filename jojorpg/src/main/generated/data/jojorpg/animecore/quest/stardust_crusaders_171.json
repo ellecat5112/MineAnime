@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:jotaro_kujo_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Death Thirteen",
+    "translate": "quest.jojorpg.arc.death_thirteen"
+  },
+  "description": {
+    "fallback": "After Kakyoin's previous outbursts, the group questions his sanity and wonder if he is still fit to continue the journey. Joseph decides to cook some baby food over the fire, while the baby contemplates his plan to annihilate the group in their sleep. Polnareff tries some of the baby food, and upon finding it delicious, tries to eat more of it to Joseph's dismay.",
+    "translate": "quest.jojorpg.stardust_crusaders_171.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After Kakyoin's previous outbursts, the group questions his sanity and wonder if he is still fit to continue the journey.",
+      "translate": "quest.jojorpg.stardust_crusaders_171.intro0"
+    },
+    {
+      "fallback": "Joseph decides to cook some baby food over the fire, while the baby contemplates his plan to annihilate the group in their sleep.",
+      "translate": "quest.jojorpg.stardust_crusaders_171.intro1"
+    },
+    {
+      "fallback": "Polnareff tries some of the baby food, and upon finding it delicious, tries to eat more of it to Joseph's dismay.",
+      "translate": "quest.jojorpg.stardust_crusaders_171.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "171. Death Thirteen, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_171"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_171.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Head out: Death Thirteen, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_171.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mannish_boy_foe_t12",
+      "text": {
+        "fallback": "Defeat Mannish Boy",
+        "translate": "quest.jojorpg.defeat.mannish_boy_foe_t12"
+      }
+    }
+  ],
+  "order": 301710,
+  "outro": [
+    {
+      "fallback": "The group agrees to figure out what to do with Kakyoin in the morning and all decide to go to sleep.",
+      "translate": "quest.jojorpg.stardust_crusaders_171.outro0"
+    },
+    {
+      "fallback": "The Baby reveals that he had the scorpion inside his mouth the whole time and prepares to make his move.",
+      "translate": "quest.jojorpg.stardust_crusaders_171.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_170"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

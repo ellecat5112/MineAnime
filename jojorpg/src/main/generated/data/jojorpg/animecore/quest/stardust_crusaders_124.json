@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t10",
+    "jojorpg:muhammad_avdol_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Silver Chariot",
+    "translate": "quest.jojorpg.arc.silver_chariot"
+  },
+  "description": {
+    "fallback": "Gray Fly is defeated, but the group's plane suddenly begins to dive, and they confirm their suspicion by checking the cockpit and find out that the pilots have had their tongues ripped out by Tower of Gray. Gray Fly stands up and confronts the Joestar Group to spite them before dying and reveals that DIO controls many Stand users who will harass them throughout their journey. As the only one with a semblance of…",
+    "translate": "quest.jojorpg.stardust_crusaders_124.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Gray Fly is defeated, but the group's plane suddenly begins to dive, and they confirm their suspicion by checking the cockpit and find out that the pilots have had their tongues ripped out by Tower of Gray.",
+      "translate": "quest.jojorpg.stardust_crusaders_124.intro0"
+    },
+    {
+      "fallback": "Gray Fly stands up and confronts the Joestar Group to spite them before dying and reveals that DIO controls many Stand users who will harass them throughout their journey.",
+      "translate": "quest.jojorpg.stardust_crusaders_124.intro1"
+    },
+    {
+      "fallback": "As the only one with a semblance of experience in piloting planes, Joseph takes control of the plane and remarks that this is the third plane he will have crashed, to Jotaro's annoyance.",
+      "translate": "quest.jojorpg.stardust_crusaders_124.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "124. Silver Chariot, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_124"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_124.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: Silver Chariot, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_124.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:jean_pierre_polnareff_flesh_bud",
+      "text": {
+        "fallback": "Defeat Jean Pierre Polnareff",
+        "translate": "quest.jojorpg.defeat.jean_pierre_polnareff_flesh_bud"
+      }
+    }
+  ],
+  "order": 301240,
+  "outro": [
+    {
+      "fallback": "Surprising everyone, a knight-like Stand attacks Joseph by stabbing his prosthetic hand; Avdol immediately counter attacks with Magician's Red's flames but the Stand's rapier easily deflects the flames on a nearby…",
+      "translate": "quest.jojorpg.stardust_crusaders_124.outro0"
+    },
+    {
+      "fallback": "At the same time, the Frenchman reveals his Stand's name: Silver Chariot.",
+      "translate": "quest.jojorpg.stardust_crusaders_124.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_123"
+  ],
+  "rewards": {
+    "experience": 50,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

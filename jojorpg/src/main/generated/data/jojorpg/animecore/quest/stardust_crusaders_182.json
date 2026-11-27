@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t13",
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "High Priestess",
+    "translate": "quest.jojorpg.arc.high_priestess"
+  },
+  "description": {
+    "fallback": "On the sea floor, the group gets sucked into High Priestess's giant mouth. As they get trapped in the Stand's mouth Midler mocks them, stating that she is close by on the seashore. The group stands within the Stand's mouth, and Midler says that Jotaro is her type making it hard for her to kill him.",
+    "translate": "quest.jojorpg.stardust_crusaders_182.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "On the sea floor, the group gets sucked into High Priestess's giant mouth.",
+      "translate": "quest.jojorpg.stardust_crusaders_182.intro0"
+    },
+    {
+      "fallback": "As they get trapped in the Stand's mouth Midler mocks them, stating that she is close by on the seashore.",
+      "translate": "quest.jojorpg.stardust_crusaders_182.intro1"
+    },
+    {
+      "fallback": "The group stands within the Stand's mouth, and Midler says that Jotaro is her type making it hard for her to kill him.",
+      "translate": "quest.jojorpg.stardust_crusaders_182.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "182. High Priestess, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_182"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_182.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Head out: High Priestess, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_182.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:midler_foe_t13",
+      "text": {
+        "fallback": "Defeat Midler",
+        "translate": "quest.jojorpg.defeat.midler_foe_t13"
+      }
+    }
+  ],
+  "order": 301820,
+  "outro": [
+    {
+      "fallback": "Polnareff goes to inspect the body but regrets doing so immediately, as her face took quite the beating from Star Platinum.",
+      "translate": "quest.jojorpg.stardust_crusaders_182.outro0"
+    },
+    {
+      "fallback": "The group, finally in Egypt, reminisce over their long and hard journey and prepare for their fight to stop DIO and save Holy.",
+      "translate": "quest.jojorpg.stardust_crusaders_182.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_181"
+  ],
+  "rewards": {
+    "experience": 59,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_high_priestess"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

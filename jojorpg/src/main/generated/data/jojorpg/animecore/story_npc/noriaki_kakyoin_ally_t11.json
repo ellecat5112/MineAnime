@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "jojorpg:hierophant_green_emerald_splash",
+    "jojorpg:hierophant_green_coiled_body",
+    "jojorpg:hierophant_green_anatomy_control",
+    "jojorpg:hierophant_green_20_meter_radius_emerald_splash"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 12986408,
+    "outfit": "jacket",
+    "pants": 1793568,
+    "top": 3046706
+  },
+  "attack": 15.0,
+  "health": 214.0,
+  "manifestation": "jojorpg:hierophant_green",
+  "name": {
+    "fallback": "Noriaki Kakyoin",
+    "translate": "npc.jojorpg.noriaki_kakyoin"
+  },
+  "power": 2.1,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

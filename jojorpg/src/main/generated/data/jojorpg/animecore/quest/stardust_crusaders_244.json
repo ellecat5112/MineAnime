@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t15",
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "The Miasma of the Void, Vanilla Ice",
+    "translate": "quest.jojorpg.arc.the_miasma_of_the_void_vanilla_ice"
+  },
+  "description": {
+    "fallback": "In another part of DIO's mansion, Jotaro, Kakyoin, and Joseph observe the damage caused by Cream and Silver Chariot. The group decides to head further into the mansion in hopes of reuniting with Polnareff and Avdol. On the second floor, Polnareff continues his fight with Vanilla Ice.",
+    "translate": "quest.jojorpg.stardust_crusaders_244.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In another part of DIO's mansion, Jotaro, Kakyoin, and Joseph observe the damage caused by Cream and Silver Chariot.",
+      "translate": "quest.jojorpg.stardust_crusaders_244.intro0"
+    },
+    {
+      "fallback": "The group decides to head further into the mansion in hopes of reuniting with Polnareff and Avdol.",
+      "translate": "quest.jojorpg.stardust_crusaders_244.intro1"
+    },
+    {
+      "fallback": "On the second floor, Polnareff continues his fight with Vanilla Ice.",
+      "translate": "quest.jojorpg.stardust_crusaders_244.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "244. The Miasma of the Void, Vanilla Ice, Part 7",
+    "translate": "quest.jojorpg.stardust_crusaders_244"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_244.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: The Miasma of the Void, Vanilla Ice, Part 7",
+        "translate": "quest.jojorpg.stardust_crusaders_244.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:vanilla_ice_foe_t15",
+      "text": {
+        "fallback": "Defeat Vanilla Ice",
+        "translate": "quest.jojorpg.defeat.vanilla_ice_foe_t15"
+      }
+    }
+  ],
+  "order": 302440,
+  "outro": [
+    {
+      "fallback": "At that moment, Iggy dies, dropping Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_244.outro0"
+    },
+    {
+      "fallback": "Polnareff cries Iggy's name as he stabs Ice in the forehead.",
+      "translate": "quest.jojorpg.stardust_crusaders_244.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_243"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t16",
+    "jojorpg:jotaro_kujo_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Every time Kakyoin sees Hierophant Green, he remembers his lonely childhood. He believed he could have no friends because no one could see Hierophant Green. He then remembers meeting Joseph, Jotaro, Avdol, Polnareff, and Iggy; how they were the first friends he ever had.",
+    "translate": "quest.jojorpg.stardust_crusaders_253.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Every time Kakyoin sees Hierophant Green, he remembers his lonely childhood.",
+      "translate": "quest.jojorpg.stardust_crusaders_253.intro0"
+    },
+    {
+      "fallback": "He believed he could have no friends because no one could see Hierophant Green.",
+      "translate": "quest.jojorpg.stardust_crusaders_253.intro1"
+    },
+    {
+      "fallback": "He then remembers meeting Joseph, Jotaro, Avdol, Polnareff, and Iggy; how they were the first friends he ever had.",
+      "translate": "quest.jojorpg.stardust_crusaders_253.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "253. DIO's World, Part 7",
+    "translate": "quest.jojorpg.stardust_crusaders_253"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_253.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 7",
+        "translate": "quest.jojorpg.stardust_crusaders_253.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302530,
+  "outro": [
+    {
+      "fallback": "DIO stops time.",
+      "translate": "quest.jojorpg.stardust_crusaders_253.outro0"
+    },
+    {
+      "fallback": "He approaches Kakyoin and punches him clean through the abdomen.",
+      "translate": "quest.jojorpg.stardust_crusaders_253.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_252"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

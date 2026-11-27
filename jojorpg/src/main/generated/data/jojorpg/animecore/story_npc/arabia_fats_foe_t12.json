@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "jojorpg:sun_solar_heat",
+    "jojorpg:sun_light_ray",
+    "jojorpg:sun_solar_flare"
+  ],
+  "appearance": {
+    "accent": 16777215,
+    "hair": 2171169,
+    "hair_style": "bald",
+    "outfit": "robe",
+    "pants": 6111287,
+    "skin": 9268835,
+    "top": 16757504
+  },
+  "attack": 17.0,
+  "cast_interval": 45,
+  "health": 590.0,
+  "manifestation": "jojorpg:sun",
+  "name": {
+    "fallback": "Arabia Fats",
+    "translate": "npc.jojorpg.arabia_fats"
+  },
+  "power": 2.1,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

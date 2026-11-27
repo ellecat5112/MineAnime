@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jotaro_kujo_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Emperor and Hanged Man",
+    "translate": "quest.jojorpg.arc.emperor_and_hanged_man"
+  },
+  "description": {
+    "fallback": "The group is finally crossing India, albeit worriedly. India is known for having beggars, thieves, curry-eating and disease-ridden people. Avdol assures them that it is a nice country and that all these stories are false.",
+    "translate": "quest.jojorpg.stardust_crusaders_140.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The group is finally crossing India, albeit worriedly.",
+      "translate": "quest.jojorpg.stardust_crusaders_140.intro0"
+    },
+    {
+      "fallback": "India is known for having beggars, thieves, curry-eating and disease-ridden people.",
+      "translate": "quest.jojorpg.stardust_crusaders_140.intro1"
+    },
+    {
+      "fallback": "Avdol assures them that it is a nice country and that all these stories are false.",
+      "translate": "quest.jojorpg.stardust_crusaders_140.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "140. Emperor and Hanged Man, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_140"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_140.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: Emperor and Hanged Man, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_140.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:j_geil_foe_t11",
+      "text": {
+        "fallback": "Defeat J. Geil",
+        "translate": "quest.jojorpg.defeat.j_geil_foe_t11"
+      }
+    }
+  ],
+  "order": 301400,
+  "outro": [
+    {
+      "fallback": "As he washes his hands, Polnareff looks into the mirror and is surprised by a Stand with two right hands that he can only see in the mirror.",
+      "translate": "quest.jojorpg.stardust_crusaders_140.outro0"
+    },
+    {
+      "fallback": "Determined to avenge his sister, killed by the user of this Stand, Polnareff breaks the mirror and searches for the Stand user among the crowd.",
+      "translate": "quest.jojorpg.stardust_crusaders_140.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_139"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Lovers",
+    "translate": "quest.jojorpg.arc.lovers"
+  },
+  "description": {
+    "fallback": "As Silver Chariot and Hierophant Green travel in Joseph's blood vessels, Steely Dan commands Jotaro to scratch his back. Because of the link between him and Steely Dan, Joseph can't concentrate on his Stand and attracts people with his gesticulations, forcing them to buy the TV in order to move to a more isolated location. Finally, Polnareff and Kakyoin find Lovers in Joseph's brain.",
+    "translate": "quest.jojorpg.stardust_crusaders_163.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "As Silver Chariot and Hierophant Green travel in Joseph's blood vessels, Steely Dan commands Jotaro to scratch his back.",
+      "translate": "quest.jojorpg.stardust_crusaders_163.intro0"
+    },
+    {
+      "fallback": "Because of the link between him and Steely Dan, Joseph can't concentrate on his Stand and attracts people with his gesticulations, forcing them to buy the TV in order to move to a more isolated location.",
+      "translate": "quest.jojorpg.stardust_crusaders_163.intro1"
+    },
+    {
+      "fallback": "Finally, Polnareff and Kakyoin find Lovers in Joseph's brain.",
+      "translate": "quest.jojorpg.stardust_crusaders_163.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "163. Lovers, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_163"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_163.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Head out: Lovers, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_163.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:steely_dan_foe_t12",
+      "text": {
+        "fallback": "Defeat Steely Dan",
+        "translate": "quest.jojorpg.defeat.steely_dan_foe_t12"
+      }
+    }
+  ],
+  "order": 301630,
+  "outro": [
+    {
+      "fallback": "Meanwhile, Steely Dan forces Jotaro to clean his shoes.",
+      "translate": "quest.jojorpg.stardust_crusaders_163.outro0"
+    },
+    {
+      "fallback": "When he sees Jotaro writing the list of everything Steely Dan is doing to him in order to pay him back later, he slaps him.",
+      "translate": "quest.jojorpg.stardust_crusaders_163.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_162"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

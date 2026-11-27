@@ -41,12 +41,39 @@ public final class ManifestationCommands {
                                             return b.buildFuture();
                                         })
                                         .executes(ManifestationCommands::set))))
+                .then(CommandManager.literal("cast").requires(s -> s.hasPermissionLevel(2))
+                        .then(CommandManager.argument("ability", IdentifierArgumentType.identifier())
+                                .suggests((c, b) -> {
+                                    c.getSource().getRegistryManager().get(AnimeRegistries.ABILITY).getIds().forEach(i -> b.suggest(i.toString()));
+                                    return b.buildFuture();
+                                })
+                                .executes(ManifestationCommands::cast)))
                 .then(CommandManager.literal("clear").requires(s -> s.hasPermissionLevel(2))
                         .then(CommandManager.argument("player", EntityArgumentType.player()).executes(c -> {
                             ServerPlayerEntity p = EntityArgumentType.getPlayer(c, "player");
                             for (AnimeModContext ctx : AnimeModRegistry.all()) ctx.maybePower(p).ifPresent(power -> ManifestationService.assign(p, power, null));
                             return 1;
                         }))));
+    }
+
+    /** Ops: runs a technique for the caller right away (no rank, cost or cooldown checks) - testing Stand powers. */
+    private static int cast(CommandContext<ServerCommandSource> c) throws com.mojang.brigadier.exceptions.CommandSyntaxException {
+        ServerPlayerEntity p = c.getSource().getPlayerOrThrow();
+        Identifier id = IdentifierArgumentType.getIdentifier(c, "ability");
+        var entry = AnimeRegistries.ability(c.getSource().getRegistryManager(), id).orElse(null);
+        var ctx = entry == null ? null : AnimeModRegistry.get(entry.value().system()).orElse(null);
+        if (ctx == null) {
+            c.getSource().sendError(Text.translatable("commands.animecore.manifestation.none", id.toString()));
+            return 0;
+        }
+        var power = ctx.power(p);
+        var def = ManifestationService.definition(p, power).orElse(null);
+        if (def != null && def.abilities().contains(id) && !power.manifested()) ManifestationService.setManifested(p, power, true);
+        var stand = ManifestationService.standOf(p);
+        if (stand != null && stand.state() == com.animecore.entity.ManifestationEntity.State.IDLE) stand.act(com.animecore.entity.ManifestationEntity.State.CAST, 12);
+        var context = new com.animecore.ability.AbilityContext(p, entry, power, 0f, null);
+        for (var action : entry.value().actions()) action.execute(context);
+        return 1;
     }
 
     private static int set(CommandContext<ServerCommandSource> c) throws com.mojang.brigadier.exceptions.CommandSyntaxException {

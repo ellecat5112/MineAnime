@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t13",
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"The Fool\" Iggy and \"Geb\" N'Doul",
+    "translate": "quest.jojorpg.arc.the_fool_iggy_and_geb_ndoul"
+  },
+  "description": {
+    "fallback": "The Speedwagon employees drop off some supplies for the group before they depart. Joseph asks them how his daughter is holding up, with which they, unfortunately, reply that her condition is getting worse. The Joestar group now has only two weeks to defeat DIO before Holy dies.",
+    "translate": "quest.jojorpg.stardust_crusaders_184.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Speedwagon employees drop off some supplies for the group before they depart.",
+      "translate": "quest.jojorpg.stardust_crusaders_184.intro0"
+    },
+    {
+      "fallback": "Joseph asks them how his daughter is holding up, with which they, unfortunately, reply that her condition is getting worse.",
+      "translate": "quest.jojorpg.stardust_crusaders_184.intro1"
+    },
+    {
+      "fallback": "The Joestar group now has only two weeks to defeat DIO before Holy dies.",
+      "translate": "quest.jojorpg.stardust_crusaders_184.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "184. \"The Fool\" Iggy and \"Geb\" N'Doul, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_184"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_184.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Head out: \"The Fool\" Iggy and \"Geb\" N'Doul, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_184.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:ndoul_foe_t13",
+      "text": {
+        "fallback": "Defeat N'Doul",
+        "translate": "quest.jojorpg.defeat.ndoul_foe_t13"
+      }
+    }
+  ],
+  "order": 301840,
+  "outro": [
+    {
+      "fallback": "He exclaims however that the water is what attacked them.",
+      "translate": "quest.jojorpg.stardust_crusaders_184.outro0"
+    },
+    {
+      "fallback": "As he does this, the water from the canteen rushes out in the form of a hand and pulls his entire head into the canteen.",
+      "translate": "quest.jojorpg.stardust_crusaders_184.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_183"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:osiris_soul_steal",
+    "jojorpg:osiris_the_wager"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 2171169,
+    "outfit": "jacket",
+    "pants": 2171169,
+    "top": 4342338
+  },
+  "attack": 19.4,
+  "cast_interval": 45,
+  "health": 677.0,
+  "manifestation": "jojorpg:osiris",
+  "name": {
+    "fallback": "Daniel J. D'Arby",
+    "translate": "npc.jojorpg.daniel_j_darby"
+  },
+  "power": 2.3,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

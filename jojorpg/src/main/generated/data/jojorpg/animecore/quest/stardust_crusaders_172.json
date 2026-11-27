@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Death Thirteen",
+    "translate": "quest.jojorpg.arc.death_thirteen"
+  },
+  "description": {
+    "fallback": "The group awaken in Death Thirteen's amusement park, questioning their sudden change in location. As Joseph realizes that Kakyoin has disappeared, Polnareff regains his memories regarding Death Thirteen and notifies the others that Kakyoin was right about the baby being a Stand user and enemy, warning them to not simply disregard the situation as a dream as he did before. Meanwhile, Mannish Boy taunts the group in…",
+    "translate": "quest.jojorpg.stardust_crusaders_172.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The group awaken in Death Thirteen's amusement park, questioning their sudden change in location.",
+      "translate": "quest.jojorpg.stardust_crusaders_172.intro0"
+    },
+    {
+      "fallback": "As Joseph realizes that Kakyoin has disappeared, Polnareff regains his memories regarding Death Thirteen and notifies the others that Kakyoin was right about the baby being a Stand user and enemy, warning them to not…",
+      "translate": "quest.jojorpg.stardust_crusaders_172.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Mannish Boy taunts the group in their sleep, saying how they won't be able to escape Death Thirteen's world with no one to wake them up.",
+      "translate": "quest.jojorpg.stardust_crusaders_172.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "172. Death Thirteen, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_172"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_172.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Death Thirteen, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_172.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mannish_boy_foe_t12",
+      "text": {
+        "fallback": "Defeat Mannish Boy",
+        "translate": "quest.jojorpg.defeat.mannish_boy_foe_t12"
+      }
+    }
+  ],
+  "order": 301720,
+  "outro": [
+    {
+      "fallback": "As a result, the others are freed, and they point towards Kakyoin who is sitting inside a nearby teacup ride.",
+      "translate": "quest.jojorpg.stardust_crusaders_172.outro0"
+    },
+    {
+      "fallback": "He reveals that he summonmed Hierophant Green before being knocked out, and that he will punish Death Thirteen.",
+      "translate": "quest.jojorpg.stardust_crusaders_172.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_171"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

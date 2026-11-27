@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13",
+    "jojorpg:muhammad_avdol_ally_t13"
+  ],
+  "arc": {
+    "fallback": "Anubis",
+    "translate": "quest.jojorpg.arc.anubis"
+  },
+  "description": {
+    "fallback": "In the hospital in Aswan, Kakyoin tells the group that his treatment is going well and that because his pupils remained unscathed that he'll be able to see again within a few days. When he regains his sight Kakyoin will rejoin the group, but until then they continue their journey to Cairo to find DIO. Meanwhile, along the Nile's coast, a group of farmers stumble upon a scimitar lying on the ground.",
+    "translate": "quest.jojorpg.stardust_crusaders_193.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In the hospital in Aswan, Kakyoin tells the group that his treatment is going well and that because his pupils remained unscathed that he'll be able to see again within a few days.",
+      "translate": "quest.jojorpg.stardust_crusaders_193.intro0"
+    },
+    {
+      "fallback": "When he regains his sight Kakyoin will rejoin the group, but until then they continue their journey to Cairo to find DIO.",
+      "translate": "quest.jojorpg.stardust_crusaders_193.intro1"
+    },
+    {
+      "fallback": "Meanwhile, along the Nile's coast, a group of farmers stumble upon a scimitar lying on the ground.",
+      "translate": "quest.jojorpg.stardust_crusaders_193.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "193. Anubis, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_193"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_193.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Anubis, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_193.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:chaka_foe_t13",
+      "text": {
+        "fallback": "Defeat Chaka",
+        "translate": "quest.jojorpg.defeat.chaka_foe_t13"
+      }
+    }
+  ],
+  "order": 301930,
+  "outro": [
+    {
+      "fallback": "Chaka grabs the sword and succumbs to the power of Anubis.",
+      "translate": "quest.jojorpg.stardust_crusaders_193.outro0"
+    },
+    {
+      "fallback": "In fear the last farmer hides behind their cow, as Chaka slices through the cow, killing the man but leaving the cow perfectly intact.",
+      "translate": "quest.jojorpg.stardust_crusaders_193.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_192"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

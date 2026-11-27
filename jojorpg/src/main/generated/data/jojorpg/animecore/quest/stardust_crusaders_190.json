@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t13",
+    "jojorpg:iggy_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"Khnum\" Oingo and \"Tohth\" Boingo",
+    "translate": "quest.jojorpg.arc.khnum_oingo_and_tohth_boingo"
+  },
+  "description": {
+    "fallback": "After reading Tohth's prophecy, Oingo and Boingo find a cafe and take out the staff so that they can poison the Joestar group's drinks. Jotaro, Joseph, and Polnareff enter the cafe, forced to wait in the city until Avdol's recovery. Oingo, pretending to be a waiter, approaches the three and asks for their order.",
+    "translate": "quest.jojorpg.stardust_crusaders_190.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After reading Tohth's prophecy, Oingo and Boingo find a cafe and take out the staff so that they can poison the Joestar group's drinks.",
+      "translate": "quest.jojorpg.stardust_crusaders_190.intro0"
+    },
+    {
+      "fallback": "Jotaro, Joseph, and Polnareff enter the cafe, forced to wait in the city until Avdol's recovery.",
+      "translate": "quest.jojorpg.stardust_crusaders_190.intro1"
+    },
+    {
+      "fallback": "Oingo, pretending to be a waiter, approaches the three and asks for their order.",
+      "translate": "quest.jojorpg.stardust_crusaders_190.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "190. \"Khnum\" Oingo and \"Tohth\" Boingo, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_190"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_190.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Head out: \"Khnum\" Oingo and \"Tohth\" Boingo, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_190.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:boingo_foe_t13",
+      "text": {
+        "fallback": "Defeat Boingo",
+        "translate": "quest.jojorpg.defeat.boingo_foe_t13"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:oingo_foe_t13",
+      "text": {
+        "fallback": "Defeat Oingo",
+        "translate": "quest.jojorpg.defeat.oingo_foe_t13"
+      }
+    }
+  ],
+  "order": 301900,
+  "outro": [
+    {
+      "fallback": "Despite not having done anything wrong, Oingo beats the man up and takes his wallet.",
+      "translate": "quest.jojorpg.stardust_crusaders_190.outro0"
+    },
+    {
+      "fallback": "Finally, the next prophecy arrives, foretelling that Oingo will put a bomb disguised as an orange in the Joestar group's car, and it will detonate causing Jotaro's face to split in two.",
+      "translate": "quest.jojorpg.stardust_crusaders_190.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_189"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

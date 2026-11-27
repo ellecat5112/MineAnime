@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13",
+    "jojorpg:muhammad_avdol_ally_t13"
+  ],
+  "arc": {
+    "fallback": "Judgement",
+    "translate": "quest.jojorpg.arc.judgement"
+  },
+  "description": {
+    "fallback": "The fake Avdol attacks Polnareff, knocking Polnareff back, but breaking off his fingers in the process. From the shock of being attacked by his dead loved ones, Polnareff hesitates in using Silver Chariot. When he finally reveals his Stand, Judgement appears and grabs it, holding down Polnareff as the \"living dead\" begin to gnaw on his flesh.",
+    "translate": "quest.jojorpg.stardust_crusaders_177.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The fake Avdol attacks Polnareff, knocking Polnareff back, but breaking off his fingers in the process.",
+      "translate": "quest.jojorpg.stardust_crusaders_177.intro0"
+    },
+    {
+      "fallback": "From the shock of being attacked by his dead loved ones, Polnareff hesitates in using Silver Chariot.",
+      "translate": "quest.jojorpg.stardust_crusaders_177.intro1"
+    },
+    {
+      "fallback": "When he finally reveals his Stand, Judgement appears and grabs it, holding down Polnareff as the \"living dead\" begin to gnaw on his flesh.",
+      "translate": "quest.jojorpg.stardust_crusaders_177.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "177. Judgement, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_177"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_177.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Head out: Judgement, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_177.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:cameo_foe_t13",
+      "text": {
+        "fallback": "Defeat Cameo",
+        "translate": "quest.jojorpg.defeat.cameo_foe_t13"
+      }
+    }
+  ],
+  "order": 301770,
+  "outro": [
+    {
+      "fallback": "To Cameo's surprise Avdol explains that when Hol Horse shot him, Emperor's bullet merely grazed his forehead rather than piercing his brain, knocking him unconscious rather than killing him.",
+      "translate": "quest.jojorpg.stardust_crusaders_177.outro0"
+    },
+    {
+      "fallback": "Polnareff's third wish had came true.",
+      "translate": "quest.jojorpg.stardust_crusaders_177.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_176"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

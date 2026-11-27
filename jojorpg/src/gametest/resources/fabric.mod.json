@@ -6,7 +6,7 @@
   "environment": "*",
   "entrypoints": {
     "main": ["com.jojorpg.test.TestServerSetup"],
-    "fabric-gametest": ["com.jojorpg.test.JojoGameTests"]
+    "fabric-gametest": ["com.jojorpg.test.JojoGameTests", "com.jojorpg.test.StandGameTests"]
   },
   "depends": { "jojorpg": "*", "fabric-gametest-api-v1": "*" }
 }

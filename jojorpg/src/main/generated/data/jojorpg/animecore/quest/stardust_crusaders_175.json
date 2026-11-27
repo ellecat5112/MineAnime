@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:muhammad_avdol_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Judgement",
+    "translate": "quest.jojorpg.arc.judgement"
+  },
+  "description": {
+    "fallback": "After releasing the genie, Polnareff attacks him with Silver Chariot, believing it to be an enemy Stand. His attack does nothing, and he notes Cameo's power. Polnareff jokes that Cameo should make him rich to prove that he's a genie.",
+    "translate": "quest.jojorpg.stardust_crusaders_175.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After releasing the genie, Polnareff attacks him with Silver Chariot, believing it to be an enemy Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_175.intro0"
+    },
+    {
+      "fallback": "His attack does nothing, and he notes Cameo's power.",
+      "translate": "quest.jojorpg.stardust_crusaders_175.intro1"
+    },
+    {
+      "fallback": "Polnareff jokes that Cameo should make him rich to prove that he's a genie.",
+      "translate": "quest.jojorpg.stardust_crusaders_175.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "175. Judgement, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_175"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_175.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: Judgement, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_175.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:cameo_foe_t12",
+      "text": {
+        "fallback": "Defeat Cameo",
+        "translate": "quest.jojorpg.defeat.cameo_foe_t12"
+      }
+    }
+  ],
+  "order": 301750,
+  "outro": [
+    {
+      "fallback": "When he gets closer, he hears a woman crying, and recognizes the voice as his sister, Chérie.",
+      "translate": "quest.jojorpg.stardust_crusaders_175.outro0"
+    },
+    {
+      "fallback": "The group returns to their boat, wondering if Polnareff has been attacked by an enemy.",
+      "translate": "quest.jojorpg.stardust_crusaders_175.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_174"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

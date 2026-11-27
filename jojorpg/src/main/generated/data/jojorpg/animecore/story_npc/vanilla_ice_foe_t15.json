@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "jojorpg:cream_void_sphere",
+    "jojorpg:cream_void_bite",
+    "jojorpg:cream_decapitating_chop"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 11583173,
+    "hair_style": "long",
+    "outfit": "bodysuit",
+    "pants": 4854924,
+    "top": 6953882
+  },
+  "attack": 20.6,
+  "cast_interval": 45,
+  "health": 720.0,
+  "manifestation": "jojorpg:cream",
+  "name": {
+    "fallback": "Vanilla Ice",
+    "translate": "npc.jojorpg.vanilla_ice"
+  },
+  "power": 2.4,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

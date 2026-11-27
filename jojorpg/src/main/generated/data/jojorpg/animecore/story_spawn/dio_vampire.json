@@ -1,0 +1,11 @@
+{
+  "group": [
+    1,
+    2
+  ],
+  "max_nearby": 4,
+  "min_tier": 12,
+  "npc": "jojorpg:vampire_t14",
+  "system": "jojorpg",
+  "weight": 4
+}

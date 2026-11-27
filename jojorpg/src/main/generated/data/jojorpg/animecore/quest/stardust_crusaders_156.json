@@ -1,0 +1,97 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Justice",
+    "translate": "quest.jojorpg.arc.justice"
+  },
+  "description": {
+    "fallback": "The police do not seem to care about the murder case, but take the body nonetheless. Polnareff finds it weird, but Enya tells them not to worry about it. She boasts about her hotel and tells \"Mr.",
+    "translate": "quest.jojorpg.stardust_crusaders_156.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The police do not seem to care about the murder case, but take the body nonetheless.",
+      "translate": "quest.jojorpg.stardust_crusaders_156.intro0"
+    },
+    {
+      "fallback": "Polnareff finds it weird, but Enya tells them not to worry about it.",
+      "translate": "quest.jojorpg.stardust_crusaders_156.intro1"
+    },
+    {
+      "fallback": "She boasts about her hotel and tells \"Mr.",
+      "translate": "quest.jojorpg.stardust_crusaders_156.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "156. Justice, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_156"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_156.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: Justice, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_156.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:puppet_t12",
+      "text": {
+        "fallback": "Defeat Enya's puppets",
+        "translate": "quest.jojorpg.minion.puppet"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t12",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t12"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:enya_the_hag_foe_t12",
+      "text": {
+        "fallback": "Defeat Enya the Hag",
+        "translate": "quest.jojorpg.defeat.enya_the_hag_foe_t12"
+      }
+    }
+  ],
+  "order": 301560,
+  "outro": [
+    {
+      "fallback": "Hol Horse calls Emperor out and shoots Enya, but Justice turns his hand against his own face before the bullet is fired.",
+      "translate": "quest.jojorpg.stardust_crusaders_156.outro0"
+    },
+    {
+      "fallback": "Enya proclaims that Justice always wins.",
+      "translate": "quest.jojorpg.stardust_crusaders_156.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_155"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t13",
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"Khnum\" Oingo and \"Tohth\" Boingo",
+    "translate": "quest.jojorpg.arc.khnum_oingo_and_tohth_boingo"
+  },
+  "description": {
+    "fallback": "In the car, Oingo begins panicking as he feels that Polnareff and Joseph are becoming suspicious of him. Also if he continues to disguise himself as Jotaro then Tohth's prophecy will come true and his face will split in half when the orange bomb explodes. However, if he undoes his disguise then Polnareff and Joseph will kill him.",
+    "translate": "quest.jojorpg.stardust_crusaders_192.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In the car, Oingo begins panicking as he feels that Polnareff and Joseph are becoming suspicious of him.",
+      "translate": "quest.jojorpg.stardust_crusaders_192.intro0"
+    },
+    {
+      "fallback": "Also if he continues to disguise himself as Jotaro then Tohth's prophecy will come true and his face will split in half when the orange bomb explodes.",
+      "translate": "quest.jojorpg.stardust_crusaders_192.intro1"
+    },
+    {
+      "fallback": "However, if he undoes his disguise then Polnareff and Joseph will kill him.",
+      "translate": "quest.jojorpg.stardust_crusaders_192.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "192. \"Khnum\" Oingo and \"Tohth\" Boingo, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_192"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_192.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Head out: \"Khnum\" Oingo and \"Tohth\" Boingo, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_192.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:boingo_foe_t13",
+      "text": {
+        "fallback": "Defeat Boingo",
+        "translate": "quest.jojorpg.defeat.boingo_foe_t13"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:oingo_foe_t13",
+      "text": {
+        "fallback": "Defeat Oingo",
+        "translate": "quest.jojorpg.defeat.oingo_foe_t13"
+      }
+    }
+  ],
+  "order": 301920,
+  "outro": [
+    {
+      "fallback": "Knowing that his shy little brother has finally grown up, Oingo can now rest in peace.",
+      "translate": "quest.jojorpg.stardust_crusaders_192.outro0"
+    },
+    {
+      "fallback": "However, fate is not so kind, as the innocent man Oingo beat up earlier has returned with his huge musc",
+      "translate": "quest.jojorpg.stardust_crusaders_192.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_191"
+  ],
+  "rewards": {
+    "experience": 59,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_khnum"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

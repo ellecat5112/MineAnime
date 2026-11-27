@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:empress_parasitic_growth",
+    "jojorpg:empress_crushing_grip",
+    "jojorpg:empress_vein_bite"
+  ],
+  "appearance": {
+    "accent": 16777215,
+    "hair": 2171169,
+    "hair_style": "long",
+    "outfit": "robe",
+    "pants": 16301008,
+    "top": 16301008
+  },
+  "attack": 12.9,
+  "cast_interval": 70,
+  "health": 228.0,
+  "manifestation": "jojorpg:empress",
+  "name": {
+    "fallback": "Nena",
+    "translate": "npc.jojorpg.nena"
+  },
+  "power": 2.0,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "The narrator remarks that it has been two minutes since Kakyoin died at the hands of DIO, but that the final battle will be concluded in only half that time. To Jotaro's dismay DIO redirects his attention to the now injured and unconscious Polnareff, which puts Jotaro in a tough position; he can either move and reveal himself to save Polnareff but lose his opportunity to trap DIO, or he can maintain the deception…",
+    "translate": "quest.jojorpg.stardust_crusaders_260.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "The narrator remarks that it has been two minutes since Kakyoin died at the hands of DIO, but that the final battle will be concluded in only half that time.",
+      "translate": "quest.jojorpg.stardust_crusaders_260.intro0"
+    },
+    {
+      "fallback": "To Jotaro's dismay DIO redirects his attention to the now injured and unconscious Polnareff, which puts Jotaro in a tough position; he can either move and reveal himself to save Polnareff but lose his opportunity to…",
+      "translate": "quest.jojorpg.stardust_crusaders_260.intro1"
+    },
+    {
+      "fallback": "He opts to shift his fingers slightly just as DIO is about to decapitate Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_260.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "260. DIO's World, Part 14",
+    "translate": "quest.jojorpg.stardust_crusaders_260"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_260.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 14",
+        "translate": "quest.jojorpg.stardust_crusaders_260.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302600,
+  "outro": [
+    {
+      "fallback": "DIO places his ear to the ground to sense Jotaro's heartbeat but Jotaro manages to use Star Platinum to clutch his own heart, causing it to stop and immediately placing Jotaro on the verge of blacking out.",
+      "translate": "quest.jojorpg.stardust_crusaders_260.outro0"
+    },
+    {
+      "fallback": "He instead decides Jotaro is of greater concern and returns to his original plan of cutting off his head, only to have Star Platinum deliver a powerful strike to the head when he enters Jotaro's range.",
+      "translate": "quest.jojorpg.stardust_crusaders_260.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_259"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

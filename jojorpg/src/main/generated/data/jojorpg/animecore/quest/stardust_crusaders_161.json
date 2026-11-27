@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:noriaki_kakyoin_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Lovers",
+    "translate": "quest.jojorpg.arc.lovers"
+  },
+  "description": {
+    "fallback": "To prevent Enya's death by DIO's bud spore, Polnareff slices its tentacles with Silver Chariot. However, it is too late. As Enya struggles to stay alive, Joseph asks her what the ability of DIO's Stand is, trying to convince her by saying DIO never trusted her.",
+    "translate": "quest.jojorpg.stardust_crusaders_161.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "To prevent Enya's death by DIO's bud spore, Polnareff slices its tentacles with Silver Chariot.",
+      "translate": "quest.jojorpg.stardust_crusaders_161.intro0"
+    },
+    {
+      "fallback": "However, it is too late.",
+      "translate": "quest.jojorpg.stardust_crusaders_161.intro1"
+    },
+    {
+      "fallback": "As Enya struggles to stay alive, Joseph asks her what the ability of DIO's Stand is, trying to convince her by saying DIO never trusted her.",
+      "translate": "quest.jojorpg.stardust_crusaders_161.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "161. Lovers, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_161"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_161.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: Lovers, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_161.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:steely_dan_foe_t12",
+      "text": {
+        "fallback": "Defeat Steely Dan",
+        "translate": "quest.jojorpg.defeat.steely_dan_foe_t12"
+      }
+    }
+  ],
+  "order": 301610,
+  "outro": [
+    {
+      "fallback": "It is revealed that Steely Dan's Stand, Lovers, has been inside Joseph's brain the whole time, returning any damage its user suffered.",
+      "translate": "quest.jojorpg.stardust_crusaders_161.outro0"
+    },
+    {
+      "fallback": "The kid hits Steely Dan again, but is paid back with a punch to the face from an angry Steely Dan, who tells him he didn't pay to be hit twice.",
+      "translate": "quest.jojorpg.stardust_crusaders_161.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_160"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

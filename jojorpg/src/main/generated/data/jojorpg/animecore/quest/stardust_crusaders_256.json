@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t16",
+    "jojorpg:jean_pierre_polnareff_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Jotaro watches as a knife appears in his grandfather's chest. Joseph warns Jotaro to run away, that he is no match for DIO and his World. DIO tells Jotaro about Kakyoin's death.",
+    "translate": "quest.jojorpg.stardust_crusaders_256.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro watches as a knife appears in his grandfather's chest.",
+      "translate": "quest.jojorpg.stardust_crusaders_256.intro0"
+    },
+    {
+      "fallback": "Joseph warns Jotaro to run away, that he is no match for DIO and his World.",
+      "translate": "quest.jojorpg.stardust_crusaders_256.intro1"
+    },
+    {
+      "fallback": "DIO tells Jotaro about Kakyoin's death.",
+      "translate": "quest.jojorpg.stardust_crusaders_256.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "256. DIO's World, Part 10",
+    "translate": "quest.jojorpg.stardust_crusaders_256"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_256.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 10",
+        "translate": "quest.jojorpg.stardust_crusaders_256.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302560,
+  "outro": [
+    {
+      "fallback": "He tries to give a finishing blow, but Jotaro twitches his finger.",
+      "translate": "quest.jojorpg.stardust_crusaders_256.outro0"
+    },
+    {
+      "fallback": "DIO leaps back, pondering the similarities between Star Platinum and The World.",
+      "translate": "quest.jojorpg.stardust_crusaders_256.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_255"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

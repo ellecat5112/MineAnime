@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jotaro_kujo_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Devil",
+    "translate": "quest.jojorpg.arc.devil"
+  },
+  "description": {
+    "fallback": "After Forever's defeat, Big Daddy crumbles and sinks. The group, having boarded a lifeboat, wonders how an ape could have such a powerful Stand, which would have killed them if not for Jotaro. Joseph wonders if they will find more enemies as powerful as the orangutan.",
+    "translate": "quest.jojorpg.stardust_crusaders_133.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After Forever's defeat, Big Daddy crumbles and sinks.",
+      "translate": "quest.jojorpg.stardust_crusaders_133.intro0"
+    },
+    {
+      "fallback": "The group, having boarded a lifeboat, wonders how an ape could have such a powerful Stand, which would have killed them if not for Jotaro.",
+      "translate": "quest.jojorpg.stardust_crusaders_133.intro1"
+    },
+    {
+      "fallback": "Joseph wonders if they will find more enemies as powerful as the orangutan.",
+      "translate": "quest.jojorpg.stardust_crusaders_133.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "133. Devil, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_133"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_133.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: Devil, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_133.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:devo_the_cursed_foe_t11",
+      "text": {
+        "fallback": "Defeat Devo the Cursed",
+        "translate": "quest.jojorpg.defeat.devo_the_cursed_foe_t11"
+      }
+    }
+  ],
+  "order": 301330,
+  "outro": [
+    {
+      "fallback": "Devo still laughs maniacally after being hit by Polnareff and runs away, declaring that his Stand feeds on hatred and grows more powerful when Devo hates his target.",
+      "translate": "quest.jojorpg.stardust_crusaders_133.outro0"
+    },
+    {
+      "fallback": "Polnareff's ankle is suddenly and mysteriously cut.",
+      "translate": "quest.jojorpg.stardust_crusaders_133.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_132"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t14",
+    "jojorpg:jean_pierre_polnareff_ally_t14"
+  ],
+  "arc": {
+    "fallback": "\"Sethan\" Alessi",
+    "translate": "quest.jojorpg.arc.sethan_alessi"
+  },
+  "description": {
+    "fallback": "In DIO's Mansion in Cairo, Hol Horse wanders through the darkness in search of his master. As he walks he stumbles over DIO's leftovers, amazed at their willingness to be fed to him. While Hol Horse thinks about DIO's amazing charisma, the devil himself asks Hol Horse why he is looking for him.",
+    "translate": "quest.jojorpg.stardust_crusaders_210.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In DIO's Mansion in Cairo, Hol Horse wanders through the darkness in search of his master.",
+      "translate": "quest.jojorpg.stardust_crusaders_210.intro0"
+    },
+    {
+      "fallback": "As he walks he stumbles over DIO's leftovers, amazed at their willingness to be fed to him.",
+      "translate": "quest.jojorpg.stardust_crusaders_210.intro1"
+    },
+    {
+      "fallback": "While Hol Horse thinks about DIO's amazing charisma, the devil himself asks Hol Horse why he is looking for him.",
+      "translate": "quest.jojorpg.stardust_crusaders_210.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "210. Shooting DIO?!",
+    "translate": "quest.jojorpg.stardust_crusaders_210"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_210.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Shooting DIO?!",
+        "translate": "quest.jojorpg.stardust_crusaders_210.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t14",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t14"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:alessi_foe_t14",
+      "text": {
+        "fallback": "Defeat Alessi",
+        "translate": "quest.jojorpg.defeat.alessi_foe_t14"
+      }
+    }
+  ],
+  "order": 302100,
+  "outro": [
+    {
+      "fallback": "Hol Horse stares in amazement, unsure of how DIO could have instantaneously gotten behind him without moving the spider webs around him.",
+      "translate": "quest.jojorpg.stardust_crusaders_210.outro0"
+    },
+    {
+      "fallback": "In awe of the overwhelming power of The World, Hol Horse swears complete loyalty to DIO.",
+      "translate": "quest.jojorpg.stardust_crusaders_210.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_209"
+  ],
+  "rewards": {
+    "experience": 62,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_sethan"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 14
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

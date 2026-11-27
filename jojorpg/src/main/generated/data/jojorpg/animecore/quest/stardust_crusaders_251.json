@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t15",
+    "jojorpg:jean_pierre_polnareff_ally_t15"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Despite the threats and arrogance of the politician, DIO simply rips out his teeth and asks him again to get into the driver's seat. Fearful and confused, he decides to leap from the car, only to find himself back inside. He does so multiple times before eventually giving up and appeasing DIO by enthusiastically taking to his demands.",
+    "translate": "quest.jojorpg.stardust_crusaders_251.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Despite the threats and arrogance of the politician, DIO simply rips out his teeth and asks him again to get into the driver's seat.",
+      "translate": "quest.jojorpg.stardust_crusaders_251.intro0"
+    },
+    {
+      "fallback": "Fearful and confused, he decides to leap from the car, only to find himself back inside.",
+      "translate": "quest.jojorpg.stardust_crusaders_251.intro1"
+    },
+    {
+      "fallback": "He does so multiple times before eventually giving up and appeasing DIO by enthusiastically taking to his demands.",
+      "translate": "quest.jojorpg.stardust_crusaders_251.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "251. DIO's World, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_251"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_251.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_251.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t15",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t15"
+      }
+    }
+  ],
+  "order": 302510,
+  "outro": [
+    {
+      "fallback": "DIO's car gets closer to the Joestar's.",
+      "translate": "quest.jojorpg.stardust_crusaders_251.outro0"
+    },
+    {
+      "fallback": "Suddenly, Hierophant Green appears next to the car and attacks DIO with an Emerald Splash.",
+      "translate": "quest.jojorpg.stardust_crusaders_251.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_250"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

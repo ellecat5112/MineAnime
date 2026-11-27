@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t11",
+    "jojorpg:muhammad_avdol_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Strength",
+    "translate": "quest.jojorpg.arc.strength"
+  },
+  "description": {
+    "fallback": "The battle between Jotaro Kujo and Forever continues. Jotaro wonders why everything around him is being used as a tool for battle, even though he cannot see Forever's Stand. Suddenly, Forever sinks into the wall to avoid one of Jotaro's attacks, confusing him even more.",
+    "translate": "quest.jojorpg.stardust_crusaders_132.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The battle between Jotaro Kujo and Forever continues.",
+      "translate": "quest.jojorpg.stardust_crusaders_132.intro0"
+    },
+    {
+      "fallback": "Jotaro wonders why everything around him is being used as a tool for battle, even though he cannot see Forever's Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_132.intro1"
+    },
+    {
+      "fallback": "Suddenly, Forever sinks into the wall to avoid one of Jotaro's attacks, confusing him even more.",
+      "translate": "quest.jojorpg.stardust_crusaders_132.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "132. Strength, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_132"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_132.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Head out: Strength, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_132.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:forever_foe_t11",
+      "text": {
+        "fallback": "Defeat Forever",
+        "translate": "quest.jojorpg.defeat.forever_foe_t11"
+      }
+    }
+  ],
+  "order": 301320,
+  "outro": [
+    {
+      "fallback": "Jotaro uses this opportunity to have Star Platinum use Star Finger to propel the button Forever is holding into his skull and free himself as the injury cancelled Forever's control over his ship.",
+      "translate": "quest.jojorpg.stardust_crusaders_132.outro0"
+    },
+    {
+      "fallback": "Forever surrenders, but Jotaro refuses to forgive him and pummels the orangutan with a barrage of punches from Star Platinum.",
+      "translate": "quest.jojorpg.stardust_crusaders_132.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_131"
+  ],
+  "rewards": {
+    "experience": 53,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_strength"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

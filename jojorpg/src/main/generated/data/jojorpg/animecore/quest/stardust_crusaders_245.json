@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t15"
+  ],
+  "arc": {
+    "fallback": "The Miasma of the Void, Vanilla Ice",
+    "translate": "quest.jojorpg.arc.the_miasma_of_the_void_vanilla_ice"
+  },
+  "description": {
+    "fallback": "Polnareff mourns for Iggy as he impales Vanilla Ice's forehead. Silver Chariot then grabs the other end of his sword and twists it, breaking Vanilla Ice's neck. Vanilla Ice lays on the floor, motionless.",
+    "translate": "quest.jojorpg.stardust_crusaders_245.desc"
+  },
+  "giver": "jojorpg:jean_pierre_polnareff",
+  "intro": [
+    {
+      "fallback": "Polnareff mourns for Iggy as he impales Vanilla Ice's forehead.",
+      "translate": "quest.jojorpg.stardust_crusaders_245.intro0"
+    },
+    {
+      "fallback": "Silver Chariot then grabs the other end of his sword and twists it, breaking Vanilla Ice's neck.",
+      "translate": "quest.jojorpg.stardust_crusaders_245.intro1"
+    },
+    {
+      "fallback": "Vanilla Ice lays on the floor, motionless.",
+      "translate": "quest.jojorpg.stardust_crusaders_245.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "245. The Miasma of the Void, Vanilla Ice, Part 8",
+    "translate": "quest.jojorpg.stardust_crusaders_245"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jean_pierre_polnareff",
+      "text": {
+        "fallback": "Talk to Jean Pierre Polnareff",
+        "translate": "quest.jojorpg.stardust_crusaders_245.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: The Miasma of the Void, Vanilla Ice, Part 8",
+        "translate": "quest.jojorpg.stardust_crusaders_245.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:vanilla_ice_foe_t15",
+      "text": {
+        "fallback": "Defeat Vanilla Ice",
+        "translate": "quest.jojorpg.defeat.vanilla_ice_foe_t15"
+      }
+    }
+  ],
+  "order": 302450,
+  "outro": [
+    {
+      "fallback": "Polnareff cries but quickly gets up.",
+      "translate": "quest.jojorpg.stardust_crusaders_245.outro0"
+    },
+    {
+      "fallback": "He heads deeper into the mansion, knowing he must avenge his friends by defeating DIO.",
+      "translate": "quest.jojorpg.stardust_crusaders_245.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_244"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t15",
+    "jojorpg:jean_pierre_polnareff_ally_t15"
+  ],
+  "arc": {
+    "fallback": "The Miasma of the Void, Vanilla Ice",
+    "translate": "quest.jojorpg.arc.the_miasma_of_the_void_vanilla_ice"
+  },
+  "description": {
+    "fallback": "Polnareff screams in shock as all that remains of Avdol are his severed arms. Cream appears from the void, Polnareff confused as to how it went undetected by both Avdol and Iggy. Polnareff asks where Avdol went.",
+    "translate": "quest.jojorpg.stardust_crusaders_240.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Polnareff screams in shock as all that remains of Avdol are his severed arms.",
+      "translate": "quest.jojorpg.stardust_crusaders_240.intro0"
+    },
+    {
+      "fallback": "Cream appears from the void, Polnareff confused as to how it went undetected by both Avdol and Iggy.",
+      "translate": "quest.jojorpg.stardust_crusaders_240.intro1"
+    },
+    {
+      "fallback": "Polnareff asks where Avdol went.",
+      "translate": "quest.jojorpg.stardust_crusaders_240.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "240. The Miasma of the Void, Vanilla Ice, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_240"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_240.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: The Miasma of the Void, Vanilla Ice, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_240.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:vanilla_ice_foe_t15",
+      "text": {
+        "fallback": "Defeat Vanilla Ice",
+        "translate": "quest.jojorpg.defeat.vanilla_ice_foe_t15"
+      }
+    }
+  ],
+  "order": 302400,
+  "outro": [
+    {
+      "fallback": "Iggy and Polnareff run to another room and block the door, but Cream voids his way through.",
+      "translate": "quest.jojorpg.stardust_crusaders_240.outro0"
+    },
+    {
+      "fallback": "The two run up a set of stairs, unable to escape from the void of emptiness, Vanilla Ice.",
+      "translate": "quest.jojorpg.stardust_crusaders_240.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_239"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

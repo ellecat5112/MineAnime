@@ -27,6 +27,10 @@
   JoJoRPG: `jojo_content.py --extract <crawl.json>` condenses a jojowiki crawl into `docs/wiki/jojowiki_parts_1_2.json`;
   `jojo_content.py` writes `jojo_catalog.json` (styles, techniques, forms), `assets/jojorpg/jojo_items.json` and the
   JoJo sprites; `jojo_story.py` (after it) writes `jojo_story_catalog.json` (chapter quests, characters, night spawns).
+  Part 3: `jojo_stands.py --extract <crawl.json>` writes `docs/wiki/jojowiki_part_3.json`; `jojo_stands.py` writes
+  `jojo_stands_catalog.json` (every Part 3 Stand as an `animecore:manifestation` + its techniques), `jojo_stand_items.json`
+  and the disc sprites; `stand_models.py` the low-poly Stand models (`form_models/stand/`); `jojo_part3_story.py` (last)
+  `jojo_part3_story_catalog.json` (152 chapter quests, Stand-user characters).
 - Engine wording is neutral; a content mod re-words engine messages via `assets/<mod>/engine_text.json` +
   `AnimeModContext.Builder#overrideText` (use `AnimeText.tr(system, key)` for any message a mod might re-word).
 

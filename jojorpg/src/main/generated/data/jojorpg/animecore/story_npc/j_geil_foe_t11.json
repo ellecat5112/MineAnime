@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:hanged_man_light_manifestation",
+    "jojorpg:hanged_man_wrist_knives",
+    "jojorpg:hanged_man_reflection_ambush"
+  ],
+  "appearance": {
+    "accent": 2171169,
+    "hair": 2171169,
+    "hair_style": "long",
+    "outfit": "jacket",
+    "pants": 2171169,
+    "top": 4342338
+  },
+  "attack": 15.9,
+  "cast_interval": 45,
+  "health": 547.0,
+  "manifestation": "jojorpg:hanged_man",
+  "name": {
+    "fallback": "J. Geil",
+    "translate": "npc.jojorpg.j_geil"
+  },
+  "power": 2.0,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

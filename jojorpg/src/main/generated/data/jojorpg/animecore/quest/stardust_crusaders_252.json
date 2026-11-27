@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t15",
+    "jojorpg:jean_pierre_polnareff_ally_t15"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Hierophant Green launches an Emerald Splash at DIO. With one finger, DIO is able to deflect the attack with ease. Hierophant Green attacks with a more narrow Emerald Splash, but DIO deflects it again with just his hand.",
+    "translate": "quest.jojorpg.stardust_crusaders_252.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Hierophant Green launches an Emerald Splash at DIO.",
+      "translate": "quest.jojorpg.stardust_crusaders_252.intro0"
+    },
+    {
+      "fallback": "With one finger, DIO is able to deflect the attack with ease.",
+      "translate": "quest.jojorpg.stardust_crusaders_252.intro1"
+    },
+    {
+      "fallback": "Hierophant Green attacks with a more narrow Emerald Splash, but DIO deflects it again with just his hand.",
+      "translate": "quest.jojorpg.stardust_crusaders_252.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "252. DIO's World, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_252"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_252.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_252.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t15",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t15"
+      }
+    }
+  ],
+  "order": 302520,
+  "outro": [
+    {
+      "fallback": "Joseph and Kakyoin manage to escape, swinging from the rooftops.",
+      "translate": "quest.jojorpg.stardust_crusaders_252.outro0"
+    },
+    {
+      "fallback": "As they escape, Kakyoin states that he may have found a way to uncover the secret of The World.",
+      "translate": "quest.jojorpg.stardust_crusaders_252.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_251"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

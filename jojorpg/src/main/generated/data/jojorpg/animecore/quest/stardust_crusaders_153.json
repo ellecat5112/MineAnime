@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Wheel of Fortune",
+    "translate": "quest.jojorpg.arc.wheel_of_fortune"
+  },
+  "description": {
+    "fallback": "Jotaro is hurt by an invisible attack from Wheel of Fortune and is almost run over by the car, but is saved just in time by Polnareff and Kakyoin. They, however, are also shot by the strange attack. ZZ sees this as an opportunity to run everyone over, passing with brute force alone through cliffs and rocks.",
+    "translate": "quest.jojorpg.stardust_crusaders_153.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro is hurt by an invisible attack from Wheel of Fortune and is almost run over by the car, but is saved just in time by Polnareff and Kakyoin.",
+      "translate": "quest.jojorpg.stardust_crusaders_153.intro0"
+    },
+    {
+      "fallback": "They, however, are also shot by the strange attack.",
+      "translate": "quest.jojorpg.stardust_crusaders_153.intro1"
+    },
+    {
+      "fallback": "ZZ sees this as an opportunity to run everyone over, passing with brute force alone through cliffs and rocks.",
+      "translate": "quest.jojorpg.stardust_crusaders_153.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "153. Wheel of Fortune, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_153"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_153.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Head out: Wheel of Fortune, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_153.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:zz_foe_t12",
+      "text": {
+        "fallback": "Defeat ZZ",
+        "translate": "quest.jojorpg.defeat.zz_foe_t12"
+      }
+    }
+  ],
+  "order": 301530,
+  "outro": [
+    {
+      "fallback": "Jotaro had dug a tunnel with Star Platinum and left his coat behind to be burned instead.",
+      "translate": "quest.jojorpg.stardust_crusaders_153.outro0"
+    },
+    {
+      "fallback": "Jotaro pummels ZZ and his Stand with Star Platinum in order to teach him that one should create one's own road to safety.",
+      "translate": "quest.jojorpg.stardust_crusaders_153.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_152"
+  ],
+  "rewards": {
+    "experience": 56,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_wheel_of_fortune"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 12
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

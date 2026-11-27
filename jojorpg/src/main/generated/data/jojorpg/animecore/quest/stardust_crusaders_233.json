@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t15",
+    "jojorpg:noriaki_kakyoin_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "Atum steals Kakyoin's soul and inserts it into a doll. Telence compliments Kakyoin's ability to overcome his fear, and that he will have a special place within Telence's collection. Now that he has Kakyoin, Atum lets go of Jotaro's arm.",
+    "translate": "quest.jojorpg.stardust_crusaders_233.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Atum steals Kakyoin's soul and inserts it into a doll.",
+      "translate": "quest.jojorpg.stardust_crusaders_233.intro0"
+    },
+    {
+      "fallback": "Telence compliments Kakyoin's ability to overcome his fear, and that he will have a special place within Telence's collection.",
+      "translate": "quest.jojorpg.stardust_crusaders_233.intro1"
+    },
+    {
+      "fallback": "Now that he has Kakyoin, Atum lets go of Jotaro's arm.",
+      "translate": "quest.jojorpg.stardust_crusaders_233.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "233. D'Arby the Player, Part 7",
+    "translate": "quest.jojorpg.stardust_crusaders_233"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_233.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 7",
+        "translate": "quest.jojorpg.stardust_crusaders_233.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302330,
+  "outro": [
+    {
+      "fallback": "After the pitch, Jotaro continues swinging.",
+      "translate": "quest.jojorpg.stardust_crusaders_233.outro0"
+    },
+    {
+      "fallback": "Joseph realizes that Jotaro has never played a video game before and is testing out the controls.",
+      "translate": "quest.jojorpg.stardust_crusaders_233.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_232"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

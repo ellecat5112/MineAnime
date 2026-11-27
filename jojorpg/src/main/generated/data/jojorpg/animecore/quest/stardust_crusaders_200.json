@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t13",
+    "jojorpg:iggy_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"Bastet\" Mariah",
+    "translate": "quest.jojorpg.arc.bastet_mariah"
+  },
+  "description": {
+    "fallback": "In a hotel room, Avdol wakes up Joseph as the group prepares to go eat breakfast. Polnareff yells at Joseph as old men are supposed to wake up early. Avdol chuckles as seeing that Joseph turned one hundred eighty degrees while asleep (his head now facing north) is also a sign of his youth.",
+    "translate": "quest.jojorpg.stardust_crusaders_200.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In a hotel room, Avdol wakes up Joseph as the group prepares to go eat breakfast.",
+      "translate": "quest.jojorpg.stardust_crusaders_200.intro0"
+    },
+    {
+      "fallback": "Polnareff yells at Joseph as old men are supposed to wake up early.",
+      "translate": "quest.jojorpg.stardust_crusaders_200.intro1"
+    },
+    {
+      "fallback": "Avdol chuckles as seeing that Joseph turned one hundred eighty degrees while asleep (his head now facing north) is also a sign of his youth.",
+      "translate": "quest.jojorpg.stardust_crusaders_200.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "200. \"Bastet\" Mariah, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_200"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_200.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: \"Bastet\" Mariah, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_200.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mariah_foe_t13",
+      "text": {
+        "fallback": "Defeat Mariah",
+        "translate": "quest.jojorpg.defeat.mariah_foe_t13"
+      }
+    }
+  ],
+  "order": 302000,
+  "outro": [
+    {
+      "fallback": "The jewelry gets caught in the escalator and begins strangling Joseph.",
+      "translate": "quest.jojorpg.stardust_crusaders_200.outro0"
+    },
+    {
+      "fallback": "Joseph yells at the woman to save him, but she mocks him revealing herself to be the enemy Stand user, Mariah.",
+      "translate": "quest.jojorpg.stardust_crusaders_200.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_199"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

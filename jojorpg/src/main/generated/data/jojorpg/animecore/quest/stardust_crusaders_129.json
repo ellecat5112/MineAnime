@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t11",
+    "jojorpg:jean_pierre_polnareff_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Dark Blue Moon",
+    "translate": "quest.jojorpg.arc.dark_blue_moon"
+  },
+  "description": {
+    "fallback": "The Imposter Captain Tennille is seemingly taken away by the sea while Jotaro tries to pull the runaway girl back to the boat. Jotaro begins to have trouble, as several barnacles are attached to Star Platinum's arm, sucking the Stand's strength away. Dark Blue Moon pulls Jotaro back into the water, but not before Kakyoin saves the girl.",
+    "translate": "quest.jojorpg.stardust_crusaders_129.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Imposter Captain Tennille is seemingly taken away by the sea while Jotaro tries to pull the runaway girl back to the boat.",
+      "translate": "quest.jojorpg.stardust_crusaders_129.intro0"
+    },
+    {
+      "fallback": "Jotaro begins to have trouble, as several barnacles are attached to Star Platinum's arm, sucking the Stand's strength away.",
+      "translate": "quest.jojorpg.stardust_crusaders_129.intro1"
+    },
+    {
+      "fallback": "Dark Blue Moon pulls Jotaro back into the water, but not before Kakyoin saves the girl.",
+      "translate": "quest.jojorpg.stardust_crusaders_129.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "129. Dark Blue Moon, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_129"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_129.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Dark Blue Moon, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_129.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:imposter_captain_tennille_foe_t11",
+      "text": {
+        "fallback": "Defeat Imposter Captain Tennille",
+        "translate": "quest.jojorpg.defeat.imposter_captain_tennille_foe_t11"
+      }
+    }
+  ],
+  "order": 301290,
+  "outro": [
+    {
+      "fallback": "Star Platinum is now covered by barnacles that continue to drain his strength, so Jotaro focuses all his power into his fingers and uses Star Finger, extending two fingers into two of Dark Blue Moon's eyes.",
+      "translate": "quest.jojorpg.stardust_crusaders_129.outro0"
+    },
+    {
+      "fallback": "Jotaro then rips off half of the Stand's head, claiming that the imposter will become sashimi.",
+      "translate": "quest.jojorpg.stardust_crusaders_129.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_128"
+  ],
+  "rewards": {
+    "experience": 53,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_dark_blue_moon"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:lovers_pain_link",
+    "jojorpg:lovers_brain_spores"
+  ],
+  "appearance": {
+    "accent": 2171169,
+    "hair": 6111287,
+    "outfit": "jacket",
+    "pants": 15527921,
+    "top": 15527921
+  },
+  "attack": 17.0,
+  "cast_interval": 45,
+  "health": 590.0,
+  "manifestation": "jojorpg:lovers",
+  "name": {
+    "fallback": "Steely Dan",
+    "translate": "npc.jojorpg.steely_dan"
+  },
+  "power": 2.1,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t14",
+    "jojorpg:muhammad_avdol_ally_t14"
+  ],
+  "arc": {
+    "fallback": "\"Sethan\" Alessi",
+    "translate": "quest.jojorpg.arc.sethan_alessi"
+  },
+  "description": {
+    "fallback": "Worried that Joseph and Avdol have encountered an enemy, Jotaro and Polnareff begin looking for the two. As they do so, Polnareff notices a bizarre looking man following them. The man, Alessi, tries to act casual but is unable to hide his killing intent from Polnareff.",
+    "translate": "quest.jojorpg.stardust_crusaders_205.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Worried that Joseph and Avdol have encountered an enemy, Jotaro and Polnareff begin looking for the two.",
+      "translate": "quest.jojorpg.stardust_crusaders_205.intro0"
+    },
+    {
+      "fallback": "As they do so, Polnareff notices a bizarre looking man following them.",
+      "translate": "quest.jojorpg.stardust_crusaders_205.intro1"
+    },
+    {
+      "fallback": "The man, Alessi, tries to act casual but is unable to hide his killing intent from Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_205.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "205. \"Sethan\" Alessi, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_205"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_205.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: \"Sethan\" Alessi, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_205.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:alessi_foe_t14",
+      "text": {
+        "fallback": "Defeat Alessi",
+        "translate": "quest.jojorpg.defeat.alessi_foe_t14"
+      }
+    }
+  ],
+  "order": 302050,
+  "outro": [
+    {
+      "fallback": "Jotaro, not recognizing his friend, walks away in search of Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_205.outro0"
+    },
+    {
+      "fallback": "Suddenly Alessi appears, ready to abuse the now weakened Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_205.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_204"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

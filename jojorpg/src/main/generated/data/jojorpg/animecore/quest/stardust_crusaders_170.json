@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:noriaki_kakyoin_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Death Thirteen",
+    "translate": "quest.jojorpg.arc.death_thirteen"
+  },
+  "description": {
+    "fallback": "Kakyoin struggles again in the real world and is stuck in a wall in the dream world. Death Thirteen tells him, that he's going to die if Kakyoin doesn't stop. This convinces Kakyoin that the Stand user is the baby.",
+    "translate": "quest.jojorpg.stardust_crusaders_170.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Kakyoin struggles again in the real world and is stuck in a wall in the dream world.",
+      "translate": "quest.jojorpg.stardust_crusaders_170.intro0"
+    },
+    {
+      "fallback": "Death Thirteen tells him, that he's going to die if Kakyoin doesn't stop.",
+      "translate": "quest.jojorpg.stardust_crusaders_170.intro1"
+    },
+    {
+      "fallback": "This convinces Kakyoin that the Stand user is the baby.",
+      "translate": "quest.jojorpg.stardust_crusaders_170.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "170. Death Thirteen, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_170"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_170.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Death Thirteen, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_170.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mannish_boy_foe_t12",
+      "text": {
+        "fallback": "Defeat Mannish Boy",
+        "translate": "quest.jojorpg.defeat.mannish_boy_foe_t12"
+      }
+    }
+  ],
+  "order": 301700,
+  "outro": [
+    {
+      "fallback": "He understands that it's him whose hurting himself and suspects the baby to be a Stand user.",
+      "translate": "quest.jojorpg.stardust_crusaders_170.outro0"
+    },
+    {
+      "fallback": "Jotaro and Polnareff think that Kakyoin is becoming mad.",
+      "translate": "quest.jojorpg.stardust_crusaders_170.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_169"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

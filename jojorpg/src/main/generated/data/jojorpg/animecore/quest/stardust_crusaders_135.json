@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t11",
+    "jojorpg:muhammad_avdol_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Devil",
+    "translate": "quest.jojorpg.arc.devil"
+  },
+  "description": {
+    "fallback": "Silver Chariot and Ebony Devil continue to fight. Polnareff thinks of a way to cut the cords tying him but is constantly being attacked by his opponent. Unable to see anything, Polnareff has Silver Chariot attack randomly in all directions, smashing mirrors around him, but this also proves ineffective.",
+    "translate": "quest.jojorpg.stardust_crusaders_135.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Silver Chariot and Ebony Devil continue to fight.",
+      "translate": "quest.jojorpg.stardust_crusaders_135.intro0"
+    },
+    {
+      "fallback": "Polnareff thinks of a way to cut the cords tying him but is constantly being attacked by his opponent.",
+      "translate": "quest.jojorpg.stardust_crusaders_135.intro1"
+    },
+    {
+      "fallback": "Unable to see anything, Polnareff has Silver Chariot attack randomly in all directions, smashing mirrors around him, but this also proves ineffective.",
+      "translate": "quest.jojorpg.stardust_crusaders_135.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "135. Devil, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_135"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_135.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 83,
+      "text": {
+        "fallback": "Head out: Devil, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_135.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:devo_the_cursed_foe_t11",
+      "text": {
+        "fallback": "Defeat Devo the Cursed",
+        "translate": "quest.jojorpg.defeat.devo_the_cursed_foe_t11"
+      }
+    }
+  ],
+  "order": 301350,
+  "outro": [
+    {
+      "fallback": "The group now wants to discuss how they will defeat Devo.",
+      "translate": "quest.jojorpg.stardust_crusaders_135.outro0"
+    },
+    {
+      "fallback": "Seeing no one saw his injuries and that he already beat Devo, Polnareff calls everyone a \"bunch of assholes\" and falls unconscious from his injuries.",
+      "translate": "quest.jojorpg.stardust_crusaders_135.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_134"
+  ],
+  "rewards": {
+    "experience": 53,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_ebony_devil"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

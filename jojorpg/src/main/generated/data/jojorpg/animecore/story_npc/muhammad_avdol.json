@@ -1,0 +1,21 @@
+{
+  "appearance": {
+    "accent": 16766287,
+    "hair": 2171169,
+    "hair_style": "ponytail",
+    "headband": 16766287,
+    "outfit": "robe",
+    "pants": 9313051,
+    "skin": 7162945,
+    "top": 12986408
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "manifestation": "jojorpg:magicians_red",
+  "name": {
+    "fallback": "Muhammad Avdol",
+    "translate": "npc.jojorpg.muhammad_avdol"
+  },
+  "role": "giver",
+  "system": "jojorpg"
+}

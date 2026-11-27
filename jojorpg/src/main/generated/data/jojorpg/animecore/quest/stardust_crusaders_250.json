@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t15",
+    "jojorpg:noriaki_kakyoin_ally_t15"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Confused and frightened, the group leaps from the open window of the tower when Jotaro feels the bloodlust of DIO begin to creep up on him, utilizing their Stands to land safely on the lower roofs of the mansion. Just then the sunset becomes imminent, and although Joseph reasons that they must go on the defensive to survive the inevitable onslaught DIO will bring now that the situation is in his favor, Polnareff…",
+    "translate": "quest.jojorpg.stardust_crusaders_250.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Confused and frightened, the group leaps from the open window of the tower when Jotaro feels the bloodlust of DIO begin to creep up on him, utilizing their Stands to land safely on the lower roofs of the mansion.",
+      "translate": "quest.jojorpg.stardust_crusaders_250.intro0"
+    },
+    {
+      "fallback": "Just then the sunset becomes imminent, and although Joseph reasons that they must go on the defensive to survive the inevitable onslaught DIO will bring now that the situation is in his favor, Polnareff refuses to run…",
+      "translate": "quest.jojorpg.stardust_crusaders_250.intro1"
+    },
+    {
+      "fallback": "Emboldened by his nighttime freedom, DIO pursues Joseph and Kakyoin, while Jotaro accompanies Polnareff after concluding that they are attacking him from both sides; Joseph and Kakyoin attacking while running away, and…",
+      "translate": "quest.jojorpg.stardust_crusaders_250.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "250. DIO's World, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_250"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_250.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_250.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t15",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t15"
+      }
+    }
+  ],
+  "order": 302500,
+  "outro": [
+    {
+      "fallback": "Emboldened by his nighttime freedom, DIO pursues Joseph and Kakyoin, while Jotaro accompanies Polnareff after concluding that they are attacking him from both sides; Joseph and Kakyoin attacking while running away, and…",
+      "translate": "quest.jojorpg.stardust_crusaders_250.outro0"
+    },
+    {
+      "fallback": "Joseph buys a truck with which the two flee, while DIO contemplates the advances in vehicular technology since his time as he forcefully enters the car of a wealthy politician and coerces him to drive.",
+      "translate": "quest.jojorpg.stardust_crusaders_250.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_249"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

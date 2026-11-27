@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:noriaki_kakyoin_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Wheel of Fortune",
+    "translate": "quest.jojorpg.arc.wheel_of_fortune"
+  },
+  "description": {
+    "fallback": "The Joestar group is getting pushed over a cliff and can't do anything to leave the car without falling down the cliff. Kakyoin calls Hierophant Green and grabs the jeep's harness as it falls. He puts a hook into Wheel of Fortune and lets Star Platinum punch the car, making it the one to fall over and be destroyed in place of them.",
+    "translate": "quest.jojorpg.stardust_crusaders_152.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Joestar group is getting pushed over a cliff and can't do anything to leave the car without falling down the cliff.",
+      "translate": "quest.jojorpg.stardust_crusaders_152.intro0"
+    },
+    {
+      "fallback": "Kakyoin calls Hierophant Green and grabs the jeep's harness as it falls.",
+      "translate": "quest.jojorpg.stardust_crusaders_152.intro1"
+    },
+    {
+      "fallback": "He puts a hook into Wheel of Fortune and lets Star Platinum punch the car, making it the one to fall over and be destroyed in place of them.",
+      "translate": "quest.jojorpg.stardust_crusaders_152.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "152. Wheel of Fortune, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_152"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_152.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Wheel of Fortune, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_152.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:zz_foe_t12",
+      "text": {
+        "fallback": "Defeat ZZ",
+        "translate": "quest.jojorpg.defeat.zz_foe_t12"
+      }
+    }
+  ],
+  "order": 301520,
+  "outro": [
+    {
+      "fallback": "Wheel of Fortune repairs itself and runs towards Jotaro.",
+      "translate": "quest.jojorpg.stardust_crusaders_152.outro0"
+    },
+    {
+      "fallback": "He decides to confront the Stand despite not knowing its abilities, and is surprised by a seemingly invisible piercing attack hitting his shoulders.",
+      "translate": "quest.jojorpg.stardust_crusaders_152.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_151"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

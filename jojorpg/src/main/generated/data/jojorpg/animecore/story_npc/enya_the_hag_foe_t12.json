@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:justice_fog_puppetry",
+    "jojorpg:justice_mist_curtain",
+    "jojorpg:justice_wound_strings"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 14737632,
+    "hair_style": "long",
+    "outfit": "robe",
+    "pants": 4854924,
+    "top": 4854924
+  },
+  "attack": 17.0,
+  "cast_interval": 45,
+  "health": 590.0,
+  "manifestation": "jojorpg:justice",
+  "name": {
+    "fallback": "Enya the Hag",
+    "translate": "npc.jojorpg.enya_the_hag"
+  },
+  "power": 2.1,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

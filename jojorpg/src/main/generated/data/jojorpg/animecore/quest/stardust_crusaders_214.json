@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t14",
+    "jojorpg:jotaro_kujo_ally_t14"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Gambler",
+    "translate": "quest.jojorpg.arc.darby_the_gambler"
+  },
+  "description": {
+    "fallback": "To win back both Joseph and Polnareff's soul, Jotaro must defeat D'Arby in a game of poker. Jotaro inspects the deck and gives them to D'Arby to deal. D'Arby shuffles and begins dealing, but as he deals Star Platinum breaks his index finger.",
+    "translate": "quest.jojorpg.stardust_crusaders_214.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "To win back both Joseph and Polnareff's soul, Jotaro must defeat D'Arby in a game of poker.",
+      "translate": "quest.jojorpg.stardust_crusaders_214.intro0"
+    },
+    {
+      "fallback": "Jotaro inspects the deck and gives them to D'Arby to deal.",
+      "translate": "quest.jojorpg.stardust_crusaders_214.intro1"
+    },
+    {
+      "fallback": "D'Arby shuffles and begins dealing, but as he deals Star Platinum breaks his index finger.",
+      "translate": "quest.jojorpg.stardust_crusaders_214.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "214. D'Arby the Gambler, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_214"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_214.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: D'Arby the Gambler, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_214.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:daniel_j_darby_foe_t14",
+      "text": {
+        "fallback": "Defeat Daniel J. D'Arby",
+        "translate": "quest.jojorpg.defeat.daniel_j_darby_foe_t14"
+      }
+    }
+  ],
+  "order": 302140,
+  "outro": [
+    {
+      "fallback": "The boy deals the two their cards.",
+      "translate": "quest.jojorpg.stardust_crusaders_214.outro0"
+    },
+    {
+      "fallback": "D'Arby wages one Polnareff chip and the game begins.",
+      "translate": "quest.jojorpg.stardust_crusaders_214.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_213"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

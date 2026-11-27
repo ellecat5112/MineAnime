@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "Anubis",
+    "translate": "quest.jojorpg.arc.anubis"
+  },
+  "description": {
+    "fallback": "Jotaro awakens to see the barber attacking Polnareff with a sword. Polnareff explains to Jotaro that the sword is a Stand, and that it is possessing the barber. Polnareff uses Silver Chariot to attack with all his might, but Anubis knows all about Silver Chariot's abilities and limitations.",
+    "translate": "quest.jojorpg.stardust_crusaders_196.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "Jotaro awakens to see the barber attacking Polnareff with a sword.",
+      "translate": "quest.jojorpg.stardust_crusaders_196.intro0"
+    },
+    {
+      "fallback": "Polnareff explains to Jotaro that the sword is a Stand, and that it is possessing the barber.",
+      "translate": "quest.jojorpg.stardust_crusaders_196.intro1"
+    },
+    {
+      "fallback": "Polnareff uses Silver Chariot to attack with all his might, but Anubis knows all about Silver Chariot's abilities and limitations.",
+      "translate": "quest.jojorpg.stardust_crusaders_196.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "196. Anubis, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_196"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_196.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Head out: Anubis, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_196.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:khan_foe_t13",
+      "text": {
+        "fallback": "Defeat Khan",
+        "translate": "quest.jojorpg.defeat.khan_foe_t13"
+      }
+    }
+  ],
+  "order": 301960,
+  "outro": [
+    {
+      "fallback": "However, a policeman spots Polnareff and grabs the sword from him, thinking he is partaking in illegal activities.",
+      "translate": "quest.jojorpg.stardust_crusaders_196.outro0"
+    },
+    {
+      "fallback": "The two tug at the sword until Polnareff accidentally unsheathes it.",
+      "translate": "quest.jojorpg.stardust_crusaders_196.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_195"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

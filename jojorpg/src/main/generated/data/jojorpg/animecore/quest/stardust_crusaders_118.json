@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Noriaki Kakyoin",
+    "translate": "quest.jojorpg.arc.noriaki_kakyoin"
+  },
+  "description": {
+    "fallback": "DIO recalls how he survived under the ocean and is determined to kill the Joestar Family, as they have acquired Stands just like him. To that end, he sends several Stand users to complete this task. One of these users attacks Jotaro on the stairs, which causes him to fall.",
+    "translate": "quest.jojorpg.stardust_crusaders_118.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "DIO recalls how he survived under the ocean and is determined to kill the Joestar Family, as they have acquired Stands just like him.",
+      "translate": "quest.jojorpg.stardust_crusaders_118.intro0"
+    },
+    {
+      "fallback": "To that end, he sends several Stand users to complete this task.",
+      "translate": "quest.jojorpg.stardust_crusaders_118.intro1"
+    },
+    {
+      "fallback": "One of these users attacks Jotaro on the stairs, which causes him to fall.",
+      "translate": "quest.jojorpg.stardust_crusaders_118.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "118. Noriaki Kakyoin, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_118"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_118.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Noriaki Kakyoin, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_118.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:noriaki_kakyoin_flesh_bud",
+      "text": {
+        "fallback": "Defeat Noriaki Kakyoin",
+        "translate": "quest.jojorpg.defeat.noriaki_kakyoin_flesh_bud"
+      }
+    }
+  ],
+  "order": 301180,
+  "outro": [
+    {
+      "fallback": "The young man says that he swore loyalty to DIO and was sent to prevent Jotaro and the others from discovering DIO's location.",
+      "translate": "quest.jojorpg.stardust_crusaders_118.outro0"
+    },
+    {
+      "fallback": "To prevent the nurse from being harmed, Jotaro kisses her and uses his Stand to drag out Hierophant Green with its teeth from the nurse’s mouth.",
+      "translate": "quest.jojorpg.stardust_crusaders_118.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_117"
+  ],
+  "rewards": {
+    "experience": 50,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

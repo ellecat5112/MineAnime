@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:horus_ice_missiles",
+    "jojorpg:horus_ice_prison",
+    "jojorpg:horus_icicle_rain"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 6111287,
+    "hair_style": "spiky",
+    "outfit": "bodysuit",
+    "pants": 6111287,
+    "skin": 9268835,
+    "top": 7951688
+  },
+  "attack": 19.4,
+  "cast_interval": 45,
+  "health": 677.0,
+  "manifestation": "jojorpg:horus",
+  "name": {
+    "fallback": "Pet Shop",
+    "translate": "npc.jojorpg.pet_shop"
+  },
+  "power": 2.3,
+  "role": "boss",
+  "scale": 0.55,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

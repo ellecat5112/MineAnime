@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:noriaki_kakyoin_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Lovers",
+    "translate": "quest.jojorpg.arc.lovers"
+  },
+  "description": {
+    "fallback": "The Joestar group finds out the whole town in which they spent the night was made of illusions by Justice, and every resident was actually a corpse. The group decides to bring Enya with them until they can find a TV and use Hermit Purple to read her mind. This way, they will have the advantage by stealing information about DIO and his remaining mercenaries from her.",
+    "translate": "quest.jojorpg.stardust_crusaders_160.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Joestar group finds out the whole town in which they spent the night was made of illusions by Justice, and every resident was actually a corpse.",
+      "translate": "quest.jojorpg.stardust_crusaders_160.intro0"
+    },
+    {
+      "fallback": "The group decides to bring Enya with them until they can find a TV and use Hermit Purple to read her mind.",
+      "translate": "quest.jojorpg.stardust_crusaders_160.intro1"
+    },
+    {
+      "fallback": "This way, they will have the advantage by stealing information about DIO and his remaining mercenaries from her.",
+      "translate": "quest.jojorpg.stardust_crusaders_160.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "160. Lovers, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_160"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_160.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: Lovers, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_160.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:puppet_t12",
+      "text": {
+        "fallback": "Defeat Enya's puppets",
+        "translate": "quest.jojorpg.minion.puppet"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:steely_dan_foe_t12",
+      "text": {
+        "fallback": "Defeat Steely Dan",
+        "translate": "quest.jojorpg.defeat.steely_dan_foe_t12"
+      }
+    }
+  ],
+  "order": 301600,
+  "outro": [
+    {
+      "fallback": "It is revealed Enya also had a bud spore on her, which grows tentacles and starts to rip her face off as the merchant reveals himself as Steely Dan.",
+      "translate": "quest.jojorpg.stardust_crusaders_160.outro0"
+    },
+    {
+      "fallback": "Polnareff asks what's wrong with Steely Dan, as he killed someone on his own side.",
+      "translate": "quest.jojorpg.stardust_crusaders_160.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_159"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

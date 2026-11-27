@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jotaro_kujo_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Yellow Temperance",
+    "translate": "quest.jojorpg.arc.yellow_temperance"
+  },
+  "description": {
+    "fallback": "Jotaro uses Star Platinum to save himself from the fall. He wonders if he will need to cut one of his fingers to free himself from a piece of Yellow Temperance, and is taunted by Rubber Soul, who claims that it has no weaknesses. He tries to burn the piece, but it only expands it, so he borrows a popsicle from a boy in another cable car to freeze it.",
+    "translate": "quest.jojorpg.stardust_crusaders_138.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro uses Star Platinum to save himself from the fall.",
+      "translate": "quest.jojorpg.stardust_crusaders_138.intro0"
+    },
+    {
+      "fallback": "He wonders if he will need to cut one of his fingers to free himself from a piece of Yellow Temperance, and is taunted by Rubber Soul, who claims that it has no weaknesses.",
+      "translate": "quest.jojorpg.stardust_crusaders_138.intro1"
+    },
+    {
+      "fallback": "He tries to burn the piece, but it only expands it, so he borrows a popsicle from a boy in another cable car to freeze it.",
+      "translate": "quest.jojorpg.stardust_crusaders_138.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "138. Yellow Temperance, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_138"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_138.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 62,
+      "text": {
+        "fallback": "Head out: Yellow Temperance, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_138.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:rubber_soul_foe_t11",
+      "text": {
+        "fallback": "Defeat Rubber Soul",
+        "translate": "quest.jojorpg.defeat.rubber_soul_foe_t11"
+      }
+    }
+  ],
+  "order": 301380,
+  "outro": [
+    {
+      "fallback": "Jotaro holds him in place and asks if \"he understands\" why he's not a forgiving person.",
+      "translate": "quest.jojorpg.stardust_crusaders_138.outro0"
+    },
+    {
+      "fallback": "He follows the words with an elbow to Rubber Soul's face.",
+      "translate": "quest.jojorpg.stardust_crusaders_138.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_137"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

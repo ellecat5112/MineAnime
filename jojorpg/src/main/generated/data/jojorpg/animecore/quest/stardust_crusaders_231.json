@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t15",
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "After performing an extremely risky maneuver, Kakyoin was able to pass Telence's racer. The two race side by side trying to get to the speedup tunnel. Even after the first turn Kakyoin is able to keep up, causing Telence to compliment his ability of overcoming his fear.",
+    "translate": "quest.jojorpg.stardust_crusaders_231.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After performing an extremely risky maneuver, Kakyoin was able to pass Telence's racer.",
+      "translate": "quest.jojorpg.stardust_crusaders_231.intro0"
+    },
+    {
+      "fallback": "The two race side by side trying to get to the speedup tunnel.",
+      "translate": "quest.jojorpg.stardust_crusaders_231.intro1"
+    },
+    {
+      "fallback": "Even after the first turn Kakyoin is able to keep up, causing Telence to compliment his ability of overcoming his fear.",
+      "translate": "quest.jojorpg.stardust_crusaders_231.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "231. D'Arby the Player, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_231"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_231.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_231.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302310,
+  "outro": [
+    {
+      "fallback": "Telence pushes Kakyoin's racer to the side, but in response Kakyoin makes his racer ride on its side.",
+      "translate": "quest.jojorpg.stardust_crusaders_231.outro0"
+    },
+    {
+      "fallback": "By riding on the wall, both Kakyoin and Telence are able to fit into the tunnel, still tied.",
+      "translate": "quest.jojorpg.stardust_crusaders_231.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_230"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

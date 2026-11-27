@@ -1,0 +1,22 @@
+{
+  "appearance": {
+    "accent": 6953882,
+    "hair": 4073251,
+    "hair_style": "wild",
+    "mark": "scar",
+    "outfit": "jacket"
+  },
+  "attack": 9.7,
+  "cast_interval": 90,
+  "health": 117.0,
+  "name": {
+    "fallback": "DIO's Agent",
+    "translate": "npc.jojorpg.dios_agent"
+  },
+  "power": 1.9,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

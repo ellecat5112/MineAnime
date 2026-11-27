@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t15",
+    "jojorpg:noriaki_kakyoin_ally_t15"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "A small man appears (Nukesaku, Japanese for idiot; 抜け作), his ear to the ground of DIO's mansion, noting Vanilla Ice, Kenny G. and Telence T. D'Arby's demise. With a stroke, he launches himself to the ceiling of the room, hissing, and reflecting on the typical dismissal the three afforded him; casually calling him by \"Idiot.\" Stating his aim to claim Jotaro's death for himself, he somersaults down a staircase…",
+    "translate": "quest.jojorpg.stardust_crusaders_247.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "A small man appears (Nukesaku, Japanese for idiot; 抜け作), his ear to the ground of DIO's mansion, noting Vanilla Ice, Kenny G. and Telence T.",
+      "translate": "quest.jojorpg.stardust_crusaders_247.intro0"
+    },
+    {
+      "fallback": "D'Arby's demise.",
+      "translate": "quest.jojorpg.stardust_crusaders_247.intro1"
+    },
+    {
+      "fallback": "With a stroke, he launches himself to the ceiling of the room, hissing, and reflecting on the typical dismissal the three afforded him; casually calling him by \"Idiot.\" Stating his aim to claim Jotaro's death for…",
+      "translate": "quest.jojorpg.stardust_crusaders_247.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "247. DIO's World, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_247"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_247.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_247.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t15",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t15"
+      }
+    }
+  ],
+  "order": 302470,
+  "outro": [
+    {
+      "fallback": "Immediately, a shadowy figure appears, standing above Polnareff at the top of the stairs, hands at his hips.",
+      "translate": "quest.jojorpg.stardust_crusaders_247.outro0"
+    },
+    {
+      "fallback": "Light finally hitting his face, DIO and Polnareff acknowledge one another.",
+      "translate": "quest.jojorpg.stardust_crusaders_247.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_246"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

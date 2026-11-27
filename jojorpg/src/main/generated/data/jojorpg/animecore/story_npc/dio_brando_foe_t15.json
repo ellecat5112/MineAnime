@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "jojorpg:the_world_muda_muda",
+    "jojorpg:the_world_time_stop",
+    "jojorpg:the_world_knife_throw",
+    "jojorpg:the_world_road_roller",
+    "jojorpg:the_world_piercing_chop"
+  ],
+  "appearance": {
+    "accent": 3046706,
+    "eyes": 12986408,
+    "hair": 16766287,
+    "mark": "red_eyes",
+    "outfit": "bodysuit",
+    "pants": 16498733,
+    "top": 16766287
+  },
+  "attack": 20.6,
+  "cast_interval": 45,
+  "health": 1152.0,
+  "manifestation": "jojorpg:the_world",
+  "name": {
+    "fallback": "Dio Brando",
+    "translate": "npc.jojorpg.dio_brando"
+  },
+  "power": 2.4,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

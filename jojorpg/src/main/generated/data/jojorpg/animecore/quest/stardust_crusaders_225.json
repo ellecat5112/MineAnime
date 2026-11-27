@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t14",
+    "jojorpg:jotaro_kujo_ally_t14"
+  ],
+  "arc": {
+    "fallback": "The Gatekeeper of Hell, Pet Shop",
+    "translate": "quest.jojorpg.arc.the_gatekeeper_of_hell_pet_shop"
+  },
+  "description": {
+    "fallback": "In the Cairo sewers, Iggy successfully performs a sneak attack on Pet Shop and deals a devastating blow to the bird. Iggy tells Pet Shop that he has no care for him or DIO, and is willing to let him go. However, Iggy has damaged Pet Shop's pride, and the Stand-wielding hawk will not accept the idea of Iggy escaping with his life.",
+    "translate": "quest.jojorpg.stardust_crusaders_225.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In the Cairo sewers, Iggy successfully performs a sneak attack on Pet Shop and deals a devastating blow to the bird.",
+      "translate": "quest.jojorpg.stardust_crusaders_225.intro0"
+    },
+    {
+      "fallback": "Iggy tells Pet Shop that he has no care for him or DIO, and is willing to let him go.",
+      "translate": "quest.jojorpg.stardust_crusaders_225.intro1"
+    },
+    {
+      "fallback": "However, Iggy has damaged Pet Shop's pride, and the Stand-wielding hawk will not accept the idea of Iggy escaping with his life.",
+      "translate": "quest.jojorpg.stardust_crusaders_225.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "225. The Gatekeeper of Hell, Pet Shop, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_225"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_225.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Head out: The Gatekeeper of Hell, Pet Shop, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_225.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:pet_shop_foe_t14",
+      "text": {
+        "fallback": "Defeat Pet Shop",
+        "translate": "quest.jojorpg.defeat.pet_shop_foe_t14"
+      }
+    }
+  ],
+  "order": 302250,
+  "outro": [
+    {
+      "fallback": "At the bottom of the Nile, Iggy hides in a sand dome made from The Fool.",
+      "translate": "quest.jojorpg.stardust_crusaders_225.outro0"
+    },
+    {
+      "fallback": "He believes himself to be safe, however, Pet Shop dives into the water never giving up the hunt for his prey.",
+      "translate": "quest.jojorpg.stardust_crusaders_225.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_224"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

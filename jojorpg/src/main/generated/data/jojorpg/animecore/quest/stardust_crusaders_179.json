@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13",
+    "jojorpg:jotaro_kujo_ally_t13"
+  ],
+  "arc": {
+    "fallback": "High Priestess",
+    "translate": "quest.jojorpg.arc.high_priestess"
+  },
+  "description": {
+    "fallback": "Polnareff enthusiastically rushes towards the group, excited to share the good news. He reveals to them that Avdol is alive! However the group acts completely nonchalant about it, as if Avdol had simply come back from a paid vacation.",
+    "translate": "quest.jojorpg.stardust_crusaders_179.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Polnareff enthusiastically rushes towards the group, excited to share the good news.",
+      "translate": "quest.jojorpg.stardust_crusaders_179.intro0"
+    },
+    {
+      "fallback": "He reveals to them that Avdol is alive!",
+      "translate": "quest.jojorpg.stardust_crusaders_179.intro1"
+    },
+    {
+      "fallback": "However the group acts completely nonchalant about it, as if Avdol had simply come back from a paid vacation.",
+      "translate": "quest.jojorpg.stardust_crusaders_179.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "179. High Priestess, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_179"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_179.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Head out: High Priestess, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_179.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:midler_foe_t13",
+      "text": {
+        "fallback": "Defeat Midler",
+        "translate": "quest.jojorpg.defeat.midler_foe_t13"
+      }
+    }
+  ],
+  "order": 301790,
+  "outro": [
+    {
+      "fallback": "As Joseph picks up one of the cups it turns into an enemy Stand and cuts off Joseph's prosthetic hand.",
+      "translate": "quest.jojorpg.stardust_crusaders_179.outro0"
+    },
+    {
+      "fallback": "Jotaro tries to punch it with Star Platinum, but the Stand flees and disguises itself as one of the submarine's many gauges.",
+      "translate": "quest.jojorpg.stardust_crusaders_179.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_178"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t14",
+    "jojorpg:noriaki_kakyoin_ally_t14"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Gambler",
+    "translate": "quest.jojorpg.arc.darby_the_gambler"
+  },
+  "description": {
+    "fallback": "After seeing Star Platinum light a cigarette and put it into Jotaro's mouth instantaneously, D'Arby fears he may have used the same trick to affect his cards. D'Arby has four kings and knows that there are only three combinations that could beat them. Jotaro would have to switch all five of his cards at once, a feat that not even Star Platinum should be able to accomplish.",
+    "translate": "quest.jojorpg.stardust_crusaders_216.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After seeing Star Platinum light a cigarette and put it into Jotaro's mouth instantaneously, D'Arby fears he may have used the same trick to affect his cards.",
+      "translate": "quest.jojorpg.stardust_crusaders_216.intro0"
+    },
+    {
+      "fallback": "D'Arby has four kings and knows that there are only three combinations that could beat them.",
+      "translate": "quest.jojorpg.stardust_crusaders_216.intro1"
+    },
+    {
+      "fallback": "Jotaro would have to switch all five of his cards at once, a feat that not even Star Platinum should be able to accomplish.",
+      "translate": "quest.jojorpg.stardust_crusaders_216.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "216. D'Arby the Gambler, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_216"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_216.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: D'Arby the Gambler, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_216.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:daniel_j_darby_foe_t14",
+      "text": {
+        "fallback": "Defeat Daniel J. D'Arby",
+        "translate": "quest.jojorpg.defeat.daniel_j_darby_foe_t14"
+      }
+    }
+  ],
+  "order": 302160,
+  "outro": [
+    {
+      "fallback": "He then looks at Jotaro's, nearly passing out at the revelation that Jotaro's cards were complete crap.",
+      "translate": "quest.jojorpg.stardust_crusaders_216.outro0"
+    },
+    {
+      "fallback": "D'Arby has lost all traces of sanity and releases all of his captured souls back to their bodies.",
+      "translate": "quest.jojorpg.stardust_crusaders_216.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_215"
+  ],
+  "rewards": {
+    "experience": 62,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_osiris"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 14
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

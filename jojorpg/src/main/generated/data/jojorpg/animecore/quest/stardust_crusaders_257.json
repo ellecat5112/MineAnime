@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Jotaro twitches his finger within the frozen time. DIO ponders whether Jotaro can see in the frozen time or if he's just twitching his finger instinctively. Time resumes.",
+    "translate": "quest.jojorpg.stardust_crusaders_257.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "Jotaro twitches his finger within the frozen time.",
+      "translate": "quest.jojorpg.stardust_crusaders_257.intro0"
+    },
+    {
+      "fallback": "DIO ponders whether Jotaro can see in the frozen time or if he's just twitching his finger instinctively.",
+      "translate": "quest.jojorpg.stardust_crusaders_257.intro1"
+    },
+    {
+      "fallback": "Time resumes.",
+      "translate": "quest.jojorpg.stardust_crusaders_257.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "257. DIO's World, Part 11",
+    "translate": "quest.jojorpg.stardust_crusaders_257"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_257.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 11",
+        "translate": "quest.jojorpg.stardust_crusaders_257.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302570,
+  "outro": [
+    {
+      "fallback": "However Star Platinum punches The World through the chest.",
+      "translate": "quest.jojorpg.stardust_crusaders_257.outro0"
+    },
+    {
+      "fallback": "The magnet wasn't to trick DIO into thinking he could move, but that he couldn't.",
+      "translate": "quest.jojorpg.stardust_crusaders_257.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_256"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

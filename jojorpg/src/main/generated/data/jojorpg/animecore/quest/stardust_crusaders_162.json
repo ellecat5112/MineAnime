@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t12",
+    "jojorpg:noriaki_kakyoin_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Lovers",
+    "translate": "quest.jojorpg.arc.lovers"
+  },
+  "description": {
+    "fallback": "Steely Dan explains his Stand, Lovers, is physically the weakest of all Stands, but its powers are deadly nonetheless. Once it enters someone's brain, it creates a link between them and its user - if Steely Dan were struck by a car, hit by a baseball, or even trip on the ground, Joseph would feel the effects several times over. He demonstrates this by cracking his knuckles, causing Joseph to feel a sudden pain on…",
+    "translate": "quest.jojorpg.stardust_crusaders_162.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Steely Dan explains his Stand, Lovers, is physically the weakest of all Stands, but its powers are deadly nonetheless.",
+      "translate": "quest.jojorpg.stardust_crusaders_162.intro0"
+    },
+    {
+      "fallback": "Once it enters someone's brain, it creates a link between them and its user - if Steely Dan were struck by a car, hit by a baseball, or even trip on the ground, Joseph would feel the effects several times over.",
+      "translate": "quest.jojorpg.stardust_crusaders_162.intro1"
+    },
+    {
+      "fallback": "He demonstrates this by cracking his knuckles, causing Joseph to feel a sudden pain on his artificial hand.",
+      "translate": "quest.jojorpg.stardust_crusaders_162.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "162. Lovers, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_162"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_162.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: Lovers, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_162.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:steely_dan_foe_t12",
+      "text": {
+        "fallback": "Defeat Steely Dan",
+        "translate": "quest.jojorpg.defeat.steely_dan_foe_t12"
+      }
+    }
+  ],
+  "order": 301620,
+  "outro": [
+    {
+      "fallback": "When he doesn't respond, Steely Dan kicks his leg on a fire hydrant, hurting Joseph badly.",
+      "translate": "quest.jojorpg.stardust_crusaders_162.outro0"
+    },
+    {
+      "fallback": "Steely Dan then enjoys the pleasure of a strong bridge he made of Jotaro, much to the latter's displeasure.",
+      "translate": "quest.jojorpg.stardust_crusaders_162.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_161"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

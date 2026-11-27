@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:death_thirteen_dream_world",
+    "jojorpg:death_thirteen_scythe_reap",
+    "jojorpg:death_thirteen_nightmare_lock"
+  ],
+  "appearance": {
+    "accent": 9489145,
+    "hair": 9268835,
+    "hair_style": "bald",
+    "outfit": "robe",
+    "pants": 16777215,
+    "top": 16777215
+  },
+  "attack": 17.0,
+  "cast_interval": 45,
+  "health": 590.0,
+  "manifestation": "jojorpg:death_thirteen",
+  "name": {
+    "fallback": "Mannish Boy",
+    "translate": "npc.jojorpg.mannish_boy"
+  },
+  "power": 2.1,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

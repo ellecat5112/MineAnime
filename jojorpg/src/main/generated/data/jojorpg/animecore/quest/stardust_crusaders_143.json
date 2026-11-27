@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jean_pierre_polnareff_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Emperor and Hanged Man",
+    "translate": "quest.jojorpg.arc.emperor_and_hanged_man"
+  },
+  "description": {
+    "fallback": "Kakyoin hopes that Avdol's wound is not fatal, wanting to believe he's about to say something or get up. However, Avdol's body shows no reaction. Polnareff approaches Hol Horse, but is warned by Kakyoin that this was something Avdol was against.",
+    "translate": "quest.jojorpg.stardust_crusaders_143.desc"
+  },
+  "giver": "jojorpg:muhammad_avdol",
+  "intro": [
+    {
+      "fallback": "Kakyoin hopes that Avdol's wound is not fatal, wanting to believe he's about to say something or get up.",
+      "translate": "quest.jojorpg.stardust_crusaders_143.intro0"
+    },
+    {
+      "fallback": "However, Avdol's body shows no reaction.",
+      "translate": "quest.jojorpg.stardust_crusaders_143.intro1"
+    },
+    {
+      "fallback": "Polnareff approaches Hol Horse, but is warned by Kakyoin that this was something Avdol was against.",
+      "translate": "quest.jojorpg.stardust_crusaders_143.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "143. Emperor and Hanged Man, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_143"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:muhammad_avdol",
+      "text": {
+        "fallback": "Talk to Muhammad Avdol",
+        "translate": "quest.jojorpg.stardust_crusaders_143.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Emperor and Hanged Man, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_143.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t11",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t11"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:j_geil_foe_t11",
+      "text": {
+        "fallback": "Defeat J. Geil",
+        "translate": "quest.jojorpg.defeat.j_geil_foe_t11"
+      }
+    }
+  ],
+  "order": 301430,
+  "outro": [
+    {
+      "fallback": "Polnareff tells Kakyoin he finally understands what Avdol was trying to tell him, and Kakyoin elbows him in the face in place of a handshake.",
+      "translate": "quest.jojorpg.stardust_crusaders_143.outro0"
+    },
+    {
+      "fallback": "He then tells Polnareff that they are going to fight together.",
+      "translate": "quest.jojorpg.stardust_crusaders_143.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_142"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

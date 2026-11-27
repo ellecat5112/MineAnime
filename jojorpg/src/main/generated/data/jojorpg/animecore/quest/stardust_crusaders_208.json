@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t14"
+  ],
+  "arc": {
+    "fallback": "\"Sethan\" Alessi",
+    "translate": "quest.jojorpg.arc.sethan_alessi"
+  },
+  "description": {
+    "fallback": "After staying within the shadow of Sethan, Malèna has been turned into a fetus and will die if Alessi remains undefeated. The four-year-old Polnareff grabs Malèna and tries running away from Alessi. Alessi summons his Sethan and attacks Polnareff, de-aging him even further.",
+    "translate": "quest.jojorpg.stardust_crusaders_208.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "After staying within the shadow of Sethan, Malèna has been turned into a fetus and will die if Alessi remains undefeated.",
+      "translate": "quest.jojorpg.stardust_crusaders_208.intro0"
+    },
+    {
+      "fallback": "The four-year-old Polnareff grabs Malèna and tries running away from Alessi.",
+      "translate": "quest.jojorpg.stardust_crusaders_208.intro1"
+    },
+    {
+      "fallback": "Alessi summons his Sethan and attacks Polnareff, de-aging him even further.",
+      "translate": "quest.jojorpg.stardust_crusaders_208.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "208. \"Sethan\" Alessi, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_208"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_208.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Head out: \"Sethan\" Alessi, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_208.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:alessi_foe_t14",
+      "text": {
+        "fallback": "Defeat Alessi",
+        "translate": "quest.jojorpg.defeat.alessi_foe_t14"
+      }
+    }
+  ],
+  "order": 302080,
+  "outro": [
+    {
+      "fallback": "After getting his faced carved up, Alessi runs away, jumping through a window and into the street.",
+      "translate": "quest.jojorpg.stardust_crusaders_208.outro0"
+    },
+    {
+      "fallback": "Alessi thinks he has escaped, but as he looks up he sees Jotaro standing before him.",
+      "translate": "quest.jojorpg.stardust_crusaders_208.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_207"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

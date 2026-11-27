@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:tower_of_gray_tower_needle",
+    "jojorpg:tower_of_gray_high_speed_flight"
+  ],
+  "appearance": {
+    "accent": 4342338,
+    "hair": 10395294,
+    "hair_style": "bald",
+    "outfit": "jacket",
+    "pants": 4342338,
+    "top": 6381921
+  },
+  "attack": 14.7,
+  "cast_interval": 45,
+  "health": 504.0,
+  "manifestation": "jojorpg:tower_of_gray",
+  "name": {
+    "fallback": "Gray Fly",
+    "translate": "npc.jojorpg.gray_fly"
+  },
+  "power": 1.9,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

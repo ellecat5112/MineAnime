@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t14",
+    "jojorpg:jotaro_kujo_ally_t14"
+  ],
+  "arc": {
+    "fallback": "The Gatekeeper of Hell, Pet Shop",
+    "translate": "quest.jojorpg.arc.the_gatekeeper_of_hell_pet_shop"
+  },
+  "description": {
+    "fallback": "Iggy stares at the Stand-using falcon, Pet Shop, realizing he has stumbled upon the hideout of DIO. Pet Shop lands close to Iggy, analyzing whether or not the dog is of any threat to its master. Being forced into this journey, Iggy has no care for stopping DIO and therefore has no intention of dying fighting this bird.",
+    "translate": "quest.jojorpg.stardust_crusaders_223.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Iggy stares at the Stand-using falcon, Pet Shop, realizing he has stumbled upon the hideout of DIO.",
+      "translate": "quest.jojorpg.stardust_crusaders_223.intro0"
+    },
+    {
+      "fallback": "Pet Shop lands close to Iggy, analyzing whether or not the dog is of any threat to its master.",
+      "translate": "quest.jojorpg.stardust_crusaders_223.intro1"
+    },
+    {
+      "fallback": "Being forced into this journey, Iggy has no care for stopping DIO and therefore has no intention of dying fighting this bird.",
+      "translate": "quest.jojorpg.stardust_crusaders_223.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "223. The Gatekeeper of Hell, Pet Shop, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_223"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_223.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: The Gatekeeper of Hell, Pet Shop, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_223.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:pet_shop_foe_t14",
+      "text": {
+        "fallback": "Defeat Pet Shop",
+        "translate": "quest.jojorpg.defeat.pet_shop_foe_t14"
+      }
+    }
+  ],
+  "order": 302230,
+  "outro": [
+    {
+      "fallback": "Pet Shop tries to attack the kid, but Iggy tackles the bird mid-flight.",
+      "translate": "quest.jojorpg.stardust_crusaders_223.outro0"
+    },
+    {
+      "fallback": "Despite having nothing to do with the situation, Iggy felt it was his duty to protect a kid who loved dogs.",
+      "translate": "quest.jojorpg.stardust_crusaders_223.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_222"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

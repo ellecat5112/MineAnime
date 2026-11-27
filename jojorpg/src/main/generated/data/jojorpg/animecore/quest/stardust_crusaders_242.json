@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t15"
+  ],
+  "arc": {
+    "fallback": "The Miasma of the Void, Vanilla Ice",
+    "translate": "quest.jojorpg.arc.the_miasma_of_the_void_vanilla_ice"
+  },
+  "description": {
+    "fallback": "By creating a sand double of DIO, Iggy's The Fool is able to perform a sneak attack on Vanilla Ice. However, Vanilla Ice isn't tricked so easily and destroys the sand double. Vanilla Ice goes for Iggy, but instead of erasing him Vanilla Ice punches the small dog.",
+    "translate": "quest.jojorpg.stardust_crusaders_242.desc"
+  },
+  "giver": "jojorpg:jean_pierre_polnareff",
+  "intro": [
+    {
+      "fallback": "By creating a sand double of DIO, Iggy's The Fool is able to perform a sneak attack on Vanilla Ice.",
+      "translate": "quest.jojorpg.stardust_crusaders_242.intro0"
+    },
+    {
+      "fallback": "However, Vanilla Ice isn't tricked so easily and destroys the sand double.",
+      "translate": "quest.jojorpg.stardust_crusaders_242.intro1"
+    },
+    {
+      "fallback": "Vanilla Ice goes for Iggy, but instead of erasing him Vanilla Ice punches the small dog.",
+      "translate": "quest.jojorpg.stardust_crusaders_242.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "242. The Miasma of the Void, Vanilla Ice, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_242"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jean_pierre_polnareff",
+      "text": {
+        "fallback": "Talk to Jean Pierre Polnareff",
+        "translate": "quest.jojorpg.stardust_crusaders_242.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: The Miasma of the Void, Vanilla Ice, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_242.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:vanilla_ice_foe_t15",
+      "text": {
+        "fallback": "Defeat Vanilla Ice",
+        "translate": "quest.jojorpg.defeat.vanilla_ice_foe_t15"
+      }
+    }
+  ],
+  "order": 302420,
+  "outro": [
+    {
+      "fallback": "At that moment Silver Chariot stabs Vanilla Ice through the mouth.",
+      "translate": "quest.jojorpg.stardust_crusaders_242.outro0"
+    },
+    {
+      "fallback": "However Cream grabs Chariot's throat, unaware to Polnareff that Ice is now a vampire.",
+      "translate": "quest.jojorpg.stardust_crusaders_242.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_241"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

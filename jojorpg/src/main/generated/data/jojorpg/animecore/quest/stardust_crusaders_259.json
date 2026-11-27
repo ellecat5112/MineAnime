@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Unable to deflect all of the numerous knives DIO threw during time stop, Jotaro is impaled all across his chest and in his head, but unbeknownst to DIO, Jotaro had taken the opportunity in the store to stuff his clothes and cap full of magazines, providing enough cushion to ensure the blades didn't pierce deep enough to kill him. Jotaro lays still in order to draw in DIO, who appears to believe in Jotaro's death…",
+    "translate": "quest.jojorpg.stardust_crusaders_259.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "Unable to deflect all of the numerous knives DIO threw during time stop, Jotaro is impaled all across his chest and in his head, but unbeknownst to DIO, Jotaro had taken the opportunity in the store to stuff his…",
+      "translate": "quest.jojorpg.stardust_crusaders_259.intro0"
+    },
+    {
+      "fallback": "Jotaro lays still in order to draw in DIO, who appears to believe in Jotaro's death but remains cautious, a lesson he learned during his confrontations against Jonathan in the past.",
+      "translate": "quest.jojorpg.stardust_crusaders_259.intro1"
+    },
+    {
+      "fallback": "In order to avoid Jotaro's immediate range, he grabs a sign and approaches, intending to sever Jotaro's head as proof of his demise.",
+      "translate": "quest.jojorpg.stardust_crusaders_259.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "259. DIO's World, Part 13",
+    "translate": "quest.jojorpg.stardust_crusaders_259"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_259.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 13",
+        "translate": "quest.jojorpg.stardust_crusaders_259.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302590,
+  "outro": [
+    {
+      "fallback": "This is interrupted by the sudden intervention of Polnareff, who rushes in and manages to pierce DIO through the head with his Silver Chariot.",
+      "translate": "quest.jojorpg.stardust_crusaders_259.outro0"
+    },
+    {
+      "fallback": "Although the surprise attack succeeds, DIO's vampire physiology renders the stab useless and he proceeds to strike down Polnareff through the use of The World.",
+      "translate": "quest.jojorpg.stardust_crusaders_259.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_258"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

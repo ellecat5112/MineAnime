@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13",
+    "jojorpg:jotaro_kujo_ally_t13"
+  ],
+  "arc": {
+    "fallback": "High Priestess",
+    "translate": "quest.jojorpg.arc.high_priestess"
+  },
+  "description": {
+    "fallback": "As the group dons their scuba gear Joseph teaches them the basics of diving. He explains that they must not panic, and that they must slowly rise to the surface, explaining that if they rise too quickly their lungs and blood vessels will burst. Joseph then tells them they'll have to use hand signals because they can't talk underwater which prompts Avdol to remind him they can talk with their Stands.",
+    "translate": "quest.jojorpg.stardust_crusaders_181.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "As the group dons their scuba gear Joseph teaches them the basics of diving.",
+      "translate": "quest.jojorpg.stardust_crusaders_181.intro0"
+    },
+    {
+      "fallback": "He explains that they must not panic, and that they must slowly rise to the surface, explaining that if they rise too quickly their lungs and blood vessels will burst.",
+      "translate": "quest.jojorpg.stardust_crusaders_181.intro1"
+    },
+    {
+      "fallback": "Joseph then tells them they'll have to use hand signals because they can't talk underwater which prompts Avdol to remind him they can talk with their Stands.",
+      "translate": "quest.jojorpg.stardust_crusaders_181.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "181. High Priestess, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_181"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_181.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: High Priestess, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_181.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:midler_foe_t13",
+      "text": {
+        "fallback": "Defeat Midler",
+        "translate": "quest.jojorpg.defeat.midler_foe_t13"
+      }
+    }
+  ],
+  "order": 301810,
+  "outro": [
+    {
+      "fallback": "The group swims up along the coastal floor and spots a pair of sea tunnels.",
+      "translate": "quest.jojorpg.stardust_crusaders_181.outro0"
+    },
+    {
+      "fallback": "They swim towards the tunnels, however these aren't tunnels but the giant nostrils of High Priestess embedded in the sea floor.",
+      "translate": "quest.jojorpg.stardust_crusaders_181.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_180"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t10",
+    "jojorpg:muhammad_avdol_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Noriaki Kakyoin",
+    "translate": "quest.jojorpg.arc.noriaki_kakyoin"
+  },
+  "description": {
+    "fallback": "While doing the laundry, Holy says that it feels like her son is nearby as if Jotaro is thinking about her at school. Just then, she is startled when Jotaro walks behind her with Kakyoin on his back. He asks where his grandfather is, and Holy says he's in the tea room.",
+    "translate": "quest.jojorpg.stardust_crusaders_120.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "While doing the laundry, Holy says that it feels like her son is nearby as if Jotaro is thinking about her at school.",
+      "translate": "quest.jojorpg.stardust_crusaders_120.intro0"
+    },
+    {
+      "fallback": "Just then, she is startled when Jotaro walks behind her with Kakyoin on his back.",
+      "translate": "quest.jojorpg.stardust_crusaders_120.intro1"
+    },
+    {
+      "fallback": "He asks where his grandfather is, and Holy says he's in the tea room.",
+      "translate": "quest.jojorpg.stardust_crusaders_120.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "120. Noriaki Kakyoin, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_120"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_120.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Noriaki Kakyoin, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_120.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:noriaki_kakyoin_flesh_bud",
+      "text": {
+        "fallback": "Defeat Noriaki Kakyoin",
+        "translate": "quest.jojorpg.defeat.noriaki_kakyoin_flesh_bud"
+      }
+    }
+  ],
+  "order": 301200,
+  "outro": [
+    {
+      "fallback": "Jotaro manages to remove it in the nick of time and Joseph destroys it with his Ripple.",
+      "translate": "quest.jojorpg.stardust_crusaders_120.outro0"
+    },
+    {
+      "fallback": "When Kakyoin regains consciousness and asks Jotaro why he risked his life for him, Jotaro says that he doesn't know why himself.",
+      "translate": "quest.jojorpg.stardust_crusaders_120.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_119"
+  ],
+  "rewards": {
+    "experience": 50,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

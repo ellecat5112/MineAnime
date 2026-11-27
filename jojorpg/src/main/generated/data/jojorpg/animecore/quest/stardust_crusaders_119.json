@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Noriaki Kakyoin",
+    "translate": "quest.jojorpg.arc.noriaki_kakyoin"
+  },
+  "description": {
+    "fallback": "Jotaro's Stand successfully pulls out Kakyoin's Stand, Hierophant Green, from the nurse's mouth. It is a Stand made up of viscous, stringy matter. Kakyoin attacks with Emerald Splash, a technique where Hierophant Green shoots liquid energy in the form of sizable emeralds from its hands.",
+    "translate": "quest.jojorpg.stardust_crusaders_119.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro's Stand successfully pulls out Kakyoin's Stand, Hierophant Green, from the nurse's mouth.",
+      "translate": "quest.jojorpg.stardust_crusaders_119.intro0"
+    },
+    {
+      "fallback": "It is a Stand made up of viscous, stringy matter.",
+      "translate": "quest.jojorpg.stardust_crusaders_119.intro1"
+    },
+    {
+      "fallback": "Kakyoin attacks with Emerald Splash, a technique where Hierophant Green shoots liquid energy in the form of sizable emeralds from its hands.",
+      "translate": "quest.jojorpg.stardust_crusaders_119.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "119. Noriaki Kakyoin, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_119"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_119.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Noriaki Kakyoin, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_119.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:noriaki_kakyoin_flesh_bud",
+      "text": {
+        "fallback": "Defeat Noriaki Kakyoin",
+        "translate": "quest.jojorpg.defeat.noriaki_kakyoin_flesh_bud"
+      }
+    }
+  ],
+  "order": 301190,
+  "outro": [
+    {
+      "fallback": "The infirmary and the floors above are devastated by the aftermath, and Kakyoin falls unconscious from his injuries.",
+      "translate": "quest.jojorpg.stardust_crusaders_119.outro0"
+    },
+    {
+      "fallback": "Before anyone from the school can find out what happened, Jotaro picks up Kakyoin and leaves for home, intending to make him talk about DIO.",
+      "translate": "quest.jojorpg.stardust_crusaders_119.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_118"
+  ],
+  "rewards": {
+    "experience": 50,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

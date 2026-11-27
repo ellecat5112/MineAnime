@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "\"The Fool\" Iggy and \"Geb\" N'Doul",
+    "translate": "quest.jojorpg.arc.the_fool_iggy_and_geb_ndoul"
+  },
+  "description": {
+    "fallback": "After losing track of Jotaro, N'Doul starts to panic, unknowing that his enemy is standing right behind him. After noticing the frightened sounds coming from Iggy, N'Doul surrounds himself with Geb, deducing that Jotaro is nearby. The two prepare for their standoff, and with their Stands suddenly attack one another.",
+    "translate": "quest.jojorpg.stardust_crusaders_188.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After losing track of Jotaro, N'Doul starts to panic, unknowing that his enemy is standing right behind him.",
+      "translate": "quest.jojorpg.stardust_crusaders_188.intro0"
+    },
+    {
+      "fallback": "After noticing the frightened sounds coming from Iggy, N'Doul surrounds himself with Geb, deducing that Jotaro is nearby.",
+      "translate": "quest.jojorpg.stardust_crusaders_188.intro1"
+    },
+    {
+      "fallback": "The two prepare for their standoff, and with their Stands suddenly attack one another.",
+      "translate": "quest.jojorpg.stardust_crusaders_188.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "188. \"The Fool\" Iggy and \"Geb\" N'Doul, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_188"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_188.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 55,
+      "text": {
+        "fallback": "Go: \"The Fool\" Iggy and \"Geb\" N'Doul, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_188.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:agent_t13",
+      "text": {
+        "fallback": "Defeat DIO's agents",
+        "translate": "quest.jojorpg.minion.agent"
+      }
+    }
+  ],
+  "order": 301880,
+  "outro": [
+    {
+      "fallback": "As he does this Iggy angrily walks away, returning with Jotaro's hat in his mouth.",
+      "translate": "quest.jojorpg.stardust_crusaders_188.outro0"
+    },
+    {
+      "fallback": "The dog returns the hat that was knocked off during the fight, along with a little present stuck to the rim.",
+      "translate": "quest.jojorpg.stardust_crusaders_188.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_187"
+  ],
+  "rewards": {
+    "experience": 59,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_geb"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 13
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

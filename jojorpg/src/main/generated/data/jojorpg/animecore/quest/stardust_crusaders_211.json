@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t14",
+    "jojorpg:jotaro_kujo_ally_t14"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Gambler",
+    "translate": "quest.jojorpg.arc.darby_the_gambler"
+  },
+  "description": {
+    "fallback": "The Joestar group has finally reached Cairo; their journey to defeat DIO and save Holy will soon come to a close. However, DIO has moved his base of operations within the city to evade detection by the Speedwagon Foundation, and the heroes must now locate his current hideout. The group finds themselves at a bar at the outskirts of the city, asking the patrons if they have seen the mansion within a photo taken by…",
+    "translate": "quest.jojorpg.stardust_crusaders_211.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Joestar group has finally reached Cairo; their journey to defeat DIO and save Holy will soon come to a close.",
+      "translate": "quest.jojorpg.stardust_crusaders_211.intro0"
+    },
+    {
+      "fallback": "However, DIO has moved his base of operations within the city to evade detection by the Speedwagon Foundation, and the heroes must now locate his current hideout.",
+      "translate": "quest.jojorpg.stardust_crusaders_211.intro1"
+    },
+    {
+      "fallback": "The group finds themselves at a bar at the outskirts of the city, asking the patrons if they have seen the mansion within a photo taken by Hermit Purple.",
+      "translate": "quest.jojorpg.stardust_crusaders_211.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "211. D'Arby the Gambler, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_211"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_211.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: D'Arby the Gambler, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_211.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:daniel_j_darby_foe_t14",
+      "text": {
+        "fallback": "Defeat Daniel J. D'Arby",
+        "translate": "quest.jojorpg.defeat.daniel_j_darby_foe_t14"
+      }
+    }
+  ],
+  "order": 302110,
+  "outro": [
+    {
+      "fallback": "The cat takes the left, causing Polnareff to lose.",
+      "translate": "quest.jojorpg.stardust_crusaders_211.outro0"
+    },
+    {
+      "fallback": "As upon agreement, D'Arby uses his Osiris to take Polnareff's soul.",
+      "translate": "quest.jojorpg.stardust_crusaders_211.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_210"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

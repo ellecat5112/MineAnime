@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:sethan_age_reversal",
+    "jojorpg:sethan_shadow_reflection"
+  ],
+  "appearance": {
+    "accent": 4073251,
+    "hair": 2171169,
+    "hair_style": "bald",
+    "mark": "scar",
+    "outfit": "jacket",
+    "pants": 5125166,
+    "top": 6111287
+  },
+  "attack": 19.4,
+  "cast_interval": 45,
+  "health": 677.0,
+  "manifestation": "jojorpg:sethan",
+  "name": {
+    "fallback": "Alessi",
+    "translate": "npc.jojorpg.alessi"
+  },
+  "power": 2.3,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

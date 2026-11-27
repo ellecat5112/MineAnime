@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Sun",
+    "translate": "quest.jojorpg.arc.sun"
+  },
+  "description": {
+    "fallback": "The Joestar group is confused by this incredible Sun Stand. Joseph says that even in a sauna, staying more than half an hour is dangerous. As the Stand seems to be very powerful, raising the temperature above 70&nbsp;°C, the user should be close by, but they can't see him.",
+    "translate": "quest.jojorpg.stardust_crusaders_167.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The Joestar group is confused by this incredible Sun Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_167.intro0"
+    },
+    {
+      "fallback": "Joseph says that even in a sauna, staying more than half an hour is dangerous.",
+      "translate": "quest.jojorpg.stardust_crusaders_167.intro1"
+    },
+    {
+      "fallback": "As the Stand seems to be very powerful, raising the temperature above 70&nbsp;°C, the user should be close by, but they can't see him.",
+      "translate": "quest.jojorpg.stardust_crusaders_167.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "167. Sun, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_167"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_167.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: Sun, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_167.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:arabia_fats_foe_t12",
+      "text": {
+        "fallback": "Defeat Arabia Fats",
+        "translate": "quest.jojorpg.defeat.arabia_fats_foe_t12"
+      }
+    }
+  ],
+  "order": 301670,
+  "outro": [
+    {
+      "fallback": "Joseph hardly realizes that the fight is already over and that they don't even know the user's name.",
+      "translate": "quest.jojorpg.stardust_crusaders_167.outro0"
+    },
+    {
+      "fallback": "The group departs into the cold desert night.",
+      "translate": "quest.jojorpg.stardust_crusaders_167.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_166"
+  ],
+  "rewards": {
+    "experience": 56,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_sun"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 12
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

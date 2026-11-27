@@ -1,12 +1,14 @@
 {
   "appearance": {
-    "accent": 16771899,
-    "hair": 4073251,
-    "pants": 6111287,
-    "top": 35195
+    "accent": 10586239,
+    "hair": 12434877,
+    "outfit": "jacket",
+    "pants": 5125166,
+    "top": 7162945
   },
   "attack": 0.0,
   "health": 200.0,
+  "manifestation": "jojorpg:hermit_purple",
   "name": {
     "fallback": "Joseph Joestar",
     "translate": "npc.jojorpg.joseph_joestar"

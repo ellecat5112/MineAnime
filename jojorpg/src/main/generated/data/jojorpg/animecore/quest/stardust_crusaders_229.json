@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t15",
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "After being pulled through a hole in the floor of DIO's mansion, Joseph, Kakyoin, and Jotaro stand on a small tropical island with Telence. Joseph tries to interrogate Telence, but he refuses to answer Joseph's questions. The only way to get to DIO is by defeating Telence, so the group decides to attack him all at once.",
+    "translate": "quest.jojorpg.stardust_crusaders_229.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After being pulled through a hole in the floor of DIO's mansion, Joseph, Kakyoin, and Jotaro stand on a small tropical island with Telence.",
+      "translate": "quest.jojorpg.stardust_crusaders_229.intro0"
+    },
+    {
+      "fallback": "Joseph tries to interrogate Telence, but he refuses to answer Joseph's questions.",
+      "translate": "quest.jojorpg.stardust_crusaders_229.intro1"
+    },
+    {
+      "fallback": "The only way to get to DIO is by defeating Telence, so the group decides to attack him all at once.",
+      "translate": "quest.jojorpg.stardust_crusaders_229.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "229. D'Arby the Player, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_229"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_229.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_229.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302290,
+  "outro": [
+    {
+      "fallback": "Telence can now break it at any time, forcing the group to listen to his demands.",
+      "translate": "quest.jojorpg.stardust_crusaders_229.outro0"
+    },
+    {
+      "fallback": "Like his brother, Telence loves to gamble and so the group will have to gamble their souls over video games.",
+      "translate": "quest.jojorpg.stardust_crusaders_229.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_228"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

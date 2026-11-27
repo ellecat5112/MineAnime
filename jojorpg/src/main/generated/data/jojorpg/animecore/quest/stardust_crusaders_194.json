@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "Anubis",
+    "translate": "quest.jojorpg.arc.anubis"
+  },
+  "description": {
+    "fallback": "While in Kom Ombo, Polnareff gets separated from the rest of the group. He walks to a temple as he looks for his friends and notices someone following him in plain sight. Polnareff commends him for his bravery in attacking him directly.",
+    "translate": "quest.jojorpg.stardust_crusaders_194.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "While in Kom Ombo, Polnareff gets separated from the rest of the group.",
+      "translate": "quest.jojorpg.stardust_crusaders_194.intro0"
+    },
+    {
+      "fallback": "He walks to a temple as he looks for his friends and notices someone following him in plain sight.",
+      "translate": "quest.jojorpg.stardust_crusaders_194.intro1"
+    },
+    {
+      "fallback": "Polnareff commends him for his bravery in attacking him directly.",
+      "translate": "quest.jojorpg.stardust_crusaders_194.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "194. Anubis, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_194"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_194.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: Anubis, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_194.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:chaka_foe_t13",
+      "text": {
+        "fallback": "Defeat Chaka",
+        "translate": "quest.jojorpg.defeat.chaka_foe_t13"
+      }
+    }
+  ],
+  "order": 301940,
+  "outro": [
+    {
+      "fallback": "Polnareff notices the sword, now sheathed, lying next to Chaka.",
+      "translate": "quest.jojorpg.stardust_crusaders_194.outro0"
+    },
+    {
+      "fallback": "He picks it up and begins to unsheathe it.",
+      "translate": "quest.jojorpg.stardust_crusaders_194.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_193"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

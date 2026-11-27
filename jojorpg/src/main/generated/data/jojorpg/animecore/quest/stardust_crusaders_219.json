@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t14",
+    "jojorpg:muhammad_avdol_ally_t14"
+  ],
+  "arc": {
+    "fallback": "Hol Horse and Boingo",
+    "translate": "quest.jojorpg.arc.hol_horse_and_boingo"
+  },
+  "description": {
+    "fallback": "Following Tohth's prediction, Hol Horse sticks his fingers up Polnareff's nose. According to the prediction, the Joestar group should all pass out, but Hol Horse does not know what to do until then. Polnareff tries to attack, but Hol Horse holds Emperor to his head and hides behind him as the rest of the group approaches.",
+    "translate": "quest.jojorpg.stardust_crusaders_219.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Following Tohth's prediction, Hol Horse sticks his fingers up Polnareff's nose.",
+      "translate": "quest.jojorpg.stardust_crusaders_219.intro0"
+    },
+    {
+      "fallback": "According to the prediction, the Joestar group should all pass out, but Hol Horse does not know what to do until then.",
+      "translate": "quest.jojorpg.stardust_crusaders_219.intro1"
+    },
+    {
+      "fallback": "Polnareff tries to attack, but Hol Horse holds Emperor to his head and hides behind him as the rest of the group approaches.",
+      "translate": "quest.jojorpg.stardust_crusaders_219.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "219. Hol Horse and Boingo, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_219"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_219.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Hol Horse and Boingo, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_219.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t14",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t14"
+      }
+    }
+  ],
+  "order": 302190,
+  "outro": [
+    {
+      "fallback": "This causes a speeding truck to lose control.",
+      "translate": "quest.jojorpg.stardust_crusaders_219.outro0"
+    },
+    {
+      "fallback": "The truck hits the group, causing them all to pass out.",
+      "translate": "quest.jojorpg.stardust_crusaders_219.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_218"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

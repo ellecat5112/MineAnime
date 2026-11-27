@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t15",
+    "jojorpg:noriaki_kakyoin_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "Within the entrance of DIO's mansion stands Telence T. D'Arby, the younger brother of D'Arby the Gambler. He states that he is far superior to his brother and will accept any challenger.",
+    "translate": "quest.jojorpg.stardust_crusaders_228.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Within the entrance of DIO's mansion stands Telence T.",
+      "translate": "quest.jojorpg.stardust_crusaders_228.intro0"
+    },
+    {
+      "fallback": "D'Arby, the younger brother of D'Arby the Gambler.",
+      "translate": "quest.jojorpg.stardust_crusaders_228.intro1"
+    },
+    {
+      "fallback": "He states that he is far superior to his brother and will accept any challenger.",
+      "translate": "quest.jojorpg.stardust_crusaders_228.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "228. D'Arby the Player, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_228"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_228.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_228.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302280,
+  "outro": [
+    {
+      "fallback": "Jotaro, Kakyoin, and Joseph appear on an island with Telence.",
+      "translate": "quest.jojorpg.stardust_crusaders_228.outro0"
+    },
+    {
+      "fallback": "Jotaro warns the others that Telence can somehow predict Jotaro's movements and that they will have to figure out how if they want to win.",
+      "translate": "quest.jojorpg.stardust_crusaders_228.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_227"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

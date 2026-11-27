@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t11",
+    "jojorpg:noriaki_kakyoin_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Emperor and Hanged Man",
+    "translate": "quest.jojorpg.arc.emperor_and_hanged_man"
+  },
+  "description": {
+    "fallback": "Even though Polnareff just saw Hol Horse and J. Geil approaching him, J. Geil suddenly vanishes from his view.",
+    "translate": "quest.jojorpg.stardust_crusaders_142.desc"
+  },
+  "giver": "jojorpg:muhammad_avdol",
+  "intro": [
+    {
+      "fallback": "Even though Polnareff just saw Hol Horse and J.",
+      "translate": "quest.jojorpg.stardust_crusaders_142.intro0"
+    },
+    {
+      "fallback": "Geil approaching him, J.",
+      "translate": "quest.jojorpg.stardust_crusaders_142.intro1"
+    },
+    {
+      "fallback": "Geil suddenly vanishes from his view.",
+      "translate": "quest.jojorpg.stardust_crusaders_142.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "142. Emperor and Hanged Man, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_142"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:muhammad_avdol",
+      "text": {
+        "fallback": "Talk to Muhammad Avdol",
+        "translate": "quest.jojorpg.stardust_crusaders_142.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: Emperor and Hanged Man, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_142.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t11",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t11"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:j_geil_foe_t11",
+      "text": {
+        "fallback": "Defeat J. Geil",
+        "translate": "quest.jojorpg.defeat.j_geil_foe_t11"
+      }
+    }
+  ],
+  "order": 301420,
+  "outro": [
+    {
+      "fallback": "As Avdol summons Magician's Red to burn the bullet, he is stabbed by Hanged Man, only seen in the reflection of a puddle behind Avdol, and hit in the head by Emperor's bullet.",
+      "translate": "quest.jojorpg.stardust_crusaders_142.outro0"
+    },
+    {
+      "fallback": "Kakyoin arrives just in time to see Avdol's demise and a crying Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_142.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_141"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

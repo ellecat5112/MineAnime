@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Death Thirteen",
+    "translate": "quest.jojorpg.arc.death_thirteen"
+  },
+  "description": {
+    "fallback": "Kakyoin is back in the same dream he had that morning. In the real world, Kakyoin's sleeping body struggles violently causing Joseph to lose control of the plane. Polnareff, who is in the dream too, tells Kakyoin to relax.",
+    "translate": "quest.jojorpg.stardust_crusaders_169.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Kakyoin is back in the same dream he had that morning.",
+      "translate": "quest.jojorpg.stardust_crusaders_169.intro0"
+    },
+    {
+      "fallback": "In the real world, Kakyoin's sleeping body struggles violently causing Joseph to lose control of the plane.",
+      "translate": "quest.jojorpg.stardust_crusaders_169.intro1"
+    },
+    {
+      "fallback": "Polnareff, who is in the dream too, tells Kakyoin to relax.",
+      "translate": "quest.jojorpg.stardust_crusaders_169.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "169. Death Thirteen, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_169"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_169.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out: Death Thirteen, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_169.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:mannish_boy_foe_t12",
+      "text": {
+        "fallback": "Defeat Mannish Boy",
+        "translate": "quest.jojorpg.defeat.mannish_boy_foe_t12"
+      }
+    }
+  ],
+  "order": 301690,
+  "outro": [
+    {
+      "fallback": "Death Thirteen then approaches his new target, Kakyoin.",
+      "translate": "quest.jojorpg.stardust_crusaders_169.outro0"
+    },
+    {
+      "fallback": "In the waking world, Kakyoin goes into a wild frenzy and hits the plane controls, threatening it to spiral into the ground.",
+      "translate": "quest.jojorpg.stardust_crusaders_169.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_168"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

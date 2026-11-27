@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "jojorpg:star_platinum_ora_ora",
+    "jojorpg:star_platinum_star_finger",
+    "jojorpg:star_platinum_superhuman_lungs",
+    "jojorpg:star_platinum_bullet_catch",
+    "jojorpg:star_platinum_the_world"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 1118481,
+    "headband": 1118481,
+    "outfit": "jacket",
+    "pants": 1710638,
+    "top": 1710638
+  },
+  "attack": 18.0,
+  "health": 256.0,
+  "manifestation": "jojorpg:star_platinum",
+  "name": {
+    "fallback": "Jotaro Kujo",
+    "translate": "npc.jojorpg.jotaro_kujo"
+  },
+  "power": 2.4,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Justice",
+    "translate": "quest.jojorpg.arc.justice"
+  },
+  "description": {
+    "fallback": "Jotaro tells Enya that he is searching for Polnareff. She tells him that Mr. Jotaro just needs to follow her, but, as he turns his back, she grabs her scissors and jumps at him.",
+    "translate": "quest.jojorpg.stardust_crusaders_159.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro tells Enya that he is searching for Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_159.intro0"
+    },
+    {
+      "fallback": "She tells him that Mr.",
+      "translate": "quest.jojorpg.stardust_crusaders_159.intro1"
+    },
+    {
+      "fallback": "Jotaro just needs to follow her, but, as he turns his back, she grabs her scissors and jumps at him.",
+      "translate": "quest.jojorpg.stardust_crusaders_159.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "159. Justice, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_159"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_159.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Justice, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_159.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:puppet_t12",
+      "text": {
+        "fallback": "Defeat Enya's puppets",
+        "translate": "quest.jojorpg.minion.puppet"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:enya_the_hag_foe_t12",
+      "text": {
+        "fallback": "Defeat Enya the Hag",
+        "translate": "quest.jojorpg.defeat.enya_the_hag_foe_t12"
+      }
+    }
+  ],
+  "order": 301590,
+  "outro": [
+    {
+      "fallback": "Joseph just laughs at him.",
+      "translate": "quest.jojorpg.stardust_crusaders_159.outro0"
+    },
+    {
+      "fallback": "As the group leaves the hotel, they notice the entire town has turned into a cemetery.",
+      "translate": "quest.jojorpg.stardust_crusaders_159.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_158"
+  ],
+  "rewards": {
+    "experience": 56,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_justice"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 12
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:strength_ship_manipulation",
+    "jojorpg:strength_iron_crush",
+    "jojorpg:strength_hull_fortress"
+  ],
+  "appearance": {
+    "accent": 12531212,
+    "hair": 12531212,
+    "hair_style": "wild",
+    "outfit": "bodysuit",
+    "pants": 15094016,
+    "skin": 15094016,
+    "top": 15094016
+  },
+  "attack": 15.9,
+  "cast_interval": 45,
+  "health": 547.0,
+  "manifestation": "jojorpg:strength",
+  "name": {
+    "fallback": "Forever",
+    "translate": "npc.jojorpg.forever"
+  },
+  "power": 2.0,
+  "role": "boss",
+  "scale": 1.15,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

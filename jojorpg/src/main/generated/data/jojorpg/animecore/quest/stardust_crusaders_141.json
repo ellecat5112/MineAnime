@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t11",
+    "jojorpg:jotaro_kujo_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Emperor and Hanged Man",
+    "translate": "quest.jojorpg.arc.emperor_and_hanged_man"
+  },
+  "description": {
+    "fallback": "Polnareff decides to separate from the group in order to find his sister's killer. Avdol tries to stop him, sure that separating Polnareff from them is part of a trap. Polnareff accuses him of being a coward for running away from DIO, and a fight almost starts between them.",
+    "translate": "quest.jojorpg.stardust_crusaders_141.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Polnareff decides to separate from the group in order to find his sister's killer.",
+      "translate": "quest.jojorpg.stardust_crusaders_141.intro0"
+    },
+    {
+      "fallback": "Avdol tries to stop him, sure that separating Polnareff from them is part of a trap.",
+      "translate": "quest.jojorpg.stardust_crusaders_141.intro1"
+    },
+    {
+      "fallback": "Polnareff accuses him of being a coward for running away from DIO, and a fight almost starts between them.",
+      "translate": "quest.jojorpg.stardust_crusaders_141.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "141. Emperor and Hanged Man, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_141"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_141.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Emperor and Hanged Man, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_141.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:nena_foe_t11",
+      "text": {
+        "fallback": "Defeat Nena",
+        "translate": "quest.jojorpg.defeat.nena_foe_t11"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t11",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t11"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:j_geil_foe_t11",
+      "text": {
+        "fallback": "Defeat J. Geil",
+        "translate": "quest.jojorpg.defeat.j_geil_foe_t11"
+      }
+    }
+  ],
+  "order": 301410,
+  "outro": [
+    {
+      "fallback": "Combining their Stands Emperor and Hanged Man, the duo completely mutilate the snake.",
+      "translate": "quest.jojorpg.stardust_crusaders_141.outro0"
+    },
+    {
+      "fallback": "Later, as Polnareff searches for a lead, he sees the two Stand users slowly approaching him.",
+      "translate": "quest.jojorpg.stardust_crusaders_141.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_140"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

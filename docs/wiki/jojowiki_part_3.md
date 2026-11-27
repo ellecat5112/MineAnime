@@ -144,3 +144,42 @@ However, it is burdened by the cockiness of its user, F
 - **The World**: (abilities described in prose) - The World is an exceptionally powerful close-range Stand much like Star Platinum as noted by Noriaki Kakyoin and Jotaro Kujo, but boasting an effective manifestation range of approximately 10 meters. Although it lacks an
 - **Yellow Temperance**: Assimilation, Physical Imperviousness, Appearance Replication - Yellow Temperance's blob-like nature and ability to absorb organic matter from physical contact make it one of the few Stands of the series that can be said to be physically invincible.
 On the other side, Yellow Temperan
+
+## Story mode
+
+152 quests - one per chapter of Stardust Crusaders (114-265) - in the 28 story arcs of the wiki, continuing after Battle Tendency. Every Stand user fights with their Stand (it manifests as an entity and casts its abilities); Joestar Group members join your fights with theirs. Chapter 114 gives the Stand Arrow; each arc boss drops their Stand Disc.
+
+| arc | chapters | quests | boss | Stand Disc |
+|---|---|---:|---|---|
+| Jotaro Kujo | 114-117 | 4 | Noriaki Kakyoin | hierophant_green |
+| Noriaki Kakyoin | 118-121 | 4 | Noriaki Kakyoin | hierophant_green |
+| Tower of Gray | 122-123 | 2 | Gray Fly | tower_of_gray |
+| Silver Chariot | 124-126 | 3 | Jean Pierre Polnareff | silver_chariot |
+| Dark Blue Moon | 127-129 | 3 | Imposter Captain Tennille | dark_blue_moon |
+| Strength | 130-132 | 3 | Forever | strength |
+| Devil | 133-135 | 3 | Devo the Cursed | ebony_devil |
+| Yellow Temperance | 136-139 | 4 | Rubber Soul | yellow_temperance |
+| Emperor and Hanged Man | 140-145 | 6 | J. Geil | hanged_man |
+| Empress | 146-149 | 4 | Nena | empress |
+| Wheel of Fortune | 150-153 | 4 | ZZ | wheel_of_fortune |
+| Justice | 154-159 | 6 | Enya the Hag | justice |
+| Lovers | 160-165 | 6 | Steely Dan | lovers |
+| Sun | 166-167 | 2 | Arabia Fats | sun |
+| Death Thirteen | 168-173 | 6 | Mannish Boy | death_thirteen |
+| Judgement | 174-178 | 5 | Cameo | judgement |
+| High Priestess | 179-182 | 4 | Midler | high_priestess |
+| "The Fool" Iggy and "Geb" N'Doul | 183-188 | 6 | N'Doul | geb |
+| "Khnum" Oingo and "Tohth" Boingo | 189-192 | 4 | Oingo | khnum |
+| Anubis | 193-198 | 6 | Chaka | anubis |
+| "Bastet" Mariah | 199-204 | 6 | Mariah | bastet |
+| "Sethan" Alessi | 205-210 | 6 | Alessi | sethan |
+| D'Arby the Gambler | 211-216 | 6 | Daniel J. D'Arby | osiris |
+| Hol Horse and Boingo | 217-221 | 5 | Hol Horse | emperor |
+| The Gatekeeper of Hell, Pet Shop | 222-226 | 5 | Pet Shop | horus |
+| D'Arby the Player | 227-237 | 11 | Telence T. D'Arby | atum |
+| The Miasma of the Void, Vanilla Ice | 238-246 | 9 | Vanilla Ice | cream |
+| DIO's World | 247-265 | 19 | Dio Brando | the_world |
+
+### Story characters (77)
+
+Alessi (boss, sethan), Arabia Fats (boss, sun), Boingo (enemy, tohth), Cameo (boss, judgement), Chaka (boss, anubis), DIO's Agent (enemy), Daniel J. D'Arby (boss, osiris), Devo the Cursed (boss, ebony_devil), Dio Brando (boss, the_world), Enya the Hag (boss, justice), Enya's Puppet (enemy), Forever (boss, strength), Gray Fly (boss, tower_of_gray), Hol Horse (enemy, emperor), Holy Kujo (giver, holys_stand), Iggy (ally, the_fool), Imposter Captain Tennille (boss, dark_blue_moon), J. Geil (boss, hanged_man), Jean Pierre Polnareff (ally, silver_chariot), Jean Pierre Polnareff (boss, silver_chariot), Jean Pierre Polnareff (giver, silver_chariot), Joseph Joestar (giver, hermit_purple), Jotaro Kujo (ally, star_platinum), Jotaro Kujo (giver, star_platinum), Khan (enemy, anubis), Mannish Boy (boss, death_thirteen), Mariah (boss, bastet), Midler (boss, high_priestess), Muhammad Avdol (ally, magicians_red), Muhammad Avdol (giver, magicians_red), N'Doul (boss, geb), Nena (enemy, empress), Noriaki Kakyoin (ally, hierophant_green), Noriaki Kakyoin (boss, hierophant_green), Oingo (boss, khnum), Pet Shop (boss, horus), Rubber Soul (boss, yellow_temperance), Steely Dan (boss, lovers), Telence T. D'Arby (boss, atum), Vampire (enemy), Vanilla Ice (boss, cream), ZZ (boss, wheel_of_fortune)

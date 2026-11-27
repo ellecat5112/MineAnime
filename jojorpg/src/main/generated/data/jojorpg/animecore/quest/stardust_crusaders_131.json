@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jean_pierre_polnareff_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Strength",
+    "translate": "quest.jojorpg.arc.strength"
+  },
+  "description": {
+    "fallback": "Confused as to how many Stand users are present in the ship, the Joestar group splits up to look for any traces of a Stand. The sailors wait on the deck with the runaway girl. The girl approaches the orangutan Forever and seeing it communicate with gestures, offer her a cleanly cut apple and light a match to smoke, is surprised by its intelligence.",
+    "translate": "quest.jojorpg.stardust_crusaders_131.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Confused as to how many Stand users are present in the ship, the Joestar group splits up to look for any traces of a Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_131.intro0"
+    },
+    {
+      "fallback": "The sailors wait on the deck with the runaway girl.",
+      "translate": "quest.jojorpg.stardust_crusaders_131.intro1"
+    },
+    {
+      "fallback": "The girl approaches the orangutan Forever and seeing it communicate with gestures, offer her a cleanly cut apple and light a match to smoke, is surprised by its intelligence.",
+      "translate": "quest.jojorpg.stardust_crusaders_131.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "131. Strength, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_131"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_131.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: Strength, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_131.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:forever_foe_t11",
+      "text": {
+        "fallback": "Defeat Forever",
+        "translate": "quest.jojorpg.defeat.forever_foe_t11"
+      }
+    }
+  ],
+  "order": 301310,
+  "outro": [
+    {
+      "fallback": "After a short battle, Jotaro is suddenly hit by one of the ship's fans, which throws itself at Jotaro.",
+      "translate": "quest.jojorpg.stardust_crusaders_131.outro0"
+    },
+    {
+      "fallback": "Confused, Jotaro wonders where Forever's Stand is hiding and why he can't see it.",
+      "translate": "quest.jojorpg.stardust_crusaders_131.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_130"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t10",
+    "jojorpg:muhammad_avdol_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Noriaki Kakyoin",
+    "translate": "quest.jojorpg.arc.noriaki_kakyoin"
+  },
+  "description": {
+    "fallback": "While Joseph is waking up and Jotaro is about to go to school, Avdol finds Holy unconscious on the kitchen floor. He discovers that, just like Joseph and Jotaro, Holy has developed a Stand. As Holy is a kind and gentle soul without any fighting spirit, the Stand has turned against her, acting like a disease.",
+    "translate": "quest.jojorpg.stardust_crusaders_121.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "While Joseph is waking up and Jotaro is about to go to school, Avdol finds Holy unconscious on the kitchen floor.",
+      "translate": "quest.jojorpg.stardust_crusaders_121.intro0"
+    },
+    {
+      "fallback": "He discovers that, just like Joseph and Jotaro, Holy has developed a Stand.",
+      "translate": "quest.jojorpg.stardust_crusaders_121.intro1"
+    },
+    {
+      "fallback": "As Holy is a kind and gentle soul without any fighting spirit, the Stand has turned against her, acting like a disease.",
+      "translate": "quest.jojorpg.stardust_crusaders_121.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "121. The Power Called a \"Stand\"",
+    "translate": "quest.jojorpg.stardust_crusaders_121"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_121.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Head out: The Power Called a \"Stand\"",
+        "translate": "quest.jojorpg.stardust_crusaders_121.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:noriaki_kakyoin_flesh_bud",
+      "text": {
+        "fallback": "Defeat Noriaki Kakyoin",
+        "translate": "quest.jojorpg.defeat.noriaki_kakyoin_flesh_bud"
+      }
+    }
+  ],
+  "order": 301210,
+  "outro": [
+    {
+      "fallback": "When Jotaro asks him why, Kakyoin first answers that he doesn't know himself, then that it's only because Jotaro saved his life.",
+      "translate": "quest.jojorpg.stardust_crusaders_121.outro0"
+    },
+    {
+      "fallback": "Avdol gives the name \"Star Platinum\" to Jotaro's Stand, according to the tarot card he pulled, the Star.",
+      "translate": "quest.jojorpg.stardust_crusaders_121.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_120"
+  ],
+  "rewards": {
+    "experience": 50,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_hierophant_green"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t12",
+    "jojorpg:noriaki_kakyoin_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Lovers",
+    "translate": "quest.jojorpg.arc.lovers"
+  },
+  "description": {
+    "fallback": "Lovers tries to escape from Joseph's brain, planning to return to Steely Dan and Jotaro. Steely Dan buys time by begging Jotaro and licking his boots, but, as Lovers is about to enter Jotaro's ear, Star Platinum catches it between two fingers. Crushing it to the point where Steely Dan's arms and legs break, Jotaro seems to think that this enemy doesn't represent a threat anymore, starting to turn his back and walk…",
+    "translate": "quest.jojorpg.stardust_crusaders_165.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Lovers tries to escape from Joseph's brain, planning to return to Steely Dan and Jotaro.",
+      "translate": "quest.jojorpg.stardust_crusaders_165.intro0"
+    },
+    {
+      "fallback": "Steely Dan buys time by begging Jotaro and licking his boots, but, as Lovers is about to enter Jotaro's ear, Star Platinum catches it between two fingers.",
+      "translate": "quest.jojorpg.stardust_crusaders_165.intro1"
+    },
+    {
+      "fallback": "Crushing it to the point where Steely Dan's arms and legs break, Jotaro seems to think that this enemy doesn't represent a threat anymore, starting to turn his back and walk away, releasing the little Stand as he…",
+      "translate": "quest.jojorpg.stardust_crusaders_165.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "165. Lovers, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_165"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_165.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Lovers, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_165.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:steely_dan_foe_t12",
+      "text": {
+        "fallback": "Defeat Steely Dan",
+        "translate": "quest.jojorpg.defeat.steely_dan_foe_t12"
+      }
+    }
+  ],
+  "order": 301650,
+  "outro": [
+    {
+      "fallback": "Jotaro gives Steely Dan the lesson of his life: Star Platinum brutally pummeling him for three pages and sending him through a wall.",
+      "translate": "quest.jojorpg.stardust_crusaders_165.outro0"
+    },
+    {
+      "fallback": "Afterward, Jotaro gives him \"his receipt\", and walks away.",
+      "translate": "quest.jojorpg.stardust_crusaders_165.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_164"
+  ],
+  "rewards": {
+    "experience": 56,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_lovers"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 12
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

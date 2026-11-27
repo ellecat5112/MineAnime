@@ -1,0 +1,23 @@
+{
+  "appearance": {
+    "accent": 6953882,
+    "hair": 4073251,
+    "hair_style": "wild",
+    "mark": "red_eyes",
+    "outfit": "jacket",
+    "skin": 12364452
+  },
+  "attack": 10.4,
+  "cast_interval": 90,
+  "health": 126.0,
+  "name": {
+    "fallback": "Enya's Puppet",
+    "translate": "npc.jojorpg.enyas_puppet"
+  },
+  "power": 2.0,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

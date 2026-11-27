@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t14",
+    "jojorpg:jotaro_kujo_ally_t14"
+  ],
+  "arc": {
+    "fallback": "Hol Horse and Boingo",
+    "translate": "quest.jojorpg.arc.hol_horse_and_boingo"
+  },
+  "description": {
+    "fallback": "Hol Horse shoots his bullets into the pipe in hopes that they will come out the other end and shoot through Jotaro's head. The Joestar group begins to recover from the car accident. Hol Horse eagerly awaits the death of his greatest enemy, but as the bullets exit the pipe, Polnareff sneezes onto Jotaro.",
+    "translate": "quest.jojorpg.stardust_crusaders_221.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Hol Horse shoots his bullets into the pipe in hopes that they will come out the other end and shoot through Jotaro's head.",
+      "translate": "quest.jojorpg.stardust_crusaders_221.intro0"
+    },
+    {
+      "fallback": "The Joestar group begins to recover from the car accident.",
+      "translate": "quest.jojorpg.stardust_crusaders_221.intro1"
+    },
+    {
+      "fallback": "Hol Horse eagerly awaits the death of his greatest enemy, but as the bullets exit the pipe, Polnareff sneezes onto Jotaro.",
+      "translate": "quest.jojorpg.stardust_crusaders_221.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "221. Hol Horse and Boingo, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_221"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_221.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: Hol Horse and Boingo, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_221.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:boingo_foe_t14",
+      "text": {
+        "fallback": "Defeat Boingo",
+        "translate": "quest.jojorpg.defeat.boingo_foe_t14"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t14",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t14"
+      }
+    }
+  ],
+  "order": 302210,
+  "outro": [
+    {
+      "fallback": "The box lands on a sleeping Iggy, causing the beast to go into an intense rage.",
+      "translate": "quest.jojorpg.stardust_crusaders_221.outro0"
+    },
+    {
+      "fallback": "Boingo joins Hol Horse in the hospital, now more introverted than ever before.",
+      "translate": "quest.jojorpg.stardust_crusaders_221.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_220"
+  ],
+  "rewards": {
+    "experience": 62,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_emperor"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 14
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

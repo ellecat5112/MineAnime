@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t14",
+    "jojorpg:muhammad_avdol_ally_t14"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Gambler",
+    "translate": "quest.jojorpg.arc.darby_the_gambler"
+  },
+  "description": {
+    "fallback": "Due to losing the bet with D'Arby, Polnareff has forsaken his soul to Osiris, the deity of death and resurrection. Osiris grabs Polnareff's soul and presses it into a poker chip. Feeling intense rage, Avdol grabs D'Arby and antagonizes him for cheating.",
+    "translate": "quest.jojorpg.stardust_crusaders_212.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Due to losing the bet with D'Arby, Polnareff has forsaken his soul to Osiris, the deity of death and resurrection.",
+      "translate": "quest.jojorpg.stardust_crusaders_212.intro0"
+    },
+    {
+      "fallback": "Osiris grabs Polnareff's soul and presses it into a poker chip.",
+      "translate": "quest.jojorpg.stardust_crusaders_212.intro1"
+    },
+    {
+      "fallback": "Feeling intense rage, Avdol grabs D'Arby and antagonizes him for cheating.",
+      "translate": "quest.jojorpg.stardust_crusaders_212.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "212. D'Arby the Gambler, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_212"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_212.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: D'Arby the Gambler, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_212.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:daniel_j_darby_foe_t14",
+      "text": {
+        "fallback": "Defeat Daniel J. D'Arby",
+        "translate": "quest.jojorpg.defeat.daniel_j_darby_foe_t14"
+      }
+    }
+  ],
+  "order": 302120,
+  "outro": [
+    {
+      "fallback": "Joseph tells \"Obi\" that it is now his turn, infuriating D'Arby.",
+      "translate": "quest.jojorpg.stardust_crusaders_212.outro0"
+    },
+    {
+      "fallback": "With the added liquor, even inserting one coin will cause the glass to overflow, giving Joseph much confidence.",
+      "translate": "quest.jojorpg.stardust_crusaders_212.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_211"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

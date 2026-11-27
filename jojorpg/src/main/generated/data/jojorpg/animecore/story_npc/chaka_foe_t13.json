@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:anubis_sword_possession",
+    "jojorpg:anubis_learning_blade",
+    "jojorpg:anubis_selective_intangibility"
+  ],
+  "appearance": {
+    "accent": 9268835,
+    "hair": 2171169,
+    "outfit": "robe",
+    "pants": 12364452,
+    "top": 14142664
+  },
+  "attack": 18.2,
+  "cast_interval": 45,
+  "health": 634.0,
+  "manifestation": "jojorpg:anubis",
+  "name": {
+    "fallback": "Chaka",
+    "translate": "npc.jojorpg.chaka"
+  },
+  "power": 2.2,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

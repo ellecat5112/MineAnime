@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t14",
+    "jojorpg:jean_pierre_polnareff_ally_t14"
+  ],
+  "arc": {
+    "fallback": "\"Sethan\" Alessi",
+    "translate": "quest.jojorpg.arc.sethan_alessi"
+  },
+  "description": {
+    "fallback": "In the street lays the injured Alessi, who, after escaping from child Polnareff, has now come face to face with Jotaro. Jotaro states that he finds Alessi's jump through the window to be rather unusual, and wonders if he is the cause for his missing friend. Alessi plays dumb, stating that he merely tripped out of the window while cleaning it.",
+    "translate": "quest.jojorpg.stardust_crusaders_209.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In the street lays the injured Alessi, who, after escaping from child Polnareff, has now come face to face with Jotaro.",
+      "translate": "quest.jojorpg.stardust_crusaders_209.intro0"
+    },
+    {
+      "fallback": "Jotaro states that he finds Alessi's jump through the window to be rather unusual, and wonders if he is the cause for his missing friend.",
+      "translate": "quest.jojorpg.stardust_crusaders_209.intro1"
+    },
+    {
+      "fallback": "Alessi plays dumb, stating that he merely tripped out of the window while cleaning it.",
+      "translate": "quest.jojorpg.stardust_crusaders_209.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "209. \"Sethan\" Alessi, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_209"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_209.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: \"Sethan\" Alessi, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_209.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:alessi_foe_t14",
+      "text": {
+        "fallback": "Defeat Alessi",
+        "translate": "quest.jojorpg.defeat.alessi_foe_t14"
+      }
+    }
+  ],
+  "order": 302090,
+  "outro": [
+    {
+      "fallback": "Malèna notices that Polnareff is wearing the other earring, but Polnareff insists that they never met.",
+      "translate": "quest.jojorpg.stardust_crusaders_209.outro0"
+    },
+    {
+      "fallback": "Polnareff and Jotaro meet up with Avdol and Joseph and the group continues their journey.",
+      "translate": "quest.jojorpg.stardust_crusaders_209.outro1"
+    }
+  ],
+  "recommended_tier": 14,
+  "requires": [
+    "jojorpg:stardust_crusaders_208"
+  ],
+  "rewards": {
+    "experience": 62,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t15",
+    "jojorpg:jean_pierre_polnareff_ally_t15"
+  ],
+  "arc": {
+    "fallback": "The Miasma of the Void, Vanilla Ice",
+    "translate": "quest.jojorpg.arc.the_miasma_of_the_void_vanilla_ice"
+  },
+  "description": {
+    "fallback": "Polnareff figured out Cream's weakness: Vanilla Ice cannot see within the void and must reveal himself to scan the area. Polnareff used this chance to stab Vanilla Ice through the mouth. However thanks to DIO's blood, Vanilla Ice is able to survive the attack.",
+    "translate": "quest.jojorpg.stardust_crusaders_243.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Polnareff figured out Cream's weakness: Vanilla Ice cannot see within the void and must reveal himself to scan the area.",
+      "translate": "quest.jojorpg.stardust_crusaders_243.intro0"
+    },
+    {
+      "fallback": "Polnareff used this chance to stab Vanilla Ice through the mouth.",
+      "translate": "quest.jojorpg.stardust_crusaders_243.intro1"
+    },
+    {
+      "fallback": "However thanks to DIO's blood, Vanilla Ice is able to survive the attack.",
+      "translate": "quest.jojorpg.stardust_crusaders_243.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "243. The Miasma of the Void, Vanilla Ice, Part 6",
+    "translate": "quest.jojorpg.stardust_crusaders_243"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_243.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: The Miasma of the Void, Vanilla Ice, Part 6",
+        "translate": "quest.jojorpg.stardust_crusaders_243.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:vanilla_ice_foe_t15",
+      "text": {
+        "fallback": "Defeat Vanilla Ice",
+        "translate": "quest.jojorpg.defeat.vanilla_ice_foe_t15"
+      }
+    }
+  ],
+  "order": 302430,
+  "outro": [
+    {
+      "fallback": "Each revolution gets closer and closer to Polnareff.",
+      "translate": "quest.jojorpg.stardust_crusaders_243.outro0"
+    },
+    {
+      "fallback": "Polnareff has no way to escape, having no time to dig a hole in the floor.",
+      "translate": "quest.jojorpg.stardust_crusaders_243.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_242"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

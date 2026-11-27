@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:bastet_magnetic_attraction",
+    "jojorpg:bastet_magnetized_debris",
+    "jojorpg:bastet_socket_trap"
+  ],
+  "appearance": {
+    "accent": 10395294,
+    "hair": 14737632,
+    "hair_style": "long",
+    "outfit": "bodysuit",
+    "pants": 2171169,
+    "top": 2171169
+  },
+  "attack": 19.4,
+  "cast_interval": 45,
+  "health": 677.0,
+  "manifestation": "jojorpg:bastet",
+  "name": {
+    "fallback": "Mariah",
+    "translate": "npc.jojorpg.mariah"
+  },
+  "power": 2.3,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

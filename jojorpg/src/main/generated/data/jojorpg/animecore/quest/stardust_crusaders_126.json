@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t10",
+    "jojorpg:jotaro_kujo_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Silver Chariot",
+    "translate": "quest.jojorpg.arc.silver_chariot"
+  },
+  "description": {
+    "fallback": "Jean Pierre Polnareff is hit by Magician's Red's Crossfire Hurricane and is seemingly defeated. Believing the fight to be over, the group starts discussing their journey. Silver Chariot suddenly reappears and takes off its armor, while the French Stand user jumps into the air from his position on the ground.",
+    "translate": "quest.jojorpg.stardust_crusaders_126.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jean Pierre Polnareff is hit by Magician's Red's Crossfire Hurricane and is seemingly defeated.",
+      "translate": "quest.jojorpg.stardust_crusaders_126.intro0"
+    },
+    {
+      "fallback": "Believing the fight to be over, the group starts discussing their journey.",
+      "translate": "quest.jojorpg.stardust_crusaders_126.intro1"
+    },
+    {
+      "fallback": "Silver Chariot suddenly reappears and takes off its armor, while the French Stand user jumps into the air from his position on the ground.",
+      "translate": "quest.jojorpg.stardust_crusaders_126.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "126. Silver Chariot, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_126"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_126.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: Silver Chariot, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_126.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:jean_pierre_polnareff_flesh_bud",
+      "text": {
+        "fallback": "Defeat Jean Pierre Polnareff",
+        "translate": "quest.jojorpg.defeat.jean_pierre_polnareff_flesh_bud"
+      }
+    }
+  ],
+  "order": 301260,
+  "outro": [
+    {
+      "fallback": "Avdol recognizes that Polnareff is a man much better than DIO and finds a bud spore on his head, placed by DIO to control him.",
+      "translate": "quest.jojorpg.stardust_crusaders_126.outro0"
+    },
+    {
+      "fallback": "He asks Jotaro to remove it.",
+      "translate": "quest.jojorpg.stardust_crusaders_126.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:stardust_crusaders_125"
+  ],
+  "rewards": {
+    "experience": 50,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_silver_chariot"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t11",
+    "jojorpg:noriaki_kakyoin_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Emperor and Hanged Man",
+    "translate": "quest.jojorpg.arc.emperor_and_hanged_man"
+  },
+  "description": {
+    "fallback": "In the jeep, Kakyoin and Polnareff discuss how they can defeat Hanged Man and whether a world in the mirror really exists. In the middle of the conversation, Kakyoin notices Hanged Man inside a metal part of the steering wheel. He hits the brakes to avoid the Stand, and the jeep flips over.",
+    "translate": "quest.jojorpg.stardust_crusaders_144.desc"
+  },
+  "giver": "jojorpg:muhammad_avdol",
+  "intro": [
+    {
+      "fallback": "In the jeep, Kakyoin and Polnareff discuss how they can defeat Hanged Man and whether a world in the mirror really exists.",
+      "translate": "quest.jojorpg.stardust_crusaders_144.intro0"
+    },
+    {
+      "fallback": "In the middle of the conversation, Kakyoin notices Hanged Man inside a metal part of the steering wheel.",
+      "translate": "quest.jojorpg.stardust_crusaders_144.intro1"
+    },
+    {
+      "fallback": "He hits the brakes to avoid the Stand, and the jeep flips over.",
+      "translate": "quest.jojorpg.stardust_crusaders_144.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "144. Emperor and Hanged Man, Part 5",
+    "translate": "quest.jojorpg.stardust_crusaders_144"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:muhammad_avdol",
+      "text": {
+        "fallback": "Talk to Muhammad Avdol",
+        "translate": "quest.jojorpg.stardust_crusaders_144.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: Emperor and Hanged Man, Part 5",
+        "translate": "quest.jojorpg.stardust_crusaders_144.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:j_geil_foe_t11",
+      "text": {
+        "fallback": "Defeat J. Geil",
+        "translate": "quest.jojorpg.defeat.j_geil_foe_t11"
+      }
+    }
+  ],
+  "order": 301440,
+  "outro": [
+    {
+      "fallback": "Since he can now predict Hanged Man's trajectory, Polnareff easily cuts the Stand before it manages to enter his eye.",
+      "translate": "quest.jojorpg.stardust_crusaders_144.outro0"
+    },
+    {
+      "fallback": "Geil screaming at a distance and swear to avenge both Avdol and Chérie.",
+      "translate": "quest.jojorpg.stardust_crusaders_144.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_143"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

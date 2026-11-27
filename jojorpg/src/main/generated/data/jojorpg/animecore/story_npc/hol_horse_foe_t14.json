@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:emperor_homing_bullets",
+    "jojorpg:emperor_point_blank_summon",
+    "jojorpg:emperor_rapid_fire"
+  ],
+  "appearance": {
+    "accent": 4073251,
+    "hair": 6111287,
+    "hair_style": "long",
+    "headband": 6111287,
+    "outfit": "jacket",
+    "pants": 6111287,
+    "top": 9268835
+  },
+  "attack": 15.6,
+  "cast_interval": 70,
+  "health": 282.0,
+  "manifestation": "jojorpg:emperor",
+  "name": {
+    "fallback": "Hol Horse",
+    "translate": "npc.jojorpg.hol_horse"
+  },
+  "power": 2.3,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

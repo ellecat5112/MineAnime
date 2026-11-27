@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t13",
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "High Priestess",
+    "translate": "quest.jojorpg.arc.high_priestess"
+  },
+  "description": {
+    "fallback": "Within the submarine, the group cautiously stand away from the enemy Stand hiding among the submarine's gauges. Joseph remains unconscious from the Stand's attack. Avdol reveals that the Stand is High Priestess used by Midler, and is a long range Stand that can turn into anything as long as it's made of a mineral.",
+    "translate": "quest.jojorpg.stardust_crusaders_180.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Within the submarine, the group cautiously stand away from the enemy Stand hiding among the submarine's gauges.",
+      "translate": "quest.jojorpg.stardust_crusaders_180.intro0"
+    },
+    {
+      "fallback": "Joseph remains unconscious from the Stand's attack.",
+      "translate": "quest.jojorpg.stardust_crusaders_180.intro1"
+    },
+    {
+      "fallback": "Avdol reveals that the Stand is High Priestess used by Midler, and is a long range Stand that can turn into anything as long as it's made of a mineral.",
+      "translate": "quest.jojorpg.stardust_crusaders_180.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "180. High Priestess, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_180"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_180.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: High Priestess, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_180.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:midler_foe_t13",
+      "text": {
+        "fallback": "Defeat Midler",
+        "translate": "quest.jojorpg.defeat.midler_foe_t13"
+      }
+    }
+  ],
+  "order": 301800,
+  "outro": [
+    {
+      "fallback": "The group flees to the other end of the submarine, while Jotaro proclaims that he will personally destroy the enemy.",
+      "translate": "quest.jojorpg.stardust_crusaders_180.outro0"
+    },
+    {
+      "fallback": "Avdol explains that they have to escape from the submarine, and the group begins equipping scuba gear.",
+      "translate": "quest.jojorpg.stardust_crusaders_180.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_179"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

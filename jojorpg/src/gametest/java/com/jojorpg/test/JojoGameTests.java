@@ -86,7 +86,7 @@ public final class JojoGameTests implements FabricGameTest {
         var quests = rm.get(AnimeRegistries.QUEST);
         var npcs = rm.get(AnimeRegistries.STORY_NPC);
         long jojoQuests = quests.getIds().stream().filter(i -> i.getNamespace().equals(JojoRPG.MOD_ID)).count();
-        ctx.assertTrue(jojoQuests == 113, jojoQuests + " quests, expected one per chapter of Parts 1-2 (113)");
+        ctx.assertTrue(jojoQuests == 113 + 152, jojoQuests + " quests, expected one per chapter of Parts 1-3 (265)");
         int roots = 0;
         for (var e : quests.getEntrySet()) {
             if (!e.getKey().getValue().getNamespace().equals(JojoRPG.MOD_ID)) continue;

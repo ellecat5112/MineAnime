@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jean_pierre_polnareff_ally_t15",
+    "jojorpg:jotaro_kujo_ally_t15"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "DIO retreats into the darkness of his mansion moving up the levels as the crusaders burst through the wall, letting sunlight fill the lower part of the room. Before following him Polnareff explains that while he has experienced what he assumes to be the power of DIO's Stand, he does not understand its exact nature. The conversation concludes with Joseph, Jotaro and Kakyoin learning of Iggy and Avdol's demise and…",
+    "translate": "quest.jojorpg.stardust_crusaders_249.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "DIO retreats into the darkness of his mansion moving up the levels as the crusaders burst through the wall, letting sunlight fill the lower part of the room.",
+      "translate": "quest.jojorpg.stardust_crusaders_249.intro0"
+    },
+    {
+      "fallback": "Before following him Polnareff explains that while he has experienced what he assumes to be the power of DIO's Stand, he does not understand its exact nature.",
+      "translate": "quest.jojorpg.stardust_crusaders_249.intro1"
+    },
+    {
+      "fallback": "The conversation concludes with Joseph, Jotaro and Kakyoin learning of Iggy and Avdol's demise and the group share a moment of mourning before remarking that they are quickly losing their advantage as the sun sets.",
+      "translate": "quest.jojorpg.stardust_crusaders_249.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "249. DIO's World, Part 3",
+    "translate": "quest.jojorpg.stardust_crusaders_249"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_249.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 3",
+        "translate": "quest.jojorpg.stardust_crusaders_249.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t15",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t15"
+      }
+    }
+  ],
+  "order": 302490,
+  "outro": [
+    {
+      "fallback": "There they find a coffin presumably housing DIO and force Nukesaku to open it.",
+      "translate": "quest.jojorpg.stardust_crusaders_249.outro0"
+    },
+    {
+      "fallback": "They are shocked to find the impossible; as Nukesaku pulls the casket lid off within lies a segmented Nukesaku, who even remarks how surprised he is to find the one in the coffin was in fact him.",
+      "translate": "quest.jojorpg.stardust_crusaders_249.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_248"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

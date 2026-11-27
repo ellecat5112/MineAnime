@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "jojorpg:silver_chariot_rapier_barrage",
+    "jojorpg:silver_chariot_armor_off",
+    "jojorpg:silver_chariot_shooting_star_rapier",
+    "jojorpg:silver_chariot_flame_skewer",
+    "jojorpg:silver_chariot_plus_anubis_two_sword_technique"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 15527921,
+    "hair_style": "spiky",
+    "pants": 3622735,
+    "top": 2503224
+  },
+  "attack": 19.0,
+  "health": 270.0,
+  "manifestation": "jojorpg:silver_chariot",
+  "name": {
+    "fallback": "Jean Pierre Polnareff",
+    "translate": "npc.jojorpg.jean_pierre_polnareff"
+  },
+  "power": 2.5,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

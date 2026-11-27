@@ -35,6 +35,7 @@ public final class AbilityDamage {
     public static boolean apply(ServerWorld world, @Nullable Entity direct, @Nullable LivingEntity attacker, LivingEntity target,
                                 float damage, @Nullable Identifier affinity, int fireTicks, float knockback, Vec3d from) {
         if (target == attacker || !target.isAlive()) return false;
+        if (friendly(attacker, target)) return false;
         float clash = affinity == null ? 1f
                 : AffinityMatrix.clash(AnimeRegistries.affinities(world.getRegistryManager()), affinity, AnimeCoreApi.affinitiesOf(target));
         if (affinity != null && AnimeCoreApi.isUndead(target)) {
@@ -46,6 +47,13 @@ public final class AbilityDamage {
             if (knockback > 0f) target.takeKnockback(knockback, from.x - target.getX(), from.z - target.getZ());
         }
         return hit;
+    }
+
+    /** Story allies never hurt each other or the players they fight for (area techniques, rushes, splash). */
+    static boolean friendly(@Nullable LivingEntity attacker, LivingEntity target) {
+        if (!(attacker instanceof com.animecore.entity.StoryNpcEntity a)) return false;
+        if (target instanceof com.animecore.entity.StoryNpcEntity b) return a.role().hostile() == b.role().hostile();
+        return !a.role().hostile() && target instanceof net.minecraft.entity.player.PlayerEntity;
     }
 
     /**

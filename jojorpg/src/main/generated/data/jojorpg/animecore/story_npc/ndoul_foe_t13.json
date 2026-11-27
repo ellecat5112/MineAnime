@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "jojorpg:geb_water_claw",
+    "jojorpg:geb_vibration_sonar",
+    "jojorpg:geb_drowning_grip"
+  ],
+  "appearance": {
+    "accent": 9268835,
+    "hair": 2171169,
+    "mark": "glasses",
+    "outfit": "robe",
+    "pants": 12364452,
+    "skin": 9268835,
+    "top": 14142664
+  },
+  "attack": 18.2,
+  "cast_interval": 45,
+  "health": 634.0,
+  "manifestation": "jojorpg:geb",
+  "name": {
+    "fallback": "N'Doul",
+    "translate": "npc.jojorpg.ndoul"
+  },
+  "power": 2.2,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

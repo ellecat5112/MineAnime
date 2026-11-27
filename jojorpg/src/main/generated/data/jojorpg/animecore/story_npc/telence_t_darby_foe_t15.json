@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:atum_binary_soul_reading",
+    "jojorpg:atum_soul_steal"
+  ],
+  "appearance": {
+    "accent": 16777215,
+    "hair": 9268835,
+    "mark": "glasses",
+    "outfit": "jacket",
+    "pants": 870305,
+    "top": 1402304
+  },
+  "attack": 20.6,
+  "cast_interval": 45,
+  "health": 720.0,
+  "manifestation": "jojorpg:atum",
+  "name": {
+    "fallback": "Telence T. D'Arby",
+    "translate": "npc.jojorpg.telence_t_darby"
+  },
+  "power": 2.4,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

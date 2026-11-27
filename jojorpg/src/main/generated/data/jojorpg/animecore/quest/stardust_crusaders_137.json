@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t11",
+    "jojorpg:noriaki_kakyoin_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Yellow Temperance",
+    "translate": "quest.jojorpg.arc.yellow_temperance"
+  },
+  "description": {
+    "fallback": "Kakyoin asks Jotaro why he's angry, as he just punished a criminal. He excuses himself for his impatience, explaining that he is tired because of the trip. Jotaro goes to buy tickets while Kakyoin stays behind with his coconut.",
+    "translate": "quest.jojorpg.stardust_crusaders_137.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Kakyoin asks Jotaro why he's angry, as he just punished a criminal.",
+      "translate": "quest.jojorpg.stardust_crusaders_137.intro0"
+    },
+    {
+      "fallback": "He excuses himself for his impatience, explaining that he is tired because of the trip.",
+      "translate": "quest.jojorpg.stardust_crusaders_137.intro1"
+    },
+    {
+      "fallback": "Jotaro goes to buy tickets while Kakyoin stays behind with his coconut.",
+      "translate": "quest.jojorpg.stardust_crusaders_137.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "137. Yellow Temperance, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_137"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_137.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Yellow Temperance, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_137.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:rubber_soul_foe_t11",
+      "text": {
+        "fallback": "Defeat Rubber Soul",
+        "translate": "quest.jojorpg.defeat.rubber_soul_foe_t11"
+      }
+    }
+  ],
+  "order": 301370,
+  "outro": [
+    {
+      "fallback": "Meanwhile, Anne calls Joseph and tells him what is happening.",
+      "translate": "quest.jojorpg.stardust_crusaders_137.outro0"
+    },
+    {
+      "fallback": "Faced with the danger of being devoured by the Stand, Jotaro jumps out of the cable car.",
+      "translate": "quest.jojorpg.stardust_crusaders_137.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_136"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

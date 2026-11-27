@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:muhammad_avdol_ally_t11",
+    "jojorpg:jean_pierre_polnareff_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Devil",
+    "translate": "quest.jojorpg.arc.devil"
+  },
+  "description": {
+    "fallback": "Polnareff calls Joseph and Avdol's room, warning them about Devo the Cursed, but is unaware of the razor-wielding doll under his bed. After setting a meeting with his group, Polnareff then calls the hotel's room service for anti-inflammatory medicine and bandages for his ankle injury. Meanwhile, Avdol thinks Polnareff may have been tricked by Devo.",
+    "translate": "quest.jojorpg.stardust_crusaders_134.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Polnareff calls Joseph and Avdol's room, warning them about Devo the Cursed, but is unaware of the razor-wielding doll under his bed.",
+      "translate": "quest.jojorpg.stardust_crusaders_134.intro0"
+    },
+    {
+      "fallback": "After setting a meeting with his group, Polnareff then calls the hotel's room service for anti-inflammatory medicine and bandages for his ankle injury.",
+      "translate": "quest.jojorpg.stardust_crusaders_134.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Avdol thinks Polnareff may have been tricked by Devo.",
+      "translate": "quest.jojorpg.stardust_crusaders_134.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "134.  Devil, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_134"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_134.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 89,
+      "text": {
+        "fallback": "Head out:  Devil, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_134.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:devo_the_cursed_foe_t11",
+      "text": {
+        "fallback": "Defeat Devo the Cursed",
+        "translate": "quest.jojorpg.defeat.devo_the_cursed_foe_t11"
+      }
+    }
+  ],
+  "order": 301340,
+  "outro": [
+    {
+      "fallback": "It then saws the foot of the bed, which crushes Polnareff under its weight, but a man with medical supplies for Polnareff arrives and is quickly killed by the demonic doll.",
+      "translate": "quest.jojorpg.stardust_crusaders_134.outro0"
+    },
+    {
+      "fallback": "Polnareff tries to fight with Silver Chariot but is unable to properly hit his enemy without his sight.",
+      "translate": "quest.jojorpg.stardust_crusaders_134.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_133"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

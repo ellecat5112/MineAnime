@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jean_pierre_polnareff_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Empress",
+    "translate": "quest.jojorpg.arc.empress"
+  },
+  "description": {
+    "fallback": "Hol Horse finally catches up to Polnareff and Kakyoin, confident that they are ignoring him out of fear. After Hol Horse insists on fighting them and starts shooting at glass with Emperor to help Hanged Man's attack, Polnareff tells him that J. Geil is already dead, his body a short distance from them.",
+    "translate": "quest.jojorpg.stardust_crusaders_146.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Hol Horse finally catches up to Polnareff and Kakyoin, confident that they are ignoring him out of fear.",
+      "translate": "quest.jojorpg.stardust_crusaders_146.intro0"
+    },
+    {
+      "fallback": "After Hol Horse insists on fighting them and starts shooting at glass with Emperor to help Hanged Man's attack, Polnareff tells him that J.",
+      "translate": "quest.jojorpg.stardust_crusaders_146.intro1"
+    },
+    {
+      "fallback": "Geil is already dead, his body a short distance from them.",
+      "translate": "quest.jojorpg.stardust_crusaders_146.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "146. Empress, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_146"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_146.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: Empress, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_146.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:hol_horse_foe_t11",
+      "text": {
+        "fallback": "Defeat Hol Horse",
+        "translate": "quest.jojorpg.defeat.hol_horse_foe_t11"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:nena_foe_t11",
+      "text": {
+        "fallback": "Defeat Nena",
+        "translate": "quest.jojorpg.defeat.nena_foe_t11"
+      }
+    }
+  ],
+  "order": 301460,
+  "outro": [
+    {
+      "fallback": "A talking wart grows from it, and eats a fly when it comes near.",
+      "translate": "quest.jojorpg.stardust_crusaders_146.outro0"
+    },
+    {
+      "fallback": "As the group continues their journey, Nena reveals another talking wart on her tongue, which makes an ominous noise.",
+      "translate": "quest.jojorpg.stardust_crusaders_146.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_145"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

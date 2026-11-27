@@ -1,0 +1,18 @@
+{
+  "appearance": {
+    "accent": 16766287,
+    "hair": 15527921,
+    "hair_style": "spiky",
+    "pants": 3622735,
+    "top": 2503224
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "manifestation": "jojorpg:silver_chariot",
+  "name": {
+    "fallback": "Jean Pierre Polnareff",
+    "translate": "npc.jojorpg.jean_pierre_polnareff"
+  },
+  "role": "giver",
+  "system": "jojorpg"
+}

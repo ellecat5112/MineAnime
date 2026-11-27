@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t11",
+    "jojorpg:jotaro_kujo_ally_t11"
+  ],
+  "arc": {
+    "fallback": "Yellow Temperance",
+    "translate": "quest.jojorpg.arc.yellow_temperance"
+  },
+  "description": {
+    "fallback": "Rubber Soul begs for Jotaro to spare him. In exchange for this, Jotaro asks him about the other Stand users coming after the group, but Rubber Soul refuses to sell out his comrades and hurt his pride. Jotaro congratulates Rubber Soul for being a good and honorable man and prepares to beat him more, but the enemy quickly changes his mind and tells the four Tarot Cards the other Stand users represent: Death, The…",
+    "translate": "quest.jojorpg.stardust_crusaders_139.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Rubber Soul begs for Jotaro to spare him.",
+      "translate": "quest.jojorpg.stardust_crusaders_139.intro0"
+    },
+    {
+      "fallback": "In exchange for this, Jotaro asks him about the other Stand users coming after the group, but Rubber Soul refuses to sell out his comrades and hurt his pride.",
+      "translate": "quest.jojorpg.stardust_crusaders_139.intro1"
+    },
+    {
+      "fallback": "Jotaro congratulates Rubber Soul for being a good and honorable man and prepares to beat him more, but the enemy quickly changes his mind and tells the four Tarot Cards the other Stand users represent: Death, The…",
+      "translate": "quest.jojorpg.stardust_crusaders_139.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "139. Yellow Temperance, Part 4",
+    "translate": "quest.jojorpg.stardust_crusaders_139"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_139.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Yellow Temperance, Part 4",
+        "translate": "quest.jojorpg.stardust_crusaders_139.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:rubber_soul_foe_t11",
+      "text": {
+        "fallback": "Defeat Rubber Soul",
+        "translate": "quest.jojorpg.defeat.rubber_soul_foe_t11"
+      }
+    }
+  ],
+  "order": 301390,
+  "outro": [
+    {
+      "fallback": "Bothered by how Rubber Soul did the same thing earlier, Jotaro remains silent.",
+      "translate": "quest.jojorpg.stardust_crusaders_139.outro0"
+    },
+    {
+      "fallback": "In the background, Anne is shown sleeping on the train, having sneaked on to follow the group.",
+      "translate": "quest.jojorpg.stardust_crusaders_139.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_138"
+  ],
+  "rewards": {
+    "experience": 53,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_yellow_temperance"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 11
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

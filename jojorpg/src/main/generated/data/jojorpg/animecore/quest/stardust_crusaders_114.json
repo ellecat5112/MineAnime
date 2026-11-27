@@ -1,0 +1,86 @@
+{
+  "arc": {
+    "fallback": "Jotaro Kujo",
+    "translate": "quest.jojorpg.arc.jotaro_kujo"
+  },
+  "description": {
+    "fallback": "In the year 1988, 17-year-old delinquent Jotaro Kujo, grandson of Joseph Joestar, and son of Holy Kujo, is temporarily detained after beating up three armed men and a trained boxer. As Jotaro is now free to leave, Holy asks her son to come home, but despite her insistence, he refuses to leave his cell, claiming that he is possessed by an evil spirit. His prison mates confirm this bizarre claim, desperate to get out…",
+    "translate": "quest.jojorpg.stardust_crusaders_114.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In the year 1988, 17-year-old delinquent Jotaro Kujo, grandson of Joseph Joestar, and son of Holy Kujo, is temporarily detained after beating up three armed men and a trained boxer.",
+      "translate": "quest.jojorpg.stardust_crusaders_114.intro0"
+    },
+    {
+      "fallback": "As Jotaro is now free to leave, Holy asks her son to come home, but despite her insistence, he refuses to leave his cell, claiming that he is possessed by an evil spirit.",
+      "translate": "quest.jojorpg.stardust_crusaders_114.intro1"
+    },
+    {
+      "fallback": "His prison mates confirm this bizarre claim, desperate to get out of the shared cell, seemingly fearing this 'evil demon'.",
+      "translate": "quest.jojorpg.stardust_crusaders_114.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "114. Jotaro Kujo, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_114"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_114.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Go: Jotaro Kujo, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_114.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Meet Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_114.o3"
+      }
+    }
+  ],
+  "order": 301140,
+  "outro": [
+    {
+      "fallback": "The scene then shifts to near the Canary Islands in 1983, four years earlier, off the coast of Africa.",
+      "translate": "quest.jojorpg.stardust_crusaders_114.outro0"
+    },
+    {
+      "fallback": "A group of treasure hunters uncover a heavy, 100-year-old coffin from the water, believing it to be a large treasure chest.",
+      "translate": "quest.jojorpg.stardust_crusaders_114.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_113"
+  ],
+  "rewards": {
+    "experience": 50,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:stand_arrow"
+      },
+      {
+        "count": 1,
+        "id": "jojorpg:stand_arts"
+      }
+    ],
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

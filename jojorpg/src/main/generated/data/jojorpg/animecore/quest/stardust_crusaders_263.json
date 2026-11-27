@@ -1,0 +1,72 @@
+{
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "DIO's onslaught against Jotaro continues with more of his brutal tendencies manifesting in less creative but more destructive uses of his new-found power. This leaves Jotaro in a bad situation when DIO using his time stop to disappear, only to return with a road roller in an attempt to drop it on Jotaro and crush him to death. Jotaro uses what little experience he's accumulated in time stop to move for a brief…",
+    "translate": "quest.jojorpg.stardust_crusaders_263.desc"
+  },
+  "giver": "jojorpg:jotaro_kujo",
+  "intro": [
+    {
+      "fallback": "DIO's onslaught against Jotaro continues with more of his brutal tendencies manifesting in less creative but more destructive uses of his new-found power.",
+      "translate": "quest.jojorpg.stardust_crusaders_263.intro0"
+    },
+    {
+      "fallback": "This leaves Jotaro in a bad situation when DIO using his time stop to disappear, only to return with a road roller in an attempt to drop it on Jotaro and crush him to death.",
+      "translate": "quest.jojorpg.stardust_crusaders_263.intro1"
+    },
+    {
+      "fallback": "Jotaro uses what little experience he's accumulated in time stop to move for a brief moment and urge his Stand to strike the road roller away but DIO does not relent when he uses The World to force it down, seemingly…",
+      "translate": "quest.jojorpg.stardust_crusaders_263.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "263. DIO's World, Part 17",
+    "translate": "quest.jojorpg.stardust_crusaders_263"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jotaro_kujo",
+      "text": {
+        "fallback": "Talk to Jotaro Kujo",
+        "translate": "quest.jojorpg.stardust_crusaders_263.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 17",
+        "translate": "quest.jojorpg.stardust_crusaders_263.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302630,
+  "outro": [
+    {
+      "fallback": "To be continued...",
+      "translate": "quest.jojorpg.generic.outro"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_262"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t15",
+    "jojorpg:noriaki_kakyoin_ally_t15"
+  ],
+  "arc": {
+    "fallback": "D'Arby the Player",
+    "translate": "quest.jojorpg.arc.darby_the_player"
+  },
+  "description": {
+    "fallback": "Telence becomes extremely stressed, unable to figure out how Jotaro's able to trick Atum. Jotaro says he will pitch a high fastball, and his soul proclaims \"YES!YES!YES!\". Telence concentrates, certain that he will pitch a fastball.",
+    "translate": "quest.jojorpg.stardust_crusaders_237.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Telence becomes extremely stressed, unable to figure out how Jotaro's able to trick Atum.",
+      "translate": "quest.jojorpg.stardust_crusaders_237.intro0"
+    },
+    {
+      "fallback": "Jotaro says he will pitch a high fastball, and his soul proclaims \"YES!YES!YES!\".",
+      "translate": "quest.jojorpg.stardust_crusaders_237.intro1"
+    },
+    {
+      "fallback": "Telence concentrates, certain that he will pitch a fastball.",
+      "translate": "quest.jojorpg.stardust_crusaders_237.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "237. D'Arby the Player, Part 11",
+    "translate": "quest.jojorpg.stardust_crusaders_237"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_237.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: D'Arby the Player, Part 11",
+        "translate": "quest.jojorpg.stardust_crusaders_237.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:telence_t_darby_foe_t15",
+      "text": {
+        "fallback": "Defeat Telence T. D'Arby",
+        "translate": "quest.jojorpg.defeat.telence_t_darby_foe_t15"
+      }
+    }
+  ],
+  "order": 302370,
+  "outro": [
+    {
+      "fallback": "Telence begs for forgiveness; their reply being \"NO!NO!NO!\".",
+      "translate": "quest.jojorpg.stardust_crusaders_237.outro0"
+    },
+    {
+      "fallback": "Star Platinum attacks Telence with its signature \"ORA ORA\" attack, and the gamer retires.",
+      "translate": "quest.jojorpg.stardust_crusaders_237.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_236"
+  ],
+  "rewards": {
+    "experience": 65,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:disc_atum"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 15
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

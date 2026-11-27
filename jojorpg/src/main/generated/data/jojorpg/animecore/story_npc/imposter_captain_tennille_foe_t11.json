@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:dark_blue_moon_razor_scales",
+    "jojorpg:dark_blue_moon_whirlpool",
+    "jojorpg:dark_blue_moon_barnacles",
+    "jojorpg:dark_blue_moon_underwater_rush"
+  ],
+  "appearance": {
+    "accent": 1402304,
+    "hair": 14737632,
+    "outfit": "jacket",
+    "pants": 870305,
+    "top": 16777215
+  },
+  "attack": 15.9,
+  "cast_interval": 45,
+  "health": 547.0,
+  "manifestation": "jojorpg:dark_blue_moon",
+  "name": {
+    "fallback": "Imposter Captain Tennille",
+    "translate": "npc.jojorpg.imposter_captain_tennille"
+  },
+  "power": 2.0,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

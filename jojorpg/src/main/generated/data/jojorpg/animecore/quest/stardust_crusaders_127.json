@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Dark Blue Moon",
+    "translate": "quest.jojorpg.arc.dark_blue_moon"
+  },
+  "description": {
+    "fallback": "Jean Pierre Polnareff confronts Joseph Joestar about his hand, asking him if his left hand is actually a right hand. Confused by the unusual question, Joseph reveals it is a prosthetic hand, as he lost his real one in a battle a long time ago. Polnareff explains his question by telling the group how his sister was raped and killed by a man with two right hands.",
+    "translate": "quest.jojorpg.stardust_crusaders_127.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jean Pierre Polnareff confronts Joseph Joestar about his hand, asking him if his left hand is actually a right hand.",
+      "translate": "quest.jojorpg.stardust_crusaders_127.intro0"
+    },
+    {
+      "fallback": "Confused by the unusual question, Joseph reveals it is a prosthetic hand, as he lost his real one in a battle a long time ago.",
+      "translate": "quest.jojorpg.stardust_crusaders_127.intro1"
+    },
+    {
+      "fallback": "Polnareff explains his question by telling the group how his sister was raped and killed by a man with two right hands.",
+      "translate": "quest.jojorpg.stardust_crusaders_127.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "127. Dark Blue Moon, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_127"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_127.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Go: Dark Blue Moon, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_127.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:agent_t11",
+      "text": {
+        "fallback": "Defeat DIO's agents",
+        "translate": "quest.jojorpg.minion.agent"
+      }
+    }
+  ],
+  "order": 301270,
+  "outro": [
+    {
+      "fallback": "Jotaro grabs the kid and tries to drag him to shore, but accidentally touches his chest and discovers \"he\" is actually a girl, who calls him a pervert for grabbing her chest.",
+      "translate": "quest.jojorpg.stardust_crusaders_127.outro0"
+    },
+    {
+      "fallback": "Meanwhile, the shark is cut in two by a mysterious aquatic creature.",
+      "translate": "quest.jojorpg.stardust_crusaders_127.outro1"
+    }
+  ],
+  "recommended_tier": 11,
+  "requires": [
+    "jojorpg:stardust_crusaders_126"
+  ],
+  "rewards": {
+    "experience": 53,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

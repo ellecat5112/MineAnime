@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:iggy_ally_t15",
+    "jojorpg:jean_pierre_polnareff_ally_t15"
+  ],
+  "arc": {
+    "fallback": "The Miasma of the Void, Vanilla Ice",
+    "translate": "quest.jojorpg.arc.the_miasma_of_the_void_vanilla_ice"
+  },
+  "description": {
+    "fallback": "Jotaro finally defeats Telence after his soul admits defeat and brings back Kakyoin's soul as well. The three (Jotaro, Joseph, Kakyoin) manage to find out that they were actually trapped underground instead of somewhere outside. Meanwhile, Avdol, Polnareff, and Iggy decide to search the mansion for signs of life.",
+    "translate": "quest.jojorpg.stardust_crusaders_239.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Jotaro finally defeats Telence after his soul admits defeat and brings back Kakyoin's soul as well.",
+      "translate": "quest.jojorpg.stardust_crusaders_239.intro0"
+    },
+    {
+      "fallback": "The three (Jotaro, Joseph, Kakyoin) manage to find out that they were actually trapped underground instead of somewhere outside.",
+      "translate": "quest.jojorpg.stardust_crusaders_239.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Avdol, Polnareff, and Iggy decide to search the mansion for signs of life.",
+      "translate": "quest.jojorpg.stardust_crusaders_239.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "239. The Miasma of the Void, Vanilla Ice, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_239"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_239.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Head out: The Miasma of the Void, Vanilla Ice, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_239.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:vanilla_ice_foe_t15",
+      "text": {
+        "fallback": "Defeat Vanilla Ice",
+        "translate": "quest.jojorpg.defeat.vanilla_ice_foe_t15"
+      }
+    }
+  ],
+  "order": 302390,
+  "outro": [
+    {
+      "fallback": "Unlike the time when he was \"defeated\" by Hol Horse, this time he dies for real.",
+      "translate": "quest.jojorpg.stardust_crusaders_239.outro0"
+    },
+    {
+      "fallback": "Polnareff and Iggy are left alone to face Vanilla Ice by themselves.",
+      "translate": "quest.jojorpg.stardust_crusaders_239.outro1"
+    }
+  ],
+  "recommended_tier": 15,
+  "requires": [
+    "jojorpg:stardust_crusaders_238"
+  ],
+  "rewards": {
+    "experience": 65,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

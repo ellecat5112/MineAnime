@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:judgement_three_wishes",
+    "jojorpg:judgement_genie_strike",
+    "jojorpg:judgement_clay_imitation"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "hair": 2171169,
+    "outfit": "robe",
+    "pants": 6111287,
+    "top": 9268835
+  },
+  "attack": 18.2,
+  "cast_interval": 45,
+  "health": 634.0,
+  "manifestation": "jojorpg:judgement",
+  "name": {
+    "fallback": "Cameo",
+    "translate": "npc.jojorpg.cameo"
+  },
+  "power": 2.2,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  }
+}

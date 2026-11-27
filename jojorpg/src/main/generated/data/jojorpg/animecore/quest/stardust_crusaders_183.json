@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t13",
+    "jojorpg:jean_pierre_polnareff_ally_t13"
+  ],
+  "arc": {
+    "fallback": "\"The Fool\" Iggy and \"Geb\" N'Doul",
+    "translate": "quest.jojorpg.arc.the_fool_iggy_and_geb_ndoul"
+  },
+  "description": {
+    "fallback": "After finally arriving in Egypt, the group travels through the Egyptian desert on their way to Cairo. They then wait for a helicopter from the Speedwagon Foundation whose crew is due to drop off a new Stand user who will accompany them. Joseph states that the Stand user has personality issues, and that that is why it took so long for him to join the others.",
+    "translate": "quest.jojorpg.stardust_crusaders_183.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "After finally arriving in Egypt, the group travels through the Egyptian desert on their way to Cairo.",
+      "translate": "quest.jojorpg.stardust_crusaders_183.intro0"
+    },
+    {
+      "fallback": "They then wait for a helicopter from the Speedwagon Foundation whose crew is due to drop off a new Stand user who will accompany them.",
+      "translate": "quest.jojorpg.stardust_crusaders_183.intro1"
+    },
+    {
+      "fallback": "Joseph states that the Stand user has personality issues, and that that is why it took so long for him to join the others.",
+      "translate": "quest.jojorpg.stardust_crusaders_183.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "183. \"The Fool\" Iggy and \"Geb\" N'Doul, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_183"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_183.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: \"The Fool\" Iggy and \"Geb\" N'Doul, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_183.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:ndoul_foe_t13",
+      "text": {
+        "fallback": "Defeat N'Doul",
+        "translate": "quest.jojorpg.defeat.ndoul_foe_t13"
+      }
+    }
+  ],
+  "order": 301830,
+  "outro": [
+    {
+      "fallback": "Iggy steals the box from Avdol and begins chewing.",
+      "translate": "quest.jojorpg.stardust_crusaders_183.outro0"
+    },
+    {
+      "fallback": "As he does this he smells the presence of another in the distance, watching, or rather hearing.",
+      "translate": "quest.jojorpg.stardust_crusaders_183.outro1"
+    }
+  ],
+  "recommended_tier": 13,
+  "requires": [
+    "jojorpg:stardust_crusaders_182"
+  ],
+  "rewards": {
+    "experience": 59,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

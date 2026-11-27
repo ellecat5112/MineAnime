@@ -1,0 +1,97 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t12",
+    "jojorpg:noriaki_kakyoin_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Justice",
+    "translate": "quest.jojorpg.arc.justice"
+  },
+  "description": {
+    "fallback": "ZZ's appearance is revealed: He is a puny man with muscular arms. He begs for forgiveness, but is only ridiculed by the Joestar group, who chain him to a rock with a sign that reads \"don't disturb me, I'm training.\" To keep him from ambushing them again, they take his passport and car. The runaway girl begs to come along with them, but they decide that she is going back to Hong Kong on the first flight no matter…",
+    "translate": "quest.jojorpg.stardust_crusaders_154.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "ZZ's appearance is revealed: He is a puny man with muscular arms.",
+      "translate": "quest.jojorpg.stardust_crusaders_154.intro0"
+    },
+    {
+      "fallback": "He begs for forgiveness, but is only ridiculed by the Joestar group, who chain him to a rock with a sign that reads \"don't disturb me, I'm training.\" To keep him from ambushing them again, they take his passport and car.",
+      "translate": "quest.jojorpg.stardust_crusaders_154.intro1"
+    },
+    {
+      "fallback": "The runaway girl begs to come along with them, but they decide that she is going back to Hong Kong on the first flight no matter what she says.",
+      "translate": "quest.jojorpg.stardust_crusaders_154.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "154. Justice, Part 1",
+    "translate": "quest.jojorpg.stardust_crusaders_154"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_154.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 83,
+      "text": {
+        "fallback": "Head out: Justice, Part 1",
+        "translate": "quest.jojorpg.stardust_crusaders_154.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:puppet_t12",
+      "text": {
+        "fallback": "Defeat Enya's puppets",
+        "translate": "quest.jojorpg.minion.puppet"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:zz_foe_t12",
+      "text": {
+        "fallback": "Defeat ZZ",
+        "translate": "quest.jojorpg.defeat.zz_foe_t12"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:enya_the_hag_foe_t12",
+      "text": {
+        "fallback": "Defeat Enya the Hag",
+        "translate": "quest.jojorpg.defeat.enya_the_hag_foe_t12"
+      }
+    }
+  ],
+  "order": 301540,
+  "outro": [
+    {
+      "fallback": "As with Jotaro and the dog, Joseph is the only one to notice cockroaches swarming on the man's neck.",
+      "translate": "quest.jojorpg.stardust_crusaders_154.outro0"
+    },
+    {
+      "fallback": "Polnareff tries to get information from a man sitting nearby, but is surprised when he notices the man is actually dead.",
+      "translate": "quest.jojorpg.stardust_crusaders_154.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_153"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t12",
+    "jojorpg:jean_pierre_polnareff_ally_t12"
+  ],
+  "arc": {
+    "fallback": "Justice",
+    "translate": "quest.jojorpg.arc.justice"
+  },
+  "description": {
+    "fallback": "The body the Joestar group found is holding a recently fired gun. Judging from his shocked expression, he died screaming and shooting at something. Kakyoin asks a woman with infected boils on her face to call the police, but, while she agrees, she doesn't seem to care.",
+    "translate": "quest.jojorpg.stardust_crusaders_155.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The body the Joestar group found is holding a recently fired gun.",
+      "translate": "quest.jojorpg.stardust_crusaders_155.intro0"
+    },
+    {
+      "fallback": "Judging from his shocked expression, he died screaming and shooting at something.",
+      "translate": "quest.jojorpg.stardust_crusaders_155.intro1"
+    },
+    {
+      "fallback": "Kakyoin asks a woman with infected boils on her face to call the police, but, while she agrees, she doesn't seem to care.",
+      "translate": "quest.jojorpg.stardust_crusaders_155.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "155. Justice, Part 2",
+    "translate": "quest.jojorpg.stardust_crusaders_155"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_155.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Justice, Part 2",
+        "translate": "quest.jojorpg.stardust_crusaders_155.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:puppet_t12",
+      "text": {
+        "fallback": "Defeat Enya's puppets",
+        "translate": "quest.jojorpg.minion.puppet"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:enya_the_hag_foe_t12",
+      "text": {
+        "fallback": "Defeat Enya the Hag",
+        "translate": "quest.jojorpg.defeat.enya_the_hag_foe_t12"
+      }
+    }
+  ],
+  "order": 301550,
+  "outro": [
+    {
+      "fallback": "He manages to save himself with Hermit Purple, and discovers that the actual jeep is standing some distance away.",
+      "translate": "quest.jojorpg.stardust_crusaders_155.outro0"
+    },
+    {
+      "fallback": "Enya approaches the group and offers them a room in her hotel.",
+      "translate": "quest.jojorpg.stardust_crusaders_155.outro1"
+    }
+  ],
+  "recommended_tier": 12,
+  "requires": [
+    "jojorpg:stardust_crusaders_154"
+  ],
+  "rewards": {
+    "experience": 56,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

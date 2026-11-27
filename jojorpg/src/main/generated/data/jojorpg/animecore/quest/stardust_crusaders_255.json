@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:noriaki_kakyoin_ally_t16",
+    "jojorpg:jotaro_kujo_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "Thanks to Kakyoin's dying message, Joseph figures out that The World can stop time. Joseph swings from the rooftops, running from DIO to come up with a way to counter The World. DIO stops time and reappears in front of Joseph.",
+    "translate": "quest.jojorpg.stardust_crusaders_255.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "Thanks to Kakyoin's dying message, Joseph figures out that The World can stop time.",
+      "translate": "quest.jojorpg.stardust_crusaders_255.intro0"
+    },
+    {
+      "fallback": "Joseph swings from the rooftops, running from DIO to come up with a way to counter The World.",
+      "translate": "quest.jojorpg.stardust_crusaders_255.intro1"
+    },
+    {
+      "fallback": "DIO stops time and reappears in front of Joseph.",
+      "translate": "quest.jojorpg.stardust_crusaders_255.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "255. DIO's World, Part 9",
+    "translate": "quest.jojorpg.stardust_crusaders_255"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_255.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 9",
+        "translate": "quest.jojorpg.stardust_crusaders_255.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302550,
+  "outro": [
+    {
+      "fallback": "The knife strikes Joseph right below the throat.",
+      "translate": "quest.jojorpg.stardust_crusaders_255.outro0"
+    },
+    {
+      "fallback": "DIO taunts Jotaro, the only one left standing in his way.",
+      "translate": "quest.jojorpg.stardust_crusaders_255.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_254"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}

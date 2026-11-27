@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jotaro_kujo_ally_t16"
+  ],
+  "arc": {
+    "fallback": "DIO's World",
+    "translate": "quest.jojorpg.arc.dios_world"
+  },
+  "description": {
+    "fallback": "By luring DIO into a false sense of security, Jotaro was able to punch a hole in his chest during the frozen time. DIO is knocked back into a store, his leg severed by broken glass. DIO commands a saleswoman to retrieve his leg and sucks her blood to heal his wounds.",
+    "translate": "quest.jojorpg.stardust_crusaders_258.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "By luring DIO into a false sense of security, Jotaro was able to punch a hole in his chest during the frozen time.",
+      "translate": "quest.jojorpg.stardust_crusaders_258.intro0"
+    },
+    {
+      "fallback": "DIO is knocked back into a store, his leg severed by broken glass.",
+      "translate": "quest.jojorpg.stardust_crusaders_258.intro1"
+    },
+    {
+      "fallback": "DIO commands a saleswoman to retrieve his leg and sucks her blood to heal his wounds.",
+      "translate": "quest.jojorpg.stardust_crusaders_258.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "258. DIO's World, Part 12",
+    "translate": "quest.jojorpg.stardust_crusaders_258"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.stardust_crusaders_258.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 77,
+      "text": {
+        "fallback": "Head out: DIO's World, Part 12",
+        "translate": "quest.jojorpg.stardust_crusaders_258.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t16",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t16"
+      }
+    }
+  ],
+  "order": 302580,
+  "outro": [
+    {
+      "fallback": "Time resumes.",
+      "translate": "quest.jojorpg.stardust_crusaders_258.outro0"
+    },
+    {
+      "fallback": "Star Platinum is able to deflect most of the knives, but a few pierce Jotaro's chest.",
+      "translate": "quest.jojorpg.stardust_crusaders_258.outro1"
+    }
+  ],
+  "recommended_tier": 16,
+  "requires": [
+    "jojorpg:stardust_crusaders_257"
+  ],
+  "rewards": {
+    "experience": 68,
+    "skill_points": 1
+  },
+  "series": "stardust_crusaders",
+  "system": "jojorpg"
+}
