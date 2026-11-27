@@ -149,3 +149,7 @@ Each item awakens the first stage of its form; later stages evolve with mastery 
 | Dragon Life (Ryūzetsu) Awakening | `narutorpg:dragon_life` |
 | Molecular Fusion (Sakon and Ukon) Awakening | `narutorpg:molecular_fusion` |
 | Clone Link (Yanaru) Awakening | `narutorpg:clone_link` |
+
+## Low-poly models
+
+Modelled by hand (`tools/catalog/beast_models.py`) from the infobox image of each Narutopedia page (Shukaku, Matatabi, Isobu, Son Gokū, Kokuō, Saiken, Chōmei, Gyūki, Kurama, Ten-Tails, Susanoo - Susanoo after the page image, Itachi's). Palettes are the dominant colours sampled from those images; the images themselves are not part of the mod. Used by the full tailed-beast transformations, Susanoo and the story's tailed-beast bosses.

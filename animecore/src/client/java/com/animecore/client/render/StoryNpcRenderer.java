@@ -36,6 +36,18 @@ public class StoryNpcRenderer extends LivingEntityRenderer<StoryNpcEntity, Playe
         addFeature(new HeldItemFeatureRenderer<>(this, ctx.getHeldItemRenderer()));
     }
 
+    /** Characters with a low-poly model (tailed beasts) are drawn as that model; everyone else as a tinted humanoid. */
+    @Override
+    public void render(StoryNpcEntity entity, float yaw, float tickDelta, MatrixStack matrices, VertexConsumerProvider buffers, int light) {
+        var model = entity.definition().flatMap(d -> d.appearance().model()).map(FormModels::get).orElse(null);
+        if (model == null) {
+            super.render(entity, yaw, tickDelta, matrices, buffers, light);
+            return;
+        }
+        FormModelRenderer.render(entity, model, tickDelta, matrices, buffers, light);
+        if (hasLabel(entity)) renderLabelIfPresent(entity, entity.getDisplayName(), matrices, buffers, light, tickDelta);
+    }
+
     static Identifier tex(String name) { return Ids.core("textures/entity/story_npc/" + name + ".png"); }
 
     @Override

@@ -32,6 +32,7 @@ public final class AnimeCoreClient implements ClientModInitializer {
         EntityRendererRegistry.register(AnimeEntities.STORY_NPC, com.animecore.client.render.StoryNpcRenderer::new);
         com.animecore.client.quest.QuestClient.init();
         com.animecore.client.render.ChakraCloakFeature.register();
+        com.animecore.client.render.FormModels.register();
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.CHAKRA_WALL, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.BARRIER_GATE, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(WardBlocks.WARD_TAG, RenderLayer.getCutout());

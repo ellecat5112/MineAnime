@@ -7,13 +7,7 @@
     "narutorpg:truth_seeking_ball"
   ],
   "appearance": {
-    "accent": 2635155,
-    "eyes": 1118481,
-    "hair": 12986408,
-    "mark": "red_eyes",
-    "pants": 3622735,
-    "skin": 13010498,
-    "top": 7162945
+    "model": "narutorpg:ten_tails"
   },
   "attack": 10.0,
   "cast_interval": 40,
@@ -24,7 +18,7 @@
   },
   "power": 1.62,
   "role": "boss",
-  "scale": 2.2,
+  "scale": 3.0,
   "speed": 0.32,
   "system": "narutorpg",
   "title": {

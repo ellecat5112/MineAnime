@@ -327,8 +327,14 @@ def slug(name):
     return clans.slug(name)
 
 
+BEAST_MODELS = {'Shukaku': 'shukaku', 'Matatabi': 'matatabi', 'Isobu': 'isobu', 'Son Gokū': 'son_goku', 'Kokuō': 'kokuo',
+                'Saiken': 'saiken', 'Chōmei': 'chomei', 'Gyūki': 'gyuki', 'Kurama': 'kurama', 'Ten-Tails': 'ten_tails'}
+
+
 def appearance(name, info):
     affs = info.get('Affiliation', [])
+    if name in BEAST_MODELS:   # tailed beasts are drawn with their low-poly model (tools/catalog/beast_models.py)
+        return dict(model=clans.ns(BEAST_MODELS[name]))
     if name in MAIN:
         hair, style, outfit, top, accent, pants, eyes, mark, band = MAIN[name]
         a = dict(skin=0xF1C27D, eyes=eyes, hair=hair, hair_style=style, outfit=outfit, top=top, accent=accent, pants=pants)
@@ -554,8 +560,8 @@ def main():
             d.update(health=round(60 + 14 * tier), attack=round(4 + tier, 1), power=round(1.0 + 0.12 * tier, 2), cast_interval=60, speed=0.34)
         else:
             d.update(health=200, attack=0)
-        if beast:
-            d['scale'] = 2.2
+        if beast or name in BEAST_MODELS:
+            d['scale'] = 3.0
         npcs[nid] = d
         return nid
 
@@ -650,6 +656,12 @@ def main():
             quests[qid] = q
             arc_row['quests'].append(qid)
             prev = qid
+        # tailed-beast boss fights where the story has them rampage
+        for beast in ARC_BEASTS.get(arc, []):
+            if beast in chars:
+                nid = npc(beast, 'boss', series, max(tier, 4))
+                quests[prev]['objectives'].append({'type': 'defeat', 'target': clans.ns(nid),
+                                                   'text': t(f'quest.{NS}.defeat.{nid}', f'Subdue {beast}')})
         # sealed powers awarded where the story hands them out (tailed beasts, curse marks, Kāma, sage training...)
         for it in ARC_ITEMS.get(arc, []):
             quests[prev]['rewards'].setdefault('items', []).append({'id': f'{NS}:{it}', 'count': 1})
@@ -673,6 +685,13 @@ def main():
     print(f"story: {len(arc_rows)} arcs, {len(quests)} quests, {len(npcs)} story characters {dict(roles)}")
     write_doc(data, arc_rows, quests, npcs)
 
+
+ARC_BEASTS = {
+    'Konoha Crush (Arc)': ['Shukaku'], 'Kazekage Rescue Mission': ['Shukaku'], "Three-Tails' Appearance": ['Isobu'],
+    'Six-Tails Unleashed': ['Saiken'], 'Fated Battle Between Brothers': ['Gyūki'], "Pain's Assault (Arc)": ['Kurama'],
+    'Fourth Shinobi World War: Confrontation': ['Matatabi', 'Son Gokū', 'Kokuō', 'Chōmei'],
+    "Birth of the Ten-Tails' Jinchūriki": ['Ten-Tails'], 'Akatsuki Suppression Mission': ['Matatabi'],
+}
 
 ARC_ITEMS = {
     'Chūnin Exams (Arc)': ['cursed_seal_of_heaven'], 'Sasuke Recovery Mission': ['cursed_seal_of_earth'],

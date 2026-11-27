@@ -21,7 +21,8 @@
   `story.py` (after those) turns `docs/wiki/narutopedia_story.json` into `story_catalog.json` (quests + story characters);
   `forms.py` (last) writes `forms_catalog.json` (tailed beasts, curse marks, Kāma, modes, bloodline forms) and
   `assets/narutorpg/awakening_items.json` (the awakening items NarutoForms registers);
-  `npc_skins.py` writes the tinted story-character layer textures;
+  `npc_skins.py` writes the tinted story-character layer textures; `beast_models.py` writes the low-poly form models
+  (`assets/narutorpg/form_models/` + `textures/entity/form/`, check them with `form_preview.py out.png`);
   `animations.py` writes cast animations.
 
 ## Verification

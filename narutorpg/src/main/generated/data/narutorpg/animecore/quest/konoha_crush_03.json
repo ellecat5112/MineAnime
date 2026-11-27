@@ -62,6 +62,14 @@
         "fallback": "Defeat Orochimaru",
         "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shukaku_foe_naruto",
+      "text": {
+        "fallback": "Subdue Shukaku",
+        "translate": "quest.narutorpg.defeat.shukaku_foe_naruto"
+      }
     }
   ],
   "order": 7802,

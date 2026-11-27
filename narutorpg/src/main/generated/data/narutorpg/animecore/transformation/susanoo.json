@@ -62,7 +62,6 @@
   "visuals": {
     "aura_color": 8280002,
     "aura_intensity": 1.5,
-    "cloak_alpha": 0.55,
-    "cloak_color": 9795021
+    "model": "narutorpg:susanoo"
   }
 }

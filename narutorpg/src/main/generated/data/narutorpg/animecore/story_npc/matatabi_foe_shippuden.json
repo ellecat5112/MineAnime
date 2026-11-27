@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:cat_claw",
+    "narutorpg:cat_flame_roaring_fire",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_cat_claw_attack",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "model": "narutorpg:matatabi"
+  },
+  "attack": 7.7,
+  "cast_interval": 40,
+  "health": 490.0,
+  "name": {
+    "fallback": "Matatabi",
+    "translate": "npc.narutorpg.matatabi"
+  },
+  "power": 1.38,
+  "role": "boss",
+  "scale": 3.0,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

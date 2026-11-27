@@ -54,6 +54,14 @@
         "fallback": "Defeat Deidara",
         "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:shukaku_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Shukaku",
+        "translate": "quest.narutorpg.defeat.shukaku_foe_shippuden"
+      }
     }
   ],
   "order": 101105,

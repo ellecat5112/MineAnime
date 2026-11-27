@@ -53,6 +53,14 @@
         "fallback": "Defeat Shiranami",
         "translate": "quest.narutorpg.defeat.shiranami_foe_shippuden"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:saiken_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Saiken",
+        "translate": "quest.narutorpg.defeat.saiken_foe_shippuden"
+      }
     }
   ],
   "order": 115407,

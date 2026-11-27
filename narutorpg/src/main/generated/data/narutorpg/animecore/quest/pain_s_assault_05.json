@@ -70,6 +70,14 @@
         "fallback": "Defeat Sasuke Uchiha",
         "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kurama_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Kurama",
+        "translate": "quest.narutorpg.defeat.kurama_foe_shippuden"
+      }
     }
   ],
   "order": 116204,

@@ -98,4 +98,18 @@ public final class FormsGameTests implements FabricGameTest {
         ctx.assertTrue(hurt.getHealth() > 6f, "the ally was not healed: " + hurt.getHealth());
         ctx.complete();
     }
+
+    /** Full tailed-beast transformations, Susanoo and the story's tailed beasts use their low-poly models. */
+    @GameTest(templateName = EMPTY_STRUCTURE)
+    public void beastsHaveModels(TestContext ctx) {
+        var rm = ctx.getWorld().getRegistryManager();
+        for (String b : new String[]{"shukaku", "matatabi", "isobu", "son_goku", "kokuo", "saiken", "chomei", "gyuki", "kurama"}) {
+            var form = AnimeRegistries.transformation(rm, id(b + "_tailed_beast_transformation")).orElseThrow().value();
+            ctx.assertTrue(form.visuals().model().map(id(b)::equals).orElse(false), b + " full form has no model");
+        }
+        ctx.assertTrue(AnimeRegistries.transformation(rm, id("susanoo")).orElseThrow().value().visuals().model().isPresent(), "Susanoo model");
+        var shukaku = AnimeRegistries.storyNpc(rm, id("shukaku_foe_naruto")).orElseThrow();
+        ctx.assertTrue(shukaku.appearance().model().map(id("shukaku")::equals).orElse(false), "story Shukaku has no model");
+        ctx.complete();
+    }
 }

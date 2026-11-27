@@ -53,9 +53,9 @@ public record StoryNpcDefinition(
      * so any number of characters costs no extra assets.
      */
     public record Appearance(int skin, int eyes, int hair, String hairStyle, String outfit, int top, int accent, int pants,
-                             Optional<Integer> headband, Optional<String> mark) {
+                             Optional<Integer> headband, Optional<String> mark, Optional<Identifier> model) {
         public static final Appearance DEFAULT = new Appearance(0xF1C27D, 0x3B2A1A, 0x2B2B2B, "short", "shirt", 0x37474F,
-                0x546E7A, 0x263238, Optional.empty(), Optional.empty());
+                0x546E7A, 0x263238, Optional.empty(), Optional.empty(), Optional.empty());
         public static final Codec<Appearance> CODEC = RecordCodecBuilder.create(i -> i.group(
                 Codec.INT.optionalFieldOf("skin", 0xF1C27D).forGetter(Appearance::skin),
                 Codec.INT.optionalFieldOf("eyes", 0x3B2A1A).forGetter(Appearance::eyes),
@@ -66,7 +66,8 @@ public record StoryNpcDefinition(
                 Codec.INT.optionalFieldOf("accent", 0x546E7A).forGetter(Appearance::accent),
                 Codec.INT.optionalFieldOf("pants", 0x263238).forGetter(Appearance::pants),
                 Codec.INT.optionalFieldOf("headband").forGetter(Appearance::headband),
-                Codec.STRING.optionalFieldOf("mark").forGetter(Appearance::mark)
+                Codec.STRING.optionalFieldOf("mark").forGetter(Appearance::mark),
+                Identifier.CODEC.optionalFieldOf("model").forGetter(Appearance::model)   // low-poly form model instead of a humanoid
         ).apply(i, Appearance::new));
     }
 

@@ -70,7 +70,6 @@
   "visuals": {
     "aura_color": 2533018,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 2533018
+    "model": "narutorpg:isobu"
   }
 }

@@ -71,7 +71,6 @@
   "visuals": {
     "aura_color": 16739584,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 16739584
+    "model": "narutorpg:kurama"
   }
 }

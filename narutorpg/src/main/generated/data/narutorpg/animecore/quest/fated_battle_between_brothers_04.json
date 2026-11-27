@@ -51,6 +51,14 @@
         "fallback": "Defeat the attackers",
         "translate": "quest.narutorpg.minion.shippuden"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:gyuki_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Gyūki",
+        "translate": "quest.narutorpg.defeat.gyuki_foe_shippuden"
+      }
     }
   ],
   "order": 114403,

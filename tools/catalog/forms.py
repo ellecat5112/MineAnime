@@ -96,8 +96,10 @@ FORMS, ITEMS, LANG, DOC = {}, [], {}, []
 
 
 def form(fid, name, token, tier, modifiers, granted=(), aura=0xFFFFFF, aura_intensity=0.6, cloak=None, cloak_alpha=0.45,
-         activation=10.0, drain=0.08, nxt=None, mastery=0, page=None, cooldown=200):
+         activation=10.0, drain=0.08, nxt=None, mastery=0, page=None, cooldown=200, model=None):
     vis = {'aura_color': aura, 'aura_intensity': aura_intensity}
+    if model:   # low-poly model drawn instead of the player (tools/catalog/beast_models.py)
+        vis['model'] = clans.ns(model)
     if cloak is not None:
         vis['cloak_color'] = cloak
         vis['cloak_alpha'] = cloak_alpha
@@ -166,8 +168,7 @@ def build():
              [attr('scale', 2.0 + 0.25 * tails), attr('max_health', 20 + 4 * tails), attr('attack_damage', 10 + 6 * k),
               attr('armor', 10), attr('step_height', 2.0), attr('safe_fall_distance', 20), attr('jump_strength', 0.2),
               power(1.8), heal(1.5)],
-             beast_jutsu + ball, aura=colour, aura_intensity=1.6, cloak=colour, cloak_alpha=0.85, activation=50, drain=0.3,
-             page=page)
+             beast_jutsu + ball, aura=colour, aura_intensity=1.6, activation=50, drain=0.3, page=page, model=bid)
         item(f'{bid}_seal', f'Tailed Beast Seal: {page} ({title})', v1,
              lore(page, f'The sealed chakra of the {title}.') + ' Becoming its jinchūriki grants the chakra cloak.',
              'beast', (colour, tails))
@@ -229,7 +230,7 @@ def build():
          [attr('scale', 1.6), attr('armor', 14), attr('max_health', 20), attr('attack_damage', 8), attr('step_height', 1.5),
           power(1.5), attr('movement_speed', -0.15, 'add_multiplied_base')],
          ids('susanoo_.*')[:8] + ids('amaterasu', 'blaze_release_kagutsuchi_flying_flame'), aura=0x7E57C2, aura_intensity=1.5,
-         cloak=0x9575CD, cloak_alpha=0.55, activation=40, drain=0.3, page='Susanoo')
+         activation=40, drain=0.3, page='Susanoo', model='susanoo')
     item('susanoo_scroll', 'Susanoo Awakening', 'susanoo', lore('Susanoo', 'A giant chakra warrior from the Mangekyō Sharingan.'),
          'rib', (0x7E57C2, 0xB39DDB))
     form('eternal_mangekyo_sharingan', 'Eternal Mangekyō Sharingan', 'dojutsu', 9,
@@ -373,6 +374,11 @@ def write_doc(crawl):
           '| item | awakens |', '|---|---|']
     for it in ITEMS:
         L.append(f"| {LANG['item.' + NS + '.' + it['item']]} | `{it['form']}` |")
+    L += ['', '## Low-poly models', '',
+          'Modelled by hand (`tools/catalog/beast_models.py`) from the infobox image of each Narutopedia page (Shukaku, Matatabi, '
+          'Isobu, Son Gokū, Kokuō, Saiken, Chōmei, Gyūki, Kurama, Ten-Tails, Susanoo - Susanoo after the page image, Itachi\'s). '
+          'Palettes are the dominant colours sampled from those images; the images themselves are not part of the mod. Used by '
+          'the full tailed-beast transformations, Susanoo and the story\'s tailed-beast bosses.']
     with open(os.path.join(ROOT, 'docs', 'wiki', 'narutopedia_forms.md'), 'w', encoding='utf-8') as fh:
         fh.write('\n'.join(L) + '\n')
 

@@ -62,6 +62,14 @@
         "fallback": "Defeat Madara Uchiha",
         "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:ten_tails_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Ten-Tails",
+        "translate": "quest.narutorpg.defeat.ten_tails_foe_shippuden"
+      }
     }
   ],
   "order": 138807,

@@ -58,11 +58,13 @@ public record TransformationDefinition(
      * @param geoAttachment   optional GeckoLib attachment model id (Susanoo ribs, tails, wings)
      * @param cloakColor      optional RGB of a translucent shroud drawn over the body (chakra cloaks, curse-mark skin, Kāma)
      * @param cloakAlpha      shroud opacity 0..1
+     * @param model           optional low-poly form model ({@code assets/<ns>/form_models/<path>.json}) drawn instead of the
+     *                        player while the form is active (full tailed beasts, Susanoo)
      */
     public record Visuals(Optional<Identifier> stanceAnimation, int auraColor, float auraIntensity, Optional<Identifier> geoAttachment,
-                          Optional<Integer> cloakColor, float cloakAlpha) {
+                          Optional<Integer> cloakColor, float cloakAlpha, Optional<Identifier> model) {
         public Visuals(Optional<Identifier> stanceAnimation, int auraColor, float auraIntensity, Optional<Identifier> geoAttachment) {
-            this(stanceAnimation, auraColor, auraIntensity, geoAttachment, Optional.empty(), 0.45f);
+            this(stanceAnimation, auraColor, auraIntensity, geoAttachment, Optional.empty(), 0.45f, Optional.empty());
         }
         public static final Visuals NONE = new Visuals(Optional.empty(), 0xFFFFFF, 0f, Optional.empty());
         public static final Codec<Visuals> CODEC = RecordCodecBuilder.create(i -> i.group(
@@ -71,7 +73,8 @@ public record TransformationDefinition(
                 Codec.floatRange(0f, 4f).optionalFieldOf("aura_intensity", 1f).forGetter(Visuals::auraIntensity),
                 Identifier.CODEC.optionalFieldOf("geo_attachment").forGetter(Visuals::geoAttachment),
                 Codec.INT.optionalFieldOf("cloak_color").forGetter(Visuals::cloakColor),
-                Codec.floatRange(0f, 1f).optionalFieldOf("cloak_alpha", 0.45f).forGetter(Visuals::cloakAlpha)
+                Codec.floatRange(0f, 1f).optionalFieldOf("cloak_alpha", 0.45f).forGetter(Visuals::cloakAlpha),
+                Identifier.CODEC.optionalFieldOf("model").forGetter(Visuals::model)
         ).apply(i, Visuals::new));
     }
 

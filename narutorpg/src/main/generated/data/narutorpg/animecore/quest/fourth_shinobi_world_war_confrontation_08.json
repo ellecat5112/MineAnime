@@ -50,6 +50,38 @@
         "fallback": "Train: use 3 techniques",
         "translate": "quest.narutorpg.train"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:matatabi_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Matatabi",
+        "translate": "quest.narutorpg.defeat.matatabi_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:son_goku_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Son Gokū",
+        "translate": "quest.narutorpg.defeat.son_goku_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:kokuo_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Kokuō",
+        "translate": "quest.narutorpg.defeat.kokuo_foe_shippuden"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:chomei_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Chōmei",
+        "translate": "quest.narutorpg.defeat.chomei_foe_shippuden"
+      }
     }
   ],
   "order": 127107,

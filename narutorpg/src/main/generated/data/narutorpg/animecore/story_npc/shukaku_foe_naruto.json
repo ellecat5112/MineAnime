@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "narutorpg:great_roar",
+    "narutorpg:wind_release_drilling_air_bullet",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "model": "narutorpg:shukaku"
+  },
+  "attack": 7.7,
+  "cast_interval": 40,
+  "health": 490.0,
+  "name": {
+    "fallback": "Shukaku",
+    "translate": "npc.narutorpg.shukaku"
+  },
+  "power": 1.38,
+  "role": "boss",
+  "scale": 3.0,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

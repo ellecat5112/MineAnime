@@ -36,6 +36,7 @@
   "npc.narutorpg.chocho_akimichi": "Chōchō Akimichi",
   "npc.narutorpg.choji_akimichi": "Chōji Akimichi",
   "npc.narutorpg.chojuro": "Chōjūrō",
+  "npc.narutorpg.chomei": "Chōmei",
   "npc.narutorpg.choza_akimichi": "Chōza Akimichi",
   "npc.narutorpg.code": "Code",
   "npc.narutorpg.daemon": "Daemon",
@@ -72,6 +73,7 @@
   "npc.narutorpg.gensho_ryudoin": "Genshō Ryūdōin",
   "npc.narutorpg.gozu": "Gozu",
   "npc.narutorpg.guren": "Guren",
+  "npc.narutorpg.gyuki": "Gyūki",
   "npc.narutorpg.hagoromo_otsutsuki": "Hagoromo Ōtsutsuki",
   "npc.narutorpg.haido": "Haido",
   "npc.narutorpg.haku": "Haku",
@@ -112,6 +114,7 @@
   "npc.narutorpg.isari_funato": "Isari Funato",
   "npc.narutorpg.isaribi": "Isaribi",
   "npc.narutorpg.ishidate": "Ishidate",
+  "npc.narutorpg.isobu": "Isobu",
   "npc.narutorpg.isshiki_otsutsuki": "Isshiki Ōtsutsuki",
   "npc.narutorpg.itachi_uchiha": "Itachi Uchiha",
   "npc.narutorpg.iwabee_yuino": "Iwabee Yuino",
@@ -160,6 +163,7 @@
   "npc.narutorpg.kitsuchi": "Kitsuchi",
   "npc.narutorpg.kobu": "Kobu",
   "npc.narutorpg.koji_kashin": "Koji Kashin",
+  "npc.narutorpg.kokuo": "Kokuō",
   "npc.narutorpg.kokuri": "Kokuri",
   "npc.narutorpg.kokuyo_puppeteer": "Kokuyō (puppeteer)",
   "npc.narutorpg.komei": "Kōmei",
@@ -169,6 +173,7 @@
   "npc.narutorpg.kotaro_fuma": "Kōtarō Fūma",
   "npc.narutorpg.koyuki_kazahana": "Koyuki Kazahana",
   "npc.narutorpg.kujaku": "Kujaku",
+  "npc.narutorpg.kurama": "Kurama",
   "npc.narutorpg.kurenai_yuhi": "Kurenai Yūhi",
   "npc.narutorpg.kurobane": "Kurobane",
   "npc.narutorpg.kurotsuchi": "Kurotsuchi",
@@ -180,6 +185,7 @@
   "npc.narutorpg.mahiru": "Mahiru",
   "npc.narutorpg.mamushi": "Mamushi",
   "npc.narutorpg.maroi": "Maroi",
+  "npc.narutorpg.matatabi": "Matatabi",
   "npc.narutorpg.matsuri": "Matsuri",
   "npc.narutorpg.matsuri_god_tree": "Matsuri (God Tree)",
   "npc.narutorpg.mei_terumi": "Mei Terumī",
@@ -248,6 +254,7 @@
   "npc.narutorpg.sabu": "Sabu",
   "npc.narutorpg.sagi": "Sagi",
   "npc.narutorpg.sai": "Sai",
+  "npc.narutorpg.saiken": "Saiken",
   "npc.narutorpg.sakura_haruno": "Sakura Haruno",
   "npc.narutorpg.san": "San",
   "npc.narutorpg.sandayu_asama": "Sandayū Asama",
@@ -280,6 +287,8 @@
   "npc.narutorpg.shizuma_hoshigaki": "Shizuma Hoshigaki",
   "npc.narutorpg.shizune": "Shizune",
   "npc.narutorpg.shojoji": "Shojoji",
+  "npc.narutorpg.shukaku": "Shukaku",
+  "npc.narutorpg.son_goku": "Son Gokū",
   "npc.narutorpg.sora": "Sora",
   "npc.narutorpg.sosha_amino": "Sōsha Amino",
   "npc.narutorpg.suigetsu_hozuki": "Suigetsu Hōzuki",
@@ -1233,6 +1242,7 @@
   "quest.narutorpg.defeat.benga_foe_boruto": "Defeat Benga",
   "quest.narutorpg.defeat.black_zetsu_foe_shippuden": "Defeat Black Zetsu",
   "quest.narutorpg.defeat.boro_foe_boruto": "Defeat Boro",
+  "quest.narutorpg.defeat.chomei_foe_shippuden": "Subdue Chōmei",
   "quest.narutorpg.defeat.code_foe_boruto": "Defeat Code",
   "quest.narutorpg.defeat.daemon_foe_boruto": "Defeat Daemon",
   "quest.narutorpg.defeat.danzo_shimura_foe_shippuden": "Defeat Danzō Shimura",
@@ -1254,6 +1264,7 @@
   "quest.narutorpg.defeat.gensho_ryudoin_foe_naruto": "Defeat Genshō Ryūdōin",
   "quest.narutorpg.defeat.gozu_foe_shippuden": "Defeat Gozu",
   "quest.narutorpg.defeat.guren_foe_shippuden": "Defeat Guren",
+  "quest.narutorpg.defeat.gyuki_foe_shippuden": "Subdue Gyūki",
   "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_movies": "Defeat Hagoromo Ōtsutsuki",
   "quest.narutorpg.defeat.hagoromo_otsutsuki_foe_shippuden": "Defeat Hagoromo Ōtsutsuki",
   "quest.narutorpg.defeat.haku_foe_naruto": "Defeat Haku",
@@ -1272,6 +1283,7 @@
   "quest.narutorpg.defeat.indra_otsutsuki_foe_movies": "Defeat Indra Ōtsutsuki",
   "quest.narutorpg.defeat.isari_funato_foe_boruto": "Defeat Isari Funato",
   "quest.narutorpg.defeat.ishidate_foe_movies": "Defeat Ishidate",
+  "quest.narutorpg.defeat.isobu_foe_shippuden": "Subdue Isobu",
   "quest.narutorpg.defeat.isshiki_otsutsuki_foe_boruto": "Defeat Isshiki Ōtsutsuki",
   "quest.narutorpg.defeat.itachi_uchiha_foe_naruto": "Defeat Itachi Uchiha",
   "quest.narutorpg.defeat.itachi_uchiha_foe_shippuden": "Defeat Itachi Uchiha",
@@ -1306,15 +1318,18 @@
   "quest.narutorpg.defeat.kisame_hoshigaki_foe_shippuden": "Defeat Kisame Hoshigaki",
   "quest.narutorpg.defeat.kiseru_gankubi_foe_boruto": "Defeat Kiseru Gankubi",
   "quest.narutorpg.defeat.koji_kashin_foe_boruto": "Defeat Koji Kashin",
+  "quest.narutorpg.defeat.kokuo_foe_shippuden": "Subdue Kokuō",
   "quest.narutorpg.defeat.kokuyo_puppeteer_foe_shippuden": "Defeat Kokuyō (puppeteer)",
   "quest.narutorpg.defeat.konan_foe_shippuden": "Defeat Konan",
   "quest.narutorpg.defeat.kujaku_foe_shippuden": "Defeat Kujaku",
+  "quest.narutorpg.defeat.kurama_foe_shippuden": "Subdue Kurama",
   "quest.narutorpg.defeat.kurobane_foe_boruto": "Defeat Kurobane",
   "quest.narutorpg.defeat.kusune_foe_shippuden": "Defeat Kusune",
   "quest.narutorpg.defeat.lyla_foe_boruto": "Defeat Lyla",
   "quest.narutorpg.defeat.madara_uchiha_foe_movies": "Defeat Madara Uchiha",
   "quest.narutorpg.defeat.madara_uchiha_foe_shippuden": "Defeat Madara Uchiha",
   "quest.narutorpg.defeat.mamushi_foe_boruto": "Defeat Mamushi",
+  "quest.narutorpg.defeat.matatabi_foe_shippuden": "Subdue Matatabi",
   "quest.narutorpg.defeat.matsuri_god_tree_foe_boruto": "Defeat Matsuri (God Tree)",
   "quest.narutorpg.defeat.menma_uzumaki_foe_movies": "Defeat Menma Uzumaki",
   "quest.narutorpg.defeat.misumi_tsurugi_foe_naruto": "Defeat Misumi Tsurugi",
@@ -1354,6 +1369,7 @@
   "quest.narutorpg.defeat.ryuzetsu_foe_movies": "Defeat Ryūzetsu",
   "quest.narutorpg.defeat.sabiru_foe_shippuden": "Defeat Sabiru",
   "quest.narutorpg.defeat.sabu_foe_shippuden": "Defeat Sabu",
+  "quest.narutorpg.defeat.saiken_foe_shippuden": "Subdue Saiken",
   "quest.narutorpg.defeat.san_foe_movies": "Defeat San",
   "quest.narutorpg.defeat.sara_foe_movies": "Defeat Sāra",
   "quest.narutorpg.defeat.sasori_foe_shippuden": "Defeat Sasori",
@@ -1372,13 +1388,16 @@
   "quest.narutorpg.defeat.shizuka_foe_shippuden": "Defeat Shizuka",
   "quest.narutorpg.defeat.shizuma_hoshigaki_foe_boruto": "Defeat Shizuma Hoshigaki",
   "quest.narutorpg.defeat.shojoji_foe_boruto": "Defeat Shojoji",
+  "quest.narutorpg.defeat.shukaku_foe_naruto": "Subdue Shukaku",
+  "quest.narutorpg.defeat.shukaku_foe_shippuden": "Subdue Shukaku",
+  "quest.narutorpg.defeat.son_goku_foe_shippuden": "Subdue Son Gokū",
   "quest.narutorpg.defeat.suigetsu_hozuki_foe_shippuden": "Defeat Suigetsu Hōzuki",
   "quest.narutorpg.defeat.suika_foe_shippuden": "Defeat Suika",
   "quest.narutorpg.defeat.sumaru_foe_naruto": "Defeat Sumaru",
   "quest.narutorpg.defeat.suzumebachi_foe_naruto": "Defeat Suzumebachi",
   "quest.narutorpg.defeat.tayuya_foe_naruto": "Defeat Tayuya",
   "quest.narutorpg.defeat.temujin_foe_movies": "Defeat Temujin",
-  "quest.narutorpg.defeat.ten_tails_foe_shippuden": "Defeat Ten-Tails",
+  "quest.narutorpg.defeat.ten_tails_foe_shippuden": "Subdue Ten-Tails",
   "quest.narutorpg.defeat.tobi_zetsu_foe_shippuden": "Defeat Tobi (Zetsu)",
   "quest.narutorpg.defeat.toki_shinobazu_foe_naruto": "Defeat Toki (Shinobazu)",
   "quest.narutorpg.defeat.tokiwa_foe_shippuden": "Defeat Tokiwa",
@@ -7817,6 +7836,35 @@
    "speed": 0.34,
    "system": "narutorpg"
   },
+  "chomei_foe_shippuden": {
+   "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:spear_attack_shining_horn",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:chomei"
+   },
+   "attack": 11.2,
+   "cast_interval": 40,
+   "health": 749,
+   "name": {
+    "fallback": "Chōmei",
+    "translate": "npc.narutorpg.chomei"
+   },
+   "power": 1.74,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
   "choza_akimichi_ally_movies": {
    "abilities": [
     "narutorpg:butterfly_bullet_bombing",
@@ -9206,6 +9254,35 @@
    },
    "power": 1.38,
    "role": "boss",
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
+  "gyuki_foe_shippuden": {
+   "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:tailed_beast_chakra_arms",
+    "narutorpg:tailed_beast_eight_twists",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:gyuki"
+   },
+   "attack": 8.9,
+   "cast_interval": 40,
+   "health": 576,
+   "name": {
+    "fallback": "Gyūki",
+    "translate": "npc.narutorpg.gyuki"
+   },
+   "power": 1.5,
+   "role": "boss",
+   "scale": 3.0,
    "speed": 0.32,
    "system": "narutorpg",
    "title": {
@@ -10874,6 +10951,35 @@
    },
    "power": 1.14,
    "role": "boss",
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
+  "isobu_foe_shippuden": {
+   "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:illusionary_mist",
+    "narutorpg:leaping_bullet_shell_tower",
+    "narutorpg:shadow_stroke",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:isobu"
+   },
+   "attack": 7.7,
+   "cast_interval": 40,
+   "health": 490,
+   "name": {
+    "fallback": "Isobu",
+    "translate": "npc.narutorpg.isobu"
+   },
+   "power": 1.38,
+   "role": "boss",
+   "scale": 3.0,
    "speed": 0.32,
    "system": "narutorpg",
    "title": {
@@ -13120,6 +13226,35 @@
     "translate": "npc.narutorpg.title.boss"
    }
   },
+  "kokuo_foe_shippuden": {
+   "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:horn_breaking",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_chakra_arms",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:boil_release_unrivalled_strength"
+   ],
+   "appearance": {
+    "model": "narutorpg:kokuo"
+   },
+   "attack": 11.2,
+   "cast_interval": 40,
+   "health": 749,
+   "name": {
+    "fallback": "Kokuō",
+    "translate": "npc.narutorpg.kokuo"
+   },
+   "power": 1.74,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
   "kokuri": {
    "abilities": [],
    "appearance": {
@@ -13431,6 +13566,35 @@
    "title": {
     "fallback": "",
     "translate": "npc.narutorpg.title.foe"
+   }
+  },
+  "kurama_foe_shippuden": {
+   "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_roar",
+    "narutorpg:nine_tails_beam",
+    "narutorpg:nine_tails_twister",
+    "narutorpg:tailed_beast_chakra_arms",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:kurama"
+   },
+   "attack": 10.0,
+   "cast_interval": 40,
+   "health": 662,
+   "name": {
+    "fallback": "Kurama",
+    "translate": "npc.narutorpg.kurama"
+   },
+   "power": 1.62,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
    }
   },
   "kurenai_yuhi": {
@@ -13819,6 +13983,35 @@
    "role": "ally",
    "speed": 0.34,
    "system": "narutorpg"
+  },
+  "matatabi_foe_shippuden": {
+   "abilities": [
+    "narutorpg:cat_claw",
+    "narutorpg:cat_flame_roaring_fire",
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:great_cat_claw_attack",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:matatabi"
+   },
+   "attack": 7.7,
+   "cast_interval": 40,
+   "health": 490,
+   "name": {
+    "fallback": "Matatabi",
+    "translate": "npc.narutorpg.matatabi"
+   },
+   "power": 1.38,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
   },
   "matsuri_ally_shippuden": {
    "abilities": [
@@ -16716,6 +16909,35 @@
    "speed": 0.34,
    "system": "narutorpg"
   },
+  "saiken_foe_shippuden": {
+   "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:poison_mist",
+    "narutorpg:soap_bubble_ninjutsu",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:saiken"
+   },
+   "attack": 8.9,
+   "cast_interval": 40,
+   "health": 576,
+   "name": {
+    "fallback": "Saiken",
+    "translate": "npc.narutorpg.saiken"
+   },
+   "power": 1.5,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
   "sakura_haruno": {
    "abilities": [],
    "appearance": {
@@ -18460,6 +18682,89 @@
     "translate": "npc.narutorpg.title.foe"
    }
   },
+  "shukaku_foe_naruto": {
+   "abilities": [
+    "narutorpg:great_roar",
+    "narutorpg:wind_release_drilling_air_bullet",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:shukaku"
+   },
+   "attack": 7.7,
+   "cast_interval": 40,
+   "health": 490,
+   "name": {
+    "fallback": "Shukaku",
+    "translate": "npc.narutorpg.shukaku"
+   },
+   "power": 1.38,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
+  "shukaku_foe_shippuden": {
+   "abilities": [
+    "narutorpg:great_roar",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:wind_release_drilling_air_bullet",
+    "narutorpg:wind_release_sand_buckshot",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:shukaku"
+   },
+   "attack": 7.7,
+   "cast_interval": 40,
+   "health": 490,
+   "name": {
+    "fallback": "Shukaku",
+    "translate": "npc.narutorpg.shukaku"
+   },
+   "power": 1.38,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
+  "son_goku_foe_shippuden": {
+   "abilities": [
+    "narutorpg:monkey_flame_arson",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:chakra_transfer_technique"
+   ],
+   "appearance": {
+    "model": "narutorpg:son_goku"
+   },
+   "attack": 11.2,
+   "cast_interval": 40,
+   "health": 749,
+   "name": {
+    "fallback": "Son Gokū",
+    "translate": "npc.narutorpg.son_goku"
+   },
+   "power": 1.74,
+   "role": "boss",
+   "scale": 3.0,
+   "speed": 0.32,
+   "system": "narutorpg",
+   "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+   }
+  },
   "sora": {
    "abilities": [],
    "appearance": {
@@ -19023,15 +19328,7 @@
     "narutorpg:tailed_beast_heavy_cannon"
    ],
    "appearance": {
-    "accent": 2635155,
-    "eyes": 1118481,
-    "hair": 12986408,
-    "hair_style": "short",
-    "mark": "red_eyes",
-    "outfit": "shirt",
-    "pants": 3622735,
-    "skin": 13010498,
-    "top": 7162945
+    "model": "narutorpg:ten_tails"
    },
    "attack": 15,
    "cast_interval": 60,
@@ -19042,7 +19339,7 @@
    },
    "power": 2.32,
    "role": "ally",
-   "scale": 2.2,
+   "scale": 3.0,
    "speed": 0.34,
    "system": "narutorpg"
   },
@@ -19055,15 +19352,7 @@
     "narutorpg:truth_seeking_ball"
    ],
    "appearance": {
-    "accent": 2635155,
-    "eyes": 1118481,
-    "hair": 12986408,
-    "hair_style": "short",
-    "mark": "red_eyes",
-    "outfit": "shirt",
-    "pants": 3622735,
-    "skin": 13010498,
-    "top": 7162945
+    "model": "narutorpg:ten_tails"
    },
    "attack": 10.0,
    "cast_interval": 40,
@@ -19074,7 +19363,7 @@
    },
    "power": 1.62,
    "role": "boss",
-   "scale": 2.2,
+   "scale": 3.0,
    "speed": 0.32,
    "system": "narutorpg",
    "title": {
@@ -22105,6 +22394,14 @@
       "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
      },
      "type": "defeat"
+    },
+    {
+     "target": "narutorpg:matatabi_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Matatabi",
+      "translate": "quest.narutorpg.defeat.matatabi_foe_shippuden"
+     },
+     "type": "defeat"
     }
    ],
    "order": 108204,
@@ -23482,6 +23779,14 @@
      "text": {
       "fallback": "Defeat Madara Uchiha",
       "translate": "quest.narutorpg.defeat.madara_uchiha_foe_shippuden"
+     },
+     "type": "defeat"
+    },
+    {
+     "target": "narutorpg:ten_tails_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Ten-Tails",
+      "translate": "quest.narutorpg.defeat.ten_tails_foe_shippuden"
      },
      "type": "defeat"
     }
@@ -28064,6 +28369,14 @@
       "translate": "quest.narutorpg.minion.shippuden"
      },
      "type": "defeat"
+    },
+    {
+     "target": "narutorpg:gyuki_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Gyūki",
+      "translate": "quest.narutorpg.defeat.gyuki_foe_shippuden"
+     },
+     "type": "defeat"
     }
    ],
    "order": 114403,
@@ -30585,6 +30898,38 @@
       "translate": "quest.narutorpg.train"
      },
      "type": "use_ability"
+    },
+    {
+     "target": "narutorpg:matatabi_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Matatabi",
+      "translate": "quest.narutorpg.defeat.matatabi_foe_shippuden"
+     },
+     "type": "defeat"
+    },
+    {
+     "target": "narutorpg:son_goku_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Son Gokū",
+      "translate": "quest.narutorpg.defeat.son_goku_foe_shippuden"
+     },
+     "type": "defeat"
+    },
+    {
+     "target": "narutorpg:kokuo_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Kokuō",
+      "translate": "quest.narutorpg.defeat.kokuo_foe_shippuden"
+     },
+     "type": "defeat"
+    },
+    {
+     "target": "narutorpg:chomei_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Chōmei",
+      "translate": "quest.narutorpg.defeat.chomei_foe_shippuden"
+     },
+     "type": "defeat"
     }
    ],
    "order": 127107,
@@ -40403,6 +40748,14 @@
       "translate": "quest.narutorpg.defeat.deidara_foe_shippuden"
      },
      "type": "defeat"
+    },
+    {
+     "target": "narutorpg:shukaku_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Shukaku",
+      "translate": "quest.narutorpg.defeat.shukaku_foe_shippuden"
+     },
+     "type": "defeat"
     }
    ],
    "order": 101105,
@@ -40676,6 +41029,14 @@
      "text": {
       "fallback": "Defeat Orochimaru",
       "translate": "quest.narutorpg.defeat.orochimaru_foe_naruto"
+     },
+     "type": "defeat"
+    },
+    {
+     "target": "narutorpg:shukaku_foe_naruto",
+     "text": {
+      "fallback": "Subdue Shukaku",
+      "translate": "quest.narutorpg.defeat.shukaku_foe_naruto"
      },
      "type": "defeat"
     }
@@ -53083,6 +53444,14 @@
       "translate": "quest.narutorpg.defeat.sasuke_uchiha_foe_shippuden"
      },
      "type": "defeat"
+    },
+    {
+     "target": "narutorpg:kurama_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Kurama",
+      "translate": "quest.narutorpg.defeat.kurama_foe_shippuden"
+     },
+     "type": "defeat"
     }
    ],
    "order": 116204,
@@ -63335,6 +63704,14 @@
       "translate": "quest.narutorpg.defeat.shiranami_foe_shippuden"
      },
      "type": "defeat"
+    },
+    {
+     "target": "narutorpg:saiken_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Saiken",
+      "translate": "quest.narutorpg.defeat.saiken_foe_shippuden"
+     },
+     "type": "defeat"
     }
    ],
    "order": 115407,
@@ -69704,6 +70081,14 @@
      "text": {
       "fallback": "Defeat Yūkimaru",
       "translate": "quest.narutorpg.defeat.yukimaru_foe_shippuden"
+     },
+     "type": "defeat"
+    },
+    {
+     "target": "narutorpg:isobu_foe_shippuden",
+     "text": {
+      "fallback": "Subdue Isobu",
+      "translate": "quest.narutorpg.defeat.isobu_foe_shippuden"
      },
      "type": "defeat"
     }

@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "narutorpg:monkey_flame_arson",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "model": "narutorpg:son_goku"
+  },
+  "attack": 11.2,
+  "cast_interval": 40,
+  "health": 749.0,
+  "name": {
+    "fallback": "Son Gokū",
+    "translate": "npc.narutorpg.son_goku"
+  },
+  "power": 1.74,
+  "role": "boss",
+  "scale": 3.0,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

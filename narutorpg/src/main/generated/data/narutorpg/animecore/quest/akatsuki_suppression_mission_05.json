@@ -62,6 +62,14 @@
         "fallback": "Defeat Hidan",
         "translate": "quest.narutorpg.defeat.hidan_foe_shippuden"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:matatabi_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Matatabi",
+        "translate": "quest.narutorpg.defeat.matatabi_foe_shippuden"
+      }
     }
   ],
   "order": 108204,

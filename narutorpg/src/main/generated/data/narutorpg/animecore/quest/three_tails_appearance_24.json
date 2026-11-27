@@ -54,6 +54,14 @@
         "fallback": "Defeat Yūkimaru",
         "translate": "quest.narutorpg.defeat.yukimaru_foe_shippuden"
       }
+    },
+    {
+      "type": "defeat",
+      "target": "narutorpg:isobu_foe_shippuden",
+      "text": {
+        "fallback": "Subdue Isobu",
+        "translate": "quest.narutorpg.defeat.isobu_foe_shippuden"
+      }
     }
   ],
   "order": 109923,

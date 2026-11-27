@@ -70,7 +70,6 @@
   "visuals": {
     "aura_color": 13148506,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 13148506
+    "model": "narutorpg:shukaku"
   }
 }

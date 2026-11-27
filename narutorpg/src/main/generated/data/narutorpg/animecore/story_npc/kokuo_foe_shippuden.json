@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:horn_breaking",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_chakra_arms",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:boil_release_unrivalled_strength"
+  ],
+  "appearance": {
+    "model": "narutorpg:kokuo"
+  },
+  "attack": 11.2,
+  "cast_interval": 40,
+  "health": 749.0,
+  "name": {
+    "fallback": "Kokuō",
+    "translate": "npc.narutorpg.kokuo"
+  },
+  "power": 1.74,
+  "role": "boss",
+  "scale": 3.0,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "narutorpg:cooperation_tailed_beast_ball",
+    "narutorpg:spear_attack_shining_horn",
+    "narutorpg:tailed_beast_ball",
+    "narutorpg:tailed_beast_full_charge",
+    "narutorpg:tailed_beast_telepathy",
+    "narutorpg:chakra_transfer_technique"
+  ],
+  "appearance": {
+    "model": "narutorpg:chomei"
+  },
+  "attack": 11.2,
+  "cast_interval": 40,
+  "health": 749.0,
+  "name": {
+    "fallback": "Chōmei",
+    "translate": "npc.narutorpg.chomei"
+  },
+  "power": 1.74,
+  "role": "boss",
+  "scale": 3.0,
+  "speed": 0.32,
+  "system": "narutorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.narutorpg.title.boss"
+  }
+}

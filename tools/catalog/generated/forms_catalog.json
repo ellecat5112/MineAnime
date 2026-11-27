@@ -332,8 +332,7 @@
    "visuals": {
     "aura_color": 58998,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 58998
+    "model": "narutorpg:chomei"
    }
   },
   "chomei_version_1": {
@@ -996,8 +995,7 @@
    "visuals": {
     "aura_color": 9315498,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 9315498
+    "model": "narutorpg:gyuki"
    }
   },
   "gyuki_version_1": {
@@ -1281,8 +1279,7 @@
    "visuals": {
     "aura_color": 2533018,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 2533018
+    "model": "narutorpg:isobu"
    }
   },
   "isobu_version_1": {
@@ -1692,8 +1689,7 @@
    "visuals": {
     "aura_color": 15527921,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 15527921
+    "model": "narutorpg:kokuo"
    }
   },
   "kokuo_version_1": {
@@ -1954,8 +1950,7 @@
    "visuals": {
     "aura_color": 16739584,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 16739584
+    "model": "narutorpg:kurama"
    }
   },
   "kurama_version_1": {
@@ -2239,8 +2234,7 @@
    "visuals": {
     "aura_color": 2718207,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 2718207
+    "model": "narutorpg:matatabi"
    }
   },
   "matatabi_version_1": {
@@ -2913,8 +2907,7 @@
    "visuals": {
     "aura_color": 13041408,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 13041408
+    "model": "narutorpg:saiken"
    }
   },
   "saiken_version_1": {
@@ -3262,8 +3255,7 @@
    "visuals": {
     "aura_color": 13148506,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 13148506
+    "model": "narutorpg:shukaku"
    }
   },
   "shukaku_version_1": {
@@ -3664,8 +3656,7 @@
    "visuals": {
     "aura_color": 15092249,
     "aura_intensity": 1.6,
-    "cloak_alpha": 0.85,
-    "cloak_color": 15092249
+    "model": "narutorpg:son_goku"
    }
   },
   "son_goku_version_1": {
@@ -3867,8 +3858,7 @@
    "visuals": {
     "aura_color": 8280002,
     "aura_intensity": 1.5,
-    "cloak_alpha": 0.55,
-    "cloak_color": 9795021
+    "model": "narutorpg:susanoo"
    }
   },
   "ten_tails_jinchuriki": {
