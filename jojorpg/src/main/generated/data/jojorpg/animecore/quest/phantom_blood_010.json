@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t2"
+  ],
+  "arc": {
+    "fallback": "The Stone Mask",
+    "translate": "quest.jojorpg.arc.the_stone_mask"
+  },
+  "description": {
+    "fallback": "The man Dio put the Stone Mask on falls down after his head is impaled by the Mask's spikes and the brief light emitted from within it completely disappears. He appears dead, and Dio concludes that although Jonathan poured so much research into the Mask, it seems to be simply a tool used for torture and execution. As Dio walks away, the bum gets back up and attacks him from behind.",
+    "translate": "quest.jojorpg.phantom_blood_010.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "The man Dio put the Stone Mask on falls down after his head is impaled by the Mask's spikes and the brief light emitted from within it completely disappears.",
+      "translate": "quest.jojorpg.phantom_blood_010.intro0"
+    },
+    {
+      "fallback": "He appears dead, and Dio concludes that although Jonathan poured so much research into the Mask, it seems to be simply a tool used for torture and execution.",
+      "translate": "quest.jojorpg.phantom_blood_010.intro1"
+    },
+    {
+      "fallback": "As Dio walks away, the bum gets back up and attacks him from behind.",
+      "translate": "quest.jojorpg.phantom_blood_010.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "10. The Stone Mask, Part 3",
+    "translate": "quest.jojorpg.phantom_blood_010"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_010.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Head out: The Stone Mask, Part 3",
+        "translate": "quest.jojorpg.phantom_blood_010.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:thug_phantom_blood",
+      "text": {
+        "fallback": "Beat up the thugs",
+        "translate": "quest.jojorpg.minion.thug"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2_human"
+      }
+    }
+  ],
+  "order": 100,
+  "outro": [
+    {
+      "fallback": "Meanwhile, Jonathan has returned to the Joestar Mansion with Speedwagon and the man who sold Dio the .",
+      "translate": "quest.jojorpg.phantom_blood_010.outro0"
+    },
+    {
+      "fallback": "He awaits the return of his foe and adopted brother.",
+      "translate": "quest.jojorpg.phantom_blood_010.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_009"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

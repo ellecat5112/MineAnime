@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t7",
+    "jojorpg:caesar_anthonio_zeppeli_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "Joseph launches one of his Ripple clackers at Wamuu, who easily dodges with a slight tilt of his head. Joseph explains that his Ripple is still fairly weak, but, the clacker will enable him to rip through the Pillar Men's protective skin and hurt them. The Pillar Men are amused at the sight of such an unorthodox weapon and wonder if the human race has evolved backwards.",
+    "translate": "quest.jojorpg.battle_tendency_068.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Joseph launches one of his Ripple clackers at Wamuu, who easily dodges with a slight tilt of his head.",
+      "translate": "quest.jojorpg.battle_tendency_068.intro0"
+    },
+    {
+      "fallback": "Joseph explains that his Ripple is still fairly weak, but, the clacker will enable him to rip through the Pillar Men's protective skin and hurt them.",
+      "translate": "quest.jojorpg.battle_tendency_068.intro1"
+    },
+    {
+      "fallback": "The Pillar Men are amused at the sight of such an unorthodox weapon and wonder if the human race has evolved backwards.",
+      "translate": "quest.jojorpg.battle_tendency_068.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "68. Ultimate Warriors from Ancient Times, Part 4",
+    "translate": "quest.jojorpg.battle_tendency_068"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_068.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Ultimate Warriors from Ancient Times, Part 4",
+        "translate": "quest.jojorpg.battle_tendency_068.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t7",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t7"
+      }
+    }
+  ],
+  "order": 100680,
+  "outro": [
+    {
+      "fallback": "Joseph then continuously beats Wamuu with his clacker, but is unable to see that Wamuu merely allowed himself to be hit as punishment for his lack of caution.",
+      "translate": "quest.jojorpg.battle_tendency_068.outro0"
+    },
+    {
+      "fallback": "Angry, Wamuu prepares to launch an attack.",
+      "translate": "quest.jojorpg.battle_tendency_068.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_067"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

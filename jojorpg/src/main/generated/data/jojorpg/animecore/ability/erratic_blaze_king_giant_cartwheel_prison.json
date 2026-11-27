@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 16740419,
+      "count": 5,
+      "damage": 5.0,
+      "fire_ticks": 80,
+      "lifetime_ticks": 30,
+      "size": 0.4,
+      "spread_degrees": 8.0,
+      "trail_particle": "minecraft:flame"
+    }
+  ],
+  "affinity": "jojorpg:heat",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 139,
+  "cost": {
+    "amount": 27.3,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Erratic Blaze King: Giant Cartwheel Prison",
+    "translate": "ability.jojorpg.erratic_blaze_king_giant_cartwheel_prison"
+  },
+  "required_tier": 7,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:loggins_ally_t7",
+    "jojorpg:joseph_joestar_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Flame Mode Esidisi",
+    "translate": "quest.jojorpg.arc.flame_mode_esidisi"
+  },
+  "description": {
+    "fallback": "Joseph reasons that Esidisi must be after the Red Stone of Aja. This is confirmed when Esidisi discards Loggins's body and heads towards Air Supplena Island. Joseph notices that Loggins's lungs along with a good portion of his chest were absorbed through Esidisi's kick, leaving a perfect hole in his chest.",
+    "translate": "quest.jojorpg.battle_tendency_077.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph reasons that Esidisi must be after the Red Stone of Aja.",
+      "translate": "quest.jojorpg.battle_tendency_077.intro0"
+    },
+    {
+      "fallback": "This is confirmed when Esidisi discards Loggins's body and heads towards Air Supplena Island.",
+      "translate": "quest.jojorpg.battle_tendency_077.intro1"
+    },
+    {
+      "fallback": "Joseph notices that Loggins's lungs along with a good portion of his chest were absorbed through Esidisi's kick, leaving a perfect hole in his chest.",
+      "translate": "quest.jojorpg.battle_tendency_077.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "77. Go! Ripple Master",
+    "translate": "quest.jojorpg.battle_tendency_077"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_077.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Go! Ripple Master",
+        "translate": "quest.jojorpg.battle_tendency_077.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:esidisi_foe_t7",
+      "text": {
+        "fallback": "Defeat Esidisi",
+        "translate": "quest.jojorpg.defeat.esidisi_foe_t7"
+      }
+    }
+  ],
+  "order": 100770,
+  "outro": [
+    {
+      "fallback": "Esidisi wonders how he missed the wire this whole time, but then notices the wire was originally tied to Loggins's corpse and was unwound from his hand.",
+      "translate": "quest.jojorpg.battle_tendency_077.outro0"
+    },
+    {
+      "fallback": "Joseph charges the silk wire with Ripple energy and pulls the wire so that it severs Esidisi’s lower arm.",
+      "translate": "quest.jojorpg.battle_tendency_077.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_076"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

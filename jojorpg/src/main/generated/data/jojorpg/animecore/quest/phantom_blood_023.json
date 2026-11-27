@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t3",
+    "jojorpg:robert_e_o_speedwagon_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Ripple Overdrive",
+    "translate": "quest.jojorpg.arc.ripple_overdrive"
+  },
+  "description": {
+    "fallback": "Zeppeli tells Jonathan that the only way to beat a vampire—or a zombie, in this case—is to destroy the brain completely. Jack the Ripper, still alive, grabs onto the sword embedded in the tunnel's ceiling. He pulls it down, revealing a secret passage that he then runs into.",
+    "translate": "quest.jojorpg.phantom_blood_023.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Zeppeli tells Jonathan that the only way to beat a vampire—or a zombie, in this case—is to destroy the brain completely.",
+      "translate": "quest.jojorpg.phantom_blood_023.intro0"
+    },
+    {
+      "fallback": "Jack the Ripper, still alive, grabs onto the sword embedded in the tunnel's ceiling.",
+      "translate": "quest.jojorpg.phantom_blood_023.intro1"
+    },
+    {
+      "fallback": "He pulls it down, revealing a secret passage that he then runs into.",
+      "translate": "quest.jojorpg.phantom_blood_023.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "23. Ripple Overdrive, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_023"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_023.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Ripple Overdrive, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_023.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t3",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t3"
+      }
+    }
+  ],
+  "order": 230,
+  "outro": [
+    {
+      "fallback": "Jonathan extinguishes the torch in an attempt to avoid giving away his position again, but quickly realizes that, without the light, he cannot tell where Jack is hiding either.",
+      "translate": "quest.jojorpg.phantom_blood_023.outro0"
+    },
+    {
+      "fallback": "Though he attemp",
+      "translate": "quest.jojorpg.phantom_blood_023.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_022"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

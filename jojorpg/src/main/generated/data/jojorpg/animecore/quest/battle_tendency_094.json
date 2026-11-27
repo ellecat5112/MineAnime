@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "Joseph and Lisa Lisa head further into the hotel to defeat Kars and Wamuu. The two see a blood trail and follow it to a door with a strange hand-shaped doorknob. When JoJo grabs the doorknob, the door yells at him, claiming not to be a door.",
+    "translate": "quest.jojorpg.battle_tendency_094.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph and Lisa Lisa head further into the hotel to defeat Kars and Wamuu.",
+      "translate": "quest.jojorpg.battle_tendency_094.intro0"
+    },
+    {
+      "fallback": "The two see a blood trail and follow it to a door with a strange hand-shaped doorknob.",
+      "translate": "quest.jojorpg.battle_tendency_094.intro1"
+    },
+    {
+      "fallback": "When JoJo grabs the doorknob, the door yells at him, claiming not to be a door.",
+      "translate": "quest.jojorpg.battle_tendency_094.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "94. Climb Out of the Fortified Hotel",
+    "translate": "quest.jojorpg.battle_tendency_094"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_094.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Climb Out of the Fortified Hotel",
+        "translate": "quest.jojorpg.battle_tendency_094.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 100940,
+  "outro": [
+    {
+      "fallback": "Lisa Lisa then asks JoJo why he hadn't yet drank the antidote.",
+      "translate": "quest.jojorpg.battle_tendency_094.outro0"
+    },
+    {
+      "fallback": "He proclaims that the ring no longer represents his promise to Wamuu, but that it represents a promise to Caesar to defeat Wamuu and survive.",
+      "translate": "quest.jojorpg.battle_tendency_094.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_093"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

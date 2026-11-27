@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "jojorpg:overdrive",
+    "jojorpg:zoom_punch"
+  ],
+  "appearance": {
+    "accent": 5125166,
+    "hair": 6111287,
+    "hair_style": "bald",
+    "pants": 4073251,
+    "top": 7951688
+  },
+  "attack": 13.0,
+  "health": 186.0,
+  "name": {
+    "fallback": "Messina",
+    "translate": "npc.jojorpg.messina"
+  },
+  "power": 2.08,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

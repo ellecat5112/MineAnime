@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:venomous_snakes"
+  ],
+  "appearance": {
+    "accent": 4073251,
+    "eyes": 12986408,
+    "hair": 4073251,
+    "hair_style": "wild",
+    "mark": "red_eyes",
+    "pants": 4073251,
+    "skin": 10335626,
+    "top": 6111287
+  },
+  "attack": 6.6,
+  "cast_interval": 70,
+  "health": 102.0,
+  "name": {
+    "fallback": "Doobie",
+    "translate": "npc.jojorpg.doobie"
+  },
+  "power": 1.38,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  },
+  "undead": true
+}

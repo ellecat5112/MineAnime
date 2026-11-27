@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 2,
+          "duration": 160,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 81,
+  "cost": {
+    "amount": 11.4,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Presence Erasing",
+    "translate": "ability.jojorpg.presence_erasing"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

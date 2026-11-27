@@ -1,0 +1,158 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:undead"
+    },
+    {
+      "type": "animecore:sunlight_weakness",
+      "damage_per_second": 4.0
+    },
+    {
+      "type": "animecore:lifesteal",
+      "energy": 6.0,
+      "heal_fraction": 0.3,
+      "pool": "jojorpg:blood"
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.0
+    },
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:night_vision"
+    }
+  ],
+  "color": 12000284,
+  "description": {
+    "fallback": "The Stone Mask made you immortal: monstrous strength, regeneration and blood that heals you with every bite - but the sun turns you to ash and the Ripple burns.",
+    "translate": "lineage.jojorpg.vampire.desc"
+  },
+  "granted_abilities": [
+    "jojorpg:claws",
+    "jojorpg:hypnosis"
+  ],
+  "innate_affinities": [
+    "jojorpg:vampirism"
+  ],
+  "name": {
+    "fallback": "Vampire",
+    "translate": "lineage.jojorpg.vampire"
+  },
+  "progression": [
+    {
+      "ability": "jojorpg:medieval_pincer",
+      "required_tier": 2,
+      "skill_level": 2
+    },
+    {
+      "ability": "jojorpg:scalpels",
+      "required_tier": 2,
+      "skill_level": 4
+    },
+    {
+      "ability": "jojorpg:danse_macab_hair",
+      "required_tier": 3,
+      "skill_level": 6
+    },
+    {
+      "ability": "jojorpg:hell_heaven_snake_kill",
+      "required_tier": 3,
+      "skill_level": 8
+    },
+    {
+      "ability": "jojorpg:luck",
+      "required_tier": 3,
+      "skill_level": 10
+    },
+    {
+      "ability": "jojorpg:vaporization_freezing_technique",
+      "required_tier": 3,
+      "skill_level": 12
+    },
+    {
+      "ability": "jojorpg:axe_wielding",
+      "required_tier": 4,
+      "skill_level": 14
+    },
+    {
+      "ability": "jojorpg:body_spikes",
+      "required_tier": 4,
+      "skill_level": 16
+    },
+    {
+      "ability": "jojorpg:electrified_halberd",
+      "required_tier": 4,
+      "skill_level": 18
+    },
+    {
+      "ability": "jojorpg:flesh_transmutation",
+      "required_tier": 4,
+      "skill_level": 20
+    },
+    {
+      "ability": "jojorpg:head_twisting",
+      "required_tier": 4,
+      "skill_level": 22
+    },
+    {
+      "ability": "jojorpg:intangibility",
+      "required_tier": 4,
+      "skill_level": 24
+    },
+    {
+      "ability": "jojorpg:needle_vein_strike",
+      "required_tier": 4,
+      "skill_level": 26
+    },
+    {
+      "ability": "jojorpg:poisonous_scimitar",
+      "required_tier": 4,
+      "skill_level": 28
+    },
+    {
+      "ability": "jojorpg:space_ripper_stingy_eyes",
+      "required_tier": 4,
+      "skill_level": 30
+    },
+    {
+      "ability": "jojorpg:tongue_manipulation",
+      "required_tier": 4,
+      "skill_level": 32
+    },
+    {
+      "ability": "jojorpg:venomous_snakes",
+      "required_tier": 4,
+      "skill_level": 34
+    },
+    {
+      "ability": "jojorpg:zombie_vampire_creation",
+      "required_tier": 4,
+      "skill_level": 36
+    }
+  ],
+  "selectable": false,
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.15,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 8.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.25
+    }
+  ],
+  "weight": 0
+}

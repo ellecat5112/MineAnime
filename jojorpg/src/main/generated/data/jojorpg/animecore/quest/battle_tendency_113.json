@@ -1,0 +1,91 @@
+{
+  "allies": [
+    "jojorpg:messina_ally_t10",
+    "jojorpg:robert_e_o_speedwagon_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Kars the Superbeing is Born",
+    "translate": "quest.jojorpg.arc.kars_the_superbeing_is_born"
+  },
+  "description": {
+    "fallback": "Kars is sent out to space by the volcano eruption started by the Red Stone of Aja. He tries to blow air to propel himself back to earth, but the void of space freezes him from the inside out. Having become the ultimate thing, he cannot die no matter how much he wishes for it, thus he eventually stops thinking.",
+    "translate": "quest.jojorpg.battle_tendency_113.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Kars is sent out to space by the volcano eruption started by the Red Stone of Aja.",
+      "translate": "quest.jojorpg.battle_tendency_113.intro0"
+    },
+    {
+      "fallback": "He tries to blow air to propel himself back to earth, but the void of space freezes him from the inside out.",
+      "translate": "quest.jojorpg.battle_tendency_113.intro1"
+    },
+    {
+      "fallback": "Having become the ultimate thing, he cannot die no matter how much he wishes for it, thus he eventually stops thinking.",
+      "translate": "quest.jojorpg.battle_tendency_113.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "113. The Man Who Crossed the Atlantic",
+    "translate": "quest.jojorpg.battle_tendency_113"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_113.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Head out: The Man Who Crossed the Atlantic",
+        "translate": "quest.jojorpg.battle_tendency_113.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t10",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t10"
+      }
+    }
+  ],
+  "order": 101130,
+  "outro": [
+    {
+      "fallback": "Fifty years pass and Joseph has grown old, with a dislike of Japanese people because his daughter had married a Japanese man twenty years prior.",
+      "translate": "quest.jojorpg.battle_tendency_113.outro0"
+    },
+    {
+      "fallback": "He has not lost his overall attitude, however, as he walks over to his flight, Walkman in hand, to see his daughter Holy and his grandson Jotaro.",
+      "translate": "quest.jojorpg.battle_tendency_113.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_112"
+  ],
+  "rewards": {
+    "experience": 45,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:red_stone_of_aja"
+      },
+      {
+        "count": 1,
+        "id": "jojorpg:modes_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

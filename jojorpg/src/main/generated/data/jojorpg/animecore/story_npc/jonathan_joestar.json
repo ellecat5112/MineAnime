@@ -1,0 +1,16 @@
+{
+  "appearance": {
+    "accent": 2503224,
+    "hair": 1713022,
+    "outfit": "jacket",
+    "pants": 4073251
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Jonathan Joestar",
+    "translate": "npc.jojorpg.jonathan_joestar"
+  },
+  "role": "giver",
+  "system": "jojorpg"
+}

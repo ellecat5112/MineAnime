@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t8",
+    "jojorpg:caesar_anthonio_zeppeli_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Stroheim's Unit Strikes Back",
+    "translate": "quest.jojorpg.arc.stroheims_unit_strikes_back"
+  },
+  "description": {
+    "fallback": "Joseph and Caesar go to a post office to demand that the parcel with the stone not be sent, but it has unfortunately already been sent. Since Joseph and Caesar don't know where Esidisi sent the parcel and the office worker is unwilling to work during his break, they can't get it back. They almost start a fight, but then Messina arrives and tells them that Lisa Lisa found the Stone by using Ripple-based hypnosis on…",
+    "translate": "quest.jojorpg.battle_tendency_083.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph and Caesar go to a post office to demand that the parcel with the stone not be sent, but it has unfortunately already been sent.",
+      "translate": "quest.jojorpg.battle_tendency_083.intro0"
+    },
+    {
+      "fallback": "Since Joseph and Caesar don't know where Esidisi sent the parcel and the office worker is unwilling to work during his break, they can't get it back.",
+      "translate": "quest.jojorpg.battle_tendency_083.intro1"
+    },
+    {
+      "fallback": "They almost start a fight, but then Messina arrives and tells them that Lisa Lisa found the Stone by using Ripple-based hypnosis on Suzi Q to read her memories while under Esidisi's control.",
+      "translate": "quest.jojorpg.battle_tendency_083.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "83. Stroheim's Unit Strikes Back, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_083"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_083.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: Stroheim's Unit Strikes Back, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_083.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t8",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t8"
+      }
+    }
+  ],
+  "order": 100830,
+  "outro": [
+    {
+      "fallback": "Meanwhile at Saint-Moritz, Kars, while taking a late night stroll around the town, slices off the arms of a drunk driver who was about to run over a little dog and saves it, killing the driver and his companion.",
+      "translate": "quest.jojorpg.battle_tendency_083.outro0"
+    },
+    {
+      "fallback": "He briefly wonders why Esidisi has not called him back to report his status on chasing the lead he found in Venice.",
+      "translate": "quest.jojorpg.battle_tendency_083.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_082"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

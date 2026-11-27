@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:george_joestar_i_ally_t2"
+  ],
+  "arc": {
+    "fallback": "A Letter from the Past",
+    "translate": "quest.jojorpg.arc.a_letter_from_the_past"
+  },
+  "description": {
+    "fallback": "Seven years before the current story, Dio is seen trying to apply medicine to his father Dario. Dario is unwilling to take the medicine, ordering Dio to sell his deceased mother's dress and buy alcohol with the money. In reaction to this, Dio cries and resolves to kill his father, and is seen buying poison from a man in London.",
+    "translate": "quest.jojorpg.phantom_blood_007.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Seven years before the current story, Dio is seen trying to apply medicine to his father Dario.",
+      "translate": "quest.jojorpg.phantom_blood_007.intro0"
+    },
+    {
+      "fallback": "Dario is unwilling to take the medicine, ordering Dio to sell his deceased mother's dress and buy alcohol with the money.",
+      "translate": "quest.jojorpg.phantom_blood_007.intro1"
+    },
+    {
+      "fallback": "In reaction to this, Dio cries and resolves to kill his father, and is seen buying poison from a man in London.",
+      "translate": "quest.jojorpg.phantom_blood_007.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "7. A Letter from the Past, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_007"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_007.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: A Letter from the Past, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_007.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2_human"
+      }
+    }
+  ],
+  "order": 70,
+  "outro": [
+    {
+      "fallback": "Jonathan knows that he and Dio were never truly friends, and says that he will make sure to get the medicine analyzed and send Dio to jail.",
+      "translate": "quest.jojorpg.phantom_blood_007.outro0"
+    },
+    {
+      "fallback": "Dio knows it will take Jonathan at least three days to find proof of the poison, due to it being from the east, and determines to finish off Jonathan before then.",
+      "translate": "quest.jojorpg.phantom_blood_007.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_006"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 3,
+    "tier": 2
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t2",
+    "jojorpg:george_joestar_i_ally_t2"
+  ],
+  "arc": {
+    "fallback": "The Stone Mask",
+    "translate": "quest.jojorpg.arc.the_stone_mask"
+  },
+  "description": {
+    "fallback": "Dio arrives back at the mansion after deciding that he would rather fight Jonathan than run away. Upon entering, he notices that all the lights are off and asks what the reasoning is behind it. He is met by Jonathan, who lights some candles, and attempts to greet him as though nothing were amiss.",
+    "translate": "quest.jojorpg.phantom_blood_011.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Dio arrives back at the mansion after deciding that he would rather fight Jonathan than run away.",
+      "translate": "quest.jojorpg.phantom_blood_011.intro0"
+    },
+    {
+      "fallback": "Upon entering, he notices that all the lights are off and asks what the reasoning is behind it.",
+      "translate": "quest.jojorpg.phantom_blood_011.intro1"
+    },
+    {
+      "fallback": "He is met by Jonathan, who lights some candles, and attempts to greet him as though nothing were amiss.",
+      "translate": "quest.jojorpg.phantom_blood_011.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "11. The Stone Mask, Part 4",
+    "translate": "quest.jojorpg.phantom_blood_011"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_011.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: The Stone Mask, Part 4",
+        "translate": "quest.jojorpg.phantom_blood_011.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2_human"
+      }
+    }
+  ],
+  "order": 110,
+  "outro": [
+    {
+      "fallback": "Suddenly, Dio pulls the Stone Mask from inside of the cast on his arm and brandishes it in the air, exclaiming that he rejects his humanity.",
+      "translate": "quest.jojorpg.phantom_blood_011.outro0"
+    },
+    {
+      "fallback": "He then pulls out a knife and attempts to stab Jonathan,",
+      "translate": "quest.jojorpg.phantom_blood_011.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_010"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 3,
+    "tier": 2
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

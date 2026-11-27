@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:scalpels",
+    "jojorpg:medieval_pincer"
+  ],
+  "appearance": {
+    "accent": 8916559,
+    "hair": 2171169,
+    "hair_style": "wild",
+    "mark": "red_eyes",
+    "outfit": "cloak",
+    "pants": 2171169,
+    "top": 2171169
+  },
+  "attack": 6.5,
+  "cast_interval": 40,
+  "health": 202.0,
+  "name": {
+    "fallback": "Jack the Ripper",
+    "translate": "npc.jojorpg.jack_the_ripper"
+  },
+  "power": 1.26,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

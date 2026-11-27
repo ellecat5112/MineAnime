@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t7",
+    "jojorpg:loggins_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Flame Mode Esidisi",
+    "translate": "quest.jojorpg.arc.flame_mode_esidisi"
+  },
+  "description": {
+    "fallback": "Esidisi's arm lands on a spike, and Joseph taunts him by saying that he already planned his whole trick before the fight. He destroys his severed arm by sending Ripple energy into it with a kick. To Joseph’s surprise and confusion, however, Esidisi starts loudly crying and bawling.",
+    "translate": "quest.jojorpg.battle_tendency_078.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Esidisi's arm lands on a spike, and Joseph taunts him by saying that he already planned his whole trick before the fight.",
+      "translate": "quest.jojorpg.battle_tendency_078.intro0"
+    },
+    {
+      "fallback": "He destroys his severed arm by sending Ripple energy into it with a kick.",
+      "translate": "quest.jojorpg.battle_tendency_078.intro1"
+    },
+    {
+      "fallback": "To Joseph’s surprise and confusion, however, Esidisi starts loudly crying and bawling.",
+      "translate": "quest.jojorpg.battle_tendency_078.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "78. Flame Mode Esidisi, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_078"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_078.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Flame Mode Esidisi, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_078.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:esidisi_foe_t7",
+      "text": {
+        "fallback": "Defeat Esidisi",
+        "translate": "quest.jojorpg.defeat.esidisi_foe_t7"
+      }
+    }
+  ],
+  "order": 100780,
+  "outro": [
+    {
+      "fallback": "Joseph realizes that Esidisi is trying to intimidate him and attacks with his Clacker Volley, but Esidisi holds out his hand to meet the connecting attack, which splits his hand slightly.",
+      "translate": "quest.jojorpg.battle_tendency_078.outro0"
+    },
+    {
+      "fallback": "Having known Joseph would do this, Esidisi counters Joseph's attack by growing his blood vessels out from under his fingernails, then thrusting them into Joseph's face to boil him alive.",
+      "translate": "quest.jojorpg.battle_tendency_078.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_077"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

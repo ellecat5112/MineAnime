@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Flesh Transmutation",
+    "translate": "ability.jojorpg.flesh_transmutation"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

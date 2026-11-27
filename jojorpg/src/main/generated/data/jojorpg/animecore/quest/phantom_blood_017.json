@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:tattoo_ally_t2",
+    "jojorpg:robert_e_o_speedwagon_ally_t2"
+  ],
+  "arc": {
+    "fallback": "Youth with Dio",
+    "translate": "quest.jojorpg.arc.youth_with_dio"
+  },
+  "description": {
+    "fallback": "Three days after the battle with Dio, Speedwagon decides to visit Jonathan in the hospital to offer his emotional support, despite having a broken arm himself. He is stopped at the door to Jonathan's room by an unknown woman. Despite his attempts to argue, the woman refuses to let him in; she says Jonathan is not accepting visitors at the time, and her care for him is more than enough.",
+    "translate": "quest.jojorpg.phantom_blood_017.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Three days after the battle with Dio, Speedwagon decides to visit Jonathan in the hospital to offer his emotional support, despite having a broken arm himself.",
+      "translate": "quest.jojorpg.phantom_blood_017.intro0"
+    },
+    {
+      "fallback": "He is stopped at the door to Jonathan's room by an unknown woman.",
+      "translate": "quest.jojorpg.phantom_blood_017.intro1"
+    },
+    {
+      "fallback": "Despite his attempts to argue, the woman refuses to let him in; she says Jonathan is not accepting visitors at the time, and her care for him is more than enough.",
+      "translate": "quest.jojorpg.phantom_blood_017.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "17. The Birth of DIO",
+    "translate": "quest.jojorpg.phantom_blood_017"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_017.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 86,
+      "text": {
+        "fallback": "Head out: The Birth of DIO",
+        "translate": "quest.jojorpg.phantom_blood_017.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2"
+      }
+    }
+  ],
+  "order": 170,
+  "outro": [
+    {
+      "fallback": "He comes across the Stone Mask, but before he is able to grab it, a hand emerges from the debris and grabs his wrist.",
+      "translate": "quest.jojorpg.phantom_blood_017.outro0"
+    },
+    {
+      "fallback": "As his blood is drained, his a",
+      "translate": "quest.jojorpg.phantom_blood_017.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_016"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 3,
+    "tier": 3
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

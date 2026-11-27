@@ -1,0 +1,13 @@
+{
+  "group": [
+    1,
+    3
+  ],
+  "max_light": 15,
+  "max_nearby": 3,
+  "min_tier": 1,
+  "night_only": false,
+  "npc": "jojorpg:thug_phantom_blood",
+  "system": "jojorpg",
+  "weight": 2
+}

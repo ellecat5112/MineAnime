@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t4",
+    "jojorpg:robert_e_o_speedwagon_ally_t4"
+  ],
+  "arc": {
+    "fallback": "Tarkus and the Dark Knight Bruford",
+    "translate": "quest.jojorpg.arc.tarkus_and_the_dark_knight_bruford"
+  },
+  "description": {
+    "fallback": "Bruford manages to escape Jonathan's Ripple by backflipping onto land and receives only a scratch. The knight tells Jonathan that he wishes to fight him on equal grounds, without handicaps, because he thinks Jonathan has the skill of a hero. Jonathan in turn notes Bruford's demonstration of his chivalry and pride.",
+    "translate": "quest.jojorpg.phantom_blood_029.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Bruford manages to escape Jonathan's Ripple by backflipping onto land and receives only a scratch.",
+      "translate": "quest.jojorpg.phantom_blood_029.intro0"
+    },
+    {
+      "fallback": "The knight tells Jonathan that he wishes to fight him on equal grounds, without handicaps, because he thinks Jonathan has the skill of a hero.",
+      "translate": "quest.jojorpg.phantom_blood_029.intro1"
+    },
+    {
+      "fallback": "Jonathan in turn notes Bruford's demonstration of his chivalry and pride.",
+      "translate": "quest.jojorpg.phantom_blood_029.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "29. Tarkus and the Dark Knight Bruford, Part 4",
+    "translate": "quest.jojorpg.phantom_blood_029"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_029.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Tarkus and the Dark Knight Bruford, Part 4",
+        "translate": "quest.jojorpg.phantom_blood_029.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:bruford_foe_t4",
+      "text": {
+        "fallback": "Defeat Bruford",
+        "translate": "quest.jojorpg.defeat.bruford_foe_t4"
+      }
+    }
+  ],
+  "order": 290,
+  "outro": [
+    {
+      "fallback": "The weapon conducts Jonathan's Metal Silver Overdrive and transfers the Ripple power into Bruford's right arm causing it to melt off.",
+      "translate": "quest.jojorpg.phantom_blood_029.outro0"
+    },
+    {
+      "fallback": "While Bruford is still stunned, Jonathan uses the Sunlight Yellow Overdrive to deliver consecutive blows to his opponent.",
+      "translate": "quest.jojorpg.phantom_blood_029.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_028"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

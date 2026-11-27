@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:rudol_von_stroheim_ally_t6",
+    "jojorpg:joseph_joestar_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "As Joseph rips Santana in half, he explains that Santana’s absorption only absorbs individual cells, giving the illusion of fusing with his target. Joseph also says that using the Ripple before actual digestion began saved him. Joseph thanks himself for his win, but Santana’s upper body springs up, revealing that it is still alive.",
+    "translate": "quest.jojorpg.battle_tendency_060.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "As Joseph rips Santana in half, he explains that Santana’s absorption only absorbs individual cells, giving the illusion of fusing with his target.",
+      "translate": "quest.jojorpg.battle_tendency_060.intro0"
+    },
+    {
+      "fallback": "Joseph also says that using the Ripple before actual digestion began saved him.",
+      "translate": "quest.jojorpg.battle_tendency_060.intro1"
+    },
+    {
+      "fallback": "Joseph thanks himself for his win, but Santana’s upper body springs up, revealing that it is still alive.",
+      "translate": "quest.jojorpg.battle_tendency_060.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "60. The Pillar Man, Santana, Part 7",
+    "translate": "quest.jojorpg.battle_tendency_060"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_060.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 7",
+        "translate": "quest.jojorpg.battle_tendency_060.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100600,
+  "outro": [
+    {
+      "fallback": "Joseph initially refuses, but Stroheim tells him it is the only way to stop Santana.",
+      "translate": "quest.jojorpg.battle_tendency_060.outro0"
+    },
+    {
+      "fallback": "Joseph complies reluctantly and despite the intense pain, Stroheim opens the door.",
+      "translate": "quest.jojorpg.battle_tendency_060.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_059"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

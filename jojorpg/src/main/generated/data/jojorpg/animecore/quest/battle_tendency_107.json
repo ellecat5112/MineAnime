@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t10",
+    "jojorpg:robert_e_o_speedwagon_ally_t10"
+  ],
+  "arc": {
+    "fallback": "JoJo: The Final Ripple",
+    "translate": "quest.jojorpg.arc.jojo_the_final_ripple"
+  },
+  "description": {
+    "fallback": "Joseph and Kars continue their fight, but Joseph is stuck, forced to hold onto Lisa Lisa's life. Joseph tries to kick Kars, but Kars counters with his Light Blades. After his fight with Wamuu, JoJo is too exhausted to create a strong Ripple.",
+    "translate": "quest.jojorpg.battle_tendency_107.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph and Kars continue their fight, but Joseph is stuck, forced to hold onto Lisa Lisa's life.",
+      "translate": "quest.jojorpg.battle_tendency_107.intro0"
+    },
+    {
+      "fallback": "Joseph tries to kick Kars, but Kars counters with his Light Blades.",
+      "translate": "quest.jojorpg.battle_tendency_107.intro1"
+    },
+    {
+      "fallback": "After his fight with Wamuu, JoJo is too exhausted to create a strong Ripple.",
+      "translate": "quest.jojorpg.battle_tendency_107.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "107. JoJo: The Final Ripple, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_107"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_107.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: JoJo: The Final Ripple, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_107.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t10",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t10"
+      }
+    }
+  ],
+  "order": 101070,
+  "outro": [
+    {
+      "fallback": "However, unaware of Kars, JoJo had tied the rope to the Pillar Man's foot, causing him to get dragged down as well.",
+      "translate": "quest.jojorpg.battle_tendency_107.outro0"
+    },
+    {
+      "fallback": "With Kars hanging onto the ruins, keeping the Ripple warriors safe, JoJo leaps into action and uses his final Ripple Overdrive, cutting off one of Kars's Light Blades.",
+      "translate": "quest.jojorpg.battle_tendency_107.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_106"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

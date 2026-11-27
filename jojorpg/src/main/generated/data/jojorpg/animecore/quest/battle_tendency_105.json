@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Bond That Binds Lisa Lisa and JoJo",
+    "translate": "quest.jojorpg.arc.the_bond_that_binds_lisa_lisa_and_jojo"
+  },
+  "description": {
+    "fallback": "With Joseph victorious against Wamuu, Lisa Lisa prepares for her fight with Kars. Kars's many vampire underlings try to kill her beforehand, but she is obviously much too strong for them. Kars takes a battle stance & picks the venue: The Piz Berlina Ruins.",
+    "translate": "quest.jojorpg.battle_tendency_105.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "With Joseph victorious against Wamuu, Lisa Lisa prepares for her fight with Kars.",
+      "translate": "quest.jojorpg.battle_tendency_105.intro0"
+    },
+    {
+      "fallback": "Kars's many vampire underlings try to kill her beforehand, but she is obviously much too strong for them.",
+      "translate": "quest.jojorpg.battle_tendency_105.intro1"
+    },
+    {
+      "fallback": "Kars takes a battle stance & picks the venue: The Piz Berlina Ruins.",
+      "translate": "quest.jojorpg.battle_tendency_105.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "105. The Bond That Binds Lisa Lisa and JoJo, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_105"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_105.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: The Bond That Binds Lisa Lisa and JoJo, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_105.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t9",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t9"
+      }
+    }
+  ],
+  "order": 101050,
+  "outro": [
+    {
+      "fallback": "He continues slashing her until he holds possession of the Red Stone of Aja.",
+      "translate": "quest.jojorpg.battle_tendency_105.outro0"
+    },
+    {
+      "fallback": "Joseph, watching the battle from below, charges in to fight Kars.",
+      "translate": "quest.jojorpg.battle_tendency_105.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_104"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

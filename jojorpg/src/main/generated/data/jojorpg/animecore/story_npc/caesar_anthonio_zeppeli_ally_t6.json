@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "jojorpg:seated_jump",
+    "jojorpg:ripple_hypnosis",
+    "jojorpg:bubble_launcher",
+    "jojorpg:bubble_barrier"
+  ],
+  "appearance": {
+    "accent": 16301008,
+    "hair": 16769154,
+    "headband": 15483002,
+    "pants": 4532128,
+    "top": 8280002
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Caesar Anthonio Zeppeli",
+    "translate": "npc.jojorpg.caesar_anthonio_zeppeli"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

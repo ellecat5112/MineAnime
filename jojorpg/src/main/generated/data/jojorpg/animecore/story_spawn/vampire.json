@@ -1,0 +1,11 @@
+{
+  "group": [
+    1,
+    2
+  ],
+  "max_nearby": 4,
+  "min_tier": 3,
+  "npc": "jojorpg:vampire_battle_tendency",
+  "system": "jojorpg",
+  "weight": 4
+}

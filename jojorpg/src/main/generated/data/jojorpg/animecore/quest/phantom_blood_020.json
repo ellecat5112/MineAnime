@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Jack the Ripper and Zeppeli the Strange",
+    "translate": "quest.jojorpg.arc.jack_the_ripper_and_zeppeli_the_strange"
+  },
+  "description": {
+    "fallback": "A week after Jonathan beginning his training with Zeppeli in the art of the Ripple, Jonathan notices a problem he has during his sparring matches with Zeppeli; he knows that his arm is ten centimeters longer than Zeppeli’s. However, when they strike each other simultaneously, with matching speed and timing, Zeppeli somehow manages to hit first. Somehow, it appears that Zeppeli's arm extends at the wrist when he…",
+    "translate": "quest.jojorpg.phantom_blood_020.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "A week after Jonathan beginning his training with Zeppeli in the art of the Ripple, Jonathan notices a problem he has during his sparring matches with Zeppeli; he knows that his arm is ten centimeters longer than…",
+      "translate": "quest.jojorpg.phantom_blood_020.intro0"
+    },
+    {
+      "fallback": "However, when they strike each other simultaneously, with matching speed and timing, Zeppeli somehow manages to hit first.",
+      "translate": "quest.jojorpg.phantom_blood_020.intro1"
+    },
+    {
+      "fallback": "Somehow, it appears that Zeppeli's arm extends at the wrist when he punches.",
+      "translate": "quest.jojorpg.phantom_blood_020.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "20. Jack the Ripper and Zeppeli the Strange, Part 3",
+    "translate": "quest.jojorpg.phantom_blood_020"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_020.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: Jack the Ripper and Zeppeli the Strange, Part 3",
+        "translate": "quest.jojorpg.phantom_blood_020.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wang_chan_foe_t3",
+      "text": {
+        "fallback": "Defeat Wang Chan",
+        "translate": "quest.jojorpg.defeat.wang_chan_foe_t3"
+      }
+    }
+  ],
+  "order": 200,
+  "outro": [
+    {
+      "fallback": "Wang Chan proclaims that he was sent by Dio to kill Jonathan, because Dio believes that he is the only one who knows of the secrets of the Mask that he wishes to keep hidden.",
+      "translate": "quest.jojorpg.phantom_blood_020.outro0"
+    },
+    {
+      "fallback": "As Wang Chan attacks, Jonathan goes to punch him, and realizes he c",
+      "translate": "quest.jojorpg.phantom_blood_020.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_019"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

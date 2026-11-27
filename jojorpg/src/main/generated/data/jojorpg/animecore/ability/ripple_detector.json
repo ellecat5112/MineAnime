@@ -1,0 +1,38 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 32.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:night_vision"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Ripple Detector",
+    "translate": "ability.jojorpg.ripple_detector"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

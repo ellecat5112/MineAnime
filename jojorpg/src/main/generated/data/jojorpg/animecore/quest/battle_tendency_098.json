@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "The crowd in the arena chants Wamuu's name in anticipation for the race. The race around the nine hundred sixty meter long track will be ridden on chariots pulled by Vampire Horses, capable of going sixty kilometers an hour (roughly thirty-seven miles per hour). The first to pass each lap will be given a weapon, the first being a two-handed .",
+    "translate": "quest.jojorpg.battle_tendency_098.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "The crowd in the arena chants Wamuu's name in anticipation for the race.",
+      "translate": "quest.jojorpg.battle_tendency_098.intro0"
+    },
+    {
+      "fallback": "The race around the nine hundred sixty meter long track will be ridden on chariots pulled by Vampire Horses, capable of going sixty kilometers an hour (roughly thirty-seven miles per hour).",
+      "translate": "quest.jojorpg.battle_tendency_098.intro1"
+    },
+    {
+      "fallback": "The first to pass each lap will be given a weapon, the first being a two-handed .",
+      "translate": "quest.jojorpg.battle_tendency_098.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "98. The Wind, the Chariot, and Wamuu, Part 4",
+    "translate": "quest.jojorpg.battle_tendency_098"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_098.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: The Wind, the Chariot, and Wamuu, Part 4",
+        "translate": "quest.jojorpg.battle_tendency_098.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 100980,
+  "outro": [
+    {
+      "fallback": "JoJo, being in the lead, passes the first lap and grabs the war hammer.",
+      "translate": "quest.jojorpg.battle_tendency_098.outro0"
+    },
+    {
+      "fallback": "With this JoJo believes he has the upper hand but doesn't realize Wamuu is plotting something.",
+      "translate": "quest.jojorpg.battle_tendency_098.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_097"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t8",
+    "jojorpg:joseph_joestar_ally_t8"
+  ],
+  "arc": {
+    "fallback": "The Remains Lurk",
+    "translate": "quest.jojorpg.arc.the_remains_lurk"
+  },
+  "description": {
+    "fallback": "After defeating Esidisi, Joseph exits the arena, shrugging off his back pain and unaware that Esidisi's remains hang onto his back. In the castle, Lisa Lisa prepares to take a bath. However, she fears that Joseph and Caesar are taking too long.",
+    "translate": "quest.jojorpg.battle_tendency_081.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "After defeating Esidisi, Joseph exits the arena, shrugging off his back pain and unaware that Esidisi's remains hang onto his back.",
+      "translate": "quest.jojorpg.battle_tendency_081.intro0"
+    },
+    {
+      "fallback": "In the castle, Lisa Lisa prepares to take a bath.",
+      "translate": "quest.jojorpg.battle_tendency_081.intro1"
+    },
+    {
+      "fallback": "However, she fears that Joseph and Caesar are taking too long.",
+      "translate": "quest.jojorpg.battle_tendency_081.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "81. The Remains Lurk, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_081"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_081.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: The Remains Lurk, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_081.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:esidisi_foe_t8",
+      "text": {
+        "fallback": "Defeat Esidisi",
+        "translate": "quest.jojorpg.defeat.esidisi_foe_t8"
+      }
+    }
+  ],
+  "order": 100810,
+  "outro": [
+    {
+      "fallback": "He exclaims that the only way to kill him for once and for all is to end the life of Suzi Q, an act which he taunts Joseph and Lisa Lisa for not being able to commit.",
+      "translate": "quest.jojorpg.battle_tendency_081.outro0"
+    },
+    {
+      "fallback": "Joseph remarks at Esidisi's undying will to succeed.",
+      "translate": "quest.jojorpg.battle_tendency_081.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_080"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

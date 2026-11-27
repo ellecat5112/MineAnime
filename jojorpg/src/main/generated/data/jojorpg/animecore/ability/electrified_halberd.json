@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 8444159,
+      "damage": 8.8,
+      "range": 7.0,
+      "width": 1.0
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Electrified Halberd",
+    "translate": "ability.jojorpg.electrified_halberd"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

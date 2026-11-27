@@ -1,0 +1,28 @@
+{
+  "abilities": [
+    "jojorpg:claws"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 2171169,
+    "hair_style": "bald",
+    "mark": "red_eyes",
+    "outfit": "robe",
+    "pants": 4854924,
+    "top": 6953882
+  },
+  "attack": 5.7,
+  "cast_interval": 70,
+  "health": 84.0,
+  "name": {
+    "fallback": "Wang Chan",
+    "translate": "npc.jojorpg.wang_chan"
+  },
+  "power": 1.26,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "Wamuu can no longer use his eyes, but he is far from being blind. By feeling the wind with his horn he is able to sense his surroundings, and locate Joseph from his breathing. With both his chariot destroyed and a horse dead, Joseph is forced to ride on the remaining vampire horse.",
+    "translate": "quest.jojorpg.battle_tendency_102.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Wamuu can no longer use his eyes, but he is far from being blind.",
+      "translate": "quest.jojorpg.battle_tendency_102.intro0"
+    },
+    {
+      "fallback": "By feeling the wind with his horn he is able to sense his surroundings, and locate Joseph from his breathing.",
+      "translate": "quest.jojorpg.battle_tendency_102.intro1"
+    },
+    {
+      "fallback": "With both his chariot destroyed and a horse dead, Joseph is forced to ride on the remaining vampire horse.",
+      "translate": "quest.jojorpg.battle_tendency_102.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "102. The Wind, the Chariot, and Wamuu, Part 8",
+    "translate": "quest.jojorpg.battle_tendency_102"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_102.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Head out: The Wind, the Chariot, and Wamuu, Part 8",
+        "translate": "quest.jojorpg.battle_tendency_102.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 101020,
+  "outro": [
+    {
+      "fallback": "Joseph used the same trick as Wamuu and rebounded the bullet off the wall, the bullet ripping through Wamuu's chest.",
+      "translate": "quest.jojorpg.battle_tendency_102.outro0"
+    },
+    {
+      "fallback": "And by sending a Ripple through the bullet, Wamuu's fate was sealed.",
+      "translate": "quest.jojorpg.battle_tendency_102.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_101"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

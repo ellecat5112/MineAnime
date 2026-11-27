@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:george_joestar_i_ally_t2",
+    "jojorpg:tattoo_ally_t2"
+  ],
+  "arc": {
+    "fallback": "The Stone Mask",
+    "translate": "quest.jojorpg.arc.the_stone_mask"
+  },
+  "description": {
+    "fallback": "Jonathan visits his father, telling him that he will be going to London for two or three days. JoJo asks him to allow the doctors he brought to take care of him, and only accept treatment from them. George accepts JoJo's conditions saying that he is sure that Jonathan must have a good reason to have made these requests.",
+    "translate": "quest.jojorpg.phantom_blood_008.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Jonathan visits his father, telling him that he will be going to London for two or three days.",
+      "translate": "quest.jojorpg.phantom_blood_008.intro0"
+    },
+    {
+      "fallback": "JoJo asks him to allow the doctors he brought to take care of him, and only accept treatment from them.",
+      "translate": "quest.jojorpg.phantom_blood_008.intro1"
+    },
+    {
+      "fallback": "George accepts JoJo's conditions saying that he is sure that Jonathan must have a good reason to have made these requests.",
+      "translate": "quest.jojorpg.phantom_blood_008.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "8. The Stone Mask, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_008"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_008.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: The Stone Mask, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_008.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2_human"
+      }
+    }
+  ],
+  "order": 80,
+  "outro": [
+    {
+      "fallback": "A Chinese man then attacks JoJo, claiming to be a martial arts master.",
+      "translate": "quest.jojorpg.phantom_blood_008.outro0"
+    },
+    {
+      "fallback": "After JoJo has incapacitated both of them, he decides to ask the Chinese man where he can find a place where eastern poison is sold.",
+      "translate": "quest.jojorpg.phantom_blood_008.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_007"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

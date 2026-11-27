@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 13621468,
+      "damage": 9.1,
+      "range": 6.0,
+      "width": 0.8
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Metal Silver Overdrive",
+    "translate": "ability.jojorpg.metal_silver_overdrive"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

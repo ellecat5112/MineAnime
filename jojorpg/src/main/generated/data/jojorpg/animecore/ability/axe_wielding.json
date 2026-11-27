@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 10.6,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.6
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Axe Wielding",
+    "translate": "ability.jojorpg.axe_wielding"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

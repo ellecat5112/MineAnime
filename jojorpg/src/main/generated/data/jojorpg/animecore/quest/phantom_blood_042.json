@@ -1,0 +1,84 @@
+{
+  "arc": {
+    "fallback": "Fire and Ice, Jonathan and Dio",
+    "translate": "quest.jojorpg.arc.fire_and_ice_jonathan_and_dio"
+  },
+  "description": {
+    "fallback": "When the ship is out at sea, Erina looks out to the ocean and sees a bird flying onto the railing of the ship. The single bird has separated from its flock and calls out; it is answered shortly by the appearance of another bird that broke away from the rest. Erina becomes emotional and runs over to hug Jonathan.",
+    "translate": "quest.jojorpg.phantom_blood_042.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "When the ship is out at sea, Erina looks out to the ocean and sees a bird flying onto the railing of the ship.",
+      "translate": "quest.jojorpg.phantom_blood_042.intro0"
+    },
+    {
+      "fallback": "The single bird has separated from its flock and calls out; it is answered shortly by the appearance of another bird that broke away from the rest.",
+      "translate": "quest.jojorpg.phantom_blood_042.intro1"
+    },
+    {
+      "fallback": "Erina becomes emotional and runs over to hug Jonathan.",
+      "translate": "quest.jojorpg.phantom_blood_042.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "42. Fire and Ice, Jonathan and Dio, Part 4",
+    "translate": "quest.jojorpg.phantom_blood_042"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_042.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 88,
+      "text": {
+        "fallback": "Head out: Fire and Ice, Jonathan and Dio, Part 4",
+        "translate": "quest.jojorpg.phantom_blood_042.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wang_chan_foe_t5",
+      "text": {
+        "fallback": "Defeat Wang Chan",
+        "translate": "quest.jojorpg.defeat.wang_chan_foe_t5"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t5",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t5"
+      }
+    }
+  ],
+  "order": 420,
+  "outro": [
+    {
+      "fallback": "Dio reveals his intention is to kill Jonathan and take his body for himself.",
+      "translate": "quest.jojorpg.phantom_blood_042.outro0"
+    },
+    {
+      "fallback": "Just as Erina enters the room, Dio fires his Space Ripper Stingy Eyes at Jonathan.",
+      "translate": "quest.jojorpg.phantom_blood_042.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:phantom_blood_041"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

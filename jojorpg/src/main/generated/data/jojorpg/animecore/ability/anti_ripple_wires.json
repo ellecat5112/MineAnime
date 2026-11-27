@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "cone_degrees": 50.0,
+      "damage": 11.2,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 7.0
+    }
+  ],
+  "affinity": "jojorpg:wind",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 129,
+  "cost": {
+    "amount": 24.6,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Anti-Ripple Wires",
+    "translate": "ability.jojorpg.anti_ripple_wires"
+  },
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "jojorpg-gametest",
+  "version": "1.0.0",
+  "name": "JoJoRPG GameTests",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.jojorpg.test.TestServerSetup"],
+    "fabric-gametest": ["com.jojorpg.test.JojoGameTests"]
+  },
+  "depends": { "jojorpg": "*", "fabric-gametest-api-v1": "*" }
+}

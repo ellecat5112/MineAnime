@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t5",
+    "jojorpg:joseph_joestar_ally_t5"
+  ],
+  "arc": {
+    "fallback": "Joseph Joestar of New York",
+    "translate": "quest.jojorpg.arc.joseph_joestar_of_new_york"
+  },
+  "description": {
+    "fallback": "Battle Tendency is set in 1938, 49 years after the events of Phantom Blood. Friends of Jonathan, Speedwagon and Straizo, meet once again. Speedwagon has become a rich oil tycoon (striking it big in Texas oil reserves) and Straizo has succeeded Tonpetty as master of the Ripple.",
+    "translate": "quest.jojorpg.battle_tendency_045.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Battle Tendency is set in 1938, 49 years after the events of Phantom Blood.",
+      "translate": "quest.jojorpg.battle_tendency_045.intro0"
+    },
+    {
+      "fallback": "Friends of Jonathan, Speedwagon and Straizo, meet once again.",
+      "translate": "quest.jojorpg.battle_tendency_045.intro1"
+    },
+    {
+      "fallback": "Speedwagon has become a rich oil tycoon (striking it big in Texas oil reserves) and Straizo has succeeded Tonpetty as master of the Ripple.",
+      "translate": "quest.jojorpg.battle_tendency_045.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "45. Joseph Joestar of New York, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_045"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_045.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Head out: Joseph Joestar of New York, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_045.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:straizo_foe_t5",
+      "text": {
+        "fallback": "Defeat Straizo",
+        "translate": "quest.jojorpg.defeat.straizo_foe_t5"
+      }
+    }
+  ],
+  "order": 100450,
+  "outro": [
+    {
+      "fallback": "The policemen start to get violent, but the mysterious man takes care of them swiftly using the Ripple.",
+      "translate": "quest.jojorpg.battle_tendency_045.outro0"
+    },
+    {
+      "fallback": "He reveals himself to be named Joseph \"JoJo\" Joestar, and tells his newfound friend that he had unknowingly inherited the strange technique from his grandfather, Jonathan Joestar.",
+      "translate": "quest.jojorpg.battle_tendency_045.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:phantom_blood_044"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

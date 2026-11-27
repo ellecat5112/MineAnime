@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t10",
+    "jojorpg:smokey_brown_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Kars the Superbeing is Born",
+    "translate": "quest.jojorpg.arc.kars_the_superbeing_is_born"
+  },
+  "description": {
+    "fallback": "Joseph and Smokey are seen running frantically from the rejuvenated Kars. Smokey tries to tell Joseph that Lisa Lisa is his mother, but Joseph is too distracted to notice. Speedwagon is panicking over Kars's invincibility, as there is no feasible way to kill or even harm him.",
+    "translate": "quest.jojorpg.battle_tendency_110.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph and Smokey are seen running frantically from the rejuvenated Kars.",
+      "translate": "quest.jojorpg.battle_tendency_110.intro0"
+    },
+    {
+      "fallback": "Smokey tries to tell Joseph that Lisa Lisa is his mother, but Joseph is too distracted to notice.",
+      "translate": "quest.jojorpg.battle_tendency_110.intro1"
+    },
+    {
+      "fallback": "Speedwagon is panicking over Kars's invincibility, as there is no feasible way to kill or even harm him.",
+      "translate": "quest.jojorpg.battle_tendency_110.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "110. Kars the Superbeing is Born, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_110"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_110.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 70,
+      "text": {
+        "fallback": "Head out: Kars the Superbeing is Born, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_110.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t10",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t10"
+      }
+    }
+  ],
+  "order": 101100,
+  "outro": [
+    {
+      "fallback": "However, to Kars's surprise, on the parachute is a dummy.",
+      "translate": "quest.jojorpg.battle_tendency_110.outro0"
+    },
+    {
+      "fallback": "Joseph careens towards Kars, knocking him into the volcano.",
+      "translate": "quest.jojorpg.battle_tendency_110.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_109"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

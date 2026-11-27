@@ -38,6 +38,12 @@ public final class ClanTraits {
     public static final ClanTraitType<SkillExperienceBoost> SKILL_EXPERIENCE_BOOST = register(Ids.core("skill_experience_boost"), SkillExperienceBoost.CODEC);
     public static final ClanTraitType<FatalSave> FATAL_SAVE = register(Ids.core("fatal_save"), FatalSave.CODEC);
     public static final ClanTraitType<Sense> SENSE = register(Ids.core("sense"), Sense.CODEC);
+    public static final ClanTraitType<Undead> UNDEAD = register(Ids.core("undead"), Undead.CODEC);
+    public static final ClanTraitType<SunlightWeakness> SUNLIGHT_WEAKNESS = register(Ids.core("sunlight_weakness"), SunlightWeakness.CODEC);
+    public static final ClanTraitType<Breathing> BREATHING = register(Ids.core("breathing"), Breathing.CODEC);
+    public static final ClanTraitType<Lifesteal> LIFESTEAL = register(Ids.core("lifesteal"), Lifesteal.CODEC);
+    public static final ClanTraitType<UndeadBane> UNDEAD_BANE = register(Ids.core("undead_bane"), UndeadBane.CODEC);
+    public static final ClanTraitType<SunlightImmunity> SUNLIGHT_IMMUNITY = register(Ids.core("sunlight_immunity"), SunlightImmunity.CODEC);
 
     public static <T extends IClanTrait> ClanTraitType<T> register(Identifier id, MapCodec<T> codec) {
         return Registry.register(AnimeBuiltinRegistries.CLAN_TRAIT_TYPES, id, new ClanTraitType<>(codec));
@@ -189,5 +195,115 @@ public final class ClanTraits {
                 e.addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 70, 0, true, false), player);
             }
         }
+    }
+
+    // ------------------------------------------------------------------ undead / sunlight / breathing / blood
+
+    /** Marks the bearer as undead (vampires, zombies, Pillar Men): weak to affinities with an undead multiplier. */
+    public record Undead() implements IClanTrait {
+        public static final MapCodec<Undead> CODEC = MapCodec.unit(new Undead());
+        @Override public ClanTraitType<?> type() { return UNDEAD; }
+    }
+
+    /**
+     * Direct sunlight harms the bearer: {@code burn} (vampires crumble to ash) or {@code petrify} (Pillar Men turn to
+     * stone: rooted and taking damage). A helmet or standing in shade / water / rain protects.
+     */
+    public record SunlightWeakness(float damagePerSecond, String effect) implements IClanTrait {
+        public static final MapCodec<SunlightWeakness> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
+                Codec.floatRange(0f, 100f).optionalFieldOf("damage_per_second", 3f).forGetter(SunlightWeakness::damagePerSecond),
+                Codec.STRING.optionalFieldOf("effect", "burn").forGetter(SunlightWeakness::effect)
+        ).apply(i, SunlightWeakness::new));
+        @Override public ClanTraitType<?> type() { return SUNLIGHT_WEAKNESS; }
+
+        public static boolean inSunlight(net.minecraft.entity.LivingEntity e) {
+            var w = e.getWorld();
+            if (!w.isDay() || w.isRaining() || e.isTouchingWater() || e.inPowderSnow) return false;
+            if (!e.getEquippedStack(net.minecraft.entity.EquipmentSlot.HEAD).isEmpty()) return false;
+            var pos = net.minecraft.util.math.BlockPos.ofFloored(e.getX(), e.getEyeY(), e.getZ());
+            return w.isSkyVisible(pos) && w.getLightLevel(net.minecraft.world.LightType.SKY, pos) >= 13;
+        }
+
+        @Override public void tick(ServerPlayerEntity player, PlayerPowerComponent power) {
+            if (player.isCreative() || player.isSpectator() || !inSunlight(player)) return;
+            if (ClanTraitHooks.traits(player, power).stream().anyMatch(t -> t instanceof SunlightImmunity)) return;
+            if ("petrify".equals(effect)) {
+                player.addStatusEffect(new net.minecraft.entity.effect.StatusEffectInstance(net.minecraft.entity.effect.StatusEffects.SLOWNESS, 30, 6, false, false, true));
+                player.addStatusEffect(new net.minecraft.entity.effect.StatusEffectInstance(net.minecraft.entity.effect.StatusEffects.MINING_FATIGUE, 30, 3, false, false, true));
+                player.getServerWorld().spawnParticles(new net.minecraft.particle.BlockStateParticleEffect(net.minecraft.particle.ParticleTypes.BLOCK,
+                        net.minecraft.block.Blocks.STONE.getDefaultState()), player.getX(), player.getBodyY(0.5), player.getZ(), 10, 0.3, 0.6, 0.3, 0.1);
+            } else {
+                player.setOnFireFor(3);
+                player.getServerWorld().spawnParticles(net.minecraft.particle.ParticleTypes.ASH, player.getX(), player.getBodyY(0.5), player.getZ(), 20, 0.3, 0.6, 0.3, 0.02);
+            }
+            player.damage(player.getDamageSources().onFire(), damagePerSecond);
+            player.sendMessage(net.minecraft.text.Text.translatable("message.animecore.trait.sunlight").formatted(net.minecraft.util.Formatting.GOLD), true);
+        }
+    }
+
+    /**
+     * Breathing technique (the Ripple): while not sprinting and not under water the bearer's {@code pool} refills
+     * {@code bonus} extra per second; under water breathing stops and the pool drains instead.
+     */
+    public record Breathing(Identifier pool, float bonus) implements IClanTrait {
+        public static final MapCodec<Breathing> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
+                Identifier.CODEC.fieldOf("pool").forGetter(Breathing::pool),
+                Codec.floatRange(0f, 100f).optionalFieldOf("bonus", 3f).forGetter(Breathing::bonus)
+        ).apply(i, Breathing::new));
+        @Override public ClanTraitType<?> type() { return BREATHING; }
+
+        @Override public void tick(ServerPlayerEntity player, PlayerPowerComponent power) {
+            if (player.isSubmergedInWater()) {
+                power.restore(pool, -bonus);
+            } else if (!player.isSprinting()) {
+                power.restore(pool, player.isSneaking() ? bonus * 2f : bonus);   // focused breathing while crouching
+            }
+        }
+    }
+
+    /** Drinking blood: dealing damage heals {@code healFraction} of it and refills {@code pool} by {@code energy}. */
+    public record Lifesteal(float healFraction, Optional<Identifier> pool, float energy) implements IClanTrait {
+        public static final MapCodec<Lifesteal> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
+                Codec.floatRange(0f, 4f).optionalFieldOf("heal_fraction", 0.25f).forGetter(Lifesteal::healFraction),
+                Identifier.CODEC.optionalFieldOf("pool").forGetter(Lifesteal::pool),
+                Codec.floatRange(0f, 100f).optionalFieldOf("energy", 3f).forGetter(Lifesteal::energy)
+        ).apply(i, Lifesteal::new));
+        @Override public ClanTraitType<?> type() { return LIFESTEAL; }
+
+        @Override public void onDealtDamage(ServerPlayerEntity player, PlayerPowerComponent power, LivingEntity target, DamageSource source, float amount) {
+            if (com.animecore.api.AnimeCoreApi.isUndead(target) || target.getType().isIn(net.minecraft.registry.tag.EntityTypeTags.ARTHROPOD)) return;
+            player.heal(amount * healFraction);
+            pool.ifPresent(p -> power.restore(p, energy));
+        }
+    }
+
+    /** Ripple-charged blows: hitting an undead target adds {@code multiplier} x the damage as searing energy. */
+    public record UndeadBane(float multiplier, int fireTicks) implements IClanTrait {
+        private static final ThreadLocal<Boolean> ACTIVE = ThreadLocal.withInitial(() -> false);
+        public static final MapCodec<UndeadBane> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
+                Codec.floatRange(0f, 20f).optionalFieldOf("multiplier", 1f).forGetter(UndeadBane::multiplier),
+                Codec.intRange(0, 600).optionalFieldOf("fire_ticks", 0).forGetter(UndeadBane::fireTicks)
+        ).apply(i, UndeadBane::new));
+        @Override public ClanTraitType<?> type() { return UNDEAD_BANE; }
+
+        @Override public void onDealtDamage(ServerPlayerEntity player, PlayerPowerComponent power, LivingEntity target, DamageSource source, float amount) {
+            if (ACTIVE.get() || !com.animecore.api.AnimeCoreApi.isUndead(target) || !target.isAlive()) return;
+            ACTIVE.set(true);
+            try {
+                target.timeUntilRegen = 0;
+                target.damage(player.getDamageSources().indirectMagic(player, player), amount * multiplier);
+                if (fireTicks > 0) target.setOnFireForTicks(fireTicks);
+                player.getServerWorld().spawnParticles(net.minecraft.particle.ParticleTypes.ELECTRIC_SPARK, target.getX(), target.getBodyY(0.5), target.getZ(),
+                        14, 0.3, 0.5, 0.3, 0.2);
+            } finally {
+                ACTIVE.set(false);
+            }
+        }
+    }
+
+    /** Overrides {@link SunlightWeakness} (the Ultimate Life Form walks in daylight). */
+    public record SunlightImmunity() implements IClanTrait {
+        public static final MapCodec<SunlightImmunity> CODEC = MapCodec.unit(new SunlightImmunity());
+        @Override public ClanTraitType<?> type() { return SUNLIGHT_IMMUNITY; }
     }
 }

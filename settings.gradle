@@ -10,5 +10,6 @@ rootProject.name = 'mineanime'
 
 // :animecore  -> reusable, anime-agnostic RPG engine (com.animecore.*)
 // :narutorpg  -> Naruto content mod built on the engine (com.narutorpg.*)
+// :jojorpg    -> JoJo's Bizarre Adventure (Parts 1-2) content mod (com.jojorpg.*)
 // Future: include 'bleachrpg', 'dragonballrpg', 'jjkrpg', 'onepiecerpg'
-include 'animecore', 'narutorpg'
+include 'animecore', 'narutorpg', 'jojorpg'

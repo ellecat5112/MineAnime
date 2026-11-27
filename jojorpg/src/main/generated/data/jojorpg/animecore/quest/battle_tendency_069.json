@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t7",
+    "jojorpg:caesar_anthonio_zeppeli_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "With Wamuu damaged, Joseph takes the opportunity to relentlessly punch and beat him with the clackers. The Pillar Man doesn't seem to be taking any damage, however, and his arms gradually begin to tense up. Thinking something is amiss, Joseph jumps back.",
+    "translate": "quest.jojorpg.battle_tendency_069.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "With Wamuu damaged, Joseph takes the opportunity to relentlessly punch and beat him with the clackers.",
+      "translate": "quest.jojorpg.battle_tendency_069.intro0"
+    },
+    {
+      "fallback": "The Pillar Man doesn't seem to be taking any damage, however, and his arms gradually begin to tense up.",
+      "translate": "quest.jojorpg.battle_tendency_069.intro1"
+    },
+    {
+      "fallback": "Thinking something is amiss, Joseph jumps back.",
+      "translate": "quest.jojorpg.battle_tendency_069.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "69. Ultimate Warriors from Ancient Times, Part 5",
+    "translate": "quest.jojorpg.battle_tendency_069"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_069.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: Ultimate Warriors from Ancient Times, Part 5",
+        "translate": "quest.jojorpg.battle_tendency_069.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t7",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t7"
+      }
+    }
+  ],
+  "order": 100690,
+  "outro": [
+    {
+      "fallback": "Joseph manages to reach a mine cart after tricking Wamuu by playing dead every time he looked back but the Pillar Man finally realizes the ruse and jumps onto the mine cart as well, allowing Joseph to release the brake…",
+      "translate": "quest.jojorpg.battle_tendency_069.outro0"
+    },
+    {
+      "fallback": "Caesar and Speedwagon realize that Joseph had planned this from the start and, instead of trying to get away, he was allowing them to escape.",
+      "translate": "quest.jojorpg.battle_tendency_069.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_068"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

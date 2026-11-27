@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jojorpg:item/admin_seal_skill_points"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:danny_ally_t1",
+    "jojorpg:george_joestar_i_ally_t1"
+  ],
+  "arc": {
+    "fallback": "Dio Brando the Invader",
+    "translate": "quest.jojorpg.arc.dio_brando_the_invader"
+  },
+  "description": {
+    "fallback": "Dio throws Erina to the ground and declares that her first kiss was with him and not with Jonathan; because of this, he claims that he has successfully ruined the relationship between the two, leaving Jonathan alone once again. In tears, Erina washes her face in a puddle of muddy water she had been thrown into. Dio is enraged by her act of defiance and slaps her.",
+    "translate": "quest.jojorpg.phantom_blood_004.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Dio throws Erina to the ground and declares that her first kiss was with him and not with Jonathan; because of this, he claims that he has successfully ruined the relationship between the two, leaving Jonathan alone…",
+      "translate": "quest.jojorpg.phantom_blood_004.intro0"
+    },
+    {
+      "fallback": "In tears, Erina washes her face in a puddle of muddy water she had been thrown into.",
+      "translate": "quest.jojorpg.phantom_blood_004.intro1"
+    },
+    {
+      "fallback": "Dio is enraged by her act of defiance and slaps her.",
+      "translate": "quest.jojorpg.phantom_blood_004.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "4. Dio Brando the Invader, Part 3",
+    "translate": "quest.jojorpg.phantom_blood_004"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_004.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Dio Brando the Invader, Part 3",
+        "translate": "quest.jojorpg.phantom_blood_004.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t1_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t1_human"
+      }
+    }
+  ],
+  "order": 40,
+  "outro": [
+    {
+      "fallback": "Dio asks Jonathan if he intends to reenact their boxing match and internally promises to beat Jonathan fairly, so that he can prove himself to be ultimately superior.",
+      "translate": "quest.jojorpg.phantom_blood_004.outro0"
+    },
+    {
+      "fallback": "Jonathan becomes determined not to lose the fight, knowing that Erina's honor is on the line, and that it would make him live in",
+      "translate": "quest.jojorpg.phantom_blood_004.outro1"
+    }
+  ],
+  "requires": [
+    "jojorpg:phantom_blood_003"
+  ],
+  "rewards": {
+    "experience": 18,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

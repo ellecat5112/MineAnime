@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Jack the Ripper and Zeppeli the Strange",
+    "translate": "quest.jojorpg.arc.jack_the_ripper_and_zeppeli_the_strange"
+  },
+  "description": {
+    "fallback": "To Jonathan's surprise, his fractured arm is completely healed from Zeppeli's strike. Jonathan questions how he did it, but Zeppeli claims that it wasn't him who healed it, but, rather, Jonathan's \"breathing\". Zeppeli begins casually shaking pepper onto his sandwich, but ends up sneezing, falling off the wall.",
+    "translate": "quest.jojorpg.phantom_blood_019.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "To Jonathan's surprise, his fractured arm is completely healed from Zeppeli's strike.",
+      "translate": "quest.jojorpg.phantom_blood_019.intro0"
+    },
+    {
+      "fallback": "Jonathan questions how he did it, but Zeppeli claims that it wasn't him who healed it, but, rather, Jonathan's \"breathing\".",
+      "translate": "quest.jojorpg.phantom_blood_019.intro1"
+    },
+    {
+      "fallback": "Zeppeli begins casually shaking pepper onto his sandwich, but ends up sneezing, falling off the wall.",
+      "translate": "quest.jojorpg.phantom_blood_019.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "19. Jack the Ripper and Zeppeli the Strange, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_019"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_019.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Go: Jack the Ripper and Zeppeli the Strange, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_019.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    }
+  ],
+  "order": 190,
+  "outro": [
+    {
+      "fallback": "Zeppeli explains that he had actually learned this technique in order to battle the Stone Mask, saying that they are two sides of the same coin.",
+      "translate": "quest.jojorpg.phantom_blood_019.outro0"
+    },
+    {
+      "fallback": "He reveals that Dio is still alive and currently in possession of the M",
+      "translate": "quest.jojorpg.phantom_blood_019.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_018"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:george_joestar_i_ally_t1"
+  ],
+  "arc": {
+    "fallback": "Dio Brando the Invader",
+    "translate": "quest.jojorpg.arc.dio_brando_the_invader"
+  },
+  "description": {
+    "fallback": "Jonathan continues to beat Dio, who questions how it is possible that Jonathan can even touch him. After a final, sound punch, some of Dio's blood splatters onto the wall and the Stone Mask hanging on it, activating the mask's bone-like protrusions. Jonathan notices what has happened to the Mask, but his attention quickly returns to the fight.",
+    "translate": "quest.jojorpg.phantom_blood_005.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Jonathan continues to beat Dio, who questions how it is possible that Jonathan can even touch him.",
+      "translate": "quest.jojorpg.phantom_blood_005.intro0"
+    },
+    {
+      "fallback": "After a final, sound punch, some of Dio's blood splatters onto the wall and the Stone Mask hanging on it, activating the mask's bone-like protrusions.",
+      "translate": "quest.jojorpg.phantom_blood_005.intro1"
+    },
+    {
+      "fallback": "Jonathan notices what has happened to the Mask, but his attention quickly returns to the fight.",
+      "translate": "quest.jojorpg.phantom_blood_005.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "5. Dio Brando the Invader, Part 4",
+    "translate": "quest.jojorpg.phantom_blood_005"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_005.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Head out: Dio Brando the Invader, Part 4",
+        "translate": "quest.jojorpg.phantom_blood_005.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t1_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t1_human"
+      }
+    }
+  ],
+  "order": 50,
+  "outro": [
+    {
+      "fallback": "When he wakes up and remembers Danny's death, he cries.",
+      "translate": "quest.jojorpg.phantom_blood_005.outro0"
+    },
+    {
+      "fallback": "By himself, Dio",
+      "translate": "quest.jojorpg.phantom_blood_005.outro1"
+    }
+  ],
+  "requires": [
+    "jojorpg:phantom_blood_004"
+  ],
+  "rewards": {
+    "experience": 18,
+    "skill_points": 3,
+    "tier": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

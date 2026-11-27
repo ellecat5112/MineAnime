@@ -1,0 +1,73 @@
+{
+  "activation_cost": 60.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.05,
+  "granted_abilities": [
+    "jojorpg:light_blades",
+    "jojorpg:light_body",
+    "jojorpg:ultimate_thing",
+    "jojorpg:anti_ripple_wires",
+    "jojorpg:switching_winback",
+    "jojorpg:erratic_blaze_king",
+    "jojorpg:erratic_blaze_king_giant_cartwheel_prison",
+    "jojorpg:overdrive"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 2.5
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 16.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 12.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 40.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.35,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.1,
+      "attribute": "minecraft:generic.scale"
+    }
+  ],
+  "name": {
+    "fallback": "Ultimate Life Form",
+    "translate": "transformation.jojorpg.ultimate_life_form"
+  },
+  "pool": "jojorpg:blood",
+  "required_lineage": "jojorpg:pillar_man",
+  "required_tier": 10,
+  "system": "jojorpg",
+  "token": "jojorpg:modes",
+  "traits": [
+    {
+      "type": "animecore:sunlight_immunity"
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 3.0
+    },
+    {
+      "type": "animecore:evasion",
+      "chance": 0.3
+    }
+  ],
+  "visuals": {
+    "cloak_alpha": 0.35,
+    "cloak_color": 15984117
+  }
+}

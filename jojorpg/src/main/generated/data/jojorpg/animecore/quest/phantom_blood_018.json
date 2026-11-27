@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t3",
+    "jojorpg:robert_e_o_speedwagon_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Jack the Ripper and Zeppeli the Strange",
+    "translate": "quest.jojorpg.arc.jack_the_ripper_and_zeppeli_the_strange"
+  },
+  "description": {
+    "fallback": "The papers report the continuous murder performed by the notorious Jack the Ripper; nothing is known of his identity. During this time, late one night, a couple is seen walking down an empty street in London. The woman says she has read in the news that the killer known as Jack the Ripper has been murdering women recently, and she is afraid of running into him.",
+    "translate": "quest.jojorpg.phantom_blood_018.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "The papers report the continuous murder performed by the notorious Jack the Ripper; nothing is known of his identity.",
+      "translate": "quest.jojorpg.phantom_blood_018.intro0"
+    },
+    {
+      "fallback": "During this time, late one night, a couple is seen walking down an empty street in London.",
+      "translate": "quest.jojorpg.phantom_blood_018.intro1"
+    },
+    {
+      "fallback": "The woman says she has read in the news that the killer known as Jack the Ripper has been murdering women recently, and she is afraid of running into him.",
+      "translate": "quest.jojorpg.phantom_blood_018.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "18. Jack the Ripper and Zeppeli the Strange, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_018"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_018.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Jack the Ripper and Zeppeli the Strange, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_018.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t3",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t3"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:jack_the_ripper_foe_t3",
+      "text": {
+        "fallback": "Defeat Jack the Ripper",
+        "translate": "quest.jojorpg.defeat.jack_the_ripper_foe_t3"
+      }
+    }
+  ],
+  "order": 180,
+  "outro": [
+    {
+      "fallback": "The man quickly runs behind a bush after being spotted.",
+      "translate": "quest.jojorpg.phantom_blood_018.outro0"
+    },
+    {
+      "fallback": "Erina asks if something is bothering Jonathan, and as he begins to say that it is nothing, the man is now sitting in front of them on a wall,",
+      "translate": "quest.jojorpg.phantom_blood_018.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_017"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

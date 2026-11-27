@@ -1,0 +1,19 @@
+{
+  "appearance": {
+    "accent": 13840175,
+    "hair": 4073251,
+    "hair_style": "long",
+    "mark": "glasses",
+    "outfit": "robe",
+    "pants": 2171169,
+    "top": 2171169
+  },
+  "attack": 0.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Lisa Lisa",
+    "translate": "npc.jojorpg.lisa_lisa"
+  },
+  "role": "giver",
+  "system": "jojorpg"
+}

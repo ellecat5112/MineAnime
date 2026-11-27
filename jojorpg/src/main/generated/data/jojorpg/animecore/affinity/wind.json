@@ -1,0 +1,9 @@
+{
+  "color": 8440772,
+  "name": {
+    "fallback": "Wind Mode",
+    "translate": "affinity.jojorpg.wind"
+  },
+  "system": "jojorpg",
+  "vfx_style": "wind"
+}

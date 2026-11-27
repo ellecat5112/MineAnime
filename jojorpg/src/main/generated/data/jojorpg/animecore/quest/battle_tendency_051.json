@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t5",
+    "jojorpg:smokey_brown_ally_t5"
+  ],
+  "arc": {
+    "fallback": "Straizo vs. Joseph",
+    "translate": "quest.jojorpg.arc.straizo_vs_joseph"
+  },
+  "description": {
+    "fallback": "Joseph quickly runs down the street to get some distance away from Straizo, but is stopped by a man named Bruto. Bruto tries to apprehend Joseph for destroying the Cafe, but Joseph easily incapacitates him with a kick to the face. Meanwhile, Straizo, after fully recovering from the explosion, takes after Joseph by jumping from the second floor.",
+    "translate": "quest.jojorpg.battle_tendency_051.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Joseph quickly runs down the street to get some distance away from Straizo, but is stopped by a man named Bruto.",
+      "translate": "quest.jojorpg.battle_tendency_051.intro0"
+    },
+    {
+      "fallback": "Bruto tries to apprehend Joseph for destroying the Cafe, but Joseph easily incapacitates him with a kick to the face.",
+      "translate": "quest.jojorpg.battle_tendency_051.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Straizo, after fully recovering from the explosion, takes after Joseph by jumping from the second floor.",
+      "translate": "quest.jojorpg.battle_tendency_051.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "51. Straizo vs. Joseph, Part 4",
+    "translate": "quest.jojorpg.battle_tendency_051"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_051.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 75,
+      "text": {
+        "fallback": "Head out: Straizo vs. Joseph, Part 4",
+        "translate": "quest.jojorpg.battle_tendency_051.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:straizo_foe_t5",
+      "text": {
+        "fallback": "Defeat Straizo",
+        "translate": "quest.jojorpg.defeat.straizo_foe_t5"
+      }
+    }
+  ],
+  "order": 100510,
+  "outro": [
+    {
+      "fallback": "He is momentarily stunned, but soon gets back up and launches himself at Joseph.",
+      "translate": "quest.jojorpg.battle_tendency_051.outro0"
+    },
+    {
+      "fallback": "Charging the Ripple into his left hand, Joseph punches Straizo in the face to end the battle.",
+      "translate": "quest.jojorpg.battle_tendency_051.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:battle_tendency_050"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

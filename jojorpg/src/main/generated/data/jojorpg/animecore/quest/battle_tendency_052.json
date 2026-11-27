@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t6",
+    "jojorpg:rudol_von_stroheim_ally_t6"
+  ],
+  "arc": {
+    "fallback": "Straizo vs. Joseph",
+    "translate": "quest.jojorpg.arc.straizo_vs_joseph"
+  },
+  "description": {
+    "fallback": "As the Ripple makes contact with Straizo's face, Joseph's punch sends the vampire flying off the side of the bridge. Straizo desperately attempts to latch on to a ledge and fails, but Joseph quickly grabs his arm and holds him in mid-air. Straizo asks why Joseph saved him despite his knowledge that he still has enough power to blow off Joseph's right arm.",
+    "translate": "quest.jojorpg.battle_tendency_052.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "As the Ripple makes contact with Straizo's face, Joseph's punch sends the vampire flying off the side of the bridge.",
+      "translate": "quest.jojorpg.battle_tendency_052.intro0"
+    },
+    {
+      "fallback": "Straizo desperately attempts to latch on to a ledge and fails, but Joseph quickly grabs his arm and holds him in mid-air.",
+      "translate": "quest.jojorpg.battle_tendency_052.intro1"
+    },
+    {
+      "fallback": "Straizo asks why Joseph saved him despite his knowledge that he still has enough power to blow off Joseph's right arm.",
+      "translate": "quest.jojorpg.battle_tendency_052.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "52. Straizo vs. Joseph, Part 5",
+    "translate": "quest.jojorpg.battle_tendency_052"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_052.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Straizo vs. Joseph, Part 5",
+        "translate": "quest.jojorpg.battle_tendency_052.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:straizo_foe_t6",
+      "text": {
+        "fallback": "Defeat Straizo",
+        "translate": "quest.jojorpg.defeat.straizo_foe_t6"
+      }
+    }
+  ],
+  "order": 100520,
+  "outro": [
+    {
+      "fallback": "The lady is furious because Joseph had insulted her back when she was being held hostage by Straizo.",
+      "translate": "quest.jojorpg.battle_tendency_052.outro0"
+    },
+    {
+      "fallback": "After getting kicked again by the woman, Joseph decides to head to Mexico to visit the pillar man and to find Speedwagon.",
+      "translate": "quest.jojorpg.battle_tendency_052.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_051"
+  ],
+  "rewards": {
+    "experience": 33,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:ripple_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 6
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

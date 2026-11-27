@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:light_blades",
+    "jojorpg:light_body"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "hair": 3218322,
+    "hair_style": "long",
+    "headband": 16740419,
+    "outfit": "bodysuit",
+    "pants": 4073251,
+    "skin": 14730152,
+    "top": 4073251
+  },
+  "attack": 15.2,
+  "cast_interval": 40,
+  "health": 935.0,
+  "name": {
+    "fallback": "Kars",
+    "translate": "npc.jojorpg.kars"
+  },
+  "power": 1.86,
+  "role": "boss",
+  "scale": 1.2,
+  "speed": 0.36,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

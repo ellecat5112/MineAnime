@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t2"
+  ],
+  "arc": {
+    "fallback": "Youth with Dio",
+    "translate": "quest.jojorpg.arc.youth_with_dio"
+  },
+  "description": {
+    "fallback": "Jonathan, who has enveloped his deceased father in a drape and aid on a table, Speedwagon and the police officers are shocked that Dio is alive after having been pierced by several bullets earlier. Speedwagon proceeds to tell the police to shoot Dio again; Jonathan too picks up a pistol and points it at Dio telling him to stop his approach. Though Speedwagon urges Jonathan to shoot Dio, he is ultimately unable to…",
+    "translate": "quest.jojorpg.phantom_blood_013.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Jonathan, who has enveloped his deceased father in a drape and aid on a table, Speedwagon and the police officers are shocked that Dio is alive after having been pierced by several bullets earlier.",
+      "translate": "quest.jojorpg.phantom_blood_013.intro0"
+    },
+    {
+      "fallback": "Speedwagon proceeds to tell the police to shoot Dio again; Jonathan too picks up a pistol and points it at Dio telling him to stop his approach.",
+      "translate": "quest.jojorpg.phantom_blood_013.intro1"
+    },
+    {
+      "fallback": "Though Speedwagon urges Jonathan to shoot Dio, he is ultimately unable to pull the trigger.",
+      "translate": "quest.jojorpg.phantom_blood_013.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "13. Youth with Dio, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_013"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_013.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Youth with Dio, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_013.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2"
+      }
+    }
+  ],
+  "order": 130,
+  "outro": [
+    {
+      "fallback": "Seeing the destruction wrought by the now inhuman Dio, Jonathan admits that he is terrified by this new power; but since it was his Mask and research that gave birth to it, he has to be the one to end it.",
+      "translate": "quest.jojorpg.phantom_blood_013.outro0"
+    },
+    {
+      "fallback": "He takes the spear from a suit of armor nearby, and prepares to fight the vampire.",
+      "translate": "quest.jojorpg.phantom_blood_013.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_012"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

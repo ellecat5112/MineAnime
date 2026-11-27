@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Ripple Teacher Lisa Lisa",
+    "translate": "quest.jojorpg.arc.ripple_teacher_lisa_lisa"
+  },
+  "description": {
+    "fallback": "Caesar pulls out a pen and slowly inserts it into the oil barrier. The pen's cap is sliced clean in half, proving the high pressure of the oil flowing out of the pillar. 52 hours have passed and Caesar is forced to try and pierce through the jet head first. Caesar is able to send an attaching Ripple through his feet in order to keep them on the surface, while simultaneously emitting a repelling Ripple from the body…",
+    "translate": "quest.jojorpg.battle_tendency_074.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Caesar pulls out a pen and slowly inserts it into the oil barrier.",
+      "translate": "quest.jojorpg.battle_tendency_074.intro0"
+    },
+    {
+      "fallback": "The pen's cap is sliced clean in half, proving the high pressure of the oil flowing out of the pillar. 52 hours have passed and Caesar is forced to try and pierce through the jet head first.",
+      "translate": "quest.jojorpg.battle_tendency_074.intro1"
+    },
+    {
+      "fallback": "Caesar is able to send an attaching Ripple through his feet in order to keep them on the surface, while simultaneously emitting a repelling Ripple from the body parts touching the pressurized oil.",
+      "translate": "quest.jojorpg.battle_tendency_074.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "74. Ripple Teacher Lisa Lisa, Part 4",
+    "translate": "quest.jojorpg.battle_tendency_074"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_074.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Go: Ripple Teacher Lisa Lisa, Part 4",
+        "translate": "quest.jojorpg.battle_tendency_074.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "jojorpg:caesar_anthonio_zeppeli",
+      "text": {
+        "fallback": "Meet Caesar Anthonio Zeppeli",
+        "translate": "quest.jojorpg.battle_tendency_074.o3"
+      }
+    }
+  ],
+  "order": 100740,
+  "outro": [
+    {
+      "fallback": "His Ripple is disrupted, causing him to fall, but Caesar grabs him in the nick of time.",
+      "translate": "quest.jojorpg.battle_tendency_074.outro0"
+    },
+    {
+      "fallback": "After 61 hours and 9 minutes, Joseph and Caesar both reach the top of the pillar and finish the first part of their training. 26 days remain until the Wedding Ring of Death melts.",
+      "translate": "quest.jojorpg.battle_tendency_074.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_073"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

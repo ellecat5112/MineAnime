@@ -1,0 +1,142 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:undead"
+    },
+    {
+      "type": "animecore:sunlight_weakness",
+      "damage_per_second": 6.0,
+      "effect": "petrify"
+    },
+    {
+      "type": "animecore:lifesteal",
+      "energy": 10.0,
+      "heal_fraction": 0.5,
+      "pool": "jojorpg:blood"
+    },
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.5
+    }
+  ],
+  "color": 9268835,
+  "description": {
+    "fallback": "An ancient being above vampires: you absorb living things through your skin and master the Modes - but sunlight turns you to stone until the Red Stone of Aja makes you the Ultimate Life Form.",
+    "translate": "lineage.jojorpg.pillar_man.desc"
+  },
+  "granted_abilities": [
+    "jojorpg:ribs_blades",
+    "jojorpg:meat_invade"
+  ],
+  "name": {
+    "fallback": "Pillar Man",
+    "translate": "lineage.jojorpg.pillar_man"
+  },
+  "progression": [
+    {
+      "ability": "jojorpg:stone_form",
+      "required_tier": 4,
+      "skill_level": 2
+    },
+    {
+      "ability": "jojorpg:anti_ripple_wires",
+      "required_tier": 6,
+      "skill_level": 4
+    },
+    {
+      "ability": "jojorpg:divine_sandstorm",
+      "required_tier": 6,
+      "skill_level": 6
+    },
+    {
+      "ability": "jojorpg:erratic_blaze_king",
+      "required_tier": 7,
+      "skill_level": 8
+    },
+    {
+      "ability": "jojorpg:erratic_blaze_king_giant_cartwheel_prison",
+      "required_tier": 7,
+      "skill_level": 10
+    },
+    {
+      "ability": "jojorpg:light_blades",
+      "required_tier": 8,
+      "skill_level": 12
+    },
+    {
+      "ability": "jojorpg:light_body",
+      "required_tier": 8,
+      "skill_level": 14
+    },
+    {
+      "ability": "jojorpg:wind_suit",
+      "required_tier": 8,
+      "skill_level": 16
+    },
+    {
+      "ability": "jojorpg:final_mode_atmospheric_rift",
+      "required_tier": 9,
+      "skill_level": 18
+    },
+    {
+      "ability": "jojorpg:switching_winback",
+      "required_tier": 9,
+      "skill_level": 20
+    },
+    {
+      "ability": "jojorpg:ultimate_thing",
+      "required_tier": 10,
+      "skill_level": 22
+    },
+    {
+      "required_tier": 6,
+      "skill_level": 8,
+      "transformation": "jojorpg:wind_mode"
+    },
+    {
+      "required_tier": 6,
+      "skill_level": 14,
+      "transformation": "jojorpg:flame_mode"
+    },
+    {
+      "required_tier": 8,
+      "skill_level": 20,
+      "transformation": "jojorpg:light_mode"
+    }
+  ],
+  "selectable": false,
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 7.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 6.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 16.0,
+      "attribute": "minecraft:generic.max_health"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.2,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.12,
+      "attribute": "minecraft:generic.scale"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.4
+    }
+  ],
+  "weight": 0
+}

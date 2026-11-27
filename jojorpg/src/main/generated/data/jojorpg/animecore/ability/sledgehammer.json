@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 9.1,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.6
+    }
+  ],
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:stamina"
+  },
+  "name": {
+    "fallback": "Sledgehammer",
+    "translate": "ability.jojorpg.sledgehammer"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:martial"
+}

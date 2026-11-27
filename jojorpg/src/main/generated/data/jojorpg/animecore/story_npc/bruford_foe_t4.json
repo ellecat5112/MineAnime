@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:luck",
+    "jojorpg:danse_macab_hair"
+  ],
+  "appearance": {
+    "accent": 1402304,
+    "hair": 16775620,
+    "hair_style": "long",
+    "mark": "red_eyes",
+    "outfit": "armor",
+    "pants": 6381921,
+    "top": 10395294
+  },
+  "attack": 7.7,
+  "cast_interval": 40,
+  "health": 245.0,
+  "name": {
+    "fallback": "Bruford",
+    "translate": "npc.jojorpg.bruford"
+  },
+  "power": 1.38,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

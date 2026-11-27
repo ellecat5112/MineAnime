@@ -1,0 +1,38 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 32.0
+    },
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:night_vision"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Precognition",
+    "translate": "ability.jojorpg.precognition"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

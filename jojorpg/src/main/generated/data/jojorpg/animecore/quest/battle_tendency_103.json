@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "With the Ripple flowing throughout his arms and torso, Wamuu is no longer capable of using the Divine Sandstorm. Joseph prepares to finish Wamuu with a Ripple Overdrive, but Wamuu kicks at Joseph. Joseph, predicting this desperate attack, dodges and strikes Wamuu's legs with the Overdrive, rendering Wamuu immobile.",
+    "translate": "quest.jojorpg.battle_tendency_103.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "With the Ripple flowing throughout his arms and torso, Wamuu is no longer capable of using the Divine Sandstorm.",
+      "translate": "quest.jojorpg.battle_tendency_103.intro0"
+    },
+    {
+      "fallback": "Joseph prepares to finish Wamuu with a Ripple Overdrive, but Wamuu kicks at Joseph.",
+      "translate": "quest.jojorpg.battle_tendency_103.intro1"
+    },
+    {
+      "fallback": "Joseph, predicting this desperate attack, dodges and strikes Wamuu's legs with the Overdrive, rendering Wamuu immobile.",
+      "translate": "quest.jojorpg.battle_tendency_103.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "103. The Wind, the Chariot, and Wamuu, Part 9",
+    "translate": "quest.jojorpg.battle_tendency_103"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_103.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 81,
+      "text": {
+        "fallback": "Head out: The Wind, the Chariot, and Wamuu, Part 9",
+        "translate": "quest.jojorpg.battle_tendency_103.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 101030,
+  "outro": [
+    {
+      "fallback": "However, this was all part of Joseph's plan, and the oil from the broken bottle had been sucked up by Wamuu, along with the still lit pieces of Caesar's headband which causes the high pressured air inside Wamuu to…",
+      "translate": "quest.jojorpg.battle_tendency_103.outro0"
+    },
+    {
+      "fallback": "The proud and brilliant warrior, while a genius in battle, stood no chance against the invincible duo of Joseph Joestar and Caesar Zeppeli.",
+      "translate": "quest.jojorpg.battle_tendency_103.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_102"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

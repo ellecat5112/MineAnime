@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t6",
+    "jojorpg:rudol_von_stroheim_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "Stroheim and Speedwagon, both shocked by Santana's escape, resolve to destroy Santana somehow before he reaches the outside world. Stroheim is especially concerned, knowing that Santana could reach them in the observation room through the air duct as he would be responsible for creating Nazi Germany's most powerful enemy. Suddenly, Santana dives through the nearby grate and into the closest soldier’s body,…",
+    "translate": "quest.jojorpg.battle_tendency_057.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Stroheim and Speedwagon, both shocked by Santana's escape, resolve to destroy Santana somehow before he reaches the outside world.",
+      "translate": "quest.jojorpg.battle_tendency_057.intro0"
+    },
+    {
+      "fallback": "Stroheim is especially concerned, knowing that Santana could reach them in the observation room through the air duct as he would be responsible for creating Nazi Germany's most powerful enemy.",
+      "translate": "quest.jojorpg.battle_tendency_057.intro1"
+    },
+    {
+      "fallback": "Suddenly, Santana dives through the nearby grate and into the closest soldier’s body, inflating him to almost double the soldier’s original size.",
+      "translate": "quest.jojorpg.battle_tendency_057.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "57. The Pillar Man, Santana, Part 4",
+    "translate": "quest.jojorpg.battle_tendency_057"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_057.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 78,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 4",
+        "translate": "quest.jojorpg.battle_tendency_057.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100570,
+  "outro": [
+    {
+      "fallback": "Using his hair, the mysterious soldier uses the “Ripple Hair Attack”, revealing himself as Joseph to Speedwagon.",
+      "translate": "quest.jojorpg.battle_tendency_057.outro0"
+    },
+    {
+      "fallback": "Using this attack, Joseph deflects Santana's bullets, which were coming straight toward him.",
+      "translate": "quest.jojorpg.battle_tendency_057.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_056"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

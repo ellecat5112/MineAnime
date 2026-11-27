@@ -1,0 +1,10 @@
+{
+  "color": 13538264,
+  "name": {
+    "fallback": "Ultraviolet",
+    "translate": "affinity.jojorpg.ultraviolet"
+  },
+  "system": "jojorpg",
+  "undead_multiplier": 4.0,
+  "vfx_style": "light"
+}

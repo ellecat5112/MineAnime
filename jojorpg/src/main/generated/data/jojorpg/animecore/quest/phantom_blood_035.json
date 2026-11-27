@@ -1,0 +1,78 @@
+{
+  "arc": {
+    "fallback": "Pluck for Tomorrow and the Successor",
+    "translate": "quest.jojorpg.arc.pluck_for_tomorrow_and_the_successor"
+  },
+  "description": {
+    "fallback": "Zeppeli, having been cut in half, is slowly dying. After transferring his Ripple energy to Jonathan, he begins to age and his hair turns white. Tarkus jumps into the air and attempts to crush both of them, but Jonathan grabs hold of his end of the chain, which prevents Tarkus from coming down on them.",
+    "translate": "quest.jojorpg.phantom_blood_035.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Zeppeli, having been cut in half, is slowly dying.",
+      "translate": "quest.jojorpg.phantom_blood_035.intro0"
+    },
+    {
+      "fallback": "After transferring his Ripple energy to Jonathan, he begins to age and his hair turns white.",
+      "translate": "quest.jojorpg.phantom_blood_035.intro1"
+    },
+    {
+      "fallback": "Tarkus jumps into the air and attempts to crush both of them, but Jonathan grabs hold of his end of the chain, which prevents Tarkus from coming down on them.",
+      "translate": "quest.jojorpg.phantom_blood_035.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "35. Pluck for Tomorrow and the Successor, Part 3",
+    "translate": "quest.jojorpg.phantom_blood_035"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_035.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Go: Pluck for Tomorrow and the Successor, Part 3",
+        "translate": "quest.jojorpg.phantom_blood_035.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    }
+  ],
+  "order": 350,
+  "outro": [
+    {
+      "fallback": "Tarkus is defeated; Jonathan throws the body into the air, where he disintegrates completely, only leaving his armor behind.",
+      "translate": "quest.jojorpg.phantom_blood_035.outro0"
+    },
+    {
+      "fallback": "After telling Jonathan that he had been like a son and best friend all in one to him, Zeppeli passes away.",
+      "translate": "quest.jojorpg.phantom_blood_035.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_034"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 3,
+    "tier": 4
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

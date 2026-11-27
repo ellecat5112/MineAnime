@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:wind",
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 148,
+  "cost": {
+    "amount": 29.9,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Wind Suit",
+    "translate": "ability.jojorpg.wind_suit"
+  },
+  "required_tier": 8,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

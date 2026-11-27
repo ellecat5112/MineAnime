@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Joseph Joestar of New York",
+    "translate": "quest.jojorpg.arc.joseph_joestar_of_new_york"
+  },
+  "description": {
+    "fallback": "Back in New York, Joseph is almost run over by a taxi while crossing the road. He starts threatening the driver but is cut short when his grandmother, Erina Joestar, and Smokey ask what he is doing. Joseph quickly covers up the situation by saying he hailed them a taxi.",
+    "translate": "quest.jojorpg.battle_tendency_047.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Back in New York, Joseph is almost run over by a taxi while crossing the road.",
+      "translate": "quest.jojorpg.battle_tendency_047.intro0"
+    },
+    {
+      "fallback": "He starts threatening the driver but is cut short when his grandmother, Erina Joestar, and Smokey ask what he is doing.",
+      "translate": "quest.jojorpg.battle_tendency_047.intro1"
+    },
+    {
+      "fallback": "Joseph quickly covers up the situation by saying he hailed them a taxi.",
+      "translate": "quest.jojorpg.battle_tendency_047.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "47. Joseph Joestar of New York, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_047"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_047.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 43,
+      "text": {
+        "fallback": "Go: Joseph Joestar of New York, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_047.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Meet Joseph Joestar",
+        "translate": "quest.jojorpg.battle_tendency_047.o3"
+      }
+    }
+  ],
+  "order": 100470,
+  "outro": [
+    {
+      "fallback": "At Erina's behest, Joseph confronts and defeats him easily, demonstrating his uncanny skill at observing his opponent and predicting what they will do.",
+      "translate": "quest.jojorpg.battle_tendency_047.outro0"
+    },
+    {
+      "fallback": "The gangster's companion reveals himself to be an agent sent from the Speedwagon Foundation and tells Joseph that Speedwagon has been killed.",
+      "translate": "quest.jojorpg.battle_tendency_047.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:battle_tendency_046"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 3,
+    "tier": 5
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

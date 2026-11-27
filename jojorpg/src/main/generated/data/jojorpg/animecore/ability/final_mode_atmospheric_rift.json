@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 14.8,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "jojorpg:wind",
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 158,
+  "cost": {
+    "amount": 32.6,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Final Mode: Atmospheric Rift",
+    "translate": "ability.jojorpg.final_mode_atmospheric_rift"
+  },
+  "required_tier": 9,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

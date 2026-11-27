@@ -1,0 +1,87 @@
+ext.jar_budget_bytes = 15L * 1024 * 1024   // 15 MB (animecore + jojorpg < 18.5 MB)
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        jojorpg {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+        // Lets the dev runtime treat :animecore as a real mod without building a jar.
+        animecore {
+            sourceSet project(':animecore').sourceSets.main
+            sourceSet project(':animecore').sourceSets.client
+        }
+    }
+}
+
+fabricApi {
+    configureDataGeneration {
+        client = true
+        modId = 'jojorpg'   // only this mod's providers write into this project's src/main/generated
+    }
+}
+
+dependencies {
+    // Depend on the engine as a separate mod; it is NOT bundled into jojorpg.jar.
+    implementation project(path: ':animecore', configuration: 'namedElements')
+    clientImplementation project(':animecore').sourceSets.client.output
+    // To try the JEI plugin in runClient, drop a production JEI jar into jojorpg/run/mods (Loader remaps it).
+}
+
+// configureDataGeneration() already registers src/main/generated as a resource dir.
+processResources { exclude '.cache/**' }
+
+// ---------------------------------------------------------------------------------
+// Headless GameTests (separate source set: never shipped in jojorpg.jar)
+//   ./gradlew :jojorpg:runGametest
+// ---------------------------------------------------------------------------------
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.compileClasspath + sourceSets.main.output
+        runtimeClasspath += sourceSets.main.runtimeClasspath + sourceSets.main.output
+    }
+}
+
+loom {
+    mods {
+        'jojorpg-gametest' { sourceSet sourceSets.gametest }
+    }
+    runs {
+        gametest {
+            server()
+            name = 'Game Test'
+            vmArg '-Dfabric-api.gametest'
+            vmArg "-Dfabric-api.gametest.report-file=${project.layout.buildDirectory.get().asFile}/gametest/junit.xml"
+            runDir 'build/gametest'
+            source sourceSets.gametest
+        }
+    }
+}
+
+// ---------------------------------------------------------------------------------
+// Production smoke test: runs the REAL remapped jars (intermediary names, refmaps) like a launcher would.
+//   ./gradlew :jojorpg:prodClient
+// ---------------------------------------------------------------------------------
+configurations {
+    productionRuntimeMods { transitive = false }
+}
+dependencies {
+    productionRuntimeMods "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+    productionRuntimeMods "org.ladysnake.cardinal-components-api:cardinal-components-base:${rootProject.cca_version}"
+    productionRuntimeMods "org.ladysnake.cardinal-components-api:cardinal-components-entity:${rootProject.cca_version}"
+    productionRuntimeMods "dev.kosmx.player-anim:player-animation-lib-fabric:${rootProject.player_anim_version}"
+    productionRuntimeMods "software.bernie.geckolib:geckolib-fabric-${rootProject.minecraft_version}:${rootProject.geckolib_version}"
+}
+tasks.register('prodClient', net.fabricmc.loom.task.prod.ClientProductionRunTask) {
+    mods.from(configurations.productionRuntimeMods)
+    mods.from(project(':animecore').tasks.named('remapJar'))
+    mods.from(tasks.named('remapJar'))
+    mods.from(project(':narutorpg').tasks.named('remapJar'))   // both anime mods together: the multi-mod setup players use
+    runDir = layout.projectDirectory.dir('run-prod')
+    useXVFB = false
+    if (project.hasProperty('prodQuickPlay')) {
+        programArgs.addAll('--quickPlaySingleplayer', project.property('prodQuickPlay').toString(), '--width', '1280', '--height', '720')
+    }
+}

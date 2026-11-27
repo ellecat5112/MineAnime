@@ -1,0 +1,48 @@
+{
+  "activation_cost": 20.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.12,
+  "granted_abilities": [
+    "jojorpg:light_blades",
+    "jojorpg:light_body",
+    "jojorpg:ultimate_thing"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "jojorpg:light",
+      "multiplier": 1.7
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 6.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.25,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Light Mode (Kars)",
+    "translate": "transformation.jojorpg.light_mode"
+  },
+  "pool": "jojorpg:blood",
+  "required_lineage": "jojorpg:pillar_man",
+  "required_tier": 8,
+  "system": "jojorpg",
+  "token": "jojorpg:modes",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.2
+    }
+  ],
+  "visuals": {
+    "aura_color": 16774557,
+    "cloak_alpha": 0.35,
+    "cloak_color": 16775620
+  }
+}

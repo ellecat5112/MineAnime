@@ -1,0 +1,52 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "chance": 0.25,
+      "duration": 30,
+      "effect": "minecraft:slowness"
+    }
+  ],
+  "color": 16747109,
+  "description": {
+    "fallback": "Ogre Street toughness and gentleman boxing: no powers, just fists, grit and whatever weapon is at hand.",
+    "translate": "lineage.jojorpg.brawler.desc"
+  },
+  "granted_abilities": [
+    "jojorpg:saw_hat",
+    "jojorpg:eastern_mystery_chinese_kempo"
+  ],
+  "max_skill_level": 20,
+  "name": {
+    "fallback": "Brawler",
+    "translate": "lineage.jojorpg.brawler"
+  },
+  "progression": [
+    {
+      "ability": "jojorpg:sledgehammer",
+      "required_tier": 3,
+      "skill_level": 2
+    }
+  ],
+  "selectable": false,
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 2.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.08,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.max_health"
+    }
+  ],
+  "weight": 0
+}

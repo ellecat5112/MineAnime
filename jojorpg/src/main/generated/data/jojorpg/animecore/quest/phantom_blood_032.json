@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t4",
+    "jojorpg:jonathan_joestar_ally_t4"
+  ],
+  "arc": {
+    "fallback": "Pluck for Tomorrow and the Successor",
+    "translate": "quest.jojorpg.arc.pluck_for_tomorrow_and_the_successor"
+  },
+  "description": {
+    "fallback": "As Jonathan and company glide to safety on the giant leaf made by him and Zeppeli, Poco asks how they managed to make it. He further inquires if the two of them are magicians or angels to be able to perform such feats. Speedwagon adds to the conversation and quickly inquires about Zeppeli's past.",
+    "translate": "quest.jojorpg.phantom_blood_032.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "As Jonathan and company glide to safety on the giant leaf made by him and Zeppeli, Poco asks how they managed to make it.",
+      "translate": "quest.jojorpg.phantom_blood_032.intro0"
+    },
+    {
+      "fallback": "He further inquires if the two of them are magicians or angels to be able to perform such feats.",
+      "translate": "quest.jojorpg.phantom_blood_032.intro1"
+    },
+    {
+      "fallback": "Speedwagon adds to the conversation and quickly inquires about Zeppeli's past.",
+      "translate": "quest.jojorpg.phantom_blood_032.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "32. The Medieval Knights' Training Ground for Murder",
+    "translate": "quest.jojorpg.phantom_blood_032"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_032.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 83,
+      "text": {
+        "fallback": "Head out: The Medieval Knights' Training Ground for Murder",
+        "translate": "quest.jojorpg.phantom_blood_032.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:tarkus_foe_t4",
+      "text": {
+        "fallback": "Defeat Tarkus",
+        "translate": "quest.jojorpg.defeat.tarkus_foe_t4"
+      }
+    }
+  ],
+  "order": 320,
+  "outro": [
+    {
+      "fallback": "As Poco and Jonathan enter the doorway, the boy advises against going in, saying that they should be wary as it was the former knights' training ground and likely riddled with traps.",
+      "translate": "quest.jojorpg.phantom_blood_032.outro0"
+    },
+    {
+      "fallback": "Shortly after, Jonathan opens the door and a neck brace on a chain hooks itself to him and pulls him up to the ceil",
+      "translate": "quest.jojorpg.phantom_blood_032.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_031"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

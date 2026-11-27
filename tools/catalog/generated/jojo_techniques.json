@@ -1,0 +1,931 @@
+{
+ "intangibility": {
+  "name": "Intangibility",
+  "style": "vampire",
+  "owners": [
+   "Wired Beck"
+  ],
+  "tier": 4,
+  "desc": "Wired Beck can camouflage with objects and also phase through them. He does so with a door and sticks his hand out to mimic a doorknob in order to catch Joseph and Lisa Lisa off guard with a surprise attack.",
+  "aff": null
+ },
+ "body_spikes": {
+  "name": "Body Spikes",
+  "style": "vampire",
+  "owners": [
+   "Wired Beck"
+  ],
+  "tier": 4,
+  "desc": "As a vampire, Wired Beck has complete control of every aspect of his body. His main form of attacking is by sharpening the hair protruding out of his limbs into spikes. Coupled with his unorthodox speed, Wired Beck is capable of lunging at his opponents and delivering them a lethal embrace.",
+  "aff": null
+ },
+ "hypnosis": {
+  "name": "Hypnosis",
+  "style": "vampire",
+  "owners": [
+   "Dio Brando",
+   "Vampire"
+  ],
+  "tier": 2,
+  "desc": "Dio is able to hypnotize living people into obeying his commands, visually represented by beams appearing from his eyes. The effect is shown to wear off if the hypnotized person is struck with Ripple energy. Dio uses this ability to convince Jack the Ripper to become his servant, and later to lure Jonathan's group into a graveyard trap by having Poco steal their luggage. Later in his life, DIO develops a supernatural charisma that, when combined with buds made of his own flesh, renders his hypnosis abilities all but redundant.",
+  "aff": null
+ },
+ "vaporization_freezing_technique": {
+  "name": "Vaporization Freezing Technique",
+  "style": "vampire",
+  "owners": [
+   "Dio Brando",
+   "Vampire"
+  ],
+  "tier": 3,
+  "desc": "By vaporizing the moisture in his body, Dio can absorb heat from any living being he comes into physical contact with, freezing them and stifling their blood flow. This ability can be circumvented if Ripple energy is channeled through items or fire.\nIt is unknown if DIO is able to use Vaporization Freezing Technique after taking over Jonathan's body, as he never uses it in Stardust Crusaders. However, he does utilize the ability in the drama CD adaptation of Stardust Crusaders to put out the flames after he was lit on fire.\nInversely, in the light novel OVER HEAVEN, DIO claims that he is unabl",
+  "aff": null
+ },
+ "flesh_transmutation": {
+  "name": "Flesh Transmutation",
+  "style": "vampire",
+  "owners": [
+   "Dio Brando"
+  ],
+  "tier": 4,
+  "desc": "Having extensive knowledge on the anatomies of organic beings, Dio can graft the body parts of different beings together. Initially, he uses this ability to create hybrid animal chimeras that he keeps as pets, as well as deformed zombies such as Doobie, Page, Jones, Plant, and Bornnam. Dio later utilizes this power to graft his own head onto Jonathan's body.",
+  "aff": null
+ },
+ "space_ripper_stingy_eyes": {
+  "name": "Space Ripper Stingy Eyes",
+  "style": "vampire",
+  "owners": [
+   "Dio Brando",
+   "Straizo",
+   "Vampire"
+  ],
+  "tier": 4,
+  "desc": "Dio is able to pressurize bodily liquid in his eyeballs and then create small openings in his pupils, unleashing two fluid jets with enough power to slice through stone. This ability is later referred to by Straizo as \"Space Ripper Stingy Eyes.\" Dio can also aim this attack to some degree, as he targets Jonathan's brain when he uses it in his final confrontation against the Ripple user.\nIt is unknown if DIO is able to use Space Ripper Stingy Eyes after taking over Jonathan's body, as he never uses it in Stardust Crusaders. However, he does utilize the ability in JoJo's Venture and the drama CD",
+  "aff": null
+ },
+ "overdrive": {
+  "name": "Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Straizo",
+   "Dire",
+   "Jonathan Joestar",
+   "Will Anthonio Zeppeli",
+   "Joseph Joestar",
+   "Sasha Loggins",
+   "Hamon"
+  ],
+  "tier": 4,
+  "desc": "The most basic application of the Ripple. Straizo attacks with either his limbs or an object imbued with the Ripple. He uses it directly onto a chandelier to destroy Page, Jones, Plant, and Bornnam.",
+  "aff": null
+ },
+ "satiporoja_beetle_cloth": {
+  "name": "Satiporoja Beetle Cloth",
+  "style": "hamon",
+  "owners": [
+   "Straizo",
+   "Lisa Lisa",
+   "Hamon"
+  ],
+  "tier": 5,
+  "desc": "A Ripple Master can use cloth woven from the dried intestinal fibers of the Satiporoja Beetle. The cloth is capable of conducting the Ripple at 100%. Straizo and Lisa Lisa use scarves that are made of 30,000 beetles. As it conducts and disperses the Ripple far better than the human body, it acts similarly to a lightning rod and can completely absorb an opponent's Ripple attack.",
+  "aff": null
+ },
+ "zombie_vampire_creation": {
+  "name": "Zombie/Vampire Creation",
+  "style": "vampire",
+  "owners": [
+   "Vampire"
+  ],
+  "tier": 4,
+  "desc": "Vampires are capable of creating zombies from either living beings or deceased corpses by injecting them with a vampiric extract. Though zombies are also strong creatures, they are less powerful than their vampiric creator and will often obey them without question. In Stardust Crusaders, DIO perfected this technique, injecting others with his blood to sire other vampires.",
+  "aff": null
+ },
+ "seated_jump": {
+  "name": "Seated Jump",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 6,
+  "desc": "Those who have trained in Sendō gain strong legs and knees. Like his grandfather, Caesar is capable of jumping extremely high from a sitting position and then landing on his feet.",
+  "aff": null
+ },
+ "cat_foot_stance": {
+  "name": "Cat-Foot Stance",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli"
+  ],
+  "tier": 8,
+  "desc": "Caesar instinctively assumes a special defensive stance by relaxing his legs and feet, allowing him to pounce in any direction with greater speed and agility. Known as the \"Cat-Foot Stance\", the posture is commonly used in Kenpō, though Caesar himself has never received formal training in it.",
+  "aff": null
+ },
+ "ripple_hypnosis": {
+  "name": "Ripple Hypnosis",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Jonathan Joestar",
+   "Lisa Lisa",
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 6,
+  "desc": "Caesar can hypnotize people and animals by using the Ripple on them. The process can involve a kiss or simply touching one's head with their hands. The hypnotized person will act according to his demands and be stronger than an ordinary being, being imbued with the Ripple. Caesar uses it on a woman so she could fight Joseph.",
+  "aff": null
+ },
+ "bubble_launcher": {
+  "name": "Bubble Launcher",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 6,
+  "desc": "Caesar fires out a barrage of bubbles from their gloves, each coated in the Ripple. This increases the density of the bubbles and allows them to hit objects with a greater impact. When hit by the barrage, a grown man would be completely blown away.",
+  "aff": null
+ },
+ "bubble_barrier": {
+  "name": "Bubble Barrier",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 6,
+  "desc": "Sometimes used in conjunction with Bubble Launcher; the difference is that instead of multiple being used in a barrage, Caesar conjures a single gigantic bubble capable of absorbing and trapping its target.",
+  "aff": null
+ },
+ "sticking_ripple_and_repelling_ripple": {
+  "name": "Sticking Ripple & Repelling Ripple",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Jonathan Joestar",
+   "Lisa Lisa",
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 7,
+  "desc": "Caesar is able to use the Ripple as a repellent and to adhere either himself or objects to other objects and liquids. Joseph and Caesar manage to climb a pillar covered in oil with adhesion, and Caesar uses it to deflect a high pressured oil jet. Later, Caesar and Joseph force Esidisi out of Suzi Q's body. Joseph sends the positive repellent ripple into various points across Suzi Q's body while Caesar focuses attractant negative ripple on only her heart, forcing Esidisi to leave after he can't handle it anymore.",
+  "aff": null
+ },
+ "bubble_cutter": {
+  "name": "Bubble Cutter",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 8,
+  "desc": "Based on his grandfather's Ripple Cutter, this technique is a direct improvement on the Bubble Launcher, and creates bubbles with the ability to slice. Unlike the original attack, the bubbles spin at high speed and use centrifugal force, but are able to stay intact due to the Ripple. This causes them to form shapes much like saucers with a small blade-like ring surrounding each bubble. These bubbles move at a higher velocity and have higher tractability, allowing the user to fire them in any direction with ease.",
+  "aff": null
+ },
+ "bubble_cutter_gliding": {
+  "name": "Bubble Cutter Gliding",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 8,
+  "desc": "A more versatile version of Bubble Cutter, Caesar sacrifices the quantity of the attack, and focuses on effectiveness. By launching a few bubbles, he is able to aim them much like homing projectiles. They are able to go around objects and have a higher chance of hitting the opponent.",
+  "aff": null
+ },
+ "bubble_lenses": {
+  "name": "Bubble Lenses",
+  "style": "hamon",
+  "owners": [
+   "Caesar Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 8,
+  "desc": "Caesar produces Ripple-infused bubbles that have the ability to refract light and focus them into beams, much like a magnifying glass. After launching them, the bubbles become stationary and any light source passing through will cause a domino effect, connecting the bubbles together and eventually shooting multiple beams at their target.",
+  "aff": null
+ },
+ "erratic_blaze_king": {
+  "name": "Erratic Blaze King",
+  "style": "pillar_man",
+  "owners": [
+   "Esidisi"
+  ],
+  "tier": 7,
+  "desc": "After boiling his own blood, Esidisi extends his blood vessels outside of his body, turning them into long, prehensile needles with which he injects his boiling blood into enemies. He can also use his blood vessels as extra limbs, as shown when he uses them to cut Joseph's string.",
+  "aff": "heat"
+ },
+ "erratic_blaze_king_giant_cartwheel_prison": {
+  "name": "Erratic Blaze King: Giant Cartwheel Prison",
+  "style": "pillar_man",
+  "owners": [
+   "Esidisi"
+  ],
+  "tier": 7,
+  "desc": "After creating several holes in his back, Esidisi makes a huge spinning jump while extending his blood vessels out of the newly created holes, similarly to a hedgehog's spines. He then attacks by using his blood vessels to surround his enemies, giving them little room to escape.",
+  "aff": "heat"
+ },
+ "saw_hat": {
+  "name": "Saw-Hat",
+  "style": "brawler",
+  "owners": [
+   "Robert E. O. Speedwagon"
+  ],
+  "tier": 1,
+  "desc": "Speedwagon wore a bowler hat with a hidden buzz-saw built into it that was sharp enough to cut through bone. Speedwagon used it during his days as a thief, throwing the hat at his opponent as a projectile for a deadly attack. He was extremely proficient with it, being able to juggle with the hat easily, and throwing it with deadly accuracy.",
+  "aff": null
+ },
+ "sledgehammer": {
+  "name": "Sledgehammer",
+  "style": "brawler",
+  "owners": [
+   "Robert E. O. Speedwagon"
+  ],
+  "tier": 3,
+  "desc": "Not being able to master the Ripple didn't stop Speedwagon from helping in the fight. He used a sledgehammer powerful enough to kill zombies in just one strike by smashing their heads. This scene is omitted in the anime, but he still uses the sledgehammer later. In the anime, Speedwagon tries to smash one of Dio's severed hands with it.",
+  "aff": null
+ },
+ "abdominal_machine_gun": {
+  "name": "Abdominal Machine Gun",
+  "style": "cyborg",
+  "owners": [
+   "Rudol von Stroheim"
+  ],
+  "tier": 8,
+  "desc": "A machine gun inside Stroheim's stomach region, able to shoot 600 armor-piercing rounds per minute, and capable of piercing a steel plate. Stroheim first introduces this weapon against Kars.",
+  "aff": null
+ },
+ "ultraviolet_radiation_apparatus": {
+  "name": "Ultraviolet Radiation Apparatus",
+  "style": "cyborg",
+  "owners": [
+   "Rudol von Stroheim"
+  ],
+  "tier": 8,
+  "desc": "The Ultraviolet Radiation Apparatus is one of Stroheim's hidden weapons. Inside Stroheim's mechanized eye is a small laser cannon capable of firing a concentrated beam of Ultraviolet light. The beam itself is five times more intense than a set of typical ultraviolet lights and was able to pierce straight through Kars's hand.",
+  "aff": null
+ },
+ "ultraviolet_radiation_apparatus_spw_variant": {
+  "name": "Ultraviolet Radiation Apparatus (SPW Variant)",
+  "style": "cyborg",
+  "owners": [
+   "Rudol von Stroheim"
+  ],
+  "tier": 9,
+  "desc": "Built by the technical department of the Speedwagon Foundation specifically as an anti-vampire device, Stroheim is able to fire out powerful blasts of ultraviolet light from apparatuses located on each of his shoulders. As miniaturized searchlights, they pack the same power as the original, but are light enough to carry with ease. Stroheim used these cannons during the final battle against Kars, where he, along with his team, fought back against the army of vampires.",
+  "aff": null
+ },
+ "projectile_hand": {
+  "name": "Projectile Hand",
+  "style": "cyborg",
+  "owners": [
+   "Rudol von Stroheim"
+  ],
+  "tier": 10,
+  "desc": "Stroheim is capable of firing off his mechanical hand with enough force to impale and deeply wound an enemy. Though revealed only towards the end of the arc, Stroheim used it to prevent Kars's escape and pinned him to a plane that went crashing into an active volcano.",
+  "aff": null
+ },
+ "cyborg_eyes": {
+  "name": "Cyborg Eyes",
+  "style": "cyborg",
+  "owners": [
+   "Rudol von Stroheim"
+  ],
+  "tier": 4,
+  "desc": "Stroheim's right eye incorporated several lenses allowing him to zoom on an object and notice minute details. This ability only appears in the anime.",
+  "aff": null
+ },
+ "anti_ripple_wires": {
+  "name": "Anti-Ripple Wires",
+  "style": "pillar_man",
+  "owners": [
+   "Wamuu"
+  ],
+  "tier": 6,
+  "desc": "Wamuu's head gear is specially designed to be an \"Anti-Ripple Tool\". The head gear contains wires that Wamuu used to nullify Caesar's Ripple-charged bubbles, by spinning his head and knocking the bubbles away. Also, the head gear has a hole that opens up allowing his horn to drill out, enabling him to sense the wind, and precisely locate any movement or changes in the air surrounding him. The wind-sensing Horn also works as a wind cannon of sort, where he shoots a stream of wind that is destructive enough to slice through huge rocks.",
+  "aff": "wind"
+ },
+ "switching_winback": {
+  "name": "Switching Winback",
+  "style": "pillar_man",
+  "owners": [
+   "Wamuu"
+  ],
+  "tier": 9,
+  "desc": "A psychological recovery method used by top athletes. When they are under pressure during a match, they can put away their shock, mistakes, and fear deep within their minds. Like flipping a switch, they are able to bring out their fighting spirit. However, they need a ritual in order to flip that switch. The stronger the shock they've received, the more special the ritual has to be. Wamuu gouges out his own eyes and uses his horn to \"see\" by the wind in order to regain his confidence and lose his psychological weaknesses.",
+  "aff": "wind"
+ },
+ "divine_sandstorm": {
+  "name": "Divine Sandstorm",
+  "style": "pillar_man",
+  "owners": [
+   "Wamuu"
+  ],
+  "tier": 6,
+  "desc": "Wamuu's signature technique. The Mode is initiated when Wamuu starts to spin his forearms rapidly from the elbow joint, spinning his right arm to the left and his left to the right. The vacuum created between both arms by their rapid centrifugal motion creates a massive wind storm, bearing enough destructive power to tear apart large pieces of rock and shred a human being into pieces.",
+  "aff": "wind"
+ },
+ "wind_suit": {
+  "name": "Wind Suit",
+  "style": "pillar_man",
+  "owners": [
+   "Wamuu"
+  ],
+  "tier": 8,
+  "desc": "Wamuu wraps his body in a whirlwind of steam released from his lungs, using make-shift tubes produced from his own body to release the air inside his lungs. The steam grants Wamuu the ability to reflect rays of sunlight off of his body, giving him much needed protection against the sun as well as invisibility to others. However, the Mode requires a lot of energy to maintain, and Wamuu is only able to sustain it for around ten seconds, forcing him to stay near sheltered areas to take cover.",
+  "aff": "wind"
+ },
+ "final_mode_atmospheric_rift": {
+  "name": "Final Mode: Atmospheric Rift",
+  "style": "pillar_man",
+  "owners": [
+   "Wamuu"
+  ],
+  "tier": 9,
+  "desc": "A Mode typically used as a last resort. Wamuu uses the tubes for his wind suit to gather huge amounts of air and compresses it in his lungs. The air is then released through a slit on the horn of his head, causing it to become as sharp as a razor blade. The wind flails about much like a whip and is sharp enough to cut through stone. However, due to the scraping and heat led by the quick wind compression, the Mode slowly tears apart Wamuu's body until he collapses.",
+  "aff": "wind"
+ },
+ "tongue_manipulation": {
+  "name": "Tongue Manipulation",
+  "style": "undead",
+  "owners": [
+   "Adams"
+  ],
+  "tier": 4,
+  "desc": "Adams can grow his tongue to abnormal lengths, stretching it long enough to grab his prey.",
+  "aff": null
+ },
+ "head_twisting": {
+  "name": "Head Twisting",
+  "style": "undead",
+  "owners": [
+   "Adams"
+  ],
+  "tier": 4,
+  "desc": "Adams is capable of twisting his head 180 degrees.",
+  "aff": null
+ },
+ "eastern_mystery_chinese_kempo": {
+  "name": "Eastern Mystery Chinese Kempo",
+  "style": "brawler",
+  "owners": [
+   "Amato"
+  ],
+  "tier": 1,
+  "desc": "Amato does a flying kick toward his opponent. According to him, it sends his opponents flying to the netherworld, implying that it's a strong attack. However, it can easily be countered if the enemy is not caught off guard.",
+  "aff": null
+ },
+ "luck": {
+  "name": "Luck",
+  "style": "undead",
+  "owners": [
+   "Bruford"
+  ],
+  "tier": 3,
+  "desc": "As a knight, Bruford was fairly proficient in using swords, having defeated several people during the trial of the 77 Rings. After being revived as a zombie, Bruford wields a sword named Luck. When swung, the blade curves significantly to demonstrate its velocity. After being defeated, he gives it to Jonathan, renaming it Luck and Pluck.",
+  "aff": null
+ },
+ "danse_macab_hair": {
+  "name": "Danse Macab-Hair",
+  "style": "undead",
+  "owners": [
+   "Bruford"
+  ],
+  "tier": 3,
+  "desc": "Through unknown means, Bruford developed a technique that allowed him to use his hair in combat as a weapon while he was still alive. His hair acted as a third arm, able to entwine things and serve as a distraction. His standard method of fighting consisted of using his hair first and following with a thrust or kick from the enemy's blind spot. This ability allowed him to become the only man without a large build to complete the trial of the 77 Rings. After becoming a zombie, his hair amplifies in power and is shown to able to lift around 105 kilograms with ease; it is later revealed that Bruf",
+  "aff": null
+ },
+ "poisonous_scimitar": {
+  "name": "Poisonous Scimitar",
+  "style": "undead",
+  "owners": [
+   "Caineghis"
+  ],
+  "tier": 4,
+  "desc": "Caineghis utilizes a scimitar infused with poison to eliminate his opponents. He is skilled with wielding it, as he can slash multiple people at the same time while he spins. He can also easily toss and catch his blade.",
+  "aff": null
+ },
+ "thunder_split_attack": {
+  "name": "Thunder Split Attack",
+  "style": "hamon",
+  "owners": [
+   "Dire",
+   "Hamon"
+  ],
+  "tier": 4,
+  "desc": "Dire jumps at his opponent and does a split with his legs, preventing the opponent from moving their arms. He then attacks his foe's neck with a chop imbued with the Ripple. It's quick enough that Dire is even able to put objects on his opponent without them noticing, as he slips a letter in between Jonathan's shoulder and backpack. This attack's weakness is that it leaves Dire's guard open for a headbutt or another direct attack.",
+  "aff": null
+ },
+ "afterimages": {
+  "name": "Afterimages",
+  "style": "hamon",
+  "owners": [
+   "Dire",
+   "Jonathan Joestar",
+   "Hamon"
+  ],
+  "tier": 4,
+  "desc": "Those who have trained in Sendō gain extremely quick movements, footwork, and agility, allowing Dire to create afterimages when he moves.",
+  "aff": null
+ },
+ "thunder_cross_split_attack": {
+  "name": "Thunder Cross Split Attack",
+  "style": "hamon",
+  "owners": [
+   "Dire",
+   "Hamon"
+  ],
+  "tier": 4,
+  "desc": "An advanced version of the Thunder Split Attack that covers its weakness by making his arms form a cross. It is described as a perfect technique in both attack and defense, so no one, aside from Dio, has ever defeated it.",
+  "aff": null
+ },
+ "venomous_snakes": {
+  "name": "Venomous Snakes",
+  "style": "undead",
+  "owners": [
+   "Doobie"
+  ],
+  "tier": 4,
+  "desc": "Doobie can control several snakes who live inside his head, including venomous cobras and flesh-eating vipers. He hides them with the sack on his face so he can catch his opponents by surprise, having his snakes extend themselves and bite his opponents when they are off guard.\nThis technique is not effective against skilled Ripple users such as Jonathan Joestar, who can easily extract the venom out of their skin.",
+  "aff": null
+ },
+ "electrified_halberd": {
+  "name": "Electrified Halberd",
+  "style": "undead",
+  "owners": [
+   "Eijkman"
+  ],
+  "tier": 4,
+  "desc": "Eijkman utilizes a halberd which can generate electricity to paralyze his opponents. His thrusts have enough force to shoot out gusts of wind.",
+  "aff": null
+ },
+ "scalpels": {
+  "name": "Scalpels",
+  "style": "undead",
+  "owners": [
+   "Jack the Ripper"
+  ],
+  "tier": 2,
+  "desc": "Jack uses his immunity to pain to his advantage by inserting sub-dermal scalpels into his body. Once the scalpels are buried in his body, Jack is able to expel them via muscle contraction, shooting the knives over great distances with pinpoint accuracy.",
+  "aff": null
+ },
+ "medieval_pincer": {
+  "name": "Medieval Pincer",
+  "style": "undead",
+  "owners": [
+   "Jack the Ripper"
+  ],
+  "tier": 2,
+  "desc": "While hiding in a secret labyrinth, Jack comes across and modifies a medieval torture device. With his strength as a zombie, Jack uses this modified device as a pincer, using its spikes to tear foes and even solid pillars apart.",
+  "aff": null
+ },
+ "zoom_punch": {
+  "name": "Zoom Punch",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Will Anthonio Zeppeli",
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "Jonathan launches his fist forward and strikes his opponent. First used by Zeppeli, the attack involves a Ripple breathing technique that dislocates and stretches the joints to extend the arm and give it greater reach while also using the same Ripple to dull the pain caused by the move. Due to the increased length, the strike immediately reaches the opponent's face first, which from that perspective seems \"zoomed in.\"",
+  "aff": null
+ },
+ "sendo_ripple_overdrive": {
+  "name": "Sendō Ripple Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "Jonathan charges a Ripple wave through his arm and releases it into a solid object, such as a wall or partition. The Ripple can travel through and reach anything on the other side, and anything hit by the Ripple is sent flying in a spiral. If the enemy is an Undead, the Ripple will enter their bloodstream and destroy them from the inside.",
+  "aff": null
+ },
+ "scarlet_overdrive": {
+  "name": "Scarlet Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "Charging the Ripple into one hand, Jonathan can create a Ripple of flame. He is able to transfer this flame over to another part of his body, and anything that touches that body part has a chance of catching fire.",
+  "aff": null
+ },
+ "turquoise_blue_overdrive": {
+  "name": "Turquoise Blue Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "Appropriately the strongest place to use the Ripple, Jonathan can release high-powered tempests while underwater with enough force to blast enemies away. In most cases, a good portion of the water is propelled outward as well, draining something like a lake to waist-high depth.",
+  "aff": null
+ },
+ "overdrive_barrage": {
+  "name": "Overdrive Barrage",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "When Jonathan jabs fast enough consecutively, he can release multiple Overdrives at once.",
+  "aff": null
+ },
+ "metal_silver_overdrive": {
+  "name": "Metal Silver Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "Essentially the same as a Sendō Ripple Overdrive, but with the ability to transfer through metal.",
+  "aff": null
+ },
+ "sunlight_yellow_overdrive": {
+  "name": "Sunlight Yellow Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "Jonathan and Zeppeli have the ability to release devastating Ripple-infused strikes with power comparable to the sun itself. The energy produced by this technique can flow straight through victims to obliterate multiple Undead at once; when delivered through a barrage of punches, it can even revive a Zombie's human soul as their body is obliterated.",
+  "aff": null
+ },
+ "life_magnetism_overdrive": {
+  "name": "Life Magnetism Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "Human bodies have a faint magnetic field, allowing them to act as a living magnet when the power of the magnetic field is increased by this Overdrive. That magnetic field is then transferred into the leaves, creating a massive magnetic sheet. With the aid of Zeppeli, Jonathan uses this technique to draw all the leaves in the immediate area and magnetize them together to form one giant leaf, using it as an impromptu hang glider.",
+  "aff": null
+ },
+ "healing": {
+  "name": "Healing",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Will Anthonio Zeppeli"
+  ],
+  "tier": 2,
+  "desc": "The Ripple can heal fractured bones as well as lessen one's sense of pain. When Jonathan grabs a tree branch, it revives withered flowers, causing them to bloom again. During his battle with Tarkus, he was also able to heal his broken neck after receiving the Deep Pass Overdrive from Zeppeli.",
+  "aff": null
+ },
+ "ripple_detector": {
+  "name": "Ripple Detector",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar",
+   "Lisa Lisa",
+   "Will Anthonio Zeppeli",
+   "Sasha Loggins",
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "Jonathan imbues a contained liquid or object such as wine with the Ripple. The Ripple will pass through his body and the environment, enabling Jonathan to sense his surroundings and detect others even through walls.",
+  "aff": null
+ },
+ "luck_and_pluck": {
+  "name": "Luck and Pluck",
+  "style": "hamon",
+  "owners": [
+   "Jonathan Joestar"
+  ],
+  "tier": 3,
+  "desc": "After his defeat, Bruford gave Jonathan his sword. It played a major role in the final battle against Dio, where Jonathan was able to counter Dio's freezing ability by infusing the sword with Ripple, in order to avoid direct contact with Dio's body.",
+  "aff": null
+ },
+ "snake_muffler": {
+  "name": "Snake Muffler",
+  "style": "hamon",
+  "owners": [
+   "Lisa Lisa",
+   "Hamon"
+  ],
+  "tier": 9,
+  "desc": "Lisa Lisa's primary method of fighting involves a scarf made with the yarn of the Satiporoja Beetle, which can conduct the Ripple at 100%. She can channel her Ripple through her scarf to stand upside down, leaving the now rigid scarf the only part of her in contact with the ground. She may also use the sensitivity of the scarf to detect life signs and know the direction of incoming attacks, even when out of sight.",
+  "aff": null
+ },
+ "indigo_blue_overdrive": {
+  "name": "Indigo Blue Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Lisa Lisa",
+   "Hamon"
+  ],
+  "tier": 1,
+  "desc": "Lisa Lisa charges Ripple into her fist and hits the ground. The Ripple travels across the floor, creating a circle filled with a complicated pattern. It instantly disintegrates Alejandro Torres into ashes.",
+  "aff": null
+ },
+ "sunset_orange_overdrive": {
+  "name": "Sunset Orange Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Lisa Lisa",
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "Lisa Lisa holds the Red Stone of Aja in one hand and presses it against the opponent before charging it with the Ripple. Her Ripple resembles the color of sunset and creates a red firework, burning the enemy.",
+  "aff": null
+ },
+ "thousand_color_overdrive": {
+  "name": "Thousand-Color Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Lisa Lisa",
+   "Hamon"
+  ],
+  "tier": 1,
+  "desc": "Lisa Lisa creates a massive electrified dome by imbuing the Ripple on leaves, flowers, and dyed sawdust from destroyed rugs. The materials pile on top of each other in layers to cover an entire plaza from El Señor de las Moscas's swarm of flies.",
+  "aff": null
+ },
+ "needle_vein_strike": {
+  "name": "Needle Vein Strike",
+  "style": "undead",
+  "owners": [
+   "Page, Jones, Plant, and Bornnam",
+   "Zombie"
+  ],
+  "tier": 4,
+  "desc": "All four zombies share the same ability, allowing them to extend veins from the tops of their heads in the direction of their prey in order to suck their blood. If used in a careless manner, these appendages can become entangled.",
+  "aff": null
+ },
+ "hell_heaven_snake_kill": {
+  "name": "Hell Heaven Snake Kill",
+  "style": "undead",
+  "owners": [
+   "Tarkus"
+  ],
+  "tier": 3,
+  "desc": "Tarkus's signature method of execution in the Chain Neck Deathmatch. Jumping above his opponent, Tarkus manipulates his chain to strike from below, cornering the opponent from both sides. The chain wraps around the opponent; once Tarkus lands, he pulls on the chain with enough force to tear a human body in half.",
+  "aff": null
+ },
+ "precognition": {
+  "name": "Precognition",
+  "style": "hamon",
+  "owners": [
+   "Tonpetty",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "The user can predict the future of any individual. Its regular usage allows one to see a few seconds into the future. Extremely skilled users like Tonpetty can see very far into the future of an individual by touching their hands, including their destiny and how they die.",
+  "aff": null
+ },
+ "claws": {
+  "name": "Claws",
+  "style": "vampire",
+  "owners": [
+   "Wang Chan"
+  ],
+  "tier": 2,
+  "desc": "In battle, Wang Chan chooses to wear gloves with long claws to increase his power and attack range. He is confident in his ability to kill a human by a single swipe of his rigid claws, though he still needs to attack from a relatively-close distance. This is omitted in the anime.",
+  "aff": null
+ },
+ "axe_wielding": {
+  "name": "Axe Wielding",
+  "style": "undead",
+  "owners": [
+   "Winzaleo"
+  ],
+  "tier": 4,
+  "desc": "Winzaleo wields a giant battle-axe and is notable for being skilled with axes. He is capable of using it with either one or two hands. His attacks consist of swinging the axe, slamming it on the ground, and thrusting it forward. By slamming his axe on the ground, he can create several seismic waves.",
+  "aff": null
+ },
+ "sendo_wave_kick": {
+  "name": "Sendō Wave Kick",
+  "style": "hamon",
+  "owners": [
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "A Ripple-infused strike with the knee. The Ripple energy tears vampires and zombies apart upon entering the bloodstream.",
+  "aff": null
+ },
+ "ripple_cutter": {
+  "name": "Ripple Cutter",
+  "style": "hamon",
+  "owners": [
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "Zeppeli spits globs of liquid from between his teeth. The Ripple combined with the liquid makes it sharp and dense enough to cut through solid objects, as well as agile and accurate enough to deflect other projectiles.",
+  "aff": null
+ },
+ "tornado_overdrive": {
+  "name": "Tornado Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "Zeppeli leaps into the air and points his legs toward his opponent. From here, he is able to move the Ripple to his lower half and essentially dive-bombs the opponent in a spinning motion, much like a drill.",
+  "aff": null
+ },
+ "forced_ripple_breathing": {
+  "name": "Forced Ripple Breathing",
+  "style": "hamon",
+  "owners": [
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "Zeppeli gut punches someone with his little finger raised, allowing him to reach their diaphragm. By doing so, the target will momentarily lose their breath and be in agony, but will be able to produce the Ripple. Wounds sustained by a normal person can be healed faster. One can also gauge how much Ripple a neophyte can produce in one breath, enabling one to determine a person's potential. However, the technique requires precision and is difficult to perform. Even experienced Ripple Masters like Zeppeli can fail, as he does when attempting to use it on Speedwagon.",
+  "aff": null
+ },
+ "deep_pass_overdrive": {
+  "name": "Deep Pass Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Will Anthonio Zeppeli",
+   "Hamon"
+  ],
+  "tier": 3,
+  "desc": "Zeppeli's last and most powerful Ripple technique. Right before his death, he transfers all his life energy into Jonathan. Using this technique, Jonathan obtains all of Zeppeli's power - causing his strength, agility, and Ripple technique to increase dramatically. This rapid loss of life energy naturally also changes Zeppeli's physical appearance, causing his skin to thin and wrinkle as well as his hair to turn white as if greatly aged in a short time. This is one of the few \"Overdrive\" techniques without the \"Hamon\" kanji in its name.",
+  "aff": null
+ },
+ "ripple_hair_attack": {
+  "name": "Ripple Hair Attack",
+  "style": "hamon",
+  "owners": [
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 5,
+  "desc": "Joseph infuses his Ripple into strands of hair to make them hard enough to form a barrier, which blocks incoming projectiles. Joseph uses it to block bullets fired by Santana after ripping a fistful of Stroheim's hair.",
+  "aff": null
+ },
+ "ripple_beat": {
+  "name": "Ripple Beat",
+  "style": "hamon",
+  "owners": [
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 7,
+  "desc": "An advanced adhesive technique, Joseph imbues both his fists and feet with the Ripple. To prevent himself from falling down a pillar covered with oil, he flips himself upwards and uses his hands to stick to the blast of oil. He then slides across and propels himself upwards, gaining more distance than he could from normally climbing or jumping.",
+  "aff": null
+ },
+ "ripple_overdrive_beat": {
+  "name": "Ripple Overdrive Beat",
+  "style": "hamon",
+  "owners": [
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 7,
+  "desc": "Joseph traps the opponent with ropes made of 100% wool, then imbues the ropes with the Ripple. It has enough force to slice through Esidisi's face.",
+  "aff": null
+ },
+ "rebuff_overdrive": {
+  "name": "Rebuff Overdrive",
+  "style": "hamon",
+  "owners": [
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 9,
+  "desc": "Joseph charges Ripple into his elbows and delivers a powerful strike. This was used during Joseph's fight with Wamuu to retaliate his falling attack.",
+  "aff": null
+ },
+ "clacker_volley": {
+  "name": "Clacker Volley",
+  "style": "hamon",
+  "owners": [
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 6,
+  "desc": "Joseph chucks clackers infused with the Ripple into his opponent's direction. This can be done a number of ways, but to produce the best and most surprising effect, he can hide them behind his back. From there, Joseph can slingshot them from behind his back at the enemy in all directions.",
+  "aff": null
+ },
+ "clacker_boomerang": {
+  "name": "Clacker Boomerang",
+  "style": "hamon",
+  "owners": [
+   "Joseph Joestar",
+   "Hamon"
+  ],
+  "tier": 6,
+  "desc": "Joseph throws both pairs of clackers infused with the Ripple into a beam or pillar behind the opponent, fooling the foe into assuming that he missed. One gets stuck onto whatever it was thrown on and starts spinning, latching onto the second pair of clackers. The second pair then flings back towards the opponent from behind, much like how a boomerang works.",
+  "aff": null
+ },
+ "light_blades": {
+  "name": "Light Blades",
+  "style": "pillar_man",
+  "owners": [
+   "Kars"
+  ],
+  "tier": 8,
+  "desc": "Kars is able to produce bladed appendages from his arms and legs and use these to reflect blinding light toward his enemies. The light comes from the reflections of tiny, shark teeth-like claws running along the edges of the blades, much like a chainsaw. Kars's blades are sharp enough to cut through most objects, including an automobile and several bullets, at blinding speeds. The Mode is thus able to both stun and cut through Kars's opponents at the same time.\nIn some translations, it's also translated as \"Brilliant Bone Blade\".",
+  "aff": "light"
+ },
+ "light_body": {
+  "name": "Light Body",
+  "style": "pillar_man",
+  "owners": [
+   "Kars"
+  ],
+  "tier": 8,
+  "desc": "Kars can emanate a bright light from his body. He can make specific body parts glow, such as his hands, to use as signals, and in combat he can disappear in a flash of light.",
+  "aff": "light"
+ },
+ "ultimate_thing": {
+  "name": "Ultimate Thing",
+  "style": "pillar_man",
+  "owners": [
+   "Kars",
+   "Pillar Men"
+  ],
+  "tier": 10,
+  "desc": "As the Ultimate Thing, Kars acquires multiple abilities and skills:\n*Superhuman Intelligence: Kars is an extremely intelligent and cunning individual, even by the high standards of his species. After becoming the Ultimate Thing, Kars's intelligence only grows further, to the point that his I.Q. is estimated at around 400. Thanks in part to his newly-augmented intelligence, Kars masters his godly powers quickly, and is able to use even the most obscure properties of Earth's fauna to his advantage.\n*Superhuman Senses: Kars can sense the heat and air pressure around him by forming antennae. His v",
+  "aff": "light"
+ },
+ "satiporoja_beetle_missanga": {
+  "name": "Satiporoja Beetle Missanga",
+  "style": "hamon",
+  "owners": [
+   "Sasha Loggins",
+   "Hamon"
+  ],
+  "tier": 1,
+  "desc": "Like Lisa Lisa and Straizo, Sasha utilizes a weapon woven from the dried intestinal fibers of the Satiporoja Beetle. Instead of a scarf like her master, Sasha has a wide braided cord that is around 10 to 20 meters long and capable of conducting the Ripple at 100%. As it conducts and disperses the Ripple far better than the human body, it acts similarly to a lightning rod. Sasha uses it as a whip to attack her opponents.",
+  "aff": null
+ },
+ "presence_erasing": {
+  "name": "Presence Erasing",
+  "style": "hamon",
+  "owners": [
+   "Sasha Loggins",
+   "Hamon"
+  ],
+  "tier": 1,
+  "desc": "Sasha is capable of erasing her presence by suppressing her breathing, moving as silently as a snow leopard.",
+  "aff": null
+ },
+ "ripple_teleferico_ropeway": {
+  "name": "Ripple Teleférico (Ropeway)",
+  "style": "hamon",
+  "owners": [
+   "Sasha Loggins"
+  ],
+  "tier": 1,
+  "desc": "Lisa Lisa and Sasha both send positive and negative Ripple energy into Sasha's braided cord while holding onto both ends. By doing so, they avoid damaging Octavio and only incapacitate Dos Santos instead, who Octavio was holding onto.",
+  "aff": null
+ },
+ "stone_form": {
+  "name": "Stone Form",
+  "style": "pillar_man",
+  "owners": [
+   "Pillar Men"
+  ],
+  "tier": 4,
+  "desc": "The Pillar Men possess the ability to turn their body to stone and merge with their surroundings. While mainly being used for hibernation, they can also enter this state while awake to defend themselves. In this form they are immune to the Ripple, sunlight and UV lights, and they absorb blood and life forms that come into contact with the surface they are merged with. More experienced Pillar Men will set up traps by embedding precious jewels into the wall with them, exploiting humanity's greed by triggering hooks that pull them in by touch.",
+  "aff": null
+ },
+ "ribs_blades": {
+  "name": "Ribs Blades",
+  "style": "pillar_man",
+  "owners": [
+   "Santana"
+  ],
+  "tier": 5,
+  "desc": "Also called Exposed Ribs, Santana is able to control his ribs. Each of them are capable of spinning and moving in any direction. Having a maximum length of and a maximum pressure of per centimeter squared, Santana can use them to either crush or impale his opponents.",
+  "aff": null
+ },
+ "meat_invade": {
+  "name": "Meat Invade",
+  "style": "pillar_man",
+  "owners": [
+   "Santana"
+  ],
+  "tier": 6,
+  "desc": "Also called Malevolent Meat Morsels. Aside from the standard method of absorbing humans or vampires via his body, Santana can release chunks of his flesh in the shape of leeches, which latch onto and absorb his opponent's blood.",
+  "aff": null
+ },
+ "medicinal_usage": {
+  "name": "Medicinal Usage",
+  "style": "hamon",
+  "owners": [
+   "Hamon"
+  ],
+  "tier": 2,
+  "desc": "The Ripple can heal fractured bones as well as lessen one's sense of pain, allowing Ripple users to use techniques without fear of pain. When Zeppeli uses Forced Ripple Breathing on Jonathan, the latter's breathing heals his fractured arm, which normally would have taken another month or two to completely heal. When Jonathan then grabs a tree branch, it revives withered flowers, causing them to bloom again. A certain Ripple user serving as a doctor in India transmits his Ripple energy into a man's gangrenous leg, informing him that he should be fully healed within ten days.\nThe Ripple can also",
+  "aff": null
+ }
+}

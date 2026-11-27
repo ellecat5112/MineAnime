@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t6",
+    "jojorpg:rudol_von_stroheim_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "Joseph questions Santana about his species and repeats casual greetings to him. Baffled, Speedwagon asks Joseph why he is doing this and Joseph says he wants to determine if Santana is a good life form. Stroheim argues that he is evil because he killed his men, but Joseph writes this off as Stroheim provoking Santana to kill his men by awakening him from his slumber.",
+    "translate": "quest.jojorpg.battle_tendency_058.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Joseph questions Santana about his species and repeats casual greetings to him.",
+      "translate": "quest.jojorpg.battle_tendency_058.intro0"
+    },
+    {
+      "fallback": "Baffled, Speedwagon asks Joseph why he is doing this and Joseph says he wants to determine if Santana is a good life form.",
+      "translate": "quest.jojorpg.battle_tendency_058.intro1"
+    },
+    {
+      "fallback": "Stroheim argues that he is evil because he killed his men, but Joseph writes this off as Stroheim provoking Santana to kill his men by awakening him from his slumber.",
+      "translate": "quest.jojorpg.battle_tendency_058.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "58. The Pillar Man, Santana, Part 5",
+    "translate": "quest.jojorpg.battle_tendency_058"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_058.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 87,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 5",
+        "translate": "quest.jojorpg.battle_tendency_058.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100580,
+  "outro": [
+    {
+      "fallback": "Confused by this, and by the fact that Joseph feels different than any other human he has encountered before, Santana tests to see if Speedwagon is like Joseph, and confirms that Joseph is truly one of a kind.",
+      "translate": "quest.jojorpg.battle_tendency_058.outro0"
+    },
+    {
+      "fallback": "An enraged Joseph picks a fight with Santana, trying to punch him with the Ripple, only to find that his current Ripple does not work on Santana.",
+      "translate": "quest.jojorpg.battle_tendency_058.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_057"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

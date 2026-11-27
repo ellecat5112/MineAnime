@@ -1,0 +1,12 @@
+{
+  "color": 16774557,
+  "name": {
+    "fallback": "Light Mode",
+    "translate": "affinity.jojorpg.light"
+  },
+  "strong_against": [
+    "jojorpg:ripple"
+  ],
+  "system": "jojorpg",
+  "vfx_style": "light"
+}

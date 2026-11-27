@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t10",
+    "jojorpg:smokey_brown_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Kars the Superbeing is Born",
+    "translate": "quest.jojorpg.arc.kars_the_superbeing_is_born"
+  },
+  "description": {
+    "fallback": "With the unwitting help of his enemies' UV-based weapons, Kars has achieved his goal of becoming the Ultimate Thing! The transformation complete, he rises; the Stone Mask shatters, and the Red Stone of Aja falls to the ground. His arm, however, is still melting from the Ripple sent from Joseph's attack, giving Stroheim hope that he's not entirely invincible.",
+    "translate": "quest.jojorpg.battle_tendency_109.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "With the unwitting help of his enemies' UV-based weapons, Kars has achieved his goal of becoming the Ultimate Thing!",
+      "translate": "quest.jojorpg.battle_tendency_109.intro0"
+    },
+    {
+      "fallback": "The transformation complete, he rises; the Stone Mask shatters, and the Red Stone of Aja falls to the ground.",
+      "translate": "quest.jojorpg.battle_tendency_109.intro1"
+    },
+    {
+      "fallback": "His arm, however, is still melting from the Ripple sent from Joseph's attack, giving Stroheim hope that he's not entirely invincible.",
+      "translate": "quest.jojorpg.battle_tendency_109.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "109. Kars the Superbeing is Born, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_109"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_109.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Head out: Kars the Superbeing is Born, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_109.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t10",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t10"
+      }
+    }
+  ],
+  "order": 101090,
+  "outro": [
+    {
+      "fallback": "He grabs the Red Stone and...runs away!",
+      "translate": "quest.jojorpg.battle_tendency_109.outro0"
+    },
+    {
+      "fallback": "To avenge his fallen comrades, Kars grows wings and chases after Joseph.",
+      "translate": "quest.jojorpg.battle_tendency_109.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_108"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

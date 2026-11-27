@@ -37,7 +37,8 @@ public record StoryNpcDefinition(
         Appearance appearance,
         List<Text> greeting,
         Optional<Identifier> heldItem,
-        Text title
+        Text title,
+        boolean undead
 ) {
     public enum Role implements StringIdentifiable {
         GIVER("giver"), ALLY("ally"), ENEMY("enemy"), BOSS("boss");
@@ -85,6 +86,7 @@ public record StoryNpcDefinition(
             Appearance.CODEC.optionalFieldOf("appearance", Appearance.DEFAULT).forGetter(StoryNpcDefinition::appearance),
             TextCodecs.CODEC.listOf().optionalFieldOf("greeting", List.of()).forGetter(StoryNpcDefinition::greeting),
             Identifier.CODEC.optionalFieldOf("held_item").forGetter(StoryNpcDefinition::heldItem),
-            TextCodecs.CODEC.optionalFieldOf("title", Text.empty()).forGetter(StoryNpcDefinition::title)
+            TextCodecs.CODEC.optionalFieldOf("title", Text.empty()).forGetter(StoryNpcDefinition::title),
+            Codec.BOOL.optionalFieldOf("undead", false).forGetter(StoryNpcDefinition::undead)   // weak to Hamon / holy affinities
     ).apply(i, StoryNpcDefinition::new));
 }

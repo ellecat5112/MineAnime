@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "cone_degrees": 60.0,
+      "damage": 10.0,
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.0,
+      "radius": 6.0
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Ripple Hair Attack",
+    "translate": "ability.jojorpg.ripple_hair_attack"
+  },
+  "required_tier": 5,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

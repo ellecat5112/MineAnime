@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t7",
+    "jojorpg:caesar_anthonio_zeppeli_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "The Pillar Men explain that once in possession of the Red Stone of Aja they would be able to insert it into a Stone Mask, which would let them overcome their weakness to the sun and become perfect beings. They decide to start the search for the stone by going outside and taking a look at the changes that had occurred during their sleep. The leader of the Pillar Men unconsciously walks onto Wamuu's shadow, causing…",
+    "translate": "quest.jojorpg.battle_tendency_066.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "The Pillar Men explain that once in possession of the Red Stone of Aja they would be able to insert it into a Stone Mask, which would let them overcome their weakness to the sun and become perfect beings.",
+      "translate": "quest.jojorpg.battle_tendency_066.intro0"
+    },
+    {
+      "fallback": "They decide to start the search for the stone by going outside and taking a look at the changes that had occurred during their sleep.",
+      "translate": "quest.jojorpg.battle_tendency_066.intro1"
+    },
+    {
+      "fallback": "The leader of the Pillar Men unconsciously walks onto Wamuu's shadow, causing Wamuu to briefly lash out at him.",
+      "translate": "quest.jojorpg.battle_tendency_066.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "66. Ultimate Warriors from Ancient Times, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_066"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_066.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 59,
+      "text": {
+        "fallback": "Head out: Ultimate Warriors from Ancient Times, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_066.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t7",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t7"
+      }
+    }
+  ],
+  "order": 100660,
+  "outro": [
+    {
+      "fallback": "Using his superhuman reflexes, Wamuu effortlessly cuts all the bubbles in two, nullifying Caesar's most powerful ability and leaving him utterly helpless.",
+      "translate": "quest.jojorpg.battle_tendency_066.outro0"
+    },
+    {
+      "fallback": "The heroes discover that the Pillar Men are actually familiar with the Ripple.",
+      "translate": "quest.jojorpg.battle_tendency_066.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_065"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

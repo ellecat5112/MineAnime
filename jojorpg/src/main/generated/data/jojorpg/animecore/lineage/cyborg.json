@@ -1,0 +1,69 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.1,
+      "projectiles_only": true
+    }
+  ],
+  "color": 9479342,
+  "description": {
+    "fallback": "German science is the best in the world! An armoured body with built-in machine guns and an ultraviolet lamp.",
+    "translate": "lineage.jojorpg.cyborg.desc"
+  },
+  "granted_abilities": [
+    "jojorpg:abdominal_machine_gun",
+    "jojorpg:cyborg_eyes"
+  ],
+  "max_skill_level": 20,
+  "name": {
+    "fallback": "Cyborg (German Science)",
+    "translate": "lineage.jojorpg.cyborg"
+  },
+  "progression": [
+    {
+      "ability": "jojorpg:ultraviolet_radiation_apparatus",
+      "required_tier": 8,
+      "skill_level": 2
+    },
+    {
+      "ability": "jojorpg:ultraviolet_radiation_apparatus_spw_variant",
+      "required_tier": 9,
+      "skill_level": 6
+    },
+    {
+      "ability": "jojorpg:projectile_hand",
+      "required_tier": 10,
+      "skill_level": 10
+    }
+  ],
+  "selectable": false,
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 10.0,
+      "attribute": "minecraft:generic.armor"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.armor_toughness"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 3.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.6,
+      "attribute": "minecraft:generic.knockback_resistance"
+    },
+    {
+      "type": "animecore:ability_power",
+      "multiplier": 1.2
+    }
+  ],
+  "weight": 0
+}

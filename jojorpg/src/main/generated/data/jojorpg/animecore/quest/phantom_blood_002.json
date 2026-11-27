@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:george_joestar_i_ally_t1",
+    "jojorpg:danny_ally_t1"
+  ],
+  "arc": {
+    "fallback": "Dio Brando the Invader",
+    "translate": "quest.jojorpg.arc.dio_brando_the_invader"
+  },
+  "description": {
+    "fallback": "George welcomes Dio into the Joestar mansion as a son and introduces him to the servants. He expects him to get along well with Jonathan, as both of them lost their mothers and are roughly the same age. Jonathan has mostly forgiven Dio for kicking Danny earlier, concluding that he might have done the same had a strange dog suddenly jumped at him.",
+    "translate": "quest.jojorpg.phantom_blood_002.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "George welcomes Dio into the Joestar mansion as a son and introduces him to the servants.",
+      "translate": "quest.jojorpg.phantom_blood_002.intro0"
+    },
+    {
+      "fallback": "He expects him to get along well with Jonathan, as both of them lost their mothers and are roughly the same age.",
+      "translate": "quest.jojorpg.phantom_blood_002.intro1"
+    },
+    {
+      "fallback": "Jonathan has mostly forgiven Dio for kicking Danny earlier, concluding that he might have done the same had a strange dog suddenly jumped at him.",
+      "translate": "quest.jojorpg.phantom_blood_002.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "2. Dio Brando the Invader, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_002"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_002.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 52,
+      "text": {
+        "fallback": "Head out: Dio Brando the Invader, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_002.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t1_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t1_human"
+      }
+    }
+  ],
+  "order": 20,
+  "outro": [
+    {
+      "fallback": "He also shows off by lighting a firecracker, easily impressing the other boys.",
+      "translate": "quest.jojorpg.phantom_blood_002.outro0"
+    },
+    {
+      "fallback": "As Jonathan struggles to get up, blood running from his eye, he wonders why Dio is trying to ruin his life.",
+      "translate": "quest.jojorpg.phantom_blood_002.outro1"
+    }
+  ],
+  "requires": [
+    "jojorpg:phantom_blood_001"
+  ],
+  "rewards": {
+    "experience": 18,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

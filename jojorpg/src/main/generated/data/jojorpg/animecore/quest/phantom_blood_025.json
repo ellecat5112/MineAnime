@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t3",
+    "jojorpg:jonathan_joestar_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Ripple Overdrive",
+    "translate": "quest.jojorpg.arc.ripple_overdrive"
+  },
+  "description": {
+    "fallback": "Speedwagon remembers the death of George Joestar upon seeing Dio, becoming enraged at the latter's past actions; Jonathan also has the image of George’s death in his mind. The young boy is completely unaware of the situation, and Jonathan asks for his name. The boy tells him that his name is Poco.",
+    "translate": "quest.jojorpg.phantom_blood_025.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Speedwagon remembers the death of George Joestar upon seeing Dio, becoming enraged at the latter's past actions; Jonathan also has the image of George’s death in his mind.",
+      "translate": "quest.jojorpg.phantom_blood_025.intro0"
+    },
+    {
+      "fallback": "The young boy is completely unaware of the situation, and Jonathan asks for his name.",
+      "translate": "quest.jojorpg.phantom_blood_025.intro1"
+    },
+    {
+      "fallback": "The boy tells him that his name is Poco.",
+      "translate": "quest.jojorpg.phantom_blood_025.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "25. Ripple Overdrive, Part 3",
+    "translate": "quest.jojorpg.phantom_blood_025"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_025.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Head out: Ripple Overdrive, Part 3",
+        "translate": "quest.jojorpg.phantom_blood_025.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t3",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t3"
+      }
+    }
+  ],
+  "order": 250,
+  "outro": [
+    {
+      "fallback": "Zeppeli's arm splits open, seemingly unraveling itself and almost causing him to compromise his breathing pattern.",
+      "translate": "quest.jojorpg.phantom_blood_025.outro0"
+    },
+    {
+      "fallback": "Dio prepares to crush Zeppeli's head with a punch, but Jonathan intervenes and blocks Dio's attack.",
+      "translate": "quest.jojorpg.phantom_blood_025.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_024"
+  ],
+  "rewards": {
+    "experience": 24,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:ripple_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 3
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

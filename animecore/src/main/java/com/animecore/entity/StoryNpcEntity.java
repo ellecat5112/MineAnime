@@ -66,6 +66,11 @@ public class StoryNpcEntity extends PathAwareEntity {
     private int castCooldown = 40;
     private @Nullable ServerBossBar bossBar;
     private boolean configured;
+    private boolean ambient;
+
+    /** Spawned by the world (StorySpawner), not a quest: despawns when no player is near. */
+    public void setAmbient() { ambient = true; }
+    public boolean ambient() { return ambient; }
 
     public StoryNpcEntity(EntityType<? extends StoryNpcEntity> type, World world) {
         super(type, world);
@@ -245,6 +250,11 @@ public class StoryNpcEntity extends PathAwareEntity {
         if (getWorld().isClient) return;
         configure();
         if (bossBar != null) bossBar.setPercent(getHealth() / getMaxHealth());
+        if (age % 20 == 0 && definition().map(StoryNpcDefinition::undead).orElse(false)
+                && com.animecore.clan.ClanTraits.SunlightWeakness.inSunlight(this)) {
+            setOnFireFor(4);   // vampires and zombies burn in the sun
+        }
+        if (ambient && age % 100 == 0 && getWorld().getClosestPlayer(this, 96) == null) discard();
         if (age % 40 == 0 && quest != null && !QuestManager.stillNeeded(this)) {
             ((ServerWorld) getWorld()).spawnParticles(ParticleTypes.POOF, getX(), getBodyY(0.5), getZ(), 12, 0.3, 0.6, 0.3, 0.02);
             discard();
@@ -262,7 +272,7 @@ public class StoryNpcEntity extends PathAwareEntity {
     public boolean isPushable() { return role() != StoryNpcDefinition.Role.GIVER && super.isPushable(); }
 
     @Override
-    public boolean canImmediatelyDespawn(double distanceSquared) { return false; }
+    public boolean canImmediatelyDespawn(double distanceSquared) { return ambient && distanceSquared > 128 * 128; }
 
     @Override
     protected ActionResult interactMob(PlayerEntity player, Hand hand) {
@@ -301,6 +311,7 @@ public class StoryNpcEntity extends PathAwareEntity {
         nbt.putString("npc", dataTracker.get(NPC));
         if (owner != null) nbt.putUuid("owner", owner);
         if (quest != null) nbt.putString("quest", quest.toString());
+        if (ambient) nbt.putBoolean("ambient", true);
     }
 
     @Override
@@ -309,5 +320,6 @@ public class StoryNpcEntity extends PathAwareEntity {
         dataTracker.set(NPC, nbt.getString("npc"));
         owner = nbt.containsUuid("owner") ? nbt.getUuid("owner") : null;
         quest = nbt.contains("quest") ? Identifier.tryParse(nbt.getString("quest")) : null;
+        ambient = nbt.getBoolean("ambient");
     }
 }

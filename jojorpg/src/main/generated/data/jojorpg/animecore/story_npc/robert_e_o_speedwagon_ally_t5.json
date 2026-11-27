@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "jojorpg:saw_hat",
+    "jojorpg:sledgehammer"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "hair": 16769154,
+    "mark": "scar",
+    "outfit": "jacket",
+    "pants": 4073251,
+    "top": 9268835
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Robert E. O. Speedwagon",
+    "translate": "npc.jojorpg.robert_e_o_speedwagon"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

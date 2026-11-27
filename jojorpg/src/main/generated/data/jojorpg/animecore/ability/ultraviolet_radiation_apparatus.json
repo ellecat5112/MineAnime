@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 14794471,
+      "damage": 19.0,
+      "range": 18.0,
+      "width": 0.9
+    }
+  ],
+  "affinity": "jojorpg:ultraviolet",
+  "cast_animation": "animecore:cast_point",
+  "cooldown_ticks": 148,
+  "cost": {
+    "amount": 29.9,
+    "pool": "jojorpg:stamina"
+  },
+  "name": {
+    "fallback": "Ultraviolet Radiation Apparatus",
+    "translate": "ability.jojorpg.ultraviolet_radiation_apparatus"
+  },
+  "required_tier": 8,
+  "system": "jojorpg",
+  "token": "jojorpg:science"
+}

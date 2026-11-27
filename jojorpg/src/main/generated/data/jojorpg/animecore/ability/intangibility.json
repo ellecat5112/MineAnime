@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 2,
+          "duration": 160,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Intangibility",
+    "translate": "ability.jojorpg.intangibility"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

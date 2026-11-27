@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "Wamuu's hand comes out of the horse and grabs Joseph's leg. Wamuu tries to crushes his leg to prevent him from sending a Ripple into Wamuu's hand, but JoJo leaps off the horse, with Wamuu only holding on to his boot. JoJo lands back on the horses, proclaiming that luck was on his side.",
+    "translate": "quest.jojorpg.battle_tendency_100.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Wamuu's hand comes out of the horse and grabs Joseph's leg.",
+      "translate": "quest.jojorpg.battle_tendency_100.intro0"
+    },
+    {
+      "fallback": "Wamuu tries to crushes his leg to prevent him from sending a Ripple into Wamuu's hand, but JoJo leaps off the horse, with Wamuu only holding on to his boot.",
+      "translate": "quest.jojorpg.battle_tendency_100.intro1"
+    },
+    {
+      "fallback": "JoJo lands back on the horses, proclaiming that luck was on his side.",
+      "translate": "quest.jojorpg.battle_tendency_100.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "100. The Wind, the Chariot, and Wamuu, Part 6",
+    "translate": "quest.jojorpg.battle_tendency_100"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_100.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: The Wind, the Chariot, and Wamuu, Part 6",
+        "translate": "quest.jojorpg.battle_tendency_100.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 101000,
+  "outro": [
+    {
+      "fallback": "Never before had someone used the unparalleled destructive power of Wamuu's Divine Sandstorm against himself.",
+      "translate": "quest.jojorpg.battle_tendency_100.outro0"
+    },
+    {
+      "fallback": "The humiliation and the shock left Wamuu speechless.",
+      "translate": "quest.jojorpg.battle_tendency_100.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_099"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

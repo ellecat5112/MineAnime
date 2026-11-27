@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t6",
+    "jojorpg:rudol_von_stroheim_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "Joseph learns from Donovan that Speedwagon is still alive and being held in a secure Nazi base. Joseph sheds tears of joy, then notices Donovan trying to escape and ties him to a cactus. At the Nazi base, Joseph attempts to sneak in by cross-dressing as a girl.",
+    "translate": "quest.jojorpg.battle_tendency_056.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Joseph learns from Donovan that Speedwagon is still alive and being held in a secure Nazi base.",
+      "translate": "quest.jojorpg.battle_tendency_056.intro0"
+    },
+    {
+      "fallback": "Joseph sheds tears of joy, then notices Donovan trying to escape and ties him to a cactus.",
+      "translate": "quest.jojorpg.battle_tendency_056.intro1"
+    },
+    {
+      "fallback": "At the Nazi base, Joseph attempts to sneak in by cross-dressing as a girl.",
+      "translate": "quest.jojorpg.battle_tendency_056.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "56. The Pillar Man, Santana, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_056"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_056.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 76,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_056.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100560,
+  "outro": [
+    {
+      "fallback": "On the film, they see Santana running towards the wall and suddenly begin shape-shifting his bones and muscles.",
+      "translate": "quest.jojorpg.battle_tendency_056.outro0"
+    },
+    {
+      "fallback": "He manages to squeeze himself through a metal grate and starts traveling through the Nazi base in the air ducts.",
+      "translate": "quest.jojorpg.battle_tendency_056.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_055"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

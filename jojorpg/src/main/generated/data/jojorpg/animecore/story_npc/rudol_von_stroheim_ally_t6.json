@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    "jojorpg:cyborg_eyes"
+  ],
+  "appearance": {
+    "accent": 2171169,
+    "hair": 16769154,
+    "outfit": "armor",
+    "pants": 4082218,
+    "top": 5597999
+  },
+  "attack": 10.0,
+  "health": 144.0,
+  "name": {
+    "fallback": "Rudol von Stroheim",
+    "translate": "npc.jojorpg.rudol_von_stroheim"
+  },
+  "power": 1.72,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t6",
+    "jojorpg:rudol_von_stroheim_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "With the sun shining on Santana, he begins to crumble. As Stroheim is congratulated by Joseph, Santana enters his body through his stubbed leg to escape the sun. Desperate to kill Santana, however, Stroheim prepares to blow both of them up with a grenade and pulls its pin.",
+    "translate": "quest.jojorpg.battle_tendency_061.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "With the sun shining on Santana, he begins to crumble.",
+      "translate": "quest.jojorpg.battle_tendency_061.intro0"
+    },
+    {
+      "fallback": "As Stroheim is congratulated by Joseph, Santana enters his body through his stubbed leg to escape the sun.",
+      "translate": "quest.jojorpg.battle_tendency_061.intro1"
+    },
+    {
+      "fallback": "Desperate to kill Santana, however, Stroheim prepares to blow both of them up with a grenade and pulls its pin.",
+      "translate": "quest.jojorpg.battle_tendency_061.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "61. The Pillar Man, Santana, Part 8",
+    "translate": "quest.jojorpg.battle_tendency_061"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_061.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 8",
+        "translate": "quest.jojorpg.battle_tendency_061.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100610,
+  "outro": [
+    {
+      "fallback": "This proves futile, as the time is noon and the sun is shining directly above the well.",
+      "translate": "quest.jojorpg.battle_tendency_061.outro0"
+    },
+    {
+      "fallback": "The light, reflected in the water's surface, hits Santana from both sides and petrifies him.",
+      "translate": "quest.jojorpg.battle_tendency_061.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_060"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

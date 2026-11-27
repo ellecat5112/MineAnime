@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t6",
+    "jojorpg:rudol_von_stroheim_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "From Joseph's failed Ripple attack, he concludes that Santana’s skin functions similarly to Straizo's scarf, which absorbs the Ripple. Joseph's Ripple redirects to the Nazi blood on the floor. Santana laments similarly that Joseph and Santana’s body both repel one another, which is unheard of for a human.",
+    "translate": "quest.jojorpg.battle_tendency_059.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "From Joseph's failed Ripple attack, he concludes that Santana’s skin functions similarly to Straizo's scarf, which absorbs the Ripple.",
+      "translate": "quest.jojorpg.battle_tendency_059.intro0"
+    },
+    {
+      "fallback": "Joseph's Ripple redirects to the Nazi blood on the floor.",
+      "translate": "quest.jojorpg.battle_tendency_059.intro1"
+    },
+    {
+      "fallback": "Santana laments similarly that Joseph and Santana’s body both repel one another, which is unheard of for a human.",
+      "translate": "quest.jojorpg.battle_tendency_059.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "59. The Pillar Man, Santana, Part 6",
+    "translate": "quest.jojorpg.battle_tendency_059"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_059.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 6",
+        "translate": "quest.jojorpg.battle_tendency_059.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100590,
+  "outro": [
+    {
+      "fallback": "This makes him able to transfer Ripple energy into it.",
+      "translate": "quest.jojorpg.battle_tendency_059.outro0"
+    },
+    {
+      "fallback": "He does so, ripping Santana's body in half.",
+      "translate": "quest.jojorpg.battle_tendency_059.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_058"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

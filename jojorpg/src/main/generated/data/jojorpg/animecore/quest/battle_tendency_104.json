@@ -1,0 +1,95 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "Wamuu explodes, losing the fight with Joseph. Joseph approaches Wamuu, his head being all that remains. Joseph strikes his hand on a rock, wounding it, and pours the blood into Wamuu's neck wound, soothing the pain.",
+    "translate": "quest.jojorpg.battle_tendency_104.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Wamuu explodes, losing the fight with Joseph.",
+      "translate": "quest.jojorpg.battle_tendency_104.intro0"
+    },
+    {
+      "fallback": "Joseph approaches Wamuu, his head being all that remains.",
+      "translate": "quest.jojorpg.battle_tendency_104.intro1"
+    },
+    {
+      "fallback": "Joseph strikes his hand on a rock, wounding it, and pours the blood into Wamuu's neck wound, soothing the pain.",
+      "translate": "quest.jojorpg.battle_tendency_104.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "104. The Warrior Returns to the Wind",
+    "translate": "quest.jojorpg.battle_tendency_104"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_104.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Head out: The Warrior Returns to the Wind",
+        "translate": "quest.jojorpg.battle_tendency_104.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 101040,
+  "outro": [
+    {
+      "fallback": "Kars reminisces of Wamuu's pure warrior spirit, and how it was his greatest weakness.",
+      "translate": "quest.jojorpg.battle_tendency_104.outro0"
+    },
+    {
+      "fallback": "Kars then approaches Lisa Lisa in order to begin their fight.",
+      "translate": "quest.jojorpg.battle_tendency_104.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_103"
+  ],
+  "rewards": {
+    "experience": 42,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:modes_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 9
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

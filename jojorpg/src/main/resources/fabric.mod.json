@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "jojorpg",
+  "version": "${version}",
+  "name": "JoJoRPG",
+  "description": "JoJo's Bizarre Adventure Parts 1-2 (Phantom Blood, Battle Tendency): the Ripple, vampires, Pillar Men, German science and story mode - built on AnimeCore.",
+  "authors": ["MineAnime"],
+  "license": "MIT",
+  "icon": "assets/jojorpg/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.jojorpg.JojoRPG"],
+    "client": ["com.jojorpg.client.JojoRPGClient"],
+    "cardinal-components": ["com.jojorpg.JojoComponents"],
+    "fabric-datagen": ["com.jojorpg.datagen.JojoDataGenerator"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "animecore": ">=${animecore_version}",
+    "cardinal-components-base": ">=6.1.0",
+    "cardinal-components-entity": ">=6.1.0",
+    "playeranimator": ">=2.0.0",
+    "geckolib": ">=4.7"
+  },
+  "suggests": { "narutorpg": "*" },
+  "custom": { "cardinal-components": ["jojorpg:power"] }
+}

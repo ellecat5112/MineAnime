@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t5",
+    "jojorpg:tonpetty_ally_t5"
+  ],
+  "arc": {
+    "fallback": "Fire and Ice, Jonathan and Dio",
+    "translate": "quest.jojorpg.arc.fire_and_ice_jonathan_and_dio"
+  },
+  "description": {
+    "fallback": "With Dio holding onto his carotid artery, Jonathan is grounded. He tries to kick him, but Dio retaliates with his own knee, and, in the process, freezes both of Jonathan's legs. Speedwagon tries to help, but Dio's zombies surround the heroes and keep them at bay.",
+    "translate": "quest.jojorpg.phantom_blood_040.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "With Dio holding onto his carotid artery, Jonathan is grounded.",
+      "translate": "quest.jojorpg.phantom_blood_040.intro0"
+    },
+    {
+      "fallback": "He tries to kick him, but Dio retaliates with his own knee, and, in the process, freezes both of Jonathan's legs.",
+      "translate": "quest.jojorpg.phantom_blood_040.intro1"
+    },
+    {
+      "fallback": "Speedwagon tries to help, but Dio's zombies surround the heroes and keep them at bay.",
+      "translate": "quest.jojorpg.phantom_blood_040.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "40. Fire and Ice, Jonathan and Dio, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_040"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_040.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Fire and Ice, Jonathan and Dio, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_040.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t5",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t5"
+      }
+    }
+  ],
+  "order": 400,
+  "outro": [
+    {
+      "fallback": "Dio blocks the attack momentarily, but the strike eventually pushes through and straight into Dio's chest.",
+      "translate": "quest.jojorpg.phantom_blood_040.outro0"
+    },
+    {
+      "fallback": "Jonathan's Ripple-infused fists go straight through Dio, completely impaling him.",
+      "translate": "quest.jojorpg.phantom_blood_040.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:phantom_blood_039"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

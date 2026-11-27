@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t5",
+    "jojorpg:smokey_brown_ally_t5"
+  ],
+  "arc": {
+    "fallback": "Straizo vs. Joseph",
+    "translate": "quest.jojorpg.arc.straizo_vs_joseph"
+  },
+  "description": {
+    "fallback": "Joseph and Erina are shocked at the news of Speedwagon, the gangster explains that his corpse has been found. Out of nowhere, the gangster receives a punch in the stomach from Joseph, angry at his insensitivity towards the elderly Erina. Erina grimly declares that the curse of the Stone Mask is still following them even after 50 years.",
+    "translate": "quest.jojorpg.battle_tendency_048.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Joseph and Erina are shocked at the news of Speedwagon, the gangster explains that his corpse has been found.",
+      "translate": "quest.jojorpg.battle_tendency_048.intro0"
+    },
+    {
+      "fallback": "Out of nowhere, the gangster receives a punch in the stomach from Joseph, angry at his insensitivity towards the elderly Erina.",
+      "translate": "quest.jojorpg.battle_tendency_048.intro1"
+    },
+    {
+      "fallback": "Erina grimly declares that the curse of the Stone Mask is still following them even after 50 years.",
+      "translate": "quest.jojorpg.battle_tendency_048.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "48. Straizo vs. Joseph, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_048"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_048.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Head out: Straizo vs. Joseph, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_048.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:straizo_foe_t5",
+      "text": {
+        "fallback": "Defeat Straizo",
+        "translate": "quest.jojorpg.defeat.straizo_foe_t5"
+      }
+    }
+  ],
+  "order": 100480,
+  "outro": [
+    {
+      "fallback": "As soon as the monk reveals his fangs, Joseph reveals a concealed and fires an intense volley of bullets into the vampire.",
+      "translate": "quest.jojorpg.battle_tendency_048.outro0"
+    },
+    {
+      "fallback": "Straizo is sent inside the cafe through a window as Joseph declares war on him, tearing up over what happened to Speedwagon.",
+      "translate": "quest.jojorpg.battle_tendency_048.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:battle_tendency_047"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

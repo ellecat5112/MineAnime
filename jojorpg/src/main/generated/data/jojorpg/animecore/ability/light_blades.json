@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16775620,
+      "damage": 16.3,
+      "range": 6.0,
+      "width": 1.4
+    }
+  ],
+  "affinity": "jojorpg:light",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 148,
+  "cost": {
+    "amount": 29.9,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Light Blades",
+    "translate": "ability.jojorpg.light_blades"
+  },
+  "required_tier": 8,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

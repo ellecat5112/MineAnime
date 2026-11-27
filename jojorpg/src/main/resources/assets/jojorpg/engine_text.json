@@ -1,0 +1,23 @@
+{
+ "commands.animecore.clan.cannot_choose": "You can only choose a selectable fighting style while you have none",
+ "commands.animecore.clan.progress": "%s/%s style techniques unlocked, %s rerolls used",
+ "jei.animecore.clan.header": "Style techniques (first one known at once, the rest unlock with style mastery):",
+ "jei.animecore.clan.items": "Fighting style items: %s",
+ "message.animecore.admin.clan": "Style mastery level %s/%s",
+ "message.animecore.admin.max": "Everything maxed: rank, fighting style, affinities, energy",
+ "message.animecore.admin.no_clan": "You have no fighting style",
+ "message.animecore.clan.already": "That fighting style already flows in you",
+ "message.animecore.clan.assigned": "You have become: %s",
+ "message.animecore.clan.choose_hint": "You have no fighting style. Use a Breathing Mask, a Stone Mask or a style manual to learn one.",
+ "message.animecore.clan.foreign_emblem": "This emblem belongs to another fighting style",
+ "message.animecore.clan.rare": "A rare fighting style!",
+ "message.animecore.clan.unlocked": "Style technique learned: %s",
+ "message.animecore.mastery.awakened": "A new power awakens within you: %s!",
+ "tooltip.animecore.admin.clan_level": "Use: +1 style mastery level · Sneak + use: max fighting style level",
+ "tooltip.animecore.admin.max_all": "Use: max rank, max fighting style level, master all your affinities, refill",
+ "tooltip.animecore.bloodline_scroll.random": "Use to reroll your fighting style (never your current fighting style)",
+ "tooltip.animecore.bloodline_scroll.sealed": "Use to awaken this fighting style",
+ "tooltip.animecore.clan_skill.hint": "Hold (main or off hand) while defeating enemies: their experience becomes style mastery",
+ "tooltip.animecore.clan_skill.level": "Style Mastery Level %s",
+ "tooltip.animecore.clan_skill.unbound": "Use to attune to your fighting style"
+}

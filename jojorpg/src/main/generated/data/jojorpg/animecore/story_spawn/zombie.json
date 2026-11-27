@@ -1,0 +1,9 @@
+{
+  "group": [
+    2,
+    4
+  ],
+  "min_tier": 1,
+  "npc": "jojorpg:zombie_phantom_blood",
+  "system": "jojorpg"
+}

@@ -1,0 +1,78 @@
+{
+  "allies": [
+    "jojorpg:george_joestar_i_ally_t1"
+  ],
+  "arc": {
+    "fallback": "A Letter from the Past",
+    "translate": "quest.jojorpg.arc.a_letter_from_the_past"
+  },
+  "description": {
+    "fallback": "Seven years have passed since Dio came to the Joestar mansion, and in 1888 the mysterious Jack the Ripper has begun his murders. Elsewhere, a new battle between Jonathan and Dio begins. A rugby match takes place at Hugh Hudson Academy, and the team hero is none other than Jonathan Joestar.",
+    "translate": "quest.jojorpg.phantom_blood_006.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Seven years have passed since Dio came to the Joestar mansion, and in 1888 the mysterious Jack the Ripper has begun his murders.",
+      "translate": "quest.jojorpg.phantom_blood_006.intro0"
+    },
+    {
+      "fallback": "Elsewhere, a new battle between Jonathan and Dio begins.",
+      "translate": "quest.jojorpg.phantom_blood_006.intro1"
+    },
+    {
+      "fallback": "A rugby match takes place at Hugh Hudson Academy, and the team hero is none other than Jonathan Joestar.",
+      "translate": "quest.jojorpg.phantom_blood_006.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "6. A Letter from the Past, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_006"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_006.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: A Letter from the Past, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_006.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t1_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t1_human"
+      }
+    }
+  ],
+  "order": 60,
+  "outro": [
+    {
+      "fallback": "To his shock, Jonathan realizes that the symptoms of the fatal sickness that Dario described are identical to those that are currently afflicting George.",
+      "translate": "quest.jojorpg.phantom_blood_006.outro0"
+    },
+    {
+      "fallback": "Jonathan plans to confront Dio concerning this revelation.",
+      "translate": "quest.jojorpg.phantom_blood_006.outro1"
+    }
+  ],
+  "requires": [
+    "jojorpg:phantom_blood_005"
+  ],
+  "rewards": {
+    "experience": 18,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

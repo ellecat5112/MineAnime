@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 13621468,
+      "count": 3,
+      "damage": 4.3,
+      "lifetime_ticks": 30,
+      "size": 0.2,
+      "speed": 2.4,
+      "spread_degrees": 8.0
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Scalpels",
+    "translate": "ability.jojorpg.scalpels"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

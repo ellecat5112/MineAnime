@@ -37,6 +37,9 @@ public final class AbilityDamage {
         if (target == attacker || !target.isAlive()) return false;
         float clash = affinity == null ? 1f
                 : AffinityMatrix.clash(AnimeRegistries.affinities(world.getRegistryManager()), affinity, AnimeCoreApi.affinitiesOf(target));
+        if (affinity != null && AnimeCoreApi.isUndead(target)) {
+            clash *= AnimeRegistries.affinities(world.getRegistryManager()).getOrEmpty(affinity).map(a -> a.undeadMultiplier()).orElse(1f);
+        }
         boolean hit = damage <= 0f || damageIgnoringHurtCooldown(world, target, source(world, direct, attacker), damage * clash);
         if (hit) {
             if (fireTicks > 0) target.setOnFireForTicks(fireTicks);

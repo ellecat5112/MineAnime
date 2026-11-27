@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 4.9,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "hits": 5,
+      "knockback": 1.4
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 129,
+  "cost": {
+    "amount": 24.6,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Bubble Barrier",
+    "translate": "ability.jojorpg.bubble_barrier"
+  },
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

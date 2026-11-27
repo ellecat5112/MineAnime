@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t2"
+  ],
+  "arc": {
+    "fallback": "Youth with Dio",
+    "translate": "quest.jojorpg.arc.youth_with_dio"
+  },
+  "description": {
+    "fallback": "Jonathan falls with Dio all the way down to the first floor of the burning mansion. Jonathan reflects on how Dio has tortured him, and how up to this moment he has lost everything but his own life because of Dio. With nothing else to live for, JoJo is more than willing to die to stop Dio's ambitions.",
+    "translate": "quest.jojorpg.phantom_blood_016.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Jonathan falls with Dio all the way down to the first floor of the burning mansion.",
+      "translate": "quest.jojorpg.phantom_blood_016.intro0"
+    },
+    {
+      "fallback": "Jonathan reflects on how Dio has tortured him, and how up to this moment he has lost everything but his own life because of Dio.",
+      "translate": "quest.jojorpg.phantom_blood_016.intro1"
+    },
+    {
+      "fallback": "With nothing else to live for, JoJo is more than willing to die to stop Dio's ambitions.",
+      "translate": "quest.jojorpg.phantom_blood_016.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "16. Youth with Dio, Part 5",
+    "translate": "quest.jojorpg.phantom_blood_016"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_016.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: Youth with Dio, Part 5",
+        "translate": "quest.jojorpg.phantom_blood_016.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2"
+      }
+    }
+  ],
+  "order": 160,
+  "outro": [
+    {
+      "fallback": "Between the impact of throwing Dio onto the statue, and being thrown in the direction of the window, Jonathan miraculously survived.",
+      "translate": "quest.jojorpg.phantom_blood_016.outro0"
+    },
+    {
+      "fallback": "Speedwagon determines that Jonathan has won, and Dio has been defeated.",
+      "translate": "quest.jojorpg.phantom_blood_016.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_015"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

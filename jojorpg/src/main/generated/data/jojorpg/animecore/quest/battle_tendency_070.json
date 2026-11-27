@@ -1,0 +1,99 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t7",
+    "jojorpg:joseph_joestar_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "As the mine cart spirals deeper into the cave, Wamuu tries to understand why Joseph is sacrificing himself. He guesses Joseph's plan and hits the brakes before Joseph does, sending both flying and also guesses that his enemy plans to use the stick of dynamite behind him, spoiling Joseph's plans. They crash into a court under Esidisi and Kars's watch.",
+    "translate": "quest.jojorpg.battle_tendency_070.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "As the mine cart spirals deeper into the cave, Wamuu tries to understand why Joseph is sacrificing himself.",
+      "translate": "quest.jojorpg.battle_tendency_070.intro0"
+    },
+    {
+      "fallback": "He guesses Joseph's plan and hits the brakes before Joseph does, sending both flying and also guesses that his enemy plans to use the stick of dynamite behind him, spoiling Joseph's plans.",
+      "translate": "quest.jojorpg.battle_tendency_070.intro1"
+    },
+    {
+      "fallback": "They crash into a court under Esidisi and Kars's watch.",
+      "translate": "quest.jojorpg.battle_tendency_070.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "70. An Engagement with Death: The Wedding Ring",
+    "translate": "quest.jojorpg.battle_tendency_070"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_070.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: An Engagement with Death: The Wedding Ring",
+        "translate": "quest.jojorpg.battle_tendency_070.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:esidisi_foe_t7",
+      "text": {
+        "fallback": "Defeat Esidisi",
+        "translate": "quest.jojorpg.defeat.esidisi_foe_t7"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t7",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t7"
+      }
+    }
+  ],
+  "order": 100700,
+  "outro": [
+    {
+      "fallback": "With that settled, the Pillar Men jump into the sky in search of the Red Stone of Aja.",
+      "translate": "quest.jojorpg.battle_tendency_070.outro0"
+    },
+    {
+      "fallback": "A little later, Caesar arrives and helps the unconscious Joseph, having developed respect for him.",
+      "translate": "quest.jojorpg.battle_tendency_070.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_069"
+  ],
+  "rewards": {
+    "experience": 36,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:pillar_remains"
+      },
+      {
+        "count": 1,
+        "id": "jojorpg:pillar_men_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 7
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

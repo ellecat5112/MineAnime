@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t7",
+    "jojorpg:joseph_joestar_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "It is revealed that 2,000 years ago, the Ripple clan was wiped out by the Pillar Men. The Pillar Men are named Wamuu, Esidisi, Kars, and Santana. After nullifying Caesar's bubble attack, Wamuu creates small air-ripping tornado blasts that slice Caesar's face numerous times with the anti-Ripple wires.",
+    "translate": "quest.jojorpg.battle_tendency_067.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "It is revealed that 2,000 years ago, the Ripple clan was wiped out by the Pillar Men.",
+      "translate": "quest.jojorpg.battle_tendency_067.intro0"
+    },
+    {
+      "fallback": "The Pillar Men are named Wamuu, Esidisi, Kars, and Santana.",
+      "translate": "quest.jojorpg.battle_tendency_067.intro1"
+    },
+    {
+      "fallback": "After nullifying Caesar's bubble attack, Wamuu creates small air-ripping tornado blasts that slice Caesar's face numerous times with the anti-Ripple wires.",
+      "translate": "quest.jojorpg.battle_tendency_067.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "67. Ultimate Warriors from Ancient Times, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_067"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_067.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Ultimate Warriors from Ancient Times, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_067.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t7",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t7"
+      }
+    }
+  ],
+  "order": 100670,
+  "outro": [
+    {
+      "fallback": "After introducing himself, Joseph takes out American clackers and charges them with the Ripple, claiming that this is his newfound secret technique.",
+      "translate": "quest.jojorpg.battle_tendency_067.outro0"
+    },
+    {
+      "fallback": "Trying to show off, he is called out by Caesar and Speedwagon, but assures them he intends to fight seriously even though he hasn't practiced it much yet.",
+      "translate": "quest.jojorpg.battle_tendency_067.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_066"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

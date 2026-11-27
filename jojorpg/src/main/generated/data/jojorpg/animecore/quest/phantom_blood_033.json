@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t4",
+    "jojorpg:robert_e_o_speedwagon_ally_t4"
+  ],
+  "arc": {
+    "fallback": "Pluck for Tomorrow and the Successor",
+    "translate": "quest.jojorpg.arc.pluck_for_tomorrow_and_the_successor"
+  },
+  "description": {
+    "fallback": "Inside the arena, Tarkus gloats to Jonathan about all the poor souls he sent to their deaths in the room. Meanwhile, Zeppeli is trying to break open the door, but he and Speedwagon realize that his Ripple powers cannot break down this door and, likewise, they cannot break Jonathan's chain. Inside the arena, Tarkus taunts Jonathan by showing him that the only way to get free of the neck brace is to take the key to…",
+    "translate": "quest.jojorpg.phantom_blood_033.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Inside the arena, Tarkus gloats to Jonathan about all the poor souls he sent to their deaths in the room.",
+      "translate": "quest.jojorpg.phantom_blood_033.intro0"
+    },
+    {
+      "fallback": "Meanwhile, Zeppeli is trying to break open the door, but he and Speedwagon realize that his Ripple powers cannot break down this door and, likewise, they cannot break Jonathan's chain.",
+      "translate": "quest.jojorpg.phantom_blood_033.intro1"
+    },
+    {
+      "fallback": "Inside the arena, Tarkus taunts Jonathan by showing him that the only way to get free of the neck brace is to take the key to it from his opponent's identical neck brace.",
+      "translate": "quest.jojorpg.phantom_blood_033.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "33. Pluck for Tomorrow and the Successor, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_033"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_033.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Head out: Pluck for Tomorrow and the Successor, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_033.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:thug_phantom_blood",
+      "text": {
+        "fallback": "Beat up the thugs",
+        "translate": "quest.jojorpg.minion.thug"
+      }
+    }
+  ],
+  "order": 330,
+  "outro": [
+    {
+      "fallback": "She says to him that she thinks he is afraid of pain and not being able to do anything.",
+      "translate": "quest.jojorpg.phantom_blood_033.outro0"
+    },
+    {
+      "fallback": "At that moment, Zeppeli and Speedwagon notice t",
+      "translate": "quest.jojorpg.phantom_blood_033.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_032"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

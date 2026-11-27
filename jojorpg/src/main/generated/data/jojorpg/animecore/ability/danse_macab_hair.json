@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "cone_degrees": 60.0,
+      "damage": 7.6,
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.0,
+      "radius": 6.0
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Danse Macab-Hair",
+    "translate": "ability.jojorpg.danse_macab_hair"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

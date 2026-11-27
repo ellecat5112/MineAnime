@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "jojorpg:saw_hat"
+  ],
+  "appearance": {
+    "accent": 4073251,
+    "hair": 4073251,
+    "hair_style": "wild",
+    "mark": "scar",
+    "outfit": "jacket",
+    "pants": 4342338,
+    "top": 6111287
+  },
+  "attack": 6.2,
+  "cast_interval": 90,
+  "health": 72.0,
+  "name": {
+    "fallback": "Street Thug",
+    "translate": "npc.jojorpg.street_thug"
+  },
+  "power": 1.4,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 3.8,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "hits": 3,
+      "knockback": 1.0
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 81,
+  "cost": {
+    "amount": 11.4,
+    "pool": "jojorpg:stamina"
+  },
+  "name": {
+    "fallback": "Eastern Mystery Chinese Kempo",
+    "translate": "ability.jojorpg.eastern_mystery_chinese_kempo"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:martial"
+}

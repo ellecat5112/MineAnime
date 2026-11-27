@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t4",
+    "jojorpg:jonathan_joestar_ally_t4"
+  ],
+  "arc": {
+    "fallback": "Tarkus and the Dark Knight Bruford",
+    "translate": "quest.jojorpg.arc.tarkus_and_the_dark_knight_bruford"
+  },
+  "description": {
+    "fallback": "Bruford survives Jonathan's Overdrive and prepares to attack his opponent again stating that the pain he feels is nothing to him. As he rushes at Jonathan, the latter simply stands still much to the dismay of his companions. Speedwagon calls out to Jonathan insistent that he counter Bruford's onslaught, however, he refuses to move.",
+    "translate": "quest.jojorpg.phantom_blood_030.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Bruford survives Jonathan's Overdrive and prepares to attack his opponent again stating that the pain he feels is nothing to him.",
+      "translate": "quest.jojorpg.phantom_blood_030.intro0"
+    },
+    {
+      "fallback": "As he rushes at Jonathan, the latter simply stands still much to the dismay of his companions.",
+      "translate": "quest.jojorpg.phantom_blood_030.intro1"
+    },
+    {
+      "fallback": "Speedwagon calls out to Jonathan insistent that he counter Bruford's onslaught, however, he refuses to move.",
+      "translate": "quest.jojorpg.phantom_blood_030.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "30. Sleep as a Hero",
+    "translate": "quest.jojorpg.phantom_blood_030"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_030.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 63,
+      "text": {
+        "fallback": "Head out: Sleep as a Hero",
+        "translate": "quest.jojorpg.phantom_blood_030.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:tarkus_foe_t4",
+      "text": {
+        "fallback": "Defeat Tarkus",
+        "translate": "quest.jojorpg.defeat.tarkus_foe_t4"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:bruford_foe_t4",
+      "text": {
+        "fallback": "Defeat Bruford",
+        "translate": "quest.jojorpg.defeat.bruford_foe_t4"
+      }
+    }
+  ],
+  "order": 300,
+  "outro": [
+    {
+      "fallback": "The Ripple master realizes that the shrapnel would be impossible to dodge entirely and makes his best effort to use his skills to minimize the damage.",
+      "translate": "quest.jojorpg.phantom_blood_030.outro0"
+    },
+    {
+      "fallback": "Injured, but still well enough to fight, Zeppeli remarks that Tarkus will be difficult to free from Dio's control, to which the zombie knig",
+      "translate": "quest.jojorpg.phantom_blood_030.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_029"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 3,
+    "tier": 4
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

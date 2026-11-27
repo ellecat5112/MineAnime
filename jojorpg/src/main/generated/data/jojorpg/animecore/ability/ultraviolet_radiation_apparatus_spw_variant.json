@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 14794471,
+      "damage": 20.7,
+      "range": 18.0,
+      "width": 0.9
+    }
+  ],
+  "affinity": "jojorpg:ultraviolet",
+  "cast_animation": "animecore:cast_point",
+  "cooldown_ticks": 158,
+  "cost": {
+    "amount": 32.6,
+    "pool": "jojorpg:stamina"
+  },
+  "name": {
+    "fallback": "Ultraviolet Radiation Apparatus (SPW Variant)",
+    "translate": "ability.jojorpg.ultraviolet_radiation_apparatus_spw_variant"
+  },
+  "required_tier": 9,
+  "system": "jojorpg",
+  "token": "jojorpg:science"
+}

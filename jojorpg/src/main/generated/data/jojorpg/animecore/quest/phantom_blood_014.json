@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t2"
+  ],
+  "arc": {
+    "fallback": "Youth with Dio",
+    "translate": "quest.jojorpg.arc.youth_with_dio"
+  },
+  "description": {
+    "fallback": "The injured Speedwagon tries to warn Jonathan to flee, and tells him that it would be suicide to fight Dio. Speedwagon is on the ground with broken ribs and an arm, and is angry that instead of being able to help JoJo, he can only sit there and be a burden to him. Undeterred by his friend's pleas, Jonathan theorizes that since the Stone Mask unlocks the secret potential of the human brain; the only way to kill Dio…",
+    "translate": "quest.jojorpg.phantom_blood_014.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "The injured Speedwagon tries to warn Jonathan to flee, and tells him that it would be suicide to fight Dio.",
+      "translate": "quest.jojorpg.phantom_blood_014.intro0"
+    },
+    {
+      "fallback": "Speedwagon is on the ground with broken ribs and an arm, and is angry that instead of being able to help JoJo, he can only sit there and be a burden to him.",
+      "translate": "quest.jojorpg.phantom_blood_014.intro1"
+    },
+    {
+      "fallback": "Undeterred by his friend's pleas, Jonathan theorizes that since the Stone Mask unlocks the secret potential of the human brain; the only way to kill Dio at this point is to destroy his brain completely.",
+      "translate": "quest.jojorpg.phantom_blood_014.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "14. Youth with Dio, Part 3",
+    "translate": "quest.jojorpg.phantom_blood_014"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_014.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 64,
+      "text": {
+        "fallback": "Head out: Youth with Dio, Part 3",
+        "translate": "quest.jojorpg.phantom_blood_014.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2"
+      }
+    }
+  ],
+  "order": 140,
+  "outro": [
+    {
+      "fallback": "However, the curtain is then lit on fire and draped over him, causing Dio to fall back and yell in pain or surprise.",
+      "translate": "quest.jojorpg.phantom_blood_014.outro0"
+    },
+    {
+      "fallback": "Jonathan and Speedwagon, holding an oil lamp, watch as the vampire burns, and hope that it will be enough to end him.",
+      "translate": "quest.jojorpg.phantom_blood_014.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_013"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

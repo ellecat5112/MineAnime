@@ -1,0 +1,9 @@
+{
+  "color": 16740419,
+  "name": {
+    "fallback": "Flame Mode",
+    "translate": "affinity.jojorpg.heat"
+  },
+  "system": "jojorpg",
+  "vfx_style": "flame"
+}

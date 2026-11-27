@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t10",
+    "jojorpg:rudol_von_stroheim_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Kars the Superbeing is Born",
+    "translate": "quest.jojorpg.arc.kars_the_superbeing_is_born"
+  },
+  "description": {
+    "fallback": "There was once an ancient tribe, who held incredible power. These people lived far longer than humans could, but were unable to step into sunlight. Primitive humans worshiped them as gods.",
+    "translate": "quest.jojorpg.battle_tendency_112.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "There was once an ancient tribe, who held incredible power.",
+      "translate": "quest.jojorpg.battle_tendency_112.intro0"
+    },
+    {
+      "fallback": "These people lived far longer than humans could, but were unable to step into sunlight.",
+      "translate": "quest.jojorpg.battle_tendency_112.intro1"
+    },
+    {
+      "fallback": "Primitive humans worshiped them as gods.",
+      "translate": "quest.jojorpg.battle_tendency_112.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "112. The Man Who Became a God",
+    "translate": "quest.jojorpg.battle_tendency_112"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_112.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Head out: The Man Who Became a God",
+        "translate": "quest.jojorpg.battle_tendency_112.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t10",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t10"
+      }
+    }
+  ],
+  "order": 101120,
+  "outro": [
+    {
+      "fallback": "JoJo proclaims that this was his plan from the very beginning, lying to make Kars mad.",
+      "translate": "quest.jojorpg.battle_tendency_112.outro0"
+    },
+    {
+      "fallback": "While the Earth was unable to defeat the monster, surely not even Kars could defeat the cold vacuum of space.",
+      "translate": "quest.jojorpg.battle_tendency_112.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_111"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

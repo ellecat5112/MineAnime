@@ -1,0 +1,90 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9",
+    "jojorpg:rudol_von_stroheim_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Bond That Binds Lisa Lisa and JoJo",
+    "translate": "quest.jojorpg.arc.the_bond_that_binds_lisa_lisa_and_jojo"
+  },
+  "description": {
+    "fallback": "Joseph, angry at Kars's treachery, charges into the ruins, fighting off hundreds of vampires. However, the fight with Wamuu has tired out JoJo and he cannot produce the Ripple properly. Joseph is almost overwhelmed by the Vampires but suddenly, Nazis appear, led by none other than Stroheim, along with him are Speedwagon and Smokey Brown.",
+    "translate": "quest.jojorpg.battle_tendency_106.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph, angry at Kars's treachery, charges into the ruins, fighting off hundreds of vampires.",
+      "translate": "quest.jojorpg.battle_tendency_106.intro0"
+    },
+    {
+      "fallback": "However, the fight with Wamuu has tired out JoJo and he cannot produce the Ripple properly.",
+      "translate": "quest.jojorpg.battle_tendency_106.intro1"
+    },
+    {
+      "fallback": "Joseph is almost overwhelmed by the Vampires but suddenly, Nazis appear, led by none other than Stroheim, along with him are Speedwagon and Smokey Brown.",
+      "translate": "quest.jojorpg.battle_tendency_106.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "106. The Bond That Binds Lisa Lisa and JoJo, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_106"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_106.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: The Bond That Binds Lisa Lisa and JoJo, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_106.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t9",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t9"
+      }
+    }
+  ],
+  "order": 101060,
+  "outro": [
+    {
+      "fallback": "Joseph continues to hold on, even as Kars approaches to kill him he can't let go.",
+      "translate": "quest.jojorpg.battle_tendency_106.outro0"
+    },
+    {
+      "fallback": "What JoJo doesn't know is that the woman he is holding onto is his own mother.",
+      "translate": "quest.jojorpg.battle_tendency_106.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_105"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

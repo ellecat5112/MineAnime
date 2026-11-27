@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 8445674,
+      "damage": 13.6,
+      "lifetime_ticks": 20,
+      "size": 0.25,
+      "speed": 2.6,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 148,
+  "cost": {
+    "amount": 29.9,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Bubble Cutter",
+    "translate": "ability.jojorpg.bubble_cutter"
+  },
+  "required_tier": 8,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

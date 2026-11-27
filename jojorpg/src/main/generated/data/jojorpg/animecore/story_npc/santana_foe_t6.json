@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:ribs_blades",
+    "jojorpg:meat_invade"
+  ],
+  "appearance": {
+    "accent": 9268835,
+    "hair": 5125166,
+    "hair_style": "wild",
+    "mark": "forehead",
+    "outfit": "bodysuit",
+    "pants": 9268835,
+    "skin": 14136478,
+    "top": 14142664
+  },
+  "attack": 12.1,
+  "cast_interval": 40,
+  "health": 530.0,
+  "name": {
+    "fallback": "Santana",
+    "translate": "npc.jojorpg.santana"
+  },
+  "power": 1.62,
+  "role": "boss",
+  "scale": 1.2,
+  "speed": 0.36,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

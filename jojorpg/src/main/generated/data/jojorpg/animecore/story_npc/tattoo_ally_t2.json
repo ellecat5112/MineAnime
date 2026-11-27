@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "jojorpg:saw_hat",
+    "jojorpg:sledgehammer"
+  ],
+  "appearance": {
+    "accent": 2503224,
+    "hair": 4473924,
+    "hair_style": "long",
+    "outfit": "jacket",
+    "pants": 4073251,
+    "top": 7162945
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Tattoo",
+    "translate": "npc.jojorpg.tattoo"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 13.6,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 148,
+  "cost": {
+    "amount": 29.9,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Cat-Foot Stance",
+    "translate": "ability.jojorpg.cat_foot_stance"
+  },
+  "required_tier": 8,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

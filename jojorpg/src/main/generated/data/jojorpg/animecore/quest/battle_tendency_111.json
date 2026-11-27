@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t10",
+    "jojorpg:rudol_von_stroheim_ally_t10"
+  ],
+  "arc": {
+    "fallback": "Kars the Superbeing is Born",
+    "translate": "quest.jojorpg.arc.kars_the_superbeing_is_born"
+  },
+  "description": {
+    "fallback": "Joseph accepts his fate as a member of the Joestar family, and attempts to plummet Kars into the volcano by plunging the plane upon him. Kars tries to escape from the force of the nose but is stopped by Stroheim, who was hiding in the plane's pontoon. Before the plane crashes, Stroheim orders Joseph to jump.",
+    "translate": "quest.jojorpg.battle_tendency_111.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph accepts his fate as a member of the Joestar family, and attempts to plummet Kars into the volcano by plunging the plane upon him.",
+      "translate": "quest.jojorpg.battle_tendency_111.intro0"
+    },
+    {
+      "fallback": "Kars tries to escape from the force of the nose but is stopped by Stroheim, who was hiding in the plane's pontoon.",
+      "translate": "quest.jojorpg.battle_tendency_111.intro1"
+    },
+    {
+      "fallback": "Before the plane crashes, Stroheim orders Joseph to jump.",
+      "translate": "quest.jojorpg.battle_tendency_111.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "111. Joseph's Final Gamble",
+    "translate": "quest.jojorpg.battle_tendency_111"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_111.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Joseph's Final Gamble",
+        "translate": "quest.jojorpg.battle_tendency_111.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t10",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t10"
+      }
+    }
+  ],
+  "order": 101110,
+  "outro": [
+    {
+      "fallback": "Kars then emerges covered in a lava-proof shell constructed of miniature air pockets.",
+      "translate": "quest.jojorpg.battle_tendency_111.outro0"
+    },
+    {
+      "fallback": "While all known life came from the Earth, and the Earth is capable of taking it all away, not even the Earth itself could defeat the Ultimate Thing, Kars.",
+      "translate": "quest.jojorpg.battle_tendency_111.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_110"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

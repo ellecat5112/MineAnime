@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:space_ripper_stingy_eyes"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "eyes": 12986408,
+    "hair": 2171169,
+    "hair_style": "long",
+    "mark": "red_eyes",
+    "outfit": "jacket",
+    "pants": 4073251
+  },
+  "attack": 8.9,
+  "cast_interval": 40,
+  "health": 288.0,
+  "name": {
+    "fallback": "Straizo",
+    "translate": "npc.jojorpg.straizo"
+  },
+  "power": 1.5,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

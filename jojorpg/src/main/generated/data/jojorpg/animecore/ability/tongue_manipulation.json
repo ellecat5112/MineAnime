@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16027569,
+      "damage": 8.8,
+      "pierce": false,
+      "range": 6.0,
+      "width": 0.4
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Tongue Manipulation",
+    "translate": "ability.jojorpg.tongue_manipulation"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Ripple Teacher Lisa Lisa",
+    "translate": "quest.jojorpg.arc.ripple_teacher_lisa_lisa"
+  },
+  "description": {
+    "fallback": "After finishing the pillar trial, Joseph confronts Lisa Lisa about the ill treatment he received, planning to exact revenge. Lisa Lisa casually passes Joseph a glass of water, and after catching it without making it spill, Joseph realizes that the training had satisfying results. Acknowledging her teaching method, Joseph gets down on his knees and begs Lisa Lisa to start the next part of the training.",
+    "translate": "quest.jojorpg.battle_tendency_075.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "After finishing the pillar trial, Joseph confronts Lisa Lisa about the ill treatment he received, planning to exact revenge.",
+      "translate": "quest.jojorpg.battle_tendency_075.intro0"
+    },
+    {
+      "fallback": "Lisa Lisa casually passes Joseph a glass of water, and after catching it without making it spill, Joseph realizes that the training had satisfying results.",
+      "translate": "quest.jojorpg.battle_tendency_075.intro1"
+    },
+    {
+      "fallback": "Acknowledging her teaching method, Joseph gets down on his knees and begs Lisa Lisa to start the next part of the training.",
+      "translate": "quest.jojorpg.battle_tendency_075.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "75. Ripple Teacher Lisa Lisa, Part 5",
+    "translate": "quest.jojorpg.battle_tendency_075"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_075.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Go: Ripple Teacher Lisa Lisa, Part 5",
+        "translate": "quest.jojorpg.battle_tendency_075.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "jojorpg:caesar_anthonio_zeppeli",
+      "text": {
+        "fallback": "Meet Caesar Anthonio Zeppeli",
+        "translate": "quest.jojorpg.battle_tendency_075.o3"
+      }
+    }
+  ],
+  "order": 100750,
+  "outro": [
+    {
+      "fallback": "After pouring condiments from a nearby table all over the thug, he sends him on his way.",
+      "translate": "quest.jojorpg.battle_tendency_075.outro0"
+    },
+    {
+      "fallback": "Lisa Lisa reveals that the necklace the thug was trying to steal was actually the Red Stone of Aja, the same gem the Pillar Men were trying to find.",
+      "translate": "quest.jojorpg.battle_tendency_075.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_074"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

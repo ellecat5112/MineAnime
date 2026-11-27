@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:rudol_von_stroheim_ally_t8",
+    "jojorpg:joseph_joestar_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Light Mode Kars",
+    "translate": "quest.jojorpg.arc.light_mode_kars"
+  },
+  "description": {
+    "fallback": "Joseph is conflicted as to how to handle the situation at hand with Kars; Pondering whether to run away but leave the Red Stone, or to fight him with a low chance of victory. Kars successfully grabs the Stone from the injured Stroheim, but Stroheim retaliates with a UV laser fired from his right eye, forcing him to drop the Stone. The Stone begins to slide down the snowy slope towards a cliff.",
+    "translate": "quest.jojorpg.battle_tendency_086.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph is conflicted as to how to handle the situation at hand with Kars; Pondering whether to run away but leave the Red Stone, or to fight him with a low chance of victory.",
+      "translate": "quest.jojorpg.battle_tendency_086.intro0"
+    },
+    {
+      "fallback": "Kars successfully grabs the Stone from the injured Stroheim, but Stroheim retaliates with a UV laser fired from his right eye, forcing him to drop the Stone.",
+      "translate": "quest.jojorpg.battle_tendency_086.intro1"
+    },
+    {
+      "fallback": "The Stone begins to slide down the snowy slope towards a cliff.",
+      "translate": "quest.jojorpg.battle_tendency_086.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "86. Light Mode Kars, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_086"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_086.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Head out: Light Mode Kars, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_086.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t8",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t8"
+      }
+    }
+  ],
+  "order": 100860,
+  "outro": [
+    {
+      "fallback": "JoJo reveals that his kick wasn't intended to hit Kars, instead kicking the snow and allowing him to slow down and grab the Stone.",
+      "translate": "quest.jojorpg.battle_tendency_086.outro0"
+    },
+    {
+      "fallback": "However, in that moment, Kars pierces JoJo's shoulder with a Light Blade from his foot, dragging him off the cliff with him.",
+      "translate": "quest.jojorpg.battle_tendency_086.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_085"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

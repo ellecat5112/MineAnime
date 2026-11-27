@@ -1,0 +1,100 @@
+{
+  "allies": [
+    "jojorpg:rudol_von_stroheim_ally_t8",
+    "jojorpg:joseph_joestar_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Stroheim's Unit Strikes Back",
+    "translate": "quest.jojorpg.arc.stroheims_unit_strikes_back"
+  },
+  "description": {
+    "fallback": "Stroheim, having been revived as a cyborg thanks to Nazi technology, challenges Kars to a fight, believing himself to now be on equal fighting grounds with the pillar men. Joseph walks in, though Kars is more interested in fighting Joseph for killing Esidisi, Stroheim is able to antagonize him after ripping a piece of Kars's hand off with his mechanized arm. Stroheim then reveals a Gatling gun in his abdomen and…",
+    "translate": "quest.jojorpg.battle_tendency_085.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Stroheim, having been revived as a cyborg thanks to Nazi technology, challenges Kars to a fight, believing himself to now be on equal fighting grounds with the pillar men.",
+      "translate": "quest.jojorpg.battle_tendency_085.intro0"
+    },
+    {
+      "fallback": "Joseph walks in, though Kars is more interested in fighting Joseph for killing Esidisi, Stroheim is able to antagonize him after ripping a piece of Kars's hand off with his mechanized arm.",
+      "translate": "quest.jojorpg.battle_tendency_085.intro1"
+    },
+    {
+      "fallback": "Stroheim then reveals a Gatling gun in his abdomen and opens fire onto Kars.",
+      "translate": "quest.jojorpg.battle_tendency_085.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "85. Stroheim's Unit Strikes Back, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_085"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_085.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 71,
+      "text": {
+        "fallback": "Head out: Stroheim's Unit Strikes Back, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_085.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t8",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t8"
+      }
+    }
+  ],
+  "order": 100850,
+  "outro": [
+    {
+      "fallback": "He follows by cutting Stroheim's arm off, along with his lower body.",
+      "translate": "quest.jojorpg.battle_tendency_085.outro0"
+    },
+    {
+      "fallback": "Though Stroheim is still alive due to being a cyborg, Kars lifts him up and attempts to retrieve the Red Stone from him.",
+      "translate": "quest.jojorpg.battle_tendency_085.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_084"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:cybernetic_overhaul"
+      },
+      {
+        "count": 1,
+        "id": "jojorpg:science_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 8
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

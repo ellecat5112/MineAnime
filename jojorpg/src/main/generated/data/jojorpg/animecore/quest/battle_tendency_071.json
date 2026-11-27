@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Ripple Teacher Lisa Lisa",
+    "translate": "quest.jojorpg.arc.ripple_teacher_lisa_lisa"
+  },
+  "description": {
+    "fallback": "A doctor examines Joseph and is astonished at the sight of two rings perfectly fused to his organs. Since current surgical techniques do not allow Joseph to have them extracted, Caesar proposes to simply defeat the Pillar Men within 33 days. He demonstrates how untrained Joseph in the art of the Ripple by making him hold a cup of water upside down.",
+    "translate": "quest.jojorpg.battle_tendency_071.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "A doctor examines Joseph and is astonished at the sight of two rings perfectly fused to his organs.",
+      "translate": "quest.jojorpg.battle_tendency_071.intro0"
+    },
+    {
+      "fallback": "Since current surgical techniques do not allow Joseph to have them extracted, Caesar proposes to simply defeat the Pillar Men within 33 days.",
+      "translate": "quest.jojorpg.battle_tendency_071.intro1"
+    },
+    {
+      "fallback": "He demonstrates how untrained Joseph in the art of the Ripple by making him hold a cup of water upside down.",
+      "translate": "quest.jojorpg.battle_tendency_071.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "71. Ripple Teacher Lisa Lisa, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_071"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_071.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Go: Ripple Teacher Lisa Lisa, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_071.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    }
+  ],
+  "order": 100710,
+  "outro": [
+    {
+      "fallback": "At this moment, a gondolier Caesar called confronts Joseph and masterfully uses the Ripple to beat Joseph.",
+      "translate": "quest.jojorpg.battle_tendency_071.outro0"
+    },
+    {
+      "fallback": "Joseph is sent into the water but manages to stay over the water, impressing the gondolier.",
+      "translate": "quest.jojorpg.battle_tendency_071.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_070"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

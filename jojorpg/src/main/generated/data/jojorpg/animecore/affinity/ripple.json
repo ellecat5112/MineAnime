@@ -1,0 +1,13 @@
+{
+  "color": 16766287,
+  "name": {
+    "fallback": "The Ripple (Hamon)",
+    "translate": "affinity.jojorpg.ripple"
+  },
+  "strong_against": [
+    "jojorpg:vampirism"
+  ],
+  "system": "jojorpg",
+  "undead_multiplier": 3.0,
+  "vfx_style": "light"
+}

@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Pluck for Tomorrow and the Successor",
+    "translate": "quest.jojorpg.arc.pluck_for_tomorrow_and_the_successor"
+  },
+  "description": {
+    "fallback": "Jonathan notices that Zeppeli has gotten into the arena, which reassures him, but he still knows that Tarkus has not shown the way he fights in the arena yet. In addition, Speedwagon has entered the arena, and he thanks Poco for opening the door. Zeppeli then realizes that his prophecy is coming true.",
+    "translate": "quest.jojorpg.phantom_blood_034.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Jonathan notices that Zeppeli has gotten into the arena, which reassures him, but he still knows that Tarkus has not shown the way he fights in the arena yet.",
+      "translate": "quest.jojorpg.phantom_blood_034.intro0"
+    },
+    {
+      "fallback": "In addition, Speedwagon has entered the arena, and he thanks Poco for opening the door.",
+      "translate": "quest.jojorpg.phantom_blood_034.intro1"
+    },
+    {
+      "fallback": "Zeppeli then realizes that his prophecy is coming true.",
+      "translate": "quest.jojorpg.phantom_blood_034.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "34. Pluck for Tomorrow and the Successor, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_034"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_034.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 42,
+      "text": {
+        "fallback": "Go: Pluck for Tomorrow and the Successor, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_034.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Meet Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.phantom_blood_034.o3"
+      }
+    }
+  ],
+  "order": 340,
+  "outro": [
+    {
+      "fallback": "He then notices Zeppeli has Jonathan's hand.",
+      "translate": "quest.jojorpg.phantom_blood_034.outro0"
+    },
+    {
+      "fallback": "Just as Tarkus notices this, Zeppeli uses the “Supreme Deep Pass Overdrive” to give the rest of his life energy to Jonathan.",
+      "translate": "quest.jojorpg.phantom_blood_034.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_033"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

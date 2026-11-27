@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t4",
+    "jojorpg:robert_e_o_speedwagon_ally_t4"
+  ],
+  "arc": {
+    "fallback": "Pluck for Tomorrow and the Successor",
+    "translate": "quest.jojorpg.arc.pluck_for_tomorrow_and_the_successor"
+  },
+  "description": {
+    "fallback": "Elsewhere in the graveyard, Poco attempts to tell two thugs about the zombie knights; unfortunately, due to his reputation as a liar, they do not believe his story. The two proceed to threaten to tie up the frightened Poco with a rope by knight's grave. Before they can actually do this; however, one of the thugs steps on something.",
+    "translate": "quest.jojorpg.phantom_blood_031.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Elsewhere in the graveyard, Poco attempts to tell two thugs about the zombie knights; unfortunately, due to his reputation as a liar, they do not believe his story.",
+      "translate": "quest.jojorpg.phantom_blood_031.intro0"
+    },
+    {
+      "fallback": "The two proceed to threaten to tie up the frightened Poco with a rope by knight's grave.",
+      "translate": "quest.jojorpg.phantom_blood_031.intro1"
+    },
+    {
+      "fallback": "Before they can actually do this; however, one of the thugs steps on something.",
+      "translate": "quest.jojorpg.phantom_blood_031.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "31. The Knights' Ruins",
+    "translate": "quest.jojorpg.phantom_blood_031"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_031.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: The Knights' Ruins",
+        "translate": "quest.jojorpg.phantom_blood_031.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:thug_phantom_blood",
+      "text": {
+        "fallback": "Beat up the thugs",
+        "translate": "quest.jojorpg.minion.thug"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:tarkus_foe_t4",
+      "text": {
+        "fallback": "Defeat Tarkus",
+        "translate": "quest.jojorpg.defeat.tarkus_foe_t4"
+      }
+    }
+  ],
+  "order": 310,
+  "outro": [
+    {
+      "fallback": "The two of them proceed to use the Life Magnetism Overdrive to combine the leaves into a single giant leaf.",
+      "translate": "quest.jojorpg.phantom_blood_031.outro0"
+    },
+    {
+      "fallback": "Jonathan, Zeppeli, Speedwagon, and Poco use it as hang-glider to escape Tarkus.",
+      "translate": "quest.jojorpg.phantom_blood_031.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_030"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

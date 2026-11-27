@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "jojorpg:overdrive",
+    "jojorpg:ripple_hypnosis",
+    "jojorpg:zoom_punch",
+    "jojorpg:ripple_hair_attack",
+    "jojorpg:ripple_beat",
+    "jojorpg:ripple_overdrive_beat"
+  ],
+  "appearance": {
+    "accent": 16771899,
+    "hair": 4073251,
+    "pants": 6111287,
+    "top": 35195
+  },
+  "attack": 14.0,
+  "health": 200.0,
+  "name": {
+    "fallback": "Joseph Joestar",
+    "translate": "npc.jojorpg.joseph_joestar"
+  },
+  "power": 2.2,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

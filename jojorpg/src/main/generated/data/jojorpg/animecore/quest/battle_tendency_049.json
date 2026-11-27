@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t5",
+    "jojorpg:smokey_brown_ally_t5"
+  ],
+  "arc": {
+    "fallback": "Straizo vs. Joseph",
+    "translate": "quest.jojorpg.arc.straizo_vs_joseph"
+  },
+  "description": {
+    "fallback": "A short flashback shows Erina worried about Joseph's possible death as he's involved with the Stone Mask too. Joseph is resolute to risk his life as he opens fire on Straizo with a , blasting him through the window. He steps inside, and the inhabitants (including Smokey) are either in shock or fearful of him, believing he has killed a man.",
+    "translate": "quest.jojorpg.battle_tendency_049.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "A short flashback shows Erina worried about Joseph's possible death as he's involved with the Stone Mask too.",
+      "translate": "quest.jojorpg.battle_tendency_049.intro0"
+    },
+    {
+      "fallback": "Joseph is resolute to risk his life as he opens fire on Straizo with a , blasting him through the window.",
+      "translate": "quest.jojorpg.battle_tendency_049.intro1"
+    },
+    {
+      "fallback": "He steps inside, and the inhabitants (including Smokey) are either in shock or fearful of him, believing he has killed a man.",
+      "translate": "quest.jojorpg.battle_tendency_049.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "49. Straizo vs. Joseph, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_049"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_049.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Straizo vs. Joseph, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_049.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:straizo_foe_t5",
+      "text": {
+        "fallback": "Defeat Straizo",
+        "translate": "quest.jojorpg.defeat.straizo_foe_t5"
+      }
+    }
+  ],
+  "order": 100490,
+  "outro": [
+    {
+      "fallback": "However, the Joseph that Straizo damaged turns out to be a reflection in a mirror, and Joseph, abusing the fact that Straizo no longer has a reflection, comes up from behind him and bashes him in the face with the butt…",
+      "translate": "quest.jojorpg.battle_tendency_049.outro0"
+    },
+    {
+      "fallback": "He immediately charges the gun with the Ripple to attack him.",
+      "translate": "quest.jojorpg.battle_tendency_049.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:battle_tendency_048"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

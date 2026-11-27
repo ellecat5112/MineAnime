@@ -1,0 +1,86 @@
+{
+  "allies": [
+    "jojorpg:george_joestar_i_ally_t1",
+    "jojorpg:danny_ally_t1"
+  ],
+  "arc": {
+    "fallback": "Dio Brando the Invader",
+    "translate": "quest.jojorpg.arc.dio_brando_the_invader"
+  },
+  "description": {
+    "fallback": "Sometime between the 12th and 16th century, an ancient Aztec ritual takes place in Mexico, where a man wearing a Stone Mask sacrifices a young woman, stabbing her through the chest. Her blood splatters onto the mask, and bone-like prongs sprout from it piercing the man's head. Despite this, he remains alive, and screams to his audience that he has gained eternal life.",
+    "translate": "quest.jojorpg.phantom_blood_001.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Sometime between the 12th and 16th century, an ancient Aztec ritual takes place in Mexico, where a man wearing a Stone Mask sacrifices a young woman, stabbing her through the chest.",
+      "translate": "quest.jojorpg.phantom_blood_001.intro0"
+    },
+    {
+      "fallback": "Her blood splatters onto the mask, and bone-like prongs sprout from it piercing the man's head.",
+      "translate": "quest.jojorpg.phantom_blood_001.intro1"
+    },
+    {
+      "fallback": "Despite this, he remains alive, and screams to his audience that he has gained eternal life.",
+      "translate": "quest.jojorpg.phantom_blood_001.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "1. Dio Brando the Invader, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_001"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_001.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: Dio Brando the Invader, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_001.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t1_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t1_human"
+      }
+    }
+  ],
+  "order": 10,
+  "outro": [
+    {
+      "fallback": "His nose bloodied, the boy pulls out a handkerchief with his name embroidered on it: Jonathan Joestar.",
+      "translate": "quest.jojorpg.phantom_blood_001.outro0"
+    },
+    {
+      "fallback": "The bullies, spiteful of the privilege he has as a rich person, beat Jonathan up further.",
+      "translate": "quest.jojorpg.phantom_blood_001.outro1"
+    }
+  ],
+  "rewards": {
+    "experience": 18,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:boxing_gloves"
+      },
+      {
+        "count": 1,
+        "id": "jojorpg:martial_arts"
+      }
+    ],
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

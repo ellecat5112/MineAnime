@@ -1,0 +1,29 @@
+{
+  "abilities": [
+    "jojorpg:hypnosis"
+  ],
+  "appearance": {
+    "accent": 16766287,
+    "eyes": 12986408,
+    "hair": 16766287,
+    "mark": "red_eyes",
+    "outfit": "jacket",
+    "top": 1793568
+  },
+  "attack": 5.3,
+  "cast_interval": 40,
+  "health": 158.0,
+  "name": {
+    "fallback": "Dio Brando",
+    "translate": "npc.jojorpg.dio_brando"
+  },
+  "power": 1.14,
+  "role": "boss",
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

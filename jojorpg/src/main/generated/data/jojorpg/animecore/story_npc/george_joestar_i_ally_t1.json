@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "jojorpg:saw_hat",
+    "jojorpg:sledgehammer"
+  ],
+  "appearance": {
+    "accent": 16119285,
+    "hair": 12434877,
+    "outfit": "jacket",
+    "pants": 2171169,
+    "top": 4073251
+  },
+  "attack": 5.0,
+  "health": 74.0,
+  "name": {
+    "fallback": "George Joestar I",
+    "translate": "npc.jojorpg.george_joestar_i"
+  },
+  "power": 1.12,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

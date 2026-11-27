@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:rudol_von_stroheim_ally_t6",
+    "jojorpg:joseph_joestar_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "Speedwagon, having attempted suicide in detainment, has been put in a straightjacket by the Nazis. Stroheim takes this as confirmation that Speedwagon knows something of value to their cause, and a shutter opens behind him, revealing the man in the pillar. The Nazis have secured it in a large room, prepared to interrogate Speedwagon with a truth serum.",
+    "translate": "quest.jojorpg.battle_tendency_053.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Speedwagon, having attempted suicide in detainment, has been put in a straightjacket by the Nazis.",
+      "translate": "quest.jojorpg.battle_tendency_053.intro0"
+    },
+    {
+      "fallback": "Stroheim takes this as confirmation that Speedwagon knows something of value to their cause, and a shutter opens behind him, revealing the man in the pillar.",
+      "translate": "quest.jojorpg.battle_tendency_053.intro1"
+    },
+    {
+      "fallback": "The Nazis have secured it in a large room, prepared to interrogate Speedwagon with a truth serum.",
+      "translate": "quest.jojorpg.battle_tendency_053.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "53. The Pillar Man",
+    "translate": "quest.jojorpg.battle_tendency_053"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_053.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: The Pillar Man",
+        "translate": "quest.jojorpg.battle_tendency_053.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:thug_battle_tendency",
+      "text": {
+        "fallback": "Beat up the thugs",
+        "translate": "quest.jojorpg.minion.thug"
+      }
+    }
+  ],
+  "order": 100530,
+  "outro": [
+    {
+      "fallback": "After accidentally drinking the water laid out for horses, he resorts to beating up a bunch of Mexican thugs and forces them to supply him with food and gasoline.",
+      "translate": "quest.jojorpg.battle_tendency_053.outro0"
+    },
+    {
+      "fallback": "Back at the Nazi base, Stroheim brings Speedwagon into an underground laboratory where the Pillar Man is being kept and brags about the security measures to contain the man in the pillar while scientists pump blood…",
+      "translate": "quest.jojorpg.battle_tendency_053.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_052"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

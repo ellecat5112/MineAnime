@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:tattoo_ally_t2",
+    "jojorpg:amato_ally_t2"
+  ],
+  "arc": {
+    "fallback": "The Stone Mask",
+    "translate": "quest.jojorpg.arc.the_stone_mask"
+  },
+  "description": {
+    "fallback": "Jonathan drops the knife of his first assailant to the ground as the last of three men rushes towards him. The brim of the man's bowler hat falls off to reveal three blades which begin to spin, forming a deadly weapon. Jonathan is forced to move into a defensive stance as the man prepares to launch his hat.",
+    "translate": "quest.jojorpg.phantom_blood_009.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Jonathan drops the knife of his first assailant to the ground as the last of three men rushes towards him.",
+      "translate": "quest.jojorpg.phantom_blood_009.intro0"
+    },
+    {
+      "fallback": "The brim of the man's bowler hat falls off to reveal three blades which begin to spin, forming a deadly weapon.",
+      "translate": "quest.jojorpg.phantom_blood_009.intro1"
+    },
+    {
+      "fallback": "Jonathan is forced to move into a defensive stance as the man prepares to launch his hat.",
+      "translate": "quest.jojorpg.phantom_blood_009.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "9. The Stone Mask, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_009"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_009.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 68,
+      "text": {
+        "fallback": "Head out: The Stone Mask, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_009.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:thug_phantom_blood",
+      "text": {
+        "fallback": "Beat up the thugs",
+        "translate": "quest.jojorpg.minion.thug"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2_human",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2_human"
+      }
+    }
+  ],
+  "order": 90,
+  "outro": [
+    {
+      "fallback": "He grabs the man's hand and uses it to stab the man's partner.",
+      "translate": "quest.jojorpg.phantom_blood_009.outro0"
+    },
+    {
+      "fallback": "The blood from the wound activates the mask, activating its talons.",
+      "translate": "quest.jojorpg.phantom_blood_009.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_008"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

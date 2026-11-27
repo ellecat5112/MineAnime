@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "jojorpg:zoom_punch",
+    "jojorpg:sendo_ripple_overdrive",
+    "jojorpg:scarlet_overdrive",
+    "jojorpg:turquoise_blue_overdrive",
+    "jojorpg:overdrive_barrage",
+    "jojorpg:metal_silver_overdrive"
+  ],
+  "appearance": {
+    "accent": 2503224,
+    "hair": 1713022,
+    "outfit": "jacket",
+    "pants": 4073251
+  },
+  "attack": 7.0,
+  "health": 102.0,
+  "name": {
+    "fallback": "Jonathan Joestar",
+    "translate": "npc.jojorpg.jonathan_joestar"
+  },
+  "power": 1.36,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

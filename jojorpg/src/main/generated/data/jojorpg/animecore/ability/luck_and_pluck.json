@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 9.1,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.6
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Luck and Pluck",
+    "translate": "ability.jojorpg.luck_and_pluck"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

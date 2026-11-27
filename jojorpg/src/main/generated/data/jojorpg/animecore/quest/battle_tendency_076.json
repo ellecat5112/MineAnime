@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t7",
+    "jojorpg:caesar_anthonio_zeppeli_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Ripple Teacher Lisa Lisa",
+    "translate": "quest.jojorpg.arc.ripple_teacher_lisa_lisa"
+  },
+  "description": {
+    "fallback": "7 days before the rings in Joseph melt, Lisa Lisa reveals the Red Stone of Aja to Joseph and decides to tell him and Caesar the history behind it. The three Pillar Men are beings of unknown origin, though reports say they appeared in human history 5,000 years ago. They were the creators of the Stone Mask, a device they tested using hundreds of thousands of humans as test subjects.",
+    "translate": "quest.jojorpg.battle_tendency_076.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "7 days before the rings in Joseph melt, Lisa Lisa reveals the Red Stone of Aja to Joseph and decides to tell him and Caesar the history behind it.",
+      "translate": "quest.jojorpg.battle_tendency_076.intro0"
+    },
+    {
+      "fallback": "The three Pillar Men are beings of unknown origin, though reports say they appeared in human history 5,000 years ago.",
+      "translate": "quest.jojorpg.battle_tendency_076.intro1"
+    },
+    {
+      "fallback": "They were the creators of the Stone Mask, a device they tested using hundreds of thousands of humans as test subjects.",
+      "translate": "quest.jojorpg.battle_tendency_076.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "76. Ripple Teacher Lisa Lisa, Part 6",
+    "translate": "quest.jojorpg.battle_tendency_076"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_076.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 82,
+      "text": {
+        "fallback": "Head out: Ripple Teacher Lisa Lisa, Part 6",
+        "translate": "quest.jojorpg.battle_tendency_076.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t7",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t7"
+      }
+    }
+  ],
+  "order": 100760,
+  "outro": [
+    {
+      "fallback": "Joseph enters the courtyard, only to find Loggins's hat on the ground covered in blood and a mysterious figure standing on top of a statue.",
+      "translate": "quest.jojorpg.battle_tendency_076.outro0"
+    },
+    {
+      "fallback": "Joseph realizes that there are two people and one of them is car",
+      "translate": "quest.jojorpg.battle_tendency_076.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_075"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 3,
+    "tier": 7
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 8.8,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.3
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16766287,
+      "damage": 3.5,
+      "forward_offset": 1.2,
+      "knockback": 0.6,
+      "radius": 2.0
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Overdrive",
+    "translate": "ability.jojorpg.overdrive"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t8",
+    "jojorpg:joseph_joestar_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Caesar: A Lonely Youth",
+    "translate": "quest.jojorpg.arc.caesar_a_lonely_youth"
+  },
+  "description": {
+    "fallback": "An invisible man stands in the doorway of the hotel, staring down Caesar. The ghostly man leaps into action, and disappears. Caesar, confused about who could be attacking him, naturally falls into a cat stance.",
+    "translate": "quest.jojorpg.battle_tendency_090.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "An invisible man stands in the doorway of the hotel, staring down Caesar.",
+      "translate": "quest.jojorpg.battle_tendency_090.intro0"
+    },
+    {
+      "fallback": "The ghostly man leaps into action, and disappears.",
+      "translate": "quest.jojorpg.battle_tendency_090.intro1"
+    },
+    {
+      "fallback": "Caesar, confused about who could be attacking him, naturally falls into a cat stance.",
+      "translate": "quest.jojorpg.battle_tendency_090.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "90. Caesar: A Lonely Youth, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_090"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_090.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Caesar: A Lonely Youth, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_090.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t8",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t8"
+      }
+    }
+  ],
+  "order": 100900,
+  "outro": [
+    {
+      "fallback": "After the intensive training, Caesar's strength is now apparent to Wamuu, and Wamuu believes Caesar is now worthy of killing.",
+      "translate": "quest.jojorpg.battle_tendency_090.outro0"
+    },
+    {
+      "fallback": "However, Caesar has no plans to die, and uses his new Bubble Cutter technique which gets sucked in by Wamuu's wind, causing heavy damage.",
+      "translate": "quest.jojorpg.battle_tendency_090.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_089"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

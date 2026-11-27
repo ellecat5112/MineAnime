@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t3",
+    "jojorpg:jonathan_joestar_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Ripple Overdrive",
+    "translate": "quest.jojorpg.arc.ripple_overdrive"
+  },
+  "description": {
+    "fallback": "After the defeat of Jack the Ripper, Jonathan, Zeppeli and Speedwagon exit the long tunnel and continue towards Windknight's Lot. The town and surrounding farmland seem peaceful enough at the time, but Jonathan is aware that Dio is somewhere nearby, ready to wreak havoc. As the group continues to hike, Speedwagon asks Zeppeli to teach him the secrets of the Ripple techniques.",
+    "translate": "quest.jojorpg.phantom_blood_024.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "After the defeat of Jack the Ripper, Jonathan, Zeppeli and Speedwagon exit the long tunnel and continue towards Windknight's Lot.",
+      "translate": "quest.jojorpg.phantom_blood_024.intro0"
+    },
+    {
+      "fallback": "The town and surrounding farmland seem peaceful enough at the time, but Jonathan is aware that Dio is somewhere nearby, ready to wreak havoc.",
+      "translate": "quest.jojorpg.phantom_blood_024.intro1"
+    },
+    {
+      "fallback": "As the group continues to hike, Speedwagon asks Zeppeli to teach him the secrets of the Ripple techniques.",
+      "translate": "quest.jojorpg.phantom_blood_024.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "24. Ripple Overdrive, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_024"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_024.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Ripple Overdrive, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_024.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t3",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t3"
+      }
+    }
+  ],
+  "order": 240,
+  "outro": [
+    {
+      "fallback": "He raises his hands and strikes the surface of the lake with them, causing several ripples to form.",
+      "translate": "quest.jojorpg.phantom_blood_024.outro0"
+    },
+    {
+      "fallback": "Speedwagon and the boy are both shocked to see Zeppeli skipping out",
+      "translate": "quest.jojorpg.phantom_blood_024.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_023"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

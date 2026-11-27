@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t8",
+    "jojorpg:messina_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Caesar: A Lonely Youth",
+    "translate": "quest.jojorpg.arc.caesar_a_lonely_youth"
+  },
+  "description": {
+    "fallback": "Caesar's Ripple proves to be far stronger than Wamuu had predicted. Wamuu tries to retreat within the hotel, but Caesar cuts his legs with a Bubble Cutter and plans on finishing him with a Ripple Kick. However, Wamuu purposely fell back so that the kick's impact would knock him into the hotel.",
+    "translate": "quest.jojorpg.battle_tendency_091.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Caesar's Ripple proves to be far stronger than Wamuu had predicted.",
+      "translate": "quest.jojorpg.battle_tendency_091.intro0"
+    },
+    {
+      "fallback": "Wamuu tries to retreat within the hotel, but Caesar cuts his legs with a Bubble Cutter and plans on finishing him with a Ripple Kick.",
+      "translate": "quest.jojorpg.battle_tendency_091.intro1"
+    },
+    {
+      "fallback": "However, Wamuu purposely fell back so that the kick's impact would knock him into the hotel.",
+      "translate": "quest.jojorpg.battle_tendency_091.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "91. Caesar: A Lonely Youth, Part 4",
+    "translate": "quest.jojorpg.battle_tendency_091"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_091.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: Caesar: A Lonely Youth, Part 4",
+        "translate": "quest.jojorpg.battle_tendency_091.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t8",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t8"
+      }
+    }
+  ],
+  "order": 100910,
+  "outro": [
+    {
+      "fallback": "Caesar reveals that his Cutters can act like lenses, refracting the sunlight and magnifying it in Wamuu's position.",
+      "translate": "quest.jojorpg.battle_tendency_091.outro0"
+    },
+    {
+      "fallback": "Wamuu freezes in place when Caesar goes in for the finishing blow, but for a single instant, Wamuu was within Caesar's shadow, allowing him to pull off a devastating Divine Sandstorm.",
+      "translate": "quest.jojorpg.battle_tendency_091.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_090"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

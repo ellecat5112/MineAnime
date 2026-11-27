@@ -1,0 +1,87 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t8",
+    "jojorpg:messina_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Flame Mode Esidisi",
+    "translate": "quest.jojorpg.arc.flame_mode_esidisi"
+  },
+  "description": {
+    "fallback": "Joseph's attack proves useless, and Esidisi pumps boiling blood into the holes he drilled into Joseph's body. Messina and Caesar decide to head towards the battle to help. Using a trick wire, Joseph manages to trap Esidisi.",
+    "translate": "quest.jojorpg.battle_tendency_080.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph's attack proves useless, and Esidisi pumps boiling blood into the holes he drilled into Joseph's body.",
+      "translate": "quest.jojorpg.battle_tendency_080.intro0"
+    },
+    {
+      "fallback": "Messina and Caesar decide to head towards the battle to help.",
+      "translate": "quest.jojorpg.battle_tendency_080.intro1"
+    },
+    {
+      "fallback": "Using a trick wire, Joseph manages to trap Esidisi.",
+      "translate": "quest.jojorpg.battle_tendency_080.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "80. Flame Mode Esidisi, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_080"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_080.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 84,
+      "text": {
+        "fallback": "Head out: Flame Mode Esidisi, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_080.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:esidisi_foe_t8",
+      "text": {
+        "fallback": "Defeat Esidisi",
+        "translate": "quest.jojorpg.defeat.esidisi_foe_t8"
+      }
+    }
+  ],
+  "order": 100800,
+  "outro": [
+    {
+      "fallback": "Using a trick wire, Joseph manages to trap Esidisi.",
+      "translate": "quest.jojorpg.battle_tendency_080.outro0"
+    },
+    {
+      "fallback": "Joseph finishes him off by releasing a Ripple Overdrive into the wire, causing Esidisi to explode.",
+      "translate": "quest.jojorpg.battle_tendency_080.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_079"
+  ],
+  "rewards": {
+    "experience": 39,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:modes_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 8
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

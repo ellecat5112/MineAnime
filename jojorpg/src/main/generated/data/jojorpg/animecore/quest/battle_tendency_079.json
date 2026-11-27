@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:messina_ally_t7",
+    "jojorpg:caesar_anthonio_zeppeli_ally_t7"
+  ],
+  "arc": {
+    "fallback": "Flame Mode Esidisi",
+    "translate": "quest.jojorpg.arc.flame_mode_esidisi"
+  },
+  "description": {
+    "fallback": "Messina admits defeat in his fight against Caesar, and tells him that he has passed the final test. Caesar says that his progress is due to not wanting Joseph to surpass him, and picks up a pair of binoculars to check on the match between Loggins and Joseph. He and Messina realize that Joseph is actually fighting Esidisi.",
+    "translate": "quest.jojorpg.battle_tendency_079.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Messina admits defeat in his fight against Caesar, and tells him that he has passed the final test.",
+      "translate": "quest.jojorpg.battle_tendency_079.intro0"
+    },
+    {
+      "fallback": "Caesar says that his progress is due to not wanting Joseph to surpass him, and picks up a pair of binoculars to check on the match between Loggins and Joseph.",
+      "translate": "quest.jojorpg.battle_tendency_079.intro1"
+    },
+    {
+      "fallback": "He and Messina realize that Joseph is actually fighting Esidisi.",
+      "translate": "quest.jojorpg.battle_tendency_079.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "79. Flame Mode Esidisi, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_079"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_079.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 83,
+      "text": {
+        "fallback": "Head out: Flame Mode Esidisi, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_079.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:esidisi_foe_t7",
+      "text": {
+        "fallback": "Defeat Esidisi",
+        "translate": "quest.jojorpg.defeat.esidisi_foe_t7"
+      }
+    }
+  ],
+  "order": 100790,
+  "outro": [
+    {
+      "fallback": "However, Esidisi's manner suggests that he has seen through the plan.",
+      "translate": "quest.jojorpg.battle_tendency_079.outro0"
+    },
+    {
+      "fallback": "Esidisi intercepts the strings with his blood vessels.",
+      "translate": "quest.jojorpg.battle_tendency_079.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_078"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

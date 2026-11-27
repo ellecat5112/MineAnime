@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "jojorpg:saw_hat",
+    "jojorpg:sledgehammer"
+  ],
+  "appearance": {
+    "accent": 15022389,
+    "hair": 2171169,
+    "pants": 1402304,
+    "skin": 7162945,
+    "top": 16119285
+  },
+  "attack": 9.0,
+  "health": 130.0,
+  "name": {
+    "fallback": "Smokey Brown",
+    "translate": "npc.jojorpg.smokey_brown"
+  },
+  "power": 1.6,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

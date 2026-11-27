@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:george_joestar_i_ally_t2",
+    "jojorpg:robert_e_o_speedwagon_ally_t2"
+  ],
+  "arc": {
+    "fallback": "Youth with Dio",
+    "translate": "quest.jojorpg.arc.youth_with_dio"
+  },
+  "description": {
+    "fallback": "Dio goes crashing through the window behind him after being shot multiple times by the police. He lays on the ground outside surrounded by broken glass; presumed dead, his face is still covered by the Stone Mask. Inside, Jonathan holds his dying father.",
+    "translate": "quest.jojorpg.phantom_blood_012.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Dio goes crashing through the window behind him after being shot multiple times by the police.",
+      "translate": "quest.jojorpg.phantom_blood_012.intro0"
+    },
+    {
+      "fallback": "He lays on the ground outside surrounded by broken glass; presumed dead, his face is still covered by the Stone Mask.",
+      "translate": "quest.jojorpg.phantom_blood_012.intro1"
+    },
+    {
+      "fallback": "Inside, Jonathan holds his dying father.",
+      "translate": "quest.jojorpg.phantom_blood_012.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "12. Youth with Dio, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_012"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_012.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Head out: Youth with Dio, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_012.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2"
+      }
+    }
+  ],
+  "order": 120,
+  "outro": [
+    {
+      "fallback": "It is too late for the man, as a hand swoops down from outside the window and rips the top of the inspector's head off.",
+      "translate": "quest.jojorpg.phantom_blood_012.outro0"
+    },
+    {
+      "fallback": "It is Dio, who, unbeknownst to everyone present, has transformed himself from a human to a Vampire.",
+      "translate": "quest.jojorpg.phantom_blood_012.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_011"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

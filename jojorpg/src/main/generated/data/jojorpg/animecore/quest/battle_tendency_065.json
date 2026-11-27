@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t6",
+    "jojorpg:joseph_joestar_ally_t6"
+  ],
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "After Caesar flamboyantly sits down at a table, he and Joseph start up a game of poker. Both end up cheating and start to argue aimlessly until Speedwagon interrupts to ask why they've been waiting around for 8 hours. A moment later, a car arrives to take them to the other Pillar Men.",
+    "translate": "quest.jojorpg.battle_tendency_065.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "After Caesar flamboyantly sits down at a table, he and Joseph start up a game of poker.",
+      "translate": "quest.jojorpg.battle_tendency_065.intro0"
+    },
+    {
+      "fallback": "Both end up cheating and start to argue aimlessly until Speedwagon interrupts to ask why they've been waiting around for 8 hours.",
+      "translate": "quest.jojorpg.battle_tendency_065.intro1"
+    },
+    {
+      "fallback": "A moment later, a car arrives to take them to the other Pillar Men.",
+      "translate": "quest.jojorpg.battle_tendency_065.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "65. Ultimate Warriors from Ancient Times, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_065"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_065.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 69,
+      "text": {
+        "fallback": "Head out: Ultimate Warriors from Ancient Times, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_065.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t6",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t6"
+      }
+    }
+  ],
+  "order": 100650,
+  "outro": [
+    {
+      "fallback": "Upon entering, they stumble upon the corpses of the other Nazi soldiers, which puts Mark in a panic.",
+      "translate": "quest.jojorpg.battle_tendency_065.outro0"
+    },
+    {
+      "fallback": "Suddenly, the Pillar Men appear, walking towards Mark, who does not have enough time to react as Wamuu walks straight into him, absorbing a large portion of Mark's body without noticing, causing Mark to experience…",
+      "translate": "quest.jojorpg.battle_tendency_065.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_064"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

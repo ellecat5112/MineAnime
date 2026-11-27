@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "Joseph and Lisa Lisa enter the deepest part of the hotel. They find Wamuu sitting in wait for the fight which was about to ensue. JoJo advances to attack Wamuu, but Lisa Lisa stops him, noticing not only the two pairs of footprints on the ground, but the hundred vampires breathing as they hide in the shadows.",
+    "translate": "quest.jojorpg.battle_tendency_095.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph and Lisa Lisa enter the deepest part of the hotel.",
+      "translate": "quest.jojorpg.battle_tendency_095.intro0"
+    },
+    {
+      "fallback": "They find Wamuu sitting in wait for the fight which was about to ensue.",
+      "translate": "quest.jojorpg.battle_tendency_095.intro1"
+    },
+    {
+      "fallback": "JoJo advances to attack Wamuu, but Lisa Lisa stops him, noticing not only the two pairs of footprints on the ground, but the hundred vampires breathing as they hide in the shadows.",
+      "translate": "quest.jojorpg.battle_tendency_095.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "95. The Wind, the Chariot, and Wamuu, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_095"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_095.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 54,
+      "text": {
+        "fallback": "Head out: The Wind, the Chariot, and Wamuu, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_095.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t9",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t9"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 100950,
+  "outro": [
+    {
+      "fallback": "Kars decides to accept this challenge.",
+      "translate": "quest.jojorpg.battle_tendency_095.outro0"
+    },
+    {
+      "fallback": "The fight for the Stone begins!",
+      "translate": "quest.jojorpg.battle_tendency_095.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_094"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

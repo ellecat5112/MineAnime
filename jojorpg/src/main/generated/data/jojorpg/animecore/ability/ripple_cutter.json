@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 8445674,
+      "damage": 6.4,
+      "lifetime_ticks": 20,
+      "size": 0.25,
+      "speed": 2.6,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Ripple Cutter",
+    "translate": "ability.jojorpg.ripple_cutter"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

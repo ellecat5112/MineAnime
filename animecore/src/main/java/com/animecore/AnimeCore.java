@@ -46,6 +46,7 @@ public final class AnimeCore implements ModInitializer {
         com.animecore.origin.OriginSelectionService.init();
         com.animecore.technique.TechniqueTokens.init();
         com.animecore.quest.QuestManager.init();
+        com.animecore.quest.StorySpawner.init();
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
             com.animecore.technique.TechniqueMastery.onJoin(handler.player);
             for (var ctx : com.animecore.api.AnimeModRegistry.all()) com.animecore.technique.TechniqueTokens.ensureTokens(handler.player, ctx.power(handler.player));

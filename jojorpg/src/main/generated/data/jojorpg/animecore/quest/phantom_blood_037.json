@@ -1,0 +1,97 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t4",
+    "jojorpg:dire_ally_t4"
+  ],
+  "arc": {
+    "fallback": "The Three from a Faraway Land",
+    "translate": "quest.jojorpg.arc.the_three_from_a_faraway_land"
+  },
+  "description": {
+    "fallback": "Meanwhile at Dio's castle, Poco's sister is in company with Dio himself. Dio proposes for him to turn her into a vampire, giving her free choice, but at this, she slaps him. Dio merely smirks at this and introduces her to Doobie, who happened to be right above her.",
+    "translate": "quest.jojorpg.phantom_blood_037.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Meanwhile at Dio's castle, Poco's sister is in company with Dio himself.",
+      "translate": "quest.jojorpg.phantom_blood_037.intro0"
+    },
+    {
+      "fallback": "Dio proposes for him to turn her into a vampire, giving her free choice, but at this, she slaps him.",
+      "translate": "quest.jojorpg.phantom_blood_037.intro1"
+    },
+    {
+      "fallback": "Dio merely smirks at this and introduces her to Doobie, who happened to be right above her.",
+      "translate": "quest.jojorpg.phantom_blood_037.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "37. The Three from a Faraway Land, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_037"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_037.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 80,
+      "text": {
+        "fallback": "Head out: The Three from a Faraway Land, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_037.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:doobie_foe_t4",
+      "text": {
+        "fallback": "Defeat Doobie",
+        "translate": "quest.jojorpg.defeat.doobie_foe_t4"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t4",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t4"
+      }
+    }
+  ],
+  "order": 370,
+  "outro": [
+    {
+      "fallback": "Jonathan sends a Ripple into Doobie's body; his snakes conduct it and they turn on him, killing him.",
+      "translate": "quest.jojorpg.phantom_blood_037.outro0"
+    },
+    {
+      "fallback": "Afterwards, Poco reunites with his lost sister, and Jonathan leaves to find Dio in the castle.",
+      "translate": "quest.jojorpg.phantom_blood_037.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_036"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

@@ -31,4 +31,21 @@ public final class AnimeCoreApi {
         }
         return out;
     }
+
+    /**
+     * Undead for every anime mod: vanilla undead mobs, story characters flagged {@code undead} (vampires, zombies, Pillar
+     * Men) and players whose lineage or active form carries the {@code animecore:undead} trait.
+     */
+    public static boolean isUndead(Entity entity) {
+        if (entity instanceof net.minecraft.entity.LivingEntity le && le.getType().isIn(net.minecraft.registry.tag.EntityTypeTags.UNDEAD)) return true;
+        if (entity instanceof com.animecore.entity.StoryNpcEntity npc) return npc.definition().map(com.animecore.quest.StoryNpcDefinition::undead).orElse(false);
+        if (entity instanceof net.minecraft.server.network.ServerPlayerEntity player) {
+            for (AnimeModContext ctx : AnimeModRegistry.all()) {
+                for (com.animecore.clan.IClanTrait t : com.animecore.clan.ClanTraitHooks.traits(player, ctx.power(player))) {
+                    if (t instanceof com.animecore.clan.ClanTraits.Undead) return true;
+                }
+            }
+        }
+        return false;
+    }
 }

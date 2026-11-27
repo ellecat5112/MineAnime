@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:smokey_brown_ally_t6",
+    "jojorpg:joseph_joestar_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "Joseph senses something amiss and parks his in the middle of the desert. A cloak comes floating down from the sky and lands a short distance away from him. Joseph picks up the cloak and tosses it away, revealing an assassin that was underneath the cloak.",
+    "translate": "quest.jojorpg.battle_tendency_055.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Joseph senses something amiss and parks his in the middle of the desert.",
+      "translate": "quest.jojorpg.battle_tendency_055.intro0"
+    },
+    {
+      "fallback": "A cloak comes floating down from the sky and lands a short distance away from him.",
+      "translate": "quest.jojorpg.battle_tendency_055.intro1"
+    },
+    {
+      "fallback": "Joseph picks up the cloak and tosses it away, revealing an assassin that was underneath the cloak.",
+      "translate": "quest.jojorpg.battle_tendency_055.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "55. The Pillar Man, Santana, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_055"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_055.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_055.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100550,
+  "outro": [
+    {
+      "fallback": "Back at the Nazi base, Santana is done eating the vampire and has apparently grown in size.",
+      "translate": "quest.jojorpg.battle_tendency_055.outro0"
+    },
+    {
+      "fallback": "Everyone is surprised when Santana is able to speak Stroheim's name, revealing the Pillar Man's ability to adapt to their language.",
+      "translate": "quest.jojorpg.battle_tendency_055.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_054"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

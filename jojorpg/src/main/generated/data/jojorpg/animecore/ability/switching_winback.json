@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:wind",
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 158,
+  "cost": {
+    "amount": 32.6,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Switching Winback",
+    "translate": "ability.jojorpg.switching_winback"
+  },
+  "required_tier": 9,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

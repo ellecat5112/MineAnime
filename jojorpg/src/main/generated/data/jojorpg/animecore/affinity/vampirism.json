@@ -1,0 +1,9 @@
+{
+  "color": 12000284,
+  "name": {
+    "fallback": "Vampirism",
+    "translate": "affinity.jojorpg.vampirism"
+  },
+  "system": "jojorpg",
+  "vfx_style": "blood"
+}

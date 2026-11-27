@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t8",
+    "jojorpg:joseph_joestar_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Caesar: A Lonely Youth",
+    "translate": "quest.jojorpg.arc.caesar_a_lonely_youth"
+  },
+  "description": {
+    "fallback": "After the Divine Sandstorm, Caesar is covered in blood and lays on the floor. The hotel's main hall crumbles around him from the powerful attack. Wamuu falls to his knees, praising Caesar for their brilliant fight.",
+    "translate": "quest.jojorpg.battle_tendency_092.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "After the Divine Sandstorm, Caesar is covered in blood and lays on the floor.",
+      "translate": "quest.jojorpg.battle_tendency_092.intro0"
+    },
+    {
+      "fallback": "The hotel's main hall crumbles around him from the powerful attack.",
+      "translate": "quest.jojorpg.battle_tendency_092.intro1"
+    },
+    {
+      "fallback": "Wamuu falls to his knees, praising Caesar for their brilliant fight.",
+      "translate": "quest.jojorpg.battle_tendency_092.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "92. Caesar: A Lonely Youth, Part 5",
+    "translate": "quest.jojorpg.battle_tendency_092"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_092.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 57,
+      "text": {
+        "fallback": "Head out: Caesar: A Lonely Youth, Part 5",
+        "translate": "quest.jojorpg.battle_tendency_092.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t8",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t8"
+      }
+    }
+  ],
+  "order": 100920,
+  "outro": [
+    {
+      "fallback": "Caesar is then crushed by falling debris that is shaped like a cross, in a moment of satisfaction and thankfulness to his companions.",
+      "translate": "quest.jojorpg.battle_tendency_092.outro0"
+    },
+    {
+      "fallback": "To honor the magnificent warrior, Wamuu leaves the bubble containing the antidote alone, and retreats further into the mansion.",
+      "translate": "quest.jojorpg.battle_tendency_092.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_091"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

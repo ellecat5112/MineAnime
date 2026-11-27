@@ -1,0 +1,10 @@
+{
+  "group": [
+    2,
+    3
+  ],
+  "min_tier": 5,
+  "npc": "jojorpg:zombie_battle_tendency",
+  "system": "jojorpg",
+  "weight": 6
+}

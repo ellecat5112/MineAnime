@@ -1,0 +1,91 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t3",
+    "jojorpg:robert_e_o_speedwagon_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Jack the Ripper and Zeppeli the Strange",
+    "translate": "quest.jojorpg.arc.jack_the_ripper_and_zeppeli_the_strange"
+  },
+  "description": {
+    "fallback": "Zeppeli explains to Jonathan and Speedwagon how the man standing in front of them is a zombie; immortal so long as he consumes human flesh, but completely subordinate to his vampire master, Dio. Jack the Ripper displays his power by cutting the very air around him with his knife. To further demonstrate his power, he severs one of his fingers and jams his knife through his own cheeks while describing what fear they…",
+    "translate": "quest.jojorpg.phantom_blood_022.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Zeppeli explains to Jonathan and Speedwagon how the man standing in front of them is a zombie; immortal so long as he consumes human flesh, but completely subordinate to his vampire master, Dio.",
+      "translate": "quest.jojorpg.phantom_blood_022.intro0"
+    },
+    {
+      "fallback": "Jack the Ripper displays his power by cutting the very air around him with his knife.",
+      "translate": "quest.jojorpg.phantom_blood_022.intro1"
+    },
+    {
+      "fallback": "To further demonstrate his power, he severs one of his fingers and jams his knife through his own cheeks while describing what fear they must be feeling.",
+      "translate": "quest.jojorpg.phantom_blood_022.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "22. Jack the Ripper and Zeppeli the Strange, Part 5",
+    "translate": "quest.jojorpg.phantom_blood_022"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_022.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 66,
+      "text": {
+        "fallback": "Head out: Jack the Ripper and Zeppeli the Strange, Part 5",
+        "translate": "quest.jojorpg.phantom_blood_022.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:jack_the_ripper_foe_t3",
+      "text": {
+        "fallback": "Defeat Jack the Ripper",
+        "translate": "quest.jojorpg.defeat.jack_the_ripper_foe_t3"
+      }
+    }
+  ],
+  "order": 220,
+  "outro": [
+    {
+      "fallback": "Zeppeli then uses a Sendo wave kick on Jack the Ripper, burning the left half of his face severely.",
+      "translate": "quest.jojorpg.phantom_blood_022.outro0"
+    },
+    {
+      "fallback": "Zeppeli tells Jonathan that he must be the one to finish off the zombie before proceeding to take another drink of the wine, not a drop of which was spilled durin",
+      "translate": "quest.jojorpg.phantom_blood_022.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_021"
+  ],
+  "rewards": {
+    "experience": 24,
+    "items": [
+      {
+        "count": 1,
+        "id": "jojorpg:breathing_mask"
+      },
+      {
+        "count": 1,
+        "id": "jojorpg:ripple_arts"
+      }
+    ],
+    "skill_points": 3,
+    "tier": 3
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

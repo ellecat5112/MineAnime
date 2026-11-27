@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.2,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "knockback": 1.0
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 129,
+  "cost": {
+    "amount": 24.6,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Seated Jump",
+    "translate": "ability.jojorpg.seated_jump"
+  },
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

@@ -1,0 +1,38 @@
+[
+ {
+  "item": "breathing_mask",
+  "kind": "lineage",
+  "target": "jojorpg:hamon",
+  "lore": "item.jojorpg.breathing_mask.lore"
+ },
+ {
+  "item": "stone_mask",
+  "kind": "lineage",
+  "target": "jojorpg:vampire",
+  "lore": "item.jojorpg.stone_mask.lore"
+ },
+ {
+  "item": "pillar_remains",
+  "kind": "lineage",
+  "target": "jojorpg:pillar_man",
+  "lore": "item.jojorpg.pillar_remains.lore"
+ },
+ {
+  "item": "cybernetic_overhaul",
+  "kind": "lineage",
+  "target": "jojorpg:cyborg",
+  "lore": "item.jojorpg.cybernetic_overhaul.lore"
+ },
+ {
+  "item": "boxing_gloves",
+  "kind": "lineage",
+  "target": "jojorpg:brawler",
+  "lore": "item.jojorpg.boxing_gloves.lore"
+ },
+ {
+  "item": "red_stone_of_aja",
+  "kind": "form",
+  "target": "jojorpg:ultimate_life_form",
+  "lore": "item.jojorpg.red_stone_of_aja.lore"
+ }
+]

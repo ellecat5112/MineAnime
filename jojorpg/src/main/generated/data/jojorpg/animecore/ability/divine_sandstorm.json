@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 11722715,
+      "damage": 20.2,
+      "range": 22.0,
+      "width": 2.0
+    }
+  ],
+  "affinity": "jojorpg:wind",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 129,
+  "cost": {
+    "amount": 24.6,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Divine Sandstorm",
+    "translate": "ability.jojorpg.divine_sandstorm"
+  },
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

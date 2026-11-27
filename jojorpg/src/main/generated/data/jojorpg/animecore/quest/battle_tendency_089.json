@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Caesar: A Lonely Youth",
+    "translate": "quest.jojorpg.arc.caesar_a_lonely_youth"
+  },
+  "description": {
+    "fallback": "At the age of ten, Caesar's father, Mario Zeppeli, abandoned his family, despite being considered a trustworthy and loyal family man. Caesar was distressed by his father's abandonment, and all the money he was left with was stolen by Caesar's second cousin. Afterward, Caesar became very violent and was sent to a poorly operated orphanage.",
+    "translate": "quest.jojorpg.battle_tendency_089.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "At the age of ten, Caesar's father, Mario Zeppeli, abandoned his family, despite being considered a trustworthy and loyal family man.",
+      "translate": "quest.jojorpg.battle_tendency_089.intro0"
+    },
+    {
+      "fallback": "Caesar was distressed by his father's abandonment, and all the money he was left with was stolen by Caesar's second cousin.",
+      "translate": "quest.jojorpg.battle_tendency_089.intro1"
+    },
+    {
+      "fallback": "Afterward, Caesar became very violent and was sent to a poorly operated orphanage.",
+      "translate": "quest.jojorpg.battle_tendency_089.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "89. Caesar: A Lonely Youth, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_089"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_089.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Go: Caesar: A Lonely Youth, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_089.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    }
+  ],
+  "order": 100890,
+  "outro": [
+    {
+      "fallback": "Mario, unaware that he is facing his son, tells Caesar to report his death to Lisa Lisa and that the men in the wall will soon awaken.",
+      "translate": "quest.jojorpg.battle_tendency_089.outro0"
+    },
+    {
+      "fallback": "After being told this, Joseph now understands Caesar's desire for immediate action, and decides to join him in the fight.",
+      "translate": "quest.jojorpg.battle_tendency_089.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_088"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

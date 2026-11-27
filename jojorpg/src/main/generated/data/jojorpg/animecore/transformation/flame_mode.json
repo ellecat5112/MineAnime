@@ -1,0 +1,43 @@
+{
+  "activation_cost": 20.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.12,
+  "granted_abilities": [
+    "jojorpg:erratic_blaze_king",
+    "jojorpg:erratic_blaze_king_giant_cartwheel_prison"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "jojorpg:heat",
+      "multiplier": 1.6
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 4.0,
+      "attribute": "minecraft:generic.attack_damage"
+    }
+  ],
+  "name": {
+    "fallback": "Flame Mode (Esidisi)",
+    "translate": "transformation.jojorpg.flame_mode"
+  },
+  "pool": "jojorpg:blood",
+  "required_lineage": "jojorpg:pillar_man",
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:modes",
+  "traits": [
+    {
+      "type": "animecore:on_hit_effect",
+      "amplifier": 1,
+      "chance": 0.4,
+      "effect": "minecraft:wither"
+    }
+  ],
+  "visuals": {
+    "aura_color": 16740419,
+    "cloak_alpha": 0.35,
+    "cloak_color": 16747109
+  }
+}

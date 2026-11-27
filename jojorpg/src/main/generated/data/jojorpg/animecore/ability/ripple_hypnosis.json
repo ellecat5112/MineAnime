@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "cone_degrees": 50.0,
+      "damage": 3.4,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_gaze",
+  "cooldown_ticks": 129,
+  "cost": {
+    "amount": 24.6,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Ripple Hypnosis",
+    "translate": "ability.jojorpg.ripple_hypnosis"
+  },
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

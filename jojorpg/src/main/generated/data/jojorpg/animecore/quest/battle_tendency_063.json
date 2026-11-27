@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "After their abrupt introduction, Joseph, Caesar and Speedwagon are seen gathered around a large fountain. Despite Speedwagon's attempts to diffuse the situation, Caesar dismisses Joseph, claiming him to be inadequate, ignorant of the Stone Mask, and weak with Ripple. Angry, Joseph challenges him to a fight but ends up being thrown into the fountain by a passing woman hypnotized by Caesar.",
+    "translate": "quest.jojorpg.battle_tendency_063.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "After their abrupt introduction, Joseph, Caesar and Speedwagon are seen gathered around a large fountain.",
+      "translate": "quest.jojorpg.battle_tendency_063.intro0"
+    },
+    {
+      "fallback": "Despite Speedwagon's attempts to diffuse the situation, Caesar dismisses Joseph, claiming him to be inadequate, ignorant of the Stone Mask, and weak with Ripple.",
+      "translate": "quest.jojorpg.battle_tendency_063.intro1"
+    },
+    {
+      "fallback": "Angry, Joseph challenges him to a fight but ends up being thrown into the fountain by a passing woman hypnotized by Caesar.",
+      "translate": "quest.jojorpg.battle_tendency_063.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "63. Joseph Joestar of Rome",
+    "translate": "quest.jojorpg.battle_tendency_063"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_063.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Go: Joseph Joestar of Rome",
+        "translate": "quest.jojorpg.battle_tendency_063.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    }
+  ],
+  "order": 100630,
+  "outro": [
+    {
+      "fallback": "The fight ends in a stalemate.",
+      "translate": "quest.jojorpg.battle_tendency_063.outro0"
+    },
+    {
+      "fallback": "Meanwhile, one of the Pillar Men has just ended his long slumber.",
+      "translate": "quest.jojorpg.battle_tendency_063.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_062"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

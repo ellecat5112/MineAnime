@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 7.7,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.6
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Medieval Pincer",
+    "translate": "ability.jojorpg.medieval_pincer"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

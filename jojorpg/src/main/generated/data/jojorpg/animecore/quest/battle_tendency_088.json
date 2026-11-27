@@ -1,0 +1,80 @@
+{
+  "allies": [
+    "jojorpg:rudol_von_stroheim_ally_t8",
+    "jojorpg:joseph_joestar_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Caesar: A Lonely Youth",
+    "translate": "quest.jojorpg.arc.caesar_a_lonely_youth"
+  },
+  "description": {
+    "fallback": "Moritz, a luxury resort known as the valley of the sun and for its winter sports, is where the remaining Pillar Men hide in wait for the coming night. Joseph notes that a cat in the area has a distinguished appearance like it belongs to an actress, and then has fun tripping the cat after taunting it with a smoked salmon. Meanwhile, Lisa Lisa, Caesar, and Messina have found the hideout of the Pillar Men and call…",
+    "translate": "quest.jojorpg.battle_tendency_088.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Moritz, a luxury resort known as the valley of the sun and for its winter sports, is where the remaining Pillar Men hide in wait for the coming night.",
+      "translate": "quest.jojorpg.battle_tendency_088.intro0"
+    },
+    {
+      "fallback": "Joseph notes that a cat in the area has a distinguished appearance like it belongs to an actress, and then has fun tripping the cat after taunting it with a smoked salmon.",
+      "translate": "quest.jojorpg.battle_tendency_088.intro1"
+    },
+    {
+      "fallback": "Meanwhile, Lisa Lisa, Caesar, and Messina have found the hideout of the Pillar Men and call Joseph over to take a look at the building so that they can come up with a strategy to defeat Kars.",
+      "translate": "quest.jojorpg.battle_tendency_088.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "88. Caesar: A Lonely Youth, Part 1",
+    "translate": "quest.jojorpg.battle_tendency_088"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_088.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 50,
+      "text": {
+        "fallback": "Head out: Caesar: A Lonely Youth, Part 1",
+        "translate": "quest.jojorpg.battle_tendency_088.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t8",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t8"
+      }
+    }
+  ],
+  "order": 100880,
+  "outro": [
+    {
+      "fallback": "As Caesar approaches the hotel, he spots footprints leading to an open door.",
+      "translate": "quest.jojorpg.battle_tendency_088.outro0"
+    },
+    {
+      "fallback": "From inside the mansion, a wind blows forth that reveals an invisible figure in the doorway.",
+      "translate": "quest.jojorpg.battle_tendency_088.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_087"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

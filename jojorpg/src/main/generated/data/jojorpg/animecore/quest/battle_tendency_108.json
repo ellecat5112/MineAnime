@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t10",
+    "jojorpg:rudol_von_stroheim_ally_t10"
+  ],
+  "arc": {
+    "fallback": "JoJo: The Final Ripple",
+    "translate": "quest.jojorpg.arc.jojo_the_final_ripple"
+  },
+  "description": {
+    "fallback": "The Ripple sent by Joseph hits Kars, and knocks him off the ruins, into the spikes below. As the Nazis prepare to execute Kars, JoJo saves Lisa Lisa. Smokey wonders why Erina told JoJo his mother was dead, and why Lisa Lisa had gone into hiding.",
+    "translate": "quest.jojorpg.battle_tendency_108.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "The Ripple sent by Joseph hits Kars, and knocks him off the ruins, into the spikes below.",
+      "translate": "quest.jojorpg.battle_tendency_108.intro0"
+    },
+    {
+      "fallback": "As the Nazis prepare to execute Kars, JoJo saves Lisa Lisa.",
+      "translate": "quest.jojorpg.battle_tendency_108.intro1"
+    },
+    {
+      "fallback": "Smokey wonders why Erina told JoJo his mother was dead, and why Lisa Lisa had gone into hiding.",
+      "translate": "quest.jojorpg.battle_tendency_108.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "108. JoJo: The Final Ripple, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_108"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_108.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: JoJo: The Final Ripple, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_108.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t10",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t10"
+      }
+    }
+  ],
+  "order": 101080,
+  "outro": [
+    {
+      "fallback": "Kars has finally accomplished his goal.",
+      "translate": "quest.jojorpg.battle_tendency_108.outro0"
+    },
+    {
+      "fallback": "The Ultimate Thing is born.",
+      "translate": "quest.jojorpg.battle_tendency_108.outro1"
+    }
+  ],
+  "recommended_tier": 10,
+  "requires": [
+    "jojorpg:battle_tendency_107"
+  ],
+  "rewards": {
+    "experience": 45,
+    "skill_points": 3,
+    "tier": 10
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

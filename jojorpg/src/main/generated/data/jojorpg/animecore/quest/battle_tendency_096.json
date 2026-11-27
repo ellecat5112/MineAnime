@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9",
+    "jojorpg:messina_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "The Ripple warriors versus the Pillar Men for the Red Stone of Aja and the future of mankind. The location has been decided: The Skeleton Heel Stone, a large stone circle arena where ancient humans would battle for glory and honor. To ensure they don't flee with the Stone, Kars demands Lisa Lisa to be a hostage.",
+    "translate": "quest.jojorpg.battle_tendency_096.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "The Ripple warriors versus the Pillar Men for the Red Stone of Aja and the future of mankind.",
+      "translate": "quest.jojorpg.battle_tendency_096.intro0"
+    },
+    {
+      "fallback": "The location has been decided: The Skeleton Heel Stone, a large stone circle arena where ancient humans would battle for glory and honor.",
+      "translate": "quest.jojorpg.battle_tendency_096.intro1"
+    },
+    {
+      "fallback": "To ensure they don't flee with the Stone, Kars demands Lisa Lisa to be a hostage.",
+      "translate": "quest.jojorpg.battle_tendency_096.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "96. The Wind, the Chariot, and Wamuu, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_096"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_096.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 72,
+      "text": {
+        "fallback": "Head out: The Wind, the Chariot, and Wamuu, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_096.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    }
+  ],
+  "order": 100960,
+  "outro": [
+    {
+      "fallback": "When he meets Lisa Lisa he asks about the photos.",
+      "translate": "quest.jojorpg.battle_tendency_096.outro0"
+    },
+    {
+      "fallback": "Lisa Lisa reveals that she was the baby that Jonathan Joestar had Erina save on the shipwreck fifty years ago.",
+      "translate": "quest.jojorpg.battle_tendency_096.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_095"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

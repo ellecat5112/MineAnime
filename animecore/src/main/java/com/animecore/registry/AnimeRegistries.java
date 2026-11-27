@@ -37,6 +37,7 @@ public final class AnimeRegistries {
 
     public static final RegistryKey<Registry<com.animecore.quest.QuestDefinition>> QUEST = RegistryKey.ofRegistry(Ids.core("quest"));
     public static final RegistryKey<Registry<com.animecore.quest.StoryNpcDefinition>> STORY_NPC = RegistryKey.ofRegistry(Ids.core("story_npc"));
+    public static final RegistryKey<Registry<com.animecore.quest.StorySpawnDefinition>> STORY_SPAWN = RegistryKey.ofRegistry(Ids.core("story_spawn"));
 
     public static void init() {
         // Synced so clients can render names, colors, combos and HUD icons without extra packets.
@@ -48,6 +49,7 @@ public final class AnimeRegistries {
         DynamicRegistries.registerSynced(BACKGROUND, com.animecore.registry.definition.BackgroundDefinition.CODEC);
         DynamicRegistries.registerSynced(QUEST, com.animecore.quest.QuestDefinition.CODEC);
         DynamicRegistries.registerSynced(STORY_NPC, com.animecore.quest.StoryNpcDefinition.CODEC);
+        DynamicRegistries.register(STORY_SPAWN, com.animecore.quest.StorySpawnDefinition.CODEC);   // server-side only
     }
 
     // ---- convenience lookups (version-shielded) ----

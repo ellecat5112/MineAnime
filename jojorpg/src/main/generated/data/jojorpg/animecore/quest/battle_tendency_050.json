@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:smokey_brown_ally_t5"
+  ],
+  "arc": {
+    "fallback": "Straizo vs. Joseph",
+    "translate": "quest.jojorpg.arc.straizo_vs_joseph"
+  },
+  "description": {
+    "fallback": "The butt of Joseph's gun successfully connects with Straizo's face, allowing Joseph to release a burst of Ripple into it. Outside the cafe, a woman asks Smokey what is going on inside. However, when he answers truthfully, she assumes he's crazy.",
+    "translate": "quest.jojorpg.battle_tendency_050.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "The butt of Joseph's gun successfully connects with Straizo's face, allowing Joseph to release a burst of Ripple into it.",
+      "translate": "quest.jojorpg.battle_tendency_050.intro0"
+    },
+    {
+      "fallback": "Outside the cafe, a woman asks Smokey what is going on inside.",
+      "translate": "quest.jojorpg.battle_tendency_050.intro1"
+    },
+    {
+      "fallback": "However, when he answers truthfully, she assumes he's crazy.",
+      "translate": "quest.jojorpg.battle_tendency_050.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "50. Straizo vs. Joseph, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_050"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.battle_tendency_050.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 65,
+      "text": {
+        "fallback": "Head out: Straizo vs. Joseph, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_050.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:straizo_foe_t5",
+      "text": {
+        "fallback": "Defeat Straizo",
+        "translate": "quest.jojorpg.defeat.straizo_foe_t5"
+      }
+    }
+  ],
+  "order": 100500,
+  "outro": [
+    {
+      "fallback": "Smokey, who's in fear, asks Joseph if he has any other plans, to which Joseph replies he's going to use the secret Joestar Technique: running away.",
+      "translate": "quest.jojorpg.battle_tendency_050.outro0"
+    },
+    {
+      "fallback": "Straizo finishes reforming himself and quickly jumps to the second floor of the demolished building.",
+      "translate": "quest.jojorpg.battle_tendency_050.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:battle_tendency_049"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

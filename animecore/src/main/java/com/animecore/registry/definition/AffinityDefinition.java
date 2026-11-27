@@ -28,8 +28,16 @@ public record AffinityDefinition(
         Optional<com.animecore.vfx.VfxStyle> vfxStyle,
         boolean basic,
         Optional<Identifier> awakenFrom,
-        int awakenLevel
+        int awakenLevel,
+        float undeadMultiplier
 ) {
+    /** Without an undead bonus. */
+    public AffinityDefinition(String system, Text name, int color, List<Identifier> strongAgainst, float advantageMultiplier,
+                              List<Identifier> fusionOf, Optional<Identifier> requiredLineage, Optional<com.animecore.vfx.VfxStyle> vfxStyle,
+                              boolean basic, Optional<Identifier> awakenFrom, int awakenLevel) {
+        this(system, name, color, strongAgainst, advantageMultiplier, fusionOf, requiredLineage, vfxStyle, basic, awakenFrom, awakenLevel, 1f);
+    }
+
     public AffinityDefinition(String system, Text name, int color, List<Identifier> strongAgainst, float advantageMultiplier,
                               List<Identifier> fusionOf, Optional<Identifier> requiredLineage) {
         this(system, name, color, strongAgainst, advantageMultiplier, fusionOf, requiredLineage, Optional.empty(), false, Optional.empty(), 30);
@@ -52,6 +60,9 @@ public record AffinityDefinition(
             com.animecore.vfx.VfxStyle.CODEC.optionalFieldOf("vfx_style").forGetter(AffinityDefinition::vfxStyle),
             Codec.BOOL.optionalFieldOf("basic", false).forGetter(AffinityDefinition::basic),
             Identifier.CODEC.optionalFieldOf("awaken_from").forGetter(AffinityDefinition::awakenFrom),
-            Codec.intRange(1, 1000).optionalFieldOf("awaken_level", 30).forGetter(AffinityDefinition::awakenLevel)
+            Codec.intRange(1, 1000).optionalFieldOf("awaken_level", 30).forGetter(AffinityDefinition::awakenLevel),
+            // damage multiplier against the undead (vanilla undead, undead story characters, players with an undead trait):
+            // Hamon / the Ripple, holy light, exorcism...
+            Codec.floatRange(0f, 20f).optionalFieldOf("undead_multiplier", 1f).forGetter(AffinityDefinition::undeadMultiplier)
     ).apply(i, AffinityDefinition::new));
 }

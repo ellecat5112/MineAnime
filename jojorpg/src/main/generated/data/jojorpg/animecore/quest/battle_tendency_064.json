@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t6"
+  ],
+  "arc": {
+    "fallback": "Ultimate Warriors from Ancient Times",
+    "translate": "quest.jojorpg.arc.ultimate_warriors_from_ancient_times"
+  },
+  "description": {
+    "fallback": "In the depths of a cavern beneath the Colosseum, the Nazis have uncovered three other Pillar Men preserved in a stone wall littered with Stone Masks. Having set up several ultraviolet lights to prevent their awakening, they prepare to cut up the stone and send it to Germany for examination. Suddenly, a hole opens in the forehead of the middle Pillar Man, and strange sounds come out, frightening all the soldiers…",
+    "translate": "quest.jojorpg.battle_tendency_064.desc"
+  },
+  "giver": "jojorpg:joseph_joestar",
+  "intro": [
+    {
+      "fallback": "In the depths of a cavern beneath the Colosseum, the Nazis have uncovered three other Pillar Men preserved in a stone wall littered with Stone Masks.",
+      "translate": "quest.jojorpg.battle_tendency_064.intro0"
+    },
+    {
+      "fallback": "Having set up several ultraviolet lights to prevent their awakening, they prepare to cut up the stone and send it to Germany for examination.",
+      "translate": "quest.jojorpg.battle_tendency_064.intro1"
+    },
+    {
+      "fallback": "Suddenly, a hole opens in the forehead of the middle Pillar Man, and strange sounds come out, frightening all the soldiers present, despite the reassurance of their superior officer.",
+      "translate": "quest.jojorpg.battle_tendency_064.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "64. The Red Stone of Aja",
+    "translate": "quest.jojorpg.battle_tendency_064"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:joseph_joestar",
+      "text": {
+        "fallback": "Talk to Joseph Joestar",
+        "translate": "quest.jojorpg.battle_tendency_064.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 79,
+      "text": {
+        "fallback": "Head out: The Red Stone of Aja",
+        "translate": "quest.jojorpg.battle_tendency_064.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t6",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t6"
+      }
+    }
+  ],
+  "order": 100640,
+  "outro": [
+    {
+      "fallback": "Wamuu reports to his leader that he overheard a soldier saying Santana was defeated in Mexico by a possible Ripple warrior, to which the second Pillar Man mentions that they should have wiped out the Ripple clan 2,000…",
+      "translate": "quest.jojorpg.battle_tendency_064.outro0"
+    },
+    {
+      "fallback": "Undaunted, the leader of the Pillar Men finally inquires about the Red Stone of Aja, which appears to be a great source of power.",
+      "translate": "quest.jojorpg.battle_tendency_064.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_063"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

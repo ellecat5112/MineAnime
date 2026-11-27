@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 9.1,
+      "distance": 3.5,
+      "hit_radius": 1.4,
+      "knockback": 1.6
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Luck",
+    "translate": "ability.jojorpg.luck"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

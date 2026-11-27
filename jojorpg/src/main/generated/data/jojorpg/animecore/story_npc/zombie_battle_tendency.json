@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:needle_vein_strike",
+    "jojorpg:claws"
+  ],
+  "appearance": {
+    "accent": 4073251,
+    "eyes": 12986408,
+    "hair": 4073251,
+    "hair_style": "wild",
+    "mark": "red_eyes",
+    "pants": 4073251,
+    "skin": 10335626,
+    "top": 6111287
+  },
+  "attack": 6.2,
+  "cast_interval": 90,
+  "health": 72.0,
+  "name": {
+    "fallback": "Zombie",
+    "translate": "npc.jojorpg.zombie"
+  },
+  "power": 1.4,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  },
+  "undead": true
+}

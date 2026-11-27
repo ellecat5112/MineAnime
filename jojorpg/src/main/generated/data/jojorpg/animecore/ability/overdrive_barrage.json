@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 3.3,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "hits": 5,
+      "knockback": 1.4
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Overdrive Barrage",
+    "translate": "ability.jojorpg.overdrive_barrage"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

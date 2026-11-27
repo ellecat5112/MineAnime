@@ -232,6 +232,9 @@ public final class AnimeCoreDataGenerator implements DataGeneratorEntrypoint {
             t.add("tooltip.animecore.admin.max_all", "Use: max rank, max lineage level, master all your affinities, refill");
             t.add("tooltip.animecore.admin.only", "Admin item: operators / creative mode only");
             t.add("entity.animecore.story_npc", "Story Character");
+            t.add("message.animecore.trait.sunlight", "The sunlight is burning you - get to the shade!");
+            t.add("message.animecore.lineage.confirm", "This would replace your current lineage with %s - sneak + use to confirm");
+            t.add("tooltip.animecore.lineage_awaken", "Use: become this (sneak + use replaces your current lineage)");
             t.add("message.animecore.awaken.known", "You already have %s");
             t.add("message.animecore.awaken.rank", "Requires rank %s (you are rank %s)");
             t.add("message.animecore.awaken.done", "Awakened: %s! It is on your technique item - forms grow stronger with mastery.");

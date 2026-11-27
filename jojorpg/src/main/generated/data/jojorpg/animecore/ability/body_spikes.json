@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 15723497,
+      "damage": 8.8,
+      "forward_offset": 1.0,
+      "knockback": 1.0,
+      "radius": 3.2
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_burst",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Body Spikes",
+    "translate": "ability.jojorpg.body_spikes"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

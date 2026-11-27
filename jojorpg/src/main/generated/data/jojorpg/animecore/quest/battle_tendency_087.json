@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:rudol_von_stroheim_ally_t8",
+    "jojorpg:messina_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Light Mode Kars",
+    "translate": "quest.jojorpg.arc.light_mode_kars"
+  },
+  "description": {
+    "fallback": "Kars drags Joseph down the cliff with his Light Blades. JoJo uses the Ripple to grab onto an icicle, but Kars knocks it down, continuing their descent. JoJo attempts to send a Ripple to Kars, but Kars knocks JoJo into a wall and attempts to cut him in half.",
+    "translate": "quest.jojorpg.battle_tendency_087.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Kars drags Joseph down the cliff with his Light Blades.",
+      "translate": "quest.jojorpg.battle_tendency_087.intro0"
+    },
+    {
+      "fallback": "JoJo uses the Ripple to grab onto an icicle, but Kars knocks it down, continuing their descent.",
+      "translate": "quest.jojorpg.battle_tendency_087.intro1"
+    },
+    {
+      "fallback": "JoJo attempts to send a Ripple to Kars, but Kars knocks JoJo into a wall and attempts to cut him in half.",
+      "translate": "quest.jojorpg.battle_tendency_087.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "87. Light Mode Kars, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_087"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_087.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 83,
+      "text": {
+        "fallback": "Head out: Light Mode Kars, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_087.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t8",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t8"
+      }
+    }
+  ],
+  "order": 100870,
+  "outro": [
+    {
+      "fallback": "He laughs maniacally.",
+      "translate": "quest.jojorpg.battle_tendency_087.outro0"
+    },
+    {
+      "fallback": "Impressed with JoJo's efforts he allows him to live for one more day.",
+      "translate": "quest.jojorpg.battle_tendency_087.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_086"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 3,
+    "tier": 8
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "jojorpg:overdrive",
+    "jojorpg:thunder_split_attack",
+    "jojorpg:afterimages",
+    "jojorpg:thunder_cross_split_attack"
+  ],
+  "appearance": {
+    "accent": 11583173,
+    "hair": 2171169,
+    "hair_style": "long",
+    "outfit": "robe",
+    "pants": 3622735,
+    "top": 4545124
+  },
+  "attack": 8.0,
+  "health": 116.0,
+  "name": {
+    "fallback": "Dire",
+    "translate": "npc.jojorpg.dire"
+  },
+  "power": 1.48,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

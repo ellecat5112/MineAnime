@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t3",
+    "jojorpg:robert_e_o_speedwagon_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Tarkus and the Dark Knight Bruford",
+    "translate": "quest.jojorpg.arc.tarkus_and_the_dark_knight_bruford"
+  },
+  "description": {
+    "fallback": "Jonathan tries to send Ripple through Bruford's hair, but it doesn't work because Bruford continues to drain Jonathan's blood with his hair. Tarkus draws a mighty sword, threatening Jonathan with it. Dio then begins to explain the story of Tarkus and Bruford.",
+    "translate": "quest.jojorpg.phantom_blood_027.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "Jonathan tries to send Ripple through Bruford's hair, but it doesn't work because Bruford continues to drain Jonathan's blood with his hair.",
+      "translate": "quest.jojorpg.phantom_blood_027.intro0"
+    },
+    {
+      "fallback": "Tarkus draws a mighty sword, threatening Jonathan with it.",
+      "translate": "quest.jojorpg.phantom_blood_027.intro1"
+    },
+    {
+      "fallback": "Dio then begins to explain the story of Tarkus and Bruford.",
+      "translate": "quest.jojorpg.phantom_blood_027.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "27. Tarkus and the Dark Knight Bruford, Part 2",
+    "translate": "quest.jojorpg.phantom_blood_027"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_027.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 73,
+      "text": {
+        "fallback": "Head out: Tarkus and the Dark Knight Bruford, Part 2",
+        "translate": "quest.jojorpg.phantom_blood_027.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:tarkus_foe_t3",
+      "text": {
+        "fallback": "Defeat Tarkus",
+        "translate": "quest.jojorpg.defeat.tarkus_foe_t3"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:bruford_foe_t3",
+      "text": {
+        "fallback": "Defeat Bruford",
+        "translate": "quest.jojorpg.defeat.bruford_foe_t3"
+      }
+    }
+  ],
+  "order": 270,
+  "outro": [
+    {
+      "fallback": "With his arm trapped by Bruford's hair, Jonathan gathers Ripple energy in his left hand and punches his right arm with it.",
+      "translate": "quest.jojorpg.phantom_blood_027.outro0"
+    },
+    {
+      "fallback": "Jonathan's scarlet overdrive disintegrates the hair trapping his arm and he is freed to continue fighting.",
+      "translate": "quest.jojorpg.phantom_blood_027.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_026"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

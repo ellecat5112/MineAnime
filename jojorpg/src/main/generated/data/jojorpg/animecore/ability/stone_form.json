@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 3,
+          "effect": "minecraft:resistance"
+        },
+        {
+          "amplifier": 2,
+          "effect": "minecraft:slowness"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Stone Form",
+    "translate": "ability.jojorpg.stone_form"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

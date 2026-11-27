@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "jojorpg:eastern_mystery_chinese_kempo"
+  ],
+  "appearance": {
+    "accent": 2503224,
+    "hair": 4276545,
+    "hair_style": "wild",
+    "outfit": "jacket",
+    "pants": 4073251,
+    "top": 6111287
+  },
+  "attack": 6.0,
+  "health": 88.0,
+  "name": {
+    "fallback": "Amato",
+    "translate": "npc.jojorpg.amato"
+  },
+  "power": 1.24,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

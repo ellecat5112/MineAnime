@@ -1,0 +1,260 @@
+{
+  "clan_traits": [
+    {
+      "type": "animecore:breathing",
+      "pool": "jojorpg:ripple"
+    },
+    {
+      "type": "animecore:undead_bane",
+      "fire_ticks": 40
+    }
+  ],
+  "color": 16766287,
+  "description": {
+    "fallback": "Rhythmic breathing turns the body into a battery of sunlight energy. Breathe (stand still or crouch) to refill the Ripple; your blows sear vampires, zombies and Pillar Men. You can walk on water.",
+    "translate": "lineage.jojorpg.hamon.desc"
+  },
+  "granted_abilities": [
+    "jojorpg:overdrive",
+    "jojorpg:zoom_punch"
+  ],
+  "innate_affinities": [
+    "jojorpg:ripple"
+  ],
+  "name": {
+    "fallback": "Hamon (the Ripple)",
+    "translate": "lineage.jojorpg.hamon"
+  },
+  "progression": [
+    {
+      "ability": "jojorpg:indigo_blue_overdrive",
+      "skill_level": 2
+    },
+    {
+      "ability": "jojorpg:presence_erasing",
+      "skill_level": 3
+    },
+    {
+      "ability": "jojorpg:ripple_teleferico_ropeway",
+      "skill_level": 4
+    },
+    {
+      "ability": "jojorpg:satiporoja_beetle_missanga",
+      "skill_level": 5
+    },
+    {
+      "ability": "jojorpg:thousand_color_overdrive",
+      "skill_level": 6
+    },
+    {
+      "ability": "jojorpg:forced_ripple_breathing",
+      "required_tier": 2,
+      "skill_level": 7
+    },
+    {
+      "ability": "jojorpg:healing",
+      "required_tier": 2,
+      "skill_level": 9
+    },
+    {
+      "ability": "jojorpg:medicinal_usage",
+      "required_tier": 2,
+      "skill_level": 10
+    },
+    {
+      "ability": "jojorpg:ripple_cutter",
+      "required_tier": 2,
+      "skill_level": 11
+    },
+    {
+      "ability": "jojorpg:ripple_detector",
+      "required_tier": 2,
+      "skill_level": 12
+    },
+    {
+      "ability": "jojorpg:sendo_ripple_overdrive",
+      "required_tier": 2,
+      "skill_level": 13
+    },
+    {
+      "ability": "jojorpg:sendo_wave_kick",
+      "required_tier": 2,
+      "skill_level": 14
+    },
+    {
+      "ability": "jojorpg:sunset_orange_overdrive",
+      "required_tier": 2,
+      "skill_level": 15
+    },
+    {
+      "ability": "jojorpg:deep_pass_overdrive",
+      "required_tier": 3,
+      "skill_level": 16
+    },
+    {
+      "ability": "jojorpg:life_magnetism_overdrive",
+      "required_tier": 3,
+      "skill_level": 17
+    },
+    {
+      "ability": "jojorpg:luck_and_pluck",
+      "required_tier": 3,
+      "skill_level": 18
+    },
+    {
+      "ability": "jojorpg:metal_silver_overdrive",
+      "required_tier": 3,
+      "skill_level": 20
+    },
+    {
+      "ability": "jojorpg:overdrive_barrage",
+      "required_tier": 3,
+      "skill_level": 21
+    },
+    {
+      "ability": "jojorpg:precognition",
+      "required_tier": 3,
+      "skill_level": 22
+    },
+    {
+      "ability": "jojorpg:scarlet_overdrive",
+      "required_tier": 3,
+      "skill_level": 23
+    },
+    {
+      "ability": "jojorpg:sunlight_yellow_overdrive",
+      "required_tier": 3,
+      "skill_level": 24
+    },
+    {
+      "ability": "jojorpg:tornado_overdrive",
+      "required_tier": 3,
+      "skill_level": 25
+    },
+    {
+      "ability": "jojorpg:turquoise_blue_overdrive",
+      "required_tier": 3,
+      "skill_level": 26
+    },
+    {
+      "ability": "jojorpg:afterimages",
+      "required_tier": 4,
+      "skill_level": 27
+    },
+    {
+      "ability": "jojorpg:thunder_cross_split_attack",
+      "required_tier": 4,
+      "skill_level": 28
+    },
+    {
+      "ability": "jojorpg:thunder_split_attack",
+      "required_tier": 4,
+      "skill_level": 29
+    },
+    {
+      "ability": "jojorpg:ripple_hair_attack",
+      "required_tier": 5,
+      "skill_level": 30
+    },
+    {
+      "ability": "jojorpg:satiporoja_beetle_cloth",
+      "required_tier": 5,
+      "skill_level": 32
+    },
+    {
+      "ability": "jojorpg:bubble_barrier",
+      "required_tier": 6,
+      "skill_level": 33
+    },
+    {
+      "ability": "jojorpg:bubble_launcher",
+      "required_tier": 6,
+      "skill_level": 34
+    },
+    {
+      "ability": "jojorpg:clacker_boomerang",
+      "required_tier": 6,
+      "skill_level": 35
+    },
+    {
+      "ability": "jojorpg:clacker_volley",
+      "required_tier": 6,
+      "skill_level": 36
+    },
+    {
+      "ability": "jojorpg:ripple_hypnosis",
+      "required_tier": 6,
+      "skill_level": 37
+    },
+    {
+      "ability": "jojorpg:seated_jump",
+      "required_tier": 6,
+      "skill_level": 38
+    },
+    {
+      "ability": "jojorpg:ripple_beat",
+      "required_tier": 7,
+      "skill_level": 39
+    },
+    {
+      "ability": "jojorpg:ripple_overdrive_beat",
+      "required_tier": 7,
+      "skill_level": 40
+    },
+    {
+      "ability": "jojorpg:sticking_ripple_and_repelling_ripple",
+      "required_tier": 7,
+      "skill_level": 41
+    },
+    {
+      "ability": "jojorpg:bubble_cutter",
+      "required_tier": 8,
+      "skill_level": 43
+    },
+    {
+      "ability": "jojorpg:bubble_cutter_gliding",
+      "required_tier": 8,
+      "skill_level": 44
+    },
+    {
+      "ability": "jojorpg:bubble_lenses",
+      "required_tier": 8,
+      "skill_level": 45
+    },
+    {
+      "ability": "jojorpg:cat_foot_stance",
+      "required_tier": 8,
+      "skill_level": 46
+    },
+    {
+      "ability": "jojorpg:rebuff_overdrive",
+      "required_tier": 9,
+      "skill_level": 47
+    },
+    {
+      "ability": "jojorpg:snake_muffler",
+      "required_tier": 9,
+      "skill_level": 48
+    }
+  ],
+  "selectable": false,
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:attribute",
+      "amount": 1.0,
+      "attribute": "minecraft:generic.attack_damage"
+    },
+    {
+      "type": "animecore:ability_power",
+      "affinity": "jojorpg:ripple",
+      "multiplier": 1.2
+    },
+    {
+      "type": "animecore:energy_regen",
+      "multiplier": 1.5,
+      "pool": "jojorpg:ripple"
+    }
+  ],
+  "weight": 0
+}

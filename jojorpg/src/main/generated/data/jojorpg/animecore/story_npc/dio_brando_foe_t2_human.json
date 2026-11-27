@@ -1,0 +1,27 @@
+{
+  "abilities": [
+    "jojorpg:saw_hat",
+    "jojorpg:sledgehammer"
+  ],
+  "appearance": {
+    "accent": 16119285,
+    "eyes": 1402304,
+    "hair": 16766287,
+    "outfit": "jacket",
+    "top": 5125166
+  },
+  "attack": 4.8,
+  "cast_interval": 70,
+  "health": 66.0,
+  "name": {
+    "fallback": "Dio Brando",
+    "translate": "npc.jojorpg.dio_brando"
+  },
+  "power": 1.14,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

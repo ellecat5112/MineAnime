@@ -1,0 +1,46 @@
+{
+  "activation_cost": 20.0,
+  "cooldown_ticks": 200,
+  "drain_per_tick": 0.12,
+  "granted_abilities": [
+    "jojorpg:anti_ripple_wires",
+    "jojorpg:switching_winback",
+    "jojorpg:divine_sandstorm",
+    "jojorpg:wind_suit",
+    "jojorpg:final_mode_atmospheric_rift"
+  ],
+  "modifiers": [
+    {
+      "type": "animecore:ability_power",
+      "affinity": "jojorpg:wind",
+      "multiplier": 1.6
+    },
+    {
+      "type": "animecore:attribute",
+      "amount": 0.3,
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base"
+    }
+  ],
+  "name": {
+    "fallback": "Wind Mode (Wamuu)",
+    "translate": "transformation.jojorpg.wind_mode"
+  },
+  "pool": "jojorpg:blood",
+  "required_lineage": "jojorpg:pillar_man",
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:modes",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.25,
+      "projectiles_only": true
+    }
+  ],
+  "visuals": {
+    "aura_color": 8440772,
+    "cloak_alpha": 0.35,
+    "cloak_color": 11722715
+  }
+}

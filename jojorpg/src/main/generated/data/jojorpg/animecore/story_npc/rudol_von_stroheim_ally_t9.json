@@ -1,0 +1,25 @@
+{
+  "abilities": [
+    "jojorpg:abdominal_machine_gun",
+    "jojorpg:ultraviolet_radiation_apparatus",
+    "jojorpg:ultraviolet_radiation_apparatus_spw_variant",
+    "jojorpg:cyborg_eyes"
+  ],
+  "appearance": {
+    "accent": 2171169,
+    "hair": 16769154,
+    "outfit": "armor",
+    "pants": 4082218,
+    "top": 5597999
+  },
+  "attack": 13.0,
+  "health": 186.0,
+  "name": {
+    "fallback": "Rudol von Stroheim",
+    "translate": "npc.jojorpg.rudol_von_stroheim"
+  },
+  "power": 2.08,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

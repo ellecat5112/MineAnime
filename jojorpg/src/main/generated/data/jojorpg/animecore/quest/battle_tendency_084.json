@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t8",
+    "jojorpg:messina_ally_t8"
+  ],
+  "arc": {
+    "fallback": "Stroheim's Unit Strikes Back",
+    "translate": "quest.jojorpg.arc.stroheims_unit_strikes_back"
+  },
+  "description": {
+    "fallback": "Messina wakes Joseph up at 5:00 pm to tell him they have caught up to the mail train. Joseph starts to get out of the car to break into the train, but another car comes up behind Lisa Lisa's and the driver honks at them. Joseph looks back at the car, wondering why it doesn't just pass them since there is plenty of room to on the road, but then he notices that Nazis are driving the car.",
+    "translate": "quest.jojorpg.battle_tendency_084.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Messina wakes Joseph up at 5:00 pm to tell him they have caught up to the mail train.",
+      "translate": "quest.jojorpg.battle_tendency_084.intro0"
+    },
+    {
+      "fallback": "Joseph starts to get out of the car to break into the train, but another car comes up behind Lisa Lisa's and the driver honks at them.",
+      "translate": "quest.jojorpg.battle_tendency_084.intro1"
+    },
+    {
+      "fallback": "Joseph looks back at the car, wondering why it doesn't just pass them since there is plenty of room to on the road, but then he notices that Nazis are driving the car.",
+      "translate": "quest.jojorpg.battle_tendency_084.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "84. Stroheim's Unit Strikes Back, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_084"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_084.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 61,
+      "text": {
+        "fallback": "Head out: Stroheim's Unit Strikes Back, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_084.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:kars_foe_t8",
+      "text": {
+        "fallback": "Defeat Kars",
+        "translate": "quest.jojorpg.defeat.kars_foe_t8"
+      }
+    }
+  ],
+  "order": 100840,
+  "outro": [
+    {
+      "fallback": "As Kars strikes the general's hand, the general's skin comes off, revealing a mechanized hand underneath.",
+      "translate": "quest.jojorpg.battle_tendency_084.outro0"
+    },
+    {
+      "fallback": "Kars cuts the general's hat and retreats, revealing to Joseph's shoc",
+      "translate": "quest.jojorpg.battle_tendency_084.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_083"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

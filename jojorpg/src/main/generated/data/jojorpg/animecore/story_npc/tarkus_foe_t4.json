@@ -1,0 +1,30 @@
+{
+  "abilities": [
+    "jojorpg:hell_heaven_snake_kill"
+  ],
+  "appearance": {
+    "accent": 9268835,
+    "hair": 6111287,
+    "hair_style": "bald",
+    "mark": "red_eyes",
+    "outfit": "armor",
+    "pants": 4342338,
+    "top": 6381921
+  },
+  "attack": 6.6,
+  "cast_interval": 70,
+  "health": 102.0,
+  "name": {
+    "fallback": "Tarkus",
+    "translate": "npc.jojorpg.tarkus"
+  },
+  "power": 1.38,
+  "scale": 1.2,
+  "speed": 0.33,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  },
+  "undead": true
+}

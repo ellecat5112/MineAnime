@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16766287,
+      "damage": 6.4,
+      "forward_offset": 2.0,
+      "knockback": 2.4,
+      "lift": 1.2,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_slam",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Sendō Ripple Overdrive",
+    "translate": "ability.jojorpg.sendo_ripple_overdrive"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

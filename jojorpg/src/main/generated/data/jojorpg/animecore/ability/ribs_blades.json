@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 15723497,
+      "damage": 10.0,
+      "forward_offset": 1.0,
+      "knockback": 1.0,
+      "radius": 3.2
+    }
+  ],
+  "cast_animation": "animecore:cast_burst",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Ribs Blades",
+    "translate": "ability.jojorpg.ribs_blades"
+  },
+  "required_tier": 5,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

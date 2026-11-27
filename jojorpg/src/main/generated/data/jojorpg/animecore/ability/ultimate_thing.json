@@ -1,0 +1,38 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 400,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 2,
+          "duration": 400,
+          "effect": "minecraft:resistance"
+        },
+        {
+          "amplifier": 2,
+          "duration": 400,
+          "effect": "minecraft:regeneration"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:light",
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 168,
+  "cost": {
+    "amount": 35.2,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Ultimate Thing",
+    "translate": "ability.jojorpg.ultimate_thing"
+  },
+  "required_tier": 10,
+  "system": "jojorpg",
+  "token": "jojorpg:pillar_men"
+}

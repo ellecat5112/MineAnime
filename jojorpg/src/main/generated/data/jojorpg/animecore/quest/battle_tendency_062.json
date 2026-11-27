@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t6",
+    "jojorpg:rudol_von_stroheim_ally_t6"
+  ],
+  "arc": {
+    "fallback": "The Pillar Man, Santana",
+    "translate": "quest.jojorpg.arc.the_pillar_man_santana"
+  },
+  "description": {
+    "fallback": "Santana, having been turned to stone, is taken by the Speedwagon Foundation to their headquarters in Washington D.C. There, his corpse is maintained using a new ultraviolet light technology and kept under heavy surveillance. After careful experimentation, Speedwagon and the scientists discover that Santana is not dead but merely preserved in a stone-like state.",
+    "translate": "quest.jojorpg.battle_tendency_062.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Santana, having been turned to stone, is taken by the Speedwagon Foundation to their headquarters in Washington D.C.",
+      "translate": "quest.jojorpg.battle_tendency_062.intro0"
+    },
+    {
+      "fallback": "There, his corpse is maintained using a new ultraviolet light technology and kept under heavy surveillance.",
+      "translate": "quest.jojorpg.battle_tendency_062.intro1"
+    },
+    {
+      "fallback": "After careful experimentation, Speedwagon and the scientists discover that Santana is not dead but merely preserved in a stone-like state.",
+      "translate": "quest.jojorpg.battle_tendency_062.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "62. The Pillar Man, Santana, Part 9",
+    "translate": "quest.jojorpg.battle_tendency_062"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_062.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: The Pillar Man, Santana, Part 9",
+        "translate": "quest.jojorpg.battle_tendency_062.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:santana_foe_t6",
+      "text": {
+        "fallback": "Defeat Santana",
+        "translate": "quest.jojorpg.defeat.santana_foe_t6"
+      }
+    }
+  ],
+  "order": 100620,
+  "outro": [
+    {
+      "fallback": "Surprisingly, that same man catches the noodles with his own fork and quickly redirects them back into Joseph's glass, piercing it with the Ripple.",
+      "translate": "quest.jojorpg.battle_tendency_062.outro0"
+    },
+    {
+      "fallback": "Joseph is left in awe and discovers that the man across the room is none other than Caesar Anthonio Zeppeli, the man he traveled to Rome to meet.",
+      "translate": "quest.jojorpg.battle_tendency_062.outro1"
+    }
+  ],
+  "recommended_tier": 6,
+  "requires": [
+    "jojorpg:battle_tendency_061"
+  ],
+  "rewards": {
+    "experience": 33,
+    "skill_points": 3,
+    "tier": 6
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "cone_degrees": 50.0,
+      "damage": 1.9,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 2,
+          "duration": 80,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_gaze",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Hypnosis",
+    "translate": "ability.jojorpg.hypnosis"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

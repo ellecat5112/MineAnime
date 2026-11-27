@@ -1,0 +1,76 @@
+{
+  "arc": {
+    "fallback": "Ripple Teacher Lisa Lisa",
+    "translate": "quest.jojorpg.arc.ripple_teacher_lisa_lisa"
+  },
+  "description": {
+    "fallback": "The climb up the pillar, presented as an antique training tool for Ripple users named \"Pillar from Hell\", is difficult due to the oil flowing from the top on all sides to the pool below. Caesar has already made his way a few meters up, but Joseph is having difficulty using the Ripple to cling to the surface. He decides to climb up using an alternate method involving his rolled-up shirt as a pole strap.",
+    "translate": "quest.jojorpg.battle_tendency_073.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "The climb up the pillar, presented as an antique training tool for Ripple users named \"Pillar from Hell\", is difficult due to the oil flowing from the top on all sides to the pool below.",
+      "translate": "quest.jojorpg.battle_tendency_073.intro0"
+    },
+    {
+      "fallback": "Caesar has already made his way a few meters up, but Joseph is having difficulty using the Ripple to cling to the surface.",
+      "translate": "quest.jojorpg.battle_tendency_073.intro1"
+    },
+    {
+      "fallback": "He decides to climb up using an alternate method involving his rolled-up shirt as a pole strap.",
+      "translate": "quest.jojorpg.battle_tendency_073.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "73. Ripple Teacher Lisa Lisa, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_073"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_073.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 67,
+      "text": {
+        "fallback": "Go: Ripple Teacher Lisa Lisa, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_073.travel"
+      }
+    },
+    {
+      "type": "talk",
+      "target": "jojorpg:caesar_anthonio_zeppeli",
+      "text": {
+        "fallback": "Meet Caesar Anthonio Zeppeli",
+        "translate": "quest.jojorpg.battle_tendency_073.o3"
+      }
+    }
+  ],
+  "order": 100730,
+  "outro": [
+    {
+      "fallback": "Joseph discovers a crack in the surface, and decides to grab onto it to rest.",
+      "translate": "quest.jojorpg.battle_tendency_073.outro0"
+    },
+    {
+      "fallback": "Unfortunately, the crack contains a switch that causes a high-pressure eruption of oil to blast out of the pillar above them.",
+      "translate": "quest.jojorpg.battle_tendency_073.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_072"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

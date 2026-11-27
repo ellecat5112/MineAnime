@@ -1,0 +1,97 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t4",
+    "jojorpg:dire_ally_t4"
+  ],
+  "arc": {
+    "fallback": "The Three from a Faraway Land",
+    "translate": "quest.jojorpg.arc.the_three_from_a_faraway_land"
+  },
+  "description": {
+    "fallback": "After Tarkus's demise, Speedwagon notices Jonathan's expressions have become more serious after Zeppeli's death. To get their minds off of it, he brings up the fact that Dio's zombie army is currently destroying Windknight's Lot, and they should hurry. While walking toward Windknight's again, Poco notices his friend Adams, a familiar face from Windknights.",
+    "translate": "quest.jojorpg.phantom_blood_036.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "After Tarkus's demise, Speedwagon notices Jonathan's expressions have become more serious after Zeppeli's death.",
+      "translate": "quest.jojorpg.phantom_blood_036.intro0"
+    },
+    {
+      "fallback": "To get their minds off of it, he brings up the fact that Dio's zombie army is currently destroying Windknight's Lot, and they should hurry.",
+      "translate": "quest.jojorpg.phantom_blood_036.intro1"
+    },
+    {
+      "fallback": "While walking toward Windknight's again, Poco notices his friend Adams, a familiar face from Windknights.",
+      "translate": "quest.jojorpg.phantom_blood_036.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "36. The Three from a Faraway Land, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_036"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_036.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: The Three from a Faraway Land, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_036.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:zombie_phantom_blood",
+      "text": {
+        "fallback": "Defeat the zombies",
+        "translate": "quest.jojorpg.minion.zombie"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:adams_foe_t4",
+      "text": {
+        "fallback": "Defeat Adams",
+        "translate": "quest.jojorpg.defeat.adams_foe_t4"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t4",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t4"
+      }
+    }
+  ],
+  "order": 360,
+  "outro": [
+    {
+      "fallback": "Tonpetty is not surprised at Zeppeli's death and says that even if he, Dire, and Straizo had joined them earlier, it would not have made a difference.",
+      "translate": "quest.jojorpg.phantom_blood_036.outro0"
+    },
+    {
+      "fallback": "Nevertheless, Tonpetty and his students join Jonathan in the",
+      "translate": "quest.jojorpg.phantom_blood_036.outro1"
+    }
+  ],
+  "recommended_tier": 4,
+  "requires": [
+    "jojorpg:phantom_blood_035"
+  ],
+  "rewards": {
+    "experience": 27,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

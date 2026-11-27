@@ -1,0 +1,34 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 7.6,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "knockback": 1.2
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16733986,
+      "damage": 3.8,
+      "fire_ticks": 80,
+      "forward_offset": 1.5,
+      "knockback": 0.8,
+      "radius": 2.5
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_punch",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Scarlet Overdrive",
+    "translate": "ability.jojorpg.scarlet_overdrive"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

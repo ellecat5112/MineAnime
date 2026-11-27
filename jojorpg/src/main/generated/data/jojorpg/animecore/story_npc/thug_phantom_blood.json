@@ -1,0 +1,26 @@
+{
+  "abilities": [
+    "jojorpg:saw_hat"
+  ],
+  "appearance": {
+    "accent": 4073251,
+    "hair": 4073251,
+    "hair_style": "wild",
+    "mark": "scar",
+    "outfit": "jacket",
+    "pants": 4342338,
+    "top": 6111287
+  },
+  "attack": 3.4,
+  "cast_interval": 90,
+  "health": 36.0,
+  "name": {
+    "fallback": "Ogre Street Thug",
+    "translate": "npc.jojorpg.ogre_street_thug"
+  },
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  }
+}

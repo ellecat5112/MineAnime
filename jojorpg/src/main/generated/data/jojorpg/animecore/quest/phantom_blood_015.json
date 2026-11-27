@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t2"
+  ],
+  "arc": {
+    "fallback": "Youth with Dio",
+    "translate": "quest.jojorpg.arc.youth_with_dio"
+  },
+  "description": {
+    "fallback": "Jonathan and Speedwagon look at Dio burning under the curtain thinking that they have killed him. However, Dio pulls the curtain off himself, revealing that he is still alive. Dio suffers burns because of the fire, but they are healing rapidly, like the bullet wound to his head did.",
+    "translate": "quest.jojorpg.phantom_blood_015.desc"
+  },
+  "giver": "jojorpg:jonathan_joestar",
+  "intro": [
+    {
+      "fallback": "Jonathan and Speedwagon look at Dio burning under the curtain thinking that they have killed him.",
+      "translate": "quest.jojorpg.phantom_blood_015.intro0"
+    },
+    {
+      "fallback": "However, Dio pulls the curtain off himself, revealing that he is still alive.",
+      "translate": "quest.jojorpg.phantom_blood_015.intro1"
+    },
+    {
+      "fallback": "Dio suffers burns because of the fire, but they are healing rapidly, like the bullet wound to his head did.",
+      "translate": "quest.jojorpg.phantom_blood_015.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "15. Youth with Dio, Part 4",
+    "translate": "quest.jojorpg.phantom_blood_015"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:jonathan_joestar",
+      "text": {
+        "fallback": "Talk to Jonathan Joestar",
+        "translate": "quest.jojorpg.phantom_blood_015.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 58,
+      "text": {
+        "fallback": "Head out: Youth with Dio, Part 4",
+        "translate": "quest.jojorpg.phantom_blood_015.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t2",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t2"
+      }
+    }
+  ],
+  "order": 150,
+  "outro": [
+    {
+      "fallback": "Jonathan charges at Dio as the floor gives out from under them and they begin the fall back down to the first floor.",
+      "translate": "quest.jojorpg.phantom_blood_015.outro0"
+    },
+    {
+      "fallback": "Speedwagon screams out in fear for his friend's safety.",
+      "translate": "quest.jojorpg.phantom_blood_015.outro1"
+    }
+  ],
+  "recommended_tier": 2,
+  "requires": [
+    "jojorpg:phantom_blood_014"
+  ],
+  "rewards": {
+    "experience": 21,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

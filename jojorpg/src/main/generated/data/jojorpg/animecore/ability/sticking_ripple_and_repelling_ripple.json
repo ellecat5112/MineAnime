@@ -1,0 +1,36 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 2,
+          "duration": 300,
+          "effect": "minecraft:jump_boost"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:slow_falling"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 139,
+  "cost": {
+    "amount": 27.3,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Sticking Ripple & Repelling Ripple",
+    "translate": "ability.jojorpg.sticking_ripple_and_repelling_ripple"
+  },
+  "required_tier": 7,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

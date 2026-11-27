@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t9",
+    "jojorpg:joseph_joestar_ally_t9"
+  ],
+  "arc": {
+    "fallback": "Caesar: A Lonely Youth",
+    "translate": "quest.jojorpg.arc.caesar_a_lonely_youth"
+  },
+  "description": {
+    "fallback": "Joseph and Lisa Lisa enter the hotel looking for Caesar, but are presented with only debris from the glorious fight. They soon find Messina, alive but unconscious. JoJo then turns around, to find the crimson bubble with Caesar's headband and Wamuu's ring inside.",
+    "translate": "quest.jojorpg.battle_tendency_093.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Joseph and Lisa Lisa enter the hotel looking for Caesar, but are presented with only debris from the glorious fight.",
+      "translate": "quest.jojorpg.battle_tendency_093.intro0"
+    },
+    {
+      "fallback": "They soon find Messina, alive but unconscious.",
+      "translate": "quest.jojorpg.battle_tendency_093.intro1"
+    },
+    {
+      "fallback": "JoJo then turns around, to find the crimson bubble with Caesar's headband and Wamuu's ring inside.",
+      "translate": "quest.jojorpg.battle_tendency_093.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "93. Caesar: A Lonely Youth, Part 6",
+    "translate": "quest.jojorpg.battle_tendency_093"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_093.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Head out: Caesar: A Lonely Youth, Part 6",
+        "translate": "quest.jojorpg.battle_tendency_093.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 100930,
+  "outro": [
+    {
+      "fallback": "Lisa Lisa breaks down crying, while Joseph yells Caesar's name.",
+      "translate": "quest.jojorpg.battle_tendency_093.outro0"
+    },
+    {
+      "fallback": "Even with the enemy right around the corner they are unable to contain themselves and mourn the loss of their dear friend.",
+      "translate": "quest.jojorpg.battle_tendency_093.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_092"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 3,
+    "tier": 9
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

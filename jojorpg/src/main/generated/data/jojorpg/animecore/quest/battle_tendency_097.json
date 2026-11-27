@@ -1,0 +1,89 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t9",
+    "jojorpg:robert_e_o_speedwagon_ally_t9"
+  ],
+  "arc": {
+    "fallback": "The Wind, the Chariot, and Wamuu",
+    "translate": "quest.jojorpg.arc.the_wind_the_chariot_and_wamuu"
+  },
+  "description": {
+    "fallback": "Lisa Lisa was the baby rescued by Erina, making her fifty years old. Erina was already pregnant with George Joestar II, so she gave the baby to Straizo to be its caretaker. He was the one to train her in the Ripple, along with giving her the Red Stone of Aja.",
+    "translate": "quest.jojorpg.battle_tendency_097.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Lisa Lisa was the baby rescued by Erina, making her fifty years old.",
+      "translate": "quest.jojorpg.battle_tendency_097.intro0"
+    },
+    {
+      "fallback": "Erina was already pregnant with George Joestar II, so she gave the baby to Straizo to be its caretaker.",
+      "translate": "quest.jojorpg.battle_tendency_097.intro1"
+    },
+    {
+      "fallback": "He was the one to train her in the Ripple, along with giving her the Red Stone of Aja.",
+      "translate": "quest.jojorpg.battle_tendency_097.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "97. The Wind, the Chariot, and Wamuu, Part 3",
+    "translate": "quest.jojorpg.battle_tendency_097"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_097.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 74,
+      "text": {
+        "fallback": "Head out: The Wind, the Chariot, and Wamuu, Part 3",
+        "translate": "quest.jojorpg.battle_tendency_097.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wamuu_foe_t9",
+      "text": {
+        "fallback": "Defeat Wamuu",
+        "translate": "quest.jojorpg.defeat.wamuu_foe_t9"
+      }
+    }
+  ],
+  "order": 100970,
+  "outro": [
+    {
+      "fallback": "JoJo reveals to Wamuu that he has yet to drink the antidote, stating that he will do so once Wamuu is defeated.",
+      "translate": "quest.jojorpg.battle_tendency_097.outro0"
+    },
+    {
+      "fallback": "Joseph then proceeds to put on Caesar's Headband and mounts his chariot.",
+      "translate": "quest.jojorpg.battle_tendency_097.outro1"
+    }
+  ],
+  "recommended_tier": 9,
+  "requires": [
+    "jojorpg:battle_tendency_096"
+  ],
+  "rewards": {
+    "experience": 42,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

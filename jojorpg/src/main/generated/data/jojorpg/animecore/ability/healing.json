@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:regeneration"
+        }
+      ],
+      "heal": 6.4
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Healing",
+    "translate": "ability.jojorpg.healing"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

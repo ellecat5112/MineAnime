@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 13621468,
+      "damage": 19.2,
+      "lifetime_ticks": 30,
+      "size": 0.6,
+      "speed": 2.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 168,
+  "cost": {
+    "amount": 35.2,
+    "pool": "jojorpg:stamina"
+  },
+  "name": {
+    "fallback": "Projectile Hand",
+    "translate": "ability.jojorpg.projectile_hand"
+  },
+  "required_tier": 10,
+  "system": "jojorpg",
+  "token": "jojorpg:science"
+}

@@ -1,0 +1,79 @@
+{
+  "allies": [
+    "jojorpg:joseph_joestar_ally_t5"
+  ],
+  "arc": {
+    "fallback": "Joseph Joestar of New York",
+    "translate": "quest.jojorpg.arc.joseph_joestar_of_new_york"
+  },
+  "description": {
+    "fallback": "Speedwagon and his team show Straizo that inside the ancient temple, there are many Stone Masks much like the one Dio used, and above it all, a man cast into a stone pillar. The writings and bas-reliefs on the wall make it appear that the man could be the creator of the Masks. Thus Speedwagon asks Straizo to destroy the being before it wakes up.",
+    "translate": "quest.jojorpg.battle_tendency_046.desc"
+  },
+  "giver": "jojorpg:robert_e_o_speedwagon",
+  "intro": [
+    {
+      "fallback": "Speedwagon and his team show Straizo that inside the ancient temple, there are many Stone Masks much like the one Dio used, and above it all, a man cast into a stone pillar.",
+      "translate": "quest.jojorpg.battle_tendency_046.intro0"
+    },
+    {
+      "fallback": "The writings and bas-reliefs on the wall make it appear that the man could be the creator of the Masks.",
+      "translate": "quest.jojorpg.battle_tendency_046.intro1"
+    },
+    {
+      "fallback": "Thus Speedwagon asks Straizo to destroy the being before it wakes up.",
+      "translate": "quest.jojorpg.battle_tendency_046.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "46. Joseph Joestar of New York, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_046"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:robert_e_o_speedwagon",
+      "text": {
+        "fallback": "Talk to Robert E. O. Speedwagon",
+        "translate": "quest.jojorpg.battle_tendency_046.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Head out: Joseph Joestar of New York, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_046.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:straizo_foe_t5",
+      "text": {
+        "fallback": "Defeat Straizo",
+        "translate": "quest.jojorpg.defeat.straizo_foe_t5"
+      }
+    }
+  ],
+  "order": 100460,
+  "outro": [
+    {
+      "fallback": "Unexpectedly, Straizo kills his disciples and the Speedwagon Foundation members, then attacks Speedwagon, declaring that the power of the Ripple cannot give the eternal life he had always wanted.",
+      "translate": "quest.jojorpg.battle_tendency_046.outro0"
+    },
+    {
+      "fallback": "He reveals that he had envied Dio's immortality and was determined to get his youth back, so Straizo announces that he must wear the Stone Mask to reattain his youth.",
+      "translate": "quest.jojorpg.battle_tendency_046.outro1"
+    }
+  ],
+  "recommended_tier": 5,
+  "requires": [
+    "jojorpg:battle_tendency_045"
+  ],
+  "rewards": {
+    "experience": 30,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

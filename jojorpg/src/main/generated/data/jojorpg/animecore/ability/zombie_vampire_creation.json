@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:summon_entity",
+      "count": 3,
+      "entity": "minecraft:zombie",
+      "radius": 2.5
+    }
+  ],
+  "affinity": "jojorpg:vampirism",
+  "cast_animation": "animecore:cast_slam",
+  "cooldown_ticks": 110,
+  "cost": {
+    "amount": 19.4,
+    "pool": "jojorpg:blood"
+  },
+  "name": {
+    "fallback": "Zombie/Vampire Creation",
+    "translate": "ability.jojorpg.zombie_vampire_creation"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:vampire"
+}

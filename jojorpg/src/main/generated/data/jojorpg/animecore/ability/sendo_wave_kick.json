@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 6.4,
+      "distance": 4.5,
+      "hit_radius": 1.4,
+      "knockback": 1.8,
+      "lift": 1.0
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_kick",
+  "cooldown_ticks": 91,
+  "cost": {
+    "amount": 14.1,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Sendō Wave Kick",
+    "translate": "ability.jojorpg.sendo_wave_kick"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

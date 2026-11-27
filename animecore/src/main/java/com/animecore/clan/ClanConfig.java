@@ -15,4 +15,9 @@ import java.util.function.Supplier;
  * @param giveStarterKit  hand out skill item, garb and {@code clan_items} once per clan on assignment
  */
 public record ClanConfig(Supplier<Item> skillItem, @Nullable Supplier<Item> garbItem, int pityThreshold, int rareWeight,
-                         boolean giveStarterKit) {}
+                         boolean giveStarterKit, boolean rollOnJoin) {
+    /** Rolls a lineage on first join (ninja clans). */
+    public ClanConfig(Supplier<Item> skillItem, @Nullable Supplier<Item> garbItem, int pityThreshold, int rareWeight, boolean giveStarterKit) {
+        this(skillItem, garbItem, pityThreshold, rareWeight, giveStarterKit, true);
+    }
+}

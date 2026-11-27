@@ -1,0 +1,77 @@
+{
+  "arc": {
+    "fallback": "Ripple Teacher Lisa Lisa",
+    "translate": "quest.jojorpg.arc.ripple_teacher_lisa_lisa"
+  },
+  "description": {
+    "fallback": "Caesar is shocked at Lisa Lisa's appearance, realizing that she will be teaching him and Joseph for the next month. Joseph is more aggravated at Lisa Lisa's surprise attack and tries to defeat her, but Lisa Lisa is unfazed by Joseph's natural ability to walk on water without training and proceeds with an elaborate counter. Using only an oar and the water, she elevates the oar between two geysers of water and swings…",
+    "translate": "quest.jojorpg.battle_tendency_072.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Caesar is shocked at Lisa Lisa's appearance, realizing that she will be teaching him and Joseph for the next month.",
+      "translate": "quest.jojorpg.battle_tendency_072.intro0"
+    },
+    {
+      "fallback": "Joseph is more aggravated at Lisa Lisa's surprise attack and tries to defeat her, but Lisa Lisa is unfazed by Joseph's natural ability to walk on water without training and proceeds with an elaborate counter.",
+      "translate": "quest.jojorpg.battle_tendency_072.intro1"
+    },
+    {
+      "fallback": "Using only an oar and the water, she elevates the oar between two geysers of water and swings off it, putting a mask on Joseph.",
+      "translate": "quest.jojorpg.battle_tendency_072.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "72. Ripple Teacher Lisa Lisa, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_072"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_072.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 53,
+      "text": {
+        "fallback": "Go: Ripple Teacher Lisa Lisa, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_072.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "count": 3,
+      "target": "jojorpg:vampire_battle_tendency",
+      "text": {
+        "fallback": "Defeat the vampires",
+        "translate": "quest.jojorpg.minion.vampire"
+      }
+    }
+  ],
+  "order": 100720,
+  "outro": [
+    {
+      "fallback": "When the three arrive at Air Supplena, Lisa Lisa tells Joseph and Caesar to climb Hell Climb Pillar, to Caesar's fear and objection.",
+      "translate": "quest.jojorpg.battle_tendency_072.outro0"
+    },
+    {
+      "fallback": "She kicks both of them down to the bottom of the tower where they land in a sea of oil; Lisa Lisa tells them that if they cannot climb the oily tower, they will die.",
+      "translate": "quest.jojorpg.battle_tendency_072.outro1"
+    }
+  ],
+  "recommended_tier": 7,
+  "requires": [
+    "jojorpg:battle_tendency_071"
+  ],
+  "rewards": {
+    "experience": 36,
+    "skill_points": 1
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

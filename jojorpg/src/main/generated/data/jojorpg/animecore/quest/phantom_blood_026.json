@@ -1,0 +1,88 @@
+{
+  "allies": [
+    "jojorpg:jonathan_joestar_ally_t3",
+    "jojorpg:robert_e_o_speedwagon_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Tarkus and the Dark Knight Bruford",
+    "translate": "quest.jojorpg.arc.tarkus_and_the_dark_knight_bruford"
+  },
+  "description": {
+    "fallback": "After dispelling Dio's power by blocking his attack, Jonathan and Zeppeli attempt to strike Dio with two Ripple moves combined. Their plan backfires when Dio's freezing technique splits open the veins on Jonathan's hand. Zeppeli tries to divert Dio's attention by kicking him, but the latter simply freezes Zeppeli's leg and throws both of them off the rock.",
+    "translate": "quest.jojorpg.phantom_blood_026.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "After dispelling Dio's power by blocking his attack, Jonathan and Zeppeli attempt to strike Dio with two Ripple moves combined.",
+      "translate": "quest.jojorpg.phantom_blood_026.intro0"
+    },
+    {
+      "fallback": "Their plan backfires when Dio's freezing technique splits open the veins on Jonathan's hand.",
+      "translate": "quest.jojorpg.phantom_blood_026.intro1"
+    },
+    {
+      "fallback": "Zeppeli tries to divert Dio's attention by kicking him, but the latter simply freezes Zeppeli's leg and throws both of them off the rock.",
+      "translate": "quest.jojorpg.phantom_blood_026.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "26. Tarkus and the Dark Knight Bruford, Part 1",
+    "translate": "quest.jojorpg.phantom_blood_026"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_026.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 51,
+      "text": {
+        "fallback": "Head out: Tarkus and the Dark Knight Bruford, Part 1",
+        "translate": "quest.jojorpg.phantom_blood_026.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t3",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t3"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:bruford_foe_t3",
+      "text": {
+        "fallback": "Defeat Bruford",
+        "translate": "quest.jojorpg.defeat.bruford_foe_t3"
+      }
+    }
+  ],
+  "order": 260,
+  "outro": [
+    {
+      "fallback": "Tarkus then moves to crush Jonathan with his massive hand.",
+      "translate": "quest.jojorpg.phantom_blood_026.outro0"
+    },
+    {
+      "fallback": "In a desperate attempt to return circulation to Zeppeli's frozen arm, Speedwagon places the frigid limb on his chest under his coat.",
+      "translate": "quest.jojorpg.phantom_blood_026.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_025"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}

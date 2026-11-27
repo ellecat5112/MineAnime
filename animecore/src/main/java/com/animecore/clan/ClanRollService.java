@@ -139,7 +139,7 @@ public final class ClanRollService {
             }
             DynamicRegistryManager rm = player.getRegistryManager();
             // only mods that configure rolling (ninja clans) roll on first join; others assign lineages through items / story
-            if (lineages(rm, ctx.modId()).isEmpty() || config(ctx.modId()).isEmpty()) continue;
+            if (lineages(rm, ctx.modId()).isEmpty() || !config(ctx.modId()).map(ClanConfig::rollOnJoin).orElse(false)) continue;
             boolean autoRoll = player.getServerWorld().getGameRules().getBoolean(AUTO_ROLL);
             Optional<Identifier> rolled = autoRoll
                     ? rollAndAssign(player, power, false, ClanAbilityManager.Reason.FIRST_JOIN)

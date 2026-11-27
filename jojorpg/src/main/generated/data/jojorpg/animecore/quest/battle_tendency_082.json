@@ -1,0 +1,81 @@
+{
+  "allies": [
+    "jojorpg:caesar_anthonio_zeppeli_ally_t8",
+    "jojorpg:joseph_joestar_ally_t8"
+  ],
+  "arc": {
+    "fallback": "The Remains Lurk",
+    "translate": "quest.jojorpg.arc.the_remains_lurk"
+  },
+  "description": {
+    "fallback": "Caesar stumbles upon Joseph in front of Lisa Lisa's room and jumps to conclusions about why he is there. However, Joseph calms him down and tells him that Esidisi's brain has stolen Suzi Q's body. Esidisi tries to turn Caesar against Joseph and Lisa Lisa by crying and pretending that he is actually just Suzi Q.",
+    "translate": "quest.jojorpg.battle_tendency_082.desc"
+  },
+  "giver": "jojorpg:lisa_lisa",
+  "intro": [
+    {
+      "fallback": "Caesar stumbles upon Joseph in front of Lisa Lisa's room and jumps to conclusions about why he is there.",
+      "translate": "quest.jojorpg.battle_tendency_082.intro0"
+    },
+    {
+      "fallback": "However, Joseph calms him down and tells him that Esidisi's brain has stolen Suzi Q's body.",
+      "translate": "quest.jojorpg.battle_tendency_082.intro1"
+    },
+    {
+      "fallback": "Esidisi tries to turn Caesar against Joseph and Lisa Lisa by crying and pretending that he is actually just Suzi Q.",
+      "translate": "quest.jojorpg.battle_tendency_082.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "82. The Remains Lurk, Part 2",
+    "translate": "quest.jojorpg.battle_tendency_082"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:lisa_lisa",
+      "text": {
+        "fallback": "Talk to Lisa Lisa",
+        "translate": "quest.jojorpg.battle_tendency_082.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 56,
+      "text": {
+        "fallback": "Head out: The Remains Lurk, Part 2",
+        "translate": "quest.jojorpg.battle_tendency_082.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:esidisi_foe_t8",
+      "text": {
+        "fallback": "Defeat Esidisi",
+        "translate": "quest.jojorpg.defeat.esidisi_foe_t8"
+      }
+    }
+  ],
+  "order": 100820,
+  "outro": [
+    {
+      "fallback": "Esidisi tries to take control of Joseph, but by this time, the sun has already risen and its light vaporizes Esidisi's brain.",
+      "translate": "quest.jojorpg.battle_tendency_082.outro0"
+    },
+    {
+      "fallback": "After the fight, Joseph, Caesar and Lisa Lisa all go to follow the mail boat where Esidisi sent the stone.",
+      "translate": "quest.jojorpg.battle_tendency_082.outro1"
+    }
+  ],
+  "recommended_tier": 8,
+  "requires": [
+    "jojorpg:battle_tendency_081"
+  ],
+  "rewards": {
+    "experience": 39,
+    "skill_points": 3,
+    "tier": 8
+  },
+  "series": "battle_tendency",
+  "system": "jojorpg"
+}

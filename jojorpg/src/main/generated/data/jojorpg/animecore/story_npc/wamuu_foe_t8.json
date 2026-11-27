@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "jojorpg:anti_ripple_wires",
+    "jojorpg:divine_sandstorm",
+    "jojorpg:wind_suit"
+  ],
+  "appearance": {
+    "accent": 16761095,
+    "hair": 5125166,
+    "hair_style": "spiky",
+    "headband": 16761095,
+    "mark": "paint",
+    "outfit": "bodysuit",
+    "pants": 6111287,
+    "skin": 14136478,
+    "top": 7162945
+  },
+  "attack": 15.2,
+  "cast_interval": 40,
+  "health": 668.0,
+  "name": {
+    "fallback": "Wamuu",
+    "translate": "npc.jojorpg.wamuu"
+  },
+  "power": 1.86,
+  "role": "boss",
+  "scale": 1.2,
+  "speed": 0.36,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

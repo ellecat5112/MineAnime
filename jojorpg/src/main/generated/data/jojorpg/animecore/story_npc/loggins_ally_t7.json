@@ -1,0 +1,24 @@
+{
+  "abilities": [
+    "jojorpg:overdrive",
+    "jojorpg:zoom_punch"
+  ],
+  "appearance": {
+    "accent": 6111287,
+    "hair": 15658734,
+    "hair_style": "long",
+    "outfit": "robe",
+    "pants": 5125166,
+    "top": 9268835
+  },
+  "attack": 11.0,
+  "health": 158.0,
+  "name": {
+    "fallback": "Loggins",
+    "translate": "npc.jojorpg.loggins"
+  },
+  "power": 1.84,
+  "role": "ally",
+  "speed": 0.34,
+  "system": "jojorpg"
+}

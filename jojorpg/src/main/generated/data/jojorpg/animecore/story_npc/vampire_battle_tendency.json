@@ -1,0 +1,31 @@
+{
+  "abilities": [
+    "jojorpg:claws",
+    "jojorpg:hypnosis",
+    "jojorpg:vaporization_freezing_technique"
+  ],
+  "appearance": {
+    "accent": 8323072,
+    "eyes": 12986408,
+    "hair": 2171169,
+    "mark": "red_eyes",
+    "outfit": "cloak",
+    "pants": 2171169,
+    "skin": 15260882,
+    "top": 2171169
+  },
+  "attack": 6.2,
+  "cast_interval": 90,
+  "health": 72.0,
+  "name": {
+    "fallback": "Vampire",
+    "translate": "npc.jojorpg.vampire"
+  },
+  "power": 1.4,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "",
+    "translate": "npc.jojorpg.title.foe"
+  },
+  "undead": true
+}

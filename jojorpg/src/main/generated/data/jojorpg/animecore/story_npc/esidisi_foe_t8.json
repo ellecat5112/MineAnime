@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:erratic_blaze_king",
+    "jojorpg:erratic_blaze_king_giant_cartwheel_prison"
+  ],
+  "appearance": {
+    "accent": 16763432,
+    "hair": 16748288,
+    "hair_style": "long",
+    "headband": 16763432,
+    "outfit": "bodysuit",
+    "pants": 5125166,
+    "skin": 14136478,
+    "top": 6111287
+  },
+  "attack": 15.2,
+  "cast_interval": 40,
+  "health": 668.0,
+  "name": {
+    "fallback": "Esidisi",
+    "translate": "npc.jojorpg.esidisi"
+  },
+  "power": 1.86,
+  "role": "boss",
+  "scale": 1.2,
+  "speed": 0.36,
+  "system": "jojorpg",
+  "title": {
+    "fallback": "☠",
+    "translate": "npc.jojorpg.title.boss"
+  },
+  "undead": true
+}

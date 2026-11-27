@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 1.5,
+      "color": 2541274,
+      "damage": 7.6,
+      "lifetime_ticks": 30,
+      "size": 0.6,
+      "speed": 1.6,
+      "trail_particle": "minecraft:splash"
+    }
+  ],
+  "affinity": "jojorpg:ripple",
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.7,
+    "pool": "jojorpg:ripple"
+  },
+  "name": {
+    "fallback": "Turquoise Blue Overdrive",
+    "translate": "ability.jojorpg.turquoise_blue_overdrive"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:ripple"
+}

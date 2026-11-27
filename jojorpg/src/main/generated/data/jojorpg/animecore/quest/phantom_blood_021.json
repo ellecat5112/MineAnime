@@ -1,0 +1,96 @@
+{
+  "allies": [
+    "jojorpg:robert_e_o_speedwagon_ally_t3",
+    "jojorpg:jonathan_joestar_ally_t3"
+  ],
+  "arc": {
+    "fallback": "Jack the Ripper and Zeppeli the Strange",
+    "translate": "quest.jojorpg.arc.jack_the_ripper_and_zeppeli_the_strange"
+  },
+  "description": {
+    "fallback": "The chapter opens with a brief summary of the town of Windknight's Lot, revealing that Dio has taken refuge in a mansion there; he has managed to recover from most of his burn wounds at this time by feeding on the life force of the unfortunate women of the town. As he gives a woman's corpse to Jack the Ripper, now a loyal servant, Dio explains his position at the top of the food chain and his plans to eventually…",
+    "translate": "quest.jojorpg.phantom_blood_021.desc"
+  },
+  "giver": "jojorpg:will_anthonio_zeppeli",
+  "intro": [
+    {
+      "fallback": "The chapter opens with a brief summary of the town of Windknight's Lot, revealing that Dio has taken refuge in a mansion there; he has managed to recover from most of his burn wounds at this time by feeding on the life…",
+      "translate": "quest.jojorpg.phantom_blood_021.intro0"
+    },
+    {
+      "fallback": "As he gives a woman's corpse to Jack the Ripper, now a loyal servant, Dio explains his position at the top of the food chain and his plans to eventually rule all of humanity.",
+      "translate": "quest.jojorpg.phantom_blood_021.intro1"
+    },
+    {
+      "fallback": "As Wang Chan walks in with the scar Jonathan made on his face, Dio's attention turns to the scar and its cause.",
+      "translate": "quest.jojorpg.phantom_blood_021.intro2"
+    }
+  ],
+  "name": {
+    "fallback": "21. Jack the Ripper and Zeppeli the Strange, Part 4",
+    "translate": "quest.jojorpg.phantom_blood_021"
+  },
+  "objectives": [
+    {
+      "type": "talk",
+      "target": "jojorpg:will_anthonio_zeppeli",
+      "text": {
+        "fallback": "Talk to Will Anthonio Zeppeli",
+        "translate": "quest.jojorpg.phantom_blood_021.o1"
+      }
+    },
+    {
+      "type": "travel",
+      "count": 60,
+      "text": {
+        "fallback": "Head out: Jack the Ripper and Zeppeli the Strange, Part 4",
+        "translate": "quest.jojorpg.phantom_blood_021.travel"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:wang_chan_foe_t3",
+      "text": {
+        "fallback": "Defeat Wang Chan",
+        "translate": "quest.jojorpg.defeat.wang_chan_foe_t3"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:dio_brando_foe_t3",
+      "text": {
+        "fallback": "Defeat Dio Brando",
+        "translate": "quest.jojorpg.defeat.dio_brando_foe_t3"
+      }
+    },
+    {
+      "type": "defeat",
+      "target": "jojorpg:jack_the_ripper_foe_t3",
+      "text": {
+        "fallback": "Defeat Jack the Ripper",
+        "translate": "quest.jojorpg.defeat.jack_the_ripper_foe_t3"
+      }
+    }
+  ],
+  "order": 210,
+  "outro": [
+    {
+      "fallback": "Zeppeli, unfazed, pokes a clean hole in the bottom of his wine bottle with his finger.",
+      "translate": "quest.jojorpg.phantom_blood_021.outro0"
+    },
+    {
+      "fallback": "As he reminds the other two to stand back, deciding to fight the zombie by himself, Jack the Ripper jumps out of the horse's corpse.",
+      "translate": "quest.jojorpg.phantom_blood_021.outro1"
+    }
+  ],
+  "recommended_tier": 3,
+  "requires": [
+    "jojorpg:phantom_blood_020"
+  ],
+  "rewards": {
+    "experience": 24,
+    "skill_points": 1
+  },
+  "series": "phantom_blood",
+  "system": "jojorpg"
+}
