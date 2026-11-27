@@ -109,8 +109,8 @@ public final class OriginCommands {
         var rm = p.getRegistryManager();
         Text village = power.faction().flatMap(f -> AnimeRegistries.faction(rm, f)).map(f -> (Text) f.name()).orElse(Text.literal("-"));
         Text bg = power.background().flatMap(b -> AnimeRegistries.background(rm, b)).map(b -> (Text) b.name()).orElse(Text.literal("-"));
-        c.getSource().sendFeedback(() -> Text.translatable("commands.animecore.origin.info", village, bg,
-                power.rogue() ? Text.translatable("commands.animecore.origin.rogue") : Text.empty()).formatted(Formatting.GOLD), false);
+        c.getSource().sendFeedback(() -> com.animecore.api.AnimeText.tr(power.context().modId(), "commands.animecore.origin.info", village, bg,
+                power.rogue() ? com.animecore.api.AnimeText.tr(power.context().modId(), "commands.animecore.origin.rogue") : Text.empty()).formatted(Formatting.GOLD), false);
         power.reputations().entrySet().stream().sorted((a, b) -> b.getValue() - a.getValue()).limit(8).forEach(e ->
                 c.getSource().sendFeedback(() -> Text.literal("  ").append(AnimeRegistries.faction(rm, e.getKey()).map(f -> (Text) f.name())
                         .orElse(Text.literal(e.getKey().toString()))).append(": " + e.getValue())

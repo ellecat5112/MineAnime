@@ -78,7 +78,7 @@ public final class ClanCommands {
                 ctx.getSource().sendFeedback(() -> Text.translatable("message.animecore.clan.status", def.name(), level,
                         def.maxSkillLevel(), p.clanSkillXp(id), ClanSkill.experienceForNext(level)).formatted(Formatting.GOLD), false);
                 long unlocked = def.progression().stream().filter(e -> e.skillLevel() <= level && p.tier() >= e.requiredTier()).count();
-                ctx.getSource().sendFeedback(() -> Text.translatable("commands.animecore.clan.progress",
+                ctx.getSource().sendFeedback(() -> com.animecore.api.AnimeText.tr(p.context().modId(), "commands.animecore.clan.progress",
                         def.grantedAbilities().size() + unlocked, def.grantedAbilities().size() + def.progression().size(),
                         p.clanRerolls()).formatted(Formatting.GRAY), false);
             });

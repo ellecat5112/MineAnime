@@ -138,6 +138,6 @@ public final class TechniqueTokens {
         if (item == null || !power.markTokenGiven(token)) return;
         ItemStack stack = new ItemStack(item);
         if (!player.getInventory().insertStack(stack)) player.dropItem(stack, false);
-        player.sendMessage(Text.translatable("message.animecore.token.received", item.getName()).formatted(Formatting.AQUA), false);
+        player.sendMessage(com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.token.received", item.getName()).formatted(Formatting.AQUA), false);
     }
 }

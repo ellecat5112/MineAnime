@@ -111,9 +111,9 @@ public final class OriginSelectionScreen extends Screen {
     public void render(DrawContext ctx, int mouseX, int mouseY, float delta) {
         super.render(ctx, mouseX, mouseY, delta);
         ctx.drawCenteredTextWithShadow(textRenderer, title, width / 2, 10, 0xFFFFFF);
-        ctx.drawCenteredTextWithShadow(textRenderer, Text.translatable("screen.animecore.origin.subtitle").formatted(Formatting.GRAY), width / 2, 22, 0xAAAAAA);
+        ctx.drawCenteredTextWithShadow(textRenderer, com.animecore.api.AnimeText.tr(system, "screen.animecore.origin.subtitle").formatted(Formatting.GRAY), width / 2, 22, 0xAAAAAA);
         int x0 = 12, x1 = x0 + colW() + 8, x2 = x1 + colW() + 12;
-        ctx.drawTextWithShadow(textRenderer, Text.translatable("screen.animecore.origin.villages").formatted(Formatting.GOLD), x0, listTop() - 11, 0xFFFFFF);
+        ctx.drawTextWithShadow(textRenderer, com.animecore.api.AnimeText.tr(system, "screen.animecore.origin.villages").formatted(Formatting.GOLD), x0, listTop() - 11, 0xFFFFFF);
         ctx.drawTextWithShadow(textRenderer, Text.translatable("screen.animecore.origin.backgrounds").formatted(Formatting.GOLD), x1, listTop() - 11, 0xFFFFFF);
         DynamicRegistryManager rm = rm();
         if (rm == null) return;
@@ -130,10 +130,10 @@ public final class OriginSelectionScreen extends Screen {
                     ctx.drawTextWrapped(textRenderer, f.description(), x2, y, w, 0xDDDDDD);
                     y += textRenderer.getWrappedLinesHeight(f.description(), w) + 6;
                 }
-                y = line(ctx, x2, y, w, Text.translatable("screen.animecore.origin.jutsu", f.jutsuPool().size(), names(rm, f.jutsuPool(), 4)));
-                y = line(ctx, x2, y, w, Text.translatable("screen.animecore.origin.exclusive", f.exclusive().items().size()));
+                y = line(ctx, x2, y, w, com.animecore.api.AnimeText.tr(system, "screen.animecore.origin.jutsu", f.jutsuPool().size(), names(rm, f.jutsuPool(), 4)));
+                y = line(ctx, x2, y, w, com.animecore.api.AnimeText.tr(system, "screen.animecore.origin.exclusive", f.exclusive().items().size()));
                 y = line(ctx, x2, y, w, Text.translatable("screen.animecore.origin.kit", items(f.kit().weapons(), f.kit().clothing())));
-                if (f.rogue()) y = line(ctx, x2, y, w, Text.translatable("screen.animecore.origin.rogue_warning").formatted(Formatting.RED));
+                if (f.rogue()) y = line(ctx, x2, y, w, com.animecore.api.AnimeText.tr(system, "screen.animecore.origin.rogue_warning").formatted(Formatting.RED));
                 y += 6;
             }
         }

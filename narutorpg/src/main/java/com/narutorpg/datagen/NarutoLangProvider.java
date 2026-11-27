@@ -24,6 +24,7 @@ final class NarutoLangProvider extends FabricLanguageProvider {
         t.add("affinity.narutorpg.water", "Water Release");
         // Clans, clan jutsu, dojutsu and advanced natures (from the Narutopedia clan catalog).
         NarutoClanCatalog.get().lang.forEach(t::add);
+        com.narutorpg.NarutoText.ENGINE.forEach((k, v) -> t.add(com.narutorpg.NarutoText.key(k), v));
         t.add("item.narutorpg.clan_emblem", "Clan Emblem");
         t.add("item.narutorpg.clan_garb", "Clan Garb");
         t.add("item.narutorpg.bloodline_scroll", "Bloodline Scroll");

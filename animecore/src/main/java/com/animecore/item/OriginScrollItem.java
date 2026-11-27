@@ -37,6 +37,6 @@ public class OriginScrollItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext ctx, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("tooltip.animecore.origin_scroll").formatted(Formatting.GRAY));
+        tooltip.add(com.animecore.api.AnimeText.tr(context.modId(), "tooltip.animecore.origin_scroll").formatted(Formatting.GRAY));
     }
 }

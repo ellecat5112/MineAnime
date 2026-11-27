@@ -94,7 +94,10 @@ public final class AnimeHudLayoutManager {
     /** Visible elements of one anchor, grouped per power system in registration order. */
     private static List<List<AnimeHudElement>> groups(HudAnchor anchor, MinecraftClient client) {
         List<List<AnimeHudElement>> out = new ArrayList<>();
+        boolean several = AnimeModRegistry.all().size() > 1;
         for (AnimeModContext ctx : AnimeModRegistry.all()) {
+            // with several anime mods installed, only show the ones this player has started using
+            if (several && client.player != null && !ctx.maybePower(client.player).map(p -> p.engaged()).orElse(false)) continue;
             List<AnimeHudElement> group = new ArrayList<>();
             for (AnimeHudElement e : ELEMENTS.values()) {
                 if (e.context() == ctx && e.anchor() == anchor && e.isVisible(client)) group.add(e);

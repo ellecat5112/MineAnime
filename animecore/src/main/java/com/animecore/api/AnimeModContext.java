@@ -41,6 +41,7 @@ public final class AnimeModContext {
     private final Function<Identifier, Identifier> comboAnimation;
     private final ComponentKey<PlayerPowerComponent> powerKey;
     private final boolean passiveMovement;
+    private final java.util.Set<String> textOverrides;
 
     private AnimeModContext(Builder b) {
         this.passiveMovement = b.passiveMovement;
@@ -49,6 +50,7 @@ public final class AnimeModContext {
         this.movement = List.copyOf(b.movement);
         this.hotbarSize = b.hotbarSize;
         this.comboAnimation = b.comboAnimation;
+        this.textOverrides = java.util.Set.copyOf(b.textOverrides);
         this.powerKey = ComponentRegistry.getOrCreate(Ids.of(modId, "power"), PlayerPowerComponent.class);
     }
 
@@ -67,6 +69,9 @@ public final class AnimeModContext {
     public ComponentKey<PlayerPowerComponent> powerKey() { return powerKey; }
     /** Keybind-free movement: automatic water walking, jump-at-a-wall-looking-up climbing, sneak + jump burst step. */
     public boolean passiveMovement() { return passiveMovement; }
+
+    /** Engine translation keys this mod rewords in its own namespace (see {@link AnimeText}). */
+    public boolean overridesText(String engineKey) { return textOverrides.contains(engineKey); }
 
     public Identifier id(String path) { return Ids.of(modId, path); }
 
@@ -103,6 +108,7 @@ public final class AnimeModContext {
         private int hotbarSize = DEFAULT_HOTBAR_SIZE;
         private Function<Identifier, Identifier> comboAnimation;
         private boolean passiveMovement;
+        private final java.util.Set<String> textOverrides = new java.util.HashSet<>();
 
         private Builder(String modId) {
             if (!modId.matches("[a-z0-9_.-]+")) throw new IllegalArgumentException("Invalid mod id: " + modId);
@@ -155,6 +161,16 @@ public final class AnimeModContext {
          */
         public Builder passiveMovement() {
             this.passiveMovement = true;
+            return this;
+        }
+
+        /**
+         * Engine messages this mod words in its own terms: for every engine key {@code a.animecore.b} listed here, the
+         * engine shows {@code a.<modId>.b} (from this mod's lang file) to this mod's players instead - "Jutsu mastered"
+         * for a ninja mod, "Technique mastered" stays the engine default for everyone else.
+         */
+        public Builder overrideText(java.util.Collection<String> engineKeys) {
+            this.textOverrides.addAll(engineKeys);
             return this;
         }
 

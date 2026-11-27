@@ -115,7 +115,7 @@ public final class ClanRollService {
         power.setClanPity(rare ? 0 : power.clanPity() + 1);
         if (reason == ClanAbilityManager.Reason.REROLL_ITEM) power.incrementClanRerolls();
         ClanAbilityManager.assign(player, power, result.get(), reason);
-        if (rare) player.sendMessage(Text.translatable("message.animecore.clan.rare").formatted(Formatting.LIGHT_PURPLE, Formatting.BOLD), false);
+        if (rare) player.sendMessage(com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.clan.rare").formatted(Formatting.LIGHT_PURPLE, Formatting.BOLD), false);
         return result;
     }
 
@@ -138,14 +138,15 @@ public final class ClanRollService {
                 continue;
             }
             DynamicRegistryManager rm = player.getRegistryManager();
-            if (lineages(rm, ctx.modId()).isEmpty()) continue;
+            // only mods that configure rolling (ninja clans) roll on first join; others assign lineages through items / story
+            if (lineages(rm, ctx.modId()).isEmpty() || config(ctx.modId()).isEmpty()) continue;
             boolean autoRoll = player.getServerWorld().getGameRules().getBoolean(AUTO_ROLL);
             Optional<Identifier> rolled = autoRoll
                     ? rollAndAssign(player, power, false, ClanAbilityManager.Reason.FIRST_JOIN)
                     : Optional.empty();
             if (rolled.isEmpty()) {
                 fallback(rm, ctx.modId()).ifPresent(f -> ClanAbilityManager.assign(player, power, f, ClanAbilityManager.Reason.FIRST_JOIN));
-                if (!autoRoll) player.sendMessage(Text.translatable("message.animecore.clan.choose_hint").formatted(Formatting.YELLOW), false);
+                if (!autoRoll) player.sendMessage(com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.clan.choose_hint").formatted(Formatting.YELLOW), false);
             }
             power.setClanInitialized(true);
             AnimeCore.LOGGER.debug("[{}] first-join clan for {}: {}", ctx.modId(), player.getName().getString(), power.lineage().orElse(null));

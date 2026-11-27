@@ -57,7 +57,7 @@ public class BloodlineScrollItem extends Item implements AnimeComponentItem {
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext ctx, List<Text> tooltip, TooltipType type) {
         tooltip.add(Text.translatable(ClanRollService.binding(stack).isPresent()
-                ? "tooltip.animecore.bloodline_scroll.sealed" : "tooltip.animecore.bloodline_scroll.random").formatted(Formatting.GRAY));
+                ? com.animecore.api.AnimeText.key(context.modId(), "tooltip.animecore.bloodline_scroll.sealed") : com.animecore.api.AnimeText.key(context.modId(), "tooltip.animecore.bloodline_scroll.random")).formatted(Formatting.GRAY));
     }
 
     @Override
@@ -69,7 +69,7 @@ public class BloodlineScrollItem extends Item implements AnimeComponentItem {
         boolean ok;
         if (sealed.isPresent()) {
             if (sealed.equals(power.lineage())) {
-                player.sendMessage(Text.translatable("message.animecore.clan.already").formatted(Formatting.RED), true);
+                player.sendMessage(com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.clan.already").formatted(Formatting.RED), true);
                 return TypedActionResult.fail(stack);
             }
             ok = ClanAbilityManager.assign(player, power, sealed.get(), ClanAbilityManager.Reason.SEALED_SCROLL);

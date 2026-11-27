@@ -123,10 +123,10 @@ public final class TechniqueMastery {
         }
         if (learned.size() > 3) {   // bulk unlock (admin seal, big level jump): one summary line instead of chat spam
             Text name = TechniqueTokens.item(power.context().modId(), token).map(i -> (Text) i.getName()).orElse(Text.literal(token.getPath()));
-            player.sendMessage(Text.translatable("message.animecore.mastery.learned_many", learned.size(), name).formatted(Formatting.AQUA), false);
+            player.sendMessage(com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.mastery.learned_many", learned.size(), name).formatted(Formatting.AQUA), false);
         } else {
             for (Identifier id : learned) AnimeRegistries.ability(rm, id).ifPresent(e -> player.sendMessage(
-                    Text.translatable("message.animecore.mastery.learned", e.value().name()).formatted(Formatting.AQUA), false));
+                    com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.mastery.learned", e.value().name()).formatted(Formatting.AQUA), false));
         }
         awaken(player, power, token, level);
     }
@@ -164,7 +164,7 @@ public final class TechniqueMastery {
     }
 
     private static void announce(ServerPlayerEntity player, AffinityDefinition def) {
-        player.sendMessage(Text.translatable("message.animecore.mastery.awakened", def.name()).styled(s -> s.withColor(def.color()).withBold(true)), false);
+        player.sendMessage(com.animecore.api.AnimeText.tr(def.system(), "message.animecore.mastery.awakened", def.name()).styled(s -> s.withColor(def.color()).withBold(true)), false);
         player.getWorld().playSound(null, player.getBlockPos(), SoundEvents.UI_TOAST_CHALLENGE_COMPLETE, SoundCategory.PLAYERS, 0.6f, 1.4f);
     }
 
@@ -195,7 +195,7 @@ public final class TechniqueMastery {
         power.addPersonalAffinity(pick);
         power.setTokenMastery(pick, Math.max(1, power.tokenLevel(pick)), 0);
         AnimeRegistries.affinities(rm).getOrEmpty(pick).ifPresent(def -> player.sendMessage(
-                Text.translatable("message.animecore.mastery.nature", def.name()).styled(s -> s.withColor(def.color())), false));
+                com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.mastery.nature", def.name()).styled(s -> s.withColor(def.color())), false));
         evaluate(player, power, pick);
         return pick;
     }

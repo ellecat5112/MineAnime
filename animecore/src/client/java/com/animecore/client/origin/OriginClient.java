@@ -48,9 +48,9 @@ public final class OriginClient {
             var rm = client.world.getRegistryManager();
             VillageAccessManager.requirement(rm, stack).ifPresent(req -> {
                 Text name = AnimeRegistries.faction(rm, req.faction()).map(FactionDefinition::name).orElse(Text.literal(req.faction().toString()));
-                lines.add(Text.translatable("tooltip.animecore.village.requires", name, req.minReputation()).formatted(Formatting.GOLD));
+                lines.add(com.animecore.api.AnimeText.tr(req.faction().getNamespace(), "tooltip.animecore.village.requires", name, req.minReputation()).formatted(Formatting.GOLD));
                 boolean ok = VillageAccessManager.access(client.player, stack) == VillageAccessManager.Access.FULL;
-                lines.add(Text.translatable(ok ? "tooltip.animecore.village.allowed" : "tooltip.animecore.village.restricted")
+                lines.add(Text.translatable(ok ? "tooltip.animecore.village.allowed" : com.animecore.api.AnimeText.key(req.faction().getNamespace(), "tooltip.animecore.village.restricted"))
                         .formatted(ok ? Formatting.GREEN : Formatting.RED));
             });
         });

@@ -72,13 +72,13 @@ public class ClanEmblemItem extends Item implements AnimeComponentItem {
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         AnimeDataComponents.ClanSkill s = stack.get(AnimeDataComponents.CLAN_SKILL);
         if (s != null) {
-            tooltip.add(Text.translatable("tooltip.animecore.clan_skill.level", s.level()).formatted(Formatting.GOLD));
+            tooltip.add(com.animecore.api.AnimeText.tr(this.context.modId(), "tooltip.animecore.clan_skill.level", s.level()).formatted(Formatting.GOLD));
             tooltip.add(Text.translatable("tooltip.animecore.clan_skill.progress", Math.round(s.progress() * 100)).formatted(Formatting.GRAY));
         }
         if (ClanRollService.binding(stack).isPresent()) {
-            tooltip.add(Text.translatable("tooltip.animecore.clan_skill.hint").formatted(Formatting.DARK_AQUA));
+            tooltip.add(com.animecore.api.AnimeText.tr(this.context.modId(), "tooltip.animecore.clan_skill.hint").formatted(Formatting.DARK_AQUA));
         } else {
-            tooltip.add(Text.translatable("tooltip.animecore.clan_skill.unbound").formatted(Formatting.DARK_GRAY));
+            tooltip.add(com.animecore.api.AnimeText.tr(this.context.modId(), "tooltip.animecore.clan_skill.unbound").formatted(Formatting.DARK_GRAY));
         }
     }
 
@@ -95,7 +95,7 @@ public class ClanEmblemItem extends Item implements AnimeComponentItem {
         }
         if (bound.isEmpty()) return TypedActionResult.fail(stack);
         if (!bound.equals(power.lineage())) {
-            player.sendMessage(Text.translatable("message.animecore.clan.foreign_emblem").formatted(Formatting.RED), true);
+            player.sendMessage(com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.clan.foreign_emblem").formatted(Formatting.RED), true);
             return TypedActionResult.fail(stack);
         }
         Identifier lineage = bound.get();

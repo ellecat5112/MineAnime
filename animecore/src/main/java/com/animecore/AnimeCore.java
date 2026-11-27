@@ -63,7 +63,7 @@ public final class AnimeCore implements ModInitializer {
             com.animecore.command.VfxCommands.register(dispatcher);
             com.animecore.command.OriginCommands.register(dispatcher);
             com.animecore.quest.QuestManager.registerCommands(dispatcher);
-            dispatcher.register(net.minecraft.server.command.CommandManager.literal("jutsu").then(net.minecraft.server.command.CommandManager.literal("tokens").executes(c -> {
+            dispatcher.register(net.minecraft.server.command.CommandManager.literal("techniques").then(net.minecraft.server.command.CommandManager.literal("tokens").executes(c -> {
                 var p = c.getSource().getPlayerOrThrow();
                 int n = 0;
                 for (var ctx : com.animecore.api.AnimeModRegistry.all()) n += com.animecore.technique.TechniqueTokens.restore(p, ctx.power(p));

@@ -80,13 +80,13 @@ public class AdminSealItem extends Item {
             }
             case CLAN_LEVEL -> {
                 Identifier clan = power.lineage().orElse(null);
-                if (clan == null) return Text.translatable("message.animecore.admin.no_clan");
+                if (clan == null) return com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.admin.no_clan");
                 int max = AnimeRegistries.lineage(rm, clan).map(LineageDefinition::maxSkillLevel).orElse(LineageDefinition.DEFAULT_MAX_SKILL_LEVEL);
                 int level = big ? max : Math.min(max, power.clanSkillLevel(clan) + 1);
                 power.setClanSkill(clan, level, 0);
                 ClanAbilityManager.evaluate(player, power);
                 ClanAbilityManager.refreshHeldSkillItems(player, power);
-                return Text.translatable("message.animecore.admin.clan", level, max);
+                return com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.admin.clan", level, max);
             }
             case MASTERY -> {
                 if (otherHand.getItem() instanceof TechniqueTokenItem token) {
@@ -96,7 +96,7 @@ public class AdminSealItem extends Item {
                 for (Identifier t : TechniqueTokens.tokenIds(power.context().modId())) {
                     if (power.tokenLevel(t) > 0 || power.effectiveAffinities().contains(t)) { master(player, power, t, big); n++; }
                 }
-                return n == 0 ? Text.translatable("message.animecore.admin.no_token") : Text.translatable("message.animecore.admin.mastery_all", n);
+                return n == 0 ? com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.admin.no_token") : Text.translatable("message.animecore.admin.mastery_all", n);
             }
             case SKILL_POINTS -> {
                 power.addSkillPoints(big ? 50 : 5);
@@ -110,7 +110,7 @@ public class AdminSealItem extends Item {
                 }
                 power.forceRefreshTraits(player);
                 TechniqueMastery.evaluateAll(player, power);
-                return Text.translatable("message.animecore.admin.natures", n);
+                return com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.admin.natures", n);
             }
             case REPUTATION -> {
                 int n = 0;
@@ -118,7 +118,7 @@ public class AdminSealItem extends Item {
                     power.setReputation(e.getKey(), big ? Math.max(100, power.reputation(e.getKey())) : power.reputation(e.getKey()) + 50);
                     n++;
                 }
-                return Text.translatable("message.animecore.admin.reputation", n);
+                return com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.admin.reputation", n);
             }
             case REFILL -> {
                 refill(power);
@@ -159,7 +159,7 @@ public class AdminSealItem extends Item {
                     if (power.tokenLevel(t) > 0 || power.effectiveAffinities().contains(t)) master(player, power, t, true);
                 }
                 refill(power);
-                return Text.translatable("message.animecore.admin.max");
+                return com.animecore.api.AnimeText.tr(context.modId(), "message.animecore.admin.max");
             }
         }
         return null;

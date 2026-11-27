@@ -144,10 +144,10 @@ public class TechniqueTokenItem extends Item {
         List<Identifier> mastery = TechniqueMastery.list(rm, token);
         if (!mastery.isEmpty()) {
             int lvl = power.tokenLevel(token);
-            out.add(Text.translatable("tooltip.animecore.token.mastery", lvl, power.tokenXp(token),
+            out.add(com.animecore.api.AnimeText.tr(context.modId(), "tooltip.animecore.token.mastery", lvl, power.tokenXp(token),
                     com.animecore.clan.ClanSkill.experienceForNext(Math.max(1, lvl)), Math.min(lvl, mastery.size()), mastery.size()).formatted(Formatting.DARK_AQUA));
             if (AnimeRegistries.affinities(rm).getOrEmpty(token).isPresent() && !power.effectiveAffinities().contains(token)) {
-                out.add(Text.translatable("tooltip.animecore.token.off_affinity").formatted(Formatting.RED));
+                out.add(com.animecore.api.AnimeText.tr(context.modId(), "tooltip.animecore.token.off_affinity").formatted(Formatting.RED));
             }
         }
         if (list.isEmpty()) out.add(Text.translatable("message.animecore.token.empty").formatted(Formatting.GRAY));

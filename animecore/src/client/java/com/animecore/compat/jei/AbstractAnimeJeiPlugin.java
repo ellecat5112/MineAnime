@@ -141,7 +141,7 @@ public abstract class AbstractAnimeJeiPlugin implements IModPlugin {
             Identifier id = def.jutsuPool().get(i);
             jutsu.append(AnimeRegistries.ability(rm, id).map(e -> e.value().name()).orElse(net.minecraft.text.Text.literal(id.getPath())));
         }
-        if (!def.jutsuPool().isEmpty()) lines.add(net.minecraft.text.Text.translatable("jei.animecore.village.jutsu", jutsu));
+        if (!def.jutsuPool().isEmpty()) lines.add(com.animecore.api.AnimeText.tr(def.system(), "jei.animecore.village.jutsu", jutsu));
         net.minecraft.text.MutableText gear = net.minecraft.text.Text.empty();
         for (int i = 0; i < def.exclusive().items().size(); i++) {
             if (i > 0) gear.append(", ");
@@ -158,7 +158,7 @@ public abstract class AbstractAnimeJeiPlugin implements IModPlugin {
         List<net.minecraft.text.Text> lines = new ArrayList<>();
         lines.add(def.name().copy().styled(s -> s.withColor(def.color()).withBold(true)));
         if (!def.description().getString().isEmpty()) lines.add(def.description());
-        lines.add(net.minecraft.text.Text.translatable("jei.animecore.clan.header"));
+        lines.add(com.animecore.api.AnimeText.tr(def.system(), "jei.animecore.clan.header"));
         for (Identifier id : def.grantedAbilities()) {
             AnimeRegistries.ability(rm, id).ifPresent(a -> lines.add(net.minecraft.text.Text.translatable("jei.animecore.clan.entry", 1, a.value().name())));
         }
@@ -174,7 +174,7 @@ public abstract class AbstractAnimeJeiPlugin implements IModPlugin {
                 if (i > 0) items.append(", ");
                 items.append(Registries.ITEM.get(def.clanItems().get(i)).getName());
             }
-            lines.add(net.minecraft.text.Text.translatable("jei.animecore.clan.items", items));
+            lines.add(com.animecore.api.AnimeText.tr(def.system(), "jei.animecore.clan.items", items));
         }
         return lines.toArray(net.minecraft.text.Text[]::new);
     }

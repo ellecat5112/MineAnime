@@ -67,7 +67,7 @@ public class FactionHeadbandItem extends ArmorItem implements AnimeComponentItem
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         AnimeDataComponents.FactionBadge badge = stack.get(AnimeDataComponents.FACTION_BADGE);
         if (badge == null) return;
-        tooltip.add(Text.translatable(badge.scratched() ? "tooltip.animecore.headband.rogue" : "tooltip.animecore.headband.scratch_hint")
+        tooltip.add(Text.translatable(badge.scratched() ? com.animecore.api.AnimeText.key(badge.faction().getNamespace(), "tooltip.animecore.headband.rogue") : "tooltip.animecore.headband.scratch_hint")
                 .formatted(badge.scratched() ? Formatting.DARK_RED : Formatting.DARK_GRAY));
     }
 

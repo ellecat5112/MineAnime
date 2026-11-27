@@ -155,6 +155,15 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
 
     /** Story mode progress for this system (see {@link com.animecore.quest.QuestManager}). */
     public com.animecore.quest.QuestLog quests() { return quests; }
+
+    /**
+     * Whether the player has started using this mod's powers (any technique, form, lineage or origin). With several anime
+     * mods installed, HUD and other per-mod displays stay hidden for mods the player has not touched.
+     */
+    public boolean engaged() {
+        return !unlockedAbilities.isEmpty() || !unlockedTransformations.isEmpty() || lineage != null || originSelected()
+                || quests.active().isPresent() || !quests.completed().isEmpty();
+    }
     public Collection<EnergyPool> pools() { return Collections.unmodifiableCollection(pools.values()); }
     public Optional<EnergyPool> pool(Identifier id) { return Optional.ofNullable(pools.get(id)); }
     public Optional<EnergyPool> primaryPool() { return context.pool(EnergyPoolSpec.Role.PRIMARY).map(s -> pools.get(s.id())); }

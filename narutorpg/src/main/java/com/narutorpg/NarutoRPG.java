@@ -18,6 +18,7 @@ public final class NarutoRPG implements ModInitializer {
             .surfaceAdhesion("chakra", 0.05f, 1)          // Chakra control: tree & water walking
             .burstStep("chakra", 6f, 7f, 20, 1)            // Body Flicker (Shunshin): 7 blocks, 1s cooldown
             .passiveMovement()                             // no keybinds: water walking, look-up wall climbing, sneak+jump Shunshin
+            .overrideText(NarutoText.ENGINE.keySet())       // jutsu / village / clan wording for engine messages
             .register();
 
     @Override
@@ -28,5 +29,10 @@ public final class NarutoRPG implements ModInitializer {
         net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback.EVENT.register((dispatcher, access, env) ->
                 dispatcher.register(net.minecraft.server.command.CommandManager.literal("naruto")
                         .then(com.animecore.command.OriginCommands.tree("origin", MOD_ID))));
+        // /jutsu tokens: NarutoRPG's name for the engine's /techniques tokens
+        net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback.EVENT.register((dispatcher, access, env) ->
+                dispatcher.register(net.minecraft.server.command.CommandManager.literal("jutsu").then(net.minecraft.server.command.CommandManager
+                        .literal("tokens").executes(c -> com.animecore.technique.TechniqueTokens.restore(c.getSource().getPlayerOrThrow(),
+                                CTX.power(c.getSource().getPlayerOrThrow()))))));
     }
 }

@@ -84,7 +84,7 @@ public final class ClanAbilityManager {
             evaluate(player, power);
             power.forceRefreshTraits(player);
             com.animecore.technique.TechniqueMastery.evaluateAll(player, power);   // innate natures train from level 1
-            player.sendMessage(Text.translatable("message.animecore.clan.assigned", def.name())
+            player.sendMessage(com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.clan.assigned", def.name())
                     .styled(s -> s.withColor(def.color())), false);
             player.getWorld().playSound(null, player.getBlockPos(), SoundEvents.UI_TOAST_CHALLENGE_COMPLETE, SoundCategory.PLAYERS, 0.5f, 1.2f);
             AnimeCoreEvents.CLAN_ASSIGNED.invoker().onAssigned(player, power, previous, lineage, reason);
@@ -118,14 +118,14 @@ public final class ClanAbilityManager {
                 if (power.grantClanAbility(id)) {
                     AnimeCoreEvents.CLAN_UNLOCK.invoker().onUnlock(player, power, lineage, id, false);
                     if (!quiet) AnimeRegistries.ability(player.getRegistryManager(), id).ifPresent(a -> player.sendMessage(
-                            Text.translatable("message.animecore.clan.unlocked", a.value().name()).formatted(Formatting.AQUA), false));
+                            com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.clan.unlocked", a.value().name()).formatted(Formatting.AQUA), false));
                 }
             });
             entry.transformation().ifPresent(id -> {
                 if (power.grantClanForm(id)) {
                     AnimeCoreEvents.CLAN_UNLOCK.invoker().onUnlock(player, power, lineage, id, true);
                     if (!quiet) AnimeRegistries.transformation(player.getRegistryManager(), id).ifPresent(f -> player.sendMessage(
-                            Text.translatable("message.animecore.clan.unlocked", f.value().name()).formatted(Formatting.LIGHT_PURPLE), false));
+                            com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.clan.unlocked", f.value().name()).formatted(Formatting.LIGHT_PURPLE), false));
                 }
             });
         }

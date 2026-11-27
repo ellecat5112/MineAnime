@@ -111,7 +111,7 @@ public final class OriginSelectionService {
 
     public static void openScreen(ServerPlayerEntity player, AnimeModContext ctx) {
         AnimeNetworking.send(player, new OpenOriginScreenPayload(ctx.modId()));
-        player.sendMessage(Text.translatable("message.animecore.origin.hint").formatted(Formatting.YELLOW), true);
+        player.sendMessage(com.animecore.api.AnimeText.tr(ctx.modId(), "message.animecore.origin.hint").formatted(Formatting.YELLOW), true);
     }
 
     /**
@@ -220,7 +220,7 @@ public final class OriginSelectionService {
         if (rogueId != null) power.setFaction(rogueId);
         power.setRogue(true);
         power.markTraitsDirty();
-        player.sendMessage(Text.translatable("message.animecore.village.went_rogue", VillageAccessManager.factionName(player, home))
+        player.sendMessage(com.animecore.api.AnimeText.tr(power.context().modId(), "message.animecore.village.went_rogue", VillageAccessManager.factionName(player, home))
                 .formatted(Formatting.DARK_RED, Formatting.BOLD), false);
         AnimeCoreEvents.ORIGIN_SELECTED.invoker().onSelected(player, power, rogueId, power.background().orElse(null));
     }

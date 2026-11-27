@@ -227,7 +227,7 @@ public class QuestJournalScreen extends Screen {
         if (r.tier() > 0) parts.add(Text.translatable("screen.animecore.journal.reward_rank", r.tier()));
         if (r.skillPoints() > 0) parts.add(Text.translatable("screen.animecore.journal.reward_sp", r.skillPoints()));
         for (ItemStack s : r.items()) parts.add(Text.literal(s.getCount() + "x ").append(s.getName()));
-        if (!r.abilities().isEmpty()) parts.add(Text.translatable("screen.animecore.journal.reward_jutsu", r.abilities().size()));
+        if (!r.abilities().isEmpty()) parts.add(com.animecore.api.AnimeText.tr(system, "screen.animecore.journal.reward_jutsu", r.abilities().size()));
         if (!parts.isEmpty() && dy < maxY) {
             Text rt = Text.translatable("screen.animecore.journal.rewards").formatted(Formatting.LIGHT_PURPLE);
             for (int i = 0; i < parts.size(); i++) rt = rt.copy().append(Text.literal(i == 0 ? " " : ", ")).append(parts.get(i));
