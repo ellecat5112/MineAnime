@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:remote_strike",
+      "damage": 17.6,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 40,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "range": 48.0,
+      "speed": 3.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 70,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Water Claw",
+    "translate": "ability.jojorpg.geb_water_claw"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

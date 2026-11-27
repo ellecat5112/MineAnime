@@ -6,7 +6,8 @@
   "client": [
     "ItemRendererMixin",
     "LivingEntityRendererMixin",
-    "MouseMixin"
+    "MouseMixin",
+    "ClientWorldMixin"
   ],
   "injectors": {
     "defaultRequire": 1

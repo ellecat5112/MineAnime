@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "duration_ticks": 200,
+      "height": 4,
+      "kind": "barrier",
+      "width": 6
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Phantom Walls",
+    "translate": "ability.jojorpg.tenore_sax_phantom_walls"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

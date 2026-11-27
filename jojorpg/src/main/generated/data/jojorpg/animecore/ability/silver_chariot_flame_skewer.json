@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 15527921,
+      "damage": 11.7,
+      "range": 5.0,
+      "width": 0.6
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 90,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Flame Skewer",
+    "translate": "ability.jojorpg.silver_chariot_flame_skewer"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

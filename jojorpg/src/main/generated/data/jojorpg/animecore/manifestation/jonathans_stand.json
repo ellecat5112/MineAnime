@@ -1,0 +1,22 @@
+{
+  "abilities": [
+    "jojorpg:jonathans_stand_manifest",
+    "jojorpg:jonathans_stand_spirit_photography"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/hermit_purple"
+  },
+  "color": 6953882,
+  "description": {
+    "fallback": "Jonathan's Stand - Stand of DIO. ",
+    "translate": "manifestation.jojorpg.jonathans_stand.desc"
+  },
+  "name": {
+    "fallback": "Jonathan's Stand",
+    "translate": "manifestation.jojorpg.jonathans_stand"
+  },
+  "punch": 2.6,
+  "range": 10.0,
+  "system": "jojorpg"
+}

@@ -1,0 +1,41 @@
+{
+  "abilities": [
+    "jojorpg:osiris_manifest",
+    "jojorpg:osiris_soul_steal",
+    "jojorpg:osiris_the_wager"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 16766287,
+    "eyes": 16766287,
+    "hair": 4073251,
+    "hair_style": "bald",
+    "mark": "mask",
+    "outfit": "robe",
+    "pants": 4073251,
+    "skin": 7162945,
+    "top": 5125166
+  },
+  "color": 16766287,
+  "description": {
+    "fallback": "Osiris - Stand of Daniel J. D'Arby. Power E · Speed D · Range D · Stamina C · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.osiris.desc"
+  },
+  "kind": "automatic",
+  "name": {
+    "fallback": "Osiris",
+    "translate": "manifestation.jojorpg.osiris"
+  },
+  "punch": 0.0,
+  "range": 4.0,
+  "stats": {
+    "potential": "D",
+    "power": "E",
+    "precision": "D",
+    "range": "D",
+    "speed": "D",
+    "stamina": "C"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

@@ -1,0 +1,42 @@
+{
+  "abilities": [
+    "jojorpg:judgement_manifest",
+    "jojorpg:judgement_three_wishes",
+    "jojorpg:judgement_genie_strike",
+    "jojorpg:judgement_clay_imitation"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 16766287,
+    "eyes": 16771899,
+    "hair": 6323595,
+    "hair_style": "bald",
+    "mark": "mask",
+    "outfit": "armor",
+    "pants": 6323595,
+    "skin": 9479342,
+    "top": 7901340
+  },
+  "color": 7901340,
+  "description": {
+    "fallback": "Judgement - Stand of Cameo. Power B · Speed B · Range C · Stamina B · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.judgement.desc"
+  },
+  "name": {
+    "fallback": "Judgement",
+    "translate": "manifestation.jojorpg.judgement"
+  },
+  "punch": 6.6,
+  "range": 10.0,
+  "scale": 1.2,
+  "stats": {
+    "potential": "D",
+    "power": "B",
+    "precision": "D",
+    "range": "C",
+    "speed": "B",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

@@ -1,0 +1,38 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 8280002,
+      "cone_degrees": 60.0,
+      "effects": [
+        {
+          "duration": 120,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 120,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 28.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Dream World",
+    "translate": "ability.jojorpg.death_thirteen_dream_world"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

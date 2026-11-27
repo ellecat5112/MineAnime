@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 10395294,
+      "cone_degrees": 40.0,
+      "damage": 4.6,
+      "effects": [
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        },
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 240,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Brain Spores",
+    "translate": "ability.jojorpg.lovers_brain_spores"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

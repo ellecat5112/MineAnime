@@ -1,0 +1,40 @@
+{
+  "abilities": [
+    "jojorpg:tower_of_gray_manifest",
+    "jojorpg:tower_of_gray_tower_needle",
+    "jojorpg:tower_of_gray_high_speed_flight"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/tower_of_gray"
+  },
+  "color": 10395294,
+  "description": {
+    "fallback": "Tower of Gray - Stand of Gray Fly. Power E · Speed A · Range A · Stamina C · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.tower_of_gray.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Tower of Gray",
+    "translate": "manifestation.jojorpg.tower_of_gray"
+  },
+  "punch": 3.5,
+  "range": 60.0,
+  "scale": 0.6,
+  "stats": {
+    "potential": "E",
+    "power": "E",
+    "precision": "E",
+    "range": "A",
+    "speed": "A",
+    "stamina": "C"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.3
+    }
+  ],
+  "weight": 5
+}

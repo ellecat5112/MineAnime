@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Emperor!",
+    "translate": "ability.jojorpg.emperor_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

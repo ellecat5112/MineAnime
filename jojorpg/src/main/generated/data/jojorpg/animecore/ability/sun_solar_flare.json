@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16750592,
+      "damage": 17.7,
+      "fire_ticks": 120,
+      "forward_offset": 5.0,
+      "knockback": 1.0,
+      "radius": 5.0
+    }
+  ],
+  "cast_animation": "animecore:cast_slam",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Solar Flare",
+    "translate": "ability.jojorpg.sun_solar_flare"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

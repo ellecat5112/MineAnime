@@ -25,6 +25,7 @@ public final class AnimeCoreNetworking {
         AnimeNetworking.registerC2S(MovementPayloads.TransformStage.ID, MovementPayloads.TransformStage.CODEC);
         AnimeNetworking.registerS2C(MovementPayloads.Afterimage.ID, MovementPayloads.Afterimage.CODEC);
         com.animecore.vfx.AbilityVfx.init();
+        AnimeNetworking.registerS2C(com.animecore.manifestation.TimeStopPayload.ID, com.animecore.manifestation.TimeStopPayload.CODEC);
 
         AnimeNetworking.registerServerReceiver(CastAbilityPayload.ID,
                 (payload, player) -> AbilityExecutor.handleInput(player, payload.ability(), payload.pressed()));

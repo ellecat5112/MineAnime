@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:invisibility"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 600,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Appearance Replication",
+    "translate": "ability.jojorpg.yellow_temperance_appearance_replication"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,50 @@
+{
+  "abilities": [
+    "jojorpg:the_world_manifest",
+    "jojorpg:the_world_muda_muda",
+    "jojorpg:the_world_time_stop",
+    "jojorpg:the_world_knife_throw",
+    "jojorpg:the_world_road_roller",
+    "jojorpg:the_world_piercing_chop"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 3046706,
+    "eyes": 7798531,
+    "hair": 16109371,
+    "hair_style": "bald",
+    "headband": 3046706,
+    "mark": "mask",
+    "outfit": "armor",
+    "pants": 15119394,
+    "skin": 16109371,
+    "top": 16109371
+  },
+  "color": 16109371,
+  "description": {
+    "fallback": "The World - Stand of DIO. Power A · Speed A · Range C · Stamina A · Precision B · Potential B",
+    "translate": "manifestation.jojorpg.the_world.desc"
+  },
+  "name": {
+    "fallback": "The World",
+    "translate": "manifestation.jojorpg.the_world"
+  },
+  "punch": 9.0,
+  "range": 10.0,
+  "scale": 1.1,
+  "stats": {
+    "potential": "B",
+    "power": "A",
+    "precision": "B",
+    "range": "C",
+    "speed": "A",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:time_immune"
+    }
+  ],
+  "weight": 1
+}

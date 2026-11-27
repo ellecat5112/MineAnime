@@ -22,6 +22,16 @@ public final class AbilityActions {
     public static final AbilityActionType<AreaEffectAction> AREA_EFFECT = register(Ids.core("area_effect"), AreaEffectAction.CODEC);
     public static final AbilityActionType<RaiseWallAction> RAISE_WALL = register(Ids.core("raise_wall"), RaiseWallAction.CODEC);
 
+    // manifestations (Stands) and other special powers
+    public static final AbilityActionType<TimeStopAction> TIME_STOP = register(Ids.core("time_stop"), TimeStopAction.CODEC);
+    public static final AbilityActionType<RushAction> RUSH = register(Ids.core("rush"), RushAction.CODEC);
+    public static final AbilityActionType<RemoteStrikeAction> REMOTE_STRIKE = register(Ids.core("remote_strike"), RemoteStrikeAction.CODEC);
+    public static final AbilityActionType<CharmAction> CHARM = register(Ids.core("charm"), CharmAction.CODEC);
+    public static final AbilityActionType<DamageLinkAction> DAMAGE_LINK = register(Ids.core("damage_link"), DamageLinkAction.CODEC);
+    public static final AbilityActionType<VoidAction> VOID = register(Ids.core("void"), VoidAction.CODEC);
+    public static final AbilityActionType<AttributeShiftAction> ATTRIBUTE_SHIFT = register(Ids.core("attribute_shift"), AttributeShiftAction.CODEC);
+    public static final AbilityActionType<ManifestAction> MANIFEST = register(Ids.core("manifest"), ManifestAction.CODEC);
+
     public static <T extends IAbilityAction> AbilityActionType<T> register(Identifier id, MapCodec<T> codec) {
         return Registry.register(AnimeBuiltinRegistries.ABILITY_ACTION_TYPES, id, new AbilityActionType<>(codec));
     }

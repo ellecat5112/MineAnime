@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:summon_entity",
+      "allied_ticks": 600,
+      "count": 3,
+      "entity": "minecraft:zombie",
+      "radius": 2.5
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 600,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Three Wishes",
+    "translate": "ability.jojorpg.judgement_three_wishes"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

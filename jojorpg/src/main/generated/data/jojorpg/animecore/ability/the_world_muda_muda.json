@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 2.7,
+      "hits": 16,
+      "knockback": 1.8,
+      "shout": "MUDA MUDA MUDA MUDA MUDA!"
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Muda Muda",
+    "translate": "ability.jojorpg.the_world_muda_muda"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

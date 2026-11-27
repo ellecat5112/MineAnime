@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Yellow Temperance!",
+    "translate": "ability.jojorpg.yellow_temperance_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

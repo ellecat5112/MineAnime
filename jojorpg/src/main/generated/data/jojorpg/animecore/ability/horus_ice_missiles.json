@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 11789820,
+      "count": 5,
+      "damage": 8.4,
+      "lifetime_ticks": 40,
+      "size": 0.35,
+      "size_scales_with_charge": false,
+      "speed": 2.2,
+      "spread_degrees": 8.0,
+      "trail_particle": "minecraft:snowflake"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 70,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Ice Missiles",
+    "translate": "ability.jojorpg.horus_ice_missiles"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

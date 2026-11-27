@@ -1,0 +1,42 @@
+{
+  "abilities": [
+    "jojorpg:hanged_man_manifest",
+    "jojorpg:hanged_man_light_manifestation",
+    "jojorpg:hanged_man_wrist_knives",
+    "jojorpg:hanged_man_reflection_ambush"
+  ],
+  "alpha": 0.6,
+  "appearance": {
+    "accent": 9268835,
+    "eyes": 15022389,
+    "hair": 9268835,
+    "hair_style": "bald",
+    "mark": "mask",
+    "outfit": "robe",
+    "pants": 12364452,
+    "skin": 12364452,
+    "top": 14142664
+  },
+  "color": 12364452,
+  "description": {
+    "fallback": "Hanged Man - Stand of J. Geil. Power C · Speed A · Range A · Stamina B · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.hanged_man.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Hanged Man",
+    "translate": "manifestation.jojorpg.hanged_man"
+  },
+  "punch": 4.7,
+  "range": 60.0,
+  "stats": {
+    "potential": "D",
+    "power": "C",
+    "precision": "D",
+    "range": "A",
+    "speed": "A",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

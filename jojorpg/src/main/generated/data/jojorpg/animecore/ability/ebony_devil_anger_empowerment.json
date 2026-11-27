@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 2,
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "duration": 300,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Anger Empowerment",
+    "translate": "ability.jojorpg.ebony_devil_anger_empowerment"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Dark Blue Moon!",
+    "translate": "ability.jojorpg.dark_blue_moon_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

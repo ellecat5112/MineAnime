@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "jojorpg:sun_manifest",
+    "jojorpg:sun_solar_heat",
+    "jojorpg:sun_light_ray",
+    "jojorpg:sun_solar_flare"
+  ],
+  "alpha": 0.9,
+  "appearance": {
+    "model": "jojorpg:stand/sun"
+  },
+  "color": 16750592,
+  "description": {
+    "fallback": "Sun - Stand of Arabia Fats. Power B · Speed E · Range A · Stamina A · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.sun.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Sun",
+    "translate": "manifestation.jojorpg.sun"
+  },
+  "punch": 0.0,
+  "range": 60.0,
+  "scale": 1.4,
+  "stats": {
+    "potential": "E",
+    "power": "B",
+    "precision": "E",
+    "range": "A",
+    "speed": "E",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

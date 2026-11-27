@@ -1,0 +1,40 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16635957,
+      "cone_degrees": 50.0,
+      "damage": 4.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 8.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16739584,
+      "damage": 11.8,
+      "fire_ticks": 120,
+      "forward_offset": 4.0,
+      "knockback": 1.0,
+      "radius": 3.0
+    }
+  ],
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 160,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Gasoline Spray",
+    "translate": "ability.jojorpg.wheel_of_fortune_gasoline_spray"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

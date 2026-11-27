@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 2,
+          "duration": 300,
+          "effect": "minecraft:strength"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Sword Possession",
+    "translate": "ability.jojorpg.anubis_sword_possession"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

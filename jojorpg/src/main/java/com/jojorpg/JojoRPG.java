@@ -6,6 +6,7 @@ import net.fabricmc.api.ModInitializer;
 
 /**
  * JoJo's Bizarre Adventure, Parts 1-2 (Phantom Blood, Battle Tendency), on AnimeCore.
+ * Part 3 (Stardust Crusaders) adds Stands: real manifesting entities with their wiki abilities (animecore manifestations).
  * <ul>
  *   <li>Ripple (Hamon) - the primary energy, refilled by breathing (Hamon users breathe faster while still / crouching)</li>
  *   <li>Stamina - fists, kicks and weapons; Blood - what vampires and Pillar Men drink to fight</li>
@@ -19,6 +20,7 @@ public final class JojoRPG implements ModInitializer {
             .primaryEnergy("ripple", 100f, 0.12f, 0xFFD54F)
             .secondaryEnergy("stamina", 100f, 0.4f, 0x8BC34A)
             .extraEnergy("blood", 100f, 0.02f, 0xB71C1C)
+            .extraEnergy("stand", 100f, 0.35f, 0xB39DDB)       // Stand energy (Part 3): fuels Stand techniques
             .surfaceAdhesion("ripple", 0.04f, 2)          // the Ripple lets its users stand on water and cling to walls
             .burstStep("stamina", 8f, 6f, 25, 1)
             .passiveMovement()

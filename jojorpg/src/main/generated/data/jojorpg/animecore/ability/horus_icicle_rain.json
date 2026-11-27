@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 14808574,
+      "damage": 19.2,
+      "forward_offset": 4.0,
+      "knockback": 1.2,
+      "radius": 4.5
+    }
+  ],
+  "cast_animation": "animecore:cast_slam",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 28.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Icicle Rain",
+    "translate": "ability.jojorpg.horus_icicle_rain"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

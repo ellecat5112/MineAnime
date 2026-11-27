@@ -1,0 +1,47 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16727296,
+      "cone_degrees": 60.0,
+      "damage": 5.9,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "pull": 1.2,
+      "radius": 7.0
+    },
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16727296,
+      "damage": 0.0,
+      "fire_ticks": 80,
+      "forward_offset": 3.0,
+      "knockback": 0.0,
+      "radius": 2.0
+    }
+  ],
+  "affinity": "jojorpg:heat",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 140,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Red Bind",
+    "translate": "ability.jojorpg.magicians_red_red_bind"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

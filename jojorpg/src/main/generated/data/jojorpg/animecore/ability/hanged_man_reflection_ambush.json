@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:remote_strike",
+      "damage": 16.4,
+      "effects": [
+        {
+          "duration": 60,
+          "effect": "minecraft:blindness"
+        }
+      ],
+      "range": 32.0,
+      "speed": 1.0,
+      "teleport": true
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 240,
+  "cost": {
+    "amount": 28.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Reflection Ambush",
+    "translate": "ability.jojorpg.hanged_man_reflection_ambush"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

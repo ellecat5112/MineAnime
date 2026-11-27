@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 3.25,
+      "hits": 10,
+      "knockback": 1.8,
+      "reach": 2.8
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Learning Blade",
+    "translate": "ability.jojorpg.anubis_learning_blade"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

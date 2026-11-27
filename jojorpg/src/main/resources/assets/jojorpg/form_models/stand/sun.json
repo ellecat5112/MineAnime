@@ -1,0 +1,303 @@
+{
+ "texture": "jojorpg:textures/entity/form/stand_sun.png",
+ "texture_size": [
+  128,
+  128
+ ],
+ "translucent": true,
+ "parts": [
+  {
+   "name": "core",
+   "pivot": [
+    0,
+    8,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -8,
+      -8,
+      -8
+     ],
+     "size": [
+      16,
+      16,
+      16
+     ],
+     "uv": [
+      0,
+      0
+     ]
+    }
+   ],
+   "anim": "bob"
+  },
+  {
+   "name": "ray0",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "anim": "sway"
+  },
+  {
+   "name": "ray1",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "rotation": [
+    0,
+    0,
+    0.7854
+   ],
+   "anim": "sway",
+   "phase": 0.5
+  },
+  {
+   "name": "ray2",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "rotation": [
+    0,
+    0,
+    1.5708
+   ],
+   "anim": "sway",
+   "phase": 1.0
+  },
+  {
+   "name": "ray3",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "rotation": [
+    0,
+    0,
+    2.3562
+   ],
+   "anim": "sway",
+   "phase": 1.5
+  },
+  {
+   "name": "ray4",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "rotation": [
+    0,
+    0,
+    3.1416
+   ],
+   "anim": "sway",
+   "phase": 2.0
+  },
+  {
+   "name": "ray5",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "rotation": [
+    0,
+    0,
+    3.927
+   ],
+   "anim": "sway",
+   "phase": 2.5
+  },
+  {
+   "name": "ray6",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "rotation": [
+    0,
+    0,
+    4.7124
+   ],
+   "anim": "sway",
+   "phase": 3.0
+  },
+  {
+   "name": "ray7",
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -14,
+      -1
+     ],
+     "size": [
+      2,
+      5,
+      2
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "core",
+   "rotation": [
+    0,
+    0,
+    5.4978
+   ],
+   "anim": "sway",
+   "phase": 3.5
+  }
+ ]
+}

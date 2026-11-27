@@ -1,0 +1,85 @@
+{
+ "texture": "jojorpg:textures/entity/form/stand_emperor.png",
+ "texture_size": [
+  128,
+  128
+ ],
+ "translucent": false,
+ "parts": [
+  {
+   "name": "gun",
+   "pivot": [
+    0,
+    14,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -2,
+      -9
+     ],
+     "size": [
+      2,
+      2,
+      10
+     ],
+     "uv": [
+      0,
+      0
+     ]
+    },
+    {
+     "from": [
+      -2,
+      -3,
+      0
+     ],
+     "size": [
+      4,
+      4,
+      4
+     ],
+     "uv": [
+      34,
+      0
+     ]
+    },
+    {
+     "from": [
+      -1,
+      1,
+      2
+     ],
+     "size": [
+      2,
+      6,
+      3
+     ],
+     "uv": [
+      24,
+      0
+     ]
+    },
+    {
+     "from": [
+      -0.5,
+      -4,
+      1
+     ],
+     "size": [
+      1,
+      1,
+      2
+     ],
+     "uv": [
+      50,
+      0
+     ]
+    }
+   ],
+   "anim": "bob"
+  }
+ ]
+}

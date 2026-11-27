@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:remote_strike",
+      "damage": 6.9,
+      "effects": [
+        {
+          "amplifier": 5,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "range": 12.0,
+      "speed": 1.6
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Vine Bind",
+    "translate": "ability.jojorpg.hermit_purple_vine_bind"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

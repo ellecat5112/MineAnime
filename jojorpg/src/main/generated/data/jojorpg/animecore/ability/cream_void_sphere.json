@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "type": "animecore:void",
+      "damage": 13.284
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 600,
+  "cost": {
+    "amount": 60.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Void Sphere",
+    "translate": "ability.jojorpg.cream_void_sphere"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16747109,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 40.0
+    }
+  ],
+  "affinity": "jojorpg:heat",
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 14.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Life Detector",
+    "translate": "ability.jojorpg.magicians_red_life_detector"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,42 @@
+{
+  "abilities": [
+    "jojorpg:lovers_manifest",
+    "jojorpg:lovers_pain_link",
+    "jojorpg:lovers_brain_spores"
+  ],
+  "alpha": 0.95,
+  "appearance": {
+    "accent": 12434877,
+    "eyes": 15022389,
+    "hair": 6381921,
+    "hair_style": "bald",
+    "mark": "mask",
+    "outfit": "bodysuit",
+    "pants": 6381921,
+    "skin": 10395294,
+    "top": 7697781
+  },
+  "color": 10395294,
+  "description": {
+    "fallback": "Lovers - Stand of Steely Dan. Power E · Speed D · Range A · Stamina A · Precision D · Potential E",
+    "translate": "manifestation.jojorpg.lovers.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Lovers",
+    "translate": "manifestation.jojorpg.lovers"
+  },
+  "punch": 0.0,
+  "range": 60.0,
+  "scale": 0.2,
+  "stats": {
+    "potential": "E",
+    "power": "E",
+    "precision": "D",
+    "range": "A",
+    "speed": "D",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

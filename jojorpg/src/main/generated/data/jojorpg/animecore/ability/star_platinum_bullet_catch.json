@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:resistance"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 12.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Bullet Catch",
+    "translate": "ability.jojorpg.star_platinum_bullet_catch"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

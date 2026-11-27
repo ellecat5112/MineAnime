@@ -1,0 +1,43 @@
+{
+  "abilities": [
+    "jojorpg:hierophant_green_manifest",
+    "jojorpg:hierophant_green_emerald_splash",
+    "jojorpg:hierophant_green_coiled_body",
+    "jojorpg:hierophant_green_anatomy_control",
+    "jojorpg:hierophant_green_20_meter_radius_emerald_splash"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 12634675,
+    "eyes": 16771899,
+    "hair": 1793568,
+    "hair_style": "bald",
+    "mark": "mask",
+    "outfit": "bodysuit",
+    "pants": 3706428,
+    "skin": 3046706,
+    "top": 4431943
+  },
+  "color": 4431943,
+  "description": {
+    "fallback": "Hierophant Green - Stand of Noriaki Kakyoin. Power C · Speed B · Range A · Stamina B · Precision C · Potential D",
+    "translate": "manifestation.jojorpg.hierophant_green.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Hierophant Green",
+    "translate": "manifestation.jojorpg.hierophant_green"
+  },
+  "punch": 3.5,
+  "range": 60.0,
+  "stats": {
+    "potential": "D",
+    "power": "C",
+    "precision": "C",
+    "range": "A",
+    "speed": "B",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "weight": 4
+}

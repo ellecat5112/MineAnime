@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2733814,
+      "cone_degrees": 50.0,
+      "damage": 7.0,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.0,
+      "radius": 8.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Drowning Grip",
+    "translate": "ability.jojorpg.geb_drowning_grip"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,38 @@
+{
+  "abilities": [
+    "jojorpg:khnum_manifest",
+    "jojorpg:khnum_transfiguration",
+    "jojorpg:khnum_bomb_orange"
+  ],
+  "alpha": 0.3,
+  "appearance": {
+    "accent": 16766287,
+    "eyes": 2171169,
+    "hair": 4073251,
+    "outfit": "robe",
+    "pants": 5125166,
+    "skin": 10586239,
+    "top": 7162945
+  },
+  "color": 10586239,
+  "description": {
+    "fallback": "Khnum - Stand of Oingo. Power E · Speed E · Range E · Stamina A · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.khnum.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Khnum",
+    "translate": "manifestation.jojorpg.khnum"
+  },
+  "punch": 0.0,
+  "stats": {
+    "potential": "E",
+    "power": "E",
+    "precision": "E",
+    "range": "E",
+    "speed": "E",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 4
+}

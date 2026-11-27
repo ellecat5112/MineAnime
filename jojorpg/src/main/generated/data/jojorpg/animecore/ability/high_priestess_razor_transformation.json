@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 11583173,
+      "count": 4,
+      "damage": 7.7,
+      "lifetime_ticks": 30,
+      "size": 0.25,
+      "size_scales_with_charge": false,
+      "speed": 2.2,
+      "spread_degrees": 10.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Razor Transformation",
+    "translate": "ability.jojorpg.high_priestess_razor_transformation"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

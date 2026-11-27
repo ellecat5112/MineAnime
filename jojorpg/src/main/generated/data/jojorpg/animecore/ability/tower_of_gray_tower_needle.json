@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:remote_strike",
+      "damage": 10.4,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 80,
+          "effect": "minecraft:wither"
+        }
+      ],
+      "range": 40.0,
+      "speed": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 50,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Tower Needle",
+    "translate": "ability.jojorpg.tower_of_gray_tower_needle"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

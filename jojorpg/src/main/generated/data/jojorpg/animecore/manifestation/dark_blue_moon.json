@@ -1,0 +1,51 @@
+{
+  "abilities": [
+    "jojorpg:dark_blue_moon_manifest",
+    "jojorpg:dark_blue_moon_razor_scales",
+    "jojorpg:dark_blue_moon_whirlpool",
+    "jojorpg:dark_blue_moon_barnacles",
+    "jojorpg:dark_blue_moon_underwater_rush"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 8445674,
+    "eyes": 16771899,
+    "hair": 870305,
+    "hair_style": "spiky",
+    "outfit": "bodysuit",
+    "pants": 1402304,
+    "skin": 1402304,
+    "top": 870305
+  },
+  "color": 1402304,
+  "description": {
+    "fallback": "Dark Blue Moon - Stand of Imposter Captain Tennille. Power C · Speed C · Range C · Stamina B · Precision C · Potential D",
+    "translate": "manifestation.jojorpg.dark_blue_moon.desc"
+  },
+  "name": {
+    "fallback": "Dark Blue Moon",
+    "translate": "manifestation.jojorpg.dark_blue_moon"
+  },
+  "punch": 5.3,
+  "range": 10.0,
+  "stats": {
+    "potential": "D",
+    "power": "C",
+    "precision": "C",
+    "range": "C",
+    "speed": "C",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:water_breathing"
+    },
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:dolphins_grace"
+    }
+  ],
+  "weight": 5
+}

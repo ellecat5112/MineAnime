@@ -11,7 +11,7 @@ import java.util.Locale;
  * blinding light -> {@link #FLASH}).
  */
 public enum ScreenEffect implements StringIdentifiable {
-    AUTO, NONE, ILLUSION, DARKNESS, FLASH;
+    AUTO, NONE, ILLUSION, DARKNESS, FLASH, TIME_STOP;
 
     public static final Codec<ScreenEffect> CODEC = StringIdentifiable.createCodec(ScreenEffect::values);
 

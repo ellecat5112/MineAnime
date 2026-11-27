@@ -11,12 +11,15 @@ import net.minecraft.particle.ParticleTypes;
 import net.minecraft.registry.Registries;
 
 /** Summons entities around the caster: Summoning Jutsu, Shadow Clones (custom type), Shikigami, Saibamen. */
-public record SummonEntityAction(EntityType<?> entity, int count, float radius, boolean persistent) implements IAbilityAction {
+public record SummonEntityAction(EntityType<?> entity, int count, float radius, boolean persistent, int alliedTicks) implements IAbilityAction {
+    public SummonEntityAction(EntityType<?> entity, int count, float radius, boolean persistent) { this(entity, count, radius, persistent, 0); }
+
     public static final MapCodec<SummonEntityAction> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
             Registries.ENTITY_TYPE.getCodec().fieldOf("entity").forGetter(SummonEntityAction::entity),
             Codec.intRange(1, 16).optionalFieldOf("count", 1).forGetter(SummonEntityAction::count),
             Codec.floatRange(0f, 16f).optionalFieldOf("radius", 2f).forGetter(SummonEntityAction::radius),
-            Codec.BOOL.optionalFieldOf("persistent", false).forGetter(SummonEntityAction::persistent)
+            Codec.BOOL.optionalFieldOf("persistent", false).forGetter(SummonEntityAction::persistent),
+            Codec.intRange(0, 12000).optionalFieldOf("allied_ticks", 0).forGetter(SummonEntityAction::alliedTicks)   // fight for the caster
     ).apply(i, SummonEntityAction::new));
 
     @Override public AbilityActionType<?> type() { return AbilityActions.SUMMON_ENTITY; }
@@ -32,6 +35,7 @@ public record SummonEntityAction(EntityType<?> entity, int count, float radius, 
             double z = caster.getZ() + Math.sin(a) * radius;
             e.refreshPositionAndAngles(x, caster.getY(), z, caster.getYaw(), 0f);
             if (e instanceof MobEntity mob && persistent) mob.setPersistent();
+            if (e instanceof MobEntity mob && alliedTicks > 0) com.animecore.manifestation.CharmManager.charm(mob, caster, alliedTicks);
             ctx.world().spawnEntity(e);
             ctx.world().spawnParticles(ParticleTypes.POOF, x, caster.getY() + 0.5, z, 10, 0.3, 0.5, 0.3, 0.02);
             com.animecore.vfx.AbilityVfx.emit(ctx, com.animecore.vfx.VfxKind.IMPACT, new net.minecraft.util.math.Vec3d(x, caster.getY() + 0.5, z),

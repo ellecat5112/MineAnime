@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 4.92,
+      "hits": 6,
+      "interval_ticks": 3,
+      "knockback": 1.8
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Void Bite",
+    "translate": "ability.jojorpg.cream_void_bite"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6953882,
+      "effects": [
+        {
+          "duration": 400,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 48.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Spirit Photography",
+    "translate": "ability.jojorpg.jonathans_stand_spirit_photography"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

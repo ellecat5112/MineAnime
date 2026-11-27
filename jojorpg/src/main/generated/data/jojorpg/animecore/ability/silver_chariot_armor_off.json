@@ -1,0 +1,39 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 300,
+          "effect": "minecraft:speed"
+        },
+        {
+          "amplifier": 1,
+          "duration": 300,
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    },
+    {
+      "type": "animecore:attribute_shift",
+      "amount": -0.5,
+      "attribute": "minecraft:generic.armor",
+      "radius": 8.0,
+      "self": true
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 600,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Armor Off",
+    "translate": "ability.jojorpg.silver_chariot_armor_off"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

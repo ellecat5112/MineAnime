@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:remote_strike",
+      "damage": 17.6,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "range": 24.0,
+      "speed": 2.0,
+      "teleport": true
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Mimicry Ambush",
+    "translate": "ability.jojorpg.high_priestess_mimicry_ambush"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

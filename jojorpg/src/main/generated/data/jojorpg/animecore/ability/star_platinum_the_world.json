@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:time_stop",
+      "duration_ticks": 50,
+      "shout": "Star Platinum: The World!"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 1200,
+  "cost": {
+    "amount": 70.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Star Platinum: The World",
+    "translate": "ability.jojorpg.star_platinum_the_world"
+  },
+  "required_tier": 14,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

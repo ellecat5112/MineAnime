@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 1.73,
+      "hits": 8,
+      "knockback": 1.8
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Razor Frenzy",
+    "translate": "ability.jojorpg.ebony_devil_razor_frenzy"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

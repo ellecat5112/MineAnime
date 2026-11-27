@@ -233,6 +233,14 @@ public final class AnimeCoreDataGenerator implements DataGeneratorEntrypoint {
             t.add("tooltip.animecore.admin.only", "Admin item: operators / creative mode only");
             t.add("entity.animecore.story_npc", "Story Character");
             t.add("message.animecore.trait.sunlight", "The sunlight is burning you - get to the shade!");
+            t.add("entity.animecore.manifestation", "Manifestation");
+            t.add("message.animecore.manifestation.awakened", "Your spirit awakens: %s");
+            t.add("message.animecore.manifestation.known", "You already have this power");
+            t.add("message.animecore.manifestation.confirm", "This replaces the power you already have - sneak + use to accept");
+            t.add("tooltip.animecore.manifestation.random", "Awakens a random spirit power");
+            t.add("tooltip.animecore.manifestation.grant", "Grants this spirit power");
+            t.add("commands.animecore.manifestation.set", "%s now has %s");
+            t.add("commands.animecore.manifestation.none", "No such manifestation: %s");
             t.add("message.animecore.lineage.confirm", "This would replace your current lineage with %s - sneak + use to confirm");
             t.add("tooltip.animecore.lineage_awaken", "Use: become this (sneak + use replaces your current lineage)");
             t.add("message.animecore.awaken.known", "You already have %s");

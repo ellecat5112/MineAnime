@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 11.7,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "knockback": 1.2
+    },
+    {
+      "type": "animecore:self_buff",
+      "heal": 4.68
+    }
+  ],
+  "cast_animation": "animecore:cast_lunge",
+  "cooldown_ticks": 160,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Vein Bite",
+    "translate": "ability.jojorpg.empress_vein_bite"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

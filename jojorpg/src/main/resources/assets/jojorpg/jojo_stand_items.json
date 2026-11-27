@@ -1,0 +1,252 @@
+[
+ {
+  "item": "stand_arrow",
+  "kind": "arrow",
+  "lore": "item.jojorpg.stand_arrow.lore"
+ },
+ {
+  "item": "disc_star_platinum",
+  "kind": "disc",
+  "target": "jojorpg:star_platinum",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 8280002
+ },
+ {
+  "item": "disc_the_world",
+  "kind": "disc",
+  "target": "jojorpg:the_world",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 16109371
+ },
+ {
+  "item": "disc_magicians_red",
+  "kind": "disc",
+  "target": "jojorpg:magicians_red",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 16733986
+ },
+ {
+  "item": "disc_hierophant_green",
+  "kind": "disc",
+  "target": "jojorpg:hierophant_green",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 4431943
+ },
+ {
+  "item": "disc_silver_chariot",
+  "kind": "disc",
+  "target": "jojorpg:silver_chariot",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 11583173
+ },
+ {
+  "item": "disc_hermit_purple",
+  "kind": "disc",
+  "target": "jojorpg:hermit_purple",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 10233776
+ },
+ {
+  "item": "disc_the_fool",
+  "kind": "disc",
+  "target": "jojorpg:the_fool",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 14137742
+ },
+ {
+  "item": "disc_tower_of_gray",
+  "kind": "disc",
+  "target": "jojorpg:tower_of_gray",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 10395294
+ },
+ {
+  "item": "disc_dark_blue_moon",
+  "kind": "disc",
+  "target": "jojorpg:dark_blue_moon",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 1402304
+ },
+ {
+  "item": "disc_strength",
+  "kind": "disc",
+  "target": "jojorpg:strength",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 9268835
+ },
+ {
+  "item": "disc_ebony_devil",
+  "kind": "disc",
+  "target": "jojorpg:ebony_devil",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 7162945
+ },
+ {
+  "item": "disc_yellow_temperance",
+  "kind": "disc",
+  "target": "jojorpg:yellow_temperance",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 16771899
+ },
+ {
+  "item": "disc_hanged_man",
+  "kind": "disc",
+  "target": "jojorpg:hanged_man",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 12364452
+ },
+ {
+  "item": "disc_emperor",
+  "kind": "disc",
+  "target": "jojorpg:emperor",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 11583173
+ },
+ {
+  "item": "disc_empress",
+  "kind": "disc",
+  "target": "jojorpg:empress",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 14133386
+ },
+ {
+  "item": "disc_wheel_of_fortune",
+  "kind": "disc",
+  "target": "jojorpg:wheel_of_fortune",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 5533306
+ },
+ {
+  "item": "disc_justice",
+  "kind": "disc",
+  "target": "jojorpg:justice",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 13621468
+ },
+ {
+  "item": "disc_lovers",
+  "kind": "disc",
+  "target": "jojorpg:lovers",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 10395294
+ },
+ {
+  "item": "disc_sun",
+  "kind": "disc",
+  "target": "jojorpg:sun",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 16750592
+ },
+ {
+  "item": "disc_death_thirteen",
+  "kind": "disc",
+  "target": "jojorpg:death_thirteen",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 4854924
+ },
+ {
+  "item": "disc_judgement",
+  "kind": "disc",
+  "target": "jojorpg:judgement",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 7901340
+ },
+ {
+  "item": "disc_high_priestess",
+  "kind": "disc",
+  "target": "jojorpg:high_priestess",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 6323595
+ },
+ {
+  "item": "disc_geb",
+  "kind": "disc",
+  "target": "jojorpg:geb",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 2733814
+ },
+ {
+  "item": "disc_khnum",
+  "kind": "disc",
+  "target": "jojorpg:khnum",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 10586239
+ },
+ {
+  "item": "disc_tohth",
+  "kind": "disc",
+  "target": "jojorpg:tohth",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 16771899
+ },
+ {
+  "item": "disc_anubis",
+  "kind": "disc",
+  "target": "jojorpg:anubis",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 16766287
+ },
+ {
+  "item": "disc_bastet",
+  "kind": "disc",
+  "target": "jojorpg:bastet",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 9479342
+ },
+ {
+  "item": "disc_sethan",
+  "kind": "disc",
+  "target": "jojorpg:sethan",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 1118481
+ },
+ {
+  "item": "disc_osiris",
+  "kind": "disc",
+  "target": "jojorpg:osiris",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 16766287
+ },
+ {
+  "item": "disc_horus",
+  "kind": "disc",
+  "target": "jojorpg:horus",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 11789820
+ },
+ {
+  "item": "disc_atum",
+  "kind": "disc",
+  "target": "jojorpg:atum",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 13938487
+ },
+ {
+  "item": "disc_cream",
+  "kind": "disc",
+  "target": "jojorpg:cream",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 5125166
+ },
+ {
+  "item": "disc_tenore_sax",
+  "kind": "disc",
+  "target": "jojorpg:tenore_sax",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 11771355
+ },
+ {
+  "item": "disc_holys_stand",
+  "kind": "disc",
+  "target": "jojorpg:holys_stand",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 6953882
+ },
+ {
+  "item": "disc_jonathans_stand",
+  "kind": "disc",
+  "target": "jojorpg:jonathans_stand",
+  "lore": "item.jojorpg.disc.lore",
+  "color": 6953882
+ }
+]

@@ -1,0 +1,40 @@
+{
+  "abilities": [
+    "jojorpg:yellow_temperance_manifest",
+    "jojorpg:yellow_temperance_assimilation",
+    "jojorpg:yellow_temperance_physical_imperviousness",
+    "jojorpg:yellow_temperance_appearance_replication",
+    "jojorpg:yellow_temperance_acid_engulf"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/yellow_temperance"
+  },
+  "color": 16771899,
+  "description": {
+    "fallback": "Yellow Temperance - Stand of Rubber Soul. Power D · Speed C · Range E · Stamina A · Precision E · Potential D",
+    "translate": "manifestation.jojorpg.yellow_temperance.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Yellow Temperance",
+    "translate": "manifestation.jojorpg.yellow_temperance"
+  },
+  "punch": 3.5,
+  "stats": {
+    "potential": "D",
+    "power": "D",
+    "precision": "E",
+    "range": "E",
+    "speed": "C",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:regeneration",
+      "amount": 1.0
+    }
+  ],
+  "weight": 5
+}

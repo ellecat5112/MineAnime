@@ -1,0 +1,40 @@
+{
+  "abilities": [
+    "jojorpg:sethan_manifest",
+    "jojorpg:sethan_age_reversal",
+    "jojorpg:sethan_shadow_reflection"
+  ],
+  "alpha": 0.55,
+  "appearance": {
+    "accent": 2171169,
+    "eyes": 15022389,
+    "hair": 1118481,
+    "hair_style": "wild",
+    "mark": "red_eyes",
+    "outfit": "cloak",
+    "pants": 1118481,
+    "skin": 1118481,
+    "top": 1118481
+  },
+  "color": 1118481,
+  "description": {
+    "fallback": "Sethan - Stand of Alessi. Power D · Speed D · Range E · Stamina C · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.sethan.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Sethan",
+    "translate": "manifestation.jojorpg.sethan"
+  },
+  "punch": 2.6,
+  "stats": {
+    "potential": "D",
+    "power": "D",
+    "precision": "D",
+    "range": "E",
+    "speed": "D",
+    "stamina": "C"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

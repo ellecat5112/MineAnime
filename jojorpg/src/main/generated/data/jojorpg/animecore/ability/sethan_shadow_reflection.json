@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 1118481,
+      "effects": [
+        {
+          "amplifier": 2,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 100,
+          "effect": "minecraft:darkness"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Shadow Reflection",
+    "translate": "ability.jojorpg.sethan_shadow_reflection"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

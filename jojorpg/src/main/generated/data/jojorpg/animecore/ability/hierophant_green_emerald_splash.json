@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 7798531,
+      "count": 8,
+      "damage": 4.2,
+      "lifetime_ticks": 50,
+      "size": 0.3,
+      "size_scales_with_charge": false,
+      "speed": 2.0,
+      "spread_degrees": 7.0,
+      "trail_particle": "minecraft:happy_villager"
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 80,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Emerald Splash",
+    "translate": "ability.jojorpg.hierophant_green_emerald_splash"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

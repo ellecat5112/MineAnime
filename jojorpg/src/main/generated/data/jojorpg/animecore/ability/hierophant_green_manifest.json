@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Hierophant Green!",
+    "translate": "ability.jojorpg.hierophant_green_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

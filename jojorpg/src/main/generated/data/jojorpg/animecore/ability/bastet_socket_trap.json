@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9479342,
+      "damage": 3.5,
+      "effects": [
+        {
+          "amplifier": 8,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_burst",
+  "cooldown_ticks": 160,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Socket Trap",
+    "translate": "ability.jojorpg.bastet_socket_trap"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

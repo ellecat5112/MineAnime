@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:charm",
+      "cone_degrees": 40.0,
+      "duration_ticks": 200,
+      "max_targets": 1,
+      "radius": 10.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Anatomy Control",
+    "translate": "ability.jojorpg.hierophant_green_anatomy_control"
+  },
+  "required_tier": 5,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

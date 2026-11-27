@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "jojorpg:the_fool_manifest",
+    "jojorpg:the_fool_sand_blast",
+    "jojorpg:the_fool_sand_glider",
+    "jojorpg:the_fool_sand_decoy",
+    "jojorpg:the_fool_sand_dome"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/the_fool"
+  },
+  "color": 14137742,
+  "description": {
+    "fallback": "The Fool - Stand of Iggy. Power B · Speed C · Range D · Stamina C · Precision D · Potential C",
+    "translate": "manifestation.jojorpg.the_fool.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "The Fool",
+    "translate": "manifestation.jojorpg.the_fool"
+  },
+  "punch": 5.9,
+  "range": 4.0,
+  "stats": {
+    "potential": "C",
+    "power": "B",
+    "precision": "D",
+    "range": "D",
+    "speed": "C",
+    "stamina": "C"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

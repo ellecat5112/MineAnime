@@ -1,0 +1,37 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 12357492,
+      "cone_degrees": 40.0,
+      "effects": [
+        {
+          "duration": 240,
+          "effect": "minecraft:wither"
+        },
+        {
+          "duration": 240,
+          "effect": "minecraft:poison"
+        },
+        {
+          "amplifier": 1,
+          "duration": 240,
+          "effect": "minecraft:hunger"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Parasitic Growth",
+    "translate": "ability.jojorpg.empress_parasitic_growth"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

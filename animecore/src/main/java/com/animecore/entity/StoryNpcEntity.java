@@ -201,6 +201,8 @@ public class StoryNpcEntity extends PathAwareEntity {
         if (entry.isEmpty()) return false;
         if (target != null) face(target);
         AbilityContext ctx = AbilityContext.forMob(this, entry.get(), power);
+        var stand = com.animecore.manifestation.ManifestationService.standOf(this);
+        if (stand != null && stand.state() == ManifestationEntity.State.IDLE) stand.act(ManifestationEntity.State.CAST, 12);
         for (IAbilityAction action : entry.get().value().actions()) action.execute(ctx);
         return true;
     }
@@ -250,6 +252,8 @@ public class StoryNpcEntity extends PathAwareEntity {
         if (getWorld().isClient) return;
         configure();
         if (bossBar != null) bossBar.setPercent(getHealth() / getMaxHealth());
+        definition().flatMap(StoryNpcDefinition::manifestation).ifPresent(m ->
+                com.animecore.manifestation.ManifestationService.tickNpc(this, m, getTarget() != null && getTarget().isAlive()));
         if (age % 20 == 0 && definition().map(StoryNpcDefinition::undead).orElse(false)
                 && com.animecore.clan.ClanTraits.SunlightWeakness.inSunlight(this)) {
             setOnFireFor(4);   // vampires and zombies burn in the sun

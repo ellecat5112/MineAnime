@@ -63,9 +63,12 @@ public final class ClanTraitHooks {
         List<IClanTrait> form = power.activeTransformation()
                 .flatMap(id -> AnimeRegistries.transformation(player.getRegistryManager(), id))
                 .map(e -> e.value().traits()).orElse(List.of());
-        if (form.isEmpty()) return clan;
+        List<IClanTrait> stand = power.manifested()
+                ? com.animecore.manifestation.ManifestationService.definition(player, power).map(d -> d.traits()).orElse(List.of()) : List.of();
+        if (form.isEmpty() && stand.isEmpty()) return clan;
         List<IClanTrait> all = new java.util.ArrayList<>(clan);
         all.addAll(form);
+        all.addAll(stand);   // traits of the Stand while it is out
         return all;
     }
 

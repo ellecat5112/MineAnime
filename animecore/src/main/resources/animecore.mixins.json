@@ -4,7 +4,8 @@
   "package": "com.animecore.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "ServerWorldMixin"
   ],
   "injectors": {
     "defaultRequire": 1

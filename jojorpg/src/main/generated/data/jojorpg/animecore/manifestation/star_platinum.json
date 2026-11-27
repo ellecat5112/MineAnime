@@ -1,0 +1,54 @@
+{
+  "abilities": [
+    "jojorpg:star_platinum_manifest",
+    "jojorpg:star_platinum_ora_ora",
+    "jojorpg:star_platinum_star_finger",
+    "jojorpg:star_platinum_superhuman_lungs",
+    "jojorpg:star_platinum_bullet_catch",
+    "jojorpg:star_platinum_the_world"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 16761095,
+    "eyes": 58879,
+    "hair": 1710638,
+    "hair_style": "long",
+    "headband": 16761095,
+    "outfit": "bodysuit",
+    "pants": 4532128,
+    "skin": 8280002,
+    "top": 6174129
+  },
+  "color": 8280002,
+  "description": {
+    "fallback": "Star Platinum - Stand of Jotaro Kujo. Power A · Speed A · Range C · Stamina A · Precision A · Potential A",
+    "translate": "manifestation.jojorpg.star_platinum.desc"
+  },
+  "name": {
+    "fallback": "Star Platinum",
+    "translate": "manifestation.jojorpg.star_platinum"
+  },
+  "punch": 9.0,
+  "range": 10.0,
+  "scale": 1.05,
+  "stats": {
+    "potential": "A",
+    "power": "A",
+    "precision": "A",
+    "range": "C",
+    "speed": "A",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.35,
+      "projectiles_only": true
+    },
+    {
+      "type": "animecore:time_immune"
+    }
+  ],
+  "weight": 2
+}

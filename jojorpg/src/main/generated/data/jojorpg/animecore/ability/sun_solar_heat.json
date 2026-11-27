@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16750592,
+      "damage": 5.9,
+      "effects": [
+        {
+          "amplifier": 2,
+          "effect": "minecraft:hunger"
+        },
+        {
+          "amplifier": 1,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 16.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Solar Heat",
+    "translate": "ability.jojorpg.sun_solar_heat"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

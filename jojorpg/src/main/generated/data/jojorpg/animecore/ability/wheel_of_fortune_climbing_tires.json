@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 2,
+          "duration": 300,
+          "effect": "minecraft:speed"
+        },
+        {
+          "amplifier": 2,
+          "duration": 300,
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 14.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Climbing Tires",
+    "translate": "ability.jojorpg.wheel_of_fortune_climbing_tires"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

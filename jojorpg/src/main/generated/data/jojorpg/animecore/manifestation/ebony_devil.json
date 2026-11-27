@@ -1,0 +1,43 @@
+{
+  "abilities": [
+    "jojorpg:ebony_devil_manifest",
+    "jojorpg:ebony_devil_doll_possession",
+    "jojorpg:ebony_devil_anger_empowerment",
+    "jojorpg:ebony_devil_razor_frenzy"
+  ],
+  "alpha": 0.9,
+  "appearance": {
+    "accent": 4073251,
+    "eyes": 15022389,
+    "hair": 4073251,
+    "hair_style": "wild",
+    "mark": "fangs",
+    "outfit": "robe",
+    "pants": 5125166,
+    "skin": 9268835,
+    "top": 6111287
+  },
+  "color": 7162945,
+  "description": {
+    "fallback": "Ebony Devil - Stand of Devo the Cursed. Power D · Speed D · Range A · Stamina B · Precision D · Potential B",
+    "translate": "manifestation.jojorpg.ebony_devil.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Ebony Devil",
+    "translate": "manifestation.jojorpg.ebony_devil"
+  },
+  "punch": 3.5,
+  "range": 60.0,
+  "scale": 0.45,
+  "stats": {
+    "potential": "B",
+    "power": "D",
+    "precision": "D",
+    "range": "A",
+    "speed": "D",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

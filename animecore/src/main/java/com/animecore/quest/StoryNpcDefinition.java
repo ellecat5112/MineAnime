@@ -38,8 +38,16 @@ public record StoryNpcDefinition(
         List<Text> greeting,
         Optional<Identifier> heldItem,
         Text title,
-        boolean undead
+        boolean undead,
+        Optional<Identifier> manifestation
 ) {
+    public StoryNpcDefinition(String system, Text name, Role role, float health, float attack, float speed, float power, float scale,
+                              List<Identifier> abilities, int castInterval, Appearance appearance, List<Text> greeting,
+                              Optional<Identifier> heldItem, Text title, boolean undead) {
+        this(system, name, role, health, attack, speed, power, scale, abilities, castInterval, appearance, greeting, heldItem, title, undead,
+                Optional.empty());
+    }
+
     public enum Role implements StringIdentifiable {
         GIVER("giver"), ALLY("ally"), ENEMY("enemy"), BOSS("boss");
         public static final Codec<Role> CODEC = StringIdentifiable.createCodec(Role::values);
@@ -87,6 +95,7 @@ public record StoryNpcDefinition(
             TextCodecs.CODEC.listOf().optionalFieldOf("greeting", List.of()).forGetter(StoryNpcDefinition::greeting),
             Identifier.CODEC.optionalFieldOf("held_item").forGetter(StoryNpcDefinition::heldItem),
             TextCodecs.CODEC.optionalFieldOf("title", Text.empty()).forGetter(StoryNpcDefinition::title),
-            Codec.BOOL.optionalFieldOf("undead", false).forGetter(StoryNpcDefinition::undead)   // weak to Hamon / holy affinities
+            Codec.BOOL.optionalFieldOf("undead", false).forGetter(StoryNpcDefinition::undead),   // weak to Hamon / holy affinities
+            Identifier.CODEC.optionalFieldOf("manifestation").forGetter(StoryNpcDefinition::manifestation)   // their Stand, called out in battle
     ).apply(i, StoryNpcDefinition::new));
 }

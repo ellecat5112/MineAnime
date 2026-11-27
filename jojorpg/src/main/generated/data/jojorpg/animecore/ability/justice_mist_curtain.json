@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13621468,
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:blindness"
+        },
+        {
+          "amplifier": 1,
+          "duration": 140,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "radius": 14.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 240,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Mist Curtain",
+    "translate": "ability.jojorpg.justice_mist_curtain"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

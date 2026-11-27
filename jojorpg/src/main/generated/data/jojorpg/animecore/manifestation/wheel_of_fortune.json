@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "jojorpg:wheel_of_fortune_manifest",
+    "jojorpg:wheel_of_fortune_car_ram",
+    "jojorpg:wheel_of_fortune_gasoline_spray",
+    "jojorpg:wheel_of_fortune_iron_spikes",
+    "jojorpg:wheel_of_fortune_climbing_tires"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/wheel_of_fortune"
+  },
+  "color": 5533306,
+  "description": {
+    "fallback": "Wheel of Fortune - Stand of ZZ. Power B · Speed D · Range D · Stamina A · Precision E · Potential D",
+    "translate": "manifestation.jojorpg.wheel_of_fortune.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Wheel of Fortune",
+    "translate": "manifestation.jojorpg.wheel_of_fortune"
+  },
+  "punch": 5.9,
+  "range": 4.0,
+  "stats": {
+    "potential": "D",
+    "power": "B",
+    "precision": "E",
+    "range": "D",
+    "speed": "D",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

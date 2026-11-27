@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 2.34,
+      "hits": 10,
+      "knockback": 1.8
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Underwater Rush",
+    "translate": "ability.jojorpg.dark_blue_moon_underwater_rush"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

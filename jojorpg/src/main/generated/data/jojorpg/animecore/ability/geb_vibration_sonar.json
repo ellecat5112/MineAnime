@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2733814,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 48.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Vibration Sonar",
+    "translate": "ability.jojorpg.geb_vibration_sonar"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

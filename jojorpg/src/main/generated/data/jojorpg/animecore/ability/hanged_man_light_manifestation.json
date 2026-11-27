@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:remote_strike",
+      "damage": 21.1,
+      "range": 32.0,
+      "speed": 1.0,
+      "teleport": true
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Light Manifestation",
+    "translate": "ability.jojorpg.hanged_man_light_manifestation"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -40,6 +40,10 @@ public class EnergyProjectileEntity extends ThrownEntity {
     private float aoeRadius;
     private int fireTicks;
     private int lifetime = 60;
+    private float homing;
+
+    /** Steer towards the nearest creature ahead each tick (0 = straight; Emperor's bullets ~0.15). */
+    public void setHoming(float homing) { this.homing = homing; }
     private @Nullable ParticleEffect cachedTrail;
     private String cachedTrailId = "";
 
@@ -105,10 +109,33 @@ public class EnergyProjectileEntity extends ThrownEntity {
         World world = getWorld();
         if (world.isClient) {
             spawnTrail(world);
-        } else if (age > lifetime) {
+        } else if (homing > 0f && age > 2) {
+            steer();
+        }
+        if (!world.isClient && age > lifetime) {
             if (aoeRadius > 0f) detonate((ServerWorld) world, null);
             discard();
         }
+    }
+
+    private void steer() {
+        Vec3d v = getVelocity();
+        double speed = v.length();
+        if (speed < 1e-3) return;
+        Vec3d dir = v.multiply(1 / speed);
+        LivingEntity best = null;
+        double bestScore = Double.MAX_VALUE;
+        for (LivingEntity e : getWorld().getEntitiesByClass(LivingEntity.class, getBoundingBox().expand(12),
+                e -> e.isAlive() && e != getOwner() && !(e instanceof ManifestationEntity) && !e.isSpectator())) {
+            Vec3d to = e.getPos().add(0, e.getHeight() * 0.5, 0).subtract(getPos());
+            double d = to.length();
+            if (d < 1e-3 || to.multiply(1 / d).dotProduct(dir) < 0.3) continue;
+            if (d < bestScore) { bestScore = d; best = e; }
+        }
+        if (best == null) return;
+        Vec3d want = best.getPos().add(0, best.getHeight() * 0.5, 0).subtract(getPos()).normalize();
+        setVelocity(dir.lerp(want, homing).normalize().multiply(speed));
+        velocityModified = true;
     }
 
     private void spawnTrail(World world) {

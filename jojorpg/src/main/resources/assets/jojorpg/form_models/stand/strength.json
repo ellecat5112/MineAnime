@@ -1,0 +1,114 @@
+{
+ "texture": "jojorpg:textures/entity/form/stand_strength.png",
+ "texture_size": [
+  128,
+  128
+ ],
+ "translucent": false,
+ "parts": [
+  {
+   "name": "hull",
+   "pivot": [
+    0,
+    18,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -6,
+      -4,
+      -14
+     ],
+     "size": [
+      12,
+      6,
+      28
+     ],
+     "uv": [
+      0,
+      0
+     ]
+    },
+    {
+     "from": [
+      -5,
+      -5,
+      -12
+     ],
+     "size": [
+      10,
+      1,
+      24
+     ],
+     "uv": [
+      0,
+      34
+     ]
+    },
+    {
+     "from": [
+      -3,
+      -8,
+      -18
+     ],
+     "size": [
+      6,
+      6,
+      4
+     ],
+     "uv": [
+      102,
+      34
+     ]
+    }
+   ],
+   "anim": "sway"
+  },
+  {
+   "name": "mast",
+   "pivot": [
+    0,
+    13,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1,
+      -24,
+      -1
+     ],
+     "size": [
+      2,
+      24,
+      2
+     ],
+     "uv": [
+      80,
+      0
+     ]
+    },
+    {
+     "from": [
+      -8,
+      -22,
+      0
+     ],
+     "size": [
+      16,
+      12,
+      1
+     ],
+     "uv": [
+      68,
+      34
+     ]
+    }
+   ],
+   "parent": "hull",
+   "anim": "sway",
+   "amp": 0.5
+  }
+ ]
+}

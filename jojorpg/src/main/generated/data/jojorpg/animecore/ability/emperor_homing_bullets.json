@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 16766287,
+      "count": 3,
+      "damage": 15.2,
+      "homing": 0.25,
+      "size": 0.2,
+      "size_scales_with_charge": false,
+      "speed": 2.6,
+      "spread_degrees": 6.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 60,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Homing Bullets",
+    "translate": "ability.jojorpg.emperor_homing_bullets"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

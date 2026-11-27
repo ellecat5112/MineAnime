@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:cream_manifest",
+    "jojorpg:cream_void_sphere",
+    "jojorpg:cream_void_bite",
+    "jojorpg:cream_decapitating_chop"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/cream"
+  },
+  "color": 5125166,
+  "description": {
+    "fallback": "Cream - Stand of Vanilla Ice. Power B · Speed B · Range D · Stamina C · Precision C · Potential D",
+    "translate": "manifestation.jojorpg.cream.desc"
+  },
+  "name": {
+    "fallback": "Cream",
+    "translate": "manifestation.jojorpg.cream"
+  },
+  "punch": 7.4,
+  "range": 4.0,
+  "stats": {
+    "potential": "D",
+    "power": "B",
+    "precision": "C",
+    "range": "D",
+    "speed": "B",
+    "stamina": "C"
+  },
+  "system": "jojorpg",
+  "weight": 2
+}

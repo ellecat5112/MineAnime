@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13938487,
+      "effects": [
+        {
+          "duration": 300,
+          "effect": "minecraft:glowing"
+        },
+        {
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "radius": 20.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Binary Soul Reading",
+    "translate": "ability.jojorpg.atum_binary_soul_reading"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

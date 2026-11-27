@@ -1,0 +1,332 @@
+{
+ "texture": "jojorpg:textures/entity/form/stand_yellow_temperance.png",
+ "texture_size": [
+  128,
+  128
+ ],
+ "translucent": true,
+ "parts": [
+  {
+   "name": "blob",
+   "pivot": [
+    0,
+    16,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -7,
+      -6,
+      -7
+     ],
+     "size": [
+      14,
+      12,
+      14
+     ],
+     "uv": [
+      0,
+      0
+     ]
+    },
+    {
+     "from": [
+      -5,
+      -10,
+      -5
+     ],
+     "size": [
+      10,
+      4,
+      10
+     ],
+     "uv": [
+      56,
+      0
+     ]
+    }
+   ],
+   "anim": "bob"
+  },
+  {
+   "name": "drip0_0",
+   "pivot": [
+    -7,
+    -2,
+    -4
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.5,
+      -1.5,
+      0
+     ],
+     "size": [
+      3,
+      3,
+      4
+     ],
+     "uv": [
+      96,
+      0
+     ]
+    }
+   ],
+   "parent": "blob",
+   "rotation": [
+    1.2,
+    0.0,
+    0
+   ],
+   "anim": "tail",
+   "amp": 0.8
+  },
+  {
+   "name": "drip0_1",
+   "pivot": [
+    0,
+    0,
+    3
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.0,
+      -1.0,
+      0
+     ],
+     "size": [
+      2,
+      2,
+      4
+     ],
+     "uv": [
+      110,
+      0
+     ]
+    }
+   ],
+   "parent": "drip0_0",
+   "rotation": [
+    0.25,
+    0,
+    0
+   ],
+   "anim": "tail",
+   "phase": 0.6,
+   "amp": 0.8
+  },
+  {
+   "name": "drip1_0",
+   "pivot": [
+    7,
+    -2,
+    3
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.5,
+      -1.5,
+      0
+     ],
+     "size": [
+      3,
+      3,
+      4
+     ],
+     "uv": [
+      96,
+      0
+     ]
+    }
+   ],
+   "parent": "blob",
+   "rotation": [
+    1.2,
+    1.6,
+    0
+   ],
+   "anim": "tail",
+   "phase": 1.0,
+   "amp": 0.8
+  },
+  {
+   "name": "drip1_1",
+   "pivot": [
+    0,
+    0,
+    3
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.0,
+      -1.0,
+      0
+     ],
+     "size": [
+      2,
+      2,
+      4
+     ],
+     "uv": [
+      110,
+      0
+     ]
+    }
+   ],
+   "parent": "drip1_0",
+   "rotation": [
+    0.25,
+    0,
+    0
+   ],
+   "anim": "tail",
+   "phase": 1.6,
+   "amp": 0.8
+  },
+  {
+   "name": "drip2_0",
+   "pivot": [
+    -3,
+    -2,
+    7
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.5,
+      -1.5,
+      0
+     ],
+     "size": [
+      3,
+      3,
+      4
+     ],
+     "uv": [
+      96,
+      0
+     ]
+    }
+   ],
+   "parent": "blob",
+   "rotation": [
+    1.2,
+    3.2,
+    0
+   ],
+   "anim": "tail",
+   "phase": 2.0,
+   "amp": 0.8
+  },
+  {
+   "name": "drip2_1",
+   "pivot": [
+    0,
+    0,
+    3
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.0,
+      -1.0,
+      0
+     ],
+     "size": [
+      2,
+      2,
+      4
+     ],
+     "uv": [
+      110,
+      0
+     ]
+    }
+   ],
+   "parent": "drip2_0",
+   "rotation": [
+    0.25,
+    0,
+    0
+   ],
+   "anim": "tail",
+   "phase": 2.6,
+   "amp": 0.8
+  },
+  {
+   "name": "drip3_0",
+   "pivot": [
+    5,
+    -2,
+    -7
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.5,
+      -1.5,
+      0
+     ],
+     "size": [
+      3,
+      3,
+      4
+     ],
+     "uv": [
+      96,
+      0
+     ]
+    }
+   ],
+   "parent": "blob",
+   "rotation": [
+    1.2,
+    4.8,
+    0
+   ],
+   "anim": "tail",
+   "phase": 3.0,
+   "amp": 0.8
+  },
+  {
+   "name": "drip3_1",
+   "pivot": [
+    0,
+    0,
+    3
+   ],
+   "cubes": [
+    {
+     "from": [
+      -1.0,
+      -1.0,
+      0
+     ],
+     "size": [
+      2,
+      2,
+      4
+     ],
+     "uv": [
+      110,
+      0
+     ]
+    }
+   ],
+   "parent": "drip3_0",
+   "rotation": [
+    0.25,
+    0,
+    0
+   ],
+   "anim": "tail",
+   "phase": 3.6,
+   "amp": 0.8
+  }
+ ]
+}

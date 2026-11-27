@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 9479342,
+      "damage": 17.7,
+      "knockback": 1.6,
+      "radius": 3.5
+    }
+  ],
+  "cast_animation": "animecore:cast_burst",
+  "cooldown_ticks": 140,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Iron Spikes",
+    "translate": "ability.jojorpg.wheel_of_fortune_iron_spikes"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

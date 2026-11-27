@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16498733,
+      "damage": 39.6,
+      "forward_offset": 4.0,
+      "knockback": 2.5,
+      "lift": 0.8,
+      "radius": 5.0
+    }
+  ],
+  "cast_animation": "animecore:cast_slam",
+  "cooldown_ticks": 900,
+  "cost": {
+    "amount": 55.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Road Roller",
+    "translate": "ability.jojorpg.the_world_road_roller"
+  },
+  "required_tier": 10,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

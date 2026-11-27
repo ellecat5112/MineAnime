@@ -1,0 +1,212 @@
+{
+ "texture": "jojorpg:textures/entity/form/stand_horus.png",
+ "texture_size": [
+  128,
+  128
+ ],
+ "translucent": true,
+ "parts": [
+  {
+   "name": "body",
+   "pivot": [
+    0,
+    10,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -4,
+      -4,
+      -6
+     ],
+     "size": [
+      8,
+      8,
+      12
+     ],
+     "uv": [
+      0,
+      0
+     ]
+    }
+   ],
+   "anim": "bob"
+  },
+  {
+   "name": "head",
+   "pivot": [
+    0,
+    7,
+    -6
+   ],
+   "cubes": [
+    {
+     "from": [
+      -3,
+      -4,
+      -5
+     ],
+     "size": [
+      6,
+      6,
+      6
+     ],
+     "uv": [
+      40,
+      0
+     ]
+    },
+    {
+     "from": [
+      -1,
+      -1,
+      -8
+     ],
+     "size": [
+      2,
+      2,
+      3
+     ],
+     "uv": [
+      36,
+      20
+     ]
+    }
+   ],
+   "parent": "body",
+   "anim": "head"
+  },
+  {
+   "name": "wing_r",
+   "pivot": [
+    -4,
+    7,
+    -3
+   ],
+   "cubes": [
+    {
+     "from": [
+      -16,
+      0,
+      0
+     ],
+     "size": [
+      16,
+      1,
+      9
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "body",
+   "anim": "wing",
+   "amp": 1.5
+  },
+  {
+   "name": "wing_l",
+   "pivot": [
+    4,
+    7,
+    -3
+   ],
+   "cubes": [
+    {
+     "from": [
+      0,
+      0,
+      0
+     ],
+     "size": [
+      16,
+      1,
+      9
+     ],
+     "uv": [
+      64,
+      0
+     ]
+    }
+   ],
+   "parent": "body",
+   "anim": "wing",
+   "phase": 3.14,
+   "amp": 1.5
+  },
+  {
+   "name": "tail",
+   "pivot": [
+    0,
+    9,
+    6
+   ],
+   "cubes": [
+    {
+     "from": [
+      -3,
+      -1,
+      0
+     ],
+     "size": [
+      6,
+      1,
+      8
+     ],
+     "uv": [
+      0,
+      20
+     ]
+    }
+   ],
+   "parent": "body",
+   "anim": "tail",
+   "amp": 0.5
+  },
+  {
+   "name": "claws",
+   "pivot": [
+    0,
+    14,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -3,
+      0,
+      -2
+     ],
+     "size": [
+      2,
+      4,
+      2
+     ],
+     "uv": [
+      28,
+      20
+     ]
+    },
+    {
+     "from": [
+      1,
+      0,
+      -2
+     ],
+     "size": [
+      2,
+      4,
+      2
+     ],
+     "uv": [
+      28,
+      20
+     ]
+    }
+   ],
+   "parent": "body"
+  }
+ ]
+}

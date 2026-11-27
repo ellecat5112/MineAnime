@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16766287,
+      "damage": 20.7,
+      "range": 7.0,
+      "width": 0.6
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Selective Intangibility",
+    "translate": "ability.jojorpg.anubis_selective_intangibility"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

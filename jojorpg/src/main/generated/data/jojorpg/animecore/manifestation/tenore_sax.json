@@ -1,0 +1,38 @@
+{
+  "abilities": [
+    "jojorpg:tenore_sax_manifest",
+    "jojorpg:tenore_sax_illusion_maze",
+    "jojorpg:tenore_sax_phantom_walls"
+  ],
+  "alpha": 0.25,
+  "appearance": {
+    "accent": 16766287,
+    "hair": 8280002,
+    "hair_style": "bald",
+    "outfit": "robe",
+    "pants": 8280002,
+    "skin": 11771355,
+    "top": 9795021
+  },
+  "description": {
+    "fallback": "Tenore Sax - Stand of Kenny G.. Power E · Speed E · Range D · Stamina A · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.tenore_sax.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Tenore Sax",
+    "translate": "manifestation.jojorpg.tenore_sax"
+  },
+  "punch": 0.0,
+  "range": 4.0,
+  "stats": {
+    "potential": "E",
+    "power": "E",
+    "precision": "E",
+    "range": "D",
+    "speed": "E",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 4
+}

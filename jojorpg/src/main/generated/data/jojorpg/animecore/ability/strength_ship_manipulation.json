@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9268835,
+      "damage": 5.9,
+      "effects": [
+        {
+          "amplifier": 4,
+          "duration": 120,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 1.5,
+      "radius": 10.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Ship Manipulation",
+    "translate": "ability.jojorpg.strength_ship_manipulation"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

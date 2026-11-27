@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "jojorpg:emperor_manifest",
+    "jojorpg:emperor_homing_bullets",
+    "jojorpg:emperor_point_blank_summon",
+    "jojorpg:emperor_rapid_fire"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/emperor"
+  },
+  "color": 11583173,
+  "description": {
+    "fallback": "Emperor - Stand of Hol Horse. Power B · Speed B · Range B · Stamina C · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.emperor.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Emperor",
+    "translate": "manifestation.jojorpg.emperor"
+  },
+  "punch": 4.4,
+  "range": 20.0,
+  "stats": {
+    "potential": "E",
+    "power": "B",
+    "precision": "E",
+    "range": "B",
+    "speed": "B",
+    "stamina": "C"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

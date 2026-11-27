@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 16766287,
+      "damage": 17.7,
+      "pierce": false,
+      "range": 8.0,
+      "width": 0.4
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 80,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Point-Blank Summon",
+    "translate": "ability.jojorpg.emperor_point_blank_summon"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

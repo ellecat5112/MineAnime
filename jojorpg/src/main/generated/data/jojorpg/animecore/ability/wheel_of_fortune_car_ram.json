@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 23.6,
+      "distance": 10.0,
+      "hit_radius": 1.8,
+      "knockback": 2.0
+    }
+  ],
+  "cast_animation": "animecore:cast_lunge",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Car Ram",
+    "translate": "ability.jojorpg.wheel_of_fortune_car_ram"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

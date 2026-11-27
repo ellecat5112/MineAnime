@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 9479342,
+      "cone_degrees": 60.0,
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 140,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 3.0,
+      "radius": 12.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Magnetic Attraction",
+    "translate": "ability.jojorpg.bastet_magnetic_attraction"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

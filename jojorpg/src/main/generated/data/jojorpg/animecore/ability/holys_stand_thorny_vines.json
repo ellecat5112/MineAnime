@@ -1,0 +1,33 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 6953882,
+      "damage": 1.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "duration": 60,
+          "effect": "minecraft:poison"
+        }
+      ],
+      "radius": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Thorny Vines",
+    "translate": "ability.jojorpg.holys_stand_thorny_vines"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

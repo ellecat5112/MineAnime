@@ -1,0 +1,41 @@
+{
+  "abilities": [
+    "jojorpg:justice_manifest",
+    "jojorpg:justice_fog_puppetry",
+    "jojorpg:justice_mist_curtain",
+    "jojorpg:justice_wound_strings"
+  ],
+  "alpha": 0.45,
+  "appearance": {
+    "model": "jojorpg:stand/justice"
+  },
+  "color": 13621468,
+  "description": {
+    "fallback": "Justice - Stand of Enya the Hag. Power D · Speed E · Range A · Stamina A · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.justice.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Justice",
+    "translate": "manifestation.jojorpg.justice"
+  },
+  "punch": 1.7,
+  "range": 60.0,
+  "scale": 2.0,
+  "stats": {
+    "potential": "E",
+    "power": "D",
+    "precision": "E",
+    "range": "A",
+    "speed": "E",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.4
+    }
+  ],
+  "weight": 5
+}

@@ -30,6 +30,7 @@ final class JojoCatalog {
     final Map<String, QuestDefinition> quests = new LinkedHashMap<>();
     final Map<String, StoryNpcDefinition> npcs = new LinkedHashMap<>();
     final Map<String, StorySpawnDefinition> spawns = new LinkedHashMap<>();
+    final Map<String, com.animecore.manifestation.ManifestationDefinition> manifestations = new LinkedHashMap<>();
     final Map<String, String> lang = new LinkedHashMap<>();
 
     private static JojoCatalog instance;
@@ -40,6 +41,8 @@ final class JojoCatalog {
             Path dir = locate();
             instance.load(dir.resolve("jojo_catalog.json"));
             instance.load(dir.resolve("jojo_story_catalog.json"));
+            instance.load(dir.resolve("jojo_stands_catalog.json"));
+            if (java.nio.file.Files.exists(dir.resolve("jojo_part3_story_catalog.json"))) instance.load(dir.resolve("jojo_part3_story_catalog.json"));
         }
         return instance;
     }
@@ -62,6 +65,7 @@ final class JojoCatalog {
             decode(root, "quests", QuestDefinition.CODEC, quests);
             decode(root, "npcs", StoryNpcDefinition.CODEC, npcs);
             decode(root, "spawns", StorySpawnDefinition.CODEC, spawns);
+            decode(root, "manifestations", com.animecore.manifestation.ManifestationDefinition.CODEC, manifestations);
             if (root.has("lang")) root.getAsJsonObject("lang").entrySet().forEach(e -> lang.put(e.getKey(), e.getValue().getAsString()));
         } catch (IOException e) {
             throw new IllegalStateException("Cannot read " + path, e);

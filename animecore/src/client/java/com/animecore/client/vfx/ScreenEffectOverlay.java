@@ -70,6 +70,10 @@ public final class ScreenEffectOverlay {
 
     static void render(DrawContext ctx, RenderTickCounter counter) {
         if (!active()) return;
+        if (effect == ScreenEffect.TIME_STOP) {
+            timeStop(ctx, counter.getTickDelta(false));
+            return;
+        }
         float delta = counter.getTickDelta(false);
         float env = envelope(delta);
         if (env <= 0f) return;
@@ -92,6 +96,44 @@ public final class ScreenEffectOverlay {
         }
         BuiltBuffer built = b.endNullable();
         if (built != null) BufferRenderer.drawWithGlobalProgram(built);
+        RenderSystem.enableCull();
+        RenderSystem.enableDepthTest();
+        RenderSystem.disableBlend();
+    }
+
+    /**
+     * Stopped time: the world flashes into its colour negative as the stop spreads, then stays drained and cold
+     * (blue-grey tint, dark vignette) until time resumes; the colours snap back over the last few ticks.
+     */
+    private static void timeStop(DrawContext ctx, float delta) {
+        int w = ctx.getScaledWindowWidth(), h = ctx.getScaledWindowHeight();
+        float elapsed = (total - remaining) + delta, left = remaining - delta;
+        Matrix4f m = ctx.getMatrices().peek().getPositionMatrix();
+        RenderSystem.enableBlend();
+        RenderSystem.disableDepthTest();
+        RenderSystem.disableCull();
+        RenderSystem.setShader(GameRenderer::getPositionColorProgram);
+        if (elapsed < 8f || left < 3f) {   // negative flash: 1 - dst
+            RenderSystem.blendFuncSeparate(com.mojang.blaze3d.platform.GlStateManager.SrcFactor.ONE_MINUS_DST_COLOR,
+                    com.mojang.blaze3d.platform.GlStateManager.DstFactor.ZERO,
+                    com.mojang.blaze3d.platform.GlStateManager.SrcFactor.ONE, com.mojang.blaze3d.platform.GlStateManager.DstFactor.ZERO);
+            BufferBuilder inv = Tessellator.getInstance().begin(VertexFormat.DrawMode.TRIANGLES, VertexFormats.POSITION_COLOR);
+            float cx = w / 2f, cy = h / 2f, R = (float) Math.hypot(cx, cy);
+            float spread = left < 3f ? 1f : MathHelper.clamp(elapsed / 5f, 0.05f, 1f);   // the negative sphere expands
+            radial(inv, m, cx, cy, 0f, R * spread * 1.05f, 0xFFFFFFFF, 0xFFFFFFFF, 48, 0, 0);
+            BuiltBuffer built = inv.endNullable();
+            if (built != null) BufferRenderer.drawWithGlobalProgram(built);
+        }
+        RenderSystem.defaultBlendFunc();
+        float env = MathHelper.clamp(Math.min((elapsed - 6f) / 4f, left / 3f), 0f, 1f);
+        if (env > 0f) {
+            BufferBuilder b = Tessellator.getInstance().begin(VertexFormat.DrawMode.TRIANGLES, VertexFormats.POSITION_COLOR);
+            rect(b, m, 0, 0, w, h, VfxDraw.argb(0x4A5470, 0.38f * env));
+            float cx = w / 2f, cy = h / 2f, R = (float) Math.hypot(cx, cy);
+            radial(b, m, cx, cy, R * 0.5f, R * 1.05f, VfxDraw.argb(0x10101A, 0f), VfxDraw.argb(0x10101A, 0.6f * env), 48, 0, 0);
+            BuiltBuffer built = b.endNullable();
+            if (built != null) BufferRenderer.drawWithGlobalProgram(built);
+        }
         RenderSystem.enableCull();
         RenderSystem.enableDepthTest();
         RenderSystem.disableBlend();

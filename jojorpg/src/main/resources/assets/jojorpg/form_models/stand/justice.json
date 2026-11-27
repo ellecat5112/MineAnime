@@ -1,0 +1,155 @@
+{
+ "texture": "jojorpg:textures/entity/form/stand_justice.png",
+ "texture_size": [
+  128,
+  128
+ ],
+ "translucent": true,
+ "parts": [
+  {
+   "name": "cloud",
+   "pivot": [
+    0,
+    16,
+    0
+   ],
+   "cubes": [
+    {
+     "from": [
+      -10,
+      -6,
+      -8
+     ],
+     "size": [
+      20,
+      10,
+      16
+     ],
+     "uv": [
+      0,
+      0
+     ]
+    },
+    {
+     "from": [
+      -14,
+      -2,
+      -4
+     ],
+     "size": [
+      6,
+      6,
+      8
+     ],
+     "uv": [
+      30,
+      26
+     ]
+    },
+    {
+     "from": [
+      8,
+      -3,
+      -5
+     ],
+     "size": [
+      6,
+      6,
+      9
+     ],
+     "uv": [
+      0,
+      26
+     ]
+    }
+   ],
+   "anim": "bob"
+  },
+  {
+   "name": "skull",
+   "pivot": [
+    0,
+    6,
+    -2
+   ],
+   "cubes": [
+    {
+     "from": [
+      -6,
+      -12,
+      -6
+     ],
+     "size": [
+      12,
+      12,
+      11
+     ],
+     "uv": [
+      72,
+      0
+     ]
+    }
+   ],
+   "parent": "cloud",
+   "anim": "head"
+  },
+  {
+   "name": "hand_r",
+   "pivot": [
+    -11,
+    2,
+    -6
+   ],
+   "cubes": [
+    {
+     "from": [
+      -3,
+      -2,
+      -6
+     ],
+     "size": [
+      5,
+      3,
+      6
+     ],
+     "uv": [
+      58,
+      26
+     ]
+    }
+   ],
+   "parent": "cloud",
+   "anim": "sway",
+   "phase": 1.0
+  },
+  {
+   "name": "hand_l",
+   "pivot": [
+    11,
+    2,
+    -6
+   ],
+   "cubes": [
+    {
+     "from": [
+      -2,
+      -2,
+      -6
+     ],
+     "size": [
+      5,
+      3,
+      6
+     ],
+     "uv": [
+      58,
+      26
+     ]
+    }
+   ],
+   "parent": "cloud",
+   "anim": "sway",
+   "phase": 2.0
+  }
+ ]
+}

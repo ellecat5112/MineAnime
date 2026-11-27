@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 2.95,
+      "hits": 10,
+      "knockback": 1.8
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Genie Strike",
+    "translate": "ability.jojorpg.judgement_genie_strike"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

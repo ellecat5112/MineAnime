@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 1.25,
+      "hits": 30,
+      "interval_ticks": 1,
+      "knockback": 1.8,
+      "radius": 1.8,
+      "reach": 2.8
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 50.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "\"Silver Chariot\" Plus \"Anubis\" Two-Sword Technique",
+    "translate": "ability.jojorpg.silver_chariot_plus_anubis_two_sword_technique"
+  },
+  "required_tier": 9,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

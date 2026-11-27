@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Wheel of Fortune!",
+    "translate": "ability.jojorpg.wheel_of_fortune_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

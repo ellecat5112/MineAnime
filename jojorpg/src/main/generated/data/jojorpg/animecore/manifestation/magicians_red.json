@@ -1,0 +1,41 @@
+{
+  "abilities": [
+    "jojorpg:magicians_red_manifest",
+    "jojorpg:magicians_red_crossfire_hurricane",
+    "jojorpg:magicians_red_crossfire_hurricane_special",
+    "jojorpg:magicians_red_red_bind",
+    "jojorpg:magicians_red_life_detector",
+    "jojorpg:magicians_red_pyrokinesis"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/magicians_red"
+  },
+  "color": 16733986,
+  "description": {
+    "fallback": "Magician's Red - Stand of Muhammad Avdol. Power B · Speed B · Range C · Stamina B · Precision C · Potential D",
+    "translate": "manifestation.jojorpg.magicians_red.desc"
+  },
+  "name": {
+    "fallback": "Magician's Red",
+    "translate": "manifestation.jojorpg.magicians_red"
+  },
+  "punch": 5.9,
+  "range": 10.0,
+  "stats": {
+    "potential": "D",
+    "power": "B",
+    "precision": "C",
+    "range": "C",
+    "speed": "B",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:passive_effect",
+      "effect": "minecraft:fire_resistance"
+    }
+  ],
+  "weight": 5
+}

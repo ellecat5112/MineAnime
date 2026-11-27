@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 3.0,
+      "color": 16750592,
+      "damage": 11.5,
+      "size": 0.4,
+      "size_scales_with_charge": false,
+      "speed": 1.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Bomb Orange",
+    "translate": "ability.jojorpg.khnum_bomb_orange"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

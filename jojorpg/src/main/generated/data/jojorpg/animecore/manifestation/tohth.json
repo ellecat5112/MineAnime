@@ -1,0 +1,39 @@
+{
+  "abilities": [
+    "jojorpg:tohth_manifest",
+    "jojorpg:tohth_read_the_prophecy",
+    "jojorpg:tohth_fateful_link"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/tohth"
+  },
+  "color": 16771899,
+  "description": {
+    "fallback": "Tohth - Stand of Boingo. Power E · Speed E · Range E · Stamina A · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.tohth.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Tohth",
+    "translate": "manifestation.jojorpg.tohth"
+  },
+  "punch": 0.0,
+  "scale": 0.6,
+  "stats": {
+    "potential": "E",
+    "power": "E",
+    "precision": "E",
+    "range": "E",
+    "speed": "E",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.3
+    }
+  ],
+  "weight": 4
+}

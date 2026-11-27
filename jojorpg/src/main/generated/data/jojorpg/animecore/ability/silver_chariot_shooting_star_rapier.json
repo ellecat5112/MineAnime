@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 15527921,
+      "damage": 16.4,
+      "lifetime_ticks": 30,
+      "size": 0.25,
+      "size_scales_with_charge": false,
+      "speed": 3.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Shooting Star Rapier",
+    "translate": "ability.jojorpg.silver_chariot_shooting_star_rapier"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 13621468,
+      "cone_degrees": 50.0,
+      "damage": 5.2,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 160,
+          "effect": "minecraft:weakness"
+        },
+        {
+          "duration": 160,
+          "effect": "minecraft:nausea"
+        }
+      ],
+      "radius": 10.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Wound Strings",
+    "translate": "ability.jojorpg.justice_wound_strings"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

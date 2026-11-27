@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16766287,
+      "cone_degrees": 60.0,
+      "effects": [
+        {
+          "amplifier": 2,
+          "effect": "minecraft:mining_fatigue"
+        },
+        {
+          "amplifier": 2,
+          "effect": "minecraft:unluck"
+        }
+      ],
+      "radius": 8.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "The Wager",
+    "translate": "ability.jojorpg.osiris_the_wager"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

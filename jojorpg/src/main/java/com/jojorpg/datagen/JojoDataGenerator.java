@@ -45,6 +45,7 @@ public final class JojoDataGenerator implements DataGeneratorEntrypoint {
         builder.addRegistry(AnimeRegistries.QUEST, c -> register(c, AnimeRegistries.QUEST, JojoCatalog.get().quests));
         builder.addRegistry(AnimeRegistries.STORY_NPC, c -> register(c, AnimeRegistries.STORY_NPC, JojoCatalog.get().npcs));
         builder.addRegistry(AnimeRegistries.STORY_SPAWN, c -> register(c, AnimeRegistries.STORY_SPAWN, JojoCatalog.get().spawns));
+        builder.addRegistry(AnimeRegistries.MANIFESTATION, c -> register(c, AnimeRegistries.MANIFESTATION, JojoCatalog.get().manifestations));
     }
 
     private static final class Content extends FabricDynamicRegistryProvider {
@@ -59,6 +60,7 @@ public final class JojoDataGenerator implements DataGeneratorEntrypoint {
             entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.QUEST));
             entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.STORY_NPC));
             entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.STORY_SPAWN));
+            entries.addAll(registries.getWrapperOrThrow(AnimeRegistries.MANIFESTATION));
         }
 
         @Override public String getName() { return "JoJoRPG content"; }
@@ -84,6 +86,8 @@ public final class JojoDataGenerator implements DataGeneratorEntrypoint {
             t.add("pool.jojorpg.ripple", "Ripple");
             t.add("pool.jojorpg.stamina", "Stamina");
             t.add("pool.jojorpg.blood", "Blood");
+            t.add("pool.jojorpg.stand", "Stand Energy");
+            t.add("itemGroup.jojorpg.stands", "JoJoRPG Stands");
         }
     }
 
@@ -95,6 +99,7 @@ public final class JojoDataGenerator implements DataGeneratorEntrypoint {
             JojoItems.TOKEN_ITEMS.values().forEach(i -> generator.register(i, Models.GENERATED));
             JojoItems.AWAKENING.values().forEach(i -> generator.register(i, Models.GENERATED));
             JojoItems.SEALS.values().forEach(i -> generator.register(i, Models.GENERATED));
+            JojoItems.STAND_ITEMS.values().forEach(i -> generator.register(i, Models.GENERATED));
             generator.register(JojoItems.STYLE_MANUAL, Models.GENERATED);
             generator.register(JojoItems.QUEST_SCROLL, Models.GENERATED);
         }

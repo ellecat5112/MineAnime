@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "color": 16733986,
+      "damage": 13.3,
+      "fire_ticks": 120,
+      "knockback": 1.4,
+      "radius": 4.0
+    }
+  ],
+  "affinity": "jojorpg:heat",
+  "cast_animation": "animecore:cast_burst",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Pyrokinesis",
+    "translate": "ability.jojorpg.magicians_red_pyrokinesis"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

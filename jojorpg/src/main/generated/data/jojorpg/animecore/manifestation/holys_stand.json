@@ -1,0 +1,23 @@
+{
+  "abilities": [
+    "jojorpg:holys_stand_manifest",
+    "jojorpg:holys_stand_thorny_vines"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/hermit_purple"
+  },
+  "color": 6953882,
+  "description": {
+    "fallback": "Holy's Stand - Stand of Holy Kujo. ",
+    "translate": "manifestation.jojorpg.holys_stand.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Holy's Stand",
+    "translate": "manifestation.jojorpg.holys_stand"
+  },
+  "punch": 0.0,
+  "range": 10.0,
+  "system": "jojorpg"
+}

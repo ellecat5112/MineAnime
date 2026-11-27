@@ -161,7 +161,11 @@ def paint_face(img, rect, f, alpha):
 # packing + export
 # ======================================================================================================================
 
-def export(m):
+def export(m, assets=None, ns='narutorpg', path=None):
+    """Writes the model json + painted texture; ``path`` (default the model id) may contain a sub-folder (stand/emperor)."""
+    assets = assets or ASSETS
+    path = path or m.id
+    tex_name = path.replace('/', '_')
     img = Image.new('RGBA', (TEX, TEX), (0, 0, 0, 0))
     regions = {}
     shelf_x, shelf_y, shelf_h = 0, 0, 0
@@ -169,7 +173,7 @@ def export(m):
     out_parts = []
     # big regions first for a tight packing
     all_cubes = sorted({(tuple(c['size']), c['mat'], json.dumps(c['feat'], sort_keys=True)) for p in m.parts for c in p['cubes']},
-                       key=lambda k: -(k[0][1] + k[0][2]))
+                       key=lambda k: (-(k[0][1] + k[0][2]), k))   # tie-break: deterministic across runs
     for key in all_cubes:
         (w, h, d), mat, feat = key
         rw, rh = 2 * (d + w), d + h
@@ -204,11 +208,11 @@ def export(m):
             if p['amp'] != 1.0:
                 q['amp'] = p['amp']
         out_parts.append(q)
-    os.makedirs(os.path.join(ASSETS, 'form_models'), exist_ok=True)
-    os.makedirs(os.path.join(ASSETS, 'textures', 'entity', 'form'), exist_ok=True)
-    img.save(os.path.join(ASSETS, 'textures', 'entity', 'form', m.id + '.png'), optimize=True)
-    with open(os.path.join(ASSETS, 'form_models', m.id + '.json'), 'w') as f:
-        json.dump({'texture': f'narutorpg:textures/entity/form/{m.id}.png', 'texture_size': [TEX, TEX],
+    os.makedirs(os.path.dirname(os.path.join(assets, 'form_models', path + '.json')), exist_ok=True)
+    os.makedirs(os.path.join(assets, 'textures', 'entity', 'form'), exist_ok=True)
+    img.save(os.path.join(assets, 'textures', 'entity', 'form', tex_name + '.png'), optimize=True)
+    with open(os.path.join(assets, 'form_models', path + '.json'), 'w') as f:
+        json.dump({'texture': f'{ns}:textures/entity/form/{tex_name}.png', 'texture_size': [TEX, TEX],
                    'translucent': m.translucent, 'parts': out_parts}, f, indent=1)
     used = shelf_y + shelf_h
     return len(out_parts), sum(len(p['cubes']) for p in m.parts), used

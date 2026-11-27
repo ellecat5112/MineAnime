@@ -1,0 +1,27 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 10.4,
+      "distance": 4.0,
+      "hit_radius": 1.4,
+      "knockback": 1.2
+    },
+    {
+      "type": "animecore:self_buff",
+      "heal": 5.184
+    }
+  ],
+  "cast_animation": "animecore:cast_lunge",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Assimilation",
+    "translate": "ability.jojorpg.yellow_temperance_assimilation"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

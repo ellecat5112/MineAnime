@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:aoe_sphere",
+      "damage": 23.6,
+      "forward_offset": 1.5,
+      "knockback": 2.0,
+      "radius": 3.5
+    }
+  ],
+  "cast_animation": "animecore:cast_slam",
+  "cooldown_ticks": 160,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Iron Crush",
+    "translate": "ability.jojorpg.strength_iron_crush"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

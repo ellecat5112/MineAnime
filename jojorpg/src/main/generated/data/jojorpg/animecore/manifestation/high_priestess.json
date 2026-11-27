@@ -1,0 +1,42 @@
+{
+  "abilities": [
+    "jojorpg:high_priestess_manifest",
+    "jojorpg:high_priestess_mimicry_ambush",
+    "jojorpg:high_priestess_diamond_teeth",
+    "jojorpg:high_priestess_razor_transformation"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 11583173,
+    "eyes": 15022389,
+    "hair": 4545124,
+    "hair_style": "long",
+    "outfit": "bodysuit",
+    "pants": 5533306,
+    "skin": 9479342,
+    "top": 6323595
+  },
+  "color": 6323595,
+  "description": {
+    "fallback": "High Priestess - Stand of Midler. Power C · Speed B · Range A · Stamina A · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.high_priestess.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "High Priestess",
+    "translate": "manifestation.jojorpg.high_priestess"
+  },
+  "punch": 4.7,
+  "range": 60.0,
+  "scale": 0.7,
+  "stats": {
+    "potential": "D",
+    "power": "C",
+    "precision": "D",
+    "range": "A",
+    "speed": "B",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

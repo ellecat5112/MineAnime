@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 2.7,
+      "hits": 16,
+      "knockback": 1.8,
+      "shout": "ORA ORA ORA ORA ORA!"
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 120,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Ora Ora",
+    "translate": "ability.jojorpg.star_platinum_ora_ora"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

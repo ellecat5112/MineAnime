@@ -1,0 +1,43 @@
+{
+  "abilities": [
+    "jojorpg:empress_manifest",
+    "jojorpg:empress_parasitic_growth",
+    "jojorpg:empress_crushing_grip",
+    "jojorpg:empress_vein_bite"
+  ],
+  "alpha": 0.95,
+  "appearance": {
+    "accent": 9268835,
+    "eyes": 2171169,
+    "hair": 6111287,
+    "hair_style": "bald",
+    "mark": "fangs",
+    "outfit": "bodysuit",
+    "pants": 12357492,
+    "skin": 14133386,
+    "top": 14133386
+  },
+  "color": 14133386,
+  "description": {
+    "fallback": "Empress - Stand of Nena. Power C · Speed E · Range A · Stamina A · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.empress.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Empress",
+    "translate": "manifestation.jojorpg.empress"
+  },
+  "punch": 3.5,
+  "range": 60.0,
+  "scale": 0.4,
+  "stats": {
+    "potential": "D",
+    "power": "C",
+    "precision": "D",
+    "range": "A",
+    "speed": "E",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

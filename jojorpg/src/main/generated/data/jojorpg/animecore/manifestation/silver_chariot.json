@@ -1,0 +1,49 @@
+{
+  "abilities": [
+    "jojorpg:silver_chariot_manifest",
+    "jojorpg:silver_chariot_rapier_barrage",
+    "jojorpg:silver_chariot_armor_off",
+    "jojorpg:silver_chariot_shooting_star_rapier",
+    "jojorpg:silver_chariot_flame_skewer",
+    "jojorpg:silver_chariot_plus_anubis_two_sword_technique"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 7901340,
+    "eyes": 2503224,
+    "hair": 11583173,
+    "hair_style": "spiky",
+    "outfit": "armor",
+    "pants": 9479342,
+    "skin": 13621468,
+    "top": 11583173
+  },
+  "color": 11583173,
+  "description": {
+    "fallback": "Silver Chariot - Stand of Jean Pierre Polnareff. Power C · Speed A · Range C · Stamina B · Precision B · Potential C",
+    "translate": "manifestation.jojorpg.silver_chariot.desc"
+  },
+  "name": {
+    "fallback": "Silver Chariot",
+    "translate": "manifestation.jojorpg.silver_chariot"
+  },
+  "punch": 5.3,
+  "range": 10.0,
+  "stats": {
+    "potential": "C",
+    "power": "C",
+    "precision": "B",
+    "range": "C",
+    "speed": "A",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "traits": [
+    {
+      "type": "animecore:evasion",
+      "chance": 0.25,
+      "projectiles_only": true
+    }
+  ],
+  "weight": 4
+}

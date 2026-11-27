@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:beam_raycast",
+      "color": 11771355,
+      "damage": 16.2,
+      "range": 6.0,
+      "width": 0.35
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 70,
+  "cost": {
+    "amount": 16.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Star Finger",
+    "translate": "ability.jojorpg.star_platinum_star_finger"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

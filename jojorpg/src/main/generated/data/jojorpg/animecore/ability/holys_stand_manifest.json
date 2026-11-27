@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Holy's Stand!",
+    "translate": "ability.jojorpg.holys_stand_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

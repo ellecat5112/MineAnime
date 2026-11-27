@@ -1,0 +1,32 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "aoe_radius": 2.0,
+      "color": 16740419,
+      "count": 6,
+      "damage": 8.7,
+      "fire_ticks": 100,
+      "lifetime_ticks": 50,
+      "size": 0.6,
+      "size_scales_with_charge": false,
+      "speed": 1.4,
+      "spread_degrees": 14.0,
+      "trail_particle": "minecraft:flame"
+    }
+  ],
+  "affinity": "jojorpg:heat",
+  "cast_animation": "animecore:cast_sweep",
+  "cooldown_ticks": 160,
+  "cost": {
+    "amount": 36.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Crossfire Hurricane Special",
+    "translate": "ability.jojorpg.magicians_red_crossfire_hurricane_special"
+  },
+  "required_tier": 4,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

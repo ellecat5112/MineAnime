@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:hermit_purple_manifest",
+    "jojorpg:hermit_purple_vine_bind",
+    "jojorpg:hermit_purple_divination",
+    "jojorpg:hermit_purple_overdrive"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/hermit_purple"
+  },
+  "color": 10233776,
+  "description": {
+    "fallback": "Hermit Purple - Stand of Joseph Joestar. Power D · Speed C · Range D · Stamina A · Precision D · Potential E",
+    "translate": "manifestation.jojorpg.hermit_purple.desc"
+  },
+  "name": {
+    "fallback": "Hermit Purple",
+    "translate": "manifestation.jojorpg.hermit_purple"
+  },
+  "punch": 2.6,
+  "range": 4.0,
+  "stats": {
+    "potential": "E",
+    "power": "D",
+    "precision": "D",
+    "range": "D",
+    "speed": "C",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 4
+}

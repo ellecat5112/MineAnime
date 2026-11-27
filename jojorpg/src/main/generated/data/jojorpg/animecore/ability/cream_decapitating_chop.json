@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 23.6,
+      "distance": 4.5,
+      "hit_radius": 1.4
+    }
+  ],
+  "cast_animation": "animecore:cast_lunge",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Decapitating Chop",
+    "translate": "ability.jojorpg.cream_decapitating_chop"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

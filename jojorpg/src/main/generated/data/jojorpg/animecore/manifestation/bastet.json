@@ -1,0 +1,35 @@
+{
+  "abilities": [
+    "jojorpg:bastet_manifest",
+    "jojorpg:bastet_magnetic_attraction",
+    "jojorpg:bastet_magnetized_debris",
+    "jojorpg:bastet_socket_trap"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/bastet"
+  },
+  "color": 9479342,
+  "description": {
+    "fallback": "Bastet - Stand of Mariah. Power E · Speed E · Range B · Stamina A · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.bastet.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Bastet",
+    "translate": "manifestation.jojorpg.bastet"
+  },
+  "punch": 0.0,
+  "range": 20.0,
+  "scale": 0.5,
+  "stats": {
+    "potential": "E",
+    "power": "E",
+    "precision": "E",
+    "range": "B",
+    "speed": "E",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 400,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "duration": 400,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 600,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Transfiguration",
+    "translate": "ability.jojorpg.khnum_transfiguration"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

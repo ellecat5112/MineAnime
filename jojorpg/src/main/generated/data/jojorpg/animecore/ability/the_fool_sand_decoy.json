@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "duration": 140,
+          "effect": "minecraft:invisibility"
+        },
+        {
+          "amplifier": 1,
+          "duration": 140,
+          "effect": "minecraft:speed"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 400,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Sand Decoy",
+    "translate": "ability.jojorpg.the_fool_sand_decoy"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

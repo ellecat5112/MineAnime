@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:self_buff",
+      "effects": [
+        {
+          "amplifier": 3,
+          "effect": "minecraft:speed"
+        },
+        {
+          "amplifier": 1,
+          "effect": "minecraft:jump_boost"
+        }
+      ]
+    }
+  ],
+  "cast_animation": "animecore:cast_stance",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 12.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "High Speed Flight",
+    "translate": "ability.jojorpg.tower_of_gray_high_speed_flight"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

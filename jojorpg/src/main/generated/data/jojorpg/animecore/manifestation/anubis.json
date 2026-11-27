@@ -1,0 +1,33 @@
+{
+  "abilities": [
+    "jojorpg:anubis_manifest",
+    "jojorpg:anubis_sword_possession",
+    "jojorpg:anubis_learning_blade",
+    "jojorpg:anubis_selective_intangibility"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/anubis"
+  },
+  "color": 16766287,
+  "description": {
+    "fallback": "Anubis - Stand of Caravan Serai Chaka Four Unnamed mice Khan Jean Pierre Polnareff Unnamed boy Cow. Power B · Speed B · Range E · Stamina A · Precision E · Potential C",
+    "translate": "manifestation.jojorpg.anubis.desc"
+  },
+  "kind": "automatic",
+  "name": {
+    "fallback": "Anubis",
+    "translate": "manifestation.jojorpg.anubis"
+  },
+  "punch": 7.4,
+  "stats": {
+    "potential": "C",
+    "power": "B",
+    "precision": "E",
+    "range": "E",
+    "speed": "B",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 16771899,
+      "damage": 4.3,
+      "effects": [
+        {
+          "amplifier": 1,
+          "duration": 120,
+          "effect": "minecraft:poison"
+        }
+      ],
+      "radius": 4.0
+    }
+  ],
+  "cast_animation": "animecore:cast_burst",
+  "cooldown_ticks": 160,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Acid Engulf",
+    "translate": "ability.jojorpg.yellow_temperance_acid_engulf"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

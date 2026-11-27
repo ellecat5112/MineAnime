@@ -1,0 +1,26 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 1.33,
+      "hits": 22,
+      "interval_ticks": 1,
+      "knockback": 1.8,
+      "radius": 1.5,
+      "reach": 2.6,
+      "shout": "Hora hora hora hora!"
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Rapier Barrage",
+    "translate": "ability.jojorpg.silver_chariot_rapier_barrage"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

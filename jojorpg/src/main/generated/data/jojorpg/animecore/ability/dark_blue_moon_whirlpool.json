@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 2733814,
+      "damage": 4.7,
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 100,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 2.0,
+      "radius": 8.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 24.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Whirlpool",
+    "translate": "ability.jojorpg.dark_blue_moon_whirlpool"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,20 @@
+{
+  "actions": [
+    {
+      "type": "animecore:damage_link",
+      "duration_ticks": 600
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 800,
+  "cost": {
+    "amount": 30.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Pain Link",
+    "translate": "ability.jojorpg.lovers_pain_link"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

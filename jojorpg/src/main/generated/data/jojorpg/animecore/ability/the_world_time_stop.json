@@ -1,0 +1,21 @@
+{
+  "actions": [
+    {
+      "type": "animecore:time_stop",
+      "shout": "ZA WARUDO! Toki wo tomare!"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 900,
+  "cost": {
+    "amount": 60.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Time Stop",
+    "translate": "ability.jojorpg.the_world_time_stop"
+  },
+  "required_tier": 6,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

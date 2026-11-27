@@ -1,0 +1,23 @@
+{
+  "actions": [
+    {
+      "type": "animecore:charm",
+      "damage": 2.592,
+      "duration_ticks": 400,
+      "max_targets": 6,
+      "radius": 12.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Fog Puppetry",
+    "translate": "ability.jojorpg.justice_fog_puppetry"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

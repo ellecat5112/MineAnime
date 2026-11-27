@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:summon_entity",
+      "allied_ticks": 500,
+      "count": 2,
+      "entity": "minecraft:husk",
+      "radius": 2.5
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 500,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Clay Imitation",
+    "translate": "ability.jojorpg.judgement_clay_imitation"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

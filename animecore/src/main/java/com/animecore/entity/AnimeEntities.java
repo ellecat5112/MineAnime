@@ -34,8 +34,16 @@ public final class AnimeEntities {
             EntityType.Builder.<StoryNpcEntity>create(StoryNpcEntity::new, SpawnGroup.MISC)
                     .dimensions(0.6f, 1.8f).eyeHeight(1.62f).maxTrackingRange(10).build("story_npc"));
 
+    /** Manifested Stands / spirits (see {@link com.animecore.manifestation.ManifestationService}); never saved. */
+    public static final EntityType<ManifestationEntity> MANIFESTATION = Registry.register(Registries.ENTITY_TYPE,
+            Ids.core("manifestation"),
+            EntityType.Builder.<ManifestationEntity>create(ManifestationEntity::new, SpawnGroup.MISC)
+                    .dimensions(0.6f, 1.8f).eyeHeight(1.62f).maxTrackingRange(10).trackingTickInterval(1).disableSaving()
+                    .disableSummon().makeFireImmune().build("manifestation"));
+
     public static void init() {
         net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry.register(PUPPET, PuppetEntity.createAttributes());
         net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry.register(STORY_NPC, StoryNpcEntity.createAttributes());
+        net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry.register(MANIFESTATION, ManifestationEntity.createAttributes());
     }
 }

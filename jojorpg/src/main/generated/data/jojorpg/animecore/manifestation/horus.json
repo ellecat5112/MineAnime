@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "jojorpg:horus_manifest",
+    "jojorpg:horus_ice_missiles",
+    "jojorpg:horus_ice_prison",
+    "jojorpg:horus_icicle_rain"
+  ],
+  "alpha": 0.85,
+  "appearance": {
+    "model": "jojorpg:stand/horus"
+  },
+  "color": 11789820,
+  "description": {
+    "fallback": "Horus - Stand of Pet Shop. Power B · Speed B · Range D · Stamina C · Precision E · Potential C",
+    "translate": "manifestation.jojorpg.horus.desc"
+  },
+  "name": {
+    "fallback": "Horus",
+    "translate": "manifestation.jojorpg.horus"
+  },
+  "punch": 4.4,
+  "range": 4.0,
+  "scale": 0.8,
+  "stats": {
+    "potential": "C",
+    "power": "B",
+    "precision": "E",
+    "range": "D",
+    "speed": "B",
+    "stamina": "C"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

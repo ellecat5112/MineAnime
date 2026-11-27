@@ -1,0 +1,39 @@
+{
+  "abilities": [
+    "jojorpg:atum_manifest",
+    "jojorpg:atum_binary_soul_reading",
+    "jojorpg:atum_soul_steal"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "accent": 13938487,
+    "eyes": 16766287,
+    "hair": 4073251,
+    "hair_style": "bowl",
+    "outfit": "robe",
+    "pants": 5125166,
+    "skin": 10586239,
+    "top": 6111287
+  },
+  "color": 13938487,
+  "description": {
+    "fallback": "Atum - Stand of Telence T. D'Arby. Power D · Speed C · Range D · Stamina B · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.atum.desc"
+  },
+  "name": {
+    "fallback": "Atum",
+    "translate": "manifestation.jojorpg.atum"
+  },
+  "punch": 2.6,
+  "range": 4.0,
+  "stats": {
+    "potential": "D",
+    "power": "D",
+    "precision": "D",
+    "range": "D",
+    "speed": "C",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

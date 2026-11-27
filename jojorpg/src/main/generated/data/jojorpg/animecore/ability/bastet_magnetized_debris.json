@@ -1,0 +1,29 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 9479342,
+      "count": 6,
+      "damage": 3.0,
+      "homing": 0.2,
+      "lifetime_ticks": 40,
+      "size": 0.3,
+      "size_scales_with_charge": false,
+      "speed": 2.0,
+      "spread_degrees": 12.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Magnetized Debris",
+    "translate": "ability.jojorpg.bastet_magnetized_debris"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

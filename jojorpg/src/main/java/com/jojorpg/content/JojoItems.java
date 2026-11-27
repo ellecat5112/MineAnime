@@ -6,6 +6,7 @@ import com.animecore.item.AdminSealItem;
 import com.animecore.item.AwakeningItem;
 import com.animecore.item.ClanEmblemItem;
 import com.animecore.item.LineageAwakeningItem;
+import com.animecore.item.ManifestationItem;
 import com.animecore.item.QuestScrollItem;
 import com.animecore.technique.TechniqueTokenItem;
 import com.animecore.technique.TechniqueTokens;
@@ -43,9 +44,12 @@ public final class JojoItems {
     public static final String[][] TOKENS = {
             {"ripple", "Ripple (Hamon)", "FFD54F"}, {"vampire", "Vampirism", "B71C1C"}, {"pillar_men", "Pillar Men Arts", "8D6E63"},
             {"science", "German Science", "90A4AE"}, {"martial", "Martial Arts", "FF8A65"}, {"modes", "Modes", "E1BEE7"},
+            {"stand", "Stand", "B39DDB"},
     };
     public static final Map<Identifier, Item> TOKEN_ITEMS = new LinkedHashMap<>();
     public static final Map<String, Item> AWAKENING = new LinkedHashMap<>();
+    /** Stand Arrow + one Stand Disc per Part 3 Stand (assets/jojorpg/jojo_stand_items.json, from jojo_stands.py). */
+    public static final Map<String, Item> STAND_ITEMS = new LinkedHashMap<>();
     public static final Map<AdminSealItem.Action, Item> SEALS = new LinkedHashMap<>();
     public static final String GIVEN_TAG = "jojorpg.quest_scroll";
 
@@ -83,6 +87,19 @@ public final class JojoItems {
         } catch (Exception ex) {
             throw new IllegalStateException("assets/jojorpg/jojo_items.json missing - run python3 tools/catalog/jojo_content.py", ex);
         }
+        try (Reader r = new InputStreamReader(JojoItems.class.getResourceAsStream("/assets/jojorpg/jojo_stand_items.json"), StandardCharsets.UTF_8)) {
+            for (JsonElement e : JsonParser.parseReader(r).getAsJsonArray()) {
+                JsonObject o = e.getAsJsonObject();
+                String id = o.get("item").getAsString();
+                boolean arrow = "arrow".equals(o.get("kind").getAsString());
+                Identifier target = arrow ? null : Identifier.of(o.get("target").getAsString());
+                Item item = new ManifestationItem(JojoRPG.CTX, target, o.get("lore").getAsString(), arrow ? 6f : 0f,
+                        new Item.Settings().rarity(arrow ? Rarity.EPIC : Rarity.RARE));
+                STAND_ITEMS.put(id, Registry.register(Registries.ITEM, JojoRPG.CTX.id(id), item));
+            }
+        } catch (Exception ex) {
+            throw new IllegalStateException("assets/jojorpg/jojo_stand_items.json missing - run python3 tools/catalog/jojo_stands.py", ex);
+        }
     }
 
     public static final ItemGroup GROUP = Registry.register(Registries.ITEM_GROUP, JojoRPG.CTX.id("main"),
@@ -94,7 +111,14 @@ public final class JojoItems {
                         entries.add(STYLE_MANUAL);
                         AWAKENING.values().forEach(entries::add);
                         TOKEN_ITEMS.values().forEach(entries::add);
+                        entries.add(STAND_ITEMS.get("stand_arrow"));
                     }).build());
+
+    public static final ItemGroup STANDS_GROUP = Registry.register(Registries.ITEM_GROUP, JojoRPG.CTX.id("stands"),
+            FabricItemGroup.builder()
+                    .icon(() -> new ItemStack(STAND_ITEMS.getOrDefault("disc_star_platinum", QUEST_SCROLL)))
+                    .displayName(Text.translatable("itemGroup.jojorpg.stands"))
+                    .entries((ctx, entries) -> STAND_ITEMS.values().forEach(entries::add)).build());
 
     public static final ItemGroup ADMIN_GROUP = Registry.register(Registries.ITEM_GROUP, JojoRPG.CTX.id("admin"),
             FabricItemGroup.builder()
@@ -103,6 +127,7 @@ public final class JojoItems {
                     .entries((ctx, entries) -> SEALS.values().forEach(entries::add)).build());
 
     public static Item awakening(String id) { return AWAKENING.get(id); }
+    public static Item standItem(String id) { return STAND_ITEMS.get(id); }
 
     public static void init() {
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {

@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "type": "animecore:rush",
+      "damage": 2.73,
+      "hits": 6,
+      "knockback": 1.8
+    }
+  ],
+  "cast_animation": "animecore:cast_barrage",
+  "cooldown_ticks": 80,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Wrist Knives",
+    "translate": "ability.jojorpg.hanged_man_wrist_knives"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,25 @@
+{
+  "actions": [
+    {
+      "type": "animecore:raise_wall",
+      "distance": 1,
+      "duration_ticks": 200,
+      "height": 4,
+      "kind": "barrier",
+      "width": 6
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 300,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Sand Dome",
+    "translate": "ability.jojorpg.the_fool_sand_dome"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

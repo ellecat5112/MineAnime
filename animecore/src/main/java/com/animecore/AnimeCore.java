@@ -47,6 +47,12 @@ public final class AnimeCore implements ModInitializer {
         com.animecore.technique.TechniqueTokens.init();
         com.animecore.quest.QuestManager.init();
         com.animecore.quest.StorySpawner.init();
+        com.animecore.manifestation.ManifestationService.register();
+        com.animecore.manifestation.TimeStopManager.register();
+        com.animecore.manifestation.CharmManager.register();
+        com.animecore.manifestation.DamageLinkManager.register();
+        com.animecore.manifestation.VoidManager.register();
+        com.animecore.manifestation.TemporaryModifiers.register();
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> {
             com.animecore.technique.TechniqueMastery.onJoin(handler.player);
             for (var ctx : com.animecore.api.AnimeModRegistry.all()) com.animecore.technique.TechniqueTokens.ensureTokens(handler.player, ctx.power(handler.player));
@@ -64,6 +70,7 @@ public final class AnimeCore implements ModInitializer {
             com.animecore.command.VfxCommands.register(dispatcher);
             com.animecore.command.OriginCommands.register(dispatcher);
             com.animecore.quest.QuestManager.registerCommands(dispatcher);
+            com.animecore.manifestation.ManifestationCommands.register(dispatcher);
             dispatcher.register(net.minecraft.server.command.CommandManager.literal("techniques").then(net.minecraft.server.command.CommandManager.literal("tokens").executes(c -> {
                 var p = c.getSource().getPlayerOrThrow();
                 int n = 0;

@@ -1,0 +1,35 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 11789820,
+      "damage": 7.4,
+      "effects": [
+        {
+          "amplifier": 6,
+          "duration": 140,
+          "effect": "minecraft:slowness"
+        },
+        {
+          "amplifier": 3,
+          "duration": 140,
+          "effect": "minecraft:mining_fatigue"
+        }
+      ],
+      "radius": 6.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 240,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Ice Prison",
+    "translate": "ability.jojorpg.horus_ice_prison"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

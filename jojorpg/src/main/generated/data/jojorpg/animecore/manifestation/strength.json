@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "jojorpg:strength_manifest",
+    "jojorpg:strength_ship_manipulation",
+    "jojorpg:strength_iron_crush",
+    "jojorpg:strength_hull_fortress"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/strength"
+  },
+  "color": 9268835,
+  "description": {
+    "fallback": "Strength - Stand of Forever. Power B · Speed D · Range D · Stamina A · Precision E · Potential E",
+    "translate": "manifestation.jojorpg.strength.desc"
+  },
+  "kind": "bound",
+  "name": {
+    "fallback": "Strength",
+    "translate": "manifestation.jojorpg.strength"
+  },
+  "punch": 5.9,
+  "range": 4.0,
+  "stats": {
+    "potential": "E",
+    "power": "B",
+    "precision": "E",
+    "range": "D",
+    "speed": "D",
+    "stamina": "A"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

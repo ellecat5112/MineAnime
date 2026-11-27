@@ -30,8 +30,14 @@ public record ProjectileAction(
         int lifetimeTicks,
         int color,
         Optional<Identifier> trailParticle,
-        boolean sizeScalesWithCharge
+        boolean sizeScalesWithCharge,
+        float homing
 ) implements IAbilityAction {
+    public ProjectileAction(Optional<EntityType<?>> entity, float speed, float damage, float size, float aoeRadius, int fireTicks, int count,
+                            float spreadDegrees, int lifetimeTicks, int color, Optional<Identifier> trailParticle, boolean sizeScalesWithCharge) {
+        this(entity, speed, damage, size, aoeRadius, fireTicks, count, spreadDegrees, lifetimeTicks, color, trailParticle, sizeScalesWithCharge, 0f);
+    }
+
     public static final MapCodec<ProjectileAction> CODEC = RecordCodecBuilder.mapCodec(i -> i.group(
             Registries.ENTITY_TYPE.getCodec().optionalFieldOf("entity").forGetter(ProjectileAction::entity),
             Codec.FLOAT.optionalFieldOf("speed", 1.5f).forGetter(ProjectileAction::speed),
@@ -44,7 +50,8 @@ public record ProjectileAction(
             Codec.intRange(1, 1200).optionalFieldOf("lifetime_ticks", 60).forGetter(ProjectileAction::lifetimeTicks),
             Codec.INT.optionalFieldOf("color", 0xFFFFFF).forGetter(ProjectileAction::color),
             Identifier.CODEC.optionalFieldOf("trail_particle").forGetter(ProjectileAction::trailParticle),
-            Codec.BOOL.optionalFieldOf("size_scales_with_charge", true).forGetter(ProjectileAction::sizeScalesWithCharge)
+            Codec.BOOL.optionalFieldOf("size_scales_with_charge", true).forGetter(ProjectileAction::sizeScalesWithCharge),
+            Codec.floatRange(0f, 1f).optionalFieldOf("homing", 0f).forGetter(ProjectileAction::homing)   // Emperor's bullets
     ).apply(i, ProjectileAction::new));
 
     @Override public AbilityActionType<?> type() { return AbilityActions.PROJECTILE; }
@@ -74,6 +81,7 @@ public record ProjectileAction(
                 p.configure(ctx.scaledDamage(damage), ctx.affinity(), aoeRadius * (sizeScalesWithCharge ? ctx.scale() : 1f),
                         fireTicks, lifetimeTicks, color, scaledSize, trailParticle.orElse(null));
                 p.setVfx(ctx.vfxStyle(), ctx.vfxColor());
+                p.setHoming(homing);
                 p.refreshPositionAndAngles(spawn.x, spawn.y, spawn.z, yaw, pitch);
                 p.setVelocity(dir.multiply(speed));
                 ctx.world().spawnEntity(p);

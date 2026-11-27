@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "type": "animecore:remote_strike",
+      "damage": 22.5,
+      "effects": [
+        {
+          "amplifier": 2,
+          "duration": 300,
+          "effect": "minecraft:weakness"
+        }
+      ],
+      "range": 6.0,
+      "speed": 1.2
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 600,
+  "cost": {
+    "amount": 34.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Soul Steal",
+    "translate": "ability.jojorpg.atum_soul_steal"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

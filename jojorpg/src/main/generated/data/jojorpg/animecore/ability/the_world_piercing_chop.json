@@ -1,0 +1,24 @@
+{
+  "actions": [
+    {
+      "type": "animecore:dash_strike",
+      "damage": 19.8,
+      "distance": 4.5,
+      "hit_radius": 1.4,
+      "knockback": 0.8
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 80,
+  "cost": {
+    "amount": 18.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Piercing Chop",
+    "translate": "ability.jojorpg.the_world_piercing_chop"
+  },
+  "required_tier": 2,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

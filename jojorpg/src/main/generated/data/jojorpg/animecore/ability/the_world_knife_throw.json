@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 15527921,
+      "count": 8,
+      "damage": 6.4,
+      "lifetime_ticks": 50,
+      "size": 0.25,
+      "size_scales_with_charge": false,
+      "speed": 2.2,
+      "spread_degrees": 6.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 100,
+  "cost": {
+    "amount": 22.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Knife Throw",
+    "translate": "ability.jojorpg.the_world_knife_throw"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

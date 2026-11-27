@@ -45,6 +45,8 @@ public final class ClanTraits {
     public static final ClanTraitType<UndeadBane> UNDEAD_BANE = register(Ids.core("undead_bane"), UndeadBane.CODEC);
     public static final ClanTraitType<SunlightImmunity> SUNLIGHT_IMMUNITY = register(Ids.core("sunlight_immunity"), SunlightImmunity.CODEC);
 
+    public static final ClanTraitType<TimeImmune> TIME_IMMUNE = register(Ids.core("time_immune"), TimeImmune.CODEC);
+
     public static <T extends IClanTrait> ClanTraitType<T> register(Identifier id, MapCodec<T> codec) {
         return Registry.register(AnimeBuiltinRegistries.CLAN_TRAIT_TYPES, id, new ClanTraitType<>(codec));
     }
@@ -305,5 +307,11 @@ public final class ClanTraits {
     public record SunlightImmunity() implements IClanTrait {
         public static final MapCodec<SunlightImmunity> CODEC = MapCodec.unit(new SunlightImmunity());
         @Override public ClanTraitType<?> type() { return SUNLIGHT_IMMUNITY; }
+    }
+
+    /** Moves freely inside stopped time (Star Platinum, The World): see {@link com.animecore.manifestation.TimeStopManager}. */
+    public record TimeImmune() implements IClanTrait {
+        public static final MapCodec<TimeImmune> CODEC = MapCodec.unit(new TimeImmune());
+        @Override public ClanTraitType<?> type() { return TIME_IMMUNE; }
     }
 }

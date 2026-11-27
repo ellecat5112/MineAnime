@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 7798531,
+      "damage": 14.0,
+      "effects": [
+        {
+          "effect": "minecraft:glowing"
+        }
+      ],
+      "radius": 20.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 1000,
+  "cost": {
+    "amount": 70.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "20-Meter Radius Emerald Splash",
+    "translate": "ability.jojorpg.hierophant_green_20_meter_radius_emerald_splash"
+  },
+  "required_tier": 10,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

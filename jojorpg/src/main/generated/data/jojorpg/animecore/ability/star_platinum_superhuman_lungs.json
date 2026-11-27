@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "type": "animecore:area_effect",
+      "color": 11771355,
+      "cone_degrees": 70.0,
+      "effects": [
+        {
+          "amplifier": 3,
+          "duration": 60,
+          "effect": "minecraft:slowness"
+        }
+      ],
+      "pull": 2.5,
+      "radius": 9.0
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cooldown_ticks": 200,
+  "cost": {
+    "amount": 20.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Superhuman Lungs",
+    "translate": "ability.jojorpg.star_platinum_superhuman_lungs"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

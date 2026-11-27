@@ -35,6 +35,12 @@ public final class FormModelRenderer {
 
     public static void render(LivingEntity entity, FormModels.Model model, float tickDelta, MatrixStack matrices,
                               VertexConsumerProvider buffers, int light) {
+        render(entity, model, tickDelta, matrices, buffers, light, 0xFFFFFFFF, false);
+    }
+
+    /** {@code argb} tints the model; {@code translucent} forces the translucent layer (ghostly Stands). */
+    public static void render(LivingEntity entity, FormModels.Model model, float tickDelta, MatrixStack matrices,
+                              VertexConsumerProvider buffers, int light, int argb, boolean translucent) {
         float bodyYaw = MathHelper.lerpAngleDegrees(tickDelta, entity.prevBodyYaw, entity.bodyYaw);
         float headYaw = MathHelper.lerpAngleDegrees(tickDelta, entity.prevHeadYaw, entity.headYaw) - bodyYaw;
         float headPitch = MathHelper.lerp(tickDelta, entity.prevPitch, entity.getPitch());
@@ -53,8 +59,8 @@ public final class FormModelRenderer {
         matrices.scale(-s, -s, s);
         matrices.translate(0f, -1.501f, 0f);
         int overlay = OverlayTexture.getUv(0f, entity.hurtTime > 0 || entity.deathTime > 0);
-        RenderLayer layer = model.translucent() ? RenderLayer.getEntityTranslucent(model.texture()) : RenderLayer.getEntityCutoutNoCull(model.texture());
-        model.root().render(matrices, buffers.getBuffer(layer), light, overlay, 0xFFFFFFFF);
+        RenderLayer layer = model.translucent() || translucent ? RenderLayer.getEntityTranslucent(model.texture()) : RenderLayer.getEntityCutoutNoCull(model.texture());
+        model.root().render(matrices, buffers.getBuffer(layer), light, overlay, argb);
         matrices.pop();
     }
 

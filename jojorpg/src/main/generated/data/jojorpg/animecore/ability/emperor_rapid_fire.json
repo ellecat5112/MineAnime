@@ -1,0 +1,28 @@
+{
+  "actions": [
+    {
+      "type": "animecore:projectile",
+      "color": 16766287,
+      "count": 7,
+      "damage": 8.3,
+      "homing": 0.15,
+      "size": 0.2,
+      "size_scales_with_charge": false,
+      "speed": 2.4,
+      "spread_degrees": 10.0
+    }
+  ],
+  "cast_animation": "animecore:cast_thrust",
+  "cooldown_ticks": 160,
+  "cost": {
+    "amount": 26.0,
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Rapid Fire",
+    "translate": "ability.jojorpg.emperor_rapid_fire"
+  },
+  "required_tier": 3,
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

@@ -1,0 +1,34 @@
+{
+  "abilities": [
+    "jojorpg:geb_manifest",
+    "jojorpg:geb_water_claw",
+    "jojorpg:geb_vibration_sonar",
+    "jojorpg:geb_drowning_grip"
+  ],
+  "alpha": 0.6,
+  "appearance": {
+    "model": "jojorpg:stand/geb"
+  },
+  "color": 2733814,
+  "description": {
+    "fallback": "Geb - Stand of N'Doul. Power C · Speed B · Range A · Stamina B · Precision D · Potential D",
+    "translate": "manifestation.jojorpg.geb.desc"
+  },
+  "kind": "long_range",
+  "name": {
+    "fallback": "Geb",
+    "translate": "manifestation.jojorpg.geb"
+  },
+  "punch": 3.5,
+  "range": 60.0,
+  "stats": {
+    "potential": "D",
+    "power": "C",
+    "precision": "D",
+    "range": "A",
+    "speed": "B",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

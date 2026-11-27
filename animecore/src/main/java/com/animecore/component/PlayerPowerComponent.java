@@ -77,6 +77,8 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     private final Set<Identifier> unlockedTransformations = new LinkedHashSet<>();
     private final Map<Identifier, Integer> transformationMastery = new HashMap<>();
     private @Nullable Identifier lineage;
+    private @Nullable Identifier manifestation;
+    private boolean manifested;
     private @Nullable Identifier faction;
     private final Map<Identifier, Integer> reputation = new HashMap<>();
     /** ability/transformation id -> absolute world time at which the cooldown ends. */
@@ -161,7 +163,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
      * mods installed, HUD and other per-mod displays stay hidden for mods the player has not touched.
      */
     public boolean engaged() {
-        return !unlockedAbilities.isEmpty() || !unlockedTransformations.isEmpty() || lineage != null || originSelected()
+        return !unlockedAbilities.isEmpty() || !unlockedTransformations.isEmpty() || lineage != null || manifestation != null || originSelected()
                 || quests.active().isPresent() || !quests.completed().isEmpty();
     }
     public Collection<EnergyPool> pools() { return Collections.unmodifiableCollection(pools.values()); }
@@ -175,6 +177,22 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     public Optional<Identifier> lineage() { return Optional.ofNullable(lineage); }
     public Optional<Identifier> faction() { return Optional.ofNullable(faction); }
     public Optional<Identifier> activeTransformation() { return Optional.ofNullable(activeTransformation); }
+
+    /** This mod's manifestation (Stand) of the player, if awakened; see {@link com.animecore.manifestation.ManifestationService}. */
+    public Optional<Identifier> manifestation() { return Optional.ofNullable(manifestation); }
+    public boolean manifested() { return manifested && manifestation != null; }
+    public void setManifestation(@Nullable Identifier id) {
+        this.manifestation = id;
+        if (id == null) manifested = false;
+        markTraitsDirty();
+        markDirty(true);
+    }
+    public void setManifested(boolean out) {
+        if (manifested == out) return;
+        manifested = out;
+        markTraitsDirty();
+        markDirty(true);
+    }
     public int transformationTicks() { return transformationTicks; }
     public int mastery(Identifier form) { return transformationMastery.getOrDefault(form, 0); }
     public int reputation(Identifier faction) { return reputation.getOrDefault(faction, 0); }
@@ -368,6 +386,9 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
     /** Unlocked abilities plus those temporarily granted by the active transformation. */
     public Set<Identifier> castableAbilities() {
         Set<Identifier> out = new LinkedHashSet<>(unlockedAbilities);
+        if (manifestation != null) {
+            AnimeRegistries.manifestation(registries(), manifestation).ifPresent(d -> out.addAll(d.abilities()));
+        }
         if (activeTransformation != null) {
             AnimeRegistries.transformation(registries(), activeTransformation)
                     .ifPresent(e -> out.addAll(e.value().grantedAbilities()));
@@ -615,7 +636,7 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
 
         if (activeTransformation != null) TransformationService.tick(sp, this);
         AnimeMovementHandler.tick(sp, this);
-        if (lineage != null && player.age % 20 == 0) ClanTraitHooks.tick(sp, this);
+        if ((lineage != null || manifested()) && player.age % 20 == 0) ClanTraitHooks.tick(sp, this);
 
         if (reactiveWindow > 0 && --reactiveWindow == 0) {
             armedReactive = null;
@@ -694,6 +715,8 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         tag.put("mastery", writeIntMap(transformationMastery));
         tag.put("reputation", writeIntMap(reputation));
         if (lineage != null) tag.putString("lineage", lineage.toString());
+        if (manifestation != null) tag.putString("manifestation", manifestation.toString());
+        if (manifested) tag.putBoolean("manifested", true);
         if (faction != null) tag.putString("faction", faction.toString());
         if (activeTransformation != null) {
             tag.putString("active_form", activeTransformation.toString());
@@ -767,6 +790,8 @@ public class PlayerPowerComponent implements AutoSyncedComponent, ServerTickingC
         readIntMap(tag.getCompound("mastery"), transformationMastery);
         readIntMap(tag.getCompound("reputation"), reputation);
         lineage = readId(tag, "lineage");
+        manifestation = readId(tag, "manifestation");
+        manifested = tag.getBoolean("manifested");
         faction = readId(tag, "faction");
         activeTransformation = readId(tag, "active_form");
         transformationTicks = tag.getInt("form_ticks");

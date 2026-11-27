@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Magician's Red!",
+    "translate": "ability.jojorpg.magicians_red_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

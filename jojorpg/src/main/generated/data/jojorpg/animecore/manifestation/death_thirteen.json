@@ -1,0 +1,32 @@
+{
+  "abilities": [
+    "jojorpg:death_thirteen_manifest",
+    "jojorpg:death_thirteen_dream_world",
+    "jojorpg:death_thirteen_scythe_reap",
+    "jojorpg:death_thirteen_nightmare_lock"
+  ],
+  "alpha": 0.75,
+  "appearance": {
+    "model": "jojorpg:stand/death_thirteen"
+  },
+  "color": 4854924,
+  "description": {
+    "fallback": "Death Thirteen - Stand of Mannish Boy. Power C · Speed C · Range E · Stamina B · Precision D · Potential B",
+    "translate": "manifestation.jojorpg.death_thirteen.desc"
+  },
+  "name": {
+    "fallback": "Death Thirteen",
+    "translate": "manifestation.jojorpg.death_thirteen"
+  },
+  "punch": 4.7,
+  "stats": {
+    "potential": "B",
+    "power": "C",
+    "precision": "D",
+    "range": "E",
+    "speed": "C",
+    "stamina": "B"
+  },
+  "system": "jojorpg",
+  "weight": 5
+}

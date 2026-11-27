@@ -1,0 +1,17 @@
+{
+  "actions": [
+    {
+      "type": "animecore:manifest"
+    }
+  ],
+  "cast_animation": "animecore:cast_focus",
+  "cost": {
+    "pool": "jojorpg:stand"
+  },
+  "name": {
+    "fallback": "Judgement!",
+    "translate": "ability.jojorpg.judgement_manifest"
+  },
+  "system": "jojorpg",
+  "token": "jojorpg:stand"
+}

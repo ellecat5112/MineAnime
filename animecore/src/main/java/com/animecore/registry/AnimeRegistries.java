@@ -37,6 +37,7 @@ public final class AnimeRegistries {
 
     public static final RegistryKey<Registry<com.animecore.quest.QuestDefinition>> QUEST = RegistryKey.ofRegistry(Ids.core("quest"));
     public static final RegistryKey<Registry<com.animecore.quest.StoryNpcDefinition>> STORY_NPC = RegistryKey.ofRegistry(Ids.core("story_npc"));
+    public static final RegistryKey<Registry<com.animecore.manifestation.ManifestationDefinition>> MANIFESTATION = RegistryKey.ofRegistry(Ids.core("manifestation"));
     public static final RegistryKey<Registry<com.animecore.quest.StorySpawnDefinition>> STORY_SPAWN = RegistryKey.ofRegistry(Ids.core("story_spawn"));
 
     public static void init() {
@@ -49,6 +50,7 @@ public final class AnimeRegistries {
         DynamicRegistries.registerSynced(BACKGROUND, com.animecore.registry.definition.BackgroundDefinition.CODEC);
         DynamicRegistries.registerSynced(QUEST, com.animecore.quest.QuestDefinition.CODEC);
         DynamicRegistries.registerSynced(STORY_NPC, com.animecore.quest.StoryNpcDefinition.CODEC);
+        DynamicRegistries.registerSynced(MANIFESTATION, com.animecore.manifestation.ManifestationDefinition.CODEC);
         DynamicRegistries.register(STORY_SPAWN, com.animecore.quest.StorySpawnDefinition.CODEC);   // server-side only
     }
 
@@ -80,6 +82,10 @@ public final class AnimeRegistries {
 
     public static Optional<com.animecore.quest.StoryNpcDefinition> storyNpc(DynamicRegistryManager m, Identifier id) {
         return m.getOptional(STORY_NPC).flatMap(r -> r.getOrEmpty(id));
+    }
+
+    public static Optional<com.animecore.manifestation.ManifestationDefinition> manifestation(DynamicRegistryManager m, Identifier id) {
+        return m.getOptional(MANIFESTATION).flatMap(r -> r.getOrEmpty(id));
     }
 
     public static Registry<AffinityDefinition> affinities(DynamicRegistryManager m) {
